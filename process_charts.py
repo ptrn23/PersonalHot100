@@ -15,7 +15,7 @@ SALES_WEIGHT = 0.3
 AIRPLAY_WEIGHT = 0.2
 
 # List of artists to include in the output; "ALL" includes every artist
-INCLUDED_ARTISTS = ["LE SSERAFIM"]  # Replace with specific artist names to filter
+INCLUDED_ARTISTS = ["ALL"]  # Replace with specific artist names to filter
 # INCLUDED_ARTISTS = ["Loona", "LOOΠΔ 1/3", "LOOΠΔ / ODD EYE CIRCLE", "LOONA/yyxy"]
 
 weekly_data = defaultdict(list)
