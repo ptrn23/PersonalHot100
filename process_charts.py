@@ -17,7 +17,7 @@ input_file = 'plays/2024_plays_by_week.csv'
 output_file = 'charts/2024_charts.csv'
 colors_file = 'colors/2024_colors.txt'
 
-MAX_DEBUTS = 10
+MAX_DEBUTS = 25
 RETENTION_WEIGHTS = [0.5, 0.3, 0.2]
 CHART_LIMIT = 100
 FIRST_WEEK_DEBUT_LIMIT = 100
@@ -26,10 +26,13 @@ STREAMS_WEIGHT = 0.5
 SALES_WEIGHT = 0.3
 AIRPLAY_WEIGHT = 0.2
 
-INCLUDED_ARTISTS = ["Kelly Clarkson"]
-INCLUDED_ALBUMS = ["ALL"]
+INCLUDED_ARTISTS = ["Taylor Swift"]
+INCLUDED_ALBUMS = ["THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY"]
 # INCLUDED_ALBUMS = ["Fearless (Taylor's Version)", "Red (Taylor's Version)", "Speak Now (Taylor's Version)", "1989 (Taylor's Version)"]
 # INCLUDED_ARTISTS = ["Loona", "LOOΠΔ 1/3", "LOOΠΔ / ODD EYE CIRCLE", "LOONA/yyxy"]
+# INCLUDED_ARTISTS = ["Eraserheads", "Parokya ni Edgar", "December Avenue", "Rivermaya", "Kitchie Nadal", "Silent Sanctuary", "Gloc-9", "Callalily", "The Itchyworms", "Any Name's Okay", "BINI", "Maki"]
+
+GENERATE_COLORS = False
 
 weekly_data = defaultdict(list)
 
@@ -132,6 +135,8 @@ flourish_data = {
     for song, album, artist, _, _, _ in week_data
 }
 
+print(f"Chart data has been generated")
+
 weeks = [get_friday(week) for week, _ in ranked_weeks]
 
 for week_idx, (week, ranked_songs) in enumerate(ranked_weeks):
@@ -204,18 +209,19 @@ def rgb_to_hex(rgb):
     """Convert an RGB color to HEX format."""
     return f'#{rgb[0]:02x}{rgb[1]:02x}{rgb[2]:02x}'
 
-with open(colors_file, 'w', encoding='utf-8', newline='') as file:
-    for (song, artist), data in flourish_data.items():  # Iterate correctly with 'data' as part of the loop
-        album = data["album"]  # Get the associated album name
-        if ("ALL" in INCLUDED_ARTISTS or artist in INCLUDED_ARTISTS) and \
-           ("ALL" in INCLUDED_ALBUMS or album in INCLUDED_ALBUMS):
-            # print(f"Processing {song} by {artist}...")
-            album_cover_url = get_album_cover(album, artist)  # Pass the correct arguments for album cover
-            if album_cover_url:
-                dominant_color = get_dominant_color(album_cover_url)
-                hex_color = rgb_to_hex(dominant_color)
-                file.write(f"{song}: {hex_color}\n")
-            else:
-                file.write(f"{song}: #ffffff\n")
+if (GENERATE_COLORS):
+    with open(colors_file, 'w', encoding='utf-8', newline='') as file:
+        for (song, artist), data in flourish_data.items():  # Iterate correctly with 'data' as part of the loop
+            album = data["album"]  # Get the associated album name
+            if ("ALL" in INCLUDED_ARTISTS or artist in INCLUDED_ARTISTS) and \
+            ("ALL" in INCLUDED_ALBUMS or album in INCLUDED_ALBUMS):
+                # print(f"Processing {song} by {artist}...")
+                album_cover_url = get_album_cover(album, artist)  # Pass the correct arguments for album cover
+                if album_cover_url:
+                    dominant_color = get_dominant_color(album_cover_url)
+                    hex_color = rgb_to_hex(dominant_color)
+                    file.write(f"{song}: {hex_color}\n")
+                else:
+                    file.write(f"{song}: #ffffff\n")
 
-print(f"Colors file saved at {colors_file}")
+    print(f"Colors file saved at {colors_file}")

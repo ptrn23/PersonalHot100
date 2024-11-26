@@ -2,8 +2,8 @@ import csv
 from datetime import datetime, timedelta
 from collections import defaultdict
 
-input_file = 'data/2024.csv'
-output_file = 'plays/2024_plays_by_week.csv'
+input_file = 'data/2020.csv'
+output_file = 'plays/2020_plays_by_week.csv'
 
 def get_week_friday(date):
     # Week starts on Friday 00:00 AM
