@@ -3,12 +3,19 @@ from datetime import datetime, timedelta
 from collections import defaultdict
 
 import requests
-from key import API_KEY
+from key import API_KEY, API_SECRET
+
+import pylast
+from PIL import Image
+from io import BytesIO
+from collections import Counter
+from colorsys import rgb_to_hls
 
 BASE_URL = 'http://ws.audioscrobbler.com/2.0/'
 
 input_file = 'plays/2024_plays_by_week.csv'
 output_file = 'charts/2024_charts.csv'
+colors_file = 'colors/2024_colors.txt'
 
 MAX_DEBUTS = 10
 RETENTION_WEIGHTS = [0.5, 0.3, 0.2]
@@ -19,8 +26,9 @@ STREAMS_WEIGHT = 0.5
 SALES_WEIGHT = 0.3
 AIRPLAY_WEIGHT = 0.2
 
-# List of artists to include in the output; "ALL" includes every artist
-INCLUDED_ARTISTS = ["Kelly Clarkson"]  # Replace with specific artist names to filter
+INCLUDED_ARTISTS = ["Kelly Clarkson"]
+INCLUDED_ALBUMS = ["ALL"]
+# INCLUDED_ALBUMS = ["Fearless (Taylor's Version)", "Red (Taylor's Version)", "Speak Now (Taylor's Version)", "1989 (Taylor's Version)"]
 # INCLUDED_ARTISTS = ["Loona", "LOOΠΔ 1/3", "LOOΠΔ / ODD EYE CIRCLE", "LOONA/yyxy"]
 
 weekly_data = defaultdict(list)
@@ -34,7 +42,7 @@ with open(input_file, 'r', encoding='utf-8') as file:
         streams = int(streams)
         sales = int(sales)
         airplay = int(airplay)
-        weekly_data[week].append((song, artist, streams, sales, airplay))
+        weekly_data[week].append((song, album, artist, streams, sales, airplay))
 
 all_songs = {}
 song_history = defaultdict(lambda: [0, 0])
@@ -42,7 +50,7 @@ ranked_weeks = []
 
 for week_index, week in enumerate(sorted(weekly_data.keys())):
     weighted_scores = {}
-    for song, artist, streams, sales, airplay in weekly_data[week]:
+    for song, album, artist, streams, sales, airplay in weekly_data[week]:
         current_points = (
             STREAMS_WEIGHT * streams +
             SALES_WEIGHT * sales +
@@ -79,7 +87,7 @@ for week_index, week in enumerate(sorted(weekly_data.keys())):
     
     ranked_weeks.append((week, top_songs))
     
-    for song, artist, streams, sales, airplay in weekly_data[week]:
+    for song, album, artist, streams, sales, airplay in weekly_data[week]:
         current_points = (
             STREAMS_WEIGHT * streams +
             SALES_WEIGHT * sales +
@@ -100,39 +108,114 @@ all_songs_ranked = {
     for (song, artist), _ in ranked_songs
 }
 
-def get_album_cover(song_name, artist_name):
+def get_album_cover(album_name, artist_name):
     params = {
-        'method': 'track.getInfo',
+        'method': 'album.getInfo',
         'api_key': API_KEY,
         'artist': artist_name,
-        'track': song_name,
+        'album': album_name,
         'format': 'json'
     }
     response = requests.get(BASE_URL, params=params)
     data = response.json()
 
-    if 'track' in data and 'album' in data['track']:
-        album_cover_url = data['track']['album']['image'][-1]['#text']  # Largest image
-        return album_cover_url
-    else:
-        return ""
+    # Extract the largest image URL
+    if 'album' in data and 'image' in data['album']:
+        images = data['album']['image']
+        if images:
+            return images[-1]['#text']  # Largest image is usually the last one
+    return ""  # Fallback if no image is found
 
-flourish_data = {(song, artist): [""] * len(ranked_weeks) for (song, artist) in all_songs_ranked}
+flourish_data = {
+    (song, artist): {"positions": [""] * len(ranked_weeks), "album": album}
+    for week_data in weekly_data.values()
+    for song, album, artist, _, _, _ in week_data
+}
+
 weeks = [get_friday(week) for week, _ in ranked_weeks]
 
 for week_idx, (week, ranked_songs) in enumerate(ranked_weeks):
     for (song, artist), position in ranked_songs:
-        flourish_data[(song, artist)][week_idx] = position
+        flourish_data[(song, artist)]["positions"][week_idx] = position
 
 with open(output_file, 'w', encoding='utf-8', newline='') as file:
     writer = csv.writer(file)
     
-    # Write header: "Song Name", "Artist Name", "Image Link", "YYYY-MM-DD", "YYYY-MM-DD", ...
-    header = ["Song Name", "Artist Name", "Image Link"] + weeks
+    header = ["Song Name", "Artist Name", "Album Name", "Image Link"] + weeks
     writer.writerow(header)
     
-    for (song, artist), positions in flourish_data.items():
-        if "ALL" in INCLUDED_ARTISTS or artist in INCLUDED_ARTISTS:
-            writer.writerow([song, artist, get_album_cover(song, artist)] + positions)
+    for (song, artist), data in flourish_data.items():
+        album = data["album"]  # Get the associated album name
+        if ("ALL" in INCLUDED_ARTISTS or artist in INCLUDED_ARTISTS) and \
+        ("ALL" in INCLUDED_ALBUMS or album in INCLUDED_ALBUMS):
+            positions = data["positions"]
+            writer.writerow([song, artist, album, get_album_cover(album, artist)] + positions)
+
 
 print(f"Flourish-compatible chart data with artist filtering has been saved to {output_file}")
+
+network = pylast.LastFMNetwork(api_key=API_KEY, api_secret=API_SECRET)
+
+def get_dominant_color(image_url, brightness_threshold=100):
+    """
+    Fetch the most dominant and bright color of an image from a URL.
+
+    Args:
+    - image_url: URL of the image to process.
+    - brightness_threshold: Minimum brightness value for considering a color.
+
+    Returns:
+    - Tuple (R, G, B) of the most dominant bright color.
+    """
+    try:
+        # Fetch and load the image
+        response = requests.get(image_url)
+        image = Image.open(BytesIO(response.content))
+        image = image.convert("RGB")  # Ensure image is in RGB mode
+        pixels = list(image.getdata())  # Get all pixels as (R, G, B) tuples
+
+        # Count pixel occurrences
+        pixel_counts = Counter(pixels)
+
+        # Calculate weighted scores for colors
+        best_color = None
+        best_score = -1
+        for color, count in pixel_counts.items():
+            r, g, b = color
+            brightness = 0.2126 * r + 0.7152 * g + 0.0722 * b
+
+            # Ignore colors below the brightness threshold
+            if brightness < brightness_threshold:
+                continue
+
+            # Calculate a score combining brightness and frequency
+            score = count * (brightness / 255)
+            if score > best_score:
+                best_score = score
+                best_color = color
+
+        # Fallback in case no colors pass the threshold
+        return best_color if best_color else (255, 255, 255)
+    except Exception as e:
+        print(f'Error fetching bright and dominant color: {str(e)}')
+        return (255, 255, 255)  # Default to white on error
+
+def rgb_to_hex(rgb):
+    """Convert an RGB color to HEX format."""
+    return f'#{rgb[0]:02x}{rgb[1]:02x}{rgb[2]:02x}'
+
+with open(colors_file, 'w', encoding='utf-8', newline='') as file:
+    for (song, artist), data in flourish_data.items():  # Iterate correctly with 'data' as part of the loop
+        album = data["album"]  # Get the associated album name
+        if ("ALL" in INCLUDED_ARTISTS or artist in INCLUDED_ARTISTS) and \
+           ("ALL" in INCLUDED_ALBUMS or album in INCLUDED_ALBUMS):
+            # print(f"Processing {song} by {artist}...")
+            album_cover_url = get_album_cover(album, artist)  # Pass the correct arguments for album cover
+            if album_cover_url:
+                dominant_color = get_dominant_color(album_cover_url)
+                hex_color = rgb_to_hex(dominant_color)
+                file.write(f"{song}: {hex_color}\n")
+            else:
+                file.write(f"{song}: #ffffff\n")
+
+print(f"Colors file saved at {colors_file}")
