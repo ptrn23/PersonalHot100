@@ -2,6 +2,11 @@ import csv
 from datetime import datetime, timedelta
 from collections import defaultdict
 
+import requests
+from key import API_KEY
+
+BASE_URL = 'http://ws.audioscrobbler.com/2.0/'
+
 input_file = 'plays/2024_plays_by_week.csv'
 output_file = 'charts/2024_charts.csv'
 
@@ -15,7 +20,7 @@ SALES_WEIGHT = 0.3
 AIRPLAY_WEIGHT = 0.2
 
 # List of artists to include in the output; "ALL" includes every artist
-INCLUDED_ARTISTS = ["ALL"]  # Replace with specific artist names to filter
+INCLUDED_ARTISTS = ["Kelly Clarkson"]  # Replace with specific artist names to filter
 # INCLUDED_ARTISTS = ["Loona", "LOOΠΔ 1/3", "LOOΠΔ / ODD EYE CIRCLE", "LOONA/yyxy"]
 
 weekly_data = defaultdict(list)
@@ -25,7 +30,7 @@ with open(input_file, 'r', encoding='utf-8') as file:
     next(reader)
     
     for row in reader:
-        week, song, artist, streams, sales, airplay = row
+        week, song, album, artist, streams, sales, airplay = row
         streams = int(streams)
         sales = int(sales)
         airplay = int(airplay)
@@ -95,6 +100,23 @@ all_songs_ranked = {
     for (song, artist), _ in ranked_songs
 }
 
+def get_album_cover(song_name, artist_name):
+    params = {
+        'method': 'track.getInfo',
+        'api_key': API_KEY,
+        'artist': artist_name,
+        'track': song_name,
+        'format': 'json'
+    }
+    response = requests.get(BASE_URL, params=params)
+    data = response.json()
+
+    if 'track' in data and 'album' in data['track']:
+        album_cover_url = data['track']['album']['image'][-1]['#text']  # Largest image
+        return album_cover_url
+    else:
+        return ""
+
 flourish_data = {(song, artist): [""] * len(ranked_weeks) for (song, artist) in all_songs_ranked}
 weeks = [get_friday(week) for week, _ in ranked_weeks]
 
@@ -111,6 +133,6 @@ with open(output_file, 'w', encoding='utf-8', newline='') as file:
     
     for (song, artist), positions in flourish_data.items():
         if "ALL" in INCLUDED_ARTISTS or artist in INCLUDED_ARTISTS:
-            writer.writerow([song, artist, ""] + positions)
+            writer.writerow([song, artist, get_album_cover(song, artist)] + positions)
 
 print(f"Flourish-compatible chart data with artist filtering has been saved to {output_file}")

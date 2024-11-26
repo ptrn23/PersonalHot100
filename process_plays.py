@@ -30,6 +30,7 @@ with open(input_file, 'r', encoding='utf-8') as file:
     next(reader)
     
     previous_song = None
+    previous_album = None
     previous_artist = None
     previous_week = None
     ongoing_streak = defaultdict(int)
@@ -39,32 +40,33 @@ with open(input_file, 'r', encoding='utf-8') as file:
         date = datetime.strptime(timestamp, "%d %b %Y %H:%M")
         week_friday = get_week_friday(date)
         
-        artist_mapping[(song, artist)] = artist
+        artist_mapping[(song, album, artist)] = artist
         
-        song_data = weekly_data[week_friday][(song, artist)]
+        song_data = weekly_data[week_friday][(song, album, artist)]
         
         song_data["streams"] += 1
         
-        if previous_week != week_friday or previous_song != song or previous_artist != artist:
+        if previous_week != week_friday or previous_song != song or previous_album != album or previous_artist != artist:
             song_data["sales"] += 1
             
-            ongoing_streak[(previous_song, previous_artist)] = 0
+            ongoing_streak[(previous_song, previous_album, previous_artist)] = 0
         
-        ongoing_streak[(song, artist)] += 1
-        song_data["airplay"] = max(song_data["airplay"], ongoing_streak[(song, artist)])
+        ongoing_streak[(song, album, artist)] += 1
+        song_data["airplay"] = max(song_data["airplay"], ongoing_streak[(song, album, artist)])
         
         previous_song = song
+        previous_album = album
         previous_artist = artist
         previous_week = week_friday
 
 with open(output_file, 'w', encoding='utf-8', newline='') as file:
     writer = csv.writer(file)
     
-    writer.writerow(["Week", "Song Name", "Artist Name", "Streams", "Sales", "Airplay"])
+    writer.writerow(["Week", "Song Name", "Album Name", "Artist Name", "Streams", "Sales", "Airplay"])
     
     for week, songs in sorted(weekly_data.items()):
-        for (song, artist), data in songs.items():
+        for (song, album, artist), data in songs.items():
             # Write the row
-            writer.writerow([week.strftime("%Y-%m-%d"), song, artist, data["streams"], data["sales"], data["airplay"]])
+            writer.writerow([week.strftime("%Y-%m-%d"), song, album, artist, data["streams"], data["sales"], data["airplay"]])
 
 print(f"Weekly data with updated metrics and artist names has been saved to {output_file}")
