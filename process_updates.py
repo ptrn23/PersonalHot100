@@ -1,12 +1,14 @@
 import csv
+from math import ceil
 from datetime import datetime, timedelta
 from collections import defaultdict
 
 input_file = 'plays/2024_plays_by_week.csv'
 updates_file = 'updates/2024.txt'
+yearly_csv_file = 'updates/2024.csv'
 
 MAX_DEBUTS = 10
-RETENTION_WEIGHTS = [0.5, 0.3, 0.2]
+RETENTION_WEIGHTS = [1, 0.3, 0.2]
 CHART_LIMIT = 100
 FIRST_WEEK_DEBUT_LIMIT = 100
 
@@ -25,7 +27,7 @@ with open(input_file, 'r', encoding='utf-8') as file:
     next(reader)
     
     for row in reader:
-        week, song, artist, streams, sales, airplay = row
+        week, song, album, artist, streams, sales, airplay = row
         streams = int(streams)
         sales = int(sales)
         airplay = int(airplay)
@@ -58,8 +60,8 @@ for week_index, week in enumerate(sorted(weekly_data.keys())):
             AIRPLAY_WEIGHT * airplay
         )
         
-        previous_points = song_history[(song, artist)][0]
-        two_weeks_ago_points = song_history[(song, artist)][1]
+        previous_points = song_history[(song, artist)][1]
+        two_weeks_ago_points = song_history[(song, artist)][2]
         
         weighted_points = (
             RETENTION_WEIGHTS[0] * current_points +
@@ -67,8 +69,9 @@ for week_index, week in enumerate(sorted(weekly_data.keys())):
             RETENTION_WEIGHTS[2] * two_weeks_ago_points
         )
         
-        weighted_scores[(song, artist)] = weighted_points
+        weighted_scores[(song, artist)] = ceil(weighted_points / 1000)
         song_history[(song, artist)] = [current_points, song_history[(song, artist)][0], song_history[(song, artist)][1]]
+        # print(song, song_history[(song, artist)])
 
     sorted_songs = sorted(weighted_scores.items(), key=lambda x: x[1], reverse=True)
 
@@ -120,5 +123,59 @@ with open(updates_file, 'w', encoding='utf-8') as updates:
                 updates.write(f"#{rank} ({status}): {song} — {artist}\n")
         
         updates.write("\n" + ("-" * 40) + "\n\n")
+        
+def generate_yearly_csv():
+    """Generates a CSV file summarizing the weekly data into yearly format with detailed points breakdown."""
+    with open(yearly_csv_file, 'w', newline='', encoding='utf-8') as csvfile:
+        csvwriter = csv.writer(csvfile)
+        csvwriter.writerow([
+            'Week', 'Position', 'Rise/Fall', 'Song', 'Artist', 'Album',
+            'Total Points', 'Streams Points', 'Sales Points', 'Airplay Points'
+        ])
+        
+        for week_idx, (week, ranked_songs) in enumerate(ranked_weeks):
+            for rank, ((song, artist), position) in enumerate(ranked_songs, start=1):
+                current_week_data = next(
+                    ((s, a, streams, sales, airplay) for s, a, streams, sales, airplay in weekly_data[week] if s == song and a == artist),
+                    (None, None, 0, 0, 0)
+                )
+                streams_points = STREAMS_WEIGHT * current_week_data[2]
+                sales_points = SALES_WEIGHT * current_week_data[3]
+                airplay_points = AIRPLAY_WEIGHT * current_week_data[4]
 
-print(f"Weekly updates with points and return statuses have been saved to {updates_file}")
+                total_points = ceil((
+                    streams_points + sales_points + airplay_points
+                ) / 1000)
+                
+                album = next(
+                    (album for s, album, _, _, _ in weekly_data[week] if s == song),
+                    "Unknown"
+                )
+                
+                if week_idx == 0:
+                    rise_fall = "NEW"
+                else:
+                    prev_week_positions = {
+                        (s, a): pos for (s, a), pos in ranked_weeks[week_idx - 1][1]
+                    }
+                    if (song, artist) not in prev_week_positions:
+                        if (song, artist) not in ever_charted_songs:
+                            rise_fall = "NEW"
+                        else:
+                            rise_fall = "RE"
+                    elif prev_week_positions[(song, artist)] > position:
+                        rise_fall = f"+{prev_week_positions[(song, artist)] - position}"
+                    elif prev_week_positions[(song, artist)] < position:
+                        rise_fall = f"-{position - prev_week_positions[(song, artist)]}"
+                    else:
+                        rise_fall = "="
+                
+                csvwriter.writerow([
+                    week, position, rise_fall, song, artist, album,
+                    total_points, f"{ceil(streams_points / 1000)}k", f"{ceil(sales_points / 1000)}k", f"{ceil(airplay_points / 1000)}k"
+                ])
+
+
+generate_yearly_csv()        
+
+print(f"Weekly updates with points and return statuses have been saved to {updates_file} and {yearly_csv_file}")

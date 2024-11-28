@@ -9,7 +9,6 @@ import pylast
 from PIL import Image
 from io import BytesIO
 from collections import Counter
-from colorsys import rgb_to_hls
 
 BASE_URL = 'http://ws.audioscrobbler.com/2.0/'
 
@@ -122,12 +121,11 @@ def get_album_cover(album_name, artist_name):
     response = requests.get(BASE_URL, params=params)
     data = response.json()
 
-    # Extract the largest image URL
     if 'album' in data and 'image' in data['album']:
         images = data['album']['image']
         if images:
-            return images[-1]['#text']  # Largest image is usually the last one
-    return ""  # Fallback if no image is found
+            return images[-1]['#text']
+    return ""
 
 flourish_data = {
     (song, artist): {"positions": [""] * len(ranked_weeks), "album": album}
@@ -150,7 +148,7 @@ with open(output_file, 'w', encoding='utf-8', newline='') as file:
     writer.writerow(header)
     
     for (song, artist), data in flourish_data.items():
-        album = data["album"]  # Get the associated album name
+        album = data["album"]
         if ("ALL" in INCLUDED_ARTISTS or artist in INCLUDED_ARTISTS) and \
         ("ALL" in INCLUDED_ALBUMS or album in INCLUDED_ALBUMS):
             positions = data["positions"]
@@ -173,37 +171,31 @@ def get_dominant_color(image_url, brightness_threshold=100):
     - Tuple (R, G, B) of the most dominant bright color.
     """
     try:
-        # Fetch and load the image
         response = requests.get(image_url)
         image = Image.open(BytesIO(response.content))
-        image = image.convert("RGB")  # Ensure image is in RGB mode
-        pixels = list(image.getdata())  # Get all pixels as (R, G, B) tuples
+        image = image.convert("RGB")
+        pixels = list(image.getdata())
 
-        # Count pixel occurrences
         pixel_counts = Counter(pixels)
 
-        # Calculate weighted scores for colors
         best_color = None
         best_score = -1
         for color, count in pixel_counts.items():
             r, g, b = color
             brightness = 0.2126 * r + 0.7152 * g + 0.0722 * b
 
-            # Ignore colors below the brightness threshold
             if brightness < brightness_threshold:
                 continue
-
-            # Calculate a score combining brightness and frequency
+            
             score = count * (brightness / 255)
             if score > best_score:
                 best_score = score
                 best_color = color
-
-        # Fallback in case no colors pass the threshold
+        
         return best_color if best_color else (255, 255, 255)
     except Exception as e:
         print(f'Error fetching bright and dominant color: {str(e)}')
-        return (255, 255, 255)  # Default to white on error
+        return (255, 255, 255)
 
 def rgb_to_hex(rgb):
     """Convert an RGB color to HEX format."""
@@ -211,12 +203,12 @@ def rgb_to_hex(rgb):
 
 if (GENERATE_COLORS):
     with open(colors_file, 'w', encoding='utf-8', newline='') as file:
-        for (song, artist), data in flourish_data.items():  # Iterate correctly with 'data' as part of the loop
-            album = data["album"]  # Get the associated album name
+        for (song, artist), data in flourish_data.items():
+            album = data["album"]
             if ("ALL" in INCLUDED_ARTISTS or artist in INCLUDED_ARTISTS) and \
             ("ALL" in INCLUDED_ALBUMS or album in INCLUDED_ALBUMS):
                 # print(f"Processing {song} by {artist}...")
-                album_cover_url = get_album_cover(album, artist)  # Pass the correct arguments for album cover
+                album_cover_url = get_album_cover(album, artist)
                 if album_cover_url:
                     dominant_color = get_dominant_color(album_cover_url)
                     hex_color = rgb_to_hex(dominant_color)

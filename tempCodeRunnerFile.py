@@ -1,1 +1,1 @@
-ever_charted_songs
+defaultdict(lambda: [0, 0, 0])
