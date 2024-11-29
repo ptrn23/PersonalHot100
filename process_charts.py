@@ -1,4 +1,5 @@
 import csv
+from math import ceil
 from datetime import datetime, timedelta
 from collections import defaultdict
 
@@ -17,13 +18,13 @@ output_file = 'charts/2024_charts.csv'
 colors_file = 'colors/2024_colors.txt'
 
 MAX_DEBUTS = 25
-RETENTION_WEIGHTS = [0.5, 0.3, 0.2]
+RETENTION_WEIGHTS = [1, 0.3, 0.2]
 CHART_LIMIT = 100
 FIRST_WEEK_DEBUT_LIMIT = 100
 
-STREAMS_WEIGHT = 0.5
-SALES_WEIGHT = 0.3
-AIRPLAY_WEIGHT = 0.2
+STREAMS_WEIGHT = 5000
+SALES_WEIGHT = 3000
+AIRPLAY_WEIGHT = 2000
 
 INCLUDED_ARTISTS = ["Taylor Swift"]
 INCLUDED_ALBUMS = ["THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY"]
@@ -47,55 +48,61 @@ with open(input_file, 'r', encoding='utf-8') as file:
         weekly_data[week].append((song, album, artist, streams, sales, airplay))
 
 all_songs = {}
-song_history = defaultdict(lambda: [0, 0])
+song_history = defaultdict(lambda: [0, 0, 0])
 ranked_weeks = []
+weekly_points = defaultdict(float)
+ever_charted_songs = set()
 
 for week_index, week in enumerate(sorted(weekly_data.keys())):
     weighted_scores = {}
+    
     for song, album, artist, streams, sales, airplay in weekly_data[week]:
-        current_points = (
+        current_points = ceil((
             STREAMS_WEIGHT * streams +
             SALES_WEIGHT * sales +
             AIRPLAY_WEIGHT * airplay
-        )
-        previous_points = song_history[song][0]
-        two_weeks_ago_points = song_history[song][1]
+        ) / 1000)
         
-        weighted_points = (
+        previous_points = 0
+        two_weeks_ago_points = 0
+
+        if week_index > 0:
+            previous_week_songs = {entry[0]: entry[2] for entry in ranked_weeks[week_index - 1][1]}
+            if (song, artist) in previous_week_songs:
+                previous_points = previous_week_songs[(song, artist)]
+
+        if week_index > 1:
+            two_weeks_ago_songs = {entry[0]: entry[2] for entry in ranked_weeks[week_index - 2][1]}
+            if (song, artist) in two_weeks_ago_songs:
+                two_weeks_ago_points = two_weeks_ago_songs[(song, artist)]
+
+        weighted_points = ceil((
             RETENTION_WEIGHTS[0] * current_points +
             RETENTION_WEIGHTS[1] * previous_points +
             RETENTION_WEIGHTS[2] * two_weeks_ago_points
-        )
-        weighted_scores[(song, artist)] = weighted_points
+        ))
 
+        weighted_scores[(song, artist)] = weighted_points
+        
     sorted_songs = sorted(weighted_scores.items(), key=lambda x: x[1], reverse=True)
-    
-    debuts = [(song_artist, points) for song_artist, points in sorted_songs if song_artist[0] not in all_songs]
-    returning = [(song_artist, points) for song_artist, points in sorted_songs if song_artist[0] in all_songs]
-    
+
+    debuts = [(song_artist, points) for song_artist, points in sorted_songs if song_artist not in ever_charted_songs]
+    returning = [(song_artist, points) for song_artist, points in sorted_songs if song_artist in ever_charted_songs]
+
     if week_index == 0:
         limited_debuts = debuts[:FIRST_WEEK_DEBUT_LIMIT]
     else:
         limited_debuts = debuts[:MAX_DEBUTS]
-    
-    all_songs.update({song: artist for (song, artist), _ in limited_debuts})
-    
+
+    ever_charted_songs.update({(song, artist) for (song, artist), _ in limited_debuts})
+
     ranked_songs = limited_debuts + returning
     ranked_songs.sort(key=lambda x: x[1], reverse=True)
-    
+
     top_songs = ranked_songs[:CHART_LIMIT]
-    overflow_songs = ranked_songs[CHART_LIMIT:]
-    top_songs = [((song, artist), rank + 1) for rank, ((song, artist), _) in enumerate(top_songs)]
-    
+    top_songs = [((song, artist), rank + 1, points) for rank, ((song, artist), points) in enumerate(top_songs)]
+
     ranked_weeks.append((week, top_songs))
-    
-    for song, album, artist, streams, sales, airplay in weekly_data[week]:
-        current_points = (
-            STREAMS_WEIGHT * streams +
-            SALES_WEIGHT * sales +
-            AIRPLAY_WEIGHT * airplay
-        )
-        song_history[song] = [current_points, song_history[song][0]]
 
 def get_friday(date_str):
     """Takes a date string (YYYY-MM-DD) and returns the Friday of that week."""
@@ -107,7 +114,7 @@ def get_friday(date_str):
 all_songs_ranked = {
     (song, artist)
     for _, ranked_songs in ranked_weeks
-    for (song, artist), _ in ranked_songs
+    for (song, artist), _, _ in ranked_songs
 }
 
 def get_album_cover(album_name, artist_name):
@@ -138,7 +145,7 @@ print(f"Chart data has been generated")
 weeks = [get_friday(week) for week, _ in ranked_weeks]
 
 for week_idx, (week, ranked_songs) in enumerate(ranked_weeks):
-    for (song, artist), position in ranked_songs:
+    for (song, artist), position, points in ranked_songs:
         flourish_data[(song, artist)]["positions"][week_idx] = position
 
 with open(output_file, 'w', encoding='utf-8', newline='') as file:
