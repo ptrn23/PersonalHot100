@@ -26,13 +26,17 @@ STREAMS_WEIGHT = 5000
 SALES_WEIGHT = 3000
 AIRPLAY_WEIGHT = 2000
 
-INCLUDED_ARTISTS = ["Taylor Swift"]
-INCLUDED_ALBUMS = ["THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY"]
+INCLUDED_ARTISTS = ["Eraserheads", "Parokya ni Edgar", "December Avenue", "Rivermaya", "Kitchie Nadal", "Silent Sanctuary", "Gloc-9", "Callalily", "The Itchyworms", "Any Name's Okay", "BINI", "Maki"]
+INCLUDED_ALBUMS = ["ALL"]
+
 # INCLUDED_ALBUMS = ["Fearless (Taylor's Version)", "Red (Taylor's Version)", "Speak Now (Taylor's Version)", "1989 (Taylor's Version)"]
+# INCLUDED_ARTISTS = ["IVE", "LE SSERAFIM", "NewJeans", "ARTMS", "ITZY", "NMIXX", "aespa"]
 # INCLUDED_ARTISTS = ["Loona", "LOOΠΔ 1/3", "LOOΠΔ / ODD EYE CIRCLE", "LOONA/yyxy"]
 # INCLUDED_ARTISTS = ["Eraserheads", "Parokya ni Edgar", "December Avenue", "Rivermaya", "Kitchie Nadal", "Silent Sanctuary", "Gloc-9", "Callalily", "The Itchyworms", "Any Name's Okay", "BINI", "Maki"]
+# INCLUDED_ARTISTS = ["Ariana Grande", "Olivia Rodrigo", "Beyoncé", "Katy Perry", "Dua Lipa", "Selena Gomez", "Sabrina Carpenter", "Billie Eilish"]
+# INCLUDED_ARTISTS = ["Britney Spears", "Kelly Clarkson", "Vanessa Carlton", "Avril Lavigne", "Mariah Carey", "Fergie", "Whitney Houston", "Spice Girls", "Nelly Furtado", "Madonna"]
 
-GENERATE_COLORS = False
+GENERATE_COLORS = True
 
 weekly_data = defaultdict(list)
 
@@ -48,7 +52,6 @@ with open(input_file, 'r', encoding='utf-8') as file:
         weekly_data[week].append((song, album, artist, streams, sales, airplay))
 
 all_songs = {}
-song_history = defaultdict(lambda: [0, 0, 0])
 ranked_weeks = []
 weekly_points = defaultdict(float)
 ever_charted_songs = set()
