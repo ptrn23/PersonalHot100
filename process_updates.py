@@ -3,14 +3,21 @@ from math import ceil
 from datetime import datetime, timedelta
 from collections import defaultdict
 
+import requests
+import pylast
+from key import API_KEY, API_SECRET
+
 input_file = 'plays/2024_plays_by_week.csv'
 updates_file = 'updates/2024.txt'
 yearly_csv_file = 'updates/2024.csv'
+
+BASE_URL = 'http://ws.audioscrobbler.com/2.0/'
 
 MAX_DEBUTS = 25
 RETENTION_WEIGHTS = [1, 0.3, 0.2]
 CHART_LIMIT = 100
 FIRST_WEEK_DEBUT_LIMIT = 100
+YEAR_END_LIMIT = 100
 
 STREAMS_WEIGHT = 5000
 SALES_WEIGHT = 3000
@@ -36,7 +43,7 @@ with open(input_file, 'r', encoding='utf-8') as file:
         woc = 0
         weekly_data[week].append((song, album, artist, streams, sales, airplay, peak, woc))
 
-all_songs = defaultdict(lambda: {"total_points": 0, "peak": CHART_LIMIT + 1, "woc": 0})
+all_songs = defaultdict(lambda: {"album": "", "total_points": 0, "peak": CHART_LIMIT + 1, "woc": 0, "total_units": 0, "total_airplay": 0, "gain": 0})
 ranked_weeks = []
 weekly_points = defaultdict(float)
 ever_charted_songs = set()
@@ -74,6 +81,25 @@ def get_past_points(week_idx, song, artist, ranked_weeks):
 
     return previous_points, two_weeks_ago_points
 
+network = pylast.LastFMNetwork(api_key=API_KEY, api_secret=API_SECRET)
+
+def get_album_cover(album_name, artist_name):
+    params = {
+        'method': 'album.getInfo',
+        'api_key': API_KEY,
+        'artist': artist_name,
+        'album': album_name,
+        'format': 'json'
+    }
+    response = requests.get(BASE_URL, params=params)
+    data = response.json()
+
+    if 'album' in data and 'image' in data['album']:
+        images = data['album']['image']
+        if images:
+            return images[-1]['#text']
+    return ""
+
 for week_index, week in enumerate(sorted(weekly_data.keys())):
     weighted_scores = {}
 
@@ -84,6 +110,10 @@ for week_index, week in enumerate(sorted(weekly_data.keys())):
         weighted_points = calculate_weighted_points(current_points, previous_points, two_weeks_ago_points)
         weighted_scores[(song, artist)] = weighted_points
         all_songs[(song, artist)]["total_points"] += weighted_points
+        all_songs[(song, artist)]["total_units"] += current_points
+        all_songs[(song, artist)]["total_airplay"] += airplay
+        all_songs[(song, artist)]["album"] = album
+        all_songs[(song, artist)]["gain"] = weighted_points
 
     sorted_songs = sorted(weighted_scores.items(), key=lambda x: x[1], reverse=True)
 
@@ -201,29 +231,33 @@ with open(yearly_csv_file, 'w', newline='', encoding='utf-8') as csvfile:
 print(f"Weekly updates with points and return statuses have been saved to {updates_file} and {yearly_csv_file}")
 
 def generate_year_end_csv(year, all_songs):
-    # Prepare the data to be written to the CSV
     year_end_data = []
     for (song, artist), data in all_songs.items():
         year_end_data.append({
             'Song': song,
             'Artist': artist,
+            'Album Cover': data['album'],
             'Total Points': data['total_points'],
             'Peak': data['peak'],
-            'Weeks on Chart': data['woc']
+            'Weeks on Chart': data['woc'],
+            'Total Units': data['total_units'],
+            'Total Airplay': data['total_airplay'] * 10,
+            'Gain': data['gain']
         })
-
-    # Sort by Total Points in descending order
+    
     year_end_data.sort(key=lambda x: x['Total Points'], reverse=True)
+    year_end_data = year_end_data[:YEAR_END_LIMIT]
+    
+    for data in year_end_data:
+        data['Album Cover'] = get_album_cover(data['Album Cover'], data['Artist'])
 
-    # Writing to the <year>_year_end.csv file
     year_end_csv_file = f"year_end/{year}_year_end.csv"
     with open(year_end_csv_file, 'w', newline='', encoding='utf-8') as csvfile:
-        csvwriter = csv.DictWriter(csvfile, fieldnames=['Song', 'Artist', 'Total Points', 'Peak', 'Weeks on Chart'])
+        csvwriter = csv.DictWriter(csvfile, fieldnames=['Song', 'Artist', 'Album Cover', 'Total Points', 'Peak', 'Weeks on Chart', 'Total Units', 'Total Airplay', 'Gain'])
         csvwriter.writeheader()  # Write the header
         csvwriter.writerows(year_end_data)  # Write the sorted data
 
     print(f"Year-end CSV for {year} has been saved to {year_end_csv_file}")
 
-# Assuming `all_songs` already contains the necessary data and you have the year (e.g., 2024)
 year = 2024
 generate_year_end_csv(year, all_songs)
