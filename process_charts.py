@@ -2,11 +2,12 @@ import csv
 from math import ceil
 from datetime import datetime, timedelta
 from collections import defaultdict
-
-import requests
 from key import API_KEY, API_SECRET
 
+import requests
 import pylast
+import colorsys
+
 from PIL import Image
 from io import BytesIO
 from collections import Counter
@@ -26,7 +27,7 @@ STREAMS_WEIGHT = 5000
 SALES_WEIGHT = 3000
 AIRPLAY_WEIGHT = 2000
 
-INCLUDED_ARTISTS = ["Eraserheads", "Parokya ni Edgar", "December Avenue", "Rivermaya", "Kitchie Nadal", "Silent Sanctuary", "Gloc-9", "Callalily", "The Itchyworms", "Any Name's Okay", "BINI", "Maki"]
+INCLUDED_ARTISTS = ["Kelly Clarkson"]
 INCLUDED_ALBUMS = ["ALL"]
 
 # INCLUDED_ALBUMS = ["Fearless (Taylor's Version)", "Red (Taylor's Version)", "Speak Now (Taylor's Version)", "1989 (Taylor's Version)"]
@@ -36,6 +37,7 @@ INCLUDED_ALBUMS = ["ALL"]
 # INCLUDED_ARTISTS = ["Ariana Grande", "Olivia Rodrigo", "Beyoncé", "Katy Perry", "Dua Lipa", "Selena Gomez", "Sabrina Carpenter", "Billie Eilish"]
 # INCLUDED_ARTISTS = ["Britney Spears", "Kelly Clarkson", "Vanessa Carlton", "Avril Lavigne", "Mariah Carey", "Fergie", "Whitney Houston", "Spice Girls", "Nelly Furtado", "Madonna"]
 
+GENERATE_CHARTS = True
 GENERATE_COLORS = True
 
 weekly_data = defaultdict(list)
@@ -145,40 +147,42 @@ flourish_data = {
 
 print(f"Chart data has been generated")
 
-weeks = [get_friday(week) for week, _ in ranked_weeks]
+if GENERATE_CHARTS:
+    weeks = [get_friday(week) for week, _ in ranked_weeks]
 
-for week_idx, (week, ranked_songs) in enumerate(ranked_weeks):
-    for (song, artist), position, points in ranked_songs:
-        flourish_data[(song, artist)]["positions"][week_idx] = position
+    for week_idx, (week, ranked_songs) in enumerate(ranked_weeks):
+        for (song, artist), position, points in ranked_songs:
+            flourish_data[(song, artist)]["positions"][week_idx] = position
 
-with open(output_file, 'w', encoding='utf-8', newline='') as file:
-    writer = csv.writer(file)
-    
-    header = ["Song Name", "Artist Name", "Album Name", "Image Link"] + weeks
-    writer.writerow(header)
-    
-    for (song, artist), data in flourish_data.items():
-        album = data["album"]
-        if ("ALL" in INCLUDED_ARTISTS or artist in INCLUDED_ARTISTS) and \
-        ("ALL" in INCLUDED_ALBUMS or album in INCLUDED_ALBUMS):
-            positions = data["positions"]
-            writer.writerow([song, artist, album, get_album_cover(album, artist)] + positions)
+    with open(output_file, 'w', encoding='utf-8', newline='') as file:
+        writer = csv.writer(file)
+        
+        header = ["Song Name", "Artist Name", "Album Name", "Image Link"] + weeks
+        writer.writerow(header)
+        
+        for (song, artist), data in flourish_data.items():
+            album = data["album"]
+            if ("ALL" in INCLUDED_ARTISTS or artist in INCLUDED_ARTISTS) and \
+            ("ALL" in INCLUDED_ALBUMS or album in INCLUDED_ALBUMS):
+                positions = data["positions"]
+                writer.writerow([song, artist, album, get_album_cover(album, artist)] + positions)
 
 
-print(f"Flourish-compatible chart data with artist filtering has been saved to {output_file}")
+    print(f"Flourish-compatible chart data with artist filtering has been saved to {output_file}")
 
 network = pylast.LastFMNetwork(api_key=API_KEY, api_secret=API_SECRET)
 
-def get_dominant_color(image_url, brightness_threshold=100):
+def get_dominant_color(image_url, brightness_min = 75, brightness_max = 175, saturation_threshold = 0.15):
     """
-    Fetch the most dominant and bright color of an image from a URL.
+    Fetch the most dominant bright hue of an image from a URL, avoiding white and dark colors.
 
     Args:
     - image_url: URL of the image to process.
-    - brightness_threshold: Minimum brightness value for considering a color.
+    - brightness_threshold: Minimum brightness value for considering a color (0-255).
+    - saturation_threshold: Minimum saturation value for considering a color (0-1).
 
     Returns:
-    - Tuple (R, G, B) of the most dominant bright color.
+    - Tuple (R, G, B) of the most dominant bright hue.
     """
     try:
         response = requests.get(image_url)
@@ -190,40 +194,54 @@ def get_dominant_color(image_url, brightness_threshold=100):
 
         best_color = None
         best_score = -1
+
         for color, count in pixel_counts.items():
             r, g, b = color
-            brightness = 0.2126 * r + 0.7152 * g + 0.0722 * b
+            h, l, s = colorsys.rgb_to_hls(r / 255.0, g / 255.0, b / 255.0)
 
-            if brightness < brightness_threshold:
+            brightness = l * 255
+            if not (brightness_min < brightness < brightness_max):
                 continue
             
-            score = count * (brightness / 255)
+            if s < saturation_threshold:
+                continue
+            
+            score = count * s * (brightness / 255)
             if score > best_score:
                 best_score = score
                 best_color = color
-        
+
+        # Fallback to a default bright color if no suitable color is found
         return best_color if best_color else (255, 255, 255)
+    
     except Exception as e:
-        print(f'Error fetching bright and dominant color: {str(e)}')
+        print(f'Error fetching bright and dominant hue: {str(e)}')
         return (255, 255, 255)
 
 def rgb_to_hex(rgb):
     """Convert an RGB color to HEX format."""
     return f'#{rgb[0]:02x}{rgb[1]:02x}{rgb[2]:02x}'
 
-if (GENERATE_COLORS):
+if GENERATE_COLORS:
+    album_color_cache = {}
+    
     with open(colors_file, 'w', encoding='utf-8', newline='') as file:
         for (song, artist), data in flourish_data.items():
             album = data["album"]
+            
             if ("ALL" in INCLUDED_ARTISTS or artist in INCLUDED_ARTISTS) and \
             ("ALL" in INCLUDED_ALBUMS or album in INCLUDED_ALBUMS):
-                # print(f"Processing {song} by {artist}...")
-                album_cover_url = get_album_cover(album, artist)
-                if album_cover_url:
-                    dominant_color = get_dominant_color(album_cover_url)
-                    hex_color = rgb_to_hex(dominant_color)
-                    file.write(f"{song}: {hex_color}\n")
+                if album in album_color_cache:
+                    hex_color = album_color_cache[album]
                 else:
-                    file.write(f"{song}: #ffffff\n")
+                    album_cover_url = get_album_cover(album, artist)
+                    if album_cover_url:
+                        dominant_color = get_dominant_color(album_cover_url)
+                        hex_color = rgb_to_hex(dominant_color)
+                        album_color_cache[album] = hex_color
+                    else:
+                        hex_color = "#ffffff"
+                
+                file.write(f"{song}: {hex_color}\n")
 
     print(f"Colors file saved at {colors_file}")
