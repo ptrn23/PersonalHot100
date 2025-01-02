@@ -24,8 +24,8 @@ SALES_WEIGHT = 3000
 AIRPLAY_WEIGHT = 2000
 
 # List of artists to include in the output; "ALL" includes every artist
-INCLUDED_ARTISTS = ["Green Day"]  # Replace with specific artist names to filter
-INCLUDED_ALBUMS = ["American Idiot"]
+INCLUDED_ARTISTS = ["ALL"]  # Replace with specific artist names to filter
+INCLUDED_ALBUMS = ["ALL"]
 INCLUDED_TRACKS = ["ALL"]
 
 weekly_data = defaultdict(list)

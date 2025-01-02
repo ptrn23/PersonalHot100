@@ -27,7 +27,7 @@ STREAMS_WEIGHT = 5000
 SALES_WEIGHT = 3000
 AIRPLAY_WEIGHT = 2000
 
-INCLUDED_ARTISTS = ["Kelly Clarkson"]
+INCLUDED_ARTISTS = ["Green Day"]
 INCLUDED_ALBUMS = ["ALL"]
 
 # INCLUDED_ALBUMS = ["Fearless (Taylor's Version)", "Red (Taylor's Version)", "Speak Now (Taylor's Version)", "1989 (Taylor's Version)"]
@@ -36,6 +36,7 @@ INCLUDED_ALBUMS = ["ALL"]
 # INCLUDED_ARTISTS = ["Eraserheads", "Parokya ni Edgar", "December Avenue", "Rivermaya", "Kitchie Nadal", "Silent Sanctuary", "Gloc-9", "Callalily", "The Itchyworms", "Any Name's Okay", "BINI", "Maki"]
 # INCLUDED_ARTISTS = ["Ariana Grande", "Olivia Rodrigo", "Beyoncé", "Katy Perry", "Dua Lipa", "Selena Gomez", "Sabrina Carpenter", "Billie Eilish"]
 # INCLUDED_ARTISTS = ["Britney Spears", "Kelly Clarkson", "Vanessa Carlton", "Avril Lavigne", "Mariah Carey", "Fergie", "Whitney Houston", "Spice Girls", "Nelly Furtado", "Madonna"]
+# INCLUDED_ARTISTS = ["Fourth", "Gemini", "Ford Arun", "Pond Naravit", "Aou Thanaboon", "Winny Thanawin", "Phuwin", "Marc Natarit", "KRIST", "Fluke Gawin"]
 
 GENERATE_CHARTS = True
 GENERATE_COLORS = True
