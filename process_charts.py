@@ -14,9 +14,9 @@ from collections import Counter
 
 BASE_URL = 'http://ws.audioscrobbler.com/2.0/'
 
-input_file = 'plays/2024_plays_by_week.csv'
-output_file = 'charts/2024_charts.csv'
-colors_file = 'colors/2024_colors.txt'
+input_file = 'plays/2025_plays_by_week.csv'
+output_file = 'charts/2025_charts.csv'
+colors_file = 'colors/2025_colors.txt'
 
 MAX_DEBUTS = 25
 RETENTION_WEIGHTS = [1, 0.3, 0.2]

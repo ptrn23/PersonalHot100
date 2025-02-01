@@ -7,9 +7,9 @@ import requests
 import pylast
 from key import API_KEY, API_SECRET
 
-input_file = 'plays/2024_plays_by_week.csv'
-updates_file = 'updates/2024.txt'
-yearly_csv_file = 'updates/2024.csv'
+input_file = 'plays/2025_plays_by_week.csv'
+updates_file = 'updates/2025.txt'
+yearly_csv_file = 'updates/2025.csv'
 
 BASE_URL = 'http://ws.audioscrobbler.com/2.0/'
 
