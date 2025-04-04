@@ -259,5 +259,5 @@ def generate_year_end_csv(year, all_songs):
 
     print(f"Year-end CSV for {year} has been saved to {year_end_csv_file}")
 
-year = 2024
+year = 2025
 generate_year_end_csv(year, all_songs)

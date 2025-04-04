@@ -27,7 +27,7 @@ STREAMS_WEIGHT = 5000
 SALES_WEIGHT = 3000
 AIRPLAY_WEIGHT = 2000
 
-INCLUDED_ARTISTS = ["Matchbox Twenty"]
+INCLUDED_ARTISTS = ["Green Day"]
 INCLUDED_ALBUMS = ["ALL"]
 
 # INCLUDED_ALBUMS = ["Fearless (Taylor's Version)", "Red (Taylor's Version)", "Speak Now (Taylor's Version)", "1989 (Taylor's Version)"]
