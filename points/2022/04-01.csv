@@ -7,10 +7,10 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2022-04-01,6,=,6,131,In My Dreams,Red Velvet,‘The ReVe Festival 2022 - Feel My Rhythm’,13,9,3,65,27,6,98,33,0,6,2
 2022-04-01,7,+2,9,123,Butterfly,WJSN,Neverland,10,10,1,50,30,2,82,30,11,3,7
 2022-04-01,8,-1,7,123,Secret,WJSN,The Secret,9,8,2,45,24,4,73,31,19,7,9
-2022-04-01,9,-4,5,118,Zig Zag,Weeekly,We can,4,4,1,20,12,2,34,34,50,1,4
-2022-04-01,10,RE,,117,My Headphones On,TWICE,PAGE TWO,15,10,6,75,30,12,117,0,0,10,1
+2022-04-01,9,NEW,,117,My Headphones On,TWICE,PAGE TWO,15,10,6,75,30,12,117,0,0,9,1
+2022-04-01,10,-5,5,118,Zig Zag,Weeekly,We can,4,4,1,20,12,2,34,34,50,1,4
 2022-04-01,11,-9,2,116,Dreams Come True,WJSN,Dream Your Dream,7,7,1,35,21,2,58,51,7,2,8
-2022-04-01,12,RE,,114,MORE & MORE,TWICE,MORE & MORE,14,14,1,70,42,2,114,0,0,8,3
+2022-04-01,12,RE,,114,MORE & MORE,TWICE,MORE & MORE,14,14,1,70,42,2,114,0,0,9,3
 2022-04-01,13,RE,,112,FIREWORK,TWICE,MORE & MORE,14,12,3,70,36,6,112,0,0,13,1
 2022-04-01,14,-10,4,112,Save Me Save You,WJSN,WJ PLEASE?,8,8,1,40,24,2,66,38,8,4,7
 2022-04-01,15,RE,,106,DON’T CALL ME AGAIN,TWICE,MORE & MORE,13,13,1,65,39,2,106,0,0,15,1
@@ -23,10 +23,10 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2022-04-01,22,NEW,,82,Colors,IZ*ONE,COLOR*IZ,10,10,1,50,30,2,82,0,0,22,1
 2022-04-01,23,RE,,82,La Vie en Rose,IZ*ONE,COLOR*IZ,10,10,1,50,30,2,82,0,0,23,4
 2022-04-01,24,-16,8,80,La La Love,WJSN,WJ STAY?,4,4,1,20,12,2,34,31,15,8,7
-2022-04-01,25,-9,16,77,Luckitty-cat,WJSN,As You Wish,5,5,1,25,15,2,42,21,14,11,5
-2022-04-01,26,RE,,77,Touchdown,TWICE,PAGE TWO,10,7,3,50,21,6,77,0,0,26,1
+2022-04-01,25,NEW,,77,Touchdown,TWICE,PAGE TWO,10,7,3,50,21,6,77,0,0,25,1
+2022-04-01,26,-10,16,77,Luckitty-cat,WJSN,As You Wish,5,5,1,25,15,2,42,21,14,11,5
 2022-04-01,27,-13,14,76,LIGHTS UP,WJSN,As You Wish,6,6,1,30,18,2,50,24,2,14,3
-2022-04-01,28,RE,,72,Woohoo,TWICE,PAGE TWO,9,7,3,45,21,6,72,0,0,28,1
+2022-04-01,28,NEW,,72,Woohoo,TWICE,PAGE TWO,9,7,3,45,21,6,72,0,0,28,1
 2022-04-01,29,-17,12,66,Boogie Up,WJSN,SPECIAL ALBUM <For the Summer>,4,4,1,20,12,2,34,26,6,12,7
 2022-04-01,30,NEW,,65,Among Us in Real Life,Rebecca Zamolo,Among Us in Real Life,8,7,2,40,21,4,65,0,0,30,1
 2022-04-01,31,-14,17,66,Pantomime,WJSN,Neverland,3,3,1,15,9,2,26,18,22,7,5
@@ -76,7 +76,7 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2022-04-01,75,RE,,34,She,dodie,Human,3,3,1,15,9,2,26,0,8,2,10
 2022-04-01,76,RE,,34,Body Talk,Red Velvet,Rookie - The 4th Mini Album,4,4,1,20,12,2,34,0,0,73,3
 2022-04-01,77,-48,29,34,FANCY,TWICE,FANCY YOU,2,2,1,10,6,2,18,9,7,4,12
-2022-04-01,78,RE,,33,EYE EYE EYES,TWICE,SIGNAL,4,3,2,20,9,4,33,0,0,78,1
+2022-04-01,78,NEW,,33,EYE EYE EYES,TWICE,SIGNAL,4,3,2,20,9,4,33,0,0,78,1
 2022-04-01,79,RE,,32,NAVILLERA,GFRIEND,GFriend The 1st Album 'LOL',2,2,1,10,6,2,18,0,14,8,6
 2022-04-01,80,RE,,31,SIGNAL,TWICE,SIGNAL,3,3,1,15,9,2,26,0,5,50,7
 2022-04-01,81,-3,78,31,RAINBOW,TWICE,Feel Special,3,3,1,15,9,2,26,5,0,42,7
@@ -88,14 +88,14 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2022-04-01,87,NEW,,26,Elvis Song,Maisie Peters,You Signed Up For This,3,3,1,15,9,2,26,0,0,87,1
 2022-04-01,88,NEW,,26,Brooklyn,Maisie Peters,You Signed Up For This,3,3,1,15,9,2,26,0,0,88,1
 2022-04-01,89,NEW,,26,Villain,Maisie Peters,You Signed Up For This,3,3,1,15,9,2,26,0,0,89,1
-2022-04-01,90,NEW,,26,Hollow,Maisie Peters,You Signed Up For This,3,3,1,15,9,2,26,0,0,90,1
-2022-04-01,91,NEW,,26,HOLD ME TIGHT,TWICE,SIGNAL,3,3,1,15,9,2,26,0,0,91,1
-2022-04-01,92,NEW,,26,Three Times a Day,TWICE,SIGNAL,3,3,1,15,9,2,26,0,0,92,1
-2022-04-01,93,RE,,26,coney island (feat. The National),Taylor Swift,evermore,3,3,1,15,9,2,26,0,0,93,1
-2022-04-01,94,RE,,26,HOT,TWICE,FANCY YOU,3,3,1,15,9,2,26,0,0,94,1
-2022-04-01,95,RE,,26,Dog,C418,Minecraft - Volume Alpha,3,3,1,15,9,2,26,0,0,95,1
-2022-04-01,96,RE,,26,Cat,C418,Minecraft - Volume Alpha,3,3,1,15,9,2,26,0,0,96,1
-2022-04-01,97,RE,,26,Don’t You (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),3,3,1,15,9,2,26,0,0,97,1
-2022-04-01,98,RE,,26,Afterglow,Taylor Swift,Lover,3,3,1,15,9,2,26,0,0,98,1
-2022-04-01,99,RE,,26,You Need to Calm Down,Taylor Swift,Lover,3,3,1,15,9,2,26,0,0,99,1
-2022-04-01,100,RE,,26,Soon You’ll Get Better (feat. The Chicks),Taylor Swift,Lover,3,3,1,15,9,2,26,0,0,15,2
+2022-04-01,90,RE,,26,coney island (feat. The National),Taylor Swift,evermore,3,3,1,15,9,2,26,0,0,90,1
+2022-04-01,91,RE,,26,HOT,TWICE,FANCY YOU,3,3,1,15,9,2,26,0,0,91,1
+2022-04-01,92,RE,,26,Dog,C418,Minecraft - Volume Alpha,3,3,1,15,9,2,26,0,0,92,1
+2022-04-01,93,RE,,26,Cat,C418,Minecraft - Volume Alpha,3,3,1,15,9,2,26,0,0,93,1
+2022-04-01,94,RE,,26,Don’t You (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),3,3,1,15,9,2,26,0,0,94,1
+2022-04-01,95,RE,,26,Afterglow,Taylor Swift,Lover,3,3,1,15,9,2,26,0,0,95,1
+2022-04-01,96,RE,,26,You Need to Calm Down,Taylor Swift,Lover,3,3,1,15,9,2,26,0,0,96,1
+2022-04-01,97,RE,,26,Soon You’ll Get Better (feat. The Chicks),Taylor Swift,Lover,3,3,1,15,9,2,26,0,0,15,2
+2022-04-01,98,RE,,26,London Boy,Taylor Swift,Lover,3,3,1,15,9,2,26,0,0,16,2
+2022-04-01,99,RE,,26,Paper Rings,Taylor Swift,Lover,3,3,1,15,9,2,26,0,0,99,1
+2022-04-01,100,RE,,26,I Think He Knows,Taylor Swift,Lover,3,3,1,15,9,2,26,0,0,100,1

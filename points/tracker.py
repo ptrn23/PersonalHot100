@@ -14,7 +14,9 @@ def update_peak_and_woc(song_data, rank):
     song_data["woc"] += 1
     
 def get_status(current_pos, prev_pos, key, charted_cache, prev_week_positions, current_week):
+    # print(key) if key == ("All Too Well (Taylor's Version)", "Taylor Swift") else None
     if prev_pos is None:
+        # print(charted_cache[key], current_week, charted_cache[key] == current_week) if key == ("All Too Well (Taylor's Version)", "Taylor Swift") else None
         if key not in charted_cache:
             return "NEW"
         elif charted_cache[key] == current_week:

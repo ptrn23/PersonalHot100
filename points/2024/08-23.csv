@@ -32,14 +32,14 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2024-08-23,31,+9,40,122,Bobby Sox,Green Day,Saviors,11,11,1,55,33,2,90,32,0,1,30
 2024-08-23,32,-13,19,121,It Ain't Me (with Selena Gomez),Kygo,It Ain't Me (with Selena Gomez),9,9,1,45,27,2,74,47,0,19,2
 2024-08-23,33,+2,35,117,Naturally,Selena Gomez & the Scene,Kiss & Tell,10,10,1,50,30,2,82,35,0,33,3
-2024-08-23,34,+14,48,101,Don't Leave Me,blink-182,Enema of the State,6,6,1,30,18,2,50,28,23,30,3
+2024-08-23,34,+14,48,101,Don't Leave Me,blink-182,Enema of the State,6,6,1,30,18,2,50,28,23,28,3
 2024-08-23,35,+62,97,94,Is It Over Now? (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),11,2,10,55,6,20,81,13,0,35,4
 2024-08-23,36,+19,55,92,Going Away to College,blink-182,Enema of the State,6,6,1,30,18,2,50,25,17,36,3
 2024-08-23,37,+19,56,92,Aliens Exist,blink-182,Enema of the State,6,6,1,30,18,2,50,25,17,37,3
 2024-08-23,38,NEW,,90,Anytime,Kelly Clarkson,Thankful,11,11,1,55,33,2,90,0,0,38,1
 2024-08-23,39,NEW,,90,What's Up Lonely,Kelly Clarkson,Thankful,11,11,1,55,33,2,90,0,0,39,1
 2024-08-23,40,NEW,,90,Just Missed the Train,Kelly Clarkson,Thankful,11,11,1,55,33,2,90,0,0,40,1
-2024-08-23,41,+41,82,91,Scattered,Green Day,Nimrod,7,7,1,35,21,2,58,19,14,4,19
+2024-08-23,41,+41,82,91,Scattered,Green Day,Nimrod,7,7,1,35,21,2,58,19,14,4,18
 2024-08-23,42,+37,79,87,Wendy Clear,blink-182,Enema of the State,6,6,1,30,18,2,50,20,17,42,3
 2024-08-23,43,+19,62,86,Redundant,Green Day,Nimrod,6,6,1,30,18,2,50,22,14,2,29
 2024-08-23,44,+39,83,85,Anthem,blink-182,Enema of the State,6,6,1,30,18,2,50,18,17,44,3
@@ -51,24 +51,24 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2024-08-23,50,+7,57,83,Too Dumb To Die,Green Day,Revolution Radio,7,7,1,35,21,2,58,25,0,1,16
 2024-08-23,51,RE,,82,I Can See You (Taylor’s Version) (From the Vault),Taylor Swift,Speak Now (Taylor's Version),10,10,1,50,30,2,82,0,0,51,1
 2024-08-23,52,-28,24,81,Cry,Kelly Clarkson,All I Ever Wanted,1,1,1,5,3,2,10,41,30,1,5
-2024-08-23,53,RE,,74,When Emma Falls in Love (Taylor’s Version) (From the Vault),Taylor Swift,Speak Now (Taylor's Version),9,9,1,45,27,2,74,0,0,53,1
-2024-08-23,54,RE,,74,Electric Touch (feat. Fall Out Boy) (Taylor’s Version) (From the Vault),Taylor Swift,Speak Now (Taylor's Version),9,9,1,45,27,2,74,0,0,54,1
-2024-08-23,55,RE,,74,Juno,Sabrina Carpenter,Short n' Sweet,9,9,1,45,27,2,74,0,0,55,1
-2024-08-23,56,RE,,74,Espresso,Sabrina Carpenter,Short n' Sweet,9,9,1,45,27,2,74,0,0,17,4
-2024-08-23,57,RE,,74,Bed Chem,Sabrina Carpenter,Short n' Sweet,9,9,1,45,27,2,74,0,0,57,1
-2024-08-23,58,RE,,74,Please Please Please,Sabrina Carpenter,Short n' Sweet,9,9,1,45,27,2,74,0,0,11,5
-2024-08-23,59,RE,,74,Taste,Sabrina Carpenter,Short n' Sweet,9,9,1,45,27,2,74,0,0,59,1
+2024-08-23,53,NEW,,74,Juno,Sabrina Carpenter,Short n' Sweet,9,9,1,45,27,2,74,0,0,53,1
+2024-08-23,54,NEW,,74,Bed Chem,Sabrina Carpenter,Short n' Sweet,9,9,1,45,27,2,74,0,0,54,1
+2024-08-23,55,NEW,,74,Taste,Sabrina Carpenter,Short n' Sweet,9,9,1,45,27,2,74,0,0,55,1
+2024-08-23,56,RE,,74,When Emma Falls in Love (Taylor’s Version) (From the Vault),Taylor Swift,Speak Now (Taylor's Version),9,9,1,45,27,2,74,0,0,56,1
+2024-08-23,57,RE,,74,Electric Touch (feat. Fall Out Boy) (Taylor’s Version) (From the Vault),Taylor Swift,Speak Now (Taylor's Version),9,9,1,45,27,2,74,0,0,57,1
+2024-08-23,58,RE,,74,Espresso,Sabrina Carpenter,Short n' Sweet,9,9,1,45,27,2,74,0,0,15,4
+2024-08-23,59,RE,,74,Please Please Please,Sabrina Carpenter,Short n' Sweet,9,9,1,45,27,2,74,0,0,11,5
 2024-08-23,60,RE,,74,DING DONG,TWICE,twicetagram,9,9,1,45,27,2,74,0,0,60,1
 2024-08-23,61,-24,37,70,All I Ever Wanted,Kelly Clarkson,All I Ever Wanted,1,1,1,5,3,2,10,33,27,8,5
 2024-08-23,62,-24,38,70,Already Gone,Kelly Clarkson,All I Ever Wanted,1,1,1,5,3,2,10,33,27,9,5
-2024-08-23,63,RE,,66,MISSING U,TWICE,twicetagram,8,8,1,40,24,2,66,0,0,63,1
-2024-08-23,64,RE,,66,Don’t Smile,Sabrina Carpenter,Short n' Sweet,8,8,1,40,24,2,66,0,0,64,1
-2024-08-23,65,RE,,66,Lie to Girls,Sabrina Carpenter,Short n' Sweet,8,8,1,40,24,2,66,0,0,65,1
-2024-08-23,66,RE,,66,Slim Pickins,Sabrina Carpenter,Short n' Sweet,8,8,1,40,24,2,66,0,0,66,1
-2024-08-23,67,RE,,66,Dumb & Poetic,Sabrina Carpenter,Short n' Sweet,8,8,1,40,24,2,66,0,0,67,1
-2024-08-23,68,RE,,66,Coincidence,Sabrina Carpenter,Short n' Sweet,8,8,1,40,24,2,66,0,0,68,1
-2024-08-23,69,RE,,66,Sharpest Tool,Sabrina Carpenter,Short n' Sweet,8,8,1,40,24,2,66,0,0,69,1
-2024-08-23,70,RE,,66,Good Graces,Sabrina Carpenter,Short n' Sweet,8,8,1,40,24,2,66,0,0,70,1
+2024-08-23,63,NEW,,66,Don’t Smile,Sabrina Carpenter,Short n' Sweet,8,8,1,40,24,2,66,0,0,63,1
+2024-08-23,64,NEW,,66,Lie to Girls,Sabrina Carpenter,Short n' Sweet,8,8,1,40,24,2,66,0,0,64,1
+2024-08-23,65,NEW,,66,Slim Pickins,Sabrina Carpenter,Short n' Sweet,8,8,1,40,24,2,66,0,0,65,1
+2024-08-23,66,NEW,,66,Dumb & Poetic,Sabrina Carpenter,Short n' Sweet,8,8,1,40,24,2,66,0,0,66,1
+2024-08-23,67,NEW,,66,Coincidence,Sabrina Carpenter,Short n' Sweet,8,8,1,40,24,2,66,0,0,67,1
+2024-08-23,68,NEW,,66,Sharpest Tool,Sabrina Carpenter,Short n' Sweet,8,8,1,40,24,2,66,0,0,68,1
+2024-08-23,69,NEW,,66,Good Graces,Sabrina Carpenter,Short n' Sweet,8,8,1,40,24,2,66,0,0,69,1
+2024-08-23,70,RE,,66,MISSING U,TWICE,twicetagram,8,8,1,40,24,2,66,0,0,70,1
 2024-08-23,71,-30,41,65,One Minute,Kelly Clarkson,My December,1,1,1,5,3,2,10,30,25,17,5
 2024-08-23,72,-30,42,64,Never Again,Kelly Clarkson,My December,1,1,1,5,3,2,10,30,24,18,5
 2024-08-23,73,-27,46,62,Don't Waste Your Time,Kelly Clarkson,My December,1,1,1,5,3,2,10,29,23,23,5
@@ -81,16 +81,16 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2024-08-23,80,-9,71,50,Last Ride In,Green Day,Nimrod,2,2,1,10,6,2,18,21,11,35,22
 2024-08-23,81,-13,68,49,Good Riddance (Time of Your Life),Green Day,Nimrod,2,1,2,10,3,4,17,21,11,22,23
 2024-08-23,82,-23,59,47,King for a Day,Green Day,Nimrod,1,1,1,5,3,2,10,23,14,4,31
-2024-08-23,83,RE,,42,Love It When You Hate Me (feat. blackbear),Avril Lavigne,Love Sux,5,5,1,25,15,2,42,0,0,61,2
-2024-08-23,84,RE,,42,Bite Me,Avril Lavigne,Love Sux,5,5,1,25,15,2,42,0,0,60,2
+2024-08-23,83,RE,,42,Love It When You Hate Me (feat. blackbear),Avril Lavigne,Love Sux,5,5,1,25,15,2,42,0,0,60,2
+2024-08-23,84,RE,,42,Bite Me,Avril Lavigne,Love Sux,5,5,1,25,15,2,42,0,0,61,2
 2024-08-23,85,-18,67,42,Prosthetic Head,Green Day,Nimrod,1,1,1,5,3,2,10,21,11,4,15
 2024-08-23,86,-12,74,42,Take Back,Green Day,Nimrod,1,1,1,5,3,2,10,21,11,41,22
 2024-08-23,87,-12,75,42,Reject,Green Day,Nimrod,1,1,1,5,3,2,10,21,11,5,15
 2024-08-23,88,-12,76,42,Walking Alone,Green Day,Nimrod,1,1,1,5,3,2,10,21,11,6,15
 2024-08-23,89,+4,93,35,Dilemma,Green Day,Saviors,1,1,1,5,3,2,10,14,11,8,27
-2024-08-23,90,NEW,,34,Lithium,Nirvana,Nevermind (Remastered),4,4,1,20,12,2,34,0,0,90,1
-2024-08-23,91,RE,,34,On a Plain,Nirvana,Nevermind (Remastered),4,4,1,20,12,2,34,0,0,91,1
-2024-08-23,92,RE,,34,Breed,Nirvana,Nevermind (Remastered),4,4,1,20,12,2,34,0,0,92,1
+2024-08-23,90,NEW,,34,On a Plain,Nirvana,Nevermind (Remastered),4,4,1,20,12,2,34,0,0,90,1
+2024-08-23,91,NEW,,34,Lithium,Nirvana,Nevermind (Remastered),4,4,1,20,12,2,34,0,0,91,1
+2024-08-23,92,NEW,,34,Breed,Nirvana,Nevermind (Remastered),4,4,1,20,12,2,34,0,0,92,1
 2024-08-23,93,RE,,34,Feather,Sabrina Carpenter,emails i can’t send fwd:,4,4,1,20,12,2,34,0,0,93,1
 2024-08-23,94,RE,,34,Saviors,Green Day,Saviors,4,4,1,20,12,2,34,0,0,5,13
 2024-08-23,95,+3,98,31,Platypus (I Hate You),Green Day,Nimrod,2,2,1,10,6,2,18,13,0,13,19

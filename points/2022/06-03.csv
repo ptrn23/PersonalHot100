@@ -1,16 +1,16 @@
 Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
 2022-06-03,1,=,1,259,FEARLESS,LE SSERAFIM,FEARLESS,22,22,1,110,66,2,178,52,29,1,5
-2022-06-03,2,RE,,218,Pose,Red Velvet,Queendom - The 6th Mini Album,27,27,1,135,81,2,218,0,0,2,1
+2022-06-03,2,NEW,,218,Pose,Red Velvet,Queendom - The 6th Mini Album,27,27,1,135,81,2,218,0,0,2,1
 2022-06-03,3,NEW,,208,Hey Gabby!,NMIXX,GABBY'S DOLLHOUSE X NMIXX (Original Soundtrack),27,17,11,135,51,22,208,0,0,3,1
 2022-06-03,4,-2,2,186,ELEVEN,IVE,ELEVEN,17,17,1,85,51,2,138,48,0,2,2
-2022-06-03,5,RE,,182,LOVE DIVE,IVE,LOVE DIVE,23,21,2,115,63,4,182,0,0,5,1
+2022-06-03,5,NEW,,182,LOVE DIVE,IVE,LOVE DIVE,23,21,2,115,63,4,182,0,0,5,1
 2022-06-03,6,NEW,,172,POSE,Loona,<Queendom2> FINAL,22,18,4,110,54,8,172,0,0,6,1
 2022-06-03,7,NEW,,114,Sour Grapes,LE SSERAFIM,FEARLESS,14,14,1,70,42,2,114,0,0,7,1
 2022-06-03,8,-5,3,102,O.O,NMIXX,AD MARE,4,4,1,20,12,2,34,36,32,1,10
 2022-06-03,9,+1,10,101,ESPRESSO,TWICE,Formula of Love: O+T=<3,6,6,1,30,18,2,50,29,22,2,6
 2022-06-03,10,-6,4,96,Can you stay,Coldin,Can you stay (From Semantic Error),1,1,1,5,3,2,10,34,52,1,3
 2022-06-03,11,-5,6,95,Shake It,Loona,<Queendom2> Part.2-1,5,5,1,25,15,2,42,33,20,1,7
-2022-06-03,12,-1,11,89,DM,fromis_9,Midnight Guest,5,5,1,25,15,2,42,28,19,2,8
+2022-06-03,12,-1,11,88,DM,fromis_9,Midnight Guest,5,5,1,25,15,2,42,27,19,2,7
 2022-06-03,13,+11,24,89,Secret,WJSN,The Secret,6,6,1,30,18,2,50,24,15,7,18
 2022-06-03,14,-2,12,88,WE GO,fromis_9,9 WAY TICKET,5,5,1,25,15,2,42,27,19,3,7
 2022-06-03,15,-6,9,84,Feel My Rhythm,Red Velvet,‘The ReVe Festival 2022 - Feel My Rhythm’,4,4,1,20,12,2,34,29,21,3,9
@@ -50,11 +50,11 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2022-06-03,49,NEW,,42,Blue Flame,LE SSERAFIM,FEARLESS,5,5,1,25,15,2,42,0,0,49,1
 2022-06-03,50,NEW,,42,The World Is My Oyster,LE SSERAFIM,FEARLESS,5,5,1,25,15,2,42,0,0,50,1
 2022-06-03,51,RE,,42,HULA HOOP,Loona,HULA HOOP / StarSeed ~カクセイ~,5,5,1,25,15,2,42,0,0,16,8
-2022-06-03,52,RE,,42,Glass Shoes,fromis_9,fromis_9 PRE-DEBUT SINGLE,5,5,1,25,15,2,42,0,0,29,3
+2022-06-03,52,RE,,42,Glass Shoes,fromis_9,fromis_9 PRE-DEBUT SINGLE,5,5,1,25,15,2,42,0,0,31,2
 2022-06-03,53,RE,,42,To Heart,fromis_9,To. Heart,5,5,1,25,15,2,42,0,0,34,6
 2022-06-03,54,RE,,42,SOMEONE LIKE ME,TWICE,SIGNAL,5,5,1,25,15,2,42,0,0,46,4
 2022-06-03,55,RE,,42,Love Cherry Motion,Loona,Choerry,5,5,1,25,15,2,42,0,0,29,8
-2022-06-03,56,RE,,42,Sweet Crazy Love,LOOΠΔ / ODD EYE CIRCLE,Max & Match,5,5,1,25,15,2,42,0,0,9,9
+2022-06-03,56,RE,,42,Sweet Crazy Love,LOOΠΔ / ODD EYE CIRCLE,Max & Match,5,5,1,25,15,2,42,0,0,10,9
 2022-06-03,57,-16,41,42,Psycho,Red Velvet,‘The ReVe Festival’ Finale,3,3,1,15,9,2,26,9,7,17,11
 2022-06-03,58,-32,26,43,Wildest Dreams (Taylor's Version),Taylor Swift,Wildest Dreams (Taylor's Version),1,1,1,5,3,2,10,21,12,26,6
 2022-06-03,59,-27,32,41,The Feels,TWICE,The Feels,2,2,1,10,6,2,18,16,7,24,8
@@ -90,7 +90,7 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2022-06-03,89,-13,76,32,NAVILLERA,GFRIEND,GFriend The 1st Album 'LOL',3,3,1,15,9,2,26,6,0,8,10
 2022-06-03,90,+8,98,32,Heart Shaker,TWICE,Merry & Happy,3,3,1,15,9,2,26,6,0,9,10
 2022-06-03,91,RE,,32,Valentine Girl,LOOΠΔ 1/3,Love & Evil,3,3,1,15,9,2,26,0,6,80,2
-2022-06-03,92,-30,62,31,Good Bad Ugly,Red Velvet,‘The ReVe Festival 2022 - Feel My Rhythm’,2,2,1,10,6,2,18,6,7,61,7
+2022-06-03,92,-30,62,31,Good Bad Ugly,Red Velvet,‘The ReVe Festival 2022 - Feel My Rhythm’,2,2,1,10,6,2,18,6,7,62,6
 2022-06-03,93,-30,63,31,Beg for Me,Red Velvet,‘The ReVe Festival 2022 - Feel My Rhythm’,2,2,1,10,6,2,18,6,7,63,6
 2022-06-03,94,+2,96,29,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,1,2,10,3,4,17,6,6,2,12
 2022-06-03,95,RE,,27,WOW,Loona,[&],2,2,1,10,6,2,18,0,9,17,6

@@ -1,11 +1,11 @@
 Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
 2023-07-07,1,RE,,337,Alapaap,Eraserheads,Circus,54,5,21,270,15,42,327,0,10,1,6
-2023-07-07,2,RE,,329,The Story of Us (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),50,13,20,250,39,40,329,0,0,2,1
-2023-07-07,3,RE,,216,Mine (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),30,12,15,150,36,30,216,0,0,3,1
+2023-07-07,2,NEW,,329,The Story of Us (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),50,13,20,250,39,40,329,0,0,2,1
+2023-07-07,3,NEW,,216,Mine (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),30,12,15,150,36,30,216,0,0,3,1
 2023-07-07,4,RE,,205,Magasin,Eraserheads,Circus,28,2,27,140,6,54,200,0,5,4,5
 2023-07-07,5,NEW,,153,Innocent (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),20,11,10,100,33,20,153,0,0,5,1
 2023-07-07,6,NEW,,153,Back to December (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),20,11,10,100,33,20,153,0,0,6,1
-2023-07-07,7,RE,,153,Better Than Revenge (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),20,11,10,100,33,20,153,0,0,7,1
+2023-07-07,7,NEW,,153,Better Than Revenge (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),20,11,10,100,33,20,153,0,0,7,1
 2023-07-07,8,RE,,147,Jealous,Nick Jonas,Nick Jonas X2,19,1,19,95,3,38,136,0,11,8,4
 2023-07-07,9,-4,5,143,Huwag Na Huwag Mong Sasabihin...,Kitchie Nadal,Kitchie Nadal,8,2,7,40,6,14,60,83,0,5,2
 2023-07-07,10,-8,2,138,Cookie,NewJeans,NewJeans 1st EP 'New Jeans',1,1,1,5,3,2,10,128,0,2,14
@@ -13,8 +13,8 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2023-07-07,12,-8,4,136,BeBe,WJSN,The Secret,1,1,1,5,3,2,10,126,0,4,2
 2023-07-07,13,-1,12,133,Bigger Than the Whole Sky,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,10,42,81,1,5
 2023-07-07,14,NEW,,122,I Can See You (Taylor’s Version) (From the Vault),Taylor Swift,Speak Now (Taylor's Version),15,15,1,75,45,2,122,0,0,14,1
-2023-07-07,15,RE,,122,When Emma Falls in Love (Taylor’s Version) (From the Vault),Taylor Swift,Speak Now (Taylor's Version),15,15,1,75,45,2,122,0,0,15,1
-2023-07-07,16,RE,,122,Electric Touch (feat. Fall Out Boy) (Taylor’s Version) (From the Vault),Taylor Swift,Speak Now (Taylor's Version),15,15,1,75,45,2,122,0,0,16,1
+2023-07-07,15,NEW,,122,When Emma Falls in Love (Taylor’s Version) (From the Vault),Taylor Swift,Speak Now (Taylor's Version),15,15,1,75,45,2,122,0,0,15,1
+2023-07-07,16,NEW,,122,Electric Touch (feat. Fall Out Boy) (Taylor’s Version) (From the Vault),Taylor Swift,Speak Now (Taylor's Version),15,15,1,75,45,2,122,0,0,16,1
 2023-07-07,17,-11,6,119,Snow on the Beach (feat. more Lana Del Rey),Taylor Swift,Midnights (The Til Dawn Edition),1,1,1,5,3,2,10,83,26,1,7
 2023-07-07,18,-8,10,117,Clouds,Any Name's Okay,Clouds,2,2,1,10,6,2,18,50,49,2,5
 2023-07-07,19,NEW,,112,Minsan,Eraserheads,Circus,16,2,13,80,6,26,112,0,0,19,1
@@ -89,13 +89,13 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2023-07-07,88,+9,97,15,JELLY JELLY,TWICE,TWICEcoaster: LANE 1,1,1,1,5,3,2,10,5,0,4,7
 2023-07-07,89,NEW,,10,Synesthesia,Mayonnaise,Pula,1,1,1,5,3,2,10,0,0,89,1
 2023-07-07,90,NEW,,10,Makita Kang Muli,Sugarfree,100% Greatest Hits,1,1,1,5,3,2,10,0,0,90,1
-2023-07-07,91,NEW,,10,Cool Off,Session Road,Session Road,1,1,1,5,3,2,10,0,0,91,1
-2023-07-07,92,NEW,,10,Pangako,Cueshé,Life,1,1,1,5,3,2,10,0,0,92,1
-2023-07-07,93,NEW,,10,Hanggang Kailan - Umuwi Ka Na Baby,Orange & Lemons,Strike Whilst the Iron Is Hot,1,1,1,5,3,2,10,0,0,93,1
-2023-07-07,94,NEW,,10,Torete,Moonstar88,popcorn,1,1,1,5,3,2,10,0,0,94,1
-2023-07-07,95,NEW,,10,Bakit Part 2,Mayonnaise,Mayonnaise - (15th Anniversary Remaster),1,1,1,5,3,2,10,0,0,95,1
-2023-07-07,96,RE,,10,Eyes Open (Taylor's Version),Taylor Swift,Eyes Open (Taylor's Version),1,1,1,5,3,2,10,0,0,16,8
-2023-07-07,97,RE,,10,Friend,Gracie Abrams,minor,1,1,1,5,3,2,10,0,0,23,6
-2023-07-07,98,RE,,10,minor,Gracie Abrams,minor,1,1,1,5,3,2,10,0,0,19,6
-2023-07-07,99,RE,,10,Long Sleeves,Gracie Abrams,minor,1,1,1,5,3,2,10,0,0,20,6
-2023-07-07,100,RE,,10,I miss you I’m sorry,Gracie Abrams,minor,1,1,1,5,3,2,10,0,0,21,7
+2023-07-07,91,RE,,10,Eyes Open (Taylor's Version),Taylor Swift,Eyes Open (Taylor's Version),1,1,1,5,3,2,10,0,0,15,8
+2023-07-07,92,RE,,10,Friend,Gracie Abrams,minor,1,1,1,5,3,2,10,0,0,23,6
+2023-07-07,93,RE,,10,minor,Gracie Abrams,minor,1,1,1,5,3,2,10,0,0,19,6
+2023-07-07,94,RE,,10,Long Sleeves,Gracie Abrams,minor,1,1,1,5,3,2,10,0,0,20,6
+2023-07-07,95,RE,,10,I miss you I’m sorry,Gracie Abrams,minor,1,1,1,5,3,2,10,0,0,21,7
+2023-07-07,96,RE,,10,tehe,Gracie Abrams,minor,1,1,1,5,3,2,10,0,0,22,6
+2023-07-07,97,RE,,10,State of Grace (Acoustic Version) (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,10,0,0,51,4
+2023-07-07,98,RE,,10,Girl at Home (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,10,0,0,16,5
+2023-07-07,99,RE,,10,Come Back...Be Here (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,10,0,0,7,10
+2023-07-07,100,RE,,10,The Moment I Knew (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,10,0,0,32,5

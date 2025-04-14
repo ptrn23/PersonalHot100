@@ -9,7 +9,7 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2022-12-23,8,RE,,122,Hurt,NewJeans,NewJeans 1st EP 'New Jeans',15,15,1,75,45,2,122,0,0,8,7
 2022-12-23,9,+1,10,110,‘tis the damn season,Taylor Swift,evermore,9,9,1,45,27,2,74,24,12,9,15
 2022-12-23,10,RE,,88,Death by a Thousand Cuts,Taylor Swift,Lover,11,9,3,55,27,6,88,0,0,1,12
-2022-12-23,11,=,11,81,Maroon,Taylor Swift,Midnights (3am Edition),3,3,1,15,9,2,26,24,31,6,10
+2022-12-23,11,+1,12,80,Maroon,Taylor Swift,Midnights (3am Edition),3,3,1,15,9,2,26,24,30,6,9
 2022-12-23,12,-10,2,80,Wildest Dreams (Taylor's Version),Taylor Swift,Wildest Dreams (Taylor's Version),2,2,1,10,6,2,18,38,24,2,24
 2022-12-23,13,-8,5,79,Labyrinth,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,18,27,34,1,9
 2022-12-23,14,-11,3,77,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,26,37,14,2,33
@@ -27,12 +27,12 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2022-12-23,26,-8,18,55,Attention,NewJeans,NewJeans 1st EP 'New Jeans',3,3,1,15,9,2,26,18,11,1,17
 2022-12-23,27,+12,39,55,Snow on the Beach (feat. Lana Del Rey),Taylor Swift,Midnights (3am Edition),4,4,1,20,12,2,34,11,10,27,9
 2022-12-23,28,-3,25,56,Lavender Haze,Taylor Swift,Midnights (3am Edition),3,3,1,15,9,2,26,16,14,2,10
-2022-12-23,29,-17,12,56,happiness,Taylor Swift,evermore,2,2,1,10,6,2,18,24,14,12,22
+2022-12-23,29,-18,11,56,happiness,Taylor Swift,evermore,2,2,1,10,6,2,18,24,14,11,22
 2022-12-23,30,RE,,53,Star ng Pasko,ABS-CBN Music All Star,An ABS-CBN Christmas,7,2,6,35,6,12,53,0,0,30,1
 2022-12-23,31,+4,35,51,You're on Your Own Kid,Taylor Swift,Midnights (3am Edition),3,3,1,15,9,2,26,13,12,6,10
 2022-12-23,32,-11,21,50,cowboy like me,Taylor Swift,evermore,3,3,1,15,9,2,26,16,8,21,10
 2022-12-23,33,+25,58,46,ivy,Taylor Swift,evermore,4,2,3,20,6,6,32,8,6,33,16
-2022-12-23,34,+9,43,45,Anti-Hero,Taylor Swift,Midnights (3am Edition),3,3,1,15,9,2,26,11,8,9,8
+2022-12-23,34,+9,43,45,Anti-Hero,Taylor Swift,Midnights (3am Edition),3,3,1,15,9,2,26,11,8,9,9
 2022-12-23,35,RE,,42,Paris,Taylor Swift,Midnights (3am Edition),3,3,1,15,9,2,26,0,16,1,9
 2022-12-23,36,-5,31,42,Sweet Nothing,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,18,13,11,8,10
 2022-12-23,37,RE,,42,Baby Blue Love,TWICE,Taste of Love,5,5,1,25,15,2,42,0,0,37,5
@@ -48,7 +48,7 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2022-12-23,47,RE,,34,Alcohol-Free,TWICE,Taste of Love,4,4,1,20,12,2,34,0,0,47,6
 2022-12-23,48,RE,,33,High Infidelity,Taylor Swift,Midnights (3am Edition),3,3,1,15,9,2,26,0,7,3,9
 2022-12-23,49,+10,59,32,long story short,Taylor Swift,evermore,2,2,1,10,6,2,18,8,6,49,9
-2022-12-23,50,-23,27,31,Blank Space,Taylor Swift,1989,1,1,1,5,3,2,10,15,6,27,6
+2022-12-23,50,-23,27,31,Blank Space,Taylor Swift,1989,1,1,1,5,3,2,10,15,6,27,7
 2022-12-23,51,+11,62,30,evermore (feat. Bon Iver),Taylor Swift,evermore,2,2,1,10,6,2,18,8,4,38,12
 2022-12-23,52,+11,63,30,closure,Taylor Swift,evermore,2,2,1,10,6,2,18,8,4,50,9
 2022-12-23,53,+11,64,30,marjorie,Taylor Swift,evermore,2,2,1,10,6,2,18,8,4,45,10
@@ -66,7 +66,7 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2022-12-23,65,RE,,18,UNNATURAL,WJSN,UNNATURAL,1,1,1,5,3,2,10,0,8,1,35
 2022-12-23,66,RE,,18,New Romantics,Taylor Swift,1989 (Deluxe),2,2,1,10,6,2,18,0,0,66,2
 2022-12-23,67,RE,,18,ME! (feat. Brendon Urie of Panic! at the Disco),Taylor Swift,Lover,2,2,1,10,6,2,18,0,0,35,13
-2022-12-23,68,-13,55,18,I Think He Knows,Taylor Swift,Lover,1,1,1,5,3,2,10,8,0,24,10
+2022-12-23,68,-13,55,18,I Think He Knows,Taylor Swift,Lover,1,1,1,5,3,2,10,8,0,24,11
 2022-12-23,69,-16,53,18,The Man,Taylor Swift,Lover,1,1,1,5,3,2,10,8,0,51,6
 2022-12-23,70,-18,52,18,Style,Taylor Swift,1989,1,1,1,5,3,2,10,8,0,52,2
 2022-12-23,71,RE,,18,POLISH,TWICE,&TWICE,2,2,1,10,6,2,18,0,0,36,7
@@ -96,6 +96,6 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2022-12-23,95,RE,,10,Wish You Were Here,Avril Lavigne,Goodbye Lullaby (Expanded Edition),1,1,1,5,3,2,10,0,0,95,1
 2022-12-23,96,RE,,10,Let Me Go (feat. Chad Kroeger),Avril Lavigne,Avril Lavigne (Expanded Edition),1,1,1,5,3,2,10,0,0,96,1
 2022-12-23,97,RE,,10,One Last Time,Ariana Grande,My Everything (Deluxe),1,1,1,5,3,2,10,0,0,69,2
-2022-12-23,98,RE,,10,Circus,Britney Spears,Circus (Deluxe Version),1,1,1,5,3,2,10,0,0,52,4
+2022-12-23,98,RE,,10,Circus,Britney Spears,Circus (Deluxe Version),1,1,1,5,3,2,10,0,0,55,4
 2022-12-23,99,RE,,10,I Wanna Dance with Somebody (Who Loves Me),Whitney Houston,Whitney,1,1,1,5,3,2,10,0,0,81,2
 2022-12-23,100,RE,,10,If U Seek Amy,Britney Spears,Circus (Deluxe Version),1,1,1,5,3,2,10,0,0,100,1

@@ -2,11 +2,9 @@ import os
 import csv
 from datetime import datetime, timedelta
 
-# Configuration
 YEAR = "2025"
-POINTS_DIR = 'points/2025'
-UPDATES_FILE = 'updates/2025.txt'
-YEARLY_CSV_FILE = 'updates/2025.csv'
+POINTS_DIR = f'points/{YEAR}'
+UPDATES_FILE = f'updates/{YEAR}.txt'
 CHART_LIMIT = 100
 
 def get_friday(date_str):

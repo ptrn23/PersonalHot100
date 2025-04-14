@@ -15,7 +15,7 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2024-05-10,14,-3,11,167,Buddy Holly,Weezer,Weezer,12,12,1,60,36,2,98,44,25,10,4
 2024-05-10,15,+55,70,158,Levitating,Dua Lipa,Future Nostalgia,17,7,11,85,21,22,128,15,15,15,4
 2024-05-10,16,-10,6,155,Dead!,My Chemical Romance,The Black Parade,10,10,1,50,30,2,82,54,19,5,19
-2024-05-10,17,RE,,140,Guilty as Sin?,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,18,14,4,90,42,8,140,0,0,17,1
+2024-05-10,17,NEW,,140,Guilty as Sin?,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,18,14,4,90,42,8,140,0,0,17,1
 2024-05-10,18,+55,73,140,¿Viva la Gloria? (Little Girl),Green Day,21st Century Breakdown,14,14,1,70,42,2,114,13,13,18,7
 2024-05-10,19,+28,47,135,Desensitized,Green Day,Shenanigans,12,12,1,60,36,2,98,19,18,19,3
 2024-05-10,20,+28,48,135,Suffocate,Green Day,Shenanigans,12,12,1,60,36,2,98,19,18,20,3
@@ -38,9 +38,9 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2024-05-10,37,-17,20,102,Welcome to the Black Parade,My Chemical Romance,The Black Parade,7,7,1,35,21,2,58,32,12,5,19
 2024-05-10,38,-13,25,98,My Life Would Suck Without You,Kelly Clarkson,All I Ever Wanted,7,7,1,35,21,2,58,29,11,18,18
 2024-05-10,39,-22,17,95,The End.,My Chemical Romance,The Black Parade,6,6,1,30,18,2,50,33,12,13,10
-2024-05-10,40,RE,,90,My Boy Only Breaks His Favorite Toys,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,11,11,1,55,33,2,90,0,0,40,1
-2024-05-10,41,RE,,90,Bouncing Off The Wall,Green Day,Revolution Radio,11,11,1,55,33,2,90,0,0,41,1
-2024-05-10,42,RE,,88,American Eulogy: Mass Hysteria / Modern World,Green Day,21st Century Breakdown,11,9,3,55,27,6,88,0,0,42,1
+2024-05-10,40,NEW,,90,My Boy Only Breaks His Favorite Toys,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,11,11,1,55,33,2,90,0,0,40,1
+2024-05-10,41,NEW,,90,Bouncing Off The Wall,Green Day,Revolution Radio,11,11,1,55,33,2,90,0,0,41,1
+2024-05-10,42,NEW,,88,American Eulogy: Mass Hysteria / Modern World,Green Day,21st Century Breakdown,11,9,3,55,27,6,88,0,0,42,1
 2024-05-10,43,-11,32,84,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),6,6,1,30,18,2,50,25,9,2,11
 2024-05-10,44,NEW,,82,Down Bad,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,10,10,1,50,30,2,82,0,0,44,1
 2024-05-10,45,NEW,,77,All by Myself,Green Day,Dookie,11,2,8,55,6,16,77,0,0,45,1
@@ -77,7 +77,7 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2024-05-10,76,RE,,58,Subwoofer Lullaby,C418,Minecraft - Volume Alpha,7,7,1,35,21,2,58,0,0,71,2
 2024-05-10,77,RE,,54,Annie Batungbakal,Hotdog,Hotdog Greatest Hits,7,5,2,35,15,4,54,0,0,77,1
 2024-05-10,78,RE,,54,Clouds,Any Name's Okay,Clouds,7,3,5,35,9,10,54,0,0,78,1
-2024-05-10,79,-44,35,52,Espionage,Green Day,Shenanigans,1,1,1,5,3,2,10,24,18,21,3
+2024-05-10,79,-44,35,52,Espionage,Green Day,Shenanigans,1,1,1,5,3,2,10,24,18,24,3
 2024-05-10,80,-46,34,51,Jesus of Suburbia,Green Day,American Idiot,1,1,1,5,3,2,10,24,17,10,14
 2024-05-10,81,-43,38,51,Whatsername,Green Day,American Idiot,1,1,1,5,3,2,10,23,18,9,12
 2024-05-10,82,RE,,50,Oxygène,C418,Minecraft - Volume Alpha,6,6,1,30,18,2,50,0,0,66,2
@@ -87,15 +87,15 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2024-05-10,86,-8,78,46,Longview,Green Day,Dookie,3,3,1,15,9,2,26,11,9,22,16
 2024-05-10,87,-41,46,46,Wake Me Up When September Ends,Green Day,American Idiot,1,1,1,5,3,2,10,20,16,4,19
 2024-05-10,88,-9,79,47,Strange Days Are Here to Stay,Green Day,Saviors,3,3,1,15,9,2,26,11,10,11,17
-2024-05-10,89,-34,55,44,On the Wagon,Green Day,Shenanigans,1,1,1,5,3,2,10,16,18,16,3
-2024-05-10,90,-34,56,44,Do Da Da,Green Day,Shenanigans,1,1,1,5,3,2,10,16,18,17,3
-2024-05-10,91,-34,57,44,Rotting,Green Day,Shenanigans,1,1,1,5,3,2,10,16,18,18,3
-2024-05-10,92,-34,58,44,Sick of Me,Green Day,Shenanigans,1,1,1,5,3,2,10,16,18,26,3
-2024-05-10,93,-34,59,44,Tired of Waiting for You,Green Day,Shenanigans,1,1,1,5,3,2,10,16,18,19,3
-2024-05-10,94,-34,60,44,Scumbag,Green Day,Shenanigans,1,1,1,5,3,2,10,16,18,27,3
-2024-05-10,95,-34,61,44,I Want to Be on T.V.,Green Day,Shenanigans,1,1,1,5,3,2,10,16,18,20,3
-2024-05-10,96,-34,62,44,Don't Wanna Fall in Love,Green Day,Shenanigans,1,1,1,5,3,2,10,16,18,22,3
-2024-05-10,97,-34,63,44,Outsider,Green Day,Shenanigans,1,1,1,5,3,2,10,16,18,23,3
-2024-05-10,98,-34,64,44,You Lied,Green Day,Shenanigans,1,1,1,5,3,2,10,16,18,28,3
+2024-05-10,89,-34,55,44,On the Wagon,Green Day,Shenanigans,1,1,1,5,3,2,10,16,18,17,3
+2024-05-10,90,-34,56,44,Do Da Da,Green Day,Shenanigans,1,1,1,5,3,2,10,16,18,18,3
+2024-05-10,91,-34,57,44,Rotting,Green Day,Shenanigans,1,1,1,5,3,2,10,16,18,19,3
+2024-05-10,92,-34,58,44,Sick of Me,Green Day,Shenanigans,1,1,1,5,3,2,10,16,18,20,3
+2024-05-10,93,-34,59,44,Tired of Waiting for You,Green Day,Shenanigans,1,1,1,5,3,2,10,16,18,21,3
+2024-05-10,94,-34,60,44,Scumbag,Green Day,Shenanigans,1,1,1,5,3,2,10,16,18,22,3
+2024-05-10,95,-34,61,44,I Want to Be on T.V.,Green Day,Shenanigans,1,1,1,5,3,2,10,16,18,23,3
+2024-05-10,96,-34,62,44,Don't Wanna Fall in Love,Green Day,Shenanigans,1,1,1,5,3,2,10,16,18,25,3
+2024-05-10,97,-34,63,44,Outsider,Green Day,Shenanigans,1,1,1,5,3,2,10,16,18,26,3
+2024-05-10,98,-34,64,44,You Lied,Green Day,Shenanigans,1,1,1,5,3,2,10,16,18,27,3
 2024-05-10,99,-27,72,44,1981,Green Day,Saviors,2,2,1,10,6,2,18,13,13,2,17
-2024-05-10,100,RE,,42,I Don't Want to Miss a Thing - From Armageddon Soundtrack,Aerosmith,Armageddon - The Album,6,2,3,30,6,6,42,0,0,100,1
+2024-05-10,100,NEW,,42,See the Light,Green Day,21st Century Breakdown,5,5,1,25,15,2,42,0,0,100,1

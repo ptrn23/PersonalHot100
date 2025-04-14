@@ -1,8 +1,8 @@
 Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
 2021-05-14,1,NEW,,34,Kura Kura,TWICE,Kura Kura,4,4,1,20,12,2,34,0,0,1,1
-2021-05-14,2,RE,,26,LLC,Nicki Minaj,Queen,3,3,1,15,9,2,26,0,0,2,1
+2021-05-14,2,NEW,,26,LLC,Nicki Minaj,Queen,3,3,1,15,9,2,26,0,0,2,1
 2021-05-14,3,+2,5,20,Mr. Perfectly Fine (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version): The Halfway Out The Door Chapter,1,1,1,5,3,2,10,7,3,3,5
-2021-05-14,4,+3,7,20,Womanizer,Britney Spears,Circus (Deluxe Version),1,1,1,5,3,2,10,6,4,4,9
+2021-05-14,4,+3,7,20,Womanizer,Britney Spears,Circus (Deluxe Version),1,1,1,5,3,2,10,6,4,4,7
 2021-05-14,5,NEW,,18,Build A Bitch,Bella Poarch,Build a Bitch,2,2,1,10,6,2,18,0,0,5,1
 2021-05-14,6,NEW,,18,good 4 u,Olivia Rodrigo,good 4 u,2,2,1,10,6,2,18,0,0,6,1
 2021-05-14,7,NEW,,18,Save Your Tears (with Ariana Grande) (Remix),The Weeknd,Save Your Tears (Remix),2,2,1,10,6,2,18,0,0,7,1
@@ -13,10 +13,10 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2021-05-14,12,+4,16,18,The Other Side of the Door (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,10,5,3,12,5
 2021-05-14,13,+4,17,18,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version): The Halfway Out The Door Chapter,1,1,1,5,3,2,10,5,3,12,5
 2021-05-14,14,-11,3,17,Love Story (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,10,7,0,1,7
-2021-05-14,15,-6,9,16,You’re Not Sorry (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version): The Halfway Out The Door Chapter,1,1,1,5,3,2,10,6,0,9,4
-2021-05-14,16,+3,19,16,White Horse (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version): The Halfway Out The Door Chapter,1,1,1,5,3,2,10,4,2,2,4
+2021-05-14,15,-6,9,16,You’re Not Sorry (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version): The Halfway Out The Door Chapter,1,1,1,5,3,2,10,6,0,9,3
+2021-05-14,16,+3,19,16,White Horse (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version): The Halfway Out The Door Chapter,1,1,1,5,3,2,10,4,2,3,4
 2021-05-14,17,RE,,14,Airplanes (feat. Hayley Williams),B.o.B,B.o.B Presents: The Adventures of Bobby Ray,1,1,1,5,3,2,10,0,4,6,3
-2021-05-14,18,RE,,13,Pretty Hurts,Beyoncé,BEYONCÉ [Platinum Edition],1,1,1,5,3,2,10,0,3,2,4
+2021-05-14,18,RE,,13,Pretty Hurts,Beyoncé,BEYONCÉ [Platinum Edition],1,1,1,5,3,2,10,0,3,3,4
 2021-05-14,19,+38,57,13,Breathe (feat. Colbie Caillat) (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version): The Halfway Out The Door Chapter,1,1,1,5,3,2,10,3,0,8,3
 2021-05-14,20,+61,81,13,Heart Attack (츄),Loona,Chuu,1,1,1,5,3,2,10,3,0,20,3
 2021-05-14,21,+34,55,13,Change (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,10,3,0,19,4
@@ -38,24 +38,23 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2021-05-14,37,NEW,,10,Sandcastles,Beyoncé,Lemonade,1,1,1,5,3,2,10,0,0,37,1
 2021-05-14,38,NEW,,10,Love Drought,Beyoncé,Lemonade,1,1,1,5,3,2,10,0,0,38,1
 2021-05-14,39,NEW,,10,Daddy Lessons,Beyoncé,Lemonade,1,1,1,5,3,2,10,0,0,39,1
-2021-05-14,40,NEW,,10,6 Inch (feat. The Weeknd),Beyoncé,Lemonade,1,1,1,5,3,2,10,0,0,40,1
-2021-05-14,41,RE,,10,We're Good,Dua Lipa,Future Nostalgia (The Moonlight Edition),1,1,1,5,3,2,10,0,0,8,4
-2021-05-14,42,RE,,10,Physical,Dua Lipa,Future Nostalgia,1,1,1,5,3,2,10,0,0,17,3
-2021-05-14,43,RE,,10,Prisoner (feat. Dua Lipa),Miley Cyrus,Prisoner (feat. Dua Lipa),1,1,1,5,3,2,10,0,0,16,2
-2021-05-14,44,RE,,10,Chemtrails Over the Country Club,Lana Del Rey,Chemtrails Over the Country Club,1,1,1,5,3,2,10,0,0,41,2
-2021-05-14,45,RE,,10,If I'm Being Honest,dodie,Human,1,1,1,5,3,2,10,0,0,45,2
-2021-05-14,46,RE,,10,HUMAN,dodie,Human,1,1,1,5,3,2,10,0,0,33,4
-2021-05-14,47,RE,,10,Would You Be So Kind,dodie,You - EP,1,1,1,5,3,2,10,0,0,47,2
-2021-05-14,48,RE,,10,you,dodie,You - EP,1,1,1,5,3,2,10,0,0,42,2
-2021-05-14,49,RE,,10,In The Middle,dodie,You - EP,1,1,1,5,3,2,10,0,0,49,1
-2021-05-14,50,RE,,10,Picture to Burn,Taylor Swift,Taylor Swift,1,1,1,5,3,2,10,0,0,50,2
-2021-05-14,51,RE,,10,I Got a Boy,소녀시대,I GOT A BOY,1,1,1,5,3,2,10,0,0,22,3
-2021-05-14,52,RE,,10,ICY,ITZY,IT'z ICY,1,1,1,5,3,2,10,0,0,52,1
-2021-05-14,53,RE,,10,WEE WOO,PRISTIN,The 1st Mini Album 'HI! PRISTIN',1,1,1,5,3,2,10,0,0,53,1
-2021-05-14,54,RE,,10,Chaotic,LOOΠΔ / ODD EYE CIRCLE,Max & Match,1,1,1,5,3,2,10,0,0,23,2
-2021-05-14,55,RE,,10,Chase Me,Dreamcatcher,악몽,1,1,1,5,3,2,10,0,0,15,2
-2021-05-14,56,RE,,10,Summer Rain,GFRIEND,GFRIEND The 5th Mini Album Repackage <RAINBOW>,1,1,1,5,3,2,10,0,0,22,2
-2021-05-14,57,RE,,10,Confident,Demi Lovato,Confident,1,1,1,5,3,2,10,0,0,36,2
-2021-05-14,58,RE,,10,365,Zedd,365,1,1,1,5,3,2,10,0,0,58,2
-2021-05-14,59,RE,,10,Complicated,Avril Lavigne,Let Go,1,1,1,5,3,2,10,0,0,59,3
-2021-05-14,60,RE,,10,AS IF IT'S YOUR LAST,BLACKPINK,AS IF IT'S YOUR LAST,1,1,1,5,3,2,10,0,0,2,5
+2021-05-14,40,RE,,10,We're Good,Dua Lipa,Future Nostalgia (The Moonlight Edition),1,1,1,5,3,2,10,0,0,8,4
+2021-05-14,41,RE,,10,Physical,Dua Lipa,Future Nostalgia,1,1,1,5,3,2,10,0,0,17,3
+2021-05-14,42,RE,,10,Prisoner (feat. Dua Lipa),Miley Cyrus,Prisoner (feat. Dua Lipa),1,1,1,5,3,2,10,0,0,16,2
+2021-05-14,43,RE,,10,Chemtrails Over the Country Club,Lana Del Rey,Chemtrails Over the Country Club,1,1,1,5,3,2,10,0,0,41,2
+2021-05-14,44,RE,,10,If I'm Being Honest,dodie,Human,1,1,1,5,3,2,10,0,0,44,2
+2021-05-14,45,RE,,10,HUMAN,dodie,Human,1,1,1,5,3,2,10,0,0,32,4
+2021-05-14,46,RE,,10,Would You Be So Kind,dodie,You - EP,1,1,1,5,3,2,10,0,0,46,2
+2021-05-14,47,RE,,10,you,dodie,You - EP,1,1,1,5,3,2,10,0,0,42,2
+2021-05-14,48,RE,,10,In The Middle,dodie,You - EP,1,1,1,5,3,2,10,0,0,48,1
+2021-05-14,49,RE,,10,Picture to Burn,Taylor Swift,Taylor Swift,1,1,1,5,3,2,10,0,0,49,2
+2021-05-14,50,RE,,10,I Got a Boy,소녀시대,I GOT A BOY,1,1,1,5,3,2,10,0,0,23,3
+2021-05-14,51,RE,,10,ICY,ITZY,IT'z ICY,1,1,1,5,3,2,10,0,0,51,1
+2021-05-14,52,RE,,10,WEE WOO,PRISTIN,The 1st Mini Album 'HI! PRISTIN',1,1,1,5,3,2,10,0,0,52,1
+2021-05-14,53,RE,,10,Chaotic,LOOΠΔ / ODD EYE CIRCLE,Max & Match,1,1,1,5,3,2,10,0,0,23,2
+2021-05-14,54,RE,,10,Chase Me,Dreamcatcher,악몽,1,1,1,5,3,2,10,0,0,15,2
+2021-05-14,55,RE,,10,Summer Rain,GFRIEND,GFRIEND The 5th Mini Album Repackage <RAINBOW>,1,1,1,5,3,2,10,0,0,22,2
+2021-05-14,56,RE,,10,Confident,Demi Lovato,Confident,1,1,1,5,3,2,10,0,0,36,2
+2021-05-14,57,RE,,10,365,Zedd,365,1,1,1,5,3,2,10,0,0,57,2
+2021-05-14,58,RE,,10,Complicated,Avril Lavigne,Let Go,1,1,1,5,3,2,10,0,0,57,3
+2021-05-14,59,RE,,10,AS IF IT'S YOUR LAST,BLACKPINK,AS IF IT'S YOUR LAST,1,1,1,5,3,2,10,0,0,2,5

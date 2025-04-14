@@ -1,5 +1,5 @@
 Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
-2024-06-28,1,RE,,330,obsessed,Olivia Rodrigo,GUTS (spilled),41,41,1,205,123,2,330,0,0,1,1
+2024-06-28,1,NEW,,330,obsessed,Olivia Rodrigo,GUTS (spilled),41,41,1,205,123,2,330,0,0,1,1
 2024-06-28,2,+51,53,312,pretty isn’t pretty,Olivia Rodrigo,GUTS,36,36,1,180,108,2,290,22,0,2,2
 2024-06-28,3,RE,,298,bad idea right?,Olivia Rodrigo,GUTS,37,37,1,185,111,2,298,0,0,3,2
 2024-06-28,4,-3,1,295,Uptight,Green Day,Nimrod,11,11,1,55,33,2,90,121,84,1,16
@@ -14,7 +14,7 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2024-06-28,13,-5,8,214,Guilty as Sin?,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,9,9,1,45,27,2,74,84,56,8,8
 2024-06-28,14,-9,5,211,Saviors,Green Day,Saviors,9,9,1,45,27,2,74,90,47,5,10
 2024-06-28,15,-3,12,206,I Look in People's Windows,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,14,14,1,70,42,2,114,78,14,12,5
-2024-06-28,16,+32,48,205,Virtual Angel,ARTMS,<DALL>,18,9,10,90,27,20,137,27,41,15,4
+2024-06-28,16,+32,48,205,Virtual Angel,ARTMS,<DALL>,18,9,10,90,27,20,137,27,41,16,4
 2024-06-28,17,+5,22,203,The Black Dog,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,18,18,1,90,54,2,146,51,6,17,5
 2024-06-28,18,-3,15,203,Before the Lobotomy,Green Day,21st Century Breakdown,7,7,1,35,21,2,58,71,74,1,20
 2024-06-28,19,-2,17,188,imgonnagetyouback,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,14,14,1,70,42,2,114,65,9,17,5
@@ -32,7 +32,7 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2024-06-28,31,+12,43,146,Breakaway,Kelly Clarkson,Breakaway,10,10,1,50,30,2,82,33,31,4,26
 2024-06-28,32,-19,13,145,Forever Now,Green Day,Revolution Radio,4,4,1,20,12,2,34,75,36,13,9
 2024-06-28,33,+6,39,137,Since U Been Gone,Kelly Clarkson,Breakaway,8,8,1,40,24,2,66,37,34,11,26
-2024-06-28,34,-4,30,134,Espresso,Sabrina Carpenter,Please Please Please,6,6,1,30,18,2,50,43,41,17,3
+2024-06-28,34,-4,30,134,Espresso,Sabrina Carpenter,Please Please Please,6,6,1,30,18,2,50,43,41,15,3
 2024-06-28,35,+3,38,133,Helena,My Chemical Romance,Three Cheers for Sweet Revenge,7,7,1,35,21,2,58,37,38,2,26
 2024-06-28,36,+1,37,130,Birth,ARTMS,<DALL>,6,6,1,30,18,2,50,37,43,13,5
 2024-06-28,37,-5,32,127,Style (Taylor's Version),Taylor Swift,1989 (Taylor's Version),6,6,1,30,18,2,50,40,37,8,26
@@ -70,32 +70,32 @@ Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,St
 2024-06-28,69,RE,,58,Houdini,Dua Lipa,Radical Optimism,7,7,1,35,21,2,58,0,0,69,1
 2024-06-28,70,RE,,58,Gone,Kelly Clarkson,Breakaway,7,7,1,35,21,2,58,0,0,70,6
 2024-06-28,71,-13,58,55,Corvette Summer,Green Day,Saviors,3,3,1,15,9,2,26,15,14,14,23
-2024-06-28,72,-18,54,50,Wake Me Up When September Ends,Green Day,American Idiot,1,1,1,5,3,2,10,20,20,4,25
-2024-06-28,73,-11,62,48,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,34,14,0,35,8
-2024-06-28,74,NEW,,42,Hear Me,Kelly Clarkson,Breakaway,5,5,1,25,15,2,42,0,0,74,1
-2024-06-28,75,NEW,,42,I Hate Myself for Losing You,Kelly Clarkson,Breakaway,5,5,1,25,15,2,42,0,0,75,1
-2024-06-28,76,RE,,42,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,42,0,0,47,9
-2024-06-28,77,-22,55,42,I Can Fix Him (No Really I Can),Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,2,2,1,10,6,2,18,18,6,55,3
+2024-06-28,72,-17,55,50,Wake Me Up When September Ends,Green Day,American Idiot,1,1,1,5,3,2,10,20,20,4,25
+2024-06-28,73,-10,63,48,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,34,14,0,35,8
+2024-06-28,74,-20,54,45,I Can Fix Him (No Really I Can),Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,2,2,1,10,6,2,18,20,7,54,4
+2024-06-28,75,NEW,,42,Hear Me,Kelly Clarkson,Breakaway,5,5,1,25,15,2,42,0,0,75,1
+2024-06-28,76,NEW,,42,I Hate Myself for Losing You,Kelly Clarkson,Breakaway,5,5,1,25,15,2,42,0,0,76,1
+2024-06-28,77,RE,,42,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,42,0,0,47,9
 2024-06-28,78,RE,,38,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,1,5,25,3,10,38,0,0,41,5
-2024-06-28,79,-23,56,35,I Can Do It with a Broken Heart,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,1,1,1,5,3,2,10,17,8,50,10
-2024-06-28,80,NEW,,34,Beautiful Disaster (Live),Kelly Clarkson,Breakaway,4,4,1,20,12,2,34,0,0,80,1
-2024-06-28,81,+5,86,34,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,18,12,4,9,15
-2024-06-28,82,RE,,34,Real world,Loossemble,LOOSSEMBLE,4,4,1,20,12,2,34,0,0,82,4
-2024-06-28,83,RE,,34,Sensitive,Loossemble,LOOSSEMBLE,4,4,1,20,12,2,34,0,0,83,4
-2024-06-28,84,RE,,34,Intro: Searching for their friends,Loossemble,LOOSSEMBLE,4,4,1,20,12,2,34,0,0,84,4
-2024-06-28,85,RE,,34,Tough Act,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,85,1
-2024-06-28,86,RE,,34,Volcano,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,86,1
-2024-06-28,87,RE,,34,Talking To Strangers,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,87,1
-2024-06-28,88,RE,,34,Elvis Song,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,88,1
-2024-06-28,89,RE,,34,Brooklyn,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,89,1
-2024-06-28,90,RE,,34,Villain,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,90,1
-2024-06-28,91,RE,,34,Hollow,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,91,1
-2024-06-28,92,RE,,34,Boy,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,92,1
-2024-06-28,93,RE,,34,Psycho,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,46,2
-2024-06-28,94,RE,,34,Love Him I Don’t,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,94,1
-2024-06-28,95,RE,,34,Outdoor Pool,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,82,2
-2024-06-28,96,RE,,34,John Hughes Movie,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,75,2
-2024-06-28,97,RE,,34,I’m Trying (Not Friends),Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,43,2
-2024-06-28,98,RE,,34,You Signed Up For This,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,76,2
-2024-06-28,99,RE,,34,You Found Me,Kelly Clarkson,Breakaway,4,4,1,20,12,2,34,0,0,99,1
-2024-06-28,100,RE,,34,Walk Away,Kelly Clarkson,Breakaway,4,4,1,20,12,2,34,0,0,67,2
+2024-06-28,79,-18,61,39,Who’s Afraid of Little Old Me?,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,2,2,1,10,6,2,18,15,6,61,4
+2024-06-28,80,-24,56,35,I Can Do It with a Broken Heart,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,1,1,1,5,3,2,10,17,8,50,10
+2024-06-28,81,NEW,,34,Beautiful Disaster (Live),Kelly Clarkson,Breakaway,4,4,1,20,12,2,34,0,0,81,1
+2024-06-28,82,NEW,,34,You Found Me,Kelly Clarkson,Breakaway,4,4,1,20,12,2,34,0,0,82,1
+2024-06-28,83,+4,87,34,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,18,12,4,9,15
+2024-06-28,84,RE,,34,Real world,Loossemble,LOOSSEMBLE,4,4,1,20,12,2,34,0,0,84,4
+2024-06-28,85,RE,,34,Sensitive,Loossemble,LOOSSEMBLE,4,4,1,20,12,2,34,0,0,85,4
+2024-06-28,86,RE,,34,Intro: Searching for their friends,Loossemble,LOOSSEMBLE,4,4,1,20,12,2,34,0,0,86,4
+2024-06-28,87,RE,,34,Tough Act,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,87,1
+2024-06-28,88,RE,,34,Volcano,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,88,1
+2024-06-28,89,RE,,34,Talking To Strangers,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,89,1
+2024-06-28,90,RE,,34,Elvis Song,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,90,1
+2024-06-28,91,RE,,34,Brooklyn,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,91,1
+2024-06-28,92,RE,,34,Villain,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,92,1
+2024-06-28,93,RE,,34,Hollow,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,93,1
+2024-06-28,94,RE,,34,Boy,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,94,1
+2024-06-28,95,RE,,34,Psycho,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,46,2
+2024-06-28,96,RE,,34,Love Him I Don’t,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,96,1
+2024-06-28,97,RE,,34,Outdoor Pool,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,84,2
+2024-06-28,98,RE,,34,John Hughes Movie,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,77,2
+2024-06-28,99,RE,,34,I’m Trying (Not Friends),Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,43,2
+2024-06-28,100,RE,,34,You Signed Up For This,Maisie Peters,You Signed Up For This,4,4,1,20,12,2,34,0,0,78,2
