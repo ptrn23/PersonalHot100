@@ -7,6 +7,10 @@ import requests
 import pylast
 from key import API_KEY, API_SECRET
 
+from points.utils import calculate_points, calculate_weighted_points
+from points.chart_tracker import get_past_points, update_peak_woc, get_rank_change_status
+from points.album_cover import get_album_cover, get_dominant_color, rgb_to_hex
+
 input_file = 'plays/2025_plays_by_week.csv'
 updates_file = 'updates/2025.txt'
 yearly_csv_file = 'updates/2025.csv'
@@ -55,50 +59,7 @@ def get_friday(date_str):
     friday_date = date + timedelta(days=days_to_friday)
     return friday_date.strftime("%Y-%m-%d")
 
-def calculate_points(streams, sales, airplay):
-    return ceil((STREAMS_WEIGHT * streams + SALES_WEIGHT * sales + AIRPLAY_WEIGHT * airplay) / 1000)
-
-def calculate_weighted_points(current_points, previous_points, two_weeks_ago_points):
-    return ceil(
-        RETENTION_WEIGHTS[0] * current_points +
-        RETENTION_WEIGHTS[1] * previous_points +
-        RETENTION_WEIGHTS[2] * two_weeks_ago_points
-    )
-
-def get_past_points(week_idx, song, artist, ranked_weeks):
-    previous_points = 0
-    two_weeks_ago_points = 0
-
-    if week_idx > 0:
-        prev_week_songs = {entry[0]: entry[2] for entry in ranked_weeks[week_idx - 1][1]}
-        if (song, artist) in prev_week_songs:
-            previous_points = prev_week_songs[(song, artist)]
-
-    if week_idx > 1:
-        two_weeks_ago_songs = {entry[0]: entry[2] for entry in ranked_weeks[week_idx - 2][1]}
-        if (song, artist) in two_weeks_ago_songs:
-            two_weeks_ago_points = two_weeks_ago_songs[(song, artist)]
-
-    return previous_points, two_weeks_ago_points
-
 network = pylast.LastFMNetwork(api_key=API_KEY, api_secret=API_SECRET)
-
-def get_album_cover(album_name, artist_name):
-    params = {
-        'method': 'album.getInfo',
-        'api_key': API_KEY,
-        'artist': artist_name,
-        'album': album_name,
-        'format': 'json'
-    }
-    response = requests.get(BASE_URL, params=params)
-    data = response.json()
-
-    if 'album' in data and 'image' in data['album']:
-        images = data['album']['image']
-        if images:
-            return images[-1]['#text']
-    return ""
 
 for week_index, week in enumerate(sorted(weekly_data.keys())):
     weighted_scores = {}

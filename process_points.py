@@ -1,0 +1,142 @@
+import os
+import csv
+from collections import defaultdict
+from datetime import datetime
+from math import ceil
+
+from points.calculations import calculate_points, calculate_weighted_points
+from points.tracker import get_past_points, update_peak_and_woc, get_status
+
+YEAR = "2025"
+PLAYS_DIR = f"plays/{YEAR}"
+POINTS_DIR = f"points/{YEAR}"
+CHART_LIMIT = 100
+CHARTED_CACHE_FILE = "points/ever_charted.csv"
+
+os.makedirs(POINTS_DIR, exist_ok=True)
+
+charted_cache = {}
+if os.path.exists(CHARTED_CACHE_FILE):
+    with open(CHARTED_CACHE_FILE, "r", encoding="utf-8") as f:
+        reader = csv.reader(f)
+        next(reader)
+        for row in reader:
+            song, artist, first_week = row
+            charted_cache[(song, artist)] = first_week
+
+ranked_weeks = []
+all_songs = defaultdict(lambda: {
+    "peak": CHART_LIMIT + 1,
+    "woc": 0,
+    "album": ""
+})
+
+for filename in sorted(os.listdir(PLAYS_DIR)):
+    if not filename.endswith(".csv"):
+        continue
+
+    filepath = os.path.join(PLAYS_DIR, filename)
+    week_str = filename.replace(".csv", "")
+    week_date = datetime.strptime(f"{YEAR}-{week_str}", "%Y-%m-%d")
+    week_key = week_date.strftime("%Y-%m-%d")
+
+    weekly_data = []
+    with open(filepath, "r", encoding="utf-8") as f:
+        reader = csv.reader(f)
+        next(reader)
+        for row in reader:
+            week, song, album, artist, streams, sales, airplay = row
+            weekly_data.append((
+                song, album, artist,
+                int(streams), int(sales), int(airplay)
+            ))
+
+    weighted_scores = {}
+    raw_point_map = {}
+    
+    for song, album, artist, streams, sales, airplay in weekly_data:
+        raw_points = calculate_points(streams, sales, airplay)
+        prev_pts, two_weeks_pts = get_past_points(len(ranked_weeks), song, artist, ranked_weeks)
+        weighted = calculate_weighted_points(raw_points, prev_pts, two_weeks_pts)
+
+        key = (song, artist)
+        weighted_scores[key] = weighted
+        raw_point_map[key] = (streams, sales, airplay, raw_points, prev_pts, two_weeks_pts)
+
+        all_songs[key]["album"] = album
+
+    sorted_songs = sorted(weighted_scores.items(), key=lambda x: x[1], reverse=True)
+
+    debuts = [(sa, pts) for sa, pts in sorted_songs if sa not in charted_cache]
+    returning = [(sa, pts) for sa, pts in sorted_songs if sa in charted_cache]
+
+    limited_debuts = debuts[:100] if len(ranked_weeks) == 0 else debuts[:25]
+    ranked = limited_debuts + returning
+    ranked.sort(key=lambda x: x[1], reverse=True)
+    ranked = ranked[:CHART_LIMIT]
+
+    week_ranks = []
+    prev_week_positions = {
+        sa: pos for sa, pos, _ in ranked_weeks[-1][1]
+    } if ranked_weeks else {}
+
+    for rank, (key, points) in enumerate(ranked, start=1):
+        song, artist = key
+        album = all_songs[key]["album"]
+
+        update_peak_and_woc(all_songs[key], rank)
+
+        streams, sales, airplay, total_points, prev_pts, two_weeks_pts = raw_point_map[key]
+        stream_pts = ceil(streams * 5000 / 1000)
+        sale_pts = ceil(sales * 3000 / 1000)
+        air_pts = ceil(airplay * 2000 / 1000)
+        week_total_points = ceil(total_points + ceil(prev_pts * 0.3) + ceil(two_weeks_pts * 0.2))
+
+        previous_rank = prev_week_positions.get(key)
+        status = get_status(rank, prev_week_positions.get(key), key, charted_cache, prev_week_positions, week_key)
+        
+        if key not in charted_cache or week_key < charted_cache[key]:
+            charted_cache[key] = week_key
+
+        week_ranks.append((
+            week_key, 
+            rank, status, previous_rank,
+            week_total_points,
+            song, artist, album,
+            streams, sales, airplay,
+            stream_pts, sale_pts, air_pts,
+            total_points,
+            ceil(prev_pts * 0.3), ceil(two_weeks_pts * 0.2),
+            all_songs[key]["peak"], all_songs[key]["woc"]
+            
+        ))
+
+    ranked_weeks.append((week_key, [(key, rank, points) for rank, (key, points) in enumerate(ranked, start=1)]))
+
+    # Save weekly CSV
+    out_file = os.path.join(POINTS_DIR, f"{week_str}.csv")
+    with open(out_file, "w", encoding="utf-8", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow([
+            'Week', 
+            'Position', 'Rise/Fall', 'Previous Rank',
+            'Total Weighted Points',
+            'Song', 'Artist', 'Album',
+            'Streams', 'Sales', 'Airplay',
+            'Streams Points', 'Sales Points', 'Airplay Points',
+            'Current Week Points',
+            'Previous Week Points', 'Two Weeks Ago Points',
+            'Peak', 'WOC'
+            
+        ])
+        writer.writerows(week_ranks)
+
+    print(f"Saved weekly points: {week_str}-{YEAR}")
+
+with open(CHARTED_CACHE_FILE, "w", encoding="utf-8", newline="") as f:
+    writer = csv.writer(f)
+    writer.writerow(["Song", "Artist", "First_Week"])
+    for (song, artist), week in sorted(charted_cache.items(), key=lambda x: x[1]):
+        writer.writerow([song, artist, week])
+
+print(f"Updated charted history cache: {CHARTED_CACHE_FILE}")

@@ -1,9 +1,10 @@
 import csv
+import os
 from datetime import datetime, timedelta
 from collections import defaultdict
 
 input_file = 'data/2025.csv'
-output_file = 'plays/2025_plays_by_week.csv'
+output_root = 'plays'
 
 def get_week_friday(date):
     # Week starts on Friday 00:00 AM
@@ -43,12 +44,10 @@ with open(input_file, 'r', encoding='utf-8') as file:
         artist_mapping[(song, album, artist)] = artist
         
         song_data = weekly_data[week_friday][(song, album, artist)]
-        
         song_data["streams"] += 1
         
         if previous_week != week_friday or previous_song != song or previous_album != album or previous_artist != artist:
             song_data["sales"] += 1
-            
             ongoing_streak[(previous_song, previous_album, previous_artist)] = 0
         
         ongoing_streak[(song, album, artist)] += 1
@@ -59,14 +58,18 @@ with open(input_file, 'r', encoding='utf-8') as file:
         previous_artist = artist
         previous_week = week_friday
 
-with open(output_file, 'w', encoding='utf-8', newline='') as file:
-    writer = csv.writer(file)
+for week, songs in sorted(weekly_data.items()):
+    year = week.year
+    week_str = week.strftime("%m-%d")
+    output_dir = os.path.join(output_root, str(year))
+    os.makedirs(output_dir, exist_ok=True)
+    output_file = os.path.join(output_dir, f"{week_str}.csv")
     
-    writer.writerow(["Week", "Song Name", "Album Name", "Artist Name", "Streams", "Sales", "Airplay"])
-    
-    for week, songs in sorted(weekly_data.items()):
+    with open(output_file, 'w', encoding='utf-8', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(["Week", "Song Name", "Album Name", "Artist Name", "Streams", "Sales", "Airplay"])
+        
         for (song, album, artist), data in songs.items():
-            # Write the row
             writer.writerow([week.strftime("%Y-%m-%d"), song, album, artist, data["streams"], data["sales"], data["airplay"]])
 
-print(f"Weekly data with updated metrics and artist names has been saved to {output_file}")
+print("Weekly files saved to the 'plays/' folder.")
