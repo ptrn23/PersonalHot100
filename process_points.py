@@ -84,15 +84,29 @@ for filename in sorted(os.listdir(PLAYS_DIR)):
         song, artist = key
         album = all_songs[key]["album"]
 
-        update_peak_and_woc(all_songs[key], rank)
+        is_new_peak = update_peak_and_woc(all_songs[key], rank)
 
         streams, sales, airplay, total_points, prev_pts, two_weeks_pts = raw_point_map[key]
         stream_pts = ceil(streams * 5000 / 1000)
         sale_pts = ceil(sales * 3000 / 1000)
         air_pts = ceil(airplay * 2000 / 1000)
         week_total_points = ceil(total_points + ceil(prev_pts * 0.3) + ceil(two_weeks_pts * 0.2))
+        
+        stream_units = ceil(streams * 5000 * 10)
+        sale_units = ceil(sales * 3000)
+        air_units = ceil(airplay * 2000 * 50)
+        total_units = stream_units + sale_units + air_units
+        
+        if prev_pts == 0:
+            percent_change = "--"
+        else:
+            percent_change = round((total_points - ceil(prev_pts * 0.3)) / ceil(prev_pts * 0.3), 2)
+        
+        stream_percent = round(stream_units / total_units, 2)
+        sale_percent = round(sale_units / total_units, 2)
+        air_percent = round(air_units / total_units, 2)
 
-        previous_rank = prev_week_positions.get(key)
+        previous_rank = prev_week_positions.get(key) if prev_week_positions.get(key) else "--"
         status = get_status(rank, prev_week_positions.get(key), key, charted_cache, prev_week_positions, week_key)
         
         if key not in charted_cache or week_key < charted_cache[key]:
@@ -100,11 +114,15 @@ for filename in sorted(os.listdir(PLAYS_DIR)):
 
         week_ranks.append((
             week_key, 
-            rank, status, previous_rank,
+            rank, status, previous_rank, is_new_peak,
             week_total_points,
+            percent_change,
             song, artist, album,
             streams, sales, airplay,
             stream_pts, sale_pts, air_pts,
+            stream_units, sale_units, air_units,
+            stream_percent, sale_percent, air_percent,
+            total_units,
             total_points,
             ceil(prev_pts * 0.3), ceil(two_weeks_pts * 0.2),
             all_songs[key]["peak"], all_songs[key]["woc"]
@@ -112,18 +130,21 @@ for filename in sorted(os.listdir(PLAYS_DIR)):
         ))
 
     ranked_weeks.append((week_key, [(key, rank, points) for rank, (key, points) in enumerate(ranked, start=1)]))
-
-    # Save weekly CSV
+    
     out_file = os.path.join(POINTS_DIR, f"{week_str}.csv")
     with open(out_file, "w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f)
         writer.writerow([
             'Week', 
-            'Position', 'Rise/Fall', 'Previous Rank',
+            'Position', 'Rise/Fall', 'Previous Rank', 'New Peak?',
             'Total Weighted Points',
+            '%',
             'Song', 'Artist', 'Album',
             'Streams', 'Sales', 'Airplay',
             'Streams Points', 'Sales Points', 'Airplay Points',
+            'Streams Units', 'Sales Units', 'Airplay Units',
+            'Streams %', 'Sales %', 'Airplay %',
+            'Total Units',
             'Current Week Points',
             'Previous Week Points', 'Two Weeks Ago Points',
             'Peak', 'WOC'
