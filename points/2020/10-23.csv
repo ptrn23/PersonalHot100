@@ -1,31 +1,42 @@
-Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
-2020-10-23,1,+26,27,13,Lion Heart,소녀시대,Lion Heart - The 5th Album,1,1,1,5,3,2,10,3,0,1,3
-2020-10-23,2,+14,16,13,Make A Wish (Birthday Song) (English Version),NCT U,RESONANCE Pt. 1 (The 2nd Album),1,1,1,5,3,2,10,3,0,2,2
-2020-10-23,3,RE,,12,Monster,Red Velvet - IRENE & SEULGI,Monster - The 1st Mini Album,1,1,1,5,3,2,10,0,2,1,3
-2020-10-23,4,NEW,,10,BOOMBOOM,Seventeen,Seventeen 3rd Mini Album ’Going Seventeen’,1,1,1,5,3,2,10,0,0,4,1
-2020-10-23,5,NEW,,10,Sweet Chaos,DAY6,The Book of Us : Entropy,1,1,1,5,3,2,10,0,0,5,1
-2020-10-23,6,NEW,,10,Into You (3LAU Remix),Ariana Grande,Into You (3LAU Remix),1,1,1,5,3,2,10,0,0,6,1
-2020-10-23,7,NEW,,10,서곡 Prelude 序曲,NCT 127,NCT #127 Neo Zone: The Final Round - The 2nd Album Repackage,1,1,1,5,3,2,10,0,0,7,1
-2020-10-23,8,NEW,,10,Don’t Need Your Love,NCT DREAM & HRVY,Don’t Need Your Love,1,1,1,5,3,2,10,0,0,8,1
-2020-10-23,9,NEW,,10,놀이 Naughty,Red Velvet - IRENE & SEULGI,놀이 Naughty,1,1,1,5,3,2,10,0,0,9,1
-2020-10-23,10,NEW,,10,몰랐니 Lil’ Touch,Girls' Generation-Oh!GG,몰랐니 Lil’ Touch - The 1st Single,1,1,1,5,3,2,10,0,0,10,1
-2020-10-23,11,NEW,,10,마지막 첫사랑 My First and Last,NCT DREAM,The First - The 1st Single Album,1,1,1,5,3,2,10,0,0,11,1
-2020-10-23,12,NEW,,10,Apple,여자친구 (GFriend),回:Song of the Sirens,1,1,1,5,3,2,10,0,0,12,1
-2020-10-23,13,NEW,,10,Lotto,EXO,LOTTO (The 3rd Album Repackage),1,1,1,5,3,2,10,0,0,13,1
-2020-10-23,14,NEW,,10,Blue Flame,Astro,BLUE FLAME,1,1,1,5,3,2,10,0,0,14,1
-2020-10-23,15,NEW,,10,BOCA,드림캐쳐 DREAMCATCHER,[Dystopia : Lose Myself],1,1,1,5,3,2,10,0,0,15,1
-2020-10-23,16,NEW,,10,Black on Black,NCT,NCT 2018 EMPATHY,1,1,1,5,3,2,10,0,0,16,1
-2020-10-23,17,NEW,,10,Love Letter,이달의 소녀,JinSoul,1,1,1,5,3,2,10,0,0,17,1
-2020-10-23,18,NEW,,10,Misfit,NCT U,RESONANCE Pt. 1 (The 2nd Album),1,1,1,5,3,2,10,0,0,18,1
-2020-10-23,19,NEW,,10,Pretty Savage,BLACKPINK,THE ALBUM,1,1,1,5,3,2,10,0,0,19,1
-2020-10-23,20,NEW,,10,NCT DREAM - 'Déjà Vu' Lyrics [Color Coded_Han_Rom_Eng],Zaty Farhani,,1,1,1,5,3,2,10,0,0,20,1
-2020-10-23,21,NEW,,10,無限的我 무한적아; LIMITLESS,NCT 127,NCT#127 LIMITLESS - The 2nd Mini Album,1,1,1,5,3,2,10,0,0,21,1
-2020-10-23,22,NEW,,10,LA DI DA,Everglow,-77.82x / -78.29,1,1,1,5,3,2,10,0,0,22,1
-2020-10-23,23,NEW,,10,Girls,Nature,NATURE WORLD: CODE M,1,1,1,5,3,2,10,0,0,23,1
-2020-10-23,24,NEW,,10,God’s Menu,Stray Kids,GO LIVE,1,1,1,5,3,2,10,0,0,24,1
-2020-10-23,25,NEW,,10,BOSS,NCT U,NCT 2018 Empathy,1,1,1,5,3,2,10,0,0,25,1
-2020-10-23,26,NEW,,10,INCEPTION,ATEEZ,ZERO : FEVER Part.1,1,1,1,5,3,2,10,0,0,26,1
-2020-10-23,27,NEW,,10,Can't You See Me?,TOMORROW X TOGETHER,The Dream Chapter: ETERNITY,1,1,1,5,3,2,10,0,0,27,1
-2020-10-23,28,NEW,,10,중독 Overdose,EXO-K,The 2nd Mini Album '중독 Overdose',1,1,1,5,3,2,10,0,0,28,1
-2020-10-23,29,RE,,10,illicit affairs,Taylor Swift,,1,1,1,5,3,2,10,0,0,3,4
-2020-10-23,30,RE,,10,mad woman,Taylor Swift,,1,1,1,5,3,2,10,0,0,17,3
+Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
+2020-10-23,1,+8,9,True,13,2.33,Lion Heart,소녀시대,Lion Heart - The 5th Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,1,3
+2020-10-23,2,+54,56,True,13,2.33,Pretty Savage,BLACKPINK,THE ALBUM,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,2,2
+2020-10-23,3,+22,25,True,13,2.33,Make A Wish (Birthday Song) (English Version),NCT U,RESONANCE Pt. 1 (The 2nd Album),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,3,2
+2020-10-23,4,RE,--,False,12,--,Monster,Red Velvet - IRENE & SEULGI,Monster - The 1st Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,1,3
+2020-10-23,5,NEW,--,True,10,--,BOOMBOOM,Seventeen,Seventeen 3rd Mini Album ’Going Seventeen’,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,1
+2020-10-23,6,NEW,--,True,10,--,Sweet Chaos,DAY6,The Book of Us : Entropy,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,1
+2020-10-23,7,NEW,--,True,10,--,Into You (3LAU Remix),Ariana Grande,Into You (3LAU Remix),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,1
+2020-10-23,8,NEW,--,True,10,--,서곡 Prelude 序曲,NCT 127,NCT #127 Neo Zone: The Final Round - The 2nd Album Repackage,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,1
+2020-10-23,9,NEW,--,True,10,--,Don’t Need Your Love,NCT DREAM & HRVY,Don’t Need Your Love,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,9,1
+2020-10-23,10,NEW,--,True,10,--,놀이 Naughty,Red Velvet - IRENE & SEULGI,놀이 Naughty,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,1
+2020-10-23,11,RE,--,False,10,--,illicit affairs,Taylor Swift,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,4
+2020-10-23,12,NEW,--,True,10,--,몰랐니 Lil’ Touch,Girls' Generation-Oh!GG,몰랐니 Lil’ Touch - The 1st Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,1
+2020-10-23,13,NEW,--,True,10,--,마지막 첫사랑 My First and Last,NCT DREAM,The First - The 1st Single Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,1
+2020-10-23,14,NEW,--,True,10,--,Apple,여자친구 (GFriend),回:Song of the Sirens,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,1
+2020-10-23,15,NEW,--,True,10,--,Lotto,EXO,LOTTO (The 3rd Album Repackage),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,1
+2020-10-23,16,NEW,--,True,10,--,Blue Flame,Astro,BLUE FLAME,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,1
+2020-10-23,17,NEW,--,True,10,--,BOCA,드림캐쳐 DREAMCATCHER,[Dystopia : Lose Myself],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,1
+2020-10-23,18,NEW,--,True,10,--,Black on Black,NCT,NCT 2018 EMPATHY,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,1
+2020-10-23,19,NEW,--,True,10,--,Love Letter,이달의 소녀,JinSoul,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,19,1
+2020-10-23,20,NEW,--,True,10,--,Misfit,NCT U,RESONANCE Pt. 1 (The 2nd Album),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,20,1
+2020-10-23,21,RE,--,False,10,--,mad woman,Taylor Swift,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,2
+2020-10-23,22,NEW,--,True,10,--,NCT DREAM - 'Déjà Vu' Lyrics [Color Coded_Han_Rom_Eng],Zaty Farhani,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,1
+2020-10-23,23,NEW,--,True,10,--,無限的我 무한적아; LIMITLESS,NCT 127,NCT#127 LIMITLESS - The 2nd Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,1
+2020-10-23,24,NEW,--,True,10,--,LA DI DA,Everglow,-77.82x / -78.29,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,24,1
+2020-10-23,25,NEW,--,True,10,--,Girls,Nature,NATURE WORLD: CODE M,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,25,1
+2020-10-23,26,NEW,--,True,10,--,God’s Menu,Stray Kids,GO LIVE,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,26,1
+2020-10-23,27,RE,--,True,10,--,BOSS,NCT U,NCT 2018 Empathy,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,27,2
+2020-10-23,28,NEW,--,True,10,--,INCEPTION,ATEEZ,ZERO : FEVER Part.1,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,28,1
+2020-10-23,29,NEW,--,True,10,--,Can't You See Me?,TOMORROW X TOGETHER,The Dream Chapter: ETERNITY,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,29,1
+2020-10-23,30,NEW,--,True,10,--,중독 Overdose,EXO-K,The 2nd Mini Album '중독 Overdose',1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,30,1
+2020-10-23,31,NEW,--,True,10,--,Lovesick Girls,BLACKPINK,THE ALBUM,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,31,1
+2020-10-23,32,NEW,--,True,10,--,Labyrinth,여자친구 (GFriend),回:LABYRINTH,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,32,1
+2020-10-23,33,NEW,--,True,10,--,The Stealer,THE BOYZ,THE BOYZ 5th MINI ALBUM [CHASE],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,33,1
+2020-10-23,34,NEW,--,True,10,--,Star (목소리 English Ver.),이달의 소녀,［12:00］,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,34,1
+2020-10-23,35,NEW,--,True,10,--,OOPS!,이달의 소녀,［12:00］,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,35,1
+2020-10-23,36,NEW,--,True,10,--,숨바꼭질 (Hide & Seek),이달의 소녀,［12:00］,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,36,1
+2020-10-23,37,NEW,--,True,10,--,Universe,이달의 소녀,［12:00］,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,37,1
+2020-10-23,38,NEW,--,True,10,--,기억해 (Fall Again),이달의 소녀,［12:00］,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,38,1
+2020-10-23,39,NEW,--,True,10,--,목소리 (Voice),이달의 소녀,［12:00］,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,39,1
+2020-10-23,40,NEW,--,True,10,--,Why Not?,이달의 소녀,［12:00］,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,40,1
+2020-10-23,41,NEW,--,True,10,--,12:00,이달의 소녀,［12:00］,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,41,1

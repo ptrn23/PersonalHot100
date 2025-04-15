@@ -1,23 +1,23 @@
-Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
-2020-09-18,1,+28,29,13,?chame La Culpa,Luis Fonsi & Demi Lovato,?chame La Culpa (Not On You Remix) - Single,1,1,1,5,3,2,10,3,0,1,3
-2020-09-18,2,NEW,,10,RBB (Really Bad Boy) (Eng Ver.),Red Velvet,RBB - The 5th Mini Album - EP,1,1,1,5,3,2,10,0,0,2,1
-2020-09-18,3,NEW,,10,Lion Heart,소녀시대,Lion Heart - The 5th Album,1,1,1,5,3,2,10,0,0,3,1
-2020-09-18,4,NEW,,10,Would You Be So Kind,dodie,You - EP,1,1,1,5,3,2,10,0,0,4,1
-2020-09-18,5,NEW,,10,I Know What I Want,Taylor Swift,Unreleased Songs,1,1,1,5,3,2,10,0,0,5,1
-2020-09-18,6,NEW,,10,Sorry Not Sorry,Demi Lovato,Tell Me You Love Me (Deluxe),1,1,1,5,3,2,10,0,0,6,1
-2020-09-18,7,NEW,,10,Stay With Me Babe (Bonus Track),LOOΠΔ,X X - Limited A,1,1,1,5,3,2,10,0,0,7,1
-2020-09-18,8,NEW,,10,Fire,2NE1,2NE1 1st Mini Album,1,1,1,5,3,2,10,0,0,8,1
-2020-09-18,9,NEW,,10,you,dodie,You - EP,1,1,1,5,3,2,10,0,0,9,1
-2020-09-18,10,NEW,,10,SLUMP (Tower of God ED),Stray Kids,TOP,1,1,1,5,3,2,10,0,0,10,1
-2020-09-18,11,NEW,,10,Sixteen,OH MY GIRL,Secret Garden - EP,1,1,1,5,3,2,10,0,0,11,1
-2020-09-18,12,NEW,,10,The Principal,Melanie Martinez,K-12,1,1,1,5,3,2,10,0,0,12,1
-2020-09-18,13,NEW,,10,Spring,MCND,Spring - Single,1,1,1,5,3,2,10,0,0,13,1
-2020-09-18,14,NEW,,10,Welcome,IZ*ONE,Oneiric Diary (幻想日記),1,1,1,5,3,2,10,0,0,14,1
-2020-09-18,15,NEW,,10,Back Door,Stray Kids (스트레이 키즈),IN生,1,1,1,5,3,2,10,0,0,15,1
-2020-09-18,16,NEW,,10,Intro,GFRIEND,GFriend The 1st Album 'LOL',1,1,1,5,3,2,10,0,0,16,1
-2020-09-18,17,RE,,10,Carousel,Melanie Martinez,Cry Baby,1,1,1,5,3,2,10,0,0,2,2
-2020-09-18,18,RE,,10,Um Oh Ah Yeh,MAMAMOO,Pink Funky,1,1,1,5,3,2,10,0,0,18,3
-2020-09-18,19,RE,,10,Scream,Dreamcatcher,1st Album [Dystopia : The Tree of Language],1,1,1,5,3,2,10,0,0,19,2
-2020-09-18,20,RE,,10,놀이 (Naughty),레드벨벳-아이린 & 슬기,Monster - The 1st Mini Album,1,1,1,5,3,2,10,0,0,20,2
-2020-09-18,21,RE,,10,Break My Heart,Dua Lipa,Future Nostalgia,1,1,1,5,3,2,10,0,0,11,3
-2020-09-18,22,RE,,10,Valkyrie,ONEUS,LIGHT US,1,1,1,5,3,2,10,0,0,1,4
+Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
+2020-09-18,1,+3,4,True,13,2.33,?chame La Culpa,Luis Fonsi & Demi Lovato,?chame La Culpa (Not On You Remix) - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,1,4
+2020-09-18,2,NEW,--,True,10,--,RBB (Really Bad Boy) (Eng Ver.),Red Velvet,RBB - The 5th Mini Album - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,1
+2020-09-18,3,RE,--,False,10,--,Carousel,Melanie Martinez,Cry Baby,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,2
+2020-09-18,4,NEW,--,True,10,--,Lion Heart,소녀시대,Lion Heart - The 5th Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,1
+2020-09-18,5,NEW,--,True,10,--,Would You Be So Kind,dodie,You - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,1
+2020-09-18,6,NEW,--,True,10,--,I Know What I Want,Taylor Swift,Unreleased Songs,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,1
+2020-09-18,7,RE,--,True,10,--,Um Oh Ah Yeh,MAMAMOO,Pink Funky,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,3
+2020-09-18,8,RE,--,True,10,--,Sorry Not Sorry,Demi Lovato,Tell Me You Love Me (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,2
+2020-09-18,9,NEW,--,True,10,--,Stay With Me Babe (Bonus Track),LOOΠΔ,X X - Limited A,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,9,1
+2020-09-18,10,RE,--,True,10,--,Scream,Dreamcatcher,1st Album [Dystopia : The Tree of Language],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,2
+2020-09-18,11,NEW,--,True,10,--,Fire,2NE1,2NE1 1st Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,11,1
+2020-09-18,12,NEW,--,True,10,--,you,dodie,You - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,1
+2020-09-18,13,NEW,--,True,10,--,SLUMP (Tower of God ED),Stray Kids,TOP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,1
+2020-09-18,14,RE,--,True,10,--,Sixteen,OH MY GIRL,Secret Garden - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,2
+2020-09-18,15,RE,--,True,10,--,놀이 (Naughty),레드벨벳-아이린 & 슬기,Monster - The 1st Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,2
+2020-09-18,16,NEW,--,True,10,--,The Principal,Melanie Martinez,K-12,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,1
+2020-09-18,17,RE,--,False,10,--,Break My Heart,Dua Lipa,Future Nostalgia,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,11,3
+2020-09-18,18,NEW,--,True,10,--,Spring,MCND,Spring - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,1
+2020-09-18,19,RE,--,False,10,--,Valkyrie,ONEUS,LIGHT US,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,5
+2020-09-18,20,NEW,--,True,10,--,Welcome,IZ*ONE,Oneiric Diary (幻想日記),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,20,1
+2020-09-18,21,NEW,--,True,10,--,Back Door,Stray Kids (스트레이 키즈),IN生,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,1
+2020-09-18,22,NEW,--,True,10,--,Intro,GFRIEND,GFriend The 1st Album 'LOL',1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,1

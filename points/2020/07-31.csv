@@ -1,2 +1,2 @@
-Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
-2020-07-31,1,NEW,,10,Uncover (Sung by SEULGI) (Bonus Track),Red Velvet - IRENE & SEULGI,Monster - The 1st Mini Album,1,1,1,5,3,2,10,0,0,1,1
+Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
+2020-07-31,1,NEW,--,True,10,--,Uncover (Sung by SEULGI) (Bonus Track),Red Velvet - IRENE & SEULGI,Monster - The 1st Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,1

@@ -1,5 +1,5 @@
-Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
-2020-08-28,1,NEW,,10,Monster,Red Velvet - IRENE & SEULGI,Monster - The 1st Mini Album,1,1,1,5,3,2,10,0,0,1,1
-2020-08-28,2,NEW,,10,Gone Days,Stray Kids,GO生 (GO LIVE),1,1,1,5,3,2,10,0,0,2,1
-2020-08-28,3,RE,,10,神메뉴 (God's Menu),Stray Kids,GO生 (GO LIVE),1,1,1,5,3,2,10,0,0,3,2
-2020-08-28,4,RE,,10,영웅 (英雄; Kick It),NCT 127,NCT #127 Neo Zone – The 2nd Album,1,1,1,5,3,2,10,0,0,4,2
+Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
+2020-08-28,1,NEW,--,True,10,--,Monster,Red Velvet - IRENE & SEULGI,Monster - The 1st Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,1
+2020-08-28,2,RE,--,True,10,--,神메뉴 (God's Menu),Stray Kids,GO生 (GO LIVE),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,2
+2020-08-28,3,RE,--,True,10,--,영웅 (英雄; Kick It),NCT 127,NCT #127 Neo Zone – The 2nd Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,2
+2020-08-28,4,NEW,--,True,10,--,Gone Days,Stray Kids,GO生 (GO LIVE),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,1

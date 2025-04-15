@@ -1,35 +1,42 @@
-Week,Position,Rise/Fall,Previous Rank,Total Weighted Points,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
-2020-11-13,1,NEW,,17,무대로 (Deja Vu; 舞代路),NCT DREAM,NCT RESONANCE Pt. 1 - The 2nd Album,2,1,2,10,3,4,17,0,0,1,1
-2020-11-13,2,-1,1,13,BEHIND THE MASK,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,10,3,0,1,2
-2020-11-13,3,RE,,12,Misfit,NCT U,NCT RESONANCE Pt. 1 - The 2nd Album,1,1,1,5,3,2,10,0,2,3,2
-2020-11-13,4,NEW,,10,New Year’s Day,Taylor Swift,Reputation,1,1,1,5,3,2,10,0,0,4,1
-2020-11-13,5,NEW,,10,This Is Why We Can’t Have Nice Things,Taylor Swift,Reputation,1,1,1,5,3,2,10,0,0,5,1
-2020-11-13,6,NEW,,10,Dress,Taylor Swift,Reputation,1,1,1,5,3,2,10,0,0,6,1
-2020-11-13,7,NEW,,10,Dancing With Our Hands Tied,Taylor Swift,Reputation,1,1,1,5,3,2,10,0,0,7,1
-2020-11-13,8,NEW,,10,King of My Heart,Taylor Swift,Reputation,1,1,1,5,3,2,10,0,0,8,1
-2020-11-13,9,NEW,,10,Gorgeous,Taylor Swift,Reputation,1,1,1,5,3,2,10,0,0,9,1
-2020-11-13,10,NEW,,10,Delicate,Taylor Swift,Reputation,1,1,1,5,3,2,10,0,0,10,1
-2020-11-13,11,NEW,,10,Don’t Blame Me,Taylor Swift,Reputation,1,1,1,5,3,2,10,0,0,11,1
-2020-11-13,12,NEW,,10,I Did Something Bad,Taylor Swift,Reputation,1,1,1,5,3,2,10,0,0,12,1
-2020-11-13,13,NEW,,10,End Game (feat. Ed Sheeran & Future),Taylor Swift,Reputation,1,1,1,5,3,2,10,0,0,13,1
-2020-11-13,14,NEW,,10,...Ready for It?,Taylor Swift,Reputation,1,1,1,5,3,2,10,0,0,14,1
-2020-11-13,15,NEW,,10,月之迷 (Nectar),WayV,NCT RESONANCE Pt. 1 - The 2nd Album,1,1,1,5,3,2,10,0,0,15,1
-2020-11-13,16,NEW,,10,Make A Wish (Birthday Song),NCT U,NCT RESONANCE Pt. 1 - The 2nd Album,1,1,1,5,3,2,10,0,0,16,1
-2020-11-13,17,NEW,,10,Psycho ft. Nicki Minaj (Reloaded),Red Velvet,Psycho ft. Nicki Minaj (Reloaded) - Single,1,1,1,5,3,2,10,0,0,17,1
-2020-11-13,18,NEW,,10,Star (목소리 English Ver.),이달의 소녀,［12:00］,1,1,1,5,3,2,10,0,0,18,1
-2020-11-13,19,NEW,,10,OOPS!,이달의 소녀,［12:00］,1,1,1,5,3,2,10,0,0,19,1
-2020-11-13,20,NEW,,10,목소리 (Voice),이달의 소녀,［12:00］,1,1,1,5,3,2,10,0,0,20,1
-2020-11-13,21,NEW,,10,Why Not?,이달의 소녀,［12:00］,1,1,1,5,3,2,10,0,0,21,1
-2020-11-13,22,NEW,,10,12:00,이달의 소녀,［12:00］,1,1,1,5,3,2,10,0,0,22,1
-2020-11-13,23,NEW,,10,SAY SOMETHING,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,10,0,0,23,1
-2020-11-13,24,NEW,,10,DEPEND ON YOU,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,10,0,0,24,1
-2020-11-13,25,NEW,,10,HANDLE IT,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,10,0,0,25,1
-2020-11-13,26,NEW,,10,SHOT CLOCK,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,10,0,0,26,1
-2020-11-13,27,NEW,,10,GO HARD,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,10,0,0,27,1
-2020-11-13,28,RE,,10,Call It What You Want,Taylor Swift,Reputation,1,1,1,5,3,2,10,0,0,1,5
-2020-11-13,29,RE,,10,Getaway Car,Taylor Swift,Reputation,1,1,1,5,3,2,10,0,0,20,4
-2020-11-13,30,RE,,10,So It Goes...,Taylor Swift,Reputation,1,1,1,5,3,2,10,0,0,15,4
-2020-11-13,31,RE,,10,Look What You Made Me Do,Taylor Swift,Reputation,1,1,1,5,3,2,10,0,0,31,3
-2020-11-13,32,RE,,10,From Home,NCT U,NCT RESONANCE Pt. 1 - The 2nd Album,1,1,1,5,3,2,10,0,0,18,2
-2020-11-13,33,RE,,10,Music Dance,NCT 127,NCT RESONANCE Pt. 1 - The 2nd Album,1,1,1,5,3,2,10,0,0,20,2
-2020-11-13,34,RE,,10,Interlude: Past to Present,NCT U,NCT RESONANCE Pt. 1 - The 2nd Album,1,1,1,5,3,2,10,0,0,23,2
+Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
+2020-11-13,1,NEW,--,True,17,--,무대로 (Deja Vu; 舞代路),NCT DREAM,NCT RESONANCE Pt. 1 - The 2nd Album,2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,0,0,1,1
+2020-11-13,2,-1,1,False,13,2.33,BEHIND THE MASK,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,1,2
+2020-11-13,3,RE,--,True,12,--,Misfit,NCT U,NCT RESONANCE Pt. 1 - The 2nd Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,3,2
+2020-11-13,4,RE,--,True,12,--,Star (목소리 English Ver.),이달의 소녀,［12:00］,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,4,2
+2020-11-13,5,RE,--,True,12,--,OOPS!,이달의 소녀,［12:00］,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,5,2
+2020-11-13,6,RE,--,True,12,--,목소리 (Voice),이달의 소녀,［12:00］,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,6,2
+2020-11-13,7,RE,--,True,12,--,Why Not?,이달의 소녀,［12:00］,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,7,2
+2020-11-13,8,RE,--,True,12,--,12:00,이달의 소녀,［12:00］,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,8,2
+2020-11-13,9,NEW,--,True,10,--,New Year’s Day,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,9,1
+2020-11-13,10,RE,--,False,10,--,Call It What You Want,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,4
+2020-11-13,11,NEW,--,True,10,--,This Is Why We Can’t Have Nice Things,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,11,1
+2020-11-13,12,NEW,--,True,10,--,Dress,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,1
+2020-11-13,13,NEW,--,True,10,--,Dancing With Our Hands Tied,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,1
+2020-11-13,14,NEW,--,True,10,--,King of My Heart,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,1
+2020-11-13,15,RE,--,True,10,--,Getaway Car,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,3
+2020-11-13,16,NEW,--,True,10,--,Gorgeous,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,1
+2020-11-13,17,RE,--,False,10,--,So It Goes...,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,3
+2020-11-13,18,RE,--,True,10,--,Look What You Made Me Do,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,2
+2020-11-13,19,NEW,--,True,10,--,Delicate,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,19,1
+2020-11-13,20,NEW,--,True,10,--,Don’t Blame Me,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,20,1
+2020-11-13,21,NEW,--,True,10,--,I Did Something Bad,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,1
+2020-11-13,22,NEW,--,True,10,--,End Game (feat. Ed Sheeran & Future),Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,1
+2020-11-13,23,NEW,--,True,10,--,...Ready for It?,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,1
+2020-11-13,24,RE,--,True,10,--,From Home,NCT U,NCT RESONANCE Pt. 1 - The 2nd Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,24,2
+2020-11-13,25,RE,--,True,10,--,Music Dance,NCT 127,NCT RESONANCE Pt. 1 - The 2nd Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,25,2
+2020-11-13,26,NEW,--,True,10,--,月之迷 (Nectar),WayV,NCT RESONANCE Pt. 1 - The 2nd Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,26,1
+2020-11-13,27,RE,--,True,10,--,Interlude: Past to Present,NCT U,NCT RESONANCE Pt. 1 - The 2nd Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,27,2
+2020-11-13,28,NEW,--,True,10,--,Make A Wish (Birthday Song),NCT U,NCT RESONANCE Pt. 1 - The 2nd Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,28,1
+2020-11-13,29,NEW,--,True,10,--,Psycho ft. Nicki Minaj (Reloaded),Red Velvet,Psycho ft. Nicki Minaj (Reloaded) - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,29,1
+2020-11-13,30,NEW,--,True,10,--,SAY SOMETHING,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,30,1
+2020-11-13,31,NEW,--,True,10,--,DEPEND ON YOU,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,31,1
+2020-11-13,32,NEW,--,True,10,--,HANDLE IT,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,32,1
+2020-11-13,33,NEW,--,True,10,--,SHOT CLOCK,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,33,1
+2020-11-13,34,NEW,--,True,10,--,GO HARD,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,34,1
+2020-11-13,35,NEW,--,True,10,--,QUEEN,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,35,1
+2020-11-13,36,NEW,--,True,10,--,BELIEVER,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,36,1
+2020-11-13,37,NEW,--,True,10,--,BRING IT BACK,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,37,1
+2020-11-13,38,NEW,--,True,10,--,DO WHAT WE LIKE,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,38,1
+2020-11-13,39,NEW,--,True,10,--,UP NO MORE,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,39,1
+2020-11-13,40,NEW,--,True,10,--,HELL IN HEAVEN,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,40,1
+2020-11-13,41,NEW,--,True,10,--,I Can't Stop Me,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,41,1
