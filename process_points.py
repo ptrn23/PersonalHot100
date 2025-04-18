@@ -100,7 +100,7 @@ for year in YEARS:
             if prev_pts == 0:
                 percent_change = "--"
             else:
-                percent_change = round((total_points - ceil(prev_pts * 0.3)) / ceil(prev_pts * 0.3), 2)
+                percent_change = round((week_total_points - ceil(prev_pts)) / ceil(prev_pts), 2)
 
             stream_percent = round(stream_units / total_units, 2)
             sale_percent = round(sale_units / total_units, 2)

@@ -1,24 +1,445 @@
 Week,Song Name,Album Name,Artist Name,Streams,Sales,Airplay
-2025-04-04,Bored to Death,California (Deluxe Edition),blink-182,3,3,1
-2025-04-04,San Diego,California (Deluxe Edition),blink-182,3,3,1
-2025-04-04,Teenage Satellites,California (Deluxe Edition),blink-182,3,3,1
-2025-04-04,No Future,California (Deluxe Edition),blink-182,4,4,1
-2025-04-04,Los Angeles,California (Deluxe Edition),blink-182,4,3,2
-2025-04-04,LA Devotee,Death of a Bachelor,Panic! at the Disco,1,1,1
-2025-04-04,Famous Last Words,The Black Parade,My Chemical Romance,1,1,1
-2025-04-04,Black & White People,Mad Season,Matchbox Twenty,5,5,1
-2025-04-04,Scattered,Nimrod,Green Day,1,1,1
-2025-04-04,I Miss You,blink-182,blink-182,3,3,1
-2025-04-04,Sugar We're Goin Down,From Under the Cork Tree,Fall Out Boy,1,1,1
-2025-04-04,Redundant,Nimrod,Green Day,1,1,1
-2025-04-04,Last Beautiful Girl,Mad Season,Matchbox Twenty,5,5,1
-2025-04-04,Crutch,Mad Season,Matchbox Twenty,5,5,1
-2025-04-04,Obvious,blink-182,blink-182,3,3,1
-2025-04-04,Easy Target,blink-182,blink-182,4,4,1
-2025-04-04,Angry,Mad Season,Matchbox Twenty,5,5,1
-2025-04-04,Mad Season,Mad Season,Matchbox Twenty,9,9,1
-2025-04-04,Bulletproof Heart,Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,2,1,2
-2025-04-04,She's out of Her Mind,California (Deluxe Edition),blink-182,1,1,1
+2025-04-04,Hey Jude - Remastered 2015,1 (Remastered),The Beatles,1,1,1
+2025-04-04,In My Life - Remastered 2009,Rubber Soul (Remastered 2009),The Beatles,1,1,1
+2025-04-04,Let It Be - Remastered 2009,Let It Be (Remastered),The Beatles,1,1,1
+2025-04-04,I Want To Hold Your Hand - Remastered 2015,1 (Remastered),The Beatles,8,4,5
+2025-04-04,Fresh Out the Slammer,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,41,16,17
+2025-04-04,The Bolter,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,7,7,1
+2025-04-04,imgonnagetyouback,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,6,6,1
+2025-04-04,Bored to Death,California (Deluxe Edition),blink-182,6,6,1
+2025-04-04,San Diego,California (Deluxe Edition),blink-182,6,6,1
+2025-04-04,Teenage Satellites,California (Deluxe Edition),blink-182,6,6,1
+2025-04-04,No Future,California (Deluxe Edition),blink-182,7,7,1
+2025-04-04,Los Angeles,California (Deluxe Edition),blink-182,11,10,2
+2025-04-04,LA Devotee,Death of a Bachelor,Panic! at the Disco,4,4,1
+2025-04-04,Famous Last Words,The Black Parade,My Chemical Romance,4,4,1
+2025-04-04,Black & White People,Mad Season,Matchbox Twenty,12,12,1
+2025-04-04,Scattered,Nimrod,Green Day,9,9,1
+2025-04-04,I Miss You,blink-182,blink-182,12,12,1
+2025-04-04,Sugar We're Goin Down,From Under the Cork Tree,Fall Out Boy,4,4,1
+2025-04-04,Redundant,Nimrod,Green Day,7,7,1
+2025-04-04,Last Beautiful Girl,Mad Season,Matchbox Twenty,30,29,2
+2025-04-04,Crutch,Mad Season,Matchbox Twenty,12,12,1
+2025-04-04,Obvious,blink-182,blink-182,12,12,1
+2025-04-04,Angry,Mad Season,Matchbox Twenty,12,12,1
+2025-04-04,Easy Target,blink-182,blink-182,12,12,1
+2025-04-04,Mad Season,Mad Season,Matchbox Twenty,18,18,1
+2025-04-04,Bulletproof Heart,Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,5,4,2
+2025-04-04,She's out of Her Mind,California (Deluxe Edition),blink-182,9,9,1
+2025-04-04,Shut Up and Dance,Talking Is Hard,Walk the Moon,1,1,1
+2025-04-04,Fat Lip,All Killer No Filler,Sum 41,3,3,1
+2025-04-04,All Too Well (Taylor's Version),Red (Taylor's Version),Taylor Swift,5,5,1
+2025-04-04,Motivation,All Killer No Filler,Sum 41,4,4,1
+2025-04-04,Purple Lace Bra,So Close to What,Tate McRae,11,11,1
+2025-04-04,Jet Lag (feat. Natasha Bedingfield),Get Your Heart On! (Deluxe Edition),Simple Plan,4,4,1
+2025-04-04,Miss Possessive,So Close to What,Tate McRae,11,11,1
+2025-04-04,She's So Mean,North (Deluxe Edition),Matchbox Twenty,19,6,14
+2025-04-04,It's OK I'm OK,So Close to What,Tate McRae,11,11,1
+2025-04-04,Bent,Mad Season,Matchbox Twenty,6,6,1
+2025-04-04,Tócame (feat. Dillom),X-sex,Six Sex,6,6,1
+2025-04-04,Revolving Door,So Close to What,Tate McRae,12,12,1
+2025-04-04,If You're Gone,Mad Season,Matchbox Twenty,7,7,1
+2025-04-04,Always,blink-182,blink-182,7,7,1
+2025-04-04,2 hands,So Close to What,Tate McRae,12,12,1
+2025-04-04,The Static Age,21st Century Breakdown,Green Day,6,6,1
+2025-04-04,Feeling This,blink-182,blink-182,9,9,1
+2025-04-04,Sports car,So Close to What,Tate McRae,12,12,1
+2025-04-04,You Won't Be Mine,Mad Season,Matchbox Twenty,5,5,1
+2025-04-04,Stop,Mad Season,Matchbox Twenty,5,5,1
+2025-04-04,Leave,Mad Season,Matchbox Twenty,5,5,1
+2025-04-04,Bed of Lies,Mad Season,Matchbox Twenty,5,5,1
+2025-04-04,The Burn,Mad Season,Matchbox Twenty,24,23,2
+2025-04-04,Rest Stop,Mad Season,Matchbox Twenty,22,22,1
+2025-04-04,I'm Lost Without You,blink-182,blink-182,4,4,1
+2025-04-04,Here's Your Letter,blink-182,blink-182,4,4,1
+2025-04-04,All of This,blink-182,blink-182,4,4,1
+2025-04-04,Asthenia,blink-182,blink-182,4,4,1
+2025-04-04,Go,blink-182,blink-182,4,4,1
+2025-04-04,The Fallen Interlude,blink-182,blink-182,4,4,1
+2025-04-04,Down,blink-182,blink-182,4,4,1
+2025-04-04,Stockholm Syndrome,blink-182,blink-182,4,4,1
+2025-04-04,Stockholm Syndrome Interlude,blink-182,blink-182,4,4,1
+2025-04-04,Violence,blink-182,blink-182,4,4,1
+2025-04-04,Guilty as Sin?,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,3,3,1
+2025-04-04,How Does It Feel To Be Forgotten,I Said I Love You First,Selena Gomez,1,1,1
+2025-04-04,Like I'm Gonna Lose You (feat. John Legend),Title (Deluxe),Meghan Trainor,1,1,1
+2025-04-04,bye,eternal sunshine,Ariana Grande,1,1,1
+2025-04-04,the grudge,GUTS,Olivia Rodrigo,1,1,1
+2025-04-04,Who Says,When the Sun Goes Down,Selena Gomez & the Scene,1,1,1
+2025-04-04,360,BRAT,Charli xcx,1,1,1
+2025-04-04,we can't be friends (wait for your love),eternal sunshine,Ariana Grande,1,1,1
+2025-04-04,making the bed,GUTS,Olivia Rodrigo,1,1,1
+2025-04-04,Don’t Take It Personally,I Said I Love You First,Selena Gomez,1,1,1
+2025-04-04,Femininomenon,The Rise and Fall of a Midwest Princess,Chappell Roan,1,1,1
+2025-04-04,Blowing Smoke,The Secret of Us,Gracie Abrams,1,1,1
+2025-04-04,Hampstead,eternal sunshine deluxe: brighter days ahead,Ariana Grande,2,2,1
+2025-04-04,obsessed,GUTS (spilled),Olivia Rodrigo,1,1,1
+2025-04-04,Sunset Blvd,I Said I Love You First,Selena Gomez,1,1,1
+2025-04-04,All You Had to Do Was Stay (Taylor's Version),1989 (Taylor's Version),Taylor Swift,1,1,1
+2025-04-04,My Kink Is Karma,The Rise and Fall of a Midwest Princess,Chappell Roan,1,1,1
+2025-04-04,21,minor,Gracie Abrams,1,1,1
+2025-04-04,Moves Like Jagger - Studio Recording From The Voice Performance,Hands All Over (Revised Asia Standard Version),Maroon 5,1,1,1
+2025-04-04,past life,eternal sunshine deluxe: brighter days ahead,Ariana Grande,2,2,1
+2025-04-04,pretty isn’t pretty,GUTS,Olivia Rodrigo,1,1,1
+2025-04-04,Ojos Tristes (with The Marías),I Said I Love You First,Selena Gomez,1,1,1
+2025-04-04,Miss Americana & the Heartbreak Prince,Lover,Taylor Swift,1,1,1
+2025-04-04,Casual,The Rise and Fall of a Midwest Princess,Chappell Roan,1,1,1
+2025-04-04,Dear Future Husband,Title (Deluxe),Meghan Trainor,1,1,1
+2025-04-04,Bed Chem,Short n' Sweet,Sabrina Carpenter,1,1,1
+2025-04-04,dandelion,eternal sunshine deluxe: brighter days ahead,Ariana Grande,2,2,1
+2025-04-04,get him back!,GUTS,Olivia Rodrigo,1,1,1
+2025-04-04,The Smallest Man Who Ever Lived,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,2,2,1
+2025-04-04,Stained,I Said I Love You First...,Selena Gomez,1,1,1
+2025-04-04,Pink Pony Club,The Rise and Fall of a Midwest Princess,Chappell Roan,1,1,1
+2025-04-04,Risk,The Secret of Us,Gracie Abrams,1,1,1
+2025-04-04,Taste,Short n' Sweet,Sabrina Carpenter,1,1,1
+2025-04-04,warm,eternal sunshine deluxe: brighter days ahead,Ariana Grande,2,2,1
+2025-04-04,bad idea right?,GUTS,Olivia Rodrigo,1,1,1
+2025-04-04,Bluest Flame,I Said I Love You First,Selena Gomez,1,1,1
+2025-04-04,Sparks Fly (Taylor’s Version),Speak Now (Taylor's Version),Taylor Swift,1,1,1
+2025-04-04,Guess featuring billie eilish,Brat and it’s completely different but also still brat,Charli XCX,1,1,1
+2025-04-04,Close to You,The Secret of Us,Gracie Abrams,1,1,1
+2025-04-04,Juno,Short n' Sweet,Sabrina Carpenter,1,1,1
+2025-04-04,twilight zone,eternal sunshine deluxe: brighter days ahead,Ariana Grande,2,2,1
+2025-04-04,love is embarrassing,GUTS,Olivia Rodrigo,1,1,1
+2025-04-04,Call Me When You Break Up (with Gracie Abrams),I Said I Love You First,Selena Gomez,1,1,1
+2025-04-04,Haunted (Taylor's Version),Speak Now (Taylor's Version),Taylor Swift,1,1,1
+2025-04-04,HWAA,I burn,(G)I-DLE,1,1,1
+2025-04-04,CLAP,SEVENTEEN 2ND ALBUM 'TEEN AGE' (2),Seventeen,1,1,1
+2025-04-04,BETTER,Better,TWICE,1,1,1
+2025-04-04,ALL IN,ALL IN,Stray Kids,1,1,1
+2025-04-04,Oh really.,So 通 (COMMUNICATION),N.Flying,1,1,1
+2025-04-04,Just Right,Just right,GOT7,1,1,1
+2025-04-04,CLASSY,LIVES ACROSS,CLASS:y,1,1,1
+2025-04-04,RUN2U,YOUNG-LUV.COM,STAYC,1,1,1
+2025-04-04,Baby Don’t Stop,NCT 2018 EMPATHY,NCT,1,1,1
+2025-04-04,ELEVEN,ELEVEN,IVE,1,1,1
+2025-04-04,BYOB (bring your own best friend),Billlie 'BYOB (bring your own best friend)',Billlie,2,2,1
+2025-04-04,Fake & True,&TWICE,TWICE,1,1,1
+2025-04-04,PITAPAT (DKDK),To. Day,fromis_9,1,1,1
+2025-04-04,LOVE ME RIGHT,LOVE ME RIGHT - The 2nd Album Repackage,EXO,1,1,1
+2025-04-04,Kitsch,I've IVE,IVE,1,1,1
+2025-04-04,Soñar (Breaker),Fe3O4: BREAK,NMIXX,2,2,1
+2025-04-04,LOVE DIVE,LOVE DIVE,IVE,8,8,1
+2025-04-04,Sleep,The Black Parade,My Chemical Romance,1,1,1
+2025-04-04,The Only Exception,brand new eyes,Paramore,1,1,1
+2025-04-04,American Idiot,American Idiot,Green Day,2,2,1
+2025-04-04,Weightless,Nothing Personal (Deluxe Version),All Time Low,1,1,1
+2025-04-04,Mama,The Black Parade,My Chemical Romance,1,1,1
+2025-04-04,Lips of an Angel,Extreme Behavior,Hinder,2,2,1
+2025-04-04,Dead!,The Black Parade,My Chemical Romance,1,1,1
+2025-04-04,This Ain't a Scene It's an Arms Race,Infinity on High,Fall Out Boy,1,1,1
+2025-04-04,Love Drunk,Love Drunk,Boys Like Girls,2,2,1
+2025-04-04,You Know What They Do to Guys Like Us in Prison,Three Cheers for Sweet Revenge,My Chemical Romance,1,1,1
+2025-04-04,That's What You Get,RIOT!,Paramore,1,1,1
+2025-04-04,Thnks fr th Mmrs,Infinity on High,Fall Out Boy,1,1,1
+2025-04-04,In Too Deep,All Killer No Filler,Sum 41,1,1,1
+2025-04-04,Don't Threaten Me with a Good Time,Death of a Bachelor,Panic! at the Disco,1,1,1
+2025-04-04,This Is How I Disappear,The Black Parade,My Chemical Romance,1,1,1
+2025-04-04,Shut Up!,Still Not Getting Any,Simple Plan,1,1,1
+2025-04-04,Decode,Decode,Paramore,1,1,1
+2025-04-04,Dance Dance,From Under the Cork Tree,Fall Out Boy,1,1,1
+2025-04-04,Check Yes Juliet,We the Kings,We the Kings,1,1,1
+2025-04-04,It's Not a Fashion Statement It's a Deathwish,Three Cheers for Sweet Revenge,My Chemical Romance,1,1,1
+2025-04-04,This Is Gospel,Too Weird to Live Too Rare to Die!,Panic! at the Disco,1,1,1
+2025-04-04,First Date,Take Off Your Pants and Jacket,blink-182,1,1,1
+2025-04-04,crushcrushcrush,RIOT!,Paramore,1,1,1
+2025-04-04,The Take Over the Breaks Over,Infinity on High,Fall Out Boy,1,1,1
+2025-04-04,The Sharpest Lives,The Black Parade,My Chemical Romance,1,1,1
+2025-04-04,Wake Me Up When September Ends,American Idiot,Green Day,1,1,1
+2025-04-04,The Great Escape,Boys Like Girls,Boys Like Girls,1,1,1
+2025-04-04,Brick by Boring Brick,brand new eyes,Paramore,1,1,1
+2025-04-04,Helena,Three Cheers for Sweet Revenge,My Chemical Romance,5,5,1
+2025-04-04,Misery Business,RIOT!,Paramore,1,1,1
+2025-04-04,I'd Do Anything,No Pads No Helmets...Just Balls (15th Anniversary Tour Edition),Simple Plan,1,1,1
+2025-04-04,The Jetset Life Is Gonna Kill You,Three Cheers for Sweet Revenge,My Chemical Romance,1,1,1
+2025-04-04,The Ballad of Mona Lisa,Vices & Virtues,Panic! at the Disco,1,1,1
+2025-04-04,When I Come Around,Dookie,Green Day,1,1,1
+2025-04-04,Hero / Heroine - Original Mix,Boys Like Girls,Boys Like Girls,1,1,1
+2025-04-04,Ignorance,brand new eyes,Paramore,1,1,1
+2025-04-04,Summertime,Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,1,1
+2025-04-04,Addicted,No Pads No Helmets...Just Balls (15th Anniversary Tour Edition),Simple Plan,1,1,1
+2025-04-04,Grand Theft Autumn / Where Is Your Boy,Take This to Your Grave,Fall Out Boy,1,1,1
+2025-04-04,Emperor's New Clothes,Death of a Bachelor,Panic! at the Disco,1,1,1
+2025-04-04,Thunder,Boys Like Girls,Boys Like Girls,1,1,1
+2025-04-04,Since U Been Gone,Breakaway,Kelly Clarkson,2,2,1
+2025-04-04,Perfect,No Pads No Helmets...Just Balls (15th Anniversary Tour Edition),Simple Plan,1,1,1
+2025-04-04,cardigan,folklore,Taylor Swift,1,1,1
+2025-04-04,Basket Case,Dookie,Green Day,1,1,1
+2025-04-04,Push,Yourself or Someone Like You,Matchbox Twenty,2,2,1
+2025-04-04,I Don't Love You,The Black Parade,My Chemical Romance,1,1,1
+2025-04-04,my tears ricochet,folklore,Taylor Swift,1,1,1
+2025-04-04,Unwell,More Than You Think You Are,Matchbox Twenty,1,1,1
+2025-04-04,Disenchanted,The Black Parade,My Chemical Romance,1,1,1
+2025-04-04,Iris,Dizzy Up the Girl,The Goo Goo Dolls,3,2,2
+2025-04-04,My Love,Coast to Coast (Expanded Edition),Westlife,1,1,1
+2025-04-04,Please Please Me - Remastered 2009,Please Please Me (Remastered),The Beatles,2,2,1
+2025-04-04,Magbalik,Destination XYZ,Callalily,4,4,1
+2025-04-04,The Day You Said Goodnight,Hale,Hale,3,3,1
+2025-04-04,Way Back Into Love,Music And Lyrics - Music From and Inspired By The Motion Picture (International Release),Hugh Grant,3,3,1
+2025-04-04,Electric Touch (feat. Fall Out Boy) (Taylor’s Version) (From the Vault),Speak Now (Taylor's Version),Taylor Swift,4,4,1
+2025-04-04,When Emma Falls in Love (Taylor’s Version) (From the Vault),Speak Now (Taylor's Version),Taylor Swift,3,3,1
+2025-04-04,Superman (Taylor’s Version),Speak Now (Taylor's Version),Taylor Swift,3,3,1
+2025-04-04,party tattoos,party tattoos,dodie,4,4,1
+2025-04-04,Guiltless,Guiltless,dodie,3,3,1
+2025-04-04,BOYS LIKE YOU,BOYS LIKE YOU,dodie,4,4,1
+2025-04-04,burned out,Human,dodie,4,4,1
+2025-04-04,If I'm Being Honest,Human,dodie,4,4,1
+2025-04-04,She,Human,dodie,5,5,1
+2025-04-04,HUMAN,Human,dodie,5,4,2
+2025-04-04,Not What I Meant (feat. Lewis Watson),Human,dodie,4,4,1
+2025-04-04,Monster,Human,dodie,4,4,1
+2025-04-04,Arms Unfolding,Human,dodie,5,4,2
+2025-04-04,Droopy Likes Your Face,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Droopy Likes Ricochet,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Beginning,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Danny,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Dog,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Cat,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Sweden,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Excuse,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Thirteen,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Chris,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Clark,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Wet Hands,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Dry Hands,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Mice on Venus,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Équinoxe,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Oxygène,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Minecraft,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Haggstrom,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Moog City,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Living Mice,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Death,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Subwoofer Lullaby,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Door,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Key,Minecraft - Volume Alpha,C418,1,1,1
+2025-04-04,Florida!!! (feat. Florence + the Machine),THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,2,2,1
+2025-04-04,But Daddy I Love Him,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,2,2,1
+2025-04-04,So Long London,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,2,2,1
+2025-04-04,Down Bad,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,2,2,1
+2025-04-04,My Boy Only Breaks His Favorite Toys,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,2,2,1
+2025-04-04,Fortnight (feat. Post Malone),THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,2,2,1
+2025-04-04,LIKEY,twicetagram,TWICE,1,1,1
+2025-04-04,I Wait,SUNRISE,DAY6,1,1,1
+2025-04-04,I Wait,Every DAY6 January,DAY6,1,1,1
+2025-04-04,Girls,Girls - The 2nd Mini Album,aespa,2,2,1
+2025-04-04,Senorita,I Made,(G)I-DLE,2,2,1
+2025-04-04,Step Back,Step Back,GOT the beat,1,1,1
+2025-04-04,Up & Down,AH YEAH,EXID,1,1,1
+2025-04-04,Nxde,I LOVE,(G)I-DLE,1,1,1
+2025-04-04,Umpah Umpah,‘The ReVe Festival’ Day 2,Red Velvet,1,1,1
+2025-04-04,Automatic,The 1st Mini Album ‘Ice Cream Cake’,Red Velvet,1,1,1
+2025-04-04,까탈레나 (Catallena),The Third Single Catallena,Orange Caramel,1,1,1
+2025-04-04,Tempo,DON’T MESS UP MY TEMPO – The 5th Album,EXO,1,1,1
+2025-04-04,LALALAY,LALALAY,SUNMI,1,1,1
+2025-04-04,What,Alone in the City,Dreamcatcher,1,1,1
+2025-04-04,2 Baddies,2 Baddies - The 4th Album,NCT 127,1,1,1
+2025-04-04,Lucky One,EX'ACT,EXO,1,1,1
+2025-04-04,Roller Coaster,Offset,CHUNG HA,1,1,1
+2025-04-04,Party O'Clock,A Midsummer NMIXX’s Dream,NMIXX,1,1,1
+2025-04-04,D.D.D,DREAMLIKE,THE BOYZ,1,1,1
+2025-04-04,How Can I Say,Every DAY6 March,DAY6,1,1,1
+2025-04-04,I'm Unhappy,MY WORLD - The 3rd Mini Album,aespa,1,1,1
+2025-04-04,Remember Me,Remember Me,OH MY GIRL,1,1,1
+2025-04-04,#Cookie Jar,#Cookie Jar,Red Velvet,1,1,1
+2025-04-04,Hug U,Flower 4 Seasons,DIA,1,1,1
+2025-04-04,Lion Heart,Lion Heart - The 5th Album,소녀시대,1,1,1
+2025-04-04,Crazy Sexy Cool,Dream Pt. 2,Astro,1,1,1
+2025-04-04,Giddy Up,THE BOYZ MINI ALBUM [THE START],THE BOYZ,1,1,1
+2025-04-04,Déjà Vu,NCT RESONANCE Pt. 1 - The 2nd Album,NCT DREAM,1,1,1
+2025-04-04,DM,Midnight Guest,fromis_9,1,1,1
+2025-04-04,Replay,The SHINee World - The First Album,SHINee,1,1,1
+2025-04-04,WHISTLE,SQUARE ONE,BLACKPINK,1,1,1
+2025-04-04,WE LIKE,The 2nd Mini Album ‘SCHXXL OUT’,PRISTIN,1,1,1
+2025-04-04,O.O,AD MARE,NMIXX,1,1,1
+2025-04-04,BOOMBAYAH,SQUARE ONE,BLACKPINK,1,1,1
+2025-04-04,LOVE WHISPER,GFRIEND The 5th Mini Album <PARALLEL>,GFRIEND,1,1,1
+2025-04-04,YEPPI YEPPI,Savage - The 1st Mini Album,aespa,1,1,1
+2025-04-04,Highway to Heaven - English Version,Highway to Heaven (English Version),NCT 127,1,1,1
+2025-04-04,SNEAKERS,CHECKMATE,ITZY,1,1,1
+2025-04-04,Chase Me,악몽,Dreamcatcher,1,1,1
+2025-04-04,View,Odd - The 4th Album,SHINee,1,1,1
+2025-04-04,Superhuman,NCT #127 WE ARE SUPERHUMAN - The 4th Mini Album,NCT 127,1,1,1
+2025-04-04,Life's Too Short,Girls - The 2nd Mini Album,aespa,1,1,1
+2025-04-04,Black Mamba,Black Mamba,aespa,1,1,1
+2025-04-04,Shut Down,BORN PINK,BLACKPINK,1,1,1
+2025-04-04,District 9,SKZ2020,Stray Kids,1,1,1
+2025-04-04,Starry Night,Yellow Flower,MAMAMOO,1,1,1
+2025-04-04,Blue Flame,BLUE FLAME,Astro,1,1,1
+2025-04-04,YES or YES,YES or YES,TWICE,1,1,1
+2025-04-04,Monster,EX'ACT,EXO,1,1,1
+2025-04-04,Look,Eyes on You,GOT7,1,1,1
+2025-04-04,無限的我 무한적아; LIMITLESS,NCT#127 LIMITLESS - The 2nd Mini Album,NCT 127,1,1,1
+2025-04-04,AS IF IT'S YOUR LAST,AS IF IT'S YOUR LAST,BLACKPINK,1,1,1
+2025-04-04,Breakthrough,Breakthrough,TWICE,1,1,1
+2025-04-04,Listen to my word(A-ing) (feat. SKULL HAHA),LISTEN TO MY WORD,OH MY GIRL,1,1,1
+2025-04-04,Like OOH-AHH,THE STORY BEGINS,TWICE,1,1,1
+2025-04-04,ABCD,NA,NAYEON,1,1,1
+2025-04-04,PARTY,PARTY,Girls' Generation,1,1,1
+2025-04-04,Bon Bon Chocolat,ARRIVAL OF EVERGLOW,Everglow,1,1,1
+2025-04-04,Kick It,NCT #127 Neo Zone - The 2nd Album,NCT 127,1,1,1
+2025-04-04,Twilight,RAISE US,ONEUS,1,1,1
+2025-04-04,I Don't Need A Man,Hush,miss A,1,1,1
+2025-04-04,UNFORGIVEN (feat. Nile Rodgers),UNFORGIVEN,LE SSERAFIM,1,1,1
+2025-04-04,Mansae,SEVENTEEN 2nd Mini Album ‘BOYS BE’,Seventeen,1,1,1
+2025-04-04,After School,We play,Weeekly,1,1,1
+2025-04-04,DALLA DALLA,IT'z Different,ITZY,1,1,1
+2025-04-04,FOREVER 1,FOREVER 1 - The 7th Album,Girls' Generation,1,1,1
+2025-04-04,Happy,HAPPY MOMENT (1),WJSN,1,1,1
+2025-04-04,Zimzalabim,‘The ReVe Festival’ Day 1,Red Velvet,1,1,1
+2025-04-04,KeePer (Prod. PARK KYUNG),THE BOYZ Special Single 'KeePer(Prod. PARK KYUNG)',THE BOYZ,1,1,1
+2025-04-04,Back Door,IN LIFE,Stray Kids,1,1,1
+2025-04-04,LION,Queendom < FINAL Comeback >,(G)I-DLE,1,1,1
+2025-04-04,CUPID,OH MY GIRL,OH MY GIRL,1,1,1
+2025-04-04,FUN!,FUN FACTORY,fromis_9,1,1,1
+2025-04-04,As you Wish,As You Wish,WJSN,1,1,1
+2025-04-04,What is Love?,What is Love?,TWICE,1,1,1
+2025-04-04,intro (end of the world) - extended,eternal sunshine deluxe: brighter days ahead,Ariana Grande,1,1,1
+2025-04-04,I Look in People's Windows,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,1,1,1
+2025-04-04,I Hate It Here,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,1,1,1
+2025-04-04,So High School,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,1,1,1
+2025-04-04,How Did It End?,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,1,1,1
+2025-04-04,Chloe or Sam or Sophia or Marcus,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,1,1,1
+2025-04-04,The Black Dog,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,1,1,1
+2025-04-04,The Alchemy,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,1,1,1
+2025-04-04,I Can Do It with a Broken Heart,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,1,1,1
+2025-04-04,loml,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,1,1,1
+2025-04-04,Who’s Afraid of Little Old Me?,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,1,1,1
+2025-04-04,Anthem,Enema of the State,blink-182,1,1,1
+2025-04-04,Wendy Clear,Enema of the State,blink-182,1,1,1
+2025-04-04,Mutt,Enema of the State,blink-182,1,1,1
+2025-04-04,The Party Song,Enema of the State,blink-182,1,1,1
+2025-04-04,All the Small Things,Enema of the State,blink-182,1,1,1
+2025-04-04,Adam's Song,Enema of the State,blink-182,1,1,1
+2025-04-04,Dysentery Gary,Enema of the State,blink-182,1,1,1
+2025-04-04,What's My Age Again?,Enema of the State,blink-182,1,1,1
+2025-04-04,Going Away to College,Enema of the State,blink-182,1,1,1
+2025-04-04,Aliens Exist,Enema of the State,blink-182,1,1,1
+2025-04-04,Don't Leave Me,Enema of the State,blink-182,7,7,1
+2025-04-04,Dumpweed,Enema of the State,blink-182,1,1,1
+2025-04-04,See the Light,21st Century Breakdown,Green Day,1,1,1
+2025-04-04,American Eulogy: Mass Hysteria / Modern World,21st Century Breakdown,Green Day,1,1,1
+2025-04-04,21 Guns,21st Century Breakdown,Green Day,1,1,1
+2025-04-04,Horseshoes and Handgrenades,21st Century Breakdown,Green Day,1,1,1
+2025-04-04,Restless Heart Syndrome,21st Century Breakdown,Green Day,1,1,1
+2025-04-04,¿Viva la Gloria? (Little Girl),21st Century Breakdown,Green Day,1,1,1
+2025-04-04,Murder City,21st Century Breakdown,Green Day,1,1,1
+2025-04-04,Last of the American Girls,21st Century Breakdown,Green Day,1,1,1
+2025-04-04,Peacemaker,21st Century Breakdown,Green Day,1,1,1
+2025-04-04,East Jesus Nowhere,21st Century Breakdown,Green Day,1,1,1
+2025-04-04,Last Night on Earth,21st Century Breakdown,Green Day,1,1,1
+2025-04-04,Christian's Inferno,21st Century Breakdown,Green Day,1,1,1
+2025-04-04,Before the Lobotomy,21st Century Breakdown,Green Day,1,1,1
+2025-04-04,¡Viva la Gloria!,21st Century Breakdown,Green Day,1,1,1
+2025-04-04,Know Your Enemy,21st Century Breakdown,Green Day,1,1,1
+2025-04-04,21st Century Breakdown,21st Century Breakdown,Green Day,1,1,1
+2025-04-04,Song of the Century,21st Century Breakdown,Green Day,1,1,1
+2025-04-04,Womanizer,Circus (Deluxe Version),Britney Spears,4,2,3
+2025-04-04,Before Your Love,Thankful,Kelly Clarkson,2,2,1
+2025-04-04,A Moment Like This,Thankful,Kelly Clarkson,2,2,1
+2025-04-04,Thankful,Thankful,Kelly Clarkson,1,1,1
+2025-04-04,Anytime,Thankful,Kelly Clarkson,1,1,1
+2025-04-04,You Thought Wrong,Thankful,Kelly Clarkson,1,1,1
+2025-04-04,Beautiful Disaster,Thankful,Kelly Clarkson,2,2,1
+2025-04-04,Just Missed the Train,Thankful,Kelly Clarkson,1,1,1
+2025-04-04,What's Up Lonely,Thankful,Kelly Clarkson,1,1,1
+2025-04-04,Some Kind of Miracle,Thankful,Kelly Clarkson,1,1,1
+2025-04-04,Low,Thankful,Kelly Clarkson,3,3,1
+2025-04-04,Miss Independent,Thankful,Kelly Clarkson,2,2,1
+2025-04-04,The Trouble with Love Is,Thankful,Kelly Clarkson,2,2,1
+2025-04-04,Don't You Wanna Stay (feat. Kelly Clarkson),Stronger (Deluxe Version),Jason Aldean,2,2,1
+2025-04-04,If I Can't Have You,All I Ever Wanted,Kelly Clarkson,3,3,1
+2025-04-04,Stock Market,Stock Market,Mr Weebl,2,2,1
+2025-04-04,We Are Number One,We Are Number One,Kalysta,1,1,1
+2025-04-04,Planet of the Bass (feat. DJ Crazy Times & Ms. Biljana Electronica),Planet of the Bass (feat. DJ Crazy Times & Ms. Biljana Electronica),Kyle Gordon,1,1,1
+2025-04-04,sulutera,sulutera,princessrica,2,2,1
+2025-04-04,Dora The Explorer Theme,Dora The Explorer,Dora The Explorer,2,2,1
+2025-04-04,Funkytown,Mouth to Mouth,Lipps Inc.,2,2,1
+2025-04-04,Take me away,Emily Montes,Emily montes,2,2,1
+2025-04-04,The Fox (What Does The Fox Say?),The Fox (What Does The Fox Say?),Ylvis,2,2,1
+2025-04-04,Among Us in Real Life,Among Us in Real Life,Rebecca Zamolo,2,2,1
+2025-04-04,Freaky,Chicken Fingers and Lipo,Trisha Paytas,2,2,1
+2025-04-04,Real Women Vote,Real Women Vote,The Deplorable Choir,2,2,1
+2025-04-04,Bing Bong Zoo,My First Album,Peppa Pig,2,2,1
+2025-04-04,I Love You Jesus,I Love You Jesus,Trisha Paytas,3,2,2
+2025-04-04,Literal Legend,Fresh Meat,Ayesha Erotica,2,2,1
+2025-04-04,Castaways,The Backyardigans,The Backyardigans,1,1,1
+2025-04-04,Revenge,Revenge,CaptainSparklez,1,1,1
+2025-04-04,Cooking By The Book (From Lazy Town),Cooking By The Book (From Lazy Town),Geek Music,1,1,1
+2025-04-04,The Periodic Table Song (2018 Update),The Periodic Table Song (2018 Update),AsapSCIENCE,1,1,1
+2025-04-04,Yakko's World,Steven Spielberg Presents Animaniacs (Soundtrack from the Original Series),Animaniacs,1,1,1
+2025-04-04,How You Get the Girl (Taylor's Version),1989 (Taylor's Version),Taylor Swift,1,1,1
+2025-04-04,Sky High,Sky High,Elektronomia,1,1,1
+2025-04-04,The Elevator Bossa Nova,The Elevator Bossa Nova,Bensound,1,1,1
+2025-04-04,Dumb Ways To Die,Dumb Ways to Die,Tangerine Kitty,1,1,1
+2025-04-04,Don't Mine At Night - Minecraft Parody,Don't Mine At Night - Minecraft Parody,Brad Knauber,1,1,1
+2025-04-04,Fallen Kingdom,Fallen Kingdom,CaptainSparklez,1,1,1
+2025-04-04,I Am Believing,I Am Believing,CraftBattleDuty,1,1,1
+2025-04-04,Coconut Mall (From Mario Kart Wii),Mario Kart Wii The Themes,Arcade Player,1,1,1
+2025-04-04,Days of Girlhood,Days of Girlhood,Dylan Mulvaney,1,1,1
+2025-04-04,Spooky Scary Skeletons - Undead Tombstone Remix Extended,Halloween Howls: Fun & Scary Music (Deluxe Edition),Andrew Gold,1,1,1
+2025-04-04,Monster,Monster,Gabbie Hanna,1,1,1
+2025-04-04,Pump Up the Jam,Pump Up the Jam,Technotronic,1,1,1
+2025-04-04,Careless Whisper - Remastered,Ladies And Gentlemen... The Best Of George Michael,George Michael,1,1,1
+2025-04-04,Fruit Salad,Hit Songs & Rarities,The Wiggles,1,1,1
+2025-04-04,Nyan Cat Theme,Grumpy Cat's Worst Christmas Ever (Original Motion Picture Soundtrack),Nyan Cat,1,1,1
+2025-04-04,MEGALOVANIA,UNDERTALE Soundtrack,Toby Fox,1,1,1
+2025-04-04,The Hampsterdance Song,Hampster Dance - The Album,Hampton The Hampster,1,1,1
+2025-04-04,M.P.L,M.P.L,Toni Fowler,1,1,1
+2025-04-04,Vacation Bible School,horny.4u,Ayesha Erotica,1,1,1
+2025-04-04,S.L.U.T.,S.L.U.T.,ppcocaine,1,1,1
+2025-04-04,Among Us (Trap Remix),Among Us Trap Remix (Among Us Drip Theme),Leonz,1,1,1
+2025-04-04,Gangnam Style (강남스타일),Gangnam Style (강남스타일),Psy,1,1,1
+2025-04-04,Never Gonna Give You Up,Whenever You Need Somebody,Rick Astley,1,1,1
+2025-04-04,Don't Let Me Stop You,All I Ever Wanted,Kelly Clarkson,1,1,1
+2025-04-04,Cry,All I Ever Wanted,Kelly Clarkson,1,1,1
+2025-04-04,All I Ever Wanted,All I Ever Wanted,Kelly Clarkson,1,1,1
+2025-04-04,Already Gone,All I Ever Wanted,Kelly Clarkson,1,1,1
+2025-04-04,I Do Not Hook Up,All I Ever Wanted,Kelly Clarkson,1,1,1
+2025-04-04,My Life Would Suck Without You,All I Ever Wanted,Kelly Clarkson,1,1,1
+2025-04-04,Don't Waste Your Time,My December,Kelly Clarkson,1,1,1
+2025-04-04,One Minute,My December,Kelly Clarkson,1,1,1
+2025-04-04,Sober,My December,Kelly Clarkson,1,1,1
+2025-04-04,Never Again,My December,Kelly Clarkson,1,1,1
+2025-04-04,Walk Away,Breakaway,Kelly Clarkson,1,1,1
+2025-04-04,Behind These Hazel Eyes,Breakaway,Kelly Clarkson,1,1,1
+2025-04-04,Because of You,Breakaway,Kelly Clarkson,1,1,1
+2025-04-04,Breakaway,Breakaway,Kelly Clarkson,1,1,1
+2025-04-04,Prosthetic Head,Nimrod,Green Day,1,1,1
+2025-04-04,Good Riddance (Time of Your Life),Nimrod,Green Day,1,1,1
+2025-04-04,King for a Day,Nimrod,Green Day,1,1,1
+2025-04-04,Take Back,Nimrod,Green Day,1,1,1
+2025-04-04,Reject,Nimrod,Green Day,1,1,1
+2025-04-04,Walking Alone,Nimrod,Green Day,1,1,1
+2025-04-04,Haushinka,Nimrod,Green Day,1,1,1
+2025-04-04,Jinx,Nimrod,Green Day,1,1,1
+2025-04-04,Last Ride In,Nimrod,Green Day,1,1,1
+2025-04-04,Uptight,Nimrod,Green Day,1,1,1
+2025-04-04,Platypus (I Hate You),Nimrod,Green Day,1,1,1
+2025-04-04,Worry Rock,Nimrod,Green Day,1,1,1
+2025-04-04,All the Time,Nimrod,Green Day,1,1,1
+2025-04-04,The Grouch,Nimrod,Green Day,1,1,1
+2025-04-04,Hitchin' a Ride,Nimrod,Green Day,1,1,1
+2025-04-04,Nice Guys Finish Last,Nimrod,Green Day,1,1,1
+2025-04-04,Cate’s Brother,Cate’s Brother,Maisie Peters,6,6,1
+2025-04-04,BSC,The Good Witch,Maisie Peters,5,5,1
+2025-04-04,Body Better,The Good Witch,Maisie Peters,5,5,1
+2025-04-04,Tough Act,You Signed Up For This,Maisie Peters,1,1,1
+2025-04-04,Psycho,You Signed Up For This,Maisie Peters,4,4,1
+2025-04-04,Volcano,You Signed Up For This,Maisie Peters,1,1,1
+2025-04-04,I’m Trying (Not Friends),You Signed Up For This,Maisie Peters,4,4,1
+2025-04-04,Talking To Strangers,You Signed Up For This,Maisie Peters,1,1,1
+2025-04-04,Elvis Song,You Signed Up For This,Maisie Peters,1,1,1
+2025-04-04,Brooklyn,You Signed Up For This,Maisie Peters,1,1,1
+2025-04-04,Villain,You Signed Up For This,Maisie Peters,1,1,1
+2025-04-04,Hollow,You Signed Up For This,Maisie Peters,1,1,1
+2025-04-04,Boy,You Signed Up For This,Maisie Peters,1,1,1
+2025-04-04,Love Him I Don’t,You Signed Up For This,Maisie Peters,1,1,1
+2025-04-04,Outdoor Pool,You Signed Up For This,Maisie Peters,1,1,1
+2025-04-04,John Hughes Movie,You Signed Up For This,Maisie Peters,1,1,1
+2025-04-04,You Signed Up For This,You Signed Up For This,Maisie Peters,1,1,1
+2025-04-04,Funeral (feat. James Bay),Funeral (feat. James Bay),Maisie Peters,1,1,1
 2025-04-04,Hang,Yourself or Someone Like You,Matchbox Twenty,1,1,1
 2025-04-04,Shame,Yourself or Someone Like You,Matchbox Twenty,1,1,1
 2025-04-04,Busted,Yourself or Someone Like You,Matchbox Twenty,1,1,1
@@ -27,16 +448,9 @@ Week,Song Name,Album Name,Artist Name,Streams,Sales,Airplay
 2025-04-04,Damn,Yourself or Someone Like You,Matchbox Twenty,1,1,1
 2025-04-04,Back 2 Good,Yourself or Someone Like You,Matchbox Twenty,1,1,1
 2025-04-04,Girl Like That,Yourself or Someone Like You,Matchbox Twenty,1,1,1
-2025-04-04,Push,Yourself or Someone Like You,Matchbox Twenty,1,1,1
 2025-04-04,3AM,Yourself or Someone Like You,Matchbox Twenty,1,1,1
 2025-04-04,Long Day,Yourself or Someone Like You,Matchbox Twenty,1,1,1
 2025-04-04,Real World,Yourself or Someone Like You,Matchbox Twenty,1,1,1
-2025-04-04,2 hands,So Close to What,Tate McRae,1,1,1
-2025-04-04,Purple Lace Bra,So Close to What,Tate McRae,1,1,1
-2025-04-04,Sports car,So Close to What,Tate McRae,1,1,1
-2025-04-04,Revolving Door,So Close to What,Tate McRae,1,1,1
-2025-04-04,It's OK I'm OK,So Close to What,Tate McRae,1,1,1
-2025-04-04,Miss Possessive,So Close to What,Tate McRae,1,1,1
 2025-04-04,Letterbomb,American Idiot,Green Day,3,3,1
 2025-04-04,Extraordinary Girl,American Idiot,Green Day,3,3,1
 2025-04-04,She's a Rebel,American Idiot,Green Day,3,3,1
@@ -45,32 +459,9 @@ Week,Song Name,Album Name,Artist Name,Streams,Sales,Airplay
 2025-04-04,Are We the Waiting,American Idiot,Green Day,3,3,1
 2025-04-04,Boulevard of Broken Dreams,American Idiot,Green Day,3,3,1
 2025-04-04,Holiday,American Idiot,Green Day,3,3,1
-2025-04-04,I'm Lost Without You,blink-182,blink-182,2,2,1
-2025-04-04,Here's Your Letter,blink-182,blink-182,2,2,1
-2025-04-04,All of This,blink-182,blink-182,2,2,1
-2025-04-04,Always,blink-182,blink-182,2,2,1
-2025-04-04,Asthenia,blink-182,blink-182,2,2,1
-2025-04-04,Go,blink-182,blink-182,2,2,1
-2025-04-04,The Fallen Interlude,blink-182,blink-182,2,2,1
-2025-04-04,Down,blink-182,blink-182,2,2,1
-2025-04-04,Stockholm Syndrome,blink-182,blink-182,2,2,1
-2025-04-04,Stockholm Syndrome Interlude,blink-182,blink-182,2,2,1
-2025-04-04,Violence,blink-182,blink-182,2,2,1
-2025-04-04,Feeling This,blink-182,blink-182,2,2,1
-2025-04-04,You Won't Be Mine,Mad Season,Matchbox Twenty,4,4,1
-2025-04-04,Stop,Mad Season,Matchbox Twenty,4,4,1
-2025-04-04,Leave,Mad Season,Matchbox Twenty,4,4,1
-2025-04-04,Bed of Lies,Mad Season,Matchbox Twenty,4,4,1
-2025-04-04,The Burn,Mad Season,Matchbox Twenty,4,4,1
-2025-04-04,Rest Stop,Mad Season,Matchbox Twenty,4,4,1
 2025-04-04,Forever Winter (Taylor's Version) (From the Vault),Red (Taylor's Version),Taylor Swift,3,3,1
-2025-04-04,All Too Well (Taylor's Version),Red (Taylor's Version),Taylor Swift,2,2,1
 2025-04-04,I Bet You Think About Me (feat. Chris Stapleton) (Taylor’s Version) (From the Vault),Red (Taylor's Version),Taylor Swift,2,2,1
 2025-04-04,I Knew You Were Trouble (Taylor's Version),Red (Taylor's Version),Taylor Swift,2,2,1
 2025-04-04,Red (Taylor's Version),Red (Taylor's Version),Taylor Swift,2,2,1
-2025-04-04,LOVE DIVE,LOVE DIVE,IVE,7,7,1
-2025-04-04,Don't Leave Me,Enema of the State,blink-182,6,6,1
 2025-04-04,Uptown Girl,Coast to Coast (Expanded Edition),Westlife,6,6,1
 2025-04-04,The Feels,Formula of Love: O+T=<3,TWICE,6,6,1
-2025-04-04,Bent,Mad Season,Matchbox Twenty,1,1,1
-2025-04-04,If You're Gone,Mad Season,Matchbox Twenty,1,1,1

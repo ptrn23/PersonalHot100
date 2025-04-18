@@ -1,9 +1,9 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
 2021-01-15,1,RE,--,True,26,--,coney island,Taylor Swift The National,evermore (deluxe version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,1,2
 2021-01-15,2,RE,--,False,17,--,my tears ricochet,Taylor Swift,folklore (deluxe version),2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,0,0,1,3
-2021-01-15,3,+16,19,False,15,1.0,ivy,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,5,0,3,4
-2021-01-15,4,+16,20,True,14,1.5,champagne problems,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,4,0,4,4
-2021-01-15,5,+66,71,True,13,2.33,exile (feat. Bon Iver),Taylor Swift,folklore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,5,3
+2021-01-15,3,+16,19,False,15,0.07,ivy,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,5,0,3,4
+2021-01-15,4,+16,20,True,14,0.08,champagne problems,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,4,0,4,4
+2021-01-15,5,+66,71,True,13,0.3,exile (feat. Bon Iver),Taylor Swift,folklore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,5,3
 2021-01-15,6,RE,--,True,10,--,Detention,Melanie Martinez,K-12,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,3
 2021-01-15,7,RE,--,False,10,--,Training Wheels,Melanie Martinez,Cry Baby (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,3
 2021-01-15,8,RE,--,False,10,--,Why Not?,이달의 소녀,［12:00］,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,5
@@ -14,26 +14,26 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-01-15,13,NEW,--,True,10,--,My Second Date,Red Velvet,Perfect Velvet - The 2nd Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,1
 2021-01-15,14,NEW,--,True,10,--,I Think He Knows,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,1
 2021-01-15,15,RE,--,True,10,--,Blue Flame,Astro,BLUE FLAME,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,2
-2021-01-15,16,RE,--,True,10,--,Carpool,Red Velvet,‘The ReVe Festival’ Day 2 - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,3
+2021-01-15,16,RE,--,True,10,--,Carpool,Red Velvet,‘The ReVe Festival’ Day 2 - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,4
 2021-01-15,17,RE,--,True,10,--,BRING IT BACK,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,2
 2021-01-15,18,RE,--,True,10,--,happiness,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,2
 2021-01-15,19,RE,--,False,10,--,marjorie,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,3
 2021-01-15,20,RE,--,False,10,--,gold rush,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,3
 2021-01-15,21,NEW,--,True,10,--,it’s time to go - bonus track,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,1
 2021-01-15,22,NEW,--,True,10,--,right where you left me - bonus track,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,1
-2021-01-15,23,RE,--,False,10,--,evermore (feat. Bon Iver),Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,2
+2021-01-15,23,RE,--,False,10,--,evermore (feat. Bon Iver),Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,2
 2021-01-15,24,RE,--,False,10,--,closure,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,3
 2021-01-15,25,RE,--,False,10,--,long story short,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,9,3
 2021-01-15,26,RE,--,False,10,--,cowboy like me,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,3
 2021-01-15,27,RE,--,False,10,--,coney island (feat. The National),Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,2
-2021-01-15,28,RE,--,False,10,--,dorothea,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,2
+2021-01-15,28,RE,--,False,10,--,dorothea,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,20,2
 2021-01-15,29,RE,--,False,10,--,no body no crime (feat. HAIM),Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,2
 2021-01-15,30,RE,--,False,10,--,tolerate it,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,2
 2021-01-15,31,RE,--,False,10,--,‘tis the damn season,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,3
 2021-01-15,32,RE,--,False,10,--,willow,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,3
 2021-01-15,33,NEW,--,True,10,--,the lakes - bonus track,Taylor Swift,folklore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,33,1
-2021-01-15,34,RE,--,False,10,--,hoax,Taylor Swift,folklore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,3
-2021-01-15,35,RE,--,False,10,--,peace,Taylor Swift,folklore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,4
+2021-01-15,34,RE,--,False,10,--,hoax,Taylor Swift,folklore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,5
+2021-01-15,35,RE,--,False,10,--,peace,Taylor Swift,folklore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,4
 2021-01-15,36,RE,--,False,10,--,betty,Taylor Swift,folklore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,3
 2021-01-15,37,RE,--,False,10,--,epiphany,Taylor Swift,folklore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,2
 2021-01-15,38,RE,--,False,10,--,mad woman,Taylor Swift,folklore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,3

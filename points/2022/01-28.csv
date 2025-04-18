@@ -1,98 +1,98 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
-2022-01-28,1,=,1,False,98,2.14,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,21,11,1,10
-2022-01-28,2,+9,11,True,55,1.83,She,dodie,Human,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,12,9,2,6
-2022-01-28,3,+7,10,False,55,1.83,I Bet You Think About Me (feat. Chris Stapleton) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,12,9,2,11
-2022-01-28,4,+1,5,False,55,1.62,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,13,8,3,10
+2022-01-28,1,=,1,False,98,0.4,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,21,11,1,10
+2022-01-28,2,+9,11,True,55,0.41,She,dodie,Human,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,12,9,2,6
+2022-01-28,3,+7,10,False,55,0.41,I Bet You Think About Me (feat. Chris Stapleton) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,12,9,2,11
+2022-01-28,4,+1,5,False,55,0.28,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,13,8,3,10
 2022-01-28,5,NEW,--,True,53,--,All I Want,Olivia Rodrigo,High School Musical: The Musical: The Series (Original Soundtrack),7,4,3,35,12,6,350000,12000,300000,0.53,0.02,0.45,662000,53,0,0,5,1
-2022-01-28,6,+41,47,False,52,3.25,If I'm Being Honest,dodie,Human,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,8,10,2,8
-2022-01-28,7,-5,2,False,52,0.62,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,16,10,2,10
-2022-01-28,8,-5,3,False,46,0.12,Forever Winter (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,16,12,1,12
-2022-01-28,9,+9,18,False,46,1.36,The Story of Us,Taylor Swift,Speak Now (Deluxe Package),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,11,9,8,11
-2022-01-28,10,+48,58,False,45,3.12,FANCY,TWICE,FANCY YOU,4,3,2,20,9,4,200000,9000,200000,0.49,0.02,0.49,409000,33,8,4,1,16
-2022-01-28,11,+53,64,False,42,2.71,HUMAN,dodie,Human,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,7,9,1,13
-2022-01-28,12,+8,20,False,42,1.5,Getaway Car,Taylor Swift,Reputation,3,2,2,15,6,4,150000,6000,200000,0.42,0.02,0.56,356000,25,10,7,7,11
-2022-01-28,13,+6,19,False,41,1.6,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,10,5,10,9
-2022-01-28,14,+12,26,True,40,1.89,Better Than Revenge,Taylor Swift,Speak Now (Deluxe Package),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,9,5,14,5
+2022-01-28,6,+41,47,False,52,1.08,If I'm Being Honest,dodie,Human,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,8,10,2,8
+2022-01-28,7,-5,2,False,52,-0.02,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,16,10,2,10
+2022-01-28,8,-5,3,False,46,-0.12,Forever Winter (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,16,12,1,12
+2022-01-28,9,+9,18,False,46,0.35,The Story of Us,Taylor Swift,Speak Now (Deluxe Package),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,11,9,8,11
+2022-01-28,10,+48,58,False,45,0.88,FANCY,TWICE,FANCY YOU,4,3,2,20,9,4,200000,9000,200000,0.49,0.02,0.49,409000,33,8,4,1,16
+2022-01-28,11,+53,64,False,42,0.83,HUMAN,dodie,Human,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,7,9,1,13
+2022-01-28,12,+8,20,False,42,0.27,Getaway Car,Taylor Swift,Reputation,3,2,2,15,6,4,150000,6000,200000,0.42,0.02,0.56,356000,25,10,7,7,11
+2022-01-28,13,+6,19,False,41,0.24,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,10,5,10,9
+2022-01-28,14,+12,26,True,40,0.43,Better Than Revenge,Taylor Swift,Speak Now (Deluxe Package),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,9,5,14,5
 2022-01-28,15,NEW,--,True,40,--,We Don't Talk About Bruno,Carolina Gaitán - La Gaita,Encanto (Original Motion Picture Soundtrack),5,3,3,25,9,6,250000,9000,300000,0.45,0.02,0.54,559000,40,0,0,15,1
-2022-01-28,16,-12,4,False,39,0.29,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,14,7,4,10
-2022-01-28,17,+20,37,False,38,2.75,STRAWBERRY,TWICE,FANCY YOU,4,2,2,20,6,4,200000,6000,200000,0.49,0.01,0.49,406000,30,8,0,11,5
-2022-01-28,18,-12,6,False,37,0.38,Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,13,6,2,12
-2022-01-28,19,-5,14,False,36,0.64,Sad Beautiful Tragic (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,11,7,5,11
-2022-01-28,20,-12,8,False,34,0.5,Dangerous Woman,Ariana Grande,Dangerous Woman,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,12,4,8,8
-2022-01-28,21,-12,9,False,34,0.5,Womanizer,Britney Spears,Circus (Deluxe Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,12,4,4,21
-2022-01-28,22,+5,27,False,33,1.0,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,9,6,16,8
-2022-01-28,23,-8,15,False,33,0.64,Waking Up in Vegas,Katy Perry,One of the Boys,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,11,4,5,16
+2022-01-28,16,-12,4,False,39,-0.11,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,14,7,4,10
+2022-01-28,17,+20,37,False,38,0.46,STRAWBERRY,TWICE,FANCY YOU,4,2,2,20,6,4,200000,6000,200000,0.49,0.01,0.49,406000,30,8,0,11,5
+2022-01-28,18,-12,6,False,37,-0.12,Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,13,6,2,12
+2022-01-28,19,-5,14,False,36,0.0,Sad Beautiful Tragic (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,11,7,5,11
+2022-01-28,20,-12,8,False,34,-0.15,Dangerous Woman,Ariana Grande,Dangerous Woman,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,12,4,8,8
+2022-01-28,21,-12,9,False,34,-0.15,Womanizer,Britney Spears,Circus (Deluxe Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,12,4,4,21
+2022-01-28,22,+5,27,False,33,0.22,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,9,6,16,8
+2022-01-28,23,-8,15,False,33,-0.08,Waking Up in Vegas,Katy Perry,One of the Boys,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,11,4,5,16
 2022-01-28,24,NEW,--,True,33,--,Coffee,Jack Stauber's Micropop,Shop: A Pop Opera,4,3,2,20,9,4,200000,9000,200000,0.49,0.02,0.49,409000,33,0,0,24,1
-2022-01-28,25,+42,67,False,32,1.57,burned out,dodie,Human,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,7,7,11,5
-2022-01-28,26,-3,23,False,32,0.8,The Moment I Knew (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,10,4,6,10
-2022-01-28,27,+6,33,False,32,1.25,Umbrella,Rihanna,Good Girl Gone Bad: Reloaded,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,6,13,7
-2022-01-28,28,+6,34,False,32,1.25,Shake It Off,Taylor Swift,1989 (Deluxe),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,6,11,8
-2022-01-28,29,-17,12,False,30,0.5,Dress,Taylor Swift,Reputation,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,12,0,5,15
-2022-01-28,30,+70,100,False,30,2.0,Not What I Meant (feat. Lewis Watson),dodie,Human,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,6,18,6
-2022-01-28,31,+17,48,False,30,1.25,I Almost Do (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,4,5,9
-2022-01-28,32,+34,66,False,28,1.43,Feel Special,TWICE,Feel Special,2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,7,4,1,16
-2022-01-28,33,RE,--,False,26,--,Liability,Lorde,Melodrama,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,8,7
-2022-01-28,34,RE,--,False,26,--,The Louvre,Lorde,Melodrama,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,6,8
-2022-01-28,35,-4,31,False,26,1.25,Psycho,Red Velvet,‘The ReVe Festival’ Finale,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,6,8
-2022-01-28,36,+5,41,False,26,1.25,Physical,Dua Lipa,Future Nostalgia,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,17,12
-2022-01-28,37,-30,7,False,26,-0.17,Toxic,Britney Spears,In the Zone,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,12,4,7,10
-2022-01-28,38,=,38,False,26,1.25,Don’t Blame Me,Taylor Swift,Reputation,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,7,8
-2022-01-28,39,-23,16,False,26,-0.09,Girlfriend,Avril Lavigne,The Best Damn Thing (Expanded Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,11,5,16,7
+2022-01-28,25,+42,67,False,32,0.52,burned out,dodie,Human,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,7,7,11,5
+2022-01-28,26,-3,23,False,32,0.03,The Moment I Knew (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,10,4,6,10
+2022-01-28,27,+6,33,False,32,0.23,Umbrella,Rihanna,Good Girl Gone Bad: Reloaded,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,6,13,7
+2022-01-28,28,+6,34,False,32,0.23,Shake It Off,Taylor Swift,1989 (Deluxe),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,6,11,8
+2022-01-28,29,-17,12,False,30,-0.21,Dress,Taylor Swift,Reputation,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,12,0,5,15
+2022-01-28,30,+70,100,False,30,0.67,Not What I Meant (feat. Lewis Watson),dodie,Human,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,6,18,6
+2022-01-28,31,+17,48,False,30,0.25,I Almost Do (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,4,5,9
+2022-01-28,32,+34,66,False,28,0.33,Feel Special,TWICE,Feel Special,2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,7,4,1,16
+2022-01-28,33,RE,--,False,26,--,Liability,Lorde,Melodrama,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,9,8
+2022-01-28,34,RE,--,False,26,--,The Louvre,Lorde,Melodrama,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,6,9
+2022-01-28,35,-4,31,False,26,0.0,Psycho,Red Velvet,‘The ReVe Festival’ Finale,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,6,9
+2022-01-28,36,+5,41,False,26,0.0,Physical,Dua Lipa,Future Nostalgia,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,17,12
+2022-01-28,37,-30,7,False,26,-0.35,Toxic,Britney Spears,In the Zone,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,12,4,7,11
+2022-01-28,38,=,38,False,26,0.0,Don’t Blame Me,Taylor Swift,Reputation,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,7,8
+2022-01-28,39,-23,16,False,26,-0.28,Girlfriend,Avril Lavigne,The Best Damn Thing (Expanded Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,11,5,16,7
 2022-01-28,40,RE,--,False,24,--,Monster,dodie,Human,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,6,19,7
 2022-01-28,41,RE,--,False,24,--,Arms Unfolding,dodie,Human,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,6,20,6
-2022-01-28,42,+28,70,False,24,2.0,Come Back...Be Here (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,0,12,8
-2022-01-28,43,+47,90,False,24,2.0,Heart Attack (츄),Loona,Chuu,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,0,3,8
-2022-01-28,44,+43,87,True,24,2.0,Kiss You,One Direction,Take Me Home (Expanded Edition),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,0,44,4
-2022-01-28,45,+43,88,False,24,2.0,Still Into You,Paramore,Paramore,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,0,6,12
-2022-01-28,46,+31,77,False,24,2.0,Someone Like You,Adele,21,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,0,17,5
-2022-01-28,47,+18,65,False,24,0.43,Ikaw Lamang,Silent Sanctuary,Fuchsiang Pag-Ibig,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,7,7,12,3
-2022-01-28,48,-26,22,False,24,0.0,Hot n Cold,Katy Perry,One of the Boys,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,10,4,1,5
-2022-01-28,49,-17,32,False,24,0.25,Just the Way You Are,Bruno Mars,Doo-Wops & Hooligans,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,6,22,6
-2022-01-28,50,-15,35,False,24,0.25,What Makes You Beautiful,One Direction,Up All Night,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,6,29,4
-2022-01-28,51,-8,43,False,23,0.25,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,5,21,8
+2022-01-28,42,+28,70,False,24,0.33,Come Back...Be Here (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,0,12,8
+2022-01-28,43,+47,90,False,24,0.33,Heart Attack (츄),Loona,Chuu,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,0,3,8
+2022-01-28,44,+43,87,True,24,0.33,Kiss You,One Direction,Take Me Home (Expanded Edition),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,0,44,4
+2022-01-28,45,+43,88,False,24,0.33,Still Into You,Paramore,Paramore,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,0,6,12
+2022-01-28,46,+31,77,False,24,0.33,Someone Like You,Adele,21,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,0,17,5
+2022-01-28,47,+18,65,False,24,0.14,Ikaw Lamang,Silent Sanctuary,Fuchsiang Pag-Ibig,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,7,7,12,3
+2022-01-28,48,-26,22,False,24,-0.25,Hot n Cold,Katy Perry,One of the Boys,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,10,4,1,5
+2022-01-28,49,-17,32,False,24,-0.08,Just the Way You Are,Bruno Mars,Doo-Wops & Hooligans,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,6,22,6
+2022-01-28,50,-15,35,False,24,-0.08,What Makes You Beautiful,One Direction,Up All Night,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,6,29,4
+2022-01-28,51,-8,43,False,23,-0.08,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,5,21,8
 2022-01-28,52,RE,--,False,22,--,Guiltless,dodie,Guiltless,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,4,5,7
-2022-01-28,53,-40,13,False,22,-0.17,False God,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,12,0,13,6
-2022-01-28,54,-10,44,False,23,0.25,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,5,2,14
-2022-01-28,55,+2,57,False,22,0.25,Party in the U.S.A.,Miley Cyrus,The Time of Our Lives (International Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,4,34,7
-2022-01-28,56,+7,63,False,21,0.43,The Lucky One (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,7,4,14,10
-2022-01-28,57,+4,61,False,22,0.25,Circus,Britney Spears,Circus (Deluxe Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,4,1,9
-2022-01-28,58,-9,49,False,22,0.25,Firework,Katy Perry,Teenage Dream: The Complete Confection,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,4,25,6
+2022-01-28,53,-40,13,False,22,-0.42,False God,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,12,0,13,7
+2022-01-28,54,-10,44,False,23,-0.08,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,5,2,14
+2022-01-28,55,+2,57,False,22,-0.08,Party in the U.S.A.,Miley Cyrus,The Time of Our Lives (International Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,4,34,7
+2022-01-28,56,+7,63,False,21,-0.09,The Lucky One (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,7,4,14,10
+2022-01-28,57,+4,61,False,22,-0.08,Circus,Britney Spears,Circus (Deluxe Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,4,1,9
+2022-01-28,58,-9,49,False,22,-0.08,Firework,Katy Perry,Teenage Dream: The Complete Confection,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,4,25,6
 2022-01-28,59,RE,--,False,21,--,Rolling in the Deep,Adele,21,2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,0,4,2,6
 2022-01-28,60,RE,--,False,21,--,Break Free,Ariana Grande,My Everything (Deluxe),2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,0,4,11,3
-2022-01-28,61,-11,50,False,22,0.25,Starving,Hailee Steinfeld,Starving,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,4,50,5
-2022-01-28,62,-11,51,False,22,0.25,Bang Bang,Jessie J,Sweet Talker (Deluxe Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,4,51,4
-2022-01-28,63,-11,52,False,22,0.25,2002,Anne-Marie,Speak Your Mind (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,4,52,3
-2022-01-28,64,-11,53,False,22,0.25,Migraine,Moonstar88,Todo Combo,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,4,53,3
-2022-01-28,65,-11,54,False,22,0.25,thank u next,Ariana Grande,thank u next,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,4,14,5
-2022-01-28,66,-49,17,False,21,-0.09,Since U Been Gone,Kelly Clarkson,Breakaway,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,11,0,17,3
-2022-01-28,67,-12,55,False,22,0.25,Night Changes,One Direction,FOUR (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,4,55,3
-2022-01-28,68,+15,83,False,22,0.67,Really Don't Care,Demi Lovato,Demi,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,6,14,8
-2022-01-28,69,-45,24,False,19,0.11,Bad Boy,Red Velvet,The Perfect Red Velvet - The 2nd Album Repackage,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,9,0,13,7
-2022-01-28,70,RE,--,False,18,--,Perfect Places,Lorde,Melodrama,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,28,6
-2022-01-28,71,RE,--,False,18,--,Liability (Reprise),Lorde,Melodrama,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,29,5
-2022-01-28,72,RE,--,False,18,--,Supercut,Lorde,Melodrama,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,4,10
-2022-01-28,73,RE,--,False,18,--,Writer in the Dark,Lorde,Melodrama,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,5,6
-2022-01-28,74,RE,--,False,18,--,Sober II (Melodrama),Lorde,Melodrama,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,6,7
-2022-01-28,75,RE,--,False,18,--,Hard Feelings/Loveless,Lorde,Melodrama,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,33,5
-2022-01-28,76,RE,--,False,18,--,Homemade Dynamite,Lorde,Melodrama,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,10,6
-2022-01-28,77,RE,--,False,18,--,Sober,Lorde,Melodrama,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,1,9
-2022-01-28,78,RE,--,False,18,--,Green Light,Lorde,Melodrama,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,1,12
-2022-01-28,79,-51,28,False,18,0.25,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,16,8
-2022-01-28,80,-51,29,False,18,0.25,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,12,7
+2022-01-28,61,-11,50,False,22,-0.08,Starving,Hailee Steinfeld,Starving,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,4,50,5
+2022-01-28,62,-11,51,False,22,-0.08,Bang Bang,Jessie J,Sweet Talker (Deluxe Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,4,51,4
+2022-01-28,63,-11,52,False,22,-0.08,2002,Anne-Marie,Speak Your Mind (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,4,52,3
+2022-01-28,64,-11,53,False,22,-0.08,Migraine,Moonstar88,Todo Combo,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,4,53,3
+2022-01-28,65,-11,54,False,22,-0.08,thank u next,Ariana Grande,thank u next,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,4,14,5
+2022-01-28,66,-49,17,False,21,-0.38,Since U Been Gone,Kelly Clarkson,Breakaway,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,11,0,17,3
+2022-01-28,67,-12,55,False,22,-0.08,Night Changes,One Direction,FOUR (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,4,55,3
+2022-01-28,68,+15,83,False,22,0.22,Really Don't Care,Demi Lovato,Demi,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,6,14,8
+2022-01-28,69,-45,24,False,19,-0.37,Bad Boy,Red Velvet,The Perfect Red Velvet - The 2nd Album Repackage,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,9,0,13,7
+2022-01-28,70,RE,--,False,18,--,Perfect Places,Lorde,Melodrama,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,29,6
+2022-01-28,71,RE,--,False,18,--,Liability (Reprise),Lorde,Melodrama,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,30,5
+2022-01-28,72,RE,--,False,18,--,Supercut,Lorde,Melodrama,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,5,10
+2022-01-28,73,RE,--,False,18,--,Writer in the Dark,Lorde,Melodrama,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,6,6
+2022-01-28,74,RE,--,False,18,--,Sober II (Melodrama),Lorde,Melodrama,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,7,7
+2022-01-28,75,RE,--,False,18,--,Hard Feelings/Loveless,Lorde,Melodrama,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,34,6
+2022-01-28,76,RE,--,False,18,--,Homemade Dynamite,Lorde,Melodrama,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,11,7
+2022-01-28,77,RE,--,False,18,--,Sober,Lorde,Melodrama,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,1,10
+2022-01-28,78,RE,--,False,18,--,Green Light,Lorde,Melodrama,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,1,14
+2022-01-28,79,-51,28,False,18,-0.31,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,16,8
+2022-01-28,80,-51,29,False,18,-0.31,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,12,7
 2022-01-28,81,RE,--,False,18,--,State of Grace (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,1,6
 2022-01-28,82,RE,--,False,18,--,CLAP,Seventeen,SEVENTEEN 2ND ALBUM 'TEEN AGE',2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,19,2
 2022-01-28,83,RE,--,False,18,--,Locked Out of Heaven,Bruno Mars,Unorthodox Jukebox,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,5,7
-2022-01-28,84,-42,42,False,18,0.25,Moonlight,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,36,6
+2022-01-28,84,-42,42,False,18,-0.31,Moonlight,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,36,6
 2022-01-28,85,RE,--,False,18,--,I Did Something Bad,Taylor Swift,Reputation,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,21,4
-2022-01-28,86,RE,--,False,18,--,Hotter Than Hell,Dua Lipa,Dua Lipa (Deluxe),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,19,4
+2022-01-28,86,RE,--,False,18,--,Hotter Than Hell,Dua Lipa,Dua Lipa (Deluxe),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,18,4
 2022-01-28,87,NEW,--,True,18,--,What Else Can I Do?,Diane Guerrero,Encanto (Original Motion Picture Soundtrack),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,87,1
 2022-01-28,88,NEW,--,True,18,--,Surface Pressure,Jessica Darrow,Encanto (Original Motion Picture Soundtrack),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,88,1
 2022-01-28,89,NEW,--,True,18,--,The Family Madrigal,Stephanie Beatriz,Encanto (Original Motion Picture Soundtrack),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,89,1
 2022-01-28,90,NEW,--,True,18,--,Anything You Can Do,Bernadette Peters,Annie Get Your Gun: The New Broadway Cast Recording,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,90,1
-2022-01-28,91,-61,30,False,18,0.25,favOriTe,Loona,FavOriTe,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,30,7
-2022-01-28,92,-56,36,False,18,0.25,Hands to Myself,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,1,8
-2022-01-28,93,-54,39,False,18,0.25,Anaconda,Nicki Minaj,The Pinkprint (International Deluxe Explicit),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,5,13
-2022-01-28,94,-54,40,False,18,0.25,WAP (feat. Megan Thee Stallion),Cardi B,WAP (feat. Megan Thee Stallion),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,1,12
+2022-01-28,91,-61,30,False,18,-0.31,favOriTe,Loona,FavOriTe,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,30,7
+2022-01-28,92,-56,36,False,18,-0.31,Hands to Myself,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,1,8
+2022-01-28,93,-54,39,False,18,-0.31,Anaconda,Nicki Minaj,The Pinkprint (International Deluxe Explicit),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,5,13
+2022-01-28,94,-54,40,False,18,-0.31,WAP (feat. Megan Thee Stallion),Cardi B,WAP (feat. Megan Thee Stallion),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,1,12
 2022-01-28,95,RE,--,False,18,--,Love Story (Taylor’s Version),Taylor Swift,Love Story (Taylor’s Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,1,18
 2022-01-28,96,RE,--,False,18,--,YES or YES,TWICE,YES or YES,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,5,10
 2022-01-28,97,RE,--,False,18,--,Heart Shaker,TWICE,Merry & Happy,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,22,4

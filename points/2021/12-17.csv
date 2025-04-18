@@ -1,15 +1,15 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
-2021-12-17,1,=,1,False,64,0.45,Forever Winter (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),4,2,3,20,6,6,200000,6000,300000,0.4,0.01,0.59,506000,32,22,10,1,6
-2021-12-17,2,+1,3,True,53,1.75,I Bet You Think About Me (feat. Chris Stapleton) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),4,3,2,20,9,4,200000,9000,200000,0.49,0.02,0.49,409000,33,12,8,2,6
-2021-12-17,3,+1,4,True,44,1.36,Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,11,7,3,6
+2021-12-17,1,=,1,False,64,-0.1,Forever Winter (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),4,2,3,20,6,6,200000,6000,300000,0.4,0.01,0.59,506000,32,22,10,1,6
+2021-12-17,2,+1,3,True,53,0.39,I Bet You Think About Me (feat. Chris Stapleton) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),4,3,2,20,9,4,200000,9000,200000,0.49,0.02,0.49,409000,33,12,8,2,6
+2021-12-17,3,+1,4,True,44,0.29,Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,11,7,3,6
 2021-12-17,4,RE,--,False,32,--,Babe (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),3,2,2,15,6,4,150000,6000,200000,0.42,0.02,0.56,356000,25,0,7,4,5
 2021-12-17,5,RE,--,False,32,--,Better Man (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,6,2,5
-2021-12-17,6,-4,2,False,29,-0.47,CPR,cupcakKe,Queen Elizabitch,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,19,0,2,2
-2021-12-17,7,+35,42,False,28,7.33,happiness,Taylor Swift,evermore,3,2,2,15,6,4,150000,6000,200000,0.42,0.02,0.56,356000,25,3,0,1,18
+2021-12-17,6,-4,2,False,29,-0.52,CPR,cupcakKe,Queen Elizabitch,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,19,0,2,2
+2021-12-17,7,+35,42,False,28,1.8,happiness,Taylor Swift,evermore,3,2,2,15,6,4,150000,6000,200000,0.42,0.02,0.56,356000,25,3,0,1,20
 2021-12-17,8,RE,--,False,26,--,Dear Future Husband,Meghan Trainor,Title (Deluxe),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,7,4
 2021-12-17,9,RE,--,False,23,--,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,5,3,5
-2021-12-17,10,+31,41,False,20,4.67,You Are in Love,Taylor Swift,1989 (Deluxe),2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,3,0,3,12
-2021-12-17,11,-6,5,False,20,0.67,Sad Beautiful Tragic (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,4,5,6
+2021-12-17,10,+31,41,False,20,1.0,You Are in Love,Taylor Swift,1989 (Deluxe),2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,3,0,3,12
+2021-12-17,11,-6,5,False,20,0.0,Sad Beautiful Tragic (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,4,5,6
 2021-12-17,12,RE,--,False,20,--,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,10,1,5
 2021-12-17,13,RE,--,False,18,--,Dress,Taylor Swift,Reputation,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,5,12
 2021-12-17,14,RE,--,True,18,--,Mary's Song (Oh My My My),Taylor Swift,Taylor Swift,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,14,7
@@ -45,27 +45,27 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-12-17,44,RE,--,False,10,--,Me Gustas Tu,GFRIEND,GFriend 2nd Mini Album 'Flower Bud',1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,5
 2021-12-17,45,RE,--,False,10,--,VERY NICE,Seventeen,Love&Letter Repackage Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,44,2
 2021-12-17,46,RE,--,False,10,--,The Story of Us,Taylor Swift,Speak Now (Deluxe Package),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,6
-2021-12-17,47,RE,--,False,10,--,Perfect Love,Loona,[+ +],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,34,3
+2021-12-17,47,RE,--,False,10,--,Perfect Love,Loona,[+ +],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,35,3
 2021-12-17,48,RE,--,False,10,--,LOONATIC,LOOΠΔ / ODD EYE CIRCLE,Max & Match,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,47,5
 2021-12-17,49,RE,--,False,10,--,My Sunday,Loona,YeoJin,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,3
 2021-12-17,50,RE,--,False,10,--,I Think He Knows,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,7
 2021-12-17,51,NEW,--,True,10,--,If I Never See Your Face Again,Maroon 5,It Won't Be Soon Before Long (International Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,51,1
 2021-12-17,52,RE,--,False,10,--,Ride,twenty one pilots,Blurryface,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,44,4
-2021-12-17,53,RE,--,False,10,--,What's My Name?,Rihanna,Loud,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,29,2
+2021-12-17,53,RE,--,False,10,--,What's My Name?,Rihanna,Loud,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,2
 2021-12-17,54,RE,--,False,10,--,Latch (feat. Sam Smith),Disclosure,Settle (Special Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,33,4
 2021-12-17,55,RE,--,True,10,--,Wish You Were Here,Avril Lavigne,Goodbye Lullaby (Expanded Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,55,3
-2021-12-17,56,RE,--,False,10,--,Tell Me Something I Don't Know,Selena Gomez & the Scene,For You,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,6
+2021-12-17,56,RE,--,False,10,--,Tell Me Something I Don't Know,Selena Gomez & the Scene,For You,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,20,6
 2021-12-17,57,RE,--,False,10,--,Part of Me,Katy Perry,Teenage Dream: The Complete Confection,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,5
 2021-12-17,58,RE,--,False,10,--,Payphone,Maroon 5,Overexposed Track By Track,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,51,2
-2021-12-17,59,RE,--,True,10,--,Paparazzi,Lady Gaga,The Fame,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,59,2
+2021-12-17,59,RE,--,False,10,--,Paparazzi,Lady Gaga,The Fame,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,58,2
 2021-12-17,60,RE,--,True,10,--,For a Pessimist I'm Pretty Optimistic,Paramore,RIOT!,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,60,2
 2021-12-17,61,RE,--,False,10,--,달라달라 (DALLA DALLA),ITZY,IT'z Different,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,20,3
 2021-12-17,62,RE,--,False,10,--,Human,Christina Perri,Head or Heart,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,6
 2021-12-17,63,RE,--,False,10,--,Single Ladies (Put a Ring on It),Beyoncé,I AM...SASHA FIERCE - Platinum Edition,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,7
 2021-12-17,64,RE,--,True,10,--,Round & Round,Selena Gomez & the Scene,A Year Without Rain,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,64,3
-2021-12-17,65,RE,--,False,10,--,Thunder,Imagine Dragons,Evolve,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,63,3
+2021-12-17,65,RE,--,False,10,--,Thunder,Imagine Dragons,Evolve,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,47,3
 2021-12-17,66,RE,--,False,10,--,Send My Love (to Your New Lover),Adele,25,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,48,6
-2021-12-17,67,NEW,--,True,10,--,Flashlight - From Pitch Perfect 2 Soundtrack,Jessie J,Flashlight (From Pitch Perfect 2 Soundtrack),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,67,1
+2021-12-17,67,RE,--,True,10,--,Flashlight - From Pitch Perfect 2 Soundtrack,Jessie J,Flashlight (From Pitch Perfect 2 Soundtrack),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,67,2
 2021-12-17,68,RE,--,False,10,--,Centuries,Fall Out Boy,American Beauty/American Psycho,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,48,3
 2021-12-17,69,RE,--,False,10,--,If U Seek Amy,Britney Spears,Circus (Deluxe Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,6
 2021-12-17,70,NEW,--,True,10,--,Cups (Pitch Perfect’s “When I’m Gone”) - Pop Version,Anna Kendrick,Cups (Pitch Perfect’s “When I’m Gone”),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,70,1
@@ -74,7 +74,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-12-17,73,RE,--,False,10,--,Someone Like You,Adele,21,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,3
 2021-12-17,74,RE,--,True,10,--,FourFiveSeconds,Rihanna,FourFiveSeconds,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,74,2
 2021-12-17,75,RE,--,False,10,--,XO,Beyoncé,Beyoncé,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,33,2
-2021-12-17,76,RE,--,True,10,--,Love Me Like You,Little Mix,Get Weird (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,76,3
+2021-12-17,76,RE,--,True,10,--,Love Me Like You,Little Mix,Get Weird (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,76,4
 2021-12-17,77,RE,--,False,10,--,Sugar,Maroon 5,V,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,77,2
 2021-12-17,78,RE,--,False,10,--,Young and Beautiful,Lana Del Rey,Young and Beautiful,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,5
 2021-12-17,79,RE,--,False,10,--,The Middle,Zedd,The Middle,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,67,2
@@ -87,8 +87,8 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-12-17,86,RE,--,False,10,--,Don’t You (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,7
 2021-12-17,87,RE,--,False,10,--,That’s When (feat. Keith Urban) (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,5
 2021-12-17,88,RE,--,False,10,--,You All Over Me (feat. Maren Morris) (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,6
-2021-12-17,89,RE,--,False,10,--,Hit the Lights,Selena Gomez & the Scene,When the Sun Goes Down,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,88,2
-2021-12-17,90,RE,--,False,10,--,Who Says,Selena Gomez & the Scene,When the Sun Goes Down,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,5
+2021-12-17,89,RE,--,False,10,--,Hit the Lights,Selena Gomez & the Scene,When the Sun Goes Down,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,80,2
+2021-12-17,90,RE,--,False,10,--,Who Says,Selena Gomez & the Scene,When the Sun Goes Down,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,6
 2021-12-17,91,RE,--,False,10,--,Naturally,Selena Gomez & the Scene,Kiss & Tell,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,8
 2021-12-17,92,RE,--,False,10,--,Wolves,Selena Gomez,Wolves,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,54,2
 2021-12-17,93,RE,--,False,10,--,Come & Get It,Selena Gomez,Stars Dance (Bonus Track Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,54,3

@@ -1,12 +1,12 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
 2021-10-15,1,RE,--,False,29,--,Wildest Dreams (Taylor's Version),Taylor Swift,Wildest Dreams (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,11,1,4
-2021-10-15,2,+9,11,True,27,2.6,Begin Again,Taylor Swift,Red (Deluxe Edition),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,5,4,2,5
+2021-10-15,2,+9,11,True,27,0.69,Begin Again,Taylor Swift,Red (Deluxe Edition),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,5,4,2,5
 2021-10-15,3,NEW,--,True,26,--,Easy on Me,Adele,Easy on Me,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,3,1
 2021-10-15,4,RE,--,True,22,--,Delicate,Taylor Swift,Reputation,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,4,4,5
 2021-10-15,5,RE,--,True,22,--,Dress,Taylor Swift,Reputation,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,4,5,9
-2021-10-15,6,+78,84,True,21,5.0,Rolling in the Deep,Adele,21,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,3,0,6,2
+2021-10-15,6,+78,84,True,21,1.1,Rolling in the Deep,Adele,21,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,3,0,6,2
 2021-10-15,7,RE,--,True,20,--,This Is Why We Can't Have Nice Things,Taylor Swift,Reputation,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,2,7,4
-2021-10-15,8,+2,10,True,19,1.0,Look What You Made Me Do,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,5,4,8,7
+2021-10-15,8,+2,10,True,19,0.19,Look What You Made Me Do,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,5,4,8,7
 2021-10-15,9,NEW,--,True,18,--,Hung Up,Madonna,Confessions on a Dance Floor,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,9,1
 2021-10-15,10,RE,--,True,18,--,Love Again,Dua Lipa,Future Nostalgia,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,10,2
 2021-10-15,11,RE,--,True,18,--,Sk8er Boi,Avril Lavigne,Let Go,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,11,4
@@ -17,23 +17,23 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-10-15,16,RE,--,False,18,--,Move,Little Mix,Salute (The Deluxe Edition),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,16,3
 2021-10-15,17,RE,--,True,18,--,Two Is Better Than One (feat. Taylor Swift),Boys Like Girls,Love Drunk,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,17,2
 2021-10-15,18,RE,--,True,18,--,Babe (feat. Taylor Swift),Sugarland,Babe (feat. Taylor Swift),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,18,2
-2021-10-15,19,RE,--,False,18,--,peace,Taylor Swift,folklore (deluxe version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,7,8
+2021-10-15,19,RE,--,False,18,--,peace,Taylor Swift,folklore (deluxe version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,8,8
 2021-10-15,20,RE,--,True,18,--,All About That Bass,Meghan Trainor,Title (Deluxe),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,20,3
 2021-10-15,21,RE,--,True,18,--,Confident,Demi Lovato,Confident,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,21,5
-2021-10-15,22,-16,6,False,16,0.67,River Lea,Adele,25,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,0,6,3
+2021-10-15,22,-16,6,False,16,-0.11,River Lea,Adele,25,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,0,6,3
 2021-10-15,23,RE,--,False,14,--,Kill Em with Kindness,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,4,16,4
-2021-10-15,24,-8,16,False,14,1.5,Style,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,4,0,6,11
+2021-10-15,24,-8,16,False,14,0.08,Style,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,4,0,6,11
 2021-10-15,25,RE,--,False,14,--,King of My Heart,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,4,14,3
-2021-10-15,26,+54,80,True,13,2.33,Set Fire to the Rain,Adele,21,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,26,2
-2021-10-15,27,-8,19,False,13,2.33,As Long as You Love Me,Justin Bieber,Believe (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,19,4
-2021-10-15,28,+1,29,True,13,2.33,Love Somebody,Maroon 5,Overexposed (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,28,4
-2021-10-15,29,+40,69,True,13,2.33,Water Under the Bridge,Adele,25,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,29,3
-2021-10-15,30,+18,48,True,13,2.33,Emperor's New Clothes,Panic! at the Disco,Death of a Bachelor,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,30,4
-2021-10-15,31,-4,27,False,13,2.33,Back to December,Taylor Swift,Speak Now (Deluxe Package),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,27,2
+2021-10-15,26,+54,80,True,13,0.3,Set Fire to the Rain,Adele,21,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,26,2
+2021-10-15,27,-8,19,False,13,0.3,As Long as You Love Me,Justin Bieber,Believe (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,19,4
+2021-10-15,28,+1,29,True,13,0.3,Love Somebody,Maroon 5,Overexposed (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,28,4
+2021-10-15,29,+40,69,True,13,0.3,Water Under the Bridge,Adele,25,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,29,3
+2021-10-15,30,+18,48,True,13,0.3,Emperor's New Clothes,Panic! at the Disco,Death of a Bachelor,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,30,4
+2021-10-15,31,-4,27,False,13,0.3,Back to December,Taylor Swift,Speak Now (Deluxe Package),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,27,2
 2021-10-15,32,RE,--,False,13,--,Dancing With Our Hands Tied,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,3,13,5
-2021-10-15,33,+23,56,True,13,2.33,Marvin Gaye (feat. Meghan Trainor),Charlie Puth,Nine Track Mind,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,33,2
-2021-10-15,34,+25,59,False,13,2.33,Shout Out to My Ex,Little Mix,Glory Days (Expanded Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,3,4
-2021-10-15,35,+32,67,True,13,2.33,Let Me Go (feat. Chad Kroeger),Avril Lavigne,Avril Lavigne (Expanded Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,35,3
+2021-10-15,33,+23,56,True,13,0.3,Marvin Gaye (feat. Meghan Trainor),Charlie Puth,Nine Track Mind,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,33,2
+2021-10-15,34,+25,59,False,13,0.3,Shout Out to My Ex,Little Mix,Glory Days (Expanded Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,3,4
+2021-10-15,35,+32,67,True,13,0.3,Let Me Go (feat. Chad Kroeger),Avril Lavigne,Avril Lavigne (Expanded Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,35,3
 2021-10-15,36,RE,--,False,12,--,Gorgeous,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,16,3
 2021-10-15,37,RE,--,False,12,--,So It Goes...,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,15,5
 2021-10-15,38,RE,--,False,12,--,Don’t Blame Me,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,7,6
@@ -41,17 +41,17 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-10-15,40,RE,--,True,12,--,End Game,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,40,2
 2021-10-15,41,RE,--,False,12,--,...Ready for It?,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,23,3
 2021-10-15,42,RE,--,False,12,--,Blank Space,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,17,11
-2021-10-15,43,RE,--,False,12,--,Picture to Burn,Taylor Swift,Taylor Swift,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,30,8
+2021-10-15,43,RE,--,False,12,--,Picture to Burn,Taylor Swift,Taylor Swift,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,23,8
 2021-10-15,44,RE,--,False,12,--,The Story of Us,Taylor Swift,Speak Now (Deluxe Package),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,17,4
 2021-10-15,45,RE,--,False,10,--,jealousy jealousy,Olivia Rodrigo,SOUR,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,7
-2021-10-15,46,RE,--,False,10,--,happiness,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,15
+2021-10-15,46,RE,--,False,10,--,happiness,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,17
 2021-10-15,47,RE,--,False,10,--,august,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,11
 2021-10-15,48,RE,--,False,10,--,West Coast,Lana Del Rey,Ultraviolence (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,4
 2021-10-15,49,NEW,--,True,10,--,PONPONPON,Kyary Pamyu Pamyu,ぱみゅぱみゅレボリューション,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,49,1
 2021-10-15,50,RE,--,False,10,--,All Too Well,Taylor Swift,Red (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,3
-2021-10-15,51,RE,--,False,10,--,Holiday,Little Mix,Confetti,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,48,3
+2021-10-15,51,RE,--,False,10,--,Holiday,Little Mix,Confetti,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,47,3
 2021-10-15,52,RE,--,True,10,--,Hard Times,Paramore,Hard Times,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,52,2
-2021-10-15,53,RE,--,False,10,--,Who Says,Selena Gomez & the Scene,When the Sun Goes Down,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,4
+2021-10-15,53,RE,--,False,10,--,Who Says,Selena Gomez & the Scene,When the Sun Goes Down,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,5
 2021-10-15,54,RE,--,False,10,--,Bad Romance,Lady Gaga,The Fame Monster (International Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,3
 2021-10-15,55,RE,--,False,10,--,Shake It Off,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,4
 2021-10-15,56,RE,--,True,10,--,Whistle,Flo Rida,Wild Ones,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,56,3
@@ -59,12 +59,12 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-10-15,58,RE,--,False,10,--,Worth It (feat. Kid Ink),Fifth Harmony,Reflection (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,5
 2021-10-15,59,RE,--,False,10,--,DJ Got Us Fallin' in Love (feat. Pitbull),Usher,Raymond v Raymond (Expanded Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,31,3
 2021-10-15,60,NEW,--,True,10,--,Chasing Pavements,Adele,19,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,60,1
-2021-10-15,61,RE,--,False,10,--,Touch,Little Mix,Glory Days (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,36,3
+2021-10-15,61,RE,--,False,10,--,Touch,Little Mix,Glory Days (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,37,3
 2021-10-15,62,RE,--,True,10,--,Latch (feat. Sam Smith),Disclosure,Settle (Special Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,62,2
 2021-10-15,63,RE,--,False,10,--,The Monster,Eminem,The Marshall Mathers LP2,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,49,2
-2021-10-15,64,NEW,--,True,10,--,Hair,Little Mix,Get Weird (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,64,1
+2021-10-15,64,RE,--,True,10,--,Hair,Little Mix,Get Weird (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,64,2
 2021-10-15,65,RE,--,False,10,--,Work,Iggy Azalea,The New Classic (Deluxe Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,4
-2021-10-15,66,RE,--,False,10,--,Black Widow,Iggy Azalea,The New Classic,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,34,2
+2021-10-15,66,RE,--,False,10,--,Black Widow,Iggy Azalea,The New Classic,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,26,2
 2021-10-15,67,RE,--,True,10,--,Some Nights,fun.,Some Nights,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,67,2
 2021-10-15,68,RE,--,False,10,--,Cry Baby,Melanie Martinez,Cry Baby (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,28,5
 2021-10-15,69,RE,--,True,10,--,Something Big,Shawn Mendes,Handwritten (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,69,3
@@ -82,18 +82,18 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-10-15,81,NEW,--,True,10,--,Upuan (feat. Jeazell Grutas),Gloc-9,Matrikula,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,81,1
 2021-10-15,82,NEW,--,True,10,--,Simpleng Tao,Gloc-9,G9,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,82,1
 2021-10-15,83,NEW,--,True,10,--,The One That Got Away - Acoustic,Katy Perry,Katy Perry - Teenage Dream: The Complete Confection,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,83,1
-2021-10-15,84,RE,--,False,10,--,See Saw (Chuu Go Won),Loona,Go Won,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,45,2
-2021-10-15,85,RE,--,False,10,--,Everyday I Need You,Loona,ViVi,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,66,2
+2021-10-15,84,RE,--,False,10,--,See Saw (Chuu Go Won),Loona,Go Won,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,46,2
+2021-10-15,85,RE,--,False,10,--,Everyday I Need You,Loona,ViVi,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,67,2
 2021-10-15,86,RE,--,False,10,--,다녀가요,Loona,HyunJin,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,80,2
 2021-10-15,87,RE,--,False,10,--,Ice Cream,TWICE,TWICEcoaster : LANE 2,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,4
 2021-10-15,88,NEW,--,True,10,--,SOMEONE LIKE ME,TWICE,SIGNAL,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,88,1
 2021-10-15,89,RE,--,False,10,--,Fetish (feat. Gucci Mane),Selena Gomez,Fetish (feat. Gucci Mane),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,32,5
 2021-10-15,90,RE,--,False,10,--,Really Don't Care,Demi Lovato,Demi,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,5
 2021-10-15,91,NEW,--,True,10,--,Cut to the Feeling,Carly Rae Jepsen,Cut to the Feeling,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,91,1
-2021-10-15,92,RE,--,False,10,--,Green Light,Lorde,Melodrama,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,8
-2021-10-15,93,RE,--,False,10,--,‘tis the damn season,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,8
+2021-10-15,92,RE,--,False,10,--,Green Light,Lorde,Melodrama,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,10
+2021-10-15,93,RE,--,False,10,--,‘tis the damn season,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,10
 2021-10-15,94,RE,--,False,10,--,mad woman,Taylor Swift,folklore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,10
-2021-10-15,95,RE,--,False,10,--,Afterglow,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,4
+2021-10-15,95,RE,--,False,10,--,Afterglow,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,4
 2021-10-15,96,RE,--,False,10,--,Naturally,Selena Gomez & the Scene,Kiss & Tell,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,7
 2021-10-15,97,RE,--,False,10,--,Mine,Taylor Swift,Speak Now (Deluxe Package),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,27,3
 2021-10-15,98,NEW,--,True,10,--,There's Nothing Holdin' Me Back,Shawn Mendes,Illuminate (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,98,1

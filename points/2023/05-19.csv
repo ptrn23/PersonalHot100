@@ -1,18 +1,18 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
-2023-05-19,1,=,1,False,1013,2.1,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),88,88,1,440,264,2,4400000,264000,100000,0.92,0.06,0.02,4764000,706,228,79,1,33
+2023-05-19,1,=,1,False,1013,0.34,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),88,88,1,440,264,2,4400000,264000,100000,0.92,0.06,0.02,4764000,706,228,79,1,33
 2023-05-19,2,RE,--,True,698,--,Fearless (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),87,87,1,435,261,2,4350000,261000,100000,0.92,0.06,0.02,4711000,698,0,0,2,25
 2023-05-19,3,RE,--,False,690,--,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),86,86,1,430,258,2,4300000,258000,100000,0.92,0.06,0.02,4658000,690,0,0,1,43
 2023-05-19,4,RE,--,False,535,--,Run (feat. Ed Sheeran) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),76,1,76,380,3,152,3800000,3000,7600000,0.33,0.0,0.67,11403000,535,0,0,3,16
 2023-05-19,5,RE,--,False,297,--,Midnight Rain,Taylor Swift,Midnights (3am Edition),42,1,42,210,3,84,2100000,3000,4200000,0.33,0.0,0.67,6303000,297,0,0,1,24
-2023-05-19,6,-4,2,False,260,-0.11,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),15,1,15,75,3,30,750000,3000,1500000,0.33,0.0,0.67,2253000,108,122,30,2,59
+2023-05-19,6,-4,2,False,260,-0.36,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),15,1,15,75,3,30,750000,3000,1500000,0.33,0.0,0.67,2253000,108,122,30,2,59
 2023-05-19,7,RE,--,True,241,--,Come Back...Be Here (Taylor's Version),Taylor Swift,Red (Taylor's Version),34,1,34,170,3,68,1700000,3000,3400000,0.33,0.0,0.67,5103000,241,0,0,7,28
 2023-05-19,8,RE,--,True,184,--,M.P.L,Toni Fowler,M.P.L,23,1,23,115,3,46,1150000,3000,2300000,0.33,0.0,0.67,3453000,164,0,20,8,4
 2023-05-19,9,RE,--,False,142,--,Fifteen (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),22,2,13,110,6,26,1100000,6000,1300000,0.46,0.0,0.54,2406000,142,0,0,5,13
-2023-05-19,10,-4,6,False,132,-0.21,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),6,2,5,30,6,10,300000,6000,500000,0.37,0.01,0.62,806000,46,58,28,1,45
-2023-05-19,11,+8,19,False,101,1.23,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),9,2,8,45,6,16,450000,6000,800000,0.36,0.0,0.64,1256000,67,30,4,4,31
+2023-05-19,10,-4,6,False,132,-0.31,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),6,2,5,30,6,10,300000,6000,500000,0.37,0.01,0.62,806000,46,58,28,1,45
+2023-05-19,11,+8,19,False,101,0.02,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),9,2,8,45,6,16,450000,6000,800000,0.36,0.0,0.64,1256000,67,30,4,4,31
 2023-05-19,12,RE,--,False,95,--,Karma,Taylor Swift,Midnights (3am Edition),13,2,12,65,6,24,650000,6000,1200000,0.35,0.0,0.65,1856000,95,0,0,4,19
 2023-05-19,13,RE,--,False,91,--,FEARLESS,LE SSERAFIM,FEARLESS,12,1,12,60,3,24,600000,3000,1200000,0.33,0.0,0.67,1803000,87,0,4,1,46
-2023-05-19,14,+9,23,False,92,3.87,YES or YES,TWICE,YES or YES,10,1,10,50,3,20,500000,3000,1000000,0.33,0.0,0.67,1503000,73,15,4,5,26
+2023-05-19,14,+9,23,False,92,0.92,YES or YES,TWICE,YES or YES,10,1,10,50,3,20,500000,3000,1000000,0.33,0.0,0.67,1503000,73,15,4,5,26
 2023-05-19,15,RE,--,False,87,--,You're on Your Own Kid,Taylor Swift,Midnights (3am Edition),12,1,12,60,3,24,600000,3000,1200000,0.33,0.0,0.67,1803000,87,0,0,6,23
 2023-05-19,16,RE,--,False,73,--,Girl at Home (Taylor's Version),Taylor Swift,Red (Taylor's Version),10,1,10,50,3,20,500000,3000,1000000,0.33,0.0,0.67,1503000,73,0,0,13,12
 2023-05-19,17,RE,--,False,59,--,It’s Nice to Have a Friend,Taylor Swift,Lover,8,1,8,40,3,16,400000,3000,800000,0.33,0.0,0.67,1203000,59,0,0,4,13

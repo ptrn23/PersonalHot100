@@ -1,5 +1,5 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
-2021-02-12,1,=,1,False,20,0.67,happiness,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,4,1,6
+2021-02-12,1,=,1,False,20,0.11,happiness,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,4,1,6
 2021-02-12,2,NEW,--,True,18,--,Love Story (Taylor’s Version),Taylor Swift,Love Story (Taylor’s Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,2,1
 2021-02-12,3,NEW,--,True,18,--,GOOD NIGHT,Dreamcatcher,Fall Asleep in the Mirror - EP,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,3,1
 2021-02-12,4,RE,--,False,18,--,Happy,WJSN,Happy Moment,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,4,4
@@ -14,7 +14,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-02-12,13,RE,--,True,12,--,CHEER UP,TWICE,PAGE TWO,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,13,3
 2021-02-12,14,RE,--,True,12,--,My First and Last,NCT DREAM,The First - The 1st Single Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,14,2
 2021-02-12,15,RE,--,True,12,--,Pretty U,Seventeen,First 'Love&Letter',1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,15,2
-2021-02-12,16,RE,--,False,12,--,A Year Without Rain,Selena Gomez & the Scene,A Year Without Rain (International Standard Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,13,5
+2021-02-12,16,RE,--,False,12,--,A Year Without Rain,Selena Gomez & the Scene,A Year Without Rain (International Standard Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,13,6
 2021-02-12,17,RE,--,True,10,--,The Story of Us,Taylor Swift,Speak Now (Deluxe Package),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,2
 2021-02-12,18,NEW,--,True,10,--,Panorama,IZ*ONE,One-reeler / Act IV,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,1
 2021-02-12,19,NEW,--,True,10,--,We're Good,Dua Lipa,Future Nostalgia (The Moonlight Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,19,1
@@ -37,7 +37,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-02-12,36,RE,--,False,10,--,Chewing Gum (Korean Ver.),NCT DREAM,Chewing Gum - The 1st Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,3
 2021-02-12,37,RE,--,False,10,--,Valkyrie,ONEUS,LIGHT US,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,7
 2021-02-12,38,RE,--,False,10,--,LION,(G)I-DLE,Queendom <FINAL Comeback> - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,24,4
-2021-02-12,39,RE,--,True,10,--,All Right,Red Velvet,The Perfect Red Velvet - The 2nd Album Repackage - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,39,2
+2021-02-12,39,RE,--,False,10,--,All Right,Red Velvet,The Perfect Red Velvet - The 2nd Album Repackage - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,36,2
 2021-02-12,40,RE,--,True,10,--,Breathe (feat. Colbie Caillat),Taylor Swift,Fearless (Platinum Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,40,2
 2021-02-12,41,NEW,--,True,10,--,Last Love,Red Velvet,Rookie - The 4th Mini Album - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,41,1
 2021-02-12,42,RE,--,False,10,--,Psycho ft. Nicki Minaj (Reloaded),Red Velvet,Psycho ft. Nicki Minaj (Reloaded) - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,4
@@ -58,4 +58,4 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-02-12,57,RE,--,False,10,--,Sour Candy,Lady Gaga & BLACKPINK,Chromatica,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,25,2
 2021-02-12,58,RE,--,False,10,--,the lakes (bonus track),Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,56,2
 2021-02-12,59,RE,--,False,10,--,exile,Taylor Swift Bon Iver,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,4
-2021-02-12,60,RE,--,True,10,--,Lose You to Love Me,Selena Gomez,Lose You To Love Me - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,60,3
+2021-02-12,60,RE,--,False,10,--,Lose You to Love Me,Selena Gomez,Lose You To Love Me - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,60,3

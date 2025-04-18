@@ -3,7 +3,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-09-17,2,NEW,--,True,50,--,bury a friend,Billie Eilish,WHEN WE ALL FALL ASLEEP WHERE DO WE GO?,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,2,1
 2021-09-17,3,RE,--,True,26,--,Happier Than Ever,Billie Eilish,Happier Than Ever,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,3,2
 2021-09-17,4,RE,--,False,26,--,Fearless (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,4,6
-2021-09-17,5,+13,18,False,23,2.6,West Coast,Lana Del Rey,Ultraviolence (Deluxe),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,5,0,2,3
+2021-09-17,5,+13,18,False,23,0.44,West Coast,Lana Del Rey,Ultraviolence (Deluxe),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,5,0,2,3
 2021-09-17,6,RE,--,True,18,--,INFERNO,Sub Urban,Inferno,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,6,2
 2021-09-17,7,RE,--,False,18,--,Locked Out of Heaven,Bruno Mars,Unorthodox Jukebox,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,5,5
 2021-09-17,8,RE,--,True,18,--,A Thousand Years,Christina Perri,A Thousand Years,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,8,2
@@ -11,30 +11,30 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-09-17,10,RE,--,True,18,--,GOLDWING,Billie Eilish,Happier Than Ever,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,10,2
 2021-09-17,11,RE,--,True,18,--,Oxytocin,Billie Eilish,Happier Than Ever,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,11,2
 2021-09-17,12,RE,--,True,18,--,Getting Older,Billie Eilish,Happier Than Ever,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,12,2
-2021-09-17,13,-12,1,False,18,0.25,HUMAN,dodie,Human,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,1,8
+2021-09-17,13,-12,1,False,18,-0.31,HUMAN,dodie,Human,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,1,8
 2021-09-17,14,RE,--,False,18,--,I Got a Boy,소녀시대,I GOT A BOY,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,3,8
-2021-09-17,15,+6,21,False,18,1.0,Ice Cream Cake,Red Velvet,Ice Cream Cake - The 1st Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,5,3,4,9
-2021-09-17,16,-7,9,False,16,0.67,Waking Up in Vegas,Katy Perry,One of the Boys,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,0,5,6
-2021-09-17,17,-7,10,False,16,0.67,I Kissed a Girl,Katy Perry,One of the Boys,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,0,10,5
-2021-09-17,18,-10,8,False,16,0.67,The Last Time,Taylor Swift,Red (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,0,8,3
-2021-09-17,19,-6,13,False,16,0.67,Carousel,Melanie Martinez,Cry Baby (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,0,2,9
+2021-09-17,15,+6,21,False,18,0.29,Ice Cream Cake,Red Velvet,Ice Cream Cake - The 1st Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,5,3,4,9
+2021-09-17,16,-7,9,False,16,-0.11,Waking Up in Vegas,Katy Perry,One of the Boys,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,0,5,6
+2021-09-17,17,-7,10,False,16,-0.11,I Kissed a Girl,Katy Perry,One of the Boys,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,0,10,5
+2021-09-17,18,-10,8,False,16,-0.11,The Last Time,Taylor Swift,Red (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,0,8,3
+2021-09-17,19,-6,13,False,16,-0.11,Carousel,Melanie Martinez,Cry Baby (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,0,2,9
 2021-09-17,20,RE,--,False,14,--,I CAN'T STOP ME,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,4,2,3
-2021-09-17,21,+9,30,True,14,1.5,High by the Beach,Lana Del Rey,Honeymoon,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,4,0,21,7
-2021-09-17,22,+64,86,False,13,2.33,You Are in Love,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,3,8
-2021-09-17,23,+75,98,False,13,2.33,Rumors (feat. Cardi B),Lizzo,Rumors (feat. Cardi B),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,18,4
-2021-09-17,24,+63,87,False,13,2.33,enough for you,Olivia Rodrigo,SOUR,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,5,6
-2021-09-17,25,+60,85,True,13,2.33,Cornelia Street - Live from Paris,Taylor Swift,Cornelia Street (Live From Paris),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,25,2
-2021-09-17,26,+39,65,True,13,2.33,Let Her Go,Passenger,All the Little Lights,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,26,5
-2021-09-17,27,+49,76,True,13,2.33,In the End,Linkin Park,Hybrid Theory (Bonus Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,27,2
-2021-09-17,28,+34,62,False,13,2.33,Human,Christina Perri,Head or Heart,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,18,4
-2021-09-17,29,+43,72,False,13,2.33,Genie,Girls' Generation,Genie - The Second Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,9,5
-2021-09-17,30,+45,75,False,13,2.33,Peek-A-Boo,Red Velvet,Perfect Velvet - The 2nd Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,21,5
-2021-09-17,31,+62,93,True,13,2.33,Wasted Potential,Lindsay Liebro,Wasted Potential,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,31,2
-2021-09-17,32,+39,71,True,13,2.33,Fetish (feat. Gucci Mane),Selena Gomez,Fetish (feat. Gucci Mane),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,32,4
-2021-09-17,33,+59,92,True,13,2.33,The Night Is Still Young,Nicki Minaj,The Pinkprint (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,33,2
-2021-09-17,34,+32,66,True,13,2.33,Last Friday Night (T.G.I.F.),Katy Perry,Katy Perry - Teenage Dream: The Complete Confection,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,34,3
+2021-09-17,21,+9,30,True,14,0.17,High by the Beach,Lana Del Rey,Honeymoon,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,4,0,21,7
+2021-09-17,22,+43,65,False,13,0.3,You Are in Love,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,3,8
+2021-09-17,23,+54,77,False,13,0.3,Rumors (feat. Cardi B),Lizzo,Rumors (feat. Cardi B),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,18,4
+2021-09-17,24,+42,66,False,13,0.3,enough for you,Olivia Rodrigo,SOUR,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,5,6
+2021-09-17,25,+39,64,True,13,0.3,Cornelia Street - Live from Paris,Taylor Swift,Cornelia Street (Live From Paris),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,25,2
+2021-09-17,26,+18,44,True,13,0.3,Let Her Go,Passenger,All the Little Lights,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,26,5
+2021-09-17,27,+28,55,True,13,0.3,In the End,Linkin Park,Hybrid Theory (Bonus Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,27,2
+2021-09-17,28,+13,41,False,13,0.3,Human,Christina Perri,Head or Heart,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,18,4
+2021-09-17,29,+22,51,False,13,0.3,Genie,Girls' Generation,Genie - The Second Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,9,5
+2021-09-17,30,+24,54,False,13,0.3,Peek-A-Boo,Red Velvet,Perfect Velvet - The 2nd Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,21,5
+2021-09-17,31,+41,72,True,13,0.3,Wasted Potential,Lindsay Liebro,Wasted Potential,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,31,2
+2021-09-17,32,+18,50,True,13,0.3,Fetish (feat. Gucci Mane),Selena Gomez,Fetish (feat. Gucci Mane),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,32,4
+2021-09-17,33,+38,71,True,13,0.3,The Night Is Still Young,Nicki Minaj,The Pinkprint (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,33,3
+2021-09-17,34,+11,45,True,13,0.3,Last Friday Night (T.G.I.F.),Katy Perry,Katy Perry - Teenage Dream: The Complete Confection,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,34,3
 2021-09-17,35,RE,--,False,13,--,Red Flavor,Red Velvet,The Red Summer - Summer Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,3,4,5
-2021-09-17,36,+28,64,False,13,2.33,That's My Girl,Fifth Harmony,7/27 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,25,4
+2021-09-17,36,+7,43,False,13,0.3,That's My Girl,Fifth Harmony,7/27 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,25,4
 2021-09-17,37,RE,--,False,12,--,FANCY,TWICE,FANCY YOU,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,1,10
 2021-09-17,38,RE,--,False,12,--,SWEET SUMMER DAY,TWICE,MORE & MORE,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,1,5
 2021-09-17,39,RE,--,True,12,--,DON’T CALL ME AGAIN,TWICE,MORE & MORE,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,39,5
@@ -50,7 +50,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-09-17,49,RE,--,False,10,--,RAINBOW,TWICE,Feel Special,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,30,8
 2021-09-17,50,RE,--,False,10,--,Feel Special,TWICE,Feel Special,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,9
 2021-09-17,51,RE,--,False,10,--,Love Story (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,11
-2021-09-17,52,RE,--,False,10,--,Build A Bitch,Bella Poarch,Build a Bitch,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,3
+2021-09-17,52,RE,--,False,10,--,Build A Bitch,Bella Poarch,Build a Bitch,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,4
 2021-09-17,53,NEW,--,True,10,--,Bohemian Rhapsody,Queen,Bohemian Rhapsody (The Original Soundtrack),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,53,1
 2021-09-17,54,RE,--,True,10,--,Channel Surfing / The End,Madison Beer,Life Support,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,54,2
 2021-09-17,55,RE,--,True,10,--,Everything Happens for a Reason,Madison Beer,Life Support,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,55,2
@@ -69,7 +69,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-09-17,68,RE,--,False,10,--,Default,Madison Beer,Life Support,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,66,2
 2021-09-17,69,RE,--,False,10,--,Good in Goodbye,Madison Beer,Life Support,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,67,2
 2021-09-17,70,RE,--,False,10,--,The Beginning,Madison Beer,Life Support,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,68,2
-2021-09-17,71,RE,--,False,10,--,Die Young,Kesha,Warrior (Expanded Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,43,2
+2021-09-17,71,RE,--,False,10,--,Die Young,Kesha,Warrior (Expanded Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,35,2
 2021-09-17,72,RE,--,False,10,--,Fergalicious,Fergie,The Dutchess,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,9,6
 2021-09-17,73,NEW,--,True,10,--,Treasure,Bruno Mars,Unorthodox Jukebox,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,73,1
 2021-09-17,74,NEW,--,True,10,--,She Looks So Perfect,5 Seconds of Summer,5 Seconds of Summer,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,74,1
@@ -91,11 +91,11 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-09-17,90,RE,--,False,10,--,good 4 u,Olivia Rodrigo,SOUR,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,6
 2021-09-17,91,RE,--,False,10,--,deja vu,Olivia Rodrigo,SOUR,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,10
 2021-09-17,92,RE,--,False,10,--,1 step forward 3 steps back,Olivia Rodrigo,SOUR,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,8
-2021-09-17,93,RE,--,False,10,--,drivers license,Olivia Rodrigo,SOUR,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,6
+2021-09-17,93,RE,--,False,10,--,drivers license,Olivia Rodrigo,SOUR,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,7
 2021-09-17,94,RE,--,False,10,--,traitor,Olivia Rodrigo,SOUR,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,5
 2021-09-17,95,RE,--,False,10,--,brutal,Olivia Rodrigo,SOUR,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,9,5
 2021-09-17,96,RE,--,False,10,--,JALJAYO GOOD NIGHT,TWICE,twicetagram,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,20,2
-2021-09-17,97,RE,--,True,10,--,You In My Heart,TWICE,twicetagram,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,97,1
-2021-09-17,98,RE,--,True,10,--,Don't Give Up,TWICE,twicetagram,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,98,1
-2021-09-17,99,RE,--,True,10,--,LOVE LINE,TWICE,twicetagram,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,99,1
-2021-09-17,100,RE,--,True,10,--,ROLLIN',TWICE,twicetagram,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,100,1
+2021-09-17,97,NEW,--,True,10,--,You In My Heart,TWICE,twicetagram,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,97,1
+2021-09-17,98,NEW,--,True,10,--,Don't Give Up,TWICE,twicetagram,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,98,1
+2021-09-17,99,NEW,--,True,10,--,LOVE LINE,TWICE,twicetagram,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,99,1
+2021-09-17,100,NEW,--,True,10,--,ROLLIN',TWICE,twicetagram,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,100,1

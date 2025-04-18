@@ -1,6 +1,6 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
 2021-03-19,1,RE,--,True,14,--,Green Light,Lorde,Melodrama,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,4,1,3
-2021-03-19,2,+8,10,True,13,2.33,august,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,2,7
+2021-03-19,2,+8,10,True,13,0.3,august,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,2,7
 2021-03-19,3,RE,--,True,12,--,BOYSHIT,Madison Beer,Boyshit,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,3,2
 2021-03-19,4,RE,--,True,12,--,Selfish Love (with Selena Gomez),DJ Snake,Revelación - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,4,2
 2021-03-19,5,RE,--,True,12,--,Baila Conmigo (with Rauw Alejandro),Selena Gomez,Revelación - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,5,3
@@ -31,10 +31,10 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-03-19,30,NEW,--,True,10,--,Ward,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,30,1
 2021-03-19,31,NEW,--,True,10,--,Strad,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,31,1
 2021-03-19,32,NEW,--,True,10,--,Stal,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,32,1
-2021-03-19,33,RE,--,True,10,--,Mellohi,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,33,2
+2021-03-19,33,RE,--,True,10,--,Mellohi,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,33,3
 2021-03-19,34,NEW,--,True,10,--,Mall,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,34,1
 2021-03-19,35,NEW,--,True,10,--,Far,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,35,1
-2021-03-19,36,RE,--,False,10,--,Chirp,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,32,2
+2021-03-19,36,RE,--,False,10,--,Chirp,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,32,3
 2021-03-19,37,NEW,--,True,10,--,Blocks,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,37,1
 2021-03-19,38,RE,--,False,10,--,Pigstep - Stereo Mix,Lena Raine,Minecraft: Nether Update (Original Game Soundtrack),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,3
 2021-03-19,39,NEW,--,True,10,--,So Below,Lena Raine,Minecraft: Nether Update (Original Game Soundtrack),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,39,1
@@ -48,9 +48,9 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-03-19,47,NEW,--,True,10,--,Droopy Likes Ricochet,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,47,1
 2021-03-19,48,NEW,--,True,10,--,Beginning,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,48,1
 2021-03-19,49,NEW,--,True,10,--,Danny,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,49,1
-2021-03-19,50,RE,--,False,10,--,Dog,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,33,2
-2021-03-19,51,NEW,--,True,10,--,Cat,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,51,1
-2021-03-19,52,NEW,--,True,10,--,Sweden,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,52,1
+2021-03-19,50,RE,--,False,10,--,Dog,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,33,3
+2021-03-19,51,RE,--,True,10,--,Cat,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,51,2
+2021-03-19,52,RE,--,True,10,--,Sweden,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,52,2
 2021-03-19,53,NEW,--,True,10,--,Excuse,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,53,1
 2021-03-19,54,NEW,--,True,10,--,Thirteen,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,54,1
 2021-03-19,55,NEW,--,True,10,--,Chris,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,55,1
@@ -84,8 +84,8 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-03-19,83,NEW,--,True,10,--,Gone,ROSÉ,R,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,83,1
 2021-03-19,84,NEW,--,True,10,--,On The Ground,Rosé,R,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,84,1
 2021-03-19,85,RE,--,False,10,--,the lakes - bonus track,Taylor Swift,folklore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,33,3
-2021-03-19,86,RE,--,False,10,--,hoax,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,4
-2021-03-19,87,RE,--,False,10,--,peace,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,5
+2021-03-19,86,RE,--,False,10,--,hoax,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,6
+2021-03-19,87,RE,--,False,10,--,peace,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,5
 2021-03-19,88,RE,--,False,10,--,betty,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,4
 2021-03-19,89,RE,--,False,10,--,epiphany,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,3
 2021-03-19,90,RE,--,False,10,--,mad woman,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,5

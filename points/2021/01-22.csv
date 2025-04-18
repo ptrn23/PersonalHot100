@@ -1,20 +1,20 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
 2021-01-22,1,NEW,--,True,34,--,safety net (feat. Ty Dolla $ign),Ariana Grande,Positions,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,1,1
-2021-01-22,2,-1,1,False,26,1.25,coney island,Taylor Swift The National,evermore (deluxe version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,1,3
+2021-01-22,2,-1,1,False,26,0.0,coney island,Taylor Swift The National,evermore (deluxe version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,1,3
 2021-01-22,3,RE,--,True,18,--,About Love,Red Velvet,Perfect Velvet - The 2nd Album,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,3,4
 2021-01-22,4,RE,--,True,18,--,Ridin',NCT DREAM,Reload,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,4,4
 2021-01-22,5,NEW,--,True,18,--,Alphabet Boy,Melanie Martinez,Cry Baby (Deluxe Edition),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,5,1
-2021-01-22,6,-4,2,False,16,0.67,my tears ricochet,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,0,1,4
+2021-01-22,6,-4,2,False,16,-0.06,my tears ricochet,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,0,1,4
 2021-01-22,7,RE,--,True,14,--,Break My Heart,Dua Lipa,Future Nostalgia,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,4,7,7
 2021-01-22,8,RE,--,False,14,--,right where you left me,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,4,1,2
-2021-01-22,9,+8,17,True,13,2.33,BRING IT BACK,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,9,3
-2021-01-22,10,+21,31,False,13,2.33,‘tis the damn season,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,10,4
-2021-01-22,11,-4,7,False,13,2.33,Training Wheels,Melanie Martinez,Cry Baby (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,2,4
-2021-01-22,12,+6,18,True,13,2.33,happiness,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,12,3
-2021-01-22,13,+19,32,False,13,2.33,willow,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,5,4
-2021-01-22,14,-2,12,False,13,2.33,BEHIND THE MASK,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,1,4
-2021-01-22,15,+13,28,True,13,2.33,dorothea,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,15,3
-2021-01-22,16,+4,20,False,13,2.33,gold rush,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,4,4
+2021-01-22,9,+8,17,True,13,0.3,BRING IT BACK,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,9,3
+2021-01-22,10,+21,31,False,13,0.3,‘tis the damn season,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,10,4
+2021-01-22,11,-4,7,False,13,0.3,Training Wheels,Melanie Martinez,Cry Baby (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,2,4
+2021-01-22,12,+6,18,True,13,0.3,happiness,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,12,3
+2021-01-22,13,+19,32,False,13,0.3,willow,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,5,4
+2021-01-22,14,-2,12,False,13,0.3,BEHIND THE MASK,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,1,4
+2021-01-22,15,+13,28,True,13,0.3,dorothea,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,15,3
+2021-01-22,16,+4,20,False,13,0.3,gold rush,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,4,4
 2021-01-22,17,RE,--,True,12,--,Physical,Dua Lipa,Future Nostalgia,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,17,8
 2021-01-22,18,RE,--,True,12,--,Hear the Sea,Red Velvet,The Red Summer - Summer Mini Album - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,18,2
 2021-01-22,19,RE,--,True,12,--,Hellevator,Stray Kids,SKZ2020,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,19,3
@@ -22,7 +22,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-01-22,21,RE,--,True,12,--,My Pace,Stray Kids,SKZ2020,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,21,2
 2021-01-22,22,RE,--,False,12,--,District 9,Stray Kids,SKZ2020,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,19,3
 2021-01-22,23,RE,--,False,12,--,Body Talk,Red Velvet,Rookie - The 4th Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,6,4
-2021-01-22,24,RE,--,True,12,--,21:29,TWICE,Feel Special,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,24,3
+2021-01-22,24,RE,--,False,12,--,21:29,TWICE,Feel Special,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,18,3
 2021-01-22,25,RE,--,True,10,--,Don’t Need Your Love,NCT DREAM HRVY,Don’t Need Your Love - SM STATION,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,25,2
 2021-01-22,26,NEW,--,True,10,--,Feel Good (SECRET CODE),프로미스나인,My Little Society,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,26,1
 2021-01-22,27,RE,--,False,10,--,Back Door,Stray Kids (스트레이 키즈),IN生,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,4
@@ -33,7 +33,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-01-22,32,RE,--,False,10,--,How You Like That,BLACKPINK,How You Like That,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,3
 2021-01-22,33,RE,--,False,10,--,Labyrinth,GFRIEND,回:LABYRINTH,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,3
 2021-01-22,34,RE,--,False,10,--,Black on Black,NCT 2018,NCT 2018 EMPATHY,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,2
-2021-01-22,35,RE,--,False,10,--,LIT,ONEUS,Fly with Us - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,3
+2021-01-22,35,RE,--,False,10,--,LIT,ONEUS,Fly with Us - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,3
 2021-01-22,36,NEW,--,True,10,--,Cool World,Red Velvet,The Red - The 1st Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,36,1
 2021-01-22,37,NEW,--,True,10,--,positions,Ariana Grande,Positions,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,37,1
 2021-01-22,38,NEW,--,True,10,--,Black Mamba,aespa,Black Mamba,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,38,1
@@ -50,12 +50,12 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-01-22,49,RE,--,False,10,--,FIREWORK,TWICE,MORE & MORE,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,2
 2021-01-22,50,RE,--,False,10,--,이루리 (As You Wish),WJSN (Cosmic Girls),As You Wish,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,2
 2021-01-22,51,NEW,--,True,10,--,Cool Hot Sweet Love,Red Velvet (레드벨벳),The Velvet - The 2nd Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,51,1
-2021-01-22,52,NEW,--,True,10,--,Cornelia Street,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,52,1
+2021-01-22,52,RE,--,True,10,--,Cornelia Street,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,52,2
 2021-01-22,53,RE,--,False,10,--,Universe,이달의 소녀,［12:00］,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,29,3
 2021-01-22,54,NEW,--,True,10,--,It Ain't Me,Kygo & Selena Gomez,It Ain't Me - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,54,1
 2021-01-22,55,RE,--,False,10,--,Oh Boy,Red Velvet,The Red - The 1st Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,36,2
 2021-01-22,56,RE,--,True,10,--,the lakes (bonus track),Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,56,1
-2021-01-22,57,RE,--,False,10,--,어른 아이 (Kidult),Seventeen,SEVENTEEN 7th Mini Album '헹가래(Heng:garae)',1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,57,3
+2021-01-22,57,RE,--,False,10,--,어른 아이 (Kidult),Seventeen,SEVENTEEN 7th Mini Album '헹가래(Heng:garae)',1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,56,3
 2021-01-22,58,RE,--,True,10,--,Get Cool,Stray Kids,SKZ2020,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,58,2
 2021-01-22,59,NEW,--,True,10,--,Easy,Stray Kids,GO生 (GO LIVE),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,59,1
 2021-01-22,60,RE,--,False,10,--,TOP (Tower of God OP),Stray Kids,TOP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,34,3
@@ -75,7 +75,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-01-22,74,RE,--,False,10,--,Um Oh Ah Yeh,MAMAMOO,Pink Funky,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,4
 2021-01-22,75,NEW,--,True,10,--,갑자기 분위기 싸해질 필요 없잖아요 (Awkward Silence),Stray Kids,SKZ2020,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,75,1
 2021-01-22,76,NEW,--,True,10,--,Haven,Stray Kids,GO生 (GO LIVE),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,76,1
-2021-01-22,77,RE,--,False,10,--,Hotter Than Hell,Dua Lipa,Dua Lipa (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,19,2
+2021-01-22,77,RE,--,False,10,--,Hotter Than Hell,Dua Lipa,Dua Lipa (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,2
 2021-01-22,78,NEW,--,True,10,--,Talk to Me,Red Velvet,Rookie - The 4th Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,78,1
 2021-01-22,79,NEW,--,True,10,--,TO BE OR NOT TO BE,원어스 (ONEUS),LIVED,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,79,1
 2021-01-22,80,RE,--,False,10,--,Grown,Little Mix,Get Weird (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,49,5
@@ -92,10 +92,10 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-01-22,91,RE,--,False,10,--,Circus,Britney Spears,Circus (Deluxe Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,6
 2021-01-22,92,NEW,--,True,10,--,Womanizer,Britney Spears,Circus (Deluxe Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,92,1
 2021-01-22,93,NEW,--,True,10,--,drivers license,Olivia Rodrigo,drivers license,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,93,1
-2021-01-22,94,RE,--,True,10,--,De Una Vez,Selena Gomez,De Una Vez,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,94,1
-2021-01-22,95,RE,--,True,10,--,I am YOU,Stray Kids,SKZ2020,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,95,1
-2021-01-22,96,RE,--,True,10,--,Awkward Silence,Stray Kids,SKZ2020,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,96,1
-2021-01-22,97,RE,--,True,10,--,M.I.A.,Stray Kids,SKZ2020,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,97,1
-2021-01-22,98,RE,--,True,10,--,Question,Stray Kids,SKZ2020,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,98,1
+2021-01-22,94,NEW,--,True,10,--,De Una Vez,Selena Gomez,De Una Vez,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,94,1
+2021-01-22,95,NEW,--,True,10,--,I am YOU,Stray Kids,SKZ2020,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,95,1
+2021-01-22,96,NEW,--,True,10,--,Awkward Silence,Stray Kids,SKZ2020,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,96,1
+2021-01-22,97,NEW,--,True,10,--,M.I.A.,Stray Kids,SKZ2020,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,97,1
+2021-01-22,98,NEW,--,True,10,--,Question,Stray Kids,SKZ2020,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,98,1
 2021-01-22,99,RE,--,False,10,--,Voices,Stray Kids,SKZ2020,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,92,2
-2021-01-22,100,RE,--,True,10,--,Grow Up,Stray Kids,SKZ2020,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,100,1
+2021-01-22,100,NEW,--,True,10,--,Grow Up,Stray Kids,SKZ2020,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,100,1

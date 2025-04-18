@@ -1,5 +1,5 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
-2021-07-23,1,+12,13,True,21,5.0,Nobody's Home,Avril Lavigne,Under My Skin,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,3,0,1,2
+2021-07-23,1,+12,13,True,21,1.1,Nobody's Home,Avril Lavigne,Under My Skin,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,3,0,1,2
 2021-07-23,2,NEW,--,True,18,--,Run Away with Me,Carly Rae Jepsen,Emotion (Deluxe Expanded Edition),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,2,1
 2021-07-23,3,RE,--,True,18,--,I Got a Boy,소녀시대,I GOT A BOY,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,3,7
 2021-07-23,4,RE,--,True,18,--,CALL ME BABY,EXO,EXODUS - The 2nd Album,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,4,4
@@ -9,7 +9,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-07-23,8,RE,--,True,18,--,Royals,Lorde,Pure Heroine,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,8,3
 2021-07-23,9,RE,--,True,18,--,Sucker For Pain (with Wiz Khalifa Imagine Dragons Logic & Ty Dolla $ign feat. X Ambassadors),Lil Wayne,Sucker For Pain (with Logic & Ty Dolla $ign feat. X Ambassadors),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,9,4
 2021-07-23,10,NEW,--,True,17,--,소방차 Fire Truck,NCT 127,NCT #127 - The 1st Mini Album,2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,0,0,10,1
-2021-07-23,11,RE,--,False,14,--,Dollhouse,Melanie Martinez,Cry Baby (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,4,3,8
+2021-07-23,11,RE,--,False,14,--,Dollhouse,Melanie Martinez,Cry Baby (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,4,4,8
 2021-07-23,12,RE,--,True,13,--,betty,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,3,12,8
 2021-07-23,13,RE,--,True,13,--,epiphany,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,3,13,6
 2021-07-23,14,RE,--,True,13,--,mad woman,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,3,14,9
@@ -36,8 +36,8 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-07-23,35,RE,--,True,10,--,imagine,Ariana Grande,thank u next,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,35,2
 2021-07-23,36,NEW,--,True,10,--,Wild Side (feat. Cardi B),Normani,Wild Side (feat. Cardi B),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,36,1
 2021-07-23,37,NEW,--,True,10,--,Stoned at the Nail Salon,Lorde,Stoned at the Nail Salon,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,37,1
-2021-07-23,38,RE,--,False,10,--,hoax,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,5
-2021-07-23,39,RE,--,False,10,--,peace,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,7
+2021-07-23,38,RE,--,False,10,--,hoax,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,7
+2021-07-23,39,RE,--,False,10,--,peace,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,7
 2021-07-23,40,RE,--,False,10,--,this is me trying,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,7
 2021-07-23,41,RE,--,False,10,--,seven,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,5
 2021-07-23,42,RE,--,False,10,--,mirrorball,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,7
@@ -97,5 +97,5 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-07-23,96,RE,--,False,10,--,Mr.Mr.,소녀시대,Mr. Mr. - The 4th Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,3
 2021-07-23,97,RE,--,False,10,--,Picture to Burn,Taylor Swift,Taylor Swift,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,30,5
 2021-07-23,98,RE,--,False,10,--,I Knew You Were Trouble.,Taylor Swift,Red (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,83,2
-2021-07-23,99,RE,--,True,10,--,Call Me Maybe,Carly Rae Jepsen,Kiss,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,99,1
-2021-07-23,100,RE,--,True,10,--,Beautiful Girls,Sean Kingston,Beautiful Girls,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,100,1
+2021-07-23,99,NEW,--,True,10,--,Call Me Maybe,Carly Rae Jepsen,Kiss,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,99,1
+2021-07-23,100,NEW,--,True,10,--,Beautiful Girls,Sean Kingston,Beautiful Girls,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,100,1

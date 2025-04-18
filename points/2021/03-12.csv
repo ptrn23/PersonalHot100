@@ -1,7 +1,7 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
 2021-03-12,1,RE,--,True,21,--,Gasoline,Haim & Taylor Swift,Women In Music Pt. III (Expanded Edition),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,3,1,3
 2021-03-12,2,RE,--,False,14,--,coney island,Taylor Swift The National,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,4,1,7
-2021-03-12,3,+27,30,True,13,2.33,Unconditionally,Katy Perry,PRISM (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,3,4
+2021-03-12,3,+27,30,True,13,0.3,Unconditionally,Katy Perry,PRISM (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,3,4
 2021-03-12,4,RE,--,True,12,--,Be Natural (feat. 태용 TAEYONG),Red Velvet (레드벨벳),Be Natural (feat. 태용 TAEYONG) - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,4,4
 2021-03-12,5,RE,--,False,12,--,OXYGEN,TWICE,MORE & MORE,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,4,4
 2021-03-12,6,RE,--,True,10,--,Truth Hurts,Lizzo,Cuz I Love You (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,4
@@ -19,12 +19,12 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Art
 2021-03-12,18,RE,--,True,10,--,불꽃놀이 (Remember Me),OH MY GIRL,OH MY GIRL 6th Mini Album [REMEMBER ME],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,2
 2021-03-12,19,RE,--,True,10,--,LOVE BOMB,프로미스나인 (fromis_9),From.9 - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,19,2
 2021-03-12,20,RE,--,True,10,--,컬러링북 (Coloring Book),오마이걸 (OH MY GIRL),COLORING BOOK - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,20,2
-2021-03-12,21,RE,--,True,10,--,Oh (Yes I Am),이달의 소녀 (Loona),[#],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,2
+2021-03-12,21,RE,--,False,10,--,Oh (Yes I Am),이달의 소녀 (Loona),[#],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,3
 2021-03-12,22,RE,--,True,10,--,Oh My God,(G)I-DLE,I Trust - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,2
 2021-03-12,23,NEW,--,True,10,--,Oh!,Girls' Generation,Oh!,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,1
 2021-03-12,24,RE,--,False,10,--,Oh! my mistake,April,APRIL 6th Mini Album 'the Ruby' - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,2
 2021-03-12,25,RE,--,True,10,--,24/7,TWICE (트와이스),twicetagram,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,25,2
-2021-03-12,26,RE,--,True,10,--,Curiosity,이달의 소녀 (Loona),[X X],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,26,2
+2021-03-12,26,RE,--,False,10,--,Curiosity,이달의 소녀 (Loona),[X X],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,19,2
 2021-03-12,27,NEW,--,True,10,--,FUN!,프로미스나인 (fromis_9),FUN FACTORY - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,27,1
 2021-03-12,28,RE,--,False,10,--,Fake & True,TWICE,&TWICE,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,3
 2021-03-12,29,RE,--,False,10,--,Chase Me,Dreamcatcher,악몽 - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,3
