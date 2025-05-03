@@ -1,101 +1,101 @@
-Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
-2023-06-23,1,RE,--,True,402,--,Bigger Than the Whole Sky,Taylor Swift,Midnights (3am Edition),57,1,57,285,3,114,2850000,3000,5700000,0.33,0.0,0.67,8553000,402,0,0,1,12
-2023-06-23,2,RE,--,True,396,--,Intertwined,dodie,Intertwined - EP,56,2,55,280,6,110,2800000,6000,5500000,0.34,0.0,0.66,8306000,396,0,0,2,9
-2023-06-23,3,-1,2,False,246,0.46,Clouds,Any Name's Okay,Clouds,20,7,14,100,21,28,1000000,21000,1400000,0.41,0.01,0.58,2421000,149,51,46,2,3
-2023-06-23,4,-3,1,False,161,-0.25,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,65,22,1,50
-2023-06-23,5,-2,3,False,140,-0.14,Kung 'Di Rin Lang Ikaw,December Avenue,Kung 'Di Rin Lang Ikaw,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,49,41,2,14
-2023-06-23,6,-2,4,False,128,-0.1,Snow on the Beach (feat. more Lana Del Rey),Taylor Swift,Midnights (The Til Dawn Edition),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,43,51,1,5
-2023-06-23,7,-2,5,False,120,-0.09,Ditto,NewJeans,NewJeans 'OMG',9,8,2,45,24,4,450000,24000,200000,0.67,0.04,0.3,674000,73,40,7,1,22
-2023-06-23,8,+3,11,False,114,0.1,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),7,6,2,35,18,4,350000,18000,200000,0.62,0.03,0.35,568000,57,32,25,2,64
-2023-06-23,9,-3,6,False,111,-0.14,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,39,30,1,48
-2023-06-23,10,+11,21,False,95,1.38,Holy Ground (Taylor's Version),Taylor Swift,Red (Taylor's Version),9,6,4,45,18,8,450000,18000,400000,0.52,0.02,0.46,868000,71,12,12,1,47
-2023-06-23,11,-2,9,False,90,-0.22,Fearless (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,35,29,2,30
-2023-06-23,12,RE,--,False,88,--,If I'm Being Honest,dodie,Human,12,2,11,60,6,22,600000,6000,1100000,0.35,0.0,0.64,1706000,88,0,0,2,24
-2023-06-23,13,-6,7,False,89,-0.26,Cruel Summer,Taylor Swift,Lover,3,2,2,15,6,4,150000,6000,200000,0.42,0.02,0.56,356000,25,37,27,1,39
-2023-06-23,14,+1,15,False,84,-0.03,Locked Away (feat. Adam Levine),Rock City,What Dreams Are Made Of,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,27,23,10,5
-2023-06-23,15,+31,46,True,78,2.25,Ribs,Lorde,Pure Heroine,10,4,4,50,12,8,500000,12000,400000,0.55,0.01,0.44,912000,70,8,0,15,2
-2023-06-23,16,RE,--,False,73,--,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,47,1,37
-2023-06-23,17,RE,--,False,65,--,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,2,4,25,6,8,250000,6000,400000,0.38,0.01,0.61,656000,39,0,26,3,51
-2023-06-23,18,+4,22,False,65,0.67,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),6,3,4,30,9,8,300000,9000,400000,0.42,0.01,0.56,709000,47,12,6,1,77
-2023-06-23,19,-1,18,False,61,-0.03,Midnight Rain,Taylor Swift,Midnights,3,1,3,15,3,6,150000,3000,300000,0.33,0.01,0.66,453000,24,19,18,1,29
-2023-06-23,20,-4,16,False,60,-0.3,Hands to Myself,Selena Gomez,Revival (Deluxe),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,26,0,1,11
-2023-06-23,21,+8,29,False,59,0.79,Touchdown,TWICE,PAGE TWO,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,10,7,5,15
-2023-06-23,22,RE,--,True,56,--,D-1,Loona,Yves,8,2,5,40,6,10,400000,6000,500000,0.44,0.01,0.55,906000,56,0,0,22,4
-2023-06-23,23,RE,--,False,55,--,State of Grace (Taylor's Version),Taylor Swift,Red (Taylor's Version),7,2,6,35,6,12,350000,6000,600000,0.37,0.01,0.63,956000,53,0,2,1,29
-2023-06-23,24,+2,26,False,54,0.42,M.P.L,Toni Fowler,M.P.L,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,12,0,7,8
-2023-06-23,25,=,25,False,54,0.42,bury a friend,Billie Eilish,WHEN WE ALL FALL ASLEEP WHERE DO WE GO?,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,12,0,2,9
-2023-06-23,26,-18,8,False,54,-0.55,Fetish (feat. Gucci Mane),Selena Gomez,Fetish (feat. Gucci Mane),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,36,0,8,9
-2023-06-23,27,+21,48,False,51,1.43,Vigilante Shit,Taylor Swift,Midnights (3am Edition),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,7,2,2,24
-2023-06-23,28,+19,47,False,51,1.43,Lonely Bones,dodie,Hot Mess,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,7,2,4,13
-2023-06-23,29,+2,31,False,52,0.68,I’m Trying (Not Friends),Maisie Peters,You Signed Up For This,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,10,8,1,19
-2023-06-23,30,-13,17,False,52,-0.21,Jealous,Nick Jonas,Nick Jonas X2,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,20,14,15,4
-2023-06-23,31,RE,--,False,50,--,Young Dumb Stupid,NMIXX,Young Dumb Stupid,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,8,1,12
-2023-06-23,32,RE,--,True,50,--,Droopy Likes Your Face,C418,Minecraft - Volume Alpha,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,32,7
-2023-06-23,33,RE,--,True,50,--,Droopy Likes Ricochet,C418,Minecraft - Volume Alpha,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,33,6
-2023-06-23,34,RE,--,True,50,--,Beginning,C418,Minecraft - Volume Alpha,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,34,5
-2023-06-23,35,RE,--,True,50,--,Danny,C418,Minecraft - Volume Alpha,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,35,5
-2023-06-23,36,-6,30,False,51,0.65,Love Me Like You,Little Mix,Get Weird (Expanded Edition),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,10,7,2,13
-2023-06-23,37,+23,60,False,48,1.82,SOS,TWICE,Taste of Love,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,6,0,8,11
-2023-06-23,38,+14,52,False,48,1.67,secret for the mad,dodie,You - EP,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,6,0,2,10
-2023-06-23,39,-5,34,False,48,0.55,Alapaap,Eraserheads,Circus,4,2,3,20,6,6,200000,6000,300000,0.4,0.01,0.59,506000,32,10,6,29,5
-2023-06-23,40,-13,27,False,48,0.3,Our Lives,The Calling,Two,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,12,18,12,3
-2023-06-23,41,-27,14,False,46,-0.51,Bad Liar,Selena Gomez,Bad Liar,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,28,0,2,6
-2023-06-23,42,-32,10,False,44,-0.58,Bejeweled,Taylor Swift,Midnights,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,32,2,10,24
-2023-06-23,43,RE,--,False,42,--,Excuse,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,43,6
-2023-06-23,44,RE,--,True,42,--,Thirteen,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,44,6
-2023-06-23,45,RE,--,False,42,--,Chris,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,44,6
-2023-06-23,46,RE,--,False,42,--,Clark,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,45,6
-2023-06-23,47,RE,--,False,42,--,Wet Hands,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,37,7
-2023-06-23,48,RE,--,False,42,--,Dry Hands,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,46,6
-2023-06-23,49,RE,--,True,42,--,Mice on Venus,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,49,7
-2023-06-23,50,RE,--,False,42,--,Équinoxe,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,47,6
-2023-06-23,51,RE,--,False,42,--,Oxygène,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,48,6
-2023-06-23,52,RE,--,False,42,--,Haggstrom,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,44,7
-2023-06-23,53,RE,--,True,42,--,Moog City,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,53,7
-2023-06-23,54,RE,--,False,42,--,Living Mice,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,49,6
-2023-06-23,55,RE,--,False,42,--,Death,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,50,6
-2023-06-23,56,RE,--,False,42,--,Subwoofer Lullaby,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,39,7
-2023-06-23,57,RE,--,True,42,--,Door,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,57,7
-2023-06-23,58,RE,--,True,42,--,Key,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,58,7
-2023-06-23,59,-40,19,False,40,-0.13,Karma (feat. Ice Spice),Taylor Swift,Midnights (The Til Dawn Edition),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,14,0,2,4
-2023-06-23,60,+9,69,False,37,1.64,Anti-Hero,Taylor Swift,Midnights (3am Edition),4,2,3,20,6,6,200000,6000,300000,0.4,0.01,0.59,506000,32,5,0,9,23
-2023-06-23,61,+16,77,False,37,2.7,Boy's a liar Pt. 2,PinkPantheress,Boy's a liar Pt. 2,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,3,0,7,6
-2023-06-23,62,RE,--,False,36,--,Kitsch,IVE,I've IVE,4,2,3,20,6,6,200000,6000,300000,0.4,0.01,0.59,506000,32,0,4,1,6
-2023-06-23,63,-26,37,False,35,0.25,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,9,8,1,63
-2023-06-23,64,RE,--,False,35,--,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),4,1,4,20,3,8,200000,3000,400000,0.33,0.0,0.66,603000,31,0,4,4,34
-2023-06-23,65,-27,38,False,34,0.31,Eve Psyche & The Bluebeard’s wife,LE SSERAFIM,UNFORGIVEN,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,8,0,14,5
-2023-06-23,66,-26,40,False,34,0.42,LOVE DIVE,IVE,LOVE DIVE,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,8,0,1,50
-2023-06-23,67,RE,--,False,34,--,BOYS LIKE YOU,dodie,BOYS LIKE YOU,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,1,11
-2023-06-23,68,-48,20,False,31,-0.31,Sweet Crazy Love,LOOΠΔ / ODD EYE CIRCLE,Max & Match,2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,14,0,5,20
-2023-06-23,69,-26,43,False,31,0.29,The Day You Said Goodnight,Hale,Hale,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,5,32,7
-2023-06-23,70,-47,23,False,29,-0.26,Karma,Taylor Swift,Midnights,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,12,7,4,24
-2023-06-23,71,-43,28,False,28,-0.2,Hinahanap-Hanap Kita,Rivermaya,Greatest Hits,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,11,7,15,7
-2023-06-23,72,-23,49,False,27,0.29,Ligaya,Eraserheads,Anthology,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,7,2,30,11
-2023-06-23,73,-29,44,False,26,0.08,Ikaw Lamang,Silent Sanctuary,Fuchsiang Pag-Ibig,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,3,16
-2023-06-23,74,-29,45,False,26,0.08,With A Smile,Eraserheads,Circus,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,6,9
-2023-06-23,75,-33,42,False,26,0.08,Pangarap Lang Kita,Parokya Ni Edgar,Middle-Aged Juvenile Novelty Pop Rockers,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,42,4
-2023-06-23,76,NEW,--,True,26,--,Pigstep (Stereo Mix),Lena Raine,Minecraft: Nether Update (Original Game Soundtrack),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,76,1
-2023-06-23,77,RE,--,False,26,--,Dog,C418,Minecraft - Volume Alpha,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,33,9
-2023-06-23,78,RE,--,False,26,--,Cat,C418,Minecraft - Volume Alpha,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,49,8
-2023-06-23,79,RE,--,False,26,--,hot mess,dodie,Hot Mess,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,3,12
-2023-06-23,80,RE,--,False,26,--,She,dodie,Human,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,2,34
-2023-06-23,81,RE,--,False,26,--,Hits Different,Taylor Swift,Midnights (The Til Dawn Edition),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,4,3
-2023-06-23,82,RE,--,False,26,--,You Are in Love,Taylor Swift,1989 (Deluxe),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,3,22
-2023-06-23,83,-42,41,False,26,0.08,My Headphones On,TWICE,PAGE TWO,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,10,12
-2023-06-23,84,NEW,--,True,25,--,One More Day,Lena Raine,Minecraft: Caves & Cliffs (Original Game Soundtrack),3,2,2,15,6,4,150000,6000,200000,0.42,0.02,0.56,356000,25,0,0,84,1
-2023-06-23,85,RE,--,False,25,--,HUMBLE.,Kendrick Lamar,DAMN.,3,2,2,15,6,4,150000,6000,200000,0.42,0.02,0.56,356000,25,0,0,81,2
-2023-06-23,86,-31,55,False,24,0.33,Magda,Gloc-9,Liham At Lihim,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,0,44,8
-2023-06-23,87,-33,54,False,24,0.33,HOME,NMIXX,expérgo,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,0,2,11
-2023-06-23,88,NEW,--,True,24,--,A Thousand Miles,Vanessa Carlton,Be Not Nobody,3,1,3,15,3,6,150000,3000,300000,0.33,0.01,0.66,453000,24,0,0,88,1
-2023-06-23,89,-17,72,False,24,0.85,Absolutely Smitten,dodie,Intertwined - EP,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,4,2,1,28
-2023-06-23,90,RE,--,False,23,--,Yugto,Any Name's Okay,Yugto,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,5,30,2
-2023-06-23,91,-26,65,False,23,0.44,21,Gracie Abrams,minor,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,5,0,15,8
-2023-06-23,92,-2,90,False,21,1.1,Magasin,Eraserheads,Circus,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,3,0,75,4
-2023-06-23,93,=,93,False,21,1.1,sirena,Gloc-9,MKNM (Mga Kwento Ng Makata),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,3,0,16,11
-2023-06-23,94,RE,--,False,20,--,Huling Sayaw,Kamikazee,Romantico,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,2,83,2
-2023-06-23,95,-32,63,False,19,0.19,Wildest Dreams (Taylor's Version),Taylor Swift,Wildest Dreams (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,5,4,1,40
-2023-06-23,96,RE,--,False,18,--,Attention,NewJeans,NewJeans 1st EP 'New Jeans',2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,1,35
-2023-06-23,97,RE,--,False,18,--,Pare Ko,Eraserheads,Ultraelectromagneticpop!,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,72,2
-2023-06-23,98,RE,--,True,18,--,Mahika,Adie,Mahika,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,98,1
-2023-06-23,99,RE,--,False,18,--,Huwag Kang Matakot,Eraserheads,Natin 99,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,71,2
-2023-06-23,100,NEW,--,True,18,--,Sa Ngalan Ng Pag-Ibig,December Avenue,Sa Ngalan Ng Pag-Ibig,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,100,1
+Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
+2023-06-23,1,RE,--,True,False,402,--,Bigger Than the Whole Sky,Taylor Swift,Midnights (3am Edition),57,1,57,285,3,114,2850000,3000,5700000,0.33,0.0,0.67,8553000,402,0,0,1,12,1
+2023-06-23,2,RE,--,True,False,396,--,Intertwined,dodie,Intertwined - EP,56,2,55,280,6,110,2800000,6000,5500000,0.34,0.0,0.66,8306000,396,0,0,2,9,1
+2023-06-23,3,-1,2,False,False,246,0.46,Clouds,Any Name's Okay,Clouds,20,7,14,100,21,28,1000000,21000,1400000,0.41,0.01,0.58,2421000,149,51,46,2,3,1
+2023-06-23,4,-3,1,False,False,161,-0.25,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,65,22,1,50,2
+2023-06-23,5,-2,3,False,False,140,-0.14,Kung 'Di Rin Lang Ikaw,December Avenue,Kung 'Di Rin Lang Ikaw,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,49,41,2,14,1
+2023-06-23,6,-2,4,False,False,128,-0.1,Snow on the Beach (feat. more Lana Del Rey),Taylor Swift,Midnights (The Til Dawn Edition),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,43,51,1,5,2
+2023-06-23,7,-2,5,False,False,120,-0.09,Ditto,NewJeans,NewJeans 'OMG',9,8,2,45,24,4,450000,24000,200000,0.67,0.04,0.3,674000,73,40,7,1,22,1
+2023-06-23,8,+3,11,False,False,114,0.1,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),7,6,2,35,18,4,350000,18000,200000,0.62,0.03,0.35,568000,57,32,25,2,64,2
+2023-06-23,9,-3,6,False,False,111,-0.14,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,39,30,1,48,3
+2023-06-23,10,+11,21,False,False,95,1.38,Holy Ground (Taylor's Version),Taylor Swift,Red (Taylor's Version),9,6,4,45,18,8,450000,18000,400000,0.52,0.02,0.46,868000,71,12,12,1,47,3
+2023-06-23,11,-2,9,False,False,90,-0.22,Fearless (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,35,29,2,30,1
+2023-06-23,12,RE,--,False,False,88,--,If I'm Being Honest,dodie,Human,12,2,11,60,6,22,600000,6000,1100000,0.35,0.0,0.64,1706000,88,0,0,2,24,1
+2023-06-23,13,-6,7,False,False,89,-0.26,Cruel Summer,Taylor Swift,Lover,3,2,2,15,6,4,150000,6000,200000,0.42,0.02,0.56,356000,25,37,27,1,39,1
+2023-06-23,14,+1,15,False,False,84,-0.03,Locked Away (feat. Adam Levine),Rock City,What Dreams Are Made Of,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,27,23,10,5,1
+2023-06-23,15,+31,46,True,False,78,2.25,Ribs,Lorde,Pure Heroine,10,4,4,50,12,8,500000,12000,400000,0.55,0.01,0.44,912000,70,8,0,15,2,1
+2023-06-23,16,RE,--,False,False,73,--,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,47,1,37,5
+2023-06-23,17,RE,--,False,False,65,--,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,2,4,25,6,8,250000,6000,400000,0.38,0.01,0.61,656000,39,0,26,3,51,2
+2023-06-23,18,+4,22,False,False,65,0.67,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),6,3,4,30,9,8,300000,9000,400000,0.42,0.01,0.56,709000,47,12,6,1,77,6
+2023-06-23,19,-1,18,False,False,61,-0.03,Midnight Rain,Taylor Swift,Midnights,3,1,3,15,3,6,150000,3000,300000,0.33,0.01,0.66,453000,24,19,18,1,29,1
+2023-06-23,20,-4,16,False,False,60,-0.3,Hands to Myself,Selena Gomez,Revival (Deluxe),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,26,0,1,11,1
+2023-06-23,21,+8,29,False,False,59,0.79,Touchdown,TWICE,PAGE TWO,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,10,7,5,15,1
+2023-06-23,22,RE,--,True,False,56,--,D-1,Loona,Yves,8,2,5,40,6,10,400000,6000,500000,0.44,0.01,0.55,906000,56,0,0,22,4,1
+2023-06-23,23,RE,--,False,False,55,--,State of Grace (Taylor's Version),Taylor Swift,Red (Taylor's Version),7,2,6,35,6,12,350000,6000,600000,0.37,0.01,0.63,956000,53,0,2,1,29,1
+2023-06-23,24,+2,26,False,False,54,0.42,M.P.L,Toni Fowler,M.P.L,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,12,0,7,8,1
+2023-06-23,25,=,25,False,False,54,0.42,bury a friend,Billie Eilish,WHEN WE ALL FALL ASLEEP WHERE DO WE GO?,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,12,0,2,9,1
+2023-06-23,26,-18,8,False,False,54,-0.55,Fetish (feat. Gucci Mane),Selena Gomez,Fetish (feat. Gucci Mane),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,36,0,8,9,1
+2023-06-23,27,+21,48,False,False,51,1.43,Vigilante Shit,Taylor Swift,Midnights (3am Edition),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,7,2,2,24,1
+2023-06-23,28,+19,47,False,False,51,1.43,Lonely Bones,dodie,Hot Mess,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,7,2,4,13,1
+2023-06-23,29,+2,31,False,False,52,0.68,I’m Trying (Not Friends),Maisie Peters,You Signed Up For This,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,10,8,1,19,1
+2023-06-23,30,-13,17,False,False,52,-0.21,Jealous,Nick Jonas,Nick Jonas X2,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,20,14,15,4,1
+2023-06-23,31,RE,--,False,False,50,--,Young Dumb Stupid,NMIXX,Young Dumb Stupid,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,8,1,12,1
+2023-06-23,32,RE,--,True,False,50,--,Droopy Likes Your Face,C418,Minecraft - Volume Alpha,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,32,7,1
+2023-06-23,33,RE,--,True,False,50,--,Droopy Likes Ricochet,C418,Minecraft - Volume Alpha,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,33,6,1
+2023-06-23,34,RE,--,True,False,50,--,Beginning,C418,Minecraft - Volume Alpha,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,34,5,1
+2023-06-23,35,RE,--,True,False,50,--,Danny,C418,Minecraft - Volume Alpha,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,35,5,1
+2023-06-23,36,-6,30,False,False,51,0.65,Love Me Like You,Little Mix,Get Weird (Expanded Edition),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,10,7,2,13,1
+2023-06-23,37,+23,60,False,False,48,1.82,SOS,TWICE,Taste of Love,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,6,0,8,11,1
+2023-06-23,38,+14,52,False,False,48,1.67,secret for the mad,dodie,You - EP,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,6,0,2,10,2
+2023-06-23,39,-5,34,False,False,48,0.55,Alapaap,Eraserheads,Circus,4,2,3,20,6,6,200000,6000,300000,0.4,0.01,0.59,506000,32,10,6,29,5,1
+2023-06-23,40,-13,27,False,False,48,0.3,Our Lives,The Calling,Two,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,12,18,12,3,1
+2023-06-23,41,-27,14,False,False,46,-0.51,Bad Liar,Selena Gomez,Bad Liar,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,28,0,2,6,1
+2023-06-23,42,-32,10,False,False,44,-0.58,Bejeweled,Taylor Swift,Midnights,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,32,2,10,24,2
+2023-06-23,43,RE,--,True,True,42,--,Excuse,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,43,6,2
+2023-06-23,44,RE,--,True,False,42,--,Thirteen,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,44,6,1
+2023-06-23,45,RE,--,False,False,42,--,Chris,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,44,6,1
+2023-06-23,46,RE,--,False,False,42,--,Clark,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,45,6,1
+2023-06-23,47,RE,--,False,False,42,--,Wet Hands,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,37,7,1
+2023-06-23,48,RE,--,False,False,42,--,Dry Hands,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,46,6,1
+2023-06-23,49,RE,--,True,False,42,--,Mice on Venus,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,49,7,1
+2023-06-23,50,RE,--,False,False,42,--,Équinoxe,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,47,6,1
+2023-06-23,51,RE,--,False,False,42,--,Oxygène,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,48,6,1
+2023-06-23,52,RE,--,False,False,42,--,Haggstrom,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,44,7,1
+2023-06-23,53,RE,--,True,False,42,--,Moog City,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,53,7,1
+2023-06-23,54,RE,--,False,False,42,--,Living Mice,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,49,6,1
+2023-06-23,55,RE,--,False,False,42,--,Death,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,50,6,1
+2023-06-23,56,RE,--,False,False,42,--,Subwoofer Lullaby,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,39,7,1
+2023-06-23,57,RE,--,True,False,42,--,Door,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,57,7,1
+2023-06-23,58,RE,--,True,False,42,--,Key,C418,Minecraft - Volume Alpha,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,58,7,1
+2023-06-23,59,-40,19,False,False,40,-0.13,Karma (feat. Ice Spice),Taylor Swift,Midnights (The Til Dawn Edition),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,14,0,2,4,1
+2023-06-23,60,+9,69,False,False,37,1.64,Anti-Hero,Taylor Swift,Midnights (3am Edition),4,2,3,20,6,6,200000,6000,300000,0.4,0.01,0.59,506000,32,5,0,9,23,1
+2023-06-23,61,+16,77,False,False,37,2.7,Boy's a liar Pt. 2,PinkPantheress,Boy's a liar Pt. 2,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,3,0,7,6,1
+2023-06-23,62,RE,--,False,False,36,--,Kitsch,IVE,I've IVE,4,2,3,20,6,6,200000,6000,300000,0.4,0.01,0.59,506000,32,0,4,1,6,1
+2023-06-23,63,-26,37,False,False,35,0.25,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,9,8,1,63,4
+2023-06-23,64,RE,--,False,False,35,--,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),4,1,4,20,3,8,200000,3000,400000,0.33,0.0,0.66,603000,31,0,4,4,34,1
+2023-06-23,65,-27,38,False,False,34,0.31,Eve Psyche & The Bluebeard’s wife,LE SSERAFIM,UNFORGIVEN,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,8,0,14,5,1
+2023-06-23,66,-26,40,False,False,34,0.42,LOVE DIVE,IVE,LOVE DIVE,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,8,0,1,50,4
+2023-06-23,67,RE,--,False,False,34,--,BOYS LIKE YOU,dodie,BOYS LIKE YOU,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,1,11,1
+2023-06-23,68,-48,20,False,False,31,-0.31,Sweet Crazy Love,LOOΠΔ / ODD EYE CIRCLE,Max & Match,2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,14,0,5,20,1
+2023-06-23,69,-26,43,False,False,31,0.29,The Day You Said Goodnight,Hale,Hale,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,5,32,7,1
+2023-06-23,70,-47,23,False,False,29,-0.26,Karma,Taylor Swift,Midnights,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,12,7,4,24,1
+2023-06-23,71,-43,28,False,False,28,-0.2,Hinahanap-Hanap Kita,Rivermaya,Greatest Hits,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,11,7,15,7,1
+2023-06-23,72,-23,49,False,False,27,0.29,Ligaya,Eraserheads,Anthology,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,7,2,30,11,1
+2023-06-23,73,-29,44,False,False,26,0.08,Ikaw Lamang,Silent Sanctuary,Fuchsiang Pag-Ibig,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,3,16,1
+2023-06-23,74,-29,45,False,False,26,0.08,With A Smile,Eraserheads,Circus,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,6,9,1
+2023-06-23,75,-33,42,False,False,26,0.08,Pangarap Lang Kita,Parokya Ni Edgar,Middle-Aged Juvenile Novelty Pop Rockers,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,42,4,1
+2023-06-23,76,NEW,--,True,False,26,--,Pigstep (Stereo Mix),Lena Raine,Minecraft: Nether Update (Original Game Soundtrack),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,76,1,1
+2023-06-23,77,RE,--,False,False,26,--,Dog,C418,Minecraft - Volume Alpha,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,33,9,1
+2023-06-23,78,RE,--,False,False,26,--,Cat,C418,Minecraft - Volume Alpha,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,49,8,1
+2023-06-23,79,RE,--,False,False,26,--,hot mess,dodie,Hot Mess,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,3,12,1
+2023-06-23,80,RE,--,False,False,26,--,She,dodie,Human,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,2,34,1
+2023-06-23,81,RE,--,False,False,26,--,Hits Different,Taylor Swift,Midnights (The Til Dawn Edition),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,4,3,1
+2023-06-23,82,RE,--,False,False,26,--,You Are in Love,Taylor Swift,1989 (Deluxe),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,3,22,1
+2023-06-23,83,-42,41,False,False,26,0.08,My Headphones On,TWICE,PAGE TWO,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,10,12,1
+2023-06-23,84,NEW,--,True,False,25,--,One More Day,Lena Raine,Minecraft: Caves & Cliffs (Original Game Soundtrack),3,2,2,15,6,4,150000,6000,200000,0.42,0.02,0.56,356000,25,0,0,84,1,1
+2023-06-23,85,RE,--,False,False,25,--,HUMBLE.,Kendrick Lamar,DAMN.,3,2,2,15,6,4,150000,6000,200000,0.42,0.02,0.56,356000,25,0,0,81,2,1
+2023-06-23,86,-31,55,False,False,24,0.33,Magda,Gloc-9,Liham At Lihim,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,0,44,8,1
+2023-06-23,87,-33,54,False,False,24,0.33,HOME,NMIXX,expérgo,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,0,2,11,1
+2023-06-23,88,NEW,--,True,False,24,--,A Thousand Miles,Vanessa Carlton,Be Not Nobody,3,1,3,15,3,6,150000,3000,300000,0.33,0.01,0.66,453000,24,0,0,88,1,1
+2023-06-23,89,-17,72,False,False,24,0.85,Absolutely Smitten,dodie,Intertwined - EP,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,4,2,1,28,1
+2023-06-23,90,RE,--,False,False,23,--,Yugto,Any Name's Okay,Yugto,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,5,30,2,1
+2023-06-23,91,-26,65,False,False,23,0.44,21,Gracie Abrams,minor,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,5,0,15,8,1
+2023-06-23,92,-2,90,False,False,21,1.1,Magasin,Eraserheads,Circus,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,3,0,75,4,1
+2023-06-23,93,=,93,False,False,21,1.1,sirena,Gloc-9,MKNM (Mga Kwento Ng Makata),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,3,0,16,11,1
+2023-06-23,94,RE,--,False,False,20,--,Huling Sayaw,Kamikazee,Romantico,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,2,83,2,1
+2023-06-23,95,-32,63,False,False,19,0.19,Wildest Dreams (Taylor's Version),Taylor Swift,Wildest Dreams (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,5,4,1,40,4
+2023-06-23,96,RE,--,False,False,18,--,Attention,NewJeans,NewJeans 1st EP 'New Jeans',2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,1,35,1
+2023-06-23,97,RE,--,False,False,18,--,Pare Ko,Eraserheads,Ultraelectromagneticpop!,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,72,2,1
+2023-06-23,98,RE,--,True,False,18,--,Mahika,Adie,Mahika,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,98,1,1
+2023-06-23,99,RE,--,False,False,18,--,Huwag Kang Matakot,Eraserheads,Natin 99,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,71,2,1
+2023-06-23,100,NEW,--,True,False,18,--,Sa Ngalan Ng Pag-Ibig,December Avenue,Sa Ngalan Ng Pag-Ibig,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,100,1,1

@@ -1,23 +1,23 @@
-Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
-2021-02-05,1,+33,34,True,18,0.12,happiness,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,5,3,1,5
-2021-02-05,2,RE,--,False,16,--,coney island,Taylor Swift The National,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,6,1,4
-2021-02-05,3,+52,55,False,14,0.17,tolerate it,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,4,0,2,4
-2021-02-05,4,+38,42,False,14,0.08,champagne problems,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,4,0,4,6
-2021-02-05,5,+71,76,True,13,0.3,YES or YES,TWICE,YES or YES,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,5,2
-2021-02-05,6,RE,--,True,10,--,pete davidson,Ariana Grande,Sweetener,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,4
-2021-02-05,7,RE,--,True,10,--,Young and Beautiful,Lana Del Rey,The Great Gatsby (Music From Baz Luhrmann's Film) [Deluxe Edition],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,3
-2021-02-05,8,NEW,--,True,10,--,Dear John,Taylor Swift,Speak Now (Deluxe Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,1
-2021-02-05,9,NEW,--,True,10,--,White Horse,Taylor Swift,Fearless (Platinum Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,9,1
-2021-02-05,10,NEW,--,True,10,--,Sad Beautiful Tragic,Taylor Swift,Red (Deluxe Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,1
-2021-02-05,11,RE,--,True,10,--,숨바꼭질 (Hide & Seek),이달의 소녀,［12:00］,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,11,3
-2021-02-05,12,RE,--,True,10,--,BOOM,NCT DREAM,We Boom - The 3rd Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,2
-2021-02-05,13,RE,--,True,10,--,Boogie Up,WJSN,For the Summer - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,2
-2021-02-05,14,NEW,--,True,10,--,Honeymoon Avenue,Ariana Grande,Yours Truly,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,1
-2021-02-05,15,RE,--,True,10,--,Thinking Bout You,Ariana Grande,Dangerous Woman (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,2
-2021-02-05,16,RE,--,False,10,--,august,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,4
-2021-02-05,17,RE,--,False,10,--,Dress,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,2
-2021-02-05,18,RE,--,True,10,--,Eclipse,Loona,Kim Lip,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,4
-2021-02-05,19,RE,--,False,10,--,HIT,Seventeen,An Ode,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,6
-2021-02-05,20,RE,--,True,10,--,달라달라 (DALLA DALLA),ITZY,IT'z Different,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,20,2
-2021-02-05,21,NEW,--,True,10,--,Peek-A-Boo,Red Velvet,Perfect Velvet - The 2nd Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,1
-2021-02-05,22,NEW,--,True,10,--,Zimzalabim,Red Velvet,‘The ReVe Festival’ Day 1,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,1
+Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
+2021-02-05,1,+33,34,True,False,18,0.12,happiness,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,5,3,1,5,1
+2021-02-05,2,RE,--,False,False,16,--,coney island,Taylor Swift The National,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,6,1,4,1
+2021-02-05,3,+52,55,False,False,14,0.17,tolerate it,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,4,0,2,4,1
+2021-02-05,4,+38,42,True,True,14,0.08,champagne problems,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,4,0,4,6,2
+2021-02-05,5,+71,76,True,False,13,0.3,YES or YES,TWICE,YES or YES,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,5,2,1
+2021-02-05,6,RE,--,True,False,10,--,pete davidson,Ariana Grande,Sweetener,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,4,1
+2021-02-05,7,RE,--,True,False,10,--,Young and Beautiful,Lana Del Rey,The Great Gatsby (Music From Baz Luhrmann's Film) [Deluxe Edition],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,3,1
+2021-02-05,8,NEW,--,True,False,10,--,Dear John,Taylor Swift,Speak Now (Deluxe Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,1,1
+2021-02-05,9,NEW,--,True,False,10,--,White Horse,Taylor Swift,Fearless (Platinum Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,9,1,1
+2021-02-05,10,NEW,--,True,False,10,--,Sad Beautiful Tragic,Taylor Swift,Red (Deluxe Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,1,1
+2021-02-05,11,RE,--,True,False,10,--,숨바꼭질 (Hide & Seek),이달의 소녀,［12:00］,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,11,3,1
+2021-02-05,12,RE,--,True,False,10,--,BOOM,NCT DREAM,We Boom - The 3rd Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,2,1
+2021-02-05,13,RE,--,True,False,10,--,Boogie Up,WJSN,For the Summer - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,2,1
+2021-02-05,14,NEW,--,True,False,10,--,Honeymoon Avenue,Ariana Grande,Yours Truly,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,1,1
+2021-02-05,15,RE,--,True,False,10,--,Thinking Bout You,Ariana Grande,Dangerous Woman (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,2,1
+2021-02-05,16,RE,--,False,False,10,--,august,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,4,1
+2021-02-05,17,RE,--,False,False,10,--,Dress,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,2,1
+2021-02-05,18,RE,--,True,False,10,--,Eclipse,Loona,Kim Lip,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,4,1
+2021-02-05,19,RE,--,False,False,10,--,HIT,Seventeen,An Ode,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,6,1
+2021-02-05,20,RE,--,True,False,10,--,달라달라 (DALLA DALLA),ITZY,IT'z Different,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,20,2,1
+2021-02-05,21,NEW,--,True,False,10,--,Peek-A-Boo,Red Velvet,Perfect Velvet - The 2nd Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,1,1
+2021-02-05,22,NEW,--,True,False,10,--,Zimzalabim,Red Velvet,‘The ReVe Festival’ Day 1,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,1,1

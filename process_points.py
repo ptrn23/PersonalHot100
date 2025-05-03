@@ -84,7 +84,7 @@ for year in YEARS:
             song, artist = key
             album = all_songs[key]["album"]
 
-            is_new_peak = update_peak_and_woc(all_songs[key], rank)
+            is_new_peak, is_repeak = update_peak_and_woc(all_songs[key], rank)
 
             streams, sales, airplay, total_points, prev_pts, two_weeks_pts = raw_point_map[key]
             stream_pts = ceil(streams * 5000 / 1000)
@@ -114,7 +114,7 @@ for year in YEARS:
 
             week_ranks.append((
                 week_key,
-                rank, status, previous_rank, is_new_peak,
+                rank, status, previous_rank, is_new_peak, is_repeak,
                 week_total_points,
                 percent_change,
                 song, artist, album,
@@ -125,7 +125,7 @@ for year in YEARS:
                 total_units,
                 total_points,
                 ceil(prev_pts * 0.3), ceil(two_weeks_pts * 0.2),
-                all_songs[key]["peak"], all_songs[key]["woc"]
+                all_songs[key]["peak"], all_songs[key]["woc"], all_songs[key]["peak_streak"]
             ))
 
         ranked_weeks.append((week_key, [(key, rank, points) for rank, (key, points) in enumerate(ranked, start=1)]))
@@ -135,7 +135,7 @@ for year in YEARS:
             writer = csv.writer(f)
             writer.writerow([
                 'Week',
-                'Position', 'Rise/Fall', 'Previous Rank', 'New Peak?',
+                'Position', 'Rise/Fall', 'Previous Rank', 'New Peak?', 'Re-peak?',
                 'Total Weighted Points',
                 '%',
                 'Song', 'Artist', 'Album',
@@ -146,7 +146,7 @@ for year in YEARS:
                 'Total Units',
                 'Current Week Points',
                 'Previous Week Points', 'Two Weeks Ago Points',
-                'Peak', 'WOC'
+                'Peak', 'WOC', 'Peak Streak'
             ])
             writer.writerows(week_ranks)
 

@@ -1,85 +1,85 @@
-Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
-2023-03-03,1,=,1,False,246,-0.5,Cate’s Brother,Maisie Peters,Cate’s Brother,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,148,0,1,2
-2023-03-03,2,+20,22,True,220,1.0,Body Better,Maisie Peters,Body Better,26,13,9,130,39,18,1300000,39000,900000,0.58,0.02,0.4,2239000,187,33,0,2,2
-2023-03-03,3,-1,2,False,219,-0.42,OMG,NewJeans,NewJeans 'OMG',3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,114,79,1,8
-2023-03-03,4,RE,--,False,218,--,Forever Winter (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),30,1,30,150,3,60,1500000,3000,3000000,0.33,0.0,0.67,4503000,213,0,5,1,36
-2023-03-03,5,+3,8,False,194,-0.15,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),8,6,3,40,18,6,400000,18000,300000,0.56,0.03,0.42,718000,64,69,61,1,48
-2023-03-03,6,-1,5,False,184,-0.27,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,76,82,1,34
-2023-03-03,7,-3,4,False,176,-0.32,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,78,56,1,63
-2023-03-03,8,-2,6,False,166,-0.33,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,75,25,6,32
-2023-03-03,9,-6,3,False,157,-0.47,Ditto,NewJeans,NewJeans 'OMG',3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,90,41,1,10
-2023-03-03,10,+8,18,False,152,-0.08,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,50,44,4,21
-2023-03-03,11,=,11,False,150,-0.31,Holy Ground (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,65,43,1,33
-2023-03-03,12,=,12,False,145,-0.26,Cookie,NewJeans,NewJeans 1st EP 'New Jeans',4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,60,51,3,12
-2023-03-03,13,-3,10,False,140,-0.35,Attention,NewJeans,NewJeans 1st EP 'New Jeans',6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,65,25,1,26
-2023-03-03,14,-5,9,False,140,-0.35,After LIKE,IVE,After LIKE,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,66,40,1,28
-2023-03-03,15,-8,7,False,135,-0.44,LOVE DIVE,IVE,LOVE DIVE,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,72,37,1,38
-2023-03-03,16,-1,15,False,125,-0.26,Good Enough,Maisie Peters,Good Enough,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,51,0,15,2
-2023-03-03,17,=,17,False,124,-0.26,Hurt,NewJeans,NewJeans 1st EP 'New Jeans',4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,51,39,8,16
-2023-03-03,18,+2,20,False,118,-0.17,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,43,33,3,41
-2023-03-03,19,-5,14,False,111,-0.38,ANTIFRAGILE,LE SSERAFIM,ANTIFRAGILE,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,54,31,5,16
-2023-03-03,20,+5,25,True,109,0.17,Difficult,Gracie Abrams,Good Riddance,10,9,2,50,27,4,500000,27000,200000,0.69,0.04,0.28,727000,81,28,0,20,2
-2023-03-03,21,-2,19,False,108,-0.35,Hype Boy,NewJeans,NewJeans 1st EP 'New Jeans',4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,50,24,1,25
-2023-03-03,22,+1,23,False,106,0.01,Lonely Bones,dodie,Hot Mess,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,32,0,10,5
-2023-03-03,23,+7,30,True,102,0.55,Best,Gracie Abrams,Good Riddance,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,20,0,23,2
-2023-03-03,24,NEW,--,True,89,--,Cate’s Brother - Matt's Version,Maisie Peters,Cate’s Brother (Matt's Version),11,10,2,55,30,4,550000,30000,200000,0.71,0.04,0.26,780000,89,0,0,24,1
-2023-03-03,25,-1,24,False,81,-0.18,MORE & MORE,TWICE,MORE & MORE,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,30,33,4,19
-2023-03-03,26,-13,13,False,81,-0.56,Touchdown,TWICE,PAGE TWO,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,55,0,13,5
-2023-03-03,27,+43,70,True,77,1.26,Where do we go now?,Gracie Abrams,Good Riddance,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,11,0,27,2
-2023-03-03,28,+43,71,True,77,1.26,Full machine,Gracie Abrams,Good Riddance,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,11,0,28,2
-2023-03-03,29,+43,72,True,77,1.26,I know it won't work,Gracie Abrams,Good Riddance,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,11,0,29,2
-2023-03-03,30,+58,88,False,72,3.0,Sick Of Losing Soulmates,dodie,Sick of Losing Soulmates,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,6,0,5,16
-2023-03-03,31,-15,16,False,69,-0.59,My Headphones On,TWICE,PAGE TWO,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,51,0,11,5
-2023-03-03,32,+15,47,False,67,0.34,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,3,3,25,9,6,250000,9000,300000,0.45,0.02,0.54,559000,40,15,12,2,47
-2023-03-03,33,+47,80,True,66,1.54,The Loneliest Time (feat. Rufus Wainwright),Carly Rae Jepsen,The Loneliest Time (feat. Rufus Wainwright),7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,8,0,33,3
-2023-03-03,34,-1,33,False,65,0.03,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,3,3,25,9,6,250000,9000,300000,0.45,0.02,0.54,559000,40,19,6,1,36
-2023-03-03,35,+54,89,False,64,2.56,Not What I Meant (feat. Lewis Watson),dodie,Human,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,6,0,16,16
-2023-03-03,36,-10,26,False,62,-0.31,FEARLESS,LE SSERAFIM,FEARLESS,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,27,17,1,42
-2023-03-03,37,+32,69,True,61,0.79,I should hate you,Gracie Abrams,Good Riddance,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,11,0,37,2
-2023-03-03,38,-2,36,False,59,-0.06,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,19,14,2,49
-2023-03-03,39,-11,28,False,55,-0.2,Kung 'Di Rin Lang Ikaw,December Avenue,Kung 'Di Rin Lang Ikaw,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,21,16,2,8
-2023-03-03,40,+23,63,True,53,0.56,Right Now,Gracie Abrams,Good Riddance,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,11,0,40,2
-2023-03-03,41,+23,64,True,53,0.56,The Blue,Gracie Abrams,Good Riddance,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,11,0,41,2
-2023-03-03,42,+23,65,True,53,0.56,Fault Line,Gracie Abrams,Good Riddance,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,11,0,42,2
-2023-03-03,43,+23,66,True,53,0.56,This Is What The Drugs Are For,Gracie Abrams,Good Riddance,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,11,0,43,2
-2023-03-03,44,+23,67,True,53,0.56,Amelie,Gracie Abrams,Good Riddance,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,11,0,44,2
-2023-03-03,45,+23,68,True,53,0.56,Will you cry?,Gracie Abrams,Good Riddance,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,11,0,45,2
-2023-03-03,46,-17,29,False,52,-0.25,FUN!,fromis_9,FUN FACTORY,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,21,13,2,17
-2023-03-03,47,-13,34,False,52,-0.17,Kalachuchi,munimuni,Kalachuchi,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,19,15,4,8
-2023-03-03,48,-16,32,False,51,-0.22,State of Grace (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,20,21,1,26
-2023-03-03,49,+1,50,False,51,0.09,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,15,10,7,33
-2023-03-03,50,-15,35,False,50,-0.21,Ikaw Lamang,Silent Sanctuary,Fuchsiang Pag-Ibig,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,19,13,3,13
-2023-03-03,51,-13,38,False,49,-0.21,#Cookie Jar,Red Velvet,#Cookie Jar,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,19,12,1,10
-2023-03-03,52,-9,43,False,47,-0.16,hot mess,dodie,Hot Mess,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,17,12,8,7
-2023-03-03,53,-8,45,False,47,-0.15,Thot Shit,Megan Thee Stallion,Something for Thee Hotties,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,17,12,2,8
-2023-03-03,54,+4,58,False,40,0.08,No Big Deal (I Love You),dodie,Hot Mess,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,12,10,11,7
-2023-03-03,55,+40,95,False,32,0.78,You Signed Up For This,Maisie Peters,You Signed Up For This,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,6,0,42,5
-2023-03-03,56,+3,59,False,32,-0.14,Starlight (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,12,10,20,16
-2023-03-03,57,+4,61,False,27,-0.23,Stay Stay Stay (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,11,6,22,17
-2023-03-03,58,+16,74,False,28,-0.18,I Almost Do (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,11,7,5,24
-2023-03-03,59,+22,81,False,26,0.0,Psycho,Maisie Peters,You Signed Up For This,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,31,7
-2023-03-03,60,+13,73,False,27,-0.21,Come Back...Be Here (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,11,6,12,26
-2023-03-03,61,+15,76,False,26,-0.21,Sad Beautiful Tragic (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,10,6,5,40
-2023-03-03,62,NEW,--,True,26,--,minor,Gracie Abrams,minor,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,62,1
-2023-03-03,63,NEW,--,True,26,--,Long Sleeves,Gracie Abrams,minor,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,63,1
-2023-03-03,64,NEW,--,True,26,--,I miss you I’m sorry,Gracie Abrams,minor,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,64,1
-2023-03-03,65,NEW,--,True,26,--,tehe,Gracie Abrams,minor,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,65,1
-2023-03-03,66,NEW,--,True,26,--,Under / Over,Gracie Abrams,minor,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,66,1
-2023-03-03,67,NEW,--,True,26,--,21,Gracie Abrams,minor,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,67,1
-2023-03-03,68,NEW,--,True,26,--,Friend,Gracie Abrams,minor,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,68,1
-2023-03-03,69,+8,77,False,25,-0.22,The Lucky One (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,10,5,14,21
-2023-03-03,70,RE,--,False,24,--,ALIEN SUPERSTAR,Beyoncé,RENAISSANCE,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,6,25,3
-2023-03-03,71,+19,90,False,24,0.33,Got Weird,dodie,Hot Mess,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,0,9,6
-2023-03-03,72,+22,94,False,24,0.33,John Hughes Movie,Maisie Peters,You Signed Up For This,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,0,40,5
-2023-03-03,73,+20,93,False,24,0.33,I’m Trying (Not Friends),Maisie Peters,You Signed Up For This,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,0,41,6
-2023-03-03,74,RE,--,False,23,--,AMERICA HAS A PROBLEM,Beyoncé,RENAISSANCE,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,5,41,5
-2023-03-03,75,RE,--,False,23,--,CHURCH GIRL,Beyoncé,RENAISSANCE,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,5,42,6
-2023-03-03,76,RE,--,False,23,--,ENERGY (feat. BEAM),Beyoncé,RENAISSANCE,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,5,36,6
-2023-03-03,77,RE,--,False,18,--,PLASTIC OFF THE SOFA,Beyoncé,RENAISSANCE,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,61,3
-2023-03-03,78,RE,--,False,18,--,CUFF IT,Beyoncé,RENAISSANCE,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,46,5
-2023-03-03,79,RE,--,False,18,--,Love Him I Don’t,Maisie Peters,You Signed Up For This,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,38,3
-2023-03-03,80,RE,--,False,18,--,Outdoor Pool,Maisie Peters,You Signed Up For This,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,39,3
-2023-03-03,81,RE,--,False,10,--,State of Grace (Acoustic Version) (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,8
-2023-03-03,82,RE,--,False,10,--,Girl at Home (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,11
-2023-03-03,83,RE,--,False,10,--,The Moment I Knew (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,20
-2023-03-03,84,NEW,--,True,10,--,Cate’s Brother - BRELAND's Version,Maisie Peters,Cate’s Brother (BRELAND's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,84,1
+Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
+2023-03-03,1,=,1,True,True,246,-0.5,Cate’s Brother,Maisie Peters,Cate’s Brother,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,148,0,1,2,2
+2023-03-03,2,+20,22,True,False,220,1.0,Body Better,Maisie Peters,Body Better,26,13,9,130,39,18,1300000,39000,900000,0.58,0.02,0.4,2239000,187,33,0,2,2,1
+2023-03-03,3,-1,2,False,False,219,-0.42,OMG,NewJeans,NewJeans 'OMG',3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,114,79,1,8,1
+2023-03-03,4,RE,--,False,False,218,--,Forever Winter (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),30,1,30,150,3,60,1500000,3000,3000000,0.33,0.0,0.67,4503000,213,0,5,1,36,8
+2023-03-03,5,+3,8,False,False,194,-0.15,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),8,6,3,40,18,6,400000,18000,300000,0.56,0.03,0.42,718000,64,69,61,1,48,4
+2023-03-03,6,-1,5,False,False,184,-0.27,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,76,82,1,34,1
+2023-03-03,7,-3,4,False,False,176,-0.32,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,78,56,1,63,6
+2023-03-03,8,-2,6,False,False,166,-0.33,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,75,25,6,32,1
+2023-03-03,9,-6,3,False,False,157,-0.47,Ditto,NewJeans,NewJeans 'OMG',3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,90,41,1,10,1
+2023-03-03,10,+8,18,False,False,152,-0.08,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,50,44,4,21,1
+2023-03-03,11,=,11,False,False,150,-0.31,Holy Ground (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,65,43,1,33,3
+2023-03-03,12,=,12,False,False,145,-0.26,Cookie,NewJeans,NewJeans 1st EP 'New Jeans',4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,60,51,3,12,1
+2023-03-03,13,-3,10,False,False,140,-0.35,Attention,NewJeans,NewJeans 1st EP 'New Jeans',6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,65,25,1,26,1
+2023-03-03,14,-5,9,False,False,140,-0.35,After LIKE,IVE,After LIKE,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,66,40,1,28,5
+2023-03-03,15,-8,7,False,False,135,-0.44,LOVE DIVE,IVE,LOVE DIVE,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,72,37,1,38,4
+2023-03-03,16,-1,15,False,False,125,-0.26,Good Enough,Maisie Peters,Good Enough,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,51,0,15,2,1
+2023-03-03,17,=,17,False,False,124,-0.26,Hurt,NewJeans,NewJeans 1st EP 'New Jeans',4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,51,39,8,16,1
+2023-03-03,18,+2,20,False,False,118,-0.17,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,43,33,3,41,2
+2023-03-03,19,-5,14,False,False,111,-0.38,ANTIFRAGILE,LE SSERAFIM,ANTIFRAGILE,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,54,31,5,16,1
+2023-03-03,20,+5,25,True,False,109,0.17,Difficult,Gracie Abrams,Good Riddance,10,9,2,50,27,4,500000,27000,200000,0.69,0.04,0.28,727000,81,28,0,20,2,1
+2023-03-03,21,-2,19,False,False,108,-0.35,Hype Boy,NewJeans,NewJeans 1st EP 'New Jeans',4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,50,24,1,25,1
+2023-03-03,22,+1,23,False,False,106,0.01,Lonely Bones,dodie,Hot Mess,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,32,0,10,5,1
+2023-03-03,23,+7,30,True,False,102,0.55,Best,Gracie Abrams,Good Riddance,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,20,0,23,2,1
+2023-03-03,24,NEW,--,True,False,89,--,Cate’s Brother - Matt's Version,Maisie Peters,Cate’s Brother (Matt's Version),11,10,2,55,30,4,550000,30000,200000,0.71,0.04,0.26,780000,89,0,0,24,1,1
+2023-03-03,25,-1,24,False,False,81,-0.18,MORE & MORE,TWICE,MORE & MORE,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,30,33,4,19,1
+2023-03-03,26,-13,13,False,False,81,-0.56,Touchdown,TWICE,PAGE TWO,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,55,0,13,5,1
+2023-03-03,27,+43,70,True,False,77,1.26,Where do we go now?,Gracie Abrams,Good Riddance,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,11,0,27,2,1
+2023-03-03,28,+43,71,True,False,77,1.26,Full machine,Gracie Abrams,Good Riddance,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,11,0,28,2,1
+2023-03-03,29,+43,72,True,False,77,1.26,I know it won't work,Gracie Abrams,Good Riddance,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,11,0,29,2,1
+2023-03-03,30,+58,88,False,False,72,3.0,Sick Of Losing Soulmates,dodie,Sick of Losing Soulmates,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,6,0,5,16,1
+2023-03-03,31,-15,16,False,False,69,-0.59,My Headphones On,TWICE,PAGE TWO,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,51,0,11,5,1
+2023-03-03,32,+15,47,False,False,67,0.34,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,3,3,25,9,6,250000,9000,300000,0.45,0.02,0.54,559000,40,15,12,2,47,1
+2023-03-03,33,+47,80,True,False,66,1.54,The Loneliest Time (feat. Rufus Wainwright),Carly Rae Jepsen,The Loneliest Time (feat. Rufus Wainwright),7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,8,0,33,3,1
+2023-03-03,34,-1,33,False,False,65,0.03,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,3,3,25,9,6,250000,9000,300000,0.45,0.02,0.54,559000,40,19,6,1,36,1
+2023-03-03,35,+54,89,False,False,64,2.56,Not What I Meant (feat. Lewis Watson),dodie,Human,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,6,0,16,16,1
+2023-03-03,36,-10,26,False,False,62,-0.31,FEARLESS,LE SSERAFIM,FEARLESS,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,27,17,1,42,5
+2023-03-03,37,+32,69,True,False,61,0.79,I should hate you,Gracie Abrams,Good Riddance,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,11,0,37,2,1
+2023-03-03,38,-2,36,False,False,59,-0.06,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,19,14,2,49,1
+2023-03-03,39,-11,28,False,False,55,-0.2,Kung 'Di Rin Lang Ikaw,December Avenue,Kung 'Di Rin Lang Ikaw,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,21,16,2,8,1
+2023-03-03,40,+23,63,True,False,53,0.56,Right Now,Gracie Abrams,Good Riddance,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,11,0,40,2,1
+2023-03-03,41,+23,64,True,False,53,0.56,The Blue,Gracie Abrams,Good Riddance,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,11,0,41,2,1
+2023-03-03,42,+23,65,True,False,53,0.56,Fault Line,Gracie Abrams,Good Riddance,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,11,0,42,2,1
+2023-03-03,43,+23,66,True,False,53,0.56,This Is What The Drugs Are For,Gracie Abrams,Good Riddance,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,11,0,43,2,1
+2023-03-03,44,+23,67,True,False,53,0.56,Amelie,Gracie Abrams,Good Riddance,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,11,0,44,2,1
+2023-03-03,45,+23,68,True,False,53,0.56,Will you cry?,Gracie Abrams,Good Riddance,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,11,0,45,2,1
+2023-03-03,46,-17,29,False,False,52,-0.25,FUN!,fromis_9,FUN FACTORY,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,21,13,2,17,1
+2023-03-03,47,-13,34,False,False,52,-0.17,Kalachuchi,munimuni,Kalachuchi,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,19,15,4,8,1
+2023-03-03,48,-16,32,False,False,51,-0.22,State of Grace (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,20,21,1,26,1
+2023-03-03,49,+1,50,False,False,51,0.09,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,15,10,7,33,1
+2023-03-03,50,-15,35,False,False,50,-0.21,Ikaw Lamang,Silent Sanctuary,Fuchsiang Pag-Ibig,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,19,13,3,13,1
+2023-03-03,51,-13,38,False,False,49,-0.21,#Cookie Jar,Red Velvet,#Cookie Jar,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,19,12,1,10,3
+2023-03-03,52,-9,43,False,False,47,-0.16,hot mess,dodie,Hot Mess,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,17,12,8,7,1
+2023-03-03,53,-8,45,False,False,47,-0.15,Thot Shit,Megan Thee Stallion,Something for Thee Hotties,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,17,12,2,8,1
+2023-03-03,54,+4,58,False,False,40,0.08,No Big Deal (I Love You),dodie,Hot Mess,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,12,10,11,7,1
+2023-03-03,55,+40,95,False,False,32,0.78,You Signed Up For This,Maisie Peters,You Signed Up For This,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,6,0,42,5,1
+2023-03-03,56,+3,59,False,False,32,-0.14,Starlight (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,12,10,20,16,2
+2023-03-03,57,+4,61,False,False,27,-0.23,Stay Stay Stay (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,11,6,22,17,1
+2023-03-03,58,+16,74,False,False,28,-0.18,I Almost Do (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,11,7,5,24,1
+2023-03-03,59,+22,81,False,False,26,0.0,Psycho,Maisie Peters,You Signed Up For This,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,31,7,1
+2023-03-03,60,+13,73,False,False,27,-0.21,Come Back...Be Here (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,11,6,12,26,1
+2023-03-03,61,+15,76,False,False,26,-0.21,Sad Beautiful Tragic (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,10,6,5,40,1
+2023-03-03,62,NEW,--,True,False,26,--,minor,Gracie Abrams,minor,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,62,1,1
+2023-03-03,63,NEW,--,True,False,26,--,Long Sleeves,Gracie Abrams,minor,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,63,1,1
+2023-03-03,64,NEW,--,True,False,26,--,I miss you I’m sorry,Gracie Abrams,minor,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,64,1,1
+2023-03-03,65,NEW,--,True,False,26,--,tehe,Gracie Abrams,minor,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,65,1,1
+2023-03-03,66,NEW,--,True,False,26,--,Under / Over,Gracie Abrams,minor,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,66,1,1
+2023-03-03,67,NEW,--,True,False,26,--,21,Gracie Abrams,minor,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,67,1,1
+2023-03-03,68,NEW,--,True,False,26,--,Friend,Gracie Abrams,minor,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,68,1,1
+2023-03-03,69,+8,77,False,False,25,-0.22,The Lucky One (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,10,5,14,21,2
+2023-03-03,70,RE,--,False,False,24,--,ALIEN SUPERSTAR,Beyoncé,RENAISSANCE,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,6,25,3,1
+2023-03-03,71,+19,90,False,False,24,0.33,Got Weird,dodie,Hot Mess,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,0,9,6,1
+2023-03-03,72,+22,94,False,False,24,0.33,John Hughes Movie,Maisie Peters,You Signed Up For This,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,0,40,5,1
+2023-03-03,73,+20,93,False,False,24,0.33,I’m Trying (Not Friends),Maisie Peters,You Signed Up For This,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,0,41,6,1
+2023-03-03,74,RE,--,False,False,23,--,AMERICA HAS A PROBLEM,Beyoncé,RENAISSANCE,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,5,41,5,2
+2023-03-03,75,RE,--,False,False,23,--,CHURCH GIRL,Beyoncé,RENAISSANCE,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,5,42,6,3
+2023-03-03,76,RE,--,False,False,23,--,ENERGY (feat. BEAM),Beyoncé,RENAISSANCE,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,5,36,6,1
+2023-03-03,77,RE,--,False,False,18,--,PLASTIC OFF THE SOFA,Beyoncé,RENAISSANCE,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,61,3,1
+2023-03-03,78,RE,--,False,False,18,--,CUFF IT,Beyoncé,RENAISSANCE,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,46,5,1
+2023-03-03,79,RE,--,False,False,18,--,Love Him I Don’t,Maisie Peters,You Signed Up For This,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,38,3,1
+2023-03-03,80,RE,--,False,False,18,--,Outdoor Pool,Maisie Peters,You Signed Up For This,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,39,3,1
+2023-03-03,81,RE,--,False,False,10,--,State of Grace (Acoustic Version) (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,8,1
+2023-03-03,82,RE,--,False,False,10,--,Girl at Home (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,11,1
+2023-03-03,83,RE,--,False,False,10,--,The Moment I Knew (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,20,1
+2023-03-03,84,NEW,--,True,False,10,--,Cate’s Brother - BRELAND's Version,Maisie Peters,Cate’s Brother (BRELAND's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,84,1,1

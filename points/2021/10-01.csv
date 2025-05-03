@@ -1,101 +1,101 @@
-Week,Position,Rise/Fall,Previous Rank,New Peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC
-2021-10-01,1,=,1,False,53,0.15,Wildest Dreams (Taylor's Version),Taylor Swift,Wildest Dreams (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,14,13,1,3
-2021-10-01,2,+11,13,True,30,0.67,Happier Than Ever,Billie Eilish,Happier Than Ever,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,6,2,4
-2021-10-01,3,+70,73,True,29,1.9,Paper Rings,Taylor Swift,Lover,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,3,0,3,4
-2021-10-01,4,NEW,--,True,26,--,The Feels,TWICE,The Feels,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,4,1
-2021-10-01,5,RE,--,True,24,--,Guiltless,dodie,Guiltless,3,1,3,15,3,6,150000,3000,300000,0.33,0.01,0.66,453000,24,0,0,5,3
-2021-10-01,6,RE,--,False,22,--,HUMAN,dodie,Human,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,4,1,9
-2021-10-01,7,+58,65,True,21,1.1,Getaway Car,Taylor Swift,Reputation,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,3,0,7,6
-2021-10-01,8,-5,3,False,21,-0.28,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,9,2,2,6
-2021-10-01,9,RE,--,False,20,--,bury a friend,Billie Eilish,WHEN WE ALL FALL ASLEEP WHERE DO WE GO?,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,10,2,2
-2021-10-01,10,-8,2,False,19,-0.37,ghostin,Ariana Grande,thank u next,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,9,0,2,5
-2021-10-01,11,-5,6,False,19,-0.1,brutal,Olivia Rodrigo,SOUR,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,7,2,6,7
-2021-10-01,12,RE,--,True,18,--,Look What You Made Me Do,Taylor Swift,Reputation,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,12,5
-2021-10-01,13,RE,--,True,18,--,Begin Again,Taylor Swift,Red (Deluxe Edition),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,13,3
-2021-10-01,14,RE,--,False,18,--,Touch It,Ariana Grande,Dangerous Woman,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,1,5
-2021-10-01,15,RE,--,False,18,--,Sober,Selena Gomez,Revival (Deluxe),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,15,4
-2021-10-01,16,RE,--,True,18,--,Kill Em with Kindness,Selena Gomez,Revival (Deluxe),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,16,3
-2021-10-01,17,NEW,--,True,18,--,Drops Of Jupiter - Live/2011,Taylor Swift,Speak Now World Tour Live,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,17,1
-2021-10-01,18,RE,--,False,18,--,Dress,Taylor Swift,Reputation,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,7,8
-2021-10-01,19,RE,--,False,18,--,King of My Heart,Taylor Swift,Reputation,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,14,2
-2021-10-01,20,RE,--,False,18,--,Delicate,Taylor Swift,Reputation,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,11,4
-2021-10-01,21,RE,--,True,18,--,London Boy,Taylor Swift,Lover,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,21,4
-2021-10-01,22,RE,--,False,18,--,Miss Americana & the Heartbreak Prince,Taylor Swift,Lover,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,9,7
-2021-10-01,23,-14,9,False,16,-0.11,SAY YOU LOVE ME,TWICE,YES or YES,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,0,6,7
-2021-10-01,24,+6,30,False,16,0.23,Love Story (Taylor’s Version),Taylor Swift,Love Story (Taylor’s Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,4,2,1,13
-2021-10-01,25,+32,57,False,13,0.3,Would You Be So Kind,dodie,You - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,5,7
-2021-10-01,26,+15,41,False,13,0.3,Into You,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,2,8
-2021-10-01,27,RE,--,True,13,--,Wasted Potential,Lindsay Liebro,Wasted Potential,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,3,27,3
-2021-10-01,28,RE,--,False,13,--,Same Old Love,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,3,21,5
-2021-10-01,29,+34,63,True,13,0.3,the lakes - original version,Taylor Swift,the lakes (original version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,29,2
-2021-10-01,30,RE,--,False,13,--,Cornelia Street - Live from Paris,Taylor Swift,Cornelia Street (Live From Paris),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,3,25,3
-2021-10-01,31,+48,79,False,13,0.3,Dancing With Our Hands Tied,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,13,4
-2021-10-01,32,+3,35,False,13,0.3,love4eva (feat. Grimes),LOONA/yyxy,beauty&thebeat,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,21,4
-2021-10-01,33,+9,42,True,13,0.3,Stupid Love,Lady Gaga,Stupid Love,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,33,3
-2021-10-01,34,+37,71,False,13,0.3,Cruel Summer,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,1,7
-2021-10-01,35,+15,50,False,13,0.3,I Forgot That You Existed,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,7,5
-2021-10-01,36,+41,77,False,13,0.3,WAP (feat. Megan Thee Stallion),Cardi B,WAP (feat. Megan Thee Stallion),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,1,9
-2021-10-01,37,RE,--,False,12,--,Feel Special,TWICE,Feel Special,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,1,10
-2021-10-01,38,RE,--,True,10,--,The One That Got Away,Katy Perry,Teenage Dream,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,38,3
-2021-10-01,39,RE,--,False,10,--,Monster,Red Velvet - IRENE & SEULGI,Monster - The 1st Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,6
-2021-10-01,40,RE,--,False,10,--,Shoot Me,DAY6,Shoot Me : Youth Part 1,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,7
-2021-10-01,41,RE,--,False,10,--,Picture to Burn,Taylor Swift,Taylor Swift,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,7
-2021-10-01,42,RE,--,False,10,--,WANNABE,ITZY,IT'z ME,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,7
-2021-10-01,43,RE,--,False,10,--,Blank Space,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,10
-2021-10-01,44,RE,--,False,10,--,Bad Blood,Taylor Swift,Bad Blood,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,6
-2021-10-01,45,RE,--,True,10,--,burned out,dodie,Human,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,45,2
-2021-10-01,46,RE,--,False,10,--,If I'm Being Honest,dodie,Human,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,4
-2021-10-01,47,RE,--,False,10,--,She,dodie,Human,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,19,3
-2021-10-01,48,NEW,--,True,10,--,Someone Like You,Adele,21,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,48,1
-2021-10-01,49,RE,--,False,10,--,Ronan,Taylor Swift,Ronan,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,2
-2021-10-01,50,RE,--,False,10,--,Innocent,Taylor Swift,Speak Now (Deluxe Package),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,3
-2021-10-01,51,RE,--,False,10,--,Everything Has Changed,Taylor Swift,Red (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,3
-2021-10-01,52,RE,--,False,10,--,Not What I Meant (feat. Lewis Watson),dodie,Human,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,3
-2021-10-01,53,RE,--,False,10,--,Monster,dodie,Human,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,5
-2021-10-01,54,RE,--,False,10,--,Arms Unfolding,dodie,Human,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,4
-2021-10-01,55,RE,--,False,10,--,Thinking Bout You,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,4
-2021-10-01,56,NEW,--,True,10,--,Knew Better / Forever Boy,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,56,1
-2021-10-01,57,RE,--,True,10,--,Bad Decisions,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,57,2
-2021-10-01,58,RE,--,True,10,--,I Don't Care,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,58,2
-2021-10-01,59,RE,--,True,10,--,Sometimes,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,59,2
-2021-10-01,60,NEW,--,True,10,--,Everyday,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,60,1
-2021-10-01,61,NEW,--,True,10,--,Leave Me Lonely,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,61,1
-2021-10-01,62,RE,--,True,10,--,Greedy,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,62,2
-2021-10-01,63,NEW,--,True,10,--,Let Me Love You,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,63,1
-2021-10-01,64,NEW,--,True,10,--,Side to Side,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,64,1
-2021-10-01,65,RE,--,False,10,--,Be Alright,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,35,3
-2021-10-01,66,RE,--,False,10,--,Dangerous Woman,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,39,5
-2021-10-01,67,RE,--,False,10,--,Moonlight,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,36,3
-2021-10-01,68,NEW,--,True,10,--,State Of Grace - Acoustic,Taylor Swift,Red (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,68,1
-2021-10-01,69,RE,--,True,10,--,Cologne,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,69,2
-2021-10-01,70,RE,--,True,10,--,Outta My Hands (Loco),Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,70,2
-2021-10-01,71,NEW,--,True,10,--,Perfect,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,71,1
-2021-10-01,72,NEW,--,True,10,--,Nobody,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,72,1
-2021-10-01,73,RE,--,False,10,--,Me & My Girls,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,2
-2021-10-01,74,NEW,--,True,10,--,Rise,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,74,1
-2021-10-01,75,NEW,--,True,10,--,Body Heat,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,75,1
-2021-10-01,76,RE,--,True,10,--,Survivors,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,76,1
-2021-10-01,77,RE,--,True,10,--,Me & the Rhythm,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,77,1
-2021-10-01,78,RE,--,False,10,--,Camouflage,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,2
-2021-10-01,79,RE,--,False,10,--,Good for You,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,19,2
-2021-10-01,80,RE,--,False,10,--,Hands to Myself,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,3
-2021-10-01,81,RE,--,False,10,--,Revival,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,2
-2021-10-01,82,RE,--,False,10,--,needy,Ariana Grande,thank u next,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,34,3
-2021-10-01,83,NEW,--,True,10,--,august - the long pond studio sessions,Taylor Swift,folklore: the long pond studio sessions (from the Disney+ special) [deluxe edition],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,83,1
-2021-10-01,84,RE,--,False,10,--,The Story of Us,Taylor Swift,Speak Now (Deluxe Package),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,3
-2021-10-01,85,NEW,--,True,10,--,Death by a Thousand Cuts - Live from Paris,Taylor Swift,Death by a Thousand Cuts (Live from Paris),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,85,1
-2021-10-01,86,NEW,--,True,10,--,Mine - POP Mix,Taylor Swift,Speak Now (Deluxe Package),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,86,1
-2021-10-01,87,RE,--,False,10,--,How You Get the Girl,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,85,2
-2021-10-01,88,RE,--,False,10,--,I Wish You Would,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,28,3
-2021-10-01,89,RE,--,False,10,--,New Year’s Day,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,9,3
-2021-10-01,90,RE,--,False,10,--,Call It What You Want,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,6
-2021-10-01,91,RE,--,False,10,--,This Is Why We Can't Have Nice Things,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,3
-2021-10-01,92,RE,--,False,10,--,Gorgeous,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,2
-2021-10-01,93,RE,--,False,10,--,So It Goes...,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,4
-2021-10-01,94,RE,--,False,10,--,Don’t Blame Me,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,5
-2021-10-01,95,RE,--,False,10,--,I Did Something Bad,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,2
-2021-10-01,96,NEW,--,True,10,--,End Game,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,96,1
-2021-10-01,97,RE,--,False,10,--,...Ready for It?,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,2
-2021-10-01,98,RE,--,False,10,--,Love Cherry Motion,Loona,Choerry,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,24,3
-2021-10-01,99,RE,--,False,10,--,Falling in Love,2NE1,Falling in Love,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,3
-2021-10-01,100,RE,--,False,10,--,BUNGEE (Fall In Love),OH MY GIRL,OH MY GIRL SUMMER PACKAGE [FALL IN LOVE],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,4
+Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
+2021-10-01,1,=,1,True,True,53,0.15,Wildest Dreams (Taylor's Version),Taylor Swift,Wildest Dreams (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,14,13,1,3,3
+2021-10-01,2,+11,13,True,False,30,0.67,Happier Than Ever,Billie Eilish,Happier Than Ever,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,6,2,4,1
+2021-10-01,3,+70,73,True,False,29,1.9,Paper Rings,Taylor Swift,Lover,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,3,0,3,4,1
+2021-10-01,4,NEW,--,True,False,26,--,The Feels,TWICE,The Feels,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,4,1,1
+2021-10-01,5,RE,--,True,False,24,--,Guiltless,dodie,Guiltless,3,1,3,15,3,6,150000,3000,300000,0.33,0.01,0.66,453000,24,0,0,5,3,1
+2021-10-01,6,RE,--,False,False,22,--,HUMAN,dodie,Human,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,4,1,9,1
+2021-10-01,7,+58,65,True,False,21,1.1,Getaway Car,Taylor Swift,Reputation,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,3,0,7,6,1
+2021-10-01,8,-5,3,False,False,21,-0.28,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,9,2,2,6,1
+2021-10-01,9,RE,--,False,False,20,--,bury a friend,Billie Eilish,WHEN WE ALL FALL ASLEEP WHERE DO WE GO?,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,10,2,2,1
+2021-10-01,10,-8,2,False,False,19,-0.37,ghostin,Ariana Grande,thank u next,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,9,0,2,5,1
+2021-10-01,11,-5,6,False,False,19,-0.1,brutal,Olivia Rodrigo,SOUR,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,7,2,6,7,1
+2021-10-01,12,RE,--,True,False,18,--,Look What You Made Me Do,Taylor Swift,Reputation,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,12,5,1
+2021-10-01,13,RE,--,True,False,18,--,Begin Again,Taylor Swift,Red (Deluxe Edition),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,13,3,1
+2021-10-01,14,RE,--,False,False,18,--,Touch It,Ariana Grande,Dangerous Woman,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,1,5,1
+2021-10-01,15,RE,--,True,True,18,--,Sober,Selena Gomez,Revival (Deluxe),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,15,4,2
+2021-10-01,16,RE,--,True,False,18,--,Kill Em with Kindness,Selena Gomez,Revival (Deluxe),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,16,3,1
+2021-10-01,17,NEW,--,True,False,18,--,Drops Of Jupiter - Live/2011,Taylor Swift,Speak Now World Tour Live,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,17,1,1
+2021-10-01,18,RE,--,False,False,18,--,Dress,Taylor Swift,Reputation,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,7,8,1
+2021-10-01,19,RE,--,False,False,18,--,King of My Heart,Taylor Swift,Reputation,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,14,2,1
+2021-10-01,20,RE,--,False,False,18,--,Delicate,Taylor Swift,Reputation,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,11,4,1
+2021-10-01,21,RE,--,True,False,18,--,London Boy,Taylor Swift,Lover,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,21,4,1
+2021-10-01,22,RE,--,False,False,18,--,Miss Americana & the Heartbreak Prince,Taylor Swift,Lover,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,9,7,1
+2021-10-01,23,-14,9,False,False,16,-0.11,SAY YOU LOVE ME,TWICE,YES or YES,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,0,6,7,1
+2021-10-01,24,+6,30,False,False,16,0.23,Love Story (Taylor’s Version),Taylor Swift,Love Story (Taylor’s Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,4,2,1,13,2
+2021-10-01,25,+32,57,False,False,13,0.3,Would You Be So Kind,dodie,You - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,5,7,1
+2021-10-01,26,+15,41,False,False,13,0.3,Into You,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,2,8,1
+2021-10-01,27,RE,--,True,False,13,--,Wasted Potential,Lindsay Liebro,Wasted Potential,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,3,27,3,1
+2021-10-01,28,RE,--,False,False,13,--,Same Old Love,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,3,21,5,1
+2021-10-01,29,+34,63,True,False,13,0.3,the lakes - original version,Taylor Swift,the lakes (original version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,29,2,1
+2021-10-01,30,RE,--,False,False,13,--,Cornelia Street - Live from Paris,Taylor Swift,Cornelia Street (Live From Paris),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,3,25,3,1
+2021-10-01,31,+48,79,False,False,13,0.3,Dancing With Our Hands Tied,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,13,4,1
+2021-10-01,32,+3,35,False,False,13,0.3,love4eva (feat. Grimes),LOONA/yyxy,beauty&thebeat,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,21,4,1
+2021-10-01,33,+9,42,True,False,13,0.3,Stupid Love,Lady Gaga,Stupid Love,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,33,3,1
+2021-10-01,34,+37,71,False,False,13,0.3,Cruel Summer,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,1,7,1
+2021-10-01,35,+15,50,False,False,13,0.3,I Forgot That You Existed,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,7,5,1
+2021-10-01,36,+41,77,False,False,13,0.3,WAP (feat. Megan Thee Stallion),Cardi B,WAP (feat. Megan Thee Stallion),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,1,9,1
+2021-10-01,37,RE,--,False,False,12,--,Feel Special,TWICE,Feel Special,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,1,10,1
+2021-10-01,38,RE,--,True,False,10,--,The One That Got Away,Katy Perry,Teenage Dream,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,38,3,1
+2021-10-01,39,RE,--,False,False,10,--,Monster,Red Velvet - IRENE & SEULGI,Monster - The 1st Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,6,1
+2021-10-01,40,RE,--,False,False,10,--,Shoot Me,DAY6,Shoot Me : Youth Part 1,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,7,1
+2021-10-01,41,RE,--,False,False,10,--,Picture to Burn,Taylor Swift,Taylor Swift,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,7,1
+2021-10-01,42,RE,--,False,False,10,--,WANNABE,ITZY,IT'z ME,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,7,1
+2021-10-01,43,RE,--,False,False,10,--,Blank Space,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,10,2
+2021-10-01,44,RE,--,False,False,10,--,Bad Blood,Taylor Swift,Bad Blood,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,6,1
+2021-10-01,45,RE,--,True,False,10,--,burned out,dodie,Human,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,45,2,1
+2021-10-01,46,RE,--,False,False,10,--,If I'm Being Honest,dodie,Human,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,4,1
+2021-10-01,47,RE,--,False,False,10,--,She,dodie,Human,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,19,3,1
+2021-10-01,48,NEW,--,True,False,10,--,Someone Like You,Adele,21,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,48,1,1
+2021-10-01,49,RE,--,False,False,10,--,Ronan,Taylor Swift,Ronan,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,2,1
+2021-10-01,50,RE,--,False,False,10,--,Innocent,Taylor Swift,Speak Now (Deluxe Package),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,3,1
+2021-10-01,51,RE,--,False,False,10,--,Everything Has Changed,Taylor Swift,Red (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,3,1
+2021-10-01,52,RE,--,False,False,10,--,Not What I Meant (feat. Lewis Watson),dodie,Human,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,3,1
+2021-10-01,53,RE,--,False,False,10,--,Monster,dodie,Human,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,5,1
+2021-10-01,54,RE,--,False,False,10,--,Arms Unfolding,dodie,Human,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,4,1
+2021-10-01,55,RE,--,False,False,10,--,Thinking Bout You,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,4,2
+2021-10-01,56,NEW,--,True,False,10,--,Knew Better / Forever Boy,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,56,1,1
+2021-10-01,57,RE,--,True,False,10,--,Bad Decisions,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,57,2,1
+2021-10-01,58,RE,--,True,False,10,--,I Don't Care,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,58,2,1
+2021-10-01,59,RE,--,True,False,10,--,Sometimes,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,59,2,1
+2021-10-01,60,NEW,--,True,False,10,--,Everyday,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,60,1,1
+2021-10-01,61,NEW,--,True,False,10,--,Leave Me Lonely,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,61,1,1
+2021-10-01,62,RE,--,True,False,10,--,Greedy,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,62,2,1
+2021-10-01,63,NEW,--,True,False,10,--,Let Me Love You,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,63,1,1
+2021-10-01,64,NEW,--,True,False,10,--,Side to Side,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,64,1,1
+2021-10-01,65,RE,--,False,False,10,--,Be Alright,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,35,3,1
+2021-10-01,66,RE,--,False,False,10,--,Dangerous Woman,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,39,5,1
+2021-10-01,67,RE,--,False,False,10,--,Moonlight,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,36,3,1
+2021-10-01,68,NEW,--,True,False,10,--,State Of Grace - Acoustic,Taylor Swift,Red (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,68,1,1
+2021-10-01,69,RE,--,True,False,10,--,Cologne,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,69,2,1
+2021-10-01,70,RE,--,True,False,10,--,Outta My Hands (Loco),Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,70,2,1
+2021-10-01,71,NEW,--,True,False,10,--,Perfect,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,71,1,1
+2021-10-01,72,NEW,--,True,False,10,--,Nobody,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,72,1,1
+2021-10-01,73,RE,--,False,False,10,--,Me & My Girls,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,2,1
+2021-10-01,74,NEW,--,True,False,10,--,Rise,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,74,1,1
+2021-10-01,75,NEW,--,True,False,10,--,Body Heat,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,75,1,1
+2021-10-01,76,RE,--,True,False,10,--,Survivors,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,76,1,1
+2021-10-01,77,RE,--,True,False,10,--,Me & the Rhythm,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,77,1,1
+2021-10-01,78,RE,--,False,False,10,--,Camouflage,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,2,1
+2021-10-01,79,RE,--,False,False,10,--,Good for You,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,19,2,1
+2021-10-01,80,RE,--,False,False,10,--,Hands to Myself,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,3,1
+2021-10-01,81,RE,--,False,False,10,--,Revival,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,2,1
+2021-10-01,82,RE,--,False,False,10,--,needy,Ariana Grande,thank u next,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,34,3,1
+2021-10-01,83,NEW,--,True,False,10,--,august - the long pond studio sessions,Taylor Swift,folklore: the long pond studio sessions (from the Disney+ special) [deluxe edition],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,83,1,1
+2021-10-01,84,RE,--,False,False,10,--,The Story of Us,Taylor Swift,Speak Now (Deluxe Package),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,3,1
+2021-10-01,85,NEW,--,True,False,10,--,Death by a Thousand Cuts - Live from Paris,Taylor Swift,Death by a Thousand Cuts (Live from Paris),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,85,1,1
+2021-10-01,86,NEW,--,True,False,10,--,Mine - POP Mix,Taylor Swift,Speak Now (Deluxe Package),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,86,1,1
+2021-10-01,87,RE,--,False,False,10,--,How You Get the Girl,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,85,2,1
+2021-10-01,88,RE,--,False,False,10,--,I Wish You Would,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,28,3,1
+2021-10-01,89,RE,--,False,False,10,--,New Year’s Day,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,9,3,1
+2021-10-01,90,RE,--,False,False,10,--,Call It What You Want,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,6,1
+2021-10-01,91,RE,--,False,False,10,--,This Is Why We Can't Have Nice Things,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,3,1
+2021-10-01,92,RE,--,False,False,10,--,Gorgeous,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,2,1
+2021-10-01,93,RE,--,False,False,10,--,So It Goes...,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,4,1
+2021-10-01,94,RE,--,False,False,10,--,Don’t Blame Me,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,5,1
+2021-10-01,95,RE,--,False,False,10,--,I Did Something Bad,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,2,1
+2021-10-01,96,NEW,--,True,False,10,--,End Game,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,96,1,1
+2021-10-01,97,RE,--,False,False,10,--,...Ready for It?,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,2,1
+2021-10-01,98,RE,--,False,False,10,--,Love Cherry Motion,Loona,Choerry,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,24,3,1
+2021-10-01,99,RE,--,False,False,10,--,Falling in Love,2NE1,Falling in Love,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,3,1
+2021-10-01,100,RE,--,False,False,10,--,BUNGEE (Fall In Love),OH MY GIRL,OH MY GIRL SUMMER PACKAGE [FALL IN LOVE],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,4,1
