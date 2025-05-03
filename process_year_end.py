@@ -1,83 +1,109 @@
 import os
 import csv
 from collections import defaultdict
-from points.utils import calculate_points
 from points.album_cover import get_album_cover
 
-YEAR_END_LIMIT = 100
+YEARLY_OUTPUT_DIR = "year_end"
+ALBUM_COVERS_FILE = "album_covers.csv"
+WEEKLY_POINTS_DIR = "points"
+YEAR = "2025"
+CHART_LIMIT = 100
 
-def generate_year_end_csv(year, all_songs):
-    year_end_data = []
-    for (song, artist), data in all_songs.items():
-        year_end_data.append({
-            'Song': song,
-            'Artist': artist,
-            'Album Cover': data['album'],
-            'Total Points': data['total_points'],
-            'Peak': data['peak'],
-            'Weeks on Chart': data['woc'],
-            'Total Units': data['total_units'],
-            'Total Airplay': data['total_airplay'] * 10,
-            'Gain': data['gain']
-        })
+def load_album_cover_cache():
+    album_cover_cache = {}
+    if os.path.exists(ALBUM_COVERS_FILE):
+        with open(ALBUM_COVERS_FILE, "r", encoding="utf-8") as f:
+            reader = csv.reader(f)
+            next(reader)
+            for row in reader:
+                album, artist, cover_url = row
+                album_cover_cache[(album, artist)] = cover_url
+    return album_cover_cache
 
-    year_end_data.sort(key=lambda x: x['Total Points'], reverse=True)
-    year_end_data = year_end_data[:YEAR_END_LIMIT]
+def save_album_cover_cache(album_cover_cache):
+    with open(ALBUM_COVERS_FILE, "w", encoding="utf-8", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(['Album', 'Artist', 'Cover URL'])
+        for (album, artist), cover_url in album_cover_cache.items():
+            writer.writerow([album, artist, cover_url])
 
-    for data in year_end_data:
-        data['Album Cover'] = get_album_cover(data['Album Cover'], data['Artist'])
-
-    os.makedirs('year_end', exist_ok=True)
-    year_end_csv_file = f"year_end/{year}_year_end.csv"
-    with open(year_end_csv_file, 'w', newline='', encoding='utf-8') as csvfile:
-        csvwriter = csv.DictWriter(csvfile, fieldnames=[
-            'Song', 'Artist', 'Album Cover', 'Total Points',
-            'Peak', 'Weeks on Chart', 'Total Units', 'Total Airplay', 'Gain'
-        ])
-        csvwriter.writeheader()
-        csvwriter.writerows(year_end_data)
-
-    print(f"Year-end CSV for {year} has been saved to {year_end_csv_file}")
-
-
-def load_all_songs_from_points(year):
-    folder = f"points/{year}"
-    all_songs = defaultdict(lambda: {
-        'album': '',
-        'total_points': 0,
-        'peak': 999,
-        'woc': 0,
-        'total_units': 0,
-        'total_airplay': 0,
-        'gain': 0,
+def process_year_end_chart(year):
+    album_cover_cache = load_album_cover_cache()
+    song_stats = defaultdict(lambda: {
+        "total_points": 0,
+        "total_streams": 0,
+        "total_sales": 0,
+        "total_airplay": 0,
+        "total_units": 0,
+        "most_recent_points": 0,
+        "album": "",
+        "peak": CHART_LIMIT + 1,
+        "peak_streak": 0,
+        "woc": 0
     })
 
-    for filename in sorted(os.listdir(folder)):
-        if filename.endswith('.csv'):
-            with open(os.path.join(folder, filename), encoding='utf-8') as f:
-                reader = csv.DictReader(f)
-                for row in reader:
-                    song = row['Song'].strip()
-                    artist = row['Artist'].strip()
-                    key = (song, artist)
+    weekly_dir = os.path.join(WEEKLY_POINTS_DIR, year)
+    all_files = sorted(f for f in os.listdir(weekly_dir) if f.endswith('.csv'))
 
-                    points = float(row['Total Weighted Points']) if row['Total Weighted Points'] else 0
-                    streams = float(row['Streams']) if row['Streams'] else 0
-                    sales = float(row['Sales']) if row['Sales'] else 0
-                    airplay = float(row['Airplay']) if row['Airplay'] else 0
+    for filename in all_files:
+        with open(os.path.join(weekly_dir, filename), encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                song = row["Song"]
+                artist = row["Artist"]
+                album = row["Album"]
+                key = (song, artist)
 
-                    all_songs[key]['album'] = row['Album'].strip()
-                    all_songs[key]['total_points'] += points
-                    all_songs[key]['total_units'] += calculate_points(streams, sales, airplay)
-                    all_songs[key]['total_airplay'] += airplay
-                    all_songs[key]['gain'] = points
-                    all_songs[key]['peak'] = min(all_songs[key]['peak'], int(row['Position']))
-                    all_songs[key]['woc'] += 1
+                points = int(row.get("Total Weighted Points", 0))
+                streams = int(row.get("Streams Units", 0))
+                sales = int(row.get("Sales Units", 0))
+                airplay = int(row.get("Airplay Units", 0))
+                units = int(row.get("Total Units", 0))
+                position = int(row.get("Position", CHART_LIMIT + 1))
+                peak = int(row.get("Peak", 0))
+                peak_streak = int(row.get("Peak Streak", 0))
 
-    return all_songs
+                stats = song_stats[key]
+                stats["album"] = album
+                stats["total_points"] += points
+                stats["total_streams"] += streams
+                stats["total_sales"] += sales
+                stats["total_airplay"] += airplay
+                stats["total_units"] += units
+                stats["most_recent_points"] = points
+                stats["peak"] = peak
+                stats["peak_streak"] = peak_streak
+                stats["woc"] += 1
 
+    ranked_songs = sorted(song_stats.items(), key=lambda x: x[1]["total_points"], reverse=True)[:CHART_LIMIT]
+
+    output_path = os.path.join(YEARLY_OUTPUT_DIR, f"{year}_year_end.csv")
+    os.makedirs(YEARLY_OUTPUT_DIR, exist_ok=True)
+
+    with open(output_path, "w", newline='', encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow([
+            "Rank", "Song", "Artist", "Album", "Album Cover",
+            "Total Points", "Most Recent Week Points",
+            "Total Streams", "Total Sales", "Total Airplay", "Total Units",
+            "Peak", "Peak Streak", "Weeks on Chart"
+        ])
+        for rank, ((song, artist), stats) in enumerate(ranked_songs, start=1):
+            album = stats["album"]
+            cover_url = album_cover_cache.get((album, artist))
+            if not cover_url:
+                cover_url = get_album_cover(album, artist)
+                album_cover_cache[(album, artist)] = cover_url
+
+            writer.writerow([
+                rank, song, artist, album, cover_url,
+                stats["total_points"], stats["most_recent_points"],
+                stats["total_streams"], stats["total_sales"], stats["total_airplay"], stats["total_units"],
+                stats["peak"], stats["peak_streak"], stats["woc"]
+            ])
+
+    save_album_cover_cache(album_cover_cache)
+    print(f"Year-end chart saved to {output_path}")
 
 if __name__ == "__main__":
-    year = 2025
-    all_songs = load_all_songs_from_points(year)
-    generate_year_end_csv(year, all_songs)
+    process_year_end_chart(YEAR)
