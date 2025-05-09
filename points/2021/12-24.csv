@@ -36,7 +36,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-12-24,35,RE,--,False,False,18,--,Love the Way You Lie,Eminem,Recovery,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,29,4,1
 2021-12-24,36,RE,--,False,False,18,--,Black Magic,Little Mix,Get Weird (Deluxe),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,11,8,1
 2021-12-24,37,RE,--,False,False,18,--,Red Flavor,Red Velvet,The Red Summer - Summer Mini Album,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,10,6,1
-2021-12-24,38,RE,--,True,False,18,--,Black Widow,Iggy Azalea,The New Classic,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,38,1,1
+2021-12-24,38,NEW,--,True,False,18,--,Black Widow,Iggy Azalea,The New Classic,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,38,1,1
 2021-12-24,39,RE,--,False,False,18,--,Summertime Sadness,Lana Del Rey,Born to Die - The Paradise Edition,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,20,5,1
 2021-12-24,40,RE,--,False,False,18,--,Genie,Girls' Generation,Genie - The Second Mini Album,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,5,8,1
 2021-12-24,41,RE,--,True,False,18,--,Rewrite The Stars,Zac Efron,Rewrite The Stars,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,41,2,1
@@ -64,9 +64,9 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-12-24,63,RE,--,False,False,18,--,drivers license,Olivia Rodrigo,SOUR,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,9,8,1
 2021-12-24,64,RE,--,False,False,18,--,traitor,Olivia Rodrigo,SOUR,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,3,7,1
 2021-12-24,65,RE,--,False,False,18,--,brutal,Olivia Rodrigo,SOUR,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,5,6,1
-2021-12-24,66,RE,--,True,False,18,--,I Like It,Cardi B,Invasion of Privacy,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,66,1,1
-2021-12-24,67,RE,--,True,False,18,--,Bodak Yellow,Cardi B,Invasion of Privacy,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,67,1,1
-2021-12-24,68,RE,--,True,False,18,--,I Didn't Change My Number,Billie Eilish,Happier Than Ever,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,68,1,1
+2021-12-24,66,NEW,--,True,False,18,--,I Like It,Cardi B,Invasion of Privacy,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,66,1,1
+2021-12-24,67,NEW,--,True,False,18,--,Bodak Yellow,Cardi B,Invasion of Privacy,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,67,1,1
+2021-12-24,68,NEW,--,True,False,18,--,I Didn't Change My Number,Billie Eilish,Happier Than Ever,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,68,1,1
 2021-12-24,69,RE,--,False,False,18,--,Getting Older,Billie Eilish,Happier Than Ever,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,14,3,1
 2021-12-24,70,RE,--,False,False,18,--,Oxytocin,Billie Eilish,Happier Than Ever,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,10,4,1
 2021-12-24,71,NEW,--,True,False,17,--,Vision of Love,Mariah Carey,#1's,2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,0,0,71,1,1
@@ -95,7 +95,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-12-24,94,RE,--,False,False,12,--,willow,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,5,10,1
 2021-12-24,95,RE,--,False,False,10,--,CHEER UP,TWICE,PAGE TWO,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,8,1
 2021-12-24,96,RE,--,False,False,10,--,There's Nothing Holdin' Me Back,Shawn Mendes,Illuminate (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,44,2,1
-2021-12-24,97,RE,--,True,False,10,--,Chandelier,Sia,1000 Forms of Fear,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,97,1,1
+2021-12-24,97,NEW,--,True,False,10,--,Chandelier,Sia,1000 Forms of Fear,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,97,1,1
 2021-12-24,98,RE,--,False,False,10,--,Stronger (What Doesn't Kill You),Kelly Clarkson,Stronger (Deluxe Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,24,4,1
 2021-12-24,99,RE,--,False,False,10,--,High by the Beach,Lana Del Rey,Honeymoon,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,8,1
 2021-12-24,100,NEW,--,True,False,10,--,Roses,Shawn Mendes,Illuminate (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,100,1,1

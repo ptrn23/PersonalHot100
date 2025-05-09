@@ -10,7 +10,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-05-14,9,RE,--,False,False,22,--,Womanizer,Britney Spears,Circus (Deluxe Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,4,5,10,1
 2021-05-14,10,-9,1,False,False,21,-0.09,Love Story (Taylor’s Version),Taylor Swift,Love Story (Taylor’s Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,7,4,1,7,2
 2021-05-14,11,RE,--,True,False,20,--,Heart Attack (츄),Loona,Chuu,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,2,11,2,1
-2021-05-14,12,RE,--,True,False,20,--,Bad Reputation,Avril Lavigne,Avril Lavigne (Expanded Edition),2,2,2,10,6,4,100000,6000,200000,0.33,0.02,0.65,306000,20,0,0,12,1,1
+2021-05-14,12,NEW,--,True,False,20,--,Bad Reputation,Avril Lavigne,Avril Lavigne (Expanded Edition),2,2,2,10,6,4,100000,6000,200000,0.33,0.02,0.65,306000,20,0,0,12,1,1
 2021-05-14,13,RE,--,False,False,18,--,Rock Bottom,Hailee Steinfeld,HAIZ,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,6,2,1
 2021-05-14,14,RE,--,True,False,18,--,Hi High,Loona,[+ +],2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,14,4,1
 2021-05-14,15,NEW,--,True,False,18,--,deja vu,Olivia Rodrigo,deja vu,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,15,1,1
@@ -67,12 +67,12 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-05-14,66,NEW,--,True,False,10,--,Knew Better / Forever Boy,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,66,1,1
 2021-05-14,67,RE,--,True,False,10,--,Bad Decisions,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,67,2,1
 2021-05-14,68,RE,--,True,False,10,--,I Don't Care,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,68,2,1
-2021-05-14,69,NEW,--,True,False,10,--,Everyday,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,69,1,1
+2021-05-14,69,RE,--,True,False,10,--,Everyday,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,69,1,1
 2021-05-14,70,NEW,--,True,False,10,--,Leave Me Lonely,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,70,1,1
 2021-05-14,71,RE,--,True,False,10,--,Greedy,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,71,2,1
 2021-05-14,72,NEW,--,True,False,10,--,Let Me Love You,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,72,1,1
 2021-05-14,73,NEW,--,True,False,10,--,Side to Side,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,73,1,1
-2021-05-14,74,NEW,--,True,False,10,--,Roses,The Chainsmokers,Roses,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,74,1,1
+2021-05-14,74,RE,--,True,False,10,--,Roses,The Chainsmokers,Roses,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,74,1,1
 2021-05-14,75,RE,--,True,False,10,--,Starving,Hailee Steinfeld,Starving,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,75,2,1
 2021-05-14,76,NEW,--,True,False,10,--,You're Such A,Hailee Steinfeld,HAIZ,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,76,1,1
 2021-05-14,77,RE,--,False,False,10,--,Love Myself,Hailee Steinfeld,HAIZ,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,32,2,1

@@ -1,7 +1,7 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2021-02-26,1,RE,--,True,False,16,--,WAP (feat. Megan Thee Stallion),Cardi B,WAP (feat. Megan Thee Stallion),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,6,1,3,1
 2021-02-26,2,+5,7,True,False,14,0.17,Sad Beautiful Tragic,Taylor Swift,Red (Deluxe Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,4,0,2,3,1
-2021-02-26,3,RE,--,True,False,10,--,Cornelia Street,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,1,1
+2021-02-26,3,NEW,--,True,False,10,--,Cornelia Street,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,1,1
 2021-02-26,4,RE,--,False,False,10,--,the last great american dynasty,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,6,1
 2021-02-26,5,RE,--,True,False,10,--,the lakes (bonus track),Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,3,1
 2021-02-26,6,RE,--,True,False,10,--,blazed (feat. Pharrell Williams),Ariana Grande,Sweetener,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,3,1
@@ -28,12 +28,12 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-02-26,27,NEW,--,True,False,10,--,Liability (Reprise),Lorde,Melodrama,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,27,1,1
 2021-02-26,28,RE,--,True,False,10,--,Supercut,Lorde,Melodrama,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,28,2,1
 2021-02-26,29,NEW,--,True,False,10,--,Writer in the Dark,Lorde,Melodrama,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,29,1,1
-2021-02-26,30,NEW,--,True,False,10,--,Sober II (Melodrama),Lorde,Melodrama,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,30,1,1
-2021-02-26,31,NEW,--,True,False,10,--,Hard Feelings/Loveless,Lorde,Melodrama,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,31,1,1
+2021-02-26,30,RE,--,True,False,10,--,Sober II (Melodrama),Lorde,Melodrama,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,30,1,1
+2021-02-26,31,RE,--,True,False,10,--,Hard Feelings/Loveless,Lorde,Melodrama,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,31,1,1
 2021-02-26,32,RE,--,True,False,10,--,Liability,Lorde,Melodrama,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,32,2,1
-2021-02-26,33,NEW,--,True,False,10,--,The Louvre,Lorde,Melodrama,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,33,1,1
-2021-02-26,34,NEW,--,True,False,10,--,Homemade Dynamite,Lorde,Melodrama,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,34,1,1
-2021-02-26,35,NEW,--,True,False,10,--,Sober,Lorde,Melodrama,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,35,1,1
+2021-02-26,33,RE,--,True,False,10,--,The Louvre,Lorde,Melodrama,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,33,1,1
+2021-02-26,34,RE,--,True,False,10,--,Homemade Dynamite,Lorde,Melodrama,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,34,1,1
+2021-02-26,35,RE,--,True,False,10,--,Sober,Lorde,Melodrama,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,35,1,1
 2021-02-26,36,RE,--,True,False,10,--,Green Light,Lorde,Melodrama,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,36,2,1
 2021-02-26,37,RE,--,False,False,10,--,Pretty Hurts,Beyoncé,BEYONCÉ [Platinum Edition],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,30,2,1
 2021-02-26,38,RE,--,False,False,10,--,Heart Attack,Demi Lovato,Demi,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,3,1
@@ -41,9 +41,9 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-02-26,40,RE,--,False,False,10,--,Dance Again (feat. Pitbull),Jennifer Lopez,Dance Again...The Hits,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,3,1
 2021-02-26,41,RE,--,True,False,10,--,Bon Bon Chocolat,Everglow,ARRIVAL OF EVERGLOW,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,41,1,1
 2021-02-26,42,RE,--,False,False,10,--,She's So Mean,Matchbox Twenty,North (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,2,1
-2021-02-26,43,NEW,--,True,False,10,--,Beauty and a Beat,Justin Bieber,Believe (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,43,1,1
+2021-02-26,43,RE,--,True,False,10,--,Beauty and a Beat,Justin Bieber,Believe (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,43,1,1
 2021-02-26,44,NEW,--,True,False,10,--,I Knew You Were Trouble.,Taylor Swift,Red (Big Machine Radio Release Special),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,44,1,1
-2021-02-26,45,NEW,--,True,False,10,--,Airplanes (feat. Hayley Williams),B.o.B,B.o.B Presents: The Adventures of Bobby Ray,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,45,1,1
+2021-02-26,45,RE,--,True,False,10,--,Airplanes (feat. Hayley Williams),B.o.B,B.o.B Presents: The Adventures of Bobby Ray,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,45,1,1
 2021-02-26,46,RE,--,False,False,10,--,Weird People,Little Mix,Get Weird (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,26,4,1
 2021-02-26,47,RE,--,False,False,10,--,SLUMP (Tower of God ED),Stray Kids,TOP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,2,1
 2021-02-26,48,RE,--,False,False,10,--,Pacify Her,Melanie Martinez,Cry Baby (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,4,1
@@ -51,7 +51,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-02-26,50,RE,--,False,False,10,--,IDGAF,Dua Lipa,Dua Lipa (Complete Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,11,5,1
 2021-02-26,51,NEW,--,True,False,10,--,Rose Scent Breeze,Red Velvet,The Velvet - The 2nd Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,51,1,1
 2021-02-26,52,NEW,--,True,False,10,--,no body no crime,Taylor Swift HAIM,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,52,1,1
-2021-02-26,53,RE,--,True,False,10,--,청사진 (Blueprint),Stray Kids,GO生 (GO LIVE),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,53,1,1
+2021-02-26,53,NEW,--,True,False,10,--,청사진 (Blueprint),Stray Kids,GO生 (GO LIVE),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,53,1,1
 2021-02-26,54,RE,--,False,False,10,--,Eyes Locked Hands Locked,Red Velvet,‘The ReVe Festival’ Day 2 - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,52,3,1
 2021-02-26,55,RE,--,False,False,10,--,Kiss and Make Up,Dua Lipa BLACKPINK,Dua Lipa (Complete Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,3,1
 2021-02-26,56,NEW,--,True,False,10,--,별생각 (TMT),Stray Kids,SKZ2020,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,56,1,1
@@ -63,7 +63,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-02-26,62,NEW,--,True,False,10,--,GO生 (GO LIVE),Stray Kids,GO生 (GO LIVE),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,62,1,1
 2021-02-26,63,RE,--,False,False,10,--,LP,Red Velvet,‘The ReVe Festival’ Day 1 - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,11,3,1
 2021-02-26,64,RE,--,False,False,10,--,illicit affairs,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,5,1
-2021-02-26,65,NEW,--,True,False,10,--,Astronaut,Stray Kids,SKZ2020,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,65,1,1
+2021-02-26,65,RE,--,True,False,10,--,Astronaut,Stray Kids,SKZ2020,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,65,1,1
 2021-02-26,66,RE,--,False,False,10,--,Boyfriend,Selena Gomez,Rare (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,3,1
 2021-02-26,67,RE,--,False,False,10,--,the 1,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,4,1
 2021-02-26,68,RE,--,False,False,10,--,#,이달의 소녀 (Loona),[#],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,2,1
@@ -72,4 +72,4 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-02-26,71,RE,--,False,False,10,--,Summertime Sadness,Lana Del Rey,Born to Die,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,20,3,1
 2021-02-26,72,NEW,--,True,False,10,--,아 진짜요. (Oh really.),N.Flying,So 通 (소통),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,72,1,1
 2021-02-26,73,RE,--,False,False,10,--,This Love,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,51,2,1
-2021-02-26,74,NEW,--,True,False,10,--,Mary's Song (Oh My My My),Taylor Swift,Taylor Swift,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,74,1,1
+2021-02-26,74,RE,--,True,False,10,--,Mary's Song (Oh My My My),Taylor Swift,Taylor Swift,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,74,1,1

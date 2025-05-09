@@ -1,5 +1,5 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2022-12-30,1,RE,--,True,False,458,--,#Cookie Jar,Red Velvet,#Cookie Jar,57,57,1,285,171,2,2850000,171000,100000,0.91,0.05,0.03,3121000,458,0,0,1,1,1
+2022-12-30,1,NEW,--,True,False,458,--,#Cookie Jar,Red Velvet,#Cookie Jar,57,57,1,285,171,2,2850000,171000,100000,0.91,0.05,0.03,3121000,458,0,0,1,1,1
 2022-12-30,2,RE,--,True,False,450,--,FUN!,fromis_9,FUN FACTORY,56,56,1,280,168,2,2800000,168000,100000,0.91,0.05,0.03,3068000,450,0,0,2,6,1
 2022-12-30,3,-2,1,False,False,294,-0.18,Ditto,NewJeans,Ditto,17,17,2,85,51,4,850000,51000,200000,0.77,0.05,0.18,1101000,140,108,46,1,3,1
 2022-12-30,4,+34,38,False,False,266,5.33,After LIKE,IVE,After LIKE,33,9,25,165,27,50,1650000,27000,2500000,0.4,0.01,0.6,4177000,242,13,11,1,19,5
@@ -45,7 +45,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-12-30,44,+43,87,False,False,21,1.1,Take It,IVE,ELEVEN,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,3,0,10,20,1
 2022-12-30,45,RE,--,False,False,20,--,Bejeweled,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,10,5,10,1
 2022-12-30,46,RE,--,False,False,18,--,I Heart ?,Taylor Swift,Beautiful Eyes,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,4,3,1
-2022-12-30,47,RE,--,True,False,18,--,Yes I Am,MAMAMOO,Purple,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,47,1,1
+2022-12-30,47,NEW,--,True,False,18,--,Yes I Am,MAMAMOO,Purple,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,47,1,1
 2022-12-30,48,RE,--,False,False,18,--,Crazy Sexy Cool,Astro,Dream Pt. 2,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,7,3,1
 2022-12-30,49,RE,--,False,False,16,--,UNNATURAL,WJSN,UNNATURAL,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,6,1,37,4
 2022-12-30,50,+31,81,False,False,13,0.3,NAVILLERA,GFRIEND,GFriend The 1st Album 'LOL',1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,9,21,1
@@ -69,7 +69,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-12-30,68,RE,--,True,False,10,--,Run Devil Run,Girls' Generation,Run Devil Run - The 2nd Album Repackage,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,68,2,1
 2022-12-30,69,RE,--,False,False,10,--,7월 7일 One of These Nights,Red Velvet,The Velvet - The 2nd Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,62,7,1
 2022-12-30,70,RE,--,False,False,10,--,Love Shot,EXO,LOVE SHOT– The 5th Album Repackage,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,5,1
-2022-12-30,71,RE,--,True,False,10,--,I Wait,DAY6,Every DAY6 January,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,71,1,1
+2022-12-30,71,NEW,--,True,False,10,--,I Wait,DAY6,Every DAY6 January,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,71,1,1
 2022-12-30,72,RE,--,False,False,10,--,Boogie Up,WJSN,SPECIAL ALBUM <For the Summer>,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,13,1
 2022-12-30,73,RE,--,False,False,10,--,Hi High,Loona,[+ +],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,22,1
 2022-12-30,74,RE,--,False,False,10,--,HIP,MAMAMOO,reality in BLACK,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,5,1
@@ -82,7 +82,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-12-30,81,RE,--,False,False,10,--,HAPPY HAPPY,TWICE,HAPPY HAPPY,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,10,1
 2022-12-30,82,RE,--,False,False,10,--,Kura Kura,TWICE,Kura Kura,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,5,1
 2022-12-30,83,RE,--,False,False,10,--,LA DI DA,Everglow,-77.82X-78.29,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,24,7,1
-2022-12-30,84,NEW,--,True,False,10,--,All Night,Astro,All Light,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,84,1,1
+2022-12-30,84,RE,--,True,False,10,--,All Night,Astro,All Light,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,84,1,1
 2022-12-30,85,RE,--,False,False,10,--,Flip That,Loona,Summer Special [Flip That],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,9,1
 2022-12-30,86,RE,--,False,False,10,--,TT,TWICE,TWICEcoaster: LANE1,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,26,5,1
 2022-12-30,87,RE,--,False,False,10,--,WILDSIDE,Red Velvet,Bloom,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,38,2,1

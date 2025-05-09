@@ -15,7 +15,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-12-15,14,+14,28,False,False,88,0.22,Lucky,Britney Spears,Oops!... I Did It Again,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,22,16,8,7,1
 2023-12-15,15,NEW,--,True,False,88,--,Welcome to the Black Parade,My Chemical Romance,The Black Parade,11,9,3,55,27,6,550000,27000,300000,0.63,0.03,0.34,877000,88,0,0,15,1,1
 2023-12-15,16,NEW,--,True,False,80,--,21 Guns,Green Day,21st Century Breakdown,10,8,3,50,24,6,500000,24000,300000,0.61,0.03,0.36,824000,80,0,0,16,1,1
-2023-12-15,17,NEW,--,True,False,74,--,My Life Would Suck Without You,Kelly Clarkson,All I Ever Wanted,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,0,0,17,1,1
+2023-12-15,17,RE,--,True,False,74,--,My Life Would Suck Without You,Kelly Clarkson,All I Ever Wanted,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,0,0,17,1,1
 2023-12-15,18,RE,--,True,False,73,--,Sweet Child o' Mine,Guns N' Roses,Appetite for Destruction,9,8,2,45,24,4,450000,24000,200000,0.67,0.04,0.3,674000,73,0,0,18,2,1
 2023-12-15,19,+3,22,False,False,69,-0.1,Out of the Woods (Taylor's Version),Taylor Swift,1989 (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,24,19,5,8,1
 2023-12-15,20,-3,17,False,False,69,-0.21,I Wish You Would (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,27,24,3,8,1
@@ -28,7 +28,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-12-15,27,-4,23,False,False,54,-0.29,Is It Over Now? (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,23,21,5,8,1
 2023-12-15,28,RE,--,True,False,50,--,Honey,Mariah Carey,Butterfly,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,28,3,1
 2023-12-15,29,NEW,--,True,False,50,--,This Love,Maroon 5,Songs About Jane: 10th Anniversary Edition,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,29,1,1
-2023-12-15,30,NEW,--,True,False,50,--,Promiscuous,Nelly Furtado,Loose,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,30,1,1
+2023-12-15,30,RE,--,True,False,50,--,Promiscuous,Nelly Furtado,Loose,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,30,1,1
 2023-12-15,31,RE,--,True,False,50,--,I Don't Want to Miss a Thing - From Armageddon Soundtrack,Aerosmith,Armageddon - The Album,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,31,2,1
 2023-12-15,32,RE,--,True,False,50,--,Bye Bye Bye,*NSYNC,No Strings Attached,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,32,2,1
 2023-12-15,33,+10,43,False,False,46,-0.08,Bad Blood (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,15,13,9,8,1
@@ -45,15 +45,15 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-12-15,44,RE,--,True,False,42,--,It's Gonna Be Me,*NSYNC,No Strings Attached,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,44,2,1
 2023-12-15,45,RE,--,True,False,42,--,She Will Be Loved - Radio Mix,Maroon 5,Songs About Jane: 10th Anniversary Edition,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,45,2,1
 2023-12-15,46,RE,--,False,False,42,--,Like a Virgin,Madonna,Like a Virgin,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,10,5,1
-2023-12-15,47,RE,--,True,False,42,--,Shake It Off,Mariah Carey,The Emancipation of Mimi,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,47,1,1
+2023-12-15,47,NEW,--,True,False,42,--,Shake It Off,Mariah Carey,The Emancipation of Mimi,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,47,1,1
 2023-12-15,48,NEW,--,True,False,42,--,American Idiot,Green Day,American Idiot,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,48,1,1
 2023-12-15,49,RE,--,False,False,42,--,Unwell,Matchbox Twenty,More Than You Think You Are,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,7,7,1
 2023-12-15,50,RE,--,False,False,42,--,Two Is Better Than One (feat. Taylor Swift),Boys Like Girls,Love Drunk,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,37,8,1
 2023-12-15,51,NEW,--,True,False,42,--,Build Me Up Buttercup (mono),The Foundations,The Foundations,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,51,1,1
 2023-12-15,52,RE,--,True,False,42,--,When I Grow Up,The Pussycat Dolls,Doll Domination (Deluxe),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,52,4,1
-2023-12-15,53,RE,--,True,False,42,--,Dreamlover,Mariah Carey,Music Box,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,53,1,1
+2023-12-15,53,NEW,--,True,False,42,--,Dreamlover,Mariah Carey,Music Box,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,53,1,1
 2023-12-15,54,NEW,--,True,False,42,--,Here Comes the Sun - Remastered 2009,The Beatles,Abbey Road (Remastered),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,54,1,1
-2023-12-15,55,RE,--,True,False,42,--,I Have Nothing,Whitney Houston,The Bodyguard - Original Soundtrack Album,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,55,1,1
+2023-12-15,55,NEW,--,True,False,42,--,I Have Nothing,Whitney Houston,The Bodyguard - Original Soundtrack Album,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,55,1,1
 2023-12-15,56,-8,48,False,False,43,-0.02,Wildest Dreams (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,14,11,1,61,8
 2023-12-15,57,-10,47,False,False,42,-0.05,How You Get the Girl (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,14,10,15,8,1
 2023-12-15,58,-1,57,False,False,41,0.08,Behind These Hazel Eyes,Kelly Clarkson,Breakaway,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,12,11,34,5,1
@@ -63,15 +63,15 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-12-15,62,RE,--,True,False,34,--,I Want It That Way,Backstreet Boys,Millennium,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,62,2,1
 2023-12-15,63,RE,--,True,False,34,--,I'm with You,Avril Lavigne,Let Go,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,63,1,1
 2023-12-15,64,RE,--,True,False,34,--,Total Eclipse of the Heart,Bonnie Tyler,Faster Than the Speed of Night,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,64,1,1
-2023-12-15,65,RE,--,True,False,34,--,Genie in a Bottle,Christina Aguilera,Christina Aguilera (Expanded Edition),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,65,1,1
-2023-12-15,66,RE,--,True,False,34,--,How Will I Know,Whitney Houston,Whitney Houston,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,66,1,1
+2023-12-15,65,NEW,--,True,False,34,--,Genie in a Bottle,Christina Aguilera,Christina Aguilera (Expanded Edition),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,65,1,1
+2023-12-15,66,NEW,--,True,False,34,--,How Will I Know,Whitney Houston,Whitney Houston,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,66,1,1
 2023-12-15,67,NEW,--,True,False,34,--,Hey Jude - Remastered 2015,The Beatles,1 (Remastered),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,67,1,1
 2023-12-15,68,RE,--,False,False,34,--,Keep on Movin',Five,Invincible,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,39,3,1
 2023-12-15,69,RE,--,True,False,34,--,Hey Ya!,OutKast,Speakerboxxx/The Love Below,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,69,2,1
 2023-12-15,70,RE,--,True,False,34,--,I Will Survive,Gloria Gaynor,I Will Survive and Other Great Hits,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,70,2,1
 2023-12-15,71,NEW,--,True,False,34,--,Touch My Body,Mariah Carey,E=MC2,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,71,1,1
-2023-12-15,72,RE,--,True,False,34,--,Buttons,The Pussycat Dolls,PCD,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,72,1,1
-2023-12-15,73,RE,--,True,False,34,--,What a Girl Wants,Christina Aguilera,Christina Aguilera (Expanded Edition),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,73,1,1
+2023-12-15,72,NEW,--,True,False,34,--,Buttons,The Pussycat Dolls,PCD,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,72,1,1
+2023-12-15,73,NEW,--,True,False,34,--,What a Girl Wants,Christina Aguilera,Christina Aguilera (Expanded Edition),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,73,1,1
 2023-12-15,74,RE,--,False,False,34,--,Greased Lightnin' - From “Grease”,John Travolta,Grease (The Original Motion Picture Soundtrack),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,38,2,1
 2023-12-15,75,RE,--,False,False,34,--,Thunder,Boys Like Girls,Boys Like Girls,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,53,5,1
 2023-12-15,76,RE,--,False,False,34,--,Sk8er Boi,Avril Lavigne,Let Go,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,37,9,1
@@ -80,17 +80,17 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-12-15,79,-13,66,False,False,27,-0.1,Clean (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,9,0,10,7,1
 2023-12-15,80,RE,--,True,False,26,--,The Great Escape,Boys Like Girls,Boys Like Girls,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,80,2,1
 2023-12-15,81,NEW,--,True,False,26,--,Big Girls Don't Cry (Personal),Fergie,The Dutchess,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,81,1,1
-2023-12-15,82,RE,--,True,False,26,--,Without You,Mariah Carey,Music Box,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,82,1,1
+2023-12-15,82,NEW,--,True,False,26,--,Without You,Mariah Carey,Music Box,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,82,1,1
 2023-12-15,83,RE,--,False,False,26,--,Tubthumping,Chumbawamba,Tubthumper,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,37,3,1
 2023-12-15,84,RE,--,False,False,26,--,Stickwitu,The Pussycat Dolls,PCD,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,59,3,1
 2023-12-15,85,RE,--,True,False,26,--,Sometimes,Britney Spears,...Baby One More Time (Digital Deluxe Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,85,1,1
 2023-12-15,86,NEW,--,True,False,26,--,I Will Always Love You,Whitney Houston,The Bodyguard - Original Soundtrack Album,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,86,1,1
-2023-12-15,87,RE,--,True,False,26,--,Wannabe,Spice Girls,Spice,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,87,1,1
+2023-12-15,87,NEW,--,True,False,26,--,Wannabe,Spice Girls,Spice,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,87,1,1
 2023-12-15,88,RE,--,True,False,26,--,Losing Grip,Avril Lavigne,Let Go,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,88,1,1
-2023-12-15,89,NEW,--,True,False,26,--,Believe,Cher,Believe,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,89,1,1
+2023-12-15,89,RE,--,True,False,26,--,Believe,Cher,Believe,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,89,1,1
 2023-12-15,90,NEW,--,True,False,26,--,Everybody Wants to Rule the World,Tears for Fears,Songs From The Big Chair (Super Deluxe Edition),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,90,1,1
-2023-12-15,91,NEW,--,True,False,26,--,Take on Me,a-ha,Hunting High and Low,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,91,1,1
-2023-12-15,92,NEW,--,True,False,26,--,Dancing Queen,ABBA,Arrival,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,92,1,1
+2023-12-15,91,RE,--,True,False,26,--,Take on Me,a-ha,Hunting High and Low,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,91,1,1
+2023-12-15,92,RE,--,True,False,26,--,Dancing Queen,ABBA,Arrival,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,92,1,1
 2023-12-15,93,RE,--,False,False,26,--,Always Be My Baby,Mariah Carey,Daydream,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,85,2,1
 2023-12-15,94,RE,--,True,False,26,--,My Happy Ending,Avril Lavigne,Under My Skin,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,94,1,1
 2023-12-15,95,RE,--,False,False,26,--,Say My Name,Destiny's Child,The Writing's on the Wall,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,78,2,1

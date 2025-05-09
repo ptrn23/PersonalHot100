@@ -70,7 +70,6 @@ for year in YEARS:
         weighted_scores = {}
         raw_point_map = {}
 
-        # Processing the aggregated data
         for (song, artist), data in aggregated_data.items():
             album = data["album"]
             streams, sales, airplay = data["streams"], data["sales"], data["airplay"]
@@ -87,13 +86,7 @@ for year in YEARS:
         
         sorted_songs = sorted(weighted_scores.items(), key=lambda x: x[1], reverse=True)
 
-        debuts = [(sa, pts) for sa, pts in sorted_songs if sa not in charted_cache]
-        returning = [(sa, pts) for sa, pts in sorted_songs if sa in charted_cache]
-
-        limited_debuts = debuts[:100] if len(ranked_weeks) == 0 else debuts[:25]
-        ranked = limited_debuts + returning
-        ranked.sort(key=lambda x: x[1], reverse=True)
-        ranked = ranked[:CHART_LIMIT]
+        ranked = sorted(weighted_scores.items(), key=lambda x: x[1], reverse=True)[:CHART_LIMIT]
 
         week_ranks = []
         prev_week_positions = {

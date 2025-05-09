@@ -1,7 +1,7 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2021-08-27,1,NEW,--,True,False,32,--,Long Live,Florida Georgia Line,Life Rolls On,4,2,3,20,6,6,200000,6000,300000,0.4,0.01,0.59,506000,32,0,0,1,1,1
 2021-08-27,2,RE,--,True,False,18,--,raindrops (an angel cried),Ariana Grande,Sweetener,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,2,3,1
-2021-08-27,3,RE,--,True,False,17,--,SAY SOMETHING,TWICE,Eyes wide open,2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,0,0,3,1,1
+2021-08-27,3,NEW,--,True,False,17,--,SAY SOMETHING,TWICE,Eyes wide open,2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,0,0,3,1,1
 2021-08-27,4,+17,21,True,False,16,0.23,Deja Vu,Dreamcatcher,Raid of Dream,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,4,2,4,7,1
 2021-08-27,5,+27,32,True,False,16,0.23,Dreams Come True,WJSN,Dream Your Dream,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,4,2,5,3,1
 2021-08-27,6,+1,7,True,False,16,-0.11,West Coast,Lana Del Rey,Ultraviolence (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,0,6,2,1
@@ -41,18 +41,18 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-08-27,40,RE,--,False,False,10,--,gold rush,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,8,1
 2021-08-27,41,RE,--,False,False,10,--,champagne problems,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,9,2
 2021-08-27,42,RE,--,False,False,10,--,willow,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,7,1
-2021-08-27,43,RE,--,True,False,10,--,BEHIND THE MASK,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,43,1,1
-2021-08-27,44,RE,--,True,False,10,--,DEPEND ON YOU,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,44,1,1
-2021-08-27,45,RE,--,True,False,10,--,HANDLE IT,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,45,1,1
-2021-08-27,46,RE,--,True,False,10,--,SHOT CLOCK,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,46,1,1
-2021-08-27,47,RE,--,True,False,10,--,GO HARD,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,47,1,1
-2021-08-27,48,RE,--,True,False,10,--,QUEEN,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,48,1,1
-2021-08-27,49,RE,--,True,False,10,--,BELIEVER,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,49,1,1
-2021-08-27,50,RE,--,True,False,10,--,BRING IT BACK,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,50,1,1
-2021-08-27,51,RE,--,True,False,10,--,DO WHAT WE LIKE,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,51,1,1
-2021-08-27,52,RE,--,True,False,10,--,UP NO MORE,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,52,1,1
+2021-08-27,43,NEW,--,True,False,10,--,BEHIND THE MASK,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,43,1,1
+2021-08-27,44,NEW,--,True,False,10,--,DEPEND ON YOU,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,44,1,1
+2021-08-27,45,NEW,--,True,False,10,--,HANDLE IT,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,45,1,1
+2021-08-27,46,NEW,--,True,False,10,--,SHOT CLOCK,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,46,1,1
+2021-08-27,47,NEW,--,True,False,10,--,GO HARD,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,47,1,1
+2021-08-27,48,NEW,--,True,False,10,--,QUEEN,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,48,1,1
+2021-08-27,49,NEW,--,True,False,10,--,BELIEVER,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,49,1,1
+2021-08-27,50,NEW,--,True,False,10,--,BRING IT BACK,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,50,1,1
+2021-08-27,51,NEW,--,True,False,10,--,DO WHAT WE LIKE,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,51,1,1
+2021-08-27,52,NEW,--,True,False,10,--,UP NO MORE,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,52,1,1
 2021-08-27,53,RE,--,True,False,10,--,HELL IN HEAVEN,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,53,2,1
-2021-08-27,54,RE,--,True,False,10,--,I CAN'T STOP ME,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,54,1,1
+2021-08-27,54,NEW,--,True,False,10,--,I CAN'T STOP ME,TWICE,Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,54,1,1
 2021-08-27,55,RE,--,False,False,10,--,Don’t You (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,7,1
 2021-08-27,56,RE,--,False,False,10,--,That’s When (feat. Keith Urban) (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,4,1
 2021-08-27,57,RE,--,False,False,10,--,We Were Happy (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,7,2
