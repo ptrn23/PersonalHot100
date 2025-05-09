@@ -3,31 +3,31 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-12-29,2,=,2,False,False,228,-0.22,Make Your Own Kind of Music,Cass Elliot,Mama's Big Ones,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,88,98,1,3,1
 2023-12-29,3,+4,7,True,False,213,0.12,Welcome to the Black Parade,My Chemical Romance,The Black Parade,17,17,1,85,51,2,850000,51000,100000,0.85,0.05,0.1,1001000,138,57,18,3,3,1
 2023-12-29,4,-1,3,False,False,198,-0.31,Style (Taylor's Version),Taylor Swift,1989 (Taylor's Version),7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,86,54,2,10,2
-2023-12-29,5,+95,100,True,False,194,3.97,American Idiot,Green Day,American Idiot,22,17,6,110,51,12,1100000,51000,600000,0.63,0.03,0.34,1751000,173,12,9,5,3,1
+2023-12-29,5,RE,--,True,False,182,--,American Idiot,Green Day,American Idiot,22,17,6,110,51,12,1100000,51000,600000,0.63,0.03,0.34,1751000,173,0,9,5,2,1
 2023-12-29,6,-1,5,False,False,178,-0.25,Shake It Off (Taylor's Version),Taylor Swift,1989 (Taylor's Version),8,7,2,40,21,4,400000,21000,200000,0.64,0.03,0.32,621000,65,72,41,1,10,3
-2023-12-29,7,RE,--,True,False,174,--,Basket Case,Green Day,Dookie,22,20,2,110,60,4,1100000,60000,200000,0.81,0.04,0.15,1360000,174,0,0,7,1,1
+2023-12-29,7,NEW,--,True,False,174,--,Basket Case,Green Day,Dookie,22,20,2,110,60,4,1100000,60000,200000,0.81,0.04,0.15,1360000,174,0,0,7,1,1
 2023-12-29,8,-4,4,False,False,167,-0.41,Blank Space (Taylor's Version),Taylor Swift,1989 (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,85,40,1,10,2
 2023-12-29,9,=,9,True,True,149,-0.18,Since U Been Gone,Kelly Clarkson,Breakaway,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,55,20,9,12,2
 2023-12-29,10,-4,6,False,False,141,-0.31,Uptown Girl,Westlife,Coast to Coast (Expanded Edition),6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,62,29,1,21,2
-2023-12-29,11,RE,--,True,False,138,--,Teenagers,My Chemical Romance,The Black Parade,17,17,1,85,51,2,850000,51000,100000,0.85,0.05,0.1,1001000,138,0,0,11,1,1
+2023-12-29,11,NEW,--,True,False,138,--,Teenagers,My Chemical Romance,The Black Parade,17,17,1,85,51,2,850000,51000,100000,0.85,0.05,0.1,1001000,138,0,0,11,1,1
 2023-12-29,12,-1,11,False,False,128,-0.29,Breakaway,Kelly Clarkson,Breakaway,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,54,24,5,9,1
-2023-12-29,13,-1,12,False,False,126,-0.25,A Thousand Miles,Vanessa Carlton,Be Not Nobody,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,51,25,1,17,2
+2023-12-29,13,=,13,False,False,126,-0.25,A Thousand Miles,Vanessa Carlton,Be Not Nobody,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,51,25,1,17,2
 2023-12-29,14,-6,8,False,False,121,-0.35,My Life Would Suck Without You,Kelly Clarkson,All I Ever Wanted,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,56,15,8,3,1
 2023-12-29,15,-5,10,False,False,119,-0.34,Talking In Your Sleep (2023 Remaster),The Romantics,In Heat (2023 Remaster),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,54,39,5,3,1
 2023-12-29,16,-1,15,False,False,118,-0.26,Because of You,Kelly Clarkson,Breakaway,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,48,20,10,9,1
-2023-12-29,17,RE,--,True,False,106,--,Dead!,My Chemical Romance,The Black Parade,13,13,1,65,39,2,650000,39000,100000,0.82,0.05,0.13,789000,106,0,0,17,1,1
-2023-12-29,18,RE,--,True,False,106,--,Holiday / Boulevard of Broken Dreams,Green Day,American Idiot,13,13,1,65,39,2,650000,39000,100000,0.82,0.05,0.13,789000,106,0,0,18,1,1
+2023-12-29,17,NEW,--,True,False,106,--,Dead!,My Chemical Romance,The Black Parade,13,13,1,65,39,2,650000,39000,100000,0.82,0.05,0.13,789000,106,0,0,17,1,1
+2023-12-29,18,NEW,--,True,False,106,--,Holiday / Boulevard of Broken Dreams,Green Day,American Idiot,13,13,1,65,39,2,650000,39000,100000,0.82,0.05,0.13,789000,106,0,0,18,1,1
 2023-12-29,19,-3,16,False,False,104,-0.35,Take on Me,a-ha,Hunting High and Low,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,48,6,16,3,1
 2023-12-29,20,-6,14,False,False,99,-0.39,21 Guns,Green Day,21st Century Breakdown,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,49,16,14,3,1
-2023-12-29,21,RE,--,True,False,98,--,I Don't Love You,My Chemical Romance,The Black Parade,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,0,0,21,1,1
+2023-12-29,21,NEW,--,True,False,98,--,I Don't Love You,My Chemical Romance,The Black Parade,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,0,0,21,1,1
 2023-12-29,22,-3,19,False,False,97,-0.34,Lucky,Britney Spears,Oops!... I Did It Again,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,45,18,8,9,1
 2023-12-29,23,-5,18,False,False,96,-0.37,Now That We Don't Talk (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,46,24,1,10,1
-2023-12-29,24,RE,--,True,False,90,--,Famous Last Words,My Chemical Romance,The Black Parade,11,11,1,55,33,2,550000,33000,100000,0.81,0.05,0.15,683000,90,0,0,24,1,1
+2023-12-29,24,NEW,--,True,False,90,--,Famous Last Words,My Chemical Romance,The Black Parade,11,11,1,55,33,2,550000,33000,100000,0.81,0.05,0.15,683000,90,0,0,24,1,1
 2023-12-29,25,-5,20,False,False,86,-0.4,Here Comes the Sun - Remastered 2009,The Beatles,Abbey Road (Remastered),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,43,9,20,3,1
-2023-12-29,26,-2,24,False,False,85,-0.25,burned out,dodie,Human,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,35,0,16,23,2
+2023-12-29,26,-2,24,False,False,85,-0.25,burned out,dodie,Human,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,35,0,17,23,1
 2023-12-29,27,-10,17,False,False,84,-0.45,Vision of Love,Mariah Carey,Mariah Carey,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,46,12,17,4,1
-2023-12-29,28,-15,13,False,False,76,-0.54,Midnight Rain,Taylor Swift,Midnights (3am Edition),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,50,0,2,54,1
-2023-12-29,29,-4,25,False,False,74,-0.3,Monster,dodie,Human,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,32,0,18,22,1
+2023-12-29,28,-16,12,False,False,79,-0.55,Midnight Rain,Taylor Swift,Midnights (3am Edition),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,53,0,1,55,2
+2023-12-29,29,-4,25,False,False,74,-0.3,Monster,dodie,Human,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,32,0,19,23,1
 2023-12-29,30,-2,28,False,False,73,-0.27,She's So Mean,Matchbox Twenty,North (Deluxe Edition),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,30,9,4,28,1
 2023-12-29,31,-10,21,False,False,64,-0.48,You’re Losing Me (From the Vault),Taylor Swift,You're Losing Me (From the Vault),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,38,0,4,5,2
 2023-12-29,32,-10,22,False,False,62,-0.48,Baddie,IVE,I'VE MINE,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,36,0,22,2,1
@@ -37,65 +37,65 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-12-29,36,=,36,False,False,53,-0.35,Bye Bye Bye,*NSYNC,No Strings Attached,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,25,10,32,4,1
 2023-12-29,37,+7,44,False,False,54,-0.25,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,22,14,1,65,4
 2023-12-29,38,+1,39,False,False,52,-0.32,Lips of an Angel,Hinder,Extreme Behavior,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,24,18,13,3,1
-2023-12-29,39,+10,49,False,False,52,-0.15,Sk8er Boi,Avril Lavigne,Let Go,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,19,7,36,11,1
-2023-12-29,40,+3,43,False,False,49,-0.34,Arms Unfolding,dodie,Human,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,23,0,23,20,1
-2023-12-29,41,+1,42,False,False,49,-0.35,Behind These Hazel Eyes,Kelly Clarkson,Breakaway,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,23,8,31,7,1
+2023-12-29,39,+10,49,False,False,52,-0.15,Sk8er Boi,Avril Lavigne,Let Go,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,19,7,37,11,1
+2023-12-29,40,+3,43,False,False,49,-0.34,Arms Unfolding,dodie,Human,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,23,0,23,21,1
+2023-12-29,41,+1,42,False,False,49,-0.35,Behind These Hazel Eyes,Kelly Clarkson,Breakaway,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,23,8,34,7,1
 2023-12-29,42,-15,27,False,False,48,-0.52,Sweet Crazy Love (Eng Ver.),ODD EYE CIRCLE (ARTMS),Sweet Crazy Love (Eng Ver.),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,30,0,7,5,1
-2023-12-29,43,+56,99,False,False,47,0.21,I Wanna Dance with Somebody (Who Loves Me),Whitney Houston,Whitney,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,12,9,38,7,1
-2023-12-29,44,+7,51,False,False,44,-0.23,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,18,0,1,80,1
-2023-12-29,45,+9,54,False,False,44,-0.2,Like a Virgin,Madonna,Like a Virgin,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,17,9,10,7,1
-2023-12-29,46,+21,67,False,False,42,-0.11,Material Girl,Madonna,Celebration (Double Disc Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,15,9,39,4,1
-2023-12-29,47,+3,50,False,False,38,-0.33,I Don't Want to Miss a Thing - From Armageddon Soundtrack,Aerosmith,Armageddon - The Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,18,10,31,4,1
-2023-12-29,48,+23,71,False,False,38,-0.17,Nothing's Gonna Stop Us Now,Starship,No Protection,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,14,23,3,1
+2023-12-29,43,+11,54,False,False,44,-0.23,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,18,0,1,79,1
+2023-12-29,44,+13,57,False,False,44,-0.2,Like a Virgin,Madonna,Like a Virgin,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,17,9,10,7,1
+2023-12-29,45,+31,76,False,False,42,-0.09,Boy's a liar Pt. 2,PinkPantheress,Boy's a liar Pt. 2,3,3,2,15,9,4,150000,9000,200000,0.42,0.03,0.56,359000,28,14,0,7,14,1
+2023-12-29,46,+25,71,False,False,42,-0.11,Material Girl,Madonna,Celebration (Double Disc Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,15,9,40,4,1
+2023-12-29,47,+6,53,False,False,38,-0.33,I Don't Want to Miss a Thing - From Armageddon Soundtrack,Aerosmith,Armageddon - The Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,18,10,31,4,1
+2023-12-29,48,+27,75,False,False,38,-0.17,Nothing's Gonna Stop Us Now,Starship,No Protection,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,14,23,3,1
 2023-12-29,49,-17,32,False,False,36,-0.57,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,26,0,1,91,7
-2023-12-29,50,+27,77,False,False,36,-0.18,YMCA,Village People,Can't Stop the Music (Original Soundtrack 1980),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,12,24,4,1
-2023-12-29,51,RE,--,False,False,35,--,It's Gonna Be Me,*NSYNC,No Strings Attached,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,9,43,3,1
-2023-12-29,52,+12,64,False,False,35,-0.29,This Love,Maroon 5,Songs About Jane: 10th Anniversary Edition,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,15,10,29,3,1
-2023-12-29,53,+42,95,False,False,33,-0.2,Promiscuous,Nelly Furtado,Loose,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,10,30,3,1
-2023-12-29,54,+7,61,True,False,31,-0.38,Big Girls Don't Cry (Personal),Fergie,The Dutchess,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,15,6,54,3,1
-2023-12-29,55,+19,74,True,False,31,-0.31,I'm with You,Avril Lavigne,Let Go,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,7,55,3,1
-2023-12-29,56,+28,84,True,False,31,-0.26,I Want You Back - Radio Edit,*NSYNC,'N Sync UK Version,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,13,0,56,2,1
-2023-12-29,57,+34,91,False,False,29,-0.31,Tubthumping,Chumbawamba,Tubthumper,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,6,36,5,1
-2023-12-29,58,+31,89,True,False,29,-0.31,Losing Grip,Avril Lavigne,Let Go,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,6,58,3,1
-2023-12-29,59,+31,90,True,False,29,-0.31,Don't Cha,The Pussycat Dolls,PCD,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,6,59,3,1
-2023-12-29,60,+28,88,False,False,29,-0.31,Stickwitu,The Pussycat Dolls,PCD,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,6,57,5,1
-2023-12-29,61,RE,--,False,False,27,--,Unwell,Matchbox Twenty,More Than You Think You Are,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,9,7,7,1
-2023-12-29,62,RE,--,True,False,26,--,Walk Away,Kelly Clarkson,Breakaway,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,62,3,1
-2023-12-29,63,RE,--,False,False,26,--,bad idea right?,Olivia Rodrigo,GUTS,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,3,17,1
-2023-12-29,64,RE,--,False,False,26,--,Feather,Sabrina Carpenter,emails i can’t send fwd:,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,18,5,1
-2023-12-29,65,RE,--,False,False,26,--,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,1,86,6
-2023-12-29,66,RE,--,False,False,26,--,Cruel Summer,Taylor Swift,Lover,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,1,52,1
-2023-12-29,67,RE,--,False,False,26,--,Girlfriend,Avril Lavigne,The Best Damn Thing (Expanded Edition),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,20,12,1
-2023-12-29,68,RE,--,False,False,25,--,I Want It That Way,Backstreet Boys,Millennium,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,7,62,3,1
-2023-12-29,69,RE,--,True,False,25,--,Buttons,The Pussycat Dolls,PCD,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,7,69,2,1
-2023-12-29,70,RE,--,False,False,25,--,Keep on Movin',Five,Invincible,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,7,38,4,1
-2023-12-29,71,RE,--,False,False,25,--,Nobody's Home,Avril Lavigne,Under My Skin,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,7,1,3,1
-2023-12-29,72,+7,79,False,False,24,-0.45,Boy's a liar Pt. 2,PinkPantheress,Heaven knows,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,0,7,14,1
+2023-12-29,50,+31,81,False,False,36,-0.18,YMCA,Village People,Can't Stop the Music (Original Soundtrack 1980),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,12,24,4,1
+2023-12-29,51,RE,--,False,False,35,--,It's Gonna Be Me,*NSYNC,No Strings Attached,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,9,44,3,1
+2023-12-29,52,RE,--,False,False,35,--,I Wanna Dance with Somebody (Who Loves Me),Whitney Houston,Whitney,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,9,39,6,1
+2023-12-29,53,+14,67,False,False,35,-0.29,This Love,Maroon 5,Songs About Jane: 10th Anniversary Edition,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,15,10,29,3,1
+2023-12-29,54,+44,98,False,False,33,-0.2,Promiscuous,Nelly Furtado,Loose,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,10,30,3,1
+2023-12-29,55,+9,64,True,False,31,-0.38,Big Girls Don't Cry (Personal),Fergie,The Dutchess,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,15,6,55,3,1
+2023-12-29,56,+22,78,True,False,31,-0.31,I'm with You,Avril Lavigne,Let Go,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,7,56,3,1
+2023-12-29,57,+30,87,True,False,31,-0.26,I Want You Back - Radio Edit,*NSYNC,'N Sync UK Version,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,13,0,57,2,1
+2023-12-29,58,+36,94,False,False,29,-0.31,Tubthumping,Chumbawamba,Tubthumper,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,6,37,5,1
+2023-12-29,59,+33,92,True,False,29,-0.31,Losing Grip,Avril Lavigne,Let Go,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,6,59,3,1
+2023-12-29,60,+33,93,True,False,29,-0.31,Don't Cha,The Pussycat Dolls,PCD,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,6,60,3,1
+2023-12-29,61,+30,91,False,False,29,-0.31,Stickwitu,The Pussycat Dolls,PCD,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,6,59,5,1
+2023-12-29,62,RE,--,False,False,27,--,Unwell,Matchbox Twenty,More Than You Think You Are,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,9,7,8,1
+2023-12-29,63,RE,--,True,False,26,--,Walk Away,Kelly Clarkson,Breakaway,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,63,3,1
+2023-12-29,64,RE,--,False,False,26,--,bad idea right?,Olivia Rodrigo,GUTS,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,3,17,1
+2023-12-29,65,RE,--,False,False,26,--,Feather,Sabrina Carpenter,emails i can’t send fwd:,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,19,5,1
+2023-12-29,66,RE,--,False,False,26,--,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,1,83,5
+2023-12-29,67,RE,--,False,False,26,--,Cruel Summer,Taylor Swift,Lover,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,1,52,2
+2023-12-29,68,RE,--,False,False,26,--,Girlfriend,Avril Lavigne,The Best Damn Thing (Expanded Edition),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,21,14,1
+2023-12-29,69,RE,--,False,False,25,--,I Want It That Way,Backstreet Boys,Millennium,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,7,62,3,1
+2023-12-29,70,RE,--,True,False,25,--,Buttons,The Pussycat Dolls,PCD,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,7,70,2,1
+2023-12-29,71,RE,--,False,False,25,--,Keep on Movin',Five,Invincible,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,7,39,4,1
+2023-12-29,72,RE,--,False,False,25,--,Nobody's Home,Avril Lavigne,Under My Skin,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,7,1,3,1
 2023-12-29,73,RE,--,True,False,24,--,My Happy Ending,Avril Lavigne,Under My Skin,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,6,73,2,1
-2023-12-29,74,+7,81,True,False,23,-0.45,Stop,Spice Girls,Spiceworld,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,0,74,2,1
-2023-12-29,75,+11,86,False,False,23,-0.45,In the End,Linkin Park,Hybrid Theory (Bonus Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,0,14,5,1
+2023-12-29,74,+12,86,True,False,23,-0.45,Stop,Spice Girls,Spiceworld,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,0,74,2,1
+2023-12-29,75,+14,89,False,False,23,-0.45,In the End,Linkin Park,Hybrid Theory (Bonus Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,0,18,5,1
 2023-12-29,76,RE,--,False,False,23,--,New Romantics (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,5,7,8,1
-2023-12-29,77,+5,82,True,False,23,-0.45,Everybody (Backstreet's Back),Backstreet Boys,Backstreet's Back,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,0,77,2,1
-2023-12-29,78,RE,--,False,False,19,--,Wake Me Up Before You Go-Go,Wham!,Make It Big,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,9,41,3,1
-2023-12-29,79,RE,--,False,False,19,--,U Can't Touch This,MC Hammer,Please Hammer Don't Hurt 'Em,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,9,42,3,1
-2023-12-29,80,NEW,--,True,False,18,--,24K Magic,Bruno Mars,24K Magic,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,80,1,1
-2023-12-29,81,NEW,--,True,False,18,--,Dance the Night,Dua Lipa,Barbie The Album,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,81,1,1
-2023-12-29,82,NEW,--,True,False,18,--,Cupid - Twin Ver.,Fifty Fifty,The Beginning,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,82,1,1
-2023-12-29,83,RE,--,False,False,18,--,Oops!...I Did It Again,Britney Spears,Oops!... I Did It Again,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,44,4,1
-2023-12-29,84,RE,--,False,False,18,--,Where Is Your Heart,Kelly Clarkson,Breakaway,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,72,3,1
-2023-12-29,85,RE,--,False,False,18,--,Addicted,Kelly Clarkson,Breakaway,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,73,3,1
-2023-12-29,86,RE,--,False,False,18,--,Gone,Kelly Clarkson,Breakaway,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,74,3,1
-2023-12-29,87,RE,--,False,False,18,--,Stronger (What Doesn't Kill You),Kelly Clarkson,Stronger (Deluxe Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,24,6,1
-2023-12-29,88,RE,--,False,False,18,--,Hot n Cold,Katy Perry,One of the Boys,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,3,13,1
-2023-12-29,89,RE,--,False,False,18,--,MORE & MORE,TWICE,MORE & MORE,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,4,26,1
-2023-12-29,90,RE,--,False,False,18,--,ETA,NewJeans,NewJeans 2nd EP 'Get Up',2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,3,17,1
-2023-12-29,91,RE,--,False,False,18,--,ME! (feat. Brendon Urie of Panic! at the Disco),Taylor Swift,Lover,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,4,30,1
-2023-12-29,92,RE,--,False,False,18,--,POP!,NAYEON,IM NAYEON,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,3,28,1
-2023-12-29,93,RE,--,False,False,18,--,After LIKE,IVE,After LIKE,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,1,42,5
-2023-12-29,94,RE,--,False,False,18,--,Smile,Avril Lavigne,Goodbye Lullaby (Expanded Edition),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,91,2,1
-2023-12-29,95,RE,--,False,False,18,--,Physical,Dua Lipa,Future Nostalgia,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,12,14,1
-2023-12-29,96,RE,--,False,False,18,--,Call Me Maybe,Carly Rae Jepsen,Kiss,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,26,9,1
-2023-12-29,97,RE,--,False,False,18,--,Shout Out to My Ex,Little Mix,Glory Days (Expanded Edition),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,6,8,1
-2023-12-29,98,RE,--,False,False,18,--,What the Hell,Avril Lavigne,Goodbye Lullaby (Expanded Edition),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,1,16,1
-2023-12-29,99,RE,--,False,False,18,--,Cate’s Brother,Maisie Peters,Cate’s Brother,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,2,16,3
-2023-12-29,100,RE,--,False,False,18,--,Welcome to New York (Taylor's Version),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,8,22,9,1
+2023-12-29,77,+6,83,True,False,23,-0.45,Everybody (Backstreet's Back),Backstreet Boys,Backstreet's Back,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,0,77,2,1
+2023-12-29,78,RE,--,False,False,20,--,Rush,Troye Sivan,Something to Give Each Other,2,2,2,10,6,4,100000,6000,200000,0.33,0.02,0.65,306000,20,0,0,9,3,1
+2023-12-29,79,RE,--,False,False,19,--,Wake Me Up Before You Go-Go,Wham!,Make It Big,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,9,42,3,1
+2023-12-29,80,RE,--,False,False,19,--,U Can't Touch This,MC Hammer,Please Hammer Don't Hurt 'Em,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,9,43,3,1
+2023-12-29,81,RE,--,False,False,19,--,Welcome to New York (Taylor's Version),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,9,11,9,1
+2023-12-29,82,RE,--,False,False,18,--,Oops!...I Did It Again,Britney Spears,Oops!... I Did It Again,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,44,4,1
+2023-12-29,83,RE,--,False,False,18,--,Where Is Your Heart,Kelly Clarkson,Breakaway,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,74,3,1
+2023-12-29,84,RE,--,False,False,18,--,Addicted,Kelly Clarkson,Breakaway,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,75,3,1
+2023-12-29,85,RE,--,False,False,18,--,Gone,Kelly Clarkson,Breakaway,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,76,3,1
+2023-12-29,86,NEW,--,True,False,18,--,24K Magic,Bruno Mars,24K Magic,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,86,1,1
+2023-12-29,87,RE,--,False,False,18,--,Stronger (What Doesn't Kill You),Kelly Clarkson,Stronger (Deluxe Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,24,7,1
+2023-12-29,88,NEW,--,True,False,18,--,Dance the Night,Dua Lipa,Barbie The Album,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,88,1,1
+2023-12-29,89,RE,--,False,False,18,--,Hot n Cold,Katy Perry,One of the Boys,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,3,13,1
+2023-12-29,90,RE,--,False,False,18,--,MORE & MORE,TWICE,MORE & MORE,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,4,26,1
+2023-12-29,91,RE,--,False,False,18,--,ETA,NewJeans,NewJeans 2nd EP 'Get Up',2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,3,17,1
+2023-12-29,92,NEW,--,True,False,18,--,Cupid - Twin Ver.,Fifty Fifty,The Beginning,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,92,1,1
+2023-12-29,93,RE,--,False,False,18,--,ME! (feat. Brendon Urie of Panic! at the Disco),Taylor Swift,Lover,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,4,34,1
+2023-12-29,94,RE,--,False,False,18,--,POP!,NAYEON,IM NAYEON,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,4,27,2
+2023-12-29,95,RE,--,False,False,18,--,After LIKE,IVE,After LIKE,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,1,43,5
+2023-12-29,96,RE,--,False,False,18,--,Smile,Avril Lavigne,Goodbye Lullaby (Expanded Edition),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,91,2,1
+2023-12-29,97,RE,--,False,False,18,--,Physical,Dua Lipa,Future Nostalgia,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,14,14,1
+2023-12-29,98,RE,--,False,False,18,--,Call Me Maybe,Carly Rae Jepsen,Kiss,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,26,9,1
+2023-12-29,99,RE,--,False,False,18,--,Shout Out to My Ex,Little Mix,Glory Days (Expanded Edition),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,6,11,1
+2023-12-29,100,RE,--,False,False,18,--,What the Hell,Avril Lavigne,Goodbye Lullaby (Expanded Edition),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,1,17,1

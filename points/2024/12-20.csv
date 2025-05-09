@@ -2,54 +2,54 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2024-12-20,1,RE,--,True,False,402,--,Underneath the Tree,Kelly Clarkson,Wrapped in Red,50,50,1,250,150,2,2500000,150000,100000,0.91,0.05,0.04,2750000,402,0,0,1,6,1
 2024-12-20,2,NEW,--,True,False,378,--,Run Run Rudolph,Kelly Clarkson,Wrapped in Red,47,47,1,235,141,2,2350000,141000,100000,0.91,0.05,0.04,2591000,378,0,0,2,1,1
 2024-12-20,3,RE,--,True,False,338,--,Oh Santa! (feat. Ariana Grande & Jennifer Hudson),Mariah Carey,Oh Santa! (feat. Ariana Grande & Jennifer Hudson),42,42,1,210,126,2,2100000,126000,100000,0.9,0.05,0.04,2326000,338,0,0,3,3,1
-2024-12-20,4,RE,--,True,False,322,--,Winter Dreams (Brandon's Song),Kelly Clarkson,Wrapped in Red,40,40,1,200,120,2,2000000,120000,100000,0.9,0.05,0.05,2220000,322,0,0,4,1,1
-2024-12-20,5,RE,--,True,False,306,--,My Favorite Things,Kelly Clarkson,Wrapped in Red,38,38,1,190,114,2,1900000,114000,100000,0.9,0.05,0.05,2114000,306,0,0,5,1,1
-2024-12-20,6,RE,--,True,False,290,--,Santa Can’t You Hear Me,Kelly Clarkson,When Christmas Comes Around...,36,36,1,180,108,2,1800000,108000,100000,0.9,0.05,0.05,2008000,290,0,0,6,1,1
-2024-12-20,7,RE,--,True,False,290,--,Christmas Isn't Canceled (Just You),Kelly Clarkson,When Christmas Comes Around...,36,36,1,180,108,2,1800000,108000,100000,0.9,0.05,0.05,2008000,290,0,0,7,1,1
-2024-12-20,8,RE,--,True,False,242,--,Rockin' Around the Christmas Tree,Kelly Clarkson,When Christmas Comes Around...,30,30,1,150,90,2,1500000,90000,100000,0.89,0.05,0.06,1690000,242,0,0,8,1,1
-2024-12-20,9,RE,--,True,False,234,--,Under the Mistletoe - Bonus Track,Kelly Clarkson,When Christmas Comes Around...,29,29,1,145,87,2,1450000,87000,100000,0.89,0.05,0.06,1637000,234,0,0,9,1,1
-2024-12-20,10,-7,3,False,False,212,-0.24,Fresh Out the Slammer,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,84,30,3,19,1
+2024-12-20,4,NEW,--,True,False,322,--,Winter Dreams (Brandon's Song),Kelly Clarkson,Wrapped in Red,40,40,1,200,120,2,2000000,120000,100000,0.9,0.05,0.05,2220000,322,0,0,4,1,1
+2024-12-20,5,NEW,--,True,False,306,--,My Favorite Things,Kelly Clarkson,Wrapped in Red,38,38,1,190,114,2,1900000,114000,100000,0.9,0.05,0.05,2114000,306,0,0,5,1,1
+2024-12-20,6,NEW,--,True,False,290,--,Santa Can’t You Hear Me,Kelly Clarkson,When Christmas Comes Around...,36,36,1,180,108,2,1800000,108000,100000,0.9,0.05,0.05,2008000,290,0,0,6,1,1
+2024-12-20,7,NEW,--,True,False,290,--,Christmas Isn't Canceled (Just You),Kelly Clarkson,When Christmas Comes Around...,36,36,1,180,108,2,1800000,108000,100000,0.9,0.05,0.05,2008000,290,0,0,7,1,1
+2024-12-20,8,NEW,--,True,False,242,--,Rockin' Around the Christmas Tree,Kelly Clarkson,When Christmas Comes Around...,30,30,1,150,90,2,1500000,90000,100000,0.89,0.05,0.06,1690000,242,0,0,8,1,1
+2024-12-20,9,NEW,--,True,False,234,--,Under the Mistletoe - Bonus Track,Kelly Clarkson,When Christmas Comes Around...,29,29,1,145,87,2,1450000,87000,100000,0.89,0.05,0.06,1637000,234,0,0,9,1,1
+2024-12-20,10,-8,2,False,False,232,-0.27,Fresh Out the Slammer,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,96,38,2,23,1
 2024-12-20,11,-7,4,False,False,197,-0.28,The Rock Show,blink-182,Take Off Your Pants and Jacket,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,82,57,1,8,3
-2024-12-20,12,-7,5,False,False,144,-0.46,Nice Guys Finish Last,Green Day,Nimrod,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,81,37,1,50,7
-2024-12-20,13,-11,2,False,False,143,-0.49,Guilty as Sin?,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,84,33,2,28,2
-2024-12-20,14,+3,17,False,False,141,0.22,Extraordinary Girl,Green Day,American Idiot,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,35,32,1,9,2
-2024-12-20,15,-4,11,False,False,141,-0.11,My Boy Only Breaks His Favorite Toys,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,48,11,3,30,1
+2024-12-20,12,-3,9,False,False,180,-0.06,Extraordinary Girl,Green Day,American Idiot,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,58,48,1,9,2
+2024-12-20,13,-8,5,False,False,144,-0.46,Nice Guys Finish Last,Green Day,Nimrod,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,81,37,1,50,7
+2024-12-20,14,-2,12,False,False,143,-0.12,My Boy Only Breaks His Favorite Toys,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,49,12,2,32,1
+2024-12-20,15,-12,3,False,False,143,-0.49,Guilty as Sin?,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,84,33,3,30,2
 2024-12-20,16,-8,8,False,False,133,-0.34,Easy,Stray Kids,GO LIVE,3,1,3,15,3,6,150000,3000,300000,0.33,0.01,0.66,453000,24,61,48,1,6,1
 2024-12-20,17,RE,--,True,False,130,--,Juno,Sabrina Carpenter,Short n' Sweet,16,16,1,80,48,2,800000,48000,100000,0.84,0.05,0.11,948000,130,0,0,17,5,1
-2024-12-20,18,-5,13,False,False,129,-0.1,Every Time I Look For You,blink-182,Take Off Your Pants and Jacket,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,44,27,5,6,1
-2024-12-20,19,-12,7,False,False,121,-0.47,The Bolter,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,69,34,7,22,1
-2024-12-20,20,+22,42,False,False,120,0.58,She's a Rebel,Green Day,American Idiot,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,23,15,6,8,1
-2024-12-20,21,+12,33,False,False,117,0.33,St. Jimmy,Green Day,American Idiot,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,27,16,5,9,1
-2024-12-20,22,+19,41,False,False,116,0.49,Give Me Novacaine,Green Day,American Idiot,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,24,18,6,9,1
-2024-12-20,23,+14,37,True,False,113,0.4,Are We the Waiting,Green Day,American Idiot,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,25,14,23,7,1
-2024-12-20,24,+20,44,False,False,112,0.49,Letterbomb,Green Day,American Idiot,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,23,15,7,7,1
-2024-12-20,25,-15,10,False,False,110,-0.39,Look Ma No Brains!,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,54,46,1,32,6
-2024-12-20,26,-8,18,False,False,109,-0.06,Reckless Abandon,blink-182,Take Off Your Pants and Jacket,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,35,16,4,6,1
-2024-12-20,27,-18,9,False,False,109,-0.41,I Hate It Here,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,56,35,7,7,1
-2024-12-20,28,RE,--,True,False,98,--,Christmas Eve - Bonus Track,Kelly Clarkson,When Christmas Comes Around...,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,0,0,28,1,1
-2024-12-20,29,-23,6,False,False,97,-0.59,Who’s Afraid of Little Old Me?,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,71,0,6,5,1
-2024-12-20,30,+13,43,True,False,92,0.23,Story of a Lonely Guy,blink-182,Take Off Your Pants and Jacket,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,23,11,30,4,1
-2024-12-20,31,+17,48,True,False,91,0.26,Holiday,Green Day,American Idiot,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,22,11,31,4,1
-2024-12-20,32,+13,45,True,False,90,0.23,Online Songs,blink-182,Take Off Your Pants and Jacket,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,22,10,32,3,1
-2024-12-20,33,+13,46,True,False,90,0.23,Anthem Part Two,blink-182,Take Off Your Pants and Jacket,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,22,10,33,3,1
-2024-12-20,34,+64,98,False,False,87,1.07,6/10,dodie,You - EP,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,13,0,16,10,1
-2024-12-20,35,+64,99,False,False,87,1.07,In The Middle,dodie,You - EP,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,13,0,32,10,1
+2024-12-20,18,-3,15,False,False,129,-0.1,Every Time I Look For You,blink-182,Take Off Your Pants and Jacket,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,44,27,5,6,1
+2024-12-20,19,+11,30,False,False,121,0.27,St. Jimmy,Green Day,American Idiot,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,29,18,8,9,1
+2024-12-20,20,-13,7,False,False,121,-0.47,The Bolter,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,69,34,7,22,1
+2024-12-20,21,+25,46,False,False,120,0.58,She's a Rebel,Green Day,American Idiot,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,23,15,7,8,1
+2024-12-20,22,-8,14,False,False,121,-0.18,Boulevard of Broken Dreams,Green Day,American Idiot,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,45,26,6,8,1
+2024-12-20,23,+16,39,False,False,118,0.4,Letterbomb,Green Day,American Idiot,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,26,18,10,8,1
+2024-12-20,24,+18,42,False,False,117,0.46,Give Me Novacaine,Green Day,American Idiot,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,24,19,9,9,2
+2024-12-20,25,+15,40,False,False,114,0.37,Are We the Waiting,Green Day,American Idiot,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,25,15,5,8,1
+2024-12-20,26,-8,18,False,False,112,-0.07,Holiday,Green Day,American Idiot,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,36,18,5,9,1
+2024-12-20,27,-21,6,False,False,113,-0.55,Who’s Afraid of Little Old Me?,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,76,11,6,10,1
+2024-12-20,28,-17,11,False,False,110,-0.39,Look Ma No Brains!,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,54,46,1,32,6
+2024-12-20,29,-9,20,False,False,109,-0.06,Reckless Abandon,blink-182,Take Off Your Pants and Jacket,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,35,16,4,6,1
+2024-12-20,30,-20,10,False,False,109,-0.41,I Hate It Here,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,56,35,9,6,1
+2024-12-20,31,NEW,--,True,False,98,--,Christmas Eve - Bonus Track,Kelly Clarkson,When Christmas Comes Around...,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,0,0,31,1,1
+2024-12-20,32,+15,47,True,False,92,0.23,Story of a Lonely Guy,blink-182,Take Off Your Pants and Jacket,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,23,11,32,4,1
+2024-12-20,33,+15,48,True,False,90,0.23,Online Songs,blink-182,Take Off Your Pants and Jacket,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,22,10,33,3,1
+2024-12-20,34,+15,49,True,False,90,0.23,Anthem Part Two,blink-182,Take Off Your Pants and Jacket,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,22,10,34,3,1
+2024-12-20,35,+65,100,False,False,87,1.07,6/10,dodie,You - EP,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,13,0,17,11,1
 2024-12-20,36,+26,62,True,False,86,0.51,Shut Up,blink-182,Take Off Your Pants and Jacket,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,18,10,36,3,1
 2024-12-20,37,+26,63,True,False,86,0.51,Give Me One Good Reason,blink-182,Take Off Your Pants and Jacket,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,18,10,37,3,1
 2024-12-20,38,RE,--,True,False,82,--,Lie to Girls,Sabrina Carpenter,Short n' Sweet,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,0,38,2,1
 2024-12-20,39,RE,--,True,False,82,--,Slim Pickins,Sabrina Carpenter,Short n' Sweet,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,0,39,2,1
-2024-12-20,40,+55,95,True,False,79,0.88,Please Take Me Home,blink-182,Take Off Your Pants and Jacket,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,13,0,40,2,1
-2024-12-20,41,-26,15,False,False,79,-0.36,Sugar We're Goin Down,Fall Out Boy,From Under the Cork Tree,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,38,31,1,16,5
-2024-12-20,42,+15,57,True,False,78,0.22,Stay Together for the Kids,blink-182,Take Off Your Pants and Jacket,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,20,0,42,2,1
-2024-12-20,43,+21,64,False,False,76,0.36,Boulevard of Broken Dreams,Green Day,American Idiot,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,17,9,40,6,1
-2024-12-20,44,RE,--,False,False,74,--,Would You Be So Kind,dodie,You - EP,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,0,0,6,13,1
-2024-12-20,45,RE,--,False,False,74,--,you,dodie,You - EP,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,0,0,13,8,1
-2024-12-20,46,RE,--,False,False,74,--,Instrumental,dodie,You - EP,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,0,0,12,6,1
+2024-12-20,40,+57,97,True,False,79,0.88,Please Take Me Home,blink-182,Take Off Your Pants and Jacket,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,13,0,40,2,1
+2024-12-20,41,-24,17,False,False,79,-0.36,Sugar We're Goin Down,Fall Out Boy,From Under the Cork Tree,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,38,31,1,16,5
+2024-12-20,42,+16,58,True,False,78,0.22,Stay Together for the Kids,blink-182,Take Off Your Pants and Jacket,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,20,0,42,2,1
+2024-12-20,43,RE,--,False,False,74,--,Would You Be So Kind,dodie,You - EP,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,0,0,6,14,1
+2024-12-20,44,RE,--,False,False,74,--,you,dodie,You - EP,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,0,0,13,8,1
+2024-12-20,45,RE,--,False,False,74,--,Instrumental,dodie,You - EP,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,0,0,14,6,1
+2024-12-20,46,RE,--,False,False,74,--,In The Middle,dodie,You - EP,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,0,0,33,10,1
 2024-12-20,47,RE,--,True,False,74,--,Dumb & Poetic,Sabrina Carpenter,Short n' Sweet,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,0,0,47,2,1
 2024-12-20,48,+25,73,True,False,73,0.46,Roller Coaster,blink-182,Take Off Your Pants and Jacket,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,15,0,48,2,1
 2024-12-20,49,+25,74,True,False,73,0.46,Happy Holidays You Bastard,blink-182,Take Off Your Pants and Jacket,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,15,0,49,2,1
-2024-12-20,50,+25,75,False,False,73,0.46,First Date,blink-182,Take Off Your Pants and Jacket,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,15,0,11,8,1
-2024-12-20,51,-30,21,False,False,73,-0.32,Breakaway,Kelly Clarkson,Breakaway,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,33,30,2,60,1
+2024-12-20,50,+25,75,False,False,73,0.46,First Date,blink-182,Take Off Your Pants and Jacket,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,15,0,11,7,1
+2024-12-20,51,-28,23,False,False,73,-0.32,Breakaway,Kelly Clarkson,Breakaway,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,33,30,2,60,1
 2024-12-20,52,NEW,--,True,False,66,--,Tunnel Vision,Magdalena Bay,Imaginal Disk,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,0,0,52,1,1
 2024-12-20,53,NEW,--,True,False,66,--,Watching T.V.,Magdalena Bay,Imaginal Disk,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,0,0,53,1,1
 2024-12-20,54,NEW,--,True,False,66,--,Vampire In The Corner,Magdalena Bay,Imaginal Disk,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,0,0,54,1,1
@@ -59,12 +59,12 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2024-12-20,58,NEW,--,True,False,66,--,True Blue Interlude,Magdalena Bay,Imaginal Disk,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,0,0,58,1,1
 2024-12-20,59,NEW,--,True,False,66,--,Killing Time,Magdalena Bay,Imaginal Disk,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,0,0,59,1,1
 2024-12-20,60,NEW,--,True,False,66,--,She Looked Like Me!,Magdalena Bay,Imaginal Disk,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,0,0,60,1,1
-2024-12-20,61,-12,49,False,False,66,-0.03,Hitchin' a Ride,Green Day,Nimrod,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,21,19,2,50,7
+2024-12-20,61,-10,51,False,False,66,-0.03,Hitchin' a Ride,Green Day,Nimrod,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,21,19,2,50,7
 2024-12-20,62,+17,79,False,False,65,0.3,All You Had to Do Was Stay (Taylor's Version),Taylor Swift,1989 (Taylor's Version),6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,15,0,8,12,1
 2024-12-20,63,RE,--,False,False,63,--,After LIKE,IVE,After LIKE,9,2,6,45,6,12,450000,6000,600000,0.43,0.01,0.57,1056000,63,0,0,1,54,5
-2024-12-20,64,-29,35,False,False,62,-0.27,In Too Deep,Sum 41,All Killer No Filler,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,26,26,3,8,1
-2024-12-20,65,-39,26,False,False,61,-0.36,Dance Dance,Fall Out Boy,From Under the Cork Tree,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,29,22,7,17,1
-2024-12-20,66,RE,--,False,False,58,--,I Can Do It with a Broken Heart,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,51,3,1
+2024-12-20,64,-26,38,False,False,62,-0.27,In Too Deep,Sum 41,All Killer No Filler,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,26,26,3,8,1
+2024-12-20,65,-36,29,False,False,61,-0.36,Dance Dance,Fall Out Boy,From Under the Cork Tree,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,29,22,6,17,1
+2024-12-20,66,RE,--,False,False,58,--,I Can Do It with a Broken Heart,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,12,13,1
 2024-12-20,67,NEW,--,True,False,58,--,The Ballad Of Matt & Mica,Magdalena Bay,Imaginal Disk,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,67,1,1
 2024-12-20,68,NEW,--,True,False,58,--,Angel On A Satellite,Magdalena Bay,Imaginal Disk,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,68,1,1
 2024-12-20,69,NEW,--,True,False,58,--,Cry For Me,Magdalena Bay,Imaginal Disk,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,69,1,1
@@ -72,30 +72,30 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2024-12-20,71,NEW,--,True,False,58,--,Feeling Diskinserted?,Magdalena Bay,Imaginal Disk,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,71,1,1
 2024-12-20,72,NEW,--,True,False,58,--,Love Is Everywhere,Magdalena Bay,Imaginal Disk,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,72,1,1
 2024-12-20,73,RE,--,False,False,58,--,Taste,Sabrina Carpenter,Short n' Sweet,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,21,8,1
-2024-12-20,74,+4,78,False,False,57,0.14,How You Get the Girl (Taylor's Version),Taylor Swift,1989 (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,15,0,14,13,1
-2024-12-20,75,-17,58,False,False,52,-0.16,Dilemma,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,19,23,7,42,1
-2024-12-20,76,NEW,--,True,False,50,--,Oh Come Oh Come Emmanuel,Kelly Clarkson,Wrapped in Red,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,76,1,1
-2024-12-20,77,RE,--,True,False,50,--,Jingle Bell Rock,Kelly Clarkson,When Christmas Comes Around...,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,77,1,1
-2024-12-20,78,RE,--,True,False,50,--,It's Beginning to Look a Lot Like Christmas,Kelly Clarkson,When Christmas Comes Around...,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,78,1,1
+2024-12-20,74,+6,80,False,False,58,0.21,But Daddy I Love Him,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,15,9,33,7,1
+2024-12-20,75,+3,78,False,False,57,0.14,How You Get the Girl (Taylor's Version),Taylor Swift,1989 (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,15,0,15,12,1
+2024-12-20,76,NEW,--,True,False,50,--,Jingle Bell Rock,Kelly Clarkson,When Christmas Comes Around...,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,76,1,1
+2024-12-20,77,NEW,--,True,False,50,--,It's Beginning to Look a Lot Like Christmas,Kelly Clarkson,When Christmas Comes Around...,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,77,1,1
+2024-12-20,78,NEW,--,True,False,50,--,Oh Come Oh Come Emmanuel,Kelly Clarkson,Wrapped in Red,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,78,1,1
 2024-12-20,79,RE,--,False,False,50,--,Espresso,Sabrina Carpenter,Short n' Sweet,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,27,8,1
-2024-12-20,80,RE,--,False,False,50,--,Bed Chem,Sabrina Carpenter,Short n' Sweet,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,35,3,1
-2024-12-20,81,RE,--,False,False,50,--,Coincidence,Sabrina Carpenter,Short n' Sweet,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,57,2,1
-2024-12-20,82,RE,--,False,False,50,--,Sharpest Tool,Sabrina Carpenter,Short n' Sweet,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,58,2,1
+2024-12-20,80,RE,--,False,False,50,--,Bed Chem,Sabrina Carpenter,Short n' Sweet,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,37,3,1
+2024-12-20,81,RE,--,False,False,50,--,Coincidence,Sabrina Carpenter,Short n' Sweet,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,59,2,1
+2024-12-20,82,RE,--,False,False,50,--,Sharpest Tool,Sabrina Carpenter,Short n' Sweet,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,60,2,1
 2024-12-20,83,RE,--,False,False,50,--,Good Graces,Sabrina Carpenter,Short n' Sweet,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,51,3,1
 2024-12-20,84,RE,--,False,False,50,--,Please Please Please,Sabrina Carpenter,Short n' Sweet,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,20,7,1
-2024-12-20,85,RE,--,False,False,50,--,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,1,103,2
-2024-12-20,86,RE,--,False,False,50,--,no body no crime (feat. HAIM),Taylor Swift,evermore,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,12,23,1
+2024-12-20,85,RE,--,False,False,50,--,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,1,100,2
+2024-12-20,86,RE,--,False,False,50,--,no body no crime (feat. HAIM),Taylor Swift,evermore,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,12,22,1
 2024-12-20,87,RE,--,False,False,50,--,closure,Taylor Swift,evermore,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,6,22,1
-2024-12-20,88,-38,50,False,False,49,-0.27,I Do Not Hook Up,Kelly Clarkson,All I Ever Wanted,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,21,18,1,26,1
-2024-12-20,89,-42,47,False,False,46,-0.37,Mantra,Jennie,Mantra,3,1,3,15,3,6,150000,3000,300000,0.33,0.01,0.66,453000,24,22,0,31,3,1
-2024-12-20,90,-31,59,False,False,46,-0.22,Thnks fr th Mmrs,Fall Out Boy,Infinity on High,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,18,18,8,16,1
-2024-12-20,91,-61,30,False,False,46,-0.49,The Albatross,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,28,0,15,20,1
+2024-12-20,88,-36,52,False,False,49,-0.27,I Do Not Hook Up,Kelly Clarkson,All I Ever Wanted,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,21,18,1,26,1
+2024-12-20,89,-39,50,False,False,46,-0.37,Mantra,Jennie,Mantra,3,1,3,15,3,6,150000,3000,300000,0.33,0.01,0.66,453000,24,22,0,31,3,1
+2024-12-20,90,-31,59,False,False,46,-0.22,Thnks fr th Mmrs,Fall Out Boy,Infinity on High,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,18,18,7,16,1
+2024-12-20,91,-57,34,False,False,46,-0.49,The Albatross,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,28,0,15,20,1
 2024-12-20,92,-22,70,False,False,44,-0.15,1981,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,16,18,1,31,1
-2024-12-20,93,-42,51,False,False,45,-0.33,Welcome to the Black Parade,My Chemical Romance,The Black Parade,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,21,14,3,42,1
-2024-12-20,94,-12,82,False,False,42,-0.07,Coma City,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,18,14,25,1
-2024-12-20,95,-12,83,False,False,42,-0.07,The American Dream Is Killing Me,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,18,3,30,1
-2024-12-20,96,RE,--,False,False,42,--,Christmas Tree Farm,Taylor Swift,Christmas Tree Farm,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,27,5,1
-2024-12-20,97,RE,--,False,False,42,--,Don’t Smile,Sabrina Carpenter,Short n' Sweet,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,53,2,1
-2024-12-20,98,RE,--,False,False,42,--,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,1,102,1
-2024-12-20,99,RE,--,False,False,42,--,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,1,91,2
-2024-12-20,100,RE,--,False,False,42,--,dorothea,Taylor Swift,evermore,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,12,24,1
+2024-12-20,93,-40,53,False,False,45,-0.33,Welcome to the Black Parade,My Chemical Romance,The Black Parade,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,21,14,3,42,1
+2024-12-20,94,-11,83,False,False,42,-0.07,Coma City,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,18,14,25,1
+2024-12-20,95,-11,84,False,False,42,-0.07,Dilemma,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,18,7,40,1
+2024-12-20,96,-11,85,False,False,42,-0.07,The American Dream Is Killing Me,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,18,3,28,1
+2024-12-20,97,RE,--,False,False,42,--,Christmas Tree Farm,Taylor Swift,Christmas Tree Farm,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,27,5,1
+2024-12-20,98,RE,--,False,False,42,--,Don’t Smile,Sabrina Carpenter,Short n' Sweet,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,55,2,1
+2024-12-20,99,RE,--,False,False,42,--,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,1,101,1
+2024-12-20,100,RE,--,False,False,42,--,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,1,87,1

@@ -1,96 +1,96 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2024-12-27,1,RE,--,True,False,197,--,ไหล่เธอ (You’ve Got Ma Back) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Fourth,ไหล่เธอ (You’ve Got Ma Back) - Single,27,14,10,135,42,20,1350000,42000,1000000,0.56,0.02,0.42,2392000,197,0,0,1,5,1
-2024-12-27,2,+8,10,True,False,158,-0.25,Fresh Out the Slammer,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,5,1,5,25,3,10,250000,3000,500000,0.33,0.0,0.66,753000,38,64,56,2,20,1
+2024-12-27,2,+8,10,True,True,172,-0.26,Fresh Out the Slammer,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,5,1,5,25,3,10,250000,3000,500000,0.33,0.0,0.66,753000,38,70,64,2,24,2
 2024-12-27,3,+60,63,False,False,149,1.37,After LIKE,IVE,After LIKE,18,10,5,90,30,10,900000,30000,500000,0.63,0.02,0.35,1430000,130,19,0,1,55,5
 2024-12-27,4,+13,17,True,False,126,-0.03,Juno,Sabrina Carpenter,Short n' Sweet,11,8,4,55,24,8,550000,24000,400000,0.56,0.02,0.41,974000,87,39,0,4,6,1
-2024-12-27,5,RE,--,True,True,125,--,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),18,5,10,90,15,20,900000,15000,1000000,0.47,0.01,0.52,1915000,125,0,0,5,56,2
+2024-12-27,5,RE,--,True,True,125,--,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),18,5,10,90,15,20,900000,15000,1000000,0.47,0.01,0.52,1915000,125,0,0,5,59,2
 2024-12-27,6,+5,11,False,False,125,-0.37,The Rock Show,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,60,55,1,9,3
-2024-12-27,7,+5,12,False,False,107,-0.25,Nice Guys Finish Last,Green Day,Nimrod,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,43,54,1,51,7
-2024-12-27,8,RE,--,False,False,88,--,ง้อว (Smile Please) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Fourth,ง้อว (Smile Please) - Single,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,0,22,5,6,1
-2024-12-27,9,+65,74,True,False,86,0.51,How You Get the Girl (Taylor's Version),Taylor Swift,1989 (Taylor's Version),7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,18,10,9,14,1
+2024-12-27,7,+6,13,False,False,107,-0.25,Nice Guys Finish Last,Green Day,Nimrod,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,43,54,1,51,7
+2024-12-27,8,RE,--,False,False,88,--,ง้อว (Smile Please) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Fourth,ง้อว (Smile Please) - Single,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,0,22,6,6,1
+2024-12-27,9,+66,75,True,False,86,0.51,How You Get the Girl (Taylor's Version),Taylor Swift,1989 (Taylor's Version),7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,18,10,9,13,1
 2024-12-27,10,+52,62,False,False,80,0.23,All You Had to Do Was Stay (Taylor's Version),Taylor Swift,1989 (Taylor's Version),6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,20,10,8,13,1
-2024-12-27,11,+14,25,False,False,79,-0.28,Look Ma No Brains!,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,33,36,1,33,6
+2024-12-27,11,+17,28,False,False,79,-0.28,Look Ma No Brains!,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,33,36,1,33,6
 2024-12-27,12,+6,18,False,False,78,-0.39,Every Time I Look For You,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,39,29,5,7,1
 2024-12-27,13,NEW,--,True,False,73,--,Summer Paradise,Simple Plan,Summer Paradise,10,5,4,50,15,8,500000,15000,400000,0.55,0.02,0.44,915000,73,0,0,13,1,1
-2024-12-27,14,+12,26,False,False,67,-0.39,Reckless Abandon,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,33,24,4,7,1
-2024-12-27,15,RE,--,True,False,66,--,Read your Mind,Sabrina Carpenter,emails i can’t send fwd:,10,2,5,50,6,10,500000,6000,500000,0.5,0.01,0.5,1006000,66,0,0,15,1,1
-2024-12-27,16,+40,56,True,False,62,-0.06,Death & Romance,Magdalena Bay,Imaginal Disk,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,20,0,16,2,1
-2024-12-27,17,+40,57,True,False,62,-0.06,Image,Magdalena Bay,Imaginal Disk,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,20,0,17,2,1
-2024-12-27,18,+34,52,True,False,62,-0.06,Tunnel Vision,Magdalena Bay,Imaginal Disk,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,20,0,18,2,1
-2024-12-27,19,RE,--,True,False,58,--,After Midnight,Chappell Roan,The Rise and Fall of a Midwest Princess,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,19,2,1
-2024-12-27,20,+50,70,True,False,57,-0.02,That's My Floor,Magdalena Bay,Imaginal Disk,5,2,4,25,6,8,250000,6000,400000,0.38,0.01,0.61,656000,39,18,0,20,2,1
-2024-12-27,21,+9,30,True,False,53,-0.42,Story of a Lonely Guy,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,28,15,21,5,1
-2024-12-27,22,+10,32,True,False,52,-0.42,Online Songs,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,27,15,22,4,1
-2024-12-27,23,+10,33,True,False,52,-0.42,Anthem Part Two,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,27,15,23,4,1
-2024-12-27,24,RE,--,True,True,50,--,รักหน้าตาเหมือนเธอไหม (Love Love Love) (เพลงประกอบซีรีส์ Our Skyy แฟนผมเป็นประธานนักเรียน),Gemini,รักหน้าตาเหมือนเธอไหม (Love Love Love) - Single,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,24,5,2
-2024-12-27,25,RE,--,False,False,48,--,Redundant,Green Day,Nimrod,5,1,5,25,3,10,250000,3000,500000,0.33,0.0,0.66,753000,38,0,10,1,40,1
-2024-12-27,26,+10,36,True,False,48,-0.44,Shut Up,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,26,12,26,4,1
-2024-12-27,27,+10,37,True,False,48,-0.44,Give Me One Good Reason,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,26,12,27,4,1
-2024-12-27,28,+14,42,True,False,47,-0.4,Stay Together for the Kids,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,24,13,28,3,1
-2024-12-27,29,+11,40,True,False,43,-0.46,Please Take Me Home,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,24,9,29,3,1
-2024-12-27,30,+18,48,True,False,42,-0.42,Roller Coaster,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,22,10,30,3,1
-2024-12-27,31,+18,49,True,False,42,-0.42,Happy Holidays You Bastard,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,22,10,31,3,1
-2024-12-27,32,+18,50,False,False,42,-0.42,First Date,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,22,10,11,9,1
-2024-12-27,33,RE,--,False,False,42,--,Say Don't Go (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,14,9,1
-2024-12-27,34,+60,94,False,False,40,-0.05,Coma City,Green Day,Saviors,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,13,9,14,26,1
-2024-12-27,35,RE,--,False,False,38,--,Scattered,Green Day,Nimrod,5,1,5,25,3,10,250000,3000,500000,0.33,0.0,0.66,753000,38,0,0,3,21,2
-2024-12-27,36,RE,--,False,False,38,--,All the Time,Green Day,Nimrod,5,1,5,25,3,10,250000,3000,500000,0.33,0.0,0.66,753000,38,0,0,2,26,1
-2024-12-27,37,+38,75,False,False,39,-0.24,Dilemma,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,16,13,7,43,1
-2024-12-27,38,RE,--,False,False,38,--,Girl at Home (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,1,5,25,3,10,250000,3000,500000,0.33,0.0,0.66,753000,38,0,0,13,11,1
+2024-12-27,14,+15,29,False,False,67,-0.39,Reckless Abandon,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,33,24,4,7,1
+2024-12-27,15,RE,--,True,False,66,--,Read your Mind,Sabrina Carpenter,emails i can’t send fwd:,10,2,5,50,6,10,500000,6000,500000,0.5,0.01,0.5,1006000,66,0,0,15,4,1
+2024-12-27,16,+63,79,True,False,63,0.26,Espresso,Sabrina Carpenter,Short n' Sweet,6,2,6,30,6,12,300000,6000,600000,0.33,0.01,0.66,906000,48,15,0,16,9,1
+2024-12-27,17,+39,56,True,False,62,-0.06,Death & Romance,Magdalena Bay,Imaginal Disk,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,20,0,17,2,1
+2024-12-27,18,+39,57,True,False,62,-0.06,Image,Magdalena Bay,Imaginal Disk,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,20,0,18,2,1
+2024-12-27,19,+33,52,True,False,62,-0.06,Tunnel Vision,Magdalena Bay,Imaginal Disk,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,20,0,19,2,1
+2024-12-27,20,RE,--,True,False,58,--,After Midnight,Chappell Roan,The Rise and Fall of a Midwest Princess,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,20,2,1
+2024-12-27,21,+49,70,True,False,57,-0.02,That's My Floor,Magdalena Bay,Imaginal Disk,5,2,4,25,6,8,250000,6000,400000,0.38,0.01,0.61,656000,39,18,0,21,2,1
+2024-12-27,22,+10,32,True,False,53,-0.42,Story of a Lonely Guy,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,28,15,22,5,1
+2024-12-27,23,+10,33,True,False,52,-0.42,Online Songs,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,27,15,23,4,1
+2024-12-27,24,+10,34,True,False,52,-0.42,Anthem Part Two,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,27,15,24,4,1
+2024-12-27,25,RE,--,True,False,50,--,รักหน้าตาเหมือนเธอไหม (Love Love Love) (เพลงประกอบซีรีส์ Our Skyy แฟนผมเป็นประธานนักเรียน),Gemini,รักหน้าตาเหมือนเธอไหม (Love Love Love) - Single,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,25,5,1
+2024-12-27,26,RE,--,False,False,48,--,Redundant,Green Day,Nimrod,5,1,5,25,3,10,250000,3000,500000,0.33,0.0,0.66,753000,38,0,10,1,40,1
+2024-12-27,27,+9,36,True,False,48,-0.44,Shut Up,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,26,12,27,4,1
+2024-12-27,28,+9,37,True,False,48,-0.44,Give Me One Good Reason,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,26,12,28,4,1
+2024-12-27,29,+13,42,True,False,47,-0.4,Stay Together for the Kids,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,24,13,29,3,1
+2024-12-27,30,+10,40,True,False,43,-0.46,Please Take Me Home,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,24,9,30,3,1
+2024-12-27,31,+17,48,True,False,42,-0.42,Roller Coaster,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,22,10,31,3,1
+2024-12-27,32,+17,49,True,False,42,-0.42,Happy Holidays You Bastard,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,22,10,32,3,1
+2024-12-27,33,+17,50,False,False,42,-0.42,First Date,blink-182,Take Off Your Pants and Jacket,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,22,10,11,8,1
+2024-12-27,34,RE,--,False,False,42,--,Say Don't Go (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,15,9,1
+2024-12-27,35,+59,94,False,False,40,-0.05,Coma City,Green Day,Saviors,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,13,9,14,26,1
+2024-12-27,36,RE,--,False,False,38,--,Scattered,Green Day,Nimrod,5,1,5,25,3,10,250000,3000,500000,0.33,0.0,0.66,753000,38,0,0,3,20,2
+2024-12-27,37,RE,--,False,False,38,--,All the Time,Green Day,Nimrod,5,1,5,25,3,10,250000,3000,500000,0.33,0.0,0.66,753000,38,0,0,2,26,1
+2024-12-27,38,RE,--,False,False,38,--,Girl at Home (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,1,5,25,3,10,250000,3000,500000,0.33,0.0,0.66,753000,38,0,0,14,13,2
 2024-12-27,39,+53,92,False,False,35,-0.2,1981,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,11,1,32,1
-2024-12-27,40,RE,--,False,False,34,--,Lips of an Angel,Hinder,Extreme Behavior,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,24,11,19,2
+2024-12-27,40,RE,--,False,False,34,--,Lips of an Angel,Hinder,Extreme Behavior,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,24,11,19,1
 2024-12-27,41,RE,--,False,False,33,--,Saviors,Green Day,Saviors,3,1,3,15,3,6,150000,3000,300000,0.33,0.01,0.66,453000,24,0,9,7,23,3
-2024-12-27,42,+2,44,False,False,33,-0.55,Would You Be So Kind,dodie,You - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,23,0,6,14,1
-2024-12-27,43,+52,95,False,False,32,-0.24,The American Dream Is Killing Me,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,9,3,31,1
-2024-12-27,44,RE,--,False,False,31,--,Shake It Off (Taylor's Version),Taylor Swift,1989 (Taylor's Version),4,1,4,20,3,8,200000,3000,400000,0.33,0.0,0.66,603000,31,0,0,1,37,3
-2024-12-27,45,RE,--,False,False,28,--,Wonderland (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,10,10,9,1
-2024-12-27,46,RE,--,False,False,27,--,Goodnight Adeline,Green Day,Saviors,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,9,16,26,1
-2024-12-27,47,RE,--,False,False,26,--,ก้อนหินกับดวงดาว (Rock & Star) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Fourth,ก้อนหินกับดวงดาว (Rock & Star) - Single,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,39,4,1
-2024-12-27,48,RE,--,False,False,26,--,เพลงรัก (Hook) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Gemini,เพลงรัก (Hook) - Single,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,40,4,1
-2024-12-27,49,+30,79,False,False,25,-0.5,Espresso,Sabrina Carpenter,Espresso,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,15,0,27,9,1
-2024-12-27,50,+35,85,False,False,25,-0.5,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,15,0,1,104,2
+2024-12-27,42,+1,43,False,False,33,-0.55,Would You Be So Kind,dodie,You - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,23,0,6,15,1
+2024-12-27,43,+52,95,False,False,32,-0.24,Dilemma,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,9,7,41,1
+2024-12-27,44,+52,96,False,False,32,-0.24,The American Dream Is Killing Me,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,9,3,29,1
+2024-12-27,45,RE,--,False,False,31,--,Shake It Off (Taylor's Version),Taylor Swift,1989 (Taylor's Version),4,1,4,20,3,8,200000,3000,400000,0.33,0.0,0.66,603000,31,0,0,1,37,3
+2024-12-27,46,RE,--,False,False,28,--,Wonderland (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,10,10,9,1
+2024-12-27,47,RE,--,False,False,27,--,Goodnight Adeline,Green Day,Saviors,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,9,16,26,1
+2024-12-27,48,RE,--,False,False,26,--,ก้อนหินกับดวงดาว (Rock & Star) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Fourth,ก้อนหินกับดวงดาว (Rock & Star) - Single,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,40,4,1
+2024-12-27,49,RE,--,False,False,26,--,เพลงรัก (Hook) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Gemini,เพลงรัก (Hook) - Single,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,41,2,1
+2024-12-27,50,+35,85,False,False,25,-0.5,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,15,0,1,101,2
 2024-12-27,51,RE,--,True,False,24,--,Dirty Little Secret,The All-American Rejects,Move Along,3,1,3,15,3,6,150000,3000,300000,0.33,0.01,0.66,453000,24,0,0,51,3,1
 2024-12-27,52,RE,--,False,False,24,--,She's So Mean,Matchbox Twenty,North (Deluxe Edition),3,1,3,15,3,6,150000,3000,300000,0.33,0.01,0.66,453000,24,0,0,4,37,1
 2024-12-27,53,RE,--,False,False,21,--,Low,Kelly Clarkson,Thankful,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,11,3,14,1
-2024-12-27,54,RE,--,False,False,19,--,Fancy Sauce,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,9,37,12,1
-2024-12-27,55,RE,--,False,False,19,--,Living in the '20s,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,9,30,13,1
-2024-12-27,56,RE,--,False,False,19,--,Strange Days Are Here to Stay,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,9,19,24,2
-2024-12-27,57,RE,--,False,False,19,--,One Eyed Bastard,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,9,5,30,1
-2024-12-27,58,RE,--,False,False,19,--,Bobby Sox,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,9,1,34,1
-2024-12-27,59,RE,--,False,False,19,--,Daydreamin',Ariana Grande,Yours Truly,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,9,13,4,1
-2024-12-27,60,NEW,--,True,False,18,--,It Might Be You (เธอก็พอ) (เพลงประกอบซีรีส์ บทกวีของปีแสง Be My Favorite),Fluke Gawin,It Might Be You (เธอก็พอ) - Single,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,60,1,1
-2024-12-27,61,NEW,--,True,False,18,--,สิ่งเดียวที่ไม่ยอม (Unable) [เพลงประกอบซีรีส์ บทกวีของปีแสง Be My Favorite],Fluke Gawin,สิ่งเดียวที่ไม่ยอม (Unable) - Single,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,61,1,1
-2024-12-27,62,RE,--,False,False,18,--,Absolutely Smitten,dodie,Intertwined - EP,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,2,28,1
-2024-12-27,63,NEW,--,True,False,18,--,ย้อนเวลา (REDO) [เพลงประกอบซีรีส์ บทกวีของปีแสง Be My Favorite],Krist,ย้อนเวลา (REDO) - Single,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,63,1,1
-2024-12-27,64,RE,--,False,False,18,--,You Are in Love (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,13,10,1
-2024-12-27,65,RE,--,False,False,18,--,Bad Blood (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,9,12,1
-2024-12-27,66,NEW,--,True,False,18,--,นานตลอดกาล (We Are Forever) (เพลงประกอบซีรีส์ We Are คือเรารักกัน),Phuwin,นานตลอดกาล (We Are Forever) - Single,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,66,1,1
-2024-12-27,67,NEW,--,True,False,18,--,แอบเพื่อน (Hidden Love) (เพลงประกอบซีรีส์ We Are คือเรารักกัน),Marc Natarit,แอบเพื่อน (Hidden Love) - Single,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,67,1,1
-2024-12-27,68,NEW,--,True,False,18,--,แค่ในวันนั้น (Truth in the Eyes) (เพลงประกอบซีรีส์ We Are คือเรารักกัน),Pond Naravit,แค่ในวันนั้น (Truth in the Eyes) - Single,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,68,1,1
-2024-12-27,69,NEW,--,True,False,18,--,คิดถึงฉันใช่ป่ะ (Missing Me?) (เพลงประกอบซีรีส์ We Are คือเรารักกัน),Winny Thanawin,คิดถึงฉันใช่ป่ะ (Missing Me?) - Single,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,69,1,1
-2024-12-27,70,NEW,--,True,False,18,--,หมดมุก (Jokester) (เพลงประกอบซีรีส์ We Are คือเรารักกัน),Aou Thanaboon,หมดมุก (Jokester) - Single,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,70,1,1
-2024-12-27,71,NEW,--,True,False,18,--,เรามีเรา (WE ARE) (เพลงประกอบซีรีส์ We Are คือเรารักกัน),Pond Naravit,เรามีเรา (WE ARE) - Single,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,71,1,1
-2024-12-27,72,RE,--,False,False,18,--,Dance Again,Jennifer Lopez,Dance Again...The Hits,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,37,2,1
-2024-12-27,73,RE,--,False,False,10,--,พูดได้ไหม (Let Me Tell You) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Fourth,พูดได้ไหม (Let Me Tell You) - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,42,2,1
-2024-12-27,74,RE,--,False,False,10,--,เพื่อนเล่น ไม่เล่นเพื่อน (Cover Version) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Fourth,เพื่อนเล่น ไม่เล่นเพื่อน (Cover Version) - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,31,5,1
-2024-12-27,75,RE,--,False,False,10,--,อยากร้องดังดัง (Cover Version) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Fourth,อยากร้องดังดัง (Cover Version) - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,34,4,1
+2024-12-27,54,RE,--,False,False,19,--,Living in the '20s,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,9,30,13,1
+2024-12-27,55,RE,--,False,False,19,--,Strange Days Are Here to Stay,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,9,19,24,1
+2024-12-27,56,RE,--,False,False,19,--,One Eyed Bastard,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,9,5,28,1
+2024-12-27,57,RE,--,False,False,19,--,Bobby Sox,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,9,1,34,1
+2024-12-27,58,RE,--,False,False,19,--,Daydreamin',Ariana Grande,Yours Truly,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,9,13,5,1
+2024-12-27,59,NEW,--,True,False,18,--,It Might Be You (เธอก็พอ) (เพลงประกอบซีรีส์ บทกวีของปีแสง Be My Favorite),Fluke Gawin,It Might Be You (เธอก็พอ) - Single,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,59,1,1
+2024-12-27,60,NEW,--,True,False,18,--,สิ่งเดียวที่ไม่ยอม (Unable) [เพลงประกอบซีรีส์ บทกวีของปีแสง Be My Favorite],Fluke Gawin,สิ่งเดียวที่ไม่ยอม (Unable) - Single,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,60,1,1
+2024-12-27,61,RE,--,False,False,18,--,Absolutely Smitten,dodie,Intertwined - EP,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,2,27,1
+2024-12-27,62,NEW,--,True,False,18,--,ย้อนเวลา (REDO) [เพลงประกอบซีรีส์ บทกวีของปีแสง Be My Favorite],Krist,ย้อนเวลา (REDO) - Single,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,62,1,1
+2024-12-27,63,RE,--,False,False,18,--,You Are in Love (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,14,10,1
+2024-12-27,64,RE,--,False,False,18,--,Bad Blood (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,9,12,1
+2024-12-27,65,NEW,--,True,False,18,--,นานตลอดกาล (We Are Forever) (เพลงประกอบซีรีส์ We Are คือเรารักกัน),Phuwin,นานตลอดกาล (We Are Forever) - Single,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,65,1,1
+2024-12-27,66,NEW,--,True,False,18,--,แอบเพื่อน (Hidden Love) (เพลงประกอบซีรีส์ We Are คือเรารักกัน),Marc Natarit,แอบเพื่อน (Hidden Love) - Single,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,66,1,1
+2024-12-27,67,NEW,--,True,False,18,--,แค่ในวันนั้น (Truth in the Eyes) (เพลงประกอบซีรีส์ We Are คือเรารักกัน),Pond Naravit,แค่ในวันนั้น (Truth in the Eyes) - Single,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,67,1,1
+2024-12-27,68,NEW,--,True,False,18,--,คิดถึงฉันใช่ป่ะ (Missing Me?) (เพลงประกอบซีรีส์ We Are คือเรารักกัน),Winny Thanawin,คิดถึงฉันใช่ป่ะ (Missing Me?) - Single,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,68,1,1
+2024-12-27,69,NEW,--,True,False,18,--,หมดมุก (Jokester) (เพลงประกอบซีรีส์ We Are คือเรารักกัน),Aou Thanaboon,หมดมุก (Jokester) - Single,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,69,1,1
+2024-12-27,70,NEW,--,True,False,18,--,เรามีเรา (WE ARE) (เพลงประกอบซีรีส์ We Are คือเรารักกัน),Pond Naravit,เรามีเรา (WE ARE) - Single,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,70,1,1
+2024-12-27,71,RE,--,False,False,18,--,Dance Again,Jennifer Lopez,Dance Again...The Hits,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,38,2,1
+2024-12-27,72,RE,--,False,False,10,--,พูดได้ไหม (Let Me Tell You) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Fourth,พูดได้ไหม (Let Me Tell You) - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,43,2,1
+2024-12-27,73,RE,--,False,False,10,--,เพื่อนเล่น ไม่เล่นเพื่อน (Cover Version) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Fourth,เพื่อนเล่น ไม่เล่นเพื่อน (Cover Version) - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,32,5,1
+2024-12-27,74,RE,--,False,False,10,--,อยากร้องดังดัง (Cover Version) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Fourth,อยากร้องดังดัง (Cover Version) - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,35,4,1
+2024-12-27,75,RE,--,False,False,10,--,Fancy Sauce,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,37,11,1
 2024-12-27,76,RE,--,False,False,10,--,Father to a Son,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,24,11,1
-2024-12-27,77,RE,--,False,False,10,--,Suzie Chapstick,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,28,23,1
+2024-12-27,77,RE,--,False,False,10,--,Suzie Chapstick,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,28,21,1
 2024-12-27,78,RE,--,False,False,10,--,Corvette Summer,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,25,1
-2024-12-27,79,RE,--,False,False,10,--,Slut! (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,7,1
+2024-12-27,79,RE,--,False,False,10,--,Slut! (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,20,7,1
 2024-12-27,80,NEW,--,True,False,10,--,หนึ่งเดียว (Only One) [เพลงประกอบซีรีส์ เพื่อนายแค่หนึ่งเดียว Never Let Me Go],Pond Naravit,หนึ่งเดียว (Only One) - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,80,1,1
-2024-12-27,81,RE,--,False,False,10,--,invisible string,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,18,1
+2024-12-27,81,RE,--,False,False,10,--,invisible string,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,18,1
 2024-12-27,82,RE,--,False,False,10,--,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,68,4
-2024-12-27,83,RE,--,False,False,10,--,Hey Soul Sister,Train,Save Me San Francisco (Golden Gate Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,33,6,1
+2024-12-27,83,RE,--,False,False,10,--,Hey Soul Sister,Train,Save Me San Francisco (Golden Gate Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,6,1
 2024-12-27,84,NEW,--,True,False,10,--,Oh Cecilia (Breaking My Heart),The Vamps,Meet The Vamps,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,84,1,1
 2024-12-27,85,NEW,--,True,False,10,--,Summer Paradise (feat. MKTO) - Single Version,Simple Plan,Summer Paradise (feat. MKTO),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,85,1,1
 2024-12-27,86,NEW,--,True,False,10,--,Summer Paradise (feat. Sean Paul) - Single Version,Simple Plan,Summer Paradise,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,86,1,1
-2024-12-27,87,RE,--,False,False,10,--,Birth,ARTMS,<Pre 1 : Birth>,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,7,1
-2024-12-27,88,RE,--,False,False,10,--,HUMAN,dodie,Human,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,45,1
+2024-12-27,87,RE,--,False,False,10,--,Birth,ARTMS,<Pre 1 : Birth>,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,7,1
+2024-12-27,88,RE,--,False,False,10,--,HUMAN,dodie,Human,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,46,1
 2024-12-27,89,RE,--,False,False,10,--,Blood - Hidden Track,My Chemical Romance,The Black Parade,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,24,9,1
 2024-12-27,90,NEW,--,True,False,10,--,APT.,Rosé,rosie,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,90,1,1
-2024-12-27,91,RE,--,False,False,10,--,I Gotta Feeling,Black Eyed Peas,The E.N.D. (The Energy Never Dies) [Deluxe Version],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,5,1
-2024-12-27,92,RE,--,False,False,10,--,I Want You to Know,Zedd,True Colors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,14,1
+2024-12-27,91,RE,--,False,False,10,--,I Gotta Feeling,Black Eyed Peas,The E.N.D. (The Energy Never Dies) [Deluxe Version],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,5,1
+2024-12-27,92,RE,--,False,False,10,--,I Want You to Know,Zedd,True Colors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,13,1
 2024-12-27,93,RE,--,False,False,10,--,Hot n Cold,Katy Perry,One of the Boys,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,14,1
 2024-12-27,94,RE,--,False,False,10,--,FANCY,TWICE,FANCY YOU,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,38,1
-2024-12-27,95,RE,--,False,False,10,--,Waking Up in Vegas,Katy Perry,One of the Boys,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,28,2
+2024-12-27,95,RE,--,False,False,10,--,Waking Up in Vegas,Katy Perry,One of the Boys,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,24,1

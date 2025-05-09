@@ -1,13 +1,13 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2025-05-09,1,=,1,True,True,320,-0.51,Can't Keep My Hands Off You (feat. Rivers Cuomo),Simple Plan,Get Your Heart On! (Deluxe Edition),15,15,1,75,45,2,750000,45000,100000,0.84,0.05,0.11,895000,122,198,0,1,2,2
-2025-05-09,2,=,2,True,True,194,-0.56,May These Noises Startle You in Your Sleep Tonight,Pierce the Veil,Collide With the Sky,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,133,19,2,5,2
-2025-05-09,3,=,3,True,True,192,-0.56,Hell Above,Pierce the Veil,Collide With the Sky,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,131,19,3,5,2
-2025-05-09,4,+3,7,False,False,186,-0.43,2 hands,Tate McRae,So Close to What,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,98,78,1,9,2
-2025-05-09,5,+1,6,False,False,183,-0.44,Sports car,Tate McRae,So Close to What,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,99,74,1,9,4
-2025-05-09,6,-2,4,False,False,183,-0.56,I'm Low on Gas and You Need a Jacket,Pierce the Veil,Collide With the Sky,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,126,15,4,5,1
-2025-05-09,7,-2,5,False,False,176,-0.57,Tangled in the Great Escape,Pierce the Veil,Collide With the Sky,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,123,11,5,4,1
-2025-05-09,8,+1,9,True,True,148,-0.52,bloodonmyhands (feat. Flo Milli),Tate McRae,So Close to What,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,93,45,8,4,3
-2025-05-09,9,-1,8,False,False,142,-0.55,I know love (feat. The Kid LAROI),Tate McRae,So Close to What,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,96,36,8,4,1
-2025-05-09,10,=,10,True,True,131,-0.55,Hold On Till May,Pierce the Veil,Collide With the Sky,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,89,0,10,2,2
-2025-05-09,11,RE,--,True,False,82,--,Summer Paradise (feat. Sean Paul) - Single Version,Simple Plan,Get Your Heart On! (Deluxe Edition),10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,0,11,2,1
-2025-05-09,12,+41,53,True,False,38,-0.33,Siren sounds (bonus),Tate McRae,So Close to What,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,18,10,12,3,1
+2025-05-09,2,=,2,True,True,220,-0.52,Summer Paradise (feat. Sean Paul) - Single Version,Simple Plan,Get Your Heart On! (Deluxe Edition),10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,138,0,2,3,2
+2025-05-09,3,=,3,True,True,194,-0.56,May These Noises Startle You in Your Sleep Tonight,Pierce the Veil,Collide With the Sky,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,133,19,3,5,2
+2025-05-09,4,=,4,True,True,192,-0.56,Hell Above,Pierce the Veil,Collide With the Sky,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,131,19,4,5,2
+2025-05-09,5,+3,8,False,False,186,-0.43,2 hands,Tate McRae,So Close to What,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,98,78,1,9,2
+2025-05-09,6,+1,7,False,False,183,-0.44,Sports car,Tate McRae,So Close to What,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,99,74,1,9,4
+2025-05-09,7,-2,5,False,False,183,-0.56,I'm Low on Gas and You Need a Jacket,Pierce the Veil,Collide With the Sky,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,126,15,5,5,1
+2025-05-09,8,-2,6,False,False,176,-0.57,Tangled in the Great Escape,Pierce the Veil,Collide With the Sky,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,123,11,6,4,1
+2025-05-09,9,+1,10,False,False,148,-0.52,bloodonmyhands (feat. Flo Milli),Tate McRae,So Close to What,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,93,45,8,4,2
+2025-05-09,10,-1,9,False,False,142,-0.55,I know love (feat. The Kid LAROI),Tate McRae,So Close to What,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,96,36,9,4,2
+2025-05-09,11,=,11,True,True,131,-0.55,Hold On Till May,Pierce the Veil,Collide With the Sky,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,89,0,11,2,2
+2025-05-09,12,+42,54,True,False,38,-0.33,Siren sounds (bonus),Tate McRae,So Close to What,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,18,10,12,3,1

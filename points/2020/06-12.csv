@@ -1,9 +1,9 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2020-06-12,1,=,1,True,True,30,0.11,Valkyrie,ONEUS,LIGHT US,2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,9,4,1,4,2
-2020-06-12,2,+17,19,True,False,26,0.62,WONDERLAND,ATEEZ,TREASURE EP.FIN: All To Action,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,5,3,2,4,1
+2020-06-12,1,+7,8,True,False,29,0.32,WONDERLAND,ATEEZ,TREASURE EP.FIN: All To Action,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,7,4,1,4,1
+2020-06-12,2,-1,1,False,False,30,0.11,Valkyrie,ONEUS,LIGHT US,2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,9,4,1,4,1
 2020-06-12,3,RE,--,True,False,18,--,Woman Like Me (feat. Nicki Minaj),Little Mix,Woman Like Me (feat. Nicki Minaj),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,3,1,1
 2020-06-12,4,+2,6,True,False,18,-0.31,MORE & MORE,TWICE,MORE & MORE,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,4,2,1
-2020-06-12,5,+6,11,True,False,16,-0.11,Butterflies,Zendaya,Zendaya,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,0,5,2,1
+2020-06-12,5,+7,12,True,False,16,-0.11,Butterflies,Zendaya,Zendaya,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,0,5,2,1
 2020-06-12,6,+19,25,True,False,15,0.07,HIT,Seventeen,An Ode,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,5,0,6,4,1
 2020-06-12,7,+13,20,True,False,15,0.07,A.D.I.D.A.S.,Little Mix,Get Weird (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,5,0,7,3,1
 2020-06-12,8,+21,29,True,False,14,0.17,FINGERTIP,GFRIEND,GFRIEND The 4th Mini Album 'THE AWAKENING',1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,4,0,8,3,1
@@ -16,21 +16,21 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2020-06-12,15,RE,--,True,False,12,--,ICY,ITZY,IT'z ICY,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,15,2,1
 2020-06-12,16,RE,--,True,False,12,--,Deja Vu,Dreamcatcher,Raid of Dream,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,16,3,1
 2020-06-12,17,RE,--,True,False,10,--,Blank Space,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,3,1
-2020-06-12,18,RE,--,True,False,10,--,Sweet Crazy Love,LOOΠΔ / ODD EYE CIRCLE,Max & Match,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,1,1
-2020-06-12,19,RE,--,True,False,10,--,CLAP,Seventeen,SEVENTEEN 2ND ALBUM 'TEEN AGE',1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,19,1,1
-2020-06-12,20,RE,--,False,False,10,--,Strawberry Shortcake,Melanie Martinez,K-12,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,2,1
-2020-06-12,21,RE,--,True,False,10,--,TiK ToK,Kesha,Animal (Expanded Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,1,1
-2020-06-12,22,RE,--,True,False,10,--,Sucker For Pain (with Wiz Khalifa Imagine Dragons Logic & Ty Dolla $ign feat. X Ambassadors),Lil Wayne,Sucker For Pain (with Logic & Ty Dolla $ign feat. X Ambassadors),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,1,1
+2020-06-12,18,NEW,--,True,False,10,--,Sweet Crazy Love,LOOΠΔ / ODD EYE CIRCLE,Max & Match,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,1,1
+2020-06-12,19,NEW,--,True,False,10,--,CLAP,Seventeen,SEVENTEEN 2ND ALBUM 'TEEN AGE',1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,19,1,1
+2020-06-12,20,RE,--,False,False,10,--,Strawberry Shortcake,Melanie Martinez,K-12,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,2,1
+2020-06-12,21,NEW,--,True,False,10,--,TiK ToK,Kesha,Animal (Expanded Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,1,1
+2020-06-12,22,NEW,--,True,False,10,--,Sucker For Pain (with Wiz Khalifa Imagine Dragons Logic & Ty Dolla $ign feat. X Ambassadors),Lil Wayne,Sucker For Pain (with Logic & Ty Dolla $ign feat. X Ambassadors),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,1,1
 2020-06-12,23,RE,--,True,False,10,--,Red Dress,Red Velvet,The Red - The 1st Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,2,1
 2020-06-12,24,RE,--,True,False,10,--,Bad Boy,Red Velvet,The Perfect Red Velvet - The 2nd Album Repackage,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,24,2,1
-2020-06-12,25,RE,--,True,False,10,--,Rumor,H.I.N.P (Hot Issue of Ntl. Producers),Produce 48 - 30 Girls 6 Concepts,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,25,1,1
-2020-06-12,26,RE,--,True,False,10,--,Gotta Go,CHUNG HA,Gotta Go,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,26,1,1
+2020-06-12,25,NEW,--,True,False,10,--,Rumor,H.I.N.P (Hot Issue of Ntl. Producers),Produce 48 - 30 Girls 6 Concepts,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,25,1,1
+2020-06-12,26,NEW,--,True,False,10,--,Gotta Go,CHUNG HA,Gotta Go,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,26,1,1
 2020-06-12,27,RE,--,True,False,10,--,Complicated,Avril Lavigne,Let Go,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,27,2,1
-2020-06-12,28,RE,--,False,False,10,--,Never Really Over,Katy Perry,Never Really Over,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,4,1
+2020-06-12,28,RE,--,False,False,10,--,Never Really Over,Katy Perry,Never Really Over,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,4,1
 2020-06-12,29,RE,--,True,False,10,--,Shower,Becky G,Shower,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,29,2,1
 2020-06-12,30,RE,--,True,False,10,--,dal segno,이달의 소녀 yyxy,beauty&thebeat,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,30,1,1
-2020-06-12,31,RE,--,True,False,10,--,Get It,PRISTIN V,Like a V,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,31,1,1
-2020-06-12,32,RE,--,True,False,10,--,Boomerang,The Summer Set,Legendary,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,32,1,1
-2020-06-12,33,RE,--,True,False,10,--,If I Had You,Adam Lambert,For Your Entertainment,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,33,1,1
-2020-06-12,34,RE,--,True,False,10,--,Feel This Moment (feat. Christina Aguilera),Pitbull,Global Warming: Meltdown (Deluxe Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,34,1,1
-2020-06-12,35,RE,--,False,False,10,--,In & Out,Red Velvet,‘The ReVe Festival’ Finale,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,2,1
+2020-06-12,31,NEW,--,True,False,10,--,Get It,PRISTIN V,Like a V,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,31,1,1
+2020-06-12,32,NEW,--,True,False,10,--,Boomerang,The Summer Set,Legendary,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,32,1,1
+2020-06-12,33,NEW,--,True,False,10,--,If I Had You,Adam Lambert,For Your Entertainment,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,33,1,1
+2020-06-12,34,NEW,--,True,False,10,--,Feel This Moment (feat. Christina Aguilera),Pitbull,Global Warming: Meltdown (Deluxe Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,34,1,1
+2020-06-12,35,RE,--,False,False,10,--,In & Out,Red Velvet,‘The ReVe Festival’ Finale,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,28,2,1

@@ -1,101 +1,101 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2022-02-11,1,=,1,True,True,108,0.37,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,24,18,1,11,6
-2022-02-11,2,RE,--,True,False,77,--,MOONLIGHT,TWICE,Formula of Love: O+T=<3,10,7,3,50,21,6,500000,21000,300000,0.61,0.03,0.37,821000,77,0,0,2,2,1
-2022-02-11,3,+14,17,False,False,73,0.78,She,dodie,Human,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,13,10,2,8,1
-2022-02-11,4,+14,18,False,False,62,0.55,Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,12,8,2,14,1
-2022-02-11,5,+27,32,False,False,62,1.0,If I'm Being Honest,dodie,Human,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,10,10,4,9,1
-2022-02-11,6,+16,22,False,False,62,0.77,Forever Winter (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,11,9,1,14,8
-2022-02-11,7,+24,31,False,False,61,0.97,The Story of Us,Taylor Swift,Speak Now (Deluxe Package),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,10,9,5,13,1
-2022-02-11,8,+26,34,False,False,60,1.14,HUMAN,dodie,Human,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,9,9,5,14,1
-2022-02-11,9,-7,2,False,False,57,-0.2,Funeral,Phoebe Bridgers,Stranger in the Alps (Deluxe Edition),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,22,9,2,3,1
-2022-02-11,10,+10,20,False,False,54,0.38,Feel Special,TWICE,Feel Special,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,12,0,4,19,1
-2022-02-11,11,+2,13,False,False,54,0.17,YES or YES,TWICE,YES or YES,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,14,6,2,11,1
-2022-02-11,12,+9,21,False,False,54,0.5,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,11,9,7,11,1
-2022-02-11,13,+53,66,False,False,52,1.26,Come Back...Be Here (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,3,3,25,9,6,250000,9000,300000,0.45,0.02,0.54,559000,40,7,5,12,10,1
-2022-02-11,14,-10,4,False,False,51,-0.09,Heart Shaker,TWICE,Merry & Happy,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,17,0,4,6,1
-2022-02-11,15,-8,7,False,False,51,0.02,All I Want,Olivia Rodrigo,High School Musical: The Musical: The Series (Original Soundtrack),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,15,10,3,4,1
-2022-02-11,16,RE,--,True,True,49,--,burned out,dodie,Human,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,7,16,5,2
-2022-02-11,17,-5,12,False,False,48,0.04,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,14,8,7,12,1
-2022-02-11,18,+15,33,False,False,48,0.66,Heart Attack (츄),Loona,Chuu,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,9,5,10,13,1
-2022-02-11,19,RE,--,False,False,46,--,Guiltless,dodie,Guiltless,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,4,5,10,1
-2022-02-11,20,RE,--,True,False,46,--,Liability,Lorde,Melodrama,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,4,20,9,1
-2022-02-11,21,+4,25,False,False,45,0.29,FANCY,TWICE,FANCY YOU,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,11,0,1,13,1
-2022-02-11,22,+1,23,False,False,44,0.26,Sad Beautiful Tragic (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,11,7,6,13,1
-2022-02-11,23,-15,8,False,False,42,-0.14,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,15,9,3,11,3
-2022-02-11,24,RE,--,True,True,40,--,Talk to Me,Red Velvet,Rookie - The 4th Mini Album,5,3,3,25,9,6,250000,9000,300000,0.45,0.02,0.54,559000,40,0,0,24,3,2
-2022-02-11,25,+69,94,True,False,39,1.17,WA DA DA,Kep1er,FIRST IMPACT,4,3,2,20,9,4,200000,9000,200000,0.49,0.02,0.49,409000,33,6,0,25,2,1
-2022-02-11,26,-12,14,False,False,39,-0.07,I Bet You Think About Me (feat. Chris Stapleton) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,13,8,2,14,3
-2022-02-11,27,-8,19,False,False,38,-0.05,LIKEY,TWICE,twicetagram,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,12,0,2,7,1
-2022-02-11,28,+53,81,False,False,38,0.81,State of Grace (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,7,5,5,9,1
-2022-02-11,29,-13,16,False,False,37,-0.1,Funeral (feat. James Bay),Maisie Peters,Trying: Season 2 (Apple TV+ Original Series Soundtrack),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,13,6,16,4,1
-2022-02-11,30,-6,24,False,False,35,0.0,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,11,6,4,10,1
-2022-02-11,31,-4,27,False,False,36,0.06,Psycho,Red Velvet,‘The ReVe Festival’ Finale,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,11,7,7,14,1
-2022-02-11,32,RE,--,True,False,34,--,NAVILLERA,GFRIEND,GFriend The 1st Album 'LOL',4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,32,2,1
-2022-02-11,33,RE,--,False,False,34,--,Happy,WJSN,Happy Moment,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,1,12,1
-2022-02-11,34,RE,--,False,False,34,--,love4eva (feat. Grimes),LOONA/yyxy,beauty&thebeat,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,16,3,1
-2022-02-11,35,RE,--,False,False,34,--,La Vie en Rose,IZ*ONE,COLOR*IZ,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,8,7,1
-2022-02-11,36,RE,--,False,False,34,--,The Louvre,Lorde,Melodrama,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,5,8,1
-2022-02-11,37,RE,--,False,False,34,--,Into You,Ariana Grande,Dangerous Woman,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,5,16,1
-2022-02-11,38,RE,--,True,False,34,--,PITAPAT (DKDK),fromis_9,To. Day,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,38,5,1
-2022-02-11,39,RE,--,True,False,34,--,VERY NICE,Seventeen,Love&Letter Repackage Album,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,39,2,1
-2022-02-11,40,RE,--,True,False,34,--,Roller Coaster,CHUNG HA,Offset,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,40,2,1
-2022-02-11,41,RE,--,True,False,34,--,LOVE BOMB,fromis_9,From.9,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,41,2,1
-2022-02-11,42,RE,--,False,False,34,--,RAINBOW,TWICE,Feel Special,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,11,10,1
-2022-02-11,43,RE,--,False,False,34,--,I Want You to Know,Zedd,True Colors,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,8,7,1
-2022-02-11,44,-39,5,False,False,34,-0.36,반드시 웃는다 I Smile,DAY6,SUNRISE,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,16,0,5,2,1
-2022-02-11,45,RE,--,False,False,34,--,Hi High,Loona,[+ +],4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,2,11,1
-2022-02-11,46,RE,--,True,False,33,--,XO,Beyoncé,Beyoncé,4,3,2,20,9,4,200000,9000,200000,0.49,0.02,0.49,409000,33,0,0,46,2,1
-2022-02-11,47,RE,--,False,False,33,--,Perfect World,TWICE,Perfect World,4,3,2,20,9,4,200000,9000,200000,0.49,0.02,0.49,409000,33,0,0,7,4,1
-2022-02-11,48,-42,6,False,False,32,-0.36,놓아 놓아 놓아 Letting Go,DAY6,DAYDREAM,2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,15,0,6,3,1
-2022-02-11,49,-34,15,False,False,32,-0.22,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,9,2,12,1
-2022-02-11,50,+5,55,False,False,32,0.28,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,6,21,10,2
-2022-02-11,51,-15,36,False,False,32,0.23,Shake It Off,Taylor Swift,1989 (Deluxe),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,6,13,11,1
-2022-02-11,52,+10,62,False,False,31,0.29,The Moment I Knew (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,5,6,11,1
-2022-02-11,53,RE,--,False,False,30,--,Happier Than Ever,Billie Eilish,Happier Than Ever,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,4,2,6,1
-2022-02-11,54,-43,11,False,False,30,-0.38,Bad Boy,Red Velvet,The Perfect Red Velvet - The 2nd Album Repackage,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,15,5,8,16,1
-2022-02-11,55,RE,--,False,False,30,--,You Are in Love,Taylor Swift,1989 (Deluxe),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,4,14,14,1
-2022-02-11,56,RE,--,False,False,29,--,Still Into You,Paramore,Paramore,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,3,6,10,1
-2022-02-11,57,+12,69,False,False,28,0.22,Body Talk,Red Velvet,Rookie - The 4th Mini Album,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,7,3,6,9,1
-2022-02-11,58,RE,--,False,False,26,--,Me Gustas Tu,GFRIEND,GFriend 2nd Mini Album 'Flower Bud',3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,11,4,1
-2022-02-11,59,RE,--,True,False,26,--,Not Friends (Sung by HeeJin Kim Lip JinSoul Yves) (Prod. RYAN JHUN),Loona,MAXIS BY RYAN JHUN PT. 2,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,59,1,1
-2022-02-11,60,RE,--,True,False,26,--,I'm So Pretty,Nature,I'm So Pretty,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,60,1,1
-2022-02-11,61,RE,--,True,False,26,--,OOPSIE (My Bad),Nature,NATURE WORLD: CODE A,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,61,1,1
-2022-02-11,62,RE,--,False,False,26,--,Girls,Nature,NATURE WORLD: CODE M,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,15,3,1
-2022-02-11,63,RE,--,False,False,26,--,Oh! my mistake,April,APRIL 6th Mini Album 'the Ruby',3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,12,3,1
-2022-02-11,64,RE,--,False,False,26,--,I WANT YOU BACK,TWICE,BDZ,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,45,2,1
-2022-02-11,65,RE,--,False,False,26,--,Chewing Gum,NCT DREAM,Chewing Gum,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,1,6,1
-2022-02-11,66,RE,--,False,False,26,--,TOUCH,NCT,NCT 2018 EMPATHY,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,9,6,1
-2022-02-11,67,RE,--,False,False,26,--,Perfect Love,Loona,[+ +],3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,6,4,1
-2022-02-11,68,RE,--,False,False,26,--,Oh My!,Seventeen,SEVENTEEN 5TH MINI ALBUM 'YOU MAKE MY DAY',3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,5,4,1
-2022-02-11,69,RE,--,False,False,26,--,Valentine Girl,LOOΠΔ 1/3,Love & Evil,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,13,2,1
-2022-02-11,70,RE,--,False,False,26,--,Enchanted,Taylor Swift,Speak Now (Deluxe Package),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,17,2,1
-2022-02-11,71,RE,--,False,False,26,--,Marvin Gaye (feat. Meghan Trainor),Charlie Puth,Nine Track Mind,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,5,3,1
-2022-02-11,72,RE,--,False,False,26,--,Dear Future Husband,Meghan Trainor,Title (Deluxe),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,4,6,1
-2022-02-11,73,RE,--,False,False,26,--,마지막 첫사랑 My First and Last,NCT DREAM,The First - The 1st Single Album,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,13,5,1
-2022-02-11,74,RE,--,False,False,26,--,Mary's Song (Oh My My My),Taylor Swift,Taylor Swift,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,20,9,2
-2022-02-11,75,RE,--,False,False,26,--,Today Was a Fairytale (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,16,6,1
-2022-02-11,76,RE,--,False,False,26,--,SAY YOU LOVE ME,TWICE,YES or YES,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,8,8,1
-2022-02-11,77,RE,--,False,False,26,--,I Think He Knows,Taylor Swift,Lover,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,1,6,1
-2022-02-11,78,RE,--,False,False,26,--,LOONATIC,LOOΠΔ / ODD EYE CIRCLE,Max & Match,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,48,5,1
-2022-02-11,79,RE,--,False,False,26,--,A Year Without Rain,Selena Gomez & the Scene,A Year Without Rain (International Standard Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,6,8,1
-2022-02-11,80,RE,--,False,False,26,--,KeePer (Prod. PARK KYUNG),THE BOYZ,KeePer (Prod. PARK KYUNG),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,7,2,1
-2022-02-11,81,RE,--,False,False,26,--,Our Song,Taylor Swift,Taylor Swift,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,50,2,1
-2022-02-11,82,-45,37,False,False,26,0.0,Sweet Crazy Love,LOOΠΔ / ODD EYE CIRCLE,Max & Match,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,6,6,1
-2022-02-11,83,RE,--,False,False,26,--,Love Cherry Motion,Loona,Choerry,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,6,3,1
-2022-02-11,84,RE,--,False,False,26,--,Everyday I Love You,Loona,ViVi,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,12,2,1
-2022-02-11,85,-47,38,False,False,26,0.0,I CAN'T STOP ME,TWICE,Eyes wide open,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,12,6,1
-2022-02-11,86,RE,--,False,False,26,--,CHEER UP,TWICE,PAGE TWO,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,12,8,1
-2022-02-11,87,-34,53,False,False,26,0.0,BETTER,TWICE,Better,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,9,4,1
-2022-02-11,88,RE,--,False,False,26,--,Lion Heart,소녀시대,Lion Heart - The 5th Album,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,1,5,1
-2022-02-11,89,-32,57,False,False,26,0.04,Dangerous Woman,Ariana Grande,Dangerous Woman,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,14,10,1
-2022-02-11,90,-27,63,False,False,26,0.08,Physical,Dua Lipa,Future Nostalgia,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,12,11,1
-2022-02-11,91,-31,60,False,False,26,0.04,Dress,Taylor Swift,Reputation,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,5,18,1
-2022-02-11,92,RE,--,False,False,26,--,Black Magic,Little Mix,Get Weird (Expanded Edition),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,18,10,1
-2022-02-11,93,-46,47,False,False,26,0.0,Ice Cream Cake,Red Velvet,Ice Cream Cake,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,9,14,1
-2022-02-11,94,RE,--,False,False,26,--,Lover,Taylor Swift,Lover,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,41,5,1
-2022-02-11,95,RE,--,False,False,25,--,White Horse (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),3,2,2,15,6,4,150000,6000,200000,0.42,0.02,0.56,356000,25,0,0,5,10,1
-2022-02-11,96,-24,72,False,False,25,0.09,favOriTe,Loona,FavOriTe,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,7,0,8,10,1
-2022-02-11,97,-88,9,False,False,25,-0.49,Dance the Night Away,TWICE,Summer Nights,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,15,0,9,2,1
-2022-02-11,98,-22,76,False,False,25,0.14,WAP (feat. Megan Thee Stallion),Cardi B,WAP (feat. Megan Thee Stallion),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,7,0,1,16,1
-2022-02-11,99,-28,71,False,False,25,0.09,The Way I Loved You (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,7,0,2,15,1
-2022-02-11,100,-71,29,False,False,25,-0.19,Waking Up in Vegas,Katy Perry,One of the Boys,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,10,5,3,16,2
+2022-02-11,2,RE,--,True,False,104,--,I WANT YOU BACK,TWICE,I WANT YOU BACK,13,9,6,65,27,12,650000,27000,600000,0.51,0.02,0.47,1277000,104,0,0,2,2,1
+2022-02-11,3,RE,--,True,False,77,--,MOONLIGHT,TWICE,Formula of Love: O+T=<3,10,7,3,50,21,6,500000,21000,300000,0.61,0.03,0.37,821000,77,0,0,3,2,1
+2022-02-11,4,+13,17,False,False,73,0.78,She,dodie,Human,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,13,10,2,8,1
+2022-02-11,5,+13,18,False,False,62,0.55,Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,12,8,2,14,1
+2022-02-11,6,+29,35,False,False,62,1.0,If I'm Being Honest,dodie,Human,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,10,10,4,9,1
+2022-02-11,7,+17,24,False,False,62,0.77,Forever Winter (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,11,9,1,14,8
+2022-02-11,8,+26,34,False,False,61,0.97,The Story of Us,Taylor Swift,Speak Now (Deluxe Package),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,10,9,5,13,1
+2022-02-11,9,+29,38,False,False,60,1.14,HUMAN,dodie,Human,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,9,9,5,14,1
+2022-02-11,10,-8,2,False,False,57,-0.2,Funeral,Phoebe Bridgers,Stranger in the Alps (Deluxe Edition),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,22,9,2,3,1
+2022-02-11,11,+9,20,False,False,54,0.38,Feel Special,TWICE,Feel Special,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,12,0,4,19,1
+2022-02-11,12,-9,3,False,False,55,-0.18,Funeral (feat. James Bay),Maisie Peters,Funeral (feat. James Bay),3,3,2,15,9,4,150000,9000,200000,0.42,0.03,0.56,359000,28,21,6,3,4,1
+2022-02-11,13,+1,14,False,False,54,0.17,YES or YES,TWICE,YES or YES,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,14,6,2,11,1
+2022-02-11,14,+8,22,False,False,54,0.5,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,11,9,7,11,1
+2022-02-11,15,+25,40,False,False,53,0.96,Love Story (Taylor’s Version),Taylor Swift,Love Story (Taylor’s Version),5,5,2,25,15,4,250000,15000,200000,0.54,0.03,0.43,465000,44,9,0,1,25,2
+2022-02-11,16,+53,69,False,False,52,1.26,Come Back...Be Here (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,3,3,25,9,6,250000,9000,300000,0.45,0.02,0.54,559000,40,7,5,13,10,1
+2022-02-11,17,-12,5,False,False,51,-0.09,Heart Shaker,TWICE,Merry & Happy,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,17,0,5,6,1
+2022-02-11,18,-10,8,False,False,51,0.02,All I Want,Olivia Rodrigo,High School Musical: The Musical: The Series (Original Soundtrack),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,15,10,3,4,1
+2022-02-11,19,RE,--,False,False,49,--,burned out,dodie,Human,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,7,17,5,1
+2022-02-11,20,-7,13,False,False,48,0.04,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,14,8,7,12,1
+2022-02-11,21,+16,37,False,False,48,0.66,Heart Attack (츄),Loona,Chuu,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,9,5,11,13,1
+2022-02-11,22,RE,--,False,False,46,--,Guiltless,dodie,Guiltless,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,4,5,10,1
+2022-02-11,23,RE,--,True,False,46,--,Liability,Lorde,Melodrama,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,4,23,9,1
+2022-02-11,24,+4,28,False,False,45,0.29,FANCY,TWICE,FANCY YOU,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,11,0,1,13,1
+2022-02-11,25,=,25,False,False,44,0.26,Sad Beautiful Tragic (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,11,7,7,13,1
+2022-02-11,26,-17,9,False,False,42,-0.14,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,15,9,3,11,3
+2022-02-11,27,RE,--,False,False,40,--,Talk to Me,Red Velvet,Rookie - The 4th Mini Album,5,3,3,25,9,6,250000,9000,300000,0.45,0.02,0.54,559000,40,0,0,4,3,1
+2022-02-11,28,-13,15,False,False,39,-0.07,I Bet You Think About Me (feat. Chris Stapleton) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,13,8,2,14,3
+2022-02-11,29,-10,19,False,False,38,-0.05,LIKEY,TWICE,twicetagram,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,12,0,3,7,1
+2022-02-11,30,+54,84,False,False,38,0.81,State of Grace (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,7,5,5,9,1
+2022-02-11,31,RE,--,False,False,36,--,What Is Love,TWICE,Summer Nights,4,4,2,20,12,4,200000,12000,200000,0.49,0.03,0.49,412000,36,0,0,23,4,1
+2022-02-11,32,RE,--,False,False,36,--,BUNGEE (Fall In Love),OH MY GIRL,OH MY GIRL SUMMER PACKAGE [FALL IN LOVE],4,4,2,20,12,4,200000,12000,200000,0.49,0.03,0.49,412000,36,0,0,14,4,1
+2022-02-11,33,RE,--,True,False,36,--,Candy Pop,TWICE,Candy Pop,4,4,2,20,12,4,200000,12000,200000,0.49,0.03,0.49,412000,36,0,0,33,2,1
+2022-02-11,34,-8,26,False,False,35,0.0,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,11,6,4,10,1
+2022-02-11,35,-5,30,False,False,36,0.06,Psycho,Red Velvet,‘The ReVe Festival’ Finale,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,11,7,7,14,1
+2022-02-11,36,RE,--,True,False,34,--,NAVILLERA,GFRIEND,GFriend The 1st Album 'LOL',4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,36,2,1
+2022-02-11,37,RE,--,False,False,34,--,Happy,WJSN,Happy Moment,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,2,12,2
+2022-02-11,38,RE,--,False,False,34,--,love4eva (feat. Grimes),LOONA/yyxy,beauty&thebeat,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,18,3,1
+2022-02-11,39,RE,--,False,False,34,--,La Vie en Rose,IZ*ONE,COLOR*IZ,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,8,7,1
+2022-02-11,40,RE,--,False,False,34,--,The Louvre,Lorde,Melodrama,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,6,8,1
+2022-02-11,41,RE,--,False,False,34,--,Into You,Ariana Grande,Dangerous Woman,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,5,16,1
+2022-02-11,42,RE,--,True,False,34,--,PITAPAT (DKDK),fromis_9,To. Day,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,42,4,1
+2022-02-11,43,RE,--,True,False,34,--,VERY NICE,Seventeen,Love&Letter Repackage Album,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,43,2,1
+2022-02-11,44,RE,--,True,False,34,--,Roller Coaster,CHUNG HA,Offset,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,44,2,1
+2022-02-11,45,RE,--,True,False,34,--,LOVE BOMB,fromis_9,From.9,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,45,2,1
+2022-02-11,46,RE,--,False,False,34,--,RAINBOW,TWICE,Feel Special,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,11,10,1
+2022-02-11,47,RE,--,False,False,34,--,I Want You to Know,Zedd,True Colors,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,8,7,1
+2022-02-11,48,-42,6,False,False,34,-0.36,반드시 웃는다 I Smile,DAY6,SUNRISE,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,16,0,6,2,1
+2022-02-11,49,RE,--,False,False,34,--,Hi High,Loona,[+ +],4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,3,11,1
+2022-02-11,50,RE,--,True,False,33,--,WA DA DA,Kep1er,FIRST IMPACT,4,3,2,20,9,4,200000,9000,200000,0.49,0.02,0.49,409000,33,0,0,50,1,1
+2022-02-11,51,RE,--,True,False,33,--,XO,Beyoncé,Beyoncé,4,3,2,20,9,4,200000,9000,200000,0.49,0.02,0.49,409000,33,0,0,51,2,1
+2022-02-11,52,RE,--,False,False,33,--,Perfect World,TWICE,Perfect World,4,3,2,20,9,4,200000,9000,200000,0.49,0.02,0.49,409000,33,0,0,8,4,1
+2022-02-11,53,-46,7,False,False,32,-0.36,놓아 놓아 놓아 Letting Go,DAY6,DAYDREAM,2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,15,0,7,3,1
+2022-02-11,54,-38,16,False,False,32,-0.22,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,9,2,12,1
+2022-02-11,55,+4,59,False,False,32,0.28,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,6,22,10,1
+2022-02-11,56,-15,41,False,False,32,0.23,Shake It Off,Taylor Swift,1989 (Deluxe),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,6,5,12,1
+2022-02-11,57,+8,65,False,False,31,0.29,The Moment I Knew (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,5,6,11,1
+2022-02-11,58,RE,--,False,False,30,--,Happier Than Ever,Billie Eilish,Happier Than Ever,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,4,2,6,1
+2022-02-11,59,-47,12,False,False,30,-0.38,Bad Boy,Red Velvet,The Perfect Red Velvet - The 2nd Album Repackage,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,15,5,9,16,1
+2022-02-11,60,-39,21,False,False,29,-0.26,Psycho,Maisie Peters,Psycho,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,12,7,15,3,1
+2022-02-11,61,RE,--,False,False,29,--,Still Into You,Paramore,Paramore,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,3,6,10,1
+2022-02-11,62,+10,72,False,False,28,0.22,Body Talk,Red Velvet,Rookie - The 4th Mini Album,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,7,3,6,9,1
+2022-02-11,63,RE,--,False,False,28,--,You Are in Love,Taylor Swift,1989 (Deluxe),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,2,18,11,1
+2022-02-11,64,RE,--,False,False,26,--,Me Gustas Tu,GFRIEND,GFriend 2nd Mini Album 'Flower Bud',3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,11,4,1
+2022-02-11,65,NEW,--,True,False,26,--,Not Friends (Sung by HeeJin Kim Lip JinSoul Yves) (Prod. RYAN JHUN),Loona,MAXIS BY RYAN JHUN PT. 2,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,65,1,1
+2022-02-11,66,NEW,--,True,False,26,--,I'm So Pretty,Nature,I'm So Pretty,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,66,1,1
+2022-02-11,67,NEW,--,True,False,26,--,OOPSIE (My Bad),Nature,NATURE WORLD: CODE A,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,67,1,1
+2022-02-11,68,RE,--,False,False,26,--,Girls,Nature,NATURE WORLD: CODE M,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,18,3,1
+2022-02-11,69,RE,--,False,False,26,--,Oh! my mistake,April,APRIL 6th Mini Album 'the Ruby',3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,12,3,1
+2022-02-11,70,RE,--,False,False,26,--,Chewing Gum,NCT DREAM,Chewing Gum,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,1,5,1
+2022-02-11,71,RE,--,False,False,26,--,TOUCH,NCT,NCT 2018 EMPATHY,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,9,6,1
+2022-02-11,72,RE,--,False,False,26,--,Perfect Love,Loona,[+ +],3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,6,4,1
+2022-02-11,73,RE,--,False,False,26,--,Oh My!,Seventeen,SEVENTEEN 5TH MINI ALBUM 'YOU MAKE MY DAY',3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,6,4,1
+2022-02-11,74,RE,--,False,False,26,--,Valentine Girl,LOOΠΔ 1/3,Love & Evil,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,13,2,1
+2022-02-11,75,RE,--,False,False,26,--,Enchanted,Taylor Swift,Speak Now (Deluxe Package),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,17,2,1
+2022-02-11,76,RE,--,False,False,26,--,Marvin Gaye (feat. Meghan Trainor),Charlie Puth,Nine Track Mind,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,5,3,1
+2022-02-11,77,RE,--,False,False,26,--,Dear Future Husband,Meghan Trainor,Title (Deluxe),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,4,6,1
+2022-02-11,78,RE,--,False,False,26,--,마지막 첫사랑 My First and Last,NCT DREAM,The First - The 1st Single Album,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,13,5,1
+2022-02-11,79,RE,--,False,False,26,--,Mary's Song (Oh My My My),Taylor Swift,Taylor Swift,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,20,9,1
+2022-02-11,80,RE,--,False,False,26,--,Today Was a Fairytale (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,16,6,1
+2022-02-11,81,RE,--,False,False,26,--,SAY YOU LOVE ME,TWICE,YES or YES,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,8,8,1
+2022-02-11,82,RE,--,False,False,26,--,I Think He Knows,Taylor Swift,Lover,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,1,6,1
+2022-02-11,83,RE,--,False,False,26,--,LOONATIC,LOOΠΔ / ODD EYE CIRCLE,Max & Match,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,48,5,1
+2022-02-11,84,RE,--,False,False,26,--,A Year Without Rain,Selena Gomez & the Scene,A Year Without Rain (International Standard Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,12,8,1
+2022-02-11,85,RE,--,False,False,26,--,KeePer (Prod. PARK KYUNG),THE BOYZ,KeePer (Prod. PARK KYUNG),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,10,2,1
+2022-02-11,86,RE,--,False,False,26,--,Our Song,Taylor Swift,Taylor Swift,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,50,2,1
+2022-02-11,87,-45,42,False,False,26,0.0,Sweet Crazy Love,LOOΠΔ / ODD EYE CIRCLE,Max & Match,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,6,6,1
+2022-02-11,88,RE,--,False,False,26,--,Love Cherry Motion,Loona,Choerry,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,6,3,1
+2022-02-11,89,RE,--,False,False,26,--,Everyday I Love You,Loona,ViVi,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,12,2,1
+2022-02-11,90,-47,43,False,False,26,0.0,I CAN'T STOP ME,TWICE,Eyes wide open,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,12,6,1
+2022-02-11,91,RE,--,False,False,26,--,CHEER UP,TWICE,PAGE TWO,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,12,9,1
+2022-02-11,92,-35,57,False,False,26,0.0,BETTER,TWICE,Better,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,9,4,1
+2022-02-11,93,RE,--,False,False,26,--,Lion Heart,소녀시대,Lion Heart - The 5th Album,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,1,5,1
+2022-02-11,94,-33,61,False,False,26,0.04,Dangerous Woman,Ariana Grande,Dangerous Woman,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,15,10,1
+2022-02-11,95,-29,66,False,False,26,0.08,Physical,Dua Lipa,Future Nostalgia,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,14,11,1
+2022-02-11,96,-33,63,False,False,26,0.04,Dress,Taylor Swift,Reputation,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,2,19,1
+2022-02-11,97,RE,--,False,False,26,--,Black Magic,Little Mix,Get Weird (Expanded Edition),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,11,10,1
+2022-02-11,98,-46,52,False,False,26,0.0,Ice Cream Cake,Red Velvet,Ice Cream Cake,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,2,14,1
+2022-02-11,99,RE,--,False,False,26,--,Lover,Taylor Swift,Lover,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,41,5,1
+2022-02-11,100,-64,36,False,False,26,-0.13,HIT,Seventeen,HIT,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,9,7,1,13,1

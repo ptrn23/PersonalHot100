@@ -1,13 +1,13 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2021-07-23,1,RE,--,True,False,17,--,bloodline,Ariana Grande,thank u next,2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,0,0,1,2,1
-2021-07-23,2,RE,--,True,True,12,--,happiness,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,2,14,2
+2021-07-23,2,RE,--,True,True,12,--,happiness,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,2,14,3
 2021-07-23,3,RE,--,True,True,12,--,Death by a Thousand Cuts,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,3,8,3
 2021-07-23,4,RE,--,True,False,10,--,Universe,Loona,[12:00],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,3,1
 2021-07-23,5,RE,--,True,False,10,--,Stylish,Loona,[+ +],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,3,1
 2021-07-23,6,RE,--,True,False,10,--,Perfect Love,Loona,[+ +],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,2,1
-2021-07-23,7,RE,--,False,False,10,--,열기,Loona,[+ +],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,2,1
+2021-07-23,7,RE,--,True,True,10,--,열기,Loona,[+ +],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,2,2
 2021-07-23,8,RE,--,True,False,10,--,favOriTe,Loona,[+ +],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,5,1
-2021-07-23,9,RE,--,False,False,10,--,Hi High,Loona,[+ +],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,6,1
+2021-07-23,9,RE,--,False,False,10,--,Hi High,Loona,[+ +],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,6,1
 2021-07-23,10,RE,--,True,False,10,--,+ +,Loona,[+ +],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,2,1
 2021-07-23,11,RE,--,False,False,10,--,Feel Special,TWICE,Feel Special,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,10,1
 2021-07-23,12,RE,--,True,False,10,--,BDZ,TWICE,YES or YES,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,2,1
@@ -23,7 +23,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-07-23,22,RE,--,True,False,10,--,SWEET TALKER,TWICE,What Is Love,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,1,1
 2021-07-23,23,RE,--,True,False,10,--,What Is Love,TWICE,What Is Love,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,2,1
 2021-07-23,24,RE,--,False,False,10,--,Into You,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,10,1
-2021-07-23,25,RE,--,False,False,10,--,break up with your girlfriend i'm bored,Ariana Grande,thank u next,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,24,5,1
+2021-07-23,25,RE,--,True,False,10,--,break up with your girlfriend i'm bored,Ariana Grande,thank u next,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,25,5,1
 2021-07-23,26,RE,--,True,False,10,--,thank u next,Ariana Grande,thank u next,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,26,2,1
 2021-07-23,27,RE,--,True,False,10,--,7 rings,Ariana Grande,thank u next,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,27,2,1
 2021-07-23,28,RE,--,True,False,10,--,in my head,Ariana Grande,thank u next,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,28,2,1
@@ -37,21 +37,21 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-07-23,36,NEW,--,True,False,10,--,Wild Side (feat. Cardi B),Normani,Wild Side (feat. Cardi B),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,36,1,1
 2021-07-23,37,NEW,--,True,False,10,--,Stoned at the Nail Salon,Lorde,Stoned at the Nail Salon,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,37,1,1
 2021-07-23,38,RE,--,False,False,10,--,hoax,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,8,1
-2021-07-23,39,RE,--,False,False,10,--,peace,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,8,2
+2021-07-23,39,RE,--,False,False,10,--,peace,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,8,1
 2021-07-23,40,RE,--,False,False,10,--,betty,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,6,1
-2021-07-23,41,RE,--,False,False,10,--,epiphany,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,6,1
+2021-07-23,41,RE,--,False,False,10,--,epiphany,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,6,1
 2021-07-23,42,RE,--,False,False,10,--,mad woman,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,8,1
-2021-07-23,43,RE,--,False,False,10,--,invisible string,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,7,1
+2021-07-23,43,RE,--,False,False,10,--,invisible string,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,7,1
 2021-07-23,44,RE,--,False,False,10,--,illicit affairs,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,11,3
 2021-07-23,45,RE,--,False,False,10,--,this is me trying,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,7,1
 2021-07-23,46,RE,--,False,False,10,--,august,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,8,1
 2021-07-23,47,RE,--,False,False,10,--,seven,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,7,1
 2021-07-23,48,RE,--,False,False,10,--,mirrorball,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,8,1
-2021-07-23,49,RE,--,False,False,10,--,my tears ricochet,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,9,1
-2021-07-23,50,RE,--,False,False,10,--,exile (feat. Bon Iver),Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,7,1
+2021-07-23,49,RE,--,False,False,10,--,my tears ricochet,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,9,2
+2021-07-23,50,RE,--,False,False,10,--,exile (feat. Bon Iver),Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,7,1
 2021-07-23,51,RE,--,False,False,10,--,the last great american dynasty,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,9,1
-2021-07-23,52,RE,--,False,False,10,--,cardigan,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,9,8,1
-2021-07-23,53,RE,--,False,False,10,--,the 1,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,9,7,1
+2021-07-23,52,RE,--,False,False,10,--,cardigan,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,8,2
+2021-07-23,53,RE,--,False,False,10,--,the 1,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,7,2
 2021-07-23,54,RE,--,False,False,10,--,the lakes (bonus track),Taylor Swift,folklore (bonus) [deluxe version],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,4,1
 2021-07-23,55,NEW,--,True,False,10,--,the lakes (original version),Taylor Swift,the lakes (original version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,55,1,1
 2021-07-23,56,NEW,--,True,False,10,--,Trouble - Stripped,Halsey,Room 93,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,56,1,1

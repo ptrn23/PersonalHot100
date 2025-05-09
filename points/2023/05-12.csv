@@ -1,70 +1,70 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2023-05-12,1,=,1,True,True,913,0.4,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),81,60,22,405,180,44,4050000,180000,2200000,0.63,0.03,0.34,6430000,629,195,89,1,31,4
+2023-05-12,1,=,1,True,True,913,0.4,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),81,60,22,405,180,44,4050000,180000,2200000,0.63,0.03,0.34,6430000,629,195,89,1,30,4
 2023-05-12,2,RE,--,True,False,535,--,Run (feat. Ed Sheeran) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),76,1,76,380,3,152,3800000,3000,7600000,0.33,0.0,0.67,11403000,535,0,0,2,16,1
 2023-05-12,3,RE,--,False,False,517,--,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),59,59,1,295,177,2,2950000,177000,100000,0.91,0.05,0.03,3227000,474,0,43,1,43,4
 2023-05-12,4,RE,--,False,False,482,--,Fearless (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),60,60,1,300,180,2,3000000,180000,100000,0.91,0.05,0.03,3280000,482,0,0,1,25,1
-2023-05-12,5,+2,7,False,False,354,1.58,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),46,4,20,230,12,40,2300000,12000,2000000,0.53,0.0,0.46,4312000,282,42,30,3,62,1
-2023-05-12,6,RE,--,False,False,308,--,Midnight Rain,Taylor Swift,Midnights (3am Edition),42,1,42,210,3,84,2100000,3000,4200000,0.33,0.0,0.67,6303000,297,0,11,3,27,1
+2023-05-12,5,+2,7,False,False,354,1.58,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),46,4,20,230,12,40,2300000,12000,2000000,0.53,0.0,0.46,4312000,282,42,30,3,60,1
+2023-05-12,6,RE,--,False,False,308,--,Midnight Rain,Taylor Swift,Midnights (3am Edition),42,1,42,210,3,84,2100000,3000,4200000,0.33,0.0,0.67,6303000,297,0,11,1,28,1
 2023-05-12,7,RE,--,True,False,241,--,Come Back...Be Here (Taylor's Version),Taylor Swift,Red (Taylor's Version),34,1,34,170,3,68,1700000,3000,3400000,0.33,0.0,0.67,5103000,241,0,0,7,26,1
-2023-05-12,8,+20,28,False,False,180,4.0,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),22,1,22,110,3,44,1100000,3000,2200000,0.33,0.0,0.67,3303000,157,11,12,3,54,3
-2023-05-12,9,+5,14,False,False,173,1.16,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),17,1,17,85,3,34,850000,3000,1700000,0.33,0.0,0.67,2553000,122,24,27,1,44,1
+2023-05-12,8,+20,28,False,False,180,4.0,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),22,1,22,110,3,44,1100000,3000,2200000,0.33,0.0,0.67,3303000,157,11,12,3,53,3
+2023-05-12,9,+5,14,False,False,173,1.16,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),17,1,17,85,3,34,850000,3000,1700000,0.33,0.0,0.67,2553000,122,24,27,2,42,1
 2023-05-12,10,+20,30,False,False,133,2.91,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),17,1,17,85,3,34,850000,3000,1700000,0.33,0.0,0.67,2553000,122,11,0,2,52,1
-2023-05-12,11,=,11,False,False,110,0.11,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),11,1,11,55,3,22,550000,3000,1100000,0.33,0.0,0.67,1653000,80,30,0,5,39,1
+2023-05-12,11,=,11,False,False,110,0.11,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),11,1,11,55,3,22,550000,3000,1100000,0.33,0.0,0.67,1653000,80,30,0,5,42,1
 2023-05-12,12,=,12,False,False,105,0.22,Conversation,TWICE,Taste of Love,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,26,29,6,9,1
 2023-05-12,13,=,13,False,False,101,0.25,SOS,TWICE,Taste of Love,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,25,26,8,8,1
-2023-05-12,14,RE,--,False,False,95,--,Karma,Taylor Swift,Midnights (3am Edition),13,2,12,65,6,24,650000,6000,1200000,0.35,0.0,0.65,1856000,95,0,0,3,13,1
+2023-05-12,14,RE,--,False,False,95,--,Karma,Taylor Swift,Midnights (3am Edition),13,2,12,65,6,24,650000,6000,1200000,0.35,0.0,0.65,1856000,95,0,0,3,17,1
 2023-05-12,15,+6,21,False,False,94,0.68,YES or YES,TWICE,YES or YES,10,1,10,50,3,20,500000,3000,1000000,0.33,0.0,0.67,1503000,73,17,4,2,22,1
 2023-05-12,16,RE,--,False,False,91,--,FEARLESS,LE SSERAFIM,FEARLESS,12,1,12,60,3,24,600000,3000,1200000,0.33,0.0,0.67,1803000,87,0,4,1,46,3
 2023-05-12,17,+1,18,False,False,89,0.29,Scandal,TWICE,Taste of Love,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,21,18,9,9,1
 2023-05-12,18,+1,19,False,False,89,0.29,First Time,TWICE,Taste of Love,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,21,18,10,12,1
-2023-05-12,19,-2,17,False,False,89,0.29,Baby Blue Love,TWICE,Taste of Love,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,21,18,16,8,2
-2023-05-12,20,+32,52,False,False,88,2.52,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),11,1,11,55,3,22,550000,3000,1100000,0.33,0.0,0.67,1653000,80,8,0,1,33,1
+2023-05-12,19,-2,17,False,False,89,0.29,Baby Blue Love,TWICE,Taste of Love,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,21,18,16,8,1
+2023-05-12,20,+33,53,False,False,88,2.52,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),11,1,11,55,3,22,550000,3000,1100000,0.33,0.0,0.67,1653000,80,8,0,1,30,1
 2023-05-12,21,-16,5,False,False,83,-0.59,Touchdown,TWICE,PAGE TWO,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,61,12,5,14,1
-2023-05-12,22,RE,--,False,False,80,--,‘tis the damn season,Taylor Swift,evermore,11,1,11,55,3,22,550000,3000,1100000,0.33,0.0,0.67,1653000,80,0,0,5,31,1
-2023-05-12,23,RE,--,False,False,73,--,Girl at Home (Taylor's Version),Taylor Swift,Red (Taylor's Version),10,1,10,50,3,20,500000,3000,1000000,0.33,0.0,0.67,1503000,73,0,0,13,6,1
-2023-05-12,24,+31,55,False,False,22,-0.08,Everyday I Love You,Loona,ViVi,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,4,12,10,1
-2023-05-12,25,+8,33,False,False,18,-0.31,The Feels,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,4,37,1
-2023-05-12,26,+66,92,False,False,16,-0.11,키스는 다음에,Loona,YeoJin,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,0,9,7,1
+2023-05-12,22,RE,--,False,False,80,--,‘tis the damn season,Taylor Swift,evermore,11,1,11,55,3,22,550000,3000,1100000,0.33,0.0,0.67,1653000,80,0,0,8,32,3
+2023-05-12,23,RE,--,False,False,73,--,Girl at Home (Taylor's Version),Taylor Swift,Red (Taylor's Version),10,1,10,50,3,20,500000,3000,1000000,0.33,0.0,0.67,1503000,73,0,0,14,8,2
+2023-05-12,24,+32,56,False,False,22,-0.08,Everyday I Love You,Loona,ViVi,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,4,12,10,1
+2023-05-12,25,+9,34,False,False,18,-0.31,The Feels,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,4,37,1
+2023-05-12,26,+67,93,False,False,16,-0.11,키스는 다음에,Loona,YeoJin,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,0,9,7,1
 2023-05-12,27,RE,--,False,False,16,--,SAY YOU LOVE ME,TWICE,YES or YES,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,6,8,14,1
-2023-05-12,28,RE,--,False,False,12,--,I Really Like You,Carly Rae Jepsen,Emotion (Deluxe Expanded Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,14,6,1
-2023-05-12,29,RE,--,False,False,10,--,Sweet Nothing,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,17,1
-2023-05-12,30,RE,--,True,False,10,--,Droopy Likes Your Face,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,30,6,1
-2023-05-12,31,RE,--,True,False,10,--,Droopy Likes Ricochet,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,31,5,1
-2023-05-12,32,RE,--,True,False,10,--,Beginning,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,32,5,1
-2023-05-12,33,RE,--,True,False,10,--,Danny,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,33,5,1
-2023-05-12,34,RE,--,False,False,10,--,Dog,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,32,9,1
-2023-05-12,35,RE,--,True,False,10,--,Cat,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,35,9,1
-2023-05-12,36,RE,--,True,False,10,--,Sweden,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,36,8,1
-2023-05-12,37,RE,--,True,False,10,--,Excuse,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,37,5,1
-2023-05-12,38,RE,--,True,False,10,--,Thirteen,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,38,6,1
-2023-05-12,39,RE,--,True,False,10,--,Chris,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,39,5,1
-2023-05-12,40,RE,--,True,False,10,--,Clark,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,40,5,1
-2023-05-12,41,RE,--,True,False,10,--,Wet Hands,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,41,7,1
-2023-05-12,42,RE,--,True,False,10,--,Dry Hands,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,42,5,1
-2023-05-12,43,RE,--,True,False,10,--,Mice on Venus,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,43,6,1
-2023-05-12,44,RE,--,True,False,10,--,Équinoxe,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,44,5,1
-2023-05-12,45,RE,--,True,False,10,--,Oxygène,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,45,5,1
-2023-05-12,46,RE,--,False,False,10,--,Minecraft,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,10,1
-2023-05-12,47,RE,--,True,True,10,--,Haggstrom,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,47,6,2
-2023-05-12,48,RE,--,True,False,10,--,Moog City,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,48,6,1
-2023-05-12,49,RE,--,True,False,10,--,Living Mice,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,49,5,1
-2023-05-12,50,RE,--,True,False,10,--,Death,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,50,5,1
-2023-05-12,51,RE,--,True,False,10,--,Subwoofer Lullaby,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,51,7,1
-2023-05-12,52,RE,--,True,False,10,--,Door,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,52,6,1
-2023-05-12,53,RE,--,True,False,10,--,Key,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,53,6,1
-2023-05-12,54,RE,--,False,False,10,--,Hard Times,Paramore,After Laughter,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,49,2,1
-2023-05-12,55,RE,--,False,False,10,--,CANDYFLOSS,NAYEON,IM NAYEON,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,25,7,1
-2023-05-12,56,RE,--,True,False,10,--,One More Time,TWICE,One More Time,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,56,2,1
-2023-05-12,57,RE,--,False,False,10,--,ME! (feat. Brendon Urie of Panic! at the Disco),Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,18,1
-2023-05-12,58,RE,--,True,False,10,--,Kiss You,One Direction,Take Me Home (Expanded Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,58,5,1
-2023-05-12,59,RE,--,False,False,10,--,Hit That Drum,Red Velvet,Summer Magic - Summer Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,4,1
-2023-05-12,60,RE,--,False,False,10,--,Lady's Room,Red Velvet,The Red - The 1st Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,19,4,1
-2023-05-12,61,RE,--,True,False,10,--,SAPPY,Red Velvet,SAPPY,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,61,2,1
-2023-05-12,62,RE,--,False,False,10,--,Carpool,Red Velvet,‘The ReVe Festival’ Day 2,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,6,1
-2023-05-12,63,RE,--,False,False,10,--,I'll be there,Loona,HyunJin,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,7,1
-2023-05-12,64,RE,--,False,False,10,--,Zig Zag,Weeekly,We can,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,13,1
-2023-05-12,65,RE,--,True,False,10,--,Lips Are Movin,Meghan Trainor,Title (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,65,1,1
-2023-05-12,66,RE,--,False,False,10,--,I WANT YOU BACK,TWICE,I WANT YOU BACK,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,7,1
-2023-05-12,67,RE,--,False,False,10,--,Ice Cream Cake,Red Velvet,Ice Cream Cake,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,9,21,1
-2023-05-12,68,RE,--,False,False,10,--,Happy,WJSN,HAPPY MOMENT (1),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,30,1
+2023-05-12,28,RE,--,False,False,10,--,Sweet Nothing,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,18,1
+2023-05-12,29,RE,--,True,False,10,--,Droopy Likes Your Face,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,29,6,1
+2023-05-12,30,RE,--,True,False,10,--,Droopy Likes Ricochet,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,30,5,1
+2023-05-12,31,RE,--,True,False,10,--,Beginning,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,31,5,1
+2023-05-12,32,RE,--,True,False,10,--,Danny,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,32,5,1
+2023-05-12,33,RE,--,True,False,10,--,Dog,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,33,9,1
+2023-05-12,34,RE,--,True,False,10,--,Cat,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,34,9,1
+2023-05-12,35,RE,--,True,False,10,--,Sweden,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,35,8,1
+2023-05-12,36,RE,--,True,False,10,--,Excuse,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,36,5,1
+2023-05-12,37,RE,--,True,False,10,--,Thirteen,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,37,6,1
+2023-05-12,38,RE,--,True,False,10,--,Chris,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,38,5,1
+2023-05-12,39,RE,--,True,False,10,--,Clark,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,39,5,1
+2023-05-12,40,RE,--,True,False,10,--,Wet Hands,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,40,7,1
+2023-05-12,41,RE,--,True,False,10,--,Dry Hands,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,41,5,1
+2023-05-12,42,RE,--,True,False,10,--,Mice on Venus,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,42,6,1
+2023-05-12,43,RE,--,True,False,10,--,Équinoxe,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,43,5,1
+2023-05-12,44,RE,--,True,False,10,--,Oxygène,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,44,5,1
+2023-05-12,45,RE,--,False,False,10,--,Minecraft,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,10,1
+2023-05-12,46,RE,--,True,False,10,--,Haggstrom,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,46,6,1
+2023-05-12,47,RE,--,True,False,10,--,Moog City,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,47,6,1
+2023-05-12,48,RE,--,True,False,10,--,Living Mice,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,48,5,1
+2023-05-12,49,RE,--,True,False,10,--,Death,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,49,5,1
+2023-05-12,50,RE,--,True,False,10,--,Subwoofer Lullaby,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,50,7,1
+2023-05-12,51,RE,--,True,False,10,--,Door,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,51,6,1
+2023-05-12,52,RE,--,True,False,10,--,Key,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,52,6,1
+2023-05-12,53,RE,--,False,False,10,--,Hard Times,Paramore,After Laughter,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,49,2,1
+2023-05-12,54,RE,--,False,False,10,--,CANDYFLOSS,NAYEON,IM NAYEON,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,26,7,1
+2023-05-12,55,RE,--,True,False,10,--,One More Time,TWICE,One More Time,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,55,1,1
+2023-05-12,56,RE,--,False,False,10,--,ME! (feat. Brendon Urie of Panic! at the Disco),Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,22,1
+2023-05-12,57,RE,--,True,False,10,--,Kiss You,One Direction,Take Me Home (Expanded Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,57,5,1
+2023-05-12,58,RE,--,False,False,10,--,Hit That Drum,Red Velvet,Summer Magic - Summer Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,4,1
+2023-05-12,59,RE,--,False,False,10,--,Lady's Room,Red Velvet,The Red - The 1st Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,19,4,1
+2023-05-12,60,RE,--,True,False,10,--,SAPPY,Red Velvet,SAPPY,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,60,2,1
+2023-05-12,61,RE,--,False,False,10,--,Carpool,Red Velvet,‘The ReVe Festival’ Day 2,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,5,1
+2023-05-12,62,RE,--,False,False,10,--,I'll be there,Loona,HyunJin,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,7,1
+2023-05-12,63,RE,--,False,False,10,--,Zig Zag,Weeekly,We can,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,13,1
+2023-05-12,64,RE,--,True,False,10,--,Lips Are Movin,Meghan Trainor,Title (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,64,1,1
+2023-05-12,65,RE,--,False,False,10,--,I WANT YOU BACK,TWICE,I WANT YOU BACK,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,10,1
+2023-05-12,66,RE,--,False,False,10,--,Ice Cream Cake,Red Velvet,Ice Cream Cake,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,24,1
+2023-05-12,67,RE,--,False,False,10,--,Happy,WJSN,HAPPY MOMENT (1),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,30,2
+2023-05-12,68,RE,--,False,False,10,--,I Really Like You,Carly Rae Jepsen,Emotion (Deluxe Expanded Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,6,1
 2023-05-12,69,RE,--,False,False,10,--,Only You,TWICE,SIGNAL,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,7,1

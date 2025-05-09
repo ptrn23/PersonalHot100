@@ -16,7 +16,7 @@ charted_cache = {}
 if os.path.exists(CHARTED_CACHE_FILE):
     with open(CHARTED_CACHE_FILE, "r", encoding="utf-8") as f:
         reader = csv.reader(f)
-        next(reader)  # Skip header
+        next(reader)
         for row in reader:
             song, artist, first_week = row
             charted_cache[(song, artist)] = first_week
@@ -51,10 +51,30 @@ for year in YEARS:
                 week, song, album, artist, streams, sales, airplay = row
                 weekly_data.append((song, album, artist, int(streams), int(sales), int(airplay)))
 
+        aggregated_data = {}
+
+        for song, album, artist, streams, sales, airplay in weekly_data:
+            key = (song, artist)
+            if key not in aggregated_data:
+                aggregated_data[key] = {
+                    "album": album,
+                    "streams": 0,
+                    "sales": 0,
+                    "airplay": 0
+                }
+
+            aggregated_data[key]["streams"] += streams
+            aggregated_data[key]["sales"] += sales
+            aggregated_data[key]["airplay"] += airplay
+
         weighted_scores = {}
         raw_point_map = {}
 
-        for song, album, artist, streams, sales, airplay in weekly_data:
+        # Processing the aggregated data
+        for (song, artist), data in aggregated_data.items():
+            album = data["album"]
+            streams, sales, airplay = data["streams"], data["sales"], data["airplay"]
+
             raw_points = calculate_points(streams, sales, airplay)
             prev_pts, two_weeks_pts = get_past_points(len(ranked_weeks), song, artist, ranked_weeks)
             weighted = calculate_weighted_points(raw_points, prev_pts, two_weeks_pts)
@@ -64,7 +84,7 @@ for year in YEARS:
             raw_point_map[key] = (streams, sales, airplay, raw_points, prev_pts, two_weeks_pts)
 
             all_songs[key]["album"] = album
-
+        
         sorted_songs = sorted(weighted_scores.items(), key=lambda x: x[1], reverse=True)
 
         debuts = [(sa, pts) for sa, pts in sorted_songs if sa not in charted_cache]

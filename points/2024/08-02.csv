@@ -1,13 +1,13 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2024-08-02,1,+28,29,True,True,229,0.89,Nice Guys Finish Last,Green Day,Nimrod,21,12,10,105,36,20,1050000,36000,1000000,0.5,0.02,0.48,2086000,161,37,31,1,30,4
-2024-08-02,2,+13,15,False,False,175,0.28,Uptight,Green Day,Nimrod,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,42,35,1,21,6
+2024-08-02,2,+14,16,False,False,175,0.28,Uptight,Green Day,Nimrod,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,42,35,1,21,6
 2024-08-02,3,-2,1,False,False,162,-0.16,I Do Not Hook Up,Kelly Clarkson,All I Ever Wanted,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,59,45,1,6,1
 2024-08-02,4,+8,12,True,True,157,0.12,Suffocate,Green Day,Shenanigans,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,42,41,4,10,2
-2024-08-02,5,+12,17,False,False,156,0.16,Hitchin' a Ride,Green Day,Nimrod,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,41,33,2,30,7
-2024-08-02,6,RE,--,True,False,156,--,Funeral (feat. James Bay),Maisie Peters,Trying: Season 2 (Apple TV+ Original Series Soundtrack),21,7,15,105,21,30,1050000,21000,1500000,0.41,0.01,0.58,2571000,156,0,0,6,11,1
+2024-08-02,5,+13,18,False,False,156,0.16,Hitchin' a Ride,Green Day,Nimrod,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,41,33,2,30,7
+2024-08-02,6,RE,--,False,False,156,--,Funeral (feat. James Bay),Maisie Peters,Trying: Season 2 (Apple TV+ Original Series Soundtrack),21,7,15,105,21,30,1050000,21000,1500000,0.41,0.01,0.58,2571000,156,0,0,3,11,1
 2024-08-02,7,-5,2,False,False,154,-0.19,Cry,Kelly Clarkson,All I Ever Wanted,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,58,30,2,3,1
 2024-08-02,8,+2,10,False,False,148,-0.04,Beautiful Disaster,Kelly Clarkson,Thankful,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,47,43,3,6,1
-2024-08-02,9,+2,11,False,False,143,-0.07,Stronger (What Doesn't Kill You),Kelly Clarkson,Stronger (Deluxe Version),6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,46,47,1,9,1
+2024-08-02,9,+2,11,False,False,143,-0.07,Stronger (What Doesn't Kill You),Kelly Clarkson,Stronger (Deluxe Version),6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,46,47,1,10,1
 2024-08-02,10,-5,5,False,False,143,-0.2,Before Your Love,Kelly Clarkson,Thankful,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,54,39,5,5,2
 2024-08-02,11,+17,28,True,False,142,0.16,First Date,blink-182,Take Off Your Pants and Jacket,13,12,2,65,36,4,650000,36000,200000,0.73,0.04,0.23,886000,105,37,0,11,2,1
 2024-08-02,12,-6,6,False,False,139,-0.18,All I Ever Wanted,Kelly Clarkson,All I Ever Wanted,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,51,22,6,3,1
@@ -19,19 +19,19 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2024-08-02,18,-15,3,False,False,136,-0.26,Low,Kelly Clarkson,Thankful,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,55,31,3,3,1
 2024-08-02,19,-15,4,False,False,135,-0.25,A Moment Like This,Kelly Clarkson,Thankful,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,54,39,3,5,1
 2024-08-02,20,NEW,--,True,False,130,--,S/C/A/R/E/C/R/O/W,My Chemical Romance,Danger Days: The True Lives of the Fabulous Killjoys,16,16,1,80,48,2,800000,48000,100000,0.84,0.05,0.11,948000,130,0,0,20,1,1
-2024-08-02,21,RE,--,True,False,130,--,The Only Hope for Me Is You,My Chemical Romance,Danger Days: The True Lives of the Fabulous Killjoys,16,16,1,80,48,2,800000,48000,100000,0.84,0.05,0.11,948000,130,0,0,21,1,1
+2024-08-02,21,NEW,--,True,False,130,--,The Only Hope for Me Is You,My Chemical Romance,Danger Days: The True Lives of the Fabulous Killjoys,16,16,1,80,48,2,800000,48000,100000,0.84,0.05,0.11,948000,130,0,0,21,1,1
 2024-08-02,22,+1,23,True,False,128,-0.02,One Minute,Kelly Clarkson,My December,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,40,22,22,3,1
 2024-08-02,23,+7,30,True,False,126,0.05,What's My Age Again?,blink-182,Enema of the State,11,11,1,55,33,2,550000,33000,100000,0.81,0.05,0.15,683000,90,36,0,23,2,1
-2024-08-02,24,-10,14,False,False,125,-0.11,Guilty as Sin?,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,42,33,2,13,1
-2024-08-02,25,-16,9,False,False,125,-0.21,Miss Independent,Kelly Clarkson,Thankful,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,48,35,9,5,2
-2024-08-02,26,-13,13,False,False,123,-0.12,Piece by Piece,Kelly Clarkson,Piece by Piece (Deluxe Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,42,39,7,3,1
-2024-08-02,27,+33,60,False,False,123,0.5,All the Small Things,blink-182,Enema of the State,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,25,0,15,8,1
-2024-08-02,28,-4,24,False,False,123,-0.06,Never Again,Kelly Clarkson,My December,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,40,17,24,3,1
-2024-08-02,29,RE,--,True,False,122,--,Save Yourself I'll Hold Them Back,My Chemical Romance,Danger Days: The True Lives of the Fabulous Killjoys,15,15,1,75,45,2,750000,45000,100000,0.84,0.05,0.11,895000,122,0,0,29,1,1
-2024-08-02,30,-12,18,False,False,121,-0.1,My Boy Only Breaks His Favorite Toys,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,41,30,3,13,1
+2024-08-02,24,-10,14,False,False,125,-0.11,Guilty as Sin?,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,42,33,3,15,1
+2024-08-02,25,-10,15,False,False,124,-0.11,My Boy Only Breaks His Favorite Toys,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,42,32,2,15,1
+2024-08-02,26,-17,9,False,False,125,-0.21,Miss Independent,Kelly Clarkson,Thankful,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,48,35,9,5,2
+2024-08-02,27,-14,13,False,False,123,-0.12,Piece by Piece,Kelly Clarkson,Piece by Piece (Deluxe Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,42,39,7,3,1
+2024-08-02,28,+32,60,False,False,123,0.5,All the Small Things,blink-182,Enema of the State,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,25,0,15,8,1
+2024-08-02,29,-5,24,False,False,123,-0.06,Never Again,Kelly Clarkson,My December,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,40,17,24,3,1
+2024-08-02,30,NEW,--,True,False,122,--,Save Yourself I'll Hold Them Back,My Chemical Romance,Danger Days: The True Lives of the Fabulous Killjoys,15,15,1,75,45,2,750000,45000,100000,0.84,0.05,0.11,895000,122,0,0,30,1,1
 2024-08-02,31,-5,26,False,False,120,-0.02,Don't Waste Your Time,Kelly Clarkson,My December,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,37,17,26,3,1
 2024-08-02,32,-5,27,False,False,120,-0.02,Sober,Kelly Clarkson,My December,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,37,17,27,3,1
-2024-08-02,33,-17,16,False,False,119,-0.12,Invincible,Kelly Clarkson,Piece by Piece (Deluxe Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,41,36,9,3,1
+2024-08-02,33,-16,17,False,False,119,-0.12,Invincible,Kelly Clarkson,Piece by Piece (Deluxe Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,41,36,9,3,1
 2024-08-02,34,-26,8,False,False,120,-0.25,The Trouble with Love Is,Kelly Clarkson,Thankful,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,49,29,8,5,1
 2024-08-02,35,-14,21,False,False,115,-0.12,Heartbeat Song,Kelly Clarkson,Piece by Piece (Deluxe Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,40,33,15,4,1
 2024-08-02,36,-14,22,False,False,115,-0.12,Dark Side,Kelly Clarkson,Stronger (Deluxe Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,40,33,16,3,1
@@ -39,8 +39,8 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2024-08-02,38,-7,31,False,False,109,-0.08,I Look in People's Windows,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,36,31,4,11,1
 2024-08-02,39,-6,33,False,False,105,-0.06,imgonnagetyouback,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,34,29,10,11,1
 2024-08-02,40,-3,37,False,False,102,-0.04,The Albatross,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,32,28,15,11,1
-2024-08-02,41,+11,52,False,False,97,0.1,My Life Would Suck Without You,Kelly Clarkson,All I Ever Wanted,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,27,20,8,28,1
-2024-08-02,42,-7,35,False,False,95,-0.13,Fresh Out the Slammer,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,33,28,35,6,1
+2024-08-02,41,+12,53,False,False,97,0.1,My Life Would Suck Without You,Kelly Clarkson,All I Ever Wanted,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,27,20,8,28,1
+2024-08-02,42,-7,35,False,False,95,-0.13,Fresh Out the Slammer,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,33,28,32,9,1
 2024-08-02,43,-3,40,False,False,94,-0.04,Mr. Know It All,Kelly Clarkson,Stronger (Deluxe Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,30,22,40,3,1
 2024-08-02,44,-10,34,False,False,92,-0.16,Favorite Son,Green Day,21 Guns (DMD Maxi),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,33,25,1,8,2
 2024-08-02,45,=,45,True,True,88,-0.05,Heat,Kelly Clarkson,Meaning of Life,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,28,18,45,3,2
@@ -49,20 +49,20 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2024-08-02,48,-16,32,False,False,89,-0.21,Too Much Too Soon,Green Day,American Idiot (Deluxe),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,34,21,5,25,1
 2024-08-02,49,-6,43,False,False,87,-0.08,The Bolter,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,29,24,19,11,2
 2024-08-02,50,RE,--,False,False,84,--,All the Time,Green Day,Nimrod,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,0,18,2,11,1
-2024-08-02,51,-9,42,False,False,84,-0.12,Fortnight (feat. Post Malone),Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,29,21,22,4,1
+2024-08-02,51,-9,42,False,False,84,-0.12,Fortnight (feat. Post Malone),Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,29,21,22,6,1
 2024-08-02,52,RE,--,False,False,83,--,Worry Rock,Green Day,Nimrod,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,0,17,2,11,1
-2024-08-02,53,RE,--,False,False,81,--,Scattered,Green Day,Nimrod,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,0,15,3,16,2
-2024-08-02,54,=,54,False,False,82,-0.06,I Can Fix Him (No Really I Can),Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,27,21,27,9,1
-2024-08-02,55,-2,53,False,False,79,-0.1,Style (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,27,34,2,41,2
+2024-08-02,53,RE,--,False,False,81,--,Scattered,Green Day,Nimrod,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,0,15,3,15,2
+2024-08-02,54,=,54,False,False,82,-0.06,I Can Fix Him (No Really I Can),Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,27,21,27,11,1
+2024-08-02,55,-3,52,False,False,79,-0.11,Style (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,27,34,2,41,2
 2024-08-02,56,+39,95,False,False,72,0.18,Redundant,Green Day,Nimrod,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,19,19,1,23,1
-2024-08-02,57,+29,86,False,False,71,0.06,King for a Day,Green Day,Nimrod,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,21,16,4,28,2
+2024-08-02,57,+29,86,False,False,71,0.06,King for a Day,Green Day,Nimrod,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,21,16,3,27,1
 2024-08-02,58,+26,84,False,False,65,-0.03,Prosthetic Head,Green Day,Nimrod,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,21,18,5,10,2
-2024-08-02,59,+26,85,False,False,64,-0.04,Good Riddance (Time of Your Life),Green Day,Nimrod,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,21,17,16,22,1
+2024-08-02,59,+26,85,False,False,64,-0.04,Good Riddance (Time of Your Life),Green Day,Nimrod,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,21,17,16,23,1
 2024-08-02,60,+27,87,False,False,63,-0.06,Haushinka,Green Day,Nimrod,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,21,16,6,10,2
 2024-08-02,61,+27,88,False,False,63,-0.06,Jinx,Green Day,Nimrod,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,21,16,7,10,2
 2024-08-02,62,-5,57,False,False,62,-0.25,Breakaway,Kelly Clarkson,Breakaway,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,25,19,5,40,1
-2024-08-02,63,+8,71,False,False,63,-0.18,Ha Ha You're Dead,Green Day,Shenanigans,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,24,29,9,8,1
-2024-08-02,64,+8,72,False,False,62,-0.18,Espionage,Green Day,Shenanigans,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,23,29,7,13,2
+2024-08-02,63,+8,71,False,False,63,-0.18,Ha Ha You're Dead,Green Day,Shenanigans,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,24,29,10,8,2
+2024-08-02,64,+8,72,False,False,62,-0.18,Espionage,Green Day,Shenanigans,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,23,29,7,13,1
 2024-08-02,65,+25,90,False,False,60,-0.03,Take Back,Green Day,Nimrod,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,19,15,32,17,1
 2024-08-02,66,+25,91,False,False,60,-0.03,Reject,Green Day,Nimrod,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,19,15,4,10,1
 2024-08-02,67,+25,92,False,False,60,-0.03,Walking Alone,Green Day,Nimrod,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,19,15,5,10,1
@@ -76,16 +76,16 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2024-08-02,75,+4,79,False,False,61,-0.18,I Want to Be on T.V.,Green Day,Shenanigans,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,23,28,23,7,1
 2024-08-02,76,+4,80,False,False,61,-0.18,Don't Wanna Fall in Love,Green Day,Shenanigans,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,23,28,24,9,1
 2024-08-02,77,+4,81,False,False,61,-0.18,Outsider,Green Day,Shenanigans,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,23,28,25,9,1
-2024-08-02,78,+4,82,False,False,61,-0.18,You Lied,Green Day,Shenanigans,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,23,28,20,9,1
-2024-08-02,79,-20,59,False,False,59,-0.28,Wake Me Up When September Ends,Green Day,American Idiot,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,25,0,1,31,2
+2024-08-02,78,+4,82,False,False,61,-0.18,You Lied,Green Day,Shenanigans,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,23,28,21,9,1
+2024-08-02,79,-20,59,False,False,59,-0.28,Wake Me Up When September Ends,Green Day,American Idiot,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,25,0,1,32,2
 2024-08-02,80,-17,63,False,False,59,-0.28,When You're Gone,Avril Lavigne,The Best Damn Thing (Expanded Edition),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,25,0,7,4,1
 2024-08-02,81,-45,36,False,False,59,-0.44,Dilemma,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,32,17,7,26,1
 2024-08-02,82,RE,--,False,False,58,--,Vampire Money,My Chemical Romance,Danger Days: The True Lives of the Fabulous Killjoys,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,25,12,1
-2024-08-02,83,RE,--,False,False,58,--,The Kids from Yesterday,My Chemical Romance,Danger Days: The True Lives of the Fabulous Killjoys,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,48,9,1
-2024-08-02,84,RE,--,False,False,58,--,Planetary (GO!),My Chemical Romance,Danger Days: The True Lives of the Fabulous Killjoys,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,38,9,1
-2024-08-02,85,RE,--,False,False,58,--,SING,My Chemical Romance,Danger Days: The True Lives of the Fabulous Killjoys,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,30,9,1
+2024-08-02,83,RE,--,False,False,58,--,The Kids from Yesterday,My Chemical Romance,Danger Days: The True Lives of the Fabulous Killjoys,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,49,9,1
+2024-08-02,84,RE,--,False,False,58,--,Planetary (GO!),My Chemical Romance,Danger Days: The True Lives of the Fabulous Killjoys,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,39,9,1
+2024-08-02,85,RE,--,False,False,58,--,SING,My Chemical Romance,Danger Days: The True Lives of the Fabulous Killjoys,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,30,8,1
 2024-08-02,86,RE,--,True,False,58,--,Bulletproof Heart,My Chemical Romance,Danger Days: The True Lives of the Fabulous Killjoys,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,86,6,1
-2024-08-02,87,RE,--,False,False,58,--,Na Na Na (Na Na Na Na Na Na Na Na Na),My Chemical Romance,Danger Days: The True Lives of the Fabulous Killjoys,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,14,12,1
+2024-08-02,87,RE,--,False,False,58,--,Na Na Na (Na Na Na Na Na Na Na Na Na),My Chemical Romance,Danger Days: The True Lives of the Fabulous Killjoys,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,14,11,1
 2024-08-02,88,NEW,--,True,False,58,--,Love It When You Hate Me (feat. blackbear),Avril Lavigne,Love Sux,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,88,1,1
 2024-08-02,89,NEW,--,True,False,58,--,Bite Me,Avril Lavigne,Love Sux,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,89,1,1
 2024-08-02,90,-52,38,False,False,58,-0.44,Keep Holding On,Avril Lavigne,The Best Damn Thing (Expanded Edition),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,32,0,38,3,1
@@ -93,9 +93,9 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2024-08-02,92,-26,66,False,False,58,-0.28,favorite kind of high,Kelly Clarkson,chemistry,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,25,15,66,3,1
 2024-08-02,93,-26,67,False,False,58,-0.28,me,Kelly Clarkson,chemistry,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,25,15,67,3,1
 2024-08-02,94,-26,68,False,False,58,-0.28,mine,Kelly Clarkson,chemistry,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,25,15,68,3,1
-2024-08-02,95,-37,58,False,False,57,-0.31,Too Dumb To Die,Green Day,Revolution Radio,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,25,22,1,18,1
+2024-08-02,95,-37,58,False,False,57,-0.31,Too Dumb To Die,Green Day,Revolution Radio,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,25,22,1,17,1
 2024-08-02,96,-57,39,False,False,57,-0.42,1981,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,30,17,1,27,1
-2024-08-02,97,-56,41,False,False,57,-0.41,One Eyed Bastard,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,30,17,5,26,1
+2024-08-02,97,-56,41,False,False,57,-0.41,One Eyed Bastard,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,30,17,5,24,1
 2024-08-02,98,-9,89,False,False,56,-0.15,Since U Been Gone,Kelly Clarkson,Breakaway,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,20,18,9,43,2
 2024-08-02,99,-44,55,False,False,52,-0.4,Homecoming,Green Day,American Idiot,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,26,0,4,17,1
 2024-08-02,100,-39,61,False,False,51,-0.38,The Best Damn Thing,Avril Lavigne,The Best Damn Thing (Expanded Edition),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,25,0,61,2,1
