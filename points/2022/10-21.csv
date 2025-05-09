@@ -1,101 +1,101 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2022-10-21,1,NEW,--,True,False,162,--,Would've Could've Should've,Taylor Swift,Midnights (3am Edition),20,20,1,100,60,2,1000000,60000,100000,0.86,0.05,0.09,1160000,162,0,0,1,1,1
-2022-10-21,2,NEW,--,True,False,162,--,Glitch,Taylor Swift,Midnights (3am Edition),20,20,1,100,60,2,1000000,60000,100000,0.86,0.05,0.09,1160000,162,0,0,2,1,1
-2022-10-21,3,NEW,--,True,False,162,--,High Infidelity,Taylor Swift,Midnights (3am Edition),20,20,1,100,60,2,1000000,60000,100000,0.86,0.05,0.09,1160000,162,0,0,3,1,1
-2022-10-21,4,NEW,--,True,False,162,--,Paris,Taylor Swift,Midnights (3am Edition),20,20,1,100,60,2,1000000,60000,100000,0.86,0.05,0.09,1160000,162,0,0,4,1,1
-2022-10-21,5,NEW,--,True,False,162,--,Bigger Than the Whole Sky,Taylor Swift,Midnights (3am Edition),20,20,1,100,60,2,1000000,60000,100000,0.86,0.05,0.09,1160000,162,0,0,5,1,1
-2022-10-21,6,NEW,--,True,False,161,--,Dear Reader,Taylor Swift,Midnights (3am Edition),20,19,2,100,57,4,1000000,57000,200000,0.8,0.05,0.16,1257000,161,0,0,6,1,1
-2022-10-21,7,NEW,--,True,False,161,--,The Great War,Taylor Swift,Midnights (3am Edition),20,19,2,100,57,4,1000000,57000,200000,0.8,0.05,0.16,1257000,161,0,0,7,1,1
-2022-10-21,8,NEW,--,True,False,161,--,ANTIFRAGILE,LE SSERAFIM,ANTIFRAGILE,20,19,2,100,57,4,1000000,57000,200000,0.8,0.05,0.16,1257000,161,0,0,8,1,1
-2022-10-21,9,-8,1,False,False,155,-0.38,Attention,NewJeans,NewJeans 1st EP 'New Jeans',5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,76,37,1,8,1
-2022-10-21,10,NEW,--,True,False,145,--,Impurities,LE SSERAFIM,ANTIFRAGILE,18,17,2,90,51,4,900000,51000,200000,0.78,0.04,0.17,1151000,145,0,0,10,1,1
-2022-10-21,11,NEW,--,True,False,138,--,No Celestial,LE SSERAFIM,ANTIFRAGILE,17,17,1,85,51,2,850000,51000,100000,0.85,0.05,0.1,1001000,138,0,0,11,1,1
-2022-10-21,12,NEW,--,True,False,138,--,The Hydra,LE SSERAFIM,ANTIFRAGILE,17,17,1,85,51,2,850000,51000,100000,0.85,0.05,0.1,1001000,138,0,0,12,1,1
-2022-10-21,13,NEW,--,True,False,130,--,Good Parts (when the quality is bad but I am),LE SSERAFIM,ANTIFRAGILE,16,16,1,80,48,2,800000,48000,100000,0.84,0.05,0.11,948000,130,0,0,13,1,1
-2022-10-21,14,-12,2,False,False,120,-0.15,Hype Boy,NewJeans,NewJeans 1st EP 'New Jeans',6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,43,27,1,8,1
-2022-10-21,15,+3,18,False,False,105,0.18,happiness,Taylor Swift,evermore,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,27,12,1,35,2
-2022-10-21,16,-10,6,False,False,101,-0.24,COOL (Your rainbow),NMIXX,ENTWURF,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,40,27,6,5,2
-2022-10-21,17,-4,13,False,False,101,-0.06,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),6,5,2,30,15,4,300000,15000,200000,0.58,0.03,0.39,515000,49,33,19,13,16,1
-2022-10-21,18,-13,5,False,False,95,-0.31,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,42,43,2,23,2
-2022-10-21,19,-12,7,False,False,92,-0.26,After LIKE,IVE,After LIKE,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,38,44,1,9,4
-2022-10-21,20,-9,11,False,False,91,-0.19,The Way I Loved You (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,34,23,3,22,1
-2022-10-21,21,-4,17,False,False,83,-0.1,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,28,29,2,31,1
-2022-10-21,22,-14,8,False,False,81,-0.35,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,38,33,5,24,1
-2022-10-21,23,+11,34,True,False,78,0.18,It’s Nice to Have a Friend,Taylor Swift,Lover,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,20,0,23,9,1
-2022-10-21,24,-20,4,False,False,76,-0.45,29,Demi Lovato,29,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,42,0,4,2,1
-2022-10-21,25,-11,14,False,False,75,-0.29,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,32,33,4,30,2
-2022-10-21,26,+6,32,False,False,75,0.12,Blue Flame,LE SSERAFIM,FEARLESS,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,21,20,5,21,1
-2022-10-21,27,-17,10,False,False,72,-0.36,My Satisfaction,IVE,After LIKE,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,34,28,1,9,1
-2022-10-21,28,-25,3,False,False,68,-0.51,Evergreen (You Didn’t Deserve Me At All),Omar Apollo,Ivory,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,42,0,3,2,1
-2022-10-21,29,-1,28,False,False,62,-0.11,Take It,IVE,ELEVEN,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,21,7,23,13,1
-2022-10-21,30,-9,21,False,False,62,-0.23,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,25,27,3,25,2
-2022-10-21,31,+14,45,False,False,61,0.09,The Great Mermaid,LE SSERAFIM,FEARLESS,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,17,18,3,21,1
-2022-10-21,32,RE,--,False,False,58,--,it’s time to go - bonus track,Taylor Swift,evermore (deluxe version),7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,21,4,1
-2022-10-21,33,RE,--,False,False,58,--,right where you left me - bonus track,Taylor Swift,evermore (deluxe version),7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,22,3,1
-2022-10-21,34,RE,--,False,False,58,--,Daylight,Taylor Swift,Lover,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,5,16,1
-2022-10-21,35,RE,--,False,False,58,--,ME! (feat. Brendon Urie of Panic! at the Disco),Taylor Swift,Lover,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,22,15,1
-2022-10-21,36,-10,26,False,False,56,-0.21,Sour Grapes,LE SSERAFIM,FEARLESS,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,22,16,2,19,1
-2022-10-21,37,-21,16,False,False,56,-0.43,Cruel Summer,Taylor Swift,Lover,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,30,0,1,23,1
-2022-10-21,38,-9,29,False,False,53,-0.23,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,21,22,1,47,5
-2022-10-21,39,-8,31,False,False,54,-0.19,ROYAL,IVE,LOVE DIVE,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,21,7,7,13,1
-2022-10-21,40,+8,48,False,False,49,-0.02,Sad Beautiful Tragic (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,15,0,5,26,1
-2022-10-21,41,+8,49,True,False,49,-0.02,Reckless,Madison Beer,Reckless,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,15,0,41,3,1
-2022-10-21,42,-15,27,False,False,50,-0.3,Holy Ground (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,22,18,1,18,2
-2022-10-21,43,+27,70,False,False,48,0.85,Paper Rings,Taylor Swift,Lover,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,8,6,3,17,1
-2022-10-21,44,-9,35,False,False,48,-0.24,POP!,NAYEON,IM NAYEON,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,19,19,2,17,1
-2022-10-21,45,RE,--,False,False,47,--,FEARLESS,LE SSERAFIM,FEARLESS,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,21,1,24,5
-2022-10-21,46,-13,33,False,False,46,-0.3,because i liked a boy,Sabrina Carpenter,emails i can't send,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,20,0,33,2,1
-2022-10-21,47,-17,30,False,False,47,-0.31,Dreams Come True,aespa,Dreams Come True - SM STATION,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,21,16,3,12,1
-2022-10-21,48,-7,41,False,False,44,-0.24,Every Summertime,Niki,Every Summertime,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,18,0,41,2,1
-2022-10-21,49,-12,37,False,False,45,-0.27,The Feels,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,19,16,4,31,1
-2022-10-21,50,RE,--,False,False,43,--,closure,Taylor Swift,evermore,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,9,8,12,1
-2022-10-21,51,+6,57,False,False,43,0.26,Lover,Taylor Swift,Lover,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,11,6,26,22,1
-2022-10-21,52,-14,38,False,False,42,-0.3,Uptown Girl,Westlife,Coast to Coast (Expanded Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,18,14,1,13,1
-2022-10-21,53,-17,36,False,False,42,-0.33,F.I.L.A (Fall in Love Again),TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,19,13,6,19,1
-2022-10-21,54,-7,47,False,False,41,-0.18,deja vu,Olivia Rodrigo,SOUR,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,15,0,1,18,1
-2022-10-21,55,RE,--,False,False,41,--,London Boy,Taylor Swift,Lover,5,4,2,25,12,4,250000,12000,200000,0.54,0.03,0.43,462000,41,0,0,21,12,1
-2022-10-21,56,RE,--,False,False,38,--,willow,Taylor Swift,evermore,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,12,5,18,1
-2022-10-21,57,RE,--,False,False,37,--,gold rush,Taylor Swift,evermore,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,11,4,19,1
-2022-10-21,58,RE,--,False,False,36,--,marjorie,Taylor Swift,evermore,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,10,1,13,2
-2022-10-21,59,RE,--,False,False,36,--,champagne problems,Taylor Swift,evermore,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,10,4,18,2
-2022-10-21,60,RE,--,False,False,35,--,evermore (feat. Bon Iver),Taylor Swift,evermore,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,9,3,16,1
-2022-10-21,61,RE,--,False,False,35,--,long story short,Taylor Swift,evermore,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,9,9,13,1
-2022-10-21,62,RE,--,False,False,35,--,cowboy like me,Taylor Swift,evermore,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,9,2,13,1
-2022-10-21,63,RE,--,False,False,35,--,ivy,Taylor Swift,evermore,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,9,3,23,2
-2022-10-21,64,RE,--,False,False,35,--,coney island (feat. The National),Taylor Swift,evermore,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,9,5,19,1
-2022-10-21,65,RE,--,False,False,35,--,dorothea,Taylor Swift,evermore,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,9,12,14,1
-2022-10-21,66,RE,--,False,False,35,--,no body no crime (feat. HAIM),Taylor Swift,evermore,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,9,8,14,1
-2022-10-21,67,RE,--,False,False,35,--,tolerate it,Taylor Swift,evermore,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,9,2,19,1
-2022-10-21,68,RE,--,False,False,34,--,Afterglow,Taylor Swift,Lover,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,23,10,1
-2022-10-21,69,RE,--,False,False,34,--,You Need to Calm Down,Taylor Swift,Lover,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,24,11,1
-2022-10-21,70,RE,--,False,False,34,--,I Think He Knows,Taylor Swift,Lover,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,8,12,1
-2022-10-21,71,RE,--,False,False,34,--,I Forgot That You Existed,Taylor Swift,Lover,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,7,10,1
-2022-10-21,72,RE,--,False,False,34,--,Death by a Thousand Cuts,Taylor Swift,Lover,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,2,17,2
-2022-10-21,73,RE,--,False,False,34,--,Renegade (feat. Taylor Swift),Big Red Machine,How Long Do You Think It's Gonna Last?,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,3,6,1
-2022-10-21,74,RE,--,False,False,34,--,‘tis the damn season,Taylor Swift,evermore,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,8,10,18,2
-2022-10-21,75,RE,--,False,False,34,--,False God,Taylor Swift,Lover,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,13,13,1
-2022-10-21,76,RE,--,False,False,34,--,Soon You’ll Get Better (feat. The Chicks),Taylor Swift,Lover,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,23,9,1
-2022-10-21,77,RE,--,False,False,34,--,Cornelia Street,Taylor Swift,Lover,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,2,16,1
-2022-10-21,78,RE,--,False,False,34,--,Miss Americana & the Heartbreak Prince,Taylor Swift,Lover,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,9,15,1
-2022-10-21,79,-17,62,False,False,28,-0.07,Hey Stephen (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,9,9,4,14,1
-2022-10-21,80,-19,61,False,False,27,-0.1,Today Was a Fairytale (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,9,8,12,14,1
-2022-10-21,81,NEW,--,True,False,26,--,Lavender Haze,Taylor Swift,Midnights,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,81,1,1
-2022-10-21,82,RE,--,False,False,26,--,my tears ricochet,Taylor Swift,folklore,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,1,14,1
-2022-10-21,83,RE,--,False,False,26,--,The Archer,Taylor Swift,Lover,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,22,8,1
-2022-10-21,84,RE,--,False,False,26,--,The Man,Taylor Swift,Lover,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,25,9,1
-2022-10-21,85,-8,77,False,False,24,0.14,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,7,7,10,19,1
-2022-10-21,86,-22,64,False,False,24,-0.14,Feel Special,TWICE,Feel Special,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,9,5,1,42,1
-2022-10-21,87,RE,--,False,False,24,--,Forever Winter (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,6,1,32,8
-2022-10-21,88,-9,79,False,False,22,0.16,I Bet You Think About Me (feat. Chris Stapleton) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,6,2,32,1
-2022-10-21,89,-31,58,False,False,20,-0.38,Welcome to New York,Taylor Swift,1989,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,10,0,31,5,1
-2022-10-21,90,NEW,--,True,False,18,--,Mastermind,Taylor Swift,Midnights,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,90,1,1
-2022-10-21,91,NEW,--,True,False,18,--,Sweet Nothing,Taylor Swift,Midnights,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,91,1,1
-2022-10-21,92,NEW,--,True,False,18,--,Karma,Taylor Swift,Midnights,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,92,1,1
-2022-10-21,93,NEW,--,True,False,18,--,Labyrinth,Taylor Swift,Midnights,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,93,1,1
-2022-10-21,94,NEW,--,True,False,18,--,Bejeweled,Taylor Swift,Midnights,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,94,1,1
-2022-10-21,95,NEW,--,True,False,18,--,Vigilante Shit,Taylor Swift,Midnights,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,95,1,1
-2022-10-21,96,NEW,--,True,False,18,--,Question...?,Taylor Swift,Midnights,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,96,1,1
-2022-10-21,97,NEW,--,True,False,18,--,Midnight Rain,Taylor Swift,Midnights,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,97,1,1
-2022-10-21,98,NEW,--,True,False,18,--,You're on Your Own Kid,Taylor Swift,Midnights,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,98,1,1
-2022-10-21,99,NEW,--,True,False,18,--,Snow on the Beach (feat. Lana Del Rey),Taylor Swift,Midnights,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,99,1,1
-2022-10-21,100,NEW,--,True,False,18,--,Anti-Hero,Taylor Swift,Midnights,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,100,1,1
+2022-10-21,1,NEW,--,True,False,354,--,Would've Could've Should've,Taylor Swift,Midnights (3am Edition),44,44,1,220,132,2,2200000,132000,100000,0.9,0.05,0.04,2432000,354,0,0,1,1,1
+2022-10-21,2,+13,15,False,False,258,1.37,Wildest Dreams (Taylor's Version),Taylor Swift,Wildest Dreams (Taylor's Version),27,27,1,135,81,2,1350000,81000,100000,0.88,0.05,0.07,1531000,218,33,7,1,23,3
+2022-10-21,3,+22,25,True,False,250,2.16,Sad Beautiful Tragic (Taylor's Version),Taylor Swift,Red (Taylor's Version),28,28,1,140,84,2,1400000,84000,100000,0.88,0.05,0.06,1584000,226,24,0,3,30,1
+2022-10-21,4,RE,--,True,True,239,--,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),29,28,2,145,84,4,1450000,84000,200000,0.84,0.05,0.12,1734000,233,0,6,4,19,2
+2022-10-21,5,+24,29,True,False,233,2.15,Reckless,Madison Beer,Reckless,26,26,1,130,78,2,1300000,78000,100000,0.88,0.05,0.07,1478000,210,23,0,5,2,1
+2022-10-21,6,+74,80,False,False,203,6.52,This Love (Taylor’s Version),Taylor Swift,This Love (Taylor’s Version),24,24,1,120,72,2,1200000,72000,100000,0.87,0.05,0.07,1372000,194,9,0,1,21,3
+2022-10-21,7,NEW,--,True,False,202,--,Anti-Hero,Taylor Swift,Midnights (3am Edition),25,25,1,125,75,2,1250000,75000,100000,0.88,0.05,0.07,1425000,202,0,0,7,1,1
+2022-10-21,8,NEW,--,True,False,178,--,Glitch,Taylor Swift,Midnights (3am Edition),22,22,1,110,66,2,1100000,66000,100000,0.87,0.05,0.08,1266000,178,0,0,8,1,1
+2022-10-21,9,NEW,--,True,False,178,--,High Infidelity,Taylor Swift,Midnights (3am Edition),22,22,1,110,66,2,1100000,66000,100000,0.87,0.05,0.08,1266000,178,0,0,9,1,1
+2022-10-21,10,NEW,--,True,False,178,--,Paris,Taylor Swift,Midnights (3am Edition),22,22,1,110,66,2,1100000,66000,100000,0.87,0.05,0.08,1266000,178,0,0,10,1,1
+2022-10-21,11,NEW,--,True,False,178,--,Bigger Than the Whole Sky,Taylor Swift,Midnights (3am Edition),22,22,1,110,66,2,1100000,66000,100000,0.87,0.05,0.08,1266000,178,0,0,11,1,1
+2022-10-21,12,NEW,--,True,False,177,--,The Great War,Taylor Swift,Midnights (3am Edition),22,21,2,110,63,4,1100000,63000,200000,0.81,0.05,0.15,1363000,177,0,0,12,1,1
+2022-10-21,13,NEW,--,True,False,169,--,Dear Reader,Taylor Swift,Midnights (3am Edition),21,20,2,105,60,4,1050000,60000,200000,0.8,0.05,0.15,1310000,169,0,0,13,1,1
+2022-10-21,14,-13,1,False,False,163,-0.34,Attention,NewJeans,NewJeans 1st EP 'New Jeans',6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,75,38,1,9,1
+2022-10-21,15,-3,12,False,False,157,0.32,happiness,Taylor Swift,evermore,13,13,1,65,39,2,650000,39000,100000,0.82,0.05,0.13,789000,106,36,15,2,34,2
+2022-10-21,16,-11,5,False,False,142,-0.02,Impurities,LE SSERAFIM,ANTIFRAGILE,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,44,0,5,2,1
+2022-10-21,17,+45,62,False,False,141,2.2,‘tis the damn season,Taylor Swift,evermore,15,14,2,75,42,4,750000,42000,200000,0.76,0.04,0.2,992000,121,14,6,5,17,1
+2022-10-21,18,+9,27,False,False,130,0.67,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,24,24,7,33,1
+2022-10-21,19,-12,7,False,False,124,-0.1,No Celestial,LE SSERAFIM,ANTIFRAGILE,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,42,0,7,2,1
+2022-10-21,20,-12,8,False,False,124,-0.1,The Hydra,LE SSERAFIM,ANTIFRAGILE,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,42,0,8,2,1
+2022-10-21,21,-18,3,False,False,116,-0.27,Hype Boy,NewJeans,NewJeans 1st EP 'New Jeans',5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,48,26,3,9,2
+2022-10-21,22,-13,9,False,False,113,-0.13,Good Parts (when the quality is bad but I am),LE SSERAFIM,ANTIFRAGILE,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,39,0,9,2,1
+2022-10-21,23,+25,48,False,False,105,1.1,right where you left me - bonus track,Taylor Swift,evermore (deluxe version),11,11,1,55,33,2,550000,33000,100000,0.81,0.05,0.15,683000,90,15,0,17,4,1
+2022-10-21,24,RE,--,False,False,98,--,illicit affairs,Taylor Swift,folklore,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,0,0,3,16,3
+2022-10-21,25,-12,13,False,False,96,-0.16,After LIKE,IVE,After LIKE,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,35,35,1,10,5
+2022-10-21,26,-16,10,False,False,96,-0.23,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,38,16,10,16,1
+2022-10-21,27,NEW,--,True,False,89,--,ANTIFRAGILE,LE SSERAFIM,ANTIFRAGILE,11,10,2,55,30,4,550000,30000,200000,0.71,0.04,0.26,780000,89,0,0,27,1,1
+2022-10-21,28,-14,14,False,False,90,-0.19,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,34,38,1,20,1
+2022-10-21,29,RE,--,False,False,82,--,Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,0,2,25,1
+2022-10-21,30,-8,22,False,False,80,-0.02,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,25,29,2,35,1
+2022-10-21,31,-20,11,False,False,78,-0.36,The Way I Loved You (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,37,15,2,24,1
+2022-10-21,32,=,32,False,False,74,0.03,LOVE DIVE,IVE,LOVE DIVE,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,22,26,1,21,4
+2022-10-21,33,+1,34,False,False,58,-0.15,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,21,19,2,28,1
+2022-10-21,34,+17,51,False,False,56,0.17,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,15,15,3,32,3
+2022-10-21,35,+2,37,False,False,54,-0.17,FEARLESS,LE SSERAFIM,FEARLESS,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,20,16,1,24,3
+2022-10-21,36,+6,42,False,False,54,-0.05,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,18,18,1,46,6
+2022-10-21,37,-7,30,False,False,52,-0.29,Holy Ground (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,22,20,1,18,1
+2022-10-21,38,+11,49,False,False,50,0.02,willow,Taylor Swift,evermore,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,15,9,5,22,1
+2022-10-21,39,-19,20,False,False,50,-0.42,Take It,IVE,ELEVEN,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,26,6,20,12,1
+2022-10-21,40,-14,26,False,False,48,-0.38,It’s Nice to Have a Friend,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,24,14,26,8,1
+2022-10-21,41,-25,16,False,False,48,-0.55,Cruel Summer,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,32,6,1,25,1
+2022-10-21,42,+25,67,False,False,37,-0.1,no body no crime (feat. HAIM),Taylor Swift,evermore,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,13,6,12,15,1
+2022-10-21,43,NEW,--,True,False,34,--,Vigilante Shit,Taylor Swift,Midnights,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,43,1,1
+2022-10-21,44,+1,45,False,False,33,-0.37,closure,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,16,7,6,14,1
+2022-10-21,45,+7,52,False,False,32,-0.32,champagne problems,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,15,7,4,23,1
+2022-10-21,46,+17,63,False,False,31,-0.3,Lover,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,7,32,24,1
+2022-10-21,47,+6,53,False,False,31,-0.33,marjorie,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,7,1,16,1
+2022-10-21,48,+6,54,False,False,31,-0.33,long story short,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,7,7,15,1
+2022-10-21,49,+6,55,False,False,31,-0.33,gold rush,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,7,4,21,1
+2022-10-21,50,=,50,False,False,31,-0.37,Paper Rings,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,15,6,3,13,1
+2022-10-21,51,+13,64,False,False,31,-0.26,it’s time to go - bonus track,Taylor Swift,evermore (deluxe version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,13,0,16,4,1
+2022-10-21,52,+5,57,False,False,31,-0.3,evermore (feat. Bon Iver),Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,7,18,17,1
+2022-10-21,53,+5,58,False,False,31,-0.3,cowboy like me,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,7,2,17,1
+2022-10-21,54,+5,59,False,False,31,-0.3,ivy,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,7,3,22,1
+2022-10-21,55,+5,60,False,False,31,-0.3,coney island (feat. The National),Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,7,11,20,2
+2022-10-21,56,+5,61,False,False,31,-0.3,dorothea,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,7,12,16,1
+2022-10-21,57,-17,40,False,False,28,-0.52,ME! (feat. Brendon Urie of Panic! at the Disco),Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,18,0,21,15,1
+2022-10-21,58,+20,78,False,False,28,-0.12,Love Story (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,10,8,1,45,2
+2022-10-21,59,+10,69,False,False,29,-0.29,Wasabi,Little Mix,LM5 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,6,33,8,1
+2022-10-21,60,+19,79,False,False,28,-0.07,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,9,9,21,24,2
+2022-10-21,61,+9,70,False,False,27,-0.33,tolerate it,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,12,5,5,17,1
+2022-10-21,62,NEW,--,True,False,26,--,Bejeweled,Taylor Swift,Midnights,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,62,1,1
+2022-10-21,63,NEW,--,True,False,26,--,Question...?,Taylor Swift,Midnights,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,63,1,1
+2022-10-21,64,NEW,--,True,False,26,--,Snow on the Beach (feat. Lana Del Rey),Taylor Swift,Midnights,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,64,1,1
+2022-10-21,65,NEW,--,True,False,26,--,Lavender Haze,Taylor Swift,Midnights,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,65,1,1
+2022-10-21,66,+23,89,False,False,26,0.0,You Need to Calm Down,Taylor Swift,Lover,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,23,7,1
+2022-10-21,67,+5,72,False,False,27,-0.21,Out of the Woods,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,11,6,36,9,1
+2022-10-21,68,RE,--,False,False,26,--,The Very First Night (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,4,13,1
+2022-10-21,69,NEW,--,True,False,26,--,Labyrinth,Taylor Swift,Midnights,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,69,1,1
+2022-10-21,70,RE,--,False,False,24,--,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,6,19,15,1
+2022-10-21,71,+16,87,False,False,23,-0.12,cardigan,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,5,9,12,1
+2022-10-21,72,+26,98,False,False,24,-0.04,Hey Stephen (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,6,6,12,1
+2022-10-21,73,RE,--,False,False,22,--,Bad Blood,Taylor Swift,Bad Blood,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,4,11,18,1
+2022-10-21,74,NEW,--,True,False,18,--,Midnight Rain,Taylor Swift,Midnights,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,74,1,1
+2022-10-21,75,RE,--,False,False,18,--,Picture to Burn,Taylor Swift,Taylor Swift,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,17,13,1
+2022-10-21,76,+10,86,False,False,18,-0.31,Blank Space,Taylor Swift,1989,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,2,23,1
+2022-10-21,77,+6,83,False,False,18,-0.31,Shake It Off,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,13,15,1
+2022-10-21,78,+7,85,False,False,18,-0.31,Style,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,3,13,1
+2022-10-21,79,+14,93,False,False,18,-0.31,The Man,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,25,10,1
+2022-10-21,80,RE,--,False,False,18,--,Dress,Taylor Swift,Reputation,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,5,28,1
+2022-10-21,81,RE,--,False,False,18,--,UNNATURAL,WJSN,UNNATURAL,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,1,31,4
+2022-10-21,82,RE,--,False,False,18,--,RAINBOW,TWICE,Feel Special,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,10,24,1
+2022-10-21,83,NEW,--,True,False,18,--,Karma,Taylor Swift,Midnights,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,83,1,1
+2022-10-21,84,NEW,--,True,False,18,--,You're on Your Own Kid,Taylor Swift,Midnights,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,84,1,1
+2022-10-21,85,RE,--,True,False,18,--,Maroon,Taylor Swift,Midnights,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,85,1,1
+2022-10-21,86,NEW,--,True,False,18,--,Mastermind,Taylor Swift,Midnights,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,86,1,1
+2022-10-21,87,NEW,--,True,False,18,--,Sweet Nothing,Taylor Swift,Midnights,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,87,1,1
+2022-10-21,88,RE,--,False,False,18,--,State of Grace (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,5,14,1
+2022-10-21,89,RE,--,False,False,18,--,mad woman,Taylor Swift,folklore,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,18,10,1
+2022-10-21,90,-2,88,False,False,18,-0.31,Afterglow,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,22,10,1
+2022-10-21,91,=,91,False,False,18,-0.31,I Think He Knows,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,1,13,1
+2022-10-21,92,+2,94,False,False,18,-0.31,I Forgot That You Existed,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,6,10,1
+2022-10-21,93,-3,90,False,False,18,-0.31,Death by a Thousand Cuts,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,3,21,3
+2022-10-21,94,+5,99,False,False,18,-0.25,Forever Winter (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,1,31,8
+2022-10-21,95,-14,81,False,False,18,-0.31,Renegade (feat. Taylor Swift),Big Red Machine,How Long Do You Think It's Gonna Last?,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,4,7,1
+2022-10-21,96,RE,--,False,False,17,--,Heart Attack (츄),Loona,Chuu,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,7,10,31,1
+2022-10-21,97,RE,--,False,False,16,--,Feel Special,TWICE,Feel Special,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,6,4,48,2
+2022-10-21,98,RE,--,False,False,14,--,I Don’t Wanna Live Forever (Fifty Shades Darker),Zayn,I Don’t Wanna Live Forever (Fifty Shades Darker),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,4,92,3,1
+2022-10-21,99,RE,--,False,False,14,--,Fifteen (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,4,8,9,1
+2022-10-21,100,RE,--,False,False,14,--,New Romantics,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,4,7,9,1

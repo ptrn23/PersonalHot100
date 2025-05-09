@@ -1,23 +1,101 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2020-09-18,1,+3,4,True,False,13,0.3,?chame La Culpa,Luis Fonsi & Demi Lovato,?chame La Culpa (Not On You Remix) - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,1,4,1
-2020-09-18,2,NEW,--,True,False,10,--,RBB (Really Bad Boy) (Eng Ver.),Red Velvet,RBB - The 5th Mini Album - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,1,1
-2020-09-18,3,RE,--,False,False,10,--,Carousel,Melanie Martinez,Cry Baby,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,2,1
-2020-09-18,4,NEW,--,True,False,10,--,Lion Heart,소녀시대,Lion Heart - The 5th Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,1,1
-2020-09-18,5,NEW,--,True,False,10,--,Would You Be So Kind,dodie,You - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,1,1
-2020-09-18,6,NEW,--,True,False,10,--,I Know What I Want,Taylor Swift,Unreleased Songs,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,1,1
-2020-09-18,7,RE,--,True,False,10,--,Um Oh Ah Yeh,MAMAMOO,Pink Funky,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,3,1
-2020-09-18,8,RE,--,True,False,10,--,Sorry Not Sorry,Demi Lovato,Tell Me You Love Me (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,2,1
-2020-09-18,9,NEW,--,True,False,10,--,Stay With Me Babe (Bonus Track),LOOΠΔ,X X - Limited A,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,9,1,1
-2020-09-18,10,RE,--,True,False,10,--,Scream,Dreamcatcher,1st Album [Dystopia : The Tree of Language],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,2,1
-2020-09-18,11,NEW,--,True,False,10,--,Fire,2NE1,2NE1 1st Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,11,1,1
-2020-09-18,12,NEW,--,True,False,10,--,you,dodie,You - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,1,1
-2020-09-18,13,NEW,--,True,False,10,--,SLUMP (Tower of God ED),Stray Kids,TOP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,1,1
-2020-09-18,14,RE,--,True,False,10,--,Sixteen,OH MY GIRL,Secret Garden - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,2,1
-2020-09-18,15,RE,--,True,False,10,--,놀이 (Naughty),레드벨벳-아이린 & 슬기,Monster - The 1st Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,2,1
-2020-09-18,16,NEW,--,True,False,10,--,The Principal,Melanie Martinez,K-12,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,1,1
-2020-09-18,17,RE,--,False,False,10,--,Break My Heart,Dua Lipa,Future Nostalgia,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,11,3,1
-2020-09-18,18,NEW,--,True,False,10,--,Spring,MCND,Spring - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,1,1
-2020-09-18,19,RE,--,False,False,10,--,Valkyrie,ONEUS,LIGHT US,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,5,2
-2020-09-18,20,NEW,--,True,False,10,--,Welcome,IZ*ONE,Oneiric Diary (幻想日記),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,20,1,1
-2020-09-18,21,NEW,--,True,False,10,--,Back Door,Stray Kids (스트레이 키즈),IN生,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,1,1
-2020-09-18,22,NEW,--,True,False,10,--,Intro,GFRIEND,GFriend The 1st Album 'LOL',1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,1,1
+2020-09-18,1,RE,--,True,False,17,--,I Just,Red Velvet,Perfect Velvet - The 2nd Album,2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,0,0,1,1,1
+2020-09-18,2,RE,--,True,True,13,--,Look,Red Velvet,Perfect Velvet - The 2nd Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,3,2,5,2
+2020-09-18,3,+18,21,True,False,13,0.3,Back Door,Stray Kids (스트레이 키즈),IN生,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,3,2,1
+2020-09-18,4,RE,--,True,False,12,--,pete davidson,Ariana Grande,Sweetener,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,4,2,1
+2020-09-18,5,RE,--,True,False,12,--,Genie,Girls' Generation,Oh!,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,5,2,1
+2020-09-18,6,RE,--,True,False,12,--,WANNABE,ITZY,IT'z ME,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,6,4,1
+2020-09-18,7,RE,--,True,False,12,--,Naturally,Selena Gomez & the Scene,Kiss & Tell,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,7,2,1
+2020-09-18,8,RE,--,True,False,12,--,Stronger,TWICE,&TWICE,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,8,2,1
+2020-09-18,9,RE,--,False,False,12,--,Still Into You,Paramore,Paramore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,6,3,1
+2020-09-18,10,RE,--,True,False,12,--,I’m Your Boy,THE BOYZ,THE BOYZ DEBUT ALBUM [THE FIRST],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,10,2,1
+2020-09-18,11,RE,--,True,False,12,--,La Rouge,Red Velvet,‘The ReVe Festival’ Finale - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,11,2,1
+2020-09-18,12,RE,--,True,False,12,--,You Can STAY,Stray Kids (스트레이 키즈),Cl? : LEVANTER,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,12,2,1
+2020-09-18,13,RE,--,True,False,12,--,Pink Lemonade,TWICE,Wake Me Up,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,13,2,1
+2020-09-18,14,RE,--,True,False,12,--,Jumpin’,Red Velvet,‘The ReVe Festival’ Day 2 - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,14,2,1
+2020-09-18,15,RE,--,False,False,12,--,Hallucinate,Dua Lipa,Future Nostalgia,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,9,5,1
+2020-09-18,16,RE,--,False,False,12,--,A Million Dreams,Ziv Zaifman Hugh Jackman & Michelle Williams,The Greatest Showman (Original Motion Picture Soundtrack),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,14,2,1
+2020-09-18,17,RE,--,False,False,12,--,better off,Ariana Grande,Sweetener,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,15,2,1
+2020-09-18,18,RE,--,True,False,12,--,Pacify Her,Melanie Martinez,Cry Baby (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,18,3,1
+2020-09-18,19,RE,--,False,False,12,--,Word Up!,Little Mix,Word Up! - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,5,2,1
+2020-09-18,20,RE,--,True,False,12,--,I'm Every Woman,Taylor Swift,Unreleased Songs,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,20,2,1
+2020-09-18,21,RE,--,False,False,12,--,Magnolia,Too,REASON FOR BEING : Benevolence - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,17,2,1
+2020-09-18,22,RE,--,False,False,12,--,One Of These Nights (Piano Version),Red Velvet,The Velvet - The 2nd Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,7,2,1
+2020-09-18,23,RE,--,False,False,12,--,HOT SUMMER NIGHTS,OH MY GIRL,Oh My Girl - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,19,2,1
+2020-09-18,24,RE,--,False,False,12,--,Dance Again (feat. Pitbull),Jennifer Lopez,Dance Again...The Hits,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,23,2,1
+2020-09-18,25,RE,--,False,False,12,--,Light Me Up,Red Velvet,The Velvet - The 2nd Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,18,2,1
+2020-09-18,26,RE,--,False,False,12,--,Boyfriend,Selena Gomez,Rare (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,10,2,1
+2020-09-18,27,RE,--,False,False,10,--,Reggaeton Lento (Remix),CNCO feat. Little Mix,Reggaeton Lento (Remix),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,3,1
+2020-09-18,28,RE,--,False,False,10,--,Oh (Yes I Am),이달의 소녀 (Loona),[#],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,3,1
+2020-09-18,29,RE,--,True,False,10,--,COME BACK HOME,2NE1,CRUSH,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,29,1,1
+2020-09-18,30,RE,--,True,False,10,--,Toxic,Britney Spears,In the Zone,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,30,2,1
+2020-09-18,31,RE,--,False,False,10,--,A Year Without Rain,Selena Gomez & the Scene,A Year Without Rain,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,4,1
+2020-09-18,32,RE,--,False,False,10,--,hoax,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,2,1
+2020-09-18,33,RE,--,False,False,10,--,Psycho,Red Velvet,‘The ReVe Festival’ Finale - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,3,1
+2020-09-18,34,RE,--,True,False,10,--,Vampire,IZ*ONE,Vampire,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,34,1,1
+2020-09-18,35,RE,--,True,False,10,--,Love Is The Way,Red Velvet,‘The ReVe Festival’ Day 2 - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,35,1,1
+2020-09-18,36,RE,--,False,False,10,--,Your Gravity,UP10TION,The Moment of Illusion - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,4,2
+2020-09-18,37,RE,--,True,False,10,--,Regular (Korean ver.),NCT 127,NCT #127 Regular-Irregular - The 1st Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,37,1,1
+2020-09-18,38,RE,--,True,False,10,--,Mr. E,Red Velvet,Summer Magic - Summer Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,38,1,1
+2020-09-18,39,RE,--,False,False,10,--,넌 is 뭔들 (You`re the Best),MAMAMOO,Melting,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,28,2,1
+2020-09-18,40,RE,--,True,False,10,--,Down & Dirty,Little Mix,Glory Days (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,40,1,1
+2020-09-18,41,RE,--,True,False,10,--,gogobebe,MAMAMOO,White Wind,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,41,1,1
+2020-09-18,42,RE,--,False,False,10,--,Uncover (Sung by SEULGI) (Bonus Track),Red Velvet - IRENE & SEULGI,Monster - The 1st Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,2,1
+2020-09-18,43,RE,--,False,False,10,--,TOUCH,NCT 127,NCT 2018 EMPATHY,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,3,1
+2020-09-18,44,RE,--,True,False,10,--,The Beginning,Little Mix,Get Weird (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,44,1,1
+2020-09-18,45,RE,--,True,False,10,--,BRAND NEW GIRL,TWICE,Candy Pop - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,45,1,1
+2020-09-18,46,RE,--,False,False,10,--,Catch Me If You Can,Girls' Generation,Catch Me If You Can - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,4,1
+2020-09-18,47,RE,--,True,False,10,--,R.E.M,Ariana Grande,Sweetener,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,47,1,1
+2020-09-18,48,RE,--,False,False,10,--,Attaboy,Red Velvet,Perfect Velvet - The 2nd Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,2,1
+2020-09-18,49,RE,--,True,False,10,--,Hard Times,Paramore,After Laughter,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,49,1,1
+2020-09-18,50,RE,--,True,False,10,--,Haven,Stray Kids,GO生 (GO LIVE),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,50,1,1
+2020-09-18,51,RE,--,False,False,10,--,The Reason Why,TWICE,&TWICE,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,2,1
+2020-09-18,52,RE,--,True,False,10,--,Rare,Selena Gomez,Rare,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,52,1,1
+2020-09-18,53,RE,--,True,False,10,--,Holiday,소녀시대,Holiday Night - The 6th Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,53,1,1
+2020-09-18,54,RE,--,True,False,10,--,텐데... (Timeless),NCT U,NCT 2018 EMPATHY,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,54,1,1
+2020-09-18,55,RE,--,True,False,10,--,LP,Red Velvet,‘The ReVe Festival’ Day 1 - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,55,1,1
+2020-09-18,56,RE,--,False,False,10,--,Sippy Cup,Melanie Martinez,Cry Baby,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,47,2,1
+2020-09-18,57,RE,--,True,False,10,--,Rewrite the Stars,Zac Efron & Zendaya,The Greatest Showman (Original Motion Picture Soundtrack),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,57,1,1
+2020-09-18,58,RE,--,True,False,10,--,Day & Night (Hidden track),Loona,[#] - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,58,1,1
+2020-09-18,59,RE,--,True,False,10,--,Dance With the Devil,Katy Perry,Witness (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,59,1,1
+2020-09-18,60,RE,--,False,False,10,--,Mr. Potter,DIA,Spell,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,2,1
+2020-09-18,61,RE,--,True,False,10,--,Don't U Wait No More,Red Velvet,The Red - The 1st Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,61,2,1
+2020-09-18,62,RE,--,True,False,10,--,Cool for the Summer,Demi Lovato,Confident (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,62,1,1
+2020-09-18,63,RE,--,True,False,10,--,goodnight n go,Ariana Grande,Sweetener,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,63,1,1
+2020-09-18,64,RE,--,True,False,10,--,Some Love,Red Velvet,Russian Roulette - The 3rd Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,64,1,1
+2020-09-18,65,RE,--,False,False,10,--,Carpool,Red Velvet,‘The ReVe Festival’ Day 2 - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,2,1
+2020-09-18,66,RE,--,False,False,10,--,Happy,WJSN,Happy Moment,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,4,1
+2020-09-18,67,RE,--,True,False,10,--,어쩌나 (Oh My!),Seventeen,SEVENTEEN 5TH MINI ALBUM ‘YOU MAKE MY DAY’,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,67,2,1
+2020-09-18,68,RE,--,True,False,10,--,LION,(G)I-DLE,Queendom <FINAL Comeback> - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,68,2,1
+2020-09-18,69,RE,--,True,False,10,--,Astronaut,Stray Kids (스트레이 키즈),Cl? : LEVANTER,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,69,1,1
+2020-09-18,70,RE,--,True,False,10,--,We Go Together,John Travolta & Olivia Newton-John,Grease (The Original Soundtrack from the Motion Picture),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,70,1,1
+2020-09-18,71,RE,--,False,False,10,--,Answer,ATEEZ,TREASURE EPILOGUE : Action To Answer - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,4,2
+2020-09-18,72,RE,--,False,False,10,--,舞い落ちる花びら（Fallin' Flower）,Seventeen,舞い落ちる花びら（Fallin' Flower）,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,3,1
+2020-09-18,73,RE,--,False,False,10,--,WONDERLAND,ATEEZ,TREASURE EP.FIN : All To Action,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,5,1
+2020-09-18,74,RE,--,False,False,10,--,웃음꽃 (Smiling Flower),Seventeen,Going Seventeen,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,43,3,1
+2020-09-18,75,RE,--,True,False,10,--,Psycho ft. Nicki Minaj (Reloaded),Red Velvet,Psycho ft. Nicki Minaj (Reloaded) - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,75,1,1
+2020-09-18,76,RE,--,False,False,10,--,REVEAL,THE BOYZ,THE BOYZ 1ST ALBUM [REVEAL],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,2,1
+2020-09-18,77,RE,--,True,False,10,--,Sayonara,Red Velvet,SAPPY - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,77,1,1
+2020-09-18,78,RE,--,False,False,10,--,Bounce Back,Little Mix,Bounce Back - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,3,1
+2020-09-18,79,RE,--,False,False,10,--,Grown,Little Mix,Get Weird (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,20,3,1
+2020-09-18,80,RE,--,True,False,10,--,Only The Young (Featured in Miss Americana),Taylor Swift,Only The Young (Featured in Miss Americana) - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,80,1,1
+2020-09-18,81,RE,--,False,False,10,--,Blue Jeans,Lana Del Rey,Born to Die,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,24,2,1
+2020-09-18,82,RE,--,True,False,10,--,raindrops (an angel cried),Ariana Grande,Sweetener,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,82,1,1
+2020-09-18,83,RE,--,False,False,10,--,Detention,Melanie Martinez,K-12,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,2,1
+2020-09-18,84,RE,--,False,False,10,--,Twilight,ONEUS,Raise Us - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,9,3,1
+2020-09-18,85,RE,--,False,False,10,--,Recess,Melanie Martinez,K-12,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,19,2,1
+2020-09-18,86,RE,--,True,False,10,--,Booster,Stray Kids (스트레이 키즈),Cl? : LEVANTER,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,86,1,1
+2020-09-18,87,RE,--,False,False,10,--,Physical (feat. Hwa Sa),Dua Lipa,Physical (feat. Hwa Sa) - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,58,2,1
+2020-09-18,88,RE,--,False,False,10,--,no tears left to cry,Ariana Grande,Sweetener,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,2,1
+2020-09-18,89,RE,--,True,False,10,--,BOOM,NCT DREAM,We Boom - The 3rd Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,89,1,1
+2020-09-18,90,RE,--,False,False,10,--,party tattoos,dodie,Party Tattoos - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,2,1
+2020-09-18,91,RE,--,False,False,10,--,Ain't Your Mama,Jennifer Lopez,Ain't Your Mama - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,33,2,1
+2020-09-18,92,RE,--,False,False,10,--,Bad Liar,Selena Gomez,Bad Liar - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,3,1
+2020-09-18,93,RE,--,False,False,10,--,사랑쪽지 (Love Letter),Seventeen,SEVENTEEN 1ST ALBUM [FIRST ‘LOVE&LETTER’],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,44,3,1
+2020-09-18,94,RE,--,True,False,10,--,Knock(널 찾아가),Astro,ASTRO 7th Mini Album [GATEWAY],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,94,1,1
+2020-09-18,95,RE,--,True,False,10,--,6/10,dodie,You - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,95,1,1
+2020-09-18,96,RE,--,False,False,10,--,cardigan,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,9,2,1
+2020-09-18,97,RE,--,True,False,10,--,First Time,Red Velvet,The Velvet - The 2nd Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,97,1,1
+2020-09-18,98,RE,--,False,False,10,--,Mojito,Red Velvet,The Red Summer - Summer Mini Album - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,27,2,1
+2020-09-18,99,RE,--,True,False,10,--,Lady's Room,Red Velvet,The Red - The 1st Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,99,1,1
+2020-09-18,100,RE,--,True,False,10,--,Secret Love Song: Part II,Little Mix,Get Weird (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,100,1,1

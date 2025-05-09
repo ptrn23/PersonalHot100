@@ -1,101 +1,31 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2020-12-11,1,NEW,--,True,False,18,--,marjorie,Taylor Swift,evermore,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,1,1,1
-2020-12-11,2,NEW,--,True,False,18,--,tolerate it,Taylor Swift,evermore,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,2,1,1
-2020-12-11,3,NEW,--,True,False,18,--,cowboy like me,Taylor Swift,evermore,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,3,1,1
-2020-12-11,4,NEW,--,True,False,18,--,ivy,Taylor Swift,evermore,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,4,1,1
-2020-12-11,5,NEW,--,True,False,18,--,coney island (feat. The National),Taylor Swift,evermore,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,5,1,1
-2020-12-11,6,NEW,--,True,False,18,--,willow,Taylor Swift,evermore,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,6,1,1
-2020-12-11,7,NEW,--,True,False,18,--,gold rush,Taylor Swift,evermore,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,7,1,1
-2020-12-11,8,NEW,--,True,False,18,--,no body no crime (feat. HAIM),Taylor Swift,evermore,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,8,1,1
-2020-12-11,9,NEW,--,True,False,18,--,gogobebe,MAMAMOO,White Wind,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,9,1,1
-2020-12-11,10,NEW,--,True,False,18,--,Levitating (feat. DaBaby),Dua Lipa,,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,10,1,1
-2020-12-11,11,+4,15,True,False,13,0.3,덤디덤디 (DUMDi DUMDi),(여자)아이들,덤디덤디 (DUMDi DUMDi),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,11,3,1
-2020-12-11,12,+21,33,True,True,13,0.3,Answer,ATEEZ,TREASURE EPILOGUE : Action To Answer - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,12,4,2
-2020-12-11,13,RE,--,False,False,12,--,Break My Heart,Dua Lipa,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,11,5,1
-2020-12-11,14,RE,--,False,False,12,--,Don't Start Now,Dua Lipa,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,6,4,1
-2020-12-11,15,RE,--,True,False,12,--,100,SuperM,100,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,15,2,1
-2020-12-11,16,RE,--,False,False,12,--,Drama Club,Melanie Martinez,K-12,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,9,3,1
-2020-12-11,17,NEW,--,True,False,10,--,evermore (feat. Bon Iver),Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,1,1
-2020-12-11,18,NEW,--,True,False,10,--,closure,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,1,1
-2020-12-11,19,NEW,--,True,False,10,--,long story short,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,19,1,1
-2020-12-11,20,NEW,--,True,False,10,--,dorothea,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,20,1,1
-2020-12-11,21,NEW,--,True,False,10,--,happiness,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,1,1
-2020-12-11,22,NEW,--,True,False,10,--,‘tis the damn season,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,1,1
-2020-12-11,23,NEW,--,True,False,10,--,champagne problems,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,1,1
-2020-12-11,24,RE,--,False,False,10,--,Pirate King,ATEEZ,TREASURE EP.1: All to Zero,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,5,1
-2020-12-11,25,RE,--,False,False,10,--,OXYGEN,TWICE,MORE & MORE,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,2,1
-2020-12-11,26,RE,--,False,False,10,--,Snap Shoot,Seventeen,SEVENTEEN 3RD ALBUM 'An Ode',1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,3,1
-2020-12-11,27,NEW,--,True,False,10,--,New Rules,Dua Lipa,Dua Lipa (Complete Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,27,1,1
-2020-12-11,28,RE,--,False,False,10,--,In & Out,Red Velvet,‘The ReVe Festival’ Finale - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,4,1
-2020-12-11,29,NEW,--,True,False,10,--,SOLO,JENNIE (from BLACKPINK),SOLO - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,29,1,1
-2020-12-11,30,NEW,--,True,False,10,--,Butterfly,WJSN (Cosmic Girls),Neverland,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,30,1,1
-2020-12-11,31,RE,--,False,False,10,--,Circus,Britney Spears,Circus (Deluxe Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,5,1
-2020-12-11,32,RE,--,False,False,10,--,일상 (Another Day),Stray Kids,GO生 (GO LIVE),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,3,1
-2020-12-11,33,RE,--,False,False,10,--,Back Door,Stray Kids (스트레이 키즈),IN生,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,3,1
-2020-12-11,34,NEW,--,True,False,10,--,CRY FOR ME,TWICE,Twice,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,34,1,1
-2020-12-11,35,NEW,--,True,False,10,--,I CAN'T STOP ME (English Ver.),TWICE,I CAN'T STOP ME,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,35,1,1
-2020-12-11,36,NEW,--,True,False,10,--,Breathe,Little Mix,Confetti,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,36,1,1
-2020-12-11,37,NEW,--,True,False,10,--,If You Want My Love,Little Mix,Confetti,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,37,1,1
-2020-12-11,38,NEW,--,True,False,10,--,Rendezvous,Little Mix,Confetti,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,38,1,1
-2020-12-11,39,NEW,--,True,False,10,--,My Love Won't Let You Down,Little Mix,Confetti,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,39,1,1
-2020-12-11,40,NEW,--,True,False,10,--,A Mess (Happy 4 U),Little Mix,Confetti,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,40,1,1
-2020-12-11,41,NEW,--,True,False,10,--,Gloves Up,Little Mix,Confetti,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,41,1,1
-2020-12-11,42,NEW,--,True,False,10,--,Nothing But My Feelings,Little Mix,Confetti,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,42,1,1
-2020-12-11,43,RE,--,True,False,10,--,Not a Pop Song,Little Mix,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,43,2,1
-2020-12-11,44,NEW,--,True,False,10,--,Happiness,Little Mix,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,44,1,1
-2020-12-11,45,NEW,--,True,False,10,--,Confetti,Little Mix,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,45,1,1
-2020-12-11,46,NEW,--,True,False,10,--,Sweet Melody,Little Mix,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,46,1,1
-2020-12-11,47,RE,--,True,False,10,--,Holiday,Little Mix,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,47,2,1
-2020-12-11,48,NEW,--,True,False,10,--,Break Up Song (Official Video),Little Mix,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,48,1,1
-2020-12-11,49,NEW,--,True,False,10,--,By the Grace of God,Katy Perry,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,49,1,1
-2020-12-11,50,NEW,--,True,False,10,--,Double Rainbow,Katy Perry,PRISM,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,50,1,1
-2020-12-11,51,NEW,--,True,False,10,--,This Moment,Katy Perry,PRISM,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,51,1,1
-2020-12-11,52,NEW,--,True,False,10,--,Love Me,Katy Perry,PRISM,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,52,1,1
-2020-12-11,53,NEW,--,True,False,10,--,Ghost,Katy Perry,PRISM,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,53,1,1
-2020-12-11,54,NEW,--,True,False,10,--,International Smile,Katy Perry,PRISM,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,54,1,1
-2020-12-11,55,RE,--,False,False,10,--,This Is How We Do,Katy Perry,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,3,1
-2020-12-11,56,NEW,--,True,False,10,--,Dark Horse (feat. Juicy J),Katy Perry,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,56,1,1
-2020-12-11,57,NEW,--,True,False,10,--,Unconditionally,Katy Perry,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,57,1,1
-2020-12-11,58,NEW,--,True,False,10,--,Walking on Air,Katy Perry,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,58,1,1
-2020-12-11,59,NEW,--,True,False,10,--,Birthday,Katy Perry,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,59,1,1
-2020-12-11,60,NEW,--,True,False,10,--,Legendary Lovers,Katy Perry,PRISM,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,60,1,1
-2020-12-11,61,NEW,--,True,False,10,--,Roar,Katy Perry,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,61,1,1
-2020-12-11,62,NEW,--,True,False,10,--,What Makes a Woman,Katy Perry,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,62,1,1
-2020-12-11,63,NEW,--,True,False,10,--,Only Love,Katy Perry,Smile,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,63,1,1
-2020-12-11,64,NEW,--,True,False,10,--,Harleys in Hawaii,Katy Perry,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,64,1,1
-2020-12-11,65,NEW,--,True,False,10,--,Tucked,Katy Perry,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,65,1,1
-2020-12-11,66,NEW,--,True,False,10,--,Champagne Problems,Katy Perry,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,66,1,1
-2020-12-11,67,NEW,--,True,False,10,--,Smile,Katy Perry,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,67,1,1
-2020-12-11,68,NEW,--,True,False,10,--,Not the End of the World,Katy Perry,Smile,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,68,1,1
-2020-12-11,69,NEW,--,True,False,10,--,Resilient,Katy Perry,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,69,1,1
-2020-12-11,70,RE,--,False,False,10,--,Daisies,Katy Perry,DAISIES - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,4,1
-2020-12-11,71,NEW,--,True,False,10,--,Teary Eyes,Katy Perry,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,71,1,1
-2020-12-11,72,NEW,--,True,False,10,--,Cry About It Later,Katy Perry,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,72,1,1
-2020-12-11,73,RE,--,False,False,10,--,Never Really Over,Katy Perry,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,4,1
-2020-12-11,74,NEW,--,True,False,10,--,Fever (feat. Angèle),Dua Lipa,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,74,1,1
-2020-12-11,75,NEW,--,True,False,10,--,Dua Lipa - Boys Will Be Boys (Official Lyrics Video),Dua Lipa,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,75,1,1
-2020-12-11,76,NEW,--,True,False,10,--,Dua Lipa - Good In Bed (Official Lyrics Video),Dua Lipa,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,76,1,1
-2020-12-11,77,NEW,--,True,False,10,--,Love Again,Dua Lipa,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,77,1,1
-2020-12-11,78,RE,--,False,False,10,--,Hallucinate,Dua Lipa,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,7,1
-2020-12-11,79,NEW,--,True,False,10,--,Dua Lipa - Pretty Please (Official Lyrics Video),Dua Lipa,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,79,1,1
-2020-12-11,80,RE,--,False,False,10,--,Physical,Dua Lipa,Future Nostalgia,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,6,1
-2020-12-11,81,NEW,--,True,False,10,--,Cool,Dua Lipa,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,81,1,1
-2020-12-11,82,NEW,--,True,False,10,--,Dua Lipa - Future Nostalgia (Official Lyrics Video),Dua Lipa,,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,82,1,1
-2020-12-11,83,RE,--,False,False,10,--,WONDERLAND,ATEEZ,TREASURE EP.FIN : All To Action,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,5,1
-2020-12-11,84,RE,--,False,False,10,--,숨바꼭질 (Hide & Seek),이달의 소녀,［12:00］,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,36,2,1
-2020-12-11,85,NEW,--,True,False,10,--,감싸줄게요 (Hug U),DIA,Flower 4 Seasons,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,85,1,1
-2020-12-11,86,RE,--,False,False,10,--,Jumpin’,Red Velvet,‘The ReVe Festival’ Day 2 - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,4,1
-2020-12-11,87,RE,--,False,False,10,--,Grown,Little Mix,Get Weird (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,49,4,1
-2020-12-11,88,NEW,--,True,False,10,--,Stupid Love,Lady Gaga,Stupid Love - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,88,1,1
-2020-12-11,89,RE,--,False,False,10,--,invisible string,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,2,1
-2020-12-11,90,RE,--,False,False,10,--,Touch My Body,SISTAR,TOUCH N MOVE - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,45,2,1
-2020-12-11,91,RE,--,False,False,10,--,Sweet Chaos,DAY6,The Book of Us : Entropy,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,2,1
-2020-12-11,92,RE,--,True,False,10,--,INCEPTION,ATEEZ (에이티즈),ZERO : FEVER Part.1,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,92,2,1
-2020-12-11,93,RE,--,False,False,10,--,R.E.M,Ariana Grande,Sweetener,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,85,2,1
-2020-12-11,94,NEW,--,True,False,10,--,Boogie Up,WJSN,For the Summer - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,94,1,1
-2020-12-11,95,RE,--,False,False,10,--,Tell Me Something I Don't Know,Selena Gomez & the Scene,Kiss & Tell,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,20,3,1
-2020-12-11,96,NEW,--,True,False,10,--,Pacemaker,Stray Kids,GO生 (GO LIVE),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,96,1,1
-2020-12-11,97,RE,--,False,False,10,--,the last great american dynasty,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,3,1
-2020-12-11,98,NEW,--,True,False,10,--,Don’t Need Your Love,NCT DREAM HRVY,Don’t Need Your Love - SM STATION,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,98,1,1
-2020-12-11,99,RE,--,False,False,10,--,어른 아이 (Kidult),Seventeen,SEVENTEEN 7th Mini Album '헹가래(Heng:garae)',1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,56,2,1
-2020-12-11,100,RE,--,False,False,10,--,NONSTOP,OH MY GIRL,NONSTOP - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,5,1
+2020-12-11,1,NEW,--,True,False,26,--,marjorie,Taylor Swift,evermore,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,1,1,1
+2020-12-11,2,NEW,--,True,False,26,--,cowboy like me,Taylor Swift,evermore,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,2,1,1
+2020-12-11,3,NEW,--,True,False,26,--,ivy,Taylor Swift,evermore,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,3,1,1
+2020-12-11,4,NEW,--,True,False,26,--,gold rush,Taylor Swift,evermore,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,4,1,1
+2020-12-11,5,NEW,--,True,False,26,--,willow,Taylor Swift,evermore,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,5,1,1
+2020-12-11,6,NEW,--,True,False,18,--,closure,Taylor Swift,evermore,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,6,1,1
+2020-12-11,7,NEW,--,True,False,18,--,long story short,Taylor Swift,evermore,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,7,1,1
+2020-12-11,8,NEW,--,True,False,18,--,‘tis the damn season,Taylor Swift,evermore,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,8,1,1
+2020-12-11,9,NEW,--,True,False,18,--,champagne problems,Taylor Swift,evermore,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,9,1,1
+2020-12-11,10,NEW,--,True,False,18,--,tolerate it,Taylor Swift,evermore,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,10,1,1
+2020-12-11,11,NEW,--,True,False,18,--,coney island (feat. The National),Taylor Swift,evermore,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,11,1,1
+2020-12-11,12,NEW,--,True,False,18,--,no body no crime (feat. HAIM),Taylor Swift,evermore,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,12,1,1
+2020-12-11,13,RE,--,True,False,10,--,Bing Bing,Red Velvet,‘The ReVe Festival’ Day 1 - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,2,1
+2020-12-11,14,RE,--,True,False,10,--,Black on Black,NCT 2018,NCT 2018 EMPATHY,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,1,1
+2020-12-11,15,RE,--,True,False,10,--,Young and Beautiful,Lana Del Rey,The Great Gatsby (Music From Baz Luhrmann's Film) [Deluxe Edition],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,2,1
+2020-12-11,16,RE,--,True,False,10,--,Bubble Pop!,HyunA,Bubble Pop!,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,2,1
+2020-12-11,17,RE,--,False,False,10,--,Love Me or Leave Me,Little Mix,Get Weird (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,2,1
+2020-12-11,18,RE,--,False,False,10,--,Carousel,Melanie Martinez,Cry Baby (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,4,1
+2020-12-11,19,RE,--,False,False,10,--,Naturally,Selena Gomez & the Scene,Kiss & Tell,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,3,1
+2020-12-11,20,RE,--,True,False,10,--,뜨거운 감자 (Hot Potato),N.Flying,N.Flying 3rd Mini Album [THE HOTTEST : N.Flying],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,20,1,1
+2020-12-11,21,RE,--,True,False,10,--,Give Your Heart a Break,Demi Lovato,Unbroken,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,2,1
+2020-12-11,22,RE,--,True,False,10,--,Starry Night,MAMAMOO,Yellow Flower,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,1,1
+2020-12-11,23,RE,--,True,False,10,--,Neon Lights,Demi Lovato,Demi,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,4,1
+2020-12-11,24,RE,--,True,False,10,--,Tag Me (@Me),Weekly,We are,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,24,1,1
+2020-12-11,25,RE,--,True,False,10,--,evermore,Taylor Swift Bon Iver,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,25,1,1
+2020-12-11,26,RE,--,True,False,10,--,coney island,Taylor Swift The National,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,26,1,1
+2020-12-11,27,RE,--,True,False,10,--,Christmas Tree Farm,Taylor Swift,Christmas Tree Farm - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,27,1,1
+2020-12-11,28,NEW,--,True,False,10,--,evermore (feat. Bon Iver),Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,28,1,1
+2020-12-11,29,NEW,--,True,False,10,--,dorothea,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,29,1,1
+2020-12-11,30,NEW,--,True,False,10,--,happiness,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,30,1,1

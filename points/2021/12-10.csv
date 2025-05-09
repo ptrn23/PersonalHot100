@@ -1,45 +1,22 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2021-12-10,1,=,1,True,True,72,0.5,Forever Winter (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,15,15,1,5,3
-2021-12-10,2,NEW,--,True,False,61,--,CPR,cupcakKe,Queen Elizabitch,8,5,3,40,15,6,400000,15000,300000,0.56,0.02,0.42,715000,61,0,0,2,1,1
-2021-12-10,3,+1,4,True,False,39,0.05,I Bet You Think About Me (feat. Chris Stapleton) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,12,9,3,5,1
-2021-12-10,4,+3,7,True,False,34,0.03,Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,10,6,4,5,1
-2021-12-10,5,+20,25,True,False,20,0.0,Sad Beautiful Tragic (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,4,5,5,1
-2021-12-10,6,RE,--,False,False,18,--,Guiltless,dodie,Guiltless,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,5,5,1
-2021-12-10,7,NEW,--,True,False,18,--,SCIENTIST,TWICE,Formula of Love: O+T=<3,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,7,1,1
-2021-12-10,8,+78,86,False,False,13,0.3,ghostin,Ariana Grande,thank u next,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,1,9,1
-2021-12-10,9,+75,84,False,False,13,0.3,Waking Up in Vegas,Katy Perry,One of the Boys,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,5,11,1
-2021-12-10,10,RE,--,False,False,12,--,Daylight,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,5,7,1
-2021-12-10,11,RE,--,False,False,12,--,I Kissed a Girl,Katy Perry,One of the Boys,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,10,8,1
-2021-12-10,12,RE,--,False,False,12,--,Teardrops on My Guitar - Radio Single Remix,Taylor Swift,Taylor Swift (Big Machine Radio Release Special),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,6,6,1
-2021-12-10,13,RE,--,False,False,10,--,SAY YES,TWICE,Summer Nights,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,5,1
-2021-12-10,14,RE,--,True,False,10,--,ONE IN A MILLION,TWICE,TWICEcoaster: LANE1,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,3,1
-2021-12-10,15,NEW,--,True,False,10,--,SOS,TWICE,Taste of Love,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,1,1
-2021-12-10,16,NEW,--,True,False,10,--,Baby Blue Love,TWICE,Taste of Love,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,1,1
-2021-12-10,17,RE,--,False,False,10,--,Conversation,TWICE,Taste of Love,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,2,1
-2021-12-10,18,RE,--,False,False,10,--,Scandal,TWICE,Taste of Love,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,2,1
-2021-12-10,19,RE,--,False,False,10,--,First Time,TWICE,Taste of Love,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,3,1
-2021-12-10,20,RE,--,False,False,10,--,Alcohol-Free,TWICE,Taste of Love,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,5,1
-2021-12-10,21,NEW,--,True,False,10,--,SCIENTIST - R3HAB Remix,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,1,1
-2021-12-10,22,RE,--,False,False,10,--,The Feels,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,2,1
-2021-12-10,23,NEW,--,True,False,10,--,CANDY,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,1,1
-2021-12-10,24,NEW,--,True,False,10,--,1 3 2 (JEONGYEON MINA TZUYU),TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,24,1,1
-2021-12-10,25,NEW,--,True,False,10,--,HELLO (NAYEON MOMO CHAEYOUNG),TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,25,1,1
-2021-12-10,26,NEW,--,True,False,10,--,PUSH & PULL (JIHYO SANA DAHYUN),TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,26,1,1
-2021-12-10,27,NEW,--,True,False,10,--,CACTUS,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,27,1,1
-2021-12-10,28,NEW,--,True,False,10,--,REWIND,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,28,1,1
-2021-12-10,29,NEW,--,True,False,10,--,ESPRESSO,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,29,1,1
-2021-12-10,30,NEW,--,True,False,10,--,LAST WALTZ,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,30,1,1
-2021-12-10,31,NEW,--,True,False,10,--,F.I.L.A (Fall in Love Again),TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,31,1,1
-2021-12-10,32,NEW,--,True,False,10,--,REAL YOU,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,32,1,1
-2021-12-10,33,NEW,--,True,False,10,--,CRUEL,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,33,1,1
-2021-12-10,34,NEW,--,True,False,10,--,ICON,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,34,1,1
-2021-12-10,35,NEW,--,True,False,10,--,MOONLIGHT,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,35,1,1
-2021-12-10,36,RE,--,False,False,10,--,Thinking of You,Katy Perry,One of the Boys,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,9,7,1
-2021-12-10,37,RE,--,False,False,10,--,One of the Boys,Katy Perry,One of the Boys,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,3,1
-2021-12-10,38,NEW,--,True,False,10,--,My Neck My Back (Lick It),Khia,Thug Misses (Digitally Remastered),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,38,1,1
-2021-12-10,39,RE,--,True,False,10,--,Abracadabra,Brown Eyed Girls,Sound G.,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,39,2,1
-2021-12-10,40,NEW,--,True,False,10,--,Vagina,cupcakKe,Cum Cake,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,40,1,1
-2021-12-10,41,RE,--,False,False,10,--,You Are in Love,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,11,1
-2021-12-10,42,RE,--,False,False,10,--,happiness,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,19,2
-2021-12-10,43,RE,--,False,False,10,--,Moonlight,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,36,4,1
-2021-12-10,44,RE,--,False,False,10,--,hope ur ok,Olivia Rodrigo,SOUR,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,9,1
+2021-12-10,1,=,1,True,True,73,0.24,Forever Winter (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),5,3,3,25,9,6,250000,9000,300000,0.45,0.02,0.54,559000,40,18,15,1,5,4
+2021-12-10,2,+3,5,True,False,43,0.59,Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,9,8,2,5,1
+2021-12-10,3,=,3,False,False,40,0.0,I Bet You Think About Me (feat. Chris Stapleton) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,12,11,2,5,1
+2021-12-10,4,RE,--,True,True,26,--,Babe (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,0,9,4,4,2
+2021-12-10,5,RE,--,False,False,26,--,Better Man (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,8,3,4,1
+2021-12-10,6,-4,2,False,False,26,-0.51,CPR,cupcakKe,Queen Elizabitch,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,16,0,2,2,1
+2021-12-10,7,+35,42,False,False,20,1.0,happiness,Taylor Swift,evermore,2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,3,0,2,18,2
+2021-12-10,8,+37,45,False,False,13,0.3,Guiltless,dodie,Guiltless,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,5,7,1
+2021-12-10,9,RE,--,False,False,12,--,ghostin,Ariana Grande,thank u next,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,1,11,2
+2021-12-10,10,RE,--,False,False,10,--,cowboy like me,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,8,1
+2021-12-10,11,RE,--,False,False,10,--,ivy,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,8,1
+2021-12-10,12,RE,--,False,False,10,--,coney island (feat. The National),Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,11,9,2
+2021-12-10,13,RE,--,False,False,10,--,no body no crime (feat. HAIM),Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,8,1
+2021-12-10,14,RE,--,False,False,10,--,tolerate it,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,10,1
+2021-12-10,15,RE,--,False,False,10,--,‘tis the damn season,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,8,1
+2021-12-10,16,RE,--,False,False,10,--,gold rush,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,10,1
+2021-12-10,17,RE,--,False,False,10,--,champagne problems,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,12,1
+2021-12-10,18,RE,--,False,False,10,--,willow,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,9,1
+2021-12-10,19,RE,--,True,True,10,--,SAY YES,TWICE,Summer Nights,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,19,4,2
+2021-12-10,20,RE,--,True,False,10,--,ONE IN A MILLION,TWICE,TWICEcoaster: LANE1,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,20,2,1
+2021-12-10,21,RE,--,False,False,10,--,Daylight,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,8,2

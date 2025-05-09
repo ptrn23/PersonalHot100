@@ -1,101 +1,101 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2023-11-24,1,+2,3,True,False,442,-0.03,Style (Taylor's Version),Taylor Swift,1989 (Taylor's Version),29,23,6,145,69,12,1450000,69000,600000,0.68,0.03,0.28,2119000,226,137,79,1,5,1
-2023-11-24,2,=,2,False,False,437,-0.06,Blank Space (Taylor's Version),Taylor Swift,1989 (Taylor's Version),27,24,4,135,72,8,1350000,72000,400000,0.74,0.04,0.22,1822000,215,140,82,1,5,1
-2023-11-24,3,+1,4,True,False,436,0.14,Now That We Don't Talk (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),38,18,13,190,54,26,1900000,54000,1300000,0.58,0.02,0.4,3254000,270,115,51,3,5,1
-2023-11-24,4,-3,1,False,False,392,-0.26,Shake It Off (Taylor's Version),Taylor Swift,1989 (Taylor's Version),17,15,2,85,45,4,850000,45000,200000,0.78,0.04,0.18,1095000,134,159,99,1,5,2
-2023-11-24,5,+6,11,True,False,327,1.52,Breakaway,Kelly Clarkson,Breakaway,31,21,11,155,63,22,1550000,63000,1100000,0.57,0.02,0.41,2713000,240,39,48,5,3,1
-2023-11-24,6,+2,8,True,False,225,0.15,Is It Over Now? (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),16,9,7,80,27,14,800000,27000,700000,0.52,0.02,0.46,1527000,121,59,45,6,5,1
-2023-11-24,7,-2,5,False,False,213,-0.31,I Wish You Would (Taylor's Version),Taylor Swift,1989 (Taylor's Version),8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,93,54,3,5,1
-2023-11-24,8,-2,6,False,False,208,-0.07,Bad Blood (feat. Kendrick Lamar) (Taylor's Version),Taylor Swift,1989 (Taylor's Version) [Deluxe],16,5,7,80,15,14,800000,15000,700000,0.53,0.01,0.46,1515000,109,68,31,6,5,1
-2023-11-24,9,RE,--,True,False,198,--,Because of You,Kelly Clarkson,Breakaway,26,18,7,130,54,14,1300000,54000,700000,0.63,0.03,0.34,2054000,198,0,0,9,2,1
-2023-11-24,10,NEW,--,True,False,193,--,Sweet Crazy Love (Eng Ver.),ODD EYE CIRCLE (ARTMS),Sweet Crazy Love (Eng Ver.),27,2,26,135,6,52,1350000,6000,2600000,0.34,0.0,0.66,3956000,193,0,0,10,1,1
-2023-11-24,11,-4,7,False,False,161,-0.28,Out of the Woods (Taylor's Version),Taylor Swift,1989 (Taylor's Version),6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,67,44,3,5,1
-2023-11-24,12,+2,14,False,False,156,0.28,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),14,14,1,70,42,2,700000,42000,100000,0.83,0.05,0.12,842000,114,37,5,1,59,3
-2023-11-24,13,+26,39,False,False,149,1.33,Thinking of You,Katy Perry,One of the Boys,15,11,5,75,33,10,750000,33000,500000,0.58,0.03,0.39,1283000,118,20,11,9,13,1
-2023-11-24,14,RE,--,True,False,147,--,Since U Been Gone,Kelly Clarkson,Breakaway,18,15,4,90,45,8,900000,45000,400000,0.67,0.03,0.3,1345000,143,0,4,14,8,1
-2023-11-24,15,-5,10,False,False,144,0.01,Lucky,Britney Spears,Oops!... I Did It Again,7,6,2,35,18,4,350000,18000,200000,0.62,0.03,0.35,568000,57,43,44,8,4,1
-2023-11-24,16,+12,28,False,False,116,0.38,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),11,11,1,55,33,2,550000,33000,100000,0.81,0.05,0.15,683000,90,26,0,1,50,5
-2023-11-24,17,-8,9,False,False,115,-0.34,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,52,21,1,71,2
-2023-11-24,18,RE,--,False,False,114,--,Midnight Rain,Taylor Swift,Midnights (3am Edition),14,1,14,70,3,28,700000,3000,1400000,0.33,0.0,0.67,2103000,101,0,13,1,48,1
-2023-11-24,19,NEW,--,True,False,114,--,Chill Kill,Red Velvet,Chill Kill - The 3rd Album,14,14,1,70,42,2,700000,42000,100000,0.83,0.05,0.12,842000,114,0,0,19,1,1
-2023-11-24,20,NEW,--,True,False,106,--,Behind These Hazel Eyes,Kelly Clarkson,Breakaway,13,13,1,65,39,2,650000,39000,100000,0.82,0.05,0.13,789000,106,0,0,20,1,1
-2023-11-24,21,NEW,--,True,False,106,--,Knock Knock (Who's There?),Red Velvet,Chill Kill - The 3rd Album,13,13,1,65,39,2,650000,39000,100000,0.82,0.05,0.13,789000,106,0,0,21,1,1
-2023-11-24,22,-6,16,False,False,104,-0.12,New Romantics (Taylor's Version),Taylor Swift,1989 (Taylor's Version),6,4,3,30,12,6,300000,12000,300000,0.49,0.02,0.49,612000,48,36,20,11,5,1
-2023-11-24,23,NEW,--,True,False,98,--,Scenery,Red Velvet,Chill Kill - The 3rd Album,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,0,0,23,1,1
-2023-11-24,24,NEW,--,True,False,98,--,Wings,Red Velvet,Chill Kill - The 3rd Album,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,0,0,24,1,1
-2023-11-24,25,NEW,--,True,False,98,--,Bulldozer,Red Velvet,Chill Kill - The 3rd Album,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,0,0,25,1,1
-2023-11-24,26,NEW,--,True,False,98,--,One Kiss,Red Velvet,Chill Kill - The 3rd Album,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,0,0,26,1,1
-2023-11-24,27,NEW,--,True,False,98,--,Iced Coffee,Red Velvet,Chill Kill - The 3rd Album,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,0,0,27,1,1
-2023-11-24,28,NEW,--,True,False,98,--,Nightmare,Red Velvet,Chill Kill - The 3rd Album,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,0,0,28,1,1
-2023-11-24,29,NEW,--,True,False,98,--,Will I Ever See You Again?,Red Velvet,Chill Kill - The 3rd Album,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,0,0,29,1,1
-2023-11-24,30,NEW,--,True,False,98,--,Underwater,Red Velvet,Chill Kill - The 3rd Album,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,0,0,30,1,1
-2023-11-24,31,-4,27,False,False,96,0.03,She's So Mean,Matchbox Twenty,North (Deluxe Edition),6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,28,18,1,26,1
-2023-11-24,32,-6,26,False,False,92,-0.01,Welcome to New York (Taylor's Version),Taylor Swift,1989 (Taylor's Version),6,4,3,30,12,6,300000,12000,300000,0.49,0.02,0.49,612000,48,28,16,18,4,1
-2023-11-24,33,-15,18,False,False,91,-0.19,Nice to meet you (feat. Central Cee),PinkPantheress,Heaven knows,7,6,2,35,18,4,350000,18000,200000,0.62,0.03,0.35,568000,57,34,0,18,2,1
-2023-11-24,34,-17,17,False,False,89,-0.23,All You Had to Do Was Stay (Taylor's Version),Taylor Swift,1989 (Taylor's Version),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,35,20,11,5,1
-2023-11-24,35,+1,36,False,False,88,0.29,Alapaap,Eraserheads,Circus,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,21,17,1,25,1
-2023-11-24,36,-24,12,False,False,88,-0.29,Bad Blood (Taylor's Version),Taylor Swift,1989 (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,38,24,9,5,2
-2023-11-24,37,NEW,--,True,False,87,--,Sweet Crazy Love (Eng ver.),ODD EYE CIRCLE,Sweet Crazy Love (Eng ver.),13,4,5,65,12,10,650000,12000,500000,0.56,0.01,0.43,1162000,87,0,0,37,1,1
-2023-11-24,38,-17,21,False,False,86,-0.2,Say Don't Go (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,33,19,12,5,1
-2023-11-24,39,-5,34,False,False,85,0.15,A Thousand Miles,Vanessa Carlton,Be Not Nobody,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,23,20,1,12,3
-2023-11-24,40,-3,37,False,False,77,0.15,Bejeweled,Taylor Swift,Midnights (3am Edition),7,2,4,35,6,8,350000,6000,400000,0.46,0.01,0.53,756000,49,21,7,10,37,2
-2023-11-24,41,-3,38,False,False,75,0.14,Karma,Taylor Swift,Midnights (3am Edition),6,2,4,30,6,8,300000,6000,400000,0.42,0.01,0.57,706000,44,20,11,4,34,1
-2023-11-24,42,-27,15,False,False,75,-0.38,I Know Places (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,36,21,8,5,1
-2023-11-24,43,-12,31,False,False,75,-0.01,Feather,Sabrina Carpenter,emails i can’t send fwd:,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,23,18,20,4,1
-2023-11-24,44,+4,48,False,False,73,0.49,FEARLESS,LE SSERAFIM,FEARLESS,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,15,16,1,64,6
-2023-11-24,45,+2,47,False,False,73,0.49,Boy's a liar Pt. 2,PinkPantheress,Boy's a liar Pt. 2,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,15,0,7,10,1
-2023-11-24,46,-17,29,False,False,73,-0.12,Deli,Ice Spice,Like..? (Deluxe),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,25,6,1,13,2
-2023-11-24,47,RE,--,False,False,73,--,Body Better,Maisie Peters,The Good Witch,10,1,10,50,3,20,500000,3000,1000000,0.33,0.0,0.67,1503000,73,0,0,2,10,1
-2023-11-24,48,-4,44,False,False,71,0.34,Intro: Searching for their friends,Loossemble,LOOSSEMBLE,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,16,13,2,11,1
-2023-11-24,49,-6,43,False,False,71,0.34,Juicy,Doja Cat,Amala (Deluxe Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,16,13,2,11,1
-2023-11-24,50,-31,19,False,False,70,-0.38,Clean (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,34,18,7,5,1
-2023-11-24,51,-27,24,False,False,70,-0.27,Five Nights at Freddy's,The Newton Brothers,Five Nights at Freddy's (Original Motion Picture Soundtrack),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,29,15,24,3,1
-2023-11-24,52,-32,20,False,False,69,-0.36,How You Get the Girl (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,33,18,13,5,1
-2023-11-24,53,RE,--,False,False,69,--,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),9,4,6,45,12,12,450000,12000,600000,0.42,0.01,0.56,1062000,69,0,0,1,74,1
-2023-11-24,54,-32,22,False,False,68,-0.36,You Are in Love (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,33,17,15,5,1
-2023-11-24,55,-42,13,False,False,67,-0.45,Wonderland (Taylor's Version),Taylor Swift,1989 (Taylor's Version) [Deluxe],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,37,20,6,5,1
-2023-11-24,56,-15,41,False,False,66,0.16,Gucci Flip Flops (feat. Lil Yachty),Bhad Bhabie,15,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,18,14,30,4,1
-2023-11-24,57,-6,51,False,False,61,0.33,bad idea right?,Olivia Rodrigo,GUTS,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,14,13,1,13,1
-2023-11-24,58,-13,45,False,False,61,0.2,Day by day,Loossemble,LOOSSEMBLE,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,16,11,4,11,2
-2023-11-24,59,RE,--,False,False,60,--,Mine (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),8,2,7,40,6,14,400000,6000,700000,0.36,0.01,0.63,1106000,60,0,0,3,14,1
-2023-11-24,60,-7,53,False,False,61,0.39,Real world,Loossemble,LOOSSEMBLE,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,14,13,7,11,1
-2023-11-24,61,RE,--,False,False,59,--,The Story of Us (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),8,1,8,40,3,16,400000,3000,800000,0.33,0.0,0.67,1203000,59,0,0,2,18,1
-2023-11-24,62,RE,--,False,False,59,--,Psycho,Maisie Peters,You Signed Up For This,8,1,8,40,3,16,400000,3000,800000,0.33,0.0,0.67,1203000,59,0,0,14,10,1
-2023-11-24,63,RE,--,False,False,58,--,Vigilante Shit,Taylor Swift,Midnights (3am Edition),7,1,7,35,3,14,350000,3000,700000,0.33,0.0,0.66,1053000,52,0,6,2,33,1
-2023-11-24,64,-41,23,False,False,58,-0.44,Suburban Legends (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,32,16,17,5,1
-2023-11-24,65,-19,46,False,False,53,0.06,Never Grow Up,CG5,Never Grow Up,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,15,12,2,12,1
-2023-11-24,66,-36,30,False,False,51,-0.37,Talking in Your Sleep,The Romantics,In Heat,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,25,0,30,2,1
-2023-11-24,67,NEW,--,True,False,50,--,Walk Away,Kelly Clarkson,Breakaway,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,67,1,1
-2023-11-24,68,NEW,--,True,False,50,--,Where Is Your Heart,Kelly Clarkson,Breakaway,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,68,1,1
-2023-11-24,69,NEW,--,True,False,50,--,Addicted,Kelly Clarkson,Breakaway,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,69,1,1
-2023-11-24,70,NEW,--,True,False,50,--,Gone,Kelly Clarkson,Breakaway,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,70,1,1
-2023-11-24,71,RE,--,False,False,50,--,burned out,dodie,Human,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,11,21,1
-2023-11-24,72,RE,--,False,False,50,--,If I'm Being Honest,dodie,Human,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,2,25,1
-2023-11-24,73,RE,--,False,False,50,--,She,dodie,Human,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,2,35,1
-2023-11-24,74,-8,66,False,False,50,0.92,Arms Unfolding,dodie,Human,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,8,0,20,21,1
-2023-11-24,75,RE,--,False,False,50,--,HUMAN,dodie,Human,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,1,40,1
-2023-11-24,76,-18,58,False,False,48,0.26,Gasoline (feat. Taylor Swift),HAIM,Women in Music Pt III (Expanded Edition),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,12,10,3,16,1
-2023-11-24,77,RE,--,False,False,47,--,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),6,3,4,30,9,8,300000,9000,400000,0.42,0.01,0.56,709000,47,0,0,3,63,2
-2023-11-24,78,-26,52,False,False,46,0.02,Talk that Talk,TWICE,BETWEEN 1&2,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,14,14,2,24,1
-2023-11-24,79,RE,--,False,False,42,--,Hot n Cold,Katy Perry,One of the Boys,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,1,12,1
-2023-11-24,80,RE,--,False,False,42,--,Waking Up in Vegas,Katy Perry,One of the Boys,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,5,24,1
-2023-11-24,81,-46,35,False,False,40,-0.44,Wildest Dreams (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,22,0,1,52,5
-2023-11-24,82,RE,--,False,False,39,--,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,13,1,95,6
-2023-11-24,83,RE,--,False,False,39,--,MORE & MORE,TWICE,MORE & MORE,5,2,4,25,6,8,250000,6000,400000,0.38,0.01,0.61,656000,39,0,0,4,22,1
-2023-11-24,84,RE,--,False,False,38,--,BSC,Maisie Peters,The Good Witch,5,1,5,25,3,10,250000,3000,500000,0.33,0.0,0.66,753000,38,0,0,25,5,1
-2023-11-24,85,RE,--,False,False,38,--,SIGNAL,TWICE,SIGNAL,5,1,5,25,3,10,250000,3000,500000,0.33,0.0,0.66,753000,38,0,0,49,9,1
-2023-11-24,86,-46,40,False,False,37,-0.4,This Love (Taylor’s Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,19,0,1,38,3
-2023-11-24,87,-37,50,False,False,37,-0.23,State of Grace (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,15,4,1,43,1
-2023-11-24,88,RE,--,False,False,34,--,Not What I Meant (feat. Lewis Watson),dodie,Human,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,16,20,1
-2023-11-24,89,RE,--,False,False,34,--,Monster,dodie,Human,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,15,18,1
-2023-11-24,90,RE,--,False,False,34,--,I Kissed a Girl,Katy Perry,One of the Boys,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,10,9,1
-2023-11-24,91,RE,--,False,False,33,--,the last great american dynasty,Taylor Swift,folklore,4,3,2,20,9,4,200000,9000,200000,0.49,0.02,0.49,409000,33,0,0,2,15,1
-2023-11-24,92,RE,--,False,False,31,--,Enchanted (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),3,2,2,15,6,4,150000,6000,200000,0.42,0.02,0.56,356000,25,0,6,4,14,1
-2023-11-24,93,RE,--,False,False,31,--,Cate’s Brother,Maisie Peters,Cate’s Brother,4,1,4,20,3,8,200000,3000,400000,0.33,0.0,0.66,603000,31,0,0,1,12,2
-2023-11-24,94,RE,--,False,False,30,--,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,20,2,85,8
-2023-11-24,95,-46,49,False,False,29,-0.4,Hard Times,Paramore,After Laughter,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,15,4,49,8,1
-2023-11-24,96,-37,59,False,False,27,-0.29,Better Than Revenge (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,12,5,5,14,1
-2023-11-24,97,-30,67,False,False,26,0.0,Guiltless,dodie,Guiltless,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,5,18,2
-2023-11-24,98,-43,55,False,False,23,-0.45,Five Nights at Freddy's,The Living Tombstone,Five Nights at Freddy's,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,0,55,2,1
-2023-11-24,99,RE,--,False,False,22,--,Happier Than Ever,Billie Eilish,Happier Than Ever,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,4,2,14,1
-2023-11-24,100,RE,--,False,False,22,--,Cookie,NewJeans,NewJeans 1st EP 'New Jeans',2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,4,2,29,1
+2023-11-24,1,NEW,--,True,False,336,--,Sweet Crazy Love (Eng ver.),ODD EYE CIRCLE,Sweet Crazy Love (Eng ver.),51,7,30,255,21,60,2550000,21000,3000000,0.46,0.0,0.54,5571000,336,0,0,1,1,1
+2023-11-24,2,+2,4,False,False,313,-0.35,Shake It Off (Taylor's Version),Taylor Swift,1989 (Taylor's Version),9,7,3,45,21,6,450000,21000,300000,0.58,0.03,0.39,771000,72,144,97,1,5,2
+2023-11-24,3,=,3,False,False,311,-0.37,Blank Space (Taylor's Version),Taylor Swift,1989 (Taylor's Version),9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,148,89,1,5,1
+2023-11-24,4,-2,2,False,False,310,-0.39,Style (Taylor's Version),Taylor Swift,1989 (Taylor's Version),9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,153,83,2,5,1
+2023-11-24,5,RE,--,True,False,285,--,You’re Losing Me (From the Vault),Taylor Swift,You're Losing Me (From the Vault),42,5,30,210,15,60,2100000,15000,3000000,0.41,0.0,0.59,5115000,285,0,0,5,1,1
+2023-11-24,6,-5,1,False,False,271,-0.49,Now That We Don't Talk (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,160,53,1,5,1
+2023-11-24,7,NEW,--,True,False,209,--,Sweet Crazy Love (Eng Ver.),ODD EYE CIRCLE (ARTMS),Sweet Crazy Love (Eng Ver.),29,4,26,145,12,52,1450000,12000,2600000,0.36,0.0,0.64,4062000,209,0,0,7,1,1
+2023-11-24,8,-3,5,False,False,189,-0.36,Breakaway,Kelly Clarkson,Breakaway,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,89,34,5,4,1
+2023-11-24,9,-3,6,False,False,168,-0.39,I Wish You Would (Taylor's Version),Taylor Swift,1989 (Taylor's Version),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,83,51,3,5,1
+2023-11-24,10,+77,87,True,False,146,4.62,Chill Kill,Red Velvet,Chill Kill - The 3rd Album,17,17,1,85,51,2,850000,51000,100000,0.85,0.05,0.1,1001000,138,8,0,10,2,1
+2023-11-24,11,+88,99,True,False,136,6.56,Knock Knock (Who's There?),Red Velvet,Chill Kill - The 3rd Album,16,16,1,80,48,2,800000,48000,100000,0.84,0.05,0.11,948000,130,6,0,11,2,1
+2023-11-24,12,-4,8,False,False,133,-0.45,Bad Blood (feat. Kendrick Lamar) (Taylor's Version),Taylor Swift,1989 (Taylor's Version) [Deluxe],2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,74,41,7,5,1
+2023-11-24,13,-6,7,False,False,131,-0.52,Is It Over Now? (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,82,39,5,5,1
+2023-11-24,14,+78,92,True,False,128,6.11,Wings,Red Velvet,Chill Kill - The 3rd Album,15,15,1,75,45,2,750000,45000,100000,0.84,0.05,0.11,895000,122,6,0,14,2,1
+2023-11-24,15,+83,98,True,False,128,6.11,Underwater,Red Velvet,Chill Kill - The 3rd Album,15,15,1,75,45,2,750000,45000,100000,0.84,0.05,0.11,895000,122,6,0,15,2,1
+2023-11-24,16,-7,9,False,False,127,-0.37,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,61,0,1,60,4
+2023-11-24,17,+76,93,True,False,120,5.67,Bulldozer,Red Velvet,Chill Kill - The 3rd Album,14,14,1,70,42,2,700000,42000,100000,0.83,0.05,0.12,842000,114,6,0,17,2,1
+2023-11-24,18,+76,94,True,False,120,5.67,One Kiss,Red Velvet,Chill Kill - The 3rd Album,14,14,1,70,42,2,700000,42000,100000,0.83,0.05,0.12,842000,114,6,0,18,2,1
+2023-11-24,19,+76,95,True,False,120,5.67,Iced Coffee,Red Velvet,Chill Kill - The 3rd Album,14,14,1,70,42,2,700000,42000,100000,0.83,0.05,0.12,842000,114,6,0,19,2,1
+2023-11-24,20,+76,96,True,False,120,5.67,Nightmare,Red Velvet,Chill Kill - The 3rd Album,14,14,1,70,42,2,700000,42000,100000,0.83,0.05,0.12,842000,114,6,0,20,2,1
+2023-11-24,21,+76,97,True,False,120,5.67,Will I Ever See You Again?,Red Velvet,Chill Kill - The 3rd Album,14,14,1,70,42,2,700000,42000,100000,0.83,0.05,0.12,842000,114,6,0,21,2,1
+2023-11-24,22,+69,91,True,False,120,5.67,Scenery,Red Velvet,Chill Kill - The 3rd Album,14,14,1,70,42,2,700000,42000,100000,0.83,0.05,0.12,842000,114,6,0,22,2,1
+2023-11-24,23,-13,10,False,False,117,-0.38,Out of the Woods (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,57,42,5,5,1
+2023-11-24,24,RE,--,False,False,116,--,Midnight Rain,Taylor Swift,Midnights (3am Edition),15,2,14,75,6,28,750000,6000,1400000,0.35,0.0,0.65,2156000,109,0,7,2,50,1
+2023-11-24,25,-11,14,False,False,115,-0.17,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),9,8,2,45,24,4,450000,24000,200000,0.67,0.04,0.3,674000,73,42,0,1,50,5
+2023-11-24,26,-14,12,False,False,114,-0.19,Because of You,Kelly Clarkson,Breakaway,9,7,3,45,21,6,450000,21000,300000,0.58,0.03,0.39,771000,72,42,0,12,4,1
+2023-11-24,27,-14,13,False,False,107,-0.24,Lucky,Britney Spears,Oops!... I Did It Again,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,42,31,8,4,1
+2023-11-24,28,+50,78,False,False,107,2.69,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),14,6,5,70,18,10,700000,18000,500000,0.57,0.01,0.41,1218000,98,9,0,1,87,7
+2023-11-24,29,-18,11,False,False,84,-0.47,Thinking of You,Katy Perry,One of the Boys,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,48,10,1,14,1
+2023-11-24,30,-15,15,False,False,84,-0.36,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,40,26,1,68,1
+2023-11-24,31,-7,24,False,False,83,-0.14,She's So Mean,Matchbox Twenty,North (Deluxe Edition),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,30,19,4,23,1
+2023-11-24,32,+9,41,False,False,83,0.15,Nice to meet you (feat. Central Cee),PinkPantheress,Heaven knows,5,4,2,25,12,4,250000,12000,200000,0.54,0.03,0.43,462000,41,22,20,19,3,1
+2023-11-24,33,-16,17,False,False,78,-0.33,Since U Been Gone,Kelly Clarkson,Breakaway,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,36,0,17,7,1
+2023-11-24,34,-18,16,False,False,75,-0.37,New Romantics (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,36,21,7,5,1
+2023-11-24,35,-5,30,False,False,73,-0.12,Alapaap,Eraserheads,Circus,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,25,14,2,26,1
+2023-11-24,36,-1,35,False,False,69,-0.08,Deli,Ice Spice,Like..? (Deluxe),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,23,20,1,13,1
+2023-11-24,37,-18,19,False,False,68,-0.4,Bad Blood (Taylor's Version),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,35,23,9,5,1
+2023-11-24,38,-6,32,False,False,66,-0.16,A Thousand Miles,Vanessa Carlton,Be Not Nobody,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,24,16,1,12,2
+2023-11-24,39,RE,--,False,False,65,--,Vigilante Shit,Taylor Swift,Midnights (3am Edition),8,2,7,40,6,14,400000,6000,700000,0.36,0.01,0.63,1106000,60,0,5,3,32,1
+2023-11-24,40,+2,42,False,False,65,-0.1,Five Nights at Freddy's,The Newton Brothers,Five Nights at Freddy's (Original Motion Picture Soundtrack),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,22,25,12,3,1
+2023-11-24,41,-20,21,False,False,64,-0.4,Wonderland (Taylor's Version),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,32,22,10,5,1
+2023-11-24,42,-22,20,False,False,65,-0.42,All You Had to Do Was Stay (Taylor's Version),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,34,21,8,5,1
+2023-11-24,43,-21,22,False,False,64,-0.38,I Know Places (Taylor's Version),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,32,22,12,5,2
+2023-11-24,44,+16,60,False,False,62,0.38,Karma,Taylor Swift,Midnights (3am Edition),4,1,4,20,3,8,200000,3000,400000,0.33,0.0,0.66,603000,31,14,17,3,29,1
+2023-11-24,45,-14,31,False,False,59,-0.28,Behind These Hazel Eyes,Kelly Clarkson,Breakaway,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,25,0,31,2,1
+2023-11-24,46,-21,25,False,False,59,-0.38,Clean (Taylor's Version),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,29,20,10,5,1
+2023-11-24,47,-9,38,False,False,58,-0.21,Boy's a liar Pt. 2,PinkPantheress,Boy's a liar Pt. 2,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,22,10,7,10,1
+2023-11-24,48,=,48,False,False,58,-0.05,FEARLESS,LE SSERAFIM,FEARLESS,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,19,13,1,62,3
+2023-11-24,49,-23,26,False,False,57,-0.38,How You Get the Girl (Taylor's Version),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,28,19,14,5,1
+2023-11-24,50,-6,44,False,False,56,-0.15,Juicy,Doja Cat,Amala (Deluxe Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,20,10,4,11,1
+2023-11-24,51,-24,27,False,False,56,-0.38,You Are in Love (Taylor's Version),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,27,19,13,5,1
+2023-11-24,52,-7,45,False,False,56,-0.12,Intro: Searching for their friends,Loossemble,LOOSSEMBLE,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,20,10,2,9,1
+2023-11-24,53,-24,29,False,False,55,-0.35,Feather,Sabrina Carpenter,emails i can’t send fwd:,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,26,19,18,4,1
+2023-11-24,54,-31,23,False,False,49,-0.51,Welcome to New York (Taylor's Version),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,31,8,22,5,1
+2023-11-24,55,RE,--,False,False,48,--,Arms Unfolding,dodie,Human,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,6,23,18,1
+2023-11-24,56,-22,34,False,False,45,-0.4,Gucci Flip Flops (feat. Lil Yachty),Bhad Bhabie,15,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,23,12,23,4,1
+2023-11-24,57,-3,54,False,False,44,-0.2,Real world,Loossemble,LOOSSEMBLE,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,17,9,7,9,1
+2023-11-24,58,-11,47,False,False,45,-0.26,Day by day,Loossemble,LOOSSEMBLE,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,19,8,4,9,1
+2023-11-24,59,RE,--,False,False,42,--,burned out,dodie,Human,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,16,21,2
+2023-11-24,60,RE,--,False,False,42,--,If I'm Being Honest,dodie,Human,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,4,26,1
+2023-11-24,61,RE,--,False,False,42,--,She,dodie,Human,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,2,40,1
+2023-11-24,62,RE,--,False,False,42,--,HUMAN,dodie,Human,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,5,37,1
+2023-11-24,63,-5,58,False,False,40,-0.2,Bejeweled,Taylor Swift,Midnights,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,15,15,10,39,1
+2023-11-24,64,-21,43,False,False,41,-0.39,Wildest Dreams (Taylor's Version),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,21,10,1,56,4
+2023-11-24,65,RE,--,False,False,39,--,‘tis the damn season,Taylor Swift,evermore,5,2,4,25,6,8,250000,6000,400000,0.38,0.01,0.61,656000,39,0,0,1,42,1
+2023-11-24,66,+1,67,False,False,38,-0.03,MORE & MORE,TWICE,MORE & MORE,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,12,0,4,23,1
+2023-11-24,67,-16,51,False,False,38,-0.34,bad idea right?,Olivia Rodrigo,GUTS,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,18,10,3,14,1
+2023-11-24,68,-11,57,False,False,36,-0.28,Talk that Talk,TWICE,BETWEEN 1&2,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,15,11,1,22,1
+2023-11-24,69,-14,55,False,False,36,-0.35,Never Grow Up,CG5,Never Grow Up,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,17,9,3,12,2
+2023-11-24,70,RE,--,False,False,34,--,Bad Boy,Red Velvet,The Perfect Red Velvet - The 2nd Album Repackage,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,8,25,1
+2023-11-24,71,+12,83,True,False,34,0.31,Walk Away,Kelly Clarkson,Breakaway,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,8,0,71,2,1
+2023-11-24,72,+12,84,True,False,34,0.31,Where Is Your Heart,Kelly Clarkson,Breakaway,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,8,0,72,2,1
+2023-11-24,73,+12,85,True,False,34,0.31,Addicted,Kelly Clarkson,Breakaway,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,8,0,73,2,1
+2023-11-24,74,+12,86,True,False,34,0.31,Gone,Kelly Clarkson,Breakaway,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,8,0,74,2,1
+2023-11-24,75,-23,52,False,False,35,-0.4,This Love (Taylor’s Version),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,18,7,1,43,4
+2023-11-24,76,RE,--,False,False,34,--,Not What I Meant (feat. Lewis Watson),dodie,Human,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,16,22,1
+2023-11-24,77,RE,--,False,False,34,--,Monster,dodie,Human,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,18,20,1
+2023-11-24,78,-41,37,False,False,33,-0.55,Cruel Summer,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,23,0,1,50,1
+2023-11-24,79,-46,33,False,False,33,-0.57,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,23,0,1,76,1
+2023-11-24,80,-41,39,False,False,32,-0.56,Body Better,Maisie Peters,The Good Witch,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,22,0,3,13,1
+2023-11-24,81,-15,66,False,False,32,-0.18,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,12,10,1,88,2
+2023-11-24,82,-21,61,False,False,33,-0.25,Gasoline (feat. Taylor Swift),HAIM,Women in Music Pt III (Expanded Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,14,9,2,15,1
+2023-11-24,83,RE,--,False,False,31,--,Come Back...Be Here (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,1,4,20,3,8,200000,3000,400000,0.33,0.0,0.66,603000,31,0,0,6,35,1
+2023-11-24,84,-15,69,False,False,30,-0.21,SIGNAL,TWICE,SIGNAL,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,12,0,59,4,1
+2023-11-24,85,-39,46,False,False,30,-0.53,State of Grace (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,20,0,3,45,1
+2023-11-24,86,+4,90,False,False,30,0.67,Guiltless,dodie,Guiltless,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,6,5,26,2
+2023-11-24,87,-38,49,False,False,28,-0.53,The Story of Us (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,18,0,1,18,1
+2023-11-24,88,RE,--,False,False,26,--,Dumb Dumb,Red Velvet,The Red - The 1st Album,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,46,4,1
+2023-11-24,89,-33,56,False,False,26,-0.5,Mine (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,16,0,6,12,1
+2023-11-24,90,-31,59,False,False,25,-0.47,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,15,0,2,67,1
+2023-11-24,91,-2,89,False,False,22,0.05,Anti-Hero,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,7,5,2,31,1
+2023-11-24,92,RE,--,False,False,22,--,Happier Than Ever,Billie Eilish,Happier Than Ever,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,4,2,13,1
+2023-11-24,93,-17,76,False,False,20,-0.35,Cate’s Brother,Maisie Peters,Cate’s Brother,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,10,0,2,14,3
+2023-11-24,94,RE,--,False,False,20,--,Walkin’ in Time,THE BOYZ,THE BOYZ DEBUT ALBUM [THE FIRST],2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,2,6,7,1
+2023-11-24,95,RE,--,False,False,20,--,Five Nights at Freddy's,The Living Tombstone,Five Nights at Freddy's,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,10,37,2,1
+2023-11-24,96,RE,--,True,False,18,--,Christmas Must Be Something More,Taylor Swift,The Taylor Swift Holiday Collection,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,96,1,1
+2023-11-24,97,RE,--,False,False,18,--,Safe & Sound (feat. Joy Williams and John Paul White) (Taylor’s Version),Taylor Swift,Safe & Sound (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,9,9,1
+2023-11-24,98,RE,--,False,False,18,--,Zimzalabim,Red Velvet,‘The ReVe Festival’ Day 1,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,9,4,1
+2023-11-24,99,RE,--,False,False,18,--,Talk to Me,Red Velvet,Rookie - The 4th Mini Album,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,24,8,2
+2023-11-24,100,RE,--,False,False,18,--,Happily Ever After,Red Velvet,Rookie - The 4th Mini Album,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,18,5,1

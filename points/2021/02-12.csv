@@ -1,61 +1,101 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2021-02-12,1,=,1,True,True,20,0.11,happiness,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,4,1,6,2
-2021-02-12,2,NEW,--,True,False,18,--,Love Story (Taylor’s Version),Taylor Swift,Love Story (Taylor’s Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,2,1,1
-2021-02-12,3,NEW,--,True,False,18,--,GOOD NIGHT,Dreamcatcher,Fall Asleep in the Mirror - EP,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,3,1,1
-2021-02-12,4,RE,--,True,True,18,--,Happy,WJSN,Happy Moment,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,4,4,2
-2021-02-12,5,RE,--,False,False,16,--,State of Grace,Taylor Swift,Red (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,6,1,2,1
-2021-02-12,6,RE,--,True,False,14,--,WITHOUT YOU,NCT,NCT 2018 EMPATHY,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,4,6,2,1
-2021-02-12,7,RE,--,True,False,14,--,AS IF IT'S YOUR LAST,BLACKPINK,AS IF IT'S YOUR LAST,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,4,7,2,1
-2021-02-12,8,RE,--,True,False,14,--,TOUCH,NCT,NCT 2018 EMPATHY,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,4,8,2,1
-2021-02-12,9,RE,--,False,False,14,--,I Think He Knows,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,4,8,3,1
-2021-02-12,10,RE,--,True,False,13,--,You Are in Love,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,3,10,3,1
-2021-02-12,11,RE,--,True,False,12,--,PITAPAT (DKDK),fromis_9,To. Day,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,11,2,1
-2021-02-12,12,RE,--,True,False,12,--,Hi High,Loona,[+ +],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,12,4,1
-2021-02-12,13,RE,--,True,False,12,--,CHEER UP,TWICE,PAGE TWO,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,13,3,1
-2021-02-12,14,RE,--,True,False,12,--,My First and Last,NCT DREAM,The First - The 1st Single Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,14,2,1
-2021-02-12,15,RE,--,True,False,12,--,Pretty U,Seventeen,First 'Love&Letter',1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,15,2,1
-2021-02-12,16,RE,--,False,False,12,--,A Year Without Rain,Selena Gomez & the Scene,A Year Without Rain (International Standard Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,13,6,1
-2021-02-12,17,RE,--,True,False,10,--,The Story of Us,Taylor Swift,Speak Now (Deluxe Package),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,2,1
-2021-02-12,18,NEW,--,True,False,10,--,Panorama,IZ*ONE,One-reeler / Act IV,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,1,1
-2021-02-12,19,NEW,--,True,False,10,--,We're Good,Dua Lipa,Future Nostalgia (The Moonlight Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,19,1,1
-2021-02-12,20,NEW,--,True,False,10,--,Prisoner (feat. Dua Lipa),Miley Cyrus,Future Nostalgia (The Moonlight Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,20,1,1
-2021-02-12,21,NEW,--,True,False,10,--,love4eva (feat. Grimes),LOONA/yyxy,beauty&thebeat,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,1,1
-2021-02-12,22,RE,--,True,False,10,--,Heart Shaker,TWICE,Merry & Happy,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,2,1
-2021-02-12,23,NEW,--,True,False,10,--,Paper Rings,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,1,1
-2021-02-12,24,NEW,--,True,False,10,--,Love Cherry Motion,Loona,Choerry,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,24,1,1
-2021-02-12,25,RE,--,False,False,10,--,Falling in Love,2NE1,Falling in Love,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,2,1
-2021-02-12,26,RE,--,False,False,10,--,Me Gustas Tu,GFRIEND,GFriend 2nd Mini Album 'Flower Bud',1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,3,1
-2021-02-12,27,NEW,--,True,False,10,--,I'll be there,Loona,HyunJin,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,27,1,1
-2021-02-12,28,RE,--,False,False,10,--,FANCY,TWICE,FANCY YOU,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,5,1
-2021-02-12,29,RE,--,False,False,10,--,Lover,Taylor Swift,Lover,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,26,3,1
-2021-02-12,30,RE,--,False,False,10,--,BUNGEE (Fall In Love),OH MY GIRL,OH MY GIRL SUMMER PACKAGE [FALL IN LOVE],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,3,1
-2021-02-12,31,RE,--,False,False,10,--,My Pace,Stray Kids,SKZ2020,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,3,1
-2021-02-12,32,NEW,--,True,False,10,--,Heart Attack (츄),Loona,Chuu,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,32,1,1
-2021-02-12,33,NEW,--,True,False,10,--,365,이달의 소녀 (Loona),[#],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,33,1,1
-2021-02-12,34,RE,--,True,False,10,--,No Promises (feat. Demi Lovato),Cheat Codes,No Promises (feat. Demi Lovato) - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,34,3,1
-2021-02-12,35,RE,--,False,False,10,--,Recess,Melanie Martinez,K-12,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,2,1
-2021-02-12,36,RE,--,False,False,10,--,Chewing Gum (Korean Ver.),NCT DREAM,Chewing Gum - The 1st Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,3,1
-2021-02-12,37,RE,--,False,False,10,--,Valkyrie,ONEUS,LIGHT US,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,7,2
-2021-02-12,38,RE,--,False,False,10,--,LION,(G)I-DLE,Queendom <FINAL Comeback> - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,24,4,1
-2021-02-12,39,RE,--,False,False,10,--,All Right,Red Velvet,The Perfect Red Velvet - The 2nd Album Repackage - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,36,2,1
-2021-02-12,40,RE,--,True,False,10,--,Breathe (feat. Colbie Caillat),Taylor Swift,Fearless (Platinum Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,40,2,1
-2021-02-12,41,NEW,--,True,False,10,--,Last Love,Red Velvet,Rookie - The 4th Mini Album - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,41,1,1
-2021-02-12,42,RE,--,False,False,10,--,Psycho ft. Nicki Minaj (Reloaded),Red Velvet,Psycho ft. Nicki Minaj (Reloaded) - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,4,1
-2021-02-12,43,NEW,--,True,False,10,--,Doin' Time,Lana Del Rey,Norman Fucking Rockwell!,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,43,1,1
-2021-02-12,44,RE,--,False,False,10,--,Misfit,NCT U,NCT RESONANCE Pt. 1 - The 2nd Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,3,1
-2021-02-12,45,RE,--,True,False,10,--,everytime,Ariana Grande,Sweetener,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,45,2,1
-2021-02-12,46,RE,--,False,False,10,--,BOSS,NCT U,NCT 2018 EMPATHY,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,27,3,1
-2021-02-12,47,RE,--,False,False,10,--,UP NO MORE,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,39,2,1
-2021-02-12,48,NEW,--,True,False,10,--,90's Love,NCT U,NCT RESONANCE Pt. 2 - The 2nd Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,48,1,1
-2021-02-12,49,RE,--,False,False,10,--,DO WHAT WE LIKE,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,38,2,1
-2021-02-12,50,RE,--,False,False,10,--,To Heart,fromis_9,To. Heart,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,9,4,1
-2021-02-12,51,RE,--,False,False,10,--,Mr. Potter,DIA,Spell,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,36,2,1
-2021-02-12,52,NEW,--,True,False,10,--,OOPSIE (My Bad),NATURE (네이처),NATURE WORLD: CODE A,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,52,1,1
-2021-02-12,53,RE,--,True,False,10,--,Save Me Save You,WJSN,WJ Please? - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,53,2,1
-2021-02-12,54,NEW,--,True,False,10,--,LOVE BOMB,프로미스나인 (fromis_9),From.9,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,54,1,1
-2021-02-12,55,RE,--,False,False,10,--,long story short,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,9,4,1
-2021-02-12,56,RE,--,False,False,10,--,Tag Me (@Me),Weekly,We are,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,26,2,1
-2021-02-12,57,RE,--,False,False,10,--,Sour Candy,Lady Gaga & BLACKPINK,Chromatica,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,25,2,1
-2021-02-12,58,RE,--,False,False,10,--,the lakes (bonus track),Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,56,2,1
-2021-02-12,59,RE,--,False,False,10,--,exile,Taylor Swift Bon Iver,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,4,1
-2021-02-12,60,RE,--,True,True,10,--,Lose You to Love Me,Selena Gomez,Lose You To Love Me - Single,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,60,3,2
+2021-02-12,1,RE,--,True,False,34,--,FANCY,TWICE,FANCY YOU,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,1,5,1
+2021-02-12,2,NEW,--,True,False,34,--,Love Story (Taylor’s Version),Taylor Swift,Love Story (Taylor’s Version),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,2,1,1
+2021-02-12,3,RE,--,True,False,30,--,Pigstep - Stereo Mix,Lena Raine,Minecraft: Nether Update (Original Game Soundtrack),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,4,3,3,1
+2021-02-12,4,RE,--,True,False,29,--,Feel Special,TWICE,Feel Special,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,3,4,7,1
+2021-02-12,5,NEW,--,True,False,26,--,We're Good,Dua Lipa,Future Nostalgia (The Moonlight Edition),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,5,1,1
+2021-02-12,6,RE,--,True,False,26,--,Up,Cardi B,UP,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,6,1,1
+2021-02-12,7,RE,--,True,False,26,--,WAP (feat. Megan Thee Stallion),Cardi B,WAP (feat. Megan Thee Stallion),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,7,2,1
+2021-02-12,8,RE,--,False,False,22,--,State of Grace,Taylor Swift,Red (Deluxe Edition),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,4,3,3,1
+2021-02-12,9,RE,--,False,False,22,--,I Think He Knows,Taylor Swift,Lover,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,4,1,3,1
+2021-02-12,10,+8,18,False,False,21,1.1,Misfit,NCT U,NCT RESONANCE Pt. 1 - The 2nd Album,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,3,0,3,4,1
+2021-02-12,11,RE,--,True,False,20,--,AS IF IT'S YOUR LAST,BLACKPINK,AS IF IT'S YOUR LAST,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,2,11,2,1
+2021-02-12,12,RE,--,False,False,18,--,Psycho,Red Velvet,‘The ReVe Festival’ Finale,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,7,6,1
+2021-02-12,13,RE,--,True,False,18,--,We Are Never Ever Getting Back Together,Taylor Swift,Red (Big Machine Radio Release Special),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,13,1,1
+2021-02-12,14,RE,--,True,False,18,--,Fergalicious,Fergie,The Dutchess,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,14,1,1
+2021-02-12,15,RE,--,True,False,18,--,Girls,Nature,NATURE WORLD: CODE M,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,15,2,1
+2021-02-12,16,RE,--,False,False,18,--,my tears ricochet,Taylor Swift,folklore,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,1,6,1
+2021-02-12,17,-13,4,False,False,18,0.29,happiness,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,5,3,4,6,1
+2021-02-12,18,-16,2,False,False,16,-0.11,Happy,WJSN,Happy Moment,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,6,0,1,7,1
+2021-02-12,19,-16,3,False,False,15,0.0,coney island,Taylor Swift The National,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,5,0,1,6,1
+2021-02-12,20,RE,--,False,False,14,--,YES or YES,TWICE,YES or YES,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,4,2,2,1
+2021-02-12,21,RE,--,False,False,14,--,De Una Vez,Selena Gomez,De Una Vez,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,4,4,4,1
+2021-02-12,22,-16,6,False,False,14,0.08,champagne problems,Taylor Swift,evermore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,4,0,6,5,1
+2021-02-12,23,RE,--,False,False,14,--,Into You,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,4,5,4,1
+2021-02-12,24,RE,--,False,False,13,--,Minecraft,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,3,10,3,1
+2021-02-12,25,=,25,False,False,13,0.3,Mr. Potter,DIA,Spell,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,6,4,1
+2021-02-12,26,+16,42,True,False,13,0.3,BOOM,NCT DREAM,We BOOM - The 3rd Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,26,3,1
+2021-02-12,27,=,27,True,True,13,0.3,Save Me Save You,WJSN,WJ PLEASE?,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,27,2,2
+2021-02-12,28,RE,--,False,False,13,--,I Want You to Know,Zedd,True Colors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,3,8,4,1
+2021-02-12,29,+3,32,False,False,13,0.3,My Pace,Stray Kids,I am WHO,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,16,4,1
+2021-02-12,30,RE,--,False,False,13,--,TOUCH,NCT,NCT 2018 EMPATHY,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,3,9,3,1
+2021-02-12,31,RE,--,True,False,12,--,Chirp,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,31,2,1
+2021-02-12,32,RE,--,True,False,12,--,Dog,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,32,2,1
+2021-02-12,33,RE,--,True,False,12,--,Swagger Stagger,Lucas Pittman,Bomb,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,33,2,1
+2021-02-12,34,RE,--,True,False,12,--,Mellohi,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,34,2,1
+2021-02-12,35,RE,--,False,False,12,--,This Is What You Came For (feat. Rihanna),Calvin Harris,This Is What You Came For (feat. Rihanna),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,27,2,1
+2021-02-12,36,RE,--,True,False,12,--,SAY YOU LOVE ME,TWICE,YES or YES,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,36,2,1
+2021-02-12,37,RE,--,False,False,12,--,Only Girl (In the World),Rihanna,Loud,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,28,2,1
+2021-02-12,38,RE,--,False,False,12,--,Dress,Taylor Swift,Reputation,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,12,3,1
+2021-02-12,39,RE,--,False,False,12,--,august,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,5,5,1
+2021-02-12,40,RE,--,False,False,12,--,Baila Conmigo (with Rauw Alejandro),Selena Gomez,Baila Conmigo (with Rauw Alejandro),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,35,2,1
+2021-02-12,41,RE,--,False,False,12,--,Cipher,LEMMiNO,Cipher,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,20,2,1
+2021-02-12,42,RE,--,False,False,12,--,Eclipse,Loona,Kim Lip,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,15,5,1
+2021-02-12,43,RE,--,False,False,12,--,Black Magic,Little Mix,Get Weird (Expanded Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,18,3,1
+2021-02-12,44,RE,--,False,False,12,--,HIT,Seventeen,An Ode,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,1,7,1
+2021-02-12,45,RE,--,True,False,12,--,PITAPAT (DKDK),fromis_9,To. Day,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,45,2,1
+2021-02-12,46,RE,--,False,False,12,--,Hi High,Loona,[+ +],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,36,3,1
+2021-02-12,47,RE,--,True,False,12,--,CHEER UP,TWICE,PAGE TWO,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,47,2,1
+2021-02-12,48,RE,--,False,False,12,--,My First and Last,NCT DREAM,The First - The 1st Single Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,42,2,1
+2021-02-12,49,RE,--,True,True,12,--,Pretty U,Seventeen,First 'Love&Letter',1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,49,2,2
+2021-02-12,50,RE,--,False,False,12,--,A Year Without Rain,Selena Gomez & the Scene,A Year Without Rain (International Standard Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,6,6,1
+2021-02-12,51,RE,--,False,False,12,--,You Are in Love,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,41,3,1
+2021-02-12,52,RE,--,True,False,10,--,MAGO,GFRIEND,回:Walpurgis Night,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,52,1,1
+2021-02-12,53,RE,--,True,False,10,--,Love Talk - English Version,WayV,Love Talk (English Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,53,1,1
+2021-02-12,54,RE,--,True,False,10,--,eight(Prod.&Feat. SUGA of BTS),IU,Eight,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,54,1,1
+2021-02-12,55,RE,--,True,False,10,--,Maria,Hwa Sa,María,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,55,1,1
+2021-02-12,56,RE,--,False,False,10,--,break up with your girlfriend i'm bored,Ariana Grande,thank u next,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,24,3,1
+2021-02-12,57,RE,--,False,False,10,--,Hurts Like Hell (feat. Offset),Madison Beer,Hurts Like Hell (feat. Offset),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,27,2,1
+2021-02-12,58,RE,--,False,False,10,--,HALA HALA (Hearts Awakened Live Alive),ATEEZ,TREASURE EP.2: Zero to One,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,4,1
+2021-02-12,59,RE,--,False,False,10,--,Telephone,Lady Gaga,The Fame Monster (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,2,1
+2021-02-12,60,RE,--,True,False,10,--,Part of Me,Katy Perry,Teenage Dream: The Complete Confection,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,60,1,1
+2021-02-12,61,RE,--,False,False,10,--,Can't You See Me?,TOMORROW X TOGETHER,The Dream Chapter: ETERNITY,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,29,2,1
+2021-02-12,62,RE,--,True,False,10,--,I Write Sins Not Tragedies,Panic! at the Disco,A Fever You Can't Sweat Out,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,62,3,1
+2021-02-12,63,RE,--,False,False,10,--,Complicated,Avril Lavigne,Let Go,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,27,4,1
+2021-02-12,64,RE,--,False,False,10,--,Deja Vu,Dreamcatcher,Raid of Dream,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,4,1
+2021-02-12,65,RE,--,True,False,10,--,ICE AGE,MCND,into the ice age,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,65,1,1
+2021-02-12,66,RE,--,False,False,10,--,Pretty Savage,BLACKPINK,THE ALBUM,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,4,1
+2021-02-12,67,RE,--,False,False,10,--,Womanizer,Britney Spears,Circus (Deluxe Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,24,4,1
+2021-02-12,68,RE,--,False,False,10,--,How You Like That,BLACKPINK,How You Like That,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,40,2,1
+2021-02-12,69,RE,--,True,False,10,--,하드캐리 Hard Carry,GOT7,FLIGHT LOG : TURBULENCE,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,69,1,1
+2021-02-12,70,RE,--,False,False,10,--,MORE & MORE,TWICE,MORE & MORE,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,3,1
+2021-02-12,71,RE,--,False,False,10,--,Tell Me Something I Don't Know,Selena Gomez & the Scene,Kiss & Tell,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,19,4,1
+2021-02-12,72,RE,--,True,False,10,--,좋은걸 뭐 어떡해 What Can I Do,DAY6,MOONRISE,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,72,1,1
+2021-02-12,73,RE,--,True,False,10,--,Applause,Lady Gaga,ARTPOP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,73,1,1
+2021-02-12,74,RE,--,True,False,10,--,Like OOH-AHH,TWICE,THE STORY BEGINS,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,74,1,1
+2021-02-12,75,RE,--,False,False,10,--,Sorry Not Sorry,Demi Lovato,Tell Me You Love Me (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,9,4,1
+2021-02-12,76,RE,--,False,False,10,--,Dollhouse,Melanie Martinez,Cry Baby (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,45,2,1
+2021-02-12,77,RE,--,False,False,10,--,Red Dress,Red Velvet,The Red - The 1st Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,3,1
+2021-02-12,78,RE,--,True,False,10,--,STRAWBERRY,TWICE,FANCY YOU,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,78,1,1
+2021-02-12,79,RE,--,False,False,10,--,mad woman,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,4,1
+2021-02-12,80,RE,--,False,False,10,--,The Boys,Girls' Generation,The Boys,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,3,1
+2021-02-12,81,RE,--,True,False,10,--,Focus,Ariana Grande,Focus,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,81,2,1
+2021-02-12,82,RE,--,True,False,10,--,Adios,Everglow,HUSH,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,82,1,1
+2021-02-12,83,RE,--,False,False,10,--,Work Bitch,Britney Spears,Britney Jean (Deluxe Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,29,3,1
+2021-02-12,84,RE,--,False,False,10,--,Grown,Little Mix,Get Weird (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,20,7,1
+2021-02-12,85,RE,--,True,False,10,--,The 7th Sense,NCT U,The 7th Sense,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,85,1,1
+2021-02-12,86,RE,--,False,False,10,--,Bad Blood,Taylor Swift,Bad Blood,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,11,4,1
+2021-02-12,87,RE,--,True,False,10,--,Mr.Mr.,소녀시대,Mr. Mr. - The 4th Mini Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,87,1,1
+2021-02-12,88,RE,--,True,False,10,--,CHERRY,ITZY,IT'z ICY,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,88,1,1
+2021-02-12,89,RE,--,True,False,10,--,Side Effects,Stray Kids,Clé 2 : Yellow Wood,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,89,1,1
+2021-02-12,90,RE,--,True,False,10,--,Break All The Rules,CRAVITY,HIDEOUT: REMEMBER WHO WE ARE - SEASON1.,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,90,1,1
+2021-02-12,91,RE,--,False,False,10,--,Satellite,Loona,[X X],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,51,2,1
+2021-02-12,92,RE,--,True,False,10,--,Confident,Demi Lovato,Confident,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,92,1,1
+2021-02-12,93,RE,--,False,False,10,--,Be Natural,Red Velvet,Be Natural,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,41,2,1
+2021-02-12,94,RE,--,True,False,10,--,Dark Horse,Katy Perry,PRISM (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,94,1,1
+2021-02-12,95,RE,--,False,False,10,--,Up & Down,EXID,AH YEAH,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,3,1
+2021-02-12,96,RE,--,True,False,10,--,WooWa,DIA,NEWTRO,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,96,1,1
+2021-02-12,97,RE,--,False,False,10,--,Secret Story of the Swan,IZ*ONE,Oneiric Diary,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,2,1
+2021-02-12,98,RE,--,False,False,10,--,Shoot Me,DAY6,Shoot Me : Youth Part 1,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,11,4,1
+2021-02-12,99,RE,--,True,False,10,--,Whatta Man (Good man),I.O.I,Whatta Man (Good Man),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,99,1,1
+2021-02-12,100,RE,--,False,False,10,--,La La Land,Demi Lovato,Don't Forget,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,83,3,1

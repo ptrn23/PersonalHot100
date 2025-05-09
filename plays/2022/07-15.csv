@@ -1,60 +1,294 @@
 Week,Song Name,Album Name,Artist Name,Streams,Sales,Airplay
-2022-07-15,All Too Well (Taylor's Version),Red (Taylor's Version),Taylor Swift,14,10,5
-2022-07-15,LE VOYA9E,DOUBLAST,Kep1er,2,2,1
-2022-07-15,Hero's Soup,I am YOU,Stray Kids,1,1,1
-2022-07-15,Another Dream - Kep1er Version,FIRST IMPACT,Kep1er,1,1,1
-2022-07-15,SNEAKERS,CHECKMATE,ITZY,4,4,1
-2022-07-15,CANDYFLOSS,IM NAYEON,NAYEON,5,5,1
-2022-07-15,LOVE DIVE,LOVE DIVE,IVE,7,7,1
-2022-07-15,LOVE COUNTDOWN (feat. Wonstein),IM NAYEON,NAYEON,5,5,1
-2022-07-15,DEJAVU,What Is Love,TWICE,7,7,1
-2022-07-15,NO PROBLEM (feat. Felix of Stray Kids),IM NAYEON,NAYEON,5,5,1
-2022-07-15,FEARLESS,FEARLESS,LE SSERAFIM,10,7,3
-2022-07-15,Shake It Off,1989 (Deluxe),Taylor Swift,1,1,1
-2022-07-15,Remember Me,Remember Me,OH MY GIRL,1,1,1
-2022-07-15,CRY FOR ME,CRY FOR ME,TWICE,1,1,1
-2022-07-15,On The Ground,R,Rosé,1,1,1
-2022-07-15,Absolutely Smitten,Intertwined - EP,dodie,1,1,1
-2022-07-15,I'm Only Me When I'm with You,Taylor Swift,Taylor Swift,1,1,1
-2022-07-15,Red Flavor,The Red Summer - Summer Mini Album,Red Velvet,1,1,1
-2022-07-15,Haven,GO LIVE,Stray Kids,1,1,1
-2022-07-15,0325,SKZ2021,Stray Kids,1,1,1
-2022-07-15,Adios,HUSH,Everglow,1,1,1
-2022-07-15,Love Cherry Motion,Choerry,Loona,1,1,1
-2022-07-15,Womanizer,Circus (Deluxe Version),Britney Spears,1,1,1
-2022-07-15,SIGNAL,SIGNAL,TWICE,1,1,1
-2022-07-15,Parade,‘The ReVe Festival’ Day 1,Red Velvet,1,1,1
-2022-07-15,LA Devotee,Death of a Bachelor,Panic! at the Disco,15,11,4
+2022-07-15,FEARLESS,FEARLESS,LE SSERAFIM,18,15,3
+2022-07-15,Sour Grapes,FEARLESS,LE SSERAFIM,5,4,2
+2022-07-15,The Great Mermaid,FEARLESS,LE SSERAFIM,10,10,1
+2022-07-15,Blue Flame,FEARLESS,LE SSERAFIM,9,9,1
+2022-07-15,The World Is My Oyster,FEARLESS,LE SSERAFIM,2,2,1
+2022-07-15,Uptown Girl,Coast to Coast (Expanded Edition),Westlife,42,25,11
+2022-07-15,Heartbreak Anthem (feat. David Guetta & Little Mix),Between Us (Deluxe Version),Galantis,1,1,1
+2022-07-15,Haven,GO LIVE,Stray Kids,2,2,1
 2022-07-15,The Feels,Formula of Love: O+T=<3,TWICE,6,4,3
-2022-07-15,SCIENTIST - R3HAB Remix,Formula of Love: O+T=<3,TWICE,5,5,1
-2022-07-15,CANDY,Formula of Love: O+T=<3,TWICE,3,3,1
-2022-07-15,1 3 2 (JEONGYEON MINA TZUYU),Formula of Love: O+T=<3,TWICE,3,3,1
-2022-07-15,HELLO (NAYEON MOMO CHAEYOUNG),Formula of Love: O+T=<3,TWICE,5,4,2
-2022-07-15,PUSH & PULL (JIHYO SANA DAHYUN),Formula of Love: O+T=<3,TWICE,5,5,1
-2022-07-15,CACTUS,Formula of Love: O+T=<3,TWICE,3,3,1
+2022-07-15,Locked Out of Heaven,Unorthodox Jukebox,Bruno Mars,2,2,1
+2022-07-15,MoMoMo,Would You Like?,WJSN,1,1,1
+2022-07-15,Breakthrough,Breakthrough,TWICE,1,1,1
+2022-07-15,TURN IT UP,FANCY YOU,TWICE,2,2,1
+2022-07-15,9 and Three Quarters (Run Away),The Dream Chapter: MAGIC,TOMORROW X TOGETHER,1,1,1
+2022-07-15,I CAN'T STOP ME,Eyes wide open,TWICE,2,2,1
+2022-07-15,Why Not?,[12:00],Loona,1,1,1
+2022-07-15,HIT,HIT,Seventeen,1,1,1
+2022-07-15,FIRST,Last Melody,Everglow,1,1,1
+2022-07-15,I Knew You Were Trouble (Taylor's Version),Red (Taylor's Version),Taylor Swift,2,2,1
+2022-07-15,RAINBOW,Feel Special,TWICE,4,4,1
+2022-07-15,Love O'Clock,Dream Your Dream,WJSN,1,1,1
+2022-07-15,GOOD NIGHT,악몽·Fall asleep in the mirror,Dreamcatcher,1,1,1
+2022-07-15,O.O,AD MARE,NMIXX,9,9,1
+2022-07-15,CLAP,SEVENTEEN 2ND ALBUM 'TEEN AGE',Seventeen,1,1,1
+2022-07-15,Should've Said No,Taylor Swift,Taylor Swift,1,1,1
+2022-07-15,Here's to Never Growing Up,Avril Lavigne (Expanded Edition),Avril Lavigne,1,1,1
+2022-07-15,BOXER,SKZ2020,Stray Kids,1,1,1
+2022-07-15,Touchdown,PAGE TWO,TWICE,3,3,1
+2022-07-15,The Story of Us,Speak Now (Deluxe Package),Taylor Swift,1,1,1
+2022-07-15,Tubthumping,Tubthumper,Chumbawamba,10,10,1
+2022-07-15,Party in the U.S.A.,The Time of Our Lives (International Version),Miley Cyrus,1,1,1
+2022-07-15,So What,[#],Loona,1,1,1
+2022-07-15,Deja Vu,Raid of Dream,Dreamcatcher,1,1,1
+2022-07-15,We Go Up,We Go Up,NCT DREAM,1,1,1
+2022-07-15,New Romantics,1989 (Deluxe),Taylor Swift,3,3,1
+2022-07-15,IT'z SUMMER,IT'z ICY,ITZY,2,2,1
+2022-07-15,Ain't Your Mama,Ain't Your Mama,Jennifer Lopez,1,1,1
+2022-07-15,Single Ladies (Put a Ring on It),I AM...SASHA FIERCE - Platinum Edition,Beyoncé,2,2,1
+2022-07-15,Fancy,The New Classic (Deluxe Version),Iggy Azalea,1,1,1
+2022-07-15,Baby I,Yours Truly,Ariana Grande,1,1,1
+2022-07-15,Tag You're It,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2022-07-15,Peek-A-Boo,Perfect Velvet - The 2nd Album,Red Velvet,1,1,1
+2022-07-15,Empire State of Mind,The Blueprint 3,JAY-Z,1,1,1
+2022-07-15,Style,1989 (Deluxe),Taylor Swift,2,2,1
+2022-07-15,Kiss You,Take Me Home (Expanded Edition),One Direction,1,1,1
+2022-07-15,She's So Mean,North (Deluxe Edition),Matchbox Twenty,1,1,1
+2022-07-15,Move,Salute (Expanded Edition),Little Mix,5,5,1
+2022-07-15,Cry Baby,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2022-07-15,Circus,Circus (Deluxe Version),Britney Spears,1,1,1
+2022-07-15,Never Be the Same,Camila,Camila Cabello,1,1,1
+2022-07-15,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,Young and Beautiful,Young and Beautiful,Lana Del Rey,2,2,1
+2022-07-15,Red (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,Teardrops on My Guitar - Radio Single Remix,Taylor Swift,Taylor Swift,1,1,1
+2022-07-15,Toxic,In the Zone,Britney Spears,1,1,1
+2022-07-15,Born to Die,Born to Die - The Paradise Edition,Lana Del Rey,2,2,1
+2022-07-15,NO,Thank You (Deluxe Version),Meghan Trainor,1,1,1
+2022-07-15,Malibu,Younger Now,Miley Cyrus,1,1,1
+2022-07-15,She Will Be Loved - Radio Mix,Songs About Jane: 10th Anniversary Edition,Maroon 5,1,1,1
+2022-07-15,Pompeii,Bad Blood,Bastille,1,1,1
+2022-07-15,BETTER,Better,TWICE,2,2,1
+2022-07-15,Power Up,Summer Magic - Summer Mini Album,Red Velvet,2,2,1
+2022-07-15,Be Honest,[&],Loona,2,2,1
+2022-07-15,DEJAVU,What Is Love,TWICE,11,11,1
+2022-07-15,I Think He Knows,Lover,Taylor Swift,2,2,1
+2022-07-15,I Really Like You,Emotion (Deluxe Expanded Edition),Carly Rae Jepsen,1,1,1
+2022-07-15,Wake Me Up,Wake Me Up,TWICE,1,1,1
+2022-07-15,Today Was a Fairytale (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,2,2,1
+2022-07-15,Red Flavor,The Red Summer - Summer Mini Album,Red Velvet,3,3,1
+2022-07-15,Everyday I Love You,ViVi,Loona,2,2,1
+2022-07-15,NAVILLERA,GFriend The 1st Album 'LOL',GFRIEND,2,2,1
+2022-07-15,ViViD,HeeJin,Loona,1,1,1
+2022-07-15,I'll be there,HyunJin,Loona,1,1,1
+2022-07-15,Glass Shoes,fromis_9 PRE-DEBUT SINGLE,fromis_9,1,1,1
+2022-07-15,Hmph!,Hmph!,WJSN CHOCOME,2,2,1
+2022-07-15,favOriTe,[+ +],Loona,2,2,1
+2022-07-15,love4eva (feat. Grimes),beauty&thebeat,LOONA/yyxy,1,1,1
+2022-07-15,SAPPY,SAPPY,Red Velvet,2,2,1
+2022-07-15,Stay Beautiful,Taylor Swift,Taylor Swift,1,1,1
+2022-07-15,Candy Pop,Candy Pop,TWICE,2,2,1
+2022-07-15,UP NO MORE,Eyes wide open,TWICE,2,2,1
+2022-07-15,ME! (feat. Brendon Urie of Panic! at the Disco),Lover,Taylor Swift,2,2,1
+2022-07-15,Happy,Happy Moment,WJSN,1,1,1
+2022-07-15,PITAPAT (DKDK),To. Day,fromis_9,1,1,1
+2022-07-15,As you Wish,As You Wish,WJSN,3,3,1
+2022-07-15,Parade,‘The ReVe Festival’ Day 1,Red Velvet,2,2,1
+2022-07-15,Rookie,Rookie - The 4th Mini Album,Red Velvet,1,1,1
+2022-07-15,Holy Ground (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,JELLY JELLY,TWICEcoaster: LANE 1,TWICE,2,2,1
+2022-07-15,Hey Stephen (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,3,3,1
+2022-07-15,Fanfare,Fanfare,TWICE,1,1,1
+2022-07-15,Umpah Umpah,‘The ReVe Festival’ Day 2,Red Velvet,1,1,1
+2022-07-15,Dear Future Husband,Title (Deluxe),Meghan Trainor,2,2,1
+2022-07-15,Oh (Yes I Am),[#],Loona,2,2,1
+2022-07-15,Absolutely Smitten,Intertwined - EP,dodie,3,3,1
+2022-07-15,The Feels,The Feels,TWICE,1,1,1
+2022-07-15,Love Cherry Motion,Choerry,Loona,3,3,1
+2022-07-15,One More Time,One More Time,TWICE,1,1,1
+2022-07-15,WOW,[&],Loona,2,2,1
+2022-07-15,This Is Why We Can't Have Nice Things,Reputation,Taylor Swift,1,1,1
+2022-07-15,Delicate,Reputation,Taylor Swift,1,1,1
+2022-07-15,Hey Brother,True,Avicii,1,1,1
+2022-07-15,Maps,V,Maroon 5,1,1,1
+2022-07-15,Thunder,Boys Like Girls,Boys Like Girls,1,1,1
+2022-07-15,La Vie en Rose,COLOR*IZ,IZ*ONE,1,1,1
+2022-07-15,Reggaetón Lento (Remix),Glory Days (Expanded Edition),CNCO,1,1,1
+2022-07-15,DJ Got Us Fallin' in Love (feat. Pitbull),Raymond v Raymond (Expanded Edition),Usher,1,1,1
+2022-07-15,Hello Kitty,Avril Lavigne (Expanded Edition),Avril Lavigne,1,1,1
+2022-07-15,Problem,My Everything (Deluxe),Ariana Grande,1,1,1
+2022-07-15,Pretty Girls,Pretty Girls,Britney Spears,1,1,1
+2022-07-15,Stressed Out,Blurryface,twenty one pilots,1,1,1
+2022-07-15,Bootylicious,Survivor,Destiny's Child,1,1,1
+2022-07-15,Genie,Genie - The Second Mini Album,Girls' Generation,1,1,1
+2022-07-15,Judas,Born This Way (Special Edition),Lady Gaga,1,1,1
+2022-07-15,In The Middle,You - EP,dodie,1,1,1
+2022-07-15,New Rules,Dua Lipa (Deluxe),Dua Lipa,1,1,1
+2022-07-15,Neon Lights,Demi,Demi Lovato,1,1,1
+2022-07-15,Rock Bottom,HAIZ,Hailee Steinfeld,1,1,1
+2022-07-15,POP!,IM NAYEON,NAYEON,12,12,1
+2022-07-15,LOVE DIVE,LOVE DIVE,IVE,11,10,2
+2022-07-15,Keep on Movin',Invincible,Five,8,7,2
+2022-07-15,Hey Ya!,Speakerboxxx/The Love Below,OutKast,3,3,1
+2022-07-15,I Wanna Dance with Somebody (Who Loves Me),Whitney,Whitney Houston,1,1,1
+2022-07-15,My Love,Coast to Coast (Expanded Edition),Westlife,2,2,1
+2022-07-15,Build Me up Buttercup,Build me up Buttercup,The Foundations,1,1,1
+2022-07-15,LA Devotee,Death of a Bachelor,Panic! at the Disco,17,13,4
+2022-07-15,Uptown Girl,An Innocent Man,Billy Joel,2,2,1
+2022-07-15,High School Sweethearts,K-12,Melanie Martinez,1,1,1
+2022-07-15,Black Magic,Get Weird (Expanded Edition),Little Mix,1,1,1
+2022-07-15,WandaVision!,WandaVision: Episode 2 (Original Soundtrack),Kristen Anderson-Lopez,1,1,1
+2022-07-15,Agatha All Along,WandaVision: Episode 7 (Original Soundtrack),Kristen Anderson-Lopez,2,1,2
+2022-07-15,HUMAN,Human,dodie,2,2,1
+2022-07-15,I Want It That Way,Millennium,Backstreet Boys,1,1,1
+2022-07-15,I’m Trying (Not Friends),You Signed Up For This,Maisie Peters,2,2,1
+2022-07-15,champagne problems,evermore,Taylor Swift,1,1,1
+2022-07-15,Strawberry Shortcake,K-12,Melanie Martinez,1,1,1
+2022-07-15,Secret Love Song Pt. II,Get Weird (Expanded Edition),Little Mix,1,1,1
+2022-07-15,John Hughes Movie,You Signed Up For This,Maisie Peters,1,1,1
+2022-07-15,Outdoor Pool,You Signed Up For This,Maisie Peters,1,1,1
+2022-07-15,Who Says,When the Sun Goes Down,Selena Gomez & the Scene,1,1,1
+2022-07-15,Love Him I Don’t,You Signed Up For This,Maisie Peters,1,1,1
+2022-07-15,The Way I Loved You (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,2,2,1
+2022-07-15,You Signed Up For This,You Signed Up For This,Maisie Peters,1,1,1
+2022-07-15,Psycho,You Signed Up For This,Maisie Peters,1,1,1
+2022-07-15,Training Wheels,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2022-07-15,Love Me Like You,Get Weird (Expanded Edition),Little Mix,1,1,1
+2022-07-15,She,Human,dodie,3,3,1
+2022-07-15,Channel Surfing / The End,Life Support,Madison Beer,2,2,1
+2022-07-15,Everything Happens for a Reason,Life Support,Madison Beer,2,2,1
+2022-07-15,Emotional Bruises,Life Support,Madison Beer,2,2,1
+2022-07-15,Stained Glass,Life Support,Madison Beer,2,2,1
+2022-07-15,Baby,Life Support,Madison Beer,2,2,1
+2022-07-15,BOYSHIT,Life Support,Madison Beer,2,2,1
+2022-07-15,Sour Times,Life Support,Madison Beer,2,2,1
+2022-07-15,Selfish,Life Support,Madison Beer,2,2,1
+2022-07-15,Homesick,Life Support,Madison Beer,2,2,1
+2022-07-15,Interlude,Life Support,Madison Beer,2,2,1
+2022-07-15,Blue,Life Support,Madison Beer,2,2,1
+2022-07-15,Stay Numb and Carry On,Life Support,Madison Beer,3,3,1
+2022-07-15,Effortlessly,Life Support,Madison Beer,3,3,1
+2022-07-15,Follow the White Rabbit,Life Support,Madison Beer,3,3,1
+2022-07-15,Love Story (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,2,2,1
+2022-07-15,Hello Sunset,Queendom - The 6th Mini Album,Red Velvet,1,1,1
+2022-07-15,Default,Life Support,Madison Beer,1,1,1
+2022-07-15,Good in Goodbye,Life Support,Madison Beer,1,1,1
+2022-07-15,The Beginning,Life Support,Madison Beer,1,1,1
+2022-07-15,Running Up That Hill (A Deal with God),Hounds of Love,Kate Bush,1,1,1
+2022-07-15,Lust for Life (with The Weeknd),Lust for Life,Lana Del Rey,2,2,1
+2022-07-15,High by the Beach,Honeymoon,Lana Del Rey,1,1,1
+2022-07-15,Norman fucking Rockwell,Norman Fucking Rockwell!,Lana Del Rey,1,1,1
+2022-07-15,Cinnamon Girl,Norman Fucking Rockwell!,Lana Del Rey,1,1,1
+2022-07-15,Doin' Time,Norman Fucking Rockwell!,Lana Del Rey,1,1,1
+2022-07-15,Blue Banisters,Blue Banisters,Lana Del Rey,1,1,1
+2022-07-15,Brooklyn Baby,Ultraviolence (Deluxe),Lana Del Rey,3,3,1
+2022-07-15,West Coast,Ultraviolence (Deluxe),Lana Del Rey,3,3,1
+2022-07-15,Blue Jeans,Born to Die - The Paradise Edition,Lana Del Rey,1,1,1
+2022-07-15,Summertime Sadness,Born to Die - The Paradise Edition,Lana Del Rey,1,1,1
+2022-07-15,Video Games,Born to Die - The Paradise Edition,Lana Del Rey,1,1,1
+2022-07-15,In the morning,GUESS WHO,ITZY,1,1,1
+2022-07-15,Trust Me (MIDZY),Trust Me (MIDZY),ITZY,1,1,1
+2022-07-15,Be In Love,Not Shy,ITZY,1,1,1
+2022-07-15,SURF,Not Shy,ITZY,1,1,1
+2022-07-15,iD,Not Shy,ITZY,1,1,1
+2022-07-15,Louder,Not Shy,ITZY,1,1,1
+2022-07-15,Don’t Give a What,Not Shy,ITZY,1,1,1
+2022-07-15,Not Shy,Not Shy,ITZY,1,1,1
+2022-07-15,24HRS,IT'z ME,ITZY,1,1,1
+2022-07-15,I DON’T WANNA DANCE,IT'z ME,ITZY,1,1,1
+2022-07-15,YOU MAKE ME,IT'z ME,ITZY,1,1,1
+2022-07-15,NOBODY LIKE YOU,IT'z ME,ITZY,1,1,1
+2022-07-15,THAT’S A NO NO,IT'z ME,ITZY,1,1,1
+2022-07-15,TING TING TING (with Oliver Heldens),IT'z ME,ITZY,1,1,1
+2022-07-15,WANNABE,IT'z ME,ITZY,1,1,1
+2022-07-15,CHERRY,IT'z ICY,ITZY,1,1,1
+2022-07-15,ICY,IT'z ICY,ITZY,1,1,1
+2022-07-15,WANT IT?,IT'z Different,ITZY,1,1,1
+2022-07-15,DALLA DALLA,IT'z Different,ITZY,1,1,1
+2022-07-15,SNEAKERS,CHECKMATE,ITZY,8,8,1
+2022-07-15,Without You,Music Box,Mariah Carey,1,1,1
+2022-07-15,Up!,DOUBLAST,Kep1er,7,7,1
+2022-07-15,Hero,Music Box,Mariah Carey,1,1,1
+2022-07-15,Dreamlover,Music Box,Mariah Carey,1,1,1
+2022-07-15,#Beautiful,Me. I Am Mariah…The Elusive Chanteuse,Mariah Carey,1,1,1
+2022-07-15,Vision of Love,Mariah Carey,Mariah Carey,1,1,1
+2022-07-15,Emotions,Emotions,Mariah Carey,2,1,2
+2022-07-15,Shake It Off,The Emancipation of Mimi,Mariah Carey,1,1,1
+2022-07-15,LE VOYA9E,DOUBLAST,Kep1er,4,4,1
+2022-07-15,We Belong Together,The Emancipation of Mimi,Mariah Carey,1,1,1
+2022-07-15,Always Be My Baby,Daydream,Mariah Carey,1,1,1
+2022-07-15,One Sweet Day,Daydream,Mariah Carey,1,1,1
+2022-07-15,Fantasy,Daydream,Mariah Carey,1,1,1
+2022-07-15,Butterfly,Butterfly,Mariah Carey,1,1,1
+2022-07-15,Honey,Butterfly,Mariah Carey,1,1,1
+2022-07-15,Hung Up,Confessions on a Dance Floor,Madonna,1,1,1
+2022-07-15,burned out,Human,dodie,1,1,1
+2022-07-15,If I'm Being Honest,Human,dodie,1,1,1
+2022-07-15,Not What I Meant (feat. Lewis Watson),Human,dodie,1,1,1
+2022-07-15,Monster,Human,dodie,1,1,1
+2022-07-15,Arms Unfolding,Human,dodie,2,2,1
+2022-07-15,Kura Kura,Kura Kura,TWICE,1,1,1
+2022-07-15,BDZ,BDZ,TWICE,1,1,1
+2022-07-15,HAPPY HAPPY,HAPPY HAPPY,TWICE,1,1,1
+2022-07-15,FIREWORK,MORE & MORE,TWICE,1,1,1
+2022-07-15,STUCK IN MY HEAD - Japanese Version,STUCK IN MY HEAD (Japanese Version),TWICE,1,1,1
+2022-07-15,MAKE ME GO,MORE & MORE,TWICE,1,1,1
+2022-07-15,TURTLE,twicetagram,TWICE,1,1,1
+2022-07-15,CRUEL,Formula of Love: O+T=<3,TWICE,7,7,1
+2022-07-15,MORE & MORE,MORE & MORE,TWICE,1,1,1
+2022-07-15,DO WHAT WE LIKE,Eyes wide open,TWICE,1,1,1
+2022-07-15,PIECES OF LOVE,Perfect World,TWICE,1,1,1
 2022-07-15,REWIND,Formula of Love: O+T=<3,TWICE,4,4,1
+2022-07-15,CACTUS,Formula of Love: O+T=<3,TWICE,3,3,1
+2022-07-15,Baby Blue Love,Taste of Love,TWICE,1,1,1
+2022-07-15,STUCK IN MY HEAD,FANCY YOU,TWICE,1,1,1
+2022-07-15,Thank you Family,Perfect World,TWICE,1,1,1
+2022-07-15,Dance the Night Away,Summer Nights,TWICE,1,1,1
+2022-07-15,Just be yourself,Just be yourself,TWICE,1,1,1
+2022-07-15,F.I.L.A (Fall in Love Again),Formula of Love: O+T=<3,TWICE,7,7,1
+2022-07-15,CHEER UP,PAGE TWO,TWICE,1,1,1
+2022-07-15,Celebrate,Celebrate,TWICE,3,3,1
+2022-07-15,SUNSET,IM NAYEON,NAYEON,5,5,1
+2022-07-15,HAPPY BIRTHDAY TO YOU,IM NAYEON,NAYEON,6,6,1
+2022-07-15,ALL OR NOTHING,IM NAYEON,NAYEON,6,6,1
+2022-07-15,CANDYFLOSS,IM NAYEON,NAYEON,6,6,1
+2022-07-15,LOVE COUNTDOWN (feat. Wonstein),IM NAYEON,NAYEON,6,6,1
+2022-07-15,NO PROBLEM (feat. Felix of Stray Kids),IM NAYEON,NAYEON,6,6,1
+2022-07-15,This Love (Taylor’s Version),This Love (Taylor’s Version),Taylor Swift,1,1,1
+2022-07-15,Bye Bye Baby (Taylor’s Version) (From the Vault),Fearless (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,Don’t You (Taylor’s Version) (From the Vault),Fearless (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,That’s When (feat. Keith Urban) (Taylor’s Version) (From the Vault),Fearless (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,We Were Happy (Taylor’s Version) (From the Vault),Fearless (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,Mr. Perfectly Fine (Taylor’s Version) (From the Vault),Fearless (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,You All Over Me (feat. Maren Morris) (Taylor’s Version) (From the Vault),Fearless (Taylor's Version),Taylor Swift,2,2,1
+2022-07-15,The Other Side of the Door (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,Superstar (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,Come in with the Rain (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,Forever & Always (Piano Version) (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,Untouchable (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,Jump Then Fall (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,2,2,1
+2022-07-15,Change (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,The Best Day (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,Forever & Always (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,You’re Not Sorry (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,Tell Me Why (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,Breathe (feat. Colbie Caillat) (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,You Belong with Me (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,White Horse (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,2,2,1
+2022-07-15,Fifteen (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,Fearless (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,Daylight,Lover,Taylor Swift,1,1,1
+2022-07-15,It’s Nice to Have a Friend,Lover,Taylor Swift,1,1,1
+2022-07-15,Afterglow,Lover,Taylor Swift,1,1,1
+2022-07-15,You Need to Calm Down,Lover,Taylor Swift,1,1,1
+2022-07-15,False God,Lover,Taylor Swift,1,1,1
+2022-07-15,Soon You’ll Get Better (feat. The Chicks),Lover,Taylor Swift,1,1,1
+2022-07-15,London Boy,Lover,Taylor Swift,1,1,1
+2022-07-15,Death by a Thousand Cuts,Lover,Taylor Swift,2,2,1
+2022-07-15,Cornelia Street,Lover,Taylor Swift,1,1,1
+2022-07-15,Paper Rings,Lover,Taylor Swift,1,1,1
+2022-07-15,Miss Americana & the Heartbreak Prince,Lover,Taylor Swift,1,1,1
+2022-07-15,The Archer,Lover,Taylor Swift,2,2,1
+2022-07-15,The Man,Lover,Taylor Swift,1,1,1
+2022-07-15,Lover,Lover,Taylor Swift,1,1,1
+2022-07-15,Cruel Summer,Lover,Taylor Swift,1,1,1
+2022-07-15,I Forgot That You Existed,Lover,Taylor Swift,1,1,1
+2022-07-15,Another Dream - Kep1er Version,FIRST IMPACT,Kep1er,2,2,1
+2022-07-15,Blank Space,1989 (Deluxe),Taylor Swift,1,1,1
+2022-07-15,ELEVEN,ELEVEN,IVE,7,7,1
 2022-07-15,ESPRESSO,Formula of Love: O+T=<3,TWICE,9,9,1
-2022-07-15,LAST WALTZ,Formula of Love: O+T=<3,TWICE,4,4,1
-2022-07-15,F.I.L.A (Fall in Love Again),Formula of Love: O+T=<3,TWICE,13,13,1
-2022-07-15,REAL YOU,Formula of Love: O+T=<3,TWICE,13,13,1
-2022-07-15,CRUEL,Formula of Love: O+T=<3,TWICE,13,13,1
-2022-07-15,Blue Flame,FEARLESS,LE SSERAFIM,5,5,1
-2022-07-15,SUNSET,IM NAYEON,NAYEON,4,4,1
-2022-07-15,HAPPY BIRTHDAY TO YOU,IM NAYEON,NAYEON,4,4,1
-2022-07-15,ALL OR NOTHING,IM NAYEON,NAYEON,4,4,1
-2022-07-15,POP!,IM NAYEON,NAYEON,10,10,1
-2022-07-15,Happy Working Song - From Enchanted / Soundtrack Version,Enchanted,Amy Adams,1,1,1
-2022-07-15,Impossible Year,Death of a Bachelor,Panic! at the Disco,8,8,1
-2022-07-15,House of Memories,Death of a Bachelor,Panic! at the Disco,8,8,1
-2022-07-15,The Good the Bad and the Dirty,Death of a Bachelor,Panic! at the Disco,8,8,1
-2022-07-15,Golden Days,Death of a Bachelor,Panic! at the Disco,8,8,1
-2022-07-15,Crazy = Genius,Death of a Bachelor,Panic! at the Disco,8,8,1
-2022-07-15,Death of a Bachelor,Death of a Bachelor,Panic! at the Disco,8,8,1
-2022-07-15,Hallelujah,Death of a Bachelor,Panic! at the Disco,8,8,1
-2022-07-15,Don't Threaten Me with a Good Time,Death of a Bachelor,Panic! at the Disco,8,8,1
-2022-07-15,Victorious,Death of a Bachelor,Panic! at the Disco,8,8,1
-2022-07-15,Girls,Girls - The 2nd Mini Album,aespa,3,3,1
-2022-07-15,Celebrate,Celebrate,TWICE,2,2,1
+2022-07-15,favOriTe,FavOriTe,Loona,7,7,1
 2022-07-15,Red Light,Red Light - The 3rd Album,f(x),4,4,1
 2022-07-15,TANK,AD MARE,NMIXX,4,4,1
 2022-07-15,WE GO,9 WAY TICKET,fromis_9,5,5,1
@@ -66,222 +300,133 @@ Week,Song Name,Album Name,Artist Name,Streams,Sales,Airplay
 2022-07-15,Shake It,<Queendom2> Part.2-1,Loona,5,5,1
 2022-07-15,ROYAL,LOVE DIVE,IVE,5,5,1
 2022-07-15,Dreams Come True,Dream Your Dream,WJSN,5,5,1
+2022-07-15,All Too Well (Taylor's Version),Red (Taylor's Version),Taylor Swift,8,7,2
 2022-07-15,Playback,Summer Special [Flip That],Loona,4,4,1
 2022-07-15,DM,Midnight Guest,fromis_9,5,5,1
 2022-07-15,Vanilla,Vanilla,LIGHTSUM,4,4,1
-2022-07-15,Up!,DOUBLAST,Kep1er,4,4,1
 2022-07-15,Flip That,Summer Special [Flip That],Loona,5,5,1
-2022-07-15,In My Dreams,‘The ReVe Festival 2022 - Feel My Rhythm’,Red Velvet,6,6,1
-2022-07-15,The Great Mermaid,FEARLESS,LE SSERAFIM,6,6,1
+2022-07-15,In My Dreams,‘The ReVe Festival 2022 - Feel My Rhythm’,Red Velvet,5,5,1
 2022-07-15,CLASSY,LIVES ACROSS,CLASS:y,5,5,1
 2022-07-15,Feel My Rhythm,‘The ReVe Festival 2022 - Feel My Rhythm’,Red Velvet,6,6,1
-2022-07-15,ELEVEN,ELEVEN,IVE,6,6,1
-2022-07-15,favOriTe,FavOriTe,Loona,6,6,1
-2022-07-15,O.O,AD MARE,NMIXX,7,7,1
+2022-07-15,Moulin Rouge,,Christina Aguilera,1,1,1
+2022-07-15,Kiss Me More (feat. SZA),NRJ Music Awards 2021,Doja Cat,1,1,1
+2022-07-15,I Think He Knows,Lover (deluxe album version 4),Taylor Swift,1,1,1
+2022-07-15,I'm a Slave 4 U,Britney,Britney Spears,1,1,1
+2022-07-15,Oxytocin,Up To The Moon,Billie Eilish,1,1,1
+2022-07-15,Dancing With Our Hands Tied,,Taylor Swift,1,1,1
+2022-07-15,Get Into It (Yuh),Planet Her (Deluxe),Doja Cat,1,1,1
+2022-07-15,Fergalicious,The Dutchess,Fergie,1,1,1
+2022-07-15,Dress,reputation (karaoke edition),Taylor Swift,1,1,1
+2022-07-15,Squidward Nose,,cupcakKe,1,1,1
+2022-07-15,H2Hoe,,cupcakKe,1,1,1
+2022-07-15,WAP (feat. Megan Thee Stallion),,Cardi B,1,1,1
+2022-07-15,CPR,,cupcakKe,1,1,1
+2022-07-15,Scream,1st Album [Dystopia : The Tree of Language],Dreamcatcher,1,1,1
+2022-07-15,PIRI,The End of Nightmare,Dreamcatcher,1,1,1
+2022-07-15,Rough,SNOWFLAKE,GFRIEND,1,1,1
+2022-07-15,WHISTLE,SQUARE ONE,BLACKPINK,1,1,1
+2022-07-15,PLAYING WITH FIRE,SQUARE TWO,BLACKPINK,1,1,1
+2022-07-15,AS IF IT'S YOUR LAST,AS IF IT'S YOUR LAST,BLACKPINK,1,1,1
+2022-07-15,Universe,[12:00],Loona,1,1,1
+2022-07-15,Where you at,[X X],Loona,1,1,1
+2022-07-15,new,Yves,Loona,1,1,1
+2022-07-15,Sonatine,Love & Evil,LOOΠΔ 1/3,1,1,1
+2022-07-15,Sweet Crazy Love,Max & Match,LOOΠΔ / ODD EYE CIRCLE,1,1,1
+2022-07-15,Butterfly,[X X],Loona,1,1,1
+2022-07-15,Heart Attack (츄),Chuu,Loona,2,2,1
+2022-07-15,Hear the Sea,The Red Summer - Summer Mini Album,Red Velvet,1,1,1
+2022-07-15,Happily Ever After,Rookie - The 4th Mini Album,Red Velvet,1,1,1
+2022-07-15,You Better Know,The Red Summer - Summer Mini Album,Red Velvet,1,1,1
+2022-07-15,Body Talk,Rookie - The 4th Mini Album,Red Velvet,1,1,1
+2022-07-15,Ice Cream Cake,Ice Cream Cake,Red Velvet,2,2,1
+2022-07-15,Psycho,‘The ReVe Festival’ Finale,Red Velvet,1,1,1
+2022-07-15,STRAWBERRY,FANCY YOU,TWICE,1,1,1
+2022-07-15,Only You,SIGNAL,TWICE,2,2,1
+2022-07-15,MOONLIGHT,Formula of Love: O+T=<3,TWICE,3,3,1
+2022-07-15,SUNSET,YES or YES,TWICE,1,1,1
+2022-07-15,ONE IN A MILLION,TWICEcoaster: LANE 1,TWICE,1,1,1
+2022-07-15,SAY SOMETHING,Eyes wide open,TWICE,1,1,1
+2022-07-15,Heart Shaker,Merry & Happy,TWICE,1,1,1
+2022-07-15,Feel Special,Feel Special,TWICE,1,1,1
+2022-07-15,Touch It,Dangerous Woman,Ariana Grande,1,1,1
+2022-07-15,Thinking Bout You,Dangerous Woman,Ariana Grande,1,1,1
+2022-07-15,Tattooed Heart,Yours Truly,Ariana Grande,1,1,1
+2022-07-15,ghostin,thank u next,Ariana Grande,2,2,1
+2022-07-15,Love Me Harder,My Everything (Deluxe),Ariana Grande,1,1,1
+2022-07-15,Into You,Dangerous Woman,Ariana Grande,1,1,1
+2022-07-15,Don’t Blame Me,Reputation,Taylor Swift,1,1,1
+2022-07-15,State of Grace (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,Getaway Car,Reputation,Taylor Swift,1,1,1
+2022-07-15,my tears ricochet,folklore,Taylor Swift,1,1,1
+2022-07-15,Forever Winter (Taylor's Version) (From the Vault),Red (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,Dress,Reputation,Taylor Swift,1,1,1
+2022-07-15,happiness,evermore,Taylor Swift,1,1,1
+2022-07-15,Treacherous (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,Hero's Soup,I am YOU,Stray Kids,1,1,1
+2022-07-15,Shake It Off,1989 (Deluxe),Taylor Swift,1,1,1
+2022-07-15,Remember Me,Remember Me,OH MY GIRL,1,1,1
+2022-07-15,CRY FOR ME,CRY FOR ME,TWICE,1,1,1
+2022-07-15,On The Ground,R,Rosé,1,1,1
+2022-07-15,I'm Only Me When I'm with You,Taylor Swift,Taylor Swift,1,1,1
+2022-07-15,0325,SKZ2021,Stray Kids,1,1,1
+2022-07-15,Adios,HUSH,Everglow,1,1,1
+2022-07-15,Womanizer,Circus (Deluxe Version),Britney Spears,1,1,1
+2022-07-15,SIGNAL,SIGNAL,TWICE,1,1,1
+2022-07-15,SCIENTIST - R3HAB Remix,Formula of Love: O+T=<3,TWICE,4,4,1
+2022-07-15,CANDY,Formula of Love: O+T=<3,TWICE,2,2,1
+2022-07-15,1 3 2 (JEONGYEON MINA TZUYU),Formula of Love: O+T=<3,TWICE,2,2,1
+2022-07-15,HELLO (NAYEON MOMO CHAEYOUNG),Formula of Love: O+T=<3,TWICE,4,3,2
+2022-07-15,PUSH & PULL (JIHYO SANA DAHYUN),Formula of Love: O+T=<3,TWICE,4,4,1
+2022-07-15,LAST WALTZ,Formula of Love: O+T=<3,TWICE,3,3,1
+2022-07-15,REAL YOU,Formula of Love: O+T=<3,TWICE,6,6,1
+2022-07-15,Happy Working Song - From Enchanted / Soundtrack Version,Enchanted,Amy Adams,1,1,1
+2022-07-15,Impossible Year,Death of a Bachelor,Panic! at the Disco,8,8,1
+2022-07-15,House of Memories,Death of a Bachelor,Panic! at the Disco,8,8,1
+2022-07-15,The Good the Bad and the Dirty,Death of a Bachelor,Panic! at the Disco,8,8,1
+2022-07-15,Golden Days,Death of a Bachelor,Panic! at the Disco,8,8,1
+2022-07-15,Crazy = Genius,Death of a Bachelor,Panic! at the Disco,8,8,1
+2022-07-15,Death of a Bachelor,Death of a Bachelor,Panic! at the Disco,8,8,1
+2022-07-15,Hallelujah,Death of a Bachelor,Panic! at the Disco,8,8,1
+2022-07-15,Don't Threaten Me with a Good Time,Death of a Bachelor,Panic! at the Disco,8,8,1
+2022-07-15,Victorious,Death of a Bachelor,Panic! at the Disco,8,8,1
+2022-07-15,Girls,Girls - The 2nd Mini Album,aespa,2,2,1
 2022-07-15,Don't U Wait No More,The Red - The 1st Album,Red Velvet,1,1,1
 2022-07-15,Mojito,The Red Summer - Summer Mini Album,Red Velvet,1,1,1
-2022-07-15,WOW,[&],Loona,1,1,1
 2022-07-15,Lady's Room,The Red - The 1st Album,Red Velvet,1,1,1
 2022-07-15,DING DONG,twicetagram,TWICE,1,1,1
-2022-07-15,Ice Cream Cake,Ice Cream Cake,Red Velvet,1,1,1
-2022-07-15,Everyday I Love You,ViVi,Loona,1,1,1
-2022-07-15,Jump Then Fall (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,1,1,1
-2022-07-15,Touchdown,PAGE TWO,TWICE,1,1,1
 2022-07-15,FFW,twicetagram,TWICE,1,1,1
-2022-07-15,Power Up,Summer Magic - Summer Mini Album,Red Velvet,1,1,1
-2022-07-15,JELLY JELLY,TWICEcoaster: LANE 1,TWICE,1,1,1
 2022-07-15,Perfect Love,[+ +],Loona,1,1,1
 2022-07-15,Hello,Hello - Special Album,Joy,1,1,1
-2022-07-15,BETTER,Better,TWICE,1,1,1
 2022-07-15,We Are Never Ever Getting Back Together (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
 2022-07-15,Lips Are Movin,Title (Deluxe),Meghan Trainor,1,1,1
 2022-07-15,Hi High,[X X],Loona,1,1,1
-2022-07-15,Hmph!,Hmph!,WJSN CHOCOME,1,1,1
-2022-07-15,Only You,SIGNAL,TWICE,1,1,1
 2022-07-15,FUN!,FUN FACTORY,fromis_9,1,1,1
-2022-07-15,Be Honest,[&],Loona,1,1,1
 2022-07-15,YES or YES,YES or YES,TWICE,1,1,1
 2022-07-15,#Cookie Jar,#Cookie Jar,Red Velvet,1,1,1
 2022-07-15,Girl at Home (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
 2022-07-15,LOONATIC,Max & Match,LOOΠΔ / ODD EYE CIRCLE,1,1,1
 2022-07-15,Yum-Yum,Yum-Yum,Yeo Jin,1,1,1
-2022-07-15,SAPPY,SAPPY,Red Velvet,1,1,1
 2022-07-15,HULA HOOP,HULA HOOP / StarSeed ~カクセイ~,Loona,1,1,1
-2022-07-15,UP NO MORE,Eyes wide open,TWICE,1,1,1
-2022-07-15,Dear Future Husband,Title (Deluxe),Meghan Trainor,1,1,1
-2022-07-15,Heart Attack (츄),Chuu,Loona,1,1,1
 2022-07-15,Starlight (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
 2022-07-15,Hit That Drum,Summer Magic - Summer Mini Album,Red Velvet,1,1,1
-2022-07-15,As you Wish,As You Wish,WJSN,4,4,1
-2022-07-15,New Romantics,1989 (Deluxe),Taylor Swift,1,1,1
-2022-07-15,ICON,Formula of Love: O+T=<3,TWICE,3,3,1
-2022-07-15,MOONLIGHT,Formula of Love: O+T=<3,TWICE,3,3,1
-2022-07-15,Hey Ya!,Speakerboxxx/The Love Below,OutKast,1,1,1
+2022-07-15,ICON,Formula of Love: O+T=<3,TWICE,2,2,1
 2022-07-15,Emperor's New Clothes,Death of a Bachelor,Panic! at the Disco,1,1,1
-2022-07-15,cardigan,folklore,Taylor Swift,3,3,1
-2022-07-15,Arms Unfolding,Human,dodie,3,3,1
-2022-07-15,You All Over Me (feat. Maren Morris) (Taylor’s Version) (From the Vault),Fearless (Taylor's Version),Taylor Swift,3,3,1
-2022-07-15,Lose You to Love Me,Lose You To Love Me,Selena Gomez,3,3,1
-2022-07-15,The Archer,Lover,Taylor Swift,3,3,1
-2022-07-15,I Almost Do (Taylor's Version),Red (Taylor's Version),Taylor Swift,4,4,1
-2022-07-15,White Horse (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,1,1,1
-2022-07-15,Happier Than Ever,Happier Than Ever,Billie Eilish,5,5,1
-2022-07-15,illicit affairs,folklore,Taylor Swift,4,4,1
-2022-07-15,seven,folklore,Taylor Swift,2,2,1
-2022-07-15,I Loved You,Every DAY6 September,DAY6,3,3,1
-2022-07-15,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Red (Taylor's Version),Taylor Swift,3,3,1
-2022-07-15,Run (feat. Ed Sheeran) (Taylor’s Version) (From the Vault),Red (Taylor's Version),Taylor Swift,3,3,1
-2022-07-15,Back to December - Acoustic,Speak Now (Deluxe Package),Taylor Swift,3,3,1
-2022-07-15,She,Human,dodie,10,10,1
-2022-07-15,epiphany,folklore,Taylor Swift,2,2,1
-2022-07-15,Million Years Ago,25,Adele,3,3,1
-2022-07-15,Ronan (Taylor's Version),Red (Taylor's Version),Taylor Swift,3,3,1
-2022-07-15,HANDLE IT,Eyes wide open,TWICE,2,2,1
-2022-07-15,ghostin,thank u next,Ariana Grande,5,5,1
-2022-07-15,A Different Night,[&],Loona,3,3,1
-2022-07-15,favorite crime,SOUR,Olivia Rodrigo,3,3,1
-2022-07-15,Cold as You,Taylor Swift,Taylor Swift,3,3,1
-2022-07-15,BEHIND THE MASK,Eyes wide open,TWICE,3,3,1
-2022-07-15,Haunted - Acoustic Version,Speak Now (Deluxe Package),Taylor Swift,2,2,1
-2022-07-15,Guiltless,Guiltless,dodie,7,7,1
-2022-07-15,If I'm Being Honest,Human,dodie,7,7,1
-2022-07-15,Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From the Vault),Red (Taylor's Version),Taylor Swift,5,4,2
-2022-07-15,Liability,Melodrama,Lorde,5,5,1
-2022-07-15,HUMAN,Human,dodie,6,6,1
-2022-07-15,Forever Winter (Taylor's Version) (From the Vault),Red (Taylor's Version),Taylor Swift,4,4,1
-2022-07-15,burned out,Human,dodie,6,6,1
-2022-07-15,Dear John,Speak Now (Deluxe Package),Taylor Swift,3,3,1
-2022-07-15,this is me trying,folklore,Taylor Swift,3,3,1
-2022-07-15,Don’t You (Taylor’s Version) (From the Vault),Fearless (Taylor's Version),Taylor Swift,2,2,1
-2022-07-15,1 step forward 3 steps back,SOUR,Olivia Rodrigo,5,5,1
-2022-07-15,Monster,Human,dodie,3,3,1
-2022-07-15,Teardrops on My Guitar - Radio Single Remix,Taylor Swift,Taylor Swift,2,2,1
-2022-07-15,happier,SOUR,Olivia Rodrigo,5,5,1
-2022-07-15,peace,folklore,Taylor Swift,3,3,1
-2022-07-15,Sad Beautiful Tragic (Taylor's Version),Red (Taylor's Version),Taylor Swift,3,3,1
-2022-07-15,Highway Don't Care,Two Lanes of Freedom,Tim McGraw,3,3,1
-2022-07-15,Jar of Hearts,Lovestrong.,Christina Perri,3,3,1
-2022-07-15,secret for the mad,You - EP,dodie,3,3,1
-2022-07-15,coney island (feat. The National),evermore,Taylor Swift,2,2,1
-2022-07-15,marjorie,evermore,Taylor Swift,3,3,1
-2022-07-15,U R,[&],Loona,2,2,1
-2022-07-15,enough for you,SOUR,Olivia Rodrigo,3,3,1
-2022-07-15,Soon You’ll Get Better (feat. The Chicks),Lover,Taylor Swift,2,2,1
-2022-07-15,Love Letter,JinSoul,Loona,2,2,1
-2022-07-15,We Were Happy (Taylor’s Version) (From the Vault),Fearless (Taylor's Version),Taylor Swift,2,2,1
-2022-07-15,Love in the Dark,25,Adele,2,2,1
-2022-07-15,365,365,Loona,2,2,1
-2022-07-15,mirrorball,folklore,Taylor Swift,3,3,1
-2022-07-15,All Too Well (10 Minute Version) (Taylor's Version) (From the Vault),Red (Taylor's Version),Taylor Swift,3,3,1
-2022-07-15,All I Ask,25,Adele,4,4,1
-2022-07-15,WISHING,BDZ,TWICE,2,2,1
-2022-07-15,BOYS LIKE YOU,BOYS LIKE YOU,dodie,2,2,1
-2022-07-15,Death by a Thousand Cuts,Lover,Taylor Swift,2,2,1
-2022-07-15,Sonatine,Love & Evil,LOOΠΔ 1/3,3,3,1
-2022-07-15,The Moment I Knew (Taylor's Version),Red (Taylor's Version),Taylor Swift,4,4,1
-2022-07-15,Almost Is Never Enough (feat. Nathan Sykes),Yours Truly,Ariana Grande,3,3,1
-2022-07-15,Be as ONE - Korean Version,The year of Yes,TWICE,2,2,1
-2022-07-15,my tears ricochet,folklore,Taylor Swift,5,5,1
-2022-07-15,Where you at,[X X],Loona,2,2,1
-2022-07-15,Forever & Always (Piano Version) (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,2,2,1
-2022-07-15,See Saw (Chuu Go Won),Go Won,Loona,2,2,1
-2022-07-15,Just a Little Bit of Your Heart,My Everything (Deluxe),Ariana Grande,2,2,1
-2022-07-15,Safe & Sound - from The Hunger Games Soundtrack,Die Tribute Von Panem/The Hunger Games: Songs From District 12 And Beyond,Taylor Swift,2,2,1
-2022-07-15,If This Was a Movie,Speak Now (Deluxe Package),Taylor Swift,2,2,1
-2022-07-15,You’re Not Sorry (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,2,2,1
-2022-07-15,Psycho,‘The ReVe Festival’ Finale,Red Velvet,2,2,1
-2022-07-15,A Perfectly Good Heart,Taylor Swift,Taylor Swift,2,2,1
-2022-07-15,I Miss You,25,Adele,3,3,1
-2022-07-15,Tied Together with a Smile,Taylor Swift,Taylor Swift,2,2,1
-2022-07-15,Afterglow,Lover,Taylor Swift,3,3,1
-2022-07-15,All Too Well (Sad Girl Autumn Version) - Recorded at Long Pond Studios,All Too Well (Sad Girl Autumn Version) - Recorded at Long Pond Studios,Taylor Swift,2,2,1
-2022-07-15,Breathe (feat. Colbie Caillat) (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,3,3,1
-2022-07-15,Safe & Sound - from The Hunger Games Soundtrack,The Hunger Games: Songs From District 12 and Beyond,Taylor Swift,2,2,1
-2022-07-15,Come Back...Be Here (Taylor's Version),Red (Taylor's Version),Taylor Swift,4,4,1
-2022-07-15,hoax,folklore,Taylor Swift,2,2,1
-2022-07-15,Not What I Meant (feat. Lewis Watson),Human,dodie,2,2,1
-2022-07-15,breathin,Sweetener,Ariana Grande,2,2,1
-2022-07-15,one way,beauty&thebeat,LOONA/yyxy,2,2,1
-2022-07-15,7월 7일 One of These Nights,The Velvet - The 2nd Mini Album,Red Velvet,2,2,1
-2022-07-15,When We Were Young,25,Adele,1,1,1
-2022-07-15,Sick Of Losing Soulmates,Intertwined - EP,dodie,7,7,1
-2022-07-15,6/10,You - EP,dodie,2,2,1
-2022-07-15,Puzzle Moon,THE PARK IN THE NIGHT part one,GWSN,1,1,1
-2022-07-15,hope ur ok,SOUR,Olivia Rodrigo,2,2,1
-2022-07-15,Never Grow Up,Speak Now (Deluxe Package),Taylor Swift,2,2,1
-2022-07-15,fake smile,thank u next,Ariana Grande,2,2,1
-2022-07-15,Back to December,Speak Now (Deluxe Package),Taylor Swift,3,3,1
-2022-07-15,Last Kiss,Speak Now (Deluxe Package),Taylor Swift,4,4,1
-2022-07-15,exile (feat. Bon Iver),folklore,Taylor Swift,1,1,1
-2022-07-15,happiness,evermore,Taylor Swift,5,5,1
-2022-07-15,evermore (feat. Bon Iver),evermore,Taylor Swift,2,2,1
-2022-07-15,Chewing Gum,Chewing Gum,NCT DREAM,1,1,1
-2022-07-15,champagne problems,evermore,Taylor Swift,2,2,1
-2022-07-15,Funeral,Stranger in the Alps (Deluxe Edition),Phoebe Bridgers,1,1,1
-2022-07-15,ONE IN A MILLION,TWICEcoaster: LANE1,TWICE,1,1,1
-2022-07-15,All I Want,High School Musical: The Musical: The Series (Original Soundtrack),Olivia Rodrigo,2,2,1
-2022-07-15,Dance on My Own,[&],Loona,1,1,1
-2022-07-15,Clean,1989 (Deluxe),Taylor Swift,1,1,1
-2022-07-15,The One That Got Away - Acoustic,Teenage Dream: The Complete Confection,Katy Perry,1,1,1
-2022-07-15,Because of You,Breakaway,Kelly Clarkson,1,1,1
-2022-07-15,PROMISE,Perfect World,TWICE,1,1,1
-2022-07-15,Walkin’ in Time,THE BOYZ DEBUT ALBUM [THE FIRST],THE BOYZ,2,2,1
-2022-07-15,Someone Like You,21,Adele,4,4,1
-2022-07-15,Mrs. Potato Head,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
-2022-07-15,tolerate it,evermore,Taylor Swift,4,4,1
-2022-07-15,Wish You Were Here,Goodbye Lullaby (Expanded Edition),Avril Lavigne,1,1,1
-2022-07-15,Like a Fool,THE STORY BEGINS,TWICE,1,1,1
-2022-07-15,Easy on Me,Easy on Me,Adele,1,1,1
-2022-07-15,Innocent,Speak Now (Deluxe Package),Taylor Swift,2,2,1
-2022-07-15,그렇더라고요 When you love someone,Every DAY6 October,DAY6,1,1,1
-2022-07-15,drivers license,SOUR,Olivia Rodrigo,3,3,1
-2022-07-15,ONE IN A MILLION,TWICEcoaster: LANE 1,TWICE,1,1,1
-2022-07-15,다녀가요,HyunJin,Loona,2,2,1
-2022-07-15,November song,Love you on Christmas,Yerin Baek,1,1,1
-2022-07-15,24시간이 모자라,Full Moon,SUNMI,1,1,1
-2022-07-15,Love you on Christmas,Love you on Christmas,Yerin Baek,1,1,1
-2022-07-15,Burn,Full Moon,SUNMI,1,1,1
-2022-07-15,the lakes - bonus track,folklore (deluxe version),Taylor Swift,5,5,1
-2022-07-15,Talking to the Moon,Doo-Wops & Hooligans,Bruno Mars,1,1,1
-2022-07-15,Everything Happens for a Reason,Life Support,Madison Beer,2,2,1
-2022-07-15,STAY,SQUARE TWO,BLACKPINK,2,2,1
-2022-07-15,Strawberry Shortcake,K-12,Melanie Martinez,1,1,1
-2022-07-15,I Smile,SUNRISE,DAY6,1,1,1
-2022-07-15,Moonlight,Dangerous Woman,Ariana Grande,1,1,1
-2022-07-15,Rewrite The Stars,Rewrite The Stars,Zac Efron,2,2,1
-2022-07-15,deja vu,SOUR,Olivia Rodrigo,2,2,1
-2022-07-15,Recess,K-12,Melanie Martinez,2,2,1
-2022-07-15,One Last Time,My Everything,Ariana Grande,2,2,1
-2022-07-15,Selfish,Life Support,Madison Beer,1,1,1
-2022-07-15,Grow Up,SKZ2020,Stray Kids,1,1,1
-2022-07-15,Hope Not,KILL THIS LOVE,BLACKPINK,1,1,1
-2022-07-15,Secret Love Song (feat. Jason Derulo),Get Weird (Expanded Edition),Little Mix,2,2,1
-2022-07-15,놓아 놓아 놓아 Letting Go,DAYDREAM,DAY6,2,2,1
-2022-07-15,Funeral,Stranger in the Alps,Phoebe Bridgers,1,1,1
-2022-07-15,Just a Little Bit of Your Heart,My Everything,Ariana Grande,2,2,1
-2022-07-15,jealousy jealousy,SOUR,Olivia Rodrigo,1,1,1
-2022-07-15,Training Wheels,Cry Baby (Deluxe Edition),Melanie Martinez,2,2,1
-2022-07-15,You Never Know,THE ALBUM,BLACKPINK,2,2,1
-2022-07-15,The One That Got Away,Teenage Dream,Katy Perry,2,2,1
-2022-07-15,Lose You to Love Me,Rare,Selena Gomez,2,2,1
-2022-07-15,Secret Love Song Pt. II,Get Weird (Expanded Edition),Little Mix,2,2,1
-2022-07-15,All I Want - From High School Musical: The Musical: The Series,All I Want (From High School Musical: The Musical: The Series),Olivia Rodrigo,2,2,1
-2022-07-15,Unconditionally,PRISM,Katy Perry,2,2,1
-2022-07-15,SWEET SUMMER DAY,MORE & MORE,TWICE,2,2,1
-2022-07-15,DON’T CALL ME AGAIN,MORE & MORE,TWICE,2,2,1
-2022-07-15,SHADOW,MORE & MORE,TWICE,2,2,1
-2022-07-15,MAKE ME GO,MORE & MORE,TWICE,2,2,1
-2022-07-15,FIREWORK,MORE & MORE,TWICE,2,2,1
-2022-07-15,OXYGEN,MORE & MORE,TWICE,2,2,1
-2022-07-15,MORE & MORE,MORE & MORE,TWICE,2,2,1
-2022-07-15,SCIENTIST,Formula of Love: O＋T=＜3,TWICE,1,1,1
-2022-07-15,Sparkling,Bare&Rare Pt. 1,CHUNG HA,1,1,1
-2022-07-15,Mixtape : Gone Days,GO LIVE,Stray Kids,1,1,1
-2022-07-15,Me and My Husband,Be the Cowboy,Mitski,1,1,1
-2022-07-15,brutal,SOUR,Olivia Rodrigo,1,1,1
-2022-07-15,Supercut,Melodrama,Lorde,1,1,1
-2022-07-15,traitor,SOUR,Olivia Rodrigo,1,1,1
-2022-07-15,High School Sweethearts,K-12,Melanie Martinez,1,1,1
-2022-07-15,Tattooed Heart,Yours Truly,Ariana Grande,1,1,1
-2022-07-15,Thinking Bout You,Dangerous Woman,Ariana Grande,1,1,1
-2022-07-15,SCIENTIST,Formula of Love: O+T=<3,TWICE,1,1,1
+2022-07-15,cardigan,folklore,Taylor Swift,1,1,1
+2022-07-15,Lose You to Love Me,Lose You To Love Me,Selena Gomez,1,1,1
+2022-07-15,I Almost Do (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,Happier Than Ever,Happier Than Ever,Billie Eilish,1,1,1
+2022-07-15,illicit affairs,folklore,Taylor Swift,1,1,1
+2022-07-15,seven,folklore,Taylor Swift,1,1,1
+2022-07-15,I Loved You,Every DAY6 September,DAY6,1,1,1
+2022-07-15,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,Run (feat. Ed Sheeran) (Taylor’s Version) (From the Vault),Red (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,Back to December - Acoustic,Speak Now (Deluxe Package),Taylor Swift,1,1,1
+2022-07-15,epiphany,folklore,Taylor Swift,1,1,1
+2022-07-15,Million Years Ago,25,Adele,1,1,1
+2022-07-15,Ronan (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2022-07-15,HANDLE IT,Eyes wide open,TWICE,1,1,1
+2022-07-15,A Different Night,[&],Loona,1,1,1
+2022-07-15,favorite crime,SOUR,Olivia Rodrigo,1,1,1
+2022-07-15,Cold as You,Taylor Swift,Taylor Swift,1,1,1
+2022-07-15,BEHIND THE MASK,Eyes wide open,TWICE,1,1,1
+2022-07-15,Haunted - Acoustic Version,Speak Now (Deluxe Package),Taylor Swift,1,1,1

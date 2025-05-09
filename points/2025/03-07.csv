@@ -1,101 +1,101 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2025-03-07,1,=,1,True,True,585,0.07,Mad Season,Matchbox Twenty,Mad Season,38,37,2,190,111,4,1900000,111000,200000,0.86,0.05,0.09,2211000,305,164,116,1,4,3
-2025-03-07,2,=,2,False,False,436,-0.14,Feeling This,blink-182,blink-182,19,19,1,95,57,2,950000,57000,100000,0.86,0.05,0.09,1107000,154,153,129,1,3,1
-2025-03-07,3,=,3,True,True,436,-0.11,She's out of Her Mind,blink-182,California (Deluxe Edition),32,32,1,160,96,2,1600000,96000,100000,0.89,0.05,0.06,1796000,258,147,31,3,3,2
-2025-03-07,4,+1,5,True,True,404,-0.05,The Static Age,Green Day,21st Century Breakdown,29,29,1,145,87,2,1450000,87000,100000,0.89,0.05,0.06,1637000,234,128,42,4,22,2
-2025-03-07,5,-1,4,False,False,380,-0.16,Always,blink-182,blink-182,18,18,1,90,54,2,900000,54000,100000,0.85,0.05,0.09,1054000,146,136,98,3,3,1
-2025-03-07,6,+11,17,True,False,339,0.4,I Miss You,blink-182,blink-182,33,33,1,165,99,2,1650000,99000,100000,0.89,0.05,0.05,1849000,266,73,0,6,5,1
-2025-03-07,7,+2,9,True,False,337,0.07,Shut Up and Dance,Walk the Moon,Talking Is Hard,30,30,1,150,90,2,1500000,90000,100000,0.89,0.05,0.06,1690000,242,95,0,7,10,1
-2025-03-07,8,+4,12,False,False,332,0.11,Scattered,Green Day,Nimrod,30,30,1,150,90,2,1500000,90000,100000,0.89,0.05,0.06,1690000,242,90,0,4,29,2
-2025-03-07,9,-3,6,False,False,316,-0.06,If You're Gone,Matchbox Twenty,Mad Season,15,15,1,75,45,2,750000,45000,100000,0.84,0.05,0.11,895000,122,101,93,3,6,1
-2025-03-07,10,-3,7,False,False,302,-0.06,Bent,Matchbox Twenty,Mad Season,14,14,1,70,42,2,700000,42000,100000,0.83,0.05,0.12,842000,114,97,91,4,5,1
-2025-03-07,11,-3,8,False,False,295,-0.08,She's So Mean,Matchbox Twenty,North (Deluxe Edition),15,15,1,75,45,2,750000,45000,100000,0.84,0.05,0.11,895000,122,96,77,1,46,1
-2025-03-07,12,-2,10,False,False,294,-0.04,Moves Like Jagger - Studio Recording From The Voice Performance,Maroon 5,Hands All Over (Revised Asia Standard Version),25,25,1,125,75,2,1250000,75000,100000,0.88,0.05,0.07,1425000,202,92,0,10,3,1
-2025-03-07,13,=,13,False,False,289,-0.0,Jet Lag (feat. Natasha Bedingfield),Simple Plan,Get Your Heart On! (Deluxe Edition),16,16,1,80,48,2,800000,48000,100000,0.84,0.05,0.11,948000,130,87,72,1,6,1
-2025-03-07,14,+5,19,False,False,244,0.08,Fresh Out the Slammer,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,18,17,2,90,51,4,900000,51000,200000,0.78,0.04,0.17,1151000,145,68,31,1,31,2
-2025-03-07,15,-1,14,False,False,242,-0.09,Motivation,Sum 41,All Killer No Filler,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,80,64,2,9,2
-2025-03-07,16,RE,--,True,False,242,--,Don’t Smile,Sabrina Carpenter,Short n' Sweet,33,12,8,165,36,16,1650000,36000,800000,0.66,0.01,0.32,2486000,217,0,25,16,6,1
-2025-03-07,17,-2,15,False,False,240,-0.08,Fat Lip,Sum 41,All Killer No Filler,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,79,63,3,8,1
-2025-03-07,18,=,18,False,False,231,-0.02,3AM,Matchbox Twenty,Yourself or Someone Like You,13,13,1,65,39,2,650000,39000,100000,0.82,0.05,0.13,789000,106,71,54,6,7,1
-2025-03-07,19,+5,24,False,False,231,0.29,Juno,Sabrina Carpenter,Short n' Sweet,16,16,1,80,48,2,800000,48000,100000,0.84,0.05,0.11,948000,130,54,47,7,14,1
-2025-03-07,20,-9,11,False,False,230,-0.25,Jealous,Nick Jonas,Nick Jonas X2,17,17,1,85,51,2,850000,51000,100000,0.85,0.05,0.1,1001000,138,92,0,8,14,1
-2025-03-07,21,+21,42,True,False,224,1.29,Obvious,blink-182,blink-182,24,24,1,120,72,2,1200000,72000,100000,0.87,0.05,0.07,1372000,194,30,0,21,2,1
-2025-03-07,22,-2,20,False,False,220,0.02,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),18,18,1,90,54,2,900000,54000,100000,0.85,0.05,0.09,1054000,146,65,9,1,115,6
-2025-03-07,23,-2,21,False,False,211,0.02,Bright Lights,Matchbox Twenty,More Than You Think You Are,13,13,1,65,39,2,650000,39000,100000,0.82,0.05,0.13,789000,106,62,43,14,4,1
-2025-03-07,24,+5,29,False,False,207,0.26,How You Get the Girl (Taylor's Version),Taylor Swift,1989 (Taylor's Version),15,15,1,75,45,2,750000,45000,100000,0.84,0.05,0.11,895000,122,50,35,1,23,1
-2025-03-07,25,-2,23,False,False,199,0.04,Stay Together for the Kids,blink-182,Take Off Your Pants and Jacket,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,58,43,11,13,2
-2025-03-07,26,+2,28,False,False,195,0.13,Keeper,TWICE,Strategy,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,52,45,1,7,1
-2025-03-07,27,-11,16,False,False,191,-0.25,Funeral (feat. James Bay),Maisie Peters,Funeral (feat. James Bay),14,14,1,70,42,2,700000,42000,100000,0.83,0.05,0.12,842000,114,77,0,8,11,1
-2025-03-07,28,+4,32,False,False,187,0.21,All You Had to Do Was Stay (Taylor's Version),Taylor Swift,1989 (Taylor's Version),13,13,1,65,39,2,650000,39000,100000,0.82,0.05,0.13,789000,106,47,34,4,21,1
-2025-03-07,29,+4,33,False,False,178,0.19,Like It Like It,TWICE,Strategy,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,45,35,3,7,1
-2025-03-07,30,+4,34,False,False,173,0.19,Nice Guys Finish Last,Green Day,Nimrod,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,44,31,1,59,6
-2025-03-07,31,-1,30,False,False,169,0.07,That's My Floor,Magdalena Bay,Imaginal Disk,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,48,39,12,12,1
-2025-03-07,32,NEW,--,True,False,167,--,Easy Target,blink-182,blink-182,23,4,20,115,12,40,1150000,12000,2000000,0.36,0.0,0.63,3162000,167,0,0,32,1,1
-2025-03-07,33,-2,31,False,False,153,-0.02,Taste,Sabrina Carpenter,Short n' Sweet,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,47,48,11,14,1
-2025-03-07,34,-12,22,False,False,121,-0.39,Unwell,Matchbox Twenty,More Than You Think You Are,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,60,43,3,27,1
-2025-03-07,35,+12,47,False,False,114,1.24,New Romantics (Taylor's Version),Taylor Swift,1989 (Taylor's Version),11,10,2,55,30,4,550000,30000,200000,0.71,0.04,0.26,780000,89,16,9,8,21,1
-2025-03-07,36,-9,27,False,False,102,-0.41,Disease,Matchbox Twenty,More Than You Think You Are,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,53,39,15,4,1
-2025-03-07,37,+6,43,False,False,98,0.08,Tunnel Vision,Magdalena Bay,Imaginal Disk,4,3,2,20,9,4,200000,9000,200000,0.49,0.02,0.49,409000,33,28,37,13,12,1
-2025-03-07,38,RE,--,False,False,90,--,Letterbomb,Green Day,American Idiot,11,11,1,55,33,2,550000,33000,100000,0.81,0.05,0.15,683000,90,0,0,9,15,1
-2025-03-07,39,RE,--,False,False,90,--,Extraordinary Girl,Green Day,American Idiot,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,8,1,17,2
-2025-03-07,40,RE,--,False,False,90,--,Are We the Waiting,Green Day,American Idiot,11,11,1,55,33,2,550000,33000,100000,0.81,0.05,0.15,683000,90,0,0,6,12,1
-2025-03-07,41,=,41,False,False,88,-0.16,How Far We've Come,Matchbox Twenty,How Far We've Come,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,32,22,13,6,1
-2025-03-07,42,RE,--,False,False,82,--,She's a Rebel,Green Day,American Idiot,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,0,8,15,1
-2025-03-07,43,RE,--,False,False,82,--,Give Me Novacaine,Green Day,American Idiot,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,0,10,16,1
-2025-03-07,44,RE,--,False,False,82,--,St. Jimmy,Green Day,American Idiot,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,0,8,14,1
-2025-03-07,45,RE,--,False,False,82,--,Boulevard of Broken Dreams,Green Day,American Idiot,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,0,5,17,1
-2025-03-07,46,RE,--,False,False,82,--,Holiday,Green Day,American Idiot,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,0,7,17,1
-2025-03-07,47,-12,35,False,False,82,-0.38,Push,Matchbox Twenty,Yourself or Someone Like You,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,40,32,10,8,2
-2025-03-07,48,-12,36,False,False,81,-0.39,Real World,Matchbox Twenty,Yourself or Someone Like You,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,40,31,9,7,1
-2025-03-07,49,-11,38,False,False,80,-0.32,Supersonic,fromis_9,Supersonic,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,36,34,2,6,1
-2025-03-07,50,RE,--,False,False,64,--,Helena,My Chemical Romance,Three Cheers for Sweet Revenge,8,6,3,40,18,6,400000,18000,300000,0.56,0.03,0.42,718000,64,0,0,2,47,1
-2025-03-07,51,RE,--,False,False,58,--,ETA,NewJeans,NewJeans 2nd EP 'Get Up',7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,2,20,1
-2025-03-07,52,-4,48,False,False,56,0.22,These Hard Times,Matchbox Twenty,Exile On Mainstream (International),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,14,8,48,4,1
-2025-03-07,53,RE,--,False,False,43,--,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,9,1,106,2
-2025-03-07,54,NEW,--,True,False,42,--,Stockholm Syndrome,blink-182,blink-182,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,54,1,1
-2025-03-07,55,RE,--,False,False,42,--,Babe (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,1,17,1
-2025-03-07,56,NEW,--,True,False,41,--,Asthenia,blink-182,blink-182,5,4,2,25,12,4,250000,12000,200000,0.54,0.03,0.43,462000,41,0,0,56,1,1
-2025-03-07,57,RE,--,False,False,38,--,I'm Not Okay (I Promise),My Chemical Romance,Three Cheers for Sweet Revenge,5,1,5,25,3,10,250000,3000,500000,0.33,0.0,0.66,753000,38,0,0,3,46,1
-2025-03-07,58,RE,--,False,False,34,--,BOYSHIT,Madison Beer,Life Support,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,3,6,1
-2025-03-07,59,RE,--,False,False,34,--,Fast Times,Sabrina Carpenter,emails i can’t send fwd:,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,4,7,1
-2025-03-07,60,RE,--,False,False,34,--,Better Man (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,2,17,1
-2025-03-07,61,NEW,--,True,False,34,--,Call Me When You Break Up (with Gracie Abrams),Selena Gomez,Call Me When You Break Up (with Gracie Abrams),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,61,1,1
-2025-03-07,62,RE,--,False,False,34,--,Wonderland (Taylor's Version),Taylor Swift,1989 (Taylor's Version),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,6,13,1
-2025-03-07,63,-9,54,False,False,34,-0.17,Our Song,Matchbox Twenty,North (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,11,44,4,1
-2025-03-07,64,-9,55,False,False,34,-0.17,Overjoyed,Matchbox Twenty,North (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,11,45,4,1
-2025-03-07,65,-9,56,False,False,34,-0.17,Put Your Hands Up,Matchbox Twenty,North (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,11,46,4,1
-2025-03-07,66,+26,92,False,False,32,0.78,lighthouse,Kelly Clarkson,chemistry,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,6,0,47,4,1
-2025-03-07,67,+26,93,False,False,32,0.78,favorite kind of high,Kelly Clarkson,chemistry,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,6,0,48,4,1
-2025-03-07,68,+26,94,False,False,32,0.78,me,Kelly Clarkson,chemistry,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,6,0,49,4,1
-2025-03-07,69,+26,95,False,False,32,0.78,mine,Kelly Clarkson,chemistry,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,6,0,50,4,1
-2025-03-07,70,RE,--,False,False,28,--,Killing Time,Magdalena Bay,Imaginal Disk,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,10,22,8,1
-2025-03-07,71,-3,68,False,False,28,-0.1,Hang,Matchbox Twenty,Yourself or Someone Like You,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,10,8,57,4,1
-2025-03-07,72,-3,69,False,False,28,-0.1,Back 2 Good,Matchbox Twenty,Yourself or Someone Like You,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,10,8,58,4,1
-2025-03-07,73,-3,70,False,False,28,-0.1,Long Day,Matchbox Twenty,Yourself or Someone Like You,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,10,8,59,4,1
-2025-03-07,74,RE,--,False,False,27,--,Watching T.V.,Magdalena Bay,Imaginal Disk,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,9,25,9,1
-2025-03-07,75,RE,--,False,False,27,--,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,9,3,76,2
-2025-03-07,76,NEW,--,True,False,26,--,I'm Lost Without You,blink-182,blink-182,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,76,1,1
-2025-03-07,77,NEW,--,True,False,26,--,Here's Your Letter,blink-182,blink-182,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,77,1,1
-2025-03-07,78,NEW,--,True,False,26,--,All of This,blink-182,blink-182,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,78,1,1
-2025-03-07,79,NEW,--,True,False,26,--,Go,blink-182,blink-182,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,79,1,1
-2025-03-07,80,NEW,--,True,False,26,--,The Fallen Interlude,blink-182,blink-182,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,80,1,1
-2025-03-07,81,NEW,--,True,False,26,--,Down,blink-182,blink-182,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,81,1,1
-2025-03-07,82,NEW,--,True,False,26,--,Stockholm Syndrome Interlude,blink-182,blink-182,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,82,1,1
-2025-03-07,83,NEW,--,True,False,26,--,Violence,blink-182,blink-182,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,83,1,1
-2025-03-07,84,RE,--,False,False,26,--,CASE 143,Stray Kids,MAXIDENT,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,82,2,1
-2025-03-07,85,-9,76,False,False,26,0.0,Fearless (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,8,0,2,37,1
-2025-03-07,86,RE,--,False,False,26,--,Thinking of You,Katy Perry,One of the Boys,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,9,20,1
-2025-03-07,87,RE,--,False,False,26,--,Coincidence,Sabrina Carpenter,Short n' Sweet,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,28,4,1
-2025-03-07,88,RE,--,False,False,26,--,Complicated,Avril Lavigne,Let Go,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,4,27,1
-2025-03-07,89,RE,--,False,False,26,--,My Happy Ending,Avril Lavigne,Under My Skin,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,14,13,1
-2025-03-07,90,RE,--,False,False,26,--,The Only Exception,Paramore,brand new eyes,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,69,2,1
-2025-03-07,91,RE,--,False,False,26,--,Won't Go Home Without You,Maroon 5,It Won't Be Soon Before Long (International Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,8,6,1
-2025-03-07,92,RE,--,False,False,26,--,TT,TWICE,TWICEcoaster: LANE 1,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,26,5,1
-2025-03-07,93,RE,--,False,False,26,--,Attention,NewJeans,NewJeans 1st EP 'New Jeans',3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,1,43,1
-2025-03-07,94,NEW,--,True,False,26,--,red flag collector,Kelly Clarkson,chemistry,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,94,1,1
-2025-03-07,95,NEW,--,True,False,26,--,skip this part,Kelly Clarkson,chemistry,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,95,1,1
-2025-03-07,96,RE,--,False,False,26,--,Breathless,The Corrs,In Blue,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,8,2,6,1
-2025-03-07,97,RE,--,False,False,26,--,Welcome to New York (Taylor's Version),Taylor Swift,1989 (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,18,10,1
-2025-03-07,98,RE,--,False,False,24,--,Better Than Revenge (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),3,1,3,15,3,6,150000,3000,300000,0.33,0.01,0.66,453000,24,0,0,5,22,1
-2025-03-07,99,-10,89,False,False,24,0.33,YES or YES,TWICE,YES or YES,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,6,0,5,30,1
-2025-03-07,100,-19,81,False,False,23,-0.04,Walk Away,Kelly Clarkson,Breakaway,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,5,58,11,1
+2025-03-07,1,=,1,True,True,630,0.12,Mad Season,Matchbox Twenty,Mad Season,45,45,1,225,135,2,2250000,135000,100000,0.91,0.05,0.04,2485000,362,168,100,1,5,3
+2025-03-07,2,+1,3,True,False,528,0.09,She's out of Her Mind,blink-182,California (Deluxe Edition),40,40,1,200,120,2,2000000,120000,100000,0.9,0.05,0.05,2220000,322,146,60,2,3,1
+2025-03-07,3,+7,10,True,False,476,0.53,I Miss You,blink-182,blink-182,47,47,1,235,141,2,2350000,141000,100000,0.91,0.05,0.04,2591000,378,94,4,3,5,1
+2025-03-07,4,+3,7,False,False,450,0.19,Scattered,Green Day,Nimrod,41,41,1,205,123,2,2050000,123000,100000,0.9,0.05,0.04,2273000,330,114,6,3,29,2
+2025-03-07,5,+27,32,True,False,393,2.02,Obvious,blink-182,blink-182,44,44,1,220,132,2,2200000,132000,100000,0.9,0.05,0.04,2432000,354,39,0,5,2,1
+2025-03-07,6,-4,2,False,False,380,-0.25,Feeling This,blink-182,blink-182,15,15,1,75,45,2,750000,45000,100000,0.84,0.05,0.11,895000,122,153,105,1,4,1
+2025-03-07,7,-3,4,False,False,341,-0.29,The Static Age,Green Day,21st Century Breakdown,17,17,1,85,51,2,850000,51000,100000,0.85,0.05,0.1,1001000,138,145,58,4,25,1
+2025-03-07,8,NEW,--,True,False,335,--,Easy Target,blink-182,blink-182,44,25,20,220,75,40,2200000,75000,2000000,0.51,0.02,0.47,4275000,335,0,0,8,1,1
+2025-03-07,9,-3,6,False,False,326,-0.16,Shut Up and Dance,Walk the Moon,Talking Is Hard,25,25,1,125,75,2,1250000,75000,100000,0.88,0.05,0.07,1425000,202,117,7,6,10,1
+2025-03-07,10,-5,5,False,False,309,-0.32,Always,blink-182,blink-182,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,138,89,3,4,1
+2025-03-07,11,NEW,--,True,False,261,--,Tócame (feat. Dillom),Six Sex,X-sex,40,13,11,200,39,22,2000000,39000,1100000,0.64,0.01,0.35,3139000,261,0,0,11,1,1
+2025-03-07,12,-3,9,False,False,247,-0.33,Moves Like Jagger - Studio Recording From The Voice Performance,Maroon 5,Hands All Over (Revised Asia Standard Version),16,16,1,80,48,2,800000,48000,100000,0.84,0.05,0.11,948000,130,111,6,9,4,1
+2025-03-07,13,-1,12,False,False,241,-0.17,If You're Gone,Matchbox Twenty,Mad Season,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,87,88,2,6,1
+2025-03-07,14,RE,--,False,False,240,--,Helena,My Chemical Romance,Three Cheers for Sweet Revenge,30,28,3,150,84,6,1500000,84000,300000,0.8,0.04,0.16,1884000,240,0,0,2,44,1
+2025-03-07,15,-2,13,False,False,235,-0.14,Bent,Matchbox Twenty,Mad Season,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,83,86,3,5,1
+2025-03-07,16,-1,15,False,False,213,-0.2,She's So Mean,Matchbox Twenty,North (Deluxe Edition),7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,80,75,1,47,1
+2025-03-07,17,-3,14,False,False,209,-0.23,Jet Lag (feat. Natasha Bedingfield),Simple Plan,Get Your Heart On! (Deluxe Edition),7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,82,69,1,6,1
+2025-03-07,18,RE,--,False,False,206,--,I'm Not Okay (I Promise),My Chemical Romance,Three Cheers for Sweet Revenge,26,22,5,130,66,10,1300000,66000,500000,0.7,0.04,0.27,1866000,206,0,0,3,44,1
+2025-03-07,19,-8,11,False,False,204,-0.32,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),13,13,1,65,39,2,650000,39000,100000,0.82,0.05,0.13,789000,106,91,7,1,106,7
+2025-03-07,20,+47,67,True,False,202,6.77,Stockholm Syndrome,blink-182,blink-182,24,24,1,120,72,2,1200000,72000,100000,0.87,0.05,0.07,1372000,194,8,0,20,2,1
+2025-03-07,21,RE,--,False,False,184,--,Sugar We're Goin Down,Fall Out Boy,From Under the Cork Tree,22,22,1,110,66,2,1100000,66000,100000,0.87,0.05,0.08,1266000,178,0,6,1,23,5
+2025-03-07,22,-4,18,False,False,183,-0.14,Fat Lip,Sum 41,All Killer No Filler,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,64,61,2,9,1
+2025-03-07,23,-6,17,False,False,180,-0.2,Motivation,Sum 41,All Killer No Filler,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,68,62,3,9,1
+2025-03-07,24,RE,--,False,False,174,--,Famous Last Words,My Chemical Romance,The Black Parade,21,21,1,105,63,2,1050000,63000,100000,0.87,0.05,0.08,1213000,170,0,4,8,25,2
+2025-03-07,25,-9,16,False,False,175,-0.29,Fresh Out the Slammer,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,75,42,1,29,1
+2025-03-07,26,RE,--,False,False,170,--,Warning,Green Day,Warning,21,21,1,105,63,2,1050000,63000,100000,0.87,0.05,0.08,1213000,170,0,0,20,13,1
+2025-03-07,27,RE,--,True,False,170,--,Minority,Green Day,Warning,21,21,1,105,63,2,1050000,63000,100000,0.87,0.05,0.08,1213000,170,0,0,27,11,1
+2025-03-07,28,RE,--,False,False,170,--,Jesus of Suburbia,Green Day,American Idiot,21,21,1,105,63,2,1050000,63000,100000,0.87,0.05,0.08,1213000,170,0,0,11,28,1
+2025-03-07,29,-21,8,False,False,170,-0.55,Jealous,Nick Jonas,Nick Jonas X2,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,114,6,8,14,1
+2025-03-07,30,-10,20,False,False,166,-0.16,3AM,Matchbox Twenty,Yourself or Someone Like You,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,60,56,3,9,1
+2025-03-07,31,-10,21,False,False,160,-0.11,Juno,Sabrina Carpenter,Short n' Sweet,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,54,40,4,14,1
+2025-03-07,32,-10,22,False,False,150,-0.13,Bright Lights,Matchbox Twenty,More Than You Think You Are,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,52,48,14,5,1
+2025-03-07,33,-9,24,False,False,149,-0.07,Keeper,TWICE,Strategy,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,48,43,4,7,1
+2025-03-07,34,-7,27,False,False,150,-0.03,Funeral (feat. James Bay),Maisie Peters,Funeral (feat. James Bay),6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,47,53,6,15,1
+2025-03-07,35,-12,23,False,False,147,-0.14,Stay Together for the Kids,blink-182,Take Off Your Pants and Jacket,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,52,45,10,13,1
+2025-03-07,36,-11,25,False,False,141,-0.1,How You Get the Girl (Taylor's Version),Taylor Swift,1989 (Taylor's Version),7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,48,35,1,23,1
+2025-03-07,37,NEW,--,True,False,138,--,Angry,Matchbox Twenty,Mad Season,17,17,1,85,51,2,850000,51000,100000,0.85,0.05,0.1,1001000,138,0,0,37,1,1
+2025-03-07,38,-8,30,False,False,131,-0.06,Nice Guys Finish Last,Green Day,Nimrod,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,42,39,1,61,7
+2025-03-07,39,-10,29,False,False,130,-0.08,Like It Like It,TWICE,Strategy,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,43,37,5,7,1
+2025-03-07,40,RE,--,False,False,127,--,State of Grace (Acoustic Version) (Taylor's Version),Taylor Swift,Red (Taylor's Version),17,6,12,85,18,24,850000,18000,1200000,0.41,0.01,0.58,2068000,127,0,0,20,10,1
+2025-03-07,41,-22,19,False,False,127,-0.4,Don’t Smile,Sabrina Carpenter,Short n' Sweet,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,63,14,19,7,1
+2025-03-07,42,-11,31,False,False,125,-0.09,All You Had to Do Was Stay (Taylor's Version),Taylor Swift,1989 (Taylor's Version),6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,42,33,3,22,1
+2025-03-07,43,NEW,--,True,False,122,--,Crutch,Matchbox Twenty,Mad Season,15,15,1,75,45,2,750000,45000,100000,0.84,0.05,0.11,895000,122,0,0,43,1,1
+2025-03-07,44,NEW,--,True,False,122,--,Black & White People,Matchbox Twenty,Mad Season,15,15,1,75,45,2,750000,45000,100000,0.84,0.05,0.11,895000,122,0,0,44,1,1
+2025-03-07,45,RE,--,False,False,122,--,Bulletproof Heart,My Chemical Romance,Danger Days: The True Lives of the Fabulous Killjoys,15,15,1,75,45,2,750000,45000,100000,0.84,0.05,0.11,895000,122,0,0,29,15,1
+2025-03-07,46,-20,26,False,False,111,-0.29,That's My Floor,Magdalena Bay,Imaginal Disk,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,47,38,10,12,1
+2025-03-07,47,RE,--,False,False,103,--,Eyes Open (Taylor's Version),Taylor Swift,Eyes Open (Taylor's Version),14,7,6,70,21,12,700000,21000,600000,0.53,0.02,0.45,1321000,103,0,0,10,12,1
+2025-03-07,48,-15,33,False,False,94,-0.24,Unwell,Matchbox Twenty,More Than You Think You Are,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,38,46,7,25,1
+2025-03-07,49,-21,28,False,False,90,-0.4,Taste,Sabrina Carpenter,Short n' Sweet,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,45,35,12,14,1
+2025-03-07,50,RE,--,False,False,86,--,Give Me Novacaine,Green Day,American Idiot,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,4,6,17,1
+2025-03-07,51,RE,--,True,False,82,--,Von dutch,Charli XCX,BRAT,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,0,51,2,1
+2025-03-07,52,RE,--,False,False,82,--,Letterbomb,Green Day,American Idiot,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,0,7,13,1
+2025-03-07,53,RE,--,False,False,82,--,Extraordinary Girl,Green Day,American Idiot,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,0,1,17,2
+2025-03-07,54,RE,--,False,False,82,--,She's a Rebel,Green Day,American Idiot,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,0,6,15,1
+2025-03-07,55,RE,--,False,False,82,--,St. Jimmy,Green Day,American Idiot,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,0,5,13,1
+2025-03-07,56,RE,--,False,False,82,--,Are We the Waiting,Green Day,American Idiot,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,0,23,10,1
+2025-03-07,57,RE,--,False,False,82,--,Boulevard of Broken Dreams,Green Day,American Idiot,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,0,35,13,1
+2025-03-07,58,RE,--,False,False,82,--,Holiday,Green Day,American Idiot,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,0,31,9,1
+2025-03-07,59,RE,--,False,False,78,--,Tunnel Vision,Magdalena Bay,Imaginal Disk,7,4,3,35,12,6,350000,12000,300000,0.53,0.02,0.45,662000,53,0,25,12,11,2
+2025-03-07,60,NEW,--,True,False,74,--,Guess featuring billie eilish,Charli XCX,Brat and it’s completely different but also still brat,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,0,0,60,1,1
+2025-03-07,61,RE,--,False,False,68,--,Killing Time,Magdalena Bay,Imaginal Disk,9,3,7,45,9,14,450000,9000,700000,0.39,0.01,0.6,1159000,68,0,0,19,7,1
+2025-03-07,62,+21,83,False,False,58,1.23,Babe (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,8,0,1,20,1
+2025-03-07,63,+26,89,False,False,58,1.52,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,7,9,2,82,1
+2025-03-07,64,+17,81,False,False,50,0.92,Better Man (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,8,0,3,19,1
+2025-03-07,65,RE,--,False,False,50,--,Safe & Sound (feat. Joy Williams and John Paul White) (Taylor’s Version),Taylor Swift,Safe & Sound (Taylor's Version),6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,9,12,1
+2025-03-07,66,-13,53,False,False,45,0.32,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,11,0,5,59,2
+2025-03-07,67,NEW,--,True,False,42,--,Sympathy is a knife featuring ariana grande,Charli xcx,sympathy is a knife featuring ariana grande,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,67,1,1
+2025-03-07,68,RE,--,False,False,42,--,If This Was a Movie (Taylor’s Version),Taylor Swift,If This Was a Movie (Taylor’s Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,1,12,1
+2025-03-07,69,=,69,False,False,42,0.62,CRAZY,LE SSERAFIM,CRAZY,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,8,0,67,4,1
+2025-03-07,70,=,70,False,False,42,0.62,ETA,NewJeans,NewJeans 2nd EP 'Get Up',4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,8,0,3,20,1
+2025-03-07,71,+15,86,True,False,34,0.36,Asthenia,blink-182,blink-182,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,8,0,71,2,1
+2025-03-07,72,RE,--,False,False,34,--,BOYSHIT,Madison Beer,Life Support,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,1,9,1
+2025-03-07,73,RE,--,False,False,32,--,Better Than Revenge (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),4,2,3,20,6,6,200000,6000,300000,0.4,0.01,0.59,506000,32,0,0,6,17,1
+2025-03-07,74,-26,48,False,False,29,-0.22,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,12,7,1,106,1
+2025-03-07,75,RE,--,False,False,26,--,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,5,48,1
+2025-03-07,76,RE,--,False,False,26,--,Sad Beautiful Tragic (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,3,49,1
+2025-03-07,77,NEW,--,True,False,26,--,I'm Lost Without You,blink-182,blink-182,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,77,1,1
+2025-03-07,78,NEW,--,True,False,26,--,Here's Your Letter,blink-182,blink-182,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,78,1,1
+2025-03-07,79,NEW,--,True,False,26,--,All of This,blink-182,blink-182,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,79,1,1
+2025-03-07,80,NEW,--,True,False,26,--,Go,blink-182,blink-182,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,80,1,1
+2025-03-07,81,NEW,--,True,False,26,--,The Fallen Interlude,blink-182,blink-182,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,81,1,1
+2025-03-07,82,NEW,--,True,False,26,--,Down,blink-182,blink-182,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,82,1,1
+2025-03-07,83,NEW,--,True,False,26,--,Stockholm Syndrome Interlude,blink-182,blink-182,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,83,1,1
+2025-03-07,84,NEW,--,True,False,26,--,Violence,blink-182,blink-182,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,84,1,1
+2025-03-07,85,RE,--,False,False,24,--,Coffee,Jack Stauber's Micropop,Shop: A Pop Opera,3,1,3,15,3,6,150000,3000,300000,0.33,0.01,0.66,453000,24,0,0,22,4,1
+2025-03-07,86,RE,--,False,False,24,--,All Too Well (10 Minute Version) (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),3,1,3,15,3,6,150000,3000,300000,0.33,0.01,0.66,453000,24,0,0,4,23,1
+2025-03-07,87,-35,52,False,False,21,-0.38,Fearless (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,11,0,1,36,1
+2025-03-07,88,RE,--,False,False,19,--,Dead!,My Chemical Romance,The Black Parade,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,9,2,52,1
+2025-03-07,89,-24,65,False,False,19,-0.3,Coincidence,Sabrina Carpenter,Short n' Sweet,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,9,0,31,6,1
+2025-03-07,90,RE,--,False,False,18,--,Come Back...Be Here (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,6,38,1
+2025-03-07,91,RE,--,False,False,18,--,Long Live (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,20,10,1
+2025-03-07,92,RE,--,False,False,18,--,The Story of Us (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,1,23,1
+2025-03-07,93,RE,--,False,False,18,--,Speak Now (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,19,9,1
+2025-03-07,94,RE,--,False,False,18,--,Sparks Fly (Taylor’s Version),Taylor Swift,Speak Now (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,32,10,1
+2025-03-07,95,RE,--,False,False,18,--,Homesick,Madison Beer,Life Support,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,16,4,1
+2025-03-07,96,RE,--,False,False,18,--,Blue,Madison Beer,Life Support,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,18,4,1
+2025-03-07,97,RE,--,False,False,18,--,Watching T.V.,Magdalena Bay,Imaginal Disk,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,23,7,1
+2025-03-07,98,RE,--,True,False,18,--,XS,Rina Sawayama,SAWAYAMA,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,98,1,1
+2025-03-07,99,-19,80,False,False,18,-0.31,Fast Times,Sabrina Carpenter,emails i can’t send fwd:,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,4,6,1
+2025-03-07,100,-23,77,False,False,18,-0.31,Won't Go Home Without You,Maroon 5,It Won't Be Soon Before Long (International Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,9,9,1
