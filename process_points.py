@@ -19,7 +19,8 @@ if os.path.exists(CHARTED_CACHE_FILE):
         next(reader)
         for row in reader:
             song, artist, first_week = row
-            charted_cache[(song, artist)] = first_week
+            key = (song.lower(), artist)
+            charted_cache[key] = first_week
 
 all_songs = defaultdict(lambda: {
     "peak": CHART_LIMIT + 1,
@@ -28,6 +29,7 @@ all_songs = defaultdict(lambda: {
 })
 
 ranked_weeks = []
+original_song_names = {}
 
 for year in YEARS:
     PLAYS_DIR = f"plays/{year}"
@@ -54,7 +56,9 @@ for year in YEARS:
         aggregated_data = {}
 
         for song, album, artist, streams, sales, airplay in weekly_data:
-            key = (song, artist)
+            song_lower = song.lower()
+            key = (song_lower, artist)
+            
             if key not in aggregated_data:
                 aggregated_data[key] = {
                     "album": album,
@@ -62,6 +66,7 @@ for year in YEARS:
                     "sales": 0,
                     "airplay": 0
                 }
+                original_song_names[key] = song  # Save original casing here
 
             aggregated_data[key]["streams"] += streams
             aggregated_data[key]["sales"] += sales
@@ -78,7 +83,7 @@ for year in YEARS:
             prev_pts, two_weeks_pts = get_past_points(len(ranked_weeks), song, artist, ranked_weeks)
             weighted = calculate_weighted_points(raw_points, prev_pts, two_weeks_pts)
 
-            key = (song, artist)
+            key = (song.lower(), artist)
             weighted_scores[key] = weighted
             raw_point_map[key] = (streams, sales, airplay, raw_points, prev_pts, two_weeks_pts)
 
@@ -94,7 +99,8 @@ for year in YEARS:
         } if ranked_weeks else {}
 
         for rank, (key, points) in enumerate(ranked, start=1):
-            song, artist = key
+            song_lower, artist = key
+            song = original_song_names.get(key, song_lower)
             album = all_songs[key]["album"]
 
             is_new_peak, is_repeak = update_peak_and_woc(all_songs[key], rank)

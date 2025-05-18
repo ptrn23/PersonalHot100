@@ -77,7 +77,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2024-07-19,76,-52,24,False,False,84,-0.45,Dilemma,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,47,27,7,24,1
 2024-07-19,77,NEW,--,True,False,82,--,Don't Waste Your Time,Kelly Clarkson,My December,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,0,77,1,1
 2024-07-19,78,NEW,--,True,False,82,--,Sober,Kelly Clarkson,My December,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,0,78,1,1
-2024-07-19,79,RE,--,True,False,82,--,Never Again,Kelly Clarkson,My December,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,0,79,1,1
+2024-07-19,79,NEW,--,True,False,82,--,Never Again,Kelly Clarkson,My December,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,0,79,1,1
 2024-07-19,80,RE,--,False,False,82,--,Worry Rock,Green Day,Nimrod,10,10,1,50,30,2,500000,30000,100000,0.79,0.05,0.16,630000,82,0,0,2,10,1
 2024-07-19,81,-56,25,False,False,82,-0.46,1981,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,46,26,1,25,1
 2024-07-19,82,-56,26,False,False,81,-0.47,One Eyed Bastard,Green Day,Saviors,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,46,25,5,22,1
@@ -85,17 +85,17 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2024-07-19,84,-43,41,False,False,80,-0.35,King for a Day,Green Day,Nimrod,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,38,0,3,25,1
 2024-07-19,85,-43,42,False,False,79,-0.35,Haushinka,Green Day,Nimrod,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,37,0,6,8,2
 2024-07-19,86,-43,43,False,False,79,-0.35,Jinx,Green Day,Nimrod,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,37,0,7,8,2
-2024-07-19,87,RE,--,True,False,74,--,lighthouse,Kelly Clarkson,chemistry,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,0,0,87,1,1
-2024-07-19,88,RE,--,True,False,74,--,favorite kind of high,Kelly Clarkson,chemistry,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,0,0,88,1,1
-2024-07-19,89,RE,--,True,False,74,--,me,Kelly Clarkson,chemistry,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,0,0,89,1,1
-2024-07-19,90,RE,--,True,False,74,--,mine,Kelly Clarkson,chemistry,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,0,0,90,1,1
+2024-07-19,87,NEW,--,True,False,74,--,lighthouse,Kelly Clarkson,chemistry,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,0,0,87,1,1
+2024-07-19,88,NEW,--,True,False,74,--,favorite kind of high,Kelly Clarkson,chemistry,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,0,0,88,1,1
+2024-07-19,89,NEW,--,True,False,74,--,me,Kelly Clarkson,chemistry,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,0,0,89,1,1
+2024-07-19,90,NEW,--,True,False,74,--,mine,Kelly Clarkson,chemistry,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,0,0,90,1,1
 2024-07-19,91,-38,53,False,False,74,-0.3,Take Back,Green Day,Nimrod,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,32,0,32,15,1
 2024-07-19,92,-38,54,False,False,74,-0.3,Reject,Green Day,Nimrod,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,32,0,4,8,1
 2024-07-19,93,-38,55,False,False,74,-0.3,Walking Alone,Green Day,Nimrod,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,32,0,5,8,1
 2024-07-19,94,-38,56,False,False,74,-0.3,Last Ride In,Green Day,Nimrod,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,32,0,33,16,1
 2024-07-19,95,RE,--,False,False,74,--,Scattered,Green Day,Nimrod,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,0,0,3,14,2
 2024-07-19,96,RE,--,False,False,74,--,The Grouch,Green Day,Nimrod,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,0,0,17,15,1
-2024-07-19,97,RE,--,True,False,73,--,Make You Mine,Madison Beer,Make You Mine,10,1,10,50,3,20,500000,3000,1000000,0.33,0.0,0.67,1503000,73,0,0,97,1,1
+2024-07-19,97,NEW,--,True,False,73,--,Make You Mine,Madison Beer,Make You Mine,10,1,10,50,3,20,500000,3000,1000000,0.33,0.0,0.67,1503000,73,0,0,97,1,1
 2024-07-19,98,-58,40,False,False,63,-0.5,HOT TO GO!,Chappell Roan,The Rise and Fall of a Midwest Princess,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,38,7,40,4,1
 2024-07-19,99,-67,32,False,False,60,-0.57,Super Graphic Ultra Modern Girl,Chappell Roan,The Rise and Fall of a Midwest Princess,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,42,0,32,2,1
 2024-07-19,100,-67,33,False,False,60,-0.57,Casual,Chappell Roan,The Rise and Fall of a Midwest Princess,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,42,0,33,2,1

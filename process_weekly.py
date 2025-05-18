@@ -90,5 +90,5 @@ def process_weekly_charts(year, specific_week=None):
 
 if __name__ == "__main__":
     year = 2025
-    specific_week = "05-02"  # Change to None to process all weeks
+    specific_week = "05-09"  # Change to None to process all weeks
     process_weekly_charts(year, specific_week)
