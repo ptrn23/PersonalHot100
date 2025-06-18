@@ -1,101 +1,101 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2023-12-15,1,NEW,--,True,False,486,--,Make Your Own Kind of Music,Cass Elliot,Mama's Big Ones,72,22,30,360,66,60,3600000,66000,3000000,0.54,0.01,0.45,6666000,486,0,0,1,1,1
-2023-12-15,2,+1,3,True,True,268,0.24,Style (Taylor's Version),Taylor Swift,1989 (Taylor's Version),19,8,12,95,24,24,950000,24000,1200000,0.44,0.01,0.55,2174000,143,66,59,2,8,2
-2023-12-15,3,-1,2,False,False,203,-0.12,Shake It Off (Taylor's Version),Taylor Swift,1989 (Taylor's Version),8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,69,68,1,8,3
-2023-12-15,4,-3,1,False,False,198,-0.24,Blank Space (Taylor's Version),Taylor Swift,1989 (Taylor's Version),7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,78,62,1,8,2
-2023-12-15,5,NEW,--,True,False,193,--,Talking In Your Sleep (2023 Remaster),The Romantics,In Heat (2023 Remaster),26,13,12,130,39,24,1300000,39000,1200000,0.51,0.02,0.47,2539000,193,0,0,5,1,1
-2023-12-15,6,RE,--,False,False,142,--,Uptown Girl,Westlife,Coast to Coast (Expanded Edition),18,14,5,90,42,10,900000,42000,500000,0.62,0.03,0.35,1442000,142,0,0,1,19,2
-2023-12-15,7,+39,46,False,False,122,1.44,A Thousand Miles,Vanessa Carlton,Be Not Nobody,12,8,5,60,24,10,600000,24000,500000,0.53,0.02,0.44,1124000,94,15,13,1,15,2
-2023-12-15,8,+1,9,False,False,120,0.12,Breakaway,Kelly Clarkson,Breakaway,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,33,29,5,7,1
-2023-12-15,9,-3,6,False,False,116,-0.33,Now That We Don't Talk (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,52,46,1,8,1
-2023-12-15,10,+14,24,True,False,99,0.3,Because of You,Kelly Clarkson,Breakaway,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,23,18,10,7,1
-2023-12-15,11,NEW,--,True,False,98,--,Wake Me Up When September Ends,Green Day,American Idiot,12,12,1,60,36,2,600000,36000,100000,0.82,0.05,0.14,736000,98,0,0,11,1,1
-2023-12-15,12,+13,25,True,False,98,0.32,Since U Been Gone,Kelly Clarkson,Breakaway,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,23,17,12,10,1
-2023-12-15,13,NEW,--,True,False,90,--,Lips of an Angel,Hinder,Extreme Behavior,11,11,1,55,33,2,550000,33000,100000,0.81,0.05,0.15,683000,90,0,0,13,1,1
-2023-12-15,14,+14,28,False,False,88,0.22,Lucky,Britney Spears,Oops!... I Did It Again,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,22,16,8,7,1
-2023-12-15,15,NEW,--,True,False,88,--,Welcome to the Black Parade,My Chemical Romance,The Black Parade,11,9,3,55,27,6,550000,27000,300000,0.63,0.03,0.34,877000,88,0,0,15,1,1
-2023-12-15,16,NEW,--,True,False,80,--,21 Guns,Green Day,21st Century Breakdown,10,8,3,50,24,6,500000,24000,300000,0.61,0.03,0.36,824000,80,0,0,16,1,1
-2023-12-15,17,NEW,--,True,False,74,--,My Life Would Suck Without You,Kelly Clarkson,All I Ever Wanted,9,9,1,45,27,2,450000,27000,100000,0.78,0.05,0.17,577000,74,0,0,17,1,1
-2023-12-15,18,RE,--,True,False,73,--,Sweet Child o' Mine,Guns N' Roses,Appetite for Destruction,9,8,2,45,24,4,450000,24000,200000,0.67,0.04,0.3,674000,73,0,0,18,2,1
-2023-12-15,19,+3,22,False,False,69,-0.1,Out of the Woods (Taylor's Version),Taylor Swift,1989 (Taylor's Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,24,19,5,8,1
-2023-12-15,20,-3,17,False,False,69,-0.21,I Wish You Would (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,27,24,3,8,1
-2023-12-15,21,-3,18,False,False,67,-0.22,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,26,23,1,63,4
-2023-12-15,22,RE,--,False,False,66,--,One Sweet Day,Mariah Carey,Daydream,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,0,0,9,2,1
-2023-12-15,23,NEW,--,True,False,66,--,Nothing's Gonna Stop Us Now,Starship,No Protection,8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,0,0,23,1,1
-2023-12-15,24,RE,--,True,False,58,--,YMCA,Village People,Can't Stop the Music (Original Soundtrack 1980),7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,24,2,1
-2023-12-15,25,RE,--,True,False,58,--,Vision of Love,Mariah Carey,Mariah Carey,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,25,2,1
-2023-12-15,26,RE,--,True,False,58,--,Bleeding Love,Leona Lewis,Spirit,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,0,0,26,7,1
-2023-12-15,27,-4,23,False,False,54,-0.29,Is It Over Now? (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,23,21,5,8,1
-2023-12-15,28,RE,--,True,False,50,--,Honey,Mariah Carey,Butterfly,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,28,3,1
-2023-12-15,29,NEW,--,True,False,50,--,This Love,Maroon 5,Songs About Jane: 10th Anniversary Edition,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,29,1,1
-2023-12-15,30,NEW,--,True,False,50,--,Promiscuous,Nelly Furtado,Loose,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,30,1,1
-2023-12-15,31,RE,--,True,False,50,--,I Don't Want to Miss a Thing - From Armageddon Soundtrack,Aerosmith,Armageddon - The Album,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,31,2,1
-2023-12-15,32,RE,--,True,False,50,--,Bye Bye Bye,*NSYNC,No Strings Attached,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,0,0,32,2,1
-2023-12-15,33,+10,43,False,False,46,-0.08,Bad Blood (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,15,13,9,8,1
-2023-12-15,34,+6,40,False,False,46,-0.16,All You Had to Do Was Stay (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,17,11,8,8,1
-2023-12-15,35,=,35,False,False,44,-0.31,She's So Mean,Matchbox Twenty,North (Deluxe Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,20,14,4,26,1
-2023-12-15,36,+2,38,False,False,45,-0.21,Welcome to New York (Taylor's Version),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,18,17,11,8,1
-2023-12-15,37,RE,--,False,False,42,--,...Baby One More Time,Britney Spears,...Baby One More Time (Digital Deluxe Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,6,3,1
-2023-12-15,38,RE,--,True,False,42,--,Emotions,Mariah Carey,Emotions,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,38,2,1
-2023-12-15,39,RE,--,True,False,42,--,I Wanna Dance with Somebody (Who Loves Me),Whitney Houston,Whitney,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,39,5,1
-2023-12-15,40,RE,--,True,False,42,--,Material Girl,Madonna,Celebration (Double Disc Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,40,2,1
-2023-12-15,41,NEW,--,True,False,42,--,It's All Coming Back to Me Now,Céline Dion,Falling Into You,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,41,1,1
-2023-12-15,42,RE,--,True,False,42,--,Wake Me Up Before You Go-Go,Wham!,Make It Big,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,42,2,1
-2023-12-15,43,RE,--,True,False,42,--,U Can't Touch This,MC Hammer,Please Hammer Don't Hurt 'Em,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,43,2,1
-2023-12-15,44,RE,--,True,False,42,--,It's Gonna Be Me,*NSYNC,No Strings Attached,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,44,2,1
-2023-12-15,45,RE,--,True,False,42,--,She Will Be Loved - Radio Mix,Maroon 5,Songs About Jane: 10th Anniversary Edition,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,45,2,1
-2023-12-15,46,RE,--,False,False,42,--,Like a Virgin,Madonna,Like a Virgin,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,10,5,1
-2023-12-15,47,NEW,--,True,False,42,--,Shake It Off,Mariah Carey,The Emancipation of Mimi,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,47,1,1
-2023-12-15,48,NEW,--,True,False,42,--,American Idiot,Green Day,American Idiot,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,48,1,1
-2023-12-15,49,RE,--,False,False,42,--,Unwell,Matchbox Twenty,More Than You Think You Are,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,7,7,1
-2023-12-15,50,RE,--,False,False,42,--,Two Is Better Than One (feat. Taylor Swift),Boys Like Girls,Love Drunk,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,37,8,1
-2023-12-15,51,NEW,--,True,False,42,--,Build Me Up Buttercup (mono),The Foundations,The Foundations,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,51,1,1
-2023-12-15,52,RE,--,True,False,42,--,When I Grow Up,The Pussycat Dolls,Doll Domination (Deluxe),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,52,4,1
-2023-12-15,53,NEW,--,True,False,42,--,Dreamlover,Mariah Carey,Music Box,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,53,1,1
-2023-12-15,54,NEW,--,True,False,42,--,Here Comes the Sun - Remastered 2009,The Beatles,Abbey Road (Remastered),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,54,1,1
-2023-12-15,55,NEW,--,True,False,42,--,I Have Nothing,Whitney Houston,The Bodyguard - Original Soundtrack Album,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,0,0,55,1,1
-2023-12-15,56,-8,48,False,False,43,-0.02,Wildest Dreams (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,14,11,1,61,8
-2023-12-15,57,-10,47,False,False,42,-0.05,How You Get the Girl (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,14,10,15,8,1
-2023-12-15,58,-1,57,False,False,41,0.08,Behind These Hazel Eyes,Kelly Clarkson,Breakaway,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,12,11,34,5,1
-2023-12-15,59,-5,54,False,False,38,-0.03,This Love (Taylor’s Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,12,8,1,46,1
-2023-12-15,60,RE,--,False,False,34,--,Nobody's Home,Avril Lavigne,Under My Skin,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,1,2,1
-2023-12-15,61,RE,--,False,False,34,--,Pon de Replay,Rihanna,Music of the Sun,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,45,3,1
-2023-12-15,62,RE,--,True,False,34,--,I Want It That Way,Backstreet Boys,Millennium,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,62,2,1
-2023-12-15,63,NEW,--,True,False,34,--,I'm with You,Avril Lavigne,Let Go,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,63,1,1
-2023-12-15,64,NEW,--,True,False,34,--,Total Eclipse of the Heart,Bonnie Tyler,Faster Than the Speed of Night,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,64,1,1
-2023-12-15,65,NEW,--,True,False,34,--,Genie in a Bottle,Christina Aguilera,Christina Aguilera (Expanded Edition),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,65,1,1
-2023-12-15,66,NEW,--,True,False,34,--,How Will I Know,Whitney Houston,Whitney Houston,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,66,1,1
-2023-12-15,67,NEW,--,True,False,34,--,Hey Jude - Remastered 2015,The Beatles,1 (Remastered),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,67,1,1
-2023-12-15,68,RE,--,False,False,34,--,Keep on Movin',Five,Invincible,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,39,3,1
-2023-12-15,69,RE,--,True,False,34,--,Hey Ya!,OutKast,Speakerboxxx/The Love Below,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,69,2,1
-2023-12-15,70,RE,--,True,False,34,--,I Will Survive,Gloria Gaynor,I Will Survive and Other Great Hits,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,70,2,1
-2023-12-15,71,NEW,--,True,False,34,--,Touch My Body,Mariah Carey,E=MC2,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,71,1,1
-2023-12-15,72,NEW,--,True,False,34,--,Buttons,The Pussycat Dolls,PCD,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,72,1,1
-2023-12-15,73,NEW,--,True,False,34,--,What a Girl Wants,Christina Aguilera,Christina Aguilera (Expanded Edition),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,73,1,1
-2023-12-15,74,RE,--,False,False,34,--,Greased Lightnin' - From “Grease”,John Travolta,Grease (The Original Motion Picture Soundtrack),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,38,2,1
-2023-12-15,75,RE,--,False,False,34,--,Thunder,Boys Like Girls,Boys Like Girls,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,53,5,1
-2023-12-15,76,RE,--,False,False,34,--,Sk8er Boi,Avril Lavigne,Let Go,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,0,0,37,9,1
-2023-12-15,77,NEW,--,True,False,33,--,You Spin Me Round (Like a Record),Dead or Alive,Evolution: The Hits,4,3,2,20,9,4,200000,9000,200000,0.49,0.02,0.49,409000,33,0,0,77,1,1
-2023-12-15,78,-14,64,False,False,28,-0.1,I Know Places (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,10,0,13,7,2
-2023-12-15,79,-13,66,False,False,27,-0.1,Clean (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,9,0,10,7,1
-2023-12-15,80,RE,--,True,False,26,--,The Great Escape,Boys Like Girls,Boys Like Girls,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,80,2,1
-2023-12-15,81,NEW,--,True,False,26,--,Big Girls Don't Cry (Personal),Fergie,The Dutchess,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,81,1,1
-2023-12-15,82,NEW,--,True,False,26,--,Without You,Mariah Carey,Music Box,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,82,1,1
-2023-12-15,83,RE,--,False,False,26,--,Tubthumping,Chumbawamba,Tubthumper,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,37,3,1
-2023-12-15,84,RE,--,False,False,26,--,Stickwitu,The Pussycat Dolls,PCD,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,59,3,1
-2023-12-15,85,NEW,--,True,False,26,--,Sometimes,Britney Spears,...Baby One More Time (Digital Deluxe Version),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,85,1,1
-2023-12-15,86,NEW,--,True,False,26,--,I Will Always Love You,Whitney Houston,The Bodyguard - Original Soundtrack Album,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,86,1,1
-2023-12-15,87,NEW,--,True,False,26,--,Wannabe,Spice Girls,Spice,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,87,1,1
-2023-12-15,88,NEW,--,True,False,26,--,Losing Grip,Avril Lavigne,Let Go,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,88,1,1
-2023-12-15,89,NEW,--,True,False,26,--,Believe,Cher,Believe,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,89,1,1
-2023-12-15,90,NEW,--,True,False,26,--,Everybody Wants to Rule the World,Tears for Fears,Songs From The Big Chair (Super Deluxe Edition),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,90,1,1
-2023-12-15,91,NEW,--,True,False,26,--,Take on Me,a-ha,Hunting High and Low,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,91,1,1
-2023-12-15,92,NEW,--,True,False,26,--,Dancing Queen,ABBA,Arrival,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,92,1,1
-2023-12-15,93,RE,--,False,False,26,--,Always Be My Baby,Mariah Carey,Daydream,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,85,2,1
-2023-12-15,94,NEW,--,True,False,26,--,My Happy Ending,Avril Lavigne,Under My Skin,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,94,1,1
-2023-12-15,95,RE,--,False,False,26,--,Say My Name,Destiny's Child,The Writing's on the Wall,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,78,2,1
-2023-12-15,96,NEW,--,True,False,26,--,Don't Cha,The Pussycat Dolls,PCD,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,96,1,1
-2023-12-15,97,RE,--,False,False,26,--,#Beautiful,Mariah Carey,Me. I Am Mariah…The Elusive Chanteuse,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,52,2,1
-2023-12-15,98,NEW,--,True,False,26,--,We Belong Together,Mariah Carey,The Emancipation of Mimi,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,98,1,1
-2023-12-15,99,-16,83,False,False,24,0.14,Say Don't Go (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,7,7,15,7,1
-2023-12-15,100,-49,51,False,False,23,-0.44,New Romantics (Taylor's Version),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,13,0,7,7,1
+2023-12-15,1,NEW,--,True,False,486,--,Make Your Own Kind of Music,Cass Elliot,Mama's Big Ones,72,22,30,360,66,60,103950000,5544,338850000,0.64,0.02,0.33,434000,486,0,0,1,1,1
+2023-12-15,2,+1,3,True,True,268,0.24,Style (Taylor's Version),Taylor Swift,1989 (Taylor's Version),19,8,12,95,24,24,27431250,2016,135540000,0.54,0.03,0.43,136500,143,66,59,2,8,2
+2023-12-15,3,-1,2,False,False,203,-0.12,Shake It Off (Taylor's Version),Taylor Swift,1989 (Taylor's Version),8,8,1,40,24,2,11550000,2016,11295000,0.79,0.09,0.12,59500,66,69,68,1,8,3
+2023-12-15,4,-3,1,False,False,198,-0.24,Blank Space (Taylor's Version),Taylor Swift,1989 (Taylor's Version),7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,78,62,1,8,2
+2023-12-15,5,NEW,--,True,False,193,--,Talking In Your Sleep (2023 Remaster),The Romantics,In Heat (2023 Remaster),26,13,12,130,39,24,37537500,3276,135540000,0.61,0.03,0.35,178500,193,0,0,5,1,1
+2023-12-15,6,RE,--,False,False,142,--,Uptown Girl,Westlife,Coast to Coast (Expanded Edition),18,14,5,90,42,10,25987500,3528,56475000,0.7,0.06,0.24,129500,142,0,0,1,19,2
+2023-12-15,7,+39,46,False,False,122,1.44,A Thousand Miles,Vanessa Carlton,Be Not Nobody,12,8,5,60,24,10,17325000,2016,56475000,0.63,0.05,0.33,87500,94,15,13,1,15,2
+2023-12-15,8,+1,9,False,False,120,0.12,Breakaway,Kelly Clarkson,Breakaway,7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,33,29,5,7,1
+2023-12-15,9,-3,6,False,False,116,-0.33,Now That We Don't Talk (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,52,46,1,8,1
+2023-12-15,10,+14,24,True,False,99,0.3,Because of You,Kelly Clarkson,Breakaway,7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,23,18,10,7,1
+2023-12-15,11,NEW,--,True,False,98,--,Wake Me Up When September Ends,Green Day,American Idiot,12,12,1,60,36,2,17325000,3024,11295000,0.82,0.09,0.09,87500,98,0,0,11,1,1
+2023-12-15,12,+13,25,True,False,98,0.32,Since U Been Gone,Kelly Clarkson,Breakaway,7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,23,17,12,10,1
+2023-12-15,13,NEW,--,True,False,90,--,Lips of an Angel,Hinder,Extreme Behavior,11,11,1,55,33,2,15881250,2772,11295000,0.82,0.09,0.09,80500,90,0,0,13,1,1
+2023-12-15,14,+14,28,False,False,88,0.22,Lucky,Britney Spears,Oops!... I Did It Again,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,22,16,8,7,1
+2023-12-15,15,NEW,--,True,False,88,--,Welcome to the Black Parade,My Chemical Romance,The Black Parade,11,9,3,55,27,6,15881250,2268,33885000,0.7,0.06,0.24,80500,88,0,0,15,1,1
+2023-12-15,16,NEW,--,True,False,80,--,21 Guns,Green Day,21st Century Breakdown,10,8,3,50,24,6,14437500,2016,33885000,0.68,0.06,0.26,73500,80,0,0,16,1,1
+2023-12-15,17,NEW,--,True,False,74,--,My Life Would Suck Without You,Kelly Clarkson,All I Ever Wanted,9,9,1,45,27,2,12993750,2268,11295000,0.8,0.09,0.11,66500,74,0,0,17,1,1
+2023-12-15,18,RE,--,True,False,73,--,Sweet Child o' Mine,Guns N' Roses,Appetite for Destruction,9,8,2,45,24,4,12993750,2016,22590000,0.73,0.07,0.2,66500,73,0,0,18,2,1
+2023-12-15,19,+3,22,False,False,69,-0.1,Out of the Woods (Taylor's Version),Taylor Swift,1989 (Taylor's Version),3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,24,19,5,8,1
+2023-12-15,20,-3,17,False,False,69,-0.21,I Wish You Would (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,27,24,3,8,1
+2023-12-15,21,-3,18,False,False,67,-0.22,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,26,23,1,63,4
+2023-12-15,22,RE,--,False,False,66,--,One Sweet Day,Mariah Carey,Daydream,8,8,1,40,24,2,11550000,2016,11295000,0.79,0.09,0.12,59500,66,0,0,9,2,1
+2023-12-15,23,NEW,--,True,False,66,--,Nothing's Gonna Stop Us Now,Starship,No Protection,8,8,1,40,24,2,11550000,2016,11295000,0.79,0.09,0.12,59500,66,0,0,23,1,1
+2023-12-15,24,RE,--,True,False,58,--,YMCA,Village People,Can't Stop the Music (Original Soundtrack 1980),7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,0,0,24,2,1
+2023-12-15,25,RE,--,True,False,58,--,Vision of Love,Mariah Carey,Mariah Carey,7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,0,0,25,2,1
+2023-12-15,26,RE,--,True,False,58,--,Bleeding Love,Leona Lewis,Spirit,7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,0,0,26,7,1
+2023-12-15,27,-4,23,False,False,54,-0.29,Is It Over Now? (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,23,21,5,8,1
+2023-12-15,28,RE,--,True,False,50,--,Honey,Mariah Carey,Butterfly,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,0,0,28,3,1
+2023-12-15,29,NEW,--,True,False,50,--,This Love,Maroon 5,Songs About Jane: 10th Anniversary Edition,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,0,0,29,1,1
+2023-12-15,30,NEW,--,True,False,50,--,Promiscuous,Nelly Furtado,Loose,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,0,0,30,1,1
+2023-12-15,31,RE,--,True,False,50,--,I Don't Want to Miss a Thing - From Armageddon Soundtrack,Aerosmith,Armageddon - The Album,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,0,0,31,2,1
+2023-12-15,32,RE,--,True,False,50,--,Bye Bye Bye,*NSYNC,No Strings Attached,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,0,0,32,2,1
+2023-12-15,33,+10,43,False,False,46,-0.08,Bad Blood (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,15,13,9,8,1
+2023-12-15,34,+6,40,False,False,46,-0.16,All You Had to Do Was Stay (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,17,11,8,8,1
+2023-12-15,35,=,35,False,False,44,-0.31,She's So Mean,Matchbox Twenty,North (Deluxe Edition),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,20,14,4,26,1
+2023-12-15,36,+2,38,False,False,45,-0.21,Welcome to New York (Taylor's Version),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,18,17,11,8,1
+2023-12-15,37,RE,--,False,False,42,--,...Baby One More Time,Britney Spears,...Baby One More Time (Digital Deluxe Version),5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,0,0,6,3,1
+2023-12-15,38,RE,--,True,False,42,--,Emotions,Mariah Carey,Emotions,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,0,0,38,2,1
+2023-12-15,39,RE,--,True,False,42,--,I Wanna Dance with Somebody (Who Loves Me),Whitney Houston,Whitney,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,0,0,39,5,1
+2023-12-15,40,RE,--,True,False,42,--,Material Girl,Madonna,Celebration (Double Disc Version),5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,0,0,40,2,1
+2023-12-15,41,NEW,--,True,False,42,--,It's All Coming Back to Me Now,Céline Dion,Falling Into You,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,0,0,41,1,1
+2023-12-15,42,RE,--,True,False,42,--,Wake Me Up Before You Go-Go,Wham!,Make It Big,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,0,0,42,2,1
+2023-12-15,43,RE,--,True,False,42,--,U Can't Touch This,MC Hammer,Please Hammer Don't Hurt 'Em,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,0,0,43,2,1
+2023-12-15,44,RE,--,True,False,42,--,It's Gonna Be Me,*NSYNC,No Strings Attached,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,0,0,44,2,1
+2023-12-15,45,RE,--,True,False,42,--,She Will Be Loved - Radio Mix,Maroon 5,Songs About Jane: 10th Anniversary Edition,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,0,0,45,2,1
+2023-12-15,46,RE,--,False,False,42,--,Like a Virgin,Madonna,Like a Virgin,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,0,0,10,5,1
+2023-12-15,47,NEW,--,True,False,42,--,Shake It Off,Mariah Carey,The Emancipation of Mimi,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,0,0,47,1,1
+2023-12-15,48,NEW,--,True,False,42,--,American Idiot,Green Day,American Idiot,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,0,0,48,1,1
+2023-12-15,49,RE,--,False,False,42,--,Unwell,Matchbox Twenty,More Than You Think You Are,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,0,0,7,7,1
+2023-12-15,50,RE,--,False,False,42,--,Two Is Better Than One (feat. Taylor Swift),Boys Like Girls,Love Drunk,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,0,0,37,8,1
+2023-12-15,51,NEW,--,True,False,42,--,Build Me Up Buttercup (mono),The Foundations,The Foundations,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,0,0,51,1,1
+2023-12-15,52,RE,--,True,False,42,--,When I Grow Up,The Pussycat Dolls,Doll Domination (Deluxe),5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,0,0,52,4,1
+2023-12-15,53,NEW,--,True,False,42,--,Dreamlover,Mariah Carey,Music Box,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,0,0,53,1,1
+2023-12-15,54,NEW,--,True,False,42,--,Here Comes the Sun - Remastered 2009,The Beatles,Abbey Road (Remastered),5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,0,0,54,1,1
+2023-12-15,55,NEW,--,True,False,42,--,I Have Nothing,Whitney Houston,The Bodyguard - Original Soundtrack Album,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,0,0,55,1,1
+2023-12-15,56,-8,48,False,False,43,-0.02,Wildest Dreams (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,14,11,1,61,8
+2023-12-15,57,-10,47,False,False,42,-0.05,How You Get the Girl (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,14,10,15,8,1
+2023-12-15,58,-1,57,False,False,41,0.08,Behind These Hazel Eyes,Kelly Clarkson,Breakaway,2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,12,11,34,5,1
+2023-12-15,59,-5,54,False,False,38,-0.03,This Love (Taylor’s Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,12,8,1,46,1
+2023-12-15,60,RE,--,False,False,34,--,Nobody's Home,Avril Lavigne,Under My Skin,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,0,0,1,2,1
+2023-12-15,61,RE,--,False,False,34,--,Pon de Replay,Rihanna,Music of the Sun,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,0,0,45,3,1
+2023-12-15,62,RE,--,True,False,34,--,I Want It That Way,Backstreet Boys,Millennium,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,0,0,62,2,1
+2023-12-15,63,NEW,--,True,False,34,--,I'm with You,Avril Lavigne,Let Go,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,0,0,63,1,1
+2023-12-15,64,NEW,--,True,False,34,--,Total Eclipse of the Heart,Bonnie Tyler,Faster Than the Speed of Night,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,0,0,64,1,1
+2023-12-15,65,NEW,--,True,False,34,--,Genie in a Bottle,Christina Aguilera,Christina Aguilera (Expanded Edition),4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,0,0,65,1,1
+2023-12-15,66,NEW,--,True,False,34,--,How Will I Know,Whitney Houston,Whitney Houston,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,0,0,66,1,1
+2023-12-15,67,NEW,--,True,False,34,--,Hey Jude - Remastered 2015,The Beatles,1 (Remastered),4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,0,0,67,1,1
+2023-12-15,68,RE,--,False,False,34,--,Keep on Movin',Five,Invincible,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,0,0,39,3,1
+2023-12-15,69,RE,--,True,False,34,--,Hey Ya!,OutKast,Speakerboxxx/The Love Below,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,0,0,69,2,1
+2023-12-15,70,RE,--,True,False,34,--,I Will Survive,Gloria Gaynor,I Will Survive and Other Great Hits,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,0,0,70,2,1
+2023-12-15,71,NEW,--,True,False,34,--,Touch My Body,Mariah Carey,E=MC2,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,0,0,71,1,1
+2023-12-15,72,NEW,--,True,False,34,--,Buttons,The Pussycat Dolls,PCD,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,0,0,72,1,1
+2023-12-15,73,NEW,--,True,False,34,--,What a Girl Wants,Christina Aguilera,Christina Aguilera (Expanded Edition),4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,0,0,73,1,1
+2023-12-15,74,RE,--,False,False,34,--,Greased Lightnin' - From “Grease”,John Travolta,Grease (The Original Motion Picture Soundtrack),4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,0,0,38,2,1
+2023-12-15,75,RE,--,False,False,34,--,Thunder,Boys Like Girls,Boys Like Girls,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,0,0,53,5,1
+2023-12-15,76,RE,--,False,False,34,--,Sk8er Boi,Avril Lavigne,Let Go,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,0,0,37,9,1
+2023-12-15,77,NEW,--,True,False,33,--,You Spin Me Round (Like a Record),Dead or Alive,Evolution: The Hits,4,3,2,20,9,4,5775000,756,22590000,0.59,0.05,0.37,31500,33,0,0,77,1,1
+2023-12-15,78,-14,64,False,False,28,-0.1,I Know Places (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,10,0,13,7,2
+2023-12-15,79,-13,66,False,False,27,-0.1,Clean (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,9,0,10,7,1
+2023-12-15,80,RE,--,True,False,26,--,The Great Escape,Boys Like Girls,Boys Like Girls,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,0,0,80,2,1
+2023-12-15,81,NEW,--,True,False,26,--,Big Girls Don't Cry (Personal),Fergie,The Dutchess,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,0,0,81,1,1
+2023-12-15,82,NEW,--,True,False,26,--,Without You,Mariah Carey,Music Box,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,0,0,82,1,1
+2023-12-15,83,RE,--,False,False,26,--,Tubthumping,Chumbawamba,Tubthumper,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,0,0,37,3,1
+2023-12-15,84,RE,--,False,False,26,--,Stickwitu,The Pussycat Dolls,PCD,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,0,0,59,3,1
+2023-12-15,85,NEW,--,True,False,26,--,Sometimes,Britney Spears,...Baby One More Time (Digital Deluxe Version),3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,0,0,85,1,1
+2023-12-15,86,NEW,--,True,False,26,--,I Will Always Love You,Whitney Houston,The Bodyguard - Original Soundtrack Album,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,0,0,86,1,1
+2023-12-15,87,NEW,--,True,False,26,--,Wannabe,Spice Girls,Spice,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,0,0,87,1,1
+2023-12-15,88,NEW,--,True,False,26,--,Losing Grip,Avril Lavigne,Let Go,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,0,0,88,1,1
+2023-12-15,89,NEW,--,True,False,26,--,Believe,Cher,Believe,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,0,0,89,1,1
+2023-12-15,90,NEW,--,True,False,26,--,Everybody Wants to Rule the World,Tears for Fears,Songs From The Big Chair (Super Deluxe Edition),3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,0,0,90,1,1
+2023-12-15,91,NEW,--,True,False,26,--,Take on Me,a-ha,Hunting High and Low,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,0,0,91,1,1
+2023-12-15,92,NEW,--,True,False,26,--,Dancing Queen,ABBA,Arrival,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,0,0,92,1,1
+2023-12-15,93,RE,--,False,False,26,--,Always Be My Baby,Mariah Carey,Daydream,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,0,0,85,2,1
+2023-12-15,94,NEW,--,True,False,26,--,My Happy Ending,Avril Lavigne,Under My Skin,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,0,0,94,1,1
+2023-12-15,95,RE,--,False,False,26,--,Say My Name,Destiny's Child,The Writing's on the Wall,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,0,0,78,2,1
+2023-12-15,96,NEW,--,True,False,26,--,Don't Cha,The Pussycat Dolls,PCD,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,0,0,96,1,1
+2023-12-15,97,RE,--,False,False,26,--,#Beautiful,Mariah Carey,Me. I Am Mariah…The Elusive Chanteuse,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,0,0,52,2,1
+2023-12-15,98,NEW,--,True,False,26,--,We Belong Together,Mariah Carey,The Emancipation of Mimi,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,0,0,98,1,1
+2023-12-15,99,-16,83,False,False,24,0.14,Say Don't Go (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,7,7,15,7,1
+2023-12-15,100,-49,51,False,False,23,-0.44,New Romantics (Taylor's Version),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,13,0,7,7,1

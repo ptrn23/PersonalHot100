@@ -1,90 +1,90 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2021-03-12,1,RE,--,True,False,18,--,august,Taylor Swift,folklore,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,1,6,1
-2021-03-12,2,+3,5,True,False,16,0.23,Green Light,Lorde,Melodrama,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,4,2,2,4,1
-2021-03-12,3,+7,10,True,False,16,0.23,BOYSHIT,Madison Beer,Boyshit,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,4,2,3,3,1
-2021-03-12,4,+68,72,True,False,13,0.3,Selfish Love (with Selena Gomez),DJ Snake,Revelación - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,4,2,1
-2021-03-12,5,+68,73,True,False,13,0.3,Baila Conmigo (with Rauw Alejandro),Selena Gomez,Revelación - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,5,4,1
-2021-03-12,6,+68,74,False,False,13,0.3,De Una Vez,Selena Gomez,Revelación - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,4,6,1
-2021-03-12,7,RE,--,False,False,12,--,illicit affairs,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,3,6,1
-2021-03-12,8,RE,--,False,False,12,--,mirrorball,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,7,5,1
-2021-03-12,9,RE,--,False,False,12,--,the last great american dynasty,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,2,7,1
-2021-03-12,10,RE,--,True,True,12,--,the 1,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,2,10,5,2
-2021-03-12,11,NEW,--,True,False,10,--,Fire Drill,Melanie Martinez,Fire Drill,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,11,1,1
-2021-03-12,12,NEW,--,True,False,10,--,Leave the Door Open,Bruno Mars,Leave the Door Open,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,1,1
-2021-03-12,13,NEW,--,True,False,10,--,Summer Rain,GFRIEND,GFRIEND The 5th Mini Album Repackage <RAINBOW>,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,1,1
-2021-03-12,14,NEW,--,True,False,10,--,LOVE WHISPER,GFRIEND,GFRIEND The 5th Mini Album <PARALLEL>,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,1,1
-2021-03-12,15,NEW,--,True,False,10,--,Minecraft Pigstep - Remix,FlyxTheKid,Minecraft Pigstep (Remix),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,1,1
-2021-03-12,16,NEW,--,True,False,10,--,Wait,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,1,1
-2021-03-12,17,NEW,--,True,False,10,--,Eleven,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,17,1,1
-2021-03-12,18,NEW,--,True,False,10,--,Ward,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,1,1
-2021-03-12,19,NEW,--,True,False,10,--,Strad,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,19,1,1
-2021-03-12,20,NEW,--,True,False,10,--,Stal,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,20,1,1
-2021-03-12,21,RE,--,True,False,10,--,Mellohi,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,3,1
-2021-03-12,22,NEW,--,True,False,10,--,Mall,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,22,1,1
-2021-03-12,23,NEW,--,True,False,10,--,Far,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,23,1,1
-2021-03-12,24,RE,--,True,False,10,--,Chirp,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,24,3,1
-2021-03-12,25,NEW,--,True,False,10,--,Blocks,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,25,1,1
-2021-03-12,26,RE,--,False,False,10,--,Pigstep - Stereo Mix,Lena Raine,Minecraft: Nether Update (Original Game Soundtrack),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,4,1
-2021-03-12,27,NEW,--,True,False,10,--,So Below,Lena Raine,Minecraft: Nether Update (Original Game Soundtrack),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,27,1,1
-2021-03-12,28,NEW,--,True,False,10,--,rubedo,Lena Raine,Minecraft: Nether Update (Original Game Soundtrack),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,28,1,1
-2021-03-12,29,NEW,--,True,False,10,--,Chrysopoeia,Lena Raine,Minecraft: Nether Update (Original Game Soundtrack),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,29,1,1
-2021-03-12,30,NEW,--,True,False,10,--,Ballad of the Cats,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,30,1,1
-2021-03-12,31,NEW,--,True,False,10,--,Concrete Halls,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,31,1,1
-2021-03-12,32,NEW,--,True,False,10,--,Warmth,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,32,1,1
-2021-03-12,33,NEW,--,True,False,10,--,Dead Voxel,C418,Minecraft - Volume Beta,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,33,1,1
-2021-03-12,34,NEW,--,True,False,10,--,Droopy Likes Your Face,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,34,1,1
-2021-03-12,35,NEW,--,True,False,10,--,Droopy Likes Ricochet,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,35,1,1
-2021-03-12,36,NEW,--,True,False,10,--,Beginning,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,36,1,1
-2021-03-12,37,NEW,--,True,False,10,--,Danny,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,37,1,1
-2021-03-12,38,RE,--,False,False,10,--,Dog,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,34,3,1
-2021-03-12,39,RE,--,True,False,10,--,Cat,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,39,2,1
-2021-03-12,40,RE,--,True,False,10,--,Sweden,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,40,2,1
-2021-03-12,41,NEW,--,True,False,10,--,Excuse,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,41,1,1
-2021-03-12,42,NEW,--,True,False,10,--,Thirteen,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,42,1,1
-2021-03-12,43,NEW,--,True,False,10,--,Chris,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,43,1,1
-2021-03-12,44,NEW,--,True,False,10,--,Clark,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,44,1,1
-2021-03-12,45,NEW,--,True,False,10,--,Wet Hands,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,45,1,1
-2021-03-12,46,NEW,--,True,False,10,--,Dry Hands,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,46,1,1
-2021-03-12,47,NEW,--,True,False,10,--,Mice on Venus,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,47,1,1
-2021-03-12,48,NEW,--,True,False,10,--,Équinoxe,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,48,1,1
-2021-03-12,49,NEW,--,True,False,10,--,Oxygène,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,49,1,1
-2021-03-12,50,RE,--,False,False,10,--,Minecraft,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,4,1
-2021-03-12,51,NEW,--,True,False,10,--,Haggstrom,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,51,1,1
-2021-03-12,52,NEW,--,True,False,10,--,Moog City,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,52,1,1
-2021-03-12,53,NEW,--,True,False,10,--,Living Mice,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,53,1,1
-2021-03-12,54,NEW,--,True,False,10,--,Death,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,54,1,1
-2021-03-12,55,NEW,--,True,False,10,--,Subwoofer Lullaby,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,55,1,1
-2021-03-12,56,NEW,--,True,False,10,--,Door,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,56,1,1
-2021-03-12,57,NEW,--,True,False,10,--,Key,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,57,1,1
-2021-03-12,58,NEW,--,True,False,10,--,The Indian Palace,Danny Elfman,Charlie and the Chocolate Factory (Original Motion Picture Soundtrack),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,58,1,1
-2021-03-12,59,NEW,--,True,False,10,--,Wonka's First Shop,Danny Elfman,Charlie and the Chocolate Factory (Original Motion Picture Soundtrack),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,59,1,1
-2021-03-12,60,NEW,--,True,False,10,--,Wheels in Motion,Danny Elfman,Charlie and the Chocolate Factory (Original Motion Picture Soundtrack),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,60,1,1
-2021-03-12,61,NEW,--,True,False,10,--,Mike Teavee,Danny Elfman,Charlie and the Chocolate Factory (Original Motion Picture Soundtrack),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,61,1,1
-2021-03-12,62,NEW,--,True,False,10,--,Veruca Salt,Danny Elfman,Charlie and the Chocolate Factory (Original Motion Picture Soundtrack),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,62,1,1
-2021-03-12,63,NEW,--,True,False,10,--,Violet Beauregarde,Danny Elfman,Charlie and the Chocolate Factory (Original Motion Picture Soundtrack),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,63,1,1
-2021-03-12,64,NEW,--,True,False,10,--,Augustus Gloop,Danny Elfman,Charlie and the Chocolate Factory (Original Motion Picture Soundtrack),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,64,1,1
-2021-03-12,65,NEW,--,True,False,10,--,Wonka's Welcome Song,Danny Elfman,Charlie and the Chocolate Factory (Original Motion Picture Soundtrack),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,65,1,1
-2021-03-12,66,NEW,--,True,False,10,--,Adiós,Selena Gomez,Revelación - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,66,1,1
-2021-03-12,67,NEW,--,True,False,10,--,Vicio,Selena Gomez,Revelación - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,67,1,1
-2021-03-12,68,NEW,--,True,False,10,--,Dámelo To’ (feat. Myke Towers),Selena Gomez,Revelación - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,68,1,1
-2021-03-12,69,NEW,--,True,False,10,--,Buscando Amor,Selena Gomez,Revelación - EP,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,69,1,1
-2021-03-12,70,NEW,--,True,False,10,--,HWAA,(G)I-DLE,I burn,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,70,1,1
-2021-03-12,71,NEW,--,True,False,10,--,Gone,ROSÉ,R,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,71,1,1
-2021-03-12,72,NEW,--,True,False,10,--,On The Ground,Rosé,R,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,72,1,1
-2021-03-12,73,RE,--,False,False,10,--,the lakes - bonus track,Taylor Swift,folklore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,21,3,1
-2021-03-12,74,RE,--,False,False,10,--,hoax,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,6,1
-2021-03-12,75,RE,--,False,False,10,--,peace,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,5,1
-2021-03-12,76,RE,--,False,False,10,--,betty,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,16,4,1
-2021-03-12,77,RE,--,False,False,10,--,epiphany,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,4,1
-2021-03-12,78,RE,--,False,False,10,--,mad woman,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,5,1
-2021-03-12,79,RE,--,False,False,10,--,invisible string,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,5,1
-2021-03-12,80,RE,--,False,False,10,--,this is me trying,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,5,1
-2021-03-12,81,RE,--,False,False,10,--,seven,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,5,1
-2021-03-12,82,RE,--,False,False,10,--,my tears ricochet,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,7,2
-2021-03-12,83,RE,--,False,False,10,--,exile (feat. Bon Iver),Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,5,1
-2021-03-12,84,RE,--,False,False,10,--,cardigan,Taylor Swift,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,5,2
-2021-03-12,85,RE,--,False,False,10,--,Truth Hurts,Lizzo,Cuz I Love You (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,15,4,1
-2021-03-12,86,NEW,--,True,False,10,--,비올레타,IZ*ONE (아이즈원),HEART*IZ,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,86,1,1
-2021-03-12,87,RE,--,False,False,10,--,exile,Taylor Swift Bon Iver,folklore,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,4,1
-2021-03-12,88,RE,--,False,False,10,--,happiness,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,8,1
-2021-03-12,89,RE,--,False,False,10,--,coney island,Taylor Swift The National,evermore (deluxe version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,8,1
+2021-03-12,1,RE,--,True,False,18,--,august,Taylor Swift,folklore,2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,0,0,1,6,1
+2021-03-12,2,+3,5,True,False,16,0.23,Green Light,Lorde,Melodrama,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,4,2,2,4,1
+2021-03-12,3,+7,10,True,False,16,0.23,BOYSHIT,Madison Beer,Boyshit,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,4,2,3,3,1
+2021-03-12,4,+68,72,True,False,13,0.3,Selfish Love (with Selena Gomez),DJ Snake,Revelación - EP,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,3,0,4,2,1
+2021-03-12,5,+68,73,True,False,13,0.3,Baila Conmigo (with Rauw Alejandro),Selena Gomez,Revelación - EP,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,3,0,5,4,1
+2021-03-12,6,+68,74,False,False,13,0.3,De Una Vez,Selena Gomez,Revelación - EP,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,3,0,4,6,1
+2021-03-12,7,RE,--,False,False,12,--,illicit affairs,Taylor Swift,folklore,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,2,3,6,1
+2021-03-12,8,RE,--,False,False,12,--,mirrorball,Taylor Swift,folklore,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,2,7,5,1
+2021-03-12,9,RE,--,False,False,12,--,the last great american dynasty,Taylor Swift,folklore,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,2,2,7,1
+2021-03-12,10,RE,--,True,True,12,--,the 1,Taylor Swift,folklore,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,2,10,5,2
+2021-03-12,11,NEW,--,True,False,10,--,Fire Drill,Melanie Martinez,Fire Drill,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,11,1,1
+2021-03-12,12,NEW,--,True,False,10,--,Leave the Door Open,Bruno Mars,Leave the Door Open,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,12,1,1
+2021-03-12,13,NEW,--,True,False,10,--,Summer Rain,GFRIEND,GFRIEND The 5th Mini Album Repackage <RAINBOW>,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,13,1,1
+2021-03-12,14,NEW,--,True,False,10,--,LOVE WHISPER,GFRIEND,GFRIEND The 5th Mini Album <PARALLEL>,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,14,1,1
+2021-03-12,15,NEW,--,True,False,10,--,Minecraft Pigstep - Remix,FlyxTheKid,Minecraft Pigstep (Remix),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,15,1,1
+2021-03-12,16,NEW,--,True,False,10,--,Wait,C418,Minecraft - Volume Beta,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,16,1,1
+2021-03-12,17,NEW,--,True,False,10,--,Eleven,C418,Minecraft - Volume Beta,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,17,1,1
+2021-03-12,18,NEW,--,True,False,10,--,Ward,C418,Minecraft - Volume Beta,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,18,1,1
+2021-03-12,19,NEW,--,True,False,10,--,Strad,C418,Minecraft - Volume Beta,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,19,1,1
+2021-03-12,20,NEW,--,True,False,10,--,Stal,C418,Minecraft - Volume Beta,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,20,1,1
+2021-03-12,21,RE,--,True,False,10,--,Mellohi,C418,Minecraft - Volume Beta,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,21,3,1
+2021-03-12,22,NEW,--,True,False,10,--,Mall,C418,Minecraft - Volume Beta,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,22,1,1
+2021-03-12,23,NEW,--,True,False,10,--,Far,C418,Minecraft - Volume Beta,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,23,1,1
+2021-03-12,24,RE,--,True,False,10,--,Chirp,C418,Minecraft - Volume Beta,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,24,3,1
+2021-03-12,25,NEW,--,True,False,10,--,Blocks,C418,Minecraft - Volume Beta,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,25,1,1
+2021-03-12,26,RE,--,False,False,10,--,Pigstep - Stereo Mix,Lena Raine,Minecraft: Nether Update (Original Game Soundtrack),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,3,4,1
+2021-03-12,27,NEW,--,True,False,10,--,So Below,Lena Raine,Minecraft: Nether Update (Original Game Soundtrack),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,27,1,1
+2021-03-12,28,NEW,--,True,False,10,--,rubedo,Lena Raine,Minecraft: Nether Update (Original Game Soundtrack),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,28,1,1
+2021-03-12,29,NEW,--,True,False,10,--,Chrysopoeia,Lena Raine,Minecraft: Nether Update (Original Game Soundtrack),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,29,1,1
+2021-03-12,30,NEW,--,True,False,10,--,Ballad of the Cats,C418,Minecraft - Volume Beta,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,30,1,1
+2021-03-12,31,NEW,--,True,False,10,--,Concrete Halls,C418,Minecraft - Volume Beta,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,31,1,1
+2021-03-12,32,NEW,--,True,False,10,--,Warmth,C418,Minecraft - Volume Beta,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,32,1,1
+2021-03-12,33,NEW,--,True,False,10,--,Dead Voxel,C418,Minecraft - Volume Beta,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,33,1,1
+2021-03-12,34,NEW,--,True,False,10,--,Droopy Likes Your Face,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,34,1,1
+2021-03-12,35,NEW,--,True,False,10,--,Droopy Likes Ricochet,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,35,1,1
+2021-03-12,36,NEW,--,True,False,10,--,Beginning,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,36,1,1
+2021-03-12,37,NEW,--,True,False,10,--,Danny,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,37,1,1
+2021-03-12,38,RE,--,False,False,10,--,Dog,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,34,3,1
+2021-03-12,39,RE,--,True,False,10,--,Cat,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,39,2,1
+2021-03-12,40,RE,--,True,False,10,--,Sweden,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,40,2,1
+2021-03-12,41,NEW,--,True,False,10,--,Excuse,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,41,1,1
+2021-03-12,42,NEW,--,True,False,10,--,Thirteen,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,42,1,1
+2021-03-12,43,NEW,--,True,False,10,--,Chris,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,43,1,1
+2021-03-12,44,NEW,--,True,False,10,--,Clark,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,44,1,1
+2021-03-12,45,NEW,--,True,False,10,--,Wet Hands,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,45,1,1
+2021-03-12,46,NEW,--,True,False,10,--,Dry Hands,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,46,1,1
+2021-03-12,47,NEW,--,True,False,10,--,Mice on Venus,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,47,1,1
+2021-03-12,48,NEW,--,True,False,10,--,Équinoxe,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,48,1,1
+2021-03-12,49,NEW,--,True,False,10,--,Oxygène,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,49,1,1
+2021-03-12,50,RE,--,False,False,10,--,Minecraft,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,10,4,1
+2021-03-12,51,NEW,--,True,False,10,--,Haggstrom,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,51,1,1
+2021-03-12,52,NEW,--,True,False,10,--,Moog City,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,52,1,1
+2021-03-12,53,NEW,--,True,False,10,--,Living Mice,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,53,1,1
+2021-03-12,54,NEW,--,True,False,10,--,Death,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,54,1,1
+2021-03-12,55,NEW,--,True,False,10,--,Subwoofer Lullaby,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,55,1,1
+2021-03-12,56,NEW,--,True,False,10,--,Door,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,56,1,1
+2021-03-12,57,NEW,--,True,False,10,--,Key,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,57,1,1
+2021-03-12,58,NEW,--,True,False,10,--,The Indian Palace,Danny Elfman,Charlie and the Chocolate Factory (Original Motion Picture Soundtrack),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,58,1,1
+2021-03-12,59,NEW,--,True,False,10,--,Wonka's First Shop,Danny Elfman,Charlie and the Chocolate Factory (Original Motion Picture Soundtrack),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,59,1,1
+2021-03-12,60,NEW,--,True,False,10,--,Wheels in Motion,Danny Elfman,Charlie and the Chocolate Factory (Original Motion Picture Soundtrack),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,60,1,1
+2021-03-12,61,NEW,--,True,False,10,--,Mike Teavee,Danny Elfman,Charlie and the Chocolate Factory (Original Motion Picture Soundtrack),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,61,1,1
+2021-03-12,62,NEW,--,True,False,10,--,Veruca Salt,Danny Elfman,Charlie and the Chocolate Factory (Original Motion Picture Soundtrack),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,62,1,1
+2021-03-12,63,NEW,--,True,False,10,--,Violet Beauregarde,Danny Elfman,Charlie and the Chocolate Factory (Original Motion Picture Soundtrack),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,63,1,1
+2021-03-12,64,NEW,--,True,False,10,--,Augustus Gloop,Danny Elfman,Charlie and the Chocolate Factory (Original Motion Picture Soundtrack),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,64,1,1
+2021-03-12,65,NEW,--,True,False,10,--,Wonka's Welcome Song,Danny Elfman,Charlie and the Chocolate Factory (Original Motion Picture Soundtrack),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,65,1,1
+2021-03-12,66,NEW,--,True,False,10,--,Adiós,Selena Gomez,Revelación - EP,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,66,1,1
+2021-03-12,67,NEW,--,True,False,10,--,Vicio,Selena Gomez,Revelación - EP,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,67,1,1
+2021-03-12,68,NEW,--,True,False,10,--,Dámelo To’ (feat. Myke Towers),Selena Gomez,Revelación - EP,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,68,1,1
+2021-03-12,69,NEW,--,True,False,10,--,Buscando Amor,Selena Gomez,Revelación - EP,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,69,1,1
+2021-03-12,70,NEW,--,True,False,10,--,HWAA,(G)I-DLE,I burn,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,70,1,1
+2021-03-12,71,NEW,--,True,False,10,--,Gone,ROSÉ,R,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,71,1,1
+2021-03-12,72,NEW,--,True,False,10,--,On The Ground,Rosé,R,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,72,1,1
+2021-03-12,73,RE,--,False,False,10,--,the lakes - bonus track,Taylor Swift,folklore (deluxe version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,21,3,1
+2021-03-12,74,RE,--,False,False,10,--,hoax,Taylor Swift,folklore,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,7,6,1
+2021-03-12,75,RE,--,False,False,10,--,peace,Taylor Swift,folklore,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,5,5,1
+2021-03-12,76,RE,--,False,False,10,--,betty,Taylor Swift,folklore,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,16,4,1
+2021-03-12,77,RE,--,False,False,10,--,epiphany,Taylor Swift,folklore,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,12,4,1
+2021-03-12,78,RE,--,False,False,10,--,mad woman,Taylor Swift,folklore,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,18,5,1
+2021-03-12,79,RE,--,False,False,10,--,invisible string,Taylor Swift,folklore,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,13,5,1
+2021-03-12,80,RE,--,False,False,10,--,this is me trying,Taylor Swift,folklore,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,4,5,1
+2021-03-12,81,RE,--,False,False,10,--,seven,Taylor Swift,folklore,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,6,5,1
+2021-03-12,82,RE,--,False,False,10,--,my tears ricochet,Taylor Swift,folklore,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,1,7,2
+2021-03-12,83,RE,--,False,False,10,--,exile (feat. Bon Iver),Taylor Swift,folklore,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,8,5,1
+2021-03-12,84,RE,--,False,False,10,--,cardigan,Taylor Swift,folklore,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,6,5,2
+2021-03-12,85,RE,--,False,False,10,--,Truth Hurts,Lizzo,Cuz I Love You (Deluxe),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,15,4,1
+2021-03-12,86,NEW,--,True,False,10,--,비올레타,IZ*ONE (아이즈원),HEART*IZ,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,86,1,1
+2021-03-12,87,RE,--,False,False,10,--,exile,Taylor Swift Bon Iver,folklore,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,8,4,1
+2021-03-12,88,RE,--,False,False,10,--,happiness,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,2,8,1
+2021-03-12,89,RE,--,False,False,10,--,coney island,Taylor Swift The National,evermore (deluxe version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,1,8,1

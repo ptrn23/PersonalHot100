@@ -111,19 +111,20 @@ for year in YEARS:
             air_pts = ceil(airplay * 2000 / 1000)
             week_total_points = ceil(total_points + ceil(prev_pts * 0.3) + ceil(two_weeks_pts * 0.2))
 
-            stream_units = ceil(streams * 5000 * 10)
-            sale_units = ceil(sales * 3000)
-            air_units = ceil(airplay * 2000 * 50)
-            total_units = stream_units + sale_units + air_units
+            stream_units = ceil(streams * 5250 * 275)
+            sale_units = ceil(sales * 252)
+            air_units = ceil(airplay * 2250 * 5020)
+            total_units = ceil((streams + sales + airplay) * 1750 * 2)
 
             if prev_pts == 0:
                 percent_change = "--"
             else:
                 percent_change = round((week_total_points - ceil(prev_pts)) / ceil(prev_pts), 2)
-
-            stream_percent = round(stream_units / total_units, 2)
-            sale_percent = round(sale_units / total_units, 2)
-            air_percent = round(air_units / total_units, 2)
+             
+            total_raw = streams * 4 + sales * 0.45 + airplay * 5
+            stream_percent = round(streams * 4 / total_raw, 2)
+            sale_percent = round(sales * 0.45 / total_raw, 2)
+            air_percent = round(airplay * 5 / total_raw, 2)
 
             previous_rank = prev_week_positions.get(key) if prev_week_positions.get(key) else "--"
             status = get_status(rank, prev_week_positions.get(key), key, charted_cache, prev_week_positions, week_key)

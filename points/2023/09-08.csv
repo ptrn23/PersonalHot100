@@ -1,101 +1,101 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2023-09-08,1,+5,6,True,True,233,0.61,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),21,11,11,105,33,22,1050000,33000,1100000,0.48,0.02,0.5,2183000,160,44,29,1,76,2
-2023-09-08,2,-1,1,False,False,192,-0.37,Deli,Ice Spice,Like..? (Deluxe),8,8,1,40,24,2,400000,24000,100000,0.76,0.05,0.19,524000,66,93,33,1,4,1
-2023-09-08,3,+2,5,True,True,181,0.17,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),16,7,10,80,21,20,800000,21000,1000000,0.44,0.01,0.55,1821000,121,47,13,3,67,4
-2023-09-08,4,RE,--,True,False,157,--,A Thousand Miles,Vanessa Carlton,Be Not Nobody,21,8,14,105,24,28,1050000,24000,1400000,0.42,0.01,0.57,2474000,157,0,0,4,2,1
-2023-09-08,5,-2,3,False,False,156,-0.25,Never Grow Up,CG5,Never Grow Up,7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,63,35,3,3,2
-2023-09-08,6,+3,9,True,False,141,0.02,Mean (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),13,6,8,65,18,16,650000,18000,800000,0.44,0.01,0.54,1468000,99,42,0,6,5,1
-2023-09-08,7,+8,15,False,False,141,0.78,She's So Mean,Matchbox Twenty,North (Deluxe Edition),16,7,8,80,21,16,800000,21000,800000,0.49,0.01,0.49,1621000,117,24,0,4,14,1
-2023-09-08,8,NEW,--,True,False,138,--,Bongos (feat. Megan Thee Stallion),Cardi B,Bongos (feat. Megan Thee Stallion),19,3,17,95,9,34,950000,9000,1700000,0.36,0.0,0.64,2659000,138,0,0,8,1,1
-2023-09-08,9,+2,11,False,False,124,0.19,Gasoline (feat. Taylor Swift),HAIM,Women in Music Pt III (Expanded Edition),6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,32,42,2,9,1
-2023-09-08,10,-8,2,False,False,117,-0.46,I'ma Walk Right In,CG5,I'ma Walk Right In,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,65,2,2,3,1
-2023-09-08,11,-7,4,False,False,112,-0.37,Juicy,Doja Cat,Amala (Deluxe Version),7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,54,0,4,2,1
-2023-09-08,12,-5,7,False,False,101,-0.29,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,43,0,1,38,1
-2023-09-08,13,-5,8,False,False,100,-0.3,ME! (feat. Brendon Urie of Panic! at the Disco),Taylor Swift,Lover,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,43,15,4,27,1
-2023-09-08,14,+2,16,False,False,97,0.28,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),10,2,9,50,6,18,500000,6000,900000,0.36,0.0,0.64,1406000,74,23,0,1,78,7
-2023-09-08,15,-3,12,False,False,95,-0.04,The Story of Us (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,30,31,1,10,1
-2023-09-08,16,+2,18,False,False,79,0.14,Get Up,NewJeans,NewJeans 2nd EP 'Get Up',7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,21,0,3,7,1
-2023-09-08,17,+8,25,False,False,75,0.34,ETA,NewJeans,NewJeans 2nd EP 'Get Up',7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,17,0,3,7,1
-2023-09-08,18,+11,29,False,False,74,0.4,Cool With You,NewJeans,NewJeans 2nd EP 'Get Up',7,7,1,35,21,2,350000,21000,100000,0.74,0.04,0.21,471000,58,16,0,2,7,1
-2023-09-08,19,+1,20,True,False,74,0.12,Diva,Beyoncé,I AM...SASHA FIERCE - Platinum Edition,7,3,5,35,9,10,350000,9000,500000,0.41,0.01,0.58,859000,54,20,0,19,3,1
-2023-09-08,20,+15,35,False,False,67,0.37,New Jeans,NewJeans,NewJeans 2nd EP 'Get Up',6,6,2,30,18,4,300000,18000,200000,0.58,0.03,0.39,518000,52,15,0,1,9,1
-2023-09-08,21,+7,28,False,False,66,0.25,FEARLESS,LE SSERAFIM,FEARLESS,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,16,0,1,53,3
-2023-09-08,22,+10,32,False,False,65,0.3,Huwag Na Huwag Mong Sasabihin...,Kitchie Nadal,Kitchie Nadal,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,15,0,5,10,1
-2023-09-08,23,-6,17,False,False,65,-0.12,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,23,0,2,56,1
-2023-09-08,24,+9,33,False,False,65,0.3,Alapaap,Eraserheads,Circus,6,6,1,30,18,2,300000,18000,100000,0.72,0.04,0.24,418000,50,15,0,2,16,1
-2023-09-08,25,+12,37,False,False,57,0.21,Kung 'Di Rin Lang Ikaw,December Avenue,Kung 'Di Rin Lang Ikaw,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,15,0,1,25,1
-2023-09-08,26,+12,38,False,False,56,0.22,Clouds,Any Name's Okay,Clouds,5,5,1,25,15,2,250000,15000,100000,0.68,0.04,0.27,365000,42,14,0,2,14,2
-2023-09-08,27,-13,14,False,False,53,-0.4,After LIKE,IVE,After LIKE,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,27,0,1,38,5
-2023-09-08,28,RE,--,False,False,52,--,WAP (feat. Megan Thee Stallion),Cardi B,WAP (feat. Megan Thee Stallion),7,1,7,35,3,14,350000,3000,700000,0.33,0.0,0.66,1053000,52,0,0,1,20,1
-2023-09-08,29,-8,21,False,False,51,-0.23,Tia Tamera (feat. Rico Nasty),Doja Cat,Amala (Deluxe Version),4,1,4,20,3,8,200000,3000,400000,0.33,0.0,0.66,603000,31,20,0,21,4,1
-2023-09-08,30,+9,39,False,False,48,0.07,ASAP,NewJeans,NewJeans 2nd EP 'Get Up',4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,14,0,5,7,1
-2023-09-08,31,+28,59,False,False,45,0.32,BeBe,WJSN,The Secret,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,11,0,2,16,1
-2023-09-08,32,+39,71,False,False,41,0.78,Stay Numb and Carry On,Madison Beer,Life Support,4,4,1,20,12,2,200000,12000,100000,0.64,0.04,0.32,312000,34,7,0,10,19,1
-2023-09-08,33,+10,43,False,False,39,-0.09,I Have A Hole In My Tooth (And My Dentist is Shut),dodie,Intertwined - EP,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,13,0,2,11,2
-2023-09-08,34,+22,56,False,False,39,0.15,Super Shy,NewJeans,NewJeans 2nd EP 'Get Up',3,3,2,15,9,4,150000,9000,200000,0.42,0.03,0.56,359000,28,11,0,2,8,1
-2023-09-08,35,+9,44,False,False,39,-0.07,Talk that Talk,TWICE,BETWEEN 1&2,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,13,0,1,13,1
-2023-09-08,36,+16,52,False,False,38,0.0,Intertwined,dodie,Intertwined - EP,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,12,0,1,17,2
-2023-09-08,37,+17,54,False,False,37,0.03,Happy,WJSN,HAPPY MOMENT (1),3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,11,0,2,40,2
-2023-09-08,38,NEW,--,True,False,32,--,Greased Lightnin' - From “Grease”,John Travolta,Grease (The Original Motion Picture Soundtrack),4,2,3,20,6,6,200000,6000,300000,0.4,0.01,0.59,506000,32,0,0,38,1,1
-2023-09-08,39,+1,40,False,False,32,-0.29,Midnight Rain,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,14,0,1,43,2
-2023-09-08,40,+49,89,True,False,29,1.9,ballad of a homeschooled girl,Olivia Rodrigo,GUTS,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,3,0,40,2,1
-2023-09-08,41,-17,24,False,False,28,-0.51,Holy Ground (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,18,0,1,52,1
-2023-09-08,42,-15,27,False,False,27,-0.5,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,17,0,1,74,5
-2023-09-08,43,RE,--,False,False,26,--,Since U Been Gone,Kelly Clarkson,Breakaway,3,3,1,15,9,2,150000,9000,100000,0.58,0.03,0.39,259000,26,0,0,41,4,1
-2023-09-08,44,+9,53,False,False,22,-0.41,bad idea right?,Olivia Rodrigo,GUTS,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,12,0,3,5,1
-2023-09-08,45,+43,88,True,False,21,1.1,making the bed,Olivia Rodrigo,GUTS,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,3,0,45,2,1
-2023-09-08,46,+44,90,True,False,21,1.1,lacy,Olivia Rodrigo,GUTS,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,3,0,46,2,1
-2023-09-08,47,RE,--,True,False,18,--,I Wanna Dance with Somebody (Who Loves Me),Whitney Houston,Whitney,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,47,3,1
-2023-09-08,48,NEW,--,True,False,18,--,It's Gonna Be Me,*NSYNC,No Strings Attached,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,48,1,1
-2023-09-08,49,+15,64,False,False,18,-0.31,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,8,0,2,64,1
-2023-09-08,50,NEW,--,True,False,18,--,Bye Bye Bye,*NSYNC,No Strings Attached,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,50,1,1
-2023-09-08,51,RE,--,False,False,18,--,Uptown Girl,Westlife,Coast to Coast (Expanded Edition),2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,1,16,2
-2023-09-08,52,NEW,--,True,False,18,--,Build Me up Buttercup,The Foundations,The Foundations,2,2,1,10,6,2,100000,6000,100000,0.49,0.03,0.49,206000,18,0,0,52,1,1
-2023-09-08,53,RE,--,False,False,17,--,Last Kiss (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,0,0,13,4,1
-2023-09-08,54,RE,--,False,False,17,--,Dear John (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),2,1,2,10,3,4,100000,3000,200000,0.33,0.01,0.66,303000,17,0,0,32,4,1
-2023-09-08,55,+30,85,True,False,13,0.3,love is embarrassing,Olivia Rodrigo,GUTS,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,55,2,1
-2023-09-08,56,+30,86,True,False,13,0.3,get him back!,Olivia Rodrigo,GUTS,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,56,2,1
-2023-09-08,57,+30,87,True,False,13,0.3,logical,Olivia Rodrigo,GUTS,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,57,2,1
-2023-09-08,58,+33,91,True,False,13,0.3,vampire,Olivia Rodrigo,GUTS,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,58,3,1
-2023-09-08,59,+22,81,True,False,13,0.3,all-american bitch,Olivia Rodrigo,GUTS,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,3,0,59,2,1
-2023-09-08,60,RE,--,False,False,10,--,New Romantics,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,18,1
-2023-09-08,61,RE,--,False,False,10,--,Lady Marmalade - From Moulin Rouge Soundtrack,Christina Aguilera,Moulin Rouge,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,37,5,1
-2023-09-08,62,RE,--,True,False,10,--,YOUTH,Troye Sivan,Blue Neighbourhood (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,62,2,1
-2023-09-08,63,RE,--,False,False,10,--,My Sunday,Loona,YeoJin,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,8,4,1
-2023-09-08,64,RE,--,False,False,10,--,All Night,Girls' Generation,Holiday Night - The 6th Album,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,49,5,1
-2023-09-08,65,RE,--,False,False,10,--,I'll be there,Loona,HyunJin,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,13,9,1
-2023-09-08,66,RE,--,False,False,10,--,Heart Attack (츄),Loona,Chuu,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,42,1
-2023-09-08,67,RE,--,False,False,10,--,Boy,THE BOYZ,THE BOYZ DEBUT ALBUM [THE FIRST],1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,20,9,1
-2023-09-08,68,RE,--,False,False,10,--,libidO,OnlyOneOf,Instinct Pt. 1,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,10,1
-2023-09-08,69,RE,--,False,False,10,--,Baby Don’t Stop,NCT,NCT 2018 EMPATHY,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,30,16,1
-2023-09-08,70,RE,--,False,False,10,--,Naughty,Red Velvet - IRENE & SEULGI,Naughty,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,41,6,1
-2023-09-08,71,RE,--,True,False,10,--,Marry the Night,Lady Gaga,Born This Way (International Special Edition Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,71,2,1
-2023-09-08,72,RE,--,False,False,10,--,Like a Virgin,Madonna,Like a Virgin,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,4,1
-2023-09-08,73,RE,--,False,False,10,--,Wasabi,Little Mix,LM5 (Deluxe),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,14,10,1
-2023-09-08,74,RE,--,False,False,10,--,UNNATURAL,WJSN,UNNATURAL,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,1,43,4
-2023-09-08,75,RE,--,False,False,10,--,sirena,Gloc-9,MKNM (Mga Kwento Ng Makata),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,11,11,1
-2023-09-08,76,RE,--,False,False,10,--,RAINBOW,TWICE,Feel Special,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,10,36,1
-2023-09-08,77,RE,--,False,False,10,--,LA DI DA,Everglow,-77.82X-78.29,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,24,11,1
-2023-09-08,78,RE,--,False,False,10,--,Born This Way,Lady Gaga,Born This Way (International Special Edition Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,12,7,1
-2023-09-08,79,RE,--,False,False,10,--,Irreplaceable,Beyoncé,B'Day,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,56,6,1
-2023-09-08,80,NEW,--,True,False,10,--,I Want It That Way,Backstreet Boys,Millennium,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,80,1,1
-2023-09-08,81,NEW,--,True,False,10,--,Heartbreaker (feat. Jay-Z),Mariah Carey,Rainbow,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,81,1,1
-2023-09-08,82,RE,--,False,False,10,--,Bleeding Love,Leona Lewis,Spirit,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,40,5,1
-2023-09-08,83,NEW,--,True,False,10,--,Sweet Child o' Mine,Guns N' Roses,Appetite for Destruction,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,83,1,1
-2023-09-08,84,RE,--,False,False,10,--,In the End,Linkin Park,Hybrid Theory (Bonus Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,18,3,1
-2023-09-08,85,NEW,--,True,False,10,--,Always Be My Baby,Mariah Carey,Daydream,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,85,1,1
-2023-09-08,86,RE,--,False,False,10,--,The Lucky One (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,23,1
-2023-09-08,87,RE,--,False,False,10,--,Sad Beautiful Tragic (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,40,1
-2023-09-08,88,RE,--,False,False,10,--,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,5,43,1
-2023-09-08,89,RE,--,False,False,10,--,Stay Stay Stay (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,28,1
-2023-09-08,90,RE,--,False,False,10,--,I Almost Do (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,9,24,1
-2023-09-08,91,RE,--,False,False,10,--,ANTIFRAGILE,LE SSERAFIM,ANTIFRAGILE,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,2,29,1
-2023-09-08,92,RE,--,False,False,10,--,The Feels,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,4,41,1
-2023-09-08,93,RE,--,False,False,10,--,Killin’ Me Good,Jihyo,ZONE,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,58,2,1
-2023-09-08,94,RE,--,False,False,10,--,Kitsch,IVE,Kitsch,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,6,12,1
-2023-09-08,95,RE,--,False,False,10,--,Ready For Love,BLACKPINK,BORN PINK,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,30,4,1
-2023-09-08,96,NEW,--,True,False,10,--,U Can't Touch This,MC Hammer,Please Hammer Don't Hurt 'Em,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,96,1,1
-2023-09-08,97,RE,--,False,False,10,--,Unwell,Matchbox Twenty,More Than You Think You Are,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,7,4,1
-2023-09-08,98,NEW,--,True,False,10,--,Material Girl,Madonna,Celebration (Double Disc Version),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,98,1,1
-2023-09-08,99,NEW,--,True,False,10,--,Wake Me Up Before You Go-Go,Wham!,Make It Big,1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,99,1,1
-2023-09-08,100,RE,--,False,False,10,--,Karma,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,50000,3000,100000,0.33,0.02,0.65,153000,10,0,0,3,26,1
+2023-09-08,1,+5,6,True,True,233,0.61,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),21,11,11,105,33,22,30318750,2772,124245000,0.58,0.03,0.38,150500,160,44,29,1,76,2
+2023-09-08,2,-1,1,False,False,192,-0.37,Deli,Ice Spice,Like..? (Deluxe),8,8,1,40,24,2,11550000,2016,11295000,0.79,0.09,0.12,59500,66,93,33,1,4,1
+2023-09-08,3,+2,5,True,True,181,0.17,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),16,7,10,80,21,20,23100000,1764,112950000,0.55,0.03,0.43,115500,121,47,13,3,67,4
+2023-09-08,4,RE,--,True,False,157,--,A Thousand Miles,Vanessa Carlton,Be Not Nobody,21,8,14,105,24,28,30318750,2016,158130000,0.53,0.02,0.44,150500,157,0,0,4,2,1
+2023-09-08,5,-2,3,False,False,156,-0.25,Never Grow Up,CG5,Never Grow Up,7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,63,35,3,3,2
+2023-09-08,6,+3,9,True,False,141,0.02,Mean (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),13,6,8,65,18,16,18768750,1512,90360000,0.55,0.03,0.42,94500,99,42,0,6,5,1
+2023-09-08,7,+8,15,False,False,141,0.78,She's So Mean,Matchbox Twenty,North (Deluxe Edition),16,7,8,80,21,16,23100000,1764,90360000,0.6,0.03,0.37,108500,117,24,0,4,14,1
+2023-09-08,8,NEW,--,True,False,138,--,Bongos (feat. Megan Thee Stallion),Cardi B,Bongos (feat. Megan Thee Stallion),19,3,17,95,9,34,27431250,756,192015000,0.47,0.01,0.52,136500,138,0,0,8,1,1
+2023-09-08,9,+2,11,False,False,124,0.19,Gasoline (feat. Taylor Swift),HAIM,Women in Music Pt III (Expanded Edition),6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,32,42,2,9,1
+2023-09-08,10,-8,2,False,False,117,-0.46,I'ma Walk Right In,CG5,I'ma Walk Right In,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,65,2,2,3,1
+2023-09-08,11,-7,4,False,False,112,-0.37,Juicy,Doja Cat,Amala (Deluxe Version),7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,54,0,4,2,1
+2023-09-08,12,-5,7,False,False,101,-0.29,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,43,0,1,38,1
+2023-09-08,13,-5,8,False,False,100,-0.3,ME! (feat. Brendon Urie of Panic! at the Disco),Taylor Swift,Lover,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,43,15,4,27,1
+2023-09-08,14,+2,16,False,False,97,0.28,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),10,2,9,50,6,18,14437500,504,101655000,0.47,0.01,0.52,73500,74,23,0,1,78,7
+2023-09-08,15,-3,12,False,False,95,-0.04,The Story of Us (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,30,31,1,10,1
+2023-09-08,16,+2,18,False,False,79,0.14,Get Up,NewJeans,NewJeans 2nd EP 'Get Up',7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,21,0,3,7,1
+2023-09-08,17,+8,25,False,False,75,0.34,ETA,NewJeans,NewJeans 2nd EP 'Get Up',7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,17,0,3,7,1
+2023-09-08,18,+11,29,False,False,74,0.4,Cool With You,NewJeans,NewJeans 2nd EP 'Get Up',7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,16,0,2,7,1
+2023-09-08,19,+1,20,True,False,74,0.12,Diva,Beyoncé,I AM...SASHA FIERCE - Platinum Edition,7,3,5,35,9,10,10106250,756,56475000,0.52,0.02,0.46,52500,54,20,0,19,3,1
+2023-09-08,20,+15,35,False,False,67,0.37,New Jeans,NewJeans,NewJeans 2nd EP 'Get Up',6,6,2,30,18,4,8662500,1512,22590000,0.65,0.07,0.27,49000,52,15,0,1,9,1
+2023-09-08,21,+7,28,False,False,66,0.25,FEARLESS,LE SSERAFIM,FEARLESS,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,16,0,1,53,3
+2023-09-08,22,+10,32,False,False,65,0.3,Huwag Na Huwag Mong Sasabihin...,Kitchie Nadal,Kitchie Nadal,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,15,0,5,10,1
+2023-09-08,23,-6,17,False,False,65,-0.12,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,23,0,2,56,1
+2023-09-08,24,+9,33,False,False,65,0.3,Alapaap,Eraserheads,Circus,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,15,0,2,16,1
+2023-09-08,25,+12,37,False,False,57,0.21,Kung 'Di Rin Lang Ikaw,December Avenue,Kung 'Di Rin Lang Ikaw,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,15,0,1,25,1
+2023-09-08,26,+12,38,False,False,56,0.22,Clouds,Any Name's Okay,Clouds,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,14,0,2,14,2
+2023-09-08,27,-13,14,False,False,53,-0.4,After LIKE,IVE,After LIKE,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,27,0,1,38,5
+2023-09-08,28,RE,--,False,False,52,--,WAP (feat. Megan Thee Stallion),Cardi B,WAP (feat. Megan Thee Stallion),7,1,7,35,3,14,10106250,252,79065000,0.44,0.01,0.55,52500,52,0,0,1,20,1
+2023-09-08,29,-8,21,False,False,51,-0.23,Tia Tamera (feat. Rico Nasty),Doja Cat,Amala (Deluxe Version),4,1,4,20,3,8,5775000,252,45180000,0.44,0.01,0.55,31500,31,20,0,21,4,1
+2023-09-08,30,+9,39,False,False,48,0.07,ASAP,NewJeans,NewJeans 2nd EP 'Get Up',4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,14,0,5,7,1
+2023-09-08,31,+28,59,False,False,45,0.32,BeBe,WJSN,The Secret,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,11,0,2,16,1
+2023-09-08,32,+39,71,False,False,41,0.78,Stay Numb and Carry On,Madison Beer,Life Support,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,7,0,10,19,1
+2023-09-08,33,+10,43,False,False,39,-0.09,I Have A Hole In My Tooth (And My Dentist is Shut),dodie,Intertwined - EP,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,13,0,2,11,2
+2023-09-08,34,+22,56,False,False,39,0.15,Super Shy,NewJeans,NewJeans 2nd EP 'Get Up',3,3,2,15,9,4,4331250,756,22590000,0.51,0.06,0.43,28000,28,11,0,2,8,1
+2023-09-08,35,+9,44,False,False,39,-0.07,Talk that Talk,TWICE,BETWEEN 1&2,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,13,0,1,13,1
+2023-09-08,36,+16,52,False,False,38,0.0,Intertwined,dodie,Intertwined - EP,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,12,0,1,17,2
+2023-09-08,37,+17,54,False,False,37,0.03,Happy,WJSN,HAPPY MOMENT (1),3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,11,0,2,40,2
+2023-09-08,38,NEW,--,True,False,32,--,Greased Lightnin' - From “Grease”,John Travolta,Grease (The Original Motion Picture Soundtrack),4,2,3,20,6,6,5775000,504,33885000,0.5,0.03,0.47,31500,32,0,0,38,1,1
+2023-09-08,39,+1,40,False,False,32,-0.29,Midnight Rain,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,14,0,1,43,2
+2023-09-08,40,+49,89,True,False,29,1.9,ballad of a homeschooled girl,Olivia Rodrigo,GUTS,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,3,0,40,2,1
+2023-09-08,41,-17,24,False,False,28,-0.51,Holy Ground (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,18,0,1,52,1
+2023-09-08,42,-15,27,False,False,27,-0.5,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,17,0,1,74,5
+2023-09-08,43,RE,--,False,False,26,--,Since U Been Gone,Kelly Clarkson,Breakaway,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,0,0,41,4,1
+2023-09-08,44,+9,53,False,False,22,-0.41,bad idea right?,Olivia Rodrigo,GUTS,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,12,0,3,5,1
+2023-09-08,45,+43,88,True,False,21,1.1,making the bed,Olivia Rodrigo,GUTS,2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,3,0,45,2,1
+2023-09-08,46,+44,90,True,False,21,1.1,lacy,Olivia Rodrigo,GUTS,2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,3,0,46,2,1
+2023-09-08,47,RE,--,True,False,18,--,I Wanna Dance with Somebody (Who Loves Me),Whitney Houston,Whitney,2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,0,0,47,3,1
+2023-09-08,48,NEW,--,True,False,18,--,It's Gonna Be Me,*NSYNC,No Strings Attached,2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,0,0,48,1,1
+2023-09-08,49,+15,64,False,False,18,-0.31,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,8,0,2,64,1
+2023-09-08,50,NEW,--,True,False,18,--,Bye Bye Bye,*NSYNC,No Strings Attached,2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,0,0,50,1,1
+2023-09-08,51,RE,--,False,False,18,--,Uptown Girl,Westlife,Coast to Coast (Expanded Edition),2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,0,0,1,16,2
+2023-09-08,52,NEW,--,True,False,18,--,Build Me up Buttercup,The Foundations,The Foundations,2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,0,0,52,1,1
+2023-09-08,53,RE,--,False,False,17,--,Last Kiss (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),2,1,2,10,3,4,2887500,252,22590000,0.43,0.02,0.54,17500,17,0,0,13,4,1
+2023-09-08,54,RE,--,False,False,17,--,Dear John (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),2,1,2,10,3,4,2887500,252,22590000,0.43,0.02,0.54,17500,17,0,0,32,4,1
+2023-09-08,55,+30,85,True,False,13,0.3,love is embarrassing,Olivia Rodrigo,GUTS,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,3,0,55,2,1
+2023-09-08,56,+30,86,True,False,13,0.3,get him back!,Olivia Rodrigo,GUTS,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,3,0,56,2,1
+2023-09-08,57,+30,87,True,False,13,0.3,logical,Olivia Rodrigo,GUTS,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,3,0,57,2,1
+2023-09-08,58,+33,91,True,False,13,0.3,vampire,Olivia Rodrigo,GUTS,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,3,0,58,3,1
+2023-09-08,59,+22,81,True,False,13,0.3,all-american bitch,Olivia Rodrigo,GUTS,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,3,0,59,2,1
+2023-09-08,60,RE,--,False,False,10,--,New Romantics,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,7,18,1
+2023-09-08,61,RE,--,False,False,10,--,Lady Marmalade - From Moulin Rouge Soundtrack,Christina Aguilera,Moulin Rouge,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,37,5,1
+2023-09-08,62,RE,--,True,False,10,--,YOUTH,Troye Sivan,Blue Neighbourhood (Deluxe),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,62,2,1
+2023-09-08,63,RE,--,False,False,10,--,My Sunday,Loona,YeoJin,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,8,4,1
+2023-09-08,64,RE,--,False,False,10,--,All Night,Girls' Generation,Holiday Night - The 6th Album,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,49,5,1
+2023-09-08,65,RE,--,False,False,10,--,I'll be there,Loona,HyunJin,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,13,9,1
+2023-09-08,66,RE,--,False,False,10,--,Heart Attack (츄),Loona,Chuu,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,7,42,1
+2023-09-08,67,RE,--,False,False,10,--,Boy,THE BOYZ,THE BOYZ DEBUT ALBUM [THE FIRST],1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,20,9,1
+2023-09-08,68,RE,--,False,False,10,--,libidO,OnlyOneOf,Instinct Pt. 1,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,4,10,1
+2023-09-08,69,RE,--,False,False,10,--,Baby Don’t Stop,NCT,NCT 2018 EMPATHY,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,30,16,1
+2023-09-08,70,RE,--,False,False,10,--,Naughty,Red Velvet - IRENE & SEULGI,Naughty,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,41,6,1
+2023-09-08,71,RE,--,True,False,10,--,Marry the Night,Lady Gaga,Born This Way (International Special Edition Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,71,2,1
+2023-09-08,72,RE,--,False,False,10,--,Like a Virgin,Madonna,Like a Virgin,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,10,4,1
+2023-09-08,73,RE,--,False,False,10,--,Wasabi,Little Mix,LM5 (Deluxe),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,14,10,1
+2023-09-08,74,RE,--,False,False,10,--,UNNATURAL,WJSN,UNNATURAL,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,1,43,4
+2023-09-08,75,RE,--,False,False,10,--,sirena,Gloc-9,MKNM (Mga Kwento Ng Makata),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,11,11,1
+2023-09-08,76,RE,--,False,False,10,--,RAINBOW,TWICE,Feel Special,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,10,36,1
+2023-09-08,77,RE,--,False,False,10,--,LA DI DA,Everglow,-77.82X-78.29,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,24,11,1
+2023-09-08,78,RE,--,False,False,10,--,Born This Way,Lady Gaga,Born This Way (International Special Edition Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,12,7,1
+2023-09-08,79,RE,--,False,False,10,--,Irreplaceable,Beyoncé,B'Day,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,56,6,1
+2023-09-08,80,NEW,--,True,False,10,--,I Want It That Way,Backstreet Boys,Millennium,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,80,1,1
+2023-09-08,81,NEW,--,True,False,10,--,Heartbreaker (feat. Jay-Z),Mariah Carey,Rainbow,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,81,1,1
+2023-09-08,82,RE,--,False,False,10,--,Bleeding Love,Leona Lewis,Spirit,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,40,5,1
+2023-09-08,83,NEW,--,True,False,10,--,Sweet Child o' Mine,Guns N' Roses,Appetite for Destruction,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,83,1,1
+2023-09-08,84,RE,--,False,False,10,--,In the End,Linkin Park,Hybrid Theory (Bonus Edition),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,18,3,1
+2023-09-08,85,NEW,--,True,False,10,--,Always Be My Baby,Mariah Carey,Daydream,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,85,1,1
+2023-09-08,86,RE,--,False,False,10,--,The Lucky One (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,2,23,1
+2023-09-08,87,RE,--,False,False,10,--,Sad Beautiful Tragic (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,7,40,1
+2023-09-08,88,RE,--,False,False,10,--,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,5,43,1
+2023-09-08,89,RE,--,False,False,10,--,Stay Stay Stay (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,6,28,1
+2023-09-08,90,RE,--,False,False,10,--,I Almost Do (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,9,24,1
+2023-09-08,91,RE,--,False,False,10,--,ANTIFRAGILE,LE SSERAFIM,ANTIFRAGILE,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,2,29,1
+2023-09-08,92,RE,--,False,False,10,--,The Feels,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,4,41,1
+2023-09-08,93,RE,--,False,False,10,--,Killin’ Me Good,Jihyo,ZONE,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,58,2,1
+2023-09-08,94,RE,--,False,False,10,--,Kitsch,IVE,Kitsch,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,6,12,1
+2023-09-08,95,RE,--,False,False,10,--,Ready For Love,BLACKPINK,BORN PINK,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,30,4,1
+2023-09-08,96,NEW,--,True,False,10,--,U Can't Touch This,MC Hammer,Please Hammer Don't Hurt 'Em,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,96,1,1
+2023-09-08,97,RE,--,False,False,10,--,Unwell,Matchbox Twenty,More Than You Think You Are,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,7,4,1
+2023-09-08,98,NEW,--,True,False,10,--,Material Girl,Madonna,Celebration (Double Disc Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,98,1,1
+2023-09-08,99,NEW,--,True,False,10,--,Wake Me Up Before You Go-Go,Wham!,Make It Big,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,99,1,1
+2023-09-08,100,RE,--,False,False,10,--,Karma,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,3,26,1
