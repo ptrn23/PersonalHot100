@@ -89,6 +89,6 @@ def process_weekly_charts(year, specific_week=None):
     save_album_cover_cache(album_cover_cache)
 
 if __name__ == "__main__":
-    year = 2025
-    specific_week = "06-06"  # Change to None to process all weeks
+    year = 2023
+    specific_week = "10-27"  # Change to None to process all weeks
     process_weekly_charts(year, specific_week)

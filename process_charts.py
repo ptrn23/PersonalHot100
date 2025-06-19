@@ -5,24 +5,34 @@ from collections import defaultdict
 from key import API_KEY, API_SECRET
 from points.album_cover import get_album_cover, get_dominant_color, rgb_to_hex
 
-YEAR = 2022
+YEAR = 2025
 POINTS_DIR = f'points/{YEAR}'
 OUTPUT_FILE = f'charts/{YEAR}.csv'
 COLORS_FILE = f'colors/{YEAR}_colors.txt'
-COVER_CACHE_FILE = 'album_covers.csv'
+ALBUM_COVERS_FILE = "album_covers.csv"
 
-INCLUDED_ARTISTS = ["Taylor Swift"]
+INCLUDED_ARTISTS = ["Ariana Grande"]
 INCLUDED_ALBUMS = ["ALL"]
 
 GENERATE_COLORS = True
 
-cover_cache = {}
-if os.path.exists(COVER_CACHE_FILE):
-    with open(COVER_CACHE_FILE, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            key = (row['Album'], row['Artist'])
-            cover_cache[key] = row['Cover URL']
+def load_album_cover_cache():
+    album_cover_cache = {}
+    if os.path.exists(ALBUM_COVERS_FILE):
+        with open(ALBUM_COVERS_FILE, "r", encoding="utf-8") as f:
+            reader = csv.reader(f)
+            next(reader)
+            for row in reader:
+                album, artist, cover_url = row
+                album_cover_cache[(album, artist)] = cover_url
+    return album_cover_cache
+
+def save_album_cover_cache(album_cover_cache):
+    with open(ALBUM_COVERS_FILE, "w", encoding="utf-8", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(['Album', 'Artist', 'Cover URL'])
+        for (album, artist), cover_url in album_cover_cache.items():
+            writer.writerow([album, artist, cover_url])
 
 def format_week(week_str):
     dt = datetime.strptime(f"{YEAR}-{week_str}", "%Y-%m-%d")
@@ -62,31 +72,31 @@ for week_idx, week in enumerate(weeks):
 with open(OUTPUT_FILE, 'w', encoding='utf-8', newline='') as f:
     writer = csv.writer(f)
     writer.writerow(["Song Name", "Artist Name", "Album Name", "Image Link"] + weeks)
+    
+    album_cover_cache = load_album_cover_cache()
 
     for (song, artist), data in flourish_data.items():
         album = data["album"]
         if ("ALL" in INCLUDED_ARTISTS or artist in INCLUDED_ARTISTS) and \
            ("ALL" in INCLUDED_ALBUMS or album in INCLUDED_ALBUMS):
 
-            cover_key = (album, artist)
-            if cover_key in cover_cache:
-                image_url = cover_cache[cover_key]
+            key = (album, artist)
+            
+            if key in album_cover_cache:
+                cover_url = album_cover_cache[key]
             else:
-                image_url = get_album_cover(album, artist)
-                cover_cache[cover_key] = image_url
+                cover_url = get_album_cover(album, artist)
+                album_cover_cache[key] = cover_url
 
-            writer.writerow([song, artist, album, image_url] + data["positions"])
+            writer.writerow([song, artist, album, cover_url] + data["positions"])
 
 print(f"Chart data saved to {OUTPUT_FILE}")
 
-with open(COVER_CACHE_FILE, 'w', encoding='utf-8', newline='') as f:
-    writer = csv.writer(f)
-    writer.writerow(["Album", "Artist", "Image Link"])
-    for (album, artist), url in cover_cache.items():
-        writer.writerow([album, artist, url])
+save_album_cover_cache(album_cover_cache)
 
 if GENERATE_COLORS:
     album_color_cache = {}
+    album_cover_cache = load_album_cover_cache()
 
     with open(COLORS_FILE, 'w', encoding='utf-8') as f:
         for (song, artist), data in flourish_data.items():
@@ -98,7 +108,7 @@ if GENERATE_COLORS:
                 if album in album_color_cache:
                     hex_color = album_color_cache[album]
                 else:
-                    cover_url = cover_cache.get((album, artist))
+                    cover_url = album_cover_cache.get((album, artist))
                     if cover_url:
                         dominant_rgb = get_dominant_color(cover_url)
                         hex_color = rgb_to_hex(dominant_rgb)

@@ -26,7 +26,7 @@ def get_album_cover(album_name, artist_name):
             return images[-1]['#text']
     return ""
 
-def get_dominant_color(image_url, brightness_min = 75, brightness_max = 175, saturation_threshold = 0.15):
+def get_dominant_color(image_url, brightness_min = 100, brightness_max = 175, saturation_threshold = 0.15):
     """
     Fetch the most dominant bright hue of an image from a URL, avoiding white and dark colors.
 
