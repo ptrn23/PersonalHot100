@@ -31,6 +31,15 @@ all_songs = defaultdict(lambda: {
 ranked_weeks = []
 original_song_names = {}
 
+def stable_seed(song: str, album: str, artist: str) -> int:
+    combo = f"{song}|{album}|{artist}"
+    return sum((i + 1) * ord(char) for i, char in enumerate(combo))
+    
+def apply_deviation(base_value: int, seed: int, scale: float = 0.1, mod: int = 100) -> int:
+    deviation = ((seed % mod) / mod - 0.5) * 2 * scale
+    print(deviation)
+    return int(base_value * (1 + deviation))
+
 for year in YEARS:
     PLAYS_DIR = f"plays/{year}"
     POINTS_DIR = f"points/{year}"
@@ -111,10 +120,12 @@ for year in YEARS:
             air_pts = ceil(airplay * 2000 / 1000)
             week_total_points = ceil(total_points + ceil(prev_pts * 0.3) + ceil(two_weeks_pts * 0.2))
 
-            stream_units = ceil(streams * 5250 * 275)
-            sale_units = ceil(sales * 252)
-            air_units = ceil(airplay * 2250 * 5020)
-            total_units = ceil((streams + sales + airplay) * 1750 * 2)
+            seed = stable_seed(song, album, artist)
+            
+            stream_units = apply_deviation(ceil(streams * 5250 * 275), seed + 1)
+            sale_units = apply_deviation(ceil(sales * 252), seed + 2)
+            air_units = apply_deviation(ceil(airplay * 2250 * 5020), seed + 3)
+            total_units = apply_deviation(ceil((streams + sales + airplay) * 1750 * 2), seed + 4)
 
             if prev_pts == 0:
                 percent_change = "--"

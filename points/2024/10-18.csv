@@ -1,101 +1,101 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2024-10-18,1,+2,3,True,True,217,0.07,Sugar We're Goin Down,Fall Out Boy,From Under the Cork Tree,10,10,1,50,30,2,14437500,2520,11295000,0.81,0.09,0.1,73500,82,61,74,1,7,5
-2024-10-18,2,=,2,False,False,198,-0.07,Nice Guys Finish Last,Green Day,Nimrod,11,11,1,55,33,2,15881250,2772,11295000,0.82,0.09,0.09,80500,90,64,44,1,41,7
-2024-10-18,3,+6,9,False,False,196,0.27,What's My Age Again?,blink-182,Enema of the State,13,13,1,65,39,2,18768750,3276,11295000,0.83,0.09,0.08,94500,106,47,43,1,13,2
-2024-10-18,4,+2,6,False,False,187,0.11,Breakaway,Kelly Clarkson,Breakaway,10,10,1,50,30,2,14437500,2520,11295000,0.81,0.09,0.1,73500,82,51,54,2,51,1
-2024-10-18,5,+2,7,False,False,171,0.03,I'm Not Okay (I Promise),My Chemical Romance,Three Cheers for Sweet Revenge,9,9,1,45,27,2,12993750,2268,11295000,0.8,0.09,0.11,66500,74,50,47,3,35,1
-2024-10-18,6,-2,4,False,False,158,-0.1,Wake Me Up When September Ends,Green Day,American Idiot,7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,53,47,1,41,2
-2024-10-18,7,+12,19,True,False,153,0.26,Sk8er Boi,Avril Lavigne,Let Go,9,9,1,45,27,2,12993750,2268,11295000,0.8,0.09,0.11,66500,74,37,42,7,23,1
-2024-10-18,8,+2,10,False,False,147,-0.03,Don't Leave Me,blink-182,Enema of the State,7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,46,43,4,10,2
-2024-10-18,9,+4,13,True,False,142,0.0,I Don't Care,Fall Out Boy,Folie à deux,9,9,1,45,27,2,12993750,2268,11295000,0.8,0.09,0.11,66500,74,43,25,9,4,1
-2024-10-18,10,-2,8,False,False,139,-0.16,Hitchin' a Ride,Green Day,Nimrod,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,50,39,2,41,7
-2024-10-18,11,+23,34,False,False,134,0.76,Dead!,My Chemical Romance,The Black Parade,13,13,1,65,39,2,18768750,3276,11295000,0.83,0.09,0.08,94500,106,23,5,5,35,2
-2024-10-18,12,-11,1,False,False,133,-0.44,Way Back Into Love,Hugh Grant,Music And Lyrics - Music From and Inspired By The Motion Picture (International Release),4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,72,27,1,3,1
-2024-10-18,13,+4,17,False,False,128,0.01,Dance Dance,Fall Out Boy,From Under the Cork Tree,7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,39,31,6,8,1
-2024-10-18,14,+61,75,False,False,125,1.5,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),14,12,2,70,36,4,20212500,3024,22590000,0.78,0.08,0.14,98000,110,15,0,1,95,1
-2024-10-18,15,-3,12,False,False,122,-0.15,Ignorance,Paramore,brand new eyes,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,44,36,4,7,1
-2024-10-18,16,-5,11,False,False,120,-0.19,Thnks fr th Mmrs,Fall Out Boy,Infinity on High,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,45,33,7,7,1
-2024-10-18,17,NEW,--,True,False,117,--,Dilaw,Maki,Dilaw,15,10,6,75,30,12,21656250,2520,67770000,0.63,0.05,0.32,108500,117,0,0,17,1,1
-2024-10-18,18,-4,14,False,False,116,-0.13,Uptight,Green Day,Nimrod,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,40,26,1,32,6
-2024-10-18,19,+11,30,False,False,115,0.4,Whatsername,Green Day,American Idiot,9,9,1,45,27,2,12993750,2268,11295000,0.8,0.09,0.11,66500,74,25,16,8,33,2
-2024-10-18,20,=,20,False,False,112,-0.07,I Do Not Hook Up,Kelly Clarkson,All I Ever Wanted,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,37,33,1,17,1
-2024-10-18,21,=,21,False,False,112,0.06,Breed,Nirvana,Nevermind (Remastered),6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,32,30,9,7,1
-2024-10-18,22,-17,5,False,False,110,-0.36,Redundant,Green Day,Nimrod,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,52,8,1,32,1
-2024-10-18,23,+10,33,False,False,110,0.43,I Don't Love You,My Chemical Romance,The Black Parade,9,9,1,45,27,2,12993750,2268,11295000,0.8,0.09,0.11,66500,74,24,12,6,33,2
-2024-10-18,24,-6,18,False,False,109,-0.13,All the Time,Green Day,Nimrod,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,38,29,2,22,1
-2024-10-18,25,-1,24,False,False,109,0.12,Aliens Exist,blink-182,Enema of the State,7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,30,21,9,10,1
-2024-10-18,26,-10,16,False,False,106,-0.18,Helena,My Chemical Romance,Three Cheers for Sweet Revenge,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,39,33,3,35,1
-2024-10-18,27,-4,23,False,False,106,0.06,All the Small Things,blink-182,Enema of the State,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,30,34,2,19,2
-2024-10-18,28,-13,15,False,False,105,-0.2,American Idiot,Green Day,American Idiot,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,40,31,1,34,1
-2024-10-18,29,-7,22,False,False,102,-0.01,Adam's Song,blink-182,Enema of the State,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,31,29,8,10,1
-2024-10-18,30,+51,81,True,False,89,0.78,Burnout,Green Day,Dookie,9,9,1,45,27,2,12993750,2268,11295000,0.8,0.09,0.11,66500,74,15,0,30,2,1
-2024-10-18,31,NEW,--,True,False,88,--,Mantra,Jennie,Mantra,11,9,3,55,27,6,15881250,2268,33885000,0.7,0.06,0.24,80500,88,0,0,31,1,1
-2024-10-18,32,-4,28,False,False,82,-0.08,Beautiful Disaster,Kelly Clarkson,Thankful,2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,27,37,3,17,1
-2024-10-18,33,-7,26,False,False,81,-0.14,I Look in People's Windows,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,29,26,4,22,1
-2024-10-18,34,+25,59,False,False,76,0.31,The American Dream Is Killing Me,Green Day,Saviors,7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,18,0,3,21,1
-2024-10-18,35,+15,50,False,False,75,0.21,That's What You Get,Paramore,RIOT!,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,19,14,23,10,1
-2024-10-18,36,RE,--,False,False,74,--,Mobile,Avril Lavigne,Let Go,9,9,1,45,27,2,12993750,2268,11295000,0.8,0.09,0.11,66500,74,0,0,1,19,1
-2024-10-18,37,RE,--,False,False,74,--,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),9,9,1,45,27,2,12993750,2268,11295000,0.8,0.09,0.11,66500,74,0,0,1,93,5
-2024-10-18,38,+25,63,False,False,74,0.28,Bulletproof Heart,My Chemical Romance,Danger Days: The True Lives of the Fabulous Killjoys,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,18,6,36,10,1
-2024-10-18,39,RE,--,False,False,73,--,Famous Last Words,My Chemical Romance,The Black Parade,8,8,1,40,24,2,11550000,2016,11295000,0.79,0.09,0.12,59500,66,0,7,8,15,2
-2024-10-18,40,+3,43,False,False,70,-0.03,Welcome to Paradise,Green Day,Kerplunk!,5,5,2,25,15,4,7218750,1260,22590000,0.62,0.07,0.31,42000,44,22,4,29,23,1
-2024-10-18,41,=,41,False,False,68,-0.07,Before Your Love,Kelly Clarkson,Thankful,2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,22,28,5,16,2
-2024-10-18,42,+28,70,False,False,69,0.28,The Sharpest Lives,My Chemical Romance,The Black Parade,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,17,10,4,20,2
-2024-10-18,43,+18,61,False,False,68,0.17,Longview,Green Day,Dookie,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,18,0,25,15,1
-2024-10-18,44,+49,93,False,False,69,0.44,Saviors,Green Day,Saviors,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,15,4,7,19,3
-2024-10-18,45,+21,66,False,False,69,0.23,Tuwing Umuulan At Kapiling Ka,Eraserheads,Anthology,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,17,26,30,3,1
-2024-10-18,46,+14,60,False,False,68,0.17,Dilemma,Green Day,Saviors,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,18,0,7,33,1
-2024-10-18,47,RE,--,False,False,67,--,I Wish You Would (Taylor's Version),Taylor Swift,1989 (Taylor's Version),9,4,5,45,12,10,12993750,1008,56475000,0.57,0.03,0.4,63000,67,0,0,3,19,1
-2024-10-18,48,RE,--,False,False,66,--,Jesus of Suburbia,Green Day,American Idiot,8,8,1,40,24,2,11550000,2016,11295000,0.79,0.09,0.12,59500,66,0,0,11,24,1
-2024-10-18,49,NEW,--,True,False,66,--,Wow! That's Loud,Green Day,¡Dos!,8,8,1,40,24,2,11550000,2016,11295000,0.79,0.09,0.12,59500,66,0,0,49,1,1
-2024-10-18,50,RE,--,True,False,66,--,Church on Sunday,Green Day,Warning,8,8,1,40,24,2,11550000,2016,11295000,0.79,0.09,0.12,59500,66,0,0,50,3,1
-2024-10-18,51,RE,--,True,False,66,--,Losing Grip,Avril Lavigne,Let Go,8,8,1,40,24,2,11550000,2016,11295000,0.79,0.09,0.12,59500,66,0,0,51,5,1
-2024-10-18,52,-25,27,False,False,66,-0.27,Know Your Enemy,Green Day,21st Century Breakdown,4,3,2,20,9,4,5775000,756,22590000,0.59,0.05,0.37,31500,33,28,5,17,18,1
-2024-10-18,53,RE,--,False,False,62,--,How You Get the Girl (Taylor's Version),Taylor Swift,1989 (Taylor's Version),8,4,5,40,12,10,11550000,1008,56475000,0.54,0.03,0.43,59500,62,0,0,15,10,1
-2024-10-18,54,-9,45,False,False,62,-0.09,Never Again,Kelly Clarkson,My December,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,21,7,24,12,1
-2024-10-18,55,-18,37,False,False,61,-0.19,Complicated,Avril Lavigne,Let Go,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,23,12,26,21,2
-2024-10-18,56,-20,36,False,False,59,-0.22,A Moment Like This,Kelly Clarkson,Thankful,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,23,26,3,16,1
-2024-10-18,57,RE,--,False,False,58,--,Last of the American Girls,Green Day,21st Century Breakdown,7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,0,0,23,22,1
-2024-10-18,58,RE,--,False,False,58,--,Warning,Green Day,Warning,7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,0,0,20,10,1
-2024-10-18,59,-28,31,False,False,58,-0.28,Good Riddance (Time of Your Life),Green Day,Nimrod,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,24,0,12,33,1
-2024-10-18,60,RE,--,False,False,58,--,Waiting,Green Day,Warning,7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,0,0,25,9,1
-2024-10-18,61,+7,68,False,False,58,0.05,The Take Over the Breaks Over,Fall Out Boy,Infinity on High,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,17,7,51,6,1
-2024-10-18,62,RE,--,False,False,58,--,Before the Lobotomy,Green Day,21st Century Breakdown,7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,0,0,1,22,2
-2024-10-18,63,RE,--,False,False,58,--,Buddy Holly,Weezer,Weezer,7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,0,0,5,14,1
-2024-10-18,64,RE,--,False,False,58,--,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),7,7,1,35,21,2,10106250,1764,11295000,0.77,0.09,0.14,52500,58,0,0,1,86,1
-2024-10-18,65,+20,85,False,False,57,0.14,Desensitized,Green Day,Shenanigans,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,15,0,5,13,1
-2024-10-18,66,+16,82,False,False,57,0.14,Keep Holding On,Avril Lavigne,The Best Damn Thing (Expanded Edition),5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,15,0,38,5,1
-2024-10-18,67,-29,38,False,False,57,-0.24,Miss Independent,Kelly Clarkson,Thankful,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,23,24,9,16,2
-2024-10-18,68,+22,90,False,False,57,0.14,Addicted,Kelly Clarkson,Breakaway,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,15,0,60,7,1
-2024-10-18,69,+22,91,False,False,57,0.16,Geek Stink Breath,Green Day,Insomniac,5,5,1,25,15,2,7218750,1260,11295000,0.73,0.08,0.18,38500,42,15,0,6,21,1
-2024-10-18,70,RE,--,False,False,56,--,Cry,Kelly Clarkson,All I Ever Wanted,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,0,6,2,12,1
-2024-10-18,71,-23,48,False,False,56,-0.12,Basket Case,Green Day,Dookie,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,20,10,2,25,1
-2024-10-18,72,-21,51,False,False,57,-0.08,I'm with You,Avril Lavigne,Let Go,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,19,12,33,13,1
-2024-10-18,73,+1,74,False,False,56,0.12,99 Revolutions,Green Day,¡Tré!,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,15,7,64,5,1
-2024-10-18,74,-28,46,False,False,55,-0.18,Misery Business,Paramore,RIOT!,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,21,0,15,6,1
-2024-10-18,75,-23,52,False,False,54,-0.11,Bring Me to Life,Evanescence,Fallen,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,19,9,48,6,1
-2024-10-18,76,-11,65,False,False,53,-0.05,My Songs Know What You Did in the Dark (Light Em Up),Fall Out Boy,Save Rock and Roll,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,17,10,41,7,1
-2024-10-18,77,-21,56,False,False,52,-0.1,Dysentery Gary,blink-182,Enema of the State,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,18,0,17,5,1
-2024-10-18,78,-21,57,False,False,52,-0.1,See the Light,Green Day,21st Century Breakdown,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,18,0,57,4,1
-2024-10-18,79,-15,64,False,False,52,-0.1,Platypus (I Hate You),Green Day,Nimrod,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,18,0,14,18,1
-2024-10-18,80,-13,67,False,False,51,-0.07,Girlfriend,Avril Lavigne,The Best Damn Thing (Expanded Edition),4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,17,0,21,22,1
-2024-10-18,81,-12,69,False,False,51,-0.06,Holiday / Boulevard of Broken Dreams,Green Day,American Idiot,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,17,0,5,18,1
-2024-10-18,82,-43,39,False,False,52,-0.31,Too Much Too Soon,Green Day,American Idiot - Deluxe,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,23,19,5,36,1
-2024-10-18,83,RE,--,False,False,50,--,The Ghost of You,My Chemical Romance,Three Cheers for Sweet Revenge,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,0,0,12,8,1
-2024-10-18,84,RE,--,False,False,50,--,Nuclear Family,Green Day,¡Uno!,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,0,0,80,5,1
-2024-10-18,85,RE,--,False,False,50,--,SING,My Chemical Romance,Danger Days: The True Lives of the Fabulous Killjoys,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,0,0,30,10,1
-2024-10-18,86,NEW,--,True,False,50,--,Having a Blast,Green Day,Dookie,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,0,0,86,1,1
-2024-10-18,87,RE,--,False,False,50,--,Worry Rock,Green Day,Nimrod,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,0,0,2,17,1
-2024-10-18,88,RE,--,False,False,50,--,You Know What They Do to Guys Like Us in Prison,My Chemical Romance,Three Cheers for Sweet Revenge,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,0,0,23,7,1
-2024-10-18,89,RE,--,False,False,50,--,The Grouch,Green Day,Nimrod,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,0,0,17,17,1
-2024-10-18,90,RE,--,False,False,50,--,Horseshoes and Handgrenades,Green Day,21st Century Breakdown,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,0,0,80,2,1
-2024-10-18,91,RE,--,False,False,50,--,The Static Age,Green Day,21st Century Breakdown,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,0,0,6,21,2
-2024-10-18,92,NEW,--,True,False,50,--,Stuart and the Ave.,Green Day,Insomniac,6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,0,0,92,1,1
-2024-10-18,93,RE,--,False,False,50,--,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),6,6,1,30,18,2,8662500,1512,11295000,0.76,0.09,0.16,45500,50,0,0,2,75,1
-2024-10-18,94,-2,92,False,False,49,0.0,Jinx,Green Day,Nimrod,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,15,0,7,17,2
-2024-10-18,95,-7,88,False,False,49,-0.02,Here's to Never Growing Up,Avril Lavigne,Avril Lavigne (Expanded Edition),4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,15,0,11,18,1
-2024-10-18,96,-10,86,False,False,49,-0.02,Do Da Da,Green Day,Shenanigans,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,15,0,18,9,1
-2024-10-18,97,-17,80,False,False,49,-0.02,Nobody's Home,Avril Lavigne,Under My Skin,4,4,1,20,12,2,5775000,1008,11295000,0.7,0.08,0.22,31500,34,15,0,1,15,1
-2024-10-18,98,-66,32,False,False,49,-0.37,21 Guns,Green Day,21st Century Breakdown,2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,24,7,4,34,1
-2024-10-18,99,RE,--,False,False,48,--,Lips of an Angel,Hinder,Extreme Behavior,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,38,11,12,1
-2024-10-18,100,-3,97,False,False,47,0.02,Homecoming,Green Day,American Idiot,3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,14,7,4,25,1
+2024-10-18,1,+2,3,True,True,217,0.07,Sugar We're Goin Down,Fall Out Boy,From Under the Cork Tree,10,10,1,50,30,2,13831125,2419,10865790,0.81,0.09,0.1,70854,82,61,74,1,7,5
+2024-10-18,2,=,2,False,False,198,-0.07,Nice Guys Finish Last,Green Day,Nimrod,11,11,1,55,33,2,16707075,2921,11927520,0.82,0.09,0.09,85169,90,64,44,1,41,7
+2024-10-18,3,+6,9,False,False,196,0.27,What's My Age Again?,blink-182,Enema of the State,13,13,1,65,39,2,19857337,3472,11995290,0.83,0.09,0.08,100548,106,47,43,1,13,2
+2024-10-18,4,+2,6,False,False,187,0.11,Breakaway,Kelly Clarkson,Breakaway,10,10,1,50,30,2,13195875,2308,10368810,0.81,0.09,0.1,67620,82,51,54,2,51,1
+2024-10-18,5,+2,7,False,False,171,0.03,I'm Not Okay (I Promise),My Chemical Romance,Three Cheers for Sweet Revenge,9,9,1,45,27,2,11694375,2045,10210680,0.8,0.09,0.11,60249,74,50,47,3,35,1
+2024-10-18,6,-2,4,False,False,158,-0.1,Wake Me Up When September Ends,Green Day,American Idiot,7,7,1,35,21,2,10894537,1905,12221190,0.77,0.09,0.14,56910,58,53,47,1,41,2
+2024-10-18,7,+12,19,True,False,153,0.26,Sk8er Boi,Avril Lavigne,Let Go,9,9,1,45,27,2,13903312,2431,12130830,0.8,0.09,0.11,71554,74,37,42,7,23,1
+2024-10-18,8,+2,10,False,False,147,-0.03,Don't Leave Me,blink-182,Enema of the State,7,7,1,35,21,2,10955175,1915,12288960,0.77,0.09,0.14,57225,58,46,43,4,10,2
+2024-10-18,9,+4,13,True,False,142,0.0,I Don't Care,Fall Out Boy,Folie à deux,9,9,1,45,27,2,13877325,2426,12108240,0.8,0.09,0.11,71421,74,43,25,9,4,1
+2024-10-18,10,-2,8,False,False,139,-0.16,Hitchin' a Ride,Green Day,Nimrod,6,6,1,30,18,2,7813575,1366,10233270,0.76,0.09,0.16,41314,50,50,39,2,41,7
+2024-10-18,11,+23,34,False,False,134,0.76,Dead!,My Chemical Romance,The Black Parade,13,13,1,65,39,2,17567550,3072,10617300,0.83,0.09,0.08,89019,106,23,5,5,35,2
+2024-10-18,12,-11,1,False,False,133,-0.44,Way Back Into Love,Hugh Grant,Music And Lyrics - Music From and Inspired By The Motion Picture (International Release),4,4,1,20,12,2,6260100,1094,12288960,0.7,0.08,0.22,34335,34,72,27,1,3,1
+2024-10-18,13,+4,17,False,False,128,0.01,Dance Dance,Fall Out Boy,From Under the Cork Tree,7,7,1,35,21,2,9681787,1693,10865790,0.77,0.09,0.14,50610,58,39,31,6,8,1
+2024-10-18,14,+61,75,False,False,125,1.5,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),14,12,2,70,36,4,21546525,3229,24171300,0.78,0.08,0.14,105056,110,15,0,1,95,1
+2024-10-18,15,-3,12,False,False,122,-0.15,Ignorance,Paramore,brand new eyes,5,5,1,25,15,2,6886687,1204,10820610,0.73,0.08,0.18,36960,42,44,36,4,7,1
+2024-10-18,16,-5,11,False,False,120,-0.19,Thnks fr th Mmrs,Fall Out Boy,Infinity on High,5,5,1,25,15,2,7276500,1272,11430540,0.73,0.08,0.18,39039,42,45,33,7,7,1
+2024-10-18,17,NEW,--,True,False,117,--,Dilaw,Maki,Dilaw,15,10,6,75,30,12,20746687,2419,65194740,0.63,0.05,0.32,104594,117,0,0,17,1,1
+2024-10-18,18,-4,14,False,False,116,-0.13,Uptight,Green Day,Nimrod,6,6,1,30,18,2,8783775,1536,11498310,0.76,0.09,0.16,46410,50,40,26,1,32,6
+2024-10-18,19,+11,30,False,False,115,0.4,Whatsername,Green Day,American Idiot,9,9,1,45,27,2,12292087,2150,10730250,0.8,0.09,0.11,63308,74,25,16,8,33,2
+2024-10-18,20,=,20,False,False,112,-0.07,I Do Not Hook Up,Kelly Clarkson,All I Ever Wanted,5,5,1,25,15,2,6930000,1212,10888380,0.73,0.08,0.18,37191,42,37,33,1,17,1
+2024-10-18,21,=,21,False,False,112,0.06,Breed,Nirvana,Nevermind (Remastered),6,6,1,30,18,2,8870400,1551,11611260,0.76,0.09,0.16,46865,50,32,30,9,7,1
+2024-10-18,22,-17,5,False,False,110,-0.36,Redundant,Green Day,Nimrod,6,6,1,30,18,2,9424800,1648,12334140,0.76,0.09,0.16,49777,50,52,8,1,32,1
+2024-10-18,23,+10,33,False,False,110,0.43,I Don't Love You,My Chemical Romance,The Black Parade,9,9,1,45,27,2,12733875,2227,11114280,0.8,0.09,0.11,65569,74,24,12,6,33,2
+2024-10-18,24,-6,18,False,False,109,-0.13,All the Time,Green Day,Nimrod,5,5,1,25,15,2,7161000,1252,11249820,0.73,0.08,0.18,38423,42,38,29,2,22,1
+2024-10-18,25,-1,24,False,False,109,0.12,Aliens Exist,blink-182,Enema of the State,7,7,1,35,21,2,9782850,1711,10978740,0.77,0.09,0.14,51135,58,30,21,9,10,1
+2024-10-18,26,-10,16,False,False,106,-0.18,Helena,My Chemical Romance,Three Cheers for Sweet Revenge,4,4,1,20,12,2,6006000,1050,11791980,0.7,0.08,0.22,32949,34,39,33,3,35,1
+2024-10-18,27,-4,23,False,False,106,0.06,All the Small Things,blink-182,Enema of the State,5,5,1,25,15,2,7493062,1310,11769390,0.73,0.08,0.18,40194,42,30,34,2,19,2
+2024-10-18,28,-13,15,False,False,105,-0.2,American Idiot,Green Day,American Idiot,4,4,1,20,12,2,5255250,919,10323630,0.7,0.08,0.22,28854,34,40,31,1,34,1
+2024-10-18,29,-7,22,False,False,102,-0.01,Adam's Song,blink-182,Enema of the State,5,5,1,25,15,2,6828937,1194,10730250,0.73,0.08,0.18,36652,42,31,29,8,10,1
+2024-10-18,30,+51,81,True,False,89,0.78,Burnout,Green Day,Dookie,9,9,1,45,27,2,12318075,2154,10752840,0.8,0.09,0.11,63441,74,15,0,30,2,1
+2024-10-18,31,NEW,--,True,False,88,--,Mantra,Jennie,Mantra,11,9,3,55,27,6,14515462,2077,31106429,0.7,0.06,0.24,74060,88,0,0,31,1,1
+2024-10-18,32,-4,28,False,False,82,-0.08,Beautiful Disaster,Kelly Clarkson,Thankful,2,2,1,10,6,2,2662275,465,10459170,0.58,0.06,0.36,16240,18,27,37,3,17,1
+2024-10-18,33,-7,26,False,False,81,-0.14,I Look in People's Windows,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,3,3,1,15,9,2,4686412,819,12266370,0.65,0.07,0.27,26656,26,29,26,4,22,1
+2024-10-18,34,+25,59,False,False,76,0.31,The American Dream Is Killing Me,Green Day,Saviors,7,7,1,35,21,2,10389225,1816,11656440,0.77,0.09,0.14,54285,58,18,0,3,21,1
+2024-10-18,35,+15,50,False,False,75,0.21,That's What You Get,Paramore,RIOT!,5,5,1,25,15,2,7002187,1224,11001330,0.73,0.08,0.18,37576,42,19,14,23,10,1
+2024-10-18,36,RE,--,False,False,74,--,Mobile,Avril Lavigne,Let Go,9,9,1,45,27,2,14215162,2485,12401910,0.8,0.09,0.11,59850,74,0,0,1,19,1
+2024-10-18,37,RE,--,False,False,74,--,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),9,9,1,45,27,2,13617450,2381,11882340,0.8,0.09,0.11,70091,74,0,0,1,93,5
+2024-10-18,38,+25,63,False,False,74,0.28,Bulletproof Heart,My Chemical Romance,Danger Days: The True Lives of the Fabulous Killjoys,6,6,1,30,18,2,8142750,1424,10662480,0.76,0.09,0.16,43043,50,18,6,36,10,1
+2024-10-18,39,RE,--,False,False,73,--,Famous Last Words,My Chemical Romance,The Black Parade,8,8,1,40,24,2,10464300,1830,10278450,0.79,0.09,0.12,54264,66,0,7,8,15,2
+2024-10-18,40,+3,43,False,False,70,-0.03,Welcome to Paradise,Green Day,Kerplunk!,5,5,2,25,15,4,7146562,1249,22454460,0.62,0.07,0.31,41832,44,22,4,29,23,1
+2024-10-18,41,=,41,False,False,68,-0.07,Before Your Love,Kelly Clarkson,Thankful,2,2,1,10,6,2,3083850,539,12108240,0.58,0.06,0.36,18795,18,22,28,5,16,2
+2024-10-18,42,+28,70,False,False,69,0.28,The Sharpest Lives,My Chemical Romance,The Black Parade,5,5,1,25,15,2,6699000,1171,10526940,0.73,0.08,0.18,35959,42,17,10,4,20,2
+2024-10-18,43,+18,61,False,False,68,0.17,Longview,Green Day,Dookie,6,6,1,30,18,2,8801100,1539,11520900,0.76,0.09,0.16,46501,50,18,0,25,15,1
+2024-10-18,44,+49,93,False,False,69,0.44,Saviors,Green Day,Saviors,6,6,1,30,18,2,8489250,1484,11114280,0.76,0.09,0.16,44863,50,15,4,7,19,3
+2024-10-18,45,+21,66,False,False,69,0.23,Tuwing Umuulan At Kapiling Ka,Eraserheads,Anthology,3,3,1,15,9,2,4677750,817,12243780,0.65,0.07,0.27,26607,26,17,26,30,3,1
+2024-10-18,46,+14,60,False,False,68,0.17,Dilemma,Green Day,Saviors,6,6,1,30,18,2,8298675,1451,10865790,0.76,0.09,0.16,43862,50,18,0,7,33,1
+2024-10-18,47,RE,--,False,False,67,--,I Wish You Would (Taylor's Version),Taylor Swift,1989 (Taylor's Version),9,4,5,45,12,10,13149675,1022,57378600,0.57,0.03,0.4,64134,67,0,0,3,19,1
+2024-10-18,48,RE,--,False,False,66,--,Jesus of Suburbia,Green Day,American Idiot,8,8,1,40,24,2,12381600,2165,12153420,0.79,0.09,0.12,64141,66,0,0,11,24,1
+2024-10-18,49,NEW,--,True,False,66,--,Wow! That's Loud,Green Day,¡Dos!,8,8,1,40,24,2,12520200,2189,12288960,0.79,0.09,0.12,64855,66,0,0,49,1,1
+2024-10-18,50,RE,--,True,False,66,--,Church on Sunday,Green Day,Warning,8,8,1,40,24,2,11434500,1999,11227230,0.79,0.09,0.12,59262,66,0,0,50,3,1
+2024-10-18,51,RE,--,True,False,66,--,Losing Grip,Avril Lavigne,Let Go,8,8,1,40,24,2,10487400,1834,10301040,0.79,0.09,0.12,54383,66,0,0,51,5,1
+2024-10-18,52,-25,27,False,False,66,-0.27,Know Your Enemy,Green Day,21st Century Breakdown,4,3,2,20,9,4,5555550,728,21821940,0.59,0.05,0.37,30492,33,28,5,17,18,1
+2024-10-18,53,RE,--,False,False,62,--,How You Get the Girl (Taylor's Version),Taylor Swift,1989 (Taylor's Version),8,4,5,40,12,10,11988900,1048,58846950,0.54,0.03,0.43,62118,62,0,0,15,10,1
+2024-10-18,54,-9,45,False,False,62,-0.09,Never Again,Kelly Clarkson,My December,4,4,1,20,12,2,5567100,973,10933560,0.7,0.08,0.22,30555,34,21,7,24,12,1
+2024-10-18,55,-18,37,False,False,61,-0.19,Complicated,Avril Lavigne,Let Go,3,3,1,15,9,2,4158000,727,10888380,0.65,0.07,0.27,23667,26,23,12,26,21,2
+2024-10-18,56,-20,36,False,False,59,-0.22,A Moment Like This,Kelly Clarkson,Thankful,1,1,1,5,3,2,1302262,227,10233270,0.42,0.05,0.53,9534,10,23,26,3,16,1
+2024-10-18,57,RE,--,False,False,58,--,Last of the American Girls,Green Day,21st Century Breakdown,7,7,1,35,21,2,11076450,1936,10165500,0.77,0.09,0.14,47355,58,0,0,23,22,1
+2024-10-18,58,RE,--,False,False,58,--,Warning,Green Day,Warning,7,7,1,35,21,2,10146675,1774,11385360,0.77,0.09,0.14,53025,58,0,0,20,10,1
+2024-10-18,59,-28,31,False,False,58,-0.28,Good Riddance (Time of Your Life),Green Day,Nimrod,4,4,1,20,12,2,5659500,989,11114280,0.7,0.08,0.22,31059,34,24,0,12,33,1
+2024-10-18,60,RE,--,False,False,58,--,Waiting,Green Day,Warning,7,7,1,35,21,2,10086037,1764,11317590,0.77,0.09,0.14,52710,58,0,0,25,9,1
+2024-10-18,61,+7,68,False,False,58,0.05,The Take Over the Breaks Over,Fall Out Boy,Infinity on High,4,4,1,20,12,2,5740350,1003,11272410,0.7,0.08,0.22,31500,34,17,7,51,6,1
+2024-10-18,62,RE,--,False,False,58,--,Before the Lobotomy,Green Day,21st Century Breakdown,7,7,1,35,21,2,10975387,1919,12311550,0.77,0.09,0.14,57330,58,0,0,1,22,2
+2024-10-18,63,RE,--,False,False,58,--,Buddy Holly,Weezer,Weezer,7,7,1,35,21,2,10328587,1806,11588670,0.77,0.09,0.14,53970,58,0,0,5,14,1
+2024-10-18,64,RE,--,False,False,58,--,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),7,7,1,35,21,2,9964762,1742,11182050,0.77,0.09,0.14,52080,58,0,0,1,86,1
+2024-10-18,65,+20,85,False,False,57,0.14,Desensitized,Green Day,Shenanigans,5,5,1,25,15,2,6583500,1151,10346220,0.73,0.08,0.18,35343,42,15,0,5,13,1
+2024-10-18,66,+16,82,False,False,57,0.14,Keep Holding On,Avril Lavigne,The Best Damn Thing (Expanded Edition),5,5,1,25,15,2,7767375,1358,12198600,0.73,0.08,0.18,41657,42,15,0,38,5,1
+2024-10-18,67,-29,38,False,False,57,-0.24,Miss Independent,Kelly Clarkson,Thankful,1,1,1,5,3,2,1469737,257,11543490,0.42,0.05,0.53,10752,10,23,24,9,16,2
+2024-10-18,68,+22,90,False,False,57,0.14,Addicted,Kelly Clarkson,Breakaway,5,5,1,25,15,2,7204312,1260,11317590,0.73,0.08,0.18,38654,42,15,0,60,7,1
+2024-10-18,69,+22,91,False,False,57,0.16,Geek Stink Breath,Green Day,Insomniac,5,5,1,25,15,2,6756750,1181,10617300,0.73,0.08,0.18,36267,42,15,0,6,21,1
+2024-10-18,70,RE,--,False,False,56,--,Cry,Kelly Clarkson,All I Ever Wanted,6,6,1,30,18,2,9494100,1660,10165500,0.76,0.09,0.16,41041,50,0,6,2,12,1
+2024-10-18,71,-23,48,False,False,56,-0.12,Basket Case,Green Day,Dookie,3,3,1,15,9,2,4461187,780,11679030,0.65,0.07,0.27,25382,26,20,10,2,25,1
+2024-10-18,72,-21,51,False,False,57,-0.08,I'm with You,Avril Lavigne,Let Go,3,3,1,15,9,2,4400550,769,11520900,0.65,0.07,0.27,25039,26,19,12,33,13,1
+2024-10-18,73,+1,74,False,False,56,0.12,99 Revolutions,Green Day,¡Tré!,4,4,1,20,12,2,5209050,911,10233270,0.7,0.08,0.22,28602,34,15,7,64,5,1
+2024-10-18,74,-28,46,False,False,55,-0.18,Misery Business,Paramore,RIOT!,4,4,1,20,12,2,5567100,973,10933560,0.7,0.08,0.22,30555,34,21,0,15,6,1
+2024-10-18,75,-23,52,False,False,54,-0.11,Bring Me to Life,Evanescence,Fallen,3,3,1,15,9,2,4166662,728,10910970,0.65,0.07,0.27,23716,26,19,9,48,6,1
+2024-10-18,76,-11,65,False,False,53,-0.05,My Songs Know What You Did in the Dark (Light Em Up),Fall Out Boy,Save Rock and Roll,3,3,1,15,9,2,4331250,757,11340180,0.65,0.07,0.27,24647,26,17,10,41,7,1
+2024-10-18,77,-21,56,False,False,52,-0.1,Dysentery Gary,blink-182,Enema of the State,4,4,1,20,12,2,6294750,1100,12356730,0.7,0.08,0.22,34524,34,18,0,17,5,1
+2024-10-18,78,-21,57,False,False,52,-0.1,See the Light,Green Day,21st Century Breakdown,4,4,1,20,12,2,6248550,1092,12266370,0.7,0.08,0.22,34272,34,18,0,57,4,1
+2024-10-18,79,-15,64,False,False,52,-0.1,Platypus (I Hate You),Green Day,Nimrod,4,4,1,20,12,2,6317850,1104,12401910,0.7,0.08,0.22,28350,34,18,0,14,18,1
+2024-10-18,80,-13,67,False,False,51,-0.07,Girlfriend,Avril Lavigne,The Best Damn Thing (Expanded Edition),4,4,1,20,12,2,5497800,961,10798020,0.7,0.08,0.22,30177,34,17,0,21,22,1
+2024-10-18,81,-12,69,False,False,51,-0.06,Holiday / Boulevard of Broken Dreams,Green Day,American Idiot,4,4,1,20,12,2,6133050,1072,12040470,0.7,0.08,0.22,33642,34,17,0,5,18,1
+2024-10-18,82,-43,39,False,False,52,-0.31,Too Much Too Soon,Green Day,American Idiot - Deluxe,1,1,1,5,3,2,1411987,246,11091690,0.42,0.05,0.53,10332,10,23,19,5,36,1
+2024-10-18,83,RE,--,False,False,50,--,The Ghost of You,My Chemical Romance,Three Cheers for Sweet Revenge,6,6,1,30,18,2,7848225,1372,10278450,0.76,0.09,0.16,41496,50,0,0,12,8,1
+2024-10-18,84,RE,--,False,False,50,--,Nuclear Family,Green Day,¡Uno!,6,6,1,30,18,2,9147600,1599,11972700,0.76,0.09,0.16,48321,50,0,0,80,5,1
+2024-10-18,85,RE,--,False,False,50,--,SING,My Chemical Romance,Danger Days: The True Lives of the Fabulous Killjoys,6,6,1,30,18,2,7952174,1391,10413990,0.76,0.09,0.16,42042,50,0,0,30,10,1
+2024-10-18,86,NEW,--,True,False,50,--,Having a Blast,Green Day,Dookie,6,6,1,30,18,2,8870400,1551,11611260,0.76,0.09,0.16,46865,50,0,0,86,1,1
+2024-10-18,87,RE,--,False,False,50,--,Worry Rock,Green Day,Nimrod,6,6,1,30,18,2,9459450,1654,12379320,0.76,0.09,0.16,49959,50,0,0,2,17,1
+2024-10-18,88,RE,--,False,False,50,--,You Know What They Do to Guys Like Us in Prison,My Chemical Romance,Three Cheers for Sweet Revenge,6,6,1,30,18,2,9043650,1581,11837160,0.76,0.09,0.16,47775,50,0,0,23,7,1
+2024-10-18,89,RE,--,False,False,50,--,The Grouch,Green Day,Nimrod,6,6,1,30,18,2,9095625,1590,11904930,0.76,0.09,0.16,48048,50,0,0,17,17,1
+2024-10-18,90,RE,--,False,False,50,--,Horseshoes and Handgrenades,Green Day,21st Century Breakdown,6,6,1,30,18,2,8056125,1409,10549530,0.76,0.09,0.16,42588,50,0,0,80,2,1
+2024-10-18,91,RE,--,False,False,50,--,The Static Age,Green Day,21st Century Breakdown,6,6,1,30,18,2,9078300,1587,11882340,0.76,0.09,0.16,47957,50,0,0,6,21,2
+2024-10-18,92,NEW,--,True,False,50,--,Stuart and the Ave.,Green Day,Insomniac,6,6,1,30,18,2,8610525,1505,11272410,0.76,0.09,0.16,45500,50,0,0,92,1,1
+2024-10-18,93,RE,--,False,False,50,--,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),6,6,1,30,18,2,9078300,1587,11882340,0.76,0.09,0.16,47957,50,0,0,2,75,1
+2024-10-18,94,-2,92,False,False,49,0.0,Jinx,Green Day,Nimrod,4,4,1,20,12,2,6156150,1076,12085650,0.7,0.08,0.22,33768,34,15,0,7,17,2
+2024-10-18,95,-7,88,False,False,49,-0.02,Here's to Never Growing Up,Avril Lavigne,Avril Lavigne (Expanded Edition),4,4,1,20,12,2,6052200,1058,11882340,0.7,0.08,0.22,33201,34,15,0,11,18,1
+2024-10-18,96,-10,86,False,False,49,-0.02,Do Da Da,Green Day,Shenanigans,4,4,1,20,12,2,5232150,915,10278450,0.7,0.08,0.22,28728,34,15,0,18,9,1
+2024-10-18,97,-17,80,False,False,49,-0.02,Nobody's Home,Avril Lavigne,Under My Skin,4,4,1,20,12,2,6283200,1098,12334140,0.7,0.08,0.22,34461,34,15,0,1,15,1
+2024-10-18,98,-66,32,False,False,49,-0.37,21 Guns,Green Day,21st Century Breakdown,2,2,1,10,6,2,3147375,550,12356730,0.58,0.06,0.36,19180,18,24,7,4,34,1
+2024-10-18,99,RE,--,False,False,48,--,Lips of an Angel,Hinder,Extreme Behavior,1,1,1,5,3,2,1466850,256,11520900,0.42,0.05,0.53,10731,10,0,38,11,12,1
+2024-10-18,100,-3,97,False,False,47,0.02,Homecoming,Green Day,American Idiot,3,3,1,15,9,2,4322587,756,11317590,0.65,0.07,0.27,24598,26,14,7,4,25,1

@@ -1,101 +1,101 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2021-10-22,1,RE,--,True,False,26,--,Everything Has Changed,Taylor Swift,Red (Deluxe Edition),3,3,1,15,9,2,4331250,756,11295000,0.65,0.07,0.27,24500,26,0,0,1,2,1
-2021-10-22,2,+8,10,True,False,24,0.2,Blank Space,Taylor Swift,1989 (Deluxe),2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,6,0,2,12,1
-2021-10-22,3,RE,--,True,False,21,--,Style,Taylor Swift,1989 (Deluxe),2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,0,3,3,9,1
-2021-10-22,4,+42,46,True,False,21,1.1,Ancestry,Lena Raine,Minecraft: Caves & Cliffs (Original Game Soundtrack),2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,3,0,4,2,1
-2021-10-22,5,RE,--,True,False,20,--,Last Friday Night (T.G.I.F.),Katy Perry,Teenage Dream,2,2,2,10,6,4,2887500,504,22590000,0.42,0.05,0.53,21000,20,0,0,5,3,1
-2021-10-22,6,=,6,True,True,21,-0.12,Rolling in the Deep,Adele,21,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,8,3,6,5,2
-2021-10-22,7,+2,9,False,False,21,0.0,Begin Again,Taylor Swift,Red (Deluxe Edition),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,7,4,2,5,1
-2021-10-22,8,-5,3,False,False,19,-0.3,Wildest Dreams (Taylor's Version),Taylor Swift,Wildest Dreams (Taylor's Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,9,0,1,5,3
-2021-10-22,9,RE,--,True,False,18,--,I Wish You Would,Taylor Swift,1989 (Deluxe),2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,0,0,9,5,1
-2021-10-22,10,NEW,--,True,False,18,--,California Gurls,Katy Perry,Teenage Dream,2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,0,0,10,1,1
-2021-10-22,11,RE,--,True,False,18,--,She Looks So Perfect,5 Seconds of Summer,5 Seconds of Summer,2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,0,0,11,2,1
-2021-10-22,12,RE,--,True,False,18,--,Treat You Better,Shawn Mendes,Illuminate,2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,0,0,12,3,1
-2021-10-22,13,RE,--,True,False,18,--,Most Girls,Hailee Steinfeld,Most Girls,2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,0,0,13,6,1
-2021-10-22,14,RE,--,True,False,18,--,Clarity,Zedd,Clarity,2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,0,0,14,8,1
-2021-10-22,15,+5,20,True,False,18,0.12,Let Me Go (feat. Chad Kroeger),Avril Lavigne,Avril Lavigne (Expanded Edition),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,5,3,15,4,1
-2021-10-22,16,RE,--,True,False,18,--,Emperor's New Clothes,Panic! at the Disco,Death of a Bachelor,2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,0,0,16,2,1
-2021-10-22,17,RE,--,False,False,18,--,We Are Never Ever Getting Back Together,Taylor Swift,Red (Deluxe Edition),2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,0,0,16,5,1
-2021-10-22,18,RE,--,False,False,18,--,Sad Beautiful Tragic,Taylor Swift,Red (Deluxe Edition),2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,0,0,2,6,1
-2021-10-22,19,NEW,--,True,False,18,--,An Ordinary Day,Kumi Tanioka,Minecraft: Caves & Cliffs (Original Game Soundtrack),2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,0,0,19,1,1
-2021-10-22,20,NEW,--,True,False,18,--,Infinite Amethyst,Lena Raine,Minecraft: Caves & Cliffs (Original Game Soundtrack),2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,0,0,20,1,1
-2021-10-22,21,NEW,--,True,False,18,--,Wending,Lena Raine,Minecraft: Caves & Cliffs (Original Game Soundtrack),2,2,1,10,6,2,2887500,504,11295000,0.58,0.06,0.36,17500,18,0,0,21,1,1
-2021-10-22,22,+5,27,True,False,16,0.23,Salute,Little Mix,Salute (The Deluxe Edition),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,4,2,22,4,1
-2021-10-22,23,-9,14,False,False,16,-0.11,Delicate,Taylor Swift,Reputation,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,6,0,13,6,1
-2021-10-22,24,RE,--,False,False,14,--,Shout Out to My Ex,Little Mix,Glory Days (Expanded Edition),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,4,6,5,1
-2021-10-22,25,+55,80,False,False,13,0.3,evermore (feat. Bon Iver),Taylor Swift,evermore,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,3,0,19,6,1
-2021-10-22,26,+43,69,False,False,13,0.3,Trumpets,Jason Derulo,Tattoos,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,3,0,17,5,1
-2021-10-22,27,+32,59,True,False,13,0.3,Story of My Life,One Direction,Midnight Memories (Deluxe),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,3,0,27,4,1
-2021-10-22,28,+44,72,True,False,13,0.3,Halo,Beyoncé,I AM...SASHA FIERCE - Platinum Edition,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,3,0,28,4,1
-2021-10-22,29,+49,78,True,False,13,0.3,otherside,Lena Raine,Minecraft: Caves & Cliffs (Original Game Soundtrack),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,3,0,29,2,1
-2021-10-22,30,+47,77,True,False,13,0.3,Left to Bloom,Lena Raine,Minecraft: Caves & Cliffs (Original Game Soundtrack),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,3,0,30,2,1
-2021-10-22,31,+48,79,True,False,13,0.3,Stand Tall,Lena Raine,Minecraft: Caves & Cliffs (Original Game Soundtrack),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,3,0,31,2,1
-2021-10-22,32,+15,47,True,False,13,0.3,Don't Threaten Me with a Good Time,Panic! at the Disco,Death of a Bachelor,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,3,0,32,2,1
-2021-10-22,33,RE,--,True,False,12,--,Both of Us (feat. Taylor Swift),B.o.B,Strange Clouds,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,2,33,3,1
-2021-10-22,34,RE,--,True,False,12,--,Wide Awake,Katy Perry,Teenage Dream: The Complete Confection,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,2,34,2,1
-2021-10-22,35,RE,--,False,False,12,--,Genie,Girls' Generation,Genie - The Second Mini Album,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,2,5,7,1
-2021-10-22,36,RE,--,True,False,12,--,Where Is the Love?,Black Eyed Peas,Elephunk,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,2,36,3,1
-2021-10-22,37,RE,--,False,False,12,--,Fergalicious,Fergie,The Dutchess,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,2,17,7,1
-2021-10-22,38,RE,--,True,False,12,--,One Thing,One Direction,Up All Night,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,2,38,2,1
-2021-10-22,39,RE,--,False,False,12,--,Fight Song,Rachel Platten,Wildfire,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,2,16,6,1
-2021-10-22,40,RE,--,True,False,12,--,Bleeding Love,Leona Lewis,Spirit,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,2,40,2,1
-2021-10-22,41,RE,--,False,False,12,--,Green Light,Lorde,Melodrama,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,2,2,11,1
-2021-10-22,42,RE,--,True,False,10,--,Teardrops on My Guitar - Radio Single Remix,Taylor Swift,Taylor Swift,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,42,2,1
-2021-10-22,43,NEW,--,True,False,10,--,Not Like the Movies,Katy Perry,Teenage Dream,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,43,1,1
-2021-10-22,44,NEW,--,True,False,10,--,Hummingbird Heartbeat,Katy Perry,Teenage Dream,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,44,1,1
-2021-10-22,45,NEW,--,True,False,10,--,Pearl,Katy Perry,Teenage Dream,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,45,1,1
-2021-10-22,46,NEW,--,True,False,10,--,Who Am I Living For?,Katy Perry,Teenage Dream,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,46,1,1
-2021-10-22,47,NEW,--,True,False,10,--,E.T.,Katy Perry,Teenage Dream,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,47,1,1
-2021-10-22,48,RE,--,False,False,10,--,The One That Got Away,Katy Perry,Teenage Dream,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,31,6,1
-2021-10-22,49,NEW,--,True,False,10,--,Circle the Drain,Katy Perry,Teenage Dream,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,49,1,1
-2021-10-22,50,NEW,--,True,False,10,--,Peacock,Katy Perry,Teenage Dream,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,50,1,1
-2021-10-22,51,RE,--,False,False,10,--,Firework,Katy Perry,Teenage Dream,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,50,3,1
-2021-10-22,52,RE,--,True,False,10,--,Teenage Dream,Katy Perry,Teenage Dream,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,52,2,1
-2021-10-22,53,RE,--,False,False,10,--,New Romantics,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,7,4,1
-2021-10-22,54,RE,--,False,False,10,--,You Are in Love,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,31,7,1
-2021-10-22,55,RE,--,False,False,10,--,Wonderland,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,48,3,1
-2021-10-22,56,RE,--,False,False,10,--,Clean,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,36,4,1
-2021-10-22,57,RE,--,False,False,10,--,I Know Places,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,50,3,1
-2021-10-22,58,RE,--,False,False,10,--,This Love,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,51,4,1
-2021-10-22,59,RE,--,False,False,10,--,How You Get the Girl,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,41,4,1
-2021-10-22,60,RE,--,False,False,10,--,Bad Blood,Taylor Swift,Bad Blood,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,11,10,1
-2021-10-22,61,RE,--,False,False,10,--,Shake It Off,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,5,5,1
-2021-10-22,62,RE,--,False,False,10,--,All You Had to Do Was Stay,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,57,3,1
-2021-10-22,63,RE,--,False,False,10,--,Out of the Woods,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,37,4,1
-2021-10-22,64,RE,--,False,False,10,--,Welcome to New York,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,61,3,1
-2021-10-22,65,RE,--,False,False,10,--,Special Girl,dodie,Build A Problem,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,35,2,1
-2021-10-22,66,RE,--,False,False,10,--,Cool Girl,dodie,Build A Problem,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,36,2,1
-2021-10-22,67,RE,--,False,False,10,--,I Kissed Someone (It Wasn't You),dodie,Build A Problem,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,5,2,1
-2021-10-22,68,RE,--,False,False,10,--,Hate Myself,dodie,Build A Problem,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,37,2,1
-2021-10-22,69,RE,--,False,False,10,--,air so sweet,dodie,Build A Problem,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,38,2,1
-2021-10-22,70,NEW,--,True,False,10,--,Diva,Beyoncé,I AM...SASHA FIERCE - Platinum Edition,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,70,1,1
-2021-10-22,71,NEW,--,True,False,10,--,Lookalike,Conan Gray,Sunset Season,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,71,1,1
-2021-10-22,72,RE,--,False,False,10,--,Guiltless,dodie,Guiltless,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,5,5,1
-2021-10-22,73,RE,--,False,False,10,--,BOYS LIKE YOU,dodie,BOYS LIKE YOU,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,2,3,1
-2021-10-22,74,RE,--,False,False,10,--,If I'm Being Honest,dodie,Human,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,6,4,1
-2021-10-22,75,RE,--,False,False,10,--,everytime,Ariana Grande,Sweetener,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,19,4,1
-2021-10-22,76,RE,--,False,False,10,--,goodnight n go,Ariana Grande,Sweetener,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,57,4,1
-2021-10-22,77,RE,--,False,False,10,--,Hard Feelings/Loveless,Lorde,Melodrama,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,31,3,1
-2021-10-22,78,RE,--,False,False,10,--,The Louvre,Lorde,Melodrama,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,6,6,1
-2021-10-22,79,NEW,--,True,False,10,--,Rewrite The Stars,Zac Efron,Rewrite The Stars,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,79,1,1
-2021-10-22,80,RE,--,False,False,10,--,On The Floor - Radio Edit,Jennifer Lopez,On the Floor,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,51,3,1
-2021-10-22,81,NEW,--,True,False,10,--,She's Kinda Hot,5 Seconds of Summer,Sounds Good Feels Good (Deluxe),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,81,1,1
-2021-10-22,82,RE,--,True,False,10,--,Nothin' on You (feat. Bruno Mars),B.o.B,B.o.B Presents: The Adventures of Bobby Ray,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,82,2,1
-2021-10-22,83,RE,--,False,False,10,--,Perfect,Ed Sheeran,÷ (Deluxe),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,21,3,1
-2021-10-22,84,RE,--,False,False,10,--,High by the Beach,Lana Del Rey,Honeymoon,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,16,7,1
-2021-10-22,85,RE,--,False,False,10,--,Talk Dirty (feat. 2 Chainz),Jason Derülo,Tattoos,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,25,2,1
-2021-10-22,86,RE,--,False,False,10,--,Human,Christina Perri,Head or Heart,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,19,4,1
-2021-10-22,87,NEW,--,True,False,10,--,She Will Be Loved - Radio Mix,Maroon 5,Songs About Jane: 10th Anniversary Edition,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,87,1,1
-2021-10-22,88,RE,--,False,False,10,--,The Night Is Still Young,Nicki Minaj,The Pinkprint (Deluxe Edition),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,13,3,1
-2021-10-22,89,RE,--,False,False,10,--,Boyfriend,Justin Bieber,Believe,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,17,3,1
-2021-10-22,90,NEW,--,True,False,10,--,On My Mind,Ellie Goulding,Delirium (Deluxe),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,90,1,1
-2021-10-22,91,NEW,--,True,False,10,--,Smile,Avril Lavigne,Goodbye Lullaby (Expanded Edition),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,91,1,1
-2021-10-22,92,RE,--,False,False,10,--,Irreplaceable,Beyoncé,B'Day,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,57,2,1
-2021-10-22,93,RE,--,False,False,10,--,Call Me Maybe,Carly Rae Jepsen,Kiss,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,26,4,1
-2021-10-22,94,RE,--,False,False,10,--,Stay the Night - featuring Hayley Williams of Paramore,Zedd,Clarity (Deluxe),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,24,4,1
-2021-10-22,95,NEW,--,True,False,10,--,Whenever Wherever,Shakira,Laundry Service,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,95,1,1
-2021-10-22,96,RE,--,False,False,10,--,Latch (feat. Sam Smith),Disclosure,Settle (Special Edition),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,82,2,1
-2021-10-22,97,RE,--,False,False,10,--,DJ Got Us Fallin' in Love (feat. Pitbull),Usher,Raymond v Raymond (Expanded Edition),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,23,4,1
-2021-10-22,98,RE,--,False,False,10,--,When I Grow Up,The Pussycat Dolls,Doll Domination (Deluxe),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,63,3,1
-2021-10-22,99,NEW,--,True,False,10,--,We Found Love,Rihanna,Talk That Talk,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,99,1,1
-2021-10-22,100,RE,--,False,False,10,--,Miss Movin' On,Fifth Harmony,Miss Movin' On,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,89,3,1
+2021-10-22,1,RE,--,True,False,26,--,Everything Has Changed,Taylor Swift,Red (Deluxe Edition),3,3,1,15,9,2,4643100,811,12153420,0.65,0.07,0.27,26411,26,0,0,1,2,1
+2021-10-22,2,+8,10,True,False,24,0.2,Blank Space,Taylor Swift,1989 (Deluxe),2,2,1,10,6,2,2858625,499,11227230,0.58,0.06,0.36,17430,18,6,0,2,12,1
+2021-10-22,3,RE,--,True,False,21,--,Style,Taylor Swift,1989 (Deluxe),2,2,1,10,6,2,2870175,501,11272410,0.58,0.06,0.36,17500,18,0,3,3,9,1
+2021-10-22,4,+42,46,True,False,21,1.1,Ancestry,Lena Raine,Minecraft: Caves & Cliffs (Original Game Soundtrack),2,2,1,10,6,2,3089625,540,12130830,0.58,0.06,0.36,18830,18,3,0,4,2,1
+2021-10-22,5,RE,--,True,False,20,--,Last Friday Night (T.G.I.F.),Katy Perry,Teenage Dream,2,2,2,10,6,4,2598750,454,20421360,0.42,0.05,0.53,19026,20,0,0,5,3,1
+2021-10-22,6,=,6,True,True,21,-0.12,Rolling in the Deep,Adele,21,1,1,1,5,3,2,1585237,226,10188090,0.42,0.05,0.53,9492,10,8,3,6,5,2
+2021-10-22,7,+2,9,False,False,21,0.0,Begin Again,Taylor Swift,Red (Deluxe Edition),1,1,1,5,3,2,1504387,263,11814570,0.42,0.05,0.53,11004,10,7,4,2,5,1
+2021-10-22,8,-5,3,False,False,19,-0.3,Wildest Dreams (Taylor's Version),Taylor Swift,Wildest Dreams (Taylor's Version),1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,9,0,1,5,3
+2021-10-22,9,RE,--,True,False,18,--,I Wish You Would,Taylor Swift,1989 (Deluxe),2,2,1,10,6,2,2644950,462,10391400,0.58,0.06,0.36,16134,18,0,0,9,5,1
+2021-10-22,10,NEW,--,True,False,18,--,California Gurls,Katy Perry,Teenage Dream,2,2,1,10,6,2,2887500,505,11340180,0.58,0.06,0.36,17605,18,0,0,10,1,1
+2021-10-22,11,RE,--,True,False,18,--,She Looks So Perfect,5 Seconds of Summer,5 Seconds of Summer,2,2,1,10,6,2,2691150,470,10572120,0.58,0.06,0.36,16415,18,0,0,11,2,1
+2021-10-22,12,RE,--,True,False,18,--,Treat You Better,Shawn Mendes,Illuminate,2,2,1,10,6,2,2904825,508,11407950,0.58,0.06,0.36,17710,18,0,0,12,3,1
+2021-10-22,13,RE,--,True,False,18,--,Most Girls,Hailee Steinfeld,Most Girls,2,2,1,10,6,2,2875950,502,11295000,0.58,0.06,0.36,17535,18,0,0,13,6,1
+2021-10-22,14,RE,--,True,False,18,--,Clarity,Zedd,Clarity,2,2,1,10,6,2,2858625,499,11227230,0.58,0.06,0.36,17430,18,0,0,14,8,1
+2021-10-22,15,+5,20,True,False,18,0.12,Let Me Go (feat. Chad Kroeger),Avril Lavigne,Avril Lavigne (Expanded Edition),1,1,1,5,3,2,1423537,248,11182050,0.42,0.05,0.53,10416,10,5,3,15,4,1
+2021-10-22,16,RE,--,True,False,18,--,Emperor's New Clothes,Panic! at the Disco,Death of a Bachelor,2,2,1,10,6,2,2737350,478,10752840,0.58,0.06,0.36,16695,18,0,0,16,2,1
+2021-10-22,17,RE,--,False,False,18,--,We Are Never Ever Getting Back Together,Taylor Swift,Red (Deluxe Edition),2,2,1,10,6,2,3158925,552,12401910,0.58,0.06,0.36,15750,18,0,0,16,5,1
+2021-10-22,18,RE,--,False,False,18,--,Sad Beautiful Tragic,Taylor Swift,Red (Deluxe Edition),2,2,1,10,6,2,2604525,455,10233270,0.58,0.06,0.36,15890,18,0,0,2,6,1
+2021-10-22,19,NEW,--,True,False,18,--,An Ordinary Day,Kumi Tanioka,Minecraft: Caves & Cliffs (Original Game Soundtrack),2,2,1,10,6,2,2899050,507,11385360,0.58,0.06,0.36,17675,18,0,0,19,1,1
+2021-10-22,20,NEW,--,True,False,18,--,Infinite Amethyst,Lena Raine,Minecraft: Caves & Cliffs (Original Game Soundtrack),2,2,1,10,6,2,2668050,466,10481760,0.58,0.06,0.36,16275,18,0,0,20,1,1
+2021-10-22,21,NEW,--,True,False,18,--,Wending,Lena Raine,Minecraft: Caves & Cliffs (Original Game Soundtrack),2,2,1,10,6,2,3106950,543,12198600,0.58,0.06,0.36,18935,18,0,0,21,1,1
+2021-10-22,22,+5,27,True,False,16,0.23,Salute,Little Mix,Salute (The Deluxe Edition),1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,4,2,22,4,1
+2021-10-22,23,-9,14,False,False,16,-0.11,Delicate,Taylor Swift,Reputation,1,1,1,5,3,2,1550587,271,12176010,0.42,0.05,0.53,11340,10,6,0,13,6,1
+2021-10-22,24,RE,--,False,False,14,--,Shout Out to My Ex,Little Mix,Glory Days (Expanded Edition),1,1,1,5,3,2,1348462,235,10594710,0.42,0.05,0.53,9870,10,0,4,6,5,1
+2021-10-22,25,+55,80,False,False,13,0.3,evermore (feat. Bon Iver),Taylor Swift,evermore,1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,3,0,19,6,1
+2021-10-22,26,+43,69,False,False,13,0.3,Trumpets,Jason Derulo,Tattoos,1,1,1,5,3,2,1510162,264,11859750,0.42,0.05,0.53,11046,10,3,0,17,5,1
+2021-10-22,27,+32,59,True,False,13,0.3,Story of My Life,One Direction,Midnight Memories (Deluxe),1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,3,0,27,4,1
+2021-10-22,28,+44,72,True,False,13,0.3,Halo,Beyoncé,I AM...SASHA FIERCE - Platinum Edition,1,1,1,5,3,2,1579462,276,12401910,0.42,0.05,0.53,9450,10,3,0,28,4,1
+2021-10-22,29,+49,78,True,False,13,0.3,otherside,Lena Raine,Minecraft: Caves & Cliffs (Original Game Soundtrack),1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,3,0,29,2,1
+2021-10-22,30,+47,77,True,False,13,0.3,Left to Bloom,Lena Raine,Minecraft: Caves & Cliffs (Original Game Soundtrack),1,1,1,5,3,2,1409100,246,11069100,0.42,0.05,0.53,10311,10,3,0,30,2,1
+2021-10-22,31,+48,79,True,False,13,0.3,Stand Tall,Lena Raine,Minecraft: Caves & Cliffs (Original Game Soundtrack),1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,3,0,31,2,1
+2021-10-22,32,+15,47,True,False,13,0.3,Don't Threaten Me with a Good Time,Panic! at the Disco,Death of a Bachelor,1,1,1,5,3,2,1541925,269,12108240,0.42,0.05,0.53,11277,10,3,0,32,2,1
+2021-10-22,33,RE,--,True,False,12,--,Both of Us (feat. Taylor Swift),B.o.B,Strange Clouds,1,1,1,5,3,2,1515937,265,11904930,0.42,0.05,0.53,11088,10,0,2,33,3,1
+2021-10-22,34,RE,--,True,False,12,--,Wide Awake,Katy Perry,Teenage Dream: The Complete Confection,1,1,1,5,3,2,1544812,270,12130830,0.42,0.05,0.53,11298,10,0,2,34,2,1
+2021-10-22,35,RE,--,False,False,12,--,Genie,Girls' Generation,Genie - The Second Mini Album,1,1,1,5,3,2,1487062,260,11679030,0.42,0.05,0.53,10878,10,0,2,5,7,1
+2021-10-22,36,RE,--,True,False,12,--,Where Is the Love?,Black Eyed Peas,Elephunk,1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,0,2,36,3,1
+2021-10-22,37,RE,--,False,False,12,--,Fergalicious,Fergie,The Dutchess,1,1,1,5,3,2,1397550,244,10978740,0.42,0.05,0.53,10227,10,0,2,17,7,1
+2021-10-22,38,RE,--,True,False,12,--,One Thing,One Direction,Up All Night,1,1,1,5,3,2,1437975,251,11295000,0.42,0.05,0.53,10521,10,0,2,38,2,1
+2021-10-22,39,RE,--,False,False,12,--,Fight Song,Rachel Platten,Wildfire,1,1,1,5,3,2,1325362,231,10413990,0.42,0.05,0.53,9702,10,0,2,16,6,1
+2021-10-22,40,RE,--,True,False,12,--,Bleeding Love,Leona Lewis,Spirit,1,1,1,5,3,2,1582350,276,10165500,0.42,0.05,0.53,9471,10,0,2,40,2,1
+2021-10-22,41,RE,--,False,False,12,--,Green Light,Lorde,Melodrama,1,1,1,5,3,2,1565025,273,12288960,0.42,0.05,0.53,11445,10,0,2,2,11,1
+2021-10-22,42,RE,--,True,False,10,--,Teardrops on My Guitar - Radio Single Remix,Taylor Swift,Taylor Swift,1,1,1,5,3,2,1544812,270,12130830,0.42,0.05,0.53,11298,10,0,0,42,2,1
+2021-10-22,43,NEW,--,True,False,10,--,Not Like the Movies,Katy Perry,Teenage Dream,1,1,1,5,3,2,1553475,271,12198600,0.42,0.05,0.53,11361,10,0,0,43,1,1
+2021-10-22,44,NEW,--,True,False,10,--,Hummingbird Heartbeat,Katy Perry,Teenage Dream,1,1,1,5,3,2,1495725,261,11746800,0.42,0.05,0.53,10941,10,0,0,44,1,1
+2021-10-22,45,NEW,--,True,False,10,--,Pearl,Katy Perry,Teenage Dream,1,1,1,5,3,2,1463962,256,11498310,0.42,0.05,0.53,10710,10,0,0,45,1,1
+2021-10-22,46,NEW,--,True,False,10,--,Who Am I Living For?,Katy Perry,Teenage Dream,1,1,1,5,3,2,1533262,268,12040470,0.42,0.05,0.53,11214,10,0,0,46,1,1
+2021-10-22,47,NEW,--,True,False,10,--,E.T.,Katy Perry,Teenage Dream,1,1,1,5,3,2,1437975,251,11295000,0.42,0.05,0.53,10521,10,0,0,47,1,1
+2021-10-22,48,RE,--,False,False,10,--,The One That Got Away,Katy Perry,Teenage Dream,1,1,1,5,3,2,1481287,259,11633850,0.42,0.05,0.53,10836,10,0,0,31,6,1
+2021-10-22,49,NEW,--,True,False,10,--,Circle the Drain,Katy Perry,Teenage Dream,1,1,1,5,3,2,1579462,276,12401910,0.42,0.05,0.53,9450,10,0,0,49,1,1
+2021-10-22,50,NEW,--,True,False,10,--,Peacock,Katy Perry,Teenage Dream,1,1,1,5,3,2,1383112,241,10865790,0.42,0.05,0.53,10122,10,0,0,50,1,1
+2021-10-22,51,RE,--,False,False,10,--,Firework,Katy Perry,Teenage Dream,1,1,1,5,3,2,1414875,247,11114280,0.42,0.05,0.53,10353,10,0,0,50,3,1
+2021-10-22,52,RE,--,True,False,10,--,Teenage Dream,Katy Perry,Teenage Dream,1,1,1,5,3,2,1365787,238,10730250,0.42,0.05,0.53,9996,10,0,0,52,2,1
+2021-10-22,53,RE,--,False,False,10,--,New Romantics,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1576575,275,12379320,0.42,0.05,0.53,11529,10,0,0,7,4,1
+2021-10-22,54,RE,--,False,False,10,--,You Are in Love,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,0,0,31,7,1
+2021-10-22,55,RE,--,False,False,10,--,Wonderland,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1348462,235,10594710,0.42,0.05,0.53,9870,10,0,0,48,3,1
+2021-10-22,56,RE,--,False,False,10,--,Clean,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1461075,255,11475720,0.42,0.05,0.53,10689,10,0,0,36,4,1
+2021-10-22,57,RE,--,False,False,10,--,I Know Places,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1302262,227,10233270,0.42,0.05,0.53,9534,10,0,0,50,3,1
+2021-10-22,58,RE,--,False,False,10,--,This Love,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1567912,274,12311550,0.42,0.05,0.53,11466,10,0,0,51,4,1
+2021-10-22,59,RE,--,False,False,10,--,How You Get the Girl,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1371562,239,10775430,0.42,0.05,0.53,10038,10,0,0,41,4,1
+2021-10-22,60,RE,--,False,False,10,--,Bad Blood,Taylor Swift,Bad Blood,1,1,1,5,3,2,1495725,261,11746800,0.42,0.05,0.53,10941,10,0,0,11,10,1
+2021-10-22,61,RE,--,False,False,10,--,Shake It Off,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1331137,232,10459170,0.42,0.05,0.53,9744,10,0,0,5,5,1
+2021-10-22,62,RE,--,False,False,10,--,All You Had to Do Was Stay,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1440862,252,11317590,0.42,0.05,0.53,10542,10,0,0,57,3,1
+2021-10-22,63,RE,--,False,False,10,--,Out of the Woods,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1518825,265,11927520,0.42,0.05,0.53,11109,10,0,0,37,4,1
+2021-10-22,64,RE,--,False,False,10,--,Welcome to New York,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1380225,241,10843200,0.42,0.05,0.53,10101,10,0,0,61,3,1
+2021-10-22,65,RE,--,False,False,10,--,Special Girl,dodie,Build A Problem,1,1,1,5,3,2,1504387,263,11814570,0.42,0.05,0.53,11004,10,0,0,35,2,1
+2021-10-22,66,RE,--,False,False,10,--,Cool Girl,dodie,Build A Problem,1,1,1,5,3,2,1394662,243,10956150,0.42,0.05,0.53,10206,10,0,0,36,2,1
+2021-10-22,67,RE,--,False,False,10,--,I Kissed Someone (It Wasn't You),dodie,Build A Problem,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,0,0,5,2,1
+2021-10-22,68,RE,--,False,False,10,--,Hate Myself,dodie,Build A Problem,1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,0,0,37,2,1
+2021-10-22,69,RE,--,False,False,10,--,air so sweet,dodie,Build A Problem,1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,0,0,38,2,1
+2021-10-22,70,NEW,--,True,False,10,--,Diva,Beyoncé,I AM...SASHA FIERCE - Platinum Edition,1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,0,0,70,1,1
+2021-10-22,71,NEW,--,True,False,10,--,Lookalike,Conan Gray,Sunset Season,1,1,1,5,3,2,1536150,268,12063060,0.42,0.05,0.53,11235,10,0,0,71,1,1
+2021-10-22,72,RE,--,False,False,10,--,Guiltless,dodie,Guiltless,1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,0,0,5,5,1
+2021-10-22,73,RE,--,False,False,10,--,BOYS LIKE YOU,dodie,BOYS LIKE YOU,1,1,1,5,3,2,1461075,255,11475720,0.42,0.05,0.53,10689,10,0,0,2,3,1
+2021-10-22,74,RE,--,False,False,10,--,If I'm Being Honest,dodie,Human,1,1,1,5,3,2,1518825,265,11927520,0.42,0.05,0.53,11109,10,0,0,6,4,1
+2021-10-22,75,RE,--,False,False,10,--,everytime,Ariana Grande,Sweetener,1,1,1,5,3,2,1331137,232,10459170,0.42,0.05,0.53,9744,10,0,0,19,4,1
+2021-10-22,76,RE,--,False,False,10,--,goodnight n go,Ariana Grande,Sweetener,1,1,1,5,3,2,1515937,265,11904930,0.42,0.05,0.53,11088,10,0,0,57,4,1
+2021-10-22,77,RE,--,False,False,10,--,Hard Feelings/Loveless,Lorde,Melodrama,1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,0,0,31,3,1
+2021-10-22,78,RE,--,False,False,10,--,The Louvre,Lorde,Melodrama,1,1,1,5,3,2,1394662,243,10956150,0.42,0.05,0.53,10206,10,0,0,6,6,1
+2021-10-22,79,NEW,--,True,False,10,--,Rewrite The Stars,Zac Efron,Rewrite The Stars,1,1,1,5,3,2,1325362,231,10413990,0.42,0.05,0.53,9702,10,0,0,79,1,1
+2021-10-22,80,RE,--,False,False,10,--,On The Floor - Radio Edit,Jennifer Lopez,On the Floor,1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,0,0,51,3,1
+2021-10-22,81,NEW,--,True,False,10,--,She's Kinda Hot,5 Seconds of Summer,Sounds Good Feels Good (Deluxe),1,1,1,5,3,2,1579462,276,12401910,0.42,0.05,0.53,9450,10,0,0,81,1,1
+2021-10-22,82,RE,--,True,False,10,--,Nothin' on You (feat. Bruno Mars),B.o.B,B.o.B Presents: The Adventures of Bobby Ray,1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,0,0,82,2,1
+2021-10-22,83,RE,--,False,False,10,--,Perfect,Ed Sheeran,÷ (Deluxe),1,1,1,5,3,2,1501500,262,11791980,0.42,0.05,0.53,10983,10,0,0,21,3,1
+2021-10-22,84,RE,--,False,False,10,--,High by the Beach,Lana Del Rey,Honeymoon,1,1,1,5,3,2,1498612,262,11769390,0.42,0.05,0.53,10962,10,0,0,16,7,1
+2021-10-22,85,RE,--,False,False,10,--,Talk Dirty (feat. 2 Chainz),Jason Derülo,Tattoos,1,1,1,5,3,2,1458187,255,11453130,0.42,0.05,0.53,10668,10,0,0,25,2,1
+2021-10-22,86,RE,--,False,False,10,--,Human,Christina Perri,Head or Heart,1,1,1,5,3,2,1406212,245,11046510,0.42,0.05,0.53,10290,10,0,0,19,4,1
+2021-10-22,87,NEW,--,True,False,10,--,She Will Be Loved - Radio Mix,Maroon 5,Songs About Jane: 10th Anniversary Edition,1,1,1,5,3,2,1362900,238,10707660,0.42,0.05,0.53,9975,10,0,0,87,1,1
+2021-10-22,88,RE,--,False,False,10,--,The Night Is Still Young,Nicki Minaj,The Pinkprint (Deluxe Edition),1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,0,0,13,3,1
+2021-10-22,89,RE,--,False,False,10,--,Boyfriend,Justin Bieber,Believe,1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,0,0,17,3,1
+2021-10-22,90,NEW,--,True,False,10,--,On My Mind,Ellie Goulding,Delirium (Deluxe),1,1,1,5,3,2,1331137,232,10459170,0.42,0.05,0.53,9744,10,0,0,90,1,1
+2021-10-22,91,NEW,--,True,False,10,--,Smile,Avril Lavigne,Goodbye Lullaby (Expanded Edition),1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,0,0,91,1,1
+2021-10-22,92,RE,--,False,False,10,--,Irreplaceable,Beyoncé,B'Day,1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,0,0,57,2,1
+2021-10-22,93,RE,--,False,False,10,--,Call Me Maybe,Carly Rae Jepsen,Kiss,1,1,1,5,3,2,1305150,228,10255860,0.42,0.05,0.53,9555,10,0,0,26,4,1
+2021-10-22,94,RE,--,False,False,10,--,Stay the Night - featuring Hayley Williams of Paramore,Zedd,Clarity (Deluxe),1,1,1,5,3,2,1489950,260,11701620,0.42,0.05,0.53,10899,10,0,0,24,4,1
+2021-10-22,95,NEW,--,True,False,10,--,Whenever Wherever,Shakira,Laundry Service,1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,0,0,95,1,1
+2021-10-22,96,RE,--,False,False,10,--,Latch (feat. Sam Smith),Disclosure,Settle (Special Edition),1,1,1,5,3,2,1515937,265,11904930,0.42,0.05,0.53,11088,10,0,0,82,2,1
+2021-10-22,97,RE,--,False,False,10,--,DJ Got Us Fallin' in Love (feat. Pitbull),Usher,Raymond v Raymond (Expanded Edition),1,1,1,5,3,2,1360012,237,10685070,0.42,0.05,0.53,9954,10,0,0,23,4,1
+2021-10-22,98,RE,--,False,False,10,--,When I Grow Up,The Pussycat Dolls,Doll Domination (Deluxe),1,1,1,5,3,2,1345575,235,10572120,0.42,0.05,0.53,9849,10,0,0,63,3,1
+2021-10-22,99,NEW,--,True,False,10,--,We Found Love,Rihanna,Talk That Talk,1,1,1,5,3,2,1585237,226,10188090,0.42,0.05,0.53,9492,10,0,0,99,1,1
+2021-10-22,100,RE,--,False,False,10,--,Miss Movin' On,Fifth Harmony,Miss Movin' On,1,1,1,5,3,2,1409100,246,11069100,0.42,0.05,0.53,10311,10,0,0,89,3,1

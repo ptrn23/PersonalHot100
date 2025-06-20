@@ -1,42 +1,42 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2023-10-27,1,NEW,--,True,False,697,--,Blank Space (Taylor's Version),Taylor Swift,1989 (Taylor's Version),92,53,39,460,159,78,132825000,13356,440505000,0.63,0.04,0.33,644000,697,0,0,1,1,1
-2023-10-27,2,NEW,--,True,False,578,--,Shake It Off (Taylor's Version),Taylor Swift,1989 (Taylor's Version),76,60,9,380,180,18,109725000,15120,101655000,0.81,0.07,0.12,507500,578,0,0,2,1,1
-2023-10-27,3,NEW,--,True,False,511,--,I Wish You Would (Taylor's Version),Taylor Swift,1989 (Taylor's Version),66,55,8,330,165,16,95287500,13860,90360000,0.8,0.08,0.12,451500,511,0,0,3,1,1
-2023-10-27,4,NEW,--,True,False,502,--,Style (Taylor's Version),Taylor Swift,1989 (Taylor's Version),65,55,6,325,165,12,93843750,13860,67770000,0.83,0.08,0.1,441000,502,0,0,4,1,1
-2023-10-27,5,NEW,--,True,False,470,--,Out of the Woods (Taylor's Version),Taylor Swift,1989 (Taylor's Version),59,55,5,295,165,10,85181250,13860,56475000,0.83,0.09,0.09,416500,470,0,0,5,1,1
-2023-10-27,6,NEW,--,True,False,335,--,Now That We Don't Talk (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),44,29,14,220,87,28,63525000,7308,158130000,0.68,0.05,0.27,304500,335,0,0,6,1,1
-2023-10-27,7,NEW,--,True,False,247,--,New Romantics (Taylor's Version),Taylor Swift,1989 (Taylor's Version),31,28,4,155,84,8,44756250,7056,45180000,0.79,0.08,0.13,220500,247,0,0,7,1,1
-2023-10-27,8,NEW,--,True,False,242,--,All You Had to Do Was Stay (Taylor's Version),Taylor Swift,1989 (Taylor's Version),30,30,1,150,90,2,43312500,7560,11295000,0.87,0.1,0.04,213500,242,0,0,8,1,1
-2023-10-27,9,NEW,--,True,False,234,--,Bad Blood (Taylor's Version),Taylor Swift,1989 (Taylor's Version),29,29,1,145,87,2,41868750,7308,11295000,0.87,0.1,0.04,206500,234,0,0,9,1,1
-2023-10-27,10,NEW,--,True,False,233,--,Clean (Taylor's Version),Taylor Swift,1989 (Taylor's Version),29,28,2,145,84,4,41868750,7056,22590000,0.84,0.09,0.07,206500,233,0,0,10,1,1
-2023-10-27,11,NEW,--,True,False,220,--,Welcome to New York (Taylor's Version),Taylor Swift,1989 (Taylor's Version),27,27,2,135,81,4,38981250,6804,22590000,0.83,0.09,0.08,196000,220,0,0,11,1,1
-2023-10-27,12,NEW,--,True,False,218,--,Wonderland (Taylor's Version),Taylor Swift,1989 (Taylor's Version),27,27,1,135,81,2,38981250,6804,11295000,0.86,0.1,0.04,192500,218,0,0,12,1,1
-2023-10-27,13,NEW,--,True,False,218,--,I Know Places (Taylor's Version),Taylor Swift,1989 (Taylor's Version),27,27,1,135,81,2,38981250,6804,11295000,0.86,0.1,0.04,192500,218,0,0,13,1,1
-2023-10-27,14,NEW,--,True,False,217,--,You Are in Love (Taylor's Version),Taylor Swift,1989 (Taylor's Version),27,26,2,135,78,4,38981250,6552,22590000,0.83,0.09,0.08,192500,217,0,0,14,1,1
-2023-10-27,15,NEW,--,True,False,217,--,How You Get the Girl (Taylor's Version),Taylor Swift,1989 (Taylor's Version),27,26,2,135,78,4,38981250,6552,22590000,0.83,0.09,0.08,192500,217,0,0,15,1,1
-2023-10-27,16,NEW,--,True,False,210,--,Say Don't Go (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),26,26,1,130,78,2,37537500,6552,11295000,0.86,0.1,0.04,185500,210,0,0,16,1,1
-2023-10-27,17,NEW,--,True,False,202,--,Is It Over Now? (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),25,25,1,125,75,2,36093750,6300,11295000,0.86,0.1,0.04,178500,202,0,0,17,1,1
-2023-10-27,18,NEW,--,True,False,194,--,Suburban Legends (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),24,24,1,120,72,2,34650000,6048,11295000,0.86,0.1,0.04,171500,194,0,0,18,1,1
-2023-10-27,19,-2,17,False,False,176,1.75,Wildest Dreams (Taylor's Version),Taylor Swift,1989 (Taylor's Version),16,16,2,80,48,4,23100000,4032,22590000,0.79,0.09,0.12,119000,132,20,24,1,54,8
-2023-10-27,20,NEW,--,True,False,170,--,Slut! (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),21,21,1,105,63,2,30318750,5292,11295000,0.85,0.1,0.05,150500,170,0,0,20,1,1
-2023-10-27,21,NEW,--,True,False,147,--,Bad Blood (feat. Kendrick Lamar) (Taylor's Version),Taylor Swift,1989 (Taylor's Version) [Deluxe],19,14,5,95,42,10,27431250,3528,56475000,0.71,0.06,0.23,133000,147,0,0,21,1,1
-2023-10-27,22,RE,--,False,False,119,--,This Love (Taylor’s Version),Taylor Swift,1989 (Taylor's Version),14,13,3,70,39,6,20212500,3276,33885000,0.73,0.08,0.2,105000,115,0,4,1,39,1
-2023-10-27,23,-10,13,False,False,42,-0.38,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,21,11,1,57,4
-2023-10-27,24,+10,34,False,False,39,-0.15,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,14,15,1,46,5
-2023-10-27,25,RE,--,False,False,15,--,The Feels,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,5,4,44,1
-2023-10-27,26,RE,--,False,False,14,--,Blank Space,Taylor Swift,1989 (Deluxe Edition),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,4,2,45,1
-2023-10-27,27,RE,--,True,False,10,--,Clean,Taylor Swift,1989 (Deluxe Edition),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,27,11,1
-2023-10-27,28,RE,--,True,False,10,--,I Know Places,Taylor Swift,1989 (Deluxe Edition),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,28,9,1
-2023-10-27,29,RE,--,True,False,10,--,How You Get the Girl,Taylor Swift,1989 (Deluxe Edition),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,29,11,1
-2023-10-27,30,RE,--,False,False,10,--,Bad Blood,Taylor Swift,1989 (Deluxe Edition),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,11,26,1
-2023-10-27,31,RE,--,False,False,10,--,I Wish You Would,Taylor Swift,1989 (Deluxe Edition),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,9,19,1
-2023-10-27,32,RE,--,False,False,10,--,Shake It Off,Taylor Swift,1989 (Deluxe Edition),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,5,30,1
-2023-10-27,33,RE,--,True,False,10,--,All You Had to Do Was Stay,Taylor Swift,1989 (Deluxe Edition),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,33,15,1
-2023-10-27,34,RE,--,True,False,10,--,Out of the Woods,Taylor Swift,1989 (Deluxe Edition),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,34,23,1
-2023-10-27,35,RE,--,False,False,10,--,Style,Taylor Swift,1989 (Deluxe Edition),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,3,31,1
-2023-10-27,36,RE,--,True,False,10,--,Welcome to New York,Taylor Swift,1989 (Deluxe Edition),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,36,14,1
-2023-10-27,37,RE,--,False,False,10,--,The Best Day (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,24,9,1
-2023-10-27,38,RE,--,False,False,10,--,The Way I Loved You (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,2,29,1
-2023-10-27,39,RE,--,False,False,10,--,You’re Not Sorry (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,5,17,1
-2023-10-27,40,RE,--,False,False,10,--,Tell Me Why (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,1,10,1
-2023-10-27,41,RE,--,False,False,10,--,Breathe (feat. Colbie Caillat) (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1443750,252,11295000,0.42,0.05,0.53,10500,10,0,0,25,14,1
+2023-10-27,1,NEW,--,True,False,697,--,Blank Space (Taylor's Version),Taylor Swift,1989 (Taylor's Version),92,53,39,460,159,78,138934950,13997,462530250,0.63,0.04,0.33,677488,697,0,0,1,1,1
+2023-10-27,2,NEW,--,True,False,578,--,Shake It Off (Taylor's Version),Taylor Swift,1989 (Taylor's Version),76,60,9,380,180,18,112577850,15543,104704650,0.81,0.07,0.12,523740,578,0,0,2,1,1
+2023-10-27,3,NEW,--,True,False,511,--,I Wish You Would (Taylor's Version),Taylor Swift,1989 (Taylor's Version),66,55,8,330,165,16,96430950,14054,91805760,0.8,0.08,0.12,459627,511,0,0,3,1,1
+2023-10-27,4,NEW,--,True,False,502,--,Style (Taylor's Version),Taylor Swift,1989 (Taylor's Version),65,55,6,325,165,12,90277687,13361,65465820,0.83,0.08,0.1,426888,502,0,0,4,1,1
+2023-10-27,5,NEW,--,True,False,470,--,Out of the Woods (Taylor's Version),Taylor Swift,1989 (Taylor's Version),59,55,5,295,165,10,80751825,13167,53764200,0.83,0.09,0.09,397341,470,0,0,5,1,1
+2023-10-27,6,NEW,--,True,False,335,--,Now That We Don't Talk (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),44,29,14,220,87,28,58697099,6767,146744640,0.68,0.05,0.27,283185,335,0,0,6,1,1
+2023-10-27,7,NEW,--,True,False,247,--,New Romantics (Taylor's Version),Taylor Swift,1989 (Taylor's Version),31,28,4,155,84,8,46725525,7380,47348640,0.79,0.08,0.13,231525,247,0,0,7,1,1
+2023-10-27,8,NEW,--,True,False,242,--,All You Had to Do Was Stay (Taylor's Version),Taylor Swift,1989 (Taylor's Version),30,30,1,150,90,2,42186375,7378,11046510,0.87,0.1,0.04,209230,242,0,0,8,1,1
+2023-10-27,9,NEW,--,True,False,234,--,Bad Blood (Taylor's Version),Taylor Swift,1989 (Taylor's Version),29,29,1,145,87,2,45301987,7921,12266370,0.87,0.1,0.04,224672,234,0,0,9,1,1
+2023-10-27,10,NEW,--,True,False,233,--,Clean (Taylor's Version),Taylor Swift,1989 (Taylor's Version),29,28,2,145,84,4,41031375,6928,22228560,0.84,0.09,0.07,203609,233,0,0,10,1,1
+2023-10-27,11,NEW,--,True,False,220,--,Welcome to New York (Taylor's Version),Taylor Swift,1989 (Taylor's Version),27,27,2,135,81,4,38825325,6790,22590000,0.83,0.09,0.08,196392,220,0,0,11,1,1
+2023-10-27,12,NEW,--,True,False,218,--,Wonderland (Taylor's Version),Taylor Swift,1989 (Taylor's Version),27,27,1,135,81,2,36720337,6422,10685070,0.86,0.1,0.04,182490,218,0,0,12,1,1
+2023-10-27,13,NEW,--,True,False,218,--,I Know Places (Taylor's Version),Taylor Swift,1989 (Taylor's Version),27,27,1,135,81,2,41086237,7185,11950110,0.86,0.1,0.04,204050,218,0,0,13,1,1
+2023-10-27,14,NEW,--,True,False,217,--,You Are in Love (Taylor's Version),Taylor Swift,1989 (Taylor's Version),27,26,2,135,78,4,35628862,6001,20737620,0.83,0.09,0.08,177100,217,0,0,14,1,1
+2023-10-27,15,NEW,--,True,False,217,--,How You Get the Girl (Taylor's Version),Taylor Swift,1989 (Taylor's Version),27,26,2,135,78,4,40462537,6814,23538780,0.83,0.09,0.08,200970,217,0,0,15,1,1
+2023-10-27,16,NEW,--,True,False,210,--,Say Don't Go (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),26,26,1,130,78,2,38888850,6800,11746800,0.86,0.1,0.04,193291,210,0,0,16,1,1
+2023-10-27,17,NEW,--,True,False,202,--,Is It Over Now? (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),25,25,1,125,75,2,39486562,6904,12401910,0.86,0.1,0.04,160650,202,0,0,17,1,1
+2023-10-27,18,NEW,--,True,False,194,--,Suburban Legends (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),24,24,1,120,72,2,35828100,6265,11724210,0.86,0.1,0.04,178360,194,0,0,18,1,1
+2023-10-27,19,-2,17,False,False,176,1.75,Wildest Dreams (Taylor's Version),Taylor Swift,1989 (Taylor's Version),16,16,2,80,48,4,23238600,4064,22815900,0.79,0.09,0.12,120428,132,20,24,1,54,8
+2023-10-27,20,NEW,--,True,False,170,--,Slut! (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),21,21,1,105,63,2,30621937,5355,11453130,0.85,0.1,0.05,152908,170,0,0,20,1,1
+2023-10-27,21,NEW,--,True,False,147,--,Bad Blood (feat. Kendrick Lamar) (Taylor's Version),Taylor Swift,1989 (Taylor's Version) [Deluxe],19,14,5,95,42,10,30009787,3866,62009550,0.71,0.06,0.23,119700,147,0,0,21,1,1
+2023-10-27,22,RE,--,False,False,119,--,This Love (Taylor’s Version),Taylor Swift,1989 (Taylor's Version),14,13,3,70,39,6,21303975,3459,35850330,0.73,0.08,0.2,111300,115,0,4,1,39,1
+2023-10-27,23,-10,13,False,False,42,-0.38,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1582350,276,10165500,0.42,0.05,0.53,9471,10,21,11,1,57,4
+2023-10-27,24,+10,34,False,False,39,-0.15,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,14,15,1,46,5
+2023-10-27,25,RE,--,False,False,15,--,The Feels,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,0,5,4,44,1
+2023-10-27,26,RE,--,False,False,14,--,Blank Space,Taylor Swift,1989 (Deluxe Edition),1,1,1,5,3,2,1328250,232,10436580,0.42,0.05,0.53,9723,10,0,4,2,45,1
+2023-10-27,27,RE,--,True,False,10,--,Clean,Taylor Swift,1989 (Deluxe Edition),1,1,1,5,3,2,1394662,243,10956150,0.42,0.05,0.53,10206,10,0,0,27,11,1
+2023-10-27,28,RE,--,True,False,10,--,I Know Places,Taylor Swift,1989 (Deluxe Edition),1,1,1,5,3,2,1478400,258,11611260,0.42,0.05,0.53,10815,10,0,0,28,9,1
+2023-10-27,29,RE,--,True,False,10,--,How You Get the Girl,Taylor Swift,1989 (Deluxe Edition),1,1,1,5,3,2,1362900,238,10707660,0.42,0.05,0.53,9975,10,0,0,29,11,1
+2023-10-27,30,RE,--,False,False,10,--,Bad Blood,Taylor Swift,1989 (Deluxe Edition),1,1,1,5,3,2,1530375,267,12017880,0.42,0.05,0.53,11193,10,0,0,11,26,1
+2023-10-27,31,RE,--,False,False,10,--,I Wish You Would,Taylor Swift,1989 (Deluxe Edition),1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,0,0,9,19,1
+2023-10-27,32,RE,--,False,False,10,--,Shake It Off,Taylor Swift,1989 (Deluxe Edition),1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,0,0,5,30,1
+2023-10-27,33,RE,--,True,False,10,--,All You Had to Do Was Stay,Taylor Swift,1989 (Deluxe Edition),1,1,1,5,3,2,1397550,244,10978740,0.42,0.05,0.53,10227,10,0,0,33,15,1
+2023-10-27,34,RE,--,True,False,10,--,Out of the Woods,Taylor Swift,1989 (Deluxe Edition),1,1,1,5,3,2,1533262,268,12040470,0.42,0.05,0.53,11214,10,0,0,34,23,1
+2023-10-27,35,RE,--,False,False,10,--,Style,Taylor Swift,1989 (Deluxe Edition),1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,0,0,3,31,1
+2023-10-27,36,RE,--,True,False,10,--,Welcome to New York,Taylor Swift,1989 (Deluxe Edition),1,1,1,5,3,2,1521712,266,11950110,0.42,0.05,0.53,11130,10,0,0,36,14,1
+2023-10-27,37,RE,--,False,False,10,--,The Best Day (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1510162,264,11859750,0.42,0.05,0.53,11046,10,0,0,24,9,1
+2023-10-27,38,RE,--,False,False,10,--,The Way I Loved You (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,0,0,2,29,1
+2023-10-27,39,RE,--,False,False,10,--,You’re Not Sorry (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,0,0,5,17,1
+2023-10-27,40,RE,--,False,False,10,--,Tell Me Why (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1541925,269,12108240,0.42,0.05,0.53,11277,10,0,0,1,10,1
+2023-10-27,41,RE,--,False,False,10,--,Breathe (feat. Colbie Caillat) (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,0,0,25,14,1
