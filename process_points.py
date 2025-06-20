@@ -37,7 +37,6 @@ def stable_seed(song: str, album: str, artist: str) -> int:
     
 def apply_deviation(base_value: int, seed: int, scale: float = 0.1, mod: int = 100) -> int:
     deviation = ((seed % mod) / mod - 0.5) * 2 * scale
-    print(deviation)
     return int(base_value * (1 + deviation))
 
 for year in YEARS:
