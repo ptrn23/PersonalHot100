@@ -3,11 +3,11 @@ import os
 from key import CHART_NAME
 
 YEAR = "2025"
-WEEK = "06-20"
+WEEK = "06-27"
 CSV_PATH = f"points/{YEAR}/{WEEK}.csv"
 FEED_PATH = "feed.txt"
 
-MILESTONE_WEEKS = {20, 30, 60, 70, 80, 90, 100}
+MILESTONE_WEEKS = {20, 30, 40, 50, 60, 70, 80, 90, 100}
 SPECIAL_MILESTONES = {52: "one year", 104: "two years"}
 
 def ordinal(n):
@@ -110,6 +110,29 @@ def format_milestone_weeks(row):
     
     return None
 
+def format_climber_new_peak(row):
+    spots_up = int(row["Rise/Fall"])
+    return f'“{row["Song"]}” by {row["Artist"]} reaches a new peak in {CHART_NAME} Hot 100, rising {spots_up} spot{"s" if spots_up != 1 else ""} to #{row["Position"]}.'
+
+def format_top_10_or_5_climber(row):
+    pos = try_parse_int(row["Position"])
+    prev = try_parse_int(row["Previous Rank"])
+
+    if pos is None or prev is None:
+        return None
+
+    song = row["Song"]
+    artist = row["Artist"]
+
+    if pos <= 5 and prev > 5:
+        spots_up = int(row["Rise/Fall"])
+        return f'“{song}” by {artist} climbs inside the top 5 of {CHART_NAME} Hot 100, rising {spots_up} spot{"s" if spots_up != 1 else ""} to #{row["Position"]}.'
+    elif pos <= 10 and prev > 10:
+        spots_up = int(row["Rise/Fall"])
+        return f'“{song}” by {artist} climbs inside the top 10 of {CHART_NAME} Hot 100, rising {spots_up} spot{"s" if spots_up != 1 else ""} to #{row["Position"]}.'
+
+    return None
+
 def is_regular_climber_new_peak(row):
     rise_fall = row["Rise/Fall"].strip().upper()
     if rise_fall in {"NEW", "RE", "REENTRY", "RE-ENTRY"}:
@@ -120,10 +143,6 @@ def is_regular_climber_new_peak(row):
         return int(rise_fall) > 0
     except ValueError:
         return False
-
-def format_climber_new_peak(row):
-    spots_up = int(row["Rise/Fall"])
-    return f'“{row["Song"]}” by {row["Artist"]} reaches a new peak in {CHART_NAME} Hot 100, rising {spots_up} spot{"s" if spots_up != 1 else ""} to #{row["Position"]}.'
 
 def write_feed(lines, out_file):
     with open(out_file, "w", encoding="utf-8") as f:
@@ -148,6 +167,8 @@ def main():
                 feed_lines.append(format_number_one_update(row))
             elif process_reentry(row):
                 feed_lines.append(format_reentry(row))
+            elif format_top_10_or_5_climber(row):
+                feed_lines.append(format_top_10_or_5_climber(row))
             elif is_regular_climber_new_peak(row):
                 feed_lines.append(format_climber_new_peak(row))
             
