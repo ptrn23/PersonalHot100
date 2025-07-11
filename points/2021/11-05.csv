@@ -1,28 +1,28 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2021-11-05,1,RE,--,True,False,33,--,All Too Well,Taylor Swift,Red (Deluxe Edition),4,3,2,20,9,4,5751900,754,22590000,0.59,0.05,0.37,31563,33,0,0,1,2,1
-2021-11-05,2,RE,--,True,True,29,--,Sad Beautiful Tragic,Taylor Swift,Red (Deluxe Edition),3,2,2,15,6,4,3906787,455,20466540,0.52,0.04,0.44,22246,25,0,4,2,7,2
-2021-11-05,3,+3,6,True,False,29,1.9,Hot n Cold,Katy Perry,One of the Boys,3,3,1,15,9,2,4166662,728,10910970,0.65,0.07,0.27,23716,26,3,0,3,3,1
-2021-11-05,4,-2,2,False,False,26,0.62,Halo,Beyoncé,I AM...SASHA FIERCE - Platinum Edition,2,2,1,10,6,2,3158925,552,12401910,0.58,0.06,0.36,15750,18,5,3,2,6,1
-2021-11-05,5,RE,--,False,False,22,--,Begin Again,Taylor Swift,Red (Deluxe Edition),2,2,1,10,6,2,3008775,526,11814570,0.58,0.06,0.36,18340,18,0,4,2,6,1
-2021-11-05,6,RE,--,False,False,20,--,BOYS LIKE YOU,dodie,BOYS LIKE YOU,2,2,1,10,6,2,2922150,511,11475720,0.58,0.06,0.36,17815,18,0,2,2,4,1
-2021-11-05,7,RE,--,True,False,20,--,Teardrops on My Guitar - Radio Single Remix,Taylor Swift,Taylor Swift,2,2,1,10,6,2,3089625,540,12130830,0.58,0.06,0.36,18830,18,0,2,7,3,1
-2021-11-05,8,RE,--,False,False,18,--,Sober,Lorde,Melodrama,2,2,1,10,6,2,2702700,472,10617300,0.58,0.06,0.36,16485,18,0,0,5,7,1
-2021-11-05,9,RE,--,True,False,18,--,Sober,Selena Gomez,Revival (Deluxe),2,2,1,10,6,2,2783550,486,10933560,0.58,0.06,0.36,16975,18,0,0,9,5,1
-2021-11-05,10,NEW,--,True,False,18,--,Tim McGraw,Taylor Swift,Taylor Swift,2,2,1,10,6,2,2777775,485,10910970,0.58,0.06,0.36,16940,18,0,0,10,1,1
-2021-11-05,11,RE,--,True,False,17,--,Walking on Air,Katy Perry,PRISM (Deluxe),2,1,2,10,3,4,2818200,246,22138200,0.43,0.02,0.54,17185,17,0,0,11,2,1
+2021-11-05,2,+7,9,True,False,29,1.9,Hot n Cold,Katy Perry,One of the Boys,3,3,1,15,9,2,4166662,728,10910970,0.65,0.07,0.27,23716,26,3,0,2,2,1
+2021-11-05,3,RE,--,False,False,29,--,Sad Beautiful Tragic,Taylor Swift,Red (Deluxe Edition),3,2,2,15,6,4,3906787,455,20466540,0.52,0.04,0.44,22246,25,0,4,2,8,1
+2021-11-05,4,-2,2,False,False,26,0.62,Halo,Beyoncé,I AM...SASHA FIERCE - Platinum Edition,2,2,1,10,6,2,3158925,552,12401910,0.58,0.06,0.36,15750,18,5,3,2,5,1
+2021-11-05,5,RE,--,False,False,23,--,Begin Again,Taylor Swift,Red (Deluxe Edition),2,2,1,10,6,2,3008775,526,11814570,0.58,0.06,0.36,18340,18,0,5,4,6,1
+2021-11-05,6,RE,--,True,False,20,--,Teardrops on My Guitar - Radio Single Remix,Taylor Swift,Taylor Swift,2,2,1,10,6,2,3089625,540,12130830,0.58,0.06,0.36,18830,18,0,2,6,5,1
+2021-11-05,7,RE,--,True,False,18,--,Tim McGraw,Taylor Swift,Taylor Swift,2,2,1,10,6,2,2777775,485,10910970,0.58,0.06,0.36,16940,18,0,0,7,2,1
+2021-11-05,8,RE,--,True,False,18,--,Sober,Selena Gomez,Revival (Deluxe),2,2,1,10,6,2,2783550,486,10933560,0.58,0.06,0.36,16975,18,0,0,8,6,1
+2021-11-05,9,RE,--,False,False,18,--,Sober,Lorde,Melodrama,2,2,1,10,6,2,2702700,472,10617300,0.58,0.06,0.36,16485,18,0,0,3,8,1
+2021-11-05,10,RE,--,True,False,18,--,BOYS LIKE YOU,dodie,BOYS LIKE YOU,2,2,1,10,6,2,2922150,511,11475720,0.58,0.06,0.36,17815,18,0,0,10,3,1
+2021-11-05,11,RE,--,True,False,17,--,Walking on Air,Katy Perry,PRISM (Deluxe),2,1,2,10,3,4,2818200,246,22138200,0.43,0.02,0.54,17185,17,0,0,11,3,1
 2021-11-05,12,RE,--,False,False,17,--,ghostin,Ariana Grande,thank u next,2,1,2,10,3,4,2933700,256,23041800,0.43,0.02,0.54,17885,17,0,0,1,9,1
-2021-11-05,13,RE,--,True,False,12,--,E.T.,Katy Perry,Katy Perry - Teenage Dream: The Complete Confection,1,1,1,5,3,2,1299375,227,10210680,0.42,0.05,0.53,9513,10,0,2,13,2,1
-2021-11-05,14,RE,--,False,False,10,--,Treacherous,Taylor Swift,Red (Deluxe Edition),1,1,1,5,3,2,1573687,275,12356730,0.42,0.05,0.53,11508,10,0,0,4,4,1
-2021-11-05,15,RE,--,True,False,10,--,Better Man,Little Big Town,reputation Stadium Tour Surprise Song Playlist,1,1,1,5,3,2,1299375,227,10210680,0.42,0.05,0.53,9513,10,0,0,15,2,1
-2021-11-05,16,RE,--,False,False,10,--,Dress,Taylor Swift,Reputation,1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,0,0,2,12,1
-2021-11-05,17,NEW,--,True,False,10,--,Enchanted,Taylor Swift,Speak Now (Deluxe Package),1,1,1,5,3,2,1475512,258,11588670,0.42,0.05,0.53,10794,10,0,0,17,1,1
-2021-11-05,18,RE,--,False,False,10,--,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1582350,276,10165500,0.42,0.05,0.53,9471,10,0,0,4,7,2
-2021-11-05,19,RE,--,True,False,10,--,Don't Hurt Yourself (feat. Jack White),Beyoncé,Lemonade,1,1,1,5,3,2,1585237,226,10188090,0.42,0.05,0.53,9492,10,0,0,19,2,1
-2021-11-05,20,RE,--,True,False,10,--,Mary's Song (Oh My My My),Taylor Swift,Taylor Swift,1,1,1,5,3,2,1515937,265,11904930,0.42,0.05,0.53,11088,10,0,0,20,5,1
-2021-11-05,21,RE,--,True,False,10,--,Should've Said No,Taylor Swift,Taylor Swift,1,1,1,5,3,2,1559250,272,12243780,0.42,0.05,0.53,11403,10,0,0,21,2,1
-2021-11-05,22,NEW,--,True,False,10,--,Stay Beautiful,Taylor Swift,Taylor Swift,1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,0,0,22,1,1
-2021-11-05,23,RE,--,False,False,10,--,Picture to Burn,Taylor Swift,Taylor Swift,1,1,1,5,3,2,1411987,246,11091690,0.42,0.05,0.53,10332,10,0,0,18,9,1
-2021-11-05,24,RE,--,False,False,10,--,Thinking of You,Katy Perry,One of the Boys,1,1,1,5,3,2,1374450,240,10798020,0.42,0.05,0.53,10059,10,0,0,1,6,1
-2021-11-05,25,RE,--,False,False,10,--,Waking Up in Vegas,Katy Perry,One of the Boys,1,1,1,5,3,2,1313812,229,10323630,0.42,0.05,0.53,9618,10,0,0,4,6,1
-2021-11-05,26,RE,--,False,False,10,--,I Kissed a Girl,Katy Perry,One of the Boys,1,1,1,5,3,2,1435087,250,11272410,0.42,0.05,0.53,10500,10,0,0,8,5,1
-2021-11-05,27,RE,--,True,False,10,--,One of the Boys,Katy Perry,One of the Boys,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,0,0,27,2,1
+2021-11-05,13,RE,--,False,False,12,--,Waking Up in Vegas,Katy Perry,One of the Boys,1,1,1,5,3,2,1313812,229,10323630,0.42,0.05,0.53,9618,10,0,2,3,11,1
+2021-11-05,14,RE,--,False,False,12,--,Treacherous,Taylor Swift,Red (Deluxe Edition),1,1,1,5,3,2,1573687,275,12356730,0.42,0.05,0.53,11508,10,0,2,4,9,1
+2021-11-05,15,RE,--,False,False,10,--,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1582350,276,10165500,0.42,0.05,0.53,9471,10,0,0,2,10,1
+2021-11-05,16,RE,--,False,False,10,--,Thinking of You,Katy Perry,One of the Boys,1,1,1,5,3,2,1374450,240,10798020,0.42,0.05,0.53,10059,10,0,0,1,6,1
+2021-11-05,17,RE,--,True,False,10,--,Stay Beautiful,Taylor Swift,Taylor Swift,1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,0,0,17,2,1
+2021-11-05,18,RE,--,True,False,10,--,Should've Said No,Taylor Swift,Taylor Swift,1,1,1,5,3,2,1559250,272,12243780,0.42,0.05,0.53,11403,10,0,0,18,2,1
+2021-11-05,19,RE,--,True,False,10,--,Picture to Burn,Taylor Swift,Taylor Swift,1,1,1,5,3,2,1411987,246,11091690,0.42,0.05,0.53,10332,10,0,0,19,9,1
+2021-11-05,20,RE,--,True,False,10,--,One of the Boys,Katy Perry,One of the Boys,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,0,0,20,1,1
+2021-11-05,21,RE,--,True,True,10,--,Mary's Song (Oh My My My),Taylor Swift,Taylor Swift,1,1,1,5,3,2,1515937,265,11904930,0.42,0.05,0.53,11088,10,0,0,21,5,2
+2021-11-05,22,RE,--,False,False,10,--,I Kissed a Girl,Katy Perry,One of the Boys,1,1,1,5,3,2,1435087,250,11272410,0.42,0.05,0.53,10500,10,0,0,18,4,1
+2021-11-05,23,NEW,--,True,False,10,--,Enchanted,Taylor Swift,Speak Now (Deluxe Package),1,1,1,5,3,2,1475512,258,11588670,0.42,0.05,0.53,10794,10,0,0,23,1,1
+2021-11-05,24,RE,--,True,False,10,--,E.T.,Katy Perry,Katy Perry - Teenage Dream: The Complete Confection,1,1,1,5,3,2,1299375,227,10210680,0.42,0.05,0.53,9513,10,0,0,24,1,1
+2021-11-05,25,RE,--,False,False,10,--,Dress,Taylor Swift,Reputation,1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,0,0,2,10,1
+2021-11-05,26,RE,--,True,False,10,--,Don't Hurt Yourself (feat. Jack White),Beyoncé,Lemonade,1,1,1,5,3,2,1585237,226,10188090,0.42,0.05,0.53,9492,10,0,0,26,1,1
+2021-11-05,27,RE,--,True,False,10,--,Better Man,Little Big Town,reputation Stadium Tour Surprise Song Playlist,1,1,1,5,3,2,1299375,227,10210680,0.42,0.05,0.53,9513,10,0,0,27,1,1

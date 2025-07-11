@@ -92,14 +92,24 @@ for year in YEARS:
             weighted = calculate_weighted_points(raw_points, prev_pts, two_weeks_pts)
 
             key = (song.lower(), artist)
-            weighted_scores[key] = weighted
-            raw_point_map[key] = (streams, sales, airplay, raw_points, prev_pts, two_weeks_pts)
+            week_total_points = ceil(raw_points + ceil(prev_pts * 0.3) + ceil(two_weeks_pts * 0.2))
+            weighted_scores[key] = week_total_points
+            raw_point_map[key] = (streams, sales, airplay, raw_points, prev_pts, two_weeks_pts, week_total_points)
 
             all_songs[key]["album"] = album
         
         sorted_songs = sorted(weighted_scores.items(), key=lambda x: x[1], reverse=True)
 
-        ranked = sorted(weighted_scores.items(), key=lambda x: x[1], reverse=True)[:CHART_LIMIT]
+        ranked = sorted(
+            weighted_scores.items(),
+            key=lambda x: (
+                x[1],                             # weighted points
+                raw_point_map[x[0]][3],           # raw points
+                x[0][0],                          # song name
+                x[0][1]                           # artist
+            ),
+            reverse=True
+        )[:CHART_LIMIT] 
 
         week_ranks = []
         prev_week_positions = {
@@ -113,7 +123,7 @@ for year in YEARS:
 
             is_new_peak, is_repeak = update_peak_and_woc(all_songs[key], rank)
 
-            streams, sales, airplay, total_points, prev_pts, two_weeks_pts = raw_point_map[key]
+            streams, sales, airplay, total_points, prev_pts, two_weeks_pts, week_total_points = raw_point_map[key]
             stream_pts = ceil(streams * 5000 / 1000)
             sale_pts = ceil(sales * 3000 / 1000)
             air_pts = ceil(airplay * 2000 / 1000)

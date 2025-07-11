@@ -1,101 +1,101 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2021-12-17,1,=,1,True,True,52,-0.29,Forever Winter (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2818200,492,11069100,0.58,0.06,0.36,17185,18,22,12,1,6,5
-2021-12-17,2,+1,3,True,True,46,0.15,I Bet You Think About Me (feat. Chris Stapleton) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4686412,819,12266370,0.65,0.07,0.27,26656,26,12,8,2,6,2
-2021-12-17,3,-1,2,False,False,37,-0.12,Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2725800,476,10707660,0.58,0.06,0.36,16625,18,13,6,2,6,1
-2021-12-17,4,RE,--,True,False,34,--,Dear Future Husband,Meghan Trainor,Title (Deluxe),4,4,1,20,12,2,5278350,923,10368810,0.7,0.08,0.22,28979,34,0,0,4,4,1
-2021-12-17,5,=,5,False,False,34,0.31,Better Man (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4625775,808,12108240,0.65,0.07,0.27,26313,26,8,0,3,5,1
-2021-12-17,6,RE,--,False,False,33,--,Love Story (Taylor’s Version),Taylor Swift,Love Story (Taylor’s Version),3,3,2,15,9,4,4660425,814,24397200,0.51,0.06,0.43,30296,28,0,5,1,18,2
-2021-12-17,7,RE,--,True,False,30,--,Sad Beautiful Tragic (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4452525,778,11656440,0.65,0.07,0.27,25333,26,0,4,7,5,1
+2021-12-17,2,+1,3,True,True,48,0.17,I Bet You Think About Me (feat. Chris Stapleton) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4686412,819,12266370,0.65,0.07,0.27,26656,26,13,9,2,6,2
+2021-12-17,3,-1,2,False,False,37,-0.14,Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2725800,476,10707660,0.58,0.06,0.36,16625,18,13,6,2,6,1
+2021-12-17,4,RE,--,True,False,34,--,Dear Future Husband,Meghan Trainor,Title (Deluxe),4,4,1,20,12,2,5278350,923,10368810,0.7,0.08,0.22,28979,34,0,0,4,3,1
+2021-12-17,5,-1,4,False,False,34,0.31,Better Man (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4625775,808,12108240,0.65,0.07,0.27,26313,26,8,0,3,5,1
+2021-12-17,6,RE,--,False,False,33,--,Love Story (Taylor’s Version),Taylor Swift,Love Story (Taylor’s Version),3,3,2,15,9,4,4660425,814,24397200,0.51,0.06,0.43,30296,28,0,5,1,18,3
+2021-12-17,7,RE,--,True,False,31,--,Sad Beautiful Tragic (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4452525,778,11656440,0.65,0.07,0.27,25333,26,0,5,7,5,1
 2021-12-17,8,-2,6,False,False,29,0.12,CPR,cupcakKe,Queen Elizabitch,1,1,1,5,3,2,1481287,259,11633850,0.42,0.05,0.53,10836,10,8,11,2,3,1
-2021-12-17,9,RE,--,False,False,26,--,Hands to Myself,Selena Gomez,Revival (Deluxe),3,3,1,15,9,2,4383225,766,11475720,0.65,0.07,0.27,24941,26,0,0,7,3,2
-2021-12-17,10,-6,4,False,False,26,0.0,Babe (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2910600,509,11430540,0.58,0.06,0.36,17745,18,8,0,4,5,2
-2021-12-17,11,RE,--,False,False,26,--,The Moment I Knew (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4132012,722,10820610,0.65,0.07,0.27,23520,26,0,0,6,4,1
-2021-12-17,12,RE,--,True,False,26,--,The Lucky One (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4019400,703,10526940,0.65,0.07,0.27,22883,26,0,0,12,4,1
-2021-12-17,13,RE,--,True,False,26,--,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,3932775,687,10301040,0.65,0.07,0.27,22393,26,0,0,13,4,1
-2021-12-17,14,RE,--,False,False,24,--,The Very First Night (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2772000,484,10888380,0.58,0.06,0.36,16905,18,0,6,4,5,1
-2021-12-17,15,RE,--,False,False,20,--,Touch,Little Mix,Glory Days (Deluxe),2,2,2,10,6,4,2979900,521,23403240,0.42,0.05,0.53,21798,20,0,0,2,6,1
-2021-12-17,16,RE,--,True,False,20,--,Tell Me Something I Don't Know,Selena Gomez & the Scene,Kiss & Tell,2,2,2,10,6,4,2714250,474,21324960,0.42,0.05,0.53,19866,20,0,0,16,7,1
+2021-12-17,9,RE,--,True,False,26,--,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,3932775,687,10301040,0.65,0.07,0.27,22393,26,0,0,9,4,1
+2021-12-17,10,RE,--,False,False,26,--,The Moment I Knew (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4132012,722,10820610,0.65,0.07,0.27,23520,26,0,0,6,4,1
+2021-12-17,11,RE,--,True,False,26,--,The Lucky One (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4019400,703,10526940,0.65,0.07,0.27,22883,26,0,0,11,4,1
+2021-12-17,12,RE,--,False,False,26,--,Hands to Myself,Selena Gomez,Revival (Deluxe),3,3,1,15,9,2,4383225,766,11475720,0.65,0.07,0.27,24941,26,0,0,5,3,1
+2021-12-17,13,-8,5,False,False,26,0.0,Babe (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2910600,509,11430540,0.58,0.06,0.36,17745,18,8,0,4,5,1
+2021-12-17,14,RE,--,False,False,24,--,The Very First Night (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2772000,484,10888380,0.58,0.06,0.36,16905,18,0,6,4,5,2
+2021-12-17,15,RE,--,False,False,20,--,Touch,Little Mix,Glory Days (Deluxe),2,2,2,10,6,4,2979900,521,23403240,0.42,0.05,0.53,21798,20,0,0,2,7,1
+2021-12-17,16,RE,--,True,False,20,--,Tell Me Something I Don't Know,Selena Gomez & the Scene,Kiss & Tell,2,2,2,10,6,4,2714250,474,21324960,0.42,0.05,0.53,19866,20,0,0,16,9,1
 2021-12-17,17,RE,--,True,False,20,--,Love You Like a Love Song,Selena Gomez & the Scene,When the Sun Goes Down,2,2,2,10,6,4,3153150,551,24758640,0.42,0.05,0.53,23058,20,0,0,17,3,1
-2021-12-17,18,RE,--,True,False,19,--,You Are in Love,Taylor Swift,1989 (Deluxe),2,1,2,10,3,4,3078075,269,24171300,0.43,0.02,0.54,18760,17,0,2,18,9,1
-2021-12-17,19,RE,--,False,False,18,--,Mrs. Potato Head,Melanie Martinez,Cry Baby (Deluxe Edition),2,2,1,10,6,2,3112725,544,12221190,0.58,0.06,0.36,18970,18,0,0,3,7,1
-2021-12-17,20,RE,--,False,False,18,--,What the Hell,Avril Lavigne,Goodbye Lullaby (Expanded Edition),2,2,1,10,6,2,2829750,494,11114280,0.58,0.06,0.36,17255,18,0,0,1,6,1
-2021-12-17,21,RE,--,False,False,18,--,Tag You're It,Melanie Martinez,Cry Baby (Deluxe Edition),2,2,1,10,6,2,2927925,512,11498310,0.58,0.06,0.36,17850,18,0,0,9,8,1
-2021-12-17,22,NEW,--,True,False,18,--,For a Pessimist I'm Pretty Optimistic,Paramore,RIOT!,2,2,1,10,6,2,2644950,462,10391400,0.58,0.06,0.36,16134,18,0,0,22,1,1
-2021-12-17,23,RE,--,False,False,18,--,Naturally,Selena Gomez & the Scene,Kiss & Tell,2,2,1,10,6,2,3078075,538,12085650,0.58,0.06,0.36,18760,18,0,0,6,7,1
-2021-12-17,24,RE,--,True,False,18,--,Grenade,Bruno Mars,Doo-Wops & Hooligans,2,2,1,10,6,2,2662275,465,10459170,0.58,0.06,0.36,16240,18,0,0,24,2,1
-2021-12-17,25,NEW,--,True,False,18,--,Like I'm Gonna Lose You (feat. John Legend),Meghan Trainor,Title (Deluxe),2,2,1,10,6,2,3164700,553,10165500,0.58,0.06,0.36,15785,18,0,0,25,1,1
+2021-12-17,18,RE,--,False,False,19,--,You Are in Love,Taylor Swift,1989 (Deluxe),2,1,2,10,3,4,3078075,269,24171300,0.43,0.02,0.54,18760,17,0,2,8,16,1
+2021-12-17,19,RE,--,False,False,18,--,You’re Not Sorry (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),2,2,1,10,6,2,2621850,458,10301040,0.58,0.06,0.36,15995,18,0,0,2,9,1
+2021-12-17,20,RE,--,False,False,18,--,What the Hell,Avril Lavigne,Goodbye Lullaby (Expanded Edition),2,2,1,10,6,2,2829750,494,11114280,0.58,0.06,0.36,17255,18,0,0,1,8,1
+2021-12-17,21,RE,--,False,False,18,--,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,3026100,529,11882340,0.58,0.06,0.36,18445,18,0,0,2,4,1
+2021-12-17,22,RE,--,False,False,18,--,The Way I Loved You (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),2,2,1,10,6,2,2673825,467,10504350,0.58,0.06,0.36,16310,18,0,0,2,9,1
+2021-12-17,23,RE,--,False,False,18,--,Tag You're It,Melanie Martinez,Cry Baby (Deluxe Edition),2,2,1,10,6,2,2927925,512,11498310,0.58,0.06,0.36,17850,18,0,0,11,10,1
+2021-12-17,24,RE,--,False,False,18,--,Stay Stay Stay (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2766225,483,10865790,0.58,0.06,0.36,16870,18,0,0,20,4,1
+2021-12-17,25,RE,--,False,False,18,--,Starlight (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,3049200,533,11972700,0.58,0.06,0.36,18585,18,0,0,22,4,2
 2021-12-17,26,RE,--,False,False,18,--,Single Ladies (Put a Ring on It),Beyoncé,I AM...SASHA FIERCE - Platinum Edition,2,2,1,10,6,2,3112725,544,12221190,0.58,0.06,0.36,18970,18,0,0,1,6,2
-2021-12-17,27,RE,--,False,False,18,--,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),2,2,1,10,6,2,3054975,534,11995290,0.58,0.06,0.36,18620,18,0,0,13,8,1
-2021-12-17,28,RE,--,False,False,18,--,The Way I Loved You (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),2,2,1,10,6,2,2673825,467,10504350,0.58,0.06,0.36,16310,18,0,0,2,8,1
-2021-12-17,29,RE,--,False,False,18,--,You’re Not Sorry (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),2,2,1,10,6,2,2621850,458,10301040,0.58,0.06,0.36,15995,18,0,0,5,9,1
-2021-12-17,30,RE,--,False,False,18,--,Breathe (feat. Colbie Caillat) (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),2,2,1,10,6,2,3112725,544,12221190,0.58,0.06,0.36,18970,18,0,0,27,7,1
-2021-12-17,31,RE,--,False,False,18,--,Run (feat. Ed Sheeran) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,3147375,550,12356730,0.58,0.06,0.36,19180,18,0,0,5,4,1
-2021-12-17,32,RE,--,False,False,18,--,Message in a Bottle (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2702700,472,10617300,0.58,0.06,0.36,16485,18,0,0,8,4,1
-2021-12-17,33,RE,--,False,False,18,--,Ronan (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2720025,475,10685070,0.58,0.06,0.36,16590,18,0,0,7,4,1
-2021-12-17,34,RE,--,False,False,18,--,Come Back...Be Here (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2708475,473,10639890,0.58,0.06,0.36,16520,18,0,0,13,3,1
-2021-12-17,35,RE,--,False,False,18,--,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2887500,505,11340180,0.58,0.06,0.36,17605,18,0,0,16,4,1
-2021-12-17,36,RE,--,False,False,18,--,Starlight (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,3049200,533,11972700,0.58,0.06,0.36,18585,18,0,0,18,4,1
-2021-12-17,37,RE,--,False,False,18,--,Holy Ground (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2748900,480,10798020,0.58,0.06,0.36,16765,18,0,0,22,4,1
-2021-12-17,38,RE,--,False,False,18,--,Stay Stay Stay (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2766225,483,10865790,0.58,0.06,0.36,16870,18,0,0,24,4,1
-2021-12-17,39,RE,--,False,False,18,--,I Almost Do (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,3153150,551,12379320,0.58,0.06,0.36,19215,18,0,0,26,4,1
-2021-12-17,40,RE,--,False,False,18,--,Dress,Taylor Swift,Reputation,2,2,1,10,6,2,3112725,544,12221190,0.58,0.06,0.36,18970,18,0,0,2,13,1
-2021-12-17,41,-34,7,False,False,18,-0.1,happiness,Taylor Swift,evermore,1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,6,2,2,19,3
-2021-12-17,42,RE,--,False,False,18,--,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,3026100,529,11882340,0.58,0.06,0.36,18445,18,0,0,2,4,1
-2021-12-17,43,RE,--,False,False,18,--,Mary's Song (Oh My My My),Taylor Swift,Taylor Swift,2,2,1,10,6,2,3031875,530,11904930,0.58,0.06,0.36,18480,18,0,0,20,7,1
-2021-12-17,44,RE,--,False,False,18,--,Kill Em with Kindness,Selena Gomez,Revival (Deluxe),2,2,1,10,6,2,2997225,524,11769390,0.58,0.06,0.36,18270,18,0,0,15,3,1
-2021-12-17,45,RE,--,False,False,17,--,마지막 첫사랑 My First and Last,NCT DREAM,The First - The 1st Single Album,2,1,2,10,3,4,2679600,234,21053880,0.43,0.02,0.54,16345,17,0,0,13,4,1
-2021-12-17,46,RE,--,False,False,16,--,All Too Well (10 Minute Version) (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1380225,241,10843200,0.42,0.05,0.53,10101,10,0,6,4,5,1
-2021-12-17,47,RE,--,False,False,14,--,Let It Go - From Frozen/Soundtrack Version,Idina Menzel,Frozen (Original Motion Picture Soundtrack/Deluxe Edition),1,1,1,5,3,2,1319587,230,10368810,0.42,0.05,0.53,9660,10,0,4,11,3,1
-2021-12-17,48,RE,--,False,False,14,--,Secret Love Song (feat. Jason Derulo),Little Mix,Get Weird (Expanded Edition),1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,0,4,10,6,1
-2021-12-17,49,RE,--,False,False,13,--,Waking Up in Vegas,Katy Perry,One of the Boys,1,1,1,5,3,2,1313812,229,10323630,0.42,0.05,0.53,9618,10,0,3,4,9,1
-2021-12-17,50,RE,--,False,False,13,--,Teardrops on My Guitar - Radio Single Remix,Taylor Swift,Taylor Swift,1,1,1,5,3,2,1544812,270,12130830,0.42,0.05,0.53,11298,10,0,3,7,6,1
+2021-12-17,27,RE,--,False,False,18,--,Run (feat. Ed Sheeran) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,3147375,550,12356730,0.58,0.06,0.36,19180,18,0,0,5,4,1
+2021-12-17,28,RE,--,False,False,18,--,Ronan (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2720025,475,10685070,0.58,0.06,0.36,16590,18,0,0,5,4,1
+2021-12-17,29,RE,--,False,False,18,--,Naturally,Selena Gomez & the Scene,Kiss & Tell,2,2,1,10,6,2,3078075,538,12085650,0.58,0.06,0.36,18760,18,0,0,7,7,1
+2021-12-17,30,RE,--,False,False,18,--,Mrs. Potato Head,Melanie Martinez,Cry Baby (Deluxe Edition),2,2,1,10,6,2,3112725,544,12221190,0.58,0.06,0.36,18970,18,0,0,4,6,1
+2021-12-17,31,RE,--,False,False,18,--,Message in a Bottle (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2702700,472,10617300,0.58,0.06,0.36,16485,18,0,0,8,4,1
+2021-12-17,32,RE,--,False,False,18,--,Mary's Song (Oh My My My),Taylor Swift,Taylor Swift,2,2,1,10,6,2,3031875,530,11904930,0.58,0.06,0.36,18480,18,0,0,21,7,2
+2021-12-17,33,NEW,--,True,False,18,--,Like I'm Gonna Lose You (feat. John Legend),Meghan Trainor,Title (Deluxe),2,2,1,10,6,2,3164700,553,10165500,0.58,0.06,0.36,15785,18,0,0,33,1,1
+2021-12-17,34,RE,--,False,False,18,--,Kill Em with Kindness,Selena Gomez,Revival (Deluxe),2,2,1,10,6,2,2997225,524,11769390,0.58,0.06,0.36,18270,18,0,0,13,3,1
+2021-12-17,35,RE,--,False,False,18,--,I Almost Do (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,3153150,551,12379320,0.58,0.06,0.36,19215,18,0,0,24,4,1
+2021-12-17,36,RE,--,False,False,18,--,Holy Ground (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2748900,480,10798020,0.58,0.06,0.36,16765,18,0,0,25,4,1
+2021-12-17,37,RE,--,True,False,18,--,Grenade,Bruno Mars,Doo-Wops & Hooligans,2,2,1,10,6,2,2662275,465,10459170,0.58,0.06,0.36,16240,18,0,0,37,2,1
+2021-12-17,38,RE,--,False,False,18,--,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),2,2,1,10,6,2,3054975,534,11995290,0.58,0.06,0.36,18620,18,0,0,15,8,1
+2021-12-17,39,NEW,--,True,False,18,--,For a Pessimist I'm Pretty Optimistic,Paramore,RIOT!,2,2,1,10,6,2,2644950,462,10391400,0.58,0.06,0.36,16134,18,0,0,39,1,1
+2021-12-17,40,RE,--,False,False,18,--,Dress,Taylor Swift,Reputation,2,2,1,10,6,2,3112725,544,12221190,0.58,0.06,0.36,18970,18,0,0,2,11,1
+2021-12-17,41,RE,--,False,False,18,--,Come Back...Be Here (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2708475,473,10639890,0.58,0.06,0.36,16520,18,0,0,13,3,1
+2021-12-17,42,RE,--,False,False,18,--,Breathe (feat. Colbie Caillat) (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),2,2,1,10,6,2,3112725,544,12221190,0.58,0.06,0.36,18970,18,0,0,27,5,1
+2021-12-17,43,RE,--,False,False,18,--,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2887500,505,11340180,0.58,0.06,0.36,17605,18,0,0,15,4,1
+2021-12-17,44,-37,7,False,False,18,-0.1,happiness,Taylor Swift,evermore,1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,6,2,2,20,2
+2021-12-17,45,RE,--,False,False,17,--,마지막 첫사랑 My First and Last,NCT DREAM,The First - The 1st Single Album,2,1,2,10,3,4,2679600,234,21053880,0.43,0.02,0.54,16345,17,0,0,11,5,1
+2021-12-17,46,RE,--,False,False,16,--,All Too Well (10 Minute Version) (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1380225,241,10843200,0.42,0.05,0.53,10101,10,0,6,5,5,1
+2021-12-17,47,RE,--,False,False,14,--,Secret Love Song (feat. Jason Derulo),Little Mix,Get Weird (Expanded Edition),1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,0,4,10,6,1
+2021-12-17,48,RE,--,False,False,14,--,Let It Go - From Frozen/Soundtrack Version,Idina Menzel,Frozen (Original Motion Picture Soundtrack/Deluxe Edition),1,1,1,5,3,2,1319587,230,10368810,0.42,0.05,0.53,9660,10,0,4,11,3,1
+2021-12-17,49,RE,--,False,False,13,--,Waking Up in Vegas,Katy Perry,One of the Boys,1,1,1,5,3,2,1313812,229,10323630,0.42,0.05,0.53,9618,10,0,3,3,14,1
+2021-12-17,50,RE,--,False,False,13,--,Teardrops on My Guitar - Radio Single Remix,Taylor Swift,Taylor Swift,1,1,1,5,3,2,1544812,270,12130830,0.42,0.05,0.53,11298,10,0,3,6,8,1
 2021-12-17,51,RE,--,False,False,12,--,Thinking of You,Katy Perry,One of the Boys,1,1,1,5,3,2,1374450,240,10798020,0.42,0.05,0.53,10059,10,0,2,1,8,1
-2021-12-17,52,NEW,--,True,False,10,--,Sa Ngalan Ng Pag-Ibig,December Avenue,Sa Ngalan Ng Pag-Ibig,1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,0,0,52,1,1
-2021-12-17,53,NEW,--,True,False,10,--,Two Less Lonely People in the World (Official Movie Theme Song Of Kita Kita),KZ Tandingan,Two Less Lonely People in the World (Official Movie Theme Song Of Kita Kita),1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,0,0,53,1,1
-2021-12-17,54,NEW,--,True,False,10,--,Paubaya,Moira Dela Torre,Paubaya,1,1,1,5,3,2,1302262,227,10233270,0.42,0.05,0.53,9534,10,0,0,54,1,1
-2021-12-17,55,NEW,--,True,False,10,--,Bakit Nga Ba Mahal Kita,Roselle Nava,Roselle,1,1,1,5,3,2,1354237,236,10639890,0.42,0.05,0.53,9912,10,0,0,55,1,1
-2021-12-17,56,NEW,--,True,False,10,--,Malaya,Moira Dela Torre,Malaya,1,1,1,5,3,2,1432200,250,11249820,0.42,0.05,0.53,10479,10,0,0,56,1,1
-2021-12-17,57,NEW,--,True,False,10,--,Ikaw,Yeng Constantino,All About Love,1,1,1,5,3,2,1536150,268,12063060,0.42,0.05,0.53,11235,10,0,0,57,1,1
-2021-12-17,58,NEW,--,True,False,10,--,Kung 'Di Rin Lang Ikaw,December Avenue,Kung 'Di Rin Lang Ikaw,1,1,1,5,3,2,1498612,262,11769390,0.42,0.05,0.53,10962,10,0,0,58,1,1
-2021-12-17,59,RE,--,False,False,10,--,We Can't Stop,Miley Cyrus,Bangerz (Deluxe Version),1,1,1,5,3,2,1585237,226,10188090,0.42,0.05,0.53,9492,10,0,0,26,4,1
-2021-12-17,60,RE,--,False,False,10,--,Rockabye (feat. Sean Paul & Anne-Marie),Clean Bandit,What is Love? (Deluxe Edition),1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,0,0,25,3,1
-2021-12-17,61,RE,--,False,False,10,--,Candy Shop,50 Cent,The Massacre,1,1,1,5,3,2,1411987,246,11091690,0.42,0.05,0.53,10332,10,0,0,26,2,1
-2021-12-17,62,RE,--,False,False,10,--,Good Time,Owl City,The Midsummer Station,1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,0,0,5,7,1
-2021-12-17,63,NEW,--,True,False,10,--,Won't Go Home Without You,Maroon 5,It Won't Be Soon Before Long (International Version),1,1,1,5,3,2,1394662,243,10956150,0.42,0.05,0.53,10206,10,0,0,63,1,1
-2021-12-17,64,RE,--,False,False,10,--,Alejandro,Lady Gaga,The Fame Monster (International Deluxe),1,1,1,5,3,2,1582350,276,10165500,0.42,0.05,0.53,9471,10,0,0,45,5,1
-2021-12-17,65,RE,--,False,False,10,--,We Don't Talk Anymore (feat. Selena Gomez),Charlie Puth,Nine Track Mind,1,1,1,5,3,2,1469737,257,11543490,0.42,0.05,0.53,10752,10,0,0,24,3,1
-2021-12-17,66,RE,--,False,False,10,--,In The Middle,dodie,You - EP,1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,0,0,38,3,1
-2021-12-17,67,NEW,--,True,False,10,--,Just Give Me a Reason (feat. Nate Ruess),P!nk,The Truth About Love,1,1,1,5,3,2,1504387,263,11814570,0.42,0.05,0.53,11004,10,0,0,67,1,1
-2021-12-17,68,RE,--,False,False,10,--,Bad Boy,Red Velvet,The Perfect Red Velvet - The 2nd Album Repackage,1,1,1,5,3,2,1316700,230,10346220,0.42,0.05,0.53,9639,10,0,0,9,9,1
-2021-12-17,69,RE,--,False,False,10,--,Adios,Everglow,HUSH,1,1,1,5,3,2,1553475,271,12198600,0.42,0.05,0.53,11361,10,0,0,28,3,1
-2021-12-17,70,RE,--,False,False,10,--,Roar,Katy Perry,PRISM (Deluxe),1,1,1,5,3,2,1536150,268,12063060,0.42,0.05,0.53,11235,10,0,0,11,6,1
-2021-12-17,71,RE,--,False,False,10,--,Power,Little Mix,Glory Days (Expanded Edition),1,1,1,5,3,2,1458187,255,11453130,0.42,0.05,0.53,10668,10,0,0,43,3,1
-2021-12-17,72,RE,--,False,False,10,--,Bad Blood,Taylor Swift,Bad Blood,1,1,1,5,3,2,1495725,261,11746800,0.42,0.05,0.53,10941,10,0,0,11,11,1
-2021-12-17,73,RE,--,False,False,10,--,Senorita,(G)I-DLE,I Made,1,1,1,5,3,2,1507275,263,11837160,0.42,0.05,0.53,11025,10,0,0,5,3,1
-2021-12-17,74,RE,--,False,False,10,--,illicit affairs,Taylor Swift,folklore,1,1,1,5,3,2,1365787,238,10730250,0.42,0.05,0.53,9996,10,0,0,3,12,3
-2021-12-17,75,RE,--,False,False,10,--,Egoist (Olivia Hye),Loona,Olivia Hye,1,1,1,5,3,2,1582350,276,10165500,0.42,0.05,0.53,9471,10,0,0,1,8,1
-2021-12-17,76,RE,--,False,False,10,--,Woman Like Me (feat. Nicki Minaj),Little Mix,Woman Like Me (feat. Nicki Minaj),1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,0,0,3,2,1
-2021-12-17,77,RE,--,False,False,10,--,WooWa,DIA,NEWTRO,1,1,1,5,3,2,1559250,272,12243780,0.42,0.05,0.53,11403,10,0,0,72,3,1
-2021-12-17,78,RE,--,False,False,10,--,Baby Don’t Stop,NCT,NCT 2018 EMPATHY,1,1,1,5,3,2,1319587,230,10368810,0.42,0.05,0.53,9660,10,0,0,56,3,1
-2021-12-17,79,RE,--,False,False,10,--,Salute,Little Mix,Salute (The Deluxe Edition),1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,0,0,22,5,1
-2021-12-17,80,RE,--,False,False,10,--,WAP (feat. Megan Thee Stallion),Cardi B,WAP (feat. Megan Thee Stallion),1,1,1,5,3,2,1406212,245,11046510,0.42,0.05,0.53,10290,10,0,0,1,11,1
-2021-12-17,81,RE,--,False,False,10,--,Oops!...I Did It Again,Britney Spears,Oops!... I Did It Again,1,1,1,5,3,2,1426425,249,11204640,0.42,0.05,0.53,10437,10,0,0,44,2,1
-2021-12-17,82,RE,--,False,False,10,--,Hollaback Girl,Gwen Stefani,Love Angel Music Baby,1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,0,0,26,3,1
-2021-12-17,83,NEW,--,True,False,10,--,Bootylicious,Destiny's Child,Survivor,1,1,1,5,3,2,1567912,274,12311550,0.42,0.05,0.53,11466,10,0,0,83,1,1
-2021-12-17,84,NEW,--,True,False,10,--,Hello Kitty,Avril Lavigne,Avril Lavigne (Expanded Edition),1,1,1,5,3,2,1466850,256,11520900,0.42,0.05,0.53,10731,10,0,0,84,1,1
-2021-12-17,85,RE,--,False,False,10,--,Judas,Lady Gaga,Born This Way (Special Edition),1,1,1,5,3,2,1319587,230,10368810,0.42,0.05,0.53,9660,10,0,0,28,3,1
-2021-12-17,86,RE,--,False,False,10,--,The Monster,Eminem,The Marshall Mathers LP2,1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,0,0,48,3,1
-2021-12-17,87,RE,--,False,False,10,--,Hair,Little Mix,Get Weird (Deluxe),1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,0,0,70,3,1
-2021-12-17,88,NEW,--,True,False,10,--,Fireflies,Owl City,Ocean Eyes,1,1,1,5,3,2,1495725,261,11746800,0.42,0.05,0.53,10941,10,0,0,88,1,1
-2021-12-17,89,RE,--,False,False,10,--,Back to December,Taylor Swift,Speak Now (Deluxe Package),1,1,1,5,3,2,1550587,271,12176010,0.42,0.05,0.53,11340,10,0,0,11,4,1
-2021-12-17,90,RE,--,False,False,10,--,Umbrella,Rihanna,Good Girl Gone Bad: Reloaded,1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,0,0,71,3,1
-2021-12-17,91,RE,--,False,False,10,--,Lady Marmalade - From Moulin Rouge Soundtrack,Christina Aguilera,Moulin Rouge,1,1,1,5,3,2,1536150,268,12063060,0.42,0.05,0.53,11235,10,0,0,37,2,1
-2021-12-17,92,RE,--,False,False,10,--,Fight Song,Rachel Platten,Wildfire,1,1,1,5,3,2,1325362,231,10413990,0.42,0.05,0.53,9702,10,0,0,16,7,1
-2021-12-17,93,RE,--,False,False,10,--,Bleeding Love,Leona Lewis,Spirit,1,1,1,5,3,2,1582350,276,10165500,0.42,0.05,0.53,9471,10,0,0,40,3,1
-2021-12-17,94,RE,--,False,False,10,--,Firework,Katy Perry,Katy Perry - Teenage Dream: The Complete Confection,1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,0,0,50,4,1
-2021-12-17,95,RE,--,False,False,10,--,Call Me Maybe,Carly Rae Jepsen,Kiss,1,1,1,5,3,2,1305150,228,10255860,0.42,0.05,0.53,9555,10,0,0,26,5,1
-2021-12-17,96,RE,--,False,False,10,--,TiK ToK,Kesha,Animal (Expanded Edition),1,1,1,5,3,2,1458187,255,11453130,0.42,0.05,0.53,10668,10,0,0,4,5,1
-2021-12-17,97,RE,--,False,False,10,--,Born This Way,Lady Gaga,Born This Way (International Special Edition Version),1,1,1,5,3,2,1573687,275,12356730,0.42,0.05,0.53,11508,10,0,0,12,2,1
-2021-12-17,98,RE,--,False,False,10,--,Irreplaceable,Beyoncé,B'Day,1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,0,0,57,3,1
-2021-12-17,99,RE,--,False,False,10,--,Toxic,Britney Spears,In the Zone,1,1,1,5,3,2,1308037,228,10278450,0.42,0.05,0.53,9576,10,0,0,4,7,1
-2021-12-17,100,RE,--,False,False,10,--,Dance Again (feat. Pitbull),Jennifer Lopez,Dance Again...The Hits,1,1,1,5,3,2,1432200,250,11249820,0.42,0.05,0.53,10479,10,0,0,23,4,1
+2021-12-17,52,RE,--,False,False,10,--,달라달라 (DALLA DALLA),ITZY,IT'z Different,1,1,1,5,3,2,1495725,261,11746800,0.42,0.05,0.53,10941,10,0,0,12,5,1
+2021-12-17,53,RE,--,False,False,10,--,Young and Beautiful,Lana Del Rey,Young and Beautiful,1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,0,0,10,7,1
+2021-12-17,54,RE,--,False,False,10,--,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1582350,276,10165500,0.42,0.05,0.53,9471,10,0,0,2,13,1
+2021-12-17,55,RE,--,False,False,10,--,You All Over Me (feat. Maren Morris) (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1319587,230,10368810,0.42,0.05,0.53,9660,10,0,0,10,6,1
+2021-12-17,56,RE,--,False,False,10,--,YES or YES,TWICE,YES or YES,1,1,1,5,3,2,1541925,269,12108240,0.42,0.05,0.53,11277,10,0,0,2,9,1
+2021-12-17,57,RE,--,False,False,10,--,XO,Beyoncé,Beyoncé,1,1,1,5,3,2,1463962,256,11498310,0.42,0.05,0.53,10710,10,0,0,34,4,1
+2021-12-17,58,RE,--,False,False,10,--,WooWa,DIA,NEWTRO,1,1,1,5,3,2,1559250,272,12243780,0.42,0.05,0.53,11403,10,0,0,24,4,1
+2021-12-17,59,RE,--,True,False,10,--,Won't Go Home Without You,Maroon 5,It Won't Be Soon Before Long (International Version),1,1,1,5,3,2,1394662,243,10956150,0.42,0.05,0.53,10206,10,0,0,59,2,1
+2021-12-17,60,RE,--,False,False,10,--,Womanizer,Britney Spears,Circus (Deluxe Version),1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,0,0,3,19,1
+2021-12-17,61,RE,--,False,False,10,--,Woman Like Me (feat. Nicki Minaj),Little Mix,Woman Like Me (feat. Nicki Minaj),1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,0,0,3,5,1
+2021-12-17,62,RE,--,False,False,10,--,Wolves,Selena Gomez,Wolves,1,1,1,5,3,2,1386000,242,10888380,0.42,0.05,0.53,10143,10,0,0,33,2,1
+2021-12-17,63,RE,--,False,False,10,--,Wish You Were Here,Avril Lavigne,Goodbye Lullaby (Expanded Edition),1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,0,0,30,6,1
+2021-12-17,64,RE,--,False,False,10,--,Who Says,Selena Gomez & the Scene,When the Sun Goes Down,1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,0,0,11,9,1
+2021-12-17,65,RE,--,False,False,10,--,White Horse (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,0,0,3,10,2
+2021-12-17,66,RE,--,False,False,10,--,What's My Name?,Rihanna,Loud,1,1,1,5,3,2,1501500,262,11791980,0.42,0.05,0.53,10983,10,0,0,37,2,1
+2021-12-17,67,RE,--,False,False,10,--,We Were Happy (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1411987,246,11091690,0.42,0.05,0.53,10332,10,0,0,2,12,1
+2021-12-17,68,RE,--,False,False,10,--,We Don't Talk Anymore (feat. Selena Gomez),Charlie Puth,Nine Track Mind,1,1,1,5,3,2,1469737,257,11543490,0.42,0.05,0.53,10752,10,0,0,14,5,1
+2021-12-17,69,RE,--,False,False,10,--,We Can't Stop,Miley Cyrus,Bangerz (Deluxe Version),1,1,1,5,3,2,1585237,226,10188090,0.42,0.05,0.53,9492,10,0,0,22,6,1
+2021-12-17,70,RE,--,False,False,10,--,WAP (feat. Megan Thee Stallion),Cardi B,WAP (feat. Megan Thee Stallion),1,1,1,5,3,2,1406212,245,11046510,0.42,0.05,0.53,10290,10,0,0,1,13,1
+2021-12-17,71,RE,--,False,False,10,--,VERY NICE,Seventeen,Love&Letter Repackage Album,1,1,1,5,3,2,1319587,230,10368810,0.42,0.05,0.53,9660,10,0,0,31,3,1
+2021-12-17,72,RE,--,False,False,10,--,Untouchable (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1461075,255,11475720,0.42,0.05,0.53,10689,10,0,0,12,6,1
+2021-12-17,73,RE,--,False,False,10,--,Umbrella,Rihanna,Good Girl Gone Bad: Reloaded,1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,0,0,9,7,1
+2021-12-17,74,NEW,--,True,False,10,--,Two Less Lonely People in the World (Official Movie Theme Song Of Kita Kita),KZ Tandingan,Two Less Lonely People in the World (Official Movie Theme Song Of Kita Kita),1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,0,0,74,1,1
+2021-12-17,75,RE,--,True,False,10,--,TURN IT UP,TWICE,FANCY YOU,1,1,1,5,3,2,1331137,232,10459170,0.42,0.05,0.53,9744,10,0,0,75,3,1
+2021-12-17,76,RE,--,False,False,10,--,TRICK IT,TWICE,Feel Special,1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,0,0,12,9,1
+2021-12-17,77,RE,--,False,False,10,--,Toxic,Britney Spears,In the Zone,1,1,1,5,3,2,1308037,228,10278450,0.42,0.05,0.53,9576,10,0,0,7,9,1
+2021-12-17,78,RE,--,False,False,10,--,Today Was a Fairytale (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1388887,242,10910970,0.42,0.05,0.53,10164,10,0,0,13,5,1
+2021-12-17,79,RE,--,False,False,10,--,TiK ToK,Kesha,Animal (Expanded Edition),1,1,1,5,3,2,1458187,255,11453130,0.42,0.05,0.53,10668,10,0,0,6,6,1
+2021-12-17,80,RE,--,False,False,10,--,Thunder,Imagine Dragons,Evolve,1,1,1,5,3,2,1388887,242,10910970,0.42,0.05,0.53,10164,10,0,0,18,4,1
+2021-12-17,81,RE,--,False,False,10,--,The Story of Us,Taylor Swift,Speak Now (Deluxe Package),1,1,1,5,3,2,1432200,250,11249820,0.42,0.05,0.53,10479,10,0,0,18,9,2
+2021-12-17,82,RE,--,False,False,10,--,The Other Side of the Door (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1567912,274,12311550,0.42,0.05,0.53,11466,10,0,0,4,7,1
+2021-12-17,83,NEW,--,True,False,10,--,The Only Exception,Paramore,brand new eyes,1,1,1,5,3,2,1313812,229,10323630,0.42,0.05,0.53,9618,10,0,0,83,1,1
+2021-12-17,84,RE,--,False,False,10,--,The Monster,Eminem,The Marshall Mathers LP2,1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,0,0,27,5,1
+2021-12-17,85,RE,--,False,False,10,--,The Middle,Zedd,The Middle,1,1,1,5,3,2,1469737,257,11543490,0.42,0.05,0.53,10752,10,0,0,20,4,1
+2021-12-17,86,NEW,--,True,False,10,--,The Last Time (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1504387,263,11814570,0.42,0.05,0.53,11004,10,0,0,86,1,1
+2021-12-17,87,RE,--,False,False,10,--,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1504387,263,11814570,0.42,0.05,0.53,11004,10,0,0,19,4,1
+2021-12-17,88,RE,--,False,False,10,--,The Heart Wants What It Wants,Selena Gomez,For You,1,1,1,5,3,2,1380225,241,10843200,0.42,0.05,0.53,10101,10,0,0,49,3,2
+2021-12-17,89,RE,--,False,False,10,--,The Best Day (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1510162,264,11859750,0.42,0.05,0.53,11046,10,0,0,15,7,1
+2021-12-17,90,RE,--,False,False,10,--,That’s When (feat. Keith Urban) (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1325362,231,10413990,0.42,0.05,0.53,9702,10,0,0,16,5,1
+2021-12-17,91,RE,--,False,False,10,--,Tell Me Why (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1541925,269,12108240,0.42,0.05,0.53,11277,10,0,0,1,8,1
+2021-12-17,92,RE,--,False,False,10,--,SWEET SUMMER DAY,TWICE,MORE & MORE,1,1,1,5,3,2,1437975,251,11295000,0.42,0.05,0.53,10521,10,0,0,2,7,1
+2021-12-17,93,RE,--,False,False,10,--,Superstar (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,0,0,17,5,1
+2021-12-17,94,RE,--,False,False,10,--,Sugar,Maroon 5,V,1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,0,0,71,2,1
+2021-12-17,95,RE,--,True,False,10,--,STUCK IN MY HEAD,TWICE,FANCY YOU,1,1,1,5,3,2,1432200,250,11249820,0.42,0.05,0.53,10479,10,0,0,95,2,1
+2021-12-17,96,RE,--,False,False,10,--,STRAWBERRY,TWICE,FANCY YOU,1,1,1,5,3,2,1435087,250,11272410,0.42,0.05,0.53,10500,10,0,0,34,4,1
+2021-12-17,97,RE,--,False,False,10,--,Still Into You,Paramore,Paramore,1,1,1,5,3,2,1345575,235,10572120,0.42,0.05,0.53,9849,10,0,0,7,10,1
+2021-12-17,98,RE,--,False,False,10,--,State of Grace (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1302262,227,10233270,0.42,0.05,0.53,9534,10,0,0,4,3,1
+2021-12-17,99,RE,--,False,False,10,--,State of Grace (Acoustic Version) (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,0,0,21,3,1
+2021-12-17,100,RE,--,False,False,10,--,State of Grace (Acoustic Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1489950,260,11701620,0.42,0.05,0.53,10899,10,0,0,34,2,1

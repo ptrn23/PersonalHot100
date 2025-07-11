@@ -1,101 +1,101 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2022-11-18,1,=,1,True,True,169,-0.31,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),12,5,4,60,15,8,18156600,1323,47529360,0.68,0.03,0.28,77469,83,74,12,1,36,2
-2022-11-18,2,+1,3,False,False,157,-0.16,Midnight Rain,Taylor Swift,Midnights (3am Edition),6,6,1,30,18,2,7882875,1378,10323630,0.76,0.09,0.16,41678,50,57,50,1,5,1
-2022-11-18,3,+3,6,False,False,137,-0.25,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),6,6,1,30,18,2,7848225,1372,10278450,0.76,0.09,0.16,41496,50,55,32,1,50,6
-2022-11-18,4,+21,25,False,False,132,0.39,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),12,10,2,60,30,4,18156600,2646,23764680,0.77,0.07,0.16,88536,94,29,9,2,32,1
+2022-11-18,2,+2,4,False,False,157,-0.16,Midnight Rain,Taylor Swift,Midnights (3am Edition),6,6,1,30,18,2,7882875,1378,10323630,0.76,0.09,0.16,41678,50,57,50,1,5,1
+2022-11-18,3,+3,6,False,False,138,-0.25,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),6,6,1,30,18,2,7848225,1372,10278450,0.76,0.09,0.16,41496,50,56,32,1,50,6
+2022-11-18,4,+20,24,False,False,132,0.38,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),12,10,2,60,30,4,18156600,2646,23764680,0.77,0.07,0.16,88536,94,29,9,2,35,2
 2022-11-18,5,+3,8,False,False,128,-0.3,Lavender Haze,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,2962575,518,11633850,0.58,0.06,0.36,18060,18,55,55,1,5,1
-2022-11-18,6,-4,2,False,False,121,-0.41,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1423537,248,11182050,0.42,0.05,0.53,10416,10,62,49,2,21,1
+2022-11-18,6,-4,2,False,False,121,-0.41,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1423537,248,11182050,0.42,0.05,0.53,10416,10,62,49,2,22,1
 2022-11-18,7,=,7,False,False,120,-0.34,Paris,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,3066525,536,12040470,0.58,0.06,0.36,18690,18,55,47,5,5,1
 2022-11-18,8,-3,5,False,False,114,-0.39,Wildest Dreams (Taylor's Version),Taylor Swift,Wildest Dreams (Taylor's Version),1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,56,48,1,29,6
-2022-11-18,9,-5,4,False,False,111,-0.41,This Love (Taylor’s Version),Taylor Swift,This Love (Taylor’s Version),1,1,1,5,3,2,1414875,247,11114280,0.42,0.05,0.53,10353,10,57,44,1,25,1
-2022-11-18,10,-1,9,False,False,100,-0.35,Anti-Hero,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1501500,262,11791980,0.42,0.05,0.53,10983,10,47,43,2,5,1
-2022-11-18,11,+58,69,False,False,99,2.3,State of Grace (Taylor's Version),Taylor Swift,Red (Taylor's Version),11,11,1,55,33,2,14324887,2505,10233270,0.82,0.09,0.09,73094,90,9,0,5,17,1
+2022-11-18,9,-6,3,False,False,111,-0.41,This Love (Taylor’s Version),Taylor Swift,This Love (Taylor’s Version),1,1,1,5,3,2,1414875,247,11114280,0.42,0.05,0.53,10353,10,57,44,1,25,1
+2022-11-18,10,-1,9,False,False,101,-0.35,Anti-Hero,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1501500,262,11791980,0.42,0.05,0.53,10983,10,47,44,2,5,1
+2022-11-18,11,+58,69,False,False,99,2.3,State of Grace (Taylor's Version),Taylor Swift,Red (Taylor's Version),11,11,1,55,33,2,14324887,2505,10233270,0.82,0.09,0.09,73094,90,9,0,4,20,1
 2022-11-18,12,-2,10,False,False,92,-0.31,You're on Your Own Kid,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,2916375,510,11453130,0.58,0.06,0.36,17780,18,41,33,4,5,1
 2022-11-18,13,+8,21,False,False,89,-0.2,Would've Could've Should've,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,2858625,499,11227230,0.58,0.06,0.36,17430,18,34,37,4,5,1
 2022-11-18,14,-1,13,False,False,87,-0.34,Snow on the Beach (feat. Lana Del Rey),Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1429312,249,11227230,0.42,0.05,0.53,10458,10,40,37,2,5,1
 2022-11-18,15,RE,--,False,False,82,--,MOONLIGHT,TWICE,Formula of Love: O+T=<3,10,10,1,50,30,2,14841750,2595,11656440,0.81,0.09,0.1,75999,82,0,0,2,19,1
-2022-11-18,16,RE,--,False,False,82,--,HUMAN,dodie,Human,10,10,1,50,30,2,13224750,2313,10391400,0.81,0.09,0.1,67767,82,0,0,5,29,1
-2022-11-18,17,+23,40,True,False,82,0.22,Take It,IVE,ELEVEN,6,5,2,30,15,4,9511425,1134,20376180,0.66,0.06,0.28,41132,49,21,12,17,16,1
-2022-11-18,18,+1,19,False,False,79,-0.3,Question...?,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1305150,228,10255860,0.42,0.05,0.53,9555,10,34,35,6,5,1
-2022-11-18,19,-8,11,False,False,80,-0.39,Good Parts (when the quality is bad but I am),LE SSERAFIM,ANTIFRAGILE,1,1,1,5,3,2,1371562,239,10775430,0.42,0.05,0.53,10038,10,40,30,10,6,1
-2022-11-18,20,RE,--,False,False,78,--,The Louvre,Lorde,Melodrama,9,9,1,45,27,2,12551962,2195,10956150,0.8,0.09,0.11,64638,74,0,4,6,13,1
-2022-11-18,21,RE,--,False,False,78,--,Stay Numb and Carry On,Madison Beer,Life Support,10,6,5,50,18,10,13253624,1391,52069949,0.59,0.04,0.37,67914,78,0,0,19,7,1
+2022-11-18,16,RE,--,False,False,82,--,HUMAN,dodie,Human,10,10,1,50,30,2,13224750,2313,10391400,0.81,0.09,0.1,67767,82,0,0,6,29,1
+2022-11-18,17,+23,40,True,False,82,0.21,Take It,IVE,ELEVEN,6,5,2,30,15,4,9511425,1134,20376180,0.66,0.06,0.28,41132,49,21,12,17,16,1
+2022-11-18,18,+1,19,False,False,80,-0.3,Question...?,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1305150,228,10255860,0.42,0.05,0.53,9555,10,35,35,6,5,1
+2022-11-18,19,-7,12,False,False,80,-0.39,Good Parts (when the quality is bad but I am),LE SSERAFIM,ANTIFRAGILE,1,1,1,5,3,2,1371562,239,10775430,0.42,0.05,0.53,10038,10,40,30,10,6,1
+2022-11-18,20,RE,--,True,True,78,--,Stay Numb and Carry On,Madison Beer,Life Support,10,6,5,50,18,10,13253624,1391,52069949,0.59,0.04,0.37,67914,78,0,0,20,7,2
+2022-11-18,21,RE,--,False,False,78,--,The Louvre,Lorde,Melodrama,9,9,1,45,27,2,12551962,2195,10956150,0.8,0.09,0.11,64638,74,0,4,4,16,1
 2022-11-18,22,+6,28,False,False,78,-0.11,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,2,4,25,6,8,6554625,458,41204160,0.49,0.02,0.49,35189,39,27,12,7,35,1
 2022-11-18,23,-8,15,False,False,76,-0.38,Sour Grapes,LE SSERAFIM,FEARLESS,2,2,1,10,6,2,2673825,467,10504350,0.58,0.06,0.36,16310,18,37,21,6,22,1
 2022-11-18,24,-7,17,False,False,76,-0.35,Gasoline (feat. Taylor Swift),HAIM,Women in Music Pt III (Expanded Edition),1,1,1,5,3,2,1515937,265,11904930,0.42,0.05,0.53,11088,10,36,30,14,4,1
-2022-11-18,25,RE,--,False,False,74,--,Absolutely Smitten,dodie,Intertwined - EP,9,9,1,45,27,2,13123687,2295,11453130,0.8,0.09,0.11,67564,74,0,0,2,16,1
-2022-11-18,26,-6,20,False,False,74,-0.34,Bejeweled,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1579462,276,12401910,0.42,0.05,0.53,9450,10,34,30,5,5,1
-2022-11-18,27,NEW,--,True,False,73,--,Anti-Hero - ILLENIUM Remix,Taylor Swift,Anti-Hero (ILLENIUM Remix),9,8,2,45,24,4,12032212,1870,21008700,0.73,0.07,0.2,61978,73,0,0,27,1,1
-2022-11-18,28,-12,16,False,False,73,-0.39,Sweet Nothing,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1432200,250,11249820,0.42,0.05,0.53,10479,10,36,27,6,5,1
-2022-11-18,29,+1,30,False,False,73,-0.15,Maroon,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,2800875,489,11001330,0.58,0.06,0.36,17080,18,26,29,16,5,2
-2022-11-18,30,-12,18,False,False,74,-0.35,Hype Boy,NewJeans,NewJeans 1st EP 'New Jeans',2,2,1,10,6,2,2939475,514,11543490,0.58,0.06,0.36,17920,18,35,21,3,13,1
-2022-11-18,31,-17,14,False,False,73,-0.43,Attention,NewJeans,NewJeans 1st EP 'New Jeans',1,1,1,5,3,2,1530375,267,12017880,0.42,0.05,0.53,11193,10,39,24,1,13,1
-2022-11-18,32,-20,12,False,False,73,-0.45,After LIKE,IVE,After LIKE,1,1,1,5,3,2,1420650,248,11159460,0.42,0.05,0.53,10395,10,40,23,1,14,5
-2022-11-18,33,RE,--,False,False,71,--,RAINBOW,TWICE,Feel Special,8,8,1,40,24,2,10857000,1899,10662480,0.79,0.09,0.12,56287,66,0,5,10,27,1
+2022-11-18,25,RE,--,False,False,74,--,Absolutely Smitten,dodie,Intertwined - EP,9,9,1,45,27,2,13123687,2295,11453130,0.8,0.09,0.11,67564,74,0,0,2,15,1
+2022-11-18,26,+4,30,False,False,74,-0.15,Maroon,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,2800875,489,11001330,0.58,0.06,0.36,17080,18,27,29,16,5,2
+2022-11-18,27,-9,18,False,False,74,-0.36,Hype Boy,NewJeans,NewJeans 1st EP 'New Jeans',2,2,1,10,6,2,2939475,514,11543490,0.58,0.06,0.36,17920,18,35,21,3,13,2
+2022-11-18,28,-8,20,False,False,74,-0.34,Bejeweled,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1579462,276,12401910,0.42,0.05,0.53,9450,10,34,30,5,5,1
+2022-11-18,29,-15,14,False,False,74,-0.42,Attention,NewJeans,NewJeans 1st EP 'New Jeans',1,1,1,5,3,2,1530375,267,12017880,0.42,0.05,0.53,11193,10,39,25,1,13,1
+2022-11-18,30,NEW,--,True,False,73,--,Anti-Hero - ILLENIUM Remix,Taylor Swift,Anti-Hero (ILLENIUM Remix),9,8,2,45,24,4,12032212,1870,21008700,0.73,0.07,0.2,61978,73,0,0,30,1,1
+2022-11-18,31,-15,16,False,False,73,-0.39,Sweet Nothing,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1432200,250,11249820,0.42,0.05,0.53,10479,10,36,27,6,5,1
+2022-11-18,32,-21,11,False,False,73,-0.45,After LIKE,IVE,After LIKE,1,1,1,5,3,2,1420650,248,11159460,0.42,0.05,0.53,10395,10,40,23,1,14,5
+2022-11-18,33,RE,--,False,False,71,--,RAINBOW,TWICE,Feel Special,8,8,1,40,24,2,10857000,1899,10662480,0.79,0.09,0.12,56287,66,0,5,10,27,2
 2022-11-18,34,-11,23,False,False,70,-0.31,ANTIFRAGILE,LE SSERAFIM,ANTIFRAGILE,2,2,1,10,6,2,2696925,471,10594710,0.58,0.06,0.36,16450,18,31,21,2,6,1
-2022-11-18,35,RE,--,False,False,67,--,happiness,Taylor Swift,evermore,6,6,1,30,18,2,8004149,1400,10481760,0.76,0.09,0.16,42315,50,0,17,2,39,3
-2022-11-18,36,RE,--,False,False,67,--,‘tis the damn season,Taylor Swift,evermore,5,5,1,25,15,2,6597937,1154,10368810,0.73,0.08,0.18,35420,42,0,25,8,21,2
-2022-11-18,37,RE,--,False,False,66,--,Here's to Never Growing Up,Avril Lavigne,Avril Lavigne (Expanded Edition),8,8,1,40,24,2,12104400,2116,11882340,0.79,0.09,0.12,62713,66,0,0,26,10,1
-2022-11-18,38,+32,70,False,False,65,1.41,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),8,2,5,40,6,10,12658800,553,50827500,0.55,0.02,0.43,47355,56,9,0,1,23,1
-2022-11-18,39,-15,24,False,False,64,-0.33,FEARLESS,LE SSERAFIM,FEARLESS,2,2,1,10,6,2,2922150,511,11475720,0.58,0.06,0.36,17815,18,29,17,1,28,3
-2022-11-18,40,-11,29,False,False,63,-0.27,Mastermind,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1579462,276,12401910,0.42,0.05,0.53,9450,10,26,27,17,5,2
-2022-11-18,41,-10,31,False,False,62,-0.26,Karma,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1305150,228,10255860,0.42,0.05,0.53,9555,10,26,26,13,5,1
-2022-11-18,42,-10,32,False,False,62,-0.26,Vigilante Shit,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1388887,242,10910970,0.42,0.05,0.53,10164,10,26,26,14,5,1
-2022-11-18,43,-17,26,False,False,61,-0.33,Reckless,Madison Beer,Reckless,1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,28,23,10,6,1
-2022-11-18,44,-10,34,False,False,60,-0.27,Labyrinth,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,25,25,18,5,1
-2022-11-18,45,-23,22,False,False,59,-0.43,LOVE DIVE,IVE,LOVE DIVE,1,1,1,5,3,2,1371562,239,10775430,0.42,0.05,0.53,10038,10,31,18,1,25,4
+2022-11-18,35,RE,--,False,False,67,--,happiness,Taylor Swift,evermore,6,6,1,30,18,2,8004149,1400,10481760,0.76,0.09,0.16,42315,50,0,17,2,40,2
+2022-11-18,36,RE,--,False,False,67,--,‘tis the damn season,Taylor Swift,evermore,5,5,1,25,15,2,6597937,1154,10368810,0.73,0.08,0.18,35420,42,0,25,6,24,1
+2022-11-18,37,RE,--,True,False,66,--,Here's to Never Growing Up,Avril Lavigne,Avril Lavigne (Expanded Edition),8,8,1,40,24,2,12104400,2116,11882340,0.79,0.09,0.12,62713,66,0,0,37,10,1
+2022-11-18,38,+32,70,False,False,65,1.41,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),8,2,5,40,6,10,12658800,553,50827500,0.55,0.02,0.43,47355,56,9,0,1,30,1
+2022-11-18,39,-14,25,False,False,64,-0.33,FEARLESS,LE SSERAFIM,FEARLESS,2,2,1,10,6,2,2922150,511,11475720,0.58,0.06,0.36,17815,18,29,17,1,28,3
+2022-11-18,40,-11,29,False,False,64,-0.26,Mastermind,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1579462,276,12401910,0.42,0.05,0.53,9450,10,27,27,17,5,2
+2022-11-18,41,-10,31,False,False,62,-0.27,Vigilante Shit,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1388887,242,10910970,0.42,0.05,0.53,10164,10,26,26,13,5,1
+2022-11-18,42,-10,32,False,False,62,-0.27,Karma,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1305150,228,10255860,0.42,0.05,0.53,9555,10,26,26,14,5,1
+2022-11-18,43,-17,26,False,False,61,-0.34,Reckless,Madison Beer,Reckless,1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,28,23,10,7,1
+2022-11-18,44,-22,22,False,False,60,-0.42,LOVE DIVE,IVE,LOVE DIVE,1,1,1,5,3,2,1371562,239,10775430,0.42,0.05,0.53,10038,10,32,18,1,25,4
+2022-11-18,45,-11,34,False,False,60,-0.28,Labyrinth,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,25,25,18,5,1
 2022-11-18,46,RE,--,False,False,58,--,UNNATURAL,WJSN,UNNATURAL,7,7,1,35,21,2,9560512,1672,10730250,0.77,0.09,0.14,49980,58,0,0,1,32,4
-2022-11-18,47,RE,--,True,False,58,--,Ligaya,Eraserheads,Anthology,7,7,1,35,21,2,9136050,1598,10255860,0.77,0.09,0.14,47775,58,0,0,47,2,1
-2022-11-18,48,RE,--,False,False,58,--,Castle on the Hill,Ed Sheeran,÷ (Deluxe),7,7,1,35,21,2,10389225,1816,11656440,0.77,0.09,0.14,54285,58,0,0,6,5,1
-2022-11-18,49,+32,81,False,False,58,1.23,Ikaw Lamang,Silent Sanctuary,Fuchsiang Pag-Ibig,6,6,1,30,18,2,9320850,1629,12198600,0.76,0.09,0.16,49231,50,8,0,24,6,1
-2022-11-18,50,RE,--,False,False,58,--,Unconditionally,Katy Perry,PRISM (Deluxe),7,7,1,35,21,2,9338175,1633,10481760,0.77,0.09,0.14,48825,58,0,0,2,16,1
-2022-11-18,51,-16,35,False,False,55,-0.32,The Hydra,LE SSERAFIM,ANTIFRAGILE,1,1,1,5,3,2,1411987,246,11091690,0.42,0.05,0.53,10332,10,25,20,9,6,1
-2022-11-18,52,RE,--,False,False,54,--,ghostin,Ariana Grande,thank u next,6,6,1,30,18,2,8801100,1539,11520900,0.76,0.09,0.16,46501,50,0,4,1,17,1
-2022-11-18,53,-20,33,False,False,53,-0.35,Bigger Than the Whole Sky,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,25,18,23,5,1
-2022-11-18,54,RE,--,False,False,52,--,Sick Of Losing Soulmates,dodie,Intertwined - EP,6,6,2,30,18,4,9164925,1602,23990580,0.65,0.07,0.27,52136,52,0,0,3,8,1
-2022-11-18,55,RE,--,False,False,50,--,the lakes - bonus track,Taylor Swift,folklore (deluxe version),6,6,1,30,18,2,8645175,1512,11317590,0.76,0.09,0.16,45682,50,0,0,20,10,1
-2022-11-18,56,RE,--,False,False,50,--,SAY SOMETHING,TWICE,Eyes wide open,6,6,1,30,18,2,7882875,1378,10323630,0.76,0.09,0.16,41678,50,0,0,3,7,1
-2022-11-18,57,RE,--,True,False,50,--,I Smile,DAY6,SUNRISE,6,6,1,30,18,2,8853075,1548,11588670,0.76,0.09,0.16,46774,50,0,0,57,2,1
-2022-11-18,58,RE,--,False,False,50,--,놓아 놓아 놓아 Letting Go,DAY6,DAYDREAM,6,6,1,30,18,2,7934850,1388,10391400,0.76,0.09,0.16,41951,50,0,0,7,8,1
-2022-11-18,59,-5,54,False,False,50,-0.06,The Feels,TWICE,Formula of Love: O+T=<3,3,3,1,15,9,2,4054049,709,10617300,0.65,0.07,0.27,23079,26,16,8,4,33,1
-2022-11-18,60,-3,57,False,False,49,-0.02,High Infidelity,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,2870175,501,11272410,0.58,0.06,0.36,17500,18,15,16,21,5,1
-2022-11-18,61,-3,58,False,False,48,0.0,Dear Reader,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,2852850,498,11204640,0.58,0.06,0.36,17395,18,15,15,25,5,1
-2022-11-18,62,-24,38,False,False,49,-0.34,Cruel Summer,Taylor Swift,Lover,1,1,1,5,3,2,1550587,271,12176010,0.42,0.05,0.53,11340,10,23,16,2,29,1
-2022-11-18,63,-10,53,False,False,47,-0.15,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,2,2,20,6,4,5775000,505,22680360,0.59,0.03,0.37,28168,30,17,0,11,22,1
+2022-11-18,47,RE,--,False,False,58,--,Unconditionally,Katy Perry,PRISM (Deluxe),7,7,1,35,21,2,9338175,1633,10481760,0.77,0.09,0.14,48825,58,0,0,2,19,1
+2022-11-18,48,RE,--,True,False,58,--,Ligaya,Eraserheads,Anthology,7,7,1,35,21,2,9136050,1598,10255860,0.77,0.09,0.14,47775,58,0,0,48,2,1
+2022-11-18,49,RE,--,False,False,58,--,Castle on the Hill,Ed Sheeran,÷ (Deluxe),7,7,1,35,21,2,10389225,1816,11656440,0.77,0.09,0.14,54285,58,0,0,6,5,1
+2022-11-18,50,+31,81,False,False,58,1.23,Ikaw Lamang,Silent Sanctuary,Fuchsiang Pag-Ibig,6,6,1,30,18,2,9320850,1629,12198600,0.76,0.09,0.16,49231,50,8,0,25,5,1
+2022-11-18,51,-16,35,False,False,56,-0.32,The Hydra,LE SSERAFIM,ANTIFRAGILE,1,1,1,5,3,2,1411987,246,11091690,0.42,0.05,0.53,10332,10,25,21,8,6,1
+2022-11-18,52,-19,33,False,False,53,-0.36,Bigger Than the Whole Sky,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,25,18,23,5,1
+2022-11-18,53,RE,--,False,False,52,--,Sick Of Losing Soulmates,dodie,Intertwined - EP,6,6,2,30,18,4,9164925,1602,23990580,0.65,0.07,0.27,52136,52,0,0,3,8,1
+2022-11-18,54,=,54,False,False,51,-0.06,The Feels,TWICE,Formula of Love: O+T=<3,3,3,1,15,9,2,4054049,709,10617300,0.65,0.07,0.27,23079,26,17,8,3,33,1
+2022-11-18,55,RE,--,False,False,50,--,놓아 놓아 놓아 Letting Go,DAY6,DAYDREAM,6,6,1,30,18,2,7934850,1388,10391400,0.76,0.09,0.16,41951,50,0,0,7,9,1
+2022-11-18,56,RE,--,False,False,50,--,the lakes - bonus track,Taylor Swift,folklore (deluxe version),6,6,1,30,18,2,8645175,1512,11317590,0.76,0.09,0.16,45682,50,0,0,18,11,1
+2022-11-18,57,RE,--,False,False,50,--,SAY SOMETHING,TWICE,Eyes wide open,6,6,1,30,18,2,7882875,1378,10323630,0.76,0.09,0.16,41678,50,0,0,3,7,1
+2022-11-18,58,RE,--,True,False,50,--,I Smile,DAY6,SUNRISE,6,6,1,30,18,2,8853075,1548,11588670,0.76,0.09,0.16,46774,50,0,0,58,2,1
+2022-11-18,59,RE,--,False,False,50,--,ghostin,Ariana Grande,thank u next,6,6,1,30,18,2,8801100,1539,11520900,0.76,0.09,0.16,46501,50,0,0,1,16,1
+2022-11-18,60,-4,56,False,False,49,-0.02,High Infidelity,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,2870175,501,11272410,0.58,0.06,0.36,17500,18,15,16,21,5,1
+2022-11-18,61,-3,58,False,False,49,0.0,Dear Reader,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,2852850,498,11204640,0.58,0.06,0.36,17395,18,15,16,25,5,1
+2022-11-18,62,-24,38,False,False,49,-0.34,Cruel Summer,Taylor Swift,Lover,1,1,1,5,3,2,1550587,271,12176010,0.42,0.05,0.53,11340,10,23,16,3,29,1
+2022-11-18,63,-10,53,False,False,47,-0.15,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,2,2,20,6,4,5775000,505,22680360,0.59,0.03,0.37,28168,30,17,0,11,19,1
 2022-11-18,64,-28,36,False,False,47,-0.41,My Satisfaction,IVE,After LIKE,1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,24,13,1,13,1
-2022-11-18,65,RE,--,False,False,46,--,Hear the Sea,Red Velvet,The Red Summer - Summer Mini Album,5,5,1,25,15,2,6626812,1159,10413990,0.73,0.08,0.18,35574,42,0,4,8,8,1
-2022-11-18,66,-25,41,False,False,46,-0.3,The Great War,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1374450,240,10798020,0.42,0.05,0.53,10059,10,20,16,24,5,1
-2022-11-18,67,=,67,False,False,45,0.36,Blank Space,Taylor Swift,1989,3,2,2,15,6,4,4539150,529,23764680,0.52,0.04,0.44,25823,25,10,10,2,28,1
-2022-11-18,68,-25,43,False,False,45,-0.32,The Way I Loved You (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,20,15,2,26,1
-2022-11-18,69,-42,27,False,False,45,-0.49,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,3078075,538,12085650,0.58,0.06,0.36,18760,18,27,0,3,34,3
+2022-11-18,65,RE,--,False,False,46,--,Hear the Sea,Red Velvet,The Red Summer - Summer Mini Album,5,5,1,25,15,2,6626812,1159,10413990,0.73,0.08,0.18,35574,42,0,4,15,7,1
+2022-11-18,66,=,66,False,False,46,0.35,Blank Space,Taylor Swift,1989,3,2,2,15,6,4,4539150,529,23764680,0.52,0.04,0.44,25823,25,11,10,3,20,1
+2022-11-18,67,-26,41,False,False,46,-0.32,The Way I Loved You (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,21,15,2,29,1
+2022-11-18,68,-25,43,False,False,46,-0.3,The Great War,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1374450,240,10798020,0.42,0.05,0.53,10059,10,20,16,24,5,1
+2022-11-18,69,-42,27,False,False,45,-0.49,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,3078075,538,12085650,0.58,0.06,0.36,18760,18,27,0,2,34,1
 2022-11-18,70,-33,37,False,False,44,-0.41,POP!,NAYEON,IM NAYEON,1,1,1,5,3,2,1547700,270,12153420,0.42,0.05,0.53,11319,10,23,11,4,21,2
-2022-11-18,71,RE,--,False,False,42,--,R.E.M,Ariana Grande,Sweetener,5,5,1,25,15,2,6785625,1186,10662480,0.73,0.08,0.18,36421,42,0,0,35,6,1
+2022-11-18,71,-24,47,False,False,43,-0.3,Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1362900,238,10707660,0.42,0.05,0.53,9975,10,19,14,2,29,1
 2022-11-18,72,RE,--,False,False,42,--,ROYAL,IVE,LOVE DIVE,5,5,1,25,15,2,7363125,1287,11566080,0.73,0.08,0.18,39501,42,0,0,8,14,1
-2022-11-18,73,-27,46,False,False,42,-0.3,Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1362900,238,10707660,0.42,0.05,0.53,9975,10,18,14,2,29,1
-2022-11-18,74,-18,56,False,False,41,-0.18,Glitch,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1437975,251,11295000,0.42,0.05,0.53,10521,10,15,16,20,5,1
-2022-11-18,75,-31,44,False,False,41,-0.35,The Great Mermaid,LE SSERAFIM,FEARLESS,1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,19,12,4,23,1
-2022-11-18,76,-29,47,False,False,41,-0.32,COOL (Your rainbow),NMIXX,ENTWURF,1,1,1,5,3,2,1550587,271,12176010,0.42,0.05,0.53,11340,10,18,13,7,9,2
-2022-11-18,77,-29,48,False,False,39,-0.33,Dreams Come True,aespa,Dreams Come True - SM STATION,1,1,1,5,3,2,1423537,248,11182050,0.42,0.05,0.53,10416,10,18,11,5,16,2
-2022-11-18,78,-27,51,False,False,37,-0.34,CRUEL,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,1458187,255,11453130,0.42,0.05,0.53,10668,10,17,10,7,20,1
-2022-11-18,79,-29,50,False,False,36,-0.37,DICE,NMIXX,ENTWURF,1,1,1,5,3,2,1374450,240,10798020,0.42,0.05,0.53,10059,10,18,8,2,9,1
+2022-11-18,73,RE,--,False,False,42,--,R.E.M,Ariana Grande,Sweetener,5,5,1,25,15,2,6785625,1186,10662480,0.73,0.08,0.18,36421,42,0,0,35,6,1
+2022-11-18,74,-30,44,False,False,42,-0.34,The Great Mermaid,LE SSERAFIM,FEARLESS,1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,20,12,4,23,1
+2022-11-18,75,-29,46,False,False,42,-0.31,COOL (Your rainbow),NMIXX,ENTWURF,1,1,1,5,3,2,1550587,271,12176010,0.42,0.05,0.53,11340,10,19,13,6,9,1
+2022-11-18,76,-19,57,False,False,41,-0.18,Glitch,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1437975,251,11295000,0.42,0.05,0.53,10521,10,15,16,22,5,1
+2022-11-18,77,-29,48,False,False,39,-0.34,Dreams Come True,aespa,Dreams Come True - SM STATION,1,1,1,5,3,2,1423537,248,11182050,0.42,0.05,0.53,10416,10,18,11,5,16,2
+2022-11-18,78,-26,52,False,False,37,-0.34,CRUEL,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,1458187,255,11453130,0.42,0.05,0.53,10668,10,17,10,8,20,1
+2022-11-18,79,-30,49,False,False,36,-0.39,DICE,NMIXX,ENTWURF,1,1,1,5,3,2,1374450,240,10798020,0.42,0.05,0.53,10059,10,18,8,2,9,1
 2022-11-18,80,RE,--,False,False,34,--,LA Devotee,Panic! at the Disco,Death of a Bachelor,4,4,1,20,12,2,5324550,931,10459170,0.7,0.08,0.22,29232,34,0,0,13,3,1
 2022-11-18,81,RE,--,False,False,34,--,All I Want,Olivia Rodrigo,High School Musical: The Musical: The Series (Original Soundtrack),4,4,1,20,12,2,6271650,1096,12311550,0.7,0.08,0.22,34398,34,0,0,3,9,1
-2022-11-18,82,+10,92,False,False,33,0.5,champagne problems,Taylor Swift,evermore,2,2,1,10,6,2,2852850,498,11204640,0.58,0.06,0.36,17395,18,7,8,2,27,2
-2022-11-18,83,RE,--,False,False,32,--,John Hughes Movie,Maisie Peters,You Signed Up For This,3,3,1,15,9,2,4227300,739,11069100,0.65,0.07,0.27,24059,26,0,6,46,4,1
-2022-11-18,84,RE,--,False,False,32,--,You Signed Up For This,Maisie Peters,You Signed Up For This,3,3,1,15,9,2,4591125,802,12017880,0.65,0.07,0.27,26117,26,0,6,48,4,1
-2022-11-18,85,+13,98,True,False,32,0.6,Pangarap Lang Kita,Parokya Ni Edgar,Middle-Aged Juvenile Novelty Pop Rockers,3,3,1,15,9,2,4253287,743,11136870,0.65,0.07,0.27,24206,26,6,0,85,3,1
-2022-11-18,86,-27,59,False,False,31,-0.3,O.O,NMIXX,AD MARE,1,1,1,5,3,2,1360012,237,10685070,0.42,0.05,0.53,9954,10,14,7,1,31,2
+2022-11-18,82,+10,92,False,False,33,0.5,champagne problems,Taylor Swift,evermore,2,2,1,10,6,2,2852850,498,11204640,0.58,0.06,0.36,17395,18,7,8,2,23,2
+2022-11-18,83,RE,--,False,False,32,--,You Signed Up For This,Maisie Peters,You Signed Up For This,3,3,1,15,9,2,4591125,802,12017880,0.65,0.07,0.27,26117,26,0,6,43,4,1
+2022-11-18,84,+11,95,True,False,32,0.6,Pangarap Lang Kita,Parokya Ni Edgar,Middle-Aged Juvenile Novelty Pop Rockers,3,3,1,15,9,2,4253287,743,11136870,0.65,0.07,0.27,24206,26,6,0,84,2,1
+2022-11-18,85,RE,--,False,False,32,--,John Hughes Movie,Maisie Peters,You Signed Up For This,3,3,1,15,9,2,4227300,739,11069100,0.65,0.07,0.27,24059,26,0,6,46,4,1
+2022-11-18,86,-27,59,False,False,31,-0.31,O.O,NMIXX,AD MARE,1,1,1,5,3,2,1360012,237,10685070,0.42,0.05,0.53,9954,10,14,7,1,31,2
 2022-11-18,87,-45,42,False,False,30,-0.55,Uptown Girl,Westlife,Coast to Coast (Expanded Edition),1,1,1,5,3,2,1530375,267,12017880,0.42,0.05,0.53,11193,10,20,0,1,15,2
-2022-11-18,88,-43,45,False,False,29,-0.54,Sad Beautiful Tragic (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,19,0,7,30,1
-2022-11-18,89,-37,52,False,False,27,-0.51,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1504387,263,11814570,0.42,0.05,0.53,11004,10,17,0,22,27,1
-2022-11-18,90,RE,--,False,False,26,--,Pompeii,Bastille,Bad Blood,3,3,1,15,9,2,4114687,719,10775430,0.65,0.07,0.27,23422,26,0,0,78,3,1
-2022-11-18,91,NEW,--,True,False,26,--,DALLA DALLA,ITZY,IT'z Different,3,3,1,15,9,2,4062712,710,10639890,0.65,0.07,0.27,23128,26,0,0,91,1,1
-2022-11-18,92,RE,--,False,False,26,--,Coloring Book,OH MY GIRL,COLORING BOOK,3,3,1,15,9,2,4712400,824,12334140,0.65,0.07,0.27,26803,26,0,0,46,2,1
-2022-11-18,93,RE,--,False,False,26,--,Everything Happens for a Reason,Madison Beer,Life Support,3,3,1,15,9,2,4374562,765,11453130,0.65,0.07,0.27,24892,26,0,0,9,4,1
-2022-11-18,94,-22,72,False,False,26,0.0,HOT,TWICE,FANCY YOU,2,2,1,10,6,2,2598750,454,10210680,0.58,0.06,0.36,15855,18,8,0,22,5,1
+2022-11-18,88,-43,45,False,False,29,-0.54,Sad Beautiful Tragic (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,19,0,7,33,1
+2022-11-18,89,-38,51,False,False,27,-0.52,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1504387,263,11814570,0.42,0.05,0.53,11004,10,17,0,18,29,1
+2022-11-18,90,RE,--,False,False,26,--,Pompeii,Bastille,Bad Blood,3,3,1,15,9,2,4114687,719,10775430,0.65,0.07,0.27,23422,26,0,0,40,3,1
+2022-11-18,91,RE,--,False,False,26,--,Everything Happens for a Reason,Madison Beer,Life Support,3,3,1,15,9,2,4374562,765,11453130,0.65,0.07,0.27,24892,26,0,0,56,3,1
+2022-11-18,92,NEW,--,True,False,26,--,DALLA DALLA,ITZY,IT'z Different,3,3,1,15,9,2,4062712,710,10639890,0.65,0.07,0.27,23128,26,0,0,92,1,1
+2022-11-18,93,RE,--,True,False,26,--,Coloring Book,OH MY GIRL,COLORING BOOK,3,3,1,15,9,2,4712400,824,12334140,0.65,0.07,0.27,26803,26,0,0,93,1,1
+2022-11-18,94,-11,83,False,False,26,0.0,HOT,TWICE,FANCY YOU,2,2,1,10,6,2,2598750,454,10210680,0.58,0.06,0.36,15855,18,8,0,24,4,1
 2022-11-18,95,NEW,--,True,False,25,--,Take me away,Emily montes,Emily Montes,3,2,2,15,6,4,4235962,493,22183380,0.52,0.04,0.44,24108,25,0,0,95,1,1
-2022-11-18,96,RE,--,False,False,24,--,Outdoor Pool,Maisie Peters,You Signed Up For This,2,2,1,10,6,2,2893275,506,11362770,0.58,0.06,0.36,17640,18,0,6,45,4,1
+2022-11-18,96,-3,93,False,False,25,0.19,willow,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,7,8,1,27,1
 2022-11-18,97,RE,--,False,False,24,--,Psycho,Maisie Peters,You Signed Up For This,2,2,1,10,6,2,3170475,453,10188090,0.58,0.06,0.36,15820,18,0,6,11,11,1
-2022-11-18,98,RE,--,False,False,24,--,I’m Trying (Not Friends),Maisie Peters,You Signed Up For This,2,2,1,10,6,2,2812425,491,11046510,0.58,0.06,0.36,17150,18,0,6,47,4,1
-2022-11-18,99,RE,--,False,False,24,--,Love Him I Don’t,Maisie Peters,You Signed Up For This,2,2,1,10,6,2,2708475,473,10639890,0.58,0.06,0.36,16520,18,0,6,44,4,1
-2022-11-18,100,-6,94,False,False,25,0.19,willow,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,7,8,5,23,1
+2022-11-18,98,RE,--,False,False,24,--,Outdoor Pool,Maisie Peters,You Signed Up For This,2,2,1,10,6,2,2893275,506,11362770,0.58,0.06,0.36,17640,18,0,6,44,4,1
+2022-11-18,99,RE,--,False,False,24,--,Love Him I Don’t,Maisie Peters,You Signed Up For This,2,2,1,10,6,2,2708475,473,10639890,0.58,0.06,0.36,16520,18,0,6,45,4,1
+2022-11-18,100,RE,--,False,False,24,--,I’m Trying (Not Friends),Maisie Peters,You Signed Up For This,2,2,1,10,6,2,2812425,491,11046510,0.58,0.06,0.36,17150,18,0,6,47,4,1

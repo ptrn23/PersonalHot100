@@ -1,101 +1,101 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2021-01-15,1,NEW,--,True,False,26,--,safety net (feat. Ty Dolla $ign),Ariana Grande,Positions,3,3,1,15,9,2,4374562,765,11453130,0.65,0.07,0.27,24892,26,0,0,1,1,1
-2021-01-15,2,+5,7,True,False,24,0.33,coney island,Taylor Swift The National,evermore (deluxe version),2,2,1,10,6,2,3037650,531,11927520,0.58,0.06,0.36,18515,18,6,0,2,3,1
-2021-01-15,3,RE,--,True,False,20,--,Happily Ever After,Red Velvet,Rookie - The 4th Mini Album - EP,2,2,2,10,6,4,2841300,496,22318920,0.42,0.05,0.53,20790,20,0,0,3,2,1
-2021-01-15,4,RE,--,True,False,20,--,Talk to Me,Red Velvet,Rookie - The 4th Mini Album - EP,2,2,2,10,6,4,2904825,508,22815900,0.42,0.05,0.53,21252,20,0,0,4,2,1
+2021-01-15,2,+6,8,True,False,24,0.33,coney island,Taylor Swift The National,evermore (deluxe version),2,2,1,10,6,2,3037650,531,11927520,0.58,0.06,0.36,18515,18,6,0,2,3,1
+2021-01-15,3,RE,--,True,False,20,--,Talk to Me,Red Velvet,Rookie - The 4th Mini Album - EP,2,2,2,10,6,4,2904825,508,22815900,0.42,0.05,0.53,21252,20,0,0,3,4,1
+2021-01-15,4,RE,--,True,False,20,--,Happily Ever After,Red Velvet,Rookie - The 4th Mini Album - EP,2,2,2,10,6,4,2841300,496,22318920,0.42,0.05,0.53,20790,20,0,0,4,2,1
 2021-01-15,5,-2,3,False,False,19,-0.32,happiness,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,9,0,3,3,1
-2021-01-15,6,RE,--,True,False,18,--,Ridin',NCT DREAM,Reload,2,2,1,10,6,2,2939475,514,11543490,0.58,0.06,0.36,17920,18,0,0,6,3,1
-2021-01-15,7,NEW,--,True,False,18,--,Alphabet Boy,Melanie Martinez,Cry Baby (Deluxe Edition),2,2,1,10,6,2,3043425,532,11950110,0.58,0.06,0.36,18550,18,0,0,7,1,1
-2021-01-15,8,RE,--,False,False,18,--,BEHIND THE MASK,TWICE (트와이스),Eyes wide open,2,2,1,10,6,2,2852850,498,11204640,0.58,0.06,0.36,17395,18,0,0,1,3,1
-2021-01-15,9,-1,8,False,False,16,-0.11,right where you left me,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,1478400,258,11611260,0.42,0.05,0.53,10815,10,6,0,8,2,1
-2021-01-15,10,-5,5,False,False,16,-0.2,gold rush,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,6,0,4,3,1
-2021-01-15,11,-2,9,False,False,16,-0.06,my tears ricochet,Taylor Swift,folklore,1,1,1,5,3,2,1495725,261,11746800,0.42,0.05,0.53,10941,10,6,0,1,4,1
-2021-01-15,12,+16,28,False,False,13,0.3,willow,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,3,0,5,3,1
-2021-01-15,13,+50,63,True,False,13,0.3,CRY FOR ME,TWICE,Twice,1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,3,0,13,3,1
-2021-01-15,14,+26,40,False,False,13,0.3,Body Talk,Red Velvet,Rookie - The 4th Mini Album,1,1,1,5,3,2,1472625,257,11566080,0.42,0.05,0.53,10773,10,3,0,6,4,1
-2021-01-15,15,+39,54,True,False,13,0.3,21:29,TWICE,Feel Special,1,1,1,5,3,2,1533262,268,12040470,0.42,0.05,0.53,11214,10,3,0,15,3,1
-2021-01-15,16,+8,24,True,False,13,0.3,dorothea,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,1308037,228,10278450,0.42,0.05,0.53,9576,10,3,0,16,3,1
-2021-01-15,17,RE,--,True,False,12,--,Hellevator,Stray Kids,SKZ2020,1,1,1,5,3,2,1391775,243,10933560,0.42,0.05,0.53,10185,10,0,2,17,3,1
-2021-01-15,18,RE,--,True,False,12,--,My Pace,Stray Kids,SKZ2020,1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,0,2,18,2,1
-2021-01-15,19,RE,--,True,False,12,--,District 9,Stray Kids,SKZ2020,1,1,1,5,3,2,1325362,231,10413990,0.42,0.05,0.53,9702,10,0,2,19,3,1
-2021-01-15,20,RE,--,True,False,10,--,sweetener,Ariana Grande,Sweetener,1,1,1,5,3,2,1437975,251,11295000,0.42,0.05,0.53,10521,10,0,0,20,2,1
-2021-01-15,21,RE,--,False,False,10,--,Um Oh Ah Yeh,MAMAMOO,Pink Funky,1,1,1,5,3,2,1510162,264,11859750,0.42,0.05,0.53,11046,10,0,0,8,3,1
-2021-01-15,22,NEW,--,True,False,10,--,갑자기 분위기 싸해질 필요 없잖아요 (Awkward Silence),Stray Kids,SKZ2020,1,1,1,5,3,2,1420650,248,11159460,0.42,0.05,0.53,10395,10,0,0,22,1,1
-2021-01-15,23,RE,--,True,False,10,--,Haven,Stray Kids,GO生 (GO LIVE),1,1,1,5,3,2,1501500,262,11791980,0.42,0.05,0.53,10983,10,0,0,23,2,1
-2021-01-15,24,RE,--,False,False,10,--,Hotter Than Hell,Dua Lipa,Dua Lipa (Deluxe),1,1,1,5,3,2,1319587,230,10368810,0.42,0.05,0.53,9660,10,0,0,17,3,1
-2021-01-15,25,NEW,--,True,False,10,--,TO BE OR NOT TO BE,원어스 (ONEUS),LIVED,1,1,1,5,3,2,1565025,273,12288960,0.42,0.05,0.53,11445,10,0,0,25,1,1
-2021-01-15,26,RE,--,False,False,10,--,Grown,Little Mix,Get Weird (Deluxe Edition),1,1,1,5,3,2,1469737,257,11543490,0.42,0.05,0.53,10752,10,0,0,10,5,1
-2021-01-15,27,RE,--,False,False,10,--,환상동화 (Secret Story of the Swan),IZ*ONE,Oneiric Diary (幻想日記),1,1,1,5,3,2,1469737,257,11543490,0.42,0.05,0.53,10752,10,0,0,3,3,1
-2021-01-15,28,RE,--,True,False,10,--,Blow Your Mind (Mwah),Dua Lipa,Dua Lipa (Deluxe),1,1,1,5,3,2,1513050,264,11882340,0.42,0.05,0.53,11067,10,0,0,28,3,1
-2021-01-15,29,NEW,--,True,False,10,--,Pills n Potions,Nicki Minaj,The Pinkprint (Deluxe),1,1,1,5,3,2,1498612,262,11769390,0.42,0.05,0.53,10962,10,0,0,29,1,1
-2021-01-15,30,NEW,--,True,False,10,--,Shanghai,Nicki Minaj,The Pinkprint (Deluxe Edition),1,1,1,5,3,2,1536150,268,12063060,0.42,0.05,0.53,11235,10,0,0,30,1,1
-2021-01-15,31,RE,--,False,False,10,--,Stupid Hoe,Nicki Minaj,Pink Friday: Roman Reloaded The Re-Up (Explicit Version),1,1,1,5,3,2,1565025,273,12288960,0.42,0.05,0.53,11445,10,0,0,12,2,1
-2021-01-15,32,NEW,--,True,False,10,--,The Boys,Nicki Minaj,Pink Friday: Roman Reloaded The Re-Up (Explicit Version),1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,0,0,32,1,1
-2021-01-15,33,NEW,--,True,False,10,--,I'm Legit,Nicki Minaj,Pink Friday: Roman Reloaded The Re-Up (Explicit Version),1,1,1,5,3,2,1302262,227,10233270,0.42,0.05,0.53,9534,10,0,0,33,1,1
-2021-01-15,34,NEW,--,True,False,10,--,34+35 Remix (feat. Doja Cat Megan Thee Stallion) - Remix,Ariana Grande,34+35 (Remix),1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,0,0,34,1,1
+2021-01-15,6,RE,--,True,False,18,--,Ridin',NCT DREAM,Reload,2,2,1,10,6,2,2939475,514,11543490,0.58,0.06,0.36,17920,18,0,0,6,2,1
+2021-01-15,7,RE,--,False,False,18,--,BEHIND THE MASK,TWICE (트와이스),Eyes wide open,2,2,1,10,6,2,2852850,498,11204640,0.58,0.06,0.36,17395,18,0,0,1,3,1
+2021-01-15,8,NEW,--,True,False,18,--,Alphabet Boy,Melanie Martinez,Cry Baby (Deluxe Edition),2,2,1,10,6,2,3043425,532,11950110,0.58,0.06,0.36,18550,18,0,0,8,1,1
+2021-01-15,9,-2,7,False,False,16,-0.11,right where you left me,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,1478400,258,11611260,0.42,0.05,0.53,10815,10,6,0,7,2,1
+2021-01-15,10,-1,9,False,False,16,-0.06,my tears ricochet,Taylor Swift,folklore,1,1,1,5,3,2,1495725,261,11746800,0.42,0.05,0.53,10941,10,6,0,2,4,1
+2021-01-15,11,-6,5,False,False,16,-0.2,gold rush,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,6,0,4,3,1
+2021-01-15,12,+7,19,False,False,13,0.3,willow,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,3,0,1,3,1
+2021-01-15,13,+39,52,True,False,13,0.3,dorothea,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,1308037,228,10278450,0.42,0.05,0.53,9576,10,3,0,13,3,1
+2021-01-15,14,+39,53,True,False,13,0.3,CRY FOR ME,TWICE,Twice,1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,3,0,14,2,1
+2021-01-15,15,+43,58,False,False,13,0.3,Body Talk,Red Velvet,Rookie - The 4th Mini Album,1,1,1,5,3,2,1472625,257,11566080,0.42,0.05,0.53,10773,10,3,0,7,4,1
+2021-01-15,16,+47,63,True,False,13,0.3,21:29,TWICE,Feel Special,1,1,1,5,3,2,1533262,268,12040470,0.42,0.05,0.53,11214,10,3,0,16,2,1
+2021-01-15,17,RE,--,True,False,12,--,My Pace,Stray Kids,SKZ2020,1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,0,2,17,2,1
+2021-01-15,18,RE,--,True,False,12,--,Hellevator,Stray Kids,SKZ2020,1,1,1,5,3,2,1391775,243,10933560,0.42,0.05,0.53,10185,10,0,2,18,3,1
+2021-01-15,19,RE,--,True,True,12,--,District 9,Stray Kids,SKZ2020,1,1,1,5,3,2,1325362,231,10413990,0.42,0.05,0.53,9702,10,0,2,19,3,2
+2021-01-15,20,RE,--,False,False,10,--,힐링 (Healing),Seventeen,Love&Letter Repackage Album,1,1,1,5,3,2,1475512,258,11588670,0.42,0.05,0.53,10794,10,0,0,4,4,1
+2021-01-15,21,RE,--,False,False,10,--,환상동화 (Secret Story of the Swan),IZ*ONE,Oneiric Diary (幻想日記),1,1,1,5,3,2,1469737,257,11543490,0.42,0.05,0.53,10752,10,0,0,1,3,2
+2021-01-15,22,RE,--,False,False,10,--,텐데... (Timeless),NCT U,NCT 2018 EMPATHY,1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,0,0,9,3,1
+2021-01-15,23,RE,--,True,False,10,--,타 (TA),Stray Kids,GO生 (GO LIVE),1,1,1,5,3,2,1487062,260,11679030,0.42,0.05,0.53,10878,10,0,0,23,2,1
+2021-01-15,24,NEW,--,True,False,10,--,일곱 번째 감각 (The 7th Sense),NCT U,일곱 번째 감각 (The 7th Sense),1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,0,0,24,1,1
+2021-01-15,25,NEW,--,True,False,10,--,어린애 (Girls),Nature,NATURE WORLD: CODE M,1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,0,0,25,1,1
+2021-01-15,26,NEW,--,True,False,10,--,바보라도 알아 (On Track),Stray Kids,Mixtape : 바보라도 알아 (On Track),1,1,1,5,3,2,1461075,255,11475720,0.42,0.05,0.53,10689,10,0,0,26,1,1
+2021-01-15,27,NEW,--,True,False,10,--,마지막 사랑 Last Love,Red Velvet,Rookie - The 4th Mini Album,1,1,1,5,3,2,1576575,275,12379320,0.42,0.05,0.53,11529,10,0,0,27,1,1
+2021-01-15,28,NEW,--,True,False,10,--,갑자기 분위기 싸해질 필요 없잖아요 (Awkward Silence),Stray Kids,SKZ2020,1,1,1,5,3,2,1420650,248,11159460,0.42,0.05,0.53,10395,10,0,0,28,1,1
+2021-01-15,29,NEW,--,True,False,10,--,X X,Loona,[X X],1,1,1,5,3,2,1319587,230,10368810,0.42,0.05,0.53,9660,10,0,0,29,1,1
+2021-01-15,30,RE,--,True,False,10,--,Womanizer,Britney Spears,Circus (Deluxe Version),1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,0,0,30,3,1
+2021-01-15,31,RE,--,False,False,10,--,Why Not?,이달의 소녀,［12:00］,1,1,1,5,3,2,1547700,270,12153420,0.42,0.05,0.53,11319,10,0,0,3,5,1
+2021-01-15,32,RE,--,True,False,10,--,Where you at,이달의 소녀 (Loona),[X X],1,1,1,5,3,2,1573687,275,12356730,0.42,0.05,0.53,11508,10,0,0,32,2,1
+2021-01-15,33,NEW,--,True,False,10,--,Where you at,Loona,[X X],1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,0,0,33,1,1
+2021-01-15,34,RE,--,False,False,10,--,Wave,ATEEZ,TREASURE EP.3 : One To All,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,0,0,2,7,1
 2021-01-15,35,NEW,--,True,False,10,--,WAP (feat. Megan Thee Stallion),Cardi B,WAP (feat. Megan Thee Stallion),1,1,1,5,3,2,1406212,245,11046510,0.42,0.05,0.53,10290,10,0,0,35,1,1
-2021-01-15,36,RE,--,False,False,10,--,If U Seek Amy,Britney Spears,Circus (Deluxe Version),1,1,1,5,3,2,1524600,266,11972700,0.42,0.05,0.53,11151,10,0,0,2,3,1
-2021-01-15,37,RE,--,False,False,10,--,Circus,Britney Spears,Circus (Deluxe Version),1,1,1,5,3,2,1371562,239,10775430,0.42,0.05,0.53,10038,10,0,0,1,5,1
-2021-01-15,38,RE,--,False,False,10,--,Womanizer,Britney Spears,Circus (Deluxe Version),1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,0,0,24,2,1
-2021-01-15,39,NEW,--,True,False,10,--,drivers license,Olivia Rodrigo,drivers license,1,1,1,5,3,2,1478400,258,11611260,0.42,0.05,0.53,10815,10,0,0,39,1,1
-2021-01-15,40,NEW,--,True,False,10,--,De Una Vez,Selena Gomez,De Una Vez,1,1,1,5,3,2,1409100,246,11069100,0.42,0.05,0.53,10311,10,0,0,40,1,1
-2021-01-15,41,NEW,--,True,False,10,--,I am YOU,Stray Kids,SKZ2020,1,1,1,5,3,2,1397550,244,10978740,0.42,0.05,0.53,10227,10,0,0,41,1,1
-2021-01-15,42,NEW,--,True,False,10,--,Awkward Silence,Stray Kids,SKZ2020,1,1,1,5,3,2,1432200,250,11249820,0.42,0.05,0.53,10479,10,0,0,42,1,1
-2021-01-15,43,NEW,--,True,False,10,--,M.I.A.,Stray Kids,SKZ2020,1,1,1,5,3,2,1345575,235,10572120,0.42,0.05,0.53,9849,10,0,0,43,1,1
-2021-01-15,44,NEW,--,True,False,10,--,Question,Stray Kids,SKZ2020,1,1,1,5,3,2,1553475,271,12198600,0.42,0.05,0.53,11361,10,0,0,44,1,1
-2021-01-15,45,RE,--,True,False,10,--,Voices,Stray Kids,SKZ2020,1,1,1,5,3,2,1463962,256,11498310,0.42,0.05,0.53,10710,10,0,0,45,2,1
-2021-01-15,46,NEW,--,True,False,10,--,Grow Up,Stray Kids,SKZ2020,1,1,1,5,3,2,1458187,255,11453130,0.42,0.05,0.53,10668,10,0,0,46,1,1
-2021-01-15,47,NEW,--,True,False,10,--,Mirror,Stray Kids,SKZ2020,1,1,1,5,3,2,1492837,261,11724210,0.42,0.05,0.53,10920,10,0,0,47,1,1
-2021-01-15,48,NEW,--,True,False,10,--,Where you at,Loona,[X X],1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,0,0,48,1,1
-2021-01-15,49,NEW,--,True,False,10,--,Colors,Loona,[X X],1,1,1,5,3,2,1423537,248,11182050,0.42,0.05,0.53,10416,10,0,0,49,1,1
-2021-01-15,50,NEW,--,True,False,10,--,Curiosity,Loona,[X X],1,1,1,5,3,2,1360012,237,10685070,0.42,0.05,0.53,9954,10,0,0,50,1,1
-2021-01-15,51,NEW,--,True,False,10,--,Satellite,Loona,[X X],1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,0,0,51,1,1
-2021-01-15,52,NEW,--,True,False,10,--,Butterfly,Loona,[X X],1,1,1,5,3,2,1383112,241,10865790,0.42,0.05,0.53,10122,10,0,0,52,1,1
-2021-01-15,53,NEW,--,True,False,10,--,X X,Loona,[X X],1,1,1,5,3,2,1319587,230,10368810,0.42,0.05,0.53,9660,10,0,0,53,1,1
-2021-01-15,54,NEW,--,True,False,10,--,마지막 사랑 Last Love,Red Velvet,Rookie - The 4th Mini Album,1,1,1,5,3,2,1576575,275,12379320,0.42,0.05,0.53,11529,10,0,0,54,1,1
-2021-01-15,55,NEW,--,True,False,10,--,Little Little,Red Velvet,Rookie - The 4th Mini Album,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,0,0,55,1,1
-2021-01-15,56,RE,--,False,False,10,--,Rookie,Red Velvet,Rookie - The 4th Mini Album,1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,0,0,11,2,1
-2021-01-15,57,NEW,--,True,False,10,--,BREAKTHROUGH - Korean Version,TWICE,Feel Special,1,1,1,5,3,2,1325362,231,10413990,0.42,0.05,0.53,9702,10,0,0,57,1,1
-2021-01-15,58,RE,--,False,False,10,--,LOVE FOOLISH,TWICE,Feel Special,1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,0,0,19,3,1
-2021-01-15,59,RE,--,False,False,10,--,TRICK IT,TWICE,Feel Special,1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,0,0,20,3,1
-2021-01-15,60,NEW,--,True,False,10,--,GET LOUD,TWICE,Feel Special,1,1,1,5,3,2,1562137,273,12266370,0.42,0.05,0.53,11424,10,0,0,60,1,1
-2021-01-15,61,RE,--,False,False,10,--,RAINBOW,TWICE,Feel Special,1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,0,0,12,3,1
-2021-01-15,62,RE,--,False,False,10,--,Feel Special,TWICE,Feel Special,1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,0,0,19,5,1
-2021-01-15,63,RE,--,False,False,10,--,Breathe (feat. Colbie Caillat),Taylor Swift,Fearless (Platinum Edition),1,1,1,5,3,2,1524600,266,11972700,0.42,0.05,0.53,11151,10,0,0,23,2,1
-2021-01-15,64,RE,--,False,False,10,--,SHADOW,TWICE,MORE & MORE,1,1,1,5,3,2,1394662,243,10956150,0.42,0.05,0.53,10206,10,0,0,11,4,2
-2021-01-15,65,NEW,--,True,False,10,--,Feel Special (Japanese Version),TWICE,#TWICE3 (Japanese Version) - EP,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,0,0,65,1,1
-2021-01-15,66,RE,--,False,False,10,--,Wave,ATEEZ,TREASURE EP.3 : One To All,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,0,0,1,6,1
-2021-01-15,67,RE,--,True,False,10,--,Pacemaker,Stray Kids,GO生 (GO LIVE),1,1,1,5,3,2,1394662,243,10956150,0.42,0.05,0.53,10206,10,0,0,67,2,1
-2021-01-15,68,RE,--,False,False,10,--,One Of These Nights (Piano Version),Red Velvet,The Velvet - The 2nd Mini Album,1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,0,0,3,4,1
-2021-01-15,69,RE,--,False,False,10,--,Superhuman,NCT 127,NCT #127 WE ARE SUPERHUMAN - The 4th Mini Album,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,0,0,10,4,1
-2021-01-15,70,RE,--,True,False,10,--,blazed (feat. Pharrell Williams),Ariana Grande,Sweetener,1,1,1,5,3,2,1305150,228,10255860,0.42,0.05,0.53,9555,10,0,0,70,2,1
-2021-01-15,71,RE,--,False,False,10,--,Cherry Bomb,NCT 127,NCT #127 CHERRY BOMB – The 3rd Mini Album,1,1,1,5,3,2,1371562,239,10775430,0.42,0.05,0.53,10038,10,0,0,9,3,1
-2021-01-15,72,RE,--,False,False,10,--,Kiss and Make Up,Dua Lipa & BLACKPINK,Dua Lipa (Complete Edition),1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,0,0,24,2,1
-2021-01-15,73,NEW,--,True,False,10,--,타 (TA),Stray Kids,GO生 (GO LIVE),1,1,1,5,3,2,1487062,260,11679030,0.42,0.05,0.53,10878,10,0,0,73,1,1
-2021-01-15,74,RE,--,False,False,10,--,Make A Wish (Birthday Song),NCT U,NCT RESONANCE Pt. 1 - The 2nd Album,1,1,1,5,3,2,1513050,264,11882340,0.42,0.05,0.53,11067,10,0,0,5,3,1
-2021-01-15,75,RE,--,False,False,10,--,100,SuperM,100,1,1,1,5,3,2,1495725,261,11746800,0.42,0.05,0.53,10941,10,0,0,5,3,1
-2021-01-15,76,RE,--,False,False,10,--,La La Love,WJSN (Cosmic Girls),WJ STAY?,1,1,1,5,3,2,1489950,260,11701620,0.42,0.05,0.53,10899,10,0,0,32,3,1
-2021-01-15,77,NEW,--,True,False,10,--,일곱 번째 감각 (The 7th Sense),NCT U,일곱 번째 감각 (The 7th Sense),1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,0,0,77,1,1
-2021-01-15,78,RE,--,False,False,10,--,텐데... (Timeless),NCT U,NCT 2018 EMPATHY,1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,0,0,26,3,1
-2021-01-15,79,RE,--,False,False,10,--,Number 1,이달의 소녀 (Loona),[#],1,1,1,5,3,2,1553475,271,12198600,0.42,0.05,0.53,11361,10,0,0,21,2,1
-2021-01-15,80,RE,--,False,False,10,--,힐링 (Healing),Seventeen,Love&Letter Repackage Album,1,1,1,5,3,2,1475512,258,11588670,0.42,0.05,0.53,10794,10,0,0,6,3,1
-2021-01-15,81,RE,--,False,False,10,--,Don't Start Now,Dua Lipa,Future Nostalgia,1,1,1,5,3,2,1417762,247,11136870,0.42,0.05,0.53,10374,10,0,0,1,7,1
-2021-01-15,82,RE,--,True,False,10,--,Jelly,Red Velvet - IRENE & SEULGI,Monster - The 1st Mini Album,1,1,1,5,3,2,1417762,247,11136870,0.42,0.05,0.53,10374,10,0,0,82,2,1
-2021-01-15,83,RE,--,True,False,10,--,La La Land,Demi Lovato,Don't Forget,1,1,1,5,3,2,1403325,245,11023920,0.42,0.05,0.53,10269,10,0,0,83,2,1
-2021-01-15,84,NEW,--,True,False,10,--,바보라도 알아 (On Track),Stray Kids,Mixtape : 바보라도 알아 (On Track),1,1,1,5,3,2,1461075,255,11475720,0.42,0.05,0.53,10689,10,0,0,84,1,1
-2021-01-15,85,NEW,--,True,False,10,--,nasty,Ariana Grande,Positions,1,1,1,5,3,2,1504387,263,11814570,0.42,0.05,0.53,11004,10,0,0,85,1,1
-2021-01-15,86,RE,--,False,False,10,--,Reggaeton Lento (Remix),CNCO feat. Little Mix,Reggaeton Lento (Remix),1,1,1,5,3,2,1544812,270,12130830,0.42,0.05,0.53,11298,10,0,0,6,5,1
-2021-01-15,87,NEW,--,True,False,10,--,PARTY,Girls' Generation,Party - Single,1,1,1,5,3,2,1435087,250,11272410,0.42,0.05,0.53,10500,10,0,0,87,1,1
-2021-01-15,88,RE,--,False,False,10,--,IDGAF,Dua Lipa,Dua Lipa (Complete Edition),1,1,1,5,3,2,1435087,250,11272410,0.42,0.05,0.53,10500,10,0,0,11,3,1
-2021-01-15,89,NEW,--,True,False,10,--,Oh!,Girls' Generation,Oh!,1,1,1,5,3,2,1400437,244,11001330,0.42,0.05,0.53,10248,10,0,0,89,1,1
-2021-01-15,90,NEW,--,True,False,10,--,어린애 (Girls),Nature,NATURE WORLD: CODE M,1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,0,0,90,1,1
-2021-01-15,91,NEW,--,True,False,10,--,About Love,Red Velvet,Perfect Velvet - The 2nd Album,1,1,1,5,3,2,1388887,242,10910970,0.42,0.05,0.53,10164,10,0,0,91,1,1
-2021-01-15,92,RE,--,False,False,10,--,Detention,Melanie Martinez,K-12,1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,0,0,14,3,1
-2021-01-15,93,RE,--,False,False,10,--,Training Wheels,Melanie Martinez,Cry Baby (Deluxe Edition),1,1,1,5,3,2,1342687,234,10549530,0.42,0.05,0.53,9828,10,0,0,1,3,1
-2021-01-15,94,RE,--,False,False,10,--,Why Not?,이달의 소녀,［12:00］,1,1,1,5,3,2,1547700,270,12153420,0.42,0.05,0.53,11319,10,0,0,4,5,1
-2021-01-15,95,NEW,--,True,False,10,--,Miss Americana & the Heartbreak Prince,Taylor Swift,Lover,1,1,1,5,3,2,1550587,271,12176010,0.42,0.05,0.53,11340,10,0,0,95,1,1
-2021-01-15,96,NEW,--,True,False,10,--,Tag You're It,Melanie Martinez,Cry Baby (Deluxe Edition),1,1,1,5,3,2,1463962,256,11498310,0.42,0.05,0.53,10710,10,0,0,96,1,1
-2021-01-15,97,RE,--,False,False,10,--,Where you at,이달의 소녀 (Loona),[X X],1,1,1,5,3,2,1573687,275,12356730,0.42,0.05,0.53,11508,10,0,0,25,2,1
-2021-01-15,98,RE,--,False,False,10,--,My Second Date,Red Velvet,Perfect Velvet - The 2nd Album,1,1,1,5,3,2,1328250,232,10436580,0.42,0.05,0.53,9723,10,0,0,32,2,1
-2021-01-15,99,NEW,--,True,False,10,--,I Think He Knows,Taylor Swift,Lover,1,1,1,5,3,2,1565025,273,12288960,0.42,0.05,0.53,11445,10,0,0,99,1,1
-2021-01-15,100,RE,--,False,False,10,--,Blue Flame,Astro,BLUE FLAME,1,1,1,5,3,2,1437975,251,11295000,0.42,0.05,0.53,10521,10,0,0,16,2,1
+2021-01-15,36,RE,--,False,False,10,--,Voices,Stray Kids,SKZ2020,1,1,1,5,3,2,1463962,256,11498310,0.42,0.05,0.53,10710,10,0,0,28,2,1
+2021-01-15,37,RE,--,False,False,10,--,Um Oh Ah Yeh,MAMAMOO,Pink Funky,1,1,1,5,3,2,1510162,264,11859750,0.42,0.05,0.53,11046,10,0,0,3,4,1
+2021-01-15,38,RE,--,False,False,10,--,TRICK IT,TWICE,Feel Special,1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,0,0,12,4,1
+2021-01-15,39,RE,--,False,False,10,--,Training Wheels,Melanie Martinez,Cry Baby (Deluxe Edition),1,1,1,5,3,2,1342687,234,10549530,0.42,0.05,0.53,9828,10,0,0,1,3,1
+2021-01-15,40,NEW,--,True,False,10,--,TO BE OR NOT TO BE,원어스 (ONEUS),LIVED,1,1,1,5,3,2,1565025,273,12288960,0.42,0.05,0.53,11445,10,0,0,40,1,1
+2021-01-15,41,NEW,--,True,False,10,--,The Boys,Nicki Minaj,Pink Friday: Roman Reloaded The Re-Up (Explicit Version),1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,0,0,41,1,1
+2021-01-15,42,RE,--,True,False,10,--,Tag You're It,Melanie Martinez,Cry Baby (Deluxe Edition),1,1,1,5,3,2,1463962,256,11498310,0.42,0.05,0.53,10710,10,0,0,42,2,1
+2021-01-15,43,RE,--,False,False,10,--,sweetener,Ariana Grande,Sweetener,1,1,1,5,3,2,1437975,251,11295000,0.42,0.05,0.53,10521,10,0,0,27,2,1
+2021-01-15,44,RE,--,False,False,10,--,Superhuman,NCT 127,NCT #127 WE ARE SUPERHUMAN - The 4th Mini Album,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,0,0,11,4,1
+2021-01-15,45,RE,--,False,False,10,--,Stupid Hoe,Nicki Minaj,Pink Friday: Roman Reloaded The Re-Up (Explicit Version),1,1,1,5,3,2,1565025,273,12288960,0.42,0.05,0.53,11445,10,0,0,7,3,1
+2021-01-15,46,NEW,--,True,False,10,--,Shanghai,Nicki Minaj,The Pinkprint (Deluxe Edition),1,1,1,5,3,2,1536150,268,12063060,0.42,0.05,0.53,11235,10,0,0,46,1,1
+2021-01-15,47,RE,--,False,False,10,--,SHADOW,TWICE,MORE & MORE,1,1,1,5,3,2,1394662,243,10956150,0.42,0.05,0.53,10206,10,0,0,8,6,1
+2021-01-15,48,NEW,--,True,False,10,--,Satellite,Loona,[X X],1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,0,0,48,1,1
+2021-01-15,49,RE,--,False,False,10,--,Rookie,Red Velvet,Rookie - The 4th Mini Album,1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,0,0,7,2,1
+2021-01-15,50,RE,--,False,False,10,--,Reggaeton Lento (Remix),CNCO feat. Little Mix,Reggaeton Lento (Remix),1,1,1,5,3,2,1544812,270,12130830,0.42,0.05,0.53,11298,10,0,0,12,5,1
+2021-01-15,51,RE,--,False,False,10,--,RAINBOW,TWICE,Feel Special,1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,0,0,30,3,1
+2021-01-15,52,NEW,--,True,False,10,--,Question,Stray Kids,SKZ2020,1,1,1,5,3,2,1553475,271,12198600,0.42,0.05,0.53,11361,10,0,0,52,1,1
+2021-01-15,53,NEW,--,True,False,10,--,Pills n Potions,Nicki Minaj,The Pinkprint (Deluxe),1,1,1,5,3,2,1498612,262,11769390,0.42,0.05,0.53,10962,10,0,0,53,1,1
+2021-01-15,54,NEW,--,True,False,10,--,PARTY,Girls' Generation,Party - Single,1,1,1,5,3,2,1435087,250,11272410,0.42,0.05,0.53,10500,10,0,0,54,1,1
+2021-01-15,55,RE,--,True,False,10,--,Pacemaker,Stray Kids,GO生 (GO LIVE),1,1,1,5,3,2,1394662,243,10956150,0.42,0.05,0.53,10206,10,0,0,55,2,1
+2021-01-15,56,RE,--,False,False,10,--,One Of These Nights (Piano Version),Red Velvet,The Velvet - The 2nd Mini Album,1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,0,0,2,4,1
+2021-01-15,57,NEW,--,True,False,10,--,Oh!,Girls' Generation,Oh!,1,1,1,5,3,2,1400437,244,11001330,0.42,0.05,0.53,10248,10,0,0,57,1,1
+2021-01-15,58,RE,--,True,False,10,--,Number 1,이달의 소녀 (Loona),[#],1,1,1,5,3,2,1553475,271,12198600,0.42,0.05,0.53,11361,10,0,0,58,2,1
+2021-01-15,59,NEW,--,True,False,10,--,nasty,Ariana Grande,Positions,1,1,1,5,3,2,1504387,263,11814570,0.42,0.05,0.53,11004,10,0,0,59,1,1
+2021-01-15,60,RE,--,False,False,10,--,My Second Date,Red Velvet,Perfect Velvet - The 2nd Album,1,1,1,5,3,2,1328250,232,10436580,0.42,0.05,0.53,9723,10,0,0,19,3,1
+2021-01-15,61,NEW,--,True,False,10,--,Miss Americana & the Heartbreak Prince,Taylor Swift,Lover,1,1,1,5,3,2,1550587,271,12176010,0.42,0.05,0.53,11340,10,0,0,61,1,1
+2021-01-15,62,NEW,--,True,False,10,--,Mirror,Stray Kids,SKZ2020,1,1,1,5,3,2,1492837,261,11724210,0.42,0.05,0.53,10920,10,0,0,62,1,1
+2021-01-15,63,RE,--,False,False,10,--,Make A Wish (Birthday Song),NCT U,NCT RESONANCE Pt. 1 - The 2nd Album,1,1,1,5,3,2,1513050,264,11882340,0.42,0.05,0.53,11067,10,0,0,6,3,1
+2021-01-15,64,NEW,--,True,False,10,--,M.I.A.,Stray Kids,SKZ2020,1,1,1,5,3,2,1345575,235,10572120,0.42,0.05,0.53,9849,10,0,0,64,1,1
+2021-01-15,65,RE,--,False,False,10,--,LOVE FOOLISH,TWICE,Feel Special,1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,0,0,21,2,1
+2021-01-15,66,NEW,--,True,False,10,--,Little Little,Red Velvet,Rookie - The 4th Mini Album,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,0,0,66,1,1
+2021-01-15,67,RE,--,False,False,10,--,La La Love,WJSN (Cosmic Girls),WJ STAY?,1,1,1,5,3,2,1489950,260,11701620,0.42,0.05,0.53,10899,10,0,0,38,3,1
+2021-01-15,68,RE,--,True,False,10,--,La La Land,Demi Lovato,Don't Forget,1,1,1,5,3,2,1403325,245,11023920,0.42,0.05,0.53,10269,10,0,0,68,3,1
+2021-01-15,69,RE,--,False,False,10,--,Kiss and Make Up,Dua Lipa & BLACKPINK,Dua Lipa (Complete Edition),1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,0,0,22,2,1
+2021-01-15,70,RE,--,True,False,10,--,Jelly,Red Velvet - IRENE & SEULGI,Monster - The 1st Mini Album,1,1,1,5,3,2,1417762,247,11136870,0.42,0.05,0.53,10374,10,0,0,70,2,1
+2021-01-15,71,RE,--,False,False,10,--,If U Seek Amy,Britney Spears,Circus (Deluxe Version),1,1,1,5,3,2,1524600,266,11972700,0.42,0.05,0.53,11151,10,0,0,2,3,1
+2021-01-15,72,RE,--,False,False,10,--,IDGAF,Dua Lipa,Dua Lipa (Complete Edition),1,1,1,5,3,2,1435087,250,11272410,0.42,0.05,0.53,10500,10,0,0,26,2,1
+2021-01-15,73,NEW,--,True,False,10,--,I'm Legit,Nicki Minaj,Pink Friday: Roman Reloaded The Re-Up (Explicit Version),1,1,1,5,3,2,1302262,227,10233270,0.42,0.05,0.53,9534,10,0,0,73,1,1
+2021-01-15,74,NEW,--,True,False,10,--,I Think He Knows,Taylor Swift,Lover,1,1,1,5,3,2,1565025,273,12288960,0.42,0.05,0.53,11445,10,0,0,74,1,1
+2021-01-15,75,NEW,--,True,False,10,--,I am YOU,Stray Kids,SKZ2020,1,1,1,5,3,2,1397550,244,10978740,0.42,0.05,0.53,10227,10,0,0,75,1,1
+2021-01-15,76,RE,--,False,False,10,--,Hotter Than Hell,Dua Lipa,Dua Lipa (Deluxe),1,1,1,5,3,2,1319587,230,10368810,0.42,0.05,0.53,9660,10,0,0,49,3,1
+2021-01-15,77,RE,--,True,False,10,--,Haven,Stray Kids,GO生 (GO LIVE),1,1,1,5,3,2,1501500,262,11791980,0.42,0.05,0.53,10983,10,0,0,77,1,1
+2021-01-15,78,RE,--,False,False,10,--,Grown,Little Mix,Get Weird (Deluxe Edition),1,1,1,5,3,2,1469737,257,11543490,0.42,0.05,0.53,10752,10,0,0,11,4,1
+2021-01-15,79,NEW,--,True,False,10,--,Grow Up,Stray Kids,SKZ2020,1,1,1,5,3,2,1458187,255,11453130,0.42,0.05,0.53,10668,10,0,0,79,1,1
+2021-01-15,80,NEW,--,True,False,10,--,GET LOUD,TWICE,Feel Special,1,1,1,5,3,2,1562137,273,12266370,0.42,0.05,0.53,11424,10,0,0,80,1,1
+2021-01-15,81,NEW,--,True,False,10,--,Feel Special (Japanese Version),TWICE,#TWICE3 (Japanese Version) - EP,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,0,0,81,1,1
+2021-01-15,82,RE,--,False,False,10,--,Feel Special,TWICE,Feel Special,1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,0,0,16,4,1
+2021-01-15,83,NEW,--,True,False,10,--,drivers license,Olivia Rodrigo,drivers license,1,1,1,5,3,2,1478400,258,11611260,0.42,0.05,0.53,10815,10,0,0,83,1,1
+2021-01-15,84,RE,--,False,False,10,--,Don't Start Now,Dua Lipa,Future Nostalgia,1,1,1,5,3,2,1417762,247,11136870,0.42,0.05,0.53,10374,10,0,0,1,7,1
+2021-01-15,85,RE,--,False,False,10,--,Detention,Melanie Martinez,K-12,1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,0,0,59,2,1
+2021-01-15,86,NEW,--,True,False,10,--,De Una Vez,Selena Gomez,De Una Vez,1,1,1,5,3,2,1409100,246,11069100,0.42,0.05,0.53,10311,10,0,0,86,1,1
+2021-01-15,87,NEW,--,True,False,10,--,Curiosity,Loona,[X X],1,1,1,5,3,2,1360012,237,10685070,0.42,0.05,0.53,9954,10,0,0,87,1,1
+2021-01-15,88,NEW,--,True,False,10,--,Colors,Loona,[X X],1,1,1,5,3,2,1423537,248,11182050,0.42,0.05,0.53,10416,10,0,0,88,1,1
+2021-01-15,89,RE,--,False,False,10,--,Circus,Britney Spears,Circus (Deluxe Version),1,1,1,5,3,2,1371562,239,10775430,0.42,0.05,0.53,10038,10,0,0,1,4,1
+2021-01-15,90,RE,--,False,False,10,--,Cherry Bomb,NCT 127,NCT #127 CHERRY BOMB – The 3rd Mini Album,1,1,1,5,3,2,1371562,239,10775430,0.42,0.05,0.53,10038,10,0,0,16,3,1
+2021-01-15,91,RE,--,False,False,10,--,Carpool,Red Velvet,‘The ReVe Festival’ Day 2 - EP,1,1,1,5,3,2,1541925,269,12108240,0.42,0.05,0.53,11277,10,0,0,17,2,1
+2021-01-15,92,NEW,--,True,False,10,--,Butterfly,Loona,[X X],1,1,1,5,3,2,1383112,241,10865790,0.42,0.05,0.53,10122,10,0,0,92,1,1
+2021-01-15,93,RE,--,False,False,10,--,BRING IT BACK,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,1348462,235,10594710,0.42,0.05,0.53,9870,10,0,0,39,2,1
+2021-01-15,94,RE,--,False,False,10,--,Breathe (feat. Colbie Caillat),Taylor Swift,Fearless (Platinum Edition),1,1,1,5,3,2,1524600,266,11972700,0.42,0.05,0.53,11151,10,0,0,67,2,1
+2021-01-15,95,NEW,--,True,False,10,--,BREAKTHROUGH - Korean Version,TWICE,Feel Special,1,1,1,5,3,2,1325362,231,10413990,0.42,0.05,0.53,9702,10,0,0,95,1,1
+2021-01-15,96,RE,--,False,False,10,--,Blue Flame,Astro,BLUE FLAME,1,1,1,5,3,2,1437975,251,11295000,0.42,0.05,0.53,10521,10,0,0,38,2,1
+2021-01-15,97,RE,--,False,False,10,--,Blow Your Mind (Mwah),Dua Lipa,Dua Lipa (Deluxe),1,1,1,5,3,2,1513050,264,11882340,0.42,0.05,0.53,11067,10,0,0,50,3,1
+2021-01-15,98,RE,--,True,False,10,--,blazed (feat. Pharrell Williams),Ariana Grande,Sweetener,1,1,1,5,3,2,1305150,228,10255860,0.42,0.05,0.53,9555,10,0,0,98,1,1
+2021-01-15,99,NEW,--,True,False,10,--,Awkward Silence,Stray Kids,SKZ2020,1,1,1,5,3,2,1432200,250,11249820,0.42,0.05,0.53,10479,10,0,0,99,1,1
+2021-01-15,100,NEW,--,True,False,10,--,About Love,Red Velvet,Perfect Velvet - The 2nd Album,1,1,1,5,3,2,1388887,242,10910970,0.42,0.05,0.53,10164,10,0,0,100,1,1

@@ -1,68 +1,68 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2021-01-29,1,RE,--,True,False,20,--,I Think He Knows,Taylor Swift,Lover,2,2,1,10,6,2,3130050,547,12288960,0.58,0.06,0.36,19075,18,0,2,1,2,1
 2021-01-29,2,NEW,--,True,False,18,--,YES or YES,TWICE,YES or YES,2,2,1,10,6,2,3083850,539,12108240,0.58,0.06,0.36,18795,18,0,0,2,1,1
-2021-01-29,3,+18,21,True,False,16,-0.11,State of Grace,Taylor Swift,Red (Deluxe Edition),1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,6,0,3,2,1
-2021-01-29,4,+35,39,True,False,16,0.23,De Una Vez,Selena Gomez,De Una Vez,1,1,1,5,3,2,1409100,246,11069100,0.42,0.05,0.53,10311,10,4,2,4,3,1
-2021-01-29,5,+12,17,True,False,16,-0.11,Into You,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,1547700,270,12153420,0.42,0.05,0.53,11319,10,6,0,5,3,1
-2021-01-29,6,+19,25,True,False,16,-0.11,Pigstep - Stereo Mix,Lena Raine,Minecraft: Nether Update (Original Game Soundtrack),1,1,1,5,3,2,1565025,273,12288960,0.42,0.05,0.53,11445,10,6,0,6,2,1
+2021-01-29,3,+12,15,True,False,16,-0.11,State of Grace,Taylor Swift,Red (Deluxe Edition),1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,6,0,3,3,1
+2021-01-29,4,+15,19,True,False,16,-0.11,Pigstep - Stereo Mix,Lena Raine,Minecraft: Nether Update (Original Game Soundtrack),1,1,1,5,3,2,1565025,273,12288960,0.42,0.05,0.53,11445,10,6,0,4,2,1
+2021-01-29,5,+15,20,True,False,16,-0.11,Into You,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,1547700,270,12153420,0.42,0.05,0.53,11319,10,6,0,5,4,1
+2021-01-29,6,+39,45,True,False,16,0.23,De Una Vez,Selena Gomez,De Una Vez,1,1,1,5,3,2,1409100,246,11069100,0.42,0.05,0.53,10311,10,4,2,6,3,1
 2021-01-29,7,RE,--,False,False,14,--,happiness,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,0,4,3,4,1
-2021-01-29,8,+86,94,True,False,13,0.3,I Want You to Know,Zedd,True Colors,1,1,1,5,3,2,1530375,267,12017880,0.42,0.05,0.53,11193,10,3,0,8,3,1
-2021-01-29,9,+81,90,True,False,13,0.3,TOUCH,NCT,NCT 2018 EMPATHY,1,1,1,5,3,2,1518825,265,11927520,0.42,0.05,0.53,11109,10,3,0,9,2,1
-2021-01-29,10,+79,89,True,False,13,0.3,Minecraft,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1400437,244,11001330,0.42,0.05,0.53,10248,10,3,0,10,2,1
-2021-01-29,11,RE,--,True,False,12,--,RAINBOW,TWICE,Feel Special,1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,0,2,11,4,1
-2021-01-29,12,RE,--,True,False,12,--,Feel Special,TWICE,Feel Special,1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,0,2,12,6,1
-2021-01-29,13,RE,--,False,False,10,--,august,Taylor Swift,folklore,1,1,1,5,3,2,1475512,258,11588670,0.42,0.05,0.53,10794,10,0,0,5,4,1
-2021-01-29,14,RE,--,False,False,10,--,Dress,Taylor Swift,Reputation,1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,0,0,12,2,1
-2021-01-29,15,RE,--,True,False,10,--,Eclipse,Loona,Kim Lip,1,1,1,5,3,2,1377337,240,10820610,0.42,0.05,0.53,10080,10,0,0,15,4,1
-2021-01-29,16,RE,--,False,False,10,--,HIT,Seventeen,An Ode,1,1,1,5,3,2,1377337,240,10820610,0.42,0.05,0.53,10080,10,0,0,1,6,1
-2021-01-29,17,RE,--,True,False,10,--,달라달라 (DALLA DALLA),ITZY,IT'z Different,1,1,1,5,3,2,1495725,261,11746800,0.42,0.05,0.53,10941,10,0,0,17,2,1
-2021-01-29,18,NEW,--,True,False,10,--,Peek-A-Boo,Red Velvet,Perfect Velvet - The 2nd Album,1,1,1,5,3,2,1544812,270,12130830,0.42,0.05,0.53,11298,10,0,0,18,1,1
-2021-01-29,19,NEW,--,True,False,10,--,Zimzalabim,Red Velvet,‘The ReVe Festival’ Day 1,1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,0,0,19,1,1
-2021-01-29,20,NEW,--,True,False,10,--,Cipher,LEMMiNO,Cipher,1,1,1,5,3,2,1342687,234,10549530,0.42,0.05,0.53,9828,10,0,0,20,1,1
-2021-01-29,21,RE,--,True,False,10,--,the lakes - bonus track,Taylor Swift,folklore (deluxe version),1,1,1,5,3,2,1440862,252,11317590,0.42,0.05,0.53,10542,10,0,0,21,2,1
-2021-01-29,22,NEW,--,True,False,10,--,Safe & Sound - from The Hunger Games Soundtrack,Taylor Swift,The Hunger Games: Songs From District 12 and Beyond,1,1,1,5,3,2,1386000,242,10888380,0.42,0.05,0.53,10143,10,0,0,22,1,1
-2021-01-29,23,RE,--,False,False,10,--,coney island (feat. The National),Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,1406212,245,11046510,0.42,0.05,0.53,10290,10,0,0,11,3,1
-2021-01-29,24,NEW,--,True,False,10,--,The Edge of Glory,Lady Gaga,Born This Way (International Special Edition Version),1,1,1,5,3,2,1489950,260,11701620,0.42,0.05,0.53,10899,10,0,0,24,1,1
-2021-01-29,25,NEW,--,True,False,10,--,Paparazzi,Lady Gaga,The Fame,1,1,1,5,3,2,1386000,242,10888380,0.42,0.05,0.53,10143,10,0,0,25,1,1
-2021-01-29,26,NEW,--,True,False,10,--,Rain on Me (with Ariana Grande),Lady Gaga,Chromatica,1,1,1,5,3,2,1536150,268,12063060,0.42,0.05,0.53,11235,10,0,0,26,1,1
-2021-01-29,27,NEW,--,True,False,10,--,This Is What You Came For (feat. Rihanna),Calvin Harris,This Is What You Came For (feat. Rihanna),1,1,1,5,3,2,1400437,244,11001330,0.42,0.05,0.53,10248,10,0,0,27,1,1
-2021-01-29,28,NEW,--,True,False,10,--,Only Girl (In the World),Rihanna,Loud,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,0,0,28,1,1
-2021-01-29,29,NEW,--,True,False,10,--,Love the Way You Lie,Eminem,Recovery,1,1,1,5,3,2,1417762,247,11136870,0.42,0.05,0.53,10374,10,0,0,29,1,1
+2021-01-29,8,+57,65,True,False,13,0.3,You Are in Love,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,3,0,8,4,1
+2021-01-29,9,+73,82,True,False,13,0.3,TOUCH,NCT,NCT 2018 EMPATHY,1,1,1,5,3,2,1518825,265,11927520,0.42,0.05,0.53,11109,10,3,0,9,2,1
+2021-01-29,10,RE,--,True,False,12,--,RAINBOW,TWICE,Feel Special,1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,0,2,10,4,1
+2021-01-29,11,RE,--,True,False,12,--,Feel Special,TWICE,Feel Special,1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,0,2,11,5,1
+2021-01-29,12,RE,--,True,False,10,--,달라달라 (DALLA DALLA),ITZY,IT'z Different,1,1,1,5,3,2,1495725,261,11746800,0.42,0.05,0.53,10941,10,0,0,12,2,1
+2021-01-29,13,NEW,--,True,False,10,--,Zimzalabim,Red Velvet,‘The ReVe Festival’ Day 1,1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,0,0,13,1,1
+2021-01-29,14,NEW,--,True,False,10,--,X-Rated,Ehrling,Sax Art,1,1,1,5,3,2,1420650,248,11159460,0.42,0.05,0.53,10395,10,0,0,14,1,1
+2021-01-29,15,NEW,--,True,False,10,--,What Is Love,TWICE,Summer Nights,1,1,1,5,3,2,1487062,260,11679030,0.42,0.05,0.53,10878,10,0,0,15,1,1
+2021-01-29,16,NEW,--,True,False,10,--,Trance Music for Racing Game,Bobby Cole,The Sound of Rugby,1,1,1,5,3,2,1466850,256,11520900,0.42,0.05,0.53,10731,10,0,0,16,1,1
+2021-01-29,17,RE,--,True,False,10,--,This Is What You Came For (feat. Rihanna),Calvin Harris,This Is What You Came For (feat. Rihanna),1,1,1,5,3,2,1400437,244,11001330,0.42,0.05,0.53,10248,10,0,0,17,2,1
+2021-01-29,18,RE,--,True,False,10,--,the lakes - bonus track,Taylor Swift,folklore (deluxe version),1,1,1,5,3,2,1440862,252,11317590,0.42,0.05,0.53,10542,10,0,0,18,2,1
+2021-01-29,19,NEW,--,True,False,10,--,The Elevator Bossa Nova,Bensound,The Elevator Bossa Nova,1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,0,0,19,1,1
+2021-01-29,20,NEW,--,True,False,10,--,The Edge of Glory,Lady Gaga,Born This Way (International Special Edition Version),1,1,1,5,3,2,1489950,260,11701620,0.42,0.05,0.53,10899,10,0,0,20,1,1
+2021-01-29,21,NEW,--,True,False,10,--,Sweden,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1383112,241,10865790,0.42,0.05,0.53,10122,10,0,0,21,1,1
+2021-01-29,22,NEW,--,True,False,10,--,Swagger Stagger,Lucas Pittman,Bomb,1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,0,0,22,1,1
+2021-01-29,23,NEW,--,True,False,10,--,Strange Things,Zachary Nelson,Strange Things,1,1,1,5,3,2,1501500,262,11791980,0.42,0.05,0.53,10983,10,0,0,23,1,1
+2021-01-29,24,NEW,--,True,False,10,--,Sthlm Sunset,Ehrling,Give Me Summer,1,1,1,5,3,2,1383112,241,10865790,0.42,0.05,0.53,10122,10,0,0,24,1,1
+2021-01-29,25,NEW,--,True,False,10,--,SAY YOU LOVE ME,TWICE,YES or YES,1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,0,0,25,1,1
+2021-01-29,26,NEW,--,True,False,10,--,Safe & Sound - from The Hunger Games Soundtrack,Taylor Swift,The Hunger Games: Songs From District 12 and Beyond,1,1,1,5,3,2,1386000,242,10888380,0.42,0.05,0.53,10143,10,0,0,26,1,1
+2021-01-29,27,NEW,--,True,False,10,--,Run the World (Girls),Beyoncé,4,1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,0,0,27,1,1
+2021-01-29,28,NEW,--,True,False,10,--,Rain on Me (with Ariana Grande),Lady Gaga,Chromatica,1,1,1,5,3,2,1536150,268,12063060,0.42,0.05,0.53,11235,10,0,0,28,1,1
+2021-01-29,29,NEW,--,True,False,10,--,Pretty U,Seventeen,First 'Love&Letter',1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,0,0,29,1,1
 2021-01-29,30,NEW,--,True,False,10,--,Pretty Hurts,Beyoncé,BEYONCÉ [Platinum Edition],1,1,1,5,3,2,1487062,260,11679030,0.42,0.05,0.53,10878,10,0,0,30,1,1
-2021-01-29,31,NEW,--,True,False,10,--,Run the World (Girls),Beyoncé,4,1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,0,0,31,1,1
-2021-01-29,32,NEW,--,True,False,10,--,Halo,Beyoncé,I AM...SASHA FIERCE - Platinum Edition,1,1,1,5,3,2,1579462,276,12401910,0.42,0.05,0.53,9450,10,0,0,32,1,1
-2021-01-29,33,RE,--,False,False,10,--,Black Magic,Little Mix,Get Weird (Expanded Edition),1,1,1,5,3,2,1420650,248,11159460,0.42,0.05,0.53,10395,10,0,0,19,2,1
-2021-01-29,34,RE,--,False,False,10,--,Oh My!,Seventeen,SEVENTEEN 5TH MINI ALBUM 'YOU MAKE MY DAY',1,1,1,5,3,2,1423537,248,11182050,0.42,0.05,0.53,10416,10,0,0,6,2,1
-2021-01-29,35,NEW,--,True,False,10,--,Baila Conmigo (with Rauw Alejandro),Selena Gomez,Baila Conmigo (with Rauw Alejandro),1,1,1,5,3,2,1547700,270,12153420,0.42,0.05,0.53,11319,10,0,0,35,1,1
-2021-01-29,36,RE,--,True,False,10,--,Hi High,Loona,[+ +],1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,0,0,36,2,1
-2021-01-29,37,NEW,--,True,False,10,--,SAY YOU LOVE ME,TWICE,YES or YES,1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,0,0,37,1,1
-2021-01-29,38,NEW,--,True,False,10,--,What Is Love,TWICE,Summer Nights,1,1,1,5,3,2,1487062,260,11679030,0.42,0.05,0.53,10878,10,0,0,38,1,1
-2021-01-29,39,NEW,--,True,False,10,--,AS IF IT'S YOUR LAST,BLACKPINK,AS IF IT'S YOUR LAST,1,1,1,5,3,2,1518825,265,11927520,0.42,0.05,0.53,11109,10,0,0,39,1,1
-2021-01-29,40,NEW,--,True,False,10,--,I Need Your Love (feat. Ellie Goulding),Calvin Harris,18 Months,1,1,1,5,3,2,1585237,226,10188090,0.42,0.05,0.53,9492,10,0,0,40,1,1
-2021-01-29,41,RE,--,True,False,10,--,You Are in Love,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,0,0,41,2,1
-2021-01-29,42,NEW,--,True,False,10,--,My First and Last,NCT DREAM,The First - The 1st Single Album,1,1,1,5,3,2,1544812,270,12130830,0.42,0.05,0.53,11298,10,0,0,42,1,1
-2021-01-29,43,NEW,--,True,False,10,--,PICK ME,PRODUCE 48,PRODUCE 48 - NEKKOYA (PICK ME),1,1,1,5,3,2,1553475,271,12198600,0.42,0.05,0.53,11361,10,0,0,43,1,1
-2021-01-29,44,RE,--,False,False,10,--,A Song Written Easily,ONEUS,IN ITS TIME,1,1,1,5,3,2,1406212,245,11046510,0.42,0.05,0.53,10290,10,0,0,2,3,1
-2021-01-29,45,RE,--,False,False,10,--,A Year Without Rain,Selena Gomez & the Scene,A Year Without Rain (International Standard Version),1,1,1,5,3,2,1463962,256,11498310,0.42,0.05,0.53,10710,10,0,0,12,5,1
-2021-01-29,46,RE,--,False,False,10,--,Chewing Gum,NCT DREAM,Chewing Gum,1,1,1,5,3,2,1348462,235,10594710,0.42,0.05,0.53,9870,10,0,0,1,4,1
-2021-01-29,47,NEW,--,True,False,10,--,PITAPAT (DKDK),fromis_9,To. Day,1,1,1,5,3,2,1472625,257,11566080,0.42,0.05,0.53,10773,10,0,0,47,1,1
-2021-01-29,48,NEW,--,True,False,10,--,LOONATIC,LOOΠΔ / ODD EYE CIRCLE,Max & Match,1,1,1,5,3,2,1420650,248,11159460,0.42,0.05,0.53,10395,10,0,0,48,1,1
-2021-01-29,49,NEW,--,True,False,10,--,Pretty U,Seventeen,First 'Love&Letter',1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,0,0,49,1,1
-2021-01-29,50,NEW,--,True,False,10,--,CHEER UP,TWICE,PAGE TWO,1,1,1,5,3,2,1348462,235,10594710,0.42,0.05,0.53,9870,10,0,0,50,1,1
-2021-01-29,51,NEW,--,True,False,10,--,Mellohi,C418,Minecraft - Volume Beta,1,1,1,5,3,2,1348462,235,10594710,0.42,0.05,0.53,9870,10,0,0,51,1,1
-2021-01-29,52,NEW,--,True,False,10,--,Dog,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,0,0,52,1,1
-2021-01-29,53,NEW,--,True,False,10,--,Cat,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1567912,274,12311550,0.42,0.05,0.53,11466,10,0,0,53,1,1
-2021-01-29,54,NEW,--,True,False,10,--,Chirp,C418,Minecraft - Volume Beta,1,1,1,5,3,2,1536150,268,12063060,0.42,0.05,0.53,11235,10,0,0,54,1,1
-2021-01-29,55,NEW,--,True,False,10,--,Hadouken,Lupus Nocte,Hadouken,1,1,1,5,3,2,1417762,247,11136870,0.42,0.05,0.53,10374,10,0,0,55,1,1
-2021-01-29,56,NEW,--,True,False,10,--,Dance With Me,Ehrling,Tropical Confessions Pt. 3,1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,0,0,56,1,1
-2021-01-29,57,NEW,--,True,False,10,--,X-Rated,Ehrling,Sax Art,1,1,1,5,3,2,1420650,248,11159460,0.42,0.05,0.53,10395,10,0,0,57,1,1
-2021-01-29,58,NEW,--,True,False,10,--,April Showers,ProleteR,Curses From Past Times Ep,1,1,1,5,3,2,1481287,259,11633850,0.42,0.05,0.53,10836,10,0,0,58,1,1
-2021-01-29,59,NEW,--,True,False,10,--,Mystery Collection - Lonesome Piano,D. Silverstone,D. Silverstone Vol. 8,1,1,1,5,3,2,1400437,244,11001330,0.42,0.05,0.53,10248,10,0,0,59,1,1
-2021-01-29,60,NEW,--,True,False,10,--,The Elevator Bossa Nova,Bensound,The Elevator Bossa Nova,1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,0,0,60,1,1
-2021-01-29,61,NEW,--,True,False,10,--,Trance Music for Racing Game,Bobby Cole,The Sound of Rugby,1,1,1,5,3,2,1466850,256,11520900,0.42,0.05,0.53,10731,10,0,0,61,1,1
-2021-01-29,62,NEW,--,True,False,10,--,Strange Things,Zachary Nelson,Strange Things,1,1,1,5,3,2,1501500,262,11791980,0.42,0.05,0.53,10983,10,0,0,62,1,1
-2021-01-29,63,NEW,--,True,False,10,--,Sthlm Sunset,Ehrling,Give Me Summer,1,1,1,5,3,2,1383112,241,10865790,0.42,0.05,0.53,10122,10,0,0,63,1,1
-2021-01-29,64,NEW,--,True,False,10,--,Swagger Stagger,Lucas Pittman,Bomb,1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,0,0,64,1,1
-2021-01-29,65,NEW,--,True,False,10,--,Howling,Lupus Nocte,Howling,1,1,1,5,3,2,1414875,247,11114280,0.42,0.05,0.53,10353,10,0,0,65,1,1
-2021-01-29,66,NEW,--,True,False,10,--,Sweden,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1383112,241,10865790,0.42,0.05,0.53,10122,10,0,0,66,1,1
-2021-01-29,67,NEW,--,True,False,10,--,Gitara,Parokya Ni Edgar,Halina Sa Parokya,1,1,1,5,3,2,1544812,270,12130830,0.42,0.05,0.53,11298,10,0,0,67,1,1
+2021-01-29,31,NEW,--,True,False,10,--,PITAPAT (DKDK),fromis_9,To. Day,1,1,1,5,3,2,1472625,257,11566080,0.42,0.05,0.53,10773,10,0,0,31,1,1
+2021-01-29,32,NEW,--,True,False,10,--,PICK ME,PRODUCE 48,PRODUCE 48 - NEKKOYA (PICK ME),1,1,1,5,3,2,1553475,271,12198600,0.42,0.05,0.53,11361,10,0,0,32,1,1
+2021-01-29,33,NEW,--,True,False,10,--,Peek-A-Boo,Red Velvet,Perfect Velvet - The 2nd Album,1,1,1,5,3,2,1544812,270,12130830,0.42,0.05,0.53,11298,10,0,0,33,1,1
+2021-01-29,34,NEW,--,True,False,10,--,Paparazzi,Lady Gaga,The Fame,1,1,1,5,3,2,1386000,242,10888380,0.42,0.05,0.53,10143,10,0,0,34,1,1
+2021-01-29,35,NEW,--,True,False,10,--,Only Girl (In the World),Rihanna,Loud,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,0,0,35,1,1
+2021-01-29,36,RE,--,False,False,10,--,Oh My!,Seventeen,SEVENTEEN 5TH MINI ALBUM 'YOU MAKE MY DAY',1,1,1,5,3,2,1423537,248,11182050,0.42,0.05,0.53,10416,10,0,0,9,2,1
+2021-01-29,37,NEW,--,True,False,10,--,Mystery Collection - Lonesome Piano,D. Silverstone,D. Silverstone Vol. 8,1,1,1,5,3,2,1400437,244,11001330,0.42,0.05,0.53,10248,10,0,0,37,1,1
+2021-01-29,38,NEW,--,True,False,10,--,My First and Last,NCT DREAM,The First - The 1st Single Album,1,1,1,5,3,2,1544812,270,12130830,0.42,0.05,0.53,11298,10,0,0,38,1,1
+2021-01-29,39,RE,--,True,False,10,--,Minecraft,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1400437,244,11001330,0.42,0.05,0.53,10248,10,0,0,39,1,1
+2021-01-29,40,NEW,--,True,False,10,--,Mellohi,C418,Minecraft - Volume Beta,1,1,1,5,3,2,1348462,235,10594710,0.42,0.05,0.53,9870,10,0,0,40,1,1
+2021-01-29,41,NEW,--,True,False,10,--,Love the Way You Lie,Eminem,Recovery,1,1,1,5,3,2,1417762,247,11136870,0.42,0.05,0.53,10374,10,0,0,41,1,1
+2021-01-29,42,NEW,--,True,False,10,--,LOONATIC,LOOΠΔ / ODD EYE CIRCLE,Max & Match,1,1,1,5,3,2,1420650,248,11159460,0.42,0.05,0.53,10395,10,0,0,42,1,1
+2021-01-29,43,RE,--,False,False,10,--,I Want You to Know,Zedd,True Colors,1,1,1,5,3,2,1530375,267,12017880,0.42,0.05,0.53,11193,10,0,0,39,2,1
+2021-01-29,44,NEW,--,True,False,10,--,I Need Your Love (feat. Ellie Goulding),Calvin Harris,18 Months,1,1,1,5,3,2,1585237,226,10188090,0.42,0.05,0.53,9492,10,0,0,44,1,1
+2021-01-29,45,NEW,--,True,False,10,--,Howling,Lupus Nocte,Howling,1,1,1,5,3,2,1414875,247,11114280,0.42,0.05,0.53,10353,10,0,0,45,1,1
+2021-01-29,46,RE,--,False,False,10,--,HIT,Seventeen,An Ode,1,1,1,5,3,2,1377337,240,10820610,0.42,0.05,0.53,10080,10,0,0,1,6,1
+2021-01-29,47,RE,--,True,False,10,--,Hi High,Loona,[+ +],1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,0,0,47,2,1
+2021-01-29,48,NEW,--,True,False,10,--,Halo,Beyoncé,I AM...SASHA FIERCE - Platinum Edition,1,1,1,5,3,2,1579462,276,12401910,0.42,0.05,0.53,9450,10,0,0,48,1,1
+2021-01-29,49,NEW,--,True,False,10,--,Hadouken,Lupus Nocte,Hadouken,1,1,1,5,3,2,1417762,247,11136870,0.42,0.05,0.53,10374,10,0,0,49,1,1
+2021-01-29,50,NEW,--,True,False,10,--,Gitara,Parokya Ni Edgar,Halina Sa Parokya,1,1,1,5,3,2,1544812,270,12130830,0.42,0.05,0.53,11298,10,0,0,50,1,1
+2021-01-29,51,RE,--,False,False,10,--,Eclipse,Loona,Kim Lip,1,1,1,5,3,2,1377337,240,10820610,0.42,0.05,0.53,10080,10,0,0,46,3,1
+2021-01-29,52,RE,--,False,False,10,--,Dress,Taylor Swift,Reputation,1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,0,0,32,2,1
+2021-01-29,53,NEW,--,True,False,10,--,Dog,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,0,0,53,1,1
+2021-01-29,54,NEW,--,True,False,10,--,Dance With Me,Ehrling,Tropical Confessions Pt. 3,1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,0,0,54,1,1
+2021-01-29,55,RE,--,False,False,10,--,coney island (feat. The National),Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,1406212,245,11046510,0.42,0.05,0.53,10290,10,0,0,10,3,1
+2021-01-29,56,NEW,--,True,False,10,--,Cipher,LEMMiNO,Cipher,1,1,1,5,3,2,1342687,234,10549530,0.42,0.05,0.53,9828,10,0,0,56,1,1
+2021-01-29,57,NEW,--,True,False,10,--,Chirp,C418,Minecraft - Volume Beta,1,1,1,5,3,2,1536150,268,12063060,0.42,0.05,0.53,11235,10,0,0,57,1,1
+2021-01-29,58,RE,--,False,False,10,--,Chewing Gum,NCT DREAM,Chewing Gum,1,1,1,5,3,2,1348462,235,10594710,0.42,0.05,0.53,9870,10,0,0,1,4,1
+2021-01-29,59,NEW,--,True,False,10,--,CHEER UP,TWICE,PAGE TWO,1,1,1,5,3,2,1348462,235,10594710,0.42,0.05,0.53,9870,10,0,0,59,1,1
+2021-01-29,60,NEW,--,True,False,10,--,Cat,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1567912,274,12311550,0.42,0.05,0.53,11466,10,0,0,60,1,1
+2021-01-29,61,RE,--,False,False,10,--,Black Magic,Little Mix,Get Weird (Expanded Edition),1,1,1,5,3,2,1420650,248,11159460,0.42,0.05,0.53,10395,10,0,0,23,2,1
+2021-01-29,62,NEW,--,True,False,10,--,Baila Conmigo (with Rauw Alejandro),Selena Gomez,Baila Conmigo (with Rauw Alejandro),1,1,1,5,3,2,1547700,270,12153420,0.42,0.05,0.53,11319,10,0,0,62,1,1
+2021-01-29,63,RE,--,False,False,10,--,august,Taylor Swift,folklore,1,1,1,5,3,2,1475512,258,11588670,0.42,0.05,0.53,10794,10,0,0,9,4,1
+2021-01-29,64,NEW,--,True,False,10,--,AS IF IT'S YOUR LAST,BLACKPINK,AS IF IT'S YOUR LAST,1,1,1,5,3,2,1518825,265,11927520,0.42,0.05,0.53,11109,10,0,0,64,1,1
+2021-01-29,65,NEW,--,True,False,10,--,April Showers,ProleteR,Curses From Past Times Ep,1,1,1,5,3,2,1481287,259,11633850,0.42,0.05,0.53,10836,10,0,0,65,1,1
+2021-01-29,66,RE,--,False,False,10,--,A Year Without Rain,Selena Gomez & the Scene,A Year Without Rain (International Standard Version),1,1,1,5,3,2,1463962,256,11498310,0.42,0.05,0.53,10710,10,0,0,13,4,1
+2021-01-29,67,RE,--,False,False,10,--,A Song Written Easily,ONEUS,IN ITS TIME,1,1,1,5,3,2,1406212,245,11046510,0.42,0.05,0.53,10290,10,0,0,4,2,1

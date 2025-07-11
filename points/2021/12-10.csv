@@ -1,22 +1,22 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2021-12-10,1,=,1,True,True,73,0.24,Forever Winter (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),5,3,3,25,9,6,7045500,739,33207300,0.55,0.04,0.41,37807,40,18,15,1,5,4
-2021-12-10,2,+3,5,True,False,43,0.59,Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4088700,715,10707660,0.65,0.07,0.27,23275,26,9,8,2,5,1
-2021-12-10,3,=,3,False,False,40,0.0,I Bet You Think About Me (feat. Chris Stapleton) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,1,2,10,3,4,3124275,273,24532740,0.43,0.02,0.54,19040,17,12,11,2,5,1
-2021-12-10,4,RE,--,True,True,26,--,Babe (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,1,2,10,3,4,2910600,254,22861080,0.43,0.02,0.54,17745,17,0,9,4,4,2
-2021-12-10,5,RE,--,False,False,26,--,Better Man (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,3083850,539,12108240,0.58,0.06,0.36,18795,18,0,8,3,4,1
+2021-12-10,2,+3,5,True,False,43,0.54,Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4088700,715,10707660,0.65,0.07,0.27,23275,26,9,8,2,5,1
+2021-12-10,3,=,3,False,False,41,0.0,I Bet You Think About Me (feat. Chris Stapleton) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,1,2,10,3,4,3124275,273,24532740,0.43,0.02,0.54,19040,17,13,11,2,5,1
+2021-12-10,4,RE,--,False,False,26,--,Better Man (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,3083850,539,12108240,0.58,0.06,0.36,18795,18,0,8,3,4,1
+2021-12-10,5,RE,--,False,False,26,--,Babe (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,1,2,10,3,4,2910600,254,22861080,0.43,0.02,0.54,17745,17,0,9,4,4,1
 2021-12-10,6,-4,2,False,False,26,-0.51,CPR,cupcakKe,Queen Elizabitch,1,1,1,5,3,2,1481287,259,11633850,0.42,0.05,0.53,10836,10,16,0,2,2,1
-2021-12-10,7,+35,42,False,False,20,1.0,happiness,Taylor Swift,evermore,2,1,2,10,3,4,2668050,233,20963520,0.43,0.02,0.54,16275,17,3,0,2,18,3
-2021-12-10,8,+37,45,False,False,13,0.3,Guiltless,dodie,Guiltless,1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,3,0,5,7,1
+2021-12-10,7,+27,34,False,False,20,1.0,happiness,Taylor Swift,evermore,2,1,2,10,3,4,2668050,233,20963520,0.43,0.02,0.54,16275,17,3,0,2,19,2
+2021-12-10,8,+27,35,False,False,13,0.3,Guiltless,dodie,Guiltless,1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,3,0,5,5,1
 2021-12-10,9,RE,--,False,False,12,--,ghostin,Ariana Grande,thank u next,1,1,1,5,3,2,1466850,256,11520900,0.42,0.05,0.53,10731,10,0,2,1,11,1
-2021-12-10,10,RE,--,False,False,10,--,cowboy like me,Taylor Swift,evermore,1,1,1,5,3,2,1322475,231,10391400,0.42,0.05,0.53,9681,10,0,0,2,8,1
-2021-12-10,11,RE,--,False,False,10,--,ivy,Taylor Swift,evermore,1,1,1,5,3,2,1394662,243,10956150,0.42,0.05,0.53,10206,10,0,0,1,8,1
-2021-12-10,12,RE,--,False,False,10,--,coney island (feat. The National),Taylor Swift,evermore,1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,0,0,11,9,2
-2021-12-10,13,RE,--,False,False,10,--,no body no crime (feat. HAIM),Taylor Swift,evermore,1,1,1,5,3,2,1377337,240,10820610,0.42,0.05,0.53,10080,10,0,0,12,8,1
-2021-12-10,14,RE,--,False,False,10,--,tolerate it,Taylor Swift,evermore,1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,0,0,6,10,1
-2021-12-10,15,RE,--,False,False,10,--,‘tis the damn season,Taylor Swift,evermore,1,1,1,5,3,2,1319587,230,10368810,0.42,0.05,0.53,9660,10,0,0,8,8,2
-2021-12-10,16,RE,--,False,False,10,--,gold rush,Taylor Swift,evermore,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,0,0,4,10,1
-2021-12-10,17,RE,--,False,False,10,--,champagne problems,Taylor Swift,evermore,1,1,1,5,3,2,1426425,249,11204640,0.42,0.05,0.53,10437,10,0,0,2,12,2
-2021-12-10,18,RE,--,False,False,10,--,willow,Taylor Swift,evermore,1,1,1,5,3,2,1328250,232,10436580,0.42,0.05,0.53,9723,10,0,0,5,9,1
-2021-12-10,19,RE,--,True,True,10,--,SAY YES,TWICE,Summer Nights,1,1,1,5,3,2,1386000,242,10888380,0.42,0.05,0.53,10143,10,0,0,19,4,2
-2021-12-10,20,RE,--,True,False,10,--,ONE IN A MILLION,TWICE,TWICEcoaster: LANE1,1,1,1,5,3,2,1362900,238,10707660,0.42,0.05,0.53,9975,10,0,0,20,2,1
-2021-12-10,21,RE,--,False,False,10,--,Daylight,Taylor Swift,Lover,1,1,1,5,3,2,1455300,254,11430540,0.42,0.05,0.53,10647,10,0,0,8,8,2
+2021-12-10,10,RE,--,False,False,10,--,‘tis the damn season,Taylor Swift,evermore,1,1,1,5,3,2,1319587,230,10368810,0.42,0.05,0.53,9660,10,0,0,6,10,1
+2021-12-10,11,RE,--,False,False,10,--,willow,Taylor Swift,evermore,1,1,1,5,3,2,1328250,232,10436580,0.42,0.05,0.53,9723,10,0,0,1,12,1
+2021-12-10,12,RE,--,False,False,10,--,tolerate it,Taylor Swift,evermore,1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,0,0,6,12,1
+2021-12-10,13,RE,--,True,False,10,--,SAY YES,TWICE,Summer Nights,1,1,1,5,3,2,1386000,242,10888380,0.42,0.05,0.53,10143,10,0,0,13,6,1
+2021-12-10,14,RE,--,True,False,10,--,ONE IN A MILLION,TWICE,TWICEcoaster: LANE1,1,1,1,5,3,2,1362900,238,10707660,0.42,0.05,0.53,9975,10,0,0,14,3,1
+2021-12-10,15,RE,--,False,False,10,--,no body no crime (feat. HAIM),Taylor Swift,evermore,1,1,1,5,3,2,1377337,240,10820610,0.42,0.05,0.53,10080,10,0,0,8,10,1
+2021-12-10,16,RE,--,False,False,10,--,ivy,Taylor Swift,evermore,1,1,1,5,3,2,1394662,243,10956150,0.42,0.05,0.53,10206,10,0,0,1,9,1
+2021-12-10,17,RE,--,False,False,10,--,gold rush,Taylor Swift,evermore,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,0,0,4,10,1
+2021-12-10,18,RE,--,True,False,10,--,Daylight,Taylor Swift,Lover,1,1,1,5,3,2,1455300,254,11430540,0.42,0.05,0.53,10647,10,0,0,18,6,1
+2021-12-10,19,RE,--,False,False,10,--,cowboy like me,Taylor Swift,evermore,1,1,1,5,3,2,1322475,231,10391400,0.42,0.05,0.53,9681,10,0,0,5,6,1
+2021-12-10,20,RE,--,False,False,10,--,coney island (feat. The National),Taylor Swift,evermore,1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,0,0,10,8,1
+2021-12-10,21,RE,--,False,False,10,--,champagne problems,Taylor Swift,evermore,1,1,1,5,3,2,1426425,249,11204640,0.42,0.05,0.53,10437,10,0,0,2,9,2

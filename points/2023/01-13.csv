@@ -1,101 +1,101 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2023-01-13,1,RE,--,True,False,266,--,Thot Shit,Megan Thee Stallion,Something for Thee Hotties,36,10,28,180,30,56,49792050,2419,304242120,0.5,0.02,0.49,249676,266,0,0,1,4,1
+2023-01-13,1,RE,--,True,False,266,--,Thot Shit,Megan Thee Stallion,Something for Thee Hotties,36,10,28,180,30,56,49792050,2419,304242120,0.5,0.02,0.49,249676,266,0,0,1,5,1
 2023-01-13,2,-1,1,False,False,248,-0.17,#Cookie Jar,Red Velvet,#Cookie Jar,8,8,1,40,24,2,11272800,1971,11069100,0.79,0.09,0.12,58429,66,90,92,1,3,2
 2023-01-13,3,RE,--,False,False,219,--,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),31,4,26,155,12,52,40549162,915,267239700,0.48,0.01,0.51,194712,219,0,0,1,54,6
-2023-01-13,4,-2,2,False,False,214,-0.01,FUN!,fromis_9,FUN FACTORY,7,7,1,35,21,2,9176475,1605,10301040,0.77,0.09,0.14,47985,58,66,90,2,8,2
-2023-01-13,5,+3,8,False,False,209,1.15,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),19,17,2,95,51,4,28747950,4498,23764680,0.81,0.08,0.11,140182,150,30,29,1,44,5
-2023-01-13,6,-3,3,False,False,168,-0.01,Ditto,NewJeans,Ditto,7,7,1,35,21,2,10490287,1834,11769390,0.77,0.09,0.14,54810,58,51,59,1,5,1
-2023-01-13,7,-3,4,False,False,161,0.24,Kung 'Di Rin Lang Ikaw,December Avenue,Kung 'Di Rin Lang Ikaw,15,15,1,75,45,2,22479187,3931,11769390,0.84,0.09,0.07,113274,122,39,0,4,4,1
-2023-01-13,8,+9,17,False,False,161,1.37,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),15,15,1,75,45,2,19663875,3439,10301040,0.84,0.09,0.07,99169,122,21,18,4,43,1
-2023-01-13,9,-4,5,False,False,157,0.38,Ikaw Lamang,Silent Sanctuary,Fuchsiang Pag-Ibig,15,15,1,75,45,2,23302125,4074,12198600,0.84,0.09,0.07,117397,122,35,0,5,8,1
-2023-01-13,10,+15,25,False,False,153,2.06,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),17,17,1,85,51,2,25721850,4498,11882340,0.84,0.09,0.06,129115,138,15,0,2,38,1
-2023-01-13,11,-5,6,False,False,153,0.5,Kalachuchi,munimuni,Kalachuchi,15,15,1,75,45,2,23648625,4135,12379320,0.84,0.09,0.07,119133,122,31,0,6,3,1
-2023-01-13,12,-3,9,False,False,153,0.59,Midnight Rain,Taylor Swift,Midnights (3am Edition),12,12,2,60,36,4,15765750,2757,20647260,0.76,0.09,0.16,83356,100,29,24,1,13,1
-2023-01-13,13,-6,7,False,False,149,0.52,After LIKE,IVE,After LIKE,8,8,1,40,24,2,11365200,1987,11159460,0.79,0.09,0.12,58905,66,30,53,1,21,5
+2023-01-13,4,-2,2,False,False,214,-0.01,FUN!,fromis_9,FUN FACTORY,7,7,1,35,21,2,9176475,1605,10301040,0.77,0.09,0.14,47985,58,66,90,2,7,2
+2023-01-13,5,+3,8,False,False,209,1.13,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),19,17,2,95,51,4,28747950,4498,23764680,0.81,0.08,0.11,140182,150,30,29,1,44,5
+2023-01-13,6,-3,3,False,False,169,-0.01,Ditto,NewJeans,Ditto,7,7,1,35,21,2,10490287,1834,11769390,0.77,0.09,0.14,54810,58,52,59,1,5,1
+2023-01-13,7,+10,17,False,False,161,1.33,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),15,15,1,75,45,2,19663875,3439,10301040,0.84,0.09,0.07,99169,122,21,18,4,43,1
+2023-01-13,8,-4,4,False,False,161,0.24,Kung 'Di Rin Lang Ikaw,December Avenue,Kung 'Di Rin Lang Ikaw,15,15,1,75,45,2,22479187,3931,11769390,0.84,0.09,0.07,113274,122,39,0,4,3,1
+2023-01-13,9,-4,5,False,False,157,0.38,Ikaw Lamang,Silent Sanctuary,Fuchsiang Pag-Ibig,15,15,1,75,45,2,23302125,4074,12198600,0.84,0.09,0.07,117397,122,35,0,5,7,1
+2023-01-13,10,-1,9,False,False,154,0.59,Midnight Rain,Taylor Swift,Midnights (3am Edition),12,12,2,60,36,4,15765750,2757,20647260,0.76,0.09,0.16,83356,100,30,24,1,13,1
+2023-01-13,11,+14,25,False,False,153,2.06,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),17,17,1,85,51,2,25721850,4498,11882340,0.84,0.09,0.06,129115,138,15,0,2,41,2
+2023-01-13,12,-6,6,False,False,153,0.5,Kalachuchi,munimuni,Kalachuchi,15,15,1,75,45,2,23648625,4135,12379320,0.84,0.09,0.07,119133,122,31,0,6,3,1
+2023-01-13,13,-6,7,False,False,150,0.52,After LIKE,IVE,After LIKE,8,8,1,40,24,2,11365200,1987,11159460,0.79,0.09,0.12,58905,66,30,54,1,21,5
 2023-01-13,14,-3,11,False,False,139,0.7,With A Smile,Eraserheads,Circus,14,14,1,70,42,2,21627375,3782,12130830,0.83,0.09,0.07,109214,114,25,0,11,4,1
 2023-01-13,15,+4,19,False,False,136,1.34,Holy Ground (Taylor's Version),Taylor Swift,Red (Taylor's Version),15,13,2,75,39,4,20616750,3125,21596040,0.79,0.08,0.13,100590,118,18,0,1,26,1
-2023-01-13,16,-1,15,False,False,120,0.64,Ang Huling El Bimbo,Eraserheads,Cutterpillow,12,12,1,60,36,2,15938999,2788,10436580,0.82,0.09,0.09,81025,98,22,0,15,4,1
+2023-01-13,16,-1,15,False,False,120,0.64,Ang Huling El Bimbo,Eraserheads,Cutterpillow,12,12,1,60,36,2,15938999,2788,10436580,0.82,0.09,0.09,81025,98,22,0,15,3,1
 2023-01-13,17,+1,18,False,False,120,1.0,Lavender Haze,Taylor Swift,Midnights,10,10,2,50,30,4,14610750,2555,22951440,0.73,0.08,0.18,78386,84,18,18,1,13,1
-2023-01-13,18,+15,33,True,False,119,1.83,Got Weird,dodie,Hot Mess,13,13,1,65,39,2,16891875,2954,10210680,0.83,0.09,0.08,85617,106,13,0,18,2,1
+2023-01-13,18,+17,35,True,False,119,1.83,Got Weird,dodie,Hot Mess,13,13,1,65,39,2,16891875,2954,10210680,0.83,0.09,0.08,85617,106,13,0,18,2,1
 2023-01-13,19,+15,34,True,False,111,1.64,hot mess,dodie,Hot Mess,12,12,1,60,36,2,16181550,2830,10594710,0.82,0.09,0.09,82250,98,13,0,19,2,1
 2023-01-13,20,+12,32,True,False,95,1.26,Lonely Bones,dodie,Hot Mess,10,10,1,50,30,2,15736875,2751,12356730,0.81,0.09,0.1,80556,82,13,0,20,2,1
-2023-01-13,21,+7,28,False,False,92,0.96,Attention,NewJeans,NewJeans 1st EP 'New Jeans',7,7,1,35,21,2,10712625,1873,12017880,0.77,0.09,0.14,55965,58,15,19,1,20,1
-2023-01-13,22,+8,30,False,False,90,0.96,LOVE DIVE,IVE,LOVE DIVE,7,7,1,35,21,2,9600937,1679,10775430,0.77,0.09,0.14,50190,58,14,18,1,32,4
-2023-01-13,23,RE,--,False,False,90,--,I Think He Knows,Taylor Swift,Lover,11,11,1,55,33,2,17215275,3010,12288960,0.82,0.09,0.09,87745,90,0,0,1,21,1
-2023-01-13,24,+63,87,False,False,88,3.89,Paris,Taylor Swift,Midnights (3am Edition),10,10,1,50,30,2,15332625,2681,12040470,0.81,0.09,0.1,78498,82,6,0,5,10,1
+2023-01-13,21,+8,29,False,False,92,0.96,Attention,NewJeans,NewJeans 1st EP 'New Jeans',7,7,1,35,21,2,10712625,1873,12017880,0.77,0.09,0.14,55965,58,15,19,1,20,1
+2023-01-13,22,RE,--,False,False,90,--,I Think He Knows,Taylor Swift,Lover,11,11,1,55,33,2,17215275,3010,12288960,0.82,0.09,0.09,87745,90,0,0,1,18,1
+2023-01-13,23,+7,30,False,False,90,0.96,LOVE DIVE,IVE,LOVE DIVE,7,7,1,35,21,2,9600937,1679,10775430,0.77,0.09,0.14,50190,58,14,18,1,32,4
+2023-01-13,24,+49,73,False,False,88,3.89,Paris,Taylor Swift,Midnights (3am Edition),10,10,1,50,30,2,15332625,2681,12040470,0.81,0.09,0.1,78498,82,6,0,5,10,1
 2023-01-13,25,+6,31,True,False,87,1.07,No Big Deal (I Love You),dodie,Hot Mess,9,9,1,45,27,2,12188137,2131,10639890,0.8,0.09,0.11,62776,74,13,0,25,2,1
-2023-01-13,26,RE,--,False,False,82,--,Heart Attack (츄),Loona,Chuu,10,10,1,50,30,2,15217125,2661,11950110,0.81,0.09,0.1,77910,82,0,0,11,32,1
-2023-01-13,27,-13,14,False,False,83,0.12,Would've Could've Should've,Taylor Swift,Midnights (3am Edition),5,5,1,25,15,2,7146562,1249,11227230,0.73,0.08,0.18,38346,42,23,18,4,13,1
-2023-01-13,28,-8,20,False,False,83,0.46,Wildest Dreams (Taylor's Version),Taylor Swift,Wildest Dreams (Taylor's Version),6,6,1,30,18,2,8108099,1418,10617300,0.76,0.09,0.16,42861,50,18,15,1,37,7
-2023-01-13,29,-13,16,False,False,76,0.09,Rough,GFRIEND,GFRIEND 3rd Mini Album 'SNOWFLAKE',4,4,1,20,12,2,6167700,1078,12108240,0.7,0.08,0.22,33831,34,21,21,3,10,1
-2023-01-13,30,+7,37,False,False,76,1.0,Hype Boy,NewJeans,NewJeans 1st EP 'New Jeans',6,6,1,30,18,2,8818425,1542,11543490,0.76,0.09,0.16,46592,50,12,14,3,20,1
+2023-01-13,26,-6,20,False,False,83,0.43,Wildest Dreams (Taylor's Version),Taylor Swift,Wildest Dreams (Taylor's Version),6,6,1,30,18,2,8108099,1418,10617300,0.76,0.09,0.16,42861,50,18,15,1,37,7
+2023-01-13,27,-13,14,False,False,83,0.11,Would've Could've Should've,Taylor Swift,Midnights (3am Edition),5,5,1,25,15,2,7146562,1249,11227230,0.73,0.08,0.18,38346,42,23,18,4,13,1
+2023-01-13,28,RE,--,False,False,82,--,Heart Attack (츄),Loona,Chuu,10,10,1,50,30,2,15217125,2661,11950110,0.81,0.09,0.1,77910,82,0,0,12,25,1
+2023-01-13,29,+8,37,False,False,76,0.95,Hype Boy,NewJeans,NewJeans 1st EP 'New Jeans',6,6,1,30,18,2,8818425,1542,11543490,0.76,0.09,0.16,46592,50,12,14,3,20,2
+2023-01-13,30,-14,16,False,False,76,0.09,Rough,GFRIEND,GFRIEND 3rd Mini Album 'SNOWFLAKE',4,4,1,20,12,2,6167700,1078,12108240,0.7,0.08,0.22,33831,34,21,21,3,10,1
 2023-01-13,31,+15,46,False,False,72,1.32,ANTIFRAGILE,LE SSERAFIM,ANTIFRAGILE,6,6,1,30,18,2,8090775,1415,10594710,0.76,0.09,0.16,42770,50,10,12,2,12,1
-2023-01-13,32,NEW,--,True,False,70,--,Tia Tamera (feat. Rico Nasty),Doja Cat,Amala (Deluxe Version),9,5,5,45,15,10,12707887,1234,55458450,0.57,0.04,0.4,65436,70,0,0,32,1,1
-2023-01-13,33,-11,22,False,False,70,0.35,OMG,NewJeans,NewJeans 'OMG',3,3,1,15,9,2,4695075,821,12288960,0.65,0.07,0.27,26705,26,16,28,6,3,1
+2023-01-13,32,RE,--,True,False,70,--,Tia Tamera (feat. Rico Nasty),Doja Cat,Amala (Deluxe Version),9,5,5,45,15,10,12707887,1234,55458450,0.57,0.04,0.4,65436,70,0,0,32,2,1
+2023-01-13,33,-10,23,False,False,70,0.35,OMG,NewJeans,NewJeans 'OMG',3,3,1,15,9,2,4695075,821,12288960,0.65,0.07,0.27,26705,26,16,28,7,3,1
 2023-01-13,34,RE,--,False,False,69,--,Snow on the Beach (feat. Lana Del Rey),Taylor Swift,Midnights (3am Edition),6,6,2,30,18,4,8575875,1499,22454460,0.65,0.07,0.27,48804,52,0,17,2,12,1
 2023-01-13,35,-11,24,False,False,67,0.29,Monster,dodie,Human,4,4,1,20,12,2,6329400,1106,10165500,0.7,0.08,0.22,28413,34,16,17,19,18,1
 2023-01-13,36,-24,12,False,False,66,-0.2,ROYAL,IVE,LOVE DIVE,5,4,2,25,12,4,7363125,1030,23132160,0.63,0.06,0.31,39501,41,25,0,8,18,1
 2023-01-13,37,+7,44,False,False,62,0.88,FEARLESS,LE SSERAFIM,FEARLESS,5,5,1,25,15,2,7305375,1277,11475720,0.73,0.08,0.18,39193,42,10,10,1,35,3
 2023-01-13,38,-25,13,False,False,59,-0.27,MOONLIGHT,TWICE,Formula of Love: O+T=<3,4,4,1,20,12,2,5936700,1038,11656440,0.7,0.08,0.22,32571,34,25,0,2,26,1
-2023-01-13,39,+4,43,False,False,56,0.65,Anti-Hero,Taylor Swift,Midnights (3am Edition),4,4,2,20,12,4,6006000,1050,23583960,0.58,0.06,0.36,36610,36,11,9,2,13,1
+2023-01-13,39,+2,41,False,False,56,0.6,Anti-Hero,Taylor Swift,Midnights (3am Edition),4,4,2,20,12,4,6006000,1050,23583960,0.58,0.06,0.36,36610,36,11,9,2,13,1
 2023-01-13,40,-30,10,False,False,53,-0.41,WA DA DA,Kep1er,FIRST IMPACT,3,3,1,15,9,2,4443862,777,11633850,0.65,0.07,0.27,25284,26,27,0,2,21,1
 2023-01-13,41,-20,21,False,False,52,-0.04,Not What I Meant (feat. Lewis Watson),dodie,Human,2,2,1,10,6,2,2887500,505,11340180,0.58,0.06,0.36,17605,18,17,17,17,17,1
-2023-01-13,42,RE,--,False,False,51,--,Hurt,NewJeans,NewJeans 1st EP 'New Jeans',4,4,1,20,12,2,5705700,997,11204640,0.7,0.08,0.22,31311,34,0,17,4,9,1
-2023-01-13,43,NEW,--,True,False,50,--,Flowers,Miley Cyrus,Flowers,6,6,1,30,18,2,8090775,1415,10594710,0.76,0.09,0.16,42770,50,0,0,43,1,1
-2023-01-13,44,+17,61,False,False,51,1.32,Sweet Nothing,Taylor Swift,Midnights (3am Edition),4,4,2,20,12,4,5728800,1001,22499640,0.58,0.06,0.36,34930,36,7,8,6,12,1
-2023-01-13,45,-18,27,False,False,50,0.06,FANCY,TWICE,FANCY YOU,1,1,1,5,3,2,1383112,241,10865790,0.42,0.05,0.53,10122,10,15,25,1,32,1
-2023-01-13,46,+17,63,False,False,48,1.53,Vigilante Shit,Taylor Swift,Midnights (3am Edition),4,4,2,20,12,4,5555550,971,21821940,0.58,0.06,0.36,33880,36,6,6,3,12,1
-2023-01-13,47,+17,64,False,False,48,1.53,Maroon,Taylor Swift,Midnights (3am Edition),4,4,2,20,12,4,5601750,979,22002660,0.58,0.06,0.36,34160,36,6,6,4,12,1
+2023-01-13,42,+19,61,False,False,51,1.32,Sweet Nothing,Taylor Swift,Midnights (3am Edition),4,4,2,20,12,4,5728800,1001,22499640,0.58,0.06,0.36,34930,36,7,8,6,12,1
+2023-01-13,43,RE,--,False,False,51,--,Hurt,NewJeans,NewJeans 1st EP 'New Jeans',4,4,1,20,12,2,5705700,997,11204640,0.7,0.08,0.22,31311,34,0,17,4,9,1
+2023-01-13,44,NEW,--,True,False,50,--,Flowers,Miley Cyrus,Flowers,6,6,1,30,18,2,8090775,1415,10594710,0.76,0.09,0.16,42770,50,0,0,44,1,1
+2023-01-13,45,-17,28,False,False,50,0.06,FANCY,TWICE,FANCY YOU,1,1,1,5,3,2,1383112,241,10865790,0.42,0.05,0.53,10122,10,15,25,2,25,1
+2023-01-13,46,+18,64,False,False,48,1.53,Vigilante Shit,Taylor Swift,Midnights (3am Edition),4,4,2,20,12,4,5555550,971,21821940,0.58,0.06,0.36,33880,36,6,6,4,12,2
+2023-01-13,47,+18,65,False,False,48,1.53,Maroon,Taylor Swift,Midnights (3am Edition),4,4,2,20,12,4,5601750,979,22002660,0.58,0.06,0.36,34160,36,6,6,3,12,1
 2023-01-13,48,RE,--,False,False,47,--,Blue Flame,LE SSERAFIM,FEARLESS,4,4,1,20,12,2,6052200,1058,11882340,0.7,0.08,0.22,33201,34,0,13,7,27,2
 2023-01-13,49,RE,--,False,False,44,--,Question...?,Taylor Swift,Midnights (3am Edition),4,4,2,20,12,4,5220600,913,20511720,0.58,0.06,0.36,31850,36,0,8,6,12,1
-2023-01-13,50,RE,--,False,False,42,--,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,7218750,1262,11340180,0.73,0.08,0.18,38731,42,0,0,11,27,1
-2023-01-13,51,RE,--,False,False,42,--,Karma,Taylor Swift,Midnights (3am Edition),4,4,2,20,12,4,5220600,913,20511720,0.58,0.06,0.36,31850,36,0,6,3,11,1
-2023-01-13,52,RE,--,False,False,42,--,Labyrinth,Taylor Swift,Midnights (3am Edition),4,4,2,20,12,4,5474700,957,21505680,0.58,0.06,0.36,33390,36,0,6,2,11,1
+2023-01-13,50,RE,--,False,False,42,--,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,7218750,1262,11340180,0.73,0.08,0.18,38731,42,0,0,11,24,1
+2023-01-13,51,RE,--,False,False,42,--,Labyrinth,Taylor Swift,Midnights (3am Edition),4,4,2,20,12,4,5474700,957,21505680,0.58,0.06,0.36,33390,36,0,6,2,11,1
+2023-01-13,52,RE,--,False,False,42,--,Karma,Taylor Swift,Midnights (3am Edition),4,4,2,20,12,4,5220600,913,20511720,0.58,0.06,0.36,31850,36,0,6,3,11,1
 2023-01-13,53,RE,--,False,False,41,--,You're on Your Own Kid,Taylor Swift,Midnights (3am Edition),4,4,2,20,12,4,5832750,1020,22906260,0.58,0.06,0.36,35560,36,0,5,4,11,1
 2023-01-13,54,RE,--,False,False,40,--,Bejeweled,Taylor Swift,Midnights (3am Edition),4,4,2,20,12,4,6317850,1104,24803820,0.58,0.06,0.36,31500,36,0,4,5,11,1
-2023-01-13,55,RE,--,False,False,36,--,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4270612,746,11182050,0.65,0.07,0.27,24304,26,0,10,2,27,1
-2023-01-13,56,RE,--,False,False,36,--,Mastermind,Taylor Swift,Midnights (3am Edition),4,4,2,20,12,4,6317850,1104,24803820,0.58,0.06,0.36,31500,36,0,0,4,10,1
-2023-01-13,57,-31,26,False,False,33,-0.31,sirena,Gloc-9,MKNM (Mga Kwento Ng Makata),2,2,1,10,6,2,2714250,474,10662480,0.58,0.06,0.36,16555,18,15,0,11,3,1
-2023-01-13,58,-1,57,False,False,32,0.33,Dress,Taylor Swift,Reputation,3,1,3,15,3,6,4669087,272,36663570,0.44,0.02,0.55,26558,24,8,0,2,32,1
-2023-01-13,59,RE,--,False,False,26,--,libidO,OnlyOneOf,Instinct Pt. 1,3,3,1,15,9,2,4755712,680,10188090,0.65,0.07,0.27,22148,26,0,0,4,7,1
-2023-01-13,60,RE,--,False,False,26,--,Baby Don’t Stop,NCT,NCT 2018 EMPATHY,3,3,1,15,9,2,3958762,692,10368810,0.65,0.07,0.27,22540,26,0,0,30,11,1
-2023-01-13,61,RE,--,False,False,26,--,Arms Unfolding,dodie,Human,2,2,1,10,6,2,2956800,517,11611260,0.58,0.06,0.36,18025,18,0,8,23,15,1
-2023-01-13,62,RE,--,False,False,26,--,This Love (Taylor’s Version),Taylor Swift,This Love (Taylor’s Version),3,3,1,15,9,2,4244625,742,11114280,0.65,0.07,0.27,24157,26,0,0,1,31,1
-2023-01-13,63,RE,--,False,False,26,--,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4634437,810,12130830,0.65,0.07,0.27,26362,26,0,0,19,15,1
-2023-01-13,64,RE,--,False,False,26,--,Greedy,Ariana Grande,Dangerous Woman,3,3,1,15,9,2,4244625,742,11114280,0.65,0.07,0.27,24157,26,0,0,21,5,1
-2023-01-13,65,RE,--,False,False,26,--,Body,Megan Thee Stallion,Good News,3,3,1,15,9,2,4617112,807,12085650,0.65,0.07,0.27,26264,26,0,0,1,6,2
-2023-01-13,66,RE,--,False,False,24,--,Sonatine,LOOΠΔ 1/3,Love & Evil,1,1,1,5,3,2,1455300,254,11430540,0.42,0.05,0.53,10647,10,0,14,4,21,1
-2023-01-13,67,RE,--,False,False,24,--,Up,Cardi B,UP,3,1,3,15,3,6,4192650,244,32936220,0.44,0.02,0.55,23863,24,0,0,6,5,1
-2023-01-13,68,-33,35,False,False,23,-0.45,Ligaya,Eraserheads,Anthology,1,1,1,5,3,2,1305150,228,10255860,0.42,0.05,0.53,9555,10,13,0,35,5,1
-2023-01-13,69,-31,38,False,False,21,-0.42,Magasin,Eraserheads,Circus,1,1,1,5,3,2,1409100,246,11069100,0.42,0.05,0.53,10311,10,11,0,38,3,1
-2023-01-13,70,-29,41,False,False,21,-0.38,Pangarap Lang Kita,Parokya Ni Edgar,Middle-Aged Juvenile Novelty Pop Rockers,1,1,1,5,3,2,1417762,247,11136870,0.42,0.05,0.53,10374,10,11,0,41,5,1
-2023-01-13,71,-29,42,False,False,21,-0.38,Magda,Gloc-9,Liham At Lihim,1,1,1,5,3,2,1489950,260,11701620,0.42,0.05,0.53,10899,10,11,0,42,3,1
-2023-01-13,72,RE,--,False,False,20,--,Born This Way,Lady Gaga,Born This Way (International Special Edition Version),2,2,2,10,6,4,3147375,550,24713460,0.42,0.05,0.53,23016,20,0,0,12,5,1
+2023-01-13,55,RE,--,False,False,36,--,Mastermind,Taylor Swift,Midnights (3am Edition),4,4,2,20,12,4,6317850,1104,24803820,0.58,0.06,0.36,31500,36,0,0,5,10,1
+2023-01-13,56,RE,--,False,False,36,--,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4270612,746,11182050,0.65,0.07,0.27,24304,26,0,10,2,28,1
+2023-01-13,57,-31,26,False,False,33,-0.31,sirena,Gloc-9,MKNM (Mga Kwento Ng Makata),2,2,1,10,6,2,2714250,474,10662480,0.58,0.06,0.36,16555,18,15,0,16,4,1
+2023-01-13,58,-1,57,False,False,32,0.33,Dress,Taylor Swift,Reputation,3,1,3,15,3,6,4669087,272,36663570,0.44,0.02,0.55,26558,24,8,0,2,30,1
+2023-01-13,59,RE,--,False,False,26,--,This Love (Taylor’s Version),Taylor Swift,This Love (Taylor’s Version),3,3,1,15,9,2,4244625,742,11114280,0.65,0.07,0.27,24157,26,0,0,1,31,1
+2023-01-13,60,RE,--,False,False,26,--,libidO,OnlyOneOf,Instinct Pt. 1,3,3,1,15,9,2,4755712,680,10188090,0.65,0.07,0.27,22148,26,0,0,4,7,1
+2023-01-13,61,RE,--,False,False,26,--,Greedy,Ariana Grande,Dangerous Woman,3,3,1,15,9,2,4244625,742,11114280,0.65,0.07,0.27,24157,26,0,0,23,4,1
+2023-01-13,62,RE,--,False,False,26,--,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4634437,810,12130830,0.65,0.07,0.27,26362,26,0,0,26,15,1
+2023-01-13,63,RE,--,False,False,26,--,Body,Megan Thee Stallion,Good News,3,3,1,15,9,2,4617112,807,12085650,0.65,0.07,0.27,26264,26,0,0,1,5,2
+2023-01-13,64,RE,--,False,False,26,--,Baby Don’t Stop,NCT,NCT 2018 EMPATHY,3,3,1,15,9,2,3958762,692,10368810,0.65,0.07,0.27,22540,26,0,0,31,9,1
+2023-01-13,65,RE,--,False,False,26,--,Arms Unfolding,dodie,Human,2,2,1,10,6,2,2956800,517,11611260,0.58,0.06,0.36,18025,18,0,8,25,15,1
+2023-01-13,66,RE,--,False,False,24,--,Up,Cardi B,UP,3,1,3,15,3,6,4192650,244,32936220,0.44,0.02,0.55,23863,24,0,0,7,10,1
+2023-01-13,67,RE,--,False,False,24,--,Sonatine,LOOΠΔ 1/3,Love & Evil,1,1,1,5,3,2,1455300,254,11430540,0.42,0.05,0.53,10647,10,0,14,5,21,1
+2023-01-13,68,-35,33,False,False,23,-0.45,Ligaya,Eraserheads,Anthology,1,1,1,5,3,2,1305150,228,10255860,0.42,0.05,0.53,9555,10,13,0,33,5,1
+2023-01-13,69,-27,42,False,False,21,-0.38,Pangarap Lang Kita,Parokya Ni Edgar,Middle-Aged Juvenile Novelty Pop Rockers,1,1,1,5,3,2,1417762,247,11136870,0.42,0.05,0.53,10374,10,11,0,42,4,1
+2023-01-13,70,-27,43,False,False,21,-0.38,Magda,Gloc-9,Liham At Lihim,1,1,1,5,3,2,1489950,260,11701620,0.42,0.05,0.53,10899,10,11,0,43,4,1
+2023-01-13,71,-33,38,False,False,21,-0.42,Magasin,Eraserheads,Circus,1,1,1,5,3,2,1409100,246,11069100,0.42,0.05,0.53,10311,10,11,0,38,2,1
+2023-01-13,72,RE,--,False,False,20,--,Born This Way,Lady Gaga,Born This Way (International Special Edition Version),2,2,2,10,6,4,3147375,550,24713460,0.42,0.05,0.53,23016,20,0,0,17,4,1
 2023-01-13,73,RE,--,False,False,19,--,Dark Paradise,Lana Del Rey,Born to Die (Deluxe Version),1,1,1,5,3,2,1461075,255,11475720,0.42,0.05,0.53,10689,10,0,9,24,4,1
-2023-01-13,74,RE,--,False,False,18,--,Like a Virgin,Madonna,Like a Virgin (Reissue),2,2,1,10,6,2,2927925,512,11498310,0.58,0.06,0.36,17850,18,0,0,10,3,1
-2023-01-13,75,RE,--,False,False,18,--,Guiltless,dodie,Guiltless,2,2,1,10,6,2,2899050,507,11385360,0.58,0.06,0.36,17675,18,0,0,5,19,1
-2023-01-13,76,RE,--,False,False,18,--,Daylight,Taylor Swift,Lover,2,2,1,10,6,2,2910600,509,11430540,0.58,0.06,0.36,17745,18,0,0,8,18,2
-2023-01-13,77,RE,--,False,False,18,--,Good Parts (when the quality is bad but I am),LE SSERAFIM,ANTIFRAGILE,2,2,1,10,6,2,2743125,479,10775430,0.58,0.06,0.36,16730,18,0,0,10,9,1
-2023-01-13,78,RE,--,False,False,18,--,PLAYING WITH FIRE,BLACKPINK,SQUARE TWO,2,2,1,10,6,2,2685375,469,10549530,0.58,0.06,0.36,16379,18,0,0,48,9,1
-2023-01-13,79,RE,--,False,False,18,--,ELEVEN,IVE,ELEVEN,2,2,1,10,6,2,2875950,502,11295000,0.58,0.06,0.36,17535,18,0,0,1,21,1
-2023-01-13,80,RE,--,False,False,18,--,Peek-A-Boo,Red Velvet,Perfect Velvet - The 2nd Album,2,2,1,10,6,2,3089625,540,12130830,0.58,0.06,0.36,18830,18,0,0,9,8,1
-2023-01-13,81,RE,--,False,False,18,--,Bad Boy,Red Velvet,The Perfect Red Velvet - The 2nd Album Repackage,2,2,1,10,6,2,2633400,460,10346220,0.58,0.06,0.36,16064,18,0,0,9,22,1
-2023-01-13,82,RE,--,False,False,18,--,Afterglow,Taylor Swift,Lover,2,2,1,10,6,2,3072300,537,12063060,0.58,0.06,0.36,18725,18,0,0,22,12,1
-2023-01-13,83,RE,--,False,False,18,--,Tag You're It,Melanie Martinez,Cry Baby (Deluxe Edition),2,2,1,10,6,2,2927925,512,11498310,0.58,0.06,0.36,17850,18,0,0,9,11,1
-2023-01-13,84,NEW,--,True,False,18,--,Nonsense,Sabrina Carpenter,emails i can't send,2,2,1,10,6,2,2956800,517,11611260,0.58,0.06,0.36,18025,18,0,0,84,1,1
-2023-01-13,85,-35,50,False,False,18,-0.31,Bagsakan,Parokya Ni Edgar,Halina Sa Parokya,1,1,1,5,3,2,1475512,258,11588670,0.42,0.05,0.53,10794,10,8,0,50,3,1
-2023-01-13,86,-35,51,False,False,18,-0.31,Hinahanap-Hanap Kita,Rivermaya,Greatest Hits,1,1,1,5,3,2,1530375,267,12017880,0.42,0.05,0.53,11193,10,8,0,51,2,1
-2023-01-13,87,-35,52,False,False,18,-0.31,The Day You Said Goodnight,Hale,Hale,1,1,1,5,3,2,1365787,238,10730250,0.42,0.05,0.53,9996,10,8,0,52,2,1
-2023-01-13,88,-35,53,False,False,18,-0.31,Alapaap,Eraserheads,Circus,1,1,1,5,3,2,1489950,260,11701620,0.42,0.05,0.53,10899,10,8,0,53,2,1
-2023-01-13,89,NEW,--,True,False,18,--,emails i can’t send,Sabrina Carpenter,emails i can't send,2,2,1,10,6,2,3026100,529,11882340,0.58,0.06,0.36,18445,18,0,0,89,1,1
+2023-01-13,74,RE,--,False,False,18,--,Tag You're It,Melanie Martinez,Cry Baby (Deluxe Edition),2,2,1,10,6,2,2927925,512,11498310,0.58,0.06,0.36,17850,18,0,0,11,13,1
+2023-01-13,75,RE,--,False,False,18,--,PLAYING WITH FIRE,BLACKPINK,SQUARE TWO,2,2,1,10,6,2,2685375,469,10549530,0.58,0.06,0.36,16379,18,0,0,33,10,1
+2023-01-13,76,RE,--,False,False,18,--,Peek-A-Boo,Red Velvet,Perfect Velvet - The 2nd Album,2,2,1,10,6,2,3089625,540,12130830,0.58,0.06,0.36,18830,18,0,0,8,8,1
+2023-01-13,77,NEW,--,True,False,18,--,Nonsense,Sabrina Carpenter,emails i can't send,2,2,1,10,6,2,2956800,517,11611260,0.58,0.06,0.36,18025,18,0,0,77,1,1
+2023-01-13,78,RE,--,False,False,18,--,Like a Virgin,Madonna,Like a Virgin (Reissue),2,2,1,10,6,2,2927925,512,11498310,0.58,0.06,0.36,17850,18,0,0,7,3,1
+2023-01-13,79,RE,--,False,False,18,--,Guiltless,dodie,Guiltless,2,2,1,10,6,2,2899050,507,11385360,0.58,0.06,0.36,17675,18,0,0,5,15,1
+2023-01-13,80,RE,--,False,False,18,--,Good Parts (when the quality is bad but I am),LE SSERAFIM,ANTIFRAGILE,2,2,1,10,6,2,2743125,479,10775430,0.58,0.06,0.36,16730,18,0,0,10,9,1
+2023-01-13,81,NEW,--,True,False,18,--,emails i can’t send,Sabrina Carpenter,emails i can't send,2,2,1,10,6,2,3026100,529,11882340,0.58,0.06,0.36,18445,18,0,0,81,1,1
+2023-01-13,82,RE,--,False,False,18,--,ELEVEN,IVE,ELEVEN,2,2,1,10,6,2,2875950,502,11295000,0.58,0.06,0.36,17535,18,0,0,1,21,1
+2023-01-13,83,RE,--,False,False,18,--,Daylight,Taylor Swift,Lover,2,2,1,10,6,2,2910600,509,11430540,0.58,0.06,0.36,17745,18,0,0,18,15,1
+2023-01-13,84,RE,--,False,False,18,--,Bad Boy,Red Velvet,The Perfect Red Velvet - The 2nd Album Repackage,2,2,1,10,6,2,2633400,460,10346220,0.58,0.06,0.36,16064,18,0,0,12,14,1
+2023-01-13,85,RE,--,False,False,18,--,Afterglow,Taylor Swift,Lover,2,2,1,10,6,2,3072300,537,12063060,0.58,0.06,0.36,18725,18,0,0,23,7,1
+2023-01-13,86,-36,50,False,False,18,-0.31,The Day You Said Goodnight,Hale,Hale,1,1,1,5,3,2,1365787,238,10730250,0.42,0.05,0.53,9996,10,8,0,50,3,1
+2023-01-13,87,-36,51,False,False,18,-0.31,Hinahanap-Hanap Kita,Rivermaya,Greatest Hits,1,1,1,5,3,2,1530375,267,12017880,0.42,0.05,0.53,11193,10,8,0,51,2,1
+2023-01-13,88,-36,52,False,False,18,-0.31,Bagsakan,Parokya Ni Edgar,Halina Sa Parokya,1,1,1,5,3,2,1475512,258,11588670,0.42,0.05,0.53,10794,10,8,0,52,2,1
+2023-01-13,89,-36,53,False,False,18,-0.31,Alapaap,Eraserheads,Circus,1,1,1,5,3,2,1489950,260,11701620,0.42,0.05,0.53,10899,10,8,0,53,2,1
 2023-01-13,90,RE,--,False,False,17,--,O.O,NMIXX,AD MARE,1,1,1,5,3,2,1360012,237,10685070,0.42,0.05,0.53,9954,10,0,7,1,37,2
-2023-01-13,91,RE,--,False,False,16,--,burned out,dodie,Human,1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,0,6,17,19,1
-2023-01-13,92,-22,70,False,False,16,-0.11,Simpleng Tao,Gloc-9,G9,1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,6,0,70,2,1
+2023-01-13,91,-20,71,False,False,16,-0.11,Simpleng Tao,Gloc-9,G9,1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,6,0,69,3,1
+2023-01-13,92,-7,85,False,False,16,-0.11,Gabay,Siakol,kabilang mundo,1,1,1,5,3,2,1417762,247,11136870,0.42,0.05,0.53,10374,10,6,0,85,2,1
 2023-01-13,93,-31,62,False,False,16,-0.2,Dati,Tippy Dos Santos,Philpop 2013,1,1,1,5,3,2,1406212,245,11046510,0.42,0.05,0.53,10290,10,6,0,62,2,1
-2023-01-13,94,-11,83,False,False,16,-0.11,Gabay,Siakol,kabilang mundo,1,1,1,5,3,2,1417762,247,11136870,0.42,0.05,0.53,10374,10,6,0,83,2,1
+2023-01-13,94,RE,--,False,False,16,--,burned out,dodie,Human,1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,0,6,17,19,1
 2023-01-13,95,RE,--,False,False,14,--,UNNATURAL,WJSN,UNNATURAL,1,1,1,5,3,2,1365787,238,10730250,0.42,0.05,0.53,9996,10,0,4,1,38,4
-2023-01-13,96,RE,--,False,False,12,--,LA DI DA,Everglow,-77.82X-78.29,1,1,1,5,3,2,1411987,246,11091690,0.42,0.05,0.53,10332,10,0,2,24,8,1
-2023-01-13,97,RE,--,False,False,12,--,Rookie,Red Velvet,Rookie - The 4th Mini Album,1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,0,2,11,5,1
-2023-01-13,98,RE,--,False,False,12,--,Next Level,aespa,Next Level,1,1,1,5,3,2,1400437,244,11001330,0.42,0.05,0.53,10248,10,0,2,67,2,1
-2023-01-13,99,RE,--,False,False,12,--,너 아님 안돼,2NE1,CRUSH,1,1,1,5,3,2,1322475,231,10391400,0.42,0.05,0.53,9681,10,0,2,63,2,1
-2023-01-13,100,RE,--,False,False,10,--,Lady Marmalade - From Moulin Rouge Soundtrack,Christina Aguilera,Moulin Rouge,1,1,1,5,3,2,1536150,268,12063060,0.42,0.05,0.53,11235,10,0,0,37,4,1
+2023-01-13,96,RE,--,False,False,12,--,너 아님 안돼,2NE1,CRUSH,1,1,1,5,3,2,1322475,231,10391400,0.42,0.05,0.53,9681,10,0,2,52,2,1
+2023-01-13,97,RE,--,False,False,12,--,Rookie,Red Velvet,Rookie - The 4th Mini Album,1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,0,2,7,6,1
+2023-01-13,98,RE,--,False,False,12,--,Next Level,aespa,Next Level,1,1,1,5,3,2,1400437,244,11001330,0.42,0.05,0.53,10248,10,0,2,79,2,1
+2023-01-13,99,RE,--,False,False,12,--,LA DI DA,Everglow,-77.82X-78.29,1,1,1,5,3,2,1411987,246,11091690,0.42,0.05,0.53,10332,10,0,2,27,7,1
+2023-01-13,100,RE,--,False,False,10,--,다녀가요,Loona,HyunJin,1,1,1,5,3,2,1478400,258,11611260,0.42,0.05,0.53,10815,10,0,0,8,8,1
