@@ -1,0 +1,101 @@
+Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
+2025-07-25,1,+1,2,True,False,246,0.17,Keeper,TWICE,STRATEGY,18,11,6,90,33,12,24896025,2661,65194740,0.67,0.05,0.28,118090,135,64,47,1,15,1
+2025-07-25,2,-1,1,False,False,229,-0.07,Down,blink-182,blink-182,13,13,1,65,39,2,19069050,3334,11520900,0.83,0.09,0.08,96579,106,74,49,1,21,7
+2025-07-25,3,+2,5,True,True,192,0.1,Troublemaker,Weezer,Weezer (Deluxe Edition),12,12,2,60,36,4,18468450,3229,24171300,0.76,0.09,0.16,97552,100,53,39,3,9,3
+2025-07-25,4,=,4,True,True,192,0.07,Hash Pipe,Weezer,Weezer,12,12,2,60,36,4,18918900,3308,24758640,0.76,0.09,0.16,99918,100,54,38,4,10,4
+2025-07-25,5,+2,7,True,True,191,0.44,The Bends,Radiohead,The Bends,15,15,1,75,45,2,22825687,3991,11950110,0.84,0.09,0.07,115010,122,40,29,5,4,2
+2025-07-25,6,-3,3,False,False,184,0.02,In Bloom,Nirvana,Nevermind (Remastered),12,12,1,60,36,2,16458750,2878,10775430,0.82,0.09,0.09,83650,98,54,32,2,6,1
+2025-07-25,7,+16,23,False,False,140,0.67,FFW,TWICE,twicetagram,11,11,1,55,33,2,17151750,2999,12243780,0.82,0.09,0.09,87423,90,26,24,3,10,1
+2025-07-25,8,+10,18,False,False,126,0.38,The Rock Show,blink-182,Take Off Your Pants and Jacket,10,8,3,50,24,6,14119875,1975,33275070,0.68,0.06,0.26,72324,80,28,18,1,26,3
+2025-07-25,9,RE,--,True,True,124,--,Genie,Girls' Generation,Genie - The Second Mini Album,19,5,7,95,15,14,28254187,1300,81753210,0.67,0.02,0.31,112406,124,0,0,9,9,2
+2025-07-25,10,+1,11,False,False,118,0.01,Sports car,Tate McRae,So Close to What,7,7,1,35,21,2,9419025,1647,10572120,0.77,0.09,0.14,49245,58,36,24,1,20,4
+2025-07-25,11,-2,9,False,False,114,-0.11,2 hands,Tate McRae,So Close to What,6,6,1,30,18,2,8125424,1421,10639890,0.76,0.09,0.16,42952,50,39,25,1,20,2
+2025-07-25,12,-4,8,False,False,113,-0.12,She's So Mean,Matchbox Twenty,North (Deluxe Edition),7,7,1,35,21,2,10651987,1862,11950110,0.77,0.09,0.14,55650,58,39,16,1,63,1
+2025-07-25,13,+29,42,True,False,107,0.84,Sulk,Radiohead,The Bends,9,9,1,45,27,2,14085225,2463,12288960,0.8,0.09,0.11,72485,74,18,15,13,4,1
+2025-07-25,14,+42,56,False,False,104,1.08,Sleep,My Chemical Romance,The Black Parade,9,9,1,45,27,2,13201650,2308,11520900,0.8,0.09,0.11,67963,74,15,15,6,20,1
+2025-07-25,15,-3,12,False,False,104,-0.1,Hell Above,Pierce the Veil,Collide With the Sky,6,6,1,30,18,2,8679825,1518,11362770,0.76,0.09,0.16,45864,50,35,19,2,16,1
+2025-07-25,16,-3,13,False,False,101,-0.05,May These Noises Startle You in Your Sleep Tonight,Pierce the Veil,Collide With the Sky,6,6,1,30,18,2,7952174,1391,10413990,0.76,0.09,0.16,42042,50,32,19,3,16,2
+2025-07-25,17,-3,14,False,False,100,0.02,MARS,TWICE,THIS IS FOR,8,6,3,40,18,6,10741500,1409,31648590,0.64,0.05,0.3,55692,64,30,6,14,3,1
+2025-07-25,18,-12,6,False,False,100,-0.25,Dear god,Tate McRae,So Close to What,4,4,1,20,12,2,6109950,1068,11995290,0.7,0.08,0.22,33516,34,40,26,2,6,2
+2025-07-25,19,=,19,False,False,99,0.1,Like It Like It,TWICE,STRATEGY,6,6,1,30,18,2,9268875,1620,12130830,0.76,0.09,0.16,48958,50,27,22,5,12,1
+2025-07-25,20,+80,100,True,False,98,1.88,A Little Less Sixteen Candles a Little More Touch Me,Fall Out Boy,From Under the Cork Tree,12,1,12,60,3,24,16285500,237,127949760,0.44,0.0,0.55,82775,87,11,0,20,3,1
+2025-07-25,21,-4,17,False,False,98,0.05,The Burn,Matchbox Twenty,Mad Season,6,6,1,30,18,2,8367975,1463,10956150,0.76,0.09,0.16,44226,50,28,20,6,13,1
+2025-07-25,22,-6,16,False,False,98,0.01,Hold On Till May,Pierce the Veil,Collide With the Sky,6,6,1,30,18,2,8073450,1412,10572120,0.76,0.09,0.16,42679,50,30,18,7,13,1
+2025-07-25,23,+70,93,True,False,97,1.69,Just,Radiohead,The Bends,9,9,1,45,27,2,12733875,2227,11114280,0.8,0.09,0.11,65569,74,11,12,23,3,1
+2025-07-25,24,-3,21,False,False,80,-0.06,Last Beautiful Girl,Matchbox Twenty,Mad Season,4,4,1,20,12,2,6167700,1078,12108240,0.7,0.08,0.22,33831,34,26,20,8,18,1
+2025-07-25,25,-5,20,False,False,80,-0.09,I know love (feat. The Kid LAROI),Tate McRae,So Close to What,4,4,1,20,12,2,5266800,921,10346220,0.7,0.08,0.22,28916,34,27,19,4,15,1
+2025-07-25,26,-1,25,False,False,79,-0.05,Mad Season,Matchbox Twenty,Mad Season,4,4,1,20,12,2,6006000,1050,11791980,0.7,0.08,0.22,32949,34,25,20,1,25,4
+2025-07-25,27,-3,24,False,False,78,-0.07,bloodonmyhands (feat. Flo Milli),Tate McRae,So Close to What,4,4,1,20,12,2,6029100,1054,11837160,0.7,0.08,0.22,33075,34,26,18,3,15,1
+2025-07-25,28,+3,31,False,False,75,0.04,If You're Gone,Matchbox Twenty,Mad Season,4,4,1,20,12,2,5347650,935,10504350,0.7,0.08,0.22,29358,34,22,19,2,26,1
+2025-07-25,29,-1,28,False,False,74,0.01,Bones,Radiohead,The Bends,4,4,1,20,12,2,6098400,1066,11972700,0.7,0.08,0.22,33453,34,22,18,20,4,1
+2025-07-25,30,+17,47,False,False,73,0.38,LIKEY,TWICE,twicetagram,6,6,1,30,18,2,9442125,1651,12356730,0.76,0.09,0.16,49868,50,16,7,13,18,1
+2025-07-25,31,-21,10,False,False,72,-0.4,Signs,Tate McRae,So Close to What,1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,37,25,3,6,1
+2025-07-25,32,+1,33,False,False,71,0.01,My Iron Lung,Radiohead,The Bends,4,4,1,20,12,2,5844300,1022,11475720,0.7,0.08,0.22,32067,34,21,16,25,4,1
+2025-07-25,33,+2,35,False,False,71,0.08,(Nice Dream),Radiohead,The Bends,4,4,1,20,12,2,5763450,1008,11317590,0.7,0.08,0.22,31626,34,20,17,24,4,1
+2025-07-25,34,+11,45,False,False,66,0.2,Planet Telex,Radiohead,The Bends,4,4,1,20,12,2,5786550,1012,11362770,0.7,0.08,0.22,31752,34,17,15,30,4,1
+2025-07-25,35,RE,--,False,False,65,--,Before the Lobotomy,Green Day,21st Century Breakdown,7,5,3,35,15,6,10975387,1370,36934650,0.62,0.05,0.33,57330,56,0,9,1,34,2
+2025-07-25,36,-21,15,False,False,64,-0.34,Feeling This,blink-182,blink-182,4,4,1,20,12,2,5232150,915,10278450,0.7,0.08,0.22,28728,34,30,0,1,23,1
+2025-07-25,37,-8,29,False,False,64,-0.11,Tangled in the Great Escape,Pierce the Veil,Collide With the Sky,3,3,1,15,9,2,4357237,762,11407950,0.65,0.07,0.27,24794,26,22,16,6,15,1
+2025-07-25,38,-8,30,False,False,64,-0.11,I'm Low on Gas and You Need a Jacket,Pierce the Veil,Collide With the Sky,3,3,1,15,9,2,4547812,795,11904930,0.65,0.07,0.27,25872,26,22,16,5,16,2
+2025-07-25,39,-3,36,False,False,59,-0.08,King for a Day,Pierce the Veil,Collide With the Sky,3,3,1,15,9,2,4643100,811,12153420,0.65,0.07,0.27,26411,26,20,13,12,16,1
+2025-07-25,40,+54,94,True,True,57,0.58,High and Dry,Radiohead,The Bends,4,4,1,20,12,2,6121500,1070,12017880,0.7,0.08,0.22,33579,34,11,12,40,3,2
+2025-07-25,41,+54,95,True,True,57,0.58,Fake Plastic Trees,Radiohead,The Bends,4,4,1,20,12,2,5647950,987,11091690,0.7,0.08,0.22,30996,34,11,12,41,3,2
+2025-07-25,42,+1,43,False,False,57,0.02,It's ok I'm ok,Tate McRae,So Close to What,3,3,1,15,9,2,4183987,731,10956150,0.65,0.07,0.27,23814,26,17,14,5,20,4
+2025-07-25,43,+30,73,False,False,55,0.31,24/7,TWICE,twicetagram,5,5,1,25,15,2,7045500,1232,11069100,0.73,0.08,0.18,37807,42,13,0,4,7,1
+2025-07-25,44,+15,59,False,False,55,0.15,MORE & MORE,TWICE,MORE & MORE,4,4,1,20,12,2,5393850,943,10594710,0.7,0.08,0.22,29610,34,15,6,4,27,2
+2025-07-25,45,+7,52,False,False,53,0.06,SOS,TWICE,Taste of Love,5,1,5,25,3,10,6612375,231,51956999,0.44,0.01,0.55,35497,38,15,0,8,18,1
+2025-07-25,46,-9,37,False,False,53,-0.16,Aliens Exist,blink-182,Enema of the State,4,4,1,20,12,2,5590200,977,10978740,0.7,0.08,0.22,30681,34,19,0,2,31,1
+2025-07-25,47,+14,61,False,False,53,0.13,Unwell,Matchbox Twenty,More Than You Think You Are,3,3,1,15,9,2,4253287,743,11136870,0.65,0.07,0.27,24206,26,15,12,8,36,1
+2025-07-25,48,+44,92,False,False,52,0.44,Nice Guys Finish Last,Green Day,Nimrod,4,4,1,20,12,2,6075300,1062,11927520,0.7,0.08,0.22,33327,34,11,7,1,69,7
+2025-07-25,49,-27,22,False,False,52,-0.38,Always,blink-182,blink-182,3,3,1,15,9,2,3898125,681,10210680,0.65,0.07,0.27,22197,26,26,0,3,23,1
+2025-07-25,50,RE,--,False,False,49,--,DING DONG,TWICE,twicetagram,5,5,1,25,15,2,7348687,1285,11543490,0.73,0.08,0.18,39424,42,0,7,48,6,1
+2025-07-25,51,RE,--,False,False,48,--,What's My Age Again?,blink-182,Enema of the State,6,4,3,30,12,6,9164925,1068,35985870,0.59,0.04,0.37,48412,48,0,0,1,35,2
+2025-07-25,52,RE,--,False,False,48,--,FIREWORK,TWICE,MORE & MORE,5,5,1,25,15,2,6944437,1214,10910970,0.73,0.08,0.18,37268,42,0,6,6,13,1
+2025-07-25,53,+32,85,True,False,47,0.21,The First Punch,Pierce the Veil,Collide With the Sky,3,3,1,15,9,2,4201312,734,11001330,0.65,0.07,0.27,23912,26,12,9,53,3,1
+2025-07-25,54,+33,87,True,False,47,0.21,Bulls in the Bronx,Pierce the Veil,Collide With the Sky,3,3,1,15,9,2,3958762,692,10368810,0.65,0.07,0.27,22540,26,12,9,54,5,1
+2025-07-25,55,RE,--,False,False,44,--,Street Spirit (Fade Out),Radiohead,The Bends,4,4,1,20,12,2,6052200,1058,11882340,0.7,0.08,0.22,33201,34,0,10,47,2,1
+2025-07-25,56,RE,--,False,False,44,--,Bullet Proof ... I Wish I Was,Radiohead,The Bends,4,4,1,20,12,2,5416950,947,10639890,0.7,0.08,0.22,29736,34,0,10,49,2,1
+2025-07-25,57,RE,--,False,False,44,--,Black Star,Radiohead,The Bends,4,4,1,20,12,2,6225450,1088,12221190,0.7,0.08,0.22,34146,34,0,10,50,2,1
+2025-07-25,58,-18,40,False,False,44,-0.24,Fame Is a Gun,Addison Rae,Addison,3,3,1,15,9,2,4539150,793,11882340,0.65,0.07,0.27,25823,26,18,0,1,7,1
+2025-07-25,59,-18,41,False,False,44,-0.24,Diet Pepsi,Addison Rae,Addison,3,3,1,15,9,2,4495837,786,11769390,0.65,0.07,0.27,25578,26,18,0,4,7,1
+2025-07-25,60,-26,34,False,False,44,-0.33,THIS IS FOR,TWICE,THIS IS FOR,2,2,1,10,6,2,2616075,457,10278450,0.58,0.06,0.36,15960,18,20,6,34,3,1
+2025-07-25,61,-17,44,False,False,43,-0.22,Gnarly,KATSEYE,Gnarly,3,3,1,15,9,2,4651762,813,12176010,0.65,0.07,0.27,26460,26,17,0,12,12,1
+2025-07-25,62,RE,--,False,False,42,--,My Life Would Suck Without You,Kelly Clarkson,All I Ever Wanted,5,5,1,25,15,2,7810687,1365,12266370,0.73,0.08,0.18,41888,42,0,0,8,38,1
+2025-07-25,63,RE,--,False,False,41,--,ROLLIN',TWICE,twicetagram,4,4,1,20,12,2,5347650,935,10504350,0.7,0.08,0.22,29358,34,0,7,36,3,1
+2025-07-25,64,RE,--,False,False,40,--,SWEET SUMMER DAY,TWICE,MORE & MORE,4,4,1,20,12,2,5751900,1005,11295000,0.7,0.08,0.22,31563,34,0,6,2,14,1
+2025-07-25,65,RE,--,False,False,40,--,SHADOW,TWICE,MORE & MORE,4,4,1,20,12,2,5578650,975,10956150,0.7,0.08,0.22,30618,34,0,6,8,19,1
+2025-07-25,66,RE,--,False,False,40,--,OXYGEN,TWICE,MORE & MORE,4,4,1,20,12,2,5671050,991,11136870,0.7,0.08,0.22,31122,34,0,6,3,20,1
+2025-07-25,67,RE,--,False,False,40,--,MAKE ME GO,TWICE,MORE & MORE,4,4,1,20,12,2,6306300,1102,12379320,0.7,0.08,0.22,34587,34,0,6,5,17,1
+2025-07-25,68,RE,--,False,False,40,--,DON’T CALL ME AGAIN,TWICE,MORE & MORE,4,4,1,20,12,2,5197500,909,10210680,0.7,0.08,0.22,28539,34,0,6,19,9,1
+2025-07-25,69,+8,77,False,False,39,-0.05,Extraordinary Girl,Green Day,American Idiot,3,3,1,15,9,2,4158000,727,10888380,0.65,0.07,0.27,23667,26,13,0,1,30,2
+2025-07-25,70,+4,74,False,False,35,-0.17,Siren sounds (bonus),Tate McRae,So Close to What,1,1,1,5,3,2,1302262,227,10233270,0.42,0.05,0.53,9534,10,13,12,19,13,1
+2025-07-25,71,+4,75,False,False,35,-0.17,Revolving door,Tate McRae,So Close to What,1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,13,12,3,20,3
+2025-07-25,72,-14,58,False,False,35,-0.29,Never Again,Kelly Clarkson,My December,1,1,1,5,3,2,1391775,243,10933560,0.42,0.05,0.53,10185,10,15,10,21,22,1
+2025-07-25,73,-7,66,False,False,35,-0.19,Miss possessive,Tate McRae,So Close to What,1,1,1,5,3,2,1440862,252,11317590,0.42,0.05,0.53,10542,10,13,12,3,20,1
+2025-07-25,74,+14,88,False,False,35,-0.1,Dead!,My Chemical Romance,The Black Parade,1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,12,13,3,58,2
+2025-07-25,75,RE,--,False,False,34,--,러시안 룰렛 Russian Roulette,Red Velvet,Russian Roulette - The 3rd Mini Album,4,4,1,20,12,2,6248550,1092,12266370,0.7,0.08,0.22,34272,34,0,0,52,14,1
+2025-07-25,76,RE,--,False,False,34,--,Lucky Girl,Red Velvet,Russian Roulette - The 3rd Mini Album,4,4,1,20,12,2,5982900,1046,11746800,0.7,0.08,0.22,32823,34,0,0,40,4,1
+2025-07-25,77,RE,--,False,False,34,--,Getaway Car,Taylor Swift,reputation,4,4,1,20,12,2,5532450,967,10865790,0.7,0.08,0.22,30366,34,0,0,6,15,1
+2025-07-25,78,RE,--,False,False,34,--,Death of a Bachelor,Panic! at the Disco,Death of a Bachelor,4,4,1,20,12,2,6156150,1076,12085650,0.7,0.08,0.22,33768,34,0,0,39,4,1
+2025-07-25,79,RE,--,False,False,34,--,Cornelia Street,Taylor Swift,Lover,4,4,1,20,12,2,6144600,1074,12063060,0.7,0.08,0.22,33705,34,0,0,5,15,1
+2025-07-25,80,RE,--,True,True,34,--,Bad Dracula,Red Velvet,Russian Roulette - The 3rd Mini Album,4,4,1,20,12,2,5740350,1003,11272410,0.7,0.08,0.22,31500,34,0,0,80,2,2
+2025-07-25,81,RE,--,False,False,33,--,Jesus of Suburbia,Green Day,American Idiot,4,3,2,20,9,4,6190800,811,24306840,0.59,0.05,0.37,33957,33,0,0,11,31,1
+2025-07-25,82,RE,--,False,False,33,--,Hitchin' a Ride,Green Day,Nimrod,3,3,1,15,9,2,3906787,683,10233270,0.65,0.07,0.27,22246,26,0,7,2,62,7
+2025-07-25,83,-23,60,False,False,33,-0.31,She's a Rebel,Green Day,American Idiot,2,2,1,10,6,2,2795100,488,10978740,0.58,0.06,0.36,17045,18,15,0,7,28,1
+2025-07-25,84,-27,57,False,False,33,-0.33,Letterbomb,Green Day,American Idiot,2,2,1,10,6,2,2910600,509,11430540,0.58,0.06,0.36,17745,18,15,0,10,27,1
+2025-07-25,85,-5,80,False,False,33,-0.2,How Far We've Come,Matchbox Twenty,How Far We've Come,1,1,1,5,3,2,1345575,235,10572120,0.42,0.05,0.53,9849,10,13,10,2,19,1
+2025-07-25,86,-21,65,False,False,31,-0.28,St. Jimmy,Green Day,American Idiot,2,2,1,10,6,2,2858625,499,11227230,0.58,0.06,0.36,17430,18,13,0,8,26,1
+2025-07-25,87,-11,76,False,False,31,-0.24,Holiday,Green Day,American Idiot,2,2,1,10,6,2,2639175,461,10368810,0.58,0.06,0.36,16099,18,13,0,5,28,1
+2025-07-25,88,-10,78,False,False,31,-0.24,Boulevard of Broken Dreams,Green Day,American Idiot,2,2,1,10,6,2,3031875,530,11904930,0.58,0.06,0.36,18480,18,13,0,7,27,1
+2025-07-25,89,=,89,False,False,30,-0.19,King for a Day,Green Day,Nimrod,2,2,1,10,6,2,2933700,513,11520900,0.58,0.06,0.36,17885,18,12,0,3,47,1
+2025-07-25,90,-6,84,False,False,30,-0.25,Give Me Novacaine,Green Day,American Idiot,2,2,1,10,6,2,2800875,489,11001330,0.58,0.06,0.36,17080,18,12,0,9,29,1
+2025-07-25,91,-52,39,False,False,28,-0.53,I Miss You,blink-182,blink-182,1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,18,0,3,23,2
+2025-07-25,92,RE,--,False,False,26,--,Whatsername,Green Day,American Idiot,3,3,1,15,9,2,4097362,716,10730250,0.65,0.07,0.27,23324,26,0,0,8,47,2
+2025-07-25,93,RE,--,False,False,26,--,The Static Age,Green Day,21st Century Breakdown,3,3,1,15,9,2,4539150,793,11882340,0.65,0.07,0.27,25823,26,0,0,4,35,1
+2025-07-25,94,RE,--,False,False,26,--,Supersonic,fromis_9,Supersonic,3,3,1,15,9,2,4409212,771,11543490,0.65,0.07,0.27,25088,26,0,0,1,6,1
+2025-07-25,95,RE,--,False,False,26,--,Run Devil Run,Girls' Generation,Run Devil Run - The 2nd Album Repackage,3,3,1,15,9,2,4539150,793,11882340,0.65,0.07,0.27,25823,26,0,0,48,3,1
+2025-07-25,96,RE,--,False,False,26,--,Redundant,Green Day,Nimrod,3,3,1,15,9,2,4712400,824,12334140,0.65,0.07,0.27,26803,26,0,0,1,58,1
+2025-07-25,97,RE,--,False,False,26,--,My Boy Only Breaks His Favorite Toys,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,3,3,1,15,9,2,4591125,802,12017880,0.65,0.07,0.27,26117,26,0,0,2,40,1
+2025-07-25,98,RE,--,False,False,26,--,Last of the American Girls,Green Day,21st Century Breakdown,3,3,1,15,9,2,4747050,830,10165500,0.65,0.07,0.27,22099,26,0,0,23,24,1
+2025-07-25,99,RE,--,False,False,26,--,LA Devotee,Panic! at the Disco,Death of a Bachelor,3,3,1,15,9,2,3993412,698,10459170,0.65,0.07,0.27,22736,26,0,0,13,9,1
+2025-07-25,100,RE,--,False,False,26,--,If I Can't Have You,Kelly Clarkson,All I Ever Wanted,3,3,1,15,9,2,4651762,813,12176010,0.65,0.07,0.27,26460,26,0,0,14,5,1
