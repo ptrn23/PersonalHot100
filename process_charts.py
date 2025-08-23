@@ -11,7 +11,7 @@ OUTPUT_FILE = f'charts/{YEAR}.csv'
 COLORS_FILE = f'colors/{YEAR}_colors.txt'
 ALBUM_COVERS_FILE = "album_covers.csv"
 
-INCLUDED_ARTISTS = ["Green Day"]
+INCLUDED_ARTISTS = ["Taylor Swift"]
 INCLUDED_ALBUMS = ["ALL"]
 
 GENERATE_COLORS = True

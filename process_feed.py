@@ -3,7 +3,7 @@ import os
 from key import CHART_NAME
 
 YEAR = "2025"
-WEEK = "07-18"
+WEEK = "08-15"
 CSV_PATH = f"points/{YEAR}/{WEEK}.csv"
 FEED_PATH = "feed.txt"
 
@@ -165,12 +165,12 @@ def main():
                 feed_lines.append(format_debut(row))
             elif format_number_one_update(row):
                 feed_lines.append(format_number_one_update(row))
-            elif process_reentry(row):
-                feed_lines.append(format_reentry(row))
-            elif format_top_10_or_5_climber(row):
-                feed_lines.append(format_top_10_or_5_climber(row))
             elif is_regular_climber_new_peak(row):
                 feed_lines.append(format_climber_new_peak(row))
+            elif format_top_10_or_5_climber(row):
+                feed_lines.append(format_top_10_or_5_climber(row))
+            elif process_reentry(row):
+                feed_lines.append(format_reentry(row))
             
             line = format_milestone_weeks(row)
             if line:
