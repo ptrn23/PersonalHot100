@@ -3,7 +3,7 @@ import os
 from key import CHART_NAME
 
 YEAR = "2025"
-WEEK = "08-15"
+WEEK = "08-29"
 CSV_PATH = f"points/{YEAR}/{WEEK}.csv"
 FEED_PATH = "feed.txt"
 
