@@ -12,7 +12,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-09-29,11,=,11,False,False,75,0.7,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),6,3,4,30,9,8,8541225,746,44728200,0.53,0.03,0.44,45136,47,14,14,2,60,1
 2023-09-29,12,RE,--,False,False,75,--,Strawberry soda,Loossemble,LOOSSEMBLE,3,3,1,15,9,2,4305262,752,11272410,0.65,0.07,0.27,24500,26,0,49,4,2,1
 2023-09-29,13,RE,--,False,False,75,--,Newtopia,Loossemble,LOOSSEMBLE,3,3,1,15,9,2,4097362,716,10730250,0.65,0.07,0.27,23324,26,0,49,7,2,1
-2023-09-29,14,-10,4,False,False,72,-0.17,‘tis the damn season,Taylor Swift,evermore,6,1,6,30,3,12,7917525,230,62212859,0.44,0.01,0.55,41860,45,27,0,1,43,1
+2023-09-29,14,-10,4,False,False,72,-0.17,‘tis the damn season,Taylor Swift,evermore,6,1,6,30,3,12,7917525,230,62212859,0.44,0.01,0.55,41860,45,27,0,1,42,1
 2023-09-29,15,-6,9,False,False,71,0.42,The Story of Us (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),5,5,1,25,15,2,6496875,1136,10210680,0.73,0.08,0.18,34881,42,15,14,1,13,1
 2023-09-29,16,RE,--,False,False,68,--,Sensitive - English Version,Loossemble,LOOSSEMBLE,2,2,1,10,6,2,3112725,544,12221190,0.58,0.06,0.36,18970,18,0,50,3,2,1
 2023-09-29,17,-10,7,False,False,63,0.02,Alapaap,Eraserheads,Circus,4,4,1,20,12,2,5959800,1042,11701620,0.7,0.08,0.22,32697,34,19,10,2,19,1
@@ -22,7 +22,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-09-29,21,RE,--,False,False,54,--,Deli,Ice Spice,Like..? (Deluxe),3,3,1,15,9,2,4686412,819,12266370,0.65,0.07,0.27,26656,26,0,28,1,6,1
 2023-09-29,22,+12,34,False,False,50,1.08,Midnight Rain,Taylor Swift,Midnights (3am Edition),5,5,1,25,15,2,6569062,1149,10323630,0.73,0.08,0.18,35266,42,8,0,1,45,2
 2023-09-29,23,-10,13,False,False,50,0.22,ETA,NewJeans,NewJeans 2nd EP 'Get Up',3,3,1,15,9,2,3950100,690,10346220,0.65,0.07,0.27,22491,26,13,11,3,10,1
-2023-09-29,24,RE,--,False,False,49,--,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4617112,807,12085650,0.65,0.07,0.27,26264,26,0,23,2,69,1
+2023-09-29,24,RE,--,False,False,49,--,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4617112,807,12085650,0.65,0.07,0.27,26264,26,0,23,2,71,1
 2023-09-29,25,RE,--,False,False,48,--,Never Grow Up,CG5,Never Grow Up,3,3,1,15,9,2,3976087,695,10413990,0.65,0.07,0.27,22638,26,0,22,3,5,2
 2023-09-29,26,RE,--,False,False,45,--,Cool With You,NewJeans,NewJeans 2nd EP 'Get Up',4,4,1,20,12,2,5671050,991,11136870,0.7,0.08,0.22,31122,34,0,11,2,9,1
 2023-09-29,27,RE,--,False,False,42,--,She's So Mean,Matchbox Twenty,North (Deluxe Edition),3,3,1,15,9,2,4565137,798,11950110,0.65,0.07,0.27,25970,26,0,16,4,19,1
@@ -60,7 +60,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-09-29,59,RE,--,False,False,18,--,Sweet Nothing,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,2864400,500,11249820,0.58,0.06,0.36,17465,18,0,0,6,22,1
 2023-09-29,60,RE,--,False,False,18,--,Superman (Taylor’s Version),Taylor Swift,Speak Now (Taylor's Version),2,2,1,10,6,2,2795100,488,10978740,0.58,0.06,0.36,17045,18,0,0,23,4,1
 2023-09-29,61,RE,--,True,False,18,--,pretty isn’t pretty,Olivia Rodrigo,GUTS,2,2,1,10,6,2,2893275,506,11362770,0.58,0.06,0.36,17640,18,0,0,61,1,1
-2023-09-29,62,RE,--,False,False,18,--,Paris,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,3066525,536,12040470,0.58,0.06,0.36,18690,18,0,0,5,20,1
+2023-09-29,62,RE,--,False,False,18,--,Paris,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,3066525,536,12040470,0.58,0.06,0.36,18690,18,0,0,5,21,1
 2023-09-29,63,RE,--,False,False,18,--,Ours (Taylor’s Version),Taylor Swift,Speak Now (Taylor's Version),2,2,1,10,6,2,2997225,524,11769390,0.58,0.06,0.36,18270,18,0,0,12,5,1
 2023-09-29,64,RE,--,False,False,18,--,Never Grow Up (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),2,2,1,10,6,2,2910600,509,11430540,0.58,0.06,0.36,17745,18,0,0,31,4,1
 2023-09-29,65,RE,--,False,False,18,--,Mastermind,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,3158925,552,12401910,0.58,0.06,0.36,15750,18,0,0,5,16,1
@@ -90,7 +90,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-09-29,89,-43,46,False,False,16,-0.11,Sunrise,GFRIEND,GFRIEND The 2nd Album 'Time for Us',1,1,1,5,3,2,1507275,263,11837160,0.42,0.05,0.53,11025,10,6,0,46,4,1
 2023-09-29,90,RE,--,False,False,16,--,State of Grace (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1302262,227,10233270,0.42,0.05,0.53,9534,10,0,6,3,44,1
 2023-09-29,91,-44,47,False,False,16,-0.11,RUN2U,STAYC,YOUNG-LUV.COM,1,1,1,5,3,2,1536150,268,12063060,0.42,0.05,0.53,11235,10,6,0,47,3,1
-2023-09-29,92,-42,50,False,False,16,-0.11,Red Flavor,Red Velvet,The Red Summer - Summer Mini Album,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,6,0,9,16,1
+2023-09-29,92,-42,50,False,False,16,-0.11,Red Flavor,Red Velvet,The Red Summer - Summer Mini Album,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,6,0,9,17,1
 2023-09-29,93,-22,71,False,False,16,-0.11,Baby Don’t Stop,NCT,NCT 2018 EMPATHY,1,1,1,5,3,2,1319587,230,10368810,0.42,0.05,0.53,9660,10,6,0,31,13,1
 2023-09-29,94,-20,74,False,False,16,-0.11,#Cookie Jar,Red Velvet,Bloom,1,1,1,5,3,2,1518825,265,11927520,0.42,0.05,0.53,11109,10,6,0,1,14,2
 2023-09-29,95,-7,88,False,False,13,0.3,마지막 첫사랑 My First and Last,NCT DREAM,The First - The 1st Single Album,1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,3,0,11,11,1

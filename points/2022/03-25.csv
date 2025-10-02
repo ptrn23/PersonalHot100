@@ -40,7 +40,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-03-25,39,-8,31,False,False,42,0.62,Full Moon,WJSN,As You Wish,4,4,1,20,12,2,5994450,1048,11769390,0.7,0.08,0.22,32886,34,8,0,31,2,1
 2022-03-25,40,-8,32,False,False,42,0.62,Don’t Touch,WJSN,As You Wish,4,4,1,20,12,2,5647950,987,11091690,0.7,0.08,0.22,30996,34,8,0,32,2,1
 2022-03-25,41,-8,33,False,False,42,0.62,BADABOOM,WJSN,As You Wish,4,4,1,20,12,2,5463150,955,10730250,0.7,0.08,0.22,29988,34,8,0,33,2,1
-2022-03-25,42,RE,--,False,False,41,--,Psycho,Maisie Peters,You Signed Up For This,5,2,5,25,6,10,7926187,453,50940450,0.44,0.02,0.54,37968,41,0,0,15,5,1
+2022-03-25,42,RE,--,False,False,41,--,Psycho,Maisie Peters,You Signed Up For This,5,2,5,25,6,10,7926187,453,50940450,0.44,0.02,0.54,37968,41,0,0,16,5,1
 2022-03-25,43,RE,--,False,False,40,--,Daylight,Taylor Swift,Lover,5,3,3,25,9,6,7276500,763,34291620,0.55,0.04,0.41,39039,40,0,0,18,7,1
 2022-03-25,44,-20,24,False,False,40,-0.09,Love Story (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1478400,258,11611260,0.42,0.05,0.53,10815,10,14,16,1,31,3
 2022-03-25,45,-18,27,False,False,39,0.11,She,dodie,Human,2,2,1,10,6,2,2823975,493,11091690,0.58,0.06,0.36,17220,18,11,10,2,14,1
@@ -84,7 +84,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-03-25,83,RE,--,False,False,26,--,ghostin,Ariana Grande,thank u next,3,3,1,15,9,2,4400550,769,11520900,0.65,0.07,0.27,25039,26,0,0,1,12,1
 2022-03-25,84,RE,--,False,False,26,--,GET LOUD,TWICE,Feel Special,3,3,1,15,9,2,4686412,819,12266370,0.65,0.07,0.27,26656,26,0,0,80,3,1
 2022-03-25,85,NEW,--,True,False,26,--,Get Into It (Yuh),Doja Cat,Planet Her (Deluxe),3,3,1,15,9,2,4019400,703,10526940,0.65,0.07,0.27,22883,26,0,0,85,1,1
-2022-03-25,86,RE,--,False,False,26,--,False God,Taylor Swift,Lover,3,3,1,15,9,2,4660425,814,12198600,0.65,0.07,0.27,26509,26,0,0,16,5,1
+2022-03-25,86,RE,--,False,False,26,--,False God,Taylor Swift,Lover,3,3,1,15,9,2,4660425,814,12198600,0.65,0.07,0.27,26509,26,0,0,17,5,1
 2022-03-25,87,RE,--,False,False,26,--,DO WHAT WE LIKE,TWICE,Eyes wide open,3,3,1,15,9,2,4140675,724,10843200,0.65,0.07,0.27,23569,26,0,0,21,3,1
 2022-03-25,88,RE,--,True,False,26,--,DEPEND ON YOU,TWICE,Eyes wide open,3,3,1,15,9,2,3976087,695,10413990,0.65,0.07,0.27,22638,26,0,0,88,2,1
 2022-03-25,89,RE,--,True,False,26,--,BRING IT BACK,TWICE,Eyes wide open,3,3,1,15,9,2,4002074,700,10481760,0.65,0.07,0.27,22785,26,0,0,89,1,1
@@ -96,6 +96,6 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-03-25,95,NEW,--,True,False,25,--,Title,Meghan Trainor,Title (Deluxe),3,2,2,15,6,4,4521825,527,23674320,0.52,0.04,0.44,25725,25,0,0,95,1,1
 2022-03-25,96,RE,--,False,False,25,--,PTT (Paint the Town),Loona,[&],3,2,2,15,6,4,4279275,498,22409280,0.52,0.04,0.44,24353,25,0,0,4,6,1
 2022-03-25,97,RE,--,False,False,25,--,everytime,Ariana Grande,Sweetener,3,2,2,15,6,4,3993412,465,20918340,0.52,0.04,0.44,22736,25,0,0,34,3,1
-2022-03-25,98,RE,--,False,False,24,--,So What,Loona,[#],3,1,3,15,3,6,4348575,253,34156080,0.44,0.02,0.55,24745,24,0,0,5,11,1
+2022-03-25,98,RE,--,False,False,24,--,So What,Loona,[#],3,1,3,15,3,6,4348575,253,34156080,0.44,0.02,0.55,24745,24,0,0,5,13,1
 2022-03-25,99,RE,--,False,False,24,--,Be Honest,Loona,[&],2,2,1,10,6,2,2639175,461,10368810,0.58,0.06,0.36,16099,18,0,6,15,3,1
 2022-03-25,100,RE,--,False,False,22,--,X X,Loona,[X X],2,2,1,10,6,2,2639175,461,10368810,0.58,0.06,0.36,16099,18,0,4,16,5,1

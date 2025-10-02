@@ -1,15 +1,15 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2023-05-12,1,=,1,True,True,914,0.4,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),81,60,22,405,180,44,123726487,16027,263896380,0.7,0.06,0.24,607012,629,196,89,1,30,4
-2023-05-12,2,RE,--,True,False,535,--,Run (feat. Ed Sheeran) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),76,1,76,380,3,152,119600250,275,939111480,0.44,0.0,0.56,586908,535,0,0,2,16,1
+2023-05-12,2,RE,--,True,False,535,--,Run (feat. Ed Sheeran) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),76,1,76,380,3,152,119600250,275,939111480,0.44,0.0,0.56,586908,535,0,0,2,17,1
 2023-05-12,3,RE,--,False,False,517,--,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),59,59,1,295,177,2,93358650,16325,10165500,0.88,0.1,0.02,375683,474,0,43,1,50,4
 2023-05-12,4,RE,--,False,False,482,--,Fearless (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),60,60,1,300,180,2,81427500,14243,10662480,0.88,0.1,0.02,400631,482,0,0,1,23,1
 2023-05-12,5,+2,7,False,False,354,1.58,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),46,4,20,230,12,40,60302550,917,206020800,0.64,0.01,0.35,223930,282,42,30,3,60,1
 2023-05-12,6,RE,--,False,False,308,--,Midnight Rain,Taylor Swift,Midnights (3am Edition),42,1,42,210,3,84,55180125,229,433592460,0.44,0.0,0.55,272510,297,0,11,1,28,1
 2023-05-12,7,RE,--,True,False,241,--,Come Back...Be Here (Taylor's Version),Taylor Swift,Red (Taylor's Version),34,1,34,170,3,68,46044075,236,361756260,0.44,0.0,0.55,227976,241,0,0,7,23,1
-2023-05-12,8,+20,28,False,False,181,3.89,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),22,1,22,110,3,44,33858825,269,265884300,0.44,0.0,0.55,168840,157,12,12,2,53,1
+2023-05-12,8,+20,28,False,False,181,3.89,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),22,1,22,110,3,44,33858825,269,265884300,0.44,0.0,0.55,168840,157,12,12,2,55,1
 2023-05-12,9,+5,14,False,False,173,1.16,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),17,1,17,85,3,34,24200137,248,190094850,0.44,0.0,0.55,121520,122,24,27,2,43,1
-2023-05-12,10,+21,31,False,False,133,2.91,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),17,1,17,85,3,34,25721850,264,201999780,0.44,0.0,0.55,129115,122,11,0,2,55,2
-2023-05-12,11,=,11,False,False,110,0.11,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),11,1,11,55,3,22,15881250,252,124741980,0.44,0.0,0.55,80983,80,30,0,5,39,1
+2023-05-12,10,+21,31,False,False,133,2.91,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),17,1,17,85,3,34,25721850,264,201999780,0.44,0.0,0.55,129115,122,11,0,2,56,2
+2023-05-12,11,=,11,False,False,110,0.11,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),11,1,11,55,3,22,15881250,252,124741980,0.44,0.0,0.55,80983,80,30,0,5,40,1
 2023-05-12,12,=,12,False,False,105,0.22,Conversation,TWICE,Taste of Love,6,6,1,30,18,2,8316000,1454,10888380,0.76,0.09,0.16,43953,50,26,29,6,7,1
 2023-05-12,13,=,13,False,False,101,0.23,SOS,TWICE,Taste of Love,6,6,1,30,18,2,7934850,1388,10391400,0.76,0.09,0.16,41951,50,25,26,8,9,1
 2023-05-12,14,RE,--,False,False,95,--,Karma,Taylor Swift,Midnights (3am Edition),13,2,12,65,6,24,16966950,456,123070320,0.46,0.01,0.53,85995,95,0,0,3,17,1
@@ -18,9 +18,9 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-05-12,17,=,17,False,False,89,0.27,Scandal,TWICE,Taste of Love,6,6,1,30,18,2,8905050,1557,11656440,0.76,0.09,0.16,47047,50,21,18,8,10,1
 2023-05-12,18,=,18,False,False,89,0.27,First Time,TWICE,Taste of Love,6,6,1,30,18,2,8818425,1542,11543490,0.76,0.09,0.16,46592,50,21,18,10,11,1
 2023-05-12,19,=,19,True,True,89,0.27,Baby Blue Love,TWICE,Taste of Love,6,6,1,30,18,2,8021475,1403,10504350,0.76,0.09,0.16,42406,50,21,18,19,7,2
-2023-05-12,20,+27,47,False,False,88,2.52,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),11,1,11,55,3,22,16992937,270,133439130,0.44,0.0,0.55,86618,80,8,0,1,30,1
+2023-05-12,20,+27,47,False,False,88,2.52,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),11,1,11,55,3,22,16992937,270,133439130,0.44,0.0,0.55,86618,80,8,0,1,31,1
 2023-05-12,21,-16,5,False,False,83,-0.59,Touchdown,TWICE,PAGE TWO,1,1,1,5,3,2,1510162,264,11859750,0.42,0.05,0.53,11046,10,61,12,5,14,1
-2023-05-12,22,RE,--,False,False,80,--,‘tis the damn season,Taylor Swift,evermore,11,1,11,55,3,22,14515462,230,114056909,0.44,0.0,0.55,74060,80,0,0,6,36,1
+2023-05-12,22,RE,--,False,False,80,--,‘tis the damn season,Taylor Swift,evermore,11,1,11,55,3,22,14515462,230,114056909,0.44,0.0,0.55,74060,80,0,0,6,35,1
 2023-05-12,23,RE,--,False,False,73,--,Girl at Home (Taylor's Version),Taylor Swift,Red (Taylor's Version),10,1,10,50,3,20,13224750,231,103913999,0.44,0.0,0.55,67767,73,0,0,12,6,1
 2023-05-12,24,+33,57,True,False,22,-0.08,Everyday I Love You,Loona,ViVi,1,1,1,5,3,2,1386000,242,10888380,0.42,0.05,0.53,10143,10,8,4,24,9,1
 2023-05-12,25,+37,62,False,False,19,-0.1,키스는 다음에,Loona,YeoJin,1,1,1,5,3,2,1394662,243,10956150,0.42,0.05,0.53,10206,10,7,2,6,11,1

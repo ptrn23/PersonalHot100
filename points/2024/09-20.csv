@@ -12,7 +12,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2024-09-20,11,-7,4,False,False,178,-0.23,Ignorance,Paramore,brand new eyes,10,10,1,50,30,2,13773375,2409,10820610,0.81,0.09,0.1,70560,82,70,26,4,3,1
 2024-09-20,12,-5,7,False,False,176,-0.09,Hitchin' a Ride,Green Day,Nimrod,10,10,1,50,30,2,13022625,2278,10233270,0.81,0.09,0.1,66738,82,59,35,2,37,7
 2024-09-20,13,+4,17,False,False,167,0.18,Helena,My Chemical Romance,Three Cheers for Sweet Revenge,13,13,1,65,39,2,19519500,3413,11791980,0.83,0.09,0.08,98847,106,43,18,3,31,1
-2024-09-20,14,-1,13,False,False,164,0.01,Sk8er Boi,Avril Lavigne,Let Go,12,12,1,60,36,2,18537750,3241,12130830,0.82,0.09,0.09,94150,98,49,17,13,20,1
+2024-09-20,14,-1,13,False,False,164,0.01,Sk8er Boi,Avril Lavigne,Let Go,12,12,1,60,36,2,18537750,3241,12130830,0.82,0.09,0.09,94150,98,49,17,13,21,1
 2024-09-20,15,+8,23,False,False,156,0.26,I Do Not Hook Up,Kelly Clarkson,All I Ever Wanted,11,11,1,55,33,2,15246000,2666,10888380,0.82,0.09,0.09,77763,90,38,28,1,13,1
 2024-09-20,16,-7,9,False,False,150,-0.18,Breed,Nirvana,Nevermind (Remastered),9,9,1,45,27,2,13305600,2326,11611260,0.8,0.09,0.11,68495,74,56,20,9,3,1
 2024-09-20,17,+2,19,False,False,149,0.07,Aliens Exist,blink-182,Enema of the State,10,10,1,50,30,2,13975500,2444,10978740,0.81,0.09,0.1,71589,82,42,25,9,6,1
@@ -41,7 +41,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2024-09-20,40,-13,27,False,False,97,-0.12,I Write Sins Not Tragedies,Panic! at the Disco,A Fever You Can't Sweat Out,6,6,1,30,18,2,9199575,1608,12040470,0.76,0.09,0.16,48594,50,33,14,27,4,1
 2024-09-20,41,-5,36,False,False,96,-0.05,I'm with You,Avril Lavigne,Let Go,7,7,1,35,21,2,10267950,1795,11520900,0.77,0.09,0.14,53655,58,31,7,36,10,1
 2024-09-20,42,+23,65,False,False,94,0.42,Lips of an Angel,Hinder,Extreme Behavior,9,9,1,45,27,2,13201650,2308,11520900,0.8,0.09,0.11,67963,74,20,0,13,9,1
-2024-09-20,43,+12,55,True,False,91,0.15,My Happy Ending,Avril Lavigne,Under My Skin,7,7,1,35,21,2,10934962,1912,12266370,0.77,0.09,0.14,57120,58,24,9,43,8,1
+2024-09-20,43,+12,55,True,False,91,0.15,My Happy Ending,Avril Lavigne,Under My Skin,7,7,1,35,21,2,10934962,1912,12266370,0.77,0.09,0.14,57120,58,24,9,43,11,1
 2024-09-20,44,RE,--,False,False,90,--,you,dodie,You - EP,11,11,1,55,33,2,14324887,2505,10233270,0.82,0.09,0.09,73094,90,0,0,3,10,1
 2024-09-20,45,RE,--,False,False,90,--,Would You Be So Kind,dodie,You - EP,11,11,1,55,33,2,14388412,2516,10278450,0.82,0.09,0.09,73416,90,0,0,4,16,1
 2024-09-20,46,RE,--,False,False,90,--,secret for the mad,dodie,You - EP,11,11,1,55,33,2,15563625,2722,11114280,0.82,0.09,0.09,79373,90,0,0,2,12,1
@@ -51,10 +51,10 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2024-09-20,50,RE,--,False,False,90,--,6/10,dodie,You - EP,11,11,1,55,33,2,15373050,2688,10978740,0.82,0.09,0.09,78407,90,0,0,18,7,1
 2024-09-20,51,+13,64,False,False,86,0.3,Still Into You,Paramore,Paramore,8,8,1,40,24,2,10764600,1882,10572120,0.79,0.09,0.12,55811,66,20,0,7,25,1
 2024-09-20,52,+14,66,False,False,86,0.3,Basket Case,Green Day,Dookie,8,8,1,40,24,2,11896500,2080,11679030,0.79,0.09,0.12,61642,66,20,0,2,21,1
-2024-09-20,53,+20,73,False,False,84,0.45,Since U Been Gone,Kelly Clarkson,Breakaway,8,8,1,40,24,2,12450900,2177,12221190,0.79,0.09,0.12,64498,66,18,0,9,47,2
+2024-09-20,53,+20,73,False,False,84,0.45,Since U Been Gone,Kelly Clarkson,Breakaway,8,8,1,40,24,2,12450900,2177,12221190,0.79,0.09,0.12,64498,66,18,0,8,47,1
 2024-09-20,54,+23,77,False,False,81,0.62,I Don't Love You,My Chemical Romance,The Black Parade,8,8,1,40,24,2,11319000,1979,11114280,0.79,0.09,0.12,58667,66,15,0,6,29,2
 2024-09-20,55,-6,49,False,False,78,-0.1,My Songs Know What You Did in the Dark (Light Em Up),Fall Out Boy,Save Rock and Roll,5,5,1,25,15,2,7218750,1262,11340180,0.73,0.08,0.18,38731,42,27,9,49,3,1
-2024-09-20,56,+16,72,False,False,76,0.31,Welcome to the Black Parade,My Chemical Romance,The Black Parade,7,7,1,35,21,2,9964762,1742,11182050,0.77,0.09,0.14,52080,58,18,0,3,32,1
+2024-09-20,56,+16,72,False,False,76,0.31,Welcome to the Black Parade,My Chemical Romance,The Black Parade,7,7,1,35,21,2,9964762,1742,11182050,0.77,0.09,0.14,52080,58,18,0,4,32,1
 2024-09-20,57,+21,78,True,False,73,0.46,Bring Me to Life,Evanescence,Fallen,7,7,1,35,21,2,9722212,1700,10910970,0.77,0.09,0.14,50820,58,15,0,57,2,1
 2024-09-20,58,RE,--,False,False,72,--,You Are in Love (Taylor's Version),Taylor Swift,1989 (Taylor's Version),9,7,3,45,21,6,11876287,1615,31106429,0.66,0.06,0.28,61179,72,0,0,14,8,1
 2024-09-20,59,+28,87,False,False,71,0.69,She's So Mean,Matchbox Twenty,North (Deluxe Edition),7,7,1,35,21,2,10651987,1862,11950110,0.77,0.09,0.14,55650,58,13,0,4,35,1
@@ -81,13 +81,13 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2024-09-20,80,-29,51,False,False,48,-0.43,The Sharpest Lives,My Chemical Romance,The Black Parade,1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,26,12,4,16,2
 2024-09-20,81,-20,61,False,False,48,-0.31,The Black Dog,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,1,1,1,5,3,2,1316700,230,10346220,0.42,0.05,0.53,9639,10,21,17,1,18,1
 2024-09-20,82,+15,97,False,False,47,0.21,Low,Kelly Clarkson,Thankful,3,3,1,15,9,2,3993412,698,10459170,0.65,0.07,0.27,22736,26,12,9,3,9,1
-2024-09-20,83,-3,80,False,False,45,-0.06,LOVE DIVE,IVE,LOVE DIVE,2,2,1,10,6,2,2743125,479,10775430,0.58,0.06,0.36,16730,18,15,12,1,61,4
+2024-09-20,83,-3,80,False,False,45,-0.06,LOVE DIVE,IVE,LOVE DIVE,2,2,1,10,6,2,2743125,479,10775430,0.58,0.06,0.36,16730,18,15,12,1,62,4
 2024-09-20,84,-15,69,False,False,45,-0.3,Style (Taylor's Version),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,1388887,242,10910970,0.42,0.05,0.53,10164,10,20,15,2,48,2
 2024-09-20,85,-26,59,False,False,45,-0.36,Homecoming,Green Day,American Idiot,1,1,1,5,3,2,1440862,252,11317590,0.42,0.05,0.53,10542,10,21,14,4,21,1
 2024-09-20,86,RE,--,False,False,42,--,The Only Exception,Paramore,brand new eyes,5,5,1,25,15,2,6569062,1149,10323630,0.73,0.08,0.18,35266,42,0,0,83,2,1
 2024-09-20,87,NEW,--,True,False,42,--,Love Drunk,Boys Like Girls,Love Drunk,5,5,1,25,15,2,7478625,1307,11746800,0.73,0.08,0.18,40117,42,0,0,87,1,1
 2024-09-20,88,NEW,--,True,False,42,--,If You're Gone,Matchbox Twenty,Mad Season,5,5,1,25,15,2,6684562,1169,10504350,0.73,0.08,0.18,35882,42,0,0,88,1,1
-2024-09-20,89,RE,--,False,False,42,--,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,7218750,1262,11340180,0.73,0.08,0.18,38731,42,0,0,5,55,1
+2024-09-20,89,RE,--,False,False,42,--,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,7218750,1262,11340180,0.73,0.08,0.18,38731,42,0,0,5,56,1
 2024-09-20,90,+6,96,False,False,42,0.05,ELEVEN,IVE,ELEVEN,2,2,1,10,6,2,2875950,502,11295000,0.58,0.06,0.36,17535,18,12,12,1,31,1
 2024-09-20,91,-12,79,False,False,35,-0.29,I'm Just a Kid,Simple Plan,No Pads No Helmets...Just Balls (15th Anniversary Tour Edition),1,1,1,5,3,2,1299375,227,10210680,0.42,0.05,0.53,9513,10,15,10,76,3,1
 2024-09-20,92,RE,--,False,False,34,--,Under / Over,Gracie Abrams,minor,4,4,1,20,12,2,6017550,1052,11814570,0.7,0.08,0.22,33012,34,0,0,25,12,2
@@ -96,6 +96,6 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2024-09-20,95,NEW,--,True,False,34,--,Real World,Matchbox Twenty,Yourself or Someone Like You,4,4,1,20,12,2,5313000,929,10436580,0.7,0.08,0.22,29169,34,0,0,95,1,1
 2024-09-20,96,RE,--,False,False,34,--,minor,Gracie Abrams,minor,4,4,1,20,12,2,5313000,929,10436580,0.7,0.08,0.22,29169,34,0,0,31,7,1
 2024-09-20,97,RE,--,False,False,34,--,Long Sleeves,Gracie Abrams,minor,4,4,1,20,12,2,6202350,1084,12176010,0.7,0.08,0.22,34020,34,0,0,35,7,1
-2024-09-20,98,RE,--,False,False,34,--,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,5694150,995,11182050,0.7,0.08,0.22,31248,34,0,0,1,89,1
+2024-09-20,98,RE,--,False,False,34,--,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,5694150,995,11182050,0.7,0.08,0.22,31248,34,0,0,1,87,1
 2024-09-20,99,RE,--,False,False,34,--,Friend,Gracie Abrams,minor,4,4,1,20,12,2,5520900,965,10843200,0.7,0.08,0.22,30303,34,0,0,36,9,1
 2024-09-20,100,RE,--,False,False,34,--,Difficult,Gracie Abrams,Good Riddance (Deluxe),4,4,1,20,12,2,6260100,1094,12288960,0.7,0.08,0.22,34335,34,0,0,21,9,1

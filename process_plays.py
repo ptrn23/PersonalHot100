@@ -3,7 +3,7 @@ import os
 from datetime import datetime, timedelta
 from collections import defaultdict
 
-input_file = 'data/2025.csv'
+YEARS = [str(year) for year in range(2020, 2026)]
 output_root = 'plays'
 
 def get_week_friday(date):
@@ -28,33 +28,39 @@ weekly_data = defaultdict(lambda: defaultdict(lambda: {
 
 artist_mapping = {}
 
-with open(input_file, 'r', encoding='utf-8') as file:
-    reader = csv.reader(file)
-    
-    previous_song = previous_album = previous_artist = previous_week = None
-    ongoing_streak = defaultdict(int)
+for year in YEARS:
+    input_file = f'data/{year}.csv'
+    if not os.path.exists(input_file):
+        continue
 
-    for row in reader:
-        artist, album, song, timestamp = row
-        date = datetime.strptime(timestamp, "%d %b %Y %H:%M")
-        week_friday = get_week_friday(date)
+    with open(input_file, 'r', encoding='utf-8') as file:
+        print(f"Processing {input_file}...")
+        reader = csv.reader(file)
+        
+        previous_song = previous_album = previous_artist = previous_week = None
+        ongoing_streak = defaultdict(int)
 
-        artist_mapping[(song, album, artist)] = artist
-        song_key = (song, album, artist)
-        song_data = weekly_data[week_friday][song_key]
-        song_data["streams"] += 1
+        for row in reader:
+            artist, album, song, timestamp = row
+            date = datetime.strptime(timestamp, "%d %b %Y %H:%M")
+            week_friday = get_week_friday(date)
 
-        if previous_week != week_friday or previous_song != song or previous_album != album or previous_artist != artist:
-            song_data["sales"] += 1
-            ongoing_streak[(previous_song, previous_album, previous_artist)] = 0
+            artist_mapping[(song, album, artist)] = artist
+            song_key = (song, album, artist)
+            song_data = weekly_data[week_friday][song_key]
+            song_data["streams"] += 1
 
-        ongoing_streak[song_key] += 1
-        song_data["airplay"] = max(song_data["airplay"], ongoing_streak[song_key])
+            if previous_week != week_friday or previous_song != song or previous_album != album or previous_artist != artist:
+                song_data["sales"] += 1
+                ongoing_streak[(previous_song, previous_album, previous_artist)] = 0
 
-        previous_song = song
-        previous_album = album
-        previous_artist = artist
-        previous_week = week_friday
+            ongoing_streak[song_key] += 1
+            song_data["airplay"] = max(song_data["airplay"], ongoing_streak[song_key])
+
+            previous_song = song
+            previous_album = album
+            previous_artist = artist
+            previous_week = week_friday
 
 for week_start, songs in sorted(weekly_data.items()):
     year = week_start.year

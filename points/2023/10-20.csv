@@ -5,7 +5,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-10-20,4,+8,12,False,False,146,1.06,Midnight Rain,Taylor Swift,Midnights (3am Edition),13,6,9,65,18,18,17079562,1378,92912670,0.52,0.03,0.45,89768,101,22,23,1,48,2
 2023-10-20,5,-1,4,False,False,145,-0.46,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,6554625,1146,10301040,0.73,0.08,0.18,35189,42,81,22,1,82,2
 2023-10-20,6,-1,5,False,False,128,-0.51,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,5232150,915,10278450,0.7,0.08,0.22,28728,34,78,16,1,84,7
-2023-10-20,7,+1,8,False,False,125,-0.21,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,6156150,1076,12085650,0.7,0.08,0.22,33768,34,48,43,1,72,1
+2023-10-20,7,+1,8,False,False,125,-0.21,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,6156150,1076,12085650,0.7,0.08,0.22,33768,34,48,43,1,74,1
 2023-10-20,8,-2,6,False,False,120,-0.49,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,5694150,995,11182050,0.7,0.08,0.22,31248,34,72,14,2,63,1
 2023-10-20,9,+53,62,True,True,117,4.09,Enchanted (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),14,4,11,70,12,22,20899725,1044,128966310,0.5,0.02,0.49,105560,104,7,6,9,11,2
 2023-10-20,10,-3,7,False,False,101,-0.51,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,6052200,1058,11882340,0.7,0.08,0.22,33201,34,63,4,1,79,5
@@ -15,7 +15,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-10-20,14,+2,16,False,False,66,0.2,Sensitive,Loossemble,LOOSSEMBLE,4,4,1,20,12,2,5405400,945,10617300,0.7,0.08,0.22,29673,34,17,15,3,6,1
 2023-10-20,15,-2,13,False,False,66,-0.07,A Thousand Miles,Vanessa Carlton,Be Not Nobody,3,3,1,15,9,2,4539150,793,11882340,0.65,0.07,0.27,25823,26,22,18,1,8,2
 2023-10-20,16,-7,9,False,False,66,-0.44,Wildest Dreams (Taylor's Version),Taylor Swift,Wildest Dreams (Taylor's Version),1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,36,20,1,53,8
-2023-10-20,17,-7,10,False,False,64,-0.2,‘tis the damn season,Taylor Swift,evermore,2,1,2,10,3,4,2639175,230,20737620,0.43,0.02,0.54,16099,17,24,23,1,46,1
+2023-10-20,17,-7,10,False,False,64,-0.2,‘tis the damn season,Taylor Swift,evermore,2,1,2,10,3,4,2639175,230,20737620,0.43,0.02,0.54,16099,17,24,23,1,45,1
 2023-10-20,18,RE,--,False,False,59,--,Countdown,Beyoncé,4,8,1,8,40,3,16,10903200,238,85661280,0.44,0.01,0.55,56525,59,0,0,8,4,1
 2023-10-20,19,+10,29,False,False,58,0.49,FEARLESS,LE SSERAFIM,FEARLESS,4,4,1,20,12,2,5844300,1022,11475720,0.7,0.08,0.22,32067,34,12,12,1,58,3
 2023-10-20,20,+7,27,False,False,57,0.36,She's So Mean,Matchbox Twenty,North (Deluxe Edition),4,4,1,20,12,2,6086850,1064,11950110,0.7,0.08,0.22,33390,34,13,10,4,22,1
@@ -64,7 +64,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-10-20,63,RE,--,False,False,31,--,Sweet Nothing,Taylor Swift,Midnights (3am Edition),3,3,1,15,9,2,4296600,751,11249820,0.65,0.07,0.27,24451,26,0,5,6,24,1
 2023-10-20,64,RE,--,False,False,30,--,Would've Could've Should've,Taylor Swift,Midnights (3am Edition),3,3,1,15,9,2,4287937,749,11227230,0.65,0.07,0.27,24402,26,0,4,4,20,1
 2023-10-20,65,RE,--,False,False,30,--,Speak Now (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),3,3,1,15,9,2,4158000,727,10888380,0.65,0.07,0.27,23667,26,0,4,19,8,1
-2023-10-20,66,RE,--,False,False,30,--,Paris,Taylor Swift,Midnights (3am Edition),3,3,1,15,9,2,4599787,804,12040470,0.65,0.07,0.27,26166,26,0,4,5,22,1
+2023-10-20,66,RE,--,False,False,30,--,Paris,Taylor Swift,Midnights (3am Edition),3,3,1,15,9,2,4599787,804,12040470,0.65,0.07,0.27,26166,26,0,4,5,23,1
 2023-10-20,67,RE,--,False,False,30,--,Never Grow Up (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),3,3,1,15,9,2,4365900,763,11430540,0.65,0.07,0.27,24843,26,0,4,31,6,1
 2023-10-20,68,RE,--,False,False,30,--,Maroon,Taylor Swift,Midnights (3am Edition),3,3,1,15,9,2,4201312,734,11001330,0.65,0.07,0.27,23912,26,0,4,3,21,1
 2023-10-20,69,RE,--,False,False,30,--,Lavender Haze,Taylor Swift,Midnights (3am Edition),3,3,1,15,9,2,4443862,777,11633850,0.65,0.07,0.27,25284,26,0,4,1,33,1
@@ -90,9 +90,9 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-10-20,89,RE,--,False,False,18,--,Prinsesa,6CycleMind,Home,2,2,1,10,6,2,3118500,545,12243780,0.58,0.06,0.36,19005,18,0,0,77,2,1
 2023-10-20,90,RE,--,False,False,18,--,Ours (Taylor’s Version),Taylor Swift,Speak Now (Taylor's Version),2,2,1,10,6,2,2997225,524,11769390,0.58,0.06,0.36,18270,18,0,0,12,6,1
 2023-10-20,91,NEW,--,True,False,18,--,Lust for Life (with The Weeknd),Lana Del Rey,Lust for Life,2,2,1,10,6,2,3164700,553,10165500,0.58,0.06,0.36,15785,18,0,0,91,1,1
-2023-10-20,92,RE,--,False,False,18,--,LIKEY,TWICE,twicetagram,2,2,1,10,6,2,3147375,550,12356730,0.58,0.06,0.36,19180,18,0,0,13,15,1
+2023-10-20,92,RE,--,False,False,18,--,LIKEY,TWICE,twicetagram,2,2,1,10,6,2,3147375,550,12356730,0.58,0.06,0.36,19180,18,0,0,13,14,1
 2023-10-20,93,RE,--,False,False,18,--,invisible string,Taylor Swift,folklore,2,2,1,10,6,2,3130050,547,12288960,0.58,0.06,0.36,19075,18,0,0,14,16,2
-2023-10-20,94,RE,--,False,False,18,--,Into You,Ariana Grande,Dangerous Woman,2,2,1,10,6,2,3095400,541,12153420,0.58,0.06,0.36,18865,18,0,0,5,21,1
+2023-10-20,94,RE,--,False,False,18,--,Into You,Ariana Grande,Dangerous Woman,2,2,1,10,6,2,3095400,541,12153420,0.58,0.06,0.36,18865,18,0,0,5,20,1
 2023-10-20,95,NEW,--,True,False,18,--,Ikaw Lang Ang Aking Mahal,Brownman Revival,Steady Lang,2,2,1,10,6,2,2875950,502,11295000,0.58,0.06,0.36,17535,18,0,0,95,1,1
 2023-10-20,96,RE,--,False,False,18,--,I Want You to Know,Zedd,True Colors,2,2,1,10,6,2,3060750,535,12017880,0.58,0.06,0.36,18655,18,0,0,39,9,2
 2023-10-20,97,RE,--,False,False,18,--,I Think He Knows,Taylor Swift,Lover,2,2,1,10,6,2,3130050,547,12288960,0.58,0.06,0.36,19075,18,0,0,1,28,1

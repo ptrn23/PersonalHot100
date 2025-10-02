@@ -1,21 +1,381 @@
 Week,Song Name,Album Name,Artist Name,Streams,Sales,Airplay
-2024-12-27,ไหล่เธอ (You’ve Got Ma Back) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),ไหล่เธอ (You’ve Got Ma Back) - Single,Fourth,27,14,10
-2024-12-27,พูดได้ไหม (Let Me Tell You) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),พูดได้ไหม (Let Me Tell You) - Single,Fourth,1,1,1
-2024-12-27,เพื่อนเล่น ไม่เล่นเพื่อน (Cover Version) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),เพื่อนเล่น ไม่เล่นเพื่อน (Cover Version) - Single,Fourth,1,1,1
-2024-12-27,อยากร้องดังดัง (Cover Version) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),อยากร้องดังดัง (Cover Version) - Single,Fourth,1,1,1
-2024-12-27,ง้อว (Smile Please) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),ง้อว (Smile Please) - Single,Fourth,8,8,1
-2024-12-27,ก้อนหินกับดวงดาว (Rock & Star) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),ก้อนหินกับดวงดาว (Rock & Star) - Single,Fourth,3,3,1
-2024-12-27,เพลงรัก (Hook) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),เพลงรัก (Hook) - Single,Gemini,3,3,1
+2024-12-27,Begin Again (Taylor's Version),Red (Taylor's Version),Taylor Swift,19,6,10
+2024-12-27,After LIKE,After LIKE,IVE,19,11,5
+2024-12-27,Like a G6,Free Wired,Far East Movement,1,1,1
+2024-12-27,Shake It Off (Taylor's Version),1989 (Taylor's Version),Taylor Swift,9,4,4
+2024-12-27,Timber,Global Warming: Meltdown (Deluxe Version),Pitbull,1,1,1
+2024-12-27,Cruel Summer,Lover,Taylor Swift,1,1,1
+2024-12-27,BIRDS OF A FEATHER,HIT ME HARD AND SOFT,Billie Eilish,1,1,1
+2024-12-27,APT.,rosie,Rosé,2,2,1
+2024-12-27,Espresso,Espresso,Sabrina Carpenter,2,2,1
+2024-12-27,The Kids from Yesterday,Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,1,1
+2024-12-27,Complicated,Let Go,Avril Lavigne,2,2,1
+2024-12-27,Now That We Don't Talk (Taylor's Version) (From the Vault),1989 (Taylor's Version),Taylor Swift,1,1,1
+2024-12-27,The Static Age,21st Century Breakdown,Green Day,1,1,1
+2024-12-27,You Know What They Do to Guys Like Us in Prison,Three Cheers for Sweet Revenge,My Chemical Romance,1,1,1
+2024-12-27,Gone,Breakaway,Kelly Clarkson,1,1,1
+2024-12-27,I Can Fix Him (No Really I Can),THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,1,1,1
+2024-12-27,Good Riddance (Time of Your Life),Nimrod,Green Day,1,1,1
+2024-12-27,SING,Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,1,1
+2024-12-27,Unwell,More Than You Think You Are,Matchbox Twenty,3,3,1
+2024-12-27,Midnight Rain,Midnights (The Til Dawn Edition),Taylor Swift,1,1,1
+2024-12-27,Worry Rock,Nimrod,Green Day,1,1,1
+2024-12-27,Planetary (GO!),Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,1,1
+2024-12-27,The Rock Show,Take Off Your Pants and Jacket,blink-182,6,6,1
+2024-12-27,I Wish You Would (Taylor's Version),1989 (Taylor's Version),Taylor Swift,1,1,1
+2024-12-27,One Eyed Bastard,Saviors,Green Day,2,2,1
+2024-12-27,Bulletproof Heart,Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,1,1
+2024-12-27,Breed,Nevermind (Remastered),Nirvana,1,1,1
+2024-12-27,Thnks fr th Mmrs,Infinity on High,Fall Out Boy,1,1,1
+2024-12-27,Give Me Novacaine / She's a Rebel,American Idiot,Green Day,1,1,1
+2024-12-27,Vampire Money,Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,1,1
+2024-12-27,Uptown Girl,Coast to Coast (Expanded Edition),Westlife,2,2,1
+2024-12-27,Ignorance,brand new eyes,Paramore,1,1,1
+2024-12-27,Are We the Waiting / St. Jimmy,American Idiot,Green Day,1,1,1
+2024-12-27,Sleep,The Black Parade,My Chemical Romance,2,2,1
+2024-12-27,Dance Dance,From Under the Cork Tree,Fall Out Boy,3,3,1
+2024-12-27,Adam's Song,Enema of the State,blink-182,2,2,1
+2024-12-27,Saviors,Saviors,Green Day,4,2,3
+2024-12-27,The Bolter,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,3,3,1
+2024-12-27,Behind These Hazel Eyes,Breakaway,Kelly Clarkson,3,3,1
+2024-12-27,The End.,The Black Parade,My Chemical Romance,2,2,1
+2024-12-27,21 Guns,21st Century Breakdown,Green Day,1,1,1
+2024-12-27,Fresh Out the Slammer,THE TORTURED POETS DEPARTMENT,Taylor Swift,1,1,1
+2024-12-27,Aliens Exist,Enema of the State,blink-182,2,2,1
+2024-12-27,The Ghost of You,Three Cheers for Sweet Revenge,My Chemical Romance,1,1,1
+2024-12-27,Dilemma,Saviors,Green Day,2,2,1
+2024-12-27,Nobody's Home,Under My Skin,Avril Lavigne,2,2,1
+2024-12-27,The Albatross,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,1,1,1
+2024-12-27,Mama,The Black Parade,My Chemical Romance,2,2,1
+2024-12-27,1981,Saviors,Green Day,2,2,1
+2024-12-27,Sk8er Boi,Let Go,Avril Lavigne,3,3,1
+2024-12-27,Forever & Always (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,1,1,1
+2024-12-27,Miss Independent,Thankful,Kelly Clarkson,2,2,1
+2024-12-27,Basket Case,Dookie,Green Day,2,2,1
+2024-12-27,Buddy Holly,Weezer,Weezer,2,2,1
+2024-12-27,imgonnagetyouback,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,1,1,1
+2024-12-27,A Moment Like This,Thankful,Kelly Clarkson,3,3,1
+2024-12-27,King for a Day,Nimrod,Green Day,1,1,1
+2024-12-27,Don't Leave Me,Enema of the State,blink-182,4,4,1
+2024-12-27,The Black Dog,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,1,1,1
+2024-12-27,Before Your Love,Thankful,Kelly Clarkson,2,2,1
+2024-12-27,Too Dumb To Die,Revolution Radio,Green Day,1,1,1
+2024-12-27,Na Na Na (Na Na Na Na Na Na Na Na Na),Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,1,1
+2024-12-27,I Knew You Were Trouble (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2024-12-27,My Life Would Suck Without You,All I Ever Wanted,Kelly Clarkson,3,3,1
+2024-12-27,All the Time,Nimrod,Green Day,6,2,5
+2024-12-27,The Sharpest Lives,The Black Parade,My Chemical Romance,2,2,1
+2024-12-27,Because of You,Breakaway,Kelly Clarkson,2,2,1
+2024-12-27,Before the Lobotomy,21st Century Breakdown,Green Day,1,1,1
+2024-12-27,Famous Last Words,The Black Parade,My Chemical Romance,2,2,1
+2024-12-27,Red (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2024-12-27,Beautiful Disaster,Thankful,Kelly Clarkson,2,2,1
+2024-12-27,Extraordinary Girl / Letterbomb,American Idiot,Green Day,1,1,1
+2024-12-27,Sugar We're Goin Down,From Under the Cork Tree,Fall Out Boy,3,3,1
+2024-12-27,I Look in People's Windows,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,1,1,1
+2024-12-27,Teenagers,The Black Parade,My Chemical Romance,2,2,1
+2024-12-27,Whatsername,American Idiot,Green Day,1,1,1
+2024-12-27,Mobile,Let Go,Avril Lavigne,2,2,1
+2024-12-27,Blank Space (Taylor's Version),1989 (Taylor's Version),Taylor Swift,1,1,1
+2024-12-27,Vegas,Vegas,Niki DeMar,1,1,1
+2024-12-27,Espresso,Short n' Sweet,Sabrina Carpenter,7,3,5
+2024-12-27,Welcome to the Black Parade,The Black Parade,My Chemical Romance,2,2,1
+2024-12-27,Bobby Sox,Saviors,Green Day,2,2,1
+2024-12-27,All the Small Things,Enema of the State,blink-182,2,2,1
+2024-12-27,I Do Not Hook Up,All I Ever Wanted,Kelly Clarkson,1,1,1
+2024-12-27,I Don't Love You,The Black Parade,My Chemical Romance,2,2,1
+2024-12-27,Too Much Too Soon,American Idiot (Deluxe),Green Day,1,1,1
+2024-12-27,My Boy Only Breaks His Favorite Toys,THE TORTURED POETS DEPARTMENT,Taylor Swift,1,1,1
+2024-12-27,What's My Age Again?,Enema of the State,blink-182,3,3,1
+2024-12-27,Helena,Three Cheers for Sweet Revenge,My Chemical Romance,3,3,1
+2024-12-27,American Idiot,American Idiot,Green Day,1,1,1
+2024-12-27,Guilty as Sin?,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,3,3,1
+2024-12-27,Since U Been Gone,Breakaway,Kelly Clarkson,1,1,1
+2024-12-27,I'm Not Okay (I Promise),Three Cheers for Sweet Revenge,My Chemical Romance,3,3,1
+2024-12-27,Redundant,Nimrod,Green Day,6,2,5
+2024-12-27,Style (Taylor's Version),1989 (Taylor's Version),Taylor Swift,1,1,1
+2024-12-27,Breakaway,Breakaway,Kelly Clarkson,4,4,1
+2024-12-27,Dead!,The Black Parade,My Chemical Romance,4,4,1
+2024-12-27,Wake Me Up When September Ends,American Idiot,Green Day,2,2,1
+2024-12-27,Look Ma No Brains!,Saviors,Green Day,3,3,1
+2024-12-27,Uptight,Nimrod,Green Day,1,1,1
+2024-12-27,Hitchin' a Ride,Nimrod,Green Day,1,1,1
+2024-12-27,Nice Guys Finish Last,Nimrod,Green Day,4,4,1
+2024-12-27,U Can't Touch This,Please Hammer Don't Hurt 'Em,MC Hammer,1,1,1
+2024-12-27,Heaven Is a Place on Earth,Heaven on Earth (Remastered & Expanded Special Edition),Belinda Carlisle,2,2,1
+2024-12-27,London Bridge,The Dutchess,Fergie,2,2,1
+2024-12-27,Butterfly,Butterfly,Mariah Carey,1,1,1
+2024-12-27,It's All Coming Back to Me Now,Falling Into You,Céline Dion,2,2,1
+2024-12-27,Another One Bites The Dust - Remastered 2011,The Game (2011 Remaster),Queen,1,1,1
+2024-12-27,I Want You Back - Radio Edit,'N Sync UK Version,*NSYNC,1,1,1
+2024-12-27,#Beautiful,Me. I Am Mariah…The Elusive Chanteuse,Mariah Carey,1,1,1
+2024-12-27,Cryin',Get a Grip,Aerosmith,1,1,1
+2024-12-27,Stop,Spiceworld,Spice Girls,1,1,1
+2024-12-27,Hung Up,Confessions on a Dance Floor,Madonna,1,1,1
+2024-12-27,Jenny from the Block (feat. Jadakiss & Styles P.) - Track Masters Remix,This Is Me...Then,Jennifer Lopez,2,2,1
+2024-12-27,Don't Stop Me Now - Remastered 2011,Jazz (2011 Remaster),Queen,1,1,1
+2024-12-27,Everybody (Backstreet's Back),Backstreet's Back,Backstreet Boys,1,1,1
+2024-12-27,Sweet Child o' Mine,Appetite for Destruction,Guns N' Roses,1,1,1
+2024-12-27,Real World,Yourself or Someone Like You,Matchbox Twenty,1,1,1
+2024-12-27,Hero,Music Box,Mariah Carey,2,2,1
+2024-12-27,Dreamlover,Music Box,Mariah Carey,2,2,1
+2024-12-27,Fantasy,Daydream,Mariah Carey,1,1,1
+2024-12-27,Hotel California - 2013 Remaster,Hotel California (2013 Remaster),Eagles,1,1,1
+2024-12-27,Lips of an Angel,Extreme Behavior,Hinder,5,5,1
+2024-12-27,Hey Jude - Remastered 2015,1 (Remastered),The Beatles,1,1,1
+2024-12-27,Maxwell's Silver Hammer - Remastered 2009,Abbey Road (Remastered),The Beatles,1,1,1
+2024-12-27,Hey Ya!,Speakerboxxx/The Love Below,OutKast,1,1,1
+2024-12-27,Give Your Heart a Break,Unbroken,Demi Lovato,1,1,1
+2024-12-27,When I Look at You,The Time of Our Lives (International Version),Miley Cyrus,1,1,1
+2024-12-27,Fresh Out the Slammer,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,12,4,5
+2024-12-27,Popular Song,Yours Truly,Mika,2,2,1
+2024-12-27,Shake It Off,The Emancipation of Mimi,Mariah Carey,1,1,1
+2024-12-27,Believe,Believe,Cher,1,1,1
+2024-12-27,Mamma Mia,ABBA,ABBA,3,3,1
+2024-12-27,I Don't Want to Miss a Thing - From Armageddon Soundtrack,Armageddon - The Album,Aerosmith,1,1,1
+2024-12-27,Bye Bye Bye - From Deadpool and Wolverine Soundtrack,No Strings Attached,*NSYNC,1,1,1
+2024-12-27,Total Eclipse of the Heart,Faster Than the Speed of Night,Bonnie Tyler,1,1,1
+2024-12-27,If Ever You're In My Arms Again,Straight From The Heart,Peabo Bryson,1,1,1
+2024-12-27,It's Gonna Be Me,No Strings Attached,*NSYNC,1,1,1
+2024-12-27,Fergalicious,The Dutchess,Fergie,2,2,1
+2024-12-27,Nothing's Gonna Stop Us Now,No Protection,Starship,2,2,1
+2024-12-27,Sometimes,...Baby One More Time (Digital Deluxe Version),Britney Spears,1,1,1
+2024-12-27,Everybody Wants to Rule the World,Songs From The Big Chair (Super Deluxe Edition),Tears for Fears,1,1,1
+2024-12-27,Talking In Your Sleep (2023 Remaster),In Heat (2023 Remaster),The Romantics,1,1,1
+2024-12-27,3AM,Yourself or Someone Like You,Matchbox Twenty,1,1,1
+2024-12-27,Buttons,PCD,The Pussycat Dolls,1,1,1
+2024-12-27,Wake Me Up Before You Go-Go,Make It Big,Wham!,1,1,1
+2024-12-27,My Love,Coast to Coast (Expanded Edition),Westlife,2,2,1
+2024-12-27,Pon de Replay,Music of the Sun,Rihanna,1,1,1
+2024-12-27,September,The Best of Earth Wind & Fire Vol. 1,Earth Wind & Fire,1,1,1
+2024-12-27,Always Be My Baby,Daydream,Mariah Carey,1,1,1
+2024-12-27,Make Your Own Kind of Music,Mama's Big Ones,Cass Elliot,1,1,1
+2024-12-27,This Love,Songs About Jane: 10th Anniversary Edition,Maroon 5,2,2,1
+2024-12-27,You Spin Me Round (Like a Record),Evolution: The Hits,Dead or Alive,2,2,1
+2024-12-27,Touch My Body,E=MC2 (Deluxe Version),Mariah Carey,1,1,1
+2024-12-27,Heaven Is a Place on Earth,Greatest Vol.1 - Belinda Carlisle,Belinda Carlisle,1,1,1
+2024-12-27,Under Pressure - Remastered 2011,Hot Space (2011 Remaster),Queen,2,2,1
+2024-12-27,I Wanna Dance with Somebody (Who Loves Me),Whitney,Whitney Houston,1,1,1
+2024-12-27,Two Less Lonely People in the World,Now And Forever,Air Supply,1,1,1
+2024-12-27,I'm with You,Let Go,Avril Lavigne,1,1,1
+2024-12-27,Jesus of Suburbia,American Idiot,Green Day,1,1,1
+2024-12-27,Losing Grip,Let Go,Avril Lavigne,1,1,1
+2024-12-27,Dance Again,Dance Again...The Hits,Jennifer Lopez,3,3,1
+2024-12-27,You Give Love a Bad Name,Slippery When Wet,Bon Jovi,2,2,1
+2024-12-27,Let's Get Loud,On the 6,Jennifer Lopez,1,1,1
+2024-12-27,How Will I Know,Whitney Houston,Whitney Houston,1,1,1
+2024-12-27,Take on Me,Hunting High and Low,a-ha,1,1,1
+2024-12-27,Honey,Butterfly,Mariah Carey,1,1,1
+2024-12-27,Booty,Booty,Jennifer Lopez,1,1,1
+2024-12-27,Beat It,Thriller,Michael Jackson,1,1,1
+2024-12-27,No Limit,The Beautiful & Damned,G-Eazy,1,1,1
+2024-12-27,Keep on Movin',Invincible,Five,1,1,1
+2024-12-27,Material Girl,Celebration (Double Disc Version),Madonna,2,2,1
+2024-12-27,The Trouble with Love Is,Thankful,Kelly Clarkson,1,1,1
+2024-12-27,Summer Paradise (feat. MKTO) - Single Version,Summer Paradise (feat. MKTO),Simple Plan,2,2,1
+2024-12-27,YMCA,Can't Stop the Music (Original Soundtrack 1980),Village People,1,1,1
+2024-12-27,Summer Paradise,Summer Paradise,Simple Plan,11,6,4
+2024-12-27,Can't Get You Out of My Head,Fever,Kylie Minogue,2,2,1
+2024-12-27,Countdown,4,Beyoncé,2,2,1
+2024-12-27,Summer Paradise (feat. Sean Paul) - Single Version,Summer Paradise,Simple Plan,2,2,1
+2024-12-27,The Great Escape,Boys Like Girls,Boys Like Girls,1,1,1
+2024-12-27,I'm Just a Kid,No Pads No Helmets...Just Balls (15th Anniversary Tour Edition),Simple Plan,1,1,1
+2024-12-27,Lucky,Oops!... I Did It Again,Britney Spears,3,3,1
+2024-12-27,Irreplaceable,B'Day,Beyoncé,1,1,1
+2024-12-27,One Sweet Day,Daydream,Mariah Carey,1,1,1
+2024-12-27,Build Me Up Buttercup - Mono,The Foundations,The Foundations,1,1,1
+2024-12-27,Don't Cha,PCD,The Pussycat Dolls,1,1,1
+2024-12-27,Chiquitita,Voulez-Vous,ABBA,1,1,1
+2024-12-27,Take a Chance on Me,The Album,ABBA,1,1,1
+2024-12-27,Gimme! Gimme! Gimme! (A Man After Midnight),Voulez-Vous,ABBA,1,1,1
+2024-12-27,Dancing Queen,Arrival,ABBA,1,1,1
+2024-12-27,Push,Yourself or Someone Like You,Matchbox Twenty,1,1,1
+2024-12-27,Here Comes the Sun - Remastered 2009,Abbey Road (Remastered),The Beatles,2,2,1
+2024-12-27,She Will Be Loved - Radio Mix,Songs About Jane: 10th Anniversary Edition,Maroon 5,1,1,1
+2024-12-27,We Belong Together,The Emancipation of Mimi,Mariah Carey,1,1,1
+2024-12-27,Low,Thankful,Kelly Clarkson,2,2,1
+2024-12-27,Say My Name,The Writing's on the Wall,Destiny's Child,1,1,1
+2024-12-27,When I Grow Up,Doll Domination (Deluxe),The Pussycat Dolls,1,1,1
+2024-12-27,Tubthumping,Tubthumper,Chumbawamba,1,1,1
+2024-12-27,Wannabe,Spice,Spice Girls,1,1,1
+2024-12-27,Shape of My Heart,Black & Blue,Backstreet Boys,1,1,1
+2024-12-27,Chloe or Sam or Sophia or Marcus,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,2,2,1
+2024-12-27,She's a Rebel,American Idiot (20th Anniversary Deluxe Edition),Green Day,1,1,1
+2024-12-27,Who’s Afraid of Little Old Me?,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,2,2,1
+2024-12-27,St. Jimmy,American Idiot (20th Anniversary Deluxe Edition),Green Day,2,2,1
+2024-12-27,Juno,Short n' Sweet,Sabrina Carpenter,14,11,4
+2024-12-27,Boulevard of Broken Dreams,American Idiot (20th Anniversary Deluxe Edition),Green Day,2,2,1
+2024-12-27,I Hate It Here,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,2,2,1
+2024-12-27,Reckless Abandon,Take Off Your Pants and Jacket,blink-182,5,5,1
+2024-12-27,ง้อว (Smile Please) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),ง้อว (Smile Please) - Single,Fourth,15,15,1
+2024-12-27,Holiday,American Idiot (20th Anniversary Deluxe Edition),Green Day,2,2,1
+2024-12-27,Every Time I Look For You,Take Off Your Pants and Jacket,blink-182,5,5,1
+2024-12-27,Extraordinary Girl,American Idiot (20th Anniversary Deluxe Edition),Green Day,2,2,1
+2024-12-27,My Boy Only Breaks His Favorite Toys,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,2,2,1
+2024-12-27,Stay Together for the Kids,Take Off Your Pants and Jacket,blink-182,5,5,1
+2024-12-27,New Romantics (Taylor's Version),1989 (Taylor's Version),Taylor Swift,2,2,1
+2024-12-27,Wonderland (Taylor's Version),1989 (Taylor's Version),Taylor Swift,4,4,1
+2024-12-27,All You Had to Do Was Stay (Taylor's Version),1989 (Taylor's Version),Taylor Swift,13,13,1
+2024-12-27,Welcome to New York (Taylor's Version),1989 (Taylor's Version),Taylor Swift,3,3,1
+2024-12-27,How You Get the Girl (Taylor's Version),1989 (Taylor's Version),Taylor Swift,13,13,1
+2024-12-27,Letterbomb,American Idiot,Green Day,1,1,1
+2024-12-27,Extraordinary Girl,American Idiot,Green Day,1,1,1
+2024-12-27,She's a Rebel,American Idiot,Green Day,1,1,1
+2024-12-27,Give Me Novacaine,American Idiot,Green Day,1,1,1
+2024-12-27,St. Jimmy,American Idiot,Green Day,1,1,1
+2024-12-27,Are We the Waiting,American Idiot,Green Day,1,1,1
+2024-12-27,Boulevard of Broken Dreams,American Idiot,Green Day,1,1,1
+2024-12-27,Holiday,American Idiot,Green Day,1,1,1
+2024-12-27,The Ballad Of Matt & Mica,Imaginal Disk,Magdalena Bay,4,4,1
+2024-12-27,Angel On A Satellite,Imaginal Disk,Magdalena Bay,4,4,1
+2024-12-27,Cry For Me,Imaginal Disk,Magdalena Bay,4,4,1
+2024-12-27,That's My Floor,Imaginal Disk,Magdalena Bay,9,6,4
+2024-12-27,Feeling Diskinserted?,Imaginal Disk,Magdalena Bay,4,4,1
+2024-12-27,Love Is Everywhere,Imaginal Disk,Magdalena Bay,4,4,1
+2024-12-27,Tunnel Vision,Imaginal Disk,Magdalena Bay,8,8,1
+2024-12-27,Watching T.V.,Imaginal Disk,Magdalena Bay,3,3,1
+2024-12-27,Vampire In The Corner,Imaginal Disk,Magdalena Bay,3,3,1
+2024-12-27,Fear Sex,Imaginal Disk,Magdalena Bay,3,3,1
+2024-12-27,Death & Romance,Imaginal Disk,Magdalena Bay,8,8,1
+2024-12-27,Image,Imaginal Disk,Magdalena Bay,8,8,1
+2024-12-27,True Blue Interlude,Imaginal Disk,Magdalena Bay,3,3,1
+2024-12-27,Killing Time,Imaginal Disk,Magdalena Bay,3,3,1
+2024-12-27,She Looked Like Me!,Imaginal Disk,Magdalena Bay,3,3,1
+2024-12-27,evermore (feat. Bon Iver),evermore,Taylor Swift,2,2,1
+2024-12-27,closure,evermore,Taylor Swift,2,2,1
+2024-12-27,marjorie,evermore,Taylor Swift,2,2,1
+2024-12-27,long story short,evermore,Taylor Swift,2,2,1
+2024-12-27,cowboy like me,evermore,Taylor Swift,2,2,1
+2024-12-27,ivy,evermore,Taylor Swift,2,2,1
+2024-12-27,coney island (feat. The National),evermore,Taylor Swift,2,2,1
+2024-12-27,dorothea,evermore,Taylor Swift,2,2,1
+2024-12-27,happiness,evermore,Taylor Swift,2,2,1
+2024-12-27,no body no crime (feat. HAIM),evermore,Taylor Swift,2,2,1
+2024-12-27,tolerate it,evermore,Taylor Swift,2,2,1
+2024-12-27,‘tis the damn season,evermore,Taylor Swift,2,2,1
+2024-12-27,gold rush,evermore,Taylor Swift,2,2,1
+2024-12-27,champagne problems,evermore,Taylor Swift,2,2,1
+2024-12-27,willow,evermore,Taylor Swift,2,2,1
+2024-12-27,Guess featuring billie eilish,Brat and it’s completely different but also still brat,Charli XCX,3,3,1
+2024-12-27,Girl so confusing featuring lorde,Brat and it’s completely different but also still brat,Charli XCX,1,1,1
+2024-12-27,Sympathy is a knife featuring ariana grande,Brat and it’s completely different but also still brat,Charli xcx,1,1,1
+2024-12-27,Spring breakers,Brat and it’s the same but there’s three more songs so it’s not,Charli xcx,1,1,1
+2024-12-27,Guess,Brat and it’s the same but there’s three more songs so it’s not,Charli XCX,1,1,1
+2024-12-27,Hello goodbye,Brat and it’s the same but there’s three more songs so it’s not,Charli xcx,1,1,1
+2024-12-27,365,BRAT,Charli xcx,1,1,1
+2024-12-27,I think about it all the time,BRAT,Charli xcx,1,1,1
+2024-12-27,Mean girls,BRAT,Charli XCX,1,1,1
+2024-12-27,B2b,BRAT,Charli XCX,1,1,1
+2024-12-27,Apple,BRAT,Charli XCX,1,1,1
+2024-12-27,Girl so confusing,BRAT,Charli XCX,1,1,1
+2024-12-27,So I,BRAT,Charli XCX,1,1,1
+2024-12-27,Rewind,BRAT,Charli xcx,1,1,1
+2024-12-27,Everything is romantic,BRAT,Charli XCX,1,1,1
+2024-12-27,Von dutch,BRAT,Charli XCX,1,1,1
+2024-12-27,Talk talk,BRAT,Charli XCX,1,1,1
+2024-12-27,I might say something stupid,BRAT,Charli XCX,1,1,1
+2024-12-27,Sympathy is a knife,BRAT,Charli XCX,1,1,1
+2024-12-27,Club classics,BRAT,Charli XCX,1,1,1
+2024-12-27,360,BRAT,Charli xcx,1,1,1
+2024-12-27,Please Take Me Home,Take Off Your Pants and Jacket,blink-182,3,3,1
+2024-12-27,Shut Up,Take Off Your Pants and Jacket,blink-182,3,3,1
+2024-12-27,Give Me One Good Reason,Take Off Your Pants and Jacket,blink-182,3,3,1
+2024-12-27,Roller Coaster,Take Off Your Pants and Jacket,blink-182,3,3,1
+2024-12-27,Story of a Lonely Guy,Take Off Your Pants and Jacket,blink-182,3,3,1
+2024-12-27,Happy Holidays You Bastard,Take Off Your Pants and Jacket,blink-182,3,3,1
+2024-12-27,First Date,Take Off Your Pants and Jacket,blink-182,3,3,1
+2024-12-27,Online Songs,Take Off Your Pants and Jacket,blink-182,3,3,1
+2024-12-27,Anthem Part Two,Take Off Your Pants and Jacket,blink-182,3,3,1
+2024-12-27,Blood - Hidden Track,The Black Parade,My Chemical Romance,2,2,1
+2024-12-27,Disenchanted,The Black Parade,My Chemical Romance,1,1,1
+2024-12-27,Cancer,The Black Parade,My Chemical Romance,1,1,1
+2024-12-27,House of Wolves,The Black Parade,My Chemical Romance,1,1,1
+2024-12-27,This Is How I Disappear,The Black Parade,My Chemical Romance,1,1,1
+2024-12-27,ไหล่เธอ (You’ve Got Ma Back) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),ไหล่เธอ (You’ve Got Ma Back) - Single,Fourth,34,21,10
+2024-12-27,รักหน้าตาเหมือนเธอไหม (Love Love Love) (เพลงประกอบซีรีส์ Our Skyy แฟนผมเป็นประธานนักเรียน),รักหน้าตาเหมือนเธอไหม (Love Love Love) - Single,Gemini,12,12,1
+2024-12-27,ก้อนหินกับดวงดาว (Rock & Star) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),ก้อนหินกับดวงดาว (Rock & Star) - Single,Fourth,4,4,1
+2024-12-27,เพลงรัก (Hook) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),เพลงรัก (Hook) - Single,Gemini,4,4,1
+2024-12-27,Malibu,Younger Now,Miley Cyrus,1,1,1
+2024-12-27,อีกนิด (Come Closer) [เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President],อีกนิด (Come Closer) - Single,Ford Arun,1,1,1
+2024-12-27,Lover,Lover,Taylor Swift,1,1,1
+2024-12-27,พูดได้ไหม (Let Me Tell You) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),พูดได้ไหม (Let Me Tell You) - Single,Fourth,2,2,1
+2024-12-27,เพื่อนเล่น ไม่เล่นเพื่อน (Cover Version) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),เพื่อนเล่น ไม่เล่นเพื่อน (Cover Version) - Single,Fourth,2,2,1
+2024-12-27,อยากร้องดังดัง (Cover Version) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),อยากร้องดังดัง (Cover Version) - Single,Fourth,2,2,1
+2024-12-27,Pretty U,SEVENTEEN 1ST ALBUM [FIRST ‘LOVE&LETTER’],Seventeen,1,1,1
+2024-12-27,In Too Deep,All Killer No Filler,Sum 41,1,1,1
+2024-12-27,Awkward Silence,SKZ2020,Stray Kids,1,1,1
+2024-12-27,Easy,GO LIVE,Stray Kids,1,1,1
+2024-12-27,Would You Be So Kind,You - EP,dodie,7,7,1
+2024-12-27,you,You - EP,dodie,6,6,1
+2024-12-27,Instrumental,You - EP,dodie,6,6,1
+2024-12-27,6/10,You - EP,dodie,6,6,1
+2024-12-27,In The Middle,You - EP,dodie,6,6,1
+2024-12-27,NYMPHOLOGY,PORTALS,Melanie Martinez,3,1,3
+2024-12-27,Teacher's Pet,K-12,Melanie Martinez,4,2,3
+2024-12-27,Recess,K-12,Melanie Martinez,1,1,1
+2024-12-27,High School Sweethearts,K-12,Melanie Martinez,1,1,1
+2024-12-27,Detention,K-12,Melanie Martinez,1,1,1
+2024-12-27,Orange Juice,K-12,Melanie Martinez,1,1,1
+2024-12-27,Lunchbox Friends,K-12,Melanie Martinez,1,1,1
+2024-12-27,Strawberry Shortcake,K-12,Melanie Martinez,1,1,1
+2024-12-27,Drama Club,K-12,Melanie Martinez,1,1,1
+2024-12-27,Nurse's Office,K-12,Melanie Martinez,1,1,1
+2024-12-27,Show & Tell,K-12,Melanie Martinez,1,1,1
+2024-12-27,The Principal,K-12,Melanie Martinez,1,1,1
+2024-12-27,Class Fight,K-12,Melanie Martinez,1,1,1
+2024-12-27,Wheels on the Bus,K-12,Melanie Martinez,1,1,1
+2024-12-27,Cake,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2024-12-27,Teddy Bear,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2024-12-27,Play Date,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2024-12-27,Mad Hatter,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2024-12-27,Mrs. Potato Head,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2024-12-27,Pacify Her,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2024-12-27,Milk and Cookies,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2024-12-27,Tag You're It,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2024-12-27,Pity Party,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2024-12-27,Training Wheels,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2024-12-27,Soap,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2024-12-27,Alphabet Boy,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2024-12-27,Carousel,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2024-12-27,Sippy Cup,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2024-12-27,Dollhouse,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2024-12-27,Cry Baby,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2024-12-27,Don’t Smile,Short n' Sweet,Sabrina Carpenter,1,1,1
+2024-12-27,Lie to Girls,Short n' Sweet,Sabrina Carpenter,1,1,1
+2024-12-27,Slim Pickins,Short n' Sweet,Sabrina Carpenter,1,1,1
+2024-12-27,Dumb & Poetic,Short n' Sweet,Sabrina Carpenter,1,1,1
+2024-12-27,Bed Chem,Short n' Sweet,Sabrina Carpenter,1,1,1
+2024-12-27,Coincidence,Short n' Sweet,Sabrina Carpenter,1,1,1
+2024-12-27,Sharpest Tool,Short n' Sweet,Sabrina Carpenter,1,1,1
+2024-12-27,Good Graces,Short n' Sweet,Sabrina Carpenter,1,1,1
+2024-12-27,Please Please Please,Short n' Sweet,Sabrina Carpenter,1,1,1
+2024-12-27,Taste,Short n' Sweet,Sabrina Carpenter,1,1,1
+2024-12-27,Bad Blood (feat. Kendrick Lamar) (Taylor's Version),1989 (Taylor's Version) [Deluxe],Taylor Swift,5,5,1
+2024-12-27,Anthem,Enema of the State,blink-182,1,1,1
+2024-12-27,Wendy Clear,Enema of the State,blink-182,1,1,1
+2024-12-27,Mutt,Enema of the State,blink-182,1,1,1
+2024-12-27,The Party Song,Enema of the State,blink-182,1,1,1
+2024-12-27,Dysentery Gary,Enema of the State,blink-182,1,1,1
+2024-12-27,Going Away to College,Enema of the State,blink-182,1,1,1
+2024-12-27,Dumpweed,Enema of the State,blink-182,1,1,1
+2024-12-27,Macy's Day Parade,Warning,Green Day,1,1,1
+2024-12-27,Minority,Warning,Green Day,1,1,1
+2024-12-27,Waiting,Warning,Green Day,1,1,1
+2024-12-27,Jackass,Warning,Green Day,1,1,1
+2024-12-27,Hold On,Warning,Green Day,1,1,1
+2024-12-27,Deadbeat Holiday,Warning,Green Day,1,1,1
+2024-12-27,Misery,Warning,Green Day,1,1,1
+2024-12-27,Castaway,Warning,Green Day,1,1,1
+2024-12-27,Fashion Victim,Warning,Green Day,1,1,1
+2024-12-27,Church on Sunday,Warning,Green Day,1,1,1
+2024-12-27,Blood Sex and Booze,Warning,Green Day,1,1,1
+2024-12-27,Warning,Warning,Green Day,1,1,1
 2024-12-27,It Might Be You (เธอก็พอ) (เพลงประกอบซีรีส์ บทกวีของปีแสง Be My Favorite),It Might Be You (เธอก็พอ) - Single,Fluke Gawin,2,2,1
-2024-12-27,Begin Again (Taylor's Version),Red (Taylor's Version),Taylor Swift,18,5,10
 2024-12-27,สิ่งเดียวที่ไม่ยอม (Unable) [เพลงประกอบซีรีส์ บทกวีของปีแสง Be My Favorite],สิ่งเดียวที่ไม่ยอม (Unable) - Single,Fluke Gawin,2,2,1
 2024-12-27,Absolutely Smitten,Intertwined - EP,dodie,2,2,1
 2024-12-27,ย้อนเวลา (REDO) [เพลงประกอบซีรีส์ บทกวีของปีแสง Be My Favorite],ย้อนเวลา (REDO) - Single,Krist,2,2,1
 2024-12-27,Scattered,Nimrod,Green Day,5,1,5
-2024-12-27,Redundant,Nimrod,Green Day,5,1,5
-2024-12-27,All the Time,Nimrod,Green Day,5,1,5
 2024-12-27,Fancy Sauce,Saviors,Green Day,1,1,1
-2024-12-27,Saviors,Saviors,Green Day,3,1,3
 2024-12-27,Father to a Son,Saviors,Green Day,1,1,1
 2024-12-27,Living in the '20s,Saviors,Green Day,1,1,1
 2024-12-27,Strange Days Are Here to Stay,Saviors,Green Day,1,1,1
@@ -23,42 +383,14 @@ Week,Song Name,Album Name,Artist Name,Streams,Sales,Airplay
 2024-12-27,Corvette Summer,Saviors,Green Day,1,1,1
 2024-12-27,Coma City,Saviors,Green Day,2,2,1
 2024-12-27,Goodnight Adeline,Saviors,Green Day,2,2,1
-2024-12-27,1981,Saviors,Green Day,1,1,1
-2024-12-27,Dilemma,Saviors,Green Day,1,1,1
-2024-12-27,One Eyed Bastard,Saviors,Green Day,1,1,1
-2024-12-27,Bobby Sox,Saviors,Green Day,1,1,1
-2024-12-27,Look Ma No Brains!,Saviors,Green Day,1,1,1
 2024-12-27,The American Dream Is Killing Me,Saviors,Green Day,1,1,1
-2024-12-27,Please Take Me Home,Take Off Your Pants and Jacket,blink-182,1,1,1
-2024-12-27,Shut Up,Take Off Your Pants and Jacket,blink-182,1,1,1
-2024-12-27,Give Me One Good Reason,Take Off Your Pants and Jacket,blink-182,1,1,1
-2024-12-27,Every Time I Look For You,Take Off Your Pants and Jacket,blink-182,1,1,1
-2024-12-27,Reckless Abandon,Take Off Your Pants and Jacket,blink-182,1,1,1
-2024-12-27,Roller Coaster,Take Off Your Pants and Jacket,blink-182,1,1,1
-2024-12-27,Stay Together for the Kids,Take Off Your Pants and Jacket,blink-182,1,1,1
-2024-12-27,The Rock Show,Take Off Your Pants and Jacket,blink-182,1,1,1
-2024-12-27,Story of a Lonely Guy,Take Off Your Pants and Jacket,blink-182,1,1,1
-2024-12-27,Happy Holidays You Bastard,Take Off Your Pants and Jacket,blink-182,1,1,1
-2024-12-27,First Date,Take Off Your Pants and Jacket,blink-182,1,1,1
-2024-12-27,Online Songs,Take Off Your Pants and Jacket,blink-182,1,1,1
-2024-12-27,Anthem Part Two,Take Off Your Pants and Jacket,blink-182,1,1,1
 2024-12-27,Read your Mind,emails i can’t send fwd:,Sabrina Carpenter,10,2,5
 2024-12-27,Girl at Home (Taylor's Version),Red (Taylor's Version),Taylor Swift,5,1,5
-2024-12-27,After LIKE,After LIKE,IVE,18,10,5
-2024-12-27,Fresh Out the Slammer,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,5,1,5
-2024-12-27,Death & Romance,Imaginal Disk,Magdalena Bay,5,5,1
-2024-12-27,Image,Imaginal Disk,Magdalena Bay,5,5,1
-2024-12-27,Tunnel Vision,Imaginal Disk,Magdalena Bay,5,5,1
-2024-12-27,That's My Floor,Imaginal Disk,Magdalena Bay,5,2,4
-2024-12-27,How You Get the Girl (Taylor's Version),1989 (Taylor's Version),Taylor Swift,7,7,1
 2024-12-27,You Are in Love (Taylor's Version),1989 (Taylor's Version),Taylor Swift,2,2,1
-2024-12-27,Wonderland (Taylor's Version),1989 (Taylor's Version),Taylor Swift,2,2,1
 2024-12-27,Bad Blood (Taylor's Version),1989 (Taylor's Version),Taylor Swift,2,2,1
 2024-12-27,Slut! (Taylor's Version) (From the Vault),1989 (Taylor's Version),Taylor Swift,1,1,1
-2024-12-27,All You Had to Do Was Stay (Taylor's Version),1989 (Taylor's Version),Taylor Swift,6,6,1
 2024-12-27,Say Don't Go (Taylor's Version) (From the Vault),1989 (Taylor's Version),Taylor Swift,5,5,1
 2024-12-27,After Midnight,The Rise and Fall of a Midwest Princess,Chappell Roan,7,7,1
-2024-12-27,Juno,Short n' Sweet,Sabrina Carpenter,11,8,4
 2024-12-27,หนึ่งเดียว (Only One) [เพลงประกอบซีรีส์ เพื่อนายแค่หนึ่งเดียว Never Let Me Go],หนึ่งเดียว (Only One) - Single,Pond Naravit,1,1,1
 2024-12-27,นานตลอดกาล (We Are Forever) (เพลงประกอบซีรีส์ We Are คือเรารักกัน),นานตลอดกาล (We Are Forever) - Single,Phuwin,2,2,1
 2024-12-27,แอบเพื่อน (Hidden Love) (เพลงประกอบซีรีส์ We Are คือเรารักกัน),แอบเพื่อน (Hidden Love) - Single,Marc Natarit,2,2,1
@@ -68,30 +400,16 @@ Week,Song Name,Album Name,Artist Name,Streams,Sales,Airplay
 2024-12-27,คิดถึงฉันใช่ป่ะ (Missing Me?) (เพลงประกอบซีรีส์ We Are คือเรารักกัน),คิดถึงฉันใช่ป่ะ (Missing Me?) - Single,Winny Thanawin,2,2,1
 2024-12-27,You Belong with Me (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,1,1,1
 2024-12-27,หมดมุก (Jokester) (เพลงประกอบซีรีส์ We Are คือเรารักกัน),หมดมุก (Jokester) - Single,Aou Thanaboon,2,2,1
-2024-12-27,Would You Be So Kind,You - EP,dodie,1,1,1
 2024-12-27,เรามีเรา (WE ARE) (เพลงประกอบซีรีส์ We Are คือเรารักกัน),เรามีเรา (WE ARE) - Single,Pond Naravit,2,2,1
-2024-12-27,รักหน้าตาเหมือนเธอไหม (Love Love Love) (เพลงประกอบซีรีส์ Our Skyy แฟนผมเป็นประธานนักเรียน),รักหน้าตาเหมือนเธอไหม (Love Love Love) - Single,Gemini,6,6,1
-2024-12-27,Summer Paradise,Summer Paradise,Simple Plan,10,5,4
 2024-12-27,Dirty Little Secret,Move Along,The All-American Rejects,3,1,3
 2024-12-27,She's So Mean,North (Deluxe Edition),Matchbox Twenty,3,1,3
 2024-12-27,Hey Soul Sister,Save Me San Francisco (Golden Gate Edition),Train,1,1,1
 2024-12-27,Oh Cecilia (Breaking My Heart),Meet The Vamps,The Vamps,1,1,1
-2024-12-27,Summer Paradise (feat. MKTO) - Single Version,Summer Paradise (feat. MKTO),Simple Plan,1,1,1
-2024-12-27,Summer Paradise (feat. Sean Paul) - Single Version,Summer Paradise,Simple Plan,1,1,1
-2024-12-27,Espresso,Short n' Sweet,Sabrina Carpenter,5,1,5
-2024-12-27,Shake It Off (Taylor's Version),1989 (Taylor's Version),Taylor Swift,4,1,4
 2024-12-27,Birth,<Pre 1 : Birth>,ARTMS,1,1,1
 2024-12-27,HUMAN,Human,dodie,1,1,1
 2024-12-27,We Are Never Ever Getting Back Together (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
-2024-12-27,Blood - Hidden Track,The Black Parade,My Chemical Romance,1,1,1
-2024-12-27,Lips of an Angel,Extreme Behavior,Hinder,1,1,1
-2024-12-27,Low,Thankful,Kelly Clarkson,1,1,1
-2024-12-27,APT.,rosie,Rosé,1,1,1
 2024-12-27,I Gotta Feeling,The E.N.D. (The Energy Never Dies) [Deluxe Version],Black Eyed Peas,1,1,1
 2024-12-27,I Want You to Know,True Colors,Zedd,1,1,1
-2024-12-27,Dance Again,Dance Again...The Hits,Jennifer Lopez,2,2,1
-2024-12-27,Espresso,Espresso,Sabrina Carpenter,1,1,1
-2024-12-27,Nice Guys Finish Last,Nimrod,Green Day,1,1,1
 2024-12-27,Hot n Cold,One of the Boys,Katy Perry,1,1,1
 2024-12-27,FANCY,FANCY YOU,TWICE,1,1,1
 2024-12-27,Waking Up in Vegas,One of the Boys,Katy Perry,1,1,1

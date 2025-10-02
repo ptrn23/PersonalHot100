@@ -1,7 +1,7 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2022-06-17,1,=,1,True,True,261,0.21,LOVE DIVE,IVE,LOVE DIVE,20,19,2,100,57,4,27431250,4558,21550860,0.81,0.09,0.1,137186,161,65,35,1,3,2
 2022-06-17,2,+3,5,False,False,240,0.41,FEARLESS,LE SSERAFIM,FEARLESS,16,16,1,80,48,2,23377200,4088,11475720,0.84,0.09,0.07,117579,130,51,59,1,7,3
-2022-06-17,3,+37,40,True,False,218,3.04,favOriTe,Loona,[+ +],23,21,4,115,63,8,36394050,5810,40662000,0.76,0.08,0.16,151536,186,17,15,3,12,1
+2022-06-17,3,+37,40,True,False,218,3.04,favOriTe,Loona,[+ +],23,21,4,115,63,8,36394050,5810,40662000,0.76,0.08,0.16,151536,186,17,15,3,18,1
 2022-06-17,4,-2,2,False,False,218,0.04,ELEVEN,IVE,ELEVEN,15,15,1,75,45,2,21569625,3772,11295000,0.84,0.09,0.07,108717,122,63,33,1,5,1
 2022-06-17,5,NEW,--,True,False,216,--,Playback,Loona,Summer Special [Flip That],27,23,6,135,69,12,42489562,6329,74140380,0.73,0.07,0.2,214816,216,0,0,5,1,1
 2022-06-17,6,-2,4,False,False,202,0.12,The Great Mermaid,LE SSERAFIM,FEARLESS,16,16,1,80,48,2,21390600,3741,10504350,0.84,0.09,0.07,107646,130,54,18,4,3,1
@@ -81,14 +81,14 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-06-17,80,RE,--,False,False,34,--,Daylight,Taylor Swift,Lover,4,4,1,20,12,2,5821200,1018,11430540,0.7,0.08,0.22,31941,34,0,0,18,10,1
 2022-06-17,81,RE,--,False,False,33,--,Heart Shaker,TWICE,Merry & Happy,3,3,1,15,9,2,4426537,774,11588670,0.65,0.07,0.27,25186,26,0,7,5,12,1
 2022-06-17,82,+8,90,False,False,33,0.22,러시안 룰렛 Russian Roulette,Red Velvet,Russian Roulette - The 3rd Mini Album,2,2,1,10,6,2,3124275,546,12266370,0.58,0.06,0.36,19040,18,9,6,52,7,1
-2022-06-17,83,-33,50,False,False,33,-0.25,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1513050,264,11882340,0.42,0.05,0.53,11067,10,14,9,7,23,1
+2022-06-17,83,-33,50,False,False,33,-0.25,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1513050,264,11882340,0.42,0.05,0.53,11067,10,14,9,2,23,1
 2022-06-17,84,RE,--,False,False,32,--,Thinking Bout You,Ariana Grande,Dangerous Woman,3,3,1,15,9,2,4036725,706,10572120,0.65,0.07,0.27,22981,26,0,6,7,10,1
 2022-06-17,85,-42,43,False,False,32,-0.37,Alcohol-Free,TWICE,Taste of Love,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,16,6,7,9,1
 2022-06-17,86,-30,56,False,False,31,-0.24,HELL IN HEAVEN,TWICE,Eyes wide open,2,2,1,10,6,2,2899050,507,11385360,0.58,0.06,0.36,17675,18,13,0,56,4,1
 2022-06-17,87,-30,57,False,False,30,-0.25,WA DA DA,Kep1er,FIRST IMPACT,1,1,1,5,3,2,1481287,259,11633850,0.42,0.05,0.53,10836,10,12,8,2,17,1
 2022-06-17,88,-8,80,False,False,30,-0.06,She,dodie,Human,1,1,1,5,3,2,1411987,246,11091690,0.42,0.05,0.53,10332,10,10,10,2,24,1
 2022-06-17,89,-16,73,False,False,29,-0.15,Ice Cream Cake,Red Velvet,Ice Cream Cake - The 1st Mini Album,2,2,1,10,6,2,2858625,499,11227230,0.58,0.06,0.36,17430,18,11,0,2,20,1
-2022-06-17,90,NEW,--,True,False,28,--,Apple,GFRIEND,回:Walpurgis Night,3,3,2,15,9,4,4539150,793,23764680,0.51,0.06,0.43,29512,28,0,0,90,1,1
+2022-06-17,90,RE,--,False,False,28,--,Apple,GFRIEND,回:Walpurgis Night,3,3,2,15,9,4,4539150,793,23764680,0.51,0.06,0.43,29512,28,0,0,78,2,1
 2022-06-17,91,-13,78,False,False,28,-0.12,Beg for Me,Red Velvet,‘The ReVe Festival 2022 - Feel My Rhythm’,2,2,1,10,6,2,3003000,525,11791980,0.58,0.06,0.36,18305,18,10,0,52,8,1
 2022-06-17,92,-29,63,False,False,28,-0.24,Unconditionally,Katy Perry,PRISM (Deluxe),1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,12,6,2,17,1
 2022-06-17,93,-12,81,False,False,28,-0.1,Strawberry Shortcake,Melanie Martinez,K-12 (After School – Deluxe Edition),1,1,1,5,3,2,1547700,270,12153420,0.42,0.05,0.53,11319,10,10,8,14,8,1
@@ -96,6 +96,6 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-06-17,95,-26,69,False,False,28,-0.2,SOMEONE LIKE ME,TWICE,SIGNAL,1,1,1,5,3,2,1541925,269,12108240,0.42,0.05,0.53,11277,10,11,7,49,9,1
 2022-06-17,96,-7,89,False,False,28,0.0,Guiltless,dodie,Guiltless,1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,9,9,5,13,1
 2022-06-17,97,RE,--,False,False,26,--,You Better Know,Red Velvet,The Red Summer - Summer Mini Album,3,3,1,15,9,2,4114687,719,10775430,0.65,0.07,0.27,23422,26,0,0,19,5,1
-2022-06-17,98,RE,--,False,False,26,--,So What,Loona,[#],3,3,1,15,9,2,4348575,760,11385360,0.65,0.07,0.27,24745,26,0,0,5,15,1
-2022-06-17,99,RE,--,False,False,26,--,Red Flavor,Red Velvet,The Red Summer - Summer Mini Album,3,3,1,15,9,2,4339912,759,11362770,0.65,0.07,0.27,24696,26,0,0,9,10,1
+2022-06-17,98,RE,--,False,False,26,--,So What,Loona,[#],3,3,1,15,9,2,4348575,760,11385360,0.65,0.07,0.27,24745,26,0,0,5,17,1
+2022-06-17,99,RE,--,False,False,26,--,Red Flavor,Red Velvet,The Red Summer - Summer Mini Album,3,3,1,15,9,2,4339912,759,11362770,0.65,0.07,0.27,24696,26,0,0,9,11,1
 2022-06-17,100,RE,--,False,False,26,--,My Headphones On,TWICE,PAGE TWO,3,3,1,15,9,2,4660425,814,12198600,0.65,0.07,0.27,26509,26,0,0,20,5,1

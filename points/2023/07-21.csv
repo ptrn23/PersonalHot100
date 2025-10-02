@@ -1,5 +1,5 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2023-07-21,1,RE,--,True,False,409,--,‘tis the damn season,Taylor Swift,evermore,60,3,50,300,9,100,79175250,692,518440499,0.49,0.0,0.51,363860,409,0,0,1,38,1
+2023-07-21,1,RE,--,True,False,409,--,‘tis the damn season,Taylor Swift,evermore,60,3,50,300,9,100,79175250,692,518440499,0.49,0.0,0.51,363860,409,0,0,1,37,1
 2023-07-21,2,NEW,--,True,False,338,--,Cool With You,NewJeans,NewJeans 2nd EP 'Get Up',42,42,1,210,126,2,59546025,10414,11136870,0.88,0.1,0.03,293930,338,0,0,2,1,1
 2023-07-21,3,NEW,--,True,False,330,--,Get Up,NewJeans,NewJeans 2nd EP 'Get Up',41,41,1,205,123,2,57299550,10022,10978740,0.87,0.1,0.03,282947,330,0,0,3,1,1
 2023-07-21,4,NEW,--,True,False,330,--,ETA,NewJeans,NewJeans 2nd EP 'Get Up',41,41,1,205,123,2,53984700,9443,10346220,0.87,0.1,0.03,266679,330,0,0,4,1,1
@@ -8,7 +8,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-07-21,7,-6,1,False,False,286,-0.51,New Jeans,NewJeans,NewJeans 2nd EP 'Get Up',5,5,2,25,15,4,7031062,1229,22093020,0.62,0.07,0.31,41160,44,177,65,1,3,1
 2023-07-21,8,-4,4,False,False,278,-0.33,The Story of Us (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),6,6,1,30,18,2,7796250,1363,10210680,0.76,0.09,0.16,41223,50,125,103,1,3,1
 2023-07-21,9,-6,3,False,False,210,-0.58,Ronan (Taylor's Version),Taylor Swift,Red (Taylor's Version),7,4,4,35,12,8,9520087,951,42740280,0.56,0.04,0.4,49770,55,151,4,3,14,1
-2023-07-21,10,+10,20,False,False,183,0.35,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),19,2,18,95,6,36,29241712,538,217541700,0.46,0.01,0.54,146328,137,41,5,2,60,1
+2023-07-21,10,+10,20,False,False,183,0.35,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),19,2,18,95,6,36,29241712,538,217541700,0.46,0.01,0.54,146328,137,41,5,2,62,1
 2023-07-21,11,+15,26,False,False,181,0.65,Huwag Na Huwag Mong Sasabihin...,Kitchie Nadal,Kitchie Nadal,17,4,14,85,12,28,25672762,1056,166036500,0.49,0.01,0.5,128870,125,33,23,5,4,1
 2023-07-21,12,-1,11,False,False,158,-0.21,Alapaap,Eraserheads,Circus,3,3,1,15,9,2,4469850,781,11701620,0.65,0.07,0.27,25431,26,61,71,2,10,1
 2023-07-21,13,-7,6,False,False,144,-0.41,Better Than Revenge (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),4,4,1,20,12,2,6283200,1098,12334140,0.7,0.08,0.22,34461,34,74,36,6,3,1
@@ -45,12 +45,12 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-07-21,44,-3,41,False,False,64,0.02,I Can See You (Taylor’s Version) (From the Vault),Taylor Swift,Speak Now (Taylor's Version),1,1,1,5,3,2,1550587,271,12176010,0.42,0.05,0.53,11340,10,19,35,11,3,1
 2023-07-21,45,-1,44,False,False,61,0.07,Kung 'Di Rin Lang Ikaw,December Avenue,Kung 'Di Rin Lang Ikaw,3,3,1,15,9,2,4495837,786,11769390,0.65,0.07,0.27,25578,26,18,17,1,18,1
 2023-07-21,46,+4,50,False,False,61,0.2,Speak Now (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),2,2,1,10,6,2,2772000,484,10888380,0.58,0.06,0.36,16905,18,16,27,19,3,1
-2023-07-21,47,RE,--,False,False,58,--,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,1,4,20,3,8,5775000,252,45360720,0.44,0.01,0.55,31689,31,0,27,5,43,1
+2023-07-21,47,RE,--,False,False,58,--,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,1,4,20,3,8,5775000,252,45360720,0.44,0.01,0.55,31689,31,0,27,5,44,1
 2023-07-21,48,-8,40,False,False,58,-0.13,Long Live (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),1,1,1,5,3,2,1426425,249,11204640,0.42,0.05,0.53,10437,10,21,27,20,3,1
 2023-07-21,49,-18,31,False,False,57,-0.41,Magasin,Eraserheads,Circus,1,1,1,5,3,2,1409100,246,11069100,0.42,0.05,0.53,10311,10,29,18,8,10,1
 2023-07-21,50,RE,--,False,False,56,--,evermore (feat. Bon Iver),Taylor Swift,evermore,8,2,5,40,6,10,10672200,466,52408800,0.55,0.02,0.43,48825,56,0,0,22,22,1
 2023-07-21,51,-2,49,False,False,55,0.06,Ditto,NewJeans,NewJeans 'OMG',3,3,1,15,9,2,4253287,743,11136870,0.65,0.07,0.27,24206,26,16,13,1,29,1
-2023-07-21,52,RE,--,False,False,52,--,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),7,1,7,35,3,14,10813687,270,84915810,0.44,0.01,0.55,56490,52,0,0,1,36,1
+2023-07-21,52,RE,--,False,False,52,--,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),7,1,7,35,3,14,10813687,270,84915810,0.44,0.01,0.55,56490,52,0,0,1,37,1
 2023-07-21,53,-14,39,False,False,52,-0.25,Jealous,Nick Jonas,Nick Jonas X2,2,2,1,10,6,2,2795100,488,10978740,0.58,0.06,0.36,17045,18,21,13,13,8,1
 2023-07-21,54,-8,46,False,False,52,-0.05,You Wish,Flyana Boss,Make It A Double,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,17,25,24,3,1
 2023-07-21,55,-8,47,False,False,52,-0.05,Superman (Taylor’s Version),Taylor Swift,Speak Now (Taylor's Version),1,1,1,5,3,2,1397550,244,10978740,0.42,0.05,0.53,10227,10,17,25,23,3,1
@@ -71,7 +71,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-07-21,70,RE,--,False,False,37,--,It’s Nice to Have a Friend,Taylor Swift,Lover,5,2,3,25,6,6,7882875,551,37137960,0.56,0.03,0.42,38430,37,0,0,9,13,1
 2023-07-21,71,RE,--,False,False,31,--,Décalcomanie,MAMAMOO,Memory,4,1,4,20,3,8,5197500,227,40842720,0.44,0.01,0.55,28539,31,0,0,68,3,1
 2023-07-21,72,RE,--,False,False,26,--,Young Dumb Stupid,NMIXX,expérgo,3,3,1,15,9,2,3950100,690,10346220,0.65,0.07,0.27,22491,26,0,0,1,14,1
-2023-07-21,73,RE,--,False,False,26,--,Bad Blood,Taylor Swift,Bad Blood,3,3,1,15,9,2,4487175,784,11746800,0.65,0.07,0.27,25529,26,0,0,14,12,1
+2023-07-21,73,RE,--,False,False,26,--,Bad Blood,Taylor Swift,Bad Blood,3,3,1,15,9,2,4487175,784,11746800,0.65,0.07,0.27,25529,26,0,0,14,13,1
 2023-07-21,74,NEW,--,True,False,25,--,Good Day,IU,REAL,3,2,2,15,6,4,4729725,551,24758640,0.52,0.04,0.44,26901,25,0,0,74,1,1
 2023-07-21,75,RE,--,False,False,24,--,Bad Liar,Selena Gomez,Bad Liar,3,1,3,15,3,6,4235962,246,33275070,0.44,0.02,0.55,24108,24,0,0,17,7,1
 2023-07-21,76,-13,63,False,False,21,-0.38,Therapy,Maisie Peters,The Good Witch,1,1,1,5,3,2,1489950,260,11701620,0.42,0.05,0.53,10899,10,11,0,63,2,1

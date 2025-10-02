@@ -2,7 +2,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-11-25,1,=,1,True,True,316,0.87,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),28,23,3,140,69,6,42365400,6085,35647020,0.82,0.08,0.11,199206,215,51,50,1,37,3
 2022-11-25,2,=,2,False,False,190,0.21,Midnight Rain,Taylor Swift,Midnights (3am Edition),13,11,3,65,33,6,17079562,2528,30970890,0.72,0.07,0.21,86562,104,48,38,1,6,1
 2022-11-25,3,=,3,False,False,184,0.33,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),13,12,2,65,36,4,17004487,2745,20556900,0.77,0.08,0.15,86184,105,42,37,1,51,6
-2022-11-25,4,RE,--,True,False,175,--,Black Magic,Little Mix,Get Weird (Expanded Edition),23,12,12,115,36,24,32674950,2981,133913520,0.58,0.03,0.38,162855,175,0,0,4,12,1
+2022-11-25,4,RE,--,True,False,175,--,Black Magic,Little Mix,Get Weird (Expanded Edition),23,12,12,115,36,24,32674950,2981,133913520,0.58,0.03,0.38,162855,175,0,0,4,14,1
 2022-11-25,5,-1,4,False,False,164,0.24,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),13,11,3,65,33,6,19669650,2910,35647020,0.72,0.07,0.21,99603,104,40,20,2,36,2
 2022-11-25,6,+2,8,False,False,139,0.22,Wildest Dreams (Taylor's Version),Taylor Swift,Wildest Dreams (Taylor's Version),8,8,1,40,24,2,10810800,1891,10617300,0.79,0.09,0.12,56049,66,35,38,1,30,6
 2022-11-25,7,+2,9,False,False,138,0.24,This Love (Taylor’s Version),Taylor Swift,This Love (Taylor’s Version),8,8,1,40,24,2,11319000,1979,11114280,0.79,0.09,0.12,58667,66,34,38,1,26,1
@@ -82,8 +82,8 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-11-25,81,-5,76,False,False,41,0.0,Glitch,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,2875950,502,11295000,0.58,0.06,0.36,17535,18,13,10,22,6,1
 2022-11-25,82,-57,25,False,False,41,-0.45,Absolutely Smitten,dodie,Intertwined - EP,2,2,1,10,6,2,2916375,510,11453130,0.58,0.06,0.36,17780,18,23,0,2,16,1
 2022-11-25,83,-10,73,False,False,39,-0.07,R.E.M,Ariana Grande,Sweetener,3,3,1,15,9,2,4071375,712,10662480,0.65,0.07,0.27,23177,26,13,0,35,7,1
-2022-11-25,84,-48,36,False,False,39,-0.42,‘tis the damn season,Taylor Swift,evermore,2,2,1,10,6,2,2639175,461,10368810,0.58,0.06,0.36,16099,18,21,0,6,25,1
-2022-11-25,85,+4,89,False,False,39,0.44,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,3008775,526,11814570,0.58,0.06,0.36,18340,18,9,12,18,30,1
+2022-11-25,84,-48,36,False,False,39,-0.42,‘tis the damn season,Taylor Swift,evermore,2,2,1,10,6,2,2639175,461,10368810,0.58,0.06,0.36,16099,18,21,0,6,24,1
+2022-11-25,85,+4,89,False,False,39,0.44,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,3008775,526,11814570,0.58,0.06,0.36,18340,18,9,12,19,30,2
 2022-11-25,86,-3,83,False,False,36,0.12,You Signed Up For This,Maisie Peters,You Signed Up For This,3,3,1,15,9,2,4591125,802,12017880,0.65,0.07,0.27,26117,26,10,0,43,5,1
 2022-11-25,87,-2,85,False,False,36,0.12,John Hughes Movie,Maisie Peters,You Signed Up For This,3,3,1,15,9,2,4227300,739,11069100,0.65,0.07,0.27,24059,26,10,0,46,5,1
 2022-11-25,88,-41,47,False,False,36,-0.38,Unconditionally,Katy Perry,PRISM (Deluxe),2,2,1,10,6,2,2668050,466,10481760,0.58,0.06,0.36,16275,18,18,0,2,20,1
@@ -95,7 +95,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-11-25,94,+6,100,False,False,34,0.42,I’m Trying (Not Friends),Maisie Peters,You Signed Up For This,3,3,1,15,9,2,4218637,737,11046510,0.65,0.07,0.27,24010,26,8,0,47,5,1
 2022-11-25,95,-4,91,False,False,34,0.31,Everything Happens for a Reason,Madison Beer,Life Support,3,3,1,15,9,2,4374562,765,11453130,0.65,0.07,0.27,24892,26,8,0,56,4,1
 2022-11-25,96,-41,55,False,False,33,-0.34,놓아 놓아 놓아 Letting Go,DAY6,DAYDREAM,2,2,1,10,6,2,2644950,462,10391400,0.58,0.06,0.36,16134,18,15,0,7,10,1
-2022-11-25,97,-41,56,False,False,33,-0.34,the lakes - bonus track,Taylor Swift,folklore (deluxe version),2,2,1,10,6,2,2881725,504,11317590,0.58,0.06,0.36,17570,18,15,0,18,12,1
+2022-11-25,97,-41,56,False,False,33,-0.34,the lakes - bonus track,Taylor Swift,folklore (deluxe version),2,2,1,10,6,2,2881725,504,11317590,0.58,0.06,0.36,17570,18,15,0,18,11,1
 2022-11-25,98,-41,57,False,False,33,-0.34,SAY SOMETHING,TWICE,Eyes wide open,2,2,1,10,6,2,2627625,459,10323630,0.58,0.06,0.36,16030,18,15,0,3,8,1
 2022-11-25,99,-41,58,False,False,33,-0.34,I Smile,DAY6,SUNRISE,2,2,1,10,6,2,2951025,516,11588670,0.58,0.06,0.36,17990,18,15,0,58,3,1
 2022-11-25,100,-41,59,False,False,33,-0.34,ghostin,Ariana Grande,thank u next,2,2,1,10,6,2,2933700,513,11520900,0.58,0.06,0.36,17885,18,15,0,1,17,1

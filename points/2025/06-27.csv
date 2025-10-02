@@ -7,7 +7,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-06-27,6,RE,--,True,False,238,--,Baby I,Ariana Grande,Yours Truly,32,24,3,160,72,6,46200000,6060,34020540,0.83,0.07,0.1,207739,238,0,0,6,3,1
 2025-06-27,7,-2,5,False,False,238,0.03,2 hands,Tate McRae,So Close to What,16,14,3,80,42,6,21667800,3316,31919670,0.75,0.07,0.18,109032,128,70,40,1,16,2
 2025-06-27,8,+15,23,True,False,230,0.44,Hash Pipe,Weezer,Weezer (Green Album),18,18,2,90,54,4,27338850,4780,23855040,0.8,0.09,0.11,140714,148,48,34,8,6,1
-2025-06-27,9,-2,7,False,False,223,0.01,Aliens Exist,blink-182,Enema of the State,12,12,1,60,36,2,16770600,2933,10978740,0.82,0.09,0.09,85225,98,66,59,2,28,1
+2025-06-27,9,-2,7,False,False,223,0.01,Aliens Exist,blink-182,Enema of the State,12,12,1,60,36,2,16770600,2933,10978740,0.82,0.09,0.09,85225,98,66,59,2,29,1
 2025-06-27,10,+2,12,False,False,220,0.12,Diet Pepsi,Addison Rae,Addison,13,13,1,65,39,2,19481962,3407,11769390,0.83,0.09,0.08,98658,106,60,54,4,4,1
 2025-06-27,11,-5,6,False,False,219,-0.05,Sports car,Tate McRae,So Close to What,13,13,1,65,39,2,17492475,3059,10572120,0.83,0.09,0.08,88641,106,69,44,1,16,4
 2025-06-27,12,-4,8,False,False,219,0.03,Fame Is a Gun,Addison Rae,Addison,12,12,1,60,36,2,18156600,3175,11882340,0.82,0.09,0.09,92225,98,64,57,1,4,1
@@ -15,7 +15,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-06-27,14,NEW,--,True,False,202,--,Pretty Ugly,Zara Larsson,Midnight Sun,25,25,1,125,75,2,36382500,6363,11430540,0.86,0.1,0.04,180999,202,0,0,14,1,1
 2025-06-27,15,+67,82,False,False,193,2.86,Problem,Ariana Grande,My Everything (Deluxe),23,19,3,115,57,6,34335262,4960,35172630,0.8,0.07,0.13,163800,178,15,0,6,4,1
 2025-06-27,16,-15,1,False,False,187,-0.54,Gabriela,KATSEYE,BEAUTIFUL CHAOS,8,8,1,40,24,2,10464300,1830,10278450,0.79,0.09,0.12,54264,66,121,0,1,2,1
-2025-06-27,17,+9,26,False,False,173,0.18,King for a Day,Green Day,Nimrod,11,11,1,55,33,2,16135350,2821,11520900,0.82,0.09,0.09,82271,90,45,38,3,44,1
+2025-06-27,17,+9,26,False,False,173,0.18,King for a Day,Green Day,Nimrod,11,11,1,55,33,2,16135350,2821,11520900,0.82,0.09,0.09,82271,90,45,38,3,43,1
 2025-06-27,18,+9,27,False,False,166,0.16,The Rock Show,blink-182,Take Off Your Pants and Jacket,8,8,1,40,24,2,11295900,1975,11091690,0.79,0.09,0.12,58548,66,43,57,1,22,3
 2025-06-27,19,=,19,False,False,161,-0.04,Mad Season,Matchbox Twenty,Mad Season,9,9,1,45,27,2,13513500,2363,11791980,0.8,0.09,0.11,69559,74,51,36,1,21,4
 2025-06-27,20,-5,15,False,False,150,-0.21,I know love (feat. The Kid LAROI),Tate McRae,So Close to What,6,6,1,30,18,2,7900200,1381,10346220,0.76,0.09,0.16,41769,50,57,43,4,11,1
@@ -41,27 +41,27 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-06-27,40,+15,55,False,False,90,-0.1,Miss possessive,Tate McRae,So Close to What,4,4,1,20,12,2,5763450,1008,11317590,0.7,0.08,0.22,31626,34,30,26,3,16,1
 2025-06-27,41,-16,25,False,False,87,-0.41,Before the Lobotomy,Green Day,21st Century Breakdown,5,5,1,25,15,2,7839562,1370,12311550,0.73,0.08,0.18,42042,42,45,0,1,32,2
 2025-06-27,42,+35,77,False,False,83,0.3,Homecoming,Green Day,American Idiot,6,1,6,30,3,12,8645175,252,67905540,0.44,0.01,0.55,45682,45,20,18,4,29,1
-2025-06-27,43,RE,--,False,False,82,--,Popular Song,Mika,Yours Truly,10,10,1,50,30,2,15274875,2671,11995290,0.81,0.09,0.1,78204,82,0,0,1,7,1
+2025-06-27,43,RE,--,False,False,82,--,Popular Song,Mika,Yours Truly,10,10,1,50,30,2,15274875,2671,11995290,0.81,0.09,0.1,78204,82,0,0,1,8,1
 2025-06-27,44,NEW,--,True,False,82,--,If She Could See Me Now,Lorde,Virgin,10,10,1,50,30,2,15246000,2666,11972700,0.81,0.09,0.1,78057,82,0,0,44,1,1
 2025-06-27,45,NEW,--,True,False,82,--,Hammer,Lorde,Virgin,10,10,1,50,30,2,15650250,2736,12288960,0.81,0.09,0.1,80115,82,0,0,45,1,1
 2025-06-27,46,-14,32,False,False,81,-0.34,May These Noises Startle You in Your Sleep Tonight,Pierce the Veil,Collide With the Sky,1,1,1,5,3,2,1325362,231,10413990,0.42,0.05,0.53,9702,10,37,34,3,12,2
-2025-06-27,47,RE,--,False,False,80,--,Iris,The Goo Goo Dolls,Dizzy Up the Girl,11,1,11,55,3,22,14388412,228,113062950,0.44,0.0,0.55,73416,80,0,0,31,10,1
-2025-06-27,48,-10,38,False,False,80,-0.29,Boulevard of Broken Dreams,Green Day,American Idiot,4,4,1,20,12,2,6063750,1060,11904930,0.7,0.08,0.22,33264,34,34,12,7,24,1
+2025-06-27,47,RE,--,False,False,80,--,Iris,Goo Goo Dolls,Dizzy Up the Girl,11,1,11,55,3,22,16103587,256,126481410,0.44,0.0,0.55,82110,80,0,0,31,10,1
+2025-06-27,48,-10,38,False,False,80,-0.29,Boulevard of Broken Dreams,Green Day,American Idiot,4,4,1,20,12,2,6063750,1060,11904930,0.7,0.08,0.22,33264,34,34,12,7,25,1
 2025-06-27,49,+35,84,False,False,79,0.58,Love Me Harder,Ariana Grande,My Everything (Deluxe),8,6,3,40,18,6,10556700,1384,31106429,0.64,0.05,0.3,54739,64,15,0,9,7,1
-2025-06-27,50,-7,43,False,False,78,-0.28,Extraordinary Girl,Green Day,American Idiot,4,4,1,20,12,2,5544000,969,10888380,0.7,0.08,0.22,30429,34,33,11,1,27,2
+2025-06-27,50,-7,43,False,False,78,-0.28,Extraordinary Girl,Green Day,American Idiot,4,4,1,20,12,2,5544000,969,10888380,0.7,0.08,0.22,30429,34,33,11,1,28,2
 2025-06-27,51,-12,39,False,False,78,-0.3,Revolving door,Tate McRae,So Close to What,2,2,1,10,6,2,2668050,466,10481760,0.58,0.06,0.36,16275,18,34,26,3,16,3
 2025-06-27,52,+6,58,False,False,77,-0.17,The Burn,Matchbox Twenty,Mad Season,5,5,1,25,15,2,6973312,1219,10956150,0.73,0.08,0.18,37422,42,28,7,15,9,1
-2025-06-27,53,-8,45,False,False,77,-0.28,Letterbomb,Green Day,American Idiot,4,4,1,20,12,2,5821200,1018,11430540,0.7,0.08,0.22,31941,34,33,10,10,24,1
-2025-06-27,54,-12,42,False,False,77,-0.29,Holiday,Green Day,American Idiot,4,4,1,20,12,2,5278350,923,10368810,0.7,0.08,0.22,28979,34,33,10,5,25,1
-2025-06-27,55,-9,46,False,False,77,-0.28,Are We the Waiting,Green Day,American Idiot,4,4,1,20,12,2,6052200,1058,11882340,0.7,0.08,0.22,33201,34,33,10,5,19,1
+2025-06-27,53,-8,45,False,False,77,-0.28,Letterbomb,Green Day,American Idiot,4,4,1,20,12,2,5821200,1018,11430540,0.7,0.08,0.22,31941,34,33,10,10,25,1
+2025-06-27,54,-12,42,False,False,77,-0.29,Holiday,Green Day,American Idiot,4,4,1,20,12,2,5278350,923,10368810,0.7,0.08,0.22,28979,34,33,10,5,26,1
+2025-06-27,55,-9,46,False,False,77,-0.28,Are We the Waiting,Green Day,American Idiot,4,4,1,20,12,2,6052200,1058,11882340,0.7,0.08,0.22,33201,34,33,10,5,21,1
 2025-06-27,56,-9,47,False,False,77,-0.28,American Idiot,Green Day,American Idiot,4,4,1,20,12,2,5255250,919,10323630,0.7,0.08,0.22,28854,34,33,10,1,52,1
 2025-06-27,57,-24,33,False,False,77,-0.35,I Miss You,blink-182,blink-182,3,3,1,15,9,2,4357237,762,11407950,0.65,0.07,0.27,24794,26,36,15,3,20,2
 2025-06-27,58,-1,57,False,False,77,-0.2,All Too Well,Taylor Swift,Red,3,3,1,15,9,2,4002074,700,10481760,0.65,0.07,0.27,22785,26,29,22,1,7,1
 2025-06-27,59,-24,35,False,False,77,-0.34,Hold On Till May,Pierce the Veil,Collide With the Sky,1,1,1,5,3,2,1345575,235,10572120,0.42,0.05,0.53,9849,10,35,32,7,9,1
 2025-06-27,60,-19,41,False,False,76,-0.31,Whatsername,Green Day,American Idiot,4,4,1,20,12,2,5463150,955,10730250,0.7,0.08,0.22,29988,34,33,9,8,45,2
-2025-06-27,61,-17,44,False,False,76,-0.29,St. Jimmy,Green Day,American Idiot,4,4,1,20,12,2,5717250,999,11227230,0.7,0.08,0.22,31374,34,33,9,8,23,1
-2025-06-27,62,-10,52,False,False,76,-0.28,Give Me Novacaine,Green Day,American Idiot,4,4,1,20,12,2,5601750,979,11001330,0.7,0.08,0.22,30744,34,32,10,9,26,1
-2025-06-27,63,-12,51,False,False,75,-0.29,She's a Rebel,Green Day,American Idiot,4,4,1,20,12,2,5590200,977,10978740,0.7,0.08,0.22,30681,34,32,9,7,25,1
+2025-06-27,61,-17,44,False,False,76,-0.29,St. Jimmy,Green Day,American Idiot,4,4,1,20,12,2,5717250,999,11227230,0.7,0.08,0.22,31374,34,33,9,8,24,1
+2025-06-27,62,-10,52,False,False,76,-0.28,Give Me Novacaine,Green Day,American Idiot,4,4,1,20,12,2,5601750,979,11001330,0.7,0.08,0.22,30744,34,32,10,9,27,1
+2025-06-27,63,-12,51,False,False,75,-0.29,She's a Rebel,Green Day,American Idiot,4,4,1,20,12,2,5590200,977,10978740,0.7,0.08,0.22,30681,34,32,9,7,26,1
 2025-06-27,64,RE,--,False,False,74,--,Tócame (feat. Dillom),Six Sex,X-sex,10,6,3,50,18,6,13946625,1463,32868450,0.69,0.05,0.26,64638,74,0,0,11,10,2
 2025-06-27,65,-17,48,False,False,73,-0.32,I'm Low on Gas and You Need a Jacket,Pierce the Veil,Collide With the Sky,1,1,1,5,3,2,1515937,265,11904930,0.42,0.05,0.53,11088,10,33,30,5,12,2
 2025-06-27,66,RE,--,False,False,68,--,Never Again,Kelly Clarkson,My December,10,4,3,50,12,6,13917750,973,32800680,0.7,0.03,0.26,57715,68,0,0,21,18,1
@@ -69,22 +69,22 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-06-27,68,RE,--,False,False,66,--,How Far We've Come,Matchbox Twenty,How Far We've Come,4,4,1,20,12,2,5382300,941,10572120,0.7,0.08,0.22,29547,34,0,32,2,15,1
 2025-06-27,69,+16,85,False,False,65,0.3,Bang Bang,Jessie J,My Everything (Deluxe),6,6,1,30,18,2,8662500,1515,11340180,0.76,0.09,0.16,45773,50,15,0,4,7,1
 2025-06-27,70,RE,--,False,False,64,--,Ribs,Lorde,Pure Heroine,9,3,5,45,9,10,12006225,700,52408800,0.58,0.02,0.4,55335,64,0,0,18,7,1
-2025-06-27,71,RE,--,False,False,63,--,Low,Kelly Clarkson,Thankful,8,5,4,40,15,8,10649100,1164,41836680,0.59,0.04,0.37,55216,63,0,0,3,19,1
+2025-06-27,71,RE,--,False,False,63,--,Low,Kelly Clarkson,Thankful,8,5,4,40,15,8,10649100,1164,41836680,0.59,0.04,0.37,55216,63,0,0,3,18,1
 2025-06-27,72,-18,54,False,False,61,-0.4,We Are Never Ever Getting Back Together,Taylor Swift,Red,1,1,1,5,3,2,1325362,231,10413990,0.42,0.05,0.53,9702,10,31,20,10,14,1
-2025-06-27,73,RE,--,False,False,59,--,Killing Time,Magdalena Bay,Imaginal Disk,8,1,8,40,3,16,12520200,273,98311680,0.44,0.01,0.55,64855,59,0,0,19,11,1
+2025-06-27,73,RE,--,False,False,59,--,Killing Time,Magdalena Bay,Imaginal Disk,8,1,8,40,3,16,12520200,273,98311680,0.44,0.01,0.55,64855,59,0,0,15,14,1
 2025-06-27,74,-6,68,False,False,59,-0.25,Siren sounds (bonus),Tate McRae,So Close to What,2,2,1,10,6,2,2604525,455,10233270,0.58,0.06,0.36,15890,18,24,17,19,9,1
-2025-06-27,75,=,75,False,False,54,-0.18,Dead!,My Chemical Romance,The Black Parade,4,4,1,20,12,2,5405400,945,10617300,0.7,0.08,0.22,29673,34,20,0,3,54,2
+2025-06-27,75,=,75,False,False,54,-0.18,Dead!,My Chemical Romance,The Black Parade,4,4,1,20,12,2,5405400,945,10617300,0.7,0.08,0.22,29673,34,20,0,3,55,2
 2025-06-27,76,-16,60,False,False,54,-0.38,Violence,blink-182,blink-182,2,2,1,10,6,2,2679600,468,10526940,0.58,0.06,0.36,16345,18,27,9,15,15,1
 2025-06-27,77,-16,61,False,False,54,-0.38,The Fallen Interlude,blink-182,blink-182,2,2,1,10,6,2,2610300,456,10255860,0.58,0.06,0.36,15925,18,27,9,18,16,1
 2025-06-27,78,-19,59,False,False,54,-0.42,Obvious,blink-182,blink-182,2,2,1,10,6,2,3141600,549,12334140,0.58,0.06,0.36,19145,18,28,8,5,17,2
-2025-06-27,79,RE,--,False,False,52,--,New Romantics (Taylor's Version),Taylor Swift,1989 (Taylor's Version),7,1,7,35,3,14,10550925,263,82860120,0.44,0.01,0.55,55125,52,0,0,7,19,1
+2025-06-27,79,RE,--,False,False,52,--,New Romantics (Taylor's Version),Taylor Swift,1989 (Taylor's Version),7,1,7,35,3,14,10550925,263,82860120,0.44,0.01,0.55,55125,52,0,0,7,20,1
 2025-06-27,80,+9,89,False,False,52,0.16,Bent,Matchbox Twenty,Mad Season,3,3,1,15,9,2,4400550,769,11520900,0.65,0.07,0.27,25039,26,14,12,3,21,1
 2025-06-27,81,RE,--,False,False,52,--,exes,Tate McRae,THINK LATER,3,1,3,15,3,6,4374562,255,34359390,0.44,0.02,0.55,24892,24,0,28,8,9,1
-2025-06-27,82,RE,--,False,False,50,--,She's So Mean,Matchbox Twenty,North (Deluxe Edition),6,6,1,30,18,2,9130275,1596,11950110,0.76,0.09,0.16,48230,50,0,0,1,59,1
+2025-06-27,82,RE,--,False,False,50,--,She's So Mean,Matchbox Twenty,North (Deluxe Edition),6,6,1,30,18,2,9130275,1596,11950110,0.76,0.09,0.16,48230,50,0,0,1,57,1
 2025-06-27,83,-18,65,False,False,49,-0.4,Just Keep Watching (From F1® The Movie),Tate McRae,Just Keep Watching (From F1® The Movie),3,1,3,15,3,6,4495837,262,35308170,0.44,0.02,0.55,25578,24,25,0,13,5,1
 2025-06-27,84,RE,--,False,False,48,--,Manchild,Sabrina Carpenter,Manchild,3,1,3,15,3,6,4279275,249,33613920,0.44,0.02,0.55,24353,24,0,24,34,3,1
 2025-06-27,85,-9,76,False,False,46,-0.3,Anytime,Kelly Clarkson,Thankful,3,3,1,15,9,2,4400550,769,11520900,0.65,0.07,0.27,25039,26,20,0,27,8,1
-2025-06-27,86,RE,--,False,False,45,--,You Are in Love (Taylor's Version),Taylor Swift,1989 (Taylor's Version),6,1,6,30,3,12,7917525,230,62212859,0.44,0.01,0.55,41860,45,0,0,14,14,1
+2025-06-27,86,RE,--,False,False,45,--,You Are in Love (Taylor's Version),Taylor Swift,1989 (Taylor's Version),6,1,6,30,3,12,7917525,230,62212859,0.44,0.01,0.55,41860,45,0,0,14,13,1
 2025-06-27,87,-14,73,False,False,44,-0.36,King for a Day,Pierce the Veil,Collide With the Sky,1,1,1,5,3,2,1547700,270,12153420,0.42,0.05,0.53,11319,10,21,13,12,12,1
 2025-06-27,88,-25,63,False,False,43,-0.48,Stockholm Syndrome Interlude,blink-182,blink-182,2,2,1,10,6,2,2731575,477,10730250,0.58,0.06,0.36,16660,18,25,0,44,11,1
 2025-06-27,89,NEW,--,True,False,42,--,What Was That,Lorde,Virgin,5,5,1,25,15,2,7363125,1287,11566080,0.73,0.08,0.18,39501,42,0,0,89,1,1

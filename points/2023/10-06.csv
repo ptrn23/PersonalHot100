@@ -1,7 +1,7 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2023-10-06,1,+23,24,True,False,212,3.33,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),28,5,21,140,15,42,43093050,1345,253798650,0.51,0.01,0.48,202608,197,15,0,1,70,1
+2023-10-06,1,+23,24,True,False,212,3.33,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),28,5,21,140,15,42,43093050,1345,253798650,0.51,0.01,0.48,202608,197,15,0,1,72,1
 2023-10-06,2,+20,22,False,False,114,1.28,Midnight Rain,Taylor Swift,Midnights (3am Edition),13,5,7,65,15,14,17079562,1149,72265410,0.58,0.03,0.39,80150,94,15,5,1,46,2
-2023-10-06,3,+11,14,False,False,113,0.57,‘tis the damn season,Taylor Swift,evermore,10,1,10,50,3,20,13195875,230,103688099,0.44,0.0,0.55,67620,73,22,18,1,44,1
+2023-10-06,3,+11,14,False,False,113,0.57,‘tis the damn season,Taylor Swift,evermore,10,1,10,50,3,20,13195875,230,103688099,0.44,0.0,0.55,67620,73,22,18,1,43,1
 2023-10-06,4,-2,2,False,False,110,-0.34,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,5243700,917,10301040,0.7,0.08,0.22,28791,34,51,25,1,80,2
 2023-10-06,5,-4,1,False,False,97,-0.47,Wildest Dreams (Taylor's Version),Taylor Swift,Wildest Dreams (Taylor's Version),3,3,1,15,9,2,4054049,709,10617300,0.65,0.07,0.27,23079,26,55,16,1,51,8
 2023-10-06,6,-2,4,False,False,90,-0.3,A Thousand Miles,Vanessa Carlton,Be Not Nobody,3,3,1,15,9,2,4539150,793,11882340,0.65,0.07,0.27,25823,26,39,25,1,6,2
@@ -38,7 +38,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-10-06,37,-2,35,False,False,34,0.17,Talk that Talk,TWICE,BETWEEN 1&2,2,2,1,10,6,2,2621850,458,10301040,0.58,0.06,0.36,15995,18,9,7,1,17,1
 2023-10-06,38,+32,70,True,False,32,0.78,lacy,Olivia Rodrigo,GUTS,3,3,1,15,9,2,4409212,771,11543490,0.65,0.07,0.27,25088,26,6,0,38,3,1
 2023-10-06,39,+44,83,True,False,32,0.78,ballad of a homeschooled girl,Olivia Rodrigo,GUTS,3,3,1,15,9,2,4695075,821,12288960,0.65,0.07,0.27,26705,26,6,0,39,3,1
-2023-10-06,40,RE,--,False,False,31,--,This Love (Taylor’s Version),Taylor Swift,This Love (Taylor’s Version),4,1,4,20,3,8,5659500,247,44457120,0.44,0.01,0.55,31059,31,0,0,1,39,1
+2023-10-06,40,RE,--,False,False,31,--,This Love (Taylor’s Version),Taylor Swift,This Love (Taylor’s Version),4,1,4,20,3,8,5659500,247,44457120,0.44,0.01,0.55,31059,31,0,0,1,40,1
 2023-10-06,41,RE,--,False,False,31,--,The Day You Said Goodnight,Hale,Hale,4,1,4,20,3,8,5463150,238,42921000,0.44,0.01,0.55,29988,31,0,0,38,10,1
 2023-10-06,42,+35,77,False,False,30,0.67,Enchanted (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),3,1,3,15,3,6,4478512,261,35172630,0.44,0.02,0.55,25480,24,6,0,9,9,1
 2023-10-06,43,-25,18,False,False,28,-0.53,Mean (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,18,0,7,8,1
@@ -55,9 +55,9 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-10-06,54,+31,85,True,False,24,0.33,all-american bitch,Olivia Rodrigo,GUTS,2,2,1,10,6,2,2720025,475,10685070,0.58,0.06,0.36,16590,18,6,0,54,2,1
 2023-10-06,55,RE,--,False,False,23,--,Holy Ground (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,1,2,10,3,4,2748900,240,21596040,0.43,0.02,0.54,16765,17,0,6,1,55,1
 2023-10-06,56,-23,33,False,False,21,-0.38,Question...?,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1305150,228,10255860,0.42,0.05,0.53,9555,10,11,0,6,27,1
-2023-10-06,57,RE,--,False,False,21,--,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1544812,270,12130830,0.42,0.05,0.53,11298,10,0,11,1,41,1
+2023-10-06,57,RE,--,False,False,21,--,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1544812,270,12130830,0.42,0.05,0.53,11298,10,0,11,1,42,1
 2023-10-06,58,RE,--,False,False,19,--,Sweeter Than Fiction - From One Chance Soundtrack,Taylor Swift,Sweeter Than Fiction,1,1,1,5,3,2,1325362,231,10413990,0.42,0.05,0.53,9702,10,0,9,12,6,1
-2023-10-06,59,+33,92,False,False,19,0.19,Red Flavor,Red Velvet,The Red Summer - Summer Mini Album,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,5,4,9,17,1
+2023-10-06,59,+33,92,False,False,19,0.19,Red Flavor,Red Velvet,The Red Summer - Summer Mini Album,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,5,4,9,18,1
 2023-10-06,60,RE,--,False,False,19,--,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1513050,264,11882340,0.42,0.05,0.53,11067,10,0,9,1,77,5
 2023-10-06,61,+33,94,False,False,19,0.19,#Cookie Jar,Red Velvet,#Cookie Jar,1,1,1,5,3,2,1409100,246,11069100,0.42,0.05,0.53,10311,10,5,4,1,15,2
 2023-10-06,62,RE,--,False,False,18,--,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),2,2,1,10,6,2,3164700,553,10165500,0.58,0.06,0.36,15785,18,0,0,1,61,4
@@ -94,7 +94,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-10-06,93,-35,58,False,False,16,-0.11,teenage dream,Olivia Rodrigo,GUTS,1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,6,0,58,3,1
 2023-10-06,94,RE,--,False,False,16,--,Sunny Summer,GFRIEND,GFRIEND Summer Mini Album 'Sunny Summer',1,1,1,5,3,2,1492837,261,11724210,0.42,0.05,0.53,10920,10,0,6,22,4,1
 2023-10-06,95,-34,61,False,False,16,-0.11,pretty isn’t pretty,Olivia Rodrigo,GUTS,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,6,0,61,2,1
-2023-10-06,96,-34,62,False,False,16,-0.11,Paris,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1533262,268,12040470,0.42,0.05,0.53,11214,10,6,0,5,21,1
+2023-10-06,96,-34,62,False,False,16,-0.11,Paris,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1533262,268,12040470,0.42,0.05,0.53,11214,10,6,0,5,22,1
 2023-10-06,97,-33,64,False,False,16,-0.11,Never Grow Up (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),1,1,1,5,3,2,1455300,254,11430540,0.42,0.05,0.53,10647,10,6,0,31,5,1
 2023-10-06,98,RE,--,False,False,16,--,Minsan,Eraserheads,Circus,1,1,1,5,3,2,1371562,239,10775430,0.42,0.05,0.53,10038,10,0,6,17,9,1
 2023-10-06,99,-34,65,False,False,16,-0.11,Mastermind,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1579462,276,12401910,0.42,0.05,0.53,9450,10,6,0,5,17,1

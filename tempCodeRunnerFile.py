@@ -1,1 +1,1 @@
-get
+YEARS = [str(year) for year in range(2020, 2026)]

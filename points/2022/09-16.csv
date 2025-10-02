@@ -1,7 +1,7 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2022-09-16,1,+2,3,True,True,240,0.02,After LIKE,IVE,After LIKE,13,13,1,65,39,2,18468450,3230,11159460,0.83,0.09,0.08,93555,106,71,63,1,5,3
 2022-09-16,2,+4,6,False,False,229,0.02,My Satisfaction,IVE,After LIKE,12,12,1,60,36,2,18849600,3296,12334140,0.82,0.09,0.09,95725,98,68,63,1,5,1
-2022-09-16,3,+2,5,True,False,175,-0.25,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),8,8,1,40,24,2,12104400,2116,11882340,0.79,0.09,0.12,62713,66,71,38,3,27,1
+2022-09-16,3,+2,5,False,False,175,-0.25,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),8,8,1,40,24,2,12104400,2116,11882340,0.79,0.09,0.12,62713,66,71,38,2,27,1
 2022-09-16,4,+3,7,True,False,169,0.03,Attention,NewJeans,NewJeans 1st EP 'New Jeans',12,12,1,60,36,2,18364500,3211,12017880,0.82,0.09,0.09,93275,98,50,21,4,4,1
 2022-09-16,5,-4,1,False,False,157,-0.37,Holy Ground (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4123350,721,10798020,0.65,0.07,0.27,23471,26,76,55,1,13,1
 2022-09-16,6,-4,2,False,False,153,-0.35,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),10,10,1,50,30,2,15130500,2646,11882340,0.81,0.09,0.1,77469,82,71,0,2,26,2
@@ -14,7 +14,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-09-16,13,NEW,--,True,False,89,--,DICE,NMIXX,ENTWURF,11,10,2,55,30,4,15118950,2404,21596040,0.75,0.08,0.17,77119,89,0,0,13,1,1
 2022-09-16,14,+28,42,False,False,87,0.89,Uptown Girl,Westlife,Coast to Coast (Expanded Edition),8,5,4,40,15,8,12243000,1338,48071520,0.59,0.04,0.37,63427,63,14,10,1,9,2
 2022-09-16,15,NEW,--,True,False,82,--,COOL (Your rainbow),NMIXX,ENTWURF,10,10,1,50,30,2,15505875,2711,12176010,0.81,0.09,0.1,79380,82,0,0,15,1,1
-2022-09-16,16,+37,53,False,False,78,0.95,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),8,8,1,40,24,2,12219900,2136,11995290,0.79,0.09,0.12,63308,66,12,0,13,18,1
+2022-09-16,16,+37,53,False,False,78,0.95,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),8,8,1,40,24,2,12219900,2136,11995290,0.79,0.09,0.12,63308,66,12,0,14,18,1
 2022-09-16,17,RE,--,False,False,75,--,O.O,NMIXX,AD MARE,8,8,1,40,24,2,10880100,1903,10685070,0.79,0.09,0.12,56406,66,0,9,1,23,2
 2022-09-16,18,-7,11,False,False,73,-0.39,Queen of Hearts,TWICE,BETWEEN 1&2,2,2,1,10,6,2,2887500,505,11340180,0.58,0.06,0.36,17605,18,36,19,8,4,1
 2022-09-16,19,-7,12,False,False,72,-0.36,When We Were Kids,TWICE,BETWEEN 1&2,2,2,1,10,6,2,2916375,510,11453130,0.58,0.06,0.36,17780,18,34,20,6,4,1
@@ -33,7 +33,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-09-16,32,-8,24,False,False,63,-0.26,libidO,OnlyOneOf,Instinct Pt. 1,2,2,1,10,6,2,3170475,453,10188090,0.58,0.06,0.36,15820,18,26,19,4,5,1
 2022-09-16,33,-13,20,False,False,63,-0.28,Illusion,aespa,Girls - The 2nd Mini Album,1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,27,26,7,8,1
 2022-09-16,34,RE,--,False,False,58,--,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),7,7,1,35,21,2,11076450,1936,10165500,0.77,0.09,0.14,47355,58,0,0,2,22,1
-2022-09-16,35,-6,29,False,False,57,-0.25,favOriTe,Loona,[+ +],2,2,1,10,6,2,3164700,553,10165500,0.58,0.06,0.36,15785,18,23,16,3,24,3
+2022-09-16,35,-6,29,False,False,57,-0.25,favOriTe,Loona,[+ +],2,2,1,10,6,2,3164700,553,10165500,0.58,0.06,0.36,15785,18,23,16,3,30,3
 2022-09-16,36,-9,27,False,False,57,-0.28,Girls,aespa,Girls - The 2nd Mini Album,1,1,1,5,3,2,1322475,231,10391400,0.42,0.05,0.53,9681,10,24,23,12,8,1
 2022-09-16,37,-15,22,False,False,55,-0.36,Brave,TWICE,BETWEEN 1&2,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,26,19,10,4,1
 2022-09-16,38,-8,30,False,False,51,-0.24,Up!,Kep1er,DOUBLAST,1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,21,20,4,13,1
@@ -73,8 +73,8 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-09-16,72,RE,--,False,False,26,--,Beg for Me,Red Velvet,‘The ReVe Festival 2022 - Feel My Rhythm’,3,3,1,15,9,2,4504500,787,11791980,0.65,0.07,0.27,25627,26,0,0,52,9,1
 2022-09-16,73,RE,--,False,False,25,--,If I'm Being Honest,dodie,Human,3,2,2,15,6,4,4556475,531,23855040,0.52,0.04,0.44,25921,25,0,0,4,19,1
 2022-09-16,74,-34,40,False,False,25,-0.5,Sad Beautiful Tragic (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,15,0,7,27,1
-2022-09-16,75,-34,41,False,False,25,-0.47,Naughty,Red Velvet - IRENE & SEULGI,Naughty,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,15,0,41,4,1
-2022-09-16,76,+18,94,False,False,24,0.0,tolerate it,Taylor Swift,evermore,1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,8,6,6,19,1
+2022-09-16,75,-34,41,False,False,25,-0.47,Naughty,Red Velvet - IRENE & SEULGI,Naughty,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,15,0,41,5,1
+2022-09-16,76,+18,94,False,False,24,0.0,tolerate it,Taylor Swift,evermore,1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,8,6,6,18,1
 2022-09-16,77,RE,--,False,False,24,--,REAL YOU,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,1513050,264,11882340,0.42,0.05,0.53,11067,10,0,14,4,15,2
 2022-09-16,78,+17,95,False,False,24,0.0,no body no crime (feat. HAIM),Taylor Swift,evermore,1,1,1,5,3,2,1377337,240,10820610,0.42,0.05,0.53,10080,10,8,6,8,15,1
 2022-09-16,79,+17,96,False,False,24,0.0,marjorie,Taylor Swift,evermore,1,1,1,5,3,2,1371562,239,10775430,0.42,0.05,0.53,10038,10,8,6,2,14,1
@@ -90,7 +90,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-09-16,89,-45,44,False,False,23,-0.47,Boy,THE BOYZ,THE BOYZ DEBUT ALBUM [THE FIRST],1,1,1,5,3,2,1544812,270,12130830,0.42,0.05,0.53,11298,10,13,0,29,6,1
 2022-09-16,90,-32,58,False,False,22,-0.44,Dress,Taylor Swift,Reputation,1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,12,0,2,27,1
 2022-09-16,91,-32,59,False,False,22,-0.44,All Night,Girls' Generation,Holiday Night - The 6th Album,1,1,1,5,3,2,1504387,263,11814570,0.42,0.05,0.53,11004,10,12,0,51,4,1
-2022-09-16,92,-30,62,False,False,21,-0.38,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1504387,263,11814570,0.42,0.05,0.53,11004,10,11,0,18,22,1
+2022-09-16,92,-30,62,False,False,21,-0.38,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1504387,263,11814570,0.42,0.05,0.53,11004,10,11,0,19,22,2
 2022-09-16,93,-30,63,False,False,21,-0.38,The Archer,Taylor Swift,Lover,1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,11,0,17,19,2
 2022-09-16,94,-29,65,False,False,21,-0.38,Miss Americana & the Heartbreak Prince,Taylor Swift,Lover,1,1,1,5,3,2,1550587,271,12176010,0.42,0.05,0.53,11340,10,11,0,10,12,1
 2022-09-16,95,-26,69,False,False,21,-0.38,I Forgot That You Existed,Taylor Swift,Lover,1,1,1,5,3,2,1322475,231,10391400,0.42,0.05,0.53,9681,10,11,0,11,8,1

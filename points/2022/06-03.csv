@@ -16,7 +16,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-06-03,15,-6,9,False,False,75,-0.15,ESPRESSO,TWICE,Formula of Love: O+T=<3,3,3,1,15,9,2,4651762,813,12176010,0.65,0.07,0.27,26460,26,27,22,2,7,1
 2022-06-03,16,+8,24,False,False,73,0.12,DM,fromis_9,Midnight Guest,4,4,1,20,12,2,5936700,1038,11656440,0.7,0.08,0.22,32571,34,20,19,4,7,2
 2022-06-03,17,-12,5,False,False,73,-0.23,This Love (Taylor’s Version),Taylor Swift,This Love (Taylor’s Version),2,2,1,10,6,2,2829750,494,11114280,0.58,0.06,0.36,17255,18,29,26,2,5,2
-2022-06-03,18,RE,--,True,False,72,--,favOriTe,Loona,[X X],8,6,4,40,18,8,12196800,1599,47890800,0.59,0.05,0.37,66906,66,0,6,18,10,1
+2022-06-03,18,RE,--,True,False,72,--,favOriTe,Loona,[X X],8,6,4,40,18,8,12196800,1599,47890800,0.59,0.05,0.37,66906,66,0,6,18,16,1
 2022-06-03,19,+7,26,False,False,71,0.13,WE GO,fromis_9,9 WAY TICKET,4,4,1,20,12,2,5694150,995,11182050,0.7,0.08,0.22,31248,34,19,18,5,8,2
 2022-06-03,20,-13,7,False,False,71,-0.22,The Feels,TWICE,Formula of Love: O+T=<3,4,4,1,20,12,2,5405400,945,10617300,0.7,0.08,0.22,29673,34,28,9,3,10,1
 2022-06-03,21,-1,20,False,False,71,0.03,TANK,NMIXX,AD MARE,4,4,1,20,12,2,6017550,1052,11814570,0.7,0.08,0.22,33012,34,21,16,8,8,1
@@ -50,7 +50,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-06-03,49,RE,--,False,False,42,--,HULA HOOP,Loona,HULA HOOP / StarSeed ~カクセイ~,5,5,1,25,15,2,7016625,1227,11023920,0.73,0.08,0.18,37653,42,0,0,28,3,1
 2022-06-03,50,+44,94,False,False,42,0.68,Guiltless,dodie,Guiltless,4,4,1,20,12,2,5798100,1014,11385360,0.7,0.08,0.22,31815,34,8,0,5,11,1
 2022-06-03,51,+32,83,False,False,42,0.62,AS IF IT'S YOUR LAST,BLACKPINK,AS IF IT'S YOUR LAST,4,4,1,20,12,2,6075300,1062,11927520,0.7,0.08,0.22,33327,34,8,0,5,10,1
-2022-06-03,52,+8,60,False,False,42,0.4,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,2,2,15,6,4,4539150,529,23764680,0.52,0.04,0.44,25823,25,9,8,7,21,1
+2022-06-03,52,+8,60,False,False,42,0.4,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,2,2,15,6,4,4539150,529,23764680,0.52,0.04,0.44,25823,25,9,8,2,21,1
 2022-06-03,53,-26,27,False,False,42,-0.32,Step Back,GOT the beat,Step Back,1,1,1,5,3,2,1328250,232,10436580,0.42,0.05,0.53,9723,10,19,13,16,7,1
 2022-06-03,54,RE,--,False,False,41,--,Feel Special,TWICE,Feel Special,4,4,1,20,12,2,5775000,1010,11340180,0.7,0.08,0.22,31689,34,0,7,4,28,2
 2022-06-03,55,RE,--,False,False,41,--,Butterfly,Loona,[X X],4,4,1,20,12,2,5532450,967,10865790,0.7,0.08,0.22,30366,34,0,7,43,9,1
@@ -83,11 +83,11 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-06-03,82,RE,--,False,False,32,--,Perfect World,TWICE,Perfect World,3,3,1,15,9,2,4183987,731,10956150,0.65,0.07,0.27,23814,26,0,6,11,5,1
 2022-06-03,83,RE,--,False,False,32,--,I CAN'T STOP ME,TWICE,Eyes wide open,3,3,1,15,9,2,3932775,687,10301040,0.65,0.07,0.27,22393,26,0,6,12,10,1
 2022-06-03,84,RE,--,False,False,32,--,Heart Shaker,TWICE,Merry & Happy,3,3,1,15,9,2,4426537,774,11588670,0.65,0.07,0.27,25186,26,0,6,5,11,1
-2022-06-03,85,-1,84,False,False,32,0.23,What the Hell,Avril Lavigne,Goodbye Lullaby (Expanded Edition),2,2,1,10,6,2,2829750,494,11114280,0.58,0.06,0.36,17255,18,8,6,1,15,1
-2022-06-03,86,-1,85,False,False,32,0.23,Waking Up in Vegas,Katy Perry,One of the Boys,2,2,1,10,6,2,2627625,459,10323630,0.58,0.06,0.36,16030,18,8,6,3,28,1
+2022-06-03,85,-1,84,False,False,32,0.23,What the Hell,Avril Lavigne,Goodbye Lullaby (Expanded Edition),2,2,1,10,6,2,2829750,494,11114280,0.58,0.06,0.36,17255,18,8,6,1,14,1
+2022-06-03,86,-1,85,False,False,32,0.23,Waking Up in Vegas,Katy Perry,One of the Boys,2,2,1,10,6,2,2627625,459,10323630,0.58,0.06,0.36,16030,18,8,6,3,23,1
 2022-06-03,87,-1,86,False,False,32,0.23,Still Into You,Paramore,Paramore,2,2,1,10,6,2,2691150,470,10572120,0.58,0.06,0.36,16415,18,8,6,7,17,1
 2022-06-03,88,-37,51,False,False,32,0.0,STAY,BLACKPINK,SQUARE TWO,2,2,1,10,6,2,2720025,475,10685070,0.58,0.06,0.36,16590,18,10,4,15,4,1
-2022-06-03,89,+3,92,False,False,32,0.23,Girlfriend,Avril Lavigne,The Best Damn Thing (Expanded Edition),2,2,1,10,6,2,2748900,480,10798020,0.58,0.06,0.36,16765,18,8,6,29,12,2
+2022-06-03,89,+3,92,False,False,32,0.23,Girlfriend,Avril Lavigne,The Best Damn Thing (Expanded Edition),2,2,1,10,6,2,2748900,480,10798020,0.58,0.06,0.36,16765,18,8,6,20,13,1
 2022-06-03,90,+3,93,False,False,32,0.23,brutal,Olivia Rodrigo,SOUR,2,2,1,10,6,2,3020325,528,11859750,0.58,0.06,0.36,18410,18,8,6,8,11,1
 2022-06-03,91,RE,--,False,False,30,--,러시안 룰렛 Russian Roulette,Red Velvet,Russian Roulette - The 3rd Mini Album,3,3,1,15,9,2,4686412,819,12266370,0.65,0.07,0.27,26656,26,0,4,52,5,1
 2022-06-03,92,RE,--,False,False,30,--,Thinking Bout You,Ariana Grande,Dangerous Woman,3,3,1,15,9,2,4036725,706,10572120,0.65,0.07,0.27,22981,26,0,4,7,9,1
