@@ -1,62 +1,62 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2021-04-23,1,RE,--,True,False,23,--,Tell Me Why (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),2,2,1,10,6,2,3083850,539,12108240,0.58,0.06,0.36,18795,18,0,5,1,2,1
-2021-04-23,2,+15,17,True,False,22,0.22,We Were Happy (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1411987,246,11091690,0.42,0.05,0.53,10332,10,6,6,2,3,1
-2021-04-23,3,+16,19,True,False,19,0.19,Don’t You (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1423537,248,11182050,0.42,0.05,0.53,10416,10,5,4,3,3,1
+2021-04-23,2,15,17,True,False,22,0.22,We Were Happy (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1411987,246,11091690,0.42,0.05,0.53,10332,10,5,5,2,3,1
+2021-04-23,3,16,19,True,False,19,0.19,Don’t You (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1423537,248,11182050,0.42,0.05,0.53,10416,10,4,3,3,3,1
 2021-04-23,4,NEW,--,True,False,17,--,Good Time,Owl City,The Midsummer Station,2,1,2,10,3,4,2702700,236,21234600,0.43,0.02,0.54,16485,17,0,0,4,1,1
-2021-04-23,5,RE,--,False,False,17,--,Fearless (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,0,7,1,2,1
-2021-04-23,6,RE,--,False,False,16,--,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1582350,276,10165500,0.42,0.05,0.53,9471,10,0,6,2,2,1
-2021-04-23,7,-2,5,False,False,16,-0.11,Womanizer,Britney Spears,Circus (Deluxe Version),1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,6,0,5,9,1
-2021-04-23,8,RE,--,False,False,16,--,White Horse (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,0,6,3,2,1
-2021-04-23,9,RE,--,False,False,16,--,The Way I Loved You (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,0,6,5,2,1
-2021-04-23,10,+2,12,True,False,16,-0.11,One More Night,Maroon 5,Overexposed Track By Track,1,1,1,5,3,2,1585237,226,10188090,0.42,0.05,0.53,9492,10,6,0,10,2,1
-2021-04-23,11,+3,14,True,False,16,-0.11,I Gotta Feeling,Black Eyed Peas,The E.N.D. (The Energy Never Dies) [Deluxe Version],1,1,1,5,3,2,1521712,266,11950110,0.42,0.05,0.53,11130,10,6,0,11,2,1
-2021-04-23,12,+4,16,True,False,16,-0.11,Airplanes (feat. Hayley Williams),B.o.B,B.o.B Presents: The Adventures of Bobby Ray,1,1,1,5,3,2,1530375,267,12017880,0.42,0.05,0.53,11193,10,6,0,12,3,1
-2021-04-23,13,RE,--,True,False,14,--,The Other Side of the Door (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1567912,274,12311550,0.42,0.05,0.53,11466,10,0,4,13,2,1
-2021-04-23,14,RE,--,True,False,14,--,Mr. Perfectly Fine (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1510162,264,11859750,0.42,0.05,0.53,11046,10,0,4,14,2,1
-2021-04-23,15,RE,--,True,False,14,--,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,0,4,15,2,1
-2021-04-23,16,RE,--,True,False,14,--,Bye Bye Baby (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1362900,238,10707660,0.42,0.05,0.53,9975,10,0,4,16,2,1
-2021-04-23,17,+7,24,True,False,13,0.3,잘자요 굿나잇,TWICE (트와이스),twicetagram,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,3,0,17,3,1
-2021-04-23,18,+8,26,False,False,13,0.3,You Are in Love,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,3,0,8,7,1
-2021-04-23,19,+9,28,True,False,13,0.3,Wrecking Ball,Miley Cyrus,Bangerz (Deluxe Version),1,1,1,5,3,2,1316700,230,10346220,0.42,0.05,0.53,9639,10,3,0,19,2,1
-2021-04-23,20,+10,30,True,False,13,0.3,Work Bitch,Britney Spears,Britney Jean (Deluxe Version),1,1,1,5,3,2,1567912,274,12311550,0.42,0.05,0.53,11466,10,3,0,20,5,1
-2021-04-23,21,+11,32,True,False,13,0.3,Who Says,Selena Gomez & the Scene,When the Sun Goes Down,1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,3,0,21,2,1
-2021-04-23,22,+12,34,True,False,13,0.3,We Can't Stop,Miley Cyrus,Bangerz (Deluxe Version),1,1,1,5,3,2,1585237,226,10188090,0.42,0.05,0.53,9492,10,3,0,22,2,1
-2021-04-23,23,+12,35,True,False,13,0.3,We Are Young (feat. Janelle Monáe),fun.,Some Nights,1,1,1,5,3,2,1417762,247,11136870,0.42,0.05,0.53,10374,10,3,0,23,2,1
-2021-04-23,24,+13,37,False,False,13,0.3,Unconditionally,Katy Perry,PRISM (Deluxe),1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,3,0,2,5,1
-2021-04-23,25,+14,39,True,False,13,0.3,Two Is Better Than One (feat. Taylor Swift),Boys Like Girls,Love Drunk,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,3,0,25,3,1
-2021-04-23,26,+14,40,False,False,13,0.3,Truth Hurts,Lizzo,Cuz I Love You (Deluxe),1,1,1,5,3,2,1305150,228,10255860,0.42,0.05,0.53,9555,10,3,0,9,7,1
-2021-04-23,27,+14,41,True,False,13,0.3,Trumpets,Jason Derulo,Tattoos,1,1,1,5,3,2,1510162,264,11859750,0.42,0.05,0.53,11046,10,3,0,27,2,1
-2021-04-23,28,+18,46,False,False,13,0.3,The One That Got Away,Katy Perry,Katy Perry - Teenage Dream: The Complete Confection,1,1,1,5,3,2,1515937,265,11904930,0.42,0.05,0.53,11088,10,3,0,17,4,1
-2021-04-23,29,+20,49,True,False,13,0.3,That's My Girl,Fifth Harmony,7/27 (Deluxe),1,1,1,5,3,2,1319587,230,10368810,0.42,0.05,0.53,9660,10,3,0,29,4,1
-2021-04-23,30,+23,53,False,False,13,0.3,Tag You're It,Melanie Martinez,Cry Baby (Deluxe Edition),1,1,1,5,3,2,1463962,256,11498310,0.42,0.05,0.53,10710,10,3,0,19,6,1
-2021-04-23,31,+23,54,True,False,13,0.3,Super Bass,Nicki Minaj,Pink Friday (Complete Edition),1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,3,0,31,2,1
-2021-04-23,32,+23,55,False,False,13,0.3,Summertime Sadness,Lana Del Rey,Born to Die - The Paradise Edition,1,1,1,5,3,2,1299375,227,10210680,0.42,0.05,0.53,9513,10,3,0,3,8,1
-2021-04-23,33,+23,56,True,False,13,0.3,Stronger (What Doesn't Kill You),Kelly Clarkson,Stronger (Deluxe Version),1,1,1,5,3,2,1377337,240,10820610,0.42,0.05,0.53,10080,10,3,0,33,3,1
-2021-04-23,34,+28,62,False,False,13,0.3,Shower,Becky G,Shower,1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,3,0,9,6,1
-2021-04-23,35,+28,63,False,False,13,0.3,She's So Mean,Matchbox Twenty,North (Deluxe Edition),1,1,1,5,3,2,1521712,266,11950110,0.42,0.05,0.53,11130,10,3,0,5,5,1
-2021-04-23,36,+29,65,False,False,13,0.3,Scream & Shout,will.i.am,#willpower,1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,3,0,11,3,1
-2021-04-23,37,+30,67,True,False,13,0.3,Salute,Little Mix,Salute (The Deluxe Edition),1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,3,0,37,3,1
-2021-04-23,38,+31,69,True,False,13,0.3,Rockabye (feat. Sean Paul & Anne-Marie),Clean Bandit,What is Love? (Deluxe Edition),1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,3,0,38,2,1
-2021-04-23,39,+32,71,True,False,13,0.3,Really Don't Care,Demi Lovato,Demi,1,1,1,5,3,2,1377337,240,10820610,0.42,0.05,0.53,10080,10,3,0,39,2,1
-2021-04-23,40,+32,72,False,False,13,0.3,Pretty Hurts,Beyoncé,BEYONCÉ [Platinum Edition],1,1,1,5,3,2,1487062,260,11679030,0.42,0.05,0.53,10878,10,3,0,6,5,1
-2021-04-23,41,+32,73,True,False,13,0.3,Perfect,Ed Sheeran,÷ (Deluxe),1,1,1,5,3,2,1501500,262,11791980,0.42,0.05,0.53,10983,10,3,0,41,2,1
-2021-04-23,42,+32,74,True,False,13,0.3,Part of Me,Katy Perry,Teenage Dream: The Complete Confection,1,1,1,5,3,2,1388887,242,10910970,0.42,0.05,0.53,10164,10,3,0,42,2,1
-2021-04-23,43,+33,76,True,False,13,0.3,On The Floor - Radio Edit,Jennifer Lopez,On the Floor,1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,3,0,43,2,1
-2021-04-23,44,+39,83,True,False,13,0.3,Mirrors,Justin Timberlake,The 20/20 Experience (Deluxe Version),1,1,1,5,3,2,1322475,231,10391400,0.42,0.05,0.53,9681,10,3,0,44,2,1
-2021-04-23,45,+45,90,True,False,13,0.3,Let Her Go,Passenger,All the Little Lights,1,1,1,5,3,2,1478400,258,11611260,0.42,0.05,0.53,10815,10,3,0,45,2,1
-2021-04-23,46,+46,92,True,False,13,0.3,Just Dance,Lady Gaga,The Fame,1,1,1,5,3,2,1559250,272,12243780,0.42,0.05,0.53,11403,10,3,0,46,2,1
-2021-04-23,47,+46,93,False,False,13,0.3,IDGAF,Dua Lipa,Dua Lipa (Deluxe),1,1,1,5,3,2,1374450,240,10798020,0.42,0.05,0.53,10059,10,3,0,26,6,1
-2021-04-23,48,+46,94,True,False,13,0.3,Ice Cream Cake,Red Velvet,Ice Cream Cake,1,1,1,5,3,2,1371562,239,10775430,0.42,0.05,0.53,10038,10,3,0,48,2,1
-2021-04-23,49,+46,95,True,False,13,0.3,I'm Yours,Jason Mraz,We Sing. We Dance. We Steal Things.,1,1,1,5,3,2,1371562,239,10775430,0.42,0.05,0.53,10038,10,3,0,49,2,1
-2021-04-23,50,+47,97,True,False,13,0.3,Human,Christina Perri,Head or Heart,1,1,1,5,3,2,1406212,245,11046510,0.42,0.05,0.53,10290,10,3,0,50,2,1
-2021-04-23,51,+49,100,True,False,13,0.3,High by the Beach,Lana Del Rey,Honeymoon,1,1,1,5,3,2,1498612,262,11769390,0.42,0.05,0.53,10962,10,3,0,51,4,1
+2021-04-23,5,RE,--,False,False,17,--,Fearless (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,0,6,1,2,1
+2021-04-23,6,RE,--,False,False,16,--,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1582350,276,10165500,0.42,0.05,0.53,9471,10,0,5,2,2,1
+2021-04-23,7,-3,4,False,False,16,-0.11,Womanizer,Britney Spears,Circus,1,1,1,5,3,2,1432200,250,11249820,0.42,0.05,0.53,10479,10,5,0,4,9,1
+2021-04-23,8,RE,--,False,False,16,--,White Horse (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,0,5,3,2,1
+2021-04-23,9,RE,--,False,False,16,--,The Way I Loved You (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,0,5,5,2,1
+2021-04-23,10,1,11,True,False,16,-0.11,One More Night,Maroon 5,Overexposed Track By Track,1,1,1,5,3,2,1585237,226,10188090,0.42,0.05,0.53,9492,10,5,0,10,2,1
+2021-04-23,11,2,13,True,False,16,-0.11,I Gotta Feeling,Black Eyed Peas,The E.N.D. (The Energy Never Dies) [Deluxe Version],1,1,1,5,3,2,1521712,266,11950110,0.42,0.05,0.53,11130,10,5,0,11,2,1
+2021-04-23,12,4,16,True,False,16,-0.11,Airplanes (feat. Hayley Williams),B.o.B,B.o.B Presents: The Adventures of Bobby Ray,1,1,1,5,3,2,1530375,267,12017880,0.42,0.05,0.53,11193,10,5,0,12,3,1
+2021-04-23,13,RE,--,True,False,14,--,The Other Side of the Door (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1567912,274,12311550,0.42,0.05,0.53,11466,10,0,3,13,2,1
+2021-04-23,14,RE,--,True,False,14,--,Mr. Perfectly Fine (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1510162,264,11859750,0.42,0.05,0.53,11046,10,0,3,14,2,1
+2021-04-23,15,RE,--,True,False,14,--,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,0,3,15,2,1
+2021-04-23,16,RE,--,True,False,14,--,Bye Bye Baby (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1362900,238,10707660,0.42,0.05,0.53,9975,10,0,3,16,2,1
+2021-04-23,17,7,24,True,False,13,0.3,잘자요 굿나잇,TWICE (트와이스),twicetagram,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,3,0,17,3,1
+2021-04-23,18,8,26,False,False,13,0.3,You Are in Love,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,3,0,8,7,1
+2021-04-23,19,9,28,True,False,13,0.3,Wrecking Ball,Miley Cyrus,Bangerz (Deluxe Version),1,1,1,5,3,2,1316700,230,10346220,0.42,0.05,0.53,9639,10,3,0,19,2,1
+2021-04-23,20,10,30,True,False,13,0.3,Work Bitch,Britney Spears,Britney Jean (Deluxe Version),1,1,1,5,3,2,1567912,274,12311550,0.42,0.05,0.53,11466,10,3,0,20,5,1
+2021-04-23,21,11,32,True,False,13,0.3,Who Says,Selena Gomez & the Scene,When the Sun Goes Down,1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,3,0,21,2,1
+2021-04-23,22,12,34,True,False,13,0.3,We Can't Stop,Miley Cyrus,Bangerz (Deluxe Version),1,1,1,5,3,2,1585237,226,10188090,0.42,0.05,0.53,9492,10,3,0,22,2,1
+2021-04-23,23,12,35,True,False,13,0.3,We Are Young (feat. Janelle Monáe),fun.,Some Nights,1,1,1,5,3,2,1417762,247,11136870,0.42,0.05,0.53,10374,10,3,0,23,2,1
+2021-04-23,24,13,37,False,False,13,0.3,Unconditionally,Katy Perry,PRISM (Deluxe),1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,3,0,2,5,1
+2021-04-23,25,14,39,True,False,13,0.3,Two Is Better Than One (feat. Taylor Swift),Boys Like Girls,Love Drunk,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,3,0,25,3,1
+2021-04-23,26,14,40,False,False,13,0.3,Truth Hurts,Lizzo,Cuz I Love You (Deluxe),1,1,1,5,3,2,1305150,228,10255860,0.42,0.05,0.53,9555,10,3,0,9,7,1
+2021-04-23,27,14,41,True,False,13,0.3,Trumpets,Jason Derulo,Tattoos,1,1,1,5,3,2,1510162,264,11859750,0.42,0.05,0.53,11046,10,3,0,27,2,1
+2021-04-23,28,18,46,False,False,13,0.3,The One That Got Away,Katy Perry,Teenage Dream - The Complete Confection,1,1,1,5,3,2,1322475,231,10391400,0.42,0.05,0.53,9681,10,3,0,17,4,1
+2021-04-23,29,20,49,True,False,13,0.3,That's My Girl,Fifth Harmony,7/27,1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,3,0,29,4,1
+2021-04-23,30,23,53,False,False,13,0.3,Tag You're It,Melanie Martinez,Cry Baby (Deluxe Version),1,1,1,5,3,2,1313812,229,10323630,0.42,0.05,0.53,9618,10,3,0,19,6,1
+2021-04-23,31,23,54,True,False,13,0.3,Super Bass,Nicki Minaj,Pink Friday (Complete Edition),1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,3,0,31,2,1
+2021-04-23,32,23,55,False,False,13,0.3,Summertime Sadness,Lana Del Rey,Born to Die,1,1,1,5,3,2,1507275,263,11837160,0.42,0.05,0.53,11025,10,3,0,3,8,1
+2021-04-23,33,23,56,True,False,13,0.3,Stronger (What Doesn't Kill You),Kelly Clarkson,Stronger (Deluxe Version),1,1,1,5,3,2,1377337,240,10820610,0.42,0.05,0.53,10080,10,3,0,33,3,1
+2021-04-23,34,28,62,False,False,13,0.3,Shower,Becky G,Shower,1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,3,0,9,6,1
+2021-04-23,35,28,63,False,False,13,0.3,She's So Mean,Matchbox Twenty,North (Deluxe Edition),1,1,1,5,3,2,1521712,266,11950110,0.42,0.05,0.53,11130,10,3,0,5,5,1
+2021-04-23,36,29,65,False,False,13,0.3,Scream & Shout,will.i.am,#willpower,1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,3,0,11,3,1
+2021-04-23,37,30,67,True,False,13,0.3,Salute,Little Mix,Salute (The Deluxe Edition),1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,3,0,37,3,1
+2021-04-23,38,31,69,True,False,13,0.3,Rockabye (feat. Sean Paul & Anne-Marie),Clean Bandit,What is Love? (Deluxe Edition),1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,3,0,38,2,1
+2021-04-23,39,32,71,True,False,13,0.3,Really Don't Care,Demi Lovato,Demi,1,1,1,5,3,2,1377337,240,10820610,0.42,0.05,0.53,10080,10,3,0,39,2,1
+2021-04-23,40,32,72,False,False,13,0.3,Pretty Hurts,Beyoncé,BEYONCÉ [Platinum Edition],1,1,1,5,3,2,1487062,260,11679030,0.42,0.05,0.53,10878,10,3,0,6,5,1
+2021-04-23,41,32,73,True,False,13,0.3,Perfect,Ed Sheeran,÷ (Deluxe),1,1,1,5,3,2,1501500,262,11791980,0.42,0.05,0.53,10983,10,3,0,41,2,1
+2021-04-23,42,32,74,True,False,13,0.3,Part of Me,Katy Perry,Teenage Dream: The Complete Confection,1,1,1,5,3,2,1388887,242,10910970,0.42,0.05,0.53,10164,10,3,0,42,2,1
+2021-04-23,43,33,76,True,False,13,0.3,On The Floor - Radio Edit,Jennifer Lopez,On the Floor,1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,3,0,43,2,1
+2021-04-23,44,39,83,True,False,13,0.3,Mirrors,Justin Timberlake,The 20/20 Experience (Deluxe Version),1,1,1,5,3,2,1322475,231,10391400,0.42,0.05,0.53,9681,10,3,0,44,2,1
+2021-04-23,45,45,90,True,False,13,0.3,Let Her Go,Passenger,All the Little Lights,1,1,1,5,3,2,1478400,258,11611260,0.42,0.05,0.53,10815,10,3,0,45,2,1
+2021-04-23,46,46,92,True,False,13,0.3,Just Dance,Lady Gaga,The Fame,1,1,1,5,3,2,1559250,272,12243780,0.42,0.05,0.53,11403,10,3,0,46,2,1
+2021-04-23,47,46,93,False,False,13,0.3,IDGAF,Dua Lipa,Dua Lipa (Complete Edition),1,1,1,5,3,2,1435087,250,11272410,0.42,0.05,0.53,10500,10,3,0,26,6,1
+2021-04-23,48,46,94,True,False,13,0.3,Ice Cream Cake,Red Velvet,Ice Cream Cake,1,1,1,5,3,2,1371562,239,10775430,0.42,0.05,0.53,10038,10,3,0,48,2,1
+2021-04-23,49,46,95,True,False,13,0.3,I'm Yours,Jason Mraz,We Sing. We Dance. We Steal Things.,1,1,1,5,3,2,1371562,239,10775430,0.42,0.05,0.53,10038,10,3,0,49,2,1
+2021-04-23,50,47,97,True,False,13,0.3,Human,Christina Perri,Head or Heart,1,1,1,5,3,2,1406212,245,11046510,0.42,0.05,0.53,10290,10,3,0,50,2,1
+2021-04-23,51,49,100,True,False,13,0.3,High by the Beach,Lana Del Rey,Honeymoon,1,1,1,5,3,2,1498612,262,11769390,0.42,0.05,0.53,10962,10,3,0,51,4,1
 2021-04-23,52,RE,--,False,False,10,--,힐링 (Healing),Seventeen,Love&Letter Repackage Album,1,1,1,5,3,2,1475512,258,11588670,0.42,0.05,0.53,10794,10,0,0,4,5,1
 2021-04-23,53,RE,--,False,False,10,--,텐데... (Timeless),NCT U,NCT 2018 EMPATHY,1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,0,0,9,4,1
 2021-04-23,54,RE,--,False,False,10,--,옥탑방 (Rooftop),N.Flying,FLY HIGH PROJECT #2 '옥탑방 (ROOFTOP)',1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,0,0,31,2,1
 2021-04-23,55,RE,--,False,False,10,--,어린애 (Girls),Nature,NATURE WORLD: CODE M,1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,0,0,25,2,1
 2021-04-23,56,NEW,--,True,False,10,--,부작용 (Side Effects),Stray Kids,SKZ2020,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,0,0,56,1,1
 2021-04-23,57,RE,--,False,False,10,--,목소리 (Voice),이달의 소녀,［12:00］,1,1,1,5,3,2,1348462,235,10594710,0.42,0.05,0.53,9870,10,0,0,3,3,1
-2021-04-23,58,RE,--,False,False,10,--,놀이 (Naughty),레드벨벳-아이린 & 슬기,Monster - The 1st Mini Album - EP,1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,0,0,2,5,1
+2021-04-23,58,RE,--,False,False,10,--,놀이 (Naughty),레드벨벳-아이린 & 슬기,Monster - The 1st Mini Album,1,1,1,5,3,2,1576575,275,12379320,0.42,0.05,0.53,11529,10,0,0,2,5,1
 2021-04-23,59,RE,--,False,False,10,--,널 내게 담아,TWICE (트와이스),twicetagram,1,1,1,5,3,2,1550587,271,12176010,0.42,0.05,0.53,11340,10,0,0,28,2,1
 2021-04-23,60,RE,--,False,False,10,--,꿈꾸는 마음으로 (Dreams Come True),WJSN (Cosmic Girls),Dream Your Dream,1,1,1,5,3,2,1510162,264,11859750,0.42,0.05,0.53,11046,10,0,0,2,5,1
 2021-04-23,61,RE,--,False,False,10,--,舞い落ちる花びら（Fallin' Flower）,Seventeen,舞い落ちる花びら（Fallin' Flower）,1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,0,0,8,5,1
@@ -73,7 +73,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-04-23,72,RE,--,False,False,10,--,Wave,ATEEZ,TREASURE EP.3 : One To All,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,0,0,2,8,1
 2021-04-23,73,RE,--,False,False,10,--,Wake Me Up,Avicii,True,1,1,1,5,3,2,1550587,271,12176010,0.42,0.05,0.53,11340,10,0,0,2,2,1
 2021-04-23,74,RE,--,False,False,10,--,Valkyrie,ONEUS,LIGHT US,1,1,1,5,3,2,1530375,267,12017880,0.42,0.05,0.53,11193,10,0,0,1,10,2
-2021-04-23,75,RE,--,False,False,10,--,Universe,EXO,Universe - Winter Special Album 2017,1,1,1,5,3,2,1521712,266,11950110,0.42,0.05,0.53,11130,10,0,0,11,2,1
+2021-04-23,75,RE,--,False,False,10,--,Universe,EXO,Universe – Winter Special Album 2017,1,1,1,5,3,2,1388887,242,10910970,0.42,0.05,0.53,10164,10,0,0,11,2,1
 2021-04-23,76,RE,--,False,False,10,--,TOUCH,NCT 127,NCT 2018 EMPATHY,1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,0,0,6,4,1
 2021-04-23,77,RE,--,False,False,10,--,TO BE OR NOT TO BE,원어스 (ONEUS),LIVED,1,1,1,5,3,2,1565025,273,12288960,0.42,0.05,0.53,11445,10,0,0,40,2,1
 2021-04-23,78,NEW,--,True,False,10,--,Thunder,Imagine Dragons,Evolve,1,1,1,5,3,2,1388887,242,10910970,0.42,0.05,0.53,10164,10,0,0,78,1,1

@@ -1,7 +1,7 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2020-10-16,1,+2,3,True,False,16,0.23,Pretty Savage,BLACKPINK,THE ALBUM,1,1,1,5,3,2,1472625,257,11566080,0.42,0.05,0.53,10773,10,4,2,1,3,1
-2020-10-16,2,+52,54,True,False,13,0.3,Make A Wish (Birthday Song) (English Version),NCT U,RESONANCE Pt. 1 (The 2nd Album),1,1,1,5,3,2,1458187,255,11453130,0.42,0.05,0.53,10668,10,3,0,2,2,1
-2020-10-16,3,+57,60,True,False,13,0.3,Lion Heart,소녀시대,Lion Heart - The 5th Album,1,1,1,5,3,2,1432200,250,11249820,0.42,0.05,0.53,10479,10,3,0,3,3,1
+2020-10-16,1,2,3,True,False,16,0.23,Pretty Savage,BLACKPINK,THE ALBUM,1,1,1,5,3,2,1472625,257,11566080,0.42,0.05,0.53,10773,10,3,2,1,3,1
+2020-10-16,2,52,54,True,False,13,0.3,Make A Wish (Birthday Song) (English Version),NCT U,RESONANCE Pt. 1 (The 2nd Album),1,1,1,5,3,2,1458187,255,11453130,0.42,0.05,0.53,10668,10,3,0,2,2,1
+2020-10-16,3,57,60,True,False,13,0.3,Lion Heart,소녀시대,Lion Heart - The 5th Album,1,1,1,5,3,2,1432200,250,11249820,0.42,0.05,0.53,10479,10,3,0,3,3,1
 2020-10-16,4,RE,--,True,False,12,--,Monster,Red Velvet - IRENE & SEULGI,Monster - The 1st Mini Album,1,1,1,5,3,2,1487062,260,11679030,0.42,0.05,0.53,10878,10,0,2,4,3,1
 2020-10-16,5,RE,--,True,False,12,--,Lovesick Girls,BLACKPINK,THE ALBUM,1,1,1,5,3,2,1576575,275,12379320,0.42,0.05,0.53,11529,10,0,2,5,2,1
 2020-10-16,6,NEW,--,True,False,10,--,중독 Overdose,EXO-K,The 2nd Mini Album '중독 Overdose',1,1,1,5,3,2,1469737,257,11543490,0.42,0.05,0.53,10752,10,0,0,6,1,1
@@ -21,19 +21,19 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2020-10-16,20,NEW,--,True,False,10,--,OOPS!,이달의 소녀,［12:00］,1,1,1,5,3,2,1308037,228,10278450,0.42,0.05,0.53,9576,10,0,0,20,1,1
 2020-10-16,21,NEW,--,True,False,10,--,NCT DREAM - 'Déjà Vu' Lyrics [Color Coded_Han_Rom_Eng],Zaty Farhani,,1,1,1,5,3,2,1420650,248,11159460,0.42,0.05,0.53,10395,10,0,0,21,1,1
 2020-10-16,22,NEW,--,True,False,10,--,Misfit,NCT U,RESONANCE Pt. 1 (The 2nd Album),1,1,1,5,3,2,1414875,247,11114280,0.42,0.05,0.53,10353,10,0,0,22,1,1
-2020-10-16,23,RE,--,False,False,10,--,mad woman,Taylor Swift,,1,1,1,5,3,2,1510162,264,11859750,0.42,0.05,0.53,11046,10,0,0,13,2,1
+2020-10-16,23,RE,--,False,False,10,--,mad woman,Taylor Swift,folklore,1,1,1,5,3,2,1325362,231,10413990,0.42,0.05,0.53,9702,10,0,0,13,2,1
 2020-10-16,24,NEW,--,True,False,10,--,Love Letter,이달의 소녀,JinSoul,1,1,1,5,3,2,1492837,261,11724210,0.42,0.05,0.53,10920,10,0,0,24,1,1
 2020-10-16,25,NEW,--,True,False,10,--,Lotto,EXO,LOTTO (The 3rd Album Repackage),1,1,1,5,3,2,1567912,274,12311550,0.42,0.05,0.53,11466,10,0,0,25,1,1
 2020-10-16,26,NEW,--,True,False,10,--,Labyrinth,여자친구 (GFriend),回:LABYRINTH,1,1,1,5,3,2,1348462,235,10594710,0.42,0.05,0.53,9870,10,0,0,26,1,1
 2020-10-16,27,NEW,--,True,False,10,--,LA DI DA,Everglow,-77.82x / -78.29,1,1,1,5,3,2,1521712,266,11950110,0.42,0.05,0.53,11130,10,0,0,27,1,1
 2020-10-16,28,NEW,--,True,False,10,--,Into You (3LAU Remix),Ariana Grande,Into You (3LAU Remix),1,1,1,5,3,2,1536150,268,12063060,0.42,0.05,0.53,11235,10,0,0,28,1,1
 2020-10-16,29,NEW,--,True,False,10,--,INCEPTION,ATEEZ,ZERO : FEVER Part.1,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,0,0,29,1,1
-2020-10-16,30,RE,--,False,False,10,--,illicit affairs,Taylor Swift,,1,1,1,5,3,2,1342687,234,10549530,0.42,0.05,0.53,9828,10,0,0,6,3,2
+2020-10-16,30,RE,--,False,False,10,--,illicit affairs,Taylor Swift,folklore,1,1,1,5,3,2,1365787,238,10730250,0.42,0.05,0.53,9996,10,0,0,6,3,2
 2020-10-16,31,NEW,--,True,False,10,--,God’s Menu,Stray Kids,GO LIVE,1,1,1,5,3,2,1455300,254,11430540,0.42,0.05,0.53,10647,10,0,0,31,1,1
 2020-10-16,32,NEW,--,True,False,10,--,Girls,Nature,NATURE WORLD: CODE M,1,1,1,5,3,2,1489950,260,11701620,0.42,0.05,0.53,10899,10,0,0,32,1,1
 2020-10-16,33,NEW,--,True,False,10,--,Don’t Need Your Love,NCT DREAM & HRVY,Don’t Need Your Love,1,1,1,5,3,2,1328250,232,10436580,0.42,0.05,0.53,9723,10,0,0,33,1,1
 2020-10-16,34,NEW,--,True,False,10,--,Can't You See Me?,TOMORROW X TOGETHER,The Dream Chapter: ETERNITY,1,1,1,5,3,2,1492837,261,11724210,0.42,0.05,0.53,10920,10,0,0,34,1,1
-2020-10-16,35,NEW,--,True,False,10,--,BOSS,NCT U,NCT 2018 Empathy,1,1,1,5,3,2,1374450,240,10798020,0.42,0.05,0.53,10059,10,0,0,35,1,1
+2020-10-16,35,NEW,--,True,False,10,--,BOSS,NCT U,NCT 2018 EMPATHY,1,1,1,5,3,2,1513050,264,11882340,0.42,0.05,0.53,11067,10,0,0,35,1,1
 2020-10-16,36,NEW,--,True,False,10,--,BOOMBOOM,Seventeen,Seventeen 3rd Mini Album ’Going Seventeen’,1,1,1,5,3,2,1362900,238,10707660,0.42,0.05,0.53,9975,10,0,0,36,1,1
 2020-10-16,37,NEW,--,True,False,10,--,BOCA,드림캐쳐 DREAMCATCHER,[Dystopia : Lose Myself],1,1,1,5,3,2,1316700,230,10346220,0.42,0.05,0.53,9639,10,0,0,37,1,1
 2020-10-16,38,NEW,--,True,False,10,--,Blue Flame,Astro,BLUE FLAME,1,1,1,5,3,2,1437975,251,11295000,0.42,0.05,0.53,10521,10,0,0,38,1,1

@@ -1,53 +1,53 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2021-08-20,1,+11,12,True,False,24,0.85,Unti-Unti,Up Dharma Down,Unti-Unti,2,2,1,10,6,2,2956800,517,11611260,0.58,0.06,0.36,18025,18,4,2,1,3,1
-2021-08-20,2,RE,--,True,False,22,--,Touch,Little Mix,Glory Days: The Platinum Edition,2,2,2,10,6,4,3118500,545,24487560,0.42,0.05,0.53,22806,20,0,2,2,3,1
-2021-08-20,3,+60,63,True,False,21,1.1,SPARK,A.C.E,Light on Me (Original Television Soundtrack) Pt. 1,2,2,1,10,6,2,2639175,461,10368810,0.58,0.06,0.36,16099,18,3,0,3,2,1
-2021-08-20,4,RE,--,True,False,20,--,Shake It Off,Taylor Swift,,2,2,2,10,6,4,2841300,496,22318920,0.42,0.05,0.53,20790,20,0,0,4,3,1
-2021-08-20,5,RE,--,True,False,18,--,Zimzalabim,Red Velvet,‘The ReVe Festival’ Day 1,2,2,1,10,6,2,2887500,505,11340180,0.58,0.06,0.36,17605,18,0,0,5,4,1
-2021-08-20,6,NEW,--,True,False,18,--,West Coast,Lana Del Rey,Ultraviolence (Deluxe),2,2,1,10,6,2,2627625,459,10323630,0.58,0.06,0.36,16030,18,0,0,6,1,1
-2021-08-20,7,NEW,--,True,False,18,--,Ultraviolence,Lana Del Rey,Ultraviolence (Deluxe),2,2,1,10,6,2,2789325,487,10956150,0.58,0.06,0.36,17010,18,0,0,7,1,1
-2021-08-20,8,RE,--,True,False,18,--,Solar Power,Lorde,Solar Power,2,2,1,10,6,2,2725800,476,10707660,0.58,0.06,0.36,16625,18,0,0,8,2,1
+2021-08-20,1,11,12,True,False,24,0.85,Unti-Unti,Up Dharma Down,Unti-Unti,2,2,1,10,6,2,2956800,517,11611260,0.58,0.06,0.36,18025,18,3,2,1,3,1
+2021-08-20,2,61,63,True,False,21,1.1,SPARK,A.C.E,Light on Me (Original Television Soundtrack) Pt. 1,2,2,1,10,6,2,2639175,461,10368810,0.58,0.06,0.36,16099,18,3,0,2,2,1
+2021-08-20,3,RE,--,True,False,20,--,Touch,Little Mix,Glory Days (Expanded Edition),2,2,1,10,6,2,3147375,550,12356730,0.58,0.06,0.36,19180,18,0,2,3,3,1
+2021-08-20,4,RE,--,True,False,18,--,Zimzalabim,Red Velvet,‘The ReVe Festival’ Day 1,2,2,1,10,6,2,2887500,505,11340180,0.58,0.06,0.36,17605,18,0,0,4,4,1
+2021-08-20,5,NEW,--,True,False,18,--,West Coast,Lana Del Rey,Ultraviolence (Deluxe),2,2,1,10,6,2,2627625,459,10323630,0.58,0.06,0.36,16030,18,0,0,5,1,1
+2021-08-20,6,NEW,--,True,False,18,--,Ultraviolence,Lana Del Rey,Ultraviolence (Deluxe),2,2,1,10,6,2,2789325,487,10956150,0.58,0.06,0.36,17010,18,0,0,6,1,1
+2021-08-20,7,RE,--,True,False,18,--,Solar Power,Lorde,Solar Power,2,2,1,10,6,2,2725800,476,10707660,0.58,0.06,0.36,16625,18,0,0,7,2,1
+2021-08-20,8,RE,--,False,True,18,--,Shake It Off,Taylor Swift,1989 (Deluxe),2,2,1,10,6,2,2662275,465,10459170,0.58,0.06,0.36,16240,18,0,0,8,3,2
 2021-08-20,9,RE,--,True,False,18,--,Red Flavor,Red Velvet,The Red Summer - Summer Mini Album,2,2,1,10,6,2,2893275,506,11362770,0.58,0.06,0.36,17640,18,0,0,9,3,1
 2021-08-20,10,NEW,--,True,False,18,--,Mood Ring,Lorde,Solar Power,2,2,1,10,6,2,2864400,500,11249820,0.58,0.06,0.36,17465,18,0,0,10,1,1
 2021-08-20,11,RE,--,True,False,18,--,I Forgot That You Existed,Taylor Swift,Lover,2,2,1,10,6,2,2644950,462,10391400,0.58,0.06,0.36,16134,18,0,0,11,2,1
-2021-08-20,12,RE,--,True,False,18,--,FEVER,Mook,Light on Me (Original Television Soundtrack) Pt. 2,2,2,1,10,6,2,3106950,543,12198600,0.58,0.06,0.36,18935,18,0,0,12,1,1
+2021-08-20,12,NEW,--,True,False,18,--,FEVER,Mook,Light on Me (Original Television Soundtrack) Pt. 2,2,2,1,10,6,2,3106950,543,12198600,0.58,0.06,0.36,18935,18,0,0,12,1,1
 2021-08-20,13,RE,--,False,False,17,--,Death by a Thousand Cuts,Taylor Swift,Lover,2,1,2,10,3,4,2864400,250,22499640,0.43,0.02,0.54,17465,17,0,0,3,9,1
-2021-08-20,14,-13,1,False,False,17,-0.23,Wings,Little Mix,DNA,1,1,1,5,3,2,1510162,264,11859750,0.42,0.05,0.53,11046,10,7,0,1,5,1
-2021-08-20,15,-1,14,False,False,16,0.23,Shout Out to My Ex,Little Mix,Glory Days: The Platinum Edition,1,1,1,5,3,2,1342687,234,10549530,0.42,0.05,0.53,9828,10,4,2,14,4,1
-2021-08-20,16,-1,15,False,False,16,0.23,Secret Love Song (feat. Jason Derulo),Little Mix,Get Weird (Deluxe),1,1,1,5,3,2,1533262,268,12040470,0.42,0.05,0.53,11214,10,4,2,15,3,1
-2021-08-20,17,-7,10,False,False,15,0.07,Chase Me,Dreamcatcher,악몽,1,1,1,5,3,2,1331137,232,10459170,0.42,0.05,0.53,9744,10,5,0,9,7,1
-2021-08-20,18,+2,20,True,False,14,0.17,What,Dreamcatcher,Alone in the City,1,1,1,5,3,2,1573687,275,12356730,0.42,0.05,0.53,11508,10,4,0,18,3,1
-2021-08-20,19,+4,23,True,False,13,0.3,産声,Omoinotake,産声,1,1,1,5,3,2,1388887,242,10910970,0.42,0.05,0.53,10164,10,3,0,19,2,1
-2021-08-20,20,+5,25,True,False,13,0.3,YOU AND I,Dreamcatcher,Nightmare - Escape the ERA,1,1,1,5,3,2,1487062,260,11679030,0.42,0.05,0.53,10878,10,3,0,20,3,1
-2021-08-20,21,+28,49,False,False,13,0.3,The Archer,Taylor Swift,Lover,1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,3,0,17,7,2
-2021-08-20,22,+33,55,False,False,13,0.3,Style,Taylor Swift,,1,1,1,5,3,2,1319587,230,10368810,0.42,0.05,0.53,9660,10,3,0,20,8,1
-2021-08-20,23,+50,73,True,False,13,0.3,Secret,WJSN,The Secret,1,1,1,5,3,2,1573687,275,12356730,0.42,0.05,0.53,11508,10,3,0,23,3,1
-2021-08-20,24,+51,75,False,False,13,0.3,Scream,Dreamcatcher,1st Album [Dystopia : The Tree of Language],1,1,1,5,3,2,1414875,247,11114280,0.42,0.05,0.53,10353,10,3,0,14,5,1
-2021-08-20,25,+51,76,False,False,13,0.3,Save Me Save You,WJSN,WJ PLEASE?,1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,3,0,17,5,1
-2021-08-20,26,+52,78,True,False,13,0.3,Salute,Little Mix,Salute (The Deluxe Edition),1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,3,0,26,7,1
-2021-08-20,27,+52,79,True,False,13,0.3,Rumors (feat. Cardi B),Lizzo,Rumors (feat. Cardi B),1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,3,0,27,2,1
-2021-08-20,28,+59,87,True,False,13,0.3,Queendom,Red Velvet,Queendom - The 6th Mini Album,1,1,1,5,3,2,1354237,236,10639890,0.42,0.05,0.53,9912,10,3,0,28,2,1
-2021-08-20,29,+63,92,False,False,13,0.3,PIRI,Dreamcatcher,The End of Nightmare,1,1,1,5,3,2,1487062,260,11679030,0.42,0.05,0.53,10878,10,3,0,18,5,1
-2021-08-20,30,+66,96,True,False,13,0.3,Over the Sky,Dreamcatcher,Over the Sky,1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,3,0,30,2,1
-2021-08-20,31,RE,--,False,False,12,--,Your Love,Little Mix,Glory Days: The Platinum Edition,1,1,1,5,3,2,1394662,243,10956150,0.42,0.05,0.53,10206,10,0,2,10,2,1
-2021-08-20,32,RE,--,False,False,12,--,You Gotta Not,Little Mix,Glory Days: The Platinum Edition,1,1,1,5,3,2,1481287,259,11633850,0.42,0.05,0.53,10836,10,0,2,11,2,1
-2021-08-20,33,RE,--,False,False,12,--,Weird People,Little Mix,Get Weird (Deluxe),1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,0,2,6,7,1
-2021-08-20,34,RE,--,False,False,12,--,We Are Never Ever Getting Back Together,Taylor Swift,Red (Deluxe Version),1,1,1,5,3,2,1562137,273,12266370,0.42,0.05,0.53,11424,10,0,2,15,7,1
+2021-08-20,14,-13,1,False,False,16,-0.2,Wings,Little Mix,DNA: The Deluxe Edition,1,1,1,5,3,2,1348462,235,10594710,0.42,0.05,0.53,9870,10,6,0,1,5,1
+2021-08-20,15,-1,14,False,False,16,0.23,Shout Out to My Ex,Little Mix,Glory Days (Expanded Edition),1,1,1,5,3,2,1348462,235,10594710,0.42,0.05,0.53,9870,10,3,2,14,4,1
+2021-08-20,16,-1,15,False,False,16,0.23,Secret Love Song (feat. Jason Derulo),Little Mix,Get Weird (Expanded Edition),1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,3,2,15,3,1
+2021-08-20,17,-7,10,False,False,15,0.07,Chase Me,Dreamcatcher,악몽 - EP,1,1,1,5,3,2,1466850,256,11520900,0.42,0.05,0.53,10731,10,4,0,8,7,1
+2021-08-20,18,2,20,True,False,14,0.17,What,Dreamcatcher,Alone in the City,1,1,1,5,3,2,1573687,275,12356730,0.42,0.05,0.53,11508,10,3,0,18,3,1
+2021-08-20,19,4,23,True,False,13,0.3,産声,Omoinotake,産声,1,1,1,5,3,2,1388887,242,10910970,0.42,0.05,0.53,10164,10,3,0,19,2,1
+2021-08-20,20,5,25,True,False,13,0.3,YOU AND I,Dreamcatcher,Nightmare - Escape the ERA,1,1,1,5,3,2,1487062,260,11679030,0.42,0.05,0.53,10878,10,3,0,20,3,1
+2021-08-20,21,28,49,False,False,13,0.3,The Archer,Taylor Swift,Lover,1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,3,0,17,7,2
+2021-08-20,22,33,55,False,False,13,0.3,Style,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1435087,250,11272410,0.42,0.05,0.53,10500,10,3,0,20,8,1
+2021-08-20,23,50,73,True,False,13,0.3,Secret,WJSN,The Secret,1,1,1,5,3,2,1573687,275,12356730,0.42,0.05,0.53,11508,10,3,0,23,3,1
+2021-08-20,24,51,75,False,False,13,0.3,Scream,Dreamcatcher,1st Album [Dystopia : The Tree of Language],1,1,1,5,3,2,1414875,247,11114280,0.42,0.05,0.53,10353,10,3,0,14,5,1
+2021-08-20,25,51,76,False,False,13,0.3,Save Me Save You,WJSN,WJ Please? - EP,1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,3,0,17,5,1
+2021-08-20,26,52,78,True,False,13,0.3,Salute,Little Mix,Salute (The Deluxe Edition),1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,3,0,26,7,1
+2021-08-20,27,52,79,True,False,13,0.3,Rumors (feat. Cardi B),Lizzo,Rumors (feat. Cardi B),1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,3,0,27,2,1
+2021-08-20,28,59,87,True,False,13,0.3,Queendom,Red Velvet,Queendom - The 6th Mini Album,1,1,1,5,3,2,1354237,236,10639890,0.42,0.05,0.53,9912,10,3,0,28,2,1
+2021-08-20,29,63,92,False,False,13,0.3,PIRI,Dreamcatcher,The End of Nightmare,1,1,1,5,3,2,1487062,260,11679030,0.42,0.05,0.53,10878,10,3,0,18,5,1
+2021-08-20,30,66,96,True,False,13,0.3,Over the Sky,Dreamcatcher,Over the Sky - Single,1,1,1,5,3,2,1573687,275,12356730,0.42,0.05,0.53,11508,10,3,0,30,2,1
+2021-08-20,31,RE,--,False,False,12,--,Your Love,Little Mix,Glory Days (Expanded Edition),1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,0,2,10,2,1
+2021-08-20,32,RE,--,False,False,12,--,You Gotta Not,Little Mix,Glory Days (Expanded Edition),1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,0,2,11,2,1
+2021-08-20,33,RE,--,False,False,12,--,Weird People,Little Mix,Get Weird (Deluxe Edition),1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,0,2,6,7,1
+2021-08-20,34,RE,--,False,False,12,--,We Are Never Ever Getting Back Together,Taylor Swift,Red (Deluxe Version),1,1,1,5,3,2,1562137,273,12266370,0.42,0.05,0.53,11424,10,0,2,13,7,1
 2021-08-20,35,RE,--,False,False,12,--,tyl,kakie,tyl,1,1,1,5,3,2,1345575,235,10572120,0.42,0.05,0.53,9849,10,0,2,27,2,1
-2021-08-20,36,RE,--,False,False,12,--,Touch (feat. Kid Ink),Little Mix,Glory Days: The Platinum Edition,1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,0,2,32,2,1
-2021-08-20,37,RE,--,True,False,12,--,The End,Little Mix,Get Weird (Deluxe),1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,0,2,37,3,1
-2021-08-20,38,RE,--,True,False,12,--,The Beginning,Little Mix,Get Weird (Deluxe),1,1,1,5,3,2,1495725,261,11746800,0.42,0.05,0.53,10941,10,0,2,38,5,1
-2021-08-20,39,RE,--,True,False,12,--,Secret Love Song Pt. II,Little Mix,Get Weird (Deluxe),1,1,1,5,3,2,1515937,265,11904930,0.42,0.05,0.53,11088,10,0,2,39,2,1
-2021-08-20,40,RE,--,True,False,12,--,Reggaetón Lento (Remix),CNCO,Glory Days: The Platinum Edition,1,1,1,5,3,2,1417762,247,11136870,0.42,0.05,0.53,10374,10,0,2,40,2,1
-2021-08-20,41,RE,--,True,False,12,--,Private Show,Little Mix,Glory Days: The Platinum Edition,1,1,1,5,3,2,1394662,243,10956150,0.42,0.05,0.53,10206,10,0,2,41,2,1
-2021-08-20,42,RE,--,True,False,12,--,Power (feat. Stormzy),Little Mix,Glory Days: The Platinum Edition,1,1,1,5,3,2,1432200,250,11249820,0.42,0.05,0.53,10479,10,0,2,42,2,1
-2021-08-20,43,RE,--,True,False,12,--,Power,Little Mix,Glory Days: The Platinum Edition,1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,0,2,43,2,1
-2021-08-20,44,RE,--,True,False,12,--,Oops (feat. Charlie Puth),Little Mix,Glory Days: The Platinum Edition,1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,0,2,44,2,1
-2021-08-20,45,RE,--,True,False,12,--,OMG,Little Mix,Get Weird (Deluxe),1,1,1,5,3,2,1299375,227,10210680,0.42,0.05,0.53,9513,10,0,2,45,2,1
-2021-08-20,46,RE,--,True,False,12,--,Nothing Else Matters,Little Mix,Glory Days: The Platinum Edition,1,1,1,5,3,2,1377337,240,10820610,0.42,0.05,0.53,10080,10,0,2,46,2,1
-2021-08-20,47,RE,--,True,False,12,--,Nobody Like You,Little Mix,Glory Days: The Platinum Edition,1,1,1,5,3,2,1354237,236,10639890,0.42,0.05,0.53,9912,10,0,2,47,2,1
-2021-08-20,48,RE,--,True,False,12,--,No More Sad Songs (feat. Machine Gun Kelly),Little Mix,Glory Days: The Platinum Edition,1,1,1,5,3,2,1585237,226,10188090,0.42,0.05,0.53,9492,10,0,2,48,2,1
-2021-08-20,49,RE,--,True,False,12,--,No More Sad Songs,Little Mix,Glory Days: The Platinum Edition,1,1,1,5,3,2,1489950,260,11701620,0.42,0.05,0.53,10899,10,0,2,49,2,1
+2021-08-20,36,RE,--,False,False,12,--,Touch (feat. Kid Ink),Little Mix,Glory Days (Expanded Edition),1,1,1,5,3,2,1565025,273,12288960,0.42,0.05,0.53,11445,10,0,2,32,2,1
+2021-08-20,37,RE,--,True,False,12,--,The End,Little Mix,Get Weird (Expanded Edition),1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,0,2,37,3,1
+2021-08-20,38,RE,--,True,False,12,--,The Beginning,Little Mix,Get Weird (Deluxe Edition),1,1,1,5,3,2,1533262,268,12040470,0.42,0.05,0.53,11214,10,0,2,38,5,1
+2021-08-20,39,RE,--,True,False,12,--,Secret Love Song Pt. II,Little Mix,Get Weird (Expanded Edition),1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,0,2,39,2,1
+2021-08-20,40,RE,--,True,False,12,--,Reggaetón Lento (Remix),CNCO,Glory Days (Expanded Edition),1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,0,2,40,2,1
+2021-08-20,41,RE,--,True,False,12,--,Private Show,Little Mix,Glory Days (Expanded Edition),1,1,1,5,3,2,1360012,237,10685070,0.42,0.05,0.53,9954,10,0,2,41,2,1
+2021-08-20,42,RE,--,True,False,12,--,Power (feat. Stormzy),Little Mix,Glory Days (Expanded Edition),1,1,1,5,3,2,1458187,255,11453130,0.42,0.05,0.53,10668,10,0,2,42,2,1
+2021-08-20,43,RE,--,True,False,12,--,Power,Little Mix,Glory Days (Expanded Edition),1,1,1,5,3,2,1458187,255,11453130,0.42,0.05,0.53,10668,10,0,2,43,2,1
+2021-08-20,44,RE,--,True,False,12,--,Oops (feat. Charlie Puth),Little Mix,Glory Days (Expanded Edition),1,1,1,5,3,2,1409100,246,11069100,0.42,0.05,0.53,10311,10,0,2,44,2,1
+2021-08-20,45,RE,--,True,False,12,--,OMG,Little Mix,Get Weird (Deluxe Edition),1,1,1,5,3,2,1394662,243,10956150,0.42,0.05,0.53,10206,10,0,2,45,2,1
+2021-08-20,46,RE,--,True,False,12,--,Nothing Else Matters,Little Mix,Glory Days (Deluxe),1,1,1,5,3,2,1322475,231,10391400,0.42,0.05,0.53,9681,10,0,2,46,2,1
+2021-08-20,47,RE,--,True,False,12,--,Nobody Like You,Little Mix,Glory Days (Expanded Edition),1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,0,2,47,2,1
+2021-08-20,48,RE,--,True,False,12,--,No More Sad Songs (feat. Machine Gun Kelly),Little Mix,Glory Days (Expanded Edition),1,1,1,5,3,2,1374450,240,10798020,0.42,0.05,0.53,10059,10,0,2,48,2,1
+2021-08-20,49,RE,--,True,False,12,--,No More Sad Songs,Little Mix,Glory Days (Expanded Edition),1,1,1,5,3,2,1585237,226,10188090,0.42,0.05,0.53,9492,10,0,2,49,2,1
 2021-08-20,50,NEW,--,True,False,10,--,행복 (Happiness),Red Velvet,The 1st Single '행복(Happiness)',1,1,1,5,3,2,1524600,266,11972700,0.42,0.05,0.53,11151,10,0,0,50,1,1
 2021-08-20,51,NEW,--,True,False,10,--,보름달,SUNMI,Full Moon,1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,0,0,51,1,1
 2021-08-20,52,RE,--,True,False,10,--,러시안 룰렛 Russian Roulette,Red Velvet,Russian Roulette - The 3rd Mini Album,1,1,1,5,3,2,1562137,273,12266370,0.42,0.05,0.53,11424,10,0,0,52,2,1
@@ -55,24 +55,24 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-08-20,54,RE,--,False,False,10,--,YOUNG & WILD,TWICE,YES or YES,1,1,1,5,3,2,1299375,227,10210680,0.42,0.05,0.53,9513,10,0,0,6,4,1
 2021-08-20,55,RE,--,False,False,10,--,You Need to Calm Down,Taylor Swift,Lover,1,1,1,5,3,2,1541925,269,12108240,0.42,0.05,0.53,11277,10,0,0,12,5,1
 2021-08-20,56,RE,--,False,False,10,--,You Better Know,Red Velvet,The Red Summer - Summer Mini Album,1,1,1,5,3,2,1371562,239,10775430,0.42,0.05,0.53,10038,10,0,0,19,3,1
-2021-08-20,57,RE,--,False,False,10,--,You Are in Love,Taylor Swift,,1,1,1,5,3,2,1510162,264,11859750,0.42,0.05,0.53,11046,10,0,0,8,10,1
+2021-08-20,57,RE,--,False,False,10,--,You Are in Love,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,0,0,8,10,1
 2021-08-20,58,RE,--,False,False,10,--,YES or YES,TWICE,YES or YES,1,1,1,5,3,2,1541925,269,12108240,0.42,0.05,0.53,11277,10,0,0,2,6,1
-2021-08-20,59,RE,--,False,False,10,--,Worth It (feat. Kid Ink),Fifth Harmony,,1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,0,0,3,4,1
-2021-08-20,60,RE,--,False,False,10,--,WONDERLAND,ATEEZ,TREASURE EP.FIN: All To Action,1,1,1,5,3,2,1562137,273,12266370,0.42,0.05,0.53,11424,10,0,0,2,9,2
+2021-08-20,59,RE,--,False,False,10,--,Worth It (feat. Kid Ink),Fifth Harmony,Reflection (Deluxe),1,1,1,5,3,2,1507275,263,11837160,0.42,0.05,0.53,11025,10,0,0,2,4,1
+2021-08-20,60,RE,--,False,False,10,--,WONDERLAND,ATEEZ,TREASURE EP.FIN: All To Action,1,1,1,5,3,2,1562137,273,12266370,0.42,0.05,0.53,11424,10,0,0,2,9,1
 2021-08-20,61,NEW,--,True,False,10,--,Woman's World,Little Mix,LM5 (Deluxe),1,1,1,5,3,2,1489950,260,11701620,0.42,0.05,0.53,10899,10,0,0,61,1,1
-2021-08-20,62,RE,--,False,False,10,--,Woman Like Me (feat. Nicki Minaj),Little Mix,LM5 (Deluxe),1,1,1,5,3,2,1536150,268,12063060,0.42,0.05,0.53,11235,10,0,0,3,4,1
-2021-08-20,63,RE,--,False,False,10,--,Wildest Dreams,Taylor Swift,,1,1,1,5,3,2,1559250,272,12243780,0.42,0.05,0.53,11403,10,0,0,31,6,1
+2021-08-20,62,RE,--,False,False,10,--,Woman Like Me (feat. Nicki Minaj),Little Mix,Woman Like Me (feat. Nicki Minaj),1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,0,0,3,4,1
+2021-08-20,63,RE,--,False,False,10,--,Wildest Dreams,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,0,0,31,6,1
 2021-08-20,64,NEW,--,True,False,10,--,WHISTLE,BLACKPINK,SQUARE ONE,1,1,1,5,3,2,1579462,276,12401910,0.42,0.05,0.53,9450,10,0,0,64,1,1
 2021-08-20,65,NEW,--,True,False,10,--,When We Disco (duet With Sunmi),J.Y. Park,When We Disco,1,1,1,5,3,2,1354237,236,10639890,0.42,0.05,0.53,9912,10,0,0,65,1,1
 2021-08-20,66,RE,--,False,False,10,--,Wet Hands,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1322475,231,10391400,0.42,0.05,0.53,9681,10,0,0,16,3,1
-2021-08-20,67,RE,--,False,False,10,--,Welcome to New York,Taylor Swift,,1,1,1,5,3,2,1386000,242,10888380,0.42,0.05,0.53,10143,10,0,0,52,6,1
+2021-08-20,67,RE,--,False,False,10,--,Welcome to New York,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1380225,241,10843200,0.42,0.05,0.53,10101,10,0,0,52,6,1
 2021-08-20,68,NEW,--,True,False,10,--,We Are Who We Are,Little Mix,DNA,1,1,1,5,3,2,1585237,226,10188090,0.42,0.05,0.53,9492,10,0,0,68,1,1
-2021-08-20,69,RE,--,False,False,10,--,Wave,ATEEZ,TREASURE EP.3: One To All,1,1,1,5,3,2,1400437,244,11001330,0.42,0.05,0.53,10248,10,0,0,2,10,1
+2021-08-20,69,RE,--,False,False,10,--,Wave,ATEEZ,TREASURE EP.3 : One To All,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,0,0,2,10,1
 2021-08-20,70,NEW,--,True,False,10,--,Wasabi,Little Mix,LM5 (Deluxe),1,1,1,5,3,2,1362900,238,10707660,0.42,0.05,0.53,9975,10,0,0,70,1,1
-2021-08-20,71,RE,--,False,False,10,--,Waking Up in Vegas,Katy Perry,,1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,0,0,3,6,1
+2021-08-20,71,RE,--,False,False,10,--,Waking Up in Vegas,Katy Perry,One of the Boys,1,1,1,5,3,2,1313812,229,10323630,0.42,0.05,0.53,9618,10,0,0,3,6,1
 2021-08-20,72,RE,--,False,False,10,--,Valkyrie,ONEUS,LIGHT US,1,1,1,5,3,2,1530375,267,12017880,0.42,0.05,0.53,11193,10,0,0,1,12,2
-2021-08-20,73,RE,--,True,True,10,--,Ur So Gay,Katy Perry,,1,1,1,5,3,2,1391775,243,10933560,0.42,0.05,0.53,10185,10,0,0,73,2,2
-2021-08-20,74,RE,--,False,False,10,--,Umpah Umpah,Red Velvet,‘The ReVe Festival’ Day 2,1,1,1,5,3,2,1435087,250,11272410,0.42,0.05,0.53,10500,10,0,0,4,3,1
+2021-08-20,73,RE,--,False,True,10,--,Ur So Gay,Katy Perry,One of the Boys,1,1,1,5,3,2,1553475,271,12198600,0.42,0.05,0.53,11361,10,0,0,73,2,2
+2021-08-20,74,RE,--,False,False,10,--,Umpah Umpah,Red Velvet,‘The ReVe Festival’ Finale,1,1,1,5,3,2,1567912,274,12311550,0.42,0.05,0.53,11466,10,0,0,4,3,1
 2021-08-20,75,RE,--,False,False,10,--,Twilight,ONEUS,RAISE US,1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,0,0,12,8,1
 2021-08-20,76,NEW,--,True,False,10,--,Turn Your Face,Little Mix,DNA,1,1,1,5,3,2,1536150,268,12063060,0.42,0.05,0.53,11235,10,0,0,76,1,1
 2021-08-20,77,NEW,--,True,False,10,--,Trini Dem Girls (feat. LunchMoney Lewis),Nicki Minaj,The Pinkprint,1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,0,0,77,1,1
@@ -98,4 +98,4 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-08-20,97,RE,--,False,False,10,--,Summer Rain,GFRIEND,GFRIEND The 5th Mini Album Repackage <RAINBOW>,1,1,1,5,3,2,1461075,255,11475720,0.42,0.05,0.53,10689,10,0,0,29,3,1
 2021-08-20,98,RE,--,False,False,10,--,Subwoofer Lullaby,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,0,0,24,3,1
 2021-08-20,99,NEW,--,True,False,10,--,Strip (feat. Sharaya J),Little Mix,LM5 (Deluxe),1,1,1,5,3,2,1362900,238,10707660,0.42,0.05,0.53,9975,10,0,0,99,1,1
-2021-08-20,100,RE,--,False,False,10,--,Stoned at the Nail Salon,Lorde,Solar Power,1,1,1,5,3,2,1550587,271,12176010,0.42,0.05,0.53,11340,10,0,0,22,2,1
+2021-08-20,100,RE,--,False,False,10,--,Stoned at the Nail Salon,Lorde,Stoned at the Nail Salon,1,1,1,5,3,2,1530375,267,12017880,0.42,0.05,0.53,11193,10,0,0,22,2,1

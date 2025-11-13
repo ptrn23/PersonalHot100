@@ -1,101 +1,101 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2024-05-17,1,+2,3,True,False,340,0.33,Too Dumb To Die,Green Day,Revolution Radio,26,26,1,130,78,2,36636600,6407,11069100,0.86,0.1,0.04,182161,210,77,53,1,6,1
-2024-05-17,2,+3,5,True,False,333,0.42,Before the Lobotomy,Green Day,21st Century Breakdown,26,26,1,130,78,2,40765725,7128,12311550,0.86,0.1,0.04,202566,210,71,52,2,14,1
-2024-05-17,3,+9,12,True,False,282,0.71,¿Viva la Gloria? (Little Girl),Green Day,21st Century Breakdown,26,26,1,130,78,2,40690650,7115,12288960,0.86,0.1,0.04,202195,210,50,22,3,8,1
-2024-05-17,4,+4,8,False,False,270,0.32,King for a Day,Green Day,Nimrod,19,19,1,95,57,2,27870150,4874,11520900,0.85,0.1,0.06,139503,154,62,54,3,18,1
-2024-05-17,5,+11,16,True,True,268,1.02,Dead!,My Chemical Romance,The Black Parade,26,14,9,130,42,18,35135100,3309,95555700,0.67,0.04,0.29,161553,190,40,38,5,19,2
-2024-05-17,6,+3,9,True,False,242,0.25,The Static Age,Green Day,21st Century Breakdown,19,19,1,95,57,2,28747950,5027,11882340,0.85,0.1,0.06,143871,154,58,30,6,13,1
-2024-05-17,7,+43,50,True,False,241,2.89,Espionage,Green Day,Shenanigans,26,26,1,130,78,2,40990950,7167,12379320,0.86,0.1,0.04,203679,210,19,12,7,4,1
-2024-05-17,8,+11,19,True,False,214,0.7,Bouncing Off The Wall,Green Day,Revolution Radio,20,20,1,100,60,2,29741250,5201,11679030,0.85,0.1,0.05,148666,162,38,14,8,6,1
+2024-05-17,1,2,3,True,False,340,0.33,Too Dumb To Die,Green Day,Revolution Radio,26,26,1,130,78,2,36636600,6407,11069100,0.86,0.1,0.04,182161,210,76,52,1,6,1
+2024-05-17,2,3,5,True,False,333,0.42,Before the Lobotomy,Green Day,21st Century Breakdown,26,26,1,130,78,2,40765725,7128,12311550,0.86,0.1,0.04,202566,210,70,51,2,14,1
+2024-05-17,3,9,12,True,False,282,0.71,¿Viva la Gloria? (Little Girl),Green Day,21st Century Breakdown,26,26,1,130,78,2,40690650,7115,12288960,0.86,0.1,0.04,202195,210,49,22,3,8,1
+2024-05-17,4,4,8,False,False,270,0.32,King for a Day,Green Day,Nimrod,19,19,1,95,57,2,27870150,4874,11520900,0.85,0.1,0.06,139503,154,61,53,3,18,1
+2024-05-17,5,11,16,False,True,268,1.02,Dead!,My Chemical Romance,The Black Parade,26,14,9,130,42,18,35135100,3309,95555700,0.67,0.04,0.29,161553,190,39,37,5,19,2
+2024-05-17,6,3,9,True,False,242,0.25,The Static Age,Green Day,21st Century Breakdown,19,19,1,95,57,2,28747950,5027,11882340,0.85,0.1,0.06,143871,154,57,29,6,13,1
+2024-05-17,7,43,50,True,False,241,2.89,Espionage,Green Day,Shenanigans,26,26,1,130,78,2,40990950,7167,12379320,0.86,0.1,0.04,203679,210,18,11,7,4,1
+2024-05-17,8,11,19,True,False,214,0.7,Bouncing Off The Wall,Green Day,Revolution Radio,20,20,1,100,60,2,29741250,5201,11679030,0.85,0.1,0.05,148666,162,37,13,8,6,1
 2024-05-17,9,RE,--,True,False,210,--,Bobby Sox,Green Day,Saviors,26,26,1,130,78,2,39564525,6918,11950110,0.86,0.1,0.04,196630,210,0,0,9,16,1
 2024-05-17,10,RE,--,True,False,202,--,Saviors,Green Day,Saviors,25,25,1,125,75,2,35371875,6186,11114280,0.86,0.1,0.04,176001,202,0,0,10,6,1
-2024-05-17,11,-9,2,False,False,194,-0.29,Uptight,Green Day,Nimrod,5,5,1,25,15,2,7319812,1280,11498310,0.73,0.08,0.18,39270,42,82,70,1,10,5
-2024-05-17,12,+57,69,True,False,191,3.55,Peacemaker,Green Day,21st Century Breakdown,22,22,1,110,66,2,29412075,5144,10504350,0.86,0.1,0.05,146790,178,13,0,12,2,1
-2024-05-17,13,+39,52,True,False,188,2.24,Somewhere Now,Green Day,Revolution Radio,21,21,1,105,63,2,32259150,5641,12063060,0.85,0.1,0.05,161035,170,18,0,13,2,1
-2024-05-17,14,-10,4,False,False,183,-0.22,The Sharpest Lives,My Chemical Romance,The Black Parade,7,7,1,35,21,2,9378600,1640,10526940,0.77,0.09,0.14,49035,58,71,54,4,7,2
-2024-05-17,15,+32,47,True,False,179,1.18,Forever Now,Green Day,Revolution Radio,19,19,1,95,57,2,25401337,4443,10504350,0.85,0.1,0.06,127218,154,25,0,15,5,1
-2024-05-17,16,-10,6,False,False,172,-0.25,Extraordinary Girl / Letterbomb,Green Day,American Idiot,7,7,1,35,21,2,9176475,1605,10301040,0.77,0.09,0.14,47985,58,69,45,2,16,3
-2024-05-17,17,-16,1,False,False,172,-0.37,Redundant,Green Day,Nimrod,5,5,1,25,15,2,7854000,1373,12334140,0.73,0.08,0.18,42119,42,83,47,1,19,1
+2024-05-17,11,-9,2,False,False,194,-0.29,Uptight,Green Day,Nimrod,5,5,1,25,15,2,7319812,1280,11498310,0.73,0.08,0.18,39270,42,81,70,1,10,5
+2024-05-17,12,57,69,True,False,191,3.55,Peacemaker,Green Day,21st Century Breakdown,22,22,1,110,66,2,29412075,5144,10504350,0.86,0.1,0.05,146790,178,12,0,12,2,1
+2024-05-17,13,39,52,True,False,188,2.24,Somewhere Now,Green Day,Revolution Radio,21,21,1,105,63,2,32259150,5641,12063060,0.85,0.1,0.05,161035,170,17,0,13,2,1
+2024-05-17,14,-10,4,False,False,183,-0.22,The Sharpest Lives,My Chemical Romance,The Black Parade,7,7,1,35,21,2,9378600,1640,10526940,0.77,0.09,0.14,49035,58,70,53,4,7,2
+2024-05-17,15,32,47,True,False,179,1.18,Forever Now,Green Day,Revolution Radio,19,19,1,95,57,2,25401337,4443,10504350,0.85,0.1,0.06,127218,154,24,0,15,5,1
+2024-05-17,16,-10,6,False,False,172,-0.25,Extraordinary Girl / Letterbomb,Green Day,American Idiot,7,7,1,35,21,2,9176475,1605,10301040,0.77,0.09,0.14,47985,58,69,44,2,16,3
+2024-05-17,17,-16,1,False,False,172,-0.37,Redundant,Green Day,Nimrod,5,5,1,25,15,2,7854000,1373,12334140,0.73,0.08,0.18,42119,42,82,47,1,19,1
 2024-05-17,18,RE,--,False,False,171,--,Geek Stink Breath,Green Day,Insomniac,20,20,1,100,60,2,27027000,4727,10617300,0.85,0.1,0.05,135177,162,0,9,6,16,1
 2024-05-17,19,RE,--,False,False,170,--,Corvette Summer,Green Day,Saviors,21,21,1,105,63,2,31592137,5524,11814570,0.85,0.1,0.05,157724,170,0,0,16,17,1
-2024-05-17,20,+71,91,True,False,165,3.85,Ordinary World,Green Day,Revolution Radio,19,19,1,95,57,2,29461162,5151,12176010,0.85,0.1,0.06,147420,154,11,0,20,3,1
-2024-05-17,21,+33,54,False,False,165,2.0,You Lied,Green Day,Shenanigans,17,17,1,85,51,2,23218387,4061,10730250,0.84,0.09,0.06,116620,138,17,10,17,4,1
-2024-05-17,22,-11,11,False,False,155,-0.07,Nice Guys Finish Last,Green Day,Nimrod,9,6,4,45,18,8,13669425,1593,47710080,0.61,0.05,0.34,70357,71,50,34,1,19,3
-2024-05-17,23,-13,10,False,False,145,-0.24,Worry Rock,Green Day,Nimrod,2,2,1,10,6,2,3153150,551,12379320,0.58,0.06,0.36,19215,18,58,69,2,9,1
-2024-05-17,24,+37,61,False,False,141,2.07,Jesus of Suburbia,Green Day,American Idiot,14,14,1,70,42,2,21667800,3789,12153420,0.83,0.09,0.07,109417,114,14,13,11,17,1
-2024-05-17,25,-18,7,False,False,136,-0.36,Guilty as Sin?,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,9,7,3,45,21,6,12084187,1644,31648590,0.66,0.06,0.28,62243,72,64,0,7,4,1
-2024-05-17,26,+50,76,False,False,122,1.9,Too Much Too Soon,Green Day,American Idiot (Deluxe),12,12,1,60,36,2,16112250,2818,10549530,0.82,0.09,0.09,81900,98,13,11,12,14,1
-2024-05-17,27,+50,77,False,False,122,1.9,Shoplifter,Green Day,American Idiot (Deluxe),12,12,1,60,36,2,15696450,2745,10278450,0.82,0.09,0.09,79800,98,13,11,13,14,1
-2024-05-17,28,+50,78,False,False,122,1.9,Governator,Green Day,American Idiot (Deluxe),12,12,1,60,36,2,18953550,3314,12401910,0.82,0.09,0.09,78750,98,13,11,14,14,1
-2024-05-17,29,-14,15,False,False,118,-0.15,Buddy Holly,Weezer,Weezer,5,5,1,25,15,2,7377562,1290,11588670,0.73,0.08,0.18,39578,42,42,34,5,6,1
+2024-05-17,20,71,91,True,False,165,3.85,Ordinary World,Green Day,Revolution Radio,19,19,1,95,57,2,29461162,5151,12176010,0.85,0.1,0.06,147420,154,10,0,20,3,1
+2024-05-17,21,33,54,False,False,165,2.0,You Lied,Green Day,Shenanigans,17,17,1,85,51,2,23218387,4061,10730250,0.84,0.09,0.06,116620,138,16,10,17,4,1
+2024-05-17,22,-11,11,False,False,155,-0.07,Nice Guys Finish Last,Green Day,Nimrod,9,6,4,45,18,8,13669425,1593,47710080,0.61,0.05,0.34,70357,71,49,33,1,19,3
+2024-05-17,23,-13,10,False,False,145,-0.24,Worry Rock,Green Day,Nimrod,2,2,1,10,6,2,3153150,551,12379320,0.58,0.06,0.36,19215,18,57,68,2,9,1
+2024-05-17,24,37,61,False,False,141,2.07,Jesus of Suburbia,Green Day,American Idiot,14,14,1,70,42,2,21667800,3789,12153420,0.83,0.09,0.07,109417,114,13,13,11,17,1
+2024-05-17,25,-18,7,False,False,136,-0.36,Guilty as Sin?,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,9,7,3,45,21,6,12084187,1644,31648590,0.66,0.06,0.28,62243,72,63,0,7,4,1
+2024-05-17,26,50,76,False,False,122,1.9,Too Much Too Soon,Green Day,American Idiot (Deluxe),12,12,1,60,36,2,16112250,2818,10549530,0.82,0.09,0.09,81900,98,12,11,12,14,1
+2024-05-17,27,50,77,False,False,122,1.9,Shoplifter,Green Day,American Idiot (Deluxe),12,12,1,60,36,2,15696450,2745,10278450,0.82,0.09,0.09,79800,98,12,11,13,14,1
+2024-05-17,28,50,78,False,False,122,1.9,Governator,Green Day,American Idiot (Deluxe),12,12,1,60,36,2,18953550,3314,12401910,0.82,0.09,0.09,78750,98,12,11,14,14,1
+2024-05-17,29,-14,15,False,False,118,-0.15,Buddy Holly,Weezer,Weezer,5,5,1,25,15,2,7377562,1290,11588670,0.73,0.08,0.18,39578,42,41,34,6,6,1
 2024-05-17,30,RE,--,False,False,116,--,Outsider,Green Day,Shenanigans,13,13,1,65,39,2,19932412,3485,12040470,0.83,0.09,0.08,100926,106,0,10,22,3,1
-2024-05-17,31,+33,64,False,False,116,1.64,Whatsername,Green Day,American Idiot,11,11,1,55,33,2,15023662,2627,10730250,0.82,0.09,0.09,76636,90,14,12,8,14,1
-2024-05-17,32,-10,22,False,False,116,-0.06,21 Guns,Green Day,21st Century Breakdown,7,3,5,35,9,10,11015812,825,61783650,0.52,0.02,0.46,57540,54,37,25,4,23,1
-2024-05-17,33,+1,34,False,False,110,0.05,All the Small Things,blink-182,Enema of the State,6,6,1,30,18,2,8991675,1572,11769390,0.76,0.09,0.16,47502,50,32,28,15,5,1
+2024-05-17,31,33,64,False,False,116,1.64,Whatsername,Green Day,American Idiot,11,11,1,55,33,2,15023662,2627,10730250,0.82,0.09,0.09,76636,90,13,11,8,14,1
+2024-05-17,32,-10,22,False,False,116,-0.06,21 Guns,Green Day,21st Century Breakdown,7,3,5,35,9,10,11015812,825,61783650,0.52,0.02,0.46,57540,54,36,24,4,23,1
+2024-05-17,33,1,34,False,False,110,0.05,All the Small Things,blink-182,Enema of the State,6,6,1,30,18,2,8991675,1572,11769390,0.76,0.09,0.16,47502,50,31,27,15,5,1
 2024-05-17,34,RE,--,False,False,108,--,Don't Wanna Fall in Love,Green Day,Shenanigans,12,12,1,60,36,2,16077600,2812,10526940,0.82,0.09,0.09,81725,98,0,10,25,3,1
-2024-05-17,35,-17,18,False,False,108,-0.18,Look Ma No Brains!,Green Day,Saviors,4,4,1,20,12,2,5278350,923,10368810,0.7,0.08,0.22,28979,34,40,34,1,20,6
+2024-05-17,35,-17,18,False,False,108,-0.18,Look Ma No Brains!,Green Day,Look Ma No Brains!,4,4,1,20,12,2,6306300,1102,12379320,0.7,0.08,0.22,34587,34,39,33,1,20,6
 2024-05-17,36,RE,--,False,False,106,--,Are We the Waiting / St. Jimmy,Green Day,American Idiot,13,13,1,65,39,2,20420400,3570,12334140,0.83,0.09,0.08,103383,106,0,0,19,9,1
-2024-05-17,37,-24,13,False,False,106,-0.32,Suffocate,Green Day,Shenanigans,4,4,1,20,12,2,5313000,929,10436580,0.7,0.08,0.22,29169,34,48,24,13,4,2
-2024-05-17,38,-24,14,False,False,106,-0.32,Desensitized,Green Day,Shenanigans,4,4,1,20,12,2,5266800,921,10346220,0.7,0.08,0.22,28916,34,48,24,14,4,2
-2024-05-17,39,-15,24,False,False,105,-0.12,Mobile,Avril Lavigne,Let Go,6,5,2,30,15,4,9476775,1380,24803820,0.66,0.06,0.28,40950,49,36,20,1,10,1
-2024-05-17,40,-19,21,False,False,105,-0.15,I'm Not Okay (I Promise),My Chemical Romance,Three Cheers for Sweet Revenge,5,5,1,25,15,2,6496875,1136,10210680,0.73,0.08,0.18,34881,42,38,25,4,20,1
-2024-05-17,41,-15,26,False,False,101,-0.12,Style (Taylor's Version),Taylor Swift,1989 (Taylor's Version) [Deluxe],5,5,1,25,15,2,6670124,1166,10481760,0.73,0.08,0.18,35805,42,35,24,2,30,2
-2024-05-17,42,-14,28,False,False,99,-0.12,Blank Space (Taylor's Version),Taylor Swift,1989 (Taylor's Version),5,5,1,25,15,2,7550812,1320,11859750,0.73,0.08,0.18,40502,42,34,23,1,30,2
+2024-05-17,37,-24,13,False,False,106,-0.32,Suffocate,Green Day,Shenanigans,4,4,1,20,12,2,5313000,929,10436580,0.7,0.08,0.22,29169,34,47,23,13,4,2
+2024-05-17,38,-24,14,False,False,106,-0.32,Desensitized,Green Day,Shenanigans,4,4,1,20,12,2,5266800,921,10346220,0.7,0.08,0.22,28916,34,47,23,14,4,2
+2024-05-17,39,-15,24,False,False,105,-0.12,Mobile,Avril Lavigne,Let Go,6,5,2,30,15,4,9476775,1380,24803820,0.66,0.06,0.28,40950,49,36,19,1,10,1
+2024-05-17,40,-19,21,False,False,105,-0.15,I'm Not Okay (I Promise),My Chemical Romance,Three Cheers for Sweet Revenge,5,5,1,25,15,2,6496875,1136,10210680,0.73,0.08,0.18,34881,42,37,24,4,20,1
+2024-05-17,41,-15,26,False,False,101,-0.12,Style (Taylor's Version),Taylor Swift,1989 (Taylor's Version),5,5,1,25,15,2,6944437,1214,10910970,0.73,0.08,0.18,37268,42,34,23,2,30,2
+2024-05-17,42,-14,28,False,False,99,-0.12,Blank Space (Taylor's Version),Taylor Swift,1989 (Taylor's Version),5,5,1,25,15,2,7550812,1320,11859750,0.73,0.08,0.18,40502,42,33,22,1,30,2
 2024-05-17,43,RE,--,False,False,98,--,Give Me Novacaine / She's a Rebel,Green Day,American Idiot,12,12,1,60,36,2,18988200,3320,10165500,0.82,0.09,0.09,78925,98,0,0,18,9,1
-2024-05-17,44,-15,29,False,False,95,-0.15,Helena,My Chemical Romance,Three Cheers for Sweet Revenge,4,4,1,20,12,2,6006000,1050,11791980,0.7,0.08,0.22,32949,34,34,27,3,20,1
-2024-05-17,45,-18,27,False,False,94,-0.18,I Don't Love You,My Chemical Romance,The Black Parade,4,4,1,20,12,2,5659500,989,11114280,0.7,0.08,0.22,31059,34,35,25,6,21,2
-2024-05-17,46,-13,33,False,False,90,-0.14,Breakaway,Kelly Clarkson,Breakaway,4,4,1,20,12,2,5278350,923,10368810,0.7,0.08,0.22,28979,34,32,24,5,29,1
-2024-05-17,47,-9,38,False,False,89,-0.11,1985,Bowling for Soup,A Hangover You Don't Deserve,4,4,1,20,12,2,5209050,911,10233270,0.7,0.08,0.22,28602,34,30,25,22,5,1
-2024-05-17,48,-9,39,False,False,88,-0.09,Since U Been Gone,Kelly Clarkson,Breakaway,4,4,1,20,12,2,6225450,1088,12221190,0.7,0.08,0.22,34146,34,30,24,8,33,1
+2024-05-17,44,-15,29,False,False,95,-0.15,Helena,My Chemical Romance,Three Cheers for Sweet Revenge,4,4,1,20,12,2,6006000,1050,11791980,0.7,0.08,0.22,32949,34,33,26,3,20,1
+2024-05-17,45,-18,27,False,False,94,-0.18,I Don't Love You,My Chemical Romance,The Black Parade,4,4,1,20,12,2,5659500,989,11114280,0.7,0.08,0.22,31059,34,34,24,6,21,2
+2024-05-17,46,-13,33,False,False,90,-0.14,Breakaway,Kelly Clarkson,Breakaway,4,4,1,20,12,2,5278350,923,10368810,0.7,0.08,0.22,28979,34,31,24,5,29,1
+2024-05-17,47,-9,38,False,False,89,-0.11,1985,Bowling for Soup,A Hangover You Don't Deserve,4,4,1,20,12,2,5209050,911,10233270,0.7,0.08,0.22,28602,34,30,24,22,5,1
+2024-05-17,48,-9,39,False,False,88,-0.09,Since U Been Gone,Kelly Clarkson,Breakaway,4,4,1,20,12,2,6225450,1088,12221190,0.7,0.08,0.22,34146,34,29,24,8,33,1
 2024-05-17,49,RE,--,False,False,87,--,I Wish You Would (Taylor's Version),Taylor Swift,1989 (Taylor's Version),12,1,12,60,3,24,17532900,255,137708640,0.44,0.0,0.55,89075,87,0,0,3,17,1
-2024-05-17,50,-8,42,False,False,85,-0.03,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),5,5,1,25,15,2,7637437,1335,11995290,0.73,0.08,0.18,40964,42,27,16,1,64,5
-2024-05-17,51,-6,45,False,False,82,-0.04,My Life Would Suck Without You,Kelly Clarkson,All I Ever Wanted,4,4,1,20,12,2,6248550,1092,12266370,0.7,0.08,0.22,34272,34,26,22,8,23,1
-2024-05-17,52,-17,35,False,False,81,-0.22,Welcome to the Black Parade,My Chemical Romance,The Black Parade,3,3,1,15,9,2,4270612,746,11182050,0.65,0.07,0.27,24304,26,32,23,4,23,1
-2024-05-17,53,-21,32,False,False,81,-0.25,Shake It Off (Taylor's Version),Taylor Swift,1989 (Taylor's Version),3,3,1,15,9,2,4443862,777,11633850,0.65,0.07,0.27,25284,26,33,22,1,30,3
-2024-05-17,54,-14,40,False,False,81,-0.16,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4617112,807,12085650,0.65,0.07,0.27,26264,26,29,26,1,92,1
+2024-05-17,50,-8,42,False,False,85,-0.03,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),5,5,1,25,15,2,7637437,1335,11995290,0.73,0.08,0.18,40964,42,26,15,1,64,5
+2024-05-17,51,-6,45,False,False,82,-0.04,My Life Would Suck Without You,Kelly Clarkson,All I Ever Wanted,4,4,1,20,12,2,6248550,1092,12266370,0.7,0.08,0.22,34272,34,25,21,8,23,1
+2024-05-17,52,-17,35,False,False,81,-0.22,Welcome to the Black Parade,My Chemical Romance,The Black Parade,3,3,1,15,9,2,4270612,746,11182050,0.65,0.07,0.27,24304,26,31,22,4,23,1
+2024-05-17,53,-21,32,False,False,81,-0.25,Shake It Off (Taylor's Version),Taylor Swift,1989 (Taylor's Version),3,3,1,15,9,2,4443862,777,11633850,0.65,0.07,0.27,25284,26,32,21,1,30,3
+2024-05-17,54,-14,40,False,False,81,-0.16,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4617112,807,12085650,0.65,0.07,0.27,26264,26,28,25,1,92,1
 2024-05-17,55,RE,--,False,False,80,--,Better Than Revenge (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),11,1,11,55,3,22,17278800,274,135675540,0.44,0.0,0.55,88067,80,0,0,6,13,1
-2024-05-17,56,-10,46,False,False,76,-0.08,The End.,My Chemical Romance,The Black Parade,3,3,1,15,9,2,4521825,790,11837160,0.65,0.07,0.27,25725,26,25,25,8,11,1
-2024-05-17,57,-26,31,False,False,73,-0.32,Because of You,Kelly Clarkson,Breakaway,2,2,1,10,6,2,2731575,477,10730250,0.58,0.06,0.36,16660,18,33,22,10,29,1
-2024-05-17,58,-21,37,False,False,72,-0.29,All Too Well (10 Minute Version) (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),5,4,2,25,12,4,6901125,965,21686400,0.63,0.06,0.31,37037,41,31,0,5,15,1
-2024-05-17,59,-39,20,False,False,72,-0.42,My Boy Only Breaks His Favorite Toys,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,4,4,1,20,12,2,6121500,1070,12017880,0.7,0.08,0.22,33579,34,38,0,20,4,1
+2024-05-17,56,-10,46,False,False,76,-0.08,The End.,My Chemical Romance,The Black Parade,3,3,1,15,9,2,4521825,790,11837160,0.65,0.07,0.27,25725,26,24,24,8,11,1
+2024-05-17,57,-26,31,False,False,73,-0.32,Because of You,Kelly Clarkson,Breakaway,2,2,1,10,6,2,2731575,477,10730250,0.58,0.06,0.36,16660,18,32,21,10,29,1
+2024-05-17,58,-21,37,False,False,72,-0.29,All Too Well (10 Minute Version) (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),5,4,2,25,12,4,6901125,965,21686400,0.63,0.06,0.31,37037,41,30,0,5,16,1
+2024-05-17,59,-39,20,False,False,72,-0.42,My Boy Only Breaks His Favorite Toys,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,4,4,1,20,12,2,6121500,1070,12017880,0.7,0.08,0.22,33579,34,37,0,20,4,1
 2024-05-17,60,RE,--,False,False,69,--,Ha Ha You're Dead,Green Day,Shenanigans,3,3,1,15,9,2,4591125,802,12017880,0.65,0.07,0.27,26117,26,0,43,10,3,2
-2024-05-17,61,-25,36,False,False,69,-0.33,Hitchin' a Ride,Green Day,Nimrod,1,1,1,5,3,2,1302262,227,10233270,0.42,0.05,0.53,9534,10,31,28,2,20,6
-2024-05-17,62,-39,23,False,False,65,-0.46,American Eulogy: Mass Hysteria / Modern World,Green Day,21st Century Breakdown,2,2,1,10,6,2,3083850,539,12108240,0.58,0.06,0.36,18795,18,37,10,23,3,1
-2024-05-17,63,-38,25,False,False,61,-0.47,Down Bad,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,3,3,1,15,9,2,4149337,725,10865790,0.65,0.07,0.27,23618,26,35,0,25,4,1
-2024-05-17,64,-21,43,False,False,60,-0.32,Teenagers,My Chemical Romance,The Black Parade,1,1,1,5,3,2,1559250,272,12243780,0.42,0.05,0.53,11403,10,27,23,7,21,1
+2024-05-17,61,-25,36,False,False,69,-0.33,Hitchin' a Ride,Green Day,Nimrod,1,1,1,5,3,2,1302262,227,10233270,0.42,0.05,0.53,9534,10,30,27,2,20,6
+2024-05-17,62,-39,23,False,False,65,-0.46,American Eulogy: Mass Hysteria / Modern World,Green Day,21st Century Breakdown,2,2,1,10,6,2,3083850,539,12108240,0.58,0.06,0.36,18795,18,36,9,23,3,1
+2024-05-17,63,-38,25,False,False,61,-0.47,Down Bad,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,3,3,1,15,9,2,4149337,725,10865790,0.65,0.07,0.27,23618,26,34,0,25,4,1
+2024-05-17,64,-21,43,False,False,60,-0.32,Teenagers,My Chemical Romance,The Black Parade,1,1,1,5,3,2,1559250,272,12243780,0.42,0.05,0.53,11403,10,26,22,7,21,1
 2024-05-17,65,RE,--,True,False,59,--,Everyday,Ariana Grande,Dangerous Woman,8,1,8,40,3,16,10626000,232,83492640,0.44,0.01,0.55,55097,59,0,0,65,2,1
-2024-05-17,66,-22,44,False,False,56,-0.36,I Can Do It with a Broken Heart,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,2,2,1,10,6,2,2685375,469,10549530,0.58,0.06,0.36,16379,18,27,11,12,5,1
-2024-05-17,67,+6,73,False,False,53,0.26,ESPRESSO,TWICE,Formula of Love: O+T=<3,5,3,3,25,9,6,7752937,813,36528030,0.55,0.04,0.41,41580,40,13,0,2,18,1
-2024-05-17,68,-38,30,False,False,52,-0.53,Annie Batungbakal,Hotdog,Hotdog Greatest Hits,2,2,1,10,6,2,2766225,483,10865790,0.58,0.06,0.36,16870,18,34,0,30,2,1
-2024-05-17,69,RE,--,False,False,48,--,Key,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5474700,957,10752840,0.7,0.08,0.22,30051,34,0,14,34,12,1
-2024-05-17,70,RE,--,False,False,48,--,Door,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5370750,939,10549530,0.7,0.08,0.22,29484,34,0,14,38,12,2
-2024-05-17,71,-11,60,False,False,47,-0.06,Homecoming,Green Day,American Idiot,2,2,1,10,6,2,2881725,504,11317590,0.58,0.06,0.36,17570,18,15,14,4,14,1
-2024-05-17,72,RE,--,False,False,46,--,Équinoxe,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5266800,921,10346220,0.7,0.08,0.22,28916,34,0,12,12,11,1
-2024-05-17,73,RE,--,False,False,46,--,Wet Hands,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5289900,925,10391400,0.7,0.08,0.22,29042,34,0,12,16,13,1
-2024-05-17,74,RE,--,False,False,46,--,Thirteen,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,6121500,1070,12017880,0.7,0.08,0.22,33579,34,0,12,25,12,1
-2024-05-17,75,RE,--,False,False,46,--,Sweden,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5532450,967,10865790,0.7,0.08,0.22,30366,34,0,12,21,14,1
-2024-05-17,76,RE,--,False,False,46,--,Subwoofer Lullaby,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5474700,957,10752840,0.7,0.08,0.22,30051,34,0,12,24,14,1
-2024-05-17,77,RE,--,False,False,46,--,Moog City,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5821200,1018,11430540,0.7,0.08,0.22,31941,34,0,12,31,11,1
-2024-05-17,78,RE,--,False,False,46,--,Minecraft,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5601750,979,11001330,0.7,0.08,0.22,30744,34,0,12,37,13,1
-2024-05-17,79,RE,--,False,False,46,--,Mice on Venus,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5624850,983,11046510,0.7,0.08,0.22,30870,34,0,12,32,11,1
-2024-05-17,80,RE,--,False,False,46,--,Living Mice,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5359200,937,10526940,0.7,0.08,0.22,29421,34,0,12,33,11,1
-2024-05-17,81,RE,--,False,False,46,--,Haggstrom,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5440050,951,10685070,0.7,0.08,0.22,29862,34,0,12,35,11,1
-2024-05-17,82,RE,--,False,False,46,--,Excuse,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,6294750,1100,12356730,0.7,0.08,0.22,34524,34,0,12,36,10,1
-2024-05-17,83,RE,--,False,False,46,--,Dry Hands,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5544000,969,10888380,0.7,0.08,0.22,30429,34,0,12,37,10,1
-2024-05-17,84,RE,--,False,False,46,--,Droopy Likes Your Face,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5809650,1016,11407950,0.7,0.08,0.22,31878,34,0,12,16,11,1
-2024-05-17,85,RE,--,False,False,46,--,Droopy Likes Ricochet,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5671050,991,11136870,0.7,0.08,0.22,31122,34,0,12,17,10,1
-2024-05-17,86,RE,--,False,False,46,--,Dog,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,6156150,1076,12085650,0.7,0.08,0.22,33768,34,0,12,7,17,1
-2024-05-17,87,RE,--,False,False,46,--,Death,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5578650,975,10956150,0.7,0.08,0.22,30618,34,0,12,39,11,2
-2024-05-17,88,RE,--,False,False,46,--,Danny,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5486250,959,10775430,0.7,0.08,0.22,30114,34,0,12,18,10,1
-2024-05-17,89,RE,--,False,False,46,--,Clark,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5809650,1016,11407950,0.7,0.08,0.22,31878,34,0,12,40,10,1
-2024-05-17,90,RE,--,False,False,46,--,Chris,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5197500,909,10210680,0.7,0.08,0.22,28539,34,0,12,41,10,1
-2024-05-17,91,RE,--,False,False,46,--,Cat,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,6271650,1096,12311550,0.7,0.08,0.22,34398,34,0,12,8,16,1
-2024-05-17,92,RE,--,False,False,46,--,Beginning,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5717250,999,11227230,0.7,0.08,0.22,31374,34,0,12,19,10,1
-2024-05-17,93,-36,57,False,False,46,-0.1,Murder City,Green Day,21st Century Breakdown,2,2,1,10,6,2,2985675,522,11724210,0.58,0.06,0.36,18200,18,16,12,48,10,1
-2024-05-17,94,-53,41,False,False,46,-0.49,Magsayawan,VST & Company,Sce: awitin mo at isasayaw ko,2,2,1,10,6,2,2789325,487,10956150,0.58,0.06,0.36,17010,18,28,0,41,2,1
-2024-05-17,95,-40,55,False,False,46,-0.13,Last of the American Girls,Green Day,21st Century Breakdown,2,2,1,10,6,2,3164700,553,10165500,0.58,0.06,0.36,15785,18,16,12,25,17,1
-2024-05-17,96,-40,56,False,False,46,-0.13,Last Night on Earth,Green Day,21st Century Breakdown,2,2,1,10,6,2,2979900,521,11701620,0.58,0.06,0.36,18165,18,16,12,28,13,1
+2024-05-17,66,-22,44,False,False,56,-0.36,I Can Do It with a Broken Heart,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,2,2,1,10,6,2,2685375,469,10549530,0.58,0.06,0.36,16379,18,26,10,12,5,1
+2024-05-17,67,6,73,False,False,53,0.26,ESPRESSO,TWICE,Formula of Love: O+T=<3,5,3,3,25,9,6,7752937,813,36528030,0.55,0.04,0.41,41580,40,12,0,2,18,1
+2024-05-17,68,-38,30,False,False,52,-0.53,Annie Batungbakal,Hotdog,Hotdog Greatest Hits,2,2,1,10,6,2,2766225,483,10865790,0.58,0.06,0.36,16870,18,33,0,30,2,1
+2024-05-17,69,RE,--,False,False,48,--,Key,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5474700,957,10752840,0.7,0.08,0.22,30051,34,0,13,34,12,1
+2024-05-17,70,RE,--,False,False,48,--,Door,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5370750,939,10549530,0.7,0.08,0.22,29484,34,0,13,38,12,2
+2024-05-17,71,-11,60,False,False,47,-0.06,Homecoming,Green Day,American Idiot,2,2,1,10,6,2,2881725,504,11317590,0.58,0.06,0.36,17570,18,15,13,4,14,1
+2024-05-17,72,RE,--,False,False,46,--,Équinoxe,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5266800,921,10346220,0.7,0.08,0.22,28916,34,0,11,12,11,1
+2024-05-17,73,RE,--,False,False,46,--,Wet Hands,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5289900,925,10391400,0.7,0.08,0.22,29042,34,0,11,16,13,1
+2024-05-17,74,RE,--,False,False,46,--,Thirteen,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,6121500,1070,12017880,0.7,0.08,0.22,33579,34,0,11,25,12,1
+2024-05-17,75,RE,--,False,False,46,--,Sweden,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5532450,967,10865790,0.7,0.08,0.22,30366,34,0,11,21,14,1
+2024-05-17,76,RE,--,False,False,46,--,Subwoofer Lullaby,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5474700,957,10752840,0.7,0.08,0.22,30051,34,0,11,24,14,1
+2024-05-17,77,RE,--,False,False,46,--,Moog City,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5821200,1018,11430540,0.7,0.08,0.22,31941,34,0,11,31,11,1
+2024-05-17,78,RE,--,False,False,46,--,Minecraft,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5601750,979,11001330,0.7,0.08,0.22,30744,34,0,11,37,13,1
+2024-05-17,79,RE,--,False,False,46,--,Mice on Venus,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5624850,983,11046510,0.7,0.08,0.22,30870,34,0,11,32,11,1
+2024-05-17,80,RE,--,False,False,46,--,Living Mice,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5359200,937,10526940,0.7,0.08,0.22,29421,34,0,11,33,11,1
+2024-05-17,81,RE,--,False,False,46,--,Haggstrom,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5440050,951,10685070,0.7,0.08,0.22,29862,34,0,11,35,11,1
+2024-05-17,82,RE,--,False,False,46,--,Excuse,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,6294750,1100,12356730,0.7,0.08,0.22,34524,34,0,11,36,10,1
+2024-05-17,83,RE,--,False,False,46,--,Dry Hands,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5544000,969,10888380,0.7,0.08,0.22,30429,34,0,11,37,10,1
+2024-05-17,84,RE,--,False,False,46,--,Droopy Likes Your Face,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5809650,1016,11407950,0.7,0.08,0.22,31878,34,0,11,16,11,1
+2024-05-17,85,RE,--,False,False,46,--,Droopy Likes Ricochet,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5671050,991,11136870,0.7,0.08,0.22,31122,34,0,11,17,10,1
+2024-05-17,86,RE,--,False,False,46,--,Dog,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,6156150,1076,12085650,0.7,0.08,0.22,33768,34,0,11,7,17,1
+2024-05-17,87,RE,--,False,False,46,--,Death,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5578650,975,10956150,0.7,0.08,0.22,30618,34,0,11,39,11,2
+2024-05-17,88,RE,--,False,False,46,--,Danny,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5486250,959,10775430,0.7,0.08,0.22,30114,34,0,11,18,10,1
+2024-05-17,89,RE,--,False,False,46,--,Clark,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5809650,1016,11407950,0.7,0.08,0.22,31878,34,0,11,40,10,1
+2024-05-17,90,RE,--,False,False,46,--,Chris,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5197500,909,10210680,0.7,0.08,0.22,28539,34,0,11,41,10,1
+2024-05-17,91,RE,--,False,False,46,--,Cat,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,6271650,1096,12311550,0.7,0.08,0.22,34398,34,0,11,8,16,1
+2024-05-17,92,RE,--,False,False,46,--,Beginning,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5717250,999,11227230,0.7,0.08,0.22,31374,34,0,11,19,10,1
+2024-05-17,93,-36,57,False,False,46,-0.1,Murder City,Green Day,21st Century Breakdown,2,2,1,10,6,2,2985675,522,11724210,0.58,0.06,0.36,18200,18,15,11,48,10,1
+2024-05-17,94,-53,41,False,False,46,-0.49,Magsayawan,VST & Company,Sce: awitin mo at isasayaw ko,2,2,1,10,6,2,2789325,487,10956150,0.58,0.06,0.36,17010,18,27,0,41,2,1
+2024-05-17,95,-40,55,False,False,46,-0.13,Last of the American Girls,Green Day,21st Century Breakdown,2,2,1,10,6,2,3164700,553,10165500,0.58,0.06,0.36,15785,18,15,12,25,17,1
+2024-05-17,96,-40,56,False,False,46,-0.13,Last Night on Earth,Green Day,21st Century Breakdown,2,2,1,10,6,2,2979900,521,11701620,0.58,0.06,0.36,18165,18,15,11,28,13,1
 2024-05-17,97,RE,--,False,False,44,--,Oxygène,C418,Minecraft - Volume Alpha,4,4,1,20,12,2,5347650,935,10504350,0.7,0.08,0.22,29358,34,0,10,30,10,1
-2024-05-17,98,=,98,True,True,43,0.3,Sabay Sabay Tayo,Marian Rivera,Marian Rivera Retro Crazy,4,3,2,20,9,4,5971350,783,23448420,0.59,0.05,0.37,32760,33,10,0,98,2,2
-2024-05-17,99,-20,79,False,False,42,0.02,Wake Me Up When September Ends,Green Day,American Idiot,2,2,1,10,6,2,3112725,544,12221190,0.58,0.06,0.36,18970,18,13,11,1,23,2
+2024-05-17,98,=,98,False,True,43,0.3,Sabay Sabay Tayo,Marian Rivera,Marian Rivera Retro Crazy,4,3,2,20,9,4,5971350,783,23448420,0.59,0.05,0.37,32760,33,9,0,98,2,2
+2024-05-17,99,-20,79,False,False,42,0.02,Wake Me Up When September Ends,Green Day,American Idiot,2,2,1,10,6,2,3112725,544,12221190,0.58,0.06,0.36,18970,18,12,10,1,23,2
 2024-05-17,100,-41,59,False,False,41,-0.18,Hataw Na,Gary Valenciano,Hataw Na,3,3,1,15,9,2,4235962,740,11091690,0.65,0.07,0.27,24108,26,15,0,59,2,1

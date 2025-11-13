@@ -1,16 +1,16 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2021-04-30,1,RE,--,True,False,28,--,CLOSER,OH MY GIRL,Closer,3,3,2,15,9,4,4002074,700,20963520,0.51,0.06,0.43,26040,28,0,0,1,2,1
-2021-04-30,2,RE,--,True,False,21,--,Breathe (Taylor’s Version),Taylor Swift Colbie Caillat,Fearless (Taylor's Version),2,1,2,10,3,4,2939475,257,23086980,0.43,0.02,0.54,17920,17,0,4,2,3,1
-2021-04-30,3,-1,2,False,False,21,-0.05,We Were Happy (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1411987,246,11091690,0.42,0.05,0.53,10332,10,7,4,2,4,1
-2021-04-30,4,-1,3,False,False,20,0.05,Don’t You (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1423537,248,11182050,0.42,0.05,0.53,10416,10,6,4,3,4,1
-2021-04-30,5,+2,7,True,True,19,0.19,Womanizer,Britney Spears,Circus (Deluxe Version),1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,5,4,5,10,2
+2021-04-30,1,RE,--,True,False,26,--,CLOSER,OH MY GIRL,CLOSER,3,3,1,15,9,2,4348575,760,11385360,0.65,0.07,0.27,24745,26,0,0,1,2,1
+2021-04-30,2,RE,--,True,False,21,--,Breathe (Taylor’s Version),Taylor Swift Colbie Caillat,Fearless (Taylor's Version),2,1,2,10,3,4,2939475,257,23086980,0.43,0.02,0.54,17920,17,0,3,2,3,1
+2021-04-30,3,-1,2,False,False,21,-0.05,We Were Happy (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1411987,246,11091690,0.42,0.05,0.53,10332,10,6,3,2,4,1
+2021-04-30,4,-1,3,False,False,20,0.05,Don’t You (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1423537,248,11182050,0.42,0.05,0.53,10416,10,5,3,3,4,1
+2021-04-30,5,2,7,False,False,19,0.19,Womanizer,Britney Spears,Circus,1,1,1,5,3,2,1432200,250,11249820,0.42,0.05,0.53,10479,10,4,3,4,10,1
 2021-04-30,6,RE,--,True,False,18,--,Touchdown,TWICE (트와이스),Page Two - EP,2,2,1,10,6,2,2708475,473,10639890,0.58,0.06,0.36,16520,18,0,0,6,2,1
 2021-04-30,7,RE,--,True,False,17,--,Fake & True,TWICE,&TWICE,2,1,2,10,3,4,2939475,257,23086980,0.43,0.02,0.54,17920,17,0,0,7,2,1
-2021-04-30,8,+16,24,False,False,16,0.23,Unconditionally,Katy Perry,PRISM (Deluxe),1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,4,2,2,6,1
-2021-04-30,9,RE,--,False,False,16,--,Love Story (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1478400,258,11611260,0.42,0.05,0.53,10815,10,0,6,1,5,2
-2021-04-30,10,-5,5,False,False,16,-0.06,Fearless (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,6,0,1,3,1
-2021-04-30,11,+3,14,True,False,15,0.07,Mr. Perfectly Fine (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1510162,264,11859750,0.42,0.05,0.53,11046,10,5,0,11,3,1
-2021-04-30,12,RE,--,False,False,14,--,Dress,Taylor Swift,Reputation,1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,0,4,2,5,1
+2021-04-30,8,16,24,False,False,16,0.23,Unconditionally,Katy Perry,PRISM (Deluxe),1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,3,2,2,6,1
+2021-04-30,9,RE,--,False,False,16,--,Love Story (Taylor’s Version),Taylor Swift,Love Story (Taylor’s Version),1,1,1,5,3,2,1553475,271,12198600,0.42,0.05,0.53,11361,10,0,5,1,5,2
+2021-04-30,10,-5,5,False,False,16,-0.06,Fearless (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,5,0,1,3,1
+2021-04-30,11,3,14,True,False,15,0.07,Mr. Perfectly Fine (Taylor’s Version) (From the Vault),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1510162,264,11859750,0.42,0.05,0.53,11046,10,4,0,11,3,1
+2021-04-30,12,RE,--,True,False,14,--,Dress,Taylor Swift,Reputation,1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,0,3,12,5,1
 2021-04-30,13,RE,--,False,False,12,--,The Moment I Knew,Taylor Swift,Red (Deluxe Version),1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,0,2,8,4,1
 2021-04-30,14,RE,--,True,False,10,--,해장국 Hero's Soup,Stray Kids,I am YOU,1,1,1,5,3,2,1478400,258,11611260,0.42,0.05,0.53,10815,10,0,0,14,3,1
 2021-04-30,15,NEW,--,True,False,10,--,시간을 달려서 (Rough),여자친구 (GFriend),여자친구 3rd Mini Album 'SNOWFLAKE',1,1,1,5,3,2,1466850,256,11520900,0.42,0.05,0.53,10731,10,0,0,15,1,1
@@ -21,13 +21,13 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-04-30,20,NEW,--,True,False,10,--,WANT IT?,ITZY (있지),IT`z Different,1,1,1,5,3,2,1345575,235,10572120,0.42,0.05,0.53,9849,10,0,0,20,1,1
 2021-04-30,21,RE,--,False,False,10,--,UP NO MORE,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,1475512,258,11588670,0.42,0.05,0.53,10794,10,0,0,10,3,1
 2021-04-30,22,RE,--,True,False,10,--,Uncover,이달의 소녀 오드아이써클 (LOONA/ODD EYE CIRCLE),Max & Match,1,1,1,5,3,2,1515937,265,11904930,0.42,0.05,0.53,11088,10,0,0,22,2,1
-2021-04-30,23,RE,--,True,False,10,--,TURN IT UP,TWICE (트와이스),Fancy You - EP,1,1,1,5,3,2,1308037,228,10278450,0.42,0.05,0.53,9576,10,0,0,23,2,1
+2021-04-30,23,RE,--,True,False,10,--,TURN IT UP,TWICE (트와이스),FANCY YOU,1,1,1,5,3,2,1414875,247,11114280,0.42,0.05,0.53,10353,10,0,0,23,2,1
 2021-04-30,24,RE,--,False,False,10,--,TRICK IT,TWICE,Feel Special,1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,0,0,12,6,1
 2021-04-30,25,RE,--,False,False,10,--,Touch It,Ariana Grande,Dangerous Woman (Deluxe),1,1,1,5,3,2,1536150,268,12063060,0.42,0.05,0.53,11235,10,0,0,4,4,1
 2021-04-30,26,NEW,--,True,False,10,--,Sweeter Than Fiction,Taylor Swift,Sweeter Than Fiction (From One Chance) - Single,1,1,1,5,3,2,1487062,260,11679030,0.42,0.05,0.53,10878,10,0,0,26,1,1
-2021-04-30,27,RE,--,True,False,10,--,SWEET TALKER,TWICE (트와이스),What Is Love - EP,1,1,1,5,3,2,1374450,240,10798020,0.42,0.05,0.53,10059,10,0,0,27,2,1
+2021-04-30,27,RE,--,True,False,10,--,SWEET TALKER,TWICE (트와이스),What is Love?,1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,0,0,27,2,1
 2021-04-30,28,NEW,--,True,False,10,--,Sonatine,LOOΠΔ 1/3,Love & Evil,1,1,1,5,3,2,1455300,254,11430540,0.42,0.05,0.53,10647,10,0,0,28,1,1
-2021-04-30,29,RE,--,True,False,10,--,SAY YOU LOVE ME,TWICE (트와이스),YES or YES,1,1,1,5,3,2,1342687,234,10549530,0.42,0.05,0.53,9828,10,0,0,29,1,1
+2021-04-30,29,NEW,--,True,False,10,--,SAY YOU LOVE ME,TWICE (트와이스),YES or YES,1,1,1,5,3,2,1342687,234,10549530,0.42,0.05,0.53,9828,10,0,0,29,1,1
 2021-04-30,30,RE,--,False,False,10,--,Sad Beautiful Tragic,Taylor Swift,Red (Deluxe Version),1,1,1,5,3,2,1302262,227,10233270,0.42,0.05,0.53,9534,10,0,0,2,4,1
 2021-04-30,31,RE,--,True,False,10,--,Rosy (Go Won & Olivia Hye) [feat. HeeJin],LOOΠΔ,Olivia Hye - Single,1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,0,0,31,2,1
 2021-04-30,32,RE,--,False,False,10,--,RAINBOW,TWICE,Feel Special,1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,0,0,10,5,1
@@ -35,27 +35,27 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-04-30,34,RE,--,False,False,10,--,PIRI,Dreamcatcher,The End of Nightmare,1,1,1,5,3,2,1487062,260,11679030,0.42,0.05,0.53,10878,10,0,0,18,2,1
 2021-04-30,35,RE,--,True,False,10,--,Out of the Woods,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1518825,265,11927520,0.42,0.05,0.53,11109,10,0,0,35,2,1
 2021-04-30,36,NEW,--,True,False,10,--,O' My!,IZ*ONE,COLOR*IZ,1,1,1,5,3,2,1559250,272,12243780,0.42,0.05,0.53,11403,10,0,0,36,1,1
-2021-04-30,37,RE,--,True,False,10,--,NEXT PAGE,TWICE (트와이스),TWICEcoaster: LANE 1,1,1,1,5,3,2,1365787,238,10730250,0.42,0.05,0.53,9996,10,0,0,37,2,1
+2021-04-30,37,RE,--,True,False,10,--,NEXT PAGE,TWICE (트와이스),TWICEcoaster : LANE 1,1,1,1,5,3,2,1354237,236,10639890,0.42,0.05,0.53,9912,10,0,0,37,2,1
 2021-04-30,38,RE,--,True,False,10,--,My Sunday,LOOΠΔ,YeoJin - Single,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,0,0,38,2,1
 2021-04-30,39,RE,--,True,False,10,--,My Melody,LOOΠΔ,YeoJin - Single,1,1,1,5,3,2,1403325,245,11023920,0.42,0.05,0.53,10269,10,0,0,39,2,1
 2021-04-30,40,RE,--,False,False,10,--,Mrs. Potato Head,Melanie Martinez,Cry Baby (Deluxe Edition),1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,0,0,4,3,1
 2021-04-30,41,RE,--,True,False,10,--,Moonlight,Ariana Grande,Dangerous Woman (Deluxe),1,1,1,5,3,2,1553475,271,12198600,0.42,0.05,0.53,11361,10,0,0,41,2,1
 2021-04-30,42,RE,--,False,False,10,--,Mine,Taylor Swift,Speak Now (Deluxe Edition),1,1,1,5,3,2,1388887,242,10910970,0.42,0.05,0.53,10164,10,0,0,34,3,1
 2021-04-30,43,RE,--,False,False,10,--,MAKE ME GO,TWICE,MORE & MORE,1,1,1,5,3,2,1576575,275,12379320,0.42,0.05,0.53,11529,10,0,0,5,5,1
-2021-04-30,44,RE,--,False,False,10,--,LOVE BOMB,프로미스나인 (fromis_9),From.9 - Single,1,1,1,5,3,2,1437975,251,11295000,0.42,0.05,0.53,10521,10,0,0,27,3,1
-2021-04-30,45,RE,--,False,False,10,--,LIAR LIAR,오마이걸 (OH MY GIRL),Pink Ocean - EP,1,1,1,5,3,2,1492837,261,11724210,0.42,0.05,0.53,10920,10,0,0,22,3,1
+2021-04-30,44,RE,--,False,False,10,--,LOVE BOMB,프로미스나인 (fromis_9),From.9,1,1,1,5,3,2,1524600,266,11972700,0.42,0.05,0.53,11151,10,0,0,27,3,1
+2021-04-30,45,RE,--,False,False,10,--,LIAR LIAR,오마이걸 (OH MY GIRL),PINK OCEAN,1,1,1,5,3,2,1348462,235,10594710,0.42,0.05,0.53,9870,10,0,0,22,3,1
 2021-04-30,46,NEW,--,True,False,10,--,LIAR LIAR,OH MY GIRL,PINK OCEAN,1,1,1,5,3,2,1302262,227,10233270,0.42,0.05,0.53,9534,10,0,0,46,1,1
-2021-04-30,47,RE,--,True,False,10,--,JELLY JELLY,TWICE (트와이스),TWICEcoaster: LANE 1,1,1,1,5,3,2,1388887,242,10910970,0.42,0.05,0.53,10164,10,0,0,47,1,1
-2021-04-30,48,RE,--,True,False,10,--,I’ll be There,LOOΠΔ,HyunJin - Single,1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,0,0,48,1,1
+2021-04-30,47,NEW,--,True,False,10,--,JELLY JELLY,TWICE (트와이스),TWICEcoaster : LANE 1,1,1,1,5,3,2,1562137,273,12266370,0.42,0.05,0.53,11424,10,0,0,47,1,1
+2021-04-30,48,NEW,--,True,False,10,--,I’ll be There,LOOΠΔ,HyunJin - Single,1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,0,0,48,1,1
 2021-04-30,49,NEW,--,True,False,10,--,It Ain't Me (with Selena Gomez),Kygo,It Ain't Me (with Selena Gomez),1,1,1,5,3,2,1498612,262,11769390,0.42,0.05,0.53,10962,10,0,0,49,1,1
-2021-04-30,50,RE,--,False,False,10,--,Into You,Ariana Grande,Dangerous Woman,1,1,1,5,3,2,1547700,270,12153420,0.42,0.05,0.53,11319,10,0,0,5,7,1
+2021-04-30,50,RE,--,False,False,10,--,Into You,Ariana Grande,Dangerous Woman (Deluxe),1,1,1,5,3,2,1501500,262,11791980,0.42,0.05,0.53,10983,10,0,0,5,7,1
 2021-04-30,51,RE,--,False,False,10,--,Home,Seventeen,SEVENTEEN 6TH MINI ALBUM 'YOU MADE MY DAWN',1,1,1,5,3,2,1409100,246,11069100,0.42,0.05,0.53,10311,10,0,0,41,3,1
 2021-04-30,52,RE,--,False,False,10,--,HELL IN HEAVEN,TWICE (트와이스),Eyes wide open,1,1,1,5,3,2,1455300,254,11430540,0.42,0.05,0.53,10647,10,0,0,7,4,1
 2021-04-30,53,NEW,--,True,False,10,--,Heart Attack (츄),Loona,Chuu,1,1,1,5,3,2,1521712,266,11950110,0.42,0.05,0.53,11130,10,0,0,53,1,1
 2021-04-30,54,RE,--,False,False,10,--,Happy,WJSN,Happy Moment,1,1,1,5,3,2,1463962,256,11498310,0.42,0.05,0.53,10710,10,0,0,1,7,1
-2021-04-30,55,RE,--,True,False,10,--,Guiltless,dodie,Guiltless,1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,0,0,55,1,1
-2021-04-30,56,RE,--,True,False,10,--,FUN!,프로미스나인 (fromis_9),FUN FACTORY - Single,1,1,1,5,3,2,1403325,245,11023920,0.42,0.05,0.53,10269,10,0,0,56,2,1
-2021-04-30,57,NEW,--,True,False,10,--,Forever Young,BLACKPINK,SQUARE UP - EP,1,1,1,5,3,2,1365787,238,10730250,0.42,0.05,0.53,9996,10,0,0,57,1,1
+2021-04-30,55,NEW,--,True,False,10,--,Guiltless,dodie,Guiltless - Single,1,1,1,5,3,2,1331137,232,10459170,0.42,0.05,0.53,9744,10,0,0,55,1,1
+2021-04-30,56,RE,--,True,False,10,--,FUN!,프로미스나인 (fromis_9),FUN FACTORY,1,1,1,5,3,2,1489950,260,11701620,0.42,0.05,0.53,10899,10,0,0,56,2,1
+2021-04-30,57,NEW,--,True,False,10,--,Forever Young,BLACKPINK,SQUARE UP,1,1,1,5,3,2,1299375,227,10210680,0.42,0.05,0.53,9513,10,0,0,57,1,1
 2021-04-30,58,RE,--,False,False,10,--,FINGERTIP,GFRIEND,The Awakening - EP,1,1,1,5,3,2,1544812,270,12130830,0.42,0.05,0.53,11298,10,0,0,2,6,1
 2021-04-30,59,RE,--,True,False,10,--,favOriTe,Loona,FavOriTe,1,1,1,5,3,2,1585237,226,10188090,0.42,0.05,0.53,9492,10,0,0,59,2,1
 2021-04-30,60,RE,--,True,False,10,--,Egoist (Olivia Hye),Loona,Olivia Hye,1,1,1,5,3,2,1582350,276,10165500,0.42,0.05,0.53,9471,10,0,0,60,2,1
@@ -64,15 +64,15 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-04-30,63,RE,--,False,False,10,--,Don't Wanna Cry,Seventeen,SEVENTEEN 4th Mini Album ‘Al1’,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,0,0,23,2,1
 2021-04-30,64,NEW,--,True,False,10,--,DEJAVU,TWICE,Summer Nights,1,1,1,5,3,2,1576575,275,12379320,0.42,0.05,0.53,11529,10,0,0,64,1,1
 2021-04-30,65,RE,--,False,False,10,--,Dangerous Woman,Ariana Grande,Dangerous Woman (Deluxe),1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,0,0,49,2,1
-2021-04-30,66,RE,--,True,False,10,--,Dance The Night Away,TWICE (트와이스),Summer Nights,1,1,1,5,3,2,1472625,257,11566080,0.42,0.05,0.53,10773,10,0,0,66,1,1
-2021-04-30,67,RE,--,True,False,10,--,CUPID,오마이걸(OH MY GIRL),Oh My Girl - EP,1,1,1,5,3,2,1469737,257,11543490,0.42,0.05,0.53,10752,10,0,0,67,1,1
-2021-04-30,68,RE,--,False,False,10,--,CRY FOR ME,TWICE,CRY FOR ME - Single,1,1,1,5,3,2,1305150,228,10255860,0.42,0.05,0.53,9555,10,0,0,14,3,1
+2021-04-30,66,NEW,--,True,False,10,--,Dance The Night Away,TWICE (트와이스),Summer Nights,1,1,1,5,3,2,1472625,257,11566080,0.42,0.05,0.53,10773,10,0,0,66,1,1
+2021-04-30,67,NEW,--,True,False,10,--,CUPID,오마이걸(OH MY GIRL),OH MY GIRL,1,1,1,5,3,2,1498612,262,11769390,0.42,0.05,0.53,10962,10,0,0,67,1,1
+2021-04-30,68,RE,--,False,False,10,--,CRY FOR ME,TWICE,Twice,1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,0,0,14,3,1
 2021-04-30,69,RE,--,False,False,10,--,Counting Stars,OneRepublic,Native,1,1,1,5,3,2,1498612,262,11769390,0.42,0.05,0.53,10962,10,0,0,26,3,1
-2021-04-30,70,RE,--,True,False,10,--,Clean,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1461075,255,11475720,0.42,0.05,0.53,10689,10,0,0,70,1,1
+2021-04-30,70,NEW,--,True,False,10,--,Clean,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1461075,255,11475720,0.42,0.05,0.53,10689,10,0,0,70,1,1
 2021-04-30,71,RE,--,False,False,10,--,Call It What You Want,Taylor Swift,Reputation,1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,0,0,10,6,1
 2021-04-30,72,RE,--,False,False,10,--,Butterfly,Loona,[X X],1,1,1,5,3,2,1383112,241,10865790,0.42,0.05,0.53,10122,10,0,0,46,3,1
 2021-04-30,73,NEW,--,True,False,10,--,Be Alright,Ariana Grande,Dangerous Woman (Deluxe),1,1,1,5,3,2,1365787,238,10730250,0.42,0.05,0.53,9996,10,0,0,73,1,1
 2021-04-30,74,NEW,--,True,False,10,--,Automatic,Red Velvet (레드벨벳),The 1st Mini Album ‘Ice Cream Cake’ - EP,1,1,1,5,3,2,1573687,275,12356730,0.42,0.05,0.53,11508,10,0,0,74,1,1
-2021-04-30,75,RE,--,False,False,10,--,Answer,ATEEZ,TREASURE EPILOGUE : Action To Answer,1,1,1,5,3,2,1322475,231,10391400,0.42,0.05,0.53,9681,10,0,0,5,5,1
-2021-04-30,76,RE,--,True,False,10,--,Adios,Everglow,HUSH,1,1,1,5,3,2,1553475,271,12198600,0.42,0.05,0.53,11361,10,0,0,76,1,1
+2021-04-30,75,RE,--,False,False,10,--,Answer,ATEEZ,TREASURE EPILOGUE : Action To Answer - EP,1,1,1,5,3,2,1302262,227,10233270,0.42,0.05,0.53,9534,10,0,0,5,5,1
+2021-04-30,76,NEW,--,True,False,10,--,Adios,Everglow,HUSH,1,1,1,5,3,2,1553475,271,12198600,0.42,0.05,0.53,11361,10,0,0,76,1,1
 2021-04-30,77,RE,--,True,False,10,--,24/7,TWICE (트와이스),twicetagram,1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,0,0,77,2,1

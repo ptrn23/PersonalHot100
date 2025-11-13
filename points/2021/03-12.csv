@@ -1,10 +1,10 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2021-03-12,1,RE,--,True,False,18,--,august,Taylor Swift,folklore,2,2,1,10,6,2,2951025,516,11588670,0.58,0.06,0.36,17990,18,0,0,1,6,1
-2021-03-12,2,+5,7,True,False,16,0.23,Green Light,Lorde,Melodrama,1,1,1,5,3,2,1565025,273,12288960,0.42,0.05,0.53,11445,10,4,2,2,4,1
-2021-03-12,3,+6,9,True,False,16,0.23,BOYSHIT,Madison Beer,Boyshit,1,1,1,5,3,2,1495725,261,11746800,0.42,0.05,0.53,10941,10,4,2,3,3,1
-2021-03-12,4,+32,36,True,False,13,0.3,Selfish Love (with Selena Gomez),DJ Snake,Revelación - EP,1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,3,0,4,2,1
-2021-03-12,5,+63,68,True,False,13,0.3,De Una Vez,Selena Gomez,Revelación - EP,1,1,1,5,3,2,1400437,244,11001330,0.42,0.05,0.53,10248,10,3,0,5,6,1
-2021-03-12,6,+73,79,True,False,13,0.3,Baila Conmigo (with Rauw Alejandro),Selena Gomez,Revelación - EP,1,1,1,5,3,2,1455300,254,11430540,0.42,0.05,0.53,10647,10,3,0,6,4,1
+2021-03-12,2,5,7,True,False,16,0.23,Green Light,Lorde,Songs About Colours,1,1,1,5,3,2,1559250,272,12243780,0.42,0.05,0.53,11403,10,3,2,2,4,1
+2021-03-12,3,6,9,True,False,16,0.23,BOYSHIT,Madison Beer,Life Support,1,1,1,5,3,2,1406212,245,11046510,0.42,0.05,0.53,10290,10,3,2,3,3,1
+2021-03-12,4,32,36,True,False,13,0.3,Selfish Love (with Selena Gomez),DJ Snake,Selfish Love (with Selena Gomez),1,1,1,5,3,2,1487062,260,11679030,0.42,0.05,0.53,10878,10,3,0,4,2,1
+2021-03-12,5,63,68,True,False,13,0.3,De Una Vez,Selena Gomez,De Una Vez,1,1,1,5,3,2,1409100,246,11069100,0.42,0.05,0.53,10311,10,3,0,5,6,1
+2021-03-12,6,73,79,True,False,13,0.3,Baila Conmigo (with Rauw Alejandro),Selena Gomez,Baila Conmigo (with Rauw Alejandro),1,1,1,5,3,2,1547700,270,12153420,0.42,0.05,0.53,11319,10,3,0,6,4,1
 2021-03-12,7,RE,--,False,False,12,--,the last great american dynasty,Taylor Swift,folklore,1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,0,2,1,7,1
 2021-03-12,8,RE,--,False,False,12,--,the 1,Taylor Swift,folklore,1,1,1,5,3,2,1530375,267,12017880,0.42,0.05,0.53,11193,10,0,2,5,6,1
 2021-03-12,9,RE,--,False,False,12,--,mirrorball,Taylor Swift,folklore,1,1,1,5,3,2,1472625,257,11566080,0.42,0.05,0.53,10773,10,0,2,5,5,1
@@ -54,7 +54,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-03-12,53,RE,--,False,False,10,--,invisible string,Taylor Swift,folklore,1,1,1,5,3,2,1565025,273,12288960,0.42,0.05,0.53,11445,10,0,0,14,5,2
 2021-03-12,54,NEW,--,True,False,10,--,HWAA,(G)I-DLE,I burn,1,1,1,5,3,2,1498612,262,11769390,0.42,0.05,0.53,10962,10,0,0,54,1,1
 2021-03-12,55,RE,--,False,False,10,--,hoax,Taylor Swift,folklore,1,1,1,5,3,2,1515937,265,11904930,0.42,0.05,0.53,11088,10,0,0,5,4,1
-2021-03-12,56,RE,--,False,False,10,--,happiness,Taylor Swift,evermore (deluxe version),1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,0,0,2,8,1
+2021-03-12,56,RE,--,False,False,10,--,happiness,Taylor Swift,evermore,1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,0,0,2,8,1
 2021-03-12,57,NEW,--,True,False,10,--,Haggstrom,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1360012,237,10685070,0.42,0.05,0.53,9954,10,0,0,57,1,1
 2021-03-12,58,NEW,--,True,False,10,--,Gone,ROSÉ,R,1,1,1,5,3,2,1345575,235,10572120,0.42,0.05,0.53,9849,10,0,0,58,1,1
 2021-03-12,59,NEW,--,True,False,10,--,Fire Drill,Melanie Martinez,Fire Drill,1,1,1,5,3,2,1463962,256,11498310,0.42,0.05,0.53,10710,10,0,0,59,1,1
@@ -73,14 +73,14 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-03-12,72,NEW,--,True,False,10,--,Death,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1394662,243,10956150,0.42,0.05,0.53,10206,10,0,0,72,1,1
 2021-03-12,73,NEW,--,True,False,10,--,Dead Voxel,C418,Minecraft - Volume Beta,1,1,1,5,3,2,1498612,262,11769390,0.42,0.05,0.53,10962,10,0,0,73,1,1
 2021-03-12,74,NEW,--,True,False,10,--,Danny,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1371562,239,10775430,0.42,0.05,0.53,10038,10,0,0,74,1,1
-2021-03-12,75,RE,--,False,False,10,--,coney island,Taylor Swift The National,evermore (deluxe version),1,1,1,5,3,2,1518825,265,11927520,0.42,0.05,0.53,11109,10,0,0,1,8,1
+2021-03-12,75,RE,--,False,False,10,--,coney island,Taylor Swift The National,evermore,1,1,1,5,3,2,1308037,228,10278450,0.42,0.05,0.53,9576,10,0,0,1,8,1
 2021-03-12,76,NEW,--,True,False,10,--,Concrete Halls,C418,Minecraft - Volume Beta,1,1,1,5,3,2,1547700,270,12153420,0.42,0.05,0.53,11319,10,0,0,76,1,1
 2021-03-12,77,NEW,--,True,False,10,--,Clark,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,0,0,77,1,1
 2021-03-12,78,NEW,--,True,False,10,--,Chrysopoeia,Lena Raine,Minecraft: Nether Update (Original Game Soundtrack),1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,0,0,78,1,1
 2021-03-12,79,NEW,--,True,False,10,--,Chris,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1299375,227,10210680,0.42,0.05,0.53,9513,10,0,0,79,1,1
 2021-03-12,80,RE,--,False,False,10,--,Chirp,C418,Minecraft - Volume Beta,1,1,1,5,3,2,1536150,268,12063060,0.42,0.05,0.53,11235,10,0,0,48,3,1
 2021-03-12,81,RE,--,False,False,10,--,Cat,C418,Minecraft - Volume Alpha,1,1,1,5,3,2,1567912,274,12311550,0.42,0.05,0.53,11466,10,0,0,60,2,1
-2021-03-12,82,RE,--,False,False,10,--,cardigan,Taylor Swift,folklore,1,1,1,5,3,2,1365787,238,10730250,0.42,0.05,0.53,9996,10,0,0,6,4,2
+2021-03-12,82,RE,--,False,False,10,--,cardigan,Taylor Swift,folklore,1,1,1,5,3,2,1365787,238,10730250,0.42,0.05,0.53,9996,10,0,0,6,4,1
 2021-03-12,83,NEW,--,True,False,10,--,Buscando Amor,Selena Gomez,Revelación - EP,1,1,1,5,3,2,1383112,241,10865790,0.42,0.05,0.53,10122,10,0,0,83,1,1
 2021-03-12,84,NEW,--,True,False,10,--,Blocks,C418,Minecraft - Volume Beta,1,1,1,5,3,2,1466850,256,11520900,0.42,0.05,0.53,10731,10,0,0,84,1,1
 2021-03-12,85,RE,--,False,False,10,--,betty,Taylor Swift,folklore,1,1,1,5,3,2,1579462,276,12401910,0.42,0.05,0.53,9450,10,0,0,20,4,1

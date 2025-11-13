@@ -1,101 +1,101 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2025-01-10,1,+2,3,True,False,295,-0.22,How You Get the Girl (Taylor's Version),Taylor Swift,1989 (Taylor's Version),19,19,1,95,57,2,28473637,4979,11769390,0.85,0.1,0.06,142506,154,114,27,1,15,1
-2025-01-10,2,+3,5,True,False,262,-0.18,All You Had to Do Was Stay (Taylor's Version),Taylor Swift,1989 (Taylor's Version),17,17,1,85,51,2,23905612,4181,11046510,0.84,0.09,0.06,120050,138,96,28,2,14,1
-2025-01-10,3,-1,2,False,False,261,-0.33,Read your Mind,Sabrina Carpenter,emails i can’t send fwd:,16,16,1,80,48,2,24763200,4330,12153420,0.84,0.09,0.07,124509,130,117,14,2,6,1
-2025-01-10,4,-3,1,False,False,253,-0.43,Fresh Out the Slammer,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,9,9,1,45,27,2,14085225,2463,12288960,0.8,0.09,0.11,72485,74,133,46,1,26,1
+2025-01-10,1,2,3,True,False,295,-0.22,How You Get the Girl (Taylor's Version),Taylor Swift,1989 (Taylor's Version),19,19,1,95,57,2,28473637,4979,11769390,0.85,0.1,0.06,142506,154,113,26,1,15,1
+2025-01-10,2,3,5,True,False,262,-0.18,All You Had to Do Was Stay (Taylor's Version),Taylor Swift,1989 (Taylor's Version),17,17,1,85,51,2,23905612,4181,11046510,0.84,0.09,0.06,120050,138,96,27,2,14,1
+2025-01-10,3,-1,2,False,False,261,-0.33,Read your Mind,Sabrina Carpenter,emails i can't send,16,16,1,80,48,2,24717000,4322,12130830,0.84,0.09,0.07,124278,130,117,13,2,6,1
+2025-01-10,4,-3,1,False,False,252,-0.43,Fresh Out the Slammer,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,9,9,1,45,27,2,14085225,2463,12288960,0.8,0.09,0.11,72485,74,132,44,1,26,1
 2025-01-10,5,NEW,--,True,False,234,--,Breathless,The Corrs,In Blue,29,29,1,145,87,2,38100562,6664,10323630,0.87,0.1,0.04,189154,234,0,0,5,1,1
-2025-01-10,6,+4,10,False,False,234,0.56,ไหล่เธอ (You’ve Got Ma Back) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Fourth,ไหล่เธอ (You’ve Got Ma Back) - Single,17,17,1,85,51,2,24003787,4198,11091690,0.84,0.09,0.06,120540,138,45,51,1,7,1
-2025-01-10,7,-3,4,False,False,231,-0.36,Fast Times,Sabrina Carpenter,emails i can’t send fwd:,15,15,1,75,45,2,20356875,3560,10662480,0.84,0.09,0.07,102641,122,109,0,4,5,1
-2025-01-10,8,+20,28,False,False,207,1.41,ง้อว (Smile Please) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Fourth,ง้อว (Smile Please) - Single,19,17,3,95,51,6,29900062,4678,37070190,0.77,0.08,0.15,149604,152,26,29,6,8,2
-2025-01-10,9,-1,8,False,False,207,-0.09,New Romantics (Taylor's Version),Taylor Swift,1989 (Taylor's Version),17,17,1,85,51,2,25623675,4481,11837160,0.84,0.09,0.06,128625,138,69,0,7,14,1
-2025-01-10,10,+1,11,False,False,189,0.35,The Rock Show,blink-182,Take Off Your Pants and Jacket,14,14,1,70,42,2,19767825,3457,11091690,0.83,0.09,0.07,99876,114,42,33,1,11,3
-2025-01-10,11,-2,9,False,False,153,-0.21,My Boy Only Breaks His Favorite Toys,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,9,9,1,45,27,2,13773375,2408,12017880,0.8,0.09,0.11,70889,74,58,21,2,35,1
-2025-01-10,12,-6,6,False,False,149,-0.46,supernatural,Ariana Grande,eternal sunshine,8,8,1,40,24,2,12497100,2185,12266370,0.79,0.09,0.12,64736,66,83,0,6,6,1
-2025-01-10,13,-6,7,False,False,149,-0.46,don't wanna break up again,Ariana Grande,eternal sunshine,8,8,1,40,24,2,11781000,2060,11566080,0.79,0.09,0.12,61047,66,83,0,7,4,1
-2025-01-10,14,-1,13,False,False,147,0.18,Extraordinary Girl,Green Day,American Idiot (20th Anniversary Deluxe Edition),10,10,2,50,30,4,14639625,2560,22996620,0.73,0.08,0.18,78540,84,38,25,1,12,2
-2025-01-10,15,-3,12,False,False,146,0.17,That's My Floor,Magdalena Bay,Imaginal Disk,11,11,1,55,33,2,16675312,2916,11904930,0.82,0.09,0.09,85008,90,38,18,12,4,1
-2025-01-10,16,+4,20,False,False,143,0.42,Every Time I Look For You,blink-182,Take Off Your Pants and Jacket,11,11,1,55,33,2,16008300,2799,11430540,0.82,0.09,0.09,81627,90,31,22,5,9,1
-2025-01-10,17,-2,15,False,False,137,0.15,Nice Guys Finish Last,Green Day,Nimrod,9,9,1,45,27,2,13669425,2390,11927520,0.8,0.09,0.11,70357,74,36,27,1,53,7
+2025-01-10,6,4,10,False,False,234,0.56,ไหล่เธอ (You’ve Got Ma Back) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Fourth,ไหล่เธอ (You’ve Got Ma Back) - Single,17,17,1,85,51,2,24003787,4198,11091690,0.84,0.09,0.06,120540,138,45,50,1,7,1
+2025-01-10,7,-3,4,False,False,231,-0.36,Fast Times,Sabrina Carpenter,emails i can't send,15,15,1,75,45,2,22739062,3976,11904930,0.84,0.09,0.07,114576,122,108,0,4,5,1
+2025-01-10,8,20,28,False,False,207,1.41,ง้อว (Smile Please) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Fourth,ง้อว (Smile Please) - Single,19,17,3,95,51,6,29900062,4678,37070190,0.77,0.08,0.15,149604,152,25,28,6,8,2
+2025-01-10,9,-1,8,False,False,207,-0.09,New Romantics (Taylor's Version),Taylor Swift,1989 (Taylor's Version),17,17,1,85,51,2,25623675,4481,11837160,0.84,0.09,0.06,128625,138,68,0,7,14,1
+2025-01-10,10,1,11,False,False,189,0.35,The Rock Show,blink-182,Take Off Your Pants and Jacket,14,14,1,70,42,2,19767825,3457,11091690,0.83,0.09,0.07,99876,114,42,33,1,11,3
+2025-01-10,11,-2,9,False,False,152,-0.2,My Boy Only Breaks His Favorite Toys,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,9,9,1,45,27,2,13773375,2408,12017880,0.8,0.09,0.11,70889,74,57,20,2,35,1
+2025-01-10,12,-6,6,False,False,149,-0.46,supernatural,Ariana Grande,eternal sunshine,8,8,1,40,24,2,12497100,2185,12266370,0.79,0.09,0.12,64736,66,82,0,6,6,1
+2025-01-10,13,-6,7,False,False,149,-0.46,don't wanna break up again,Ariana Grande,eternal sunshine,8,8,1,40,24,2,11781000,2060,11566080,0.79,0.09,0.12,61047,66,82,0,7,4,1
+2025-01-10,14,-2,12,False,False,146,0.17,That's My Floor,Magdalena Bay,Imaginal Disk,11,11,1,55,33,2,16675312,2916,11904930,0.82,0.09,0.09,85008,90,37,17,12,4,1
+2025-01-10,15,4,19,False,False,143,0.42,Every Time I Look For You,blink-182,Take Off Your Pants and Jacket,11,11,1,55,33,2,16008300,2799,11430540,0.82,0.09,0.09,81627,90,30,22,5,9,1
+2025-01-10,16,-3,13,False,False,143,0.17,Extraordinary Girl,Green Day,American Idiot,10,10,1,50,30,2,13860000,2424,10888380,0.81,0.09,0.1,71001,82,36,23,1,12,2
+2025-01-10,17,-2,15,False,False,137,0.15,Nice Guys Finish Last,Green Day,Nimrod,9,9,1,45,27,2,13669425,2390,11927520,0.8,0.09,0.11,70357,74,35,26,1,53,7
 2025-01-10,18,RE,--,False,False,130,--,Way Back Into Love,Hugh Grant,Music And Lyrics - Music From and Inspired By The Motion Picture (International Release),16,16,1,80,48,2,25040400,4378,12288960,0.84,0.09,0.07,125895,130,0,0,1,8,1
-2025-01-10,19,-3,16,False,False,130,0.14,Boulevard of Broken Dreams,Green Day,American Idiot (20th Anniversary Deluxe Edition),9,9,2,45,27,4,12370050,2163,21596040,0.72,0.08,0.2,67060,76,35,19,7,11,1
-2025-01-10,20,-1,19,False,False,125,0.23,Holiday,Green Day,American Idiot (20th Anniversary Deluxe Edition),9,9,2,45,27,4,12370050,2163,21596040,0.72,0.08,0.2,67060,76,31,18,5,12,1
-2025-01-10,21,-3,18,False,False,123,0.16,She's a Rebel,Green Day,American Idiot (20th Anniversary Deluxe Edition),9,9,2,45,27,4,12240112,2140,21370140,0.72,0.08,0.2,66360,76,32,15,7,11,1
-2025-01-10,22,+8,30,False,False,118,0.47,รักหน้าตาเหมือนเธอไหม (Love Love Love) (เพลงประกอบซีรีส์ Our Skyy แฟนผมเป็นประธานนักเรียน),Gemini,รักหน้าตาเหมือนเธอไหม (Love Love Love) - Single,9,9,1,45,27,2,13565475,2372,11837160,0.8,0.09,0.11,69825,74,24,20,18,7,1
-2025-01-10,23,+3,26,False,False,116,0.3,Sugar We're Goin Down,Fall Out Boy,From Under the Cork Tree,9,9,1,45,27,2,12448012,2177,10865790,0.8,0.09,0.11,64106,74,27,15,1,19,5
-2025-01-10,24,-1,23,False,False,111,0.17,After LIKE,IVE,After LIKE,6,6,1,30,18,2,8523900,1490,11159460,0.76,0.09,0.16,45045,50,29,32,1,57,5
-2025-01-10,25,+4,29,False,False,107,0.32,Breakaway,Kelly Clarkson,Breakaway,8,8,1,40,24,2,10556700,1846,10368810,0.79,0.09,0.12,54739,66,25,16,2,63,1
-2025-01-10,26,+11,37,False,False,106,0.71,Lips of an Angel,Hinder,Extreme Behavior,9,8,2,45,24,4,13201650,2052,23041800,0.73,0.07,0.2,67963,73,19,14,11,19,1
-2025-01-10,27,+4,31,False,False,102,0.36,Dance Dance,Fall Out Boy,From Under the Cork Tree,8,8,1,40,24,2,11064900,1935,10865790,0.79,0.09,0.12,57358,66,23,13,6,20,1
-2025-01-10,28,-14,14,False,False,101,-0.17,Juno,Sabrina Carpenter,Short n' Sweet,4,4,1,20,12,2,5463150,955,10730250,0.7,0.08,0.22,29988,34,37,30,5,8,1
-2025-01-10,29,-2,27,False,False,96,0.08,Easy,Stray Kids,GO LIVE,6,6,1,30,18,2,8818425,1542,11543490,0.76,0.09,0.16,46592,50,27,19,1,9,1
-2025-01-10,30,+16,46,False,False,95,0.79,Dead!,My Chemical Romance,The Black Parade,8,8,1,40,24,2,10810800,1891,10617300,0.79,0.09,0.12,56049,66,16,13,3,45,2
-2025-01-10,31,-10,21,False,False,90,-0.11,Guilty as Sin?,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,4,4,1,20,12,2,5370750,939,10549530,0.7,0.08,0.22,29484,34,31,25,3,33,2
-2025-01-10,32,+8,40,False,False,88,0.47,What's My Age Again?,blink-182,Enema of the State,7,7,1,35,21,2,10692412,1869,11995290,0.77,0.09,0.14,55860,58,18,12,1,24,2
-2025-01-10,33,+9,42,True,True,84,0.45,Stay Together for the Kids,blink-182,Take Off Your Pants and Jacket,6,6,1,30,18,2,9147600,1599,11972700,0.76,0.09,0.16,48321,50,18,16,33,5,2
-2025-01-10,34,+19,53,False,False,83,0.66,Tunnel Vision,Magdalena Bay,Imaginal Disk,6,6,1,30,18,2,8142750,1424,10662480,0.76,0.09,0.16,43043,50,15,18,26,4,1
-2025-01-10,35,+20,55,False,False,83,0.66,Image,Magdalena Bay,Imaginal Disk,6,6,1,30,18,2,9355500,1635,12243780,0.76,0.09,0.16,49413,50,15,18,27,4,1
-2025-01-10,36,+20,56,False,False,83,0.66,Death & Romance,Magdalena Bay,Imaginal Disk,6,6,1,30,18,2,8177400,1430,10707660,0.76,0.09,0.16,43225,50,15,18,28,4,1
-2025-01-10,37,-4,33,False,False,83,0.19,Reckless Abandon,blink-182,Take Off Your Pants and Jacket,5,5,1,25,15,2,7059937,1234,11091690,0.73,0.08,0.18,37884,42,21,20,4,9,1
+2025-01-10,19,-3,16,False,False,126,0.15,Boulevard of Broken Dreams,Green Day,American Idiot,9,9,1,45,27,2,13643437,2385,11904930,0.8,0.09,0.11,70224,74,33,18,6,11,1
+2025-01-10,20,1,21,False,False,121,0.22,Holiday,Green Day,American Idiot,9,9,1,45,27,2,11876287,2077,10368810,0.8,0.09,0.11,61179,74,29,16,5,12,1
+2025-01-10,21,-3,18,False,False,119,0.16,She's a Rebel,Green Day,American Idiot,9,9,1,45,27,2,12577950,2199,10978740,0.8,0.09,0.11,64771,74,30,14,7,11,1
+2025-01-10,22,8,30,False,False,118,0.47,รักหน้าตาเหมือนเธอไหม (Love Love Love) (เพลงประกอบซีรีส์ Our Skyy แฟนผมเป็นประธานนักเรียน),Gemini,รักหน้าตาเหมือนเธอไหม (Love Love Love) - Single,9,9,1,45,27,2,13565475,2372,11837160,0.8,0.09,0.11,69825,74,24,19,18,7,1
+2025-01-10,23,3,26,False,False,116,0.3,Sugar We're Goin Down,Fall Out Boy,From Under the Cork Tree,9,9,1,45,27,2,12448012,2177,10865790,0.8,0.09,0.11,64106,74,26,15,1,19,5
+2025-01-10,24,-1,23,False,False,111,0.17,After LIKE,IVE,After LIKE,6,6,1,30,18,2,8523900,1490,11159460,0.76,0.09,0.16,45045,50,28,31,1,57,5
+2025-01-10,25,4,29,False,False,107,0.32,Breakaway,Kelly Clarkson,Breakaway,8,8,1,40,24,2,10556700,1846,10368810,0.79,0.09,0.12,54739,66,24,15,2,63,1
+2025-01-10,26,11,37,False,False,106,0.71,Lips of an Angel,Hinder,Extreme Behavior,9,8,2,45,24,4,13201650,2052,23041800,0.73,0.07,0.2,67963,73,18,13,11,19,1
+2025-01-10,27,4,31,False,False,102,0.36,Dance Dance,Fall Out Boy,From Under the Cork Tree,8,8,1,40,24,2,11064900,1935,10865790,0.79,0.09,0.12,57358,66,22,13,6,20,1
+2025-01-10,28,-14,14,False,False,101,-0.17,Juno,Sabrina Carpenter,Short n' Sweet,4,4,1,20,12,2,5463150,955,10730250,0.7,0.08,0.22,29988,34,36,30,5,8,1
+2025-01-10,29,-2,27,False,False,96,0.08,Easy,Stray Kids,GO生 (GO LIVE),6,6,1,30,18,2,8662500,1515,11340180,0.76,0.09,0.16,45773,50,26,18,1,9,1
+2025-01-10,30,16,46,False,False,95,0.79,Dead!,My Chemical Romance,The Black Parade,8,8,1,40,24,2,10810800,1891,10617300,0.79,0.09,0.12,56049,66,15,12,3,45,2
+2025-01-10,31,-11,20,False,False,90,-0.11,Guilty as Sin?,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,4,4,1,20,12,2,5370750,939,10549530,0.7,0.08,0.22,29484,34,30,25,3,33,2
+2025-01-10,32,8,40,False,False,88,0.47,What's My Age Again?,blink-182,Enema of the State,7,7,1,35,21,2,10692412,1869,11995290,0.77,0.09,0.14,55860,58,18,11,1,24,2
+2025-01-10,33,9,42,True,False,84,0.45,Stay Together for the Kids,blink-182,Take Off Your Pants and Jacket,6,6,1,30,18,2,9147600,1599,11972700,0.76,0.09,0.16,48321,50,17,15,33,5,1
+2025-01-10,34,19,53,False,False,83,0.66,Tunnel Vision,Magdalena Bay,Imaginal Disk,6,6,1,30,18,2,8142750,1424,10662480,0.76,0.09,0.16,43043,50,15,17,24,4,1
+2025-01-10,35,20,55,False,False,83,0.66,Image,Magdalena Bay,Imaginal Disk,6,6,1,30,18,2,9355500,1635,12243780,0.76,0.09,0.16,49413,50,15,17,25,4,1
+2025-01-10,36,20,56,False,False,83,0.66,Death & Romance,Magdalena Bay,Imaginal Disk,6,6,1,30,18,2,8177400,1430,10707660,0.76,0.09,0.16,43225,50,15,17,26,4,1
+2025-01-10,37,-4,33,False,False,83,0.19,Reckless Abandon,blink-182,Take Off Your Pants and Jacket,5,5,1,25,15,2,7059937,1234,11091690,0.73,0.08,0.18,37884,42,21,19,4,9,1
 2025-01-10,38,NEW,--,True,False,82,--,Motivation,Sum 41,All Killer No Filler,10,10,1,50,30,2,13022625,2278,10233270,0.81,0.09,0.1,66738,82,0,0,38,1,1
 2025-01-10,39,NEW,--,True,False,82,--,Fat Lip,Sum 41,All Killer No Filler,10,10,1,50,30,2,13744500,2404,10798020,0.81,0.09,0.1,70413,82,0,0,39,1,1
-2025-01-10,40,-18,22,False,False,80,-0.16,Popular Song,Mika,Yours Truly,4,4,1,20,12,2,6109950,1068,11995290,0.7,0.08,0.22,33516,34,29,17,1,7,1
-2025-01-10,41,+6,47,True,False,78,0.53,Happy Holidays You Bastard,blink-182,Take Off Your Pants and Jacket,6,6,1,30,18,2,8662500,1515,11340180,0.76,0.09,0.16,45773,50,16,12,41,5,1
-2025-01-10,42,-6,36,False,False,75,0.17,Shut Up,blink-182,Take Off Your Pants and Jacket,5,5,1,25,15,2,7392000,1292,11611260,0.73,0.08,0.18,39655,42,20,13,35,6,1
-2025-01-10,43,+11,54,False,False,71,0.42,Story of a Lonely Guy,blink-182,Take Off Your Pants and Jacket,5,5,1,25,15,2,6771187,1184,10639890,0.73,0.08,0.18,36344,42,15,14,32,7,1
-2025-01-10,44,+15,59,False,False,70,0.46,Give Me One Good Reason,blink-182,Take Off Your Pants and Jacket,5,5,1,25,15,2,7478625,1307,11746800,0.73,0.08,0.18,40117,42,15,13,36,6,1
-2025-01-10,45,+15,60,False,False,68,0.55,Please Take Me Home,blink-182,Take Off Your Pants and Jacket,5,5,1,25,15,2,6713437,1174,10549530,0.73,0.08,0.18,36036,42,14,12,40,5,1
-2025-01-10,46,-3,43,False,False,66,0.16,Online Songs,blink-182,Take Off Your Pants and Jacket,4,4,1,20,12,2,6248550,1092,12266370,0.7,0.08,0.22,34272,34,18,14,33,6,1
-2025-01-10,47,-3,44,False,False,66,0.16,Anthem Part Two,blink-182,Take Off Your Pants and Jacket,4,4,1,20,12,2,5590200,977,10978740,0.7,0.08,0.22,30681,34,18,14,34,6,1
-2025-01-10,48,-23,25,False,False,65,-0.3,Look Ma No Brains!,Green Day,Saviors,2,2,1,10,6,2,2639175,461,10368810,0.58,0.06,0.36,16099,18,28,19,1,35,6
-2025-01-10,49,-1,48,False,False,62,0.22,First Date,blink-182,Take Off Your Pants and Jacket,4,4,1,20,12,2,5613300,981,11023920,0.7,0.08,0.22,30807,34,16,12,11,11,1
-2025-01-10,50,RE,--,False,False,59,--,Summer Paradise,Simple Plan,Summer Paradise,5,5,1,25,15,2,6684562,1169,10504350,0.73,0.08,0.18,35882,42,0,17,31,2,1
+2025-01-10,40,-18,22,False,False,80,-0.16,Popular Song,Mika,Yours Truly,4,4,1,20,12,2,6109950,1068,11995290,0.7,0.08,0.22,33516,34,28,16,1,7,1
+2025-01-10,41,6,47,True,False,78,0.53,Happy Holidays You Bastard,blink-182,Take Off Your Pants and Jacket,6,6,1,30,18,2,8662500,1515,11340180,0.76,0.09,0.16,45773,50,15,11,41,5,1
+2025-01-10,42,-6,36,False,False,75,0.17,Shut Up,blink-182,Take Off Your Pants and Jacket,5,5,1,25,15,2,7392000,1292,11611260,0.73,0.08,0.18,39655,42,19,12,36,6,2
+2025-01-10,43,11,54,False,False,71,0.42,Story of a Lonely Guy,blink-182,Take Off Your Pants and Jacket,5,5,1,25,15,2,6771187,1184,10639890,0.73,0.08,0.18,36344,42,15,14,32,7,1
+2025-01-10,44,15,59,False,False,70,0.46,Give Me One Good Reason,blink-182,Take Off Your Pants and Jacket,5,5,1,25,15,2,7478625,1307,11746800,0.73,0.08,0.18,40117,42,14,12,37,6,1
+2025-01-10,45,15,60,False,False,68,0.55,Please Take Me Home,blink-182,Take Off Your Pants and Jacket,5,5,1,25,15,2,6713437,1174,10549530,0.73,0.08,0.18,36036,42,13,11,41,5,1
+2025-01-10,46,-3,43,False,False,66,0.16,Online Songs,blink-182,Take Off Your Pants and Jacket,4,4,1,20,12,2,6248550,1092,12266370,0.7,0.08,0.22,34272,34,17,13,33,6,1
+2025-01-10,47,-3,44,False,False,66,0.16,Anthem Part Two,blink-182,Take Off Your Pants and Jacket,4,4,1,20,12,2,5590200,977,10978740,0.7,0.08,0.22,30681,34,17,13,34,6,1
+2025-01-10,48,-23,25,False,False,65,-0.3,Look Ma No Brains!,Green Day,Look Ma No Brains!,2,2,1,10,6,2,3153150,551,12379320,0.58,0.06,0.36,19215,18,27,19,1,35,6
+2025-01-10,49,-1,48,False,False,62,0.22,First Date,blink-182,Take Off Your Pants and Jacket,4,4,1,20,12,2,5613300,981,11023920,0.7,0.08,0.22,30807,34,15,11,11,11,1
+2025-01-10,50,RE,--,False,False,59,--,Summer Paradise,Simple Plan,Summer Paradise,5,5,1,25,15,2,6684562,1169,10504350,0.73,0.08,0.18,35882,42,0,16,32,2,1
 2025-01-10,51,RE,--,False,False,58,--,we can't be friends (wait for your love),Ariana Grande,eternal sunshine,7,7,1,35,21,2,9136050,1598,10255860,0.77,0.09,0.14,47775,58,0,0,36,5,1
 2025-01-10,52,RE,--,False,False,58,--,bye,Ariana Grande,eternal sunshine,7,7,1,35,21,2,11096662,1587,10188090,0.77,0.09,0.14,47460,58,0,0,45,3,1
-2025-01-10,53,-36,17,False,False,58,-0.45,The Alchemy,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,3,3,1,15,9,2,4010737,701,10504350,0.65,0.07,0.27,22834,26,32,0,17,7,1
-2025-01-10,54,-16,38,False,False,58,-0.05,Letterbomb,Green Day,American Idiot,3,3,1,15,9,2,4365900,763,11430540,0.65,0.07,0.27,24843,26,19,13,10,11,1
+2025-01-10,53,-36,17,False,False,58,-0.45,The Alchemy,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,3,3,1,15,9,2,4010737,701,10504350,0.65,0.07,0.27,22834,26,31,0,17,7,1
+2025-01-10,54,-16,38,False,False,58,-0.05,Letterbomb,Green Day,American Idiot,3,3,1,15,9,2,4365900,763,11430540,0.65,0.07,0.27,24843,26,18,12,10,11,1
 2025-01-10,55,NEW,--,True,False,56,--,A Little Less Sixteen Candles a Little More Touch Me,Fall Out Boy,From Under the Cork Tree,7,5,3,35,15,6,9499875,1186,31987440,0.62,0.05,0.33,49665,56,0,0,55,1,1
-2025-01-10,56,-15,41,False,False,56,-0.05,Roller Coaster,blink-182,Take Off Your Pants and Jacket,3,3,1,15,9,2,4348575,760,11385360,0.65,0.07,0.27,24745,26,18,12,41,5,1
-2025-01-10,57,-23,34,False,False,56,-0.19,St. Jimmy,Green Day,American Idiot,2,2,1,10,6,2,2858625,499,11227230,0.58,0.06,0.36,17430,18,21,17,8,12,1
-2025-01-10,58,RE,--,False,False,50,--,Tell Me Something I Don't Know,Selena Gomez & the Scene,Kiss & Tell,6,6,1,30,18,2,8142750,1424,10662480,0.76,0.09,0.16,43043,50,0,0,16,15,1
+2025-01-10,56,-15,41,False,False,56,-0.05,Roller Coaster,blink-182,Take Off Your Pants and Jacket,3,3,1,15,9,2,4348575,760,11385360,0.65,0.07,0.27,24745,26,17,11,41,5,1
+2025-01-10,57,-22,35,False,False,56,-0.18,St. Jimmy,Green Day,American Idiot,2,2,1,10,6,2,2858625,499,11227230,0.58,0.06,0.36,17430,18,20,16,8,12,1
+2025-01-10,58,RE,--,False,False,50,--,Tell Me Something I Don't Know,Selena Gomez & the Scene,Kiss & Tell,6,6,1,30,18,2,8142750,1424,10662480,0.76,0.09,0.16,43043,50,0,0,21,15,1
 2025-01-10,59,NEW,--,True,False,50,--,Sway,Bic Runga,Drive,6,6,1,30,18,2,7796250,1363,10210680,0.76,0.09,0.16,41223,50,0,0,59,1,1
-2025-01-10,60,-21,39,False,False,50,-0.18,Give Me Novacaine,Green Day,American Idiot,2,2,1,10,6,2,2800875,489,11001330,0.58,0.06,0.36,17080,18,19,13,9,12,1
+2025-01-10,60,-21,39,False,False,50,-0.18,Give Me Novacaine,Green Day,American Idiot,2,2,1,10,6,2,2800875,489,11001330,0.58,0.06,0.36,17080,18,18,12,9,12,1
 2025-01-10,61,RE,--,False,False,48,--,Before the Lobotomy,Green Day,21st Century Breakdown,6,4,3,30,12,6,9407475,1096,36934650,0.59,0.04,0.37,49686,48,0,0,1,24,2
-2025-01-10,62,+7,69,False,False,47,0.17,Behind These Hazel Eyes,Kelly Clarkson,Breakaway,3,3,1,15,9,2,4227300,739,11069100,0.65,0.07,0.27,24059,26,12,9,32,27,1
-2025-01-10,63,+24,87,False,False,46,0.39,Welcome to the Black Parade,My Chemical Romance,The Black Parade,3,3,1,15,9,2,4270612,746,11182050,0.65,0.07,0.27,24304,26,10,10,4,45,1
-2025-01-10,64,-29,35,False,False,44,-0.35,Are We the Waiting,Green Day,American Idiot,1,1,1,5,3,2,1513050,264,11882340,0.42,0.05,0.53,11067,10,21,13,5,11,1
-2025-01-10,65,+27,92,False,False,43,0.43,Scattered,Green Day,Nimrod,3,3,1,15,9,2,4045387,707,10594710,0.65,0.07,0.27,23030,26,9,8,3,22,2
-2025-01-10,66,RE,--,False,False,42,--,She's So Mean,Matchbox Twenty,North (Deluxe Edition),5,5,1,25,15,2,7608562,1330,11950110,0.73,0.08,0.18,40810,42,0,0,4,36,1
+2025-01-10,62,7,69,False,False,47,0.17,Behind These Hazel Eyes,Kelly Clarkson,Breakaway,3,3,1,15,9,2,4227300,739,11069100,0.65,0.07,0.27,24059,26,12,9,31,27,1
+2025-01-10,63,25,88,False,False,46,0.39,Welcome to the Black Parade,My Chemical Romance,The Black Parade,3,3,1,15,9,2,4270612,746,11182050,0.65,0.07,0.27,24304,26,9,9,4,45,1
+2025-01-10,64,-30,34,False,False,44,-0.35,Are We the Waiting,Green Day,American Idiot,1,1,1,5,3,2,1513050,264,11882340,0.42,0.05,0.53,11067,10,20,12,5,11,1
+2025-01-10,65,28,93,False,False,43,0.43,Scattered,Green Day,Nimrod,3,3,1,15,9,2,4045387,707,10594710,0.65,0.07,0.27,23030,26,9,7,3,22,2
+2025-01-10,66,RE,--,False,False,42,--,She's So Mean,Matchbox Twenty,North (Deluxe Edition),5,5,1,25,15,2,7608562,1330,11950110,0.73,0.08,0.18,40810,42,0,0,4,38,1
 2025-01-10,67,NEW,--,True,False,42,--,Shape of My Heart,Backstreet Boys,Black & Blue,5,5,1,25,15,2,7420875,1297,11656440,0.73,0.08,0.18,39809,42,0,0,67,1,1
 2025-01-10,68,RE,--,False,False,42,--,Naturally,Selena Gomez & the Scene,Kiss & Tell,5,5,1,25,15,2,7695187,1345,12085650,0.73,0.08,0.18,41272,42,0,0,7,14,1
 2025-01-10,69,RE,--,False,False,42,--,Lucky,Britney Spears,Oops!... I Did It Again,5,5,1,25,15,2,6699000,1171,10526940,0.73,0.08,0.18,35959,42,0,0,8,11,1
 2025-01-10,70,-21,49,False,False,41,-0.18,Unwell,Matchbox Twenty,More Than You Think You Are,3,3,1,15,9,2,4253287,743,11136870,0.65,0.07,0.27,24206,26,15,0,8,19,1
-2025-01-10,71,-7,64,False,False,39,-0.07,Soap,Melanie Martinez,Cry Baby (Deluxe Edition),3,3,1,15,9,2,4374562,765,11453130,0.65,0.07,0.27,24892,26,13,0,20,9,1
-2025-01-10,72,+6,78,False,False,39,0.03,Hitchin' a Ride,Green Day,Nimrod,2,2,1,10,6,2,2604525,455,10233270,0.58,0.06,0.36,15890,18,12,9,2,53,7
-2025-01-10,73,+20,93,False,False,39,0.44,Don't Leave Me,blink-182,Enema of the State,2,2,1,10,6,2,3130050,547,12288960,0.58,0.06,0.36,19075,18,9,12,4,21,1
-2025-01-10,74,+1,75,False,False,39,0.03,She Looked Like Me!,Magdalena Bay,Imaginal Disk,2,1,2,10,3,4,3008775,263,23629140,0.43,0.02,0.54,18340,17,12,10,56,4,1
-2025-01-10,75,+15,90,False,False,37,0.16,1981,Green Day,Saviors,2,2,1,10,6,2,2910600,509,11430540,0.58,0.06,0.36,17745,18,10,9,1,34,1
-2025-01-10,76,RE,--,False,False,36,--,In Too Deep,Sum 41,All Killer No Filler,3,3,1,15,9,2,4322587,756,11317590,0.65,0.07,0.27,24598,26,0,10,3,10,1
+2025-01-10,71,-7,64,False,False,39,-0.07,Soap,Melanie Martinez,Cry Baby (Deluxe Edition),3,3,1,15,9,2,4374562,765,11453130,0.65,0.07,0.27,24892,26,12,0,20,9,1
+2025-01-10,72,6,78,False,False,39,0.03,Hitchin' a Ride,Green Day,Nimrod,2,2,1,10,6,2,2604525,455,10233270,0.58,0.06,0.36,15890,18,11,8,2,53,7
+2025-01-10,73,21,94,False,False,39,0.44,Don't Leave Me,blink-182,Enema of the State,2,2,1,10,6,2,3130050,547,12288960,0.58,0.06,0.36,19075,18,8,11,4,21,1
+2025-01-10,74,1,75,False,False,39,0.03,She Looked Like Me!,Magdalena Bay,Imaginal Disk,2,1,2,10,3,4,3008775,263,23629140,0.43,0.02,0.54,18340,17,11,9,56,4,1
+2025-01-10,75,16,91,False,False,37,0.16,1981,Green Day,Saviors,2,2,1,10,6,2,2910600,509,11430540,0.58,0.06,0.36,17745,18,9,8,1,34,1
+2025-01-10,76,RE,--,False,False,36,--,In Too Deep,Sum 41,All Killer No Filler,3,3,1,15,9,2,4322587,756,11317590,0.65,0.07,0.27,24598,26,0,9,3,10,1
 2025-01-10,77,RE,--,False,False,34,--,pretty isn’t pretty,Olivia Rodrigo,GUTS,4,4,1,20,12,2,5786550,1012,11362770,0.7,0.08,0.22,31752,34,0,0,2,8,1
 2025-01-10,78,RE,--,False,False,34,--,love is embarrassing,Olivia Rodrigo,GUTS,4,4,1,20,12,2,6121500,1070,12017880,0.7,0.08,0.22,33579,34,0,0,8,8,1
 2025-01-10,79,RE,--,False,False,34,--,get him back!,Olivia Rodrigo,GUTS,4,4,1,20,12,2,5763450,1008,11317590,0.7,0.08,0.22,31626,34,0,0,7,10,1
-2025-01-10,80,RE,--,False,False,34,--,bad idea right?,Olivia Rodrigo,GUTS,4,4,1,20,12,2,6294750,1100,12356730,0.7,0.08,0.22,34524,34,0,0,3,22,1
-2025-01-10,81,+14,95,False,False,34,0.31,Worry Rock,Green Day,Nimrod,3,3,1,15,9,2,4729725,827,12379320,0.65,0.07,0.27,26901,26,8,0,2,19,1
-2025-01-10,82,-37,45,False,False,33,-0.38,เพลงรัก (Hook) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Gemini,เพลงรัก (Hook) - Single,1,1,1,5,3,2,1328250,232,10436580,0.42,0.05,0.53,9723,10,16,7,40,4,1
-2025-01-10,83,-9,74,False,False,33,-0.13,The Ballad Of Matt & Mica,Magdalena Bay,Imaginal Disk,1,1,1,5,3,2,1501500,262,11791980,0.42,0.05,0.53,10983,10,12,11,62,4,1
-2025-01-10,84,=,84,False,False,33,-0.06,Redundant,Green Day,Nimrod,1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,11,12,1,41,1
-2025-01-10,85,-9,76,False,False,33,-0.13,Love Is Everywhere,Magdalena Bay,Imaginal Disk,1,1,1,5,3,2,1403325,245,11023920,0.42,0.05,0.53,10269,10,12,11,63,4,1
-2025-01-10,86,-7,79,False,False,33,-0.13,Feeling Diskinserted?,Magdalena Bay,Imaginal Disk,1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,12,11,64,4,1
-2025-01-10,87,-6,81,False,False,33,-0.13,Cry For Me,Magdalena Bay,Imaginal Disk,1,1,1,5,3,2,1487062,260,11679030,0.42,0.05,0.53,10878,10,12,11,65,4,1
-2025-01-10,88,-6,82,False,False,33,-0.13,Angel On A Satellite,Magdalena Bay,Imaginal Disk,1,1,1,5,3,2,1481287,259,11633850,0.42,0.05,0.53,10836,10,12,11,66,4,1
-2025-01-10,89,-18,71,False,False,32,-0.16,Watching T.V.,Magdalena Bay,Imaginal Disk,1,1,1,5,3,2,1553475,271,12198600,0.42,0.05,0.53,11361,10,12,10,52,4,1
-2025-01-10,90,-18,72,False,False,32,-0.16,Vampire In The Corner,Magdalena Bay,Imaginal Disk,1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,12,10,53,4,1
-2025-01-10,91,-18,73,False,False,32,-0.16,True Blue Interlude,Magdalena Bay,Imaginal Disk,1,1,1,5,3,2,1553475,271,12198600,0.42,0.05,0.53,11361,10,12,10,55,4,1
-2025-01-10,92,-15,77,False,False,32,-0.16,Killing Time,Magdalena Bay,Imaginal Disk,1,1,1,5,3,2,1565025,273,12288960,0.42,0.05,0.53,11445,10,12,10,57,4,1
-2025-01-10,93,-13,80,False,False,32,-0.16,Fear Sex,Magdalena Bay,Imaginal Disk,1,1,1,5,3,2,1541925,269,12108240,0.42,0.05,0.53,11277,10,12,10,59,4,1
-2025-01-10,94,-6,88,False,False,30,-0.06,All the Time,Green Day,Nimrod,1,1,1,5,3,2,1432200,250,11249820,0.42,0.05,0.53,10479,10,10,10,2,28,1
-2025-01-10,95,-12,83,False,False,29,-0.22,ก้อนหินกับดวงดาว (Rock & Star) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Fourth,ก้อนหินกับดวงดาว (Rock & Star) - Single,1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,12,7,44,4,1
-2025-01-10,96,-5,91,False,False,28,-0.1,Thnks fr th Mmrs,Fall Out Boy,Infinity on High,1,1,1,5,3,2,1455300,254,11430540,0.42,0.05,0.53,10647,10,10,8,8,19,2
-2025-01-10,97,-8,89,False,False,28,-0.12,I Do Not Hook Up,Kelly Clarkson,All I Ever Wanted,1,1,1,5,3,2,1386000,242,10888380,0.42,0.05,0.53,10143,10,10,8,1,29,1
-2025-01-10,98,RE,--,False,False,27,--,Would You Be So Kind,dodie,You - EP,1,1,1,5,3,2,1308037,228,10278450,0.42,0.05,0.53,9576,10,0,17,4,19,1
+2025-01-10,80,RE,--,False,False,34,--,bad idea right?,Olivia Rodrigo,bad idea right?,4,4,1,20,12,2,6075300,1062,11927520,0.7,0.08,0.22,33327,34,0,0,3,22,1
+2025-01-10,81,15,96,False,False,34,0.31,Worry Rock,Green Day,Nimrod,3,3,1,15,9,2,4729725,827,12379320,0.65,0.07,0.27,26901,26,7,0,2,19,1
+2025-01-10,82,-37,45,False,False,33,-0.38,เพลงรัก (Hook) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Gemini,เพลงรัก (Hook) - Single,1,1,1,5,3,2,1328250,232,10436580,0.42,0.05,0.53,9723,10,15,6,40,4,1
+2025-01-10,83,-9,74,False,False,33,-0.13,The Ballad Of Matt & Mica,Magdalena Bay,Imaginal Disk,1,1,1,5,3,2,1501500,262,11791980,0.42,0.05,0.53,10983,10,11,10,62,4,1
+2025-01-10,84,1,85,False,False,33,-0.06,Redundant,Green Day,Nimrod,1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,10,11,1,41,1
+2025-01-10,85,-9,76,False,False,33,-0.13,Love Is Everywhere,Magdalena Bay,Imaginal Disk,1,1,1,5,3,2,1403325,245,11023920,0.42,0.05,0.53,10269,10,11,10,63,4,1
+2025-01-10,86,-7,79,False,False,33,-0.13,Feeling Diskinserted?,Magdalena Bay,Imaginal Disk,1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,11,10,64,4,1
+2025-01-10,87,-6,81,False,False,33,-0.13,Cry For Me,Magdalena Bay,Imaginal Disk,1,1,1,5,3,2,1487062,260,11679030,0.42,0.05,0.53,10878,10,11,10,65,4,1
+2025-01-10,88,-6,82,False,False,33,-0.13,Angel On A Satellite,Magdalena Bay,Imaginal Disk,1,1,1,5,3,2,1481287,259,11633850,0.42,0.05,0.53,10836,10,11,10,66,4,1
+2025-01-10,89,-18,71,False,False,32,-0.16,Watching T.V.,Magdalena Bay,Imaginal Disk,1,1,1,5,3,2,1553475,271,12198600,0.42,0.05,0.53,11361,10,11,9,52,4,1
+2025-01-10,90,-18,72,False,False,32,-0.16,Vampire In The Corner,Magdalena Bay,Imaginal Disk,1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,11,9,53,4,1
+2025-01-10,91,-18,73,False,False,32,-0.16,True Blue Interlude,Magdalena Bay,Imaginal Disk,1,1,1,5,3,2,1553475,271,12198600,0.42,0.05,0.53,11361,10,11,9,55,4,1
+2025-01-10,92,-15,77,False,False,32,-0.16,Killing Time,Magdalena Bay,Imaginal Disk,1,1,1,5,3,2,1565025,273,12288960,0.42,0.05,0.53,11445,10,11,9,57,4,1
+2025-01-10,93,-13,80,False,False,32,-0.16,Fear Sex,Magdalena Bay,Imaginal Disk,1,1,1,5,3,2,1541925,269,12108240,0.42,0.05,0.53,11277,10,11,9,59,4,1
+2025-01-10,94,-5,89,False,False,30,-0.06,All the Time,Green Day,Nimrod,1,1,1,5,3,2,1432200,250,11249820,0.42,0.05,0.53,10479,10,9,9,2,28,1
+2025-01-10,95,-12,83,False,False,29,-0.22,ก้อนหินกับดวงดาว (Rock & Star) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Fourth,ก้อนหินกับดวงดาว (Rock & Star) - Single,1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,11,6,44,4,1
+2025-01-10,96,-4,92,False,False,28,-0.1,Thnks fr th Mmrs,Fall Out Boy,Infinity on High,1,1,1,5,3,2,1455300,254,11430540,0.42,0.05,0.53,10647,10,9,7,8,19,2
+2025-01-10,97,-7,90,False,False,28,-0.12,I Do Not Hook Up,Kelly Clarkson,All I Ever Wanted,1,1,1,5,3,2,1386000,242,10888380,0.42,0.05,0.53,10143,10,9,7,1,29,1
+2025-01-10,98,RE,--,False,False,27,--,Would You Be So Kind,dodie,You - EP,1,1,1,5,3,2,1308037,228,10278450,0.42,0.05,0.53,9576,10,0,16,4,20,1
 2025-01-10,99,RE,--,False,False,26,--,¿Viva la Gloria? (Little Girl),Green Day,21st Century Breakdown,3,3,1,15,9,2,4695075,821,12288960,0.65,0.07,0.27,26705,26,0,0,3,11,1
 2025-01-10,100,RE,--,False,False,26,--,When I Come Around,Green Day,Dookie,3,3,1,15,9,2,4132012,722,10820610,0.65,0.07,0.27,23520,26,0,0,1,21,1

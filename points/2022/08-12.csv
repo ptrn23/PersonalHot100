@@ -1,101 +1,101 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2022-08-12,1,+1,2,True,True,224,-0.21,Wildest Dreams (Taylor's Version),Taylor Swift,Wildest Dreams (Taylor's Version),9,9,2,45,27,4,12162150,2127,21234600,0.72,0.08,0.2,65940,76,86,62,1,16,5
-2022-08-12,2,-1,1,False,False,211,-0.31,This Love (Taylor’s Version),Taylor Swift,This Love (Taylor’s Version),7,7,1,35,21,2,9904125,1732,11114280,0.77,0.09,0.14,51765,58,92,61,1,12,1
-2022-08-12,3,+3,6,False,False,175,-0.21,LOVE DIVE,IVE,LOVE DIVE,10,10,1,50,30,2,13715625,2399,10775430,0.81,0.09,0.1,70266,82,67,26,1,11,4
-2022-08-12,4,=,4,False,False,174,-0.3,august,Taylor Swift,folklore,5,5,1,25,15,2,7377562,1290,11588670,0.73,0.08,0.18,39578,42,75,57,1,11,1
-2022-08-12,5,=,5,True,True,166,-0.26,Dreams Come True,aespa,Dreams Come True - SM STATION,12,12,1,60,36,2,17082450,2987,11182050,0.82,0.09,0.09,86800,98,68,0,5,3,2
-2022-08-12,6,-3,3,False,False,158,-0.44,Holy Ground (Taylor's Version),Taylor Swift,Red (Taylor's Version),9,8,2,45,24,4,12370050,1923,21596040,0.73,0.07,0.2,63707,73,85,0,3,8,1
-2022-08-12,7,+6,13,True,False,151,-0.17,Illusion,aespa,Girls - The 2nd Mini Album,11,10,2,55,30,4,14737800,2343,21053880,0.75,0.08,0.17,75187,89,55,7,7,3,1
+2022-08-12,1,1,2,False,True,222,-0.22,Wildest Dreams (Taylor's Version),Taylor Swift,Wildest Dreams (Taylor's Version),9,9,1,45,27,2,12162150,2127,10617300,0.8,0.09,0.11,62643,74,85,61,1,16,5
+2022-08-12,2,-1,1,False,False,211,-0.31,This Love (Taylor’s Version),Taylor Swift,This Love (Taylor’s Version),7,7,1,35,21,2,9904125,1732,11114280,0.77,0.09,0.14,51765,58,91,61,1,12,1
+2022-08-12,3,3,6,False,False,175,-0.21,LOVE DIVE,IVE,LOVE DIVE,10,10,1,50,30,2,13715625,2399,10775430,0.81,0.09,0.1,70266,82,66,25,1,11,4
+2022-08-12,4,=,4,False,False,174,-0.3,august,Taylor Swift,folklore,5,5,1,25,15,2,7377562,1290,11588670,0.73,0.08,0.18,39578,42,74,56,1,11,1
+2022-08-12,5,=,5,False,True,165,-0.26,Dreams Come True,aespa,Dreams Come True - SM STATION,12,12,1,60,36,2,17082450,2987,11182050,0.82,0.09,0.09,86800,98,66,0,5,3,2
+2022-08-12,6,-3,3,False,False,158,-0.44,Holy Ground (Taylor's Version),Taylor Swift,Red (Taylor's Version),9,8,2,45,24,4,12370050,1923,21596040,0.73,0.07,0.2,63707,73,84,0,3,8,1
+2022-08-12,7,6,13,True,False,151,-0.17,Illusion,aespa,Illusion,11,10,2,55,30,4,15277762,2429,21821940,0.75,0.08,0.17,77924,89,54,6,7,3,1
 2022-08-12,8,NEW,--,True,False,149,--,Ghosting,TOMORROW X TOGETHER,minisode1 : Blue Hour,19,16,3,95,48,6,29077125,4281,36053640,0.77,0.07,0.15,141778,149,0,0,8,1,1
-2022-08-12,9,-2,7,False,False,149,-0.29,POP!,NAYEON,IM NAYEON,7,7,1,35,21,2,10833900,1894,12153420,0.77,0.09,0.14,56595,58,63,28,4,8,2
-2022-08-12,10,+2,12,False,False,148,-0.2,The Feels,TWICE,Formula of Love: O+T=<3,8,8,1,40,24,2,10810800,1891,10617300,0.79,0.09,0.12,56049,66,56,26,3,20,1
-2022-08-12,11,+6,17,False,False,139,-0.17,REAL YOU,TWICE,Formula of Love: O+T=<3,7,7,1,35,21,2,10591350,1852,11882340,0.77,0.09,0.14,55335,58,51,30,4,11,2
-2022-08-12,12,+2,14,False,False,135,-0.22,Sour Grapes,LE SSERAFIM,FEARLESS,7,7,1,35,21,2,9358387,1636,10504350,0.77,0.09,0.14,48930,58,53,24,6,10,1
-2022-08-12,13,-2,11,False,False,131,-0.29,Blue Flame,LE SSERAFIM,FEARLESS,6,6,1,30,18,2,9078300,1587,11882340,0.76,0.09,0.16,47957,50,56,25,7,11,2
-2022-08-12,14,+4,18,False,False,130,-0.21,Up!,Kep1er,DOUBLAST,7,7,1,35,21,2,10773262,1883,12085650,0.77,0.09,0.14,56280,58,50,22,4,8,1
-2022-08-12,15,+4,19,True,False,129,-0.2,Girls,aespa,Girls - The 2nd Mini Album,9,9,1,45,27,2,11902275,2082,10391400,0.8,0.09,0.11,61312,74,49,6,15,3,1
-2022-08-12,16,-7,9,False,False,129,-0.31,I Bet You Think About Me (feat. Chris Stapleton) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),8,8,1,40,24,2,12497100,2185,12266370,0.79,0.09,0.12,64736,66,56,7,2,25,3
+2022-08-12,9,-2,7,False,False,149,-0.29,POP!,NAYEON,IM NAYEON,7,7,1,35,21,2,10833900,1894,12153420,0.77,0.09,0.14,56595,58,62,27,3,8,1
+2022-08-12,10,2,12,False,False,148,-0.2,The Feels,TWICE,The Feels,8,8,1,40,24,2,11342100,1983,11136870,0.79,0.09,0.12,58786,66,55,25,3,20,1
+2022-08-12,11,6,17,False,False,139,-0.17,REAL YOU,TWICE,Formula of Love: O+T=<3,7,7,1,35,21,2,10591350,1852,11882340,0.77,0.09,0.14,55335,58,50,29,4,11,2
+2022-08-12,12,2,14,False,False,135,-0.22,Sour Grapes,LE SSERAFIM,FEARLESS,7,7,1,35,21,2,9358387,1636,10504350,0.77,0.09,0.14,48930,58,52,23,6,10,1
+2022-08-12,13,-2,11,False,False,131,-0.29,Blue Flame,LE SSERAFIM,FEARLESS,6,6,1,30,18,2,9078300,1587,11882340,0.76,0.09,0.16,47957,50,55,24,7,11,2
+2022-08-12,14,4,18,False,False,130,-0.21,Up!,Kep1er,DOUBLAST,7,7,1,35,21,2,10773262,1883,12085650,0.77,0.09,0.14,56280,58,49,21,4,8,1
+2022-08-12,15,4,19,True,False,129,-0.2,Girls,aespa,Girls - The 2nd Mini Album,9,9,1,45,27,2,11902275,2082,10391400,0.8,0.09,0.11,61312,74,48,5,15,3,1
+2022-08-12,16,-7,9,False,False,129,-0.31,I Bet You Think About Me (feat. Chris Stapleton) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),8,8,1,40,24,2,12497100,2185,12266370,0.79,0.09,0.12,64736,66,55,6,2,25,3
 2022-08-12,17,RE,--,False,False,127,--,ME,CLC,ME,16,13,4,80,39,8,23793000,3380,46716120,0.71,0.07,0.22,119658,127,0,0,3,14,1
-2022-08-12,18,+3,21,True,False,127,-0.11,NO PROBLEM (feat. Felix of Stray Kids),NAYEON,IM NAYEON,8,8,1,40,24,2,10533600,1842,10346220,0.79,0.09,0.12,54620,66,43,18,18,8,1
-2022-08-12,19,-9,10,False,False,124,-0.33,CRUEL,TWICE,Formula of Love: O+T=<3,5,5,1,25,15,2,7290937,1275,11453130,0.73,0.08,0.18,39116,42,56,26,8,10,1
-2022-08-12,20,-5,15,False,False,122,-0.29,The Great Mermaid,LE SSERAFIM,FEARLESS,6,6,1,30,18,2,8021475,1403,10504350,0.76,0.09,0.16,42406,50,52,20,4,11,1
-2022-08-12,21,+2,23,True,False,110,-0.11,LOVE COUNTDOWN (feat. Wonstein),NAYEON,IM NAYEON,7,7,1,35,21,2,9661575,1689,10843200,0.77,0.09,0.14,50505,58,37,15,21,8,1
-2022-08-12,22,-2,20,False,False,106,-0.34,F.I.L.A (Fall in Love Again),TWICE,Formula of Love: O+T=<3,4,4,1,20,12,2,5382300,941,10572120,0.7,0.08,0.22,29547,34,48,24,7,12,1
-2022-08-12,23,+16,39,True,False,94,0.42,BAMBOLEO,Red Velvet,‘The ReVe Festival 2022 - Feel My Rhythm’,9,9,1,45,27,2,14215162,2485,12401910,0.8,0.09,0.11,59850,74,20,0,23,13,1
-2022-08-12,24,-16,8,False,False,93,-0.53,FOREVER 1,Girls' Generation,FOREVER 1 - The 7th Album,4,4,1,20,12,2,5959800,1042,11701620,0.7,0.08,0.22,32697,34,59,0,8,2,1
-2022-08-12,25,RE,--,True,False,92,--,All Right,Red Velvet,The Perfect Red Velvet - The 2nd Album Repackage,13,7,3,65,21,6,18881362,1778,34223850,0.74,0.04,0.21,81466,92,0,0,25,2,1
-2022-08-12,26,-4,22,False,False,91,-0.28,FEARLESS,LE SSERAFIM,FEARLESS,3,3,1,15,9,2,4383225,766,11475720,0.65,0.07,0.27,24941,26,38,27,1,15,3
-2022-08-12,27,RE,--,False,False,88,--,Butterflies,Red Velvet,RBB - The 5th Mini Album,12,6,5,60,18,10,18121950,1584,59298750,0.63,0.04,0.33,84686,88,0,0,16,3,1
-2022-08-12,28,+7,35,False,False,81,0.05,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),6,6,1,30,18,2,9164925,1602,11995290,0.76,0.09,0.16,48412,50,24,7,14,15,1
-2022-08-12,29,-13,16,False,False,78,-0.54,Maniac,MAX CHANGMIN,DEVIL - The 2nd Mini Album,3,3,1,15,9,2,4400550,769,11520900,0.65,0.07,0.27,25039,26,52,0,16,2,1
-2022-08-12,30,-3,27,False,False,74,-0.31,ELEVEN,IVE,ELEVEN,2,2,1,10,6,2,2875950,502,11295000,0.58,0.06,0.36,17535,18,33,23,1,13,1
-2022-08-12,31,-7,24,False,False,71,-0.41,Take It,IVE,ELEVEN,4,4,1,20,12,2,6340950,907,10188090,0.7,0.08,0.22,28476,34,37,0,24,4,1
-2022-08-12,32,-4,28,False,False,69,-0.32,O.O,NMIXX,AD MARE,2,2,1,10,6,2,2720025,475,10685070,0.58,0.06,0.36,16590,18,31,20,1,19,2
-2022-08-12,33,-3,30,False,False,68,-0.31,Renegade (feat. Taylor Swift),Big Red Machine,How Long Do You Think It's Gonna Last?,3,3,1,15,9,2,4729725,827,12379320,0.65,0.07,0.27,26901,26,30,12,4,5,1
+2022-08-12,18,3,21,True,False,127,-0.11,NO PROBLEM (feat. Felix of Stray Kids),NAYEON,IM NAYEON,8,8,1,40,24,2,10533600,1842,10346220,0.79,0.09,0.12,54620,66,42,18,18,8,1
+2022-08-12,19,-9,10,False,False,124,-0.33,CRUEL,TWICE,Formula of Love: O+T=<3,5,5,1,25,15,2,7290937,1275,11453130,0.73,0.08,0.18,39116,42,55,25,8,10,1
+2022-08-12,20,-5,15,False,False,122,-0.29,The Great Mermaid,LE SSERAFIM,FEARLESS,6,6,1,30,18,2,8021475,1403,10504350,0.76,0.09,0.16,42406,50,51,19,4,11,1
+2022-08-12,21,2,23,True,False,110,-0.11,LOVE COUNTDOWN (feat. Wonstein),NAYEON,IM NAYEON,7,7,1,35,21,2,9661575,1689,10843200,0.77,0.09,0.14,50505,58,36,14,21,8,1
+2022-08-12,22,-2,20,False,False,106,-0.34,F.I.L.A (Fall in Love Again),TWICE,Formula of Love: O+T=<3,4,4,1,20,12,2,5382300,941,10572120,0.7,0.08,0.22,29547,34,48,23,7,12,1
+2022-08-12,23,16,39,True,False,94,0.42,BAMBOLEO,Red Velvet,‘The ReVe Festival 2022 - Feel My Rhythm’,9,9,1,45,27,2,14215162,2485,12401910,0.8,0.09,0.11,59850,74,19,0,23,13,1
+2022-08-12,24,-16,8,False,False,93,-0.53,FOREVER 1,Girls' Generation,FOREVER 1 - The 7th Album,4,4,1,20,12,2,5959800,1042,11701620,0.7,0.08,0.22,32697,34,58,0,8,2,1
+2022-08-12,25,RE,--,True,False,92,--,All Right,Red Velvet,The Perfect Red Velvet - The 2nd Album Repackage - EP,13,7,3,65,21,6,18993975,1788,34427160,0.74,0.04,0.21,81949,92,0,0,25,2,1
+2022-08-12,26,-4,22,False,False,91,-0.28,FEARLESS,LE SSERAFIM,FEARLESS,3,3,1,15,9,2,4383225,766,11475720,0.65,0.07,0.27,24941,26,37,26,1,15,3
+2022-08-12,27,RE,--,False,False,88,--,Butterflies,Red Velvet,RBB - The 5th Mini Album - EP,12,6,5,60,18,10,15592500,1363,51053400,0.63,0.04,0.33,72933,88,0,0,16,3,1
+2022-08-12,28,7,35,False,False,81,0.05,Forever & Always (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),6,6,1,30,18,2,9164925,1602,11995290,0.76,0.09,0.16,48412,50,23,6,14,15,1
+2022-08-12,29,-13,16,False,False,78,-0.54,Maniac,MAX CHANGMIN,DEVIL - The 2nd Mini Album,3,3,1,15,9,2,4400550,769,11520900,0.65,0.07,0.27,25039,26,51,0,16,2,1
+2022-08-12,30,-3,27,False,False,74,-0.31,ELEVEN,IVE,ELEVEN,2,2,1,10,6,2,2875950,502,11295000,0.58,0.06,0.36,17535,18,32,22,1,13,1
+2022-08-12,31,-7,24,False,False,71,-0.41,Take It,IVE,ELEVEN,4,4,1,20,12,2,6340950,907,10188090,0.7,0.08,0.22,28476,34,36,0,24,4,1
+2022-08-12,32,-4,28,False,False,69,-0.32,O.O,NMIXX,AD MARE,2,2,1,10,6,2,2720025,475,10685070,0.58,0.06,0.36,16590,18,30,19,1,19,2
+2022-08-12,33,-3,30,False,False,68,-0.31,Renegade (feat. Taylor Swift),Big Red Machine,Renegade (feat. Taylor Swift),3,3,1,15,9,2,4608450,805,12063060,0.65,0.07,0.27,26215,26,29,11,4,5,1
 2022-08-12,34,RE,--,True,False,65,--,LOONATIC,LOOΠΔ / ODD EYE CIRCLE,Max & Match,8,7,2,40,21,4,11365200,1739,22318920,0.71,0.07,0.22,58905,65,0,0,34,8,1
-2022-08-12,35,+3,38,True,False,62,-0.06,LE VOYA9E,Kep1er,DOUBLAST,5,5,1,25,15,2,6872250,1202,10798020,0.73,0.08,0.18,36883,42,20,0,35,3,1
-2022-08-12,36,-2,34,False,False,57,-0.26,The Way I Loved You (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),3,3,1,15,9,2,4010737,701,10504350,0.65,0.07,0.27,22834,26,24,7,2,19,1
-2022-08-12,37,-6,31,False,False,57,-0.41,Feel My Rhythm,Red Velvet,‘The ReVe Festival 2022 - Feel My Rhythm’,1,1,1,5,3,2,1377337,240,10820610,0.42,0.05,0.53,10080,10,29,18,7,20,1
-2022-08-12,38,-5,33,False,False,51,-0.43,Cruel Summer,Taylor Swift,Lover,2,2,1,10,6,2,3101175,542,12176010,0.58,0.06,0.36,18900,18,27,6,3,20,1
-2022-08-12,39,RE,--,True,False,50,--,D-1,Loona,Yves,6,6,1,30,18,2,9511425,1360,10188090,0.76,0.09,0.16,41132,50,0,0,39,1,1
+2022-08-12,35,3,38,True,False,62,-0.06,LE VOYA9E,Kep1er,DOUBLAST,5,5,1,25,15,2,6872250,1202,10798020,0.73,0.08,0.18,36883,42,19,0,35,3,1
+2022-08-12,36,-2,34,False,False,57,-0.26,The Way I Loved You (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),3,3,1,15,9,2,4010737,701,10504350,0.65,0.07,0.27,22834,26,23,6,2,19,1
+2022-08-12,37,-6,31,False,False,57,-0.41,Feel My Rhythm,Red Velvet,‘The ReVe Festival 2022 - Feel My Rhythm’,1,1,1,5,3,2,1377337,240,10820610,0.42,0.05,0.53,10080,10,28,17,7,20,1
+2022-08-12,38,-6,32,False,False,51,-0.43,Cruel Summer,Taylor Swift,Lover,2,2,1,10,6,2,3101175,542,12176010,0.58,0.06,0.36,18900,18,27,5,2,20,1
+2022-08-12,39,NEW,--,True,False,50,--,D-1,Loona,Yves,6,6,1,30,18,2,9511425,1360,10188090,0.76,0.09,0.16,41132,50,0,0,39,1,1
 2022-08-12,40,NEW,--,True,False,38,--,Super Freaky Girl,Nicki Minaj,Super Freaky Girl,5,1,5,25,3,10,6756750,236,53086500,0.44,0.01,0.55,36267,38,0,0,40,1,1
-2022-08-12,41,RE,--,False,False,38,--,Playback,Loona,Summer Special [Flip That],3,3,1,15,9,2,4721062,825,12356730,0.65,0.07,0.27,26852,26,0,12,5,8,2
-2022-08-12,42,-5,37,False,False,38,-0.42,The Other Side of the Door (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),2,2,1,10,6,2,3135825,548,12311550,0.58,0.06,0.36,19110,18,20,0,4,11,1
-2022-08-12,43,+5,48,False,False,36,-0.16,TANK,NMIXX,AD MARE,1,1,1,5,3,2,1504387,263,11814570,0.42,0.05,0.53,11004,10,13,13,8,18,1
-2022-08-12,44,RE,--,False,False,34,--,Carpool,Red Velvet,‘The ReVe Festival’ Day 2,4,4,1,20,12,2,5555550,971,10910970,0.7,0.08,0.22,30492,34,0,0,17,3,1
-2022-08-12,45,RE,--,False,False,33,--,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),2,2,1,10,6,2,3164700,553,10165500,0.58,0.06,0.36,15785,18,0,15,2,21,1
+2022-08-12,41,RE,--,False,False,38,--,Playback,Loona,Summer Special [Flip That],3,3,1,15,9,2,4721062,825,12356730,0.65,0.07,0.27,26852,26,0,11,4,8,1
+2022-08-12,42,-5,37,False,False,38,-0.42,The Other Side of the Door (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),2,2,1,10,6,2,3135825,548,12311550,0.58,0.06,0.36,19110,18,19,0,4,11,1
+2022-08-12,43,5,48,False,False,36,-0.16,TANK,NMIXX,AD MARE,1,1,1,5,3,2,1504387,263,11814570,0.42,0.05,0.53,11004,10,12,13,8,18,1
+2022-08-12,44,RE,--,False,False,34,--,Carpool,Red Velvet,‘The ReVe Festival’ Day 2 - EP,4,4,1,20,12,2,6167700,1078,12108240,0.7,0.08,0.22,33831,34,0,0,17,3,1
+2022-08-12,45,RE,--,False,False,33,--,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),2,2,1,10,6,2,3164700,553,10165500,0.58,0.06,0.36,15785,18,0,14,2,22,1
 2022-08-12,46,RE,--,True,False,32,--,Baby Don’t Stop,NCT,NCT 2018 EMPATHY,4,2,3,20,6,6,5278350,461,31106429,0.5,0.03,0.47,28979,32,0,0,46,3,1
-2022-08-12,47,+4,51,False,False,29,-0.06,Feel Special,TWICE,Feel Special,1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,10,9,4,38,2
-2022-08-12,48,+12,60,False,False,28,0.12,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,8,10,2,21,1
+2022-08-12,47,4,51,False,False,29,-0.06,Feel Special,TWICE,Feel Special,1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,9,8,4,38,2
+2022-08-12,48,12,60,False,False,28,0.12,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,7,10,2,21,1
 2022-08-12,49,RE,--,False,False,26,--,You Better Know,Red Velvet,The Red Summer - Summer Mini Album,3,3,1,15,9,2,4114687,719,10775430,0.65,0.07,0.27,23422,26,0,0,19,6,1
 2022-08-12,50,RE,--,True,False,26,--,new,Loona,Yves,3,3,1,15,9,2,4443862,777,11633850,0.65,0.07,0.27,25284,26,0,0,50,4,1
-2022-08-12,51,RE,--,False,False,26,--,‘tis the damn season,Taylor Swift,evermore,2,1,2,10,3,4,2639175,230,20737620,0.43,0.02,0.54,16099,17,0,9,6,12,1
-2022-08-12,52,+18,70,False,False,22,0.22,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,6,6,7,22,1
-2022-08-12,53,+21,74,False,False,22,0.22,love4eva (feat. Grimes),LOONA/yyxy,beauty&thebeat,1,1,1,5,3,2,1466850,256,11520900,0.42,0.05,0.53,10731,10,6,6,20,8,1
-2022-08-12,54,+21,75,False,False,22,0.22,ICON,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,6,6,6,13,1
-2022-08-12,55,RE,--,False,False,22,--,HAPPY BIRTHDAY TO YOU,NAYEON,IM NAYEON,1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,0,12,29,7,1
+2022-08-12,51,RE,--,False,False,26,--,‘tis the damn season,Taylor Swift,evermore,2,1,2,10,3,4,2639175,230,20737620,0.43,0.02,0.54,16099,17,0,8,6,12,1
+2022-08-12,52,18,70,False,False,22,0.22,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,5,5,7,22,1
+2022-08-12,53,20,73,False,False,22,0.22,love4eva (feat. Grimes),LOONA/yyxy,beauty&thebeat,1,1,1,5,3,2,1466850,256,11520900,0.42,0.05,0.53,10731,10,5,5,20,8,1
+2022-08-12,54,20,74,False,False,22,0.22,ICON,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,5,5,6,13,1
+2022-08-12,55,RE,--,False,False,22,--,HAPPY BIRTHDAY TO YOU,NAYEON,IM NAYEON,1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,0,11,29,7,1
 2022-08-12,56,NEW,--,True,False,17,--,Squidward Nose,cupcakKe,Squidward Nose,2,1,2,10,3,4,3170475,226,20376180,0.43,0.02,0.54,15820,17,0,0,56,1,1
 2022-08-12,57,RE,--,False,False,17,--,MIROH,Stray Kids,Clé 1 : MIROH,2,1,2,10,3,4,2997225,262,23538780,0.43,0.02,0.54,18270,17,0,0,11,2,1
-2022-08-12,58,RE,--,False,False,17,--,You’re Not Sorry (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,0,7,2,14,1
-2022-08-12,59,RE,--,False,False,17,--,Breathe (feat. Colbie Caillat) (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,0,7,27,10,1
-2022-08-12,60,RE,--,False,False,17,--,Alcohol-Free,TWICE,Taste of Love,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,0,7,7,11,1
-2022-08-12,61,RE,--,False,False,16,--,willow,Taylor Swift,evermore,1,1,1,5,3,2,1328250,232,10436580,0.42,0.05,0.53,9723,10,0,6,1,16,1
-2022-08-12,62,RE,--,False,False,16,--,SCIENTIST,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,1501500,262,11791980,0.42,0.05,0.53,10983,10,0,6,9,5,1
-2022-08-12,63,RE,--,False,False,16,--,LOVE FOOLISH,TWICE,Feel Special,1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,0,6,21,7,1
-2022-08-12,64,RE,--,False,False,16,--,gold rush,Taylor Swift,evermore,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,0,6,4,12,1
-2022-08-12,65,RE,--,False,False,16,--,Girl Front,LOOΠΔ / ODD EYE CIRCLE,Max & Match,1,1,1,5,3,2,1547700,270,12153420,0.42,0.05,0.53,11319,10,0,6,40,6,1
-2022-08-12,66,RE,--,False,False,16,--,champagne problems,Taylor Swift,evermore,1,1,1,5,3,2,1426425,249,11204640,0.42,0.05,0.53,10437,10,0,6,2,12,2
-2022-08-12,67,+1,68,True,False,16,-0.11,Black Mamba,aespa,Girls - The 2nd Mini Album,1,1,1,5,3,2,1308037,228,10278450,0.42,0.05,0.53,9576,10,6,0,67,2,1
-2022-08-12,68,RE,--,False,False,10,--,Zoo,Red Velvet,The Red Summer - Summer Mini Album,1,1,1,5,3,2,1559250,272,12243780,0.42,0.05,0.53,11403,10,0,0,27,4,1
-2022-08-12,69,RE,--,False,False,10,--,You and Me Together,LOOΠΔ 1/3,Love & Evil,1,1,1,5,3,2,1437975,251,11295000,0.42,0.05,0.53,10521,10,0,0,12,6,1
-2022-08-12,70,RE,--,False,False,10,--,WA DA DA,Kep1er,FIRST IMPACT,1,1,1,5,3,2,1481287,259,11633850,0.42,0.05,0.53,10836,10,0,0,2,18,1
-2022-08-12,71,RE,--,False,False,10,--,Very Very Very,I.O.I,miss me?,1,1,1,5,3,2,1391775,243,10933560,0.42,0.05,0.53,10185,10,0,0,26,2,1
-2022-08-12,72,NEW,--,True,False,10,--,Thunderous,Stray Kids,NOEASY,1,1,1,5,3,2,1360012,237,10685070,0.42,0.05,0.53,9954,10,0,0,72,1,1
-2022-08-12,73,RE,--,False,False,10,--,Taste,Red Velvet,RBB - The 5th Mini Album,1,1,1,5,3,2,1466850,256,11520900,0.42,0.05,0.53,10731,10,0,0,1,4,1
-2022-08-12,74,RE,--,False,False,10,--,Sweet Crazy Love,LOOΠΔ / ODD EYE CIRCLE,Max & Match,1,1,1,5,3,2,1380225,241,10843200,0.42,0.05,0.53,10101,10,0,0,8,21,1
-2022-08-12,75,RE,--,False,False,10,--,Superhuman,NCT 127,NCT #127 WE ARE SUPERHUMAN - The 4th Mini Album,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,0,0,11,7,1
-2022-08-12,76,RE,--,False,False,10,--,Step Back,GOT the beat,Step Back,1,1,1,5,3,2,1328250,232,10436580,0.42,0.05,0.53,9723,10,0,0,16,9,1
-2022-08-12,77,RE,--,False,False,10,--,Somethin Kinda Crazy,Red Velvet,Ice Cream Cake - The 1st Mini Album,1,1,1,5,3,2,1536150,268,12063060,0.42,0.05,0.53,11235,10,0,0,62,2,1
-2022-08-12,78,RE,--,False,False,10,--,So Good,Red Velvet,RBB - The 5th Mini Album,1,1,1,5,3,2,1322475,231,10391400,0.42,0.05,0.53,9681,10,0,0,7,5,1
-2022-08-12,79,RE,--,False,False,10,--,Simon Says,NCT 127,NCT #127 Regulate - The 1st Album Repackage,1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,0,0,1,5,1
-2022-08-12,80,RE,--,False,False,10,--,Sassy Me,Red Velvet,RBB - The 5th Mini Album,1,1,1,5,3,2,1576575,275,12379320,0.42,0.05,0.53,11529,10,0,0,11,4,1
-2022-08-12,81,RE,--,False,False,10,--,Rosy (고원 Olivia Hye),Loona,Olivia Hye,1,1,1,5,3,2,1316700,230,10346220,0.42,0.05,0.53,9639,10,0,0,49,3,1
-2022-08-12,82,RE,--,False,False,10,--,Remember Forever,Red Velvet,‘The ReVe Festival’ Finale,1,1,1,5,3,2,1365787,238,10730250,0.42,0.05,0.53,9996,10,0,0,15,3,1
-2022-08-12,83,RE,--,False,False,10,--,Red Flavor,Red Velvet,The Red Summer - Summer Mini Album,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,0,0,9,14,1
-2022-08-12,84,RE,--,True,True,10,--,RBB (Really Bad Boy) - English Version,Red Velvet,RBB - The 5th Mini Album,1,1,1,5,3,2,1579462,276,12401910,0.42,0.05,0.53,9450,10,0,0,84,2,2
-2022-08-12,85,RE,--,False,False,10,--,RBB (Really Bad Boy),Red Velvet,RBB - The 5th Mini Album,1,1,1,5,3,2,1400437,244,11001330,0.42,0.05,0.53,10248,10,0,0,46,5,1
-2022-08-12,86,RE,--,False,False,10,--,positions,Ariana Grande,Positions,1,1,1,5,3,2,1501500,262,11791980,0.42,0.05,0.53,10983,10,0,0,7,4,1
-2022-08-12,87,RE,--,False,False,10,--,PLAYING WITH FIRE,BLACKPINK,SQUARE TWO,1,1,1,5,3,2,1342687,234,10549530,0.42,0.05,0.53,9828,10,0,0,33,8,1
-2022-08-12,88,RE,--,False,False,10,--,Oh! my mistake,April,APRIL 6th Mini Album 'the Ruby',1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,0,0,10,5,1
-2022-08-12,89,NEW,--,True,False,10,--,MVSK,Kep1er,FIRST IMPACT,1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,0,0,89,1,1
-2022-08-12,90,RE,--,False,False,10,--,motive (with Doja Cat),Ariana Grande,Positions,1,1,1,5,3,2,1400437,244,11001330,0.42,0.05,0.53,10248,10,0,0,86,2,1
-2022-08-12,91,RE,--,False,False,10,--,Mojito,Red Velvet,The Red Summer - Summer Mini Album,1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,0,0,18,4,1
-2022-08-12,92,NEW,--,True,False,10,--,MANIAC,Stray Kids,ODDINARY,1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,0,0,92,1,1
-2022-08-12,93,RE,--,False,False,10,--,Love & Live,LOOΠΔ 1/3,Love & Evil,1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,0,0,5,10,1
-2022-08-12,94,NEW,--,True,False,10,--,LOONATIC - Eng. Ver.,LOOΠΔ / ODD EYE CIRCLE,LOONATIC,1,1,1,5,3,2,1328250,232,10436580,0.42,0.05,0.53,9723,10,0,0,94,1,1
-2022-08-12,95,NEW,--,True,False,10,--,I FLY,Jihyo,오늘의 웹툰 (Original Soundtrack) Pt. 1,1,1,1,5,3,2,1567912,274,12311550,0.42,0.05,0.53,11466,10,0,0,95,1,1
-2022-08-12,96,RE,--,False,False,10,--,I CAN'T STOP ME,TWICE,Eyes wide open,1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,0,0,12,15,1
-2022-08-12,97,RE,--,False,False,10,--,Hear the Sea,Red Velvet,The Red Summer - Summer Mini Album,1,1,1,5,3,2,1325362,231,10413990,0.42,0.05,0.53,9702,10,0,0,15,5,1
-2022-08-12,98,NEW,--,True,False,10,--,H2Hoe,cupcakKe,H2Hoe,1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,0,0,98,1,1
-2022-08-12,99,RE,--,False,False,10,--,Girl's Talk (이브 츄),Loona,Chuu,1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,0,0,85,2,1
-2022-08-12,100,RE,--,False,False,10,--,GingaMingaYo (the strange world),Billlie,the collective soul and unconscious: chapter one,1,1,1,5,3,2,1510162,264,11859750,0.42,0.05,0.53,11046,10,0,0,9,6,1
+2022-08-12,58,RE,--,False,False,17,--,You’re Not Sorry (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,0,6,2,14,1
+2022-08-12,59,RE,--,False,False,17,--,Breathe (feat. Colbie Caillat) (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,0,6,27,10,1
+2022-08-12,60,RE,--,False,False,17,--,Alcohol-Free,TWICE,Taste of Love,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,0,6,7,9,1
+2022-08-12,61,RE,--,False,False,16,--,willow,Taylor Swift,evermore,1,1,1,5,3,2,1328250,232,10436580,0.42,0.05,0.53,9723,10,0,5,1,18,1
+2022-08-12,62,RE,--,False,False,16,--,SCIENTIST,TWICE,Formula of Love: O+T=<3,1,1,1,5,3,2,1501500,262,11791980,0.42,0.05,0.53,10983,10,0,5,9,5,1
+2022-08-12,63,RE,--,False,False,16,--,LOVE FOOLISH,TWICE,Feel Special,1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,0,5,21,7,1
+2022-08-12,64,RE,--,False,False,16,--,gold rush,Taylor Swift,evermore,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,0,5,4,12,1
+2022-08-12,65,RE,--,False,False,16,--,Girl Front,LOOΠΔ / ODD EYE CIRCLE,Mix & Match - EP,1,1,1,5,3,2,1371562,239,10775430,0.42,0.05,0.53,10038,10,0,5,52,6,1
+2022-08-12,66,2,68,True,False,16,-0.11,Black Mamba,aespa,Black Mamba,1,1,1,5,3,2,1565025,273,12288960,0.42,0.05,0.53,11445,10,5,0,66,2,1
+2022-08-12,67,RE,--,False,False,10,--,Zoo,Red Velvet,The Red Summer - Summer Mini Album,1,1,1,5,3,2,1559250,272,12243780,0.42,0.05,0.53,11403,10,0,0,27,4,1
+2022-08-12,68,RE,--,False,False,10,--,You and Me Together,LOOΠΔ 1/3,Love & Evil,1,1,1,5,3,2,1437975,251,11295000,0.42,0.05,0.53,10521,10,0,0,12,6,1
+2022-08-12,69,RE,--,False,False,10,--,WA DA DA,Kep1er,FIRST IMPACT,1,1,1,5,3,2,1481287,259,11633850,0.42,0.05,0.53,10836,10,0,0,2,18,1
+2022-08-12,70,RE,--,False,False,10,--,Very Very Very,I.O.I,miss me?,1,1,1,5,3,2,1391775,243,10933560,0.42,0.05,0.53,10185,10,0,0,26,2,1
+2022-08-12,71,NEW,--,True,False,10,--,Thunderous,Stray Kids,NOEASY,1,1,1,5,3,2,1360012,237,10685070,0.42,0.05,0.53,9954,10,0,0,71,1,1
+2022-08-12,72,RE,--,False,False,10,--,Taste,Red Velvet,RBB - The 5th Mini Album - EP,1,1,1,5,3,2,1406212,245,11046510,0.42,0.05,0.53,10290,10,0,0,1,4,1
+2022-08-12,73,RE,--,False,False,10,--,Sweet Crazy Love,LOOΠΔ / ODD EYE CIRCLE,Max & Match,1,1,1,5,3,2,1380225,241,10843200,0.42,0.05,0.53,10101,10,0,0,8,21,1
+2022-08-12,74,RE,--,False,False,10,--,Superhuman,NCT 127,NCT #127 WE ARE SUPERHUMAN - The 4th Mini Album,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,0,0,11,7,1
+2022-08-12,75,RE,--,False,False,10,--,Step Back,GOT the beat,Step Back,1,1,1,5,3,2,1328250,232,10436580,0.42,0.05,0.53,9723,10,0,0,16,9,1
+2022-08-12,76,RE,--,False,False,10,--,Somethin Kinda Crazy,Red Velvet,Ice Cream Cake - The 1st Mini Album,1,1,1,5,3,2,1536150,268,12063060,0.42,0.05,0.53,11235,10,0,0,62,2,1
+2022-08-12,77,RE,--,False,False,10,--,So Good,Red Velvet,RBB - The 5th Mini Album - EP,1,1,1,5,3,2,1308037,228,10278450,0.42,0.05,0.53,9576,10,0,0,7,5,1
+2022-08-12,78,RE,--,False,False,10,--,Simon Says,NCT 127,NCT #127 Regulate - The 1st Album Repackage,1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,0,0,1,5,1
+2022-08-12,79,RE,--,False,False,10,--,Sassy Me,Red Velvet,RBB - The 5th Mini Album - EP,1,1,1,5,3,2,1440862,252,11317590,0.42,0.05,0.53,10542,10,0,0,11,4,1
+2022-08-12,80,RE,--,False,False,10,--,Rosy (고원 Olivia Hye),Loona,Olivia Hye,1,1,1,5,3,2,1316700,230,10346220,0.42,0.05,0.53,9639,10,0,0,49,3,1
+2022-08-12,81,RE,--,False,False,10,--,Remember Forever,Red Velvet,‘The ReVe Festival’ Finale - EP,1,1,1,5,3,2,1461075,255,11475720,0.42,0.05,0.53,10689,10,0,0,15,3,1
+2022-08-12,82,RE,--,False,False,10,--,Red Flavor,Red Velvet,The Red Summer - Summer Mini Album,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,0,0,9,14,1
+2022-08-12,83,RE,--,True,False,10,--,RBB (Really Bad Boy) - English Version,Red Velvet,RBB - The 5th Mini Album,1,1,1,5,3,2,1579462,276,12401910,0.42,0.05,0.53,9450,10,0,0,83,2,1
+2022-08-12,84,RE,--,False,False,10,--,RBB (Really Bad Boy),Red Velvet,RBB - The 5th Mini Album - EP,1,1,1,5,3,2,1541925,269,12108240,0.42,0.05,0.53,11277,10,0,0,45,5,1
+2022-08-12,85,RE,--,False,False,10,--,positions,Ariana Grande,Positions,1,1,1,5,3,2,1501500,262,11791980,0.42,0.05,0.53,10983,10,0,0,6,4,1
+2022-08-12,86,RE,--,False,False,10,--,PLAYING WITH FIRE,BLACKPINK,SQUARE TWO,1,1,1,5,3,2,1342687,234,10549530,0.42,0.05,0.53,9828,10,0,0,33,8,1
+2022-08-12,87,RE,--,False,False,10,--,Oh! my mistake,April,APRIL 6th Mini Album 'the Ruby' - EP,1,1,1,5,3,2,1458187,255,11453130,0.42,0.05,0.53,10668,10,0,0,10,5,1
+2022-08-12,88,NEW,--,True,False,10,--,MVSK,Kep1er,FIRST IMPACT,1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,0,0,88,1,1
+2022-08-12,89,RE,--,False,False,10,--,motive (with Doja Cat),Ariana Grande,Positions (Deluxe),1,1,1,5,3,2,1423537,248,11182050,0.42,0.05,0.53,10416,10,0,0,86,2,1
+2022-08-12,90,RE,--,False,False,10,--,Mojito,Red Velvet,The Red Summer - Summer Mini Album - EP,1,1,1,5,3,2,1388887,242,10910970,0.42,0.05,0.53,10164,10,0,0,18,4,1
+2022-08-12,91,NEW,--,True,False,10,--,MANIAC,Stray Kids,ODDINARY,1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,0,0,91,1,1
+2022-08-12,92,RE,--,False,False,10,--,Love & Live,LOOΠΔ 1/3,Love & Evil,1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,0,0,4,10,1
+2022-08-12,93,NEW,--,True,False,10,--,LOONATIC - Eng. Ver.,LOOΠΔ / ODD EYE CIRCLE,LOONATIC,1,1,1,5,3,2,1328250,232,10436580,0.42,0.05,0.53,9723,10,0,0,93,1,1
+2022-08-12,94,NEW,--,True,False,10,--,I FLY,Jihyo,오늘의 웹툰 (Original Soundtrack) Pt. 1,1,1,1,5,3,2,1567912,274,12311550,0.42,0.05,0.53,11466,10,0,0,94,1,1
+2022-08-12,95,RE,--,False,False,10,--,I CAN'T STOP ME,TWICE,Eyes wide open,1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,0,0,12,15,1
+2022-08-12,96,RE,--,False,False,10,--,Hear the Sea,Red Velvet,The Red Summer - Summer Mini Album - EP,1,1,1,5,3,2,1513050,264,11882340,0.42,0.05,0.53,11067,10,0,0,15,5,1
+2022-08-12,97,NEW,--,True,False,10,--,H2Hoe,cupcakKe,H2Hoe,1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,0,0,97,1,1
+2022-08-12,98,RE,--,False,False,10,--,Girl's Talk (이브 츄),Loona,Chuu,1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,0,0,85,2,1
+2022-08-12,99,RE,--,False,False,10,--,GingaMingaYo (the strange world),Billlie,the collective soul and unconscious: chapter one,1,1,1,5,3,2,1510162,264,11859750,0.42,0.05,0.53,11046,10,0,0,9,6,1
+2022-08-12,100,RE,--,False,False,10,--,Get It,PRISTIN V,Like a V,1,1,1,5,3,2,1429312,249,11227230,0.42,0.05,0.53,10458,10,0,0,28,2,1

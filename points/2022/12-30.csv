@@ -1,101 +1,101 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2022-12-30,1,NEW,--,True,False,458,--,#Cookie Jar,Red Velvet,#Cookie Jar,57,57,1,285,171,2,80318700,14047,11069100,0.88,0.1,0.02,395255,458,0,0,1,1,1
 2022-12-30,2,RE,--,True,False,450,--,FUN!,fromis_9,FUN FACTORY,56,56,1,280,168,2,73411800,12841,10301040,0.88,0.1,0.02,361487,450,0,0,2,5,1
-2022-12-30,3,+36,39,False,False,306,6.29,After LIKE,IVE,After LIKE,38,14,25,190,42,50,53984700,3478,278986500,0.54,0.02,0.44,266805,282,13,11,1,19,5
-2022-12-30,4,-3,1,False,False,294,-0.18,Ditto,NewJeans,Ditto,17,17,2,85,51,4,25476412,4455,23538780,0.79,0.09,0.12,131544,140,108,46,1,3,1
-2022-12-30,5,-2,3,False,False,167,-0.17,Midnight Rain,Taylor Swift,Midnights (3am Edition),10,10,1,50,30,2,13138125,2298,10323630,0.81,0.09,0.1,67326,82,61,24,1,11,1
-2022-12-30,6,-4,2,False,False,160,-0.26,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,4,2,25,12,4,7565250,1058,23764680,0.63,0.06,0.31,40579,41,65,54,1,42,5
-2022-12-30,7,+5,12,False,False,159,0.33,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),12,11,2,60,33,4,15731100,2522,20602080,0.76,0.08,0.16,79975,97,36,26,4,41,1
-2022-12-30,8,RE,--,False,False,138,--,So What,Loona,[#],17,17,1,85,51,2,24641925,4309,11385360,0.84,0.09,0.06,123725,138,0,0,5,19,1
+2022-12-30,3,36,39,False,False,306,6.29,After LIKE,IVE,After LIKE,38,14,25,190,42,50,53984700,3478,278986500,0.54,0.02,0.44,266805,282,12,10,1,19,5
+2022-12-30,4,-3,1,False,False,292,-0.18,Ditto,NewJeans,Ditto,17,17,1,85,51,2,25476412,4455,11769390,0.84,0.09,0.06,127890,138,107,45,1,3,1
+2022-12-30,5,-2,3,False,False,167,-0.17,Midnight Rain,Taylor Swift,Midnights (3am Edition),10,10,1,50,30,2,13138125,2298,10323630,0.81,0.09,0.1,67326,82,60,23,1,11,1
+2022-12-30,6,-4,2,False,False,160,-0.26,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,4,2,25,12,4,7565250,1058,23764680,0.63,0.06,0.31,40579,41,64,53,1,42,5
+2022-12-30,7,5,12,False,False,159,0.33,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),12,11,2,60,33,4,15731100,2522,20602080,0.76,0.08,0.16,79975,97,36,25,4,41,1
+2022-12-30,8,RE,--,False,False,138,--,So What,Loona,[#],17,17,1,85,51,2,24641925,4309,11385360,0.84,0.09,0.06,123725,138,0,0,5,20,1
 2022-12-30,9,NEW,--,True,False,138,--,OMG,NewJeans,NewJeans 'OMG',17,17,1,85,51,2,26605425,4652,12288960,0.84,0.09,0.06,133525,138,0,0,9,1,1
-2022-12-30,10,+4,14,False,False,137,0.28,Would've Could've Should've,Taylor Swift,Midnights (3am Edition),11,11,1,55,33,2,15722437,2749,11227230,0.82,0.09,0.09,80178,90,33,14,4,11,1
-2022-12-30,11,+25,36,False,False,132,2.0,Attention,NewJeans,NewJeans 1st EP 'New Jeans',13,13,1,65,39,2,19894875,3479,12017880,0.83,0.09,0.08,100737,106,14,12,1,18,1
-2022-12-30,12,+26,38,False,False,130,2.1,LOVE DIVE,IVE,LOVE DIVE,13,13,1,65,39,2,17830312,3118,10775430,0.83,0.09,0.08,90342,106,13,11,1,30,4
-2022-12-30,13,RE,--,False,False,122,--,FANCY,TWICE,FANCY YOU,15,15,1,75,45,2,20746687,3628,10865790,0.84,0.09,0.07,104594,122,0,0,2,23,1
-2022-12-30,14,+30,44,False,False,108,2.0,Hype Boy,NewJeans,NewJeans 1st EP 'New Jeans',11,11,1,55,33,2,16167112,2827,11543490,0.82,0.09,0.09,82432,90,11,7,3,18,2
-2022-12-30,15,-8,7,False,False,101,-0.3,Rough,GFRIEND,GFRIEND 3rd Mini Album 'SNOWFLAKE',3,3,1,15,9,2,4625775,808,12108240,0.65,0.07,0.27,26313,26,44,31,3,8,1
-2022-12-30,16,-10,6,False,False,99,-0.32,Snow on the Beach (feat. Lana Del Rey),Taylor Swift,Midnights (3am Edition),5,5,1,25,15,2,7146562,1249,11227230,0.73,0.08,0.18,38346,42,44,13,2,11,1
+2022-12-30,10,4,14,False,False,137,0.28,Would've Could've Should've,Taylor Swift,Midnights (3am Edition),11,11,1,55,33,2,15722437,2749,11227230,0.82,0.09,0.09,80178,90,32,14,4,11,1
+2022-12-30,11,25,36,False,False,132,2.0,Attention,NewJeans,NewJeans 1st EP 'New Jeans',13,13,1,65,39,2,19894875,3479,12017880,0.83,0.09,0.08,100737,106,13,11,1,18,1
+2022-12-30,12,26,38,False,False,130,2.1,LOVE DIVE,IVE,LOVE DIVE,13,13,1,65,39,2,17830312,3118,10775430,0.83,0.09,0.08,90342,106,12,10,1,30,4
+2022-12-30,13,RE,--,False,False,122,--,FANCY,TWICE,FANCY YOU,15,15,1,75,45,2,20746687,3628,10865790,0.84,0.09,0.07,104594,122,0,0,2,25,1
+2022-12-30,14,30,44,False,False,108,2.0,Hype Boy,NewJeans,NewJeans 1st EP 'New Jeans',11,11,1,55,33,2,16167112,2827,11543490,0.82,0.09,0.09,82432,90,10,6,3,18,2
+2022-12-30,15,-8,7,False,False,101,-0.3,Rough,GFRIEND,SNOWFLAKE,3,3,1,15,9,2,4140675,724,10843200,0.65,0.07,0.27,23569,26,43,30,3,9,1
+2022-12-30,16,-10,6,False,False,99,-0.32,Snow on the Beach (feat. Lana Del Rey),Taylor Swift,Midnights (3am Edition),5,5,1,25,15,2,7146562,1249,11227230,0.73,0.08,0.18,38346,42,43,12,2,11,1
 2022-12-30,17,RE,--,False,False,98,--,MORE & MORE,TWICE,MORE & MORE,12,12,1,60,36,2,16181550,2830,10594710,0.82,0.09,0.09,82250,98,0,0,4,13,2
-2022-12-30,18,+56,74,False,False,96,4.33,ANTIFRAGILE,LE SSERAFIM,ANTIFRAGILE,11,11,1,55,33,2,14833087,2594,10594710,0.82,0.09,0.09,75670,90,6,0,2,10,1
-2022-12-30,19,-6,13,False,False,86,-0.28,Lavender Haze,Taylor Swift,Midnights (3am Edition),4,4,1,20,12,2,5925150,1036,11633850,0.7,0.08,0.22,32508,34,36,16,1,11,1
-2022-12-30,20,=,20,True,True,85,-0.06,Not What I Meant (feat. Lewis Watson),dodie,Human,7,7,1,35,21,2,10106250,1767,11340180,0.77,0.09,0.14,52815,58,27,0,20,15,2
-2022-12-30,21,-17,4,False,False,84,-0.46,Hurt,NewJeans,NewJeans 1st EP 'New Jeans',2,2,1,10,6,2,2852850,498,11204640,0.58,0.06,0.36,17395,18,48,18,4,8,1
-2022-12-30,22,=,22,True,True,83,0.01,Monster,dodie,Human,7,7,1,35,21,2,11076450,1936,10165500,0.77,0.09,0.14,47355,58,25,0,22,16,3
-2022-12-30,23,RE,--,True,False,82,--,Remember Me,OH MY GIRL,Remember Me,9,9,1,45,27,2,13565475,2372,11837160,0.8,0.09,0.11,69825,74,0,8,23,4,1
-2022-12-30,24,-13,11,False,False,82,-0.33,Wildest Dreams (Taylor's Version),Taylor Swift,Wildest Dreams (Taylor's Version),3,3,1,15,9,2,4054049,709,10617300,0.65,0.07,0.27,23079,26,37,19,1,35,7
-2022-12-30,25,RE,--,False,False,81,--,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),9,9,1,45,27,2,12993750,2272,11340180,0.8,0.09,0.11,66899,74,0,7,11,24,1
-2022-12-30,26,-16,10,False,False,79,-0.37,Cookie,NewJeans,NewJeans 1st EP 'New Jeans',2,2,1,10,6,2,2881725,504,11317590,0.58,0.06,0.36,17570,18,38,23,7,8,1
-2022-12-30,27,RE,--,False,False,74,--,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),9,9,1,45,27,2,13903312,2431,12130830,0.8,0.09,0.11,71554,74,0,0,26,15,1
-2022-12-30,28,-7,21,False,False,68,-0.21,Sonatine,LOOΠΔ 1/3,Love & Evil,2,2,1,10,6,2,2910600,509,11430540,0.58,0.06,0.36,17745,18,26,24,5,20,1
-2022-12-30,29,-10,19,False,False,65,-0.31,Blue Flame,LE SSERAFIM,FEARLESS,2,2,1,10,6,2,3026100,529,11882340,0.58,0.06,0.36,18445,18,29,18,7,26,2
-2022-12-30,30,-15,15,False,False,57,-0.44,This Love (Taylor’s Version),Taylor Swift,This Love (Taylor’s Version),1,1,1,5,3,2,1414875,247,11114280,0.42,0.05,0.53,10353,10,31,16,1,31,1
-2022-12-30,31,+11,42,False,False,56,0.4,FEARLESS,LE SSERAFIM,FEARLESS,4,4,1,20,12,2,5844300,1022,11475720,0.7,0.08,0.22,32067,34,12,10,1,33,3
-2022-12-30,32,-14,18,False,False,55,-0.42,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4270612,746,11182050,0.65,0.07,0.27,24304,26,29,0,2,27,1
-2022-12-30,33,-6,27,False,False,52,-0.17,Blank Space,Taylor Swift,1989 (Deluxe),2,2,1,10,6,2,2858625,499,11227230,0.58,0.06,0.36,17430,18,19,15,3,26,1
-2022-12-30,34,-1,33,False,False,44,-0.08,Style,Taylor Swift,1989 (Deluxe),2,2,1,10,6,2,2870175,501,11272410,0.58,0.06,0.36,17500,18,15,11,4,29,1
-2022-12-30,35,-11,24,False,False,42,-0.46,Dark Paradise,Lana Del Rey,Born to Die (Deluxe Version),2,2,1,10,6,2,2922150,511,11475720,0.58,0.06,0.36,17815,18,24,0,24,3,1
-2022-12-30,36,-7,29,False,False,41,-0.27,Anti-Hero,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1501500,262,11791980,0.42,0.05,0.53,10983,10,17,14,2,11,1
-2022-12-30,37,-11,26,False,False,38,-0.42,Arms Unfolding,dodie,Human,2,2,1,10,6,2,2956800,517,11611260,0.58,0.06,0.36,18025,18,20,0,25,14,1
-2022-12-30,38,-10,28,False,False,38,-0.37,Question...?,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1305150,228,10255860,0.42,0.05,0.53,9555,10,18,10,6,11,1
-2022-12-30,39,RE,--,False,False,37,--,Sweet Nothing,Taylor Swift,Midnights (3am Edition),3,3,1,15,9,2,4296600,751,11249820,0.65,0.07,0.27,24451,26,0,11,6,10,1
-2022-12-30,40,RE,--,False,False,36,--,Paris,Taylor Swift,Midnights (3am Edition),3,3,1,15,9,2,4599787,804,12040470,0.65,0.07,0.27,26166,26,0,10,5,9,1
-2022-12-30,41,+4,45,False,False,35,0.06,Out of the Woods,Taylor Swift,1989 (Deluxe),2,2,1,10,6,2,3037650,531,11927520,0.58,0.06,0.36,18515,18,10,7,35,14,1
-2022-12-30,42,+9,51,False,False,34,0.17,O.O,NMIXX,AD MARE,2,2,1,10,6,2,2720025,475,10685070,0.58,0.06,0.36,16590,18,9,7,1,36,2
-2022-12-30,43,RE,--,False,False,30,--,Labyrinth,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,0,20,2,10,1
-2022-12-30,44,-19,25,False,False,30,-0.55,burned out,dodie,Human,1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,20,0,17,18,1
-2022-12-30,45,RE,--,False,False,29,--,Vigilante Shit,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1388887,242,10910970,0.42,0.05,0.53,10164,10,0,19,4,10,2
+2022-12-30,18,55,73,False,False,96,4.33,ANTIFRAGILE,LE SSERAFIM,ANTIFRAGILE,11,11,1,55,33,2,14833087,2594,10594710,0.82,0.09,0.09,75670,90,5,0,2,10,1
+2022-12-30,19,-6,13,False,False,86,-0.27,Lavender Haze,Taylor Swift,Midnights (3am Edition),4,4,1,20,12,2,5925150,1036,11633850,0.7,0.08,0.22,32508,34,35,15,1,11,1
+2022-12-30,20,=,20,False,True,85,-0.06,Not What I Meant (feat. Lewis Watson),dodie,Human,7,7,1,35,21,2,10106250,1767,11340180,0.77,0.09,0.14,52815,58,27,0,20,15,2
+2022-12-30,21,-17,4,False,False,84,-0.46,Hurt,NewJeans,NewJeans 1st EP 'New Jeans',2,2,1,10,6,2,2852850,498,11204640,0.58,0.06,0.36,17395,18,47,18,4,8,1
+2022-12-30,22,=,22,False,True,83,0.01,Monster,dodie,Human,7,7,1,35,21,2,11076450,1936,10165500,0.77,0.09,0.14,47355,58,24,0,22,16,3
+2022-12-30,23,RE,--,True,False,82,--,Remember Me,OH MY GIRL,OH MY GIRL 6th Mini Album [REMEMBER ME],9,9,1,45,27,2,11850300,2072,10346220,0.8,0.09,0.11,61046,74,0,7,23,4,1
+2022-12-30,24,-13,11,False,False,82,-0.33,Wildest Dreams (Taylor's Version),Taylor Swift,Wildest Dreams (Taylor's Version),3,3,1,15,9,2,4054049,709,10617300,0.65,0.07,0.27,23079,26,36,18,1,35,7
+2022-12-30,25,RE,--,False,False,81,--,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),9,9,1,45,27,2,12993750,2272,11340180,0.8,0.09,0.11,66899,74,0,6,11,24,1
+2022-12-30,26,-16,10,False,False,79,-0.37,Cookie,NewJeans,NewJeans 1st EP 'New Jeans',2,2,1,10,6,2,2881725,504,11317590,0.58,0.06,0.36,17570,18,37,22,7,8,1
+2022-12-30,27,RE,--,False,False,74,--,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),9,9,1,45,27,2,13903312,2431,12130830,0.8,0.09,0.11,71554,74,0,0,26,18,1
+2022-12-30,28,-7,21,False,False,68,-0.21,Sonatine,LOOΠΔ 1/3,Love & Evil,2,2,1,10,6,2,2910600,509,11430540,0.58,0.06,0.36,17745,18,25,24,5,20,1
+2022-12-30,29,-10,19,False,False,65,-0.31,Blue Flame,LE SSERAFIM,FEARLESS,2,2,1,10,6,2,3026100,529,11882340,0.58,0.06,0.36,18445,18,28,18,7,26,2
+2022-12-30,30,-15,15,False,False,57,-0.44,This Love (Taylor’s Version),Taylor Swift,This Love (Taylor’s Version),1,1,1,5,3,2,1414875,247,11114280,0.42,0.05,0.53,10353,10,30,15,1,31,1
+2022-12-30,31,10,41,False,False,56,0.4,FEARLESS,LE SSERAFIM,FEARLESS,4,4,1,20,12,2,5844300,1022,11475720,0.7,0.08,0.22,32067,34,12,9,1,33,3
+2022-12-30,32,-14,18,False,False,55,-0.42,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4270612,746,11182050,0.65,0.07,0.27,24304,26,28,0,2,27,1
+2022-12-30,33,-6,27,False,False,52,-0.16,Blank Space,Taylor Swift,1989 (Deluxe),2,2,1,10,6,2,2858625,499,11227230,0.58,0.06,0.36,17430,18,18,14,3,25,1
+2022-12-30,34,-1,33,False,False,43,-0.09,Style,Taylor Swift,1989 (Deluxe),2,2,1,10,6,2,2870175,501,11272410,0.58,0.06,0.36,17500,18,14,10,4,29,1
+2022-12-30,35,-11,24,False,False,42,-0.46,Dark Paradise,Lana Del Rey,Born to Die (Deluxe Version),2,2,1,10,6,2,2922150,511,11475720,0.58,0.06,0.36,17815,18,23,0,24,3,1
+2022-12-30,36,-7,29,False,False,41,-0.27,Anti-Hero,Taylor Swift,Midnights,1,1,1,5,3,2,1400437,244,11001330,0.42,0.05,0.53,10248,10,16,13,3,11,1
+2022-12-30,37,-11,26,False,False,38,-0.42,Arms Unfolding,dodie,Human,2,2,1,10,6,2,2956800,517,11611260,0.58,0.06,0.36,18025,18,19,0,25,14,1
+2022-12-30,38,-10,28,False,False,38,-0.37,Question...?,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1305150,228,10255860,0.42,0.05,0.53,9555,10,18,9,6,11,1
+2022-12-30,39,RE,--,False,False,37,--,Sweet Nothing,Taylor Swift,Midnights (3am Edition),3,3,1,15,9,2,4296600,751,11249820,0.65,0.07,0.27,24451,26,0,10,6,10,1
+2022-12-30,40,RE,--,False,False,36,--,Paris,Taylor Swift,Midnights (3am Edition),3,3,1,15,9,2,4599787,804,12040470,0.65,0.07,0.27,26166,26,0,9,5,9,1
+2022-12-30,41,4,45,False,False,35,0.09,Out of the Woods,Taylor Swift,1989 (Deluxe),2,2,1,10,6,2,3037650,531,11927520,0.58,0.06,0.36,18515,18,9,6,35,14,1
+2022-12-30,42,9,51,False,False,34,0.17,O.O,NMIXX,AD MARE,2,2,1,10,6,2,2720025,475,10685070,0.58,0.06,0.36,16590,18,8,6,1,36,2
+2022-12-30,43,RE,--,False,False,30,--,Labyrinth,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,0,19,2,10,1
+2022-12-30,44,-19,25,False,False,30,-0.55,burned out,dodie,Human,1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,19,0,17,18,1
+2022-12-30,45,RE,--,False,False,29,--,Vigilante Shit,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1388887,242,10910970,0.42,0.05,0.53,10164,10,0,18,4,10,2
 2022-12-30,46,RE,--,False,False,29,--,Maroon,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1400437,244,11001330,0.42,0.05,0.53,10248,10,0,19,3,10,1
-2022-12-30,47,RE,--,False,False,29,--,Karma,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1305150,228,10255860,0.42,0.05,0.53,9555,10,0,19,3,10,1
-2022-12-30,48,RE,--,False,False,28,--,Beautiful Eyes,Taylor Swift,Beautiful Eyes,3,3,2,15,9,4,3958762,692,20737620,0.51,0.06,0.43,25759,28,0,0,11,4,1
-2022-12-30,49,RE,--,False,False,23,--,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1513050,264,11882340,0.42,0.05,0.53,11067,10,0,13,2,40,2
-2022-12-30,50,RE,--,False,False,22,--,You're on Your Own Kid,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1458187,255,11453130,0.42,0.05,0.53,10668,10,0,12,4,10,1
-2022-12-30,51,+8,59,True,True,22,-0.08,Welcome to New York,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1380225,241,10843200,0.42,0.05,0.53,10101,10,8,4,51,14,2
-2022-12-30,52,+17,69,False,False,22,0.16,I Wish You Would,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1322475,231,10391400,0.42,0.05,0.53,9681,10,6,6,16,6,1
-2022-12-30,53,+7,60,True,False,22,-0.08,All You Had to Do Was Stay,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1440862,252,11317590,0.42,0.05,0.53,10542,10,8,4,53,4,1
-2022-12-30,54,+32,86,False,False,21,1.1,Take It,IVE,ELEVEN,2,2,1,10,6,2,3170475,453,10188090,0.58,0.06,0.36,15820,18,3,0,10,20,1
-2022-12-30,55,RE,--,False,False,20,--,Bejeweled,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1579462,276,12401910,0.42,0.05,0.53,9450,10,0,10,5,10,1
-2022-12-30,56,NEW,--,True,False,18,--,Yes I Am,MAMAMOO,Purple,2,2,1,10,6,2,2604525,455,10233270,0.58,0.06,0.36,15890,18,0,0,56,1,1
-2022-12-30,57,RE,--,False,False,18,--,La Vie en Rose,IZ*ONE,COLOR*IZ,2,2,1,10,6,2,3106950,543,12198600,0.58,0.06,0.36,18935,18,0,0,28,16,1
-2022-12-30,58,RE,--,False,False,18,--,I Heart ?,Taylor Swift,Beautiful Eyes,2,2,1,10,6,2,2714250,474,10662480,0.58,0.06,0.36,16555,18,0,0,4,3,1
-2022-12-30,59,RE,--,False,False,18,--,Crazy Sexy Cool,Astro,Dream Pt. 2,2,2,1,10,6,2,2818200,492,11069100,0.58,0.06,0.36,17185,18,0,0,19,3,1
-2022-12-30,60,RE,--,False,False,17,--,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,0,7,2,39,1
-2022-12-30,61,RE,--,False,False,16,--,UNNATURAL,WJSN,UNNATURAL,1,1,1,5,3,2,1365787,238,10730250,0.42,0.05,0.53,9996,10,0,6,1,37,4
-2022-12-30,62,+17,79,False,False,15,0.07,Shake It Off,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1331137,232,10459170,0.42,0.05,0.53,9744,10,5,0,4,17,1
-2022-12-30,63,+30,93,False,False,13,0.3,NAVILLERA,GFRIEND,GFriend The 1st Album 'LOL',1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,3,0,9,25,1
-2022-12-30,64,+35,99,True,False,13,0.3,I Know Places,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1302262,227,10233270,0.42,0.05,0.53,9534,10,3,0,64,2,1
-2022-12-30,65,+35,100,True,False,13,0.3,How You Get the Girl,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1371562,239,10775430,0.42,0.05,0.53,10038,10,3,0,65,2,1
+2022-12-30,47,RE,--,False,False,29,--,Karma,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1305150,228,10255860,0.42,0.05,0.53,9555,10,0,18,3,10,1
+2022-12-30,48,RE,--,False,False,25,--,Beautiful Eyes,Taylor Swift,Beautiful Eyes - EP,3,2,2,15,6,4,4443862,518,23267700,0.52,0.04,0.44,25284,25,0,0,11,4,1
+2022-12-30,49,RE,--,False,False,23,--,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1513050,264,11882340,0.42,0.05,0.53,11067,10,0,12,2,39,2
+2022-12-30,50,RE,--,False,False,22,--,You're on Your Own Kid,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1458187,255,11453130,0.42,0.05,0.53,10668,10,0,11,4,10,1
+2022-12-30,51,8,59,False,True,22,-0.08,Welcome to New York,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1380225,241,10843200,0.42,0.05,0.53,10101,10,7,3,51,14,2
+2022-12-30,52,34,86,False,False,21,1.1,Take It,IVE,ELEVEN,2,2,1,10,6,2,3170475,453,10188090,0.58,0.06,0.36,15820,18,3,0,10,20,1
+2022-12-30,53,22,75,False,False,21,0.17,I Wish You Would,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1322475,231,10391400,0.42,0.05,0.53,9681,10,5,5,16,6,1
+2022-12-30,54,RE,--,False,False,20,--,Bejeweled,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1579462,276,12401910,0.42,0.05,0.53,9450,10,0,9,5,10,1
+2022-12-30,55,RE,--,True,False,18,--,Yes I Am,MAMAMOO,Purple,2,2,1,10,6,2,2604525,455,10233270,0.58,0.06,0.36,15890,18,0,0,55,2,1
+2022-12-30,56,RE,--,False,False,18,--,La Vie en Rose,IZ*ONE,COLOR*IZ,2,2,1,10,6,2,3106950,543,12198600,0.58,0.06,0.36,18935,18,0,0,28,16,1
+2022-12-30,57,RE,--,False,False,18,--,I Heart ?,Taylor Swift,Beautiful Eyes - EP,2,2,1,10,6,2,3095400,541,12153420,0.58,0.06,0.36,18865,18,0,0,4,3,1
+2022-12-30,58,RE,--,False,False,18,--,Crazy Sexy Cool,Astro,Dream Pt. 2,2,2,1,10,6,2,2818200,492,11069100,0.58,0.06,0.36,17185,18,0,0,19,3,1
+2022-12-30,59,RE,--,False,False,17,--,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,0,7,2,39,1
+2022-12-30,60,RE,--,False,False,16,--,UNNATURAL,WJSN,UNNATURAL,1,1,1,5,3,2,1365787,238,10730250,0.42,0.05,0.53,9996,10,0,5,1,37,4
+2022-12-30,61,13,74,True,False,16,-0.11,All You Had to Do Was Stay,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1440862,252,11317590,0.42,0.05,0.53,10542,10,5,0,61,3,1
+2022-12-30,62,17,79,False,False,15,0.07,Shake It Off,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1331137,232,10459170,0.42,0.05,0.53,9744,10,4,0,8,17,2
+2022-12-30,63,30,93,False,False,13,0.3,NAVILLERA,GFRIEND,GFriend The 1st Album 'LOL',1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,3,0,9,25,1
+2022-12-30,64,35,99,True,False,13,0.3,I Know Places,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1302262,227,10233270,0.42,0.05,0.53,9534,10,3,0,64,2,1
+2022-12-30,65,35,100,True,False,13,0.3,How You Get the Girl,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1371562,239,10775430,0.42,0.05,0.53,10038,10,3,0,65,2,1
 2022-12-30,66,RE,--,False,False,10,--,키스는 다음에,Loona,YeoJin,1,1,1,5,3,2,1394662,243,10956150,0.42,0.05,0.53,10206,10,0,0,6,8,1
 2022-12-30,67,NEW,--,True,False,10,--,너 아님 안돼,2NE1,CRUSH,1,1,1,5,3,2,1322475,231,10391400,0.42,0.05,0.53,9681,10,0,0,67,1,1
 2022-12-30,68,RE,--,False,False,10,--,YOUNG & WILD,TWICE,YES or YES,1,1,1,5,3,2,1299375,227,10210680,0.42,0.05,0.53,9513,10,0,0,6,7,1
 2022-12-30,69,RE,--,False,False,10,--,WITHOUT YOU (Sung by JAEHYUN DOYOUNG TAEIL),NCT U,Without You,1,1,1,5,3,2,1435087,250,11272410,0.42,0.05,0.53,10500,10,0,0,51,6,1
 2022-12-30,70,RE,--,False,False,10,--,With You,Red Velvet,Summer Magic - Summer Mini Album,1,1,1,5,3,2,1313812,229,10323630,0.42,0.05,0.53,9618,10,0,0,35,3,1
-2022-12-30,71,RE,--,False,False,10,--,WILDSIDE,Red Velvet,Bloom,1,1,1,5,3,2,1391775,243,10933560,0.42,0.05,0.53,10185,10,0,0,38,2,1
+2022-12-30,71,RE,--,False,False,10,--,WILDSIDE,Red Velvet,Bloom,1,1,1,5,3,2,1391775,243,10933560,0.42,0.05,0.53,10185,10,0,0,37,2,1
 2022-12-30,72,NEW,--,True,False,10,--,WILD,Troye Sivan,Blue Neighbourhood (Deluxe),1,1,1,5,3,2,1299375,227,10210680,0.42,0.05,0.53,9513,10,0,0,72,1,1
 2022-12-30,73,RE,--,False,False,10,--,Why Not?,Loona,[12:00],1,1,1,5,3,2,1319587,230,10368810,0.42,0.05,0.53,9660,10,0,0,20,9,1
-2022-12-30,74,RE,--,False,False,10,--,What Is Love,TWICE,What is Love?,1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,0,0,9,12,1
-2022-12-30,75,RE,--,False,False,10,--,Wake Me Up,TWICE,Wake Me Up,1,1,1,5,3,2,1403325,245,11023920,0.42,0.05,0.53,10269,10,0,0,68,3,1
-2022-12-30,76,RE,--,False,False,10,--,TT,TWICE,TWICEcoaster: LANE1,1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,0,0,24,7,1
+2022-12-30,74,RE,--,False,False,10,--,What Is Love,TWICE,Summer Nights,1,1,1,5,3,2,1487062,260,11679030,0.42,0.05,0.53,10878,10,0,0,9,13,1
+2022-12-30,75,RE,--,False,False,10,--,Wake Me Up,TWICE,Wake Me Up,1,1,1,5,3,2,1403325,245,11023920,0.42,0.05,0.53,10269,10,0,0,60,4,1
+2022-12-30,76,RE,--,False,False,10,--,TT,TWICE,TWICEcoaster: LANE 1,1,1,1,5,3,2,1403325,245,11023920,0.42,0.05,0.53,10269,10,0,0,24,6,1
 2022-12-30,77,NEW,--,True,False,10,--,Touch,miss A,Touch,1,1,1,5,3,2,1400437,244,11001330,0.42,0.05,0.53,10248,10,0,0,77,1,1
 2022-12-30,78,RE,--,False,False,10,--,THRILL RIDE,THE BOYZ,THE BOYZ 6TH MINI ALBUM [THRILL-ING],1,1,1,5,3,2,1513050,264,11882340,0.42,0.05,0.53,11067,10,0,0,38,5,1
 2022-12-30,79,RE,--,False,False,10,--,The Very First Night (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1386000,242,10888380,0.42,0.05,0.53,10143,10,0,0,4,13,2
-2022-12-30,80,RE,--,False,False,10,--,Talk to Me,Red Velvet,Rookie - The 4th Mini Album,1,1,1,5,3,2,1328250,232,10436580,0.42,0.05,0.53,9723,10,0,0,3,9,1
-2022-12-30,81,RE,--,False,False,10,--,Swimming Pool,Red Velvet,SAPPY,1,1,1,5,3,2,1576575,275,12379320,0.42,0.05,0.53,11529,10,0,0,3,4,1
-2022-12-30,82,RE,--,False,False,10,--,Stylish,Loona,[+ +],1,1,1,5,3,2,1397550,244,10978740,0.42,0.05,0.53,10227,10,0,0,20,10,2
-2022-12-30,83,RE,--,False,False,10,--,SPARK,A.C.E,Light on Me (Original Television Soundtrack) Pt. 1,1,1,1,5,3,2,1319587,230,10368810,0.42,0.05,0.53,9660,10,0,0,3,6,1
+2022-12-30,80,RE,--,False,False,10,--,Talk to Me,Red Velvet,Rookie - The 4th Mini Album - EP,1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,0,0,3,9,1
+2022-12-30,81,RE,--,False,False,10,--,Swimming Pool,Red Velvet,SAPPY - EP,1,1,1,5,3,2,1406212,245,11046510,0.42,0.05,0.53,10290,10,0,0,3,4,1
+2022-12-30,82,RE,--,False,False,10,--,Stylish,Loona,[+ +],1,1,1,5,3,2,1397550,244,10978740,0.42,0.05,0.53,10227,10,0,0,20,9,2
+2022-12-30,83,RE,--,False,False,10,--,SPARK,A.C.E,Light on Me (Original Television Soundtrack) Pt. 1,1,1,1,5,3,2,1319587,230,10368810,0.42,0.05,0.53,9660,10,0,0,2,6,1
 2022-12-30,84,RE,--,False,False,10,--,Simon Says,NCT 127,NCT #127 Regulate - The 1st Album Repackage,1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,0,0,1,6,1
-2022-12-30,85,RE,--,False,False,10,--,Side Effects,Stray Kids,SKZ2020,1,1,1,5,3,2,1585237,226,10188090,0.42,0.05,0.53,9492,10,0,0,42,4,1
-2022-12-30,86,RE,--,False,False,10,--,Secret,WJSN,The Secret,1,1,1,5,3,2,1573687,275,12356730,0.42,0.05,0.53,11508,10,0,0,8,21,1
-2022-12-30,87,RE,--,True,False,10,--,Run Devil Run,Girls' Generation,Run Devil Run - The 2nd Album Repackage,1,1,1,5,3,2,1513050,264,11882340,0.42,0.05,0.53,11067,10,0,0,87,1,1
+2022-12-30,85,RE,--,False,False,10,--,Side Effects,Stray Kids,Clé 2 : Yellow Wood,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,0,0,42,4,1
+2022-12-30,86,RE,--,False,False,10,--,Secret,WJSN,The Secret,1,1,1,5,3,2,1573687,275,12356730,0.42,0.05,0.53,11508,10,0,0,7,21,1
+2022-12-30,87,NEW,--,True,False,10,--,Run Devil Run,Girls' Generation,Run Devil Run - The 2nd Album Repackage,1,1,1,5,3,2,1513050,264,11882340,0.42,0.05,0.53,11067,10,0,0,87,1,1
 2022-12-30,88,RE,--,False,False,10,--,Run (feat. Ed Sheeran) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1573687,275,12356730,0.42,0.05,0.53,11508,10,0,0,5,14,1
-2022-12-30,89,RE,--,False,False,10,--,Rookie,Red Velvet,Rookie - The 4th Mini Album,1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,0,0,7,5,1
-2022-12-30,90,RE,--,False,False,10,--,Ridin',NCT DREAM,Reload,1,1,1,5,3,2,1469737,257,11543490,0.42,0.05,0.53,10752,10,0,0,6,4,1
+2022-12-30,89,RE,--,False,False,10,--,Rookie,Red Velvet,Rookie - The 4th Mini Album,1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,0,0,6,5,1
+2022-12-30,90,RE,--,False,False,10,--,Ridin',NCT DREAM,Reload,1,1,1,5,3,2,1469737,257,11543490,0.42,0.05,0.53,10752,10,0,0,4,4,1
 2022-12-30,91,RE,--,False,False,10,--,Red Flavor,Red Velvet,The Red Summer - Summer Mini Album,1,1,1,5,3,2,1446637,253,11362770,0.42,0.05,0.53,10584,10,0,0,9,15,1
 2022-12-30,92,RE,--,False,False,10,--,Really Don't Care,Demi Lovato,Demi,1,1,1,5,3,2,1377337,240,10820610,0.42,0.05,0.53,10080,10,0,0,2,11,1
-2022-12-30,93,RE,--,False,False,10,--,Punch,NCT 127,NCT #127 Neo Zone: The Final Round – The 2nd Album Repackage,1,1,1,5,3,2,1518825,265,11927520,0.42,0.05,0.53,11109,10,0,0,2,7,1
+2022-12-30,93,RE,--,False,False,10,--,Punch,NCT 127,NCT #127 Neo Zone The Final Round – The 2nd Album Repackage,1,1,1,5,3,2,1397550,244,10978740,0.42,0.05,0.53,10227,10,0,0,1,7,1
 2022-12-30,94,RE,--,False,False,10,--,Pompeii,Bastille,Bad Blood,1,1,1,5,3,2,1371562,239,10775430,0.42,0.05,0.53,10038,10,0,0,40,5,1
 2022-12-30,95,RE,--,False,False,10,--,Pirate,Everglow,Return of the Girl,1,1,1,5,3,2,1417762,247,11136870,0.42,0.05,0.53,10374,10,0,0,38,2,1
-2022-12-30,96,RE,--,False,False,10,--,Oh! my mistake,April,APRIL 6th Mini Album 'the Ruby',1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,0,0,10,6,1
+2022-12-30,96,RE,--,False,False,10,--,Oh! my mistake,April,APRIL 6th Mini Album 'the Ruby' - EP,1,1,1,5,3,2,1458187,255,11453130,0.42,0.05,0.53,10668,10,0,0,10,6,1
 2022-12-30,97,RE,--,False,False,10,--,Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1362900,238,10707660,0.42,0.05,0.53,9975,10,0,0,2,30,1
 2022-12-30,98,NEW,--,True,False,10,--,Next Level,aespa,Next Level,1,1,1,5,3,2,1400437,244,11001330,0.42,0.05,0.53,10248,10,0,0,98,1,1
-2022-12-30,99,RE,--,False,False,10,--,My My,Seventeen,Heng:garæ,1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,0,0,31,2,1
-2022-12-30,100,RE,--,False,False,10,--,Most Girls,Hailee Steinfeld,Most Girls,1,1,1,5,3,2,1437975,251,11295000,0.42,0.05,0.53,10521,10,0,0,14,7,1
+2022-12-30,99,RE,--,False,False,10,--,My My,Seventeen,SEVENTEEN 7th Mini Album '헹가래(Heng:garae)',1,1,1,5,3,2,1331137,232,10459170,0.42,0.05,0.53,9744,10,0,0,31,2,1
+2022-12-30,100,RE,--,False,False,10,--,Most Girls,Hailee Steinfeld,Most Girls,1,1,1,5,3,2,1437975,251,11295000,0.42,0.05,0.53,10521,10,0,0,13,7,1

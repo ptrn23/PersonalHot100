@@ -36,7 +36,7 @@ class ChartEntry:
     @property
     def status(self):
         """calculate rise / fall status"""
-        if self.previous_position is None:
+        if self.weeks_on_chart == 1:
             return "NEW"
         if self.previous_position == "--":
             return "RE"

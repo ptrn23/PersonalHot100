@@ -4,15 +4,15 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2020-09-25,3,RE,--,True,False,18,--,peace,Taylor Swift,folklore,2,2,1,10,6,2,3095400,541,12153420,0.58,0.06,0.36,18865,18,0,0,3,2,1
 2020-09-25,4,RE,--,False,False,18,--,my tears ricochet,Taylor Swift,folklore,2,2,1,10,6,2,2991450,523,11746800,0.58,0.06,0.36,18235,18,0,0,2,2,1
 2020-09-25,5,RE,--,True,False,18,--,Macavity,Taylor Swift,Cats: Highlights From the Motion Picture Soundtrack,2,2,1,10,6,2,2691150,470,10572120,0.58,0.06,0.36,16415,18,0,0,5,2,1
-2020-09-25,6,RE,--,True,True,18,--,illicit affairs,Taylor Swift,folklore,2,2,1,10,6,2,2731575,477,10730250,0.58,0.06,0.36,16660,18,0,0,6,2,2
+2020-09-25,6,RE,--,False,True,18,--,illicit affairs,Taylor Swift,folklore,2,2,1,10,6,2,2731575,477,10730250,0.58,0.06,0.36,16660,18,0,0,6,2,2
 2020-09-25,7,RE,--,True,False,18,--,exile,Taylor Swift Bon Iver,folklore,2,2,1,10,6,2,2639175,461,10368810,0.58,0.06,0.36,16099,18,0,0,7,2,1
 2020-09-25,8,RE,--,True,False,18,--,Death by a Thousand Cuts,Taylor Swift,Lover,2,2,1,10,6,2,2864400,500,11249820,0.58,0.06,0.36,17465,18,0,0,8,3,1
 2020-09-25,9,NEW,--,True,False,18,--,All Too Well,Taylor Swift,Red (Deluxe Version),2,2,1,10,6,2,2829750,494,11114280,0.58,0.06,0.36,17255,18,0,0,9,1,1
-2020-09-25,10,-3,7,False,False,14,0.17,Stronger,TWICE,&TWICE,1,1,1,5,3,2,1383112,241,10865790,0.42,0.05,0.53,10122,10,4,0,7,3,1
-2020-09-25,11,-2,9,False,False,14,0.17,Pink Lemonade,TWICE,Wake Me Up,1,1,1,5,3,2,1469737,257,11543490,0.42,0.05,0.53,10752,10,4,0,9,3,1
-2020-09-25,12,+41,53,True,False,13,0.3,TRICK IT,TWICE,Feel Special,1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,3,0,12,2,1
-2020-09-25,13,+46,59,True,False,13,0.3,the lakes (bonus track),Taylor Swift,folklore,1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,3,0,13,2,1
-2020-09-25,14,+65,79,False,False,13,0.3,seven,Taylor Swift,folklore,1,1,1,5,3,2,1313812,229,10323630,0.42,0.05,0.53,9618,10,3,0,4,3,1
+2020-09-25,10,-3,7,False,False,14,0.17,Stronger,TWICE,&TWICE,1,1,1,5,3,2,1383112,241,10865790,0.42,0.05,0.53,10122,10,3,0,7,3,1
+2020-09-25,11,-2,9,False,False,14,0.17,Pink Lemonade,TWICE,Wake Me Up,1,1,1,5,3,2,1469737,257,11543490,0.42,0.05,0.53,10752,10,3,0,9,3,1
+2020-09-25,12,41,53,True,False,13,0.3,TRICK IT,TWICE,Feel Special,1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,3,0,12,2,1
+2020-09-25,13,46,59,True,False,13,0.3,the lakes (bonus track),Taylor Swift,folklore,1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,3,0,13,2,1
+2020-09-25,14,65,79,False,False,13,0.3,seven,Taylor Swift,folklore,1,1,1,5,3,2,1313812,229,10323630,0.42,0.05,0.53,9618,10,3,0,4,3,1
 2020-09-25,15,NEW,--,True,False,10,--,힘내! (DON`T GIVE UP),TWICE (트와이스),twicetagram,1,1,1,5,3,2,1377337,240,10820610,0.42,0.05,0.53,10080,10,0,0,15,1,1
 2020-09-25,16,RE,--,True,False,10,--,하루에 세번 THREE TIMES A DAY,TWICE (트와이스),Signal - EP,1,1,1,5,3,2,1360012,237,10685070,0.42,0.05,0.53,9954,10,0,0,16,2,1
 2020-09-25,17,NEW,--,True,False,10,--,툭하면 톡 Tuk Tok,TWICE (트와이스),PAGE TWO - EP,1,1,1,5,3,2,1562137,273,12266370,0.42,0.05,0.53,11424,10,0,0,17,1,1
@@ -79,7 +79,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2020-09-25,78,NEW,--,True,False,10,--,The Lucky One,Taylor Swift,Red (Deluxe Version),1,1,1,5,3,2,1302262,227,10233270,0.42,0.05,0.53,9534,10,0,0,78,1,1
 2020-09-25,79,RE,--,False,False,10,--,the light is coming (feat. Nicki Minaj),Ariana Grande,Sweetener,1,1,1,5,3,2,1455300,254,11430540,0.42,0.05,0.53,10647,10,0,0,6,2,1
 2020-09-25,80,NEW,--,True,False,10,--,The Last Time (Feat.Gary Lightbody of Snow Patrol),Taylor Swift,Red (Deluxe Version),1,1,1,5,3,2,1302262,227,10233270,0.42,0.05,0.53,9534,10,0,0,80,1,1
-2020-09-25,81,RE,--,False,False,10,--,The Best Day,Taylor Swift,Fearless (Platinum Edition),1,1,1,5,3,2,1437975,251,11295000,0.42,0.05,0.53,10521,10,0,0,33,2,1
+2020-09-25,81,RE,--,False,False,10,--,The Best Day,Taylor Swift,Fearless (Big Machine Radio Release Special),1,1,1,5,3,2,1316700,230,10346220,0.42,0.05,0.53,9639,10,0,0,33,2,1
 2020-09-25,82,RE,--,False,False,10,--,The Archer,Taylor Swift,Lover,1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,0,0,17,3,1
 2020-09-25,83,NEW,--,True,False,10,--,Tell Me Why,Taylor Swift,Fearless (Platinum Edition),1,1,1,5,3,2,1547700,270,12153420,0.42,0.05,0.53,11319,10,0,0,83,1,1
 2020-09-25,84,NEW,--,True,False,10,--,Teardrops On My Guitar (Radio Single Remix),Taylor Swift,Taylor Swift,1,1,1,5,3,2,1559250,272,12243780,0.42,0.05,0.53,11403,10,0,0,84,1,1

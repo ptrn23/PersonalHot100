@@ -1,101 +1,101 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2024-01-05,1,+6,7,True,False,352,0.93,American Idiot,Green Day,American Idiot,37,36,2,185,108,4,48611062,8273,20647260,0.85,0.09,0.06,240450,297,55,0,1,3,1
-2024-01-05,2,+7,9,True,False,331,0.9,Basket Case,Green Day,Dookie,35,33,2,175,99,4,52047187,8582,23358060,0.85,0.09,0.06,253820,278,53,0,2,2,1
-2024-01-05,3,-2,1,False,False,302,0.13,Wake Me Up When September Ends,Green Day,American Idiot,19,18,2,95,54,4,29570887,4898,24442380,0.81,0.09,0.11,147966,153,81,68,1,4,2
-2024-01-05,4,+17,21,True,False,293,1.55,21 Guns,Green Day,21st Century Breakdown,28,27,2,140,81,4,44063250,7429,24713460,0.83,0.09,0.07,218652,225,35,33,4,4,1
-2024-01-05,5,+18,23,True,False,282,1.66,Holiday / Boulevard of Broken Dreams,Green Day,American Idiot,31,31,1,155,93,2,47531137,8311,12040470,0.87,0.1,0.03,235494,250,32,0,5,2,1
-2024-01-05,6,+21,27,True,False,272,1.78,I Don't Love You,My Chemical Romance,The Black Parade,30,30,1,150,90,2,42446250,7423,11114280,0.87,0.1,0.04,210511,242,30,0,6,2,1
-2024-01-05,7,+11,18,True,False,268,0.94,Teenagers,My Chemical Romance,The Black Parade,28,28,1,140,84,2,43659000,7634,12243780,0.86,0.1,0.04,216657,226,42,0,7,2,1
-2024-01-05,8,+22,30,True,False,261,1.9,Famous Last Words,My Chemical Romance,The Black Parade,29,29,1,145,87,2,37933087,6635,10278450,0.87,0.1,0.04,188328,234,27,0,8,2,1
-2024-01-05,9,+15,24,True,False,250,1.36,Dead!,My Chemical Romance,The Black Parade,27,27,1,135,81,2,36486450,6382,10617300,0.86,0.1,0.04,181335,218,32,0,9,2,1
-2024-01-05,10,-6,4,False,False,232,-0.02,Welcome to the Black Parade,My Chemical Romance,The Black Parade,15,15,1,75,45,2,21353062,3734,11182050,0.84,0.09,0.07,107632,122,72,38,4,4,1
+2024-01-05,1,6,7,True,False,352,0.93,American Idiot,Green Day,American Idiot,37,36,2,185,108,4,48611062,8273,20647260,0.85,0.09,0.06,240450,297,54,0,1,3,1
+2024-01-05,2,7,9,True,False,331,0.9,Basket Case,Green Day,Dookie,35,33,2,175,99,4,52047187,8582,23358060,0.85,0.09,0.06,253820,278,52,0,2,2,1
+2024-01-05,3,-2,1,False,False,302,0.13,Wake Me Up When September Ends,Green Day,American Idiot,19,18,2,95,54,4,29570887,4898,24442380,0.81,0.09,0.11,147966,153,80,67,1,4,2
+2024-01-05,4,17,21,True,False,293,1.55,21 Guns,Green Day,21st Century Breakdown,28,27,2,140,81,4,44063250,7429,24713460,0.83,0.09,0.07,218652,225,34,32,4,4,1
+2024-01-05,5,18,23,True,False,282,1.66,Holiday / Boulevard of Broken Dreams,Green Day,American Idiot,31,31,1,155,93,2,47531137,8311,12040470,0.87,0.1,0.03,235494,250,31,0,5,2,1
+2024-01-05,6,21,27,True,False,272,1.78,I Don't Love You,My Chemical Romance,The Black Parade,30,30,1,150,90,2,42446250,7423,11114280,0.87,0.1,0.04,210511,242,29,0,6,2,1
+2024-01-05,7,11,18,True,False,268,0.94,Teenagers,My Chemical Romance,The Black Parade,28,28,1,140,84,2,43659000,7634,12243780,0.86,0.1,0.04,216657,226,41,0,7,2,1
+2024-01-05,8,22,30,True,False,261,1.9,Famous Last Words,My Chemical Romance,The Black Parade,29,29,1,145,87,2,37933087,6635,10278450,0.87,0.1,0.04,188328,234,27,0,8,2,1
+2024-01-05,9,15,24,True,False,250,1.36,Dead!,My Chemical Romance,The Black Parade,27,27,1,135,81,2,36486450,6382,10617300,0.86,0.1,0.04,181335,218,31,0,9,2,1
+2024-01-05,10,-6,4,False,False,232,-0.02,Welcome to the Black Parade,My Chemical Romance,The Black Parade,15,15,1,75,45,2,21353062,3734,11182050,0.84,0.09,0.07,107632,122,71,38,4,4,1
 2024-01-05,11,NEW,--,True,False,210,--,I'm Not Okay (I Promise),My Chemical Romance,Three Cheers for Sweet Revenge,26,26,1,130,78,2,33783750,5909,10210680,0.86,0.1,0.04,168063,210,0,0,11,1,1
 2024-01-05,12,NEW,--,True,False,202,--,The Ghost of You,My Chemical Romance,Three Cheers for Sweet Revenge,25,25,1,125,75,2,32700937,5720,10278450,0.86,0.1,0.04,162792,202,0,0,12,1,1
 2024-01-05,13,NEW,--,True,False,202,--,Helena,My Chemical Romance,Three Cheers for Sweet Revenge,25,25,1,125,75,2,37537500,6564,11791980,0.86,0.1,0.04,186711,202,0,0,13,1,1
-2024-01-05,14,-11,3,False,False,178,-0.26,Shake It Off (Taylor's Version),Taylor Swift,1989 (Taylor's Version),7,7,1,35,21,2,10369012,1813,11633850,0.77,0.09,0.14,54180,58,72,48,1,11,3
-2024-01-05,15,-10,5,False,False,175,-0.22,Style (Taylor's Version),Taylor Swift,1989 (Taylor's Version),6,6,1,30,18,2,8333325,1457,10910970,0.76,0.09,0.16,44044,50,67,58,2,11,2
+2024-01-05,14,-11,3,False,False,178,-0.26,Shake It Off (Taylor's Version),Taylor Swift,1989 (Taylor's Version),7,7,1,35,21,2,10369012,1813,11633850,0.77,0.09,0.14,54180,58,71,47,1,11,3
+2024-01-05,15,-10,5,False,False,175,-0.22,Style (Taylor's Version),Taylor Swift,1989 (Taylor's Version),6,6,1,30,18,2,8333325,1457,10910970,0.76,0.09,0.16,44044,50,66,57,2,11,2
 2024-01-05,16,NEW,--,True,False,168,--,Na Na Na (Na Na Na Na Na Na Na Na Na),My Chemical Romance,Danger Days: The True Lives of the Fabulous Killjoys,21,19,3,105,57,6,27832612,4404,31241969,0.78,0.08,0.14,139062,168,0,0,16,1,1
 2024-01-05,17,NEW,--,True,False,168,--,Look Ma No Brains!,Green Day,Look Ma No Brains!,21,19,3,105,57,6,33108075,5238,37137960,0.78,0.08,0.14,165249,168,0,0,17,1,1
-2024-01-05,18,-12,6,False,False,167,-0.16,Blank Space (Taylor's Version),Taylor Swift,1989 (Taylor's Version),6,6,1,30,18,2,9060975,1584,11859750,0.76,0.09,0.16,47866,50,60,57,1,11,2
+2024-01-05,18,-12,6,False,False,167,-0.16,Blank Space (Taylor's Version),Taylor Swift,1989 (Taylor's Version),6,6,1,30,18,2,9060975,1584,11859750,0.76,0.09,0.16,47866,50,59,56,1,11,2
 2024-01-05,19,NEW,--,True,False,162,--,Know Your Enemy,Green Day,21st Century Breakdown,20,20,1,100,60,2,27777750,4858,10910970,0.85,0.1,0.05,138908,162,0,0,19,1,1
 2024-01-05,20,NEW,--,True,False,154,--,When I Come Around,Green Day,Dookie,19,19,1,95,57,2,26169412,4577,10820610,0.85,0.1,0.06,131040,154,0,0,20,1,1
-2024-01-05,21,-19,2,False,False,153,-0.39,Make Your Own Kind of Music,Cass Elliot,Mama's Big Ones,2,2,1,10,6,2,2974125,520,11679030,0.58,0.06,0.36,18130,18,76,59,1,4,1
-2024-01-05,22,-14,8,False,False,149,-0.18,Since U Been Gone,Kelly Clarkson,Breakaway,7,6,2,35,18,4,10894537,1632,24442380,0.69,0.07,0.25,56910,57,55,37,8,14,1
+2024-01-05,21,-19,2,False,False,153,-0.39,Make Your Own Kind of Music,Cass Elliot,Mama's Big Ones,2,2,1,10,6,2,2974125,520,11679030,0.58,0.06,0.36,18130,18,75,58,1,4,1
+2024-01-05,22,-14,8,False,False,149,-0.18,Since U Been Gone,Kelly Clarkson,Breakaway,7,6,2,35,18,4,10894537,1632,24442380,0.69,0.07,0.25,56910,57,54,36,8,14,1
 2024-01-05,23,NEW,--,True,False,137,--,One Eyed Bastard,Green Day,One eyed Bastard,17,16,2,85,48,4,23856525,3927,22047840,0.8,0.08,0.12,119805,137,0,0,23,1,1
 2024-01-05,24,-13,11,False,False,134,-0.16,Breakaway,Kelly Clarkson,Breakaway,6,6,1,30,18,2,7917525,1384,10368810,0.76,0.09,0.16,41860,50,48,36,5,10,1
 2024-01-05,25,NEW,--,True,False,130,--,The American Dream Is Killing Me,Green Day,The American Dream Is Killing Me,16,16,1,80,48,2,24855600,4346,12198600,0.84,0.09,0.07,124971,130,0,0,25,1,1
 2024-01-05,26,NEW,--,True,False,130,--,Dilemma,Green Day,Dilemma,16,16,1,80,48,2,23100000,4040,11340180,0.84,0.09,0.07,116193,130,0,0,26,1,1
 2024-01-05,27,NEW,--,True,False,130,--,Blood - Hidden Track,My Chemical Romance,The Black Parade,16,16,1,80,48,2,21436800,3749,10526940,0.84,0.09,0.07,107877,130,0,0,27,1,1
-2024-01-05,28,-18,10,False,False,126,-0.27,Uptown Girl,Westlife,Coast to Coast (Expanded Edition),4,3,2,20,9,4,6121500,802,24035760,0.59,0.05,0.37,33579,33,52,41,1,23,2
+2024-01-05,28,-18,10,False,False,126,-0.27,Uptown Girl,Westlife,Coast to Coast (Expanded Edition),4,3,2,20,9,4,6121500,802,24035760,0.59,0.05,0.37,33579,33,51,41,1,23,2
 2024-01-05,29,NEW,--,True,False,122,--,Good Riddance (Time of Your Life),Green Day,Nimrod,15,15,1,75,45,2,21223125,3711,11114280,0.84,0.09,0.07,106981,122,0,0,29,1,1
-2024-01-05,30,-11,19,False,False,120,-0.06,Now That We Don't Talk (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),6,6,1,30,18,2,8004149,1400,10481760,0.76,0.09,0.16,42315,50,39,31,1,11,1
-2024-01-05,31,-19,12,False,False,114,-0.28,Because of You,Kelly Clarkson,Breakaway,4,4,1,20,12,2,5463150,955,10730250,0.7,0.08,0.22,29988,34,48,32,10,10,1
-2024-01-05,32,-16,16,False,False,113,-0.21,Talking In Your Sleep (2023 Remaster),The Romantics,In Heat (2023 Remaster),4,4,1,20,12,2,5786550,1012,11362770,0.7,0.08,0.22,31752,34,43,36,5,4,1
-2024-01-05,33,-13,20,False,False,108,-0.1,Take on Me,a-ha,Hunting High and Low,5,3,3,25,9,6,6583500,690,31038660,0.55,0.04,0.41,35343,40,36,32,16,4,1
-2024-01-05,34,-19,15,False,False,107,-0.26,My Life Would Suck Without You,Kelly Clarkson,All I Ever Wanted,3,3,1,15,9,2,4686412,819,12266370,0.65,0.07,0.27,26656,26,44,37,8,4,1
+2024-01-05,30,-11,19,False,False,120,-0.06,Now That We Don't Talk (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),6,6,1,30,18,2,8004149,1400,10481760,0.76,0.09,0.16,42315,50,38,30,1,11,1
+2024-01-05,31,-19,12,False,False,114,-0.28,Because of You,Kelly Clarkson,Breakaway,4,4,1,20,12,2,5463150,955,10730250,0.7,0.08,0.22,29988,34,47,32,10,10,1
+2024-01-05,32,-16,16,False,False,113,-0.21,Talking In Your Sleep (2023 Remaster),The Romantics,In Heat (2023 Remaster),4,4,1,20,12,2,5786550,1012,11362770,0.7,0.08,0.22,31752,34,42,36,5,4,1
+2024-01-05,33,-13,20,False,False,108,-0.1,Take on Me,a-ha,Hunting High and Low,5,3,3,25,9,6,6583500,690,31038660,0.55,0.04,0.41,35343,40,36,31,16,4,1
+2024-01-05,34,-19,15,False,False,107,-0.26,My Life Would Suck Without You,Kelly Clarkson,All I Ever Wanted,3,3,1,15,9,2,4686412,819,12266370,0.65,0.07,0.27,26656,26,43,37,8,4,1
 2024-01-05,35,-22,13,False,False,105,-0.3,A Thousand Miles,Vanessa Carlton,Be Not Nobody,3,3,1,15,9,2,4539150,793,11882340,0.65,0.07,0.27,25823,26,45,34,1,18,2
-2024-01-05,36,-8,28,False,False,98,0.03,Midnight Rain,Taylor Swift,Midnights (3am Edition),4,4,1,20,12,2,5255250,919,10323630,0.7,0.08,0.22,28854,34,29,35,1,56,2
-2024-01-05,37,-11,26,False,False,95,-0.05,Vision of Love,Mariah Carey,Mariah Carey,4,4,1,20,12,2,5763450,1008,11317590,0.7,0.08,0.22,31626,34,30,31,17,5,1
-2024-01-05,38,-24,14,False,False,78,-0.46,Baddie,IVE,I'VE MINE,1,1,1,5,3,2,1388887,242,10910970,0.42,0.05,0.53,10164,10,44,24,14,3,1
-2024-01-05,39,-3,36,False,False,77,0.05,Bad Blood (feat. Kendrick Lamar) (Taylor's Version),Taylor Swift,1989 (Taylor's Version) [Deluxe],4,4,1,20,12,2,6317850,1104,12401910,0.7,0.08,0.22,28350,34,22,21,5,10,1
-2024-01-05,40,-11,29,False,False,76,-0.19,Here Comes the Sun - Remastered 2009,The Beatles,Abbey Road (Remastered),2,2,1,10,6,2,2795100,488,10978740,0.58,0.06,0.36,17045,18,29,29,20,4,1
-2024-01-05,41,-24,17,False,False,75,-0.46,burned out,dodie,Human,1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,42,23,17,24,2
+2024-01-05,36,-8,28,False,False,98,0.03,Midnight Rain,Taylor Swift,Midnights (3am Edition),4,4,1,20,12,2,5255250,919,10323630,0.7,0.08,0.22,28854,34,28,34,1,56,2
+2024-01-05,37,-11,26,False,False,95,-0.05,Vision of Love,Mariah Carey,#1's,4,4,1,20,12,2,5902050,1032,11588670,0.7,0.08,0.22,32382,34,30,30,17,5,1
+2024-01-05,38,-24,14,False,False,78,-0.46,Baddie,IVE,I'VE MINE,1,1,1,5,3,2,1388887,242,10910970,0.42,0.05,0.53,10164,10,43,23,14,3,1
+2024-01-05,39,-3,36,False,False,77,0.05,Bad Blood (feat. Kendrick Lamar) (Taylor's Version),Taylor Swift,1989 (Taylor's Version) [Deluxe],4,4,1,20,12,2,6317850,1104,12401910,0.7,0.08,0.22,28350,34,21,20,5,10,1
+2024-01-05,40,-11,29,False,False,76,-0.19,Here Comes the Sun - Remastered 2009,The Beatles,Abbey Road (Remastered),2,2,1,10,6,2,2795100,488,10978740,0.58,0.06,0.36,17045,18,28,28,20,4,1
+2024-01-05,41,-24,17,False,False,75,-0.46,burned out,dodie,Human,1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,42,22,17,24,2
 2024-01-05,42,RE,--,True,False,69,--,Hard Feelings/Loveless,Lorde,Melodrama,9,4,6,45,12,12,12058200,937,63161640,0.53,0.03,0.44,62111,69,0,0,42,7,1
-2024-01-05,43,+1,44,False,False,68,0.17,Behind These Hazel Eyes,Kelly Clarkson,Breakaway,4,4,1,20,12,2,5636400,985,11069100,0.7,0.08,0.22,30933,34,18,16,34,8,1
-2024-01-05,44,+1,45,False,False,59,0.11,Bye Bye Bye,*NSYNC,No Strings Attached,3,3,1,15,9,2,4296600,751,11249820,0.65,0.07,0.27,24451,26,16,17,32,5,1
-2024-01-05,45,-12,33,False,False,59,-0.26,You’re Losing Me (From the Vault),Taylor Swift,You're Losing Me (From the Vault),1,1,1,5,3,2,1553475,271,12198600,0.42,0.05,0.53,11361,10,24,25,4,6,2
-2024-01-05,46,-6,40,False,False,58,-0.09,Sweet Crazy Love (Eng Ver.),ODD EYE CIRCLE (ARTMS),Sweet Crazy Love (Eng Ver.),2,2,1,10,6,2,2766225,483,10865790,0.58,0.06,0.36,16870,18,20,20,7,6,1
-2024-01-05,47,-16,31,False,False,58,-0.36,She's So Mean,Matchbox Twenty,North (Deluxe Edition),1,1,1,5,3,2,1521712,266,11950110,0.42,0.05,0.53,11130,10,27,21,4,32,1
-2024-01-05,48,+18,66,True,False,54,0.42,Focus,Ariana Grande,Focus,6,2,3,30,6,6,8905050,519,34969320,0.6,0.02,0.38,39809,42,12,0,48,3,1
-2024-01-05,49,+1,50,False,False,52,0.02,Out of the Woods (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,2737350,478,10752840,0.58,0.06,0.36,16695,18,16,18,5,11,1
-2024-01-05,50,-18,32,False,False,52,-0.42,Arms Unfolding,dodie,Human,1,1,1,5,3,2,1478400,258,11611260,0.42,0.05,0.53,10815,10,27,15,25,21,1
-2024-01-05,51,-14,37,False,False,46,-0.34,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1582350,276,10165500,0.42,0.05,0.53,9471,10,21,15,1,73,4
-2024-01-05,52,+10,62,False,False,43,0.02,I Wish You Would (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,2922150,511,11475720,0.58,0.06,0.36,17815,18,13,12,3,11,1
-2024-01-05,53,+4,57,False,False,43,-0.02,Bad Blood (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,3124275,546,12266370,0.58,0.06,0.36,19040,18,14,11,9,11,1
-2024-01-05,54,-7,47,False,False,42,-0.19,Lips of an Angel,Hinder,Extreme Behavior,1,1,1,5,3,2,1466850,256,11520900,0.42,0.05,0.53,10731,10,16,16,13,4,1
-2024-01-05,55,-12,43,False,False,41,-0.32,Sk8er Boi,Avril Lavigne,Let Go,1,1,1,5,3,2,1544812,270,12130830,0.42,0.05,0.53,11298,10,18,13,29,15,1
-2024-01-05,56,+9,65,True,False,39,0.0,I'm with You,Avril Lavigne,Let Go,2,2,1,10,6,2,2933700,513,11520900,0.58,0.06,0.36,17885,18,12,9,56,5,1
-2024-01-05,57,+34,91,False,False,38,0.12,Is It Over Now? (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,3158925,552,12401910,0.58,0.06,0.36,15750,18,11,9,5,11,1
-2024-01-05,58,-6,52,False,False,35,-0.3,Material Girl,Madonna,Celebration (Double Disc Version),1,1,1,5,3,2,1345575,235,10572120,0.42,0.05,0.53,9849,10,15,10,45,5,1
+2024-01-05,43,1,44,False,False,68,0.17,Behind These Hazel Eyes,Kelly Clarkson,Breakaway,4,4,1,20,12,2,5636400,985,11069100,0.7,0.08,0.22,30933,34,17,15,34,8,1
+2024-01-05,44,1,45,False,False,59,0.11,Bye Bye Bye,*NSYNC,No Strings Attached,3,3,1,15,9,2,4296600,751,11249820,0.65,0.07,0.27,24451,26,15,16,32,5,1
+2024-01-05,45,-12,33,False,False,59,-0.26,You’re Losing Me (From the Vault),Taylor Swift,You're Losing Me (From the Vault),1,1,1,5,3,2,1553475,271,12198600,0.42,0.05,0.53,11361,10,24,24,4,6,2
+2024-01-05,46,-6,40,False,False,58,-0.09,Sweet Crazy Love (Eng Ver.),ODD EYE CIRCLE (ARTMS),Sweet Crazy Love (Eng Ver.),2,2,1,10,6,2,2766225,483,10865790,0.58,0.06,0.36,16870,18,19,20,7,6,1
+2024-01-05,47,-16,31,False,False,58,-0.36,She's So Mean,Matchbox Twenty,North (Deluxe Edition),1,1,1,5,3,2,1521712,266,11950110,0.42,0.05,0.53,11130,10,27,20,4,32,1
+2024-01-05,48,18,66,True,False,54,0.42,Focus,Ariana Grande,Dangerous Woman (Deluxe),6,2,3,30,6,6,9476775,552,37205730,0.6,0.02,0.38,34650,42,11,0,48,3,1
+2024-01-05,49,1,50,False,False,52,0.02,Out of the Woods (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,2737350,478,10752840,0.58,0.06,0.36,16695,18,15,17,5,11,1
+2024-01-05,50,-18,32,False,False,52,-0.42,Arms Unfolding,dodie,Human,1,1,1,5,3,2,1478400,258,11611260,0.42,0.05,0.53,10815,10,26,14,25,21,1
+2024-01-05,51,-14,37,False,False,46,-0.34,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1582350,276,10165500,0.42,0.05,0.53,9471,10,21,14,1,74,4
+2024-01-05,52,9,61,False,False,43,0.02,I Wish You Would (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,2922150,511,11475720,0.58,0.06,0.36,17815,18,12,11,3,11,1
+2024-01-05,53,4,57,False,False,43,-0.02,Bad Blood (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,3124275,546,12266370,0.58,0.06,0.36,19040,18,13,10,9,11,1
+2024-01-05,54,-7,47,False,False,42,-0.19,Lips of an Angel,Hinder,Extreme Behavior,1,1,1,5,3,2,1466850,256,11520900,0.42,0.05,0.53,10731,10,15,15,13,4,1
+2024-01-05,55,-12,43,False,False,41,-0.32,Sk8er Boi,Avril Lavigne,Let Go,1,1,1,5,3,2,1544812,270,12130830,0.42,0.05,0.53,11298,10,18,12,29,15,1
+2024-01-05,56,9,65,True,False,39,0.0,I'm with You,Avril Lavigne,Let Go,2,2,1,10,6,2,2933700,513,11520900,0.58,0.06,0.36,17885,18,11,9,56,5,1
+2024-01-05,57,34,91,False,False,38,0.12,Is It Over Now? (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,3158925,552,12401910,0.58,0.06,0.36,15750,18,10,8,5,11,1
+2024-01-05,58,-6,52,False,False,35,-0.3,Material Girl,Madonna,Celebration (Double Disc Version),1,1,1,5,3,2,1345575,235,10572120,0.42,0.05,0.53,9849,10,15,9,45,5,1
 2024-01-05,59,NEW,--,True,False,34,--,She,Green Day,Dookie,4,4,1,20,12,2,5232150,915,10278450,0.7,0.08,0.22,28728,34,0,0,59,1,1
 2024-01-05,60,NEW,--,True,False,34,--,Mama,My Chemical Romance,The Black Parade,4,4,1,20,12,2,5775000,1010,11340180,0.7,0.08,0.22,31689,34,0,0,60,1,1
-2024-01-05,61,=,61,False,False,33,-0.21,Emotions,Mariah Carey,Emotions,1,1,1,5,3,2,1411987,246,11091690,0.42,0.05,0.53,10332,10,13,10,52,5,1
+2024-01-05,61,-1,60,False,False,33,-0.21,Emotions,Mariah Carey,#1's,1,1,1,5,3,2,1334025,233,10481760,0.42,0.05,0.53,9765,10,12,9,52,5,1
 2024-01-05,62,NEW,--,True,False,32,--,Bang Bang,Green Day,Revolution Radio,4,2,3,20,6,6,5313000,464,31309739,0.5,0.03,0.47,29169,32,0,0,62,1,1
-2024-01-05,63,+33,96,False,False,31,-0.06,You Spin Me Round (Like a Record),Dead or Alive,Evolution: The Hits,1,1,1,5,3,2,1299375,227,10210680,0.42,0.05,0.53,9513,10,10,11,60,4,1
-2024-01-05,64,+24,88,False,False,31,-0.09,Wildest Dreams (Taylor's Version),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,11,10,1,64,8
-2024-01-05,65,+27,92,False,False,31,-0.09,Build Me Up Buttercup (mono),The Foundations,The Foundations,1,1,1,5,3,2,1348462,235,10594710,0.42,0.05,0.53,9870,10,11,10,54,4,1
-2024-01-05,66,RE,--,False,False,30,--,Sweet Child o' Mine,Guns N' Roses,Appetite for Destruction,2,2,1,10,6,2,2616075,457,10278450,0.58,0.06,0.36,15960,18,0,12,18,4,1
-2024-01-05,67,+20,87,False,False,29,-0.15,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,3026100,529,11882340,0.58,0.06,0.36,18445,18,11,0,1,84,5
-2024-01-05,68,+29,97,False,False,29,-0.12,Promiscuous,Nelly Furtado,Loose,1,1,1,5,3,2,1325362,231,10413990,0.42,0.05,0.53,9702,10,10,9,29,5,1
-2024-01-05,69,+31,100,True,False,29,-0.06,Everybody (Backstreet's Back),Backstreet Boys,Backstreet's Back,1,1,1,5,3,2,1360012,237,10685070,0.42,0.05,0.53,9954,10,10,9,69,4,1
-2024-01-05,70,+25,95,True,False,28,-0.15,Buttons,The Pussycat Dolls,PCD,2,2,1,10,6,2,3072300,537,12063060,0.58,0.06,0.36,18725,18,10,0,70,3,1
+2024-01-05,63,33,96,False,False,31,-0.06,You Spin Me Round (Like a Record),Dead or Alive,Evolution: The Hits,1,1,1,5,3,2,1299375,227,10210680,0.42,0.05,0.53,9513,10,9,10,60,4,1
+2024-01-05,64,24,88,False,False,31,-0.09,Wildest Dreams (Taylor's Version),Taylor Swift,Wildest Dreams (Taylor's Version),1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,10,9,1,65,8
+2024-01-05,65,27,92,False,False,31,-0.09,Build Me Up Buttercup (mono),The Foundations,The Foundations,1,1,1,5,3,2,1348462,235,10594710,0.42,0.05,0.53,9870,10,10,9,54,4,1
+2024-01-05,66,RE,--,False,False,30,--,Sweet Child o' Mine,Guns N' Roses,Appetite for Destruction,2,2,1,10,6,2,2616075,457,10278450,0.58,0.06,0.36,15960,18,0,11,18,4,1
+2024-01-05,67,20,87,False,False,29,-0.15,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,3026100,529,11882340,0.58,0.06,0.36,18445,18,10,0,1,84,5
+2024-01-05,68,29,97,False,False,29,-0.12,Promiscuous,Nelly Furtado,Loose,1,1,1,5,3,2,1325362,231,10413990,0.42,0.05,0.53,9702,10,9,8,29,5,1
+2024-01-05,69,31,100,True,False,29,-0.06,Everybody (Backstreet's Back),Backstreet Boys,Backstreet's Back,1,1,1,5,3,2,1360012,237,10685070,0.42,0.05,0.53,9954,10,9,8,69,4,1
+2024-01-05,70,25,95,True,False,28,-0.15,Buttons,The Pussycat Dolls,PCD,2,2,1,10,6,2,3072300,537,12063060,0.58,0.06,0.36,18725,18,9,0,70,3,1
 2024-01-05,71,RE,--,False,False,27,--,Touch My Body,Mariah Carey,E=MC2,2,2,1,10,6,2,2627625,459,10323630,0.58,0.06,0.36,16030,18,0,9,61,3,1
-2024-01-05,72,RE,--,False,False,27,--,Stickwitu,The Pussycat Dolls,PCD,2,2,1,10,6,2,2673825,467,10504350,0.58,0.06,0.36,16310,18,0,9,57,5,1
+2024-01-05,72,RE,--,False,False,27,--,Stickwitu,The Pussycat Dolls,PCD,2,2,1,10,6,2,2673825,467,10504350,0.58,0.06,0.36,16310,18,0,8,56,5,1
 2024-01-05,73,RE,--,False,False,27,--,Hey Ya!,OutKast,Speakerboxxx/The Love Below,2,2,1,10,6,2,2702700,472,10617300,0.58,0.06,0.36,16485,18,0,9,72,4,1
 2024-01-05,74,NEW,--,True,False,26,--,Sleep,My Chemical Romance,The Black Parade,3,3,1,15,9,2,4400550,769,11520900,0.65,0.07,0.27,25039,26,0,0,74,1,1
 2024-01-05,75,NEW,--,True,False,26,--,Hitchin' a Ride,Green Day,Nimrod,3,3,1,15,9,2,3906787,683,10233270,0.65,0.07,0.27,22246,26,0,0,75,1,1
-2024-01-05,76,RE,--,False,False,26,--,Complicated,Avril Lavigne,Let Go,3,3,1,15,9,2,4158000,727,10888380,0.65,0.07,0.27,23667,26,0,0,26,8,1
+2024-01-05,76,RE,--,False,False,26,--,Complicated,Avril Lavigne,Let Go CD 1,3,3,1,15,9,2,4045387,707,10594710,0.65,0.07,0.27,23030,26,0,0,26,8,1
 2024-01-05,77,RE,--,False,False,24,--,West Coast,Lana Del Rey,Ultraviolence (Deluxe),3,1,3,15,3,6,3941437,229,30970890,0.44,0.02,0.55,22442,24,0,0,2,13,1
-2024-01-05,78,-20,58,False,False,23,-0.47,I Wanna Dance with Somebody (Who Loves Me),Whitney Houston,Whitney,1,1,1,5,3,2,1391775,243,10933560,0.42,0.05,0.53,10185,10,13,0,49,8,2
-2024-01-05,79,-16,63,False,False,22,-0.44,New Romantics (Taylor's Version),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,1507275,263,11837160,0.42,0.05,0.53,11025,10,12,0,7,9,1
-2024-01-05,80,-8,72,False,False,21,-0.4,Welcome to New York (Taylor's Version),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,1437975,251,11295000,0.42,0.05,0.53,10521,10,11,0,11,10,1
-2024-01-05,81,-8,73,False,False,21,-0.4,Unwell,Matchbox Twenty,More Than You Think You Are,1,1,1,5,3,2,1417762,247,11136870,0.42,0.05,0.53,10374,10,11,0,8,9,1
-2024-01-05,82,-5,77,False,False,21,-0.38,Stronger (What Doesn't Kill You),Kelly Clarkson,Stronger (Deluxe Version),1,1,1,5,3,2,1377337,240,10820610,0.42,0.05,0.53,10080,10,11,0,33,8,1
-2024-01-05,83,-9,74,False,False,21,-0.4,It's Gonna Be Me,*NSYNC,No Strings Attached,1,1,1,5,3,2,1426425,249,11204640,0.42,0.05,0.53,10437,10,11,0,47,4,1
-2024-01-05,84,-2,82,False,False,21,-0.38,Girlfriend,Avril Lavigne,The Best Damn Thing (Expanded Edition),1,1,1,5,3,2,1374450,240,10798020,0.42,0.05,0.53,10059,10,11,0,20,16,1
-2024-01-05,85,RE,--,False,False,20,--,I Will Survive,Gloria Gaynor,Love Tracks,2,2,2,10,6,4,3106950,543,24397200,0.42,0.05,0.53,22722,20,0,0,69,3,1
-2024-01-05,86,+7,93,False,False,20,-0.39,Nobody's Home,Avril Lavigne,Under My Skin,1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,10,0,1,4,1
-2024-01-05,87,+12,99,False,False,20,-0.38,My Happy Ending,Avril Lavigne,Under My Skin,1,1,1,5,3,2,1562137,273,12266370,0.42,0.05,0.53,11424,10,10,0,58,5,1
-2024-01-05,88,RE,--,False,False,19,--,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,0,9,1,90,2
-2024-01-05,89,RE,--,False,False,19,--,Tubthumping,Chumbawamba,Tubthumper,1,1,1,5,3,2,1567912,274,12311550,0.42,0.05,0.53,11466,10,0,9,37,5,1
-2024-01-05,90,RE,--,False,False,19,--,September,Earth Wind & Fire,The Best of Earth Wind & Fire Vol. 1,1,1,1,5,3,2,1567912,274,12311550,0.42,0.05,0.53,11466,10,0,9,86,2,1
-2024-01-05,91,RE,--,False,False,19,--,In the End,Linkin Park,Hybrid Theory (Bonus Edition),1,1,1,5,3,2,1472625,257,11566080,0.42,0.05,0.53,10773,10,0,9,17,4,1
-2024-01-05,92,RE,--,False,False,19,--,Genie in a Bottle,Christina Aguilera,Christina Aguilera (Expanded Edition),1,1,1,5,3,2,1380225,241,10843200,0.42,0.05,0.53,10101,10,0,9,75,3,1
-2024-01-05,93,RE,--,True,True,19,--,Don't Cha,The Pussycat Dolls,PCD,1,1,1,5,3,2,1426425,249,11204640,0.42,0.05,0.53,10437,10,0,9,93,3,2
-2024-01-05,94,RE,--,False,False,18,--,When I Grow Up,The Pussycat Dolls,Doll Domination (Deluxe),2,2,1,10,6,2,2691150,470,10572120,0.58,0.06,0.36,16415,18,0,0,30,6,1
-2024-01-05,95,RE,--,False,False,18,--,Vigilante Shit,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,2777775,485,10910970,0.58,0.06,0.36,16940,18,0,0,4,37,2
-2024-01-05,96,RE,--,False,False,18,--,Thunder,Boys Like Girls,Boys Like Girls,2,2,1,10,6,2,3164700,553,10165500,0.58,0.06,0.36,15785,18,0,0,27,7,1
-2024-01-05,97,RE,--,False,False,18,--,Swish Swish,Katy Perry,Witness (Deluxe),2,2,1,10,6,2,2621850,458,10301040,0.58,0.06,0.36,15995,18,0,0,19,5,1
-2024-01-05,98,RE,--,False,False,18,--,Suburban Legends (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,2985675,522,11724210,0.58,0.06,0.36,18200,18,0,0,18,7,1
-2024-01-05,99,RE,--,False,False,18,--,Sometimes,Britney Spears,...Baby One More Time (Digital Deluxe Version),2,2,1,10,6,2,2887500,505,11340180,0.58,0.06,0.36,17605,18,0,0,73,3,1
-2024-01-05,100,RE,--,False,False,18,--,Pon de Replay,Rihanna,Music of the Sun,2,2,1,10,6,2,2668050,466,10481760,0.58,0.06,0.36,16275,18,0,0,38,5,1
+2024-01-05,78,-20,58,False,False,23,-0.47,I Wanna Dance with Somebody (Who Loves Me),Whitney Houston,Love Simon (Original Motion Picture Soundtrack),1,1,1,5,3,2,1437975,251,11295000,0.42,0.05,0.53,10521,10,12,0,49,8,2
+2024-01-05,79,-16,63,False,False,22,-0.44,New Romantics (Taylor's Version),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,1507275,263,11837160,0.42,0.05,0.53,11025,10,11,0,7,9,1
+2024-01-05,80,-8,72,False,False,21,-0.4,Welcome to New York (Taylor's Version),Taylor Swift,1989 (Taylor's Version),1,1,1,5,3,2,1437975,251,11295000,0.42,0.05,0.53,10521,10,10,0,12,10,2
+2024-01-05,81,-8,73,False,False,21,-0.4,Unwell,Matchbox Twenty,More Than You Think You Are,1,1,1,5,3,2,1417762,247,11136870,0.42,0.05,0.53,10374,10,10,0,8,9,1
+2024-01-05,82,-5,77,False,False,21,-0.38,Stronger (What Doesn't Kill You),Kelly Clarkson,Stronger (Deluxe Version),1,1,1,5,3,2,1377337,240,10820610,0.42,0.05,0.53,10080,10,10,0,33,8,1
+2024-01-05,83,-9,74,False,False,21,-0.4,It's Gonna Be Me,*NSYNC,No Strings Attached,1,1,1,5,3,2,1426425,249,11204640,0.42,0.05,0.53,10437,10,10,0,47,4,1
+2024-01-05,84,-2,82,False,False,21,-0.38,Girlfriend,Avril Lavigne,The Best Damn Thing (Expanded Edition),1,1,1,5,3,2,1374450,240,10798020,0.42,0.05,0.53,10059,10,10,0,20,16,1
+2024-01-05,85,8,93,False,False,20,-0.39,Nobody's Home,Avril Lavigne,Under My Skin,1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,9,0,1,4,1
+2024-01-05,86,13,99,False,False,20,-0.38,My Happy Ending,Avril Lavigne,Under My Skin,1,1,1,5,3,2,1562137,273,12266370,0.42,0.05,0.53,11424,10,9,0,58,5,1
+2024-01-05,87,RE,--,False,False,19,--,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1310925,229,10301040,0.42,0.05,0.53,9597,10,0,8,1,90,2
+2024-01-05,88,RE,--,False,False,19,--,Tubthumping,Chumbawamba,Tubthumper,1,1,1,5,3,2,1567912,274,12311550,0.42,0.05,0.53,11466,10,0,8,37,5,1
+2024-01-05,89,RE,--,False,False,19,--,September,Earth Wind & Fire,The Best of Earth Wind & Fire Vol. 1,1,1,1,5,3,2,1567912,274,12311550,0.42,0.05,0.53,11466,10,0,8,86,2,1
+2024-01-05,90,RE,--,False,False,19,--,In the End,Linkin Park,Hybrid Theory (Bonus Edition),1,1,1,5,3,2,1472625,257,11566080,0.42,0.05,0.53,10773,10,0,8,16,4,1
+2024-01-05,91,RE,--,False,False,19,--,Genie in a Bottle,Christina Aguilera,Christina Aguilera (Expanded Edition),1,1,1,5,3,2,1380225,241,10843200,0.42,0.05,0.53,10101,10,0,9,75,3,1
+2024-01-05,92,RE,--,True,False,19,--,Don't Cha,The Pussycat Dolls,PCD,1,1,1,5,3,2,1426425,249,11204640,0.42,0.05,0.53,10437,10,0,8,92,3,1
+2024-01-05,93,RE,--,False,False,18,--,When I Grow Up,The Pussycat Dolls,Doll Domination (Deluxe),2,2,1,10,6,2,2691150,470,10572120,0.58,0.06,0.36,16415,18,0,0,30,6,1
+2024-01-05,94,RE,--,False,False,18,--,Vigilante Shit,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,2777775,485,10910970,0.58,0.06,0.36,16940,18,0,0,4,37,2
+2024-01-05,95,RE,--,False,False,18,--,Thunder,Boys Like Girls,Boys Like Girls,2,2,1,10,6,2,3164700,553,10165500,0.58,0.06,0.36,15785,18,0,0,27,7,1
+2024-01-05,96,RE,--,False,False,18,--,Swish Swish,Katy Perry,Witness,2,2,1,10,6,2,2818200,492,11069100,0.58,0.06,0.36,17185,18,0,0,19,5,1
+2024-01-05,97,RE,--,False,False,18,--,Suburban Legends (Taylor's Version) (From the Vault),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,2985675,522,11724210,0.58,0.06,0.36,18200,18,0,0,18,7,1
+2024-01-05,98,RE,--,False,False,18,--,Sometimes,Britney Spears,...Baby One More Time (Digital Deluxe Version),2,2,1,10,6,2,2887500,505,11340180,0.58,0.06,0.36,17605,18,0,0,72,3,1
+2024-01-05,99,RE,--,False,False,18,--,Pon de Replay,Rihanna,Music of the Sun,2,2,1,10,6,2,2668050,466,10481760,0.58,0.06,0.36,16275,18,0,0,38,5,1
+2024-01-05,100,RE,--,False,False,18,--,Keep on Movin',Five,Invincible,2,2,1,10,6,2,2604525,455,10233270,0.58,0.06,0.36,15890,18,0,0,39,4,1

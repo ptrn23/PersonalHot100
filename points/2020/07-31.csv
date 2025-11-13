@@ -1,19 +1,19 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2020-07-31,1,NEW,--,True,False,20,--,Hey Soul Sister,Train,Save Me San Francisco (Golden Gate Edition),2,2,2,10,6,4,2789325,487,21912300,0.42,0.05,0.53,20412,20,0,0,1,1,1
-2020-07-31,2,RE,--,True,False,20,--,Punch,NCT 127,NCT #127 Neo Zone The Final Round – The 2nd Album Repackage,2,2,1,10,6,2,2795100,488,10978740,0.58,0.06,0.36,17045,18,0,2,2,2,1
-2020-07-31,3,+16,19,True,False,20,1.0,Cruel Summer,Taylor Swift,Lover,2,1,2,10,3,4,3101175,271,24352020,0.43,0.02,0.54,18900,17,3,0,3,4,1
-2020-07-31,4,RE,--,True,False,18,--,Your Gravity,UP10TION,The Moment of Illusion,2,2,1,10,6,2,2604525,455,10233270,0.58,0.06,0.36,15890,18,0,0,4,2,1
-2020-07-31,5,NEW,--,True,False,18,--,Uma Thurman,Fall Out Boy,American Beauty/American Psycho,2,2,1,10,6,2,2720025,475,10685070,0.58,0.06,0.36,16590,18,0,0,5,1,1
-2020-07-31,6,RE,--,True,False,18,--,Summertime Sadness,Lana Del Rey,Born to Die,2,2,1,10,6,2,3014550,527,11837160,0.58,0.06,0.36,18375,18,0,0,6,2,1
-2020-07-31,7,NEW,--,True,False,18,--,Rookie,Red Velvet,Rookie - The 4th Mini Album,2,2,1,10,6,2,2621850,458,10301040,0.58,0.06,0.36,15995,18,0,0,7,1,1
-2020-07-31,8,NEW,--,True,False,18,--,Right There,Ariana Grande,Yours Truly,2,2,1,10,6,2,3164700,553,10165500,0.58,0.06,0.36,15785,18,0,0,8,1,1
-2020-07-31,9,NEW,--,True,False,18,--,Oh My!,Seventeen,SEVENTEEN 5TH MINI ALBUM 'YOU MAKE MY DAY',2,2,1,10,6,2,2847075,497,11182050,0.58,0.06,0.36,17360,18,0,0,9,1,1
-2020-07-31,10,RE,--,False,False,18,--,NONSTOP,OH MY GIRL,NONSTOP,2,2,1,10,6,2,2875950,502,11295000,0.58,0.06,0.36,17535,18,0,0,5,3,1
-2020-07-31,11,NEW,--,True,False,18,--,Look,GOT7,Eyes on You,2,2,1,10,6,2,2979900,521,11701620,0.58,0.06,0.36,18165,18,0,0,11,1,1
-2020-07-31,12,NEW,--,True,False,18,--,Locked Away (feat. Adam Levine),Rock City,Locked Away (feat. Adam Levine),2,2,1,10,6,2,3072300,537,12063060,0.58,0.06,0.36,18725,18,0,0,12,1,1
-2020-07-31,13,NEW,--,True,False,18,--,Liar Liar (Korean Version),OH MY GIRL,WINDY DAY,2,2,1,10,6,2,2702700,472,10617300,0.58,0.06,0.36,16485,18,0,0,13,1,1
-2020-07-31,14,NEW,--,True,False,18,--,Holy Ground,Taylor Swift,Red (Deluxe Edition),2,2,1,10,6,2,2870175,501,11272410,0.58,0.06,0.36,17500,18,0,0,14,1,1
-2020-07-31,15,NEW,--,True,False,18,--,Highway to Heaven - English Version,NCT 127,Highway to Heaven (English Version),2,2,1,10,6,2,2604525,455,10233270,0.58,0.06,0.36,15890,18,0,0,15,1,1
+2020-07-31,1,RE,--,True,False,20,--,Punch,NCT 127,NCT #127 Neo Zone The Final Round – The 2nd Album Repackage,2,2,1,10,6,2,2795100,488,10978740,0.58,0.06,0.36,17045,18,0,2,1,2,1
+2020-07-31,2,17,19,True,False,20,1.0,Cruel Summer,Taylor Swift,Lover,2,1,2,10,3,4,3101175,271,24352020,0.43,0.02,0.54,18900,17,3,0,2,4,1
+2020-07-31,3,RE,--,True,False,18,--,Your Gravity,UP10TION,The Moment of Illusion - EP,2,2,1,10,6,2,2743125,479,10775430,0.58,0.06,0.36,16730,18,0,0,3,2,1
+2020-07-31,4,NEW,--,True,False,18,--,Uma Thurman,Fall Out Boy,American Beauty/American Psycho,2,2,1,10,6,2,2720025,475,10685070,0.58,0.06,0.36,16590,18,0,0,4,1,1
+2020-07-31,5,RE,--,True,False,18,--,Summertime Sadness,Lana Del Rey,Born to Die,2,2,1,10,6,2,3014550,527,11837160,0.58,0.06,0.36,18375,18,0,0,5,2,1
+2020-07-31,6,NEW,--,True,False,18,--,Rookie,Red Velvet,Rookie - The 4th Mini Album,2,2,1,10,6,2,2621850,458,10301040,0.58,0.06,0.36,15995,18,0,0,6,1,1
+2020-07-31,7,NEW,--,True,False,18,--,Right There,Ariana Grande,Yours Truly,2,2,1,10,6,2,3164700,553,10165500,0.58,0.06,0.36,15785,18,0,0,7,1,1
+2020-07-31,8,NEW,--,True,False,18,--,Oh My!,Seventeen,SEVENTEEN 5TH MINI ALBUM 'YOU MAKE MY DAY',2,2,1,10,6,2,2847075,497,11182050,0.58,0.06,0.36,17360,18,0,0,8,1,1
+2020-07-31,9,RE,--,False,False,18,--,NONSTOP,OH MY GIRL,NONSTOP - EP,2,2,1,10,6,2,2870175,501,11272410,0.58,0.06,0.36,17500,18,0,0,7,3,1
+2020-07-31,10,NEW,--,True,False,18,--,Look,GOT7,Eyes on You,2,2,1,10,6,2,2979900,521,11701620,0.58,0.06,0.36,18165,18,0,0,10,1,1
+2020-07-31,11,NEW,--,True,False,18,--,Locked Away (feat. Adam Levine),Rock City,Locked Away (feat. Adam Levine),2,2,1,10,6,2,3072300,537,12063060,0.58,0.06,0.36,18725,18,0,0,11,1,1
+2020-07-31,12,NEW,--,True,False,18,--,Liar Liar (Korean Version),OH MY GIRL,WINDY DAY,2,2,1,10,6,2,2702700,472,10617300,0.58,0.06,0.36,16485,18,0,0,12,1,1
+2020-07-31,13,NEW,--,True,False,18,--,Holy Ground,Taylor Swift,Red (Deluxe Edition),2,2,1,10,6,2,2870175,501,11272410,0.58,0.06,0.36,17500,18,0,0,13,1,1
+2020-07-31,14,NEW,--,True,False,18,--,Highway to Heaven - English Version,NCT 127,Highway to Heaven (English Version),2,2,1,10,6,2,2604525,455,10233270,0.58,0.06,0.36,15890,18,0,0,14,1,1
+2020-07-31,15,NEW,--,True,False,18,--,Hey Soul Sister,Train,Save Me San Francisco (Golden Gate Edition),2,2,1,10,6,2,2789325,487,10956150,0.58,0.06,0.36,17010,18,0,0,15,1,1
 2020-07-31,16,RE,--,False,False,18,--,Hallucinate,Dua Lipa,Future Nostalgia,2,2,1,10,6,2,2725800,476,10707660,0.58,0.06,0.36,16625,18,0,0,12,3,1
 2020-07-31,17,NEW,--,True,False,18,--,Fever,GFRIEND,GFRIEND The 7th Mini Album `FEVER SEASON`,2,2,1,10,6,2,2979900,521,11701620,0.58,0.06,0.36,18165,18,0,0,17,1,1
 2020-07-31,18,NEW,--,True,False,18,--,Feels (feat. Pharrell Williams Katy Perry & Big Sean),Calvin Harris,Funk Wav Bounces Vol.1,2,2,1,10,6,2,3078075,538,12085650,0.58,0.06,0.36,18760,18,0,0,18,1,1
@@ -22,7 +22,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2020-07-31,21,NEW,--,True,False,18,--,dal segno,LOONA/yyxy,beauty&thebeat,2,2,1,10,6,2,2760450,482,10843200,0.58,0.06,0.36,16835,18,0,0,21,1,1
 2020-07-31,22,NEW,--,True,False,18,--,BUNGEE (Fall In Love),OH MY GIRL,OH MY GIRL SUMMER PACKAGE [FALL IN LOVE],2,2,1,10,6,2,2968350,519,11656440,0.58,0.06,0.36,18095,18,0,0,22,1,1
 2020-07-31,23,NEW,--,True,False,18,--,Black Magic,Little Mix,Get Weird (Deluxe),2,2,1,10,6,2,2616075,457,10278450,0.58,0.06,0.36,15960,18,0,0,23,1,1
-2020-07-31,24,RE,--,False,False,18,--,Bad Liar,Selena Gomez,Bad Liar,2,2,1,10,6,2,2823975,493,11091690,0.58,0.06,0.36,17220,18,0,0,19,2,1
+2020-07-31,24,RE,--,False,False,18,--,Bad Liar,Selena Gomez,Bad Liar - Single,2,2,1,10,6,2,2720025,475,10685070,0.58,0.06,0.36,16590,18,0,0,19,2,1
 2020-07-31,25,NEW,--,True,False,18,--,365,Zedd,365,2,2,1,10,6,2,3043425,532,11950110,0.58,0.06,0.36,18550,18,0,0,25,1,1
 2020-07-31,26,NEW,--,True,False,17,--,Very Very Very,I.O.I,miss me?,2,1,2,10,3,4,2783550,243,21867120,0.43,0.02,0.54,16975,17,0,0,26,1,1
 2020-07-31,27,RE,--,True,False,17,--,The Man,Taylor Swift,Lover,2,1,2,10,3,4,3164700,276,20331000,0.43,0.02,0.54,15785,17,0,0,27,2,1
@@ -34,4 +34,4 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2020-07-31,33,NEW,--,True,False,17,--,Best Song Ever,One Direction,Midnight Memories (Deluxe),2,1,2,10,3,4,2864400,250,22499640,0.43,0.02,0.54,17465,17,0,0,33,1,1
 2020-07-31,34,RE,--,False,False,12,--,세계가 불타버린 밤 우린... (Can't You See Me?),TXT,THE DREAM CHAPTER : ETERNITY,1,1,1,5,3,2,1501500,262,11791980,0.42,0.05,0.53,10983,10,0,2,5,2,1
 2020-07-31,35,RE,--,False,False,12,--,Highway To Heaven,NCT 127,NCT #127 WE ARE SUPERHUMAN - The 4th Mini Album,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,0,2,14,2,1
-2020-07-31,36,RE,--,True,False,10,--,Chewing Gum,NCT DREAM,Chewing Gum,1,1,1,5,3,2,1348462,235,10594710,0.42,0.05,0.53,9870,10,0,0,36,2,1
+2020-07-31,36,RE,--,True,False,10,--,Chewing Gum,NCT DREAM,The First - The 1st Single Album,1,1,1,5,3,2,1313812,229,10323630,0.42,0.05,0.53,9618,10,0,0,36,2,1

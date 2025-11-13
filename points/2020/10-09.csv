@@ -1,8 +1,8 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2020-10-09,1,NEW,--,True,False,24,--,엔시티 유,NCT,,3,1,3,15,3,6,3898125,227,30632040,0.44,0.02,0.55,22197,24,0,0,1,1,1
 2020-10-09,2,NEW,--,True,False,18,--,Electric Shock,f(x),Electric Shock - The 2nd Mini Album,2,2,1,10,6,2,2893275,506,11362770,0.58,0.06,0.36,17640,18,0,0,2,1,1
-2020-10-09,3,+60,63,True,False,13,0.3,Pretty Savage,BLACKPINK,THE ALBUM,1,1,1,5,3,2,1472625,257,11566080,0.42,0.05,0.53,10773,10,3,0,3,2,1
-2020-10-09,4,+86,90,True,False,13,0.3,Love to Hate Me,BLACKPINK,THE ALBUM,1,1,1,5,3,2,1414875,247,11114280,0.42,0.05,0.53,10353,10,3,0,4,2,1
+2020-10-09,3,60,63,True,False,13,0.3,Pretty Savage,BLACKPINK,THE ALBUM,1,1,1,5,3,2,1472625,257,11566080,0.42,0.05,0.53,10773,10,3,0,3,2,1
+2020-10-09,4,86,90,True,False,13,0.3,Love to Hate Me,BLACKPINK,THE ALBUM,1,1,1,5,3,2,1414875,247,11114280,0.42,0.05,0.53,10353,10,3,0,4,2,1
 2020-10-09,5,RE,--,True,False,12,--,the light is coming (feat. Nicki Minaj),Ariana Grande,Sweetener,1,1,1,5,3,2,1455300,254,11430540,0.42,0.05,0.53,10647,10,0,2,5,3,1
 2020-10-09,6,RE,--,True,False,12,--,successful,Ariana Grande,Sweetener,1,1,1,5,3,2,1576575,275,12379320,0.42,0.05,0.53,11529,10,0,2,6,2,1
 2020-10-09,7,NEW,--,True,False,10,--,첫 사랑니 Rum Pum Pum Pum,f(x),Pink Tape - f(x) The 2nd Album,1,1,1,5,3,2,1354237,236,10639890,0.42,0.05,0.53,9912,10,0,0,7,1,1
@@ -10,19 +10,19 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2020-10-09,9,NEW,--,True,False,10,--,사랑은 또다시 Love Again,NCT DREAM,Reload,1,1,1,5,3,2,1313812,229,10323630,0.42,0.05,0.53,9618,10,0,0,9,1,1
 2020-10-09,10,NEW,--,True,False,10,--,You’ll Never Know,Ariana Grande,Yours Truly,1,1,1,5,3,2,1518825,265,11927520,0.42,0.05,0.53,11109,10,0,0,10,1,1
 2020-10-09,11,NEW,--,True,False,10,--,You Don't Know Me,Ariana Grande,My Everything (Deluxe Edition),1,1,1,5,3,2,1308037,228,10278450,0.42,0.05,0.53,9576,10,0,0,11,1,1
-2020-10-09,12,RE,--,False,False,10,--,WONDERLAND,ATEEZ,TREASURE EP.FIN : All To Action,1,1,1,5,3,2,1565025,273,12288960,0.42,0.05,0.53,11445,10,0,0,2,6,2
+2020-10-09,12,RE,--,False,False,10,--,WONDERLAND,ATEEZ,TREASURE EP.FIN: All To Action,1,1,1,5,3,2,1562137,273,12266370,0.42,0.05,0.53,11424,10,0,0,2,6,1
 2020-10-09,13,NEW,--,True,False,10,--,Why Try,Ariana Grande,My Everything (Deluxe Edition),1,1,1,5,3,2,1400437,244,11001330,0.42,0.05,0.53,10248,10,0,0,13,1,1
 2020-10-09,14,NEW,--,True,False,10,--,WEE WOO,PRISTIN,The 1st Mini Album 'HI! PRISTIN',1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,0,0,14,1,1
 2020-10-09,15,NEW,--,True,False,10,--,Volcano,NCT U,RESONANCE Pt. 1 (The 2nd Album),1,1,1,5,3,2,1504387,263,11814570,0.42,0.05,0.53,11004,10,0,0,15,1,1
 2020-10-09,16,NEW,--,True,False,10,--,Victory Song,Stray Kids,Clé 1 : MIROH,1,1,1,5,3,2,1374450,240,10798020,0.42,0.05,0.53,10059,10,0,0,16,1,1
 2020-10-09,17,NEW,--,True,False,10,--,Turn Back Time 超时空 回,WayV,Awaken The World - The 1st Album,1,1,1,5,3,2,1539037,269,12085650,0.42,0.05,0.53,11256,10,0,0,17,1,1
 2020-10-09,18,RE,--,False,False,10,--,Touch It,Ariana Grande,Dangerous Woman (Deluxe),1,1,1,5,3,2,1536150,268,12063060,0.42,0.05,0.53,11235,10,0,0,4,2,1
-2020-10-09,19,RE,--,True,False,10,--,This Is Why We Can't Have Nice Things,Taylor Swift,reputation (Big Machine Radio Release Special),1,1,1,5,3,2,1331137,232,10459170,0.42,0.05,0.53,9744,10,0,0,19,2,1
+2020-10-09,19,RE,--,True,False,10,--,This Is Why We Can't Have Nice Things,Taylor Swift,Reputation,1,1,1,5,3,2,1437975,251,11295000,0.42,0.05,0.53,10521,10,0,0,19,2,1
 2020-10-09,20,NEW,--,True,False,10,--,Thinking Bout You,Ariana Grande,Dangerous Woman (Deluxe),1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,0,0,20,1,1
 2020-10-09,21,NEW,--,True,False,10,--,The Way (feat. Mac Miller),Ariana Grande,Yours Truly,1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,0,0,21,1,1
 2020-10-09,22,NEW,--,True,False,10,--,thank u next,Ariana Grande,thank u next,1,1,1,5,3,2,1466850,256,11520900,0.42,0.05,0.53,10731,10,0,0,22,1,1
 2020-10-09,23,NEW,--,True,False,10,--,Tennis Court,Lorde,Pure Heroine (Extended),1,1,1,5,3,2,1377337,240,10820610,0.42,0.05,0.53,10080,10,0,0,23,1,1
-2020-10-09,24,RE,--,True,False,10,--,Tell Me Something I Don't Know,Selena Gomez & the Scene,For You,1,1,1,5,3,2,1432200,250,11249820,0.42,0.05,0.53,10479,10,0,0,24,3,1
+2020-10-09,24,RE,--,True,False,10,--,Tell Me Something I Don't Know,Selena Gomez & the Scene,Kiss & Tell,1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,0,0,24,3,1
 2020-10-09,25,NEW,--,True,False,10,--,Team,Lorde,Pure Heroine,1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,0,0,25,1,1
 2020-10-09,26,NEW,--,True,False,10,--,Tattooed Heart,Ariana Grande,Yours Truly,1,1,1,5,3,2,1544812,270,12130830,0.42,0.05,0.53,11298,10,0,0,26,1,1
 2020-10-09,27,NEW,--,True,False,10,--,sweetener,Ariana Grande,Sweetener,1,1,1,5,3,2,1437975,251,11295000,0.42,0.05,0.53,10521,10,0,0,27,1,1
@@ -33,7 +33,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2020-10-09,32,NEW,--,True,False,10,--,Same Old Love,Selena Gomez,Revival (Deluxe),1,1,1,5,3,2,1481287,259,11633850,0.42,0.05,0.53,10836,10,0,0,32,1,1
 2020-10-09,33,NEW,--,True,False,10,--,Royals,Lorde,Pure Heroine,1,1,1,5,3,2,1492837,261,11724210,0.42,0.05,0.53,10920,10,0,0,33,1,1
 2020-10-09,34,NEW,--,True,False,10,--,Right There (feat. Big Sean),Ariana Grande,Yours Truly,1,1,1,5,3,2,1299375,227,10210680,0.42,0.05,0.53,9513,10,0,0,34,1,1
-2020-10-09,35,RE,--,True,False,10,--,Ridin',NCT DREAM,Reload,1,1,1,5,3,2,1469737,257,11543490,0.42,0.05,0.53,10752,10,0,0,35,1,1
+2020-10-09,35,NEW,--,True,False,10,--,Ridin',NCT DREAM,Reload,1,1,1,5,3,2,1469737,257,11543490,0.42,0.05,0.53,10752,10,0,0,35,1,1
 2020-10-09,36,NEW,--,True,False,10,--,Red Light,f(x),The 3rd Album ‘Red Light’,1,1,1,5,3,2,1377337,240,10820610,0.42,0.05,0.53,10080,10,0,0,36,1,1
 2020-10-09,37,RE,--,True,False,10,--,raindrops (an angel cried),Ariana Grande,Sweetener,1,1,1,5,3,2,1420650,248,11159460,0.42,0.05,0.53,10395,10,0,0,37,2,1
 2020-10-09,38,RE,--,True,False,10,--,R.E.M,Ariana Grande,Sweetener,1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,0,0,38,2,1
@@ -53,16 +53,16 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2020-10-09,52,NEW,--,True,False,10,--,Moonlight,Ariana Grande,Dangerous Woman (Deluxe),1,1,1,5,3,2,1553475,271,12198600,0.42,0.05,0.53,11361,10,0,0,52,1,1
 2020-10-09,53,NEW,--,True,False,10,--,make up,Ariana Grande,thank u next,1,1,1,5,3,2,1437975,251,11295000,0.42,0.05,0.53,10521,10,0,0,53,1,1
 2020-10-09,54,NEW,--,True,False,10,--,Make A Wish (Birthday Song) (English Version),NCT U,RESONANCE Pt. 1 (The 2nd Album),1,1,1,5,3,2,1458187,255,11453130,0.42,0.05,0.53,10668,10,0,0,54,1,1
-2020-10-09,55,RE,--,False,False,10,--,M.I.L.F. $,Fergie,,1,1,1,5,3,2,1507275,263,11837160,0.42,0.05,0.53,11025,10,0,0,19,3,1
+2020-10-09,55,RE,--,False,False,10,--,M.I.L.F. $,Fergie,Double Dutchess (Deluxe Visual Experience),1,1,1,5,3,2,1458187,255,11453130,0.42,0.05,0.53,10668,10,0,0,19,3,1
 2020-10-09,56,NEW,--,True,False,10,--,Lovin' It,Ariana Grande,Yours Truly,1,1,1,5,3,2,1504387,263,11814570,0.42,0.05,0.53,11004,10,0,0,56,1,1
 2020-10-09,57,NEW,--,True,False,10,--,LOVE ME RIGHT,EXO,LOVE ME RIGHT - The 2nd Album Repackage,1,1,1,5,3,2,1559250,272,12243780,0.42,0.05,0.53,11403,10,0,0,57,1,1
 2020-10-09,58,RE,--,True,False,10,--,Love Me Harder (Ariana Grande & The Weeknd),Ariana Grande,My Everything (Deluxe Edition),1,1,1,5,3,2,1302262,227,10233270,0.42,0.05,0.53,9534,10,0,0,58,2,1
-2020-10-09,59,RE,--,True,False,10,--,LIT,ONEUS,FLY WITH US,1,1,1,5,3,2,1567912,274,12311550,0.42,0.05,0.53,11466,10,0,0,59,3,1
+2020-10-09,59,RE,--,True,False,10,--,LIT,ONEUS,Fly with Us - EP,1,1,1,5,3,2,1550587,271,12176010,0.42,0.05,0.53,11340,10,0,0,59,3,1
 2020-10-09,60,RE,--,False,False,10,--,Lion Heart,소녀시대,Lion Heart - The 5th Album,1,1,1,5,3,2,1432200,250,11249820,0.42,0.05,0.53,10479,10,0,0,16,2,1
 2020-10-09,61,NEW,--,True,False,10,--,Light Bulb,NCT U,RESONANCE Pt. 1 (The 2nd Album),1,1,1,5,3,2,1530375,267,12017880,0.42,0.05,0.53,11193,10,0,0,61,1,1
 2020-10-09,62,NEW,--,True,False,10,--,Liability,Lorde,Acaba Con El Insomnio,1,1,1,5,3,2,1487062,260,11679030,0.42,0.05,0.53,10878,10,0,0,62,1,1
 2020-10-09,63,NEW,--,True,False,10,--,Let Me Love You (feat. Lil Wayne),Ariana Grande,Dangerous Woman (Deluxe),1,1,1,5,3,2,1403325,245,11023920,0.42,0.05,0.53,10269,10,0,0,63,1,1
-2020-10-09,64,RE,--,False,False,10,--,Left & Right,Seventeen,SEVENTEEN 7th Mini Album 'Heng:garæ',1,1,1,5,3,2,1403325,245,11023920,0.42,0.05,0.53,10269,10,0,0,12,2,1
+2020-10-09,64,RE,--,False,False,10,--,Left & Right,Seventeen,SEVENTEEN 7th Mini Album '헹가래(Heng:garae)',1,1,1,5,3,2,1515937,265,11904930,0.42,0.05,0.53,11088,10,0,0,12,2,1
 2020-10-09,65,NEW,--,True,False,10,--,Leave Me Lonely (feat. Macy Gray),Ariana Grande,Dangerous Woman (Deluxe),1,1,1,5,3,2,1469737,257,11543490,0.42,0.05,0.53,10752,10,0,0,65,1,1
 2020-10-09,66,NEW,--,True,False,10,--,La La Love,WJSN (Cosmic Girls),WJ STAY?,1,1,1,5,3,2,1489950,260,11701620,0.42,0.05,0.53,10899,10,0,0,66,1,1
 2020-10-09,67,NEW,--,True,False,10,--,Knew Better _ Forever Boy,Ariana Grande,Dangerous Woman (Deluxe),1,1,1,5,3,2,1513050,264,11882340,0.42,0.05,0.53,11067,10,0,0,67,1,1
@@ -74,8 +74,8 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2020-10-09,73,NEW,--,True,False,10,--,imagine,Ariana Grande,thank u next,1,1,1,5,3,2,1565025,273,12288960,0.42,0.05,0.53,11445,10,0,0,73,1,1
 2020-10-09,74,NEW,--,True,False,10,--,Ice Cream,Selena Gomez & BLACKPINK,,1,1,1,5,3,2,1365787,238,10730250,0.42,0.05,0.53,9996,10,0,0,74,1,1
 2020-10-09,75,NEW,--,True,False,10,--,I Don't Care,Ariana Grande,Dangerous Woman (Deluxe),1,1,1,5,3,2,1409100,246,11069100,0.42,0.05,0.53,10311,10,0,0,75,1,1
-2020-10-09,76,NEW,--,True,False,10,--,How You Like That,BLACKPINK,,1,1,1,5,3,2,1426425,249,11204640,0.42,0.05,0.53,10437,10,0,0,76,1,1
-2020-10-09,77,RE,--,False,False,10,--,Hotter Than Hell,Dua Lipa,,1,1,1,5,3,2,1567912,274,12311550,0.42,0.05,0.53,11466,10,0,0,49,2,1
+2020-10-09,76,NEW,--,True,False,10,--,How You Like That,BLACKPINK,How You Like That,1,1,1,5,3,2,1417762,247,11136870,0.42,0.05,0.53,10374,10,0,0,76,1,1
+2020-10-09,77,RE,--,False,False,10,--,Hotter Than Hell,Dua Lipa,Dua Lipa (Deluxe),1,1,1,5,3,2,1319587,230,10368810,0.42,0.05,0.53,9660,10,0,0,49,2,1
 2020-10-09,78,NEW,--,True,False,10,--,Hot Summer,f(x),Hot Summer - f(x) 1st Album Repackage,1,1,1,5,3,2,1331137,232,10459170,0.42,0.05,0.53,9744,10,0,0,78,1,1
 2020-10-09,79,NEW,--,True,False,10,--,Honeymoon Avenue,Ariana Grande,Yours Truly,1,1,1,5,3,2,1475512,258,11588670,0.42,0.05,0.53,10794,10,0,0,79,1,1
 2020-10-09,80,NEW,--,True,False,10,--,Holiday,Little Mix,Confetti,1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,0,0,80,1,1
@@ -85,7 +85,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2020-10-09,84,NEW,--,True,False,10,--,Hands on Me (feat. A$AP Ferg),Ariana Grande,My Everything (Deluxe Edition),1,1,1,5,3,2,1388887,242,10910970,0.42,0.05,0.53,10164,10,0,0,84,1,1
 2020-10-09,85,NEW,--,True,False,10,--,Green Light,Lorde,Songs About Colours,1,1,1,5,3,2,1559250,272,12243780,0.42,0.05,0.53,11403,10,0,0,85,1,1
 2020-10-09,86,NEW,--,True,False,10,--,Greedy,Ariana Grande,Dangerous Woman (Deluxe),1,1,1,5,3,2,1495725,261,11746800,0.42,0.05,0.53,10941,10,0,0,86,1,1
-2020-10-09,87,RE,--,True,False,10,--,goodnight n go,Ariana Grande,Sweetener,1,1,1,5,3,2,1515937,265,11904930,0.42,0.05,0.53,11088,10,0,0,87,1,1
+2020-10-09,87,NEW,--,True,False,10,--,goodnight n go,Ariana Grande,Sweetener,1,1,1,5,3,2,1515937,265,11904930,0.42,0.05,0.53,11088,10,0,0,87,1,1
 2020-10-09,88,NEW,--,True,False,10,--,God is a woman,Ariana Grande,Sweetener,1,1,1,5,3,2,1521712,266,11950110,0.42,0.05,0.53,11130,10,0,0,88,1,1
 2020-10-09,89,NEW,--,True,False,10,--,ghostin,Ariana Grande,thank u next,1,1,1,5,3,2,1466850,256,11520900,0.42,0.05,0.53,10731,10,0,0,89,1,1
 2020-10-09,90,NEW,--,True,False,10,--,get well soon,Ariana Grande,Sweetener,1,1,1,5,3,2,1440862,252,11317590,0.42,0.05,0.53,10542,10,0,0,90,1,1
