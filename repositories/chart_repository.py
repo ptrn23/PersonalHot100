@@ -5,8 +5,15 @@ class ChartRepository:
     """handles reading and writing chart data"""
     
     @staticmethod
+    def load_weekly_chart(filepath):
+        """load chart data from csv as list of dicts"""
+        with open(filepath, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            return list(reader)
+    
+    @staticmethod
     def save_weekly_chart(chart_entries, output_file):
-        """save chart entries to CSV"""
+        """save chart entries to csv"""
         os.makedirs(os.path.dirname(output_file), exist_ok=True)
         
         with open(output_file, 'w', encoding='utf-8', newline='') as f:
@@ -57,6 +64,22 @@ class ChartRepository:
                     entry.weeks_on_chart,
                     entry.peak_streak
                 ])
+    
+    @staticmethod
+    def save_formatted_chart(chart_data, output_file, fieldnames=None):
+        """save formatted chart data (list of dicts) to csv"""
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
+        
+        if not chart_data:
+            return
+        
+        if fieldnames is None:
+            fieldnames = list(chart_data[0].keys())
+        
+        with open(output_file, 'w', encoding='utf-8', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(chart_data)
     
     @staticmethod
     def save_charted_cache(charted_cache, output_file):
