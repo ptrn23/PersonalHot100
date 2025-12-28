@@ -11,8 +11,33 @@ OUTPUT_FILE = f'charts/{YEAR}.csv'
 COLORS_FILE = f'colors/{YEAR}_colors.txt'
 ALBUM_COVERS_FILE = "album_covers.csv"
 
-INCLUDED_ARTISTS = ["Sabrina Carpenter"]
+INCLUDED_ARTISTS = ["ALL"]
 INCLUDED_ALBUMS = ["ALL"]
+INCLUDED_TRACKS = [
+    "Fresh Out the Slammer", 
+    "How You Get the Girl (Taylor's Version)",
+    "NEXT PAGE",
+    "Supersonic",
+    "Jet Lag (feat. Natasha Bedingfield)",
+    "She's So Mean",
+    "Mad Season",
+    "Feeling This",
+    "Sports car",
+    "2 hands",
+    "Can't Keep My Hands Off You (feat. Rivers Cuomo)",
+    "Down",
+    "Fame Is a Gun",
+    "Gabriela",
+    "Keeper",
+    "GENIE",
+    "Weightless",
+    "Stacy's Mom",
+    "My Man on Willpower",
+    "Dilaw",
+    "Father Figure",
+    "Wherever You Will Go",
+    "Blue Valentine"
+]
 
 GENERATE_COLORS = True
 
@@ -78,7 +103,8 @@ with open(OUTPUT_FILE, 'w', encoding='utf-8', newline='') as f:
     for (song, artist), data in flourish_data.items():
         album = data["album"]
         if ("ALL" in INCLUDED_ARTISTS or artist in INCLUDED_ARTISTS) and \
-           ("ALL" in INCLUDED_ALBUMS or album in INCLUDED_ALBUMS):
+           ("ALL" in INCLUDED_ALBUMS or album in INCLUDED_ALBUMS) and \
+           ("ALL" in INCLUDED_TRACKS or song in INCLUDED_TRACKS):
 
             key = (album, artist)
             
@@ -103,7 +129,8 @@ if GENERATE_COLORS:
             album = data["album"]
 
             if ("ALL" in INCLUDED_ARTISTS or artist in INCLUDED_ARTISTS) and \
-               ("ALL" in INCLUDED_ALBUMS or album in INCLUDED_ALBUMS):
+                ("ALL" in INCLUDED_ALBUMS or album in INCLUDED_ALBUMS) and \
+                ("ALL" in INCLUDED_TRACKS or song in INCLUDED_TRACKS):
 
                 if album in album_color_cache:
                     hex_color = album_color_cache[album]
