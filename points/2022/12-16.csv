@@ -1,8 +1,8 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2022-12-16,1,1,2,False,True,269,0.88,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),25,8,18,125,24,36,37826250,2116,213882120,0.52,0.02,0.46,188139,185,42,40,1,40,5
 2022-12-16,2,NEW,--,True,False,228,--,Ditto,NewJeans,Ditto,30,22,6,150,66,12,44958375,5765,70616340,0.75,0.06,0.19,211932,228,0,0,2,1,1
-2022-12-16,3,RE,--,True,False,154,--,Rough,GFRIEND,SNOWFLAKE,19,19,1,95,57,2,26224275,4586,10843200,0.85,0.1,0.06,131313,154,0,0,3,7,1
-2022-12-16,4,17,21,True,False,129,0.77,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),11,9,3,55,27,6,14420175,2063,30903120,0.7,0.06,0.24,73577,88,21,18,4,39,1
+2022-12-16,3,RE,--,True,False,154,--,Rough,GFRIEND,SNOWFLAKE,19,19,1,95,57,2,26224275,4586,10843200,0.85,0.1,0.06,131313,154,0,0,3,8,1
+2022-12-16,4,17,21,True,False,129,0.77,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),11,9,3,55,27,6,14420175,2063,30903120,0.7,0.06,0.24,73577,88,21,18,4,41,1
 2022-12-16,5,RE,--,True,False,120,--,Sonatine,LOOΠΔ 1/3,Love & Evil,15,13,3,75,39,6,21829500,3308,34291620,0.74,0.07,0.19,110019,120,0,0,5,18,1
 2022-12-16,6,5,11,False,False,117,0.22,Midnight Rain,Taylor Swift,Midnights (3am Edition),8,3,6,40,9,12,10510500,689,61941780,0.51,0.02,0.47,54502,61,28,26,1,9,1
 2022-12-16,7,RE,--,True,False,114,--,Cookie,NewJeans,NewJeans 1st EP 'New Jeans',14,14,1,70,42,2,20172075,3528,11317590,0.83,0.09,0.07,101906,114,0,0,7,6,1
@@ -13,7 +13,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-12-16,12,-6,6,False,False,93,-0.28,Karma,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,2610300,456,10255860,0.58,0.06,0.36,15925,18,39,35,3,9,1
 2022-12-16,13,-6,7,False,False,91,-0.29,Mastermind,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,3158925,552,12401910,0.58,0.06,0.36,15750,18,38,33,5,9,1
 2022-12-16,14,RE,--,False,False,90,--,Hurt,NewJeans,NewJeans 1st EP 'New Jeans',11,11,1,55,33,2,15690675,2744,11204640,0.82,0.09,0.09,80017,90,0,0,10,6,1
-2022-12-16,15,27,42,False,False,90,1.0,Blue Flame,LE SSERAFIM,FEARLESS,7,7,1,35,21,2,10591350,1852,11882340,0.77,0.09,0.14,55335,58,13,18,7,24,2
+2022-12-16,15,27,42,False,False,90,1.0,Blue Flame,LE SSERAFIM,FEARLESS,7,7,1,35,21,2,10591350,1852,11882340,0.77,0.09,0.14,55335,58,13,18,6,24,1
 2022-12-16,16,-7,9,False,False,79,-0.2,Lavender Haze,Taylor Swift,Midnights (3am Edition),3,3,1,15,9,2,4443862,777,11633850,0.65,0.07,0.27,25284,26,29,22,1,9,1
 2022-12-16,17,-3,14,False,False,77,-0.17,This Love (Taylor’s Version),Taylor Swift,This Love (Taylor’s Version),2,2,1,10,6,2,2829750,494,11114280,0.58,0.06,0.36,17255,18,27,31,1,29,1
 2022-12-16,18,4,22,False,False,72,0.07,Blank Space,Taylor Swift,1989 (Deluxe),5,5,1,25,15,2,7146562,1249,11227230,0.73,0.08,0.18,38346,42,20,9,3,23,1
@@ -40,7 +40,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-12-16,39,-5,34,False,False,48,-0.08,Bejeweled,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,3158925,552,12401910,0.58,0.06,0.36,15750,18,15,13,5,9,1
 2022-12-16,40,RE,--,False,False,46,--,Paris,Taylor Swift,Midnights (3am Edition),3,3,1,15,9,2,4599787,804,12040470,0.65,0.07,0.27,26166,26,0,19,5,8,1
 2022-12-16,41,RE,--,False,False,46,--,FEARLESS,LE SSERAFIM,FEARLESS,3,3,1,15,9,2,4383225,766,11475720,0.65,0.07,0.27,24941,26,0,19,1,31,3
-2022-12-16,42,RE,--,False,False,45,--,Waking Up in Vegas,Katy Perry,One of the Boys,6,1,6,30,3,12,7882875,229,61941780,0.44,0.01,0.55,41678,45,0,0,3,24,1
+2022-12-16,42,RE,--,False,False,45,--,Waking Up in Vegas,Katy Perry,One of the Boys,6,1,6,30,3,12,7882875,229,61941780,0.44,0.01,0.55,41678,45,0,0,3,22,1
 2022-12-16,43,NEW,--,True,False,45,--,Star ng Pasko,ABS-CBN Music All Star,Magkasama tayo sa Kwento ng Pasko,6,1,6,30,3,12,8818425,257,69260940,0.44,0.01,0.55,46592,45,0,0,43,1,1
 2022-12-16,44,-5,39,False,False,40,-0.13,willow,Taylor Swift,evermore,2,2,1,10,6,2,2656500,464,10436580,0.58,0.06,0.36,16205,18,13,7,1,32,1
 2022-12-16,45,-5,40,False,False,39,-0.13,no body no crime (feat. HAIM),Taylor Swift,evermore,2,2,1,10,6,2,2754675,481,10820610,0.58,0.06,0.36,16800,18,13,6,8,24,1
@@ -56,14 +56,14 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-12-16,55,RE,--,False,False,34,--,First Time,TWICE,Taste of Love,4,4,1,20,12,2,5878950,1028,11543490,0.7,0.08,0.22,32256,34,0,0,10,7,1
 2022-12-16,56,RE,--,False,False,34,--,Conversation,TWICE,Taste of Love,4,4,1,20,12,2,5544000,969,10888380,0.7,0.08,0.22,30429,34,0,0,18,3,1
 2022-12-16,57,RE,--,False,False,34,--,Alcohol-Free,TWICE,Taste of Love,4,4,1,20,12,2,5786550,1012,11362770,0.7,0.08,0.22,31752,34,0,0,7,10,1
-2022-12-16,58,21,79,False,False,34,0.36,ME! (feat. Brendon Urie of Panic! at the Disco),Taylor Swift,ME!,3,3,1,15,9,2,4426537,774,11588670,0.65,0.07,0.27,25186,26,7,0,17,19,1
+2022-12-16,58,21,79,False,False,34,0.36,ME! (feat. Brendon Urie of Panic! at the Disco),Taylor Swift,ME!,3,3,1,15,9,2,4426537,774,11588670,0.65,0.07,0.27,25186,26,7,0,17,20,1
 2022-12-16,59,RE,--,False,False,34,--,O.O,NMIXX,AD MARE,2,2,1,10,6,2,2720025,475,10685070,0.58,0.06,0.36,16590,18,0,15,1,34,2
 2022-12-16,60,-8,52,False,False,34,0.0,champagne problems,Taylor Swift,evermore,2,2,1,10,6,2,2852850,498,11204640,0.58,0.06,0.36,17395,18,10,5,2,22,2
 2022-12-16,61,-17,44,False,False,34,-0.21,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,12,11,11,23,1
 2022-12-16,62,29,91,False,False,32,0.78,Out of the Woods,Taylor Swift,1989 (Deluxe),3,3,1,15,9,2,4556475,796,11927520,0.65,0.07,0.27,25921,26,5,0,35,12,1
 2022-12-16,63,RE,--,False,False,32,--,Hype Boy,NewJeans,NewJeans 1st EP 'New Jeans',2,2,1,10,6,2,2939475,514,11543490,0.58,0.06,0.36,17920,18,0,13,3,16,2
 2022-12-16,64,19,83,False,False,30,0.58,Cruel Summer,Taylor Swift,Lover,2,2,1,10,6,2,3101175,542,12176010,0.58,0.06,0.36,18900,18,5,5,2,32,1
-2022-12-16,65,-12,53,False,False,30,-0.12,HUMAN,dodie,Human,1,1,1,5,3,2,1322475,231,10391400,0.42,0.05,0.53,9681,10,10,8,6,33,1
+2022-12-16,65,-12,53,False,False,30,-0.12,HUMAN,dodie,Human,1,1,1,5,3,2,1322475,231,10391400,0.42,0.05,0.53,9681,10,10,8,6,34,1
 2022-12-16,66,-11,55,False,False,29,-0.12,UNNATURAL,WJSN,UNNATURAL,1,1,1,5,3,2,1365787,238,10730250,0.42,0.05,0.53,9996,10,9,8,1,36,4
 2022-12-16,67,-13,54,False,False,28,-0.15,long story short,Taylor Swift,evermore,2,2,1,10,6,2,2644950,462,10391400,0.58,0.06,0.36,16134,18,9,0,9,20,1
 2022-12-16,68,RE,--,False,False,28,--,Glitch,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,2875950,502,11295000,0.58,0.06,0.36,17535,18,0,9,22,8,1
@@ -83,7 +83,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-12-16,82,2,84,False,False,24,0.33,The Man,Taylor Swift,Lover,2,2,1,10,6,2,3164700,553,10165500,0.58,0.06,0.36,15785,18,5,0,27,17,1
 2022-12-16,83,9,92,False,False,24,0.33,New Romantics,Taylor Swift,1989 (Deluxe),2,2,1,10,6,2,3153150,551,12379320,0.58,0.06,0.36,19215,18,5,0,10,10,1
 2022-12-16,84,12,96,False,False,24,0.33,I Think He Knows,Taylor Swift,Lover,2,2,1,10,6,2,3130050,547,12288960,0.58,0.06,0.36,19075,18,5,0,1,17,1
-2022-12-16,85,RE,--,False,False,24,--,favOriTe,Loona,FavOriTe,2,2,1,10,6,2,3170475,453,10188090,0.58,0.06,0.36,15820,18,0,5,3,31,2
+2022-12-16,85,RE,--,False,False,24,--,favOriTe,Loona,FavOriTe,2,2,1,10,6,2,3170475,453,10188090,0.58,0.06,0.36,15820,18,0,5,3,31,1
 2022-12-16,86,-11,75,False,False,24,-0.08,You Need to Calm Down,Taylor Swift,Lover,1,1,1,5,3,2,1541925,269,12108240,0.42,0.05,0.53,11277,10,7,5,12,17,1
 2022-12-16,87,-10,77,False,False,24,-0.08,SAY SOMETHING,TWICE,Eyes wide open,1,1,1,5,3,2,1313812,229,10323630,0.42,0.05,0.53,9618,10,7,6,3,11,1
 2022-12-16,88,-12,76,False,False,24,-0.08,Lover,Taylor Swift,Lover,1,1,1,5,3,2,1426425,249,11204640,0.42,0.05,0.53,10437,10,7,5,35,31,2

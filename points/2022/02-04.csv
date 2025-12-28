@@ -60,9 +60,9 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-02-04,59,-38,21,False,False,26,-0.1,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1504387,263,11814570,0.42,0.05,0.53,11004,10,8,7,19,11,2
 2022-02-04,60,NEW,--,True,False,25,--,하지하지마 Stop stop it,GOT7,Identify,3,2,2,15,6,4,4703737,548,24623100,0.52,0.04,0.44,26754,25,0,0,60,1,1
 2022-02-04,61,RE,--,False,False,25,--,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),2,2,1,10,6,2,3164700,553,10165500,0.58,0.06,0.36,15785,18,0,6,2,19,1
-2022-02-04,62,RE,--,False,False,25,--,Dress,Taylor Swift,Reputation,2,2,1,10,6,2,3112725,544,12221190,0.58,0.06,0.36,18970,18,0,6,6,16,1
+2022-02-04,62,RE,--,False,False,25,--,Dress,Taylor Swift,reputation,2,2,1,10,6,2,2673825,467,10504350,0.58,0.06,0.36,16310,18,0,6,6,16,1
 2022-02-04,63,RE,--,False,False,25,--,Dangerous Woman,Ariana Grande,Dangerous Woman (Deluxe),2,2,1,10,6,2,2887500,505,11340180,0.58,0.06,0.36,17605,18,0,6,18,9,1
-2022-02-04,64,-25,39,False,False,25,0.14,We Don't Talk About Bruno,Carolina Gaitán - La Gaita,Encanto (Original Motion Picture Soundtrack),1,1,1,5,3,2,1394662,243,10956150,0.42,0.05,0.53,10206,10,6,8,13,3,1
+2022-02-04,64,-25,39,False,False,25,0.14,We Don't Talk About Bruno,Carolina Gaitán - La Gaita,Encanto (Original Motion Picture Soundtrack),1,1,1,5,3,2,1394662,243,10956150,0.42,0.05,0.53,10206,10,6,8,12,3,1
 2022-02-04,65,RE,--,True,False,24,--,CUPID,OH MY GIRL,OH MY GIRL,3,1,3,15,3,6,4391887,256,34494930,0.44,0.02,0.55,24990,24,0,0,65,2,1
 2022-02-04,66,RE,--,False,False,24,--,Toxic,Britney Spears,In the Zone,2,2,1,10,6,2,2616075,457,10278450,0.58,0.06,0.36,15960,18,0,6,6,14,1
 2022-02-04,67,RE,--,False,False,24,--,Physical,Dua Lipa,Future Nostalgia,2,2,1,10,6,2,3106950,543,12198600,0.58,0.06,0.36,18935,18,0,5,14,10,2
@@ -81,21 +81,21 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-02-04,80,-36,44,False,False,22,0.0,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1544812,270,12130830,0.42,0.05,0.53,11298,10,6,4,26,9,1
 2022-02-04,81,-13,68,False,False,21,1.1,Zimzalabim,Red Velvet,‘The ReVe Festival’ Day 1,2,2,1,10,6,2,2887500,505,11340180,0.58,0.06,0.36,17605,18,3,0,4,7,1
 2022-02-04,82,-44,38,False,False,21,-0.09,Begin Again (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,6,4,15,10,1
-2022-02-04,83,-5,78,False,False,20,1.0,Up,Cardi B,UP,2,1,2,10,3,4,2795100,244,21957480,0.43,0.02,0.54,17045,17,3,0,7,9,1
-2022-02-04,84,RE,--,False,False,20,--,Getaway Car,Taylor Swift,Reputation,1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,0,9,6,9,1
-2022-02-04,85,RE,--,False,False,18,--,행복했던 날들이었다 days gone by,DAY6,Remember Us : Youth Part 2,2,2,1,10,6,2,3124275,546,12266370,0.58,0.06,0.36,19040,18,0,0,47,2,1
-2022-02-04,86,RE,--,False,False,18,--,행복 (Happiness),Red Velvet,The 1st Single '행복(Happiness)',2,2,1,10,6,2,3049200,533,11972700,0.58,0.06,0.36,18585,18,0,0,50,2,1
-2022-02-04,87,RE,--,False,False,18,--,키스는 다음에,Loona,YeoJin,2,2,1,10,6,2,2789325,487,10956150,0.58,0.06,0.36,17010,18,0,0,6,4,1
-2022-02-04,88,RE,--,False,False,18,--,좋은걸 뭐 어떡해 What Can I Do,DAY6,MOONRISE,2,2,1,10,6,2,2772000,484,10888380,0.58,0.06,0.36,16905,18,0,0,56,2,1
-2022-02-04,89,RE,--,False,False,18,--,예뻤어 You Were Beautiful,DAY6,Every DAY6 February,2,2,1,10,6,2,2997225,524,11769390,0.58,0.06,0.36,18270,18,0,0,4,2,1
-2022-02-04,90,RE,--,False,False,18,--,어떻게 말해 How Can I Say,DAY6,Every DAY6 March,2,2,1,10,6,2,2604525,455,10233270,0.58,0.06,0.36,15890,18,0,0,62,2,1
-2022-02-04,91,RE,--,False,False,18,--,그렇더라고요 When you love someone,DAY6,MOONRISE,2,2,1,10,6,2,2708475,473,10639890,0.58,0.06,0.36,16520,18,0,0,63,2,1
-2022-02-04,92,NEW,--,True,False,18,--,You Are,GOT7,7 for 7,2,2,1,10,6,2,2783550,486,10933560,0.58,0.06,0.36,16975,18,0,0,92,1,1
-2022-02-04,93,RE,--,False,False,18,--,WITHOUT YOU (Sung by JAEHYUN DOYOUNG TAEIL),NCT U,Without You,2,2,1,10,6,2,2870175,501,11272410,0.58,0.06,0.36,17500,18,0,0,51,4,1
-2022-02-04,94,RE,--,False,False,18,--,WINDY DAY,OH MY GIRL,WINDY DAY,2,2,1,10,6,2,2945250,515,11566080,0.58,0.06,0.36,17955,18,0,0,19,4,1
-2022-02-04,95,RE,--,False,False,18,--,Why Not?,Loona,[12:00],2,2,1,10,6,2,2639175,461,10368810,0.58,0.06,0.36,16099,18,0,0,20,5,1
-2022-02-04,96,RE,--,False,False,18,--,WHISTLE,BLACKPINK,SQUARE ONE,2,2,1,10,6,2,3158925,552,12401910,0.58,0.06,0.36,15750,18,0,0,53,3,1
-2022-02-04,97,NEW,--,True,False,18,--,What is Love?,TWICE,What is Love?,2,2,1,10,6,2,3089625,540,12130830,0.58,0.06,0.36,18830,18,0,0,97,1,1
-2022-02-04,98,RE,--,False,False,18,--,What Is Love,TWICE,Summer Nights,2,2,1,10,6,2,2974125,520,11679030,0.58,0.06,0.36,18130,18,0,0,9,5,1
-2022-02-04,99,RE,--,False,False,18,--,Wave,ATEEZ,TREASURE EP.3 : One To All,2,2,1,10,6,2,2968350,519,11656440,0.58,0.06,0.36,18095,18,0,0,2,11,1
-2022-02-04,100,RE,--,False,False,18,--,WAP (feat. Megan Thee Stallion),Cardi B,WAP (feat. Megan Thee Stallion),2,2,1,10,6,2,2812425,491,11046510,0.58,0.06,0.36,17150,18,0,0,1,16,1
+2022-02-04,83,-5,78,False,False,20,1.0,Up,Cardi B,Up,2,1,2,10,3,4,3141600,274,24668280,0.43,0.02,0.54,19145,17,3,0,7,9,1
+2022-02-04,84,RE,--,False,False,18,--,행복했던 날들이었다 days gone by,DAY6,Remember Us : Youth Part 2,2,2,1,10,6,2,3124275,546,12266370,0.58,0.06,0.36,19040,18,0,0,47,2,1
+2022-02-04,85,RE,--,False,False,18,--,행복 (Happiness),Red Velvet,The 1st Single '행복(Happiness)',2,2,1,10,6,2,3049200,533,11972700,0.58,0.06,0.36,18585,18,0,0,50,2,1
+2022-02-04,86,RE,--,False,False,18,--,키스는 다음에,Loona,YeoJin,2,2,1,10,6,2,2789325,487,10956150,0.58,0.06,0.36,17010,18,0,0,6,4,1
+2022-02-04,87,RE,--,False,False,18,--,좋은걸 뭐 어떡해 What Can I Do,DAY6,MOONRISE,2,2,1,10,6,2,2772000,484,10888380,0.58,0.06,0.36,16905,18,0,0,56,2,1
+2022-02-04,88,RE,--,False,False,18,--,예뻤어 You Were Beautiful,DAY6,Every DAY6 February,2,2,1,10,6,2,2997225,524,11769390,0.58,0.06,0.36,18270,18,0,0,4,2,1
+2022-02-04,89,RE,--,False,False,18,--,어떻게 말해 How Can I Say,DAY6,Every DAY6 March,2,2,1,10,6,2,2604525,455,10233270,0.58,0.06,0.36,15890,18,0,0,62,2,1
+2022-02-04,90,RE,--,False,False,18,--,그렇더라고요 When you love someone,DAY6,MOONRISE,2,2,1,10,6,2,2708475,473,10639890,0.58,0.06,0.36,16520,18,0,0,63,2,1
+2022-02-04,91,NEW,--,True,False,18,--,You Are,GOT7,7 for 7,2,2,1,10,6,2,2783550,486,10933560,0.58,0.06,0.36,16975,18,0,0,91,1,1
+2022-02-04,92,RE,--,False,False,18,--,WITHOUT YOU (Sung by JAEHYUN DOYOUNG TAEIL),NCT U,Without You,2,2,1,10,6,2,2870175,501,11272410,0.58,0.06,0.36,17500,18,0,0,51,4,1
+2022-02-04,93,RE,--,False,False,18,--,WINDY DAY,OH MY GIRL,WINDY DAY,2,2,1,10,6,2,2945250,515,11566080,0.58,0.06,0.36,17955,18,0,0,19,4,1
+2022-02-04,94,RE,--,False,False,18,--,Why Not?,Loona,[12:00],2,2,1,10,6,2,2639175,461,10368810,0.58,0.06,0.36,16099,18,0,0,20,5,1
+2022-02-04,95,RE,--,False,False,18,--,WHISTLE,BLACKPINK,SQUARE ONE,2,2,1,10,6,2,3158925,552,12401910,0.58,0.06,0.36,15750,18,0,0,53,3,1
+2022-02-04,96,NEW,--,True,False,18,--,What is Love?,TWICE,What is Love?,2,2,1,10,6,2,3089625,540,12130830,0.58,0.06,0.36,18830,18,0,0,96,1,1
+2022-02-04,97,RE,--,False,False,18,--,What Is Love,TWICE,Summer Nights,2,2,1,10,6,2,2974125,520,11679030,0.58,0.06,0.36,18130,18,0,0,9,5,1
+2022-02-04,98,RE,--,False,False,18,--,Wave,ATEEZ,TREASURE EP.3 : One To All,2,2,1,10,6,2,2968350,519,11656440,0.58,0.06,0.36,18095,18,0,0,2,11,1
+2022-02-04,99,RE,--,False,False,18,--,WAP (feat. Megan Thee Stallion),Cardi B,WAP (feat. Megan Thee Stallion),2,2,1,10,6,2,2812425,491,11046510,0.58,0.06,0.36,17150,18,0,0,1,16,1
+2022-02-04,100,NEW,--,True,False,18,--,WA DA DA,Kep1er,FIRST IMPACT,2,2,1,10,6,2,2962575,518,11633850,0.58,0.06,0.36,18060,18,0,0,100,1,1

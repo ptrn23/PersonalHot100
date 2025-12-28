@@ -14,12 +14,12 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-01-14,13,=,13,False,False,43,0.34,Love Story (Taylor’s Version),Taylor Swift,Love Story (Taylor’s Version),3,3,1,15,9,2,4660425,814,12198600,0.65,0.07,0.27,26509,26,9,6,1,22,3
 2022-01-14,14,RE,--,False,False,42,--,HUMAN,dodie,Human,5,5,1,25,15,2,6612375,1156,10391400,0.73,0.08,0.18,35497,42,0,0,6,10,1
 2022-01-14,15,-4,11,False,False,42,0.11,Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2725800,476,10707660,0.58,0.06,0.36,16625,18,11,11,2,10,1
-2022-01-14,16,RE,--,False,False,41,--,Dress,Taylor Swift,Reputation,4,4,1,20,12,2,6225450,1088,12221190,0.7,0.08,0.22,34146,34,0,6,6,14,1
+2022-01-14,16,RE,--,False,False,41,--,Dress,Taylor Swift,reputation,4,4,1,20,12,2,5347650,935,10504350,0.7,0.08,0.22,29358,34,0,6,6,14,1
 2022-01-14,17,63,80,True,False,40,1.22,False God,Taylor Swift,Lover,4,4,1,20,12,2,6213900,1086,12198600,0.7,0.08,0.22,34083,34,5,0,17,3,1
 2022-01-14,18,63,81,True,False,40,1.22,Dangerous Woman,Ariana Grande,Dangerous Woman (Deluxe),4,4,1,20,12,2,5775000,1010,11340180,0.7,0.08,0.22,31689,34,5,0,18,7,1
 2022-01-14,19,25,44,False,True,38,0.81,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4513162,789,11814570,0.65,0.07,0.27,25676,26,6,4,19,8,2
 2022-01-14,20,14,34,True,False,38,0.58,Girlfriend,Avril Lavigne,The Best Damn Thing (Expanded Edition),3,3,1,15,9,2,4123350,721,10798020,0.65,0.07,0.27,23471,26,7,3,20,5,1
-2022-01-14,21,-15,6,False,False,38,-0.12,Getaway Car,Taylor Swift,Reputation,2,2,1,10,6,2,2673825,467,10504350,0.58,0.06,0.36,16310,18,12,6,6,7,1
+2022-01-14,21,-15,6,False,False,38,-0.12,Getaway Car,Taylor Swift,reputation,2,2,1,10,6,2,2766225,483,10865790,0.58,0.06,0.36,16870,18,12,6,6,7,1
 2022-01-14,22,-6,16,False,False,35,0.25,Better Man (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,3083850,539,12108240,0.58,0.06,0.36,18795,18,8,7,3,9,1
 2022-01-14,23,-18,5,False,False,35,-0.2,Death by a Thousand Cuts,Taylor Swift,Lover,2,1,2,10,3,4,2864400,250,22499640,0.43,0.02,0.54,17465,17,13,3,3,15,1
 2022-01-14,24,RE,--,False,False,34,--,Hot n Cold,Katy Perry,One of the Boys,4,4,1,20,12,2,5555550,971,10910970,0.7,0.08,0.22,30492,34,0,0,2,3,1
@@ -32,7 +32,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-01-14,31,-1,30,False,False,32,0.23,Better Than Revenge,Taylor Swift,Speak Now (Deluxe Version),2,2,1,10,6,2,2910600,509,11430540,0.58,0.06,0.36,17745,18,7,5,30,4,1
 2022-01-14,32,-14,18,False,False,31,0.15,good 4 u,Olivia Rodrigo,good 4 u,2,2,1,10,6,2,3095400,541,12153420,0.58,0.06,0.36,18865,18,8,3,1,11,2
 2022-01-14,33,RE,--,False,False,30,--,Hands to Myself,Selena Gomez,Revival (Deluxe),3,3,1,15,9,2,4383225,766,11475720,0.65,0.07,0.27,24941,26,0,3,5,5,1
-2022-01-14,34,RE,--,False,False,30,--,Don’t Blame Me,Taylor Swift,Reputation,3,3,1,15,9,2,4565137,798,11950110,0.65,0.07,0.27,25970,26,0,3,5,6,1
+2022-01-14,34,RE,--,False,False,30,--,Don’t Blame Me,Taylor Swift,reputation,3,3,1,15,9,2,4669087,816,12221190,0.65,0.07,0.27,26558,26,0,3,5,6,1
 2022-01-14,35,-3,32,False,False,30,0.25,Sk8er Boi,Avril Lavigne,Let Go,2,2,1,10,6,2,3089625,540,12130830,0.58,0.06,0.36,18830,18,7,3,29,9,1
 2022-01-14,36,-3,33,False,False,30,0.25,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2847075,497,11182050,0.58,0.06,0.36,17360,18,7,3,6,6,1
 2022-01-14,37,RE,--,False,False,29,--,What the Hell,Avril Lavigne,Goodbye Lullaby CD1,3,3,1,15,9,2,4452525,778,11656440,0.65,0.07,0.27,25333,26,0,2,1,10,1
@@ -41,7 +41,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-01-14,40,60,100,True,False,27,0.69,Here's to Never Growing Up,Avril Lavigne,Avril Lavigne (Expanded Edition),2,2,1,10,6,2,3026100,529,11882340,0.58,0.06,0.36,18445,18,4,3,40,6,1
 2022-01-14,41,-31,10,False,False,27,-0.29,Blank Space,Taylor Swift,1989 (Deluxe),1,1,1,5,3,2,1429312,249,11227230,0.42,0.05,0.53,10458,10,11,4,3,11,1
 2022-01-14,42,RE,--,False,False,26,--,WAP (feat. Megan Thee Stallion),Cardi B,WAP (feat. Megan Thee Stallion),3,3,1,15,9,2,4218637,737,11046510,0.65,0.07,0.27,24010,26,0,0,1,15,1
-2022-01-14,43,RE,--,False,False,26,--,TiK ToK,Kesha,Animal (Expanded Edition),3,3,1,15,9,2,4374562,765,11453130,0.65,0.07,0.27,24892,26,0,0,6,7,1
+2022-01-14,43,RE,--,False,False,26,--,Tik Tok,Ke$ha,Animal (Expanded Edition),3,3,1,15,9,2,4348575,760,11385360,0.65,0.07,0.27,24745,26,0,0,6,7,1
 2022-01-14,44,RE,--,False,False,26,--,STRAWBERRY,TWICE,FANCY YOU,3,3,1,15,9,2,4305262,752,11272410,0.65,0.07,0.27,24500,26,0,0,34,5,1
 2022-01-14,45,NEW,--,True,False,26,--,Since U Been Gone,Kelly Clarkson,Breakaway,3,3,1,15,9,2,4669087,816,12221190,0.65,0.07,0.27,26558,26,0,0,45,1,1
 2022-01-14,46,NEW,--,True,False,26,--,Sandalan,6CycleMind,Panorama,3,3,1,15,9,2,4244625,742,11114280,0.65,0.07,0.27,24157,26,0,0,46,1,1
@@ -93,7 +93,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2022-01-14,92,RE,--,False,False,18,--,Poker Face,Lady Gaga,The Fame,2,2,1,10,6,2,2604525,455,10233270,0.58,0.06,0.36,15890,18,0,0,34,2,1
 2022-01-14,93,RE,--,False,False,18,--,Oops!...I Did It Again,Britney Spears,Oops!... I Did It Again,2,2,1,10,6,2,2852850,498,11204640,0.58,0.06,0.36,17395,18,0,0,45,2,1
 2022-01-14,94,RE,--,False,False,18,--,Magda,Gloc-9,Liham At Lihim,2,2,1,10,6,2,2979900,521,11701620,0.58,0.06,0.36,18165,18,0,0,81,2,1
-2022-01-14,95,RE,--,False,False,18,--,Look What You Made Me Do,Taylor Swift,Reputation,2,2,1,10,6,2,2616075,457,10278450,0.58,0.06,0.36,15960,18,0,0,6,7,1
+2022-01-14,95,RE,--,False,False,18,--,Look What You Made Me Do,Taylor Swift,reputation,2,2,1,10,6,2,2800875,489,11001330,0.58,0.06,0.36,17080,18,0,0,6,7,1
 2022-01-14,96,NEW,--,True,False,18,--,Ligaya,Eraserheads,Anthology,2,2,1,10,6,2,2610300,456,10255860,0.58,0.06,0.36,15925,18,0,0,96,1,1
 2022-01-14,97,RE,--,False,False,18,--,Lady Marmalade - From Moulin Rouge Soundtrack,Christina Aguilera,Moulin Rouge,2,2,1,10,6,2,3072300,537,12063060,0.58,0.06,0.36,18725,18,0,0,34,2,1
 2022-01-14,98,RE,--,False,False,18,--,Kiss You,One Direction,Take Me Home (Expanded Edition),2,2,1,10,6,2,2841300,496,11159460,0.58,0.06,0.36,17325,18,0,0,61,3,1
