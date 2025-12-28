@@ -1,10 +1,10 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2025-03-21,1,11,12,True,False,988,3.26,Sports car,Tate McRae,So Close to What,124,90,14,620,270,28,166851300,21183,148009680,0.82,0.07,0.12,748524,918,69,0,1,2,1
 2025-03-21,2,38,40,True,False,748,5.13,2 hands,Tate McRae,So Close to What,90,85,3,450,255,6,121881375,20134,31919670,0.87,0.09,0.04,588112,711,36,0,2,2,1
-2025-03-21,3,21,24,True,False,677,2.98,Revolving Door,Tate McRae,So Close to What,78,78,1,390,234,2,114864750,20088,11566080,0.89,0.1,0.01,563787,626,51,0,3,2,1
-2025-03-21,4,70,74,True,False,470,10.19,Miss Possessive,Tate McRae,So Close to What,57,56,2,285,168,4,83445862,14337,22996620,0.87,0.1,0.04,410550,457,12,0,4,2,1
-2025-03-21,5,27,32,True,False,438,2.02,It's OK I'm OK,Tate McRae,it's ok i'm ok,49,49,1,245,147,2,71168212,12446,11407950,0.88,0.1,0.02,350658,394,43,0,5,2,1
-2025-03-21,6,NEW,--,True,False,434,--,Purple Lace Bra,Tate McRae,So Close to What,54,54,1,270,162,2,78742125,13771,11453130,0.88,0.1,0.02,387604,434,0,0,6,1,1
+2025-03-21,3,21,24,True,False,677,2.98,Revolving door,Tate McRae,So Close to What,78,78,1,390,234,2,104053949,18201,10481760,0.89,0.1,0.01,511035,626,51,0,3,2,1
+2025-03-21,4,70,74,True,False,470,10.19,Miss possessive,Tate McRae,So Close to What,57,56,2,285,168,4,82129162,14112,22635180,0.87,0.1,0.04,404110,457,12,0,4,2,1
+2025-03-21,5,27,32,True,False,438,2.02,It's ok I'm ok,Tate McRae,it's ok i'm ok,49,49,1,245,147,2,68338462,11952,10956150,0.88,0.1,0.02,336798,394,43,0,5,2,1
+2025-03-21,6,NEW,--,True,False,434,--,Purple lace bra,Tate McRae,So Close to What,54,54,1,270,162,2,74376225,13009,10820610,0.88,0.1,0.02,366240,434,0,0,6,1,1
 2025-03-21,7,-6,1,False,False,342,-0.28,Mad Season,Matchbox Twenty,Mad Season,9,8,2,45,24,4,13513500,2100,23583960,0.73,0.07,0.2,69559,73,141,126,1,7,4
 2025-03-21,8,-6,2,False,False,282,-0.33,She's out of Her Mind,blink-182,California (Deluxe Edition),6,6,1,30,18,2,9130275,1596,11950110,0.76,0.09,0.16,48230,50,125,105,2,5,2
 2025-03-21,9,NEW,--,True,False,275,--,Los Angeles,blink-182,California (Deluxe Edition),37,22,12,185,66,24,48290550,5022,123070320,0.68,0.05,0.28,226135,275,0,0,9,1,1
@@ -34,8 +34,8 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-03-21,33,14,47,True,False,114,0.11,Black & White People,Matchbox Twenty,Mad Season,7,7,1,35,21,2,10146675,1774,11385360,0.77,0.09,0.14,53025,58,30,24,33,3,1
 2025-03-21,34,-12,22,False,False,111,-0.36,Stockholm Syndrome,blink-182,blink-182,2,2,1,10,6,2,2737350,478,10752840,0.58,0.06,0.36,16695,18,51,40,20,4,1
 2025-03-21,35,1,36,False,False,109,-0.2,I'm Not Okay (I Promise),My Chemical Romance,Three Cheers for Sweet Revenge,3,3,1,15,9,2,3898125,681,10210680,0.65,0.07,0.27,22197,26,40,41,3,47,1
-2025-03-21,36,-11,25,False,False,108,-0.35,Juno,Sabrina Carpenter,Short n' Sweet,3,3,1,15,9,2,4097362,716,10730250,0.65,0.07,0.27,23324,26,49,32,5,16,1
-2025-03-21,37,-8,29,False,False,104,-0.35,Keeper,TWICE,Strategy,3,3,1,15,9,2,4045387,707,10594710,0.65,0.07,0.27,23030,26,47,29,4,9,1
+2025-03-21,36,-11,25,False,False,108,-0.35,Juno,Sabrina Carpenter,Short n' Sweet,3,3,1,15,9,2,4097362,716,10730250,0.65,0.07,0.27,23324,26,49,32,5,15,1
+2025-03-21,37,-8,29,False,False,104,-0.35,Keeper,TWICE,STRATEGY,3,3,1,15,9,2,4149337,725,10865790,0.65,0.07,0.27,23618,26,47,29,4,9,1
 2025-03-21,38,21,59,True,False,102,0.55,Don't Let Me Stop You,Kelly Clarkson,All I Ever Wanted,10,10,1,50,30,2,13657875,2388,10730250,0.81,0.09,0.1,69972,82,19,0,38,2,1
 2025-03-21,39,RE,--,False,False,101,--,The Lucky One (Taylor's Version),Taylor Swift,Red (Taylor's Version),14,1,14,70,3,28,18757200,234,147377160,0.44,0.0,0.55,94801,101,0,0,2,28,1
 2025-03-21,40,-12,28,False,False,101,-0.36,Nice Guys Finish Last,Green Day,Nimrod,3,3,1,15,9,2,4556475,796,11927520,0.65,0.07,0.27,25921,26,47,26,1,63,7
@@ -45,7 +45,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-03-21,44,NEW,--,True,False,98,--,No Future,blink-182,California (Deluxe Edition),12,12,1,60,36,2,16666650,2915,10910970,0.82,0.09,0.09,84700,98,0,0,44,1,1
 2025-03-21,45,RE,--,False,False,98,--,East Jesus Nowhere,Green Day,21st Century Breakdown,14,2,11,70,6,22,20616750,515,127226880,0.5,0.01,0.49,96957,98,0,0,34,14,1
 2025-03-21,46,5,51,False,False,96,0.09,What's My Age Again?,blink-182,Enema of the State,10,3,5,50,9,10,15274875,801,59976450,0.6,0.02,0.38,67032,69,26,0,1,33,2
-2025-03-21,47,-14,33,False,False,95,-0.33,Like It Like It,TWICE,Strategy,3,3,1,15,9,2,4669087,816,12221190,0.65,0.07,0.27,26558,26,42,26,5,9,1
+2025-03-21,47,-14,33,False,False,95,-0.33,Like It Like It,TWICE,STRATEGY,3,3,1,15,9,2,4634437,810,12130830,0.65,0.07,0.27,26362,26,42,26,5,9,1
 2025-03-21,48,RE,--,False,False,94,--,Cruel Summer,Taylor Swift,Lover,13,1,13,65,3,26,20157637,271,158288130,0.44,0.0,0.55,102060,94,0,0,1,53,2
 2025-03-21,49,22,71,True,False,87,0.74,Down,blink-182,blink-182,8,8,1,40,24,2,11734800,2052,11520900,0.79,0.09,0.12,60809,66,15,5,49,3,1
 2025-03-21,50,RE,--,False,False,80,--,Womanizer,Britney Spears,Circus,11,1,11,55,3,22,15754200,250,123748020,0.44,0.0,0.55,80339,80,0,0,3,35,1
@@ -76,7 +76,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-03-21,75,RE,--,False,False,34,--,I Can Fix Him (No Really I Can),Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,4,4,1,20,12,2,6225450,1088,12221190,0.7,0.08,0.22,34146,34,0,0,27,21,1
 2025-03-21,76,NEW,--,True,False,34,--,Home Is Such a Lonely Place,blink-182,California (Deluxe Edition),4,4,1,20,12,2,5370750,939,10549530,0.7,0.08,0.22,29484,34,0,0,76,1,1
 2025-03-21,77,RE,--,False,False,34,--,Florida!!! (feat. Florence + the Machine),Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,4,4,1,20,12,2,5544000,969,10888380,0.7,0.08,0.22,30429,34,0,0,16,10,1
-2025-03-21,78,2,80,False,False,29,-0.17,Piece by Piece,Kelly Clarkson,Piece by Piece (Deluxe Version),2,2,1,10,6,2,3072300,537,12063060,0.58,0.06,0.36,18725,18,10,0,8,13,1
+2025-03-21,78,2,80,False,False,29,-0.17,Piece by Piece,Kelly Clarkson,Piece by Piece (Deluxe Version),2,2,1,10,6,2,3072300,537,12063060,0.58,0.06,0.36,18725,18,10,0,8,11,1
 2025-03-21,79,RE,--,False,False,27,--,St. Jimmy,Green Day,American Idiot,1,1,1,5,3,2,1429312,249,11227230,0.42,0.05,0.53,10458,10,0,16,8,15,1
 2025-03-21,80,RE,--,False,False,27,--,She's a Rebel,Green Day,American Idiot,1,1,1,5,3,2,1397550,244,10978740,0.42,0.05,0.53,10227,10,0,16,7,17,1
 2025-03-21,81,RE,--,False,False,27,--,Letterbomb,Green Day,American Idiot,1,1,1,5,3,2,1455300,254,11430540,0.42,0.05,0.53,10647,10,0,16,10,16,1
@@ -98,4 +98,4 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-03-21,97,RE,--,False,False,18,--,You Know What They Do to Guys Like Us in Prison,My Chemical Romance,Three Cheers for Sweet Revenge,2,2,1,10,6,2,3014550,527,11837160,0.58,0.06,0.36,18375,18,0,0,23,8,1
 2025-03-21,98,RE,--,False,False,18,--,Worry Rock,Green Day,Nimrod,2,2,1,10,6,2,3153150,551,12379320,0.58,0.06,0.36,19215,18,0,0,2,24,1
 2025-03-21,99,RE,--,False,False,18,--,Wet Hands,C418,Minecraft - Volume Alpha,2,2,1,10,6,2,2644950,462,10391400,0.58,0.06,0.36,16134,18,0,0,16,16,1
-2025-03-21,100,RE,--,False,False,18,--,Walking Alone,Green Day,Nimrod,2,2,1,10,6,2,2731575,477,10730250,0.58,0.06,0.36,16660,18,0,0,4,14,1
+2025-03-21,100,RE,--,False,False,18,--,Walking Alone,Green Day,Nimrod,2,2,1,10,6,2,2731575,477,10730250,0.58,0.06,0.36,16660,18,0,0,4,15,1

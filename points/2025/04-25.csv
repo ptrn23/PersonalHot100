@@ -1,13 +1,13 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2025-04-25,1,1,2,False,True,390,-0.18,2 hands,Tate McRae,So Close to What,17,17,1,85,51,2,23022037,4026,10639890,0.84,0.09,0.06,115640,138,142,108,1,7,2
 2025-04-25,2,-1,1,False,False,370,-0.23,Sports car,Tate McRae,So Close to What,17,17,1,85,51,2,22874775,4001,10572120,0.84,0.09,0.06,114905,138,144,86,1,7,4
-2025-04-25,3,1,4,True,False,289,-0.19,Miss Possessive,Tate McRae,So Close to What,16,16,1,80,48,2,23423400,4096,11498310,0.84,0.09,0.07,117810,130,106,51,3,7,1
-2025-04-25,4,-1,3,False,False,279,-0.27,Revolving Door,Tate McRae,So Close to What,13,13,1,65,39,2,19144125,3348,11566080,0.83,0.09,0.08,96957,106,114,58,3,7,3
+2025-04-25,3,1,4,True,False,289,-0.19,Miss possessive,Tate McRae,So Close to What,16,16,1,80,48,2,23053800,4032,11317590,0.84,0.09,0.07,115962,130,106,51,3,7,1
+2025-04-25,4,-1,3,False,False,279,-0.27,Revolving door,Tate McRae,So Close to What,13,13,1,65,39,2,17342325,3033,10481760,0.83,0.09,0.08,87885,106,114,58,3,7,3
 2025-04-25,5,2,7,True,False,260,-0.12,Down,blink-182,blink-182,15,15,1,75,45,2,22002750,3848,11520900,0.84,0.09,0.07,110887,122,88,49,5,8,1
 2025-04-25,6,5,11,False,False,259,0.24,You Suck at Love,Simple Plan,Get Your Heart On! (Deluxe Edition),15,15,1,75,45,2,20486812,3583,10730250,0.84,0.09,0.07,103292,122,62,73,3,3,1
-2025-04-25,7,-2,5,False,False,239,-0.31,It's OK I'm OK,Tate McRae,it's ok i'm ok,10,10,1,50,30,2,14524125,2540,11407950,0.81,0.09,0.1,74382,82,104,51,5,7,4
+2025-04-25,7,-2,5,False,False,239,-0.31,It's ok I'm ok,Tate McRae,it's ok i'm ok,10,10,1,50,30,2,13946625,2439,10956150,0.81,0.09,0.1,71442,82,104,51,5,7,4
 2025-04-25,8,=,8,False,True,222,-0.21,bloodonmyhands (feat. Flo Milli),Tate McRae,So Close to What,17,16,2,85,48,4,25623675,4217,23674320,0.8,0.08,0.12,128625,137,84,0,8,2,2
-2025-04-25,9,-3,6,False,False,215,-0.34,Purple Lace Bra,Tate McRae,So Close to What,8,8,1,40,24,2,11665500,2040,11453130,0.79,0.09,0.12,60452,66,98,49,6,6,2
+2025-04-25,9,-3,6,False,False,215,-0.34,Purple lace bra,Tate McRae,So Close to What,8,8,1,40,24,2,11018700,1927,10820610,0.79,0.09,0.12,57120,66,98,49,6,6,2
 2025-04-25,10,6,16,False,False,208,0.2,Astronaut,Simple Plan,Get Your Heart On! (Deluxe Edition),13,13,1,65,39,2,18843825,3295,11385360,0.83,0.09,0.08,95445,106,51,50,7,3,1
 2025-04-25,11,-1,10,False,False,201,-0.13,Fresh Out the Slammer,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,12,12,1,60,36,2,18780300,3284,12288960,0.82,0.09,0.09,95375,98,69,32,1,40,1
 2025-04-25,12,=,12,False,False,196,-0.01,Mad Season,Matchbox Twenty,Mad Season,12,12,1,60,36,2,18018000,3151,11791980,0.82,0.09,0.09,91525,98,59,38,1,12,4
@@ -19,7 +19,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-04-25,18,RE,--,False,False,173,--,High Infidelity,Taylor Swift,Midnights (3am Edition),24,11,10,120,33,20,34442100,2760,112724100,0.64,0.03,0.33,157500,173,0,0,11,16,1
 2025-04-25,19,-4,15,False,False,173,-0.07,Easy Target,blink-182,blink-182,10,10,1,50,30,2,14697375,2570,11543490,0.81,0.09,0.1,75264,82,55,34,8,8,1
 2025-04-25,20,RE,--,True,False,170,--,ATTITUDE,IVE,IVE EMPATHY,21,21,1,105,63,2,32259150,5641,12063060,0.85,0.1,0.05,161035,170,0,0,20,2,1
-2025-04-25,21,RE,--,False,False,166,--,Aliens Exist,blink-182,Enema of the State,25,7,10,125,21,20,34938750,1711,109787400,0.65,0.02,0.33,143178,166,0,0,9,21,1
+2025-04-25,21,RE,--,False,False,166,--,Aliens Exist,blink-182,Enema of the State,25,7,10,125,21,20,34938750,1711,109787400,0.65,0.02,0.33,143178,166,0,0,12,21,1
 2025-04-25,22,-9,13,False,False,166,-0.13,Last Beautiful Girl,Matchbox Twenty,Mad Season,9,9,1,45,27,2,13877325,2426,12108240,0.8,0.09,0.11,71421,74,57,34,8,5,1
 2025-04-25,23,-3,20,False,False,163,0.04,Scattered,Green Day,Nimrod,11,11,1,55,33,2,14833087,2594,10594710,0.82,0.09,0.09,75670,90,46,25,3,35,2
 2025-04-25,24,RE,--,True,False,158,--,the bottom,Gracie Abrams,This Is What It Feels Like,22,2,21,110,6,42,31889550,507,239092560,0.45,0.0,0.54,159075,158,0,0,24,5,1
@@ -31,7 +31,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-04-25,30,-2,28,False,False,126,0.04,Tócame (feat. Dillom),Six Sex,X-sex,8,8,1,40,24,2,11157300,1951,10956150,0.79,0.09,0.12,57834,66,36,22,11,8,2
 2025-04-25,31,-1,30,False,False,120,0.09,The Static Age,Green Day,21st Century Breakdown,8,8,1,40,24,2,12104400,2116,11882340,0.79,0.09,0.12,62713,66,33,21,4,32,1
 2025-04-25,32,-5,27,False,False,119,-0.02,Bent,Matchbox Twenty,Mad Season,7,7,1,35,21,2,10267950,1795,11520900,0.77,0.09,0.14,53655,58,36,23,3,12,1
-2025-04-25,33,-8,25,False,False,112,-0.13,Juno,Sabrina Carpenter,Short n' Sweet,7,7,1,35,21,2,9560512,1672,10730250,0.77,0.09,0.14,49980,58,38,14,5,21,1
+2025-04-25,33,-8,25,False,False,112,-0.13,Juno,Sabrina Carpenter,Short n' Sweet,7,7,1,35,21,2,9560512,1672,10730250,0.77,0.09,0.14,49980,58,38,14,5,20,1
 2025-04-25,34,-2,32,False,False,99,0.05,Motivation,Sum 41,All Killer No Filler,7,7,1,35,21,2,9115837,1594,10233270,0.77,0.09,0.14,47670,58,28,11,2,16,1
 2025-04-25,35,12,47,True,False,93,0.43,Hell Above,Pierce the Veil,Collide With the Sky,7,7,1,35,21,2,10126462,1771,11362770,0.77,0.09,0.14,52920,58,19,14,35,3,1
 2025-04-25,36,10,46,True,False,92,0.42,May These Noises Startle You in Your Sleep Tonight,Pierce the Veil,Collide With the Sky,7,6,2,35,18,4,9277537,1391,20827980,0.69,0.07,0.25,48510,57,19,14,36,3,1
@@ -65,13 +65,13 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-04-25,64,-28,36,False,False,41,-0.45,Tunnel Vision,Magdalena Bay,Imaginal Disk,1,1,1,5,3,2,1357125,237,10662480,0.42,0.05,0.53,9933,10,22,8,12,17,2
 2025-04-25,65,2,67,True,False,39,-0.07,exes,Tate McRae,THINK LATER,3,3,1,15,9,2,4374562,765,11453130,0.65,0.07,0.27,24892,26,12,0,65,2,1
 2025-04-25,66,31,97,False,False,39,0.39,The Ghost of You,My Chemical Romance,Three Cheers for Sweet Revenge,2,2,1,10,6,2,2616075,457,10278450,0.58,0.06,0.36,15960,18,8,11,12,15,1
-2025-04-25,67,RE,--,False,False,39,--,California Gurls,Katy Perry,Teenage Dream,1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,0,28,3,4,1
+2025-04-25,67,RE,--,False,False,39,--,California Gurls (feat. Snoop Dogg),Katy Perry,Teenage Dream,1,1,1,5,3,2,1397550,244,10978740,0.42,0.05,0.53,10227,10,0,28,3,4,1
 2025-04-25,68,RE,--,False,False,38,--,Fat Lip,Sum 41,All Killer No Filler,3,3,1,15,9,2,4123350,721,10798020,0.65,0.07,0.27,23471,26,0,11,3,15,2
 2025-04-25,69,-28,41,False,False,38,-0.45,Don’t Smile,Sabrina Carpenter,Short n' Sweet,1,1,1,5,3,2,1383112,241,10865790,0.42,0.05,0.53,10122,10,20,6,19,11,1
 2025-04-25,70,-17,53,False,False,38,-0.33,American Idiot,Green Day,American Idiot,1,1,1,5,3,2,1313812,229,10323630,0.42,0.05,0.53,9618,10,17,9,1,44,1
 2025-04-25,71,15,86,True,False,35,0.06,Iris,Goo Goo Dolls,Dizzy Up the Girl,2,2,1,10,6,2,2927925,512,11498310,0.58,0.06,0.36,17850,18,9,6,71,4,1
 2025-04-25,72,-7,65,False,False,35,-0.19,Stockholm Syndrome,blink-182,blink-182,1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,12,12,20,9,1
-2025-04-25,73,RE,--,False,False,34,--,Suffocate,Green Day,Shenanigans,4,4,1,20,12,2,5313000,929,10436580,0.7,0.08,0.22,29169,34,0,0,4,16,2
+2025-04-25,73,RE,--,False,False,34,--,Suffocate,Green Day,Shenanigans,4,4,1,20,12,2,5313000,929,10436580,0.7,0.08,0.22,29169,34,0,0,4,15,2
 2025-04-25,74,RE,--,False,False,34,--,Spicy,aespa,MY WORLD - The 3rd Mini Album,4,4,1,20,12,2,6248550,1092,12266370,0.7,0.08,0.22,34272,34,0,0,10,4,1
 2025-04-25,75,RE,--,False,False,34,--,SIGNAL,TWICE,SIGNAL,4,4,1,20,12,2,5278350,923,10368810,0.7,0.08,0.22,28979,34,0,0,31,7,1
 2025-04-25,76,RE,--,False,False,34,--,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,6156150,1076,12085650,0.7,0.08,0.22,33768,34,0,0,1,108,1
@@ -79,11 +79,11 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-04-25,78,RE,--,False,False,34,--,OMG,NewJeans,NewJeans 'OMG',4,4,1,20,12,2,6260100,1094,12288960,0.7,0.08,0.22,34335,34,0,0,1,21,2
 2025-04-25,79,RE,--,False,False,34,--,O.O,NMIXX,AD MARE,4,4,1,20,12,2,5440050,951,10685070,0.7,0.08,0.22,29862,34,0,0,1,45,2
 2025-04-25,80,RE,--,False,False,34,--,Midnight Rain,Taylor Swift,Midnights (3am Edition),4,4,1,20,12,2,5255250,919,10323630,0.7,0.08,0.22,28854,34,0,0,1,69,2
-2025-04-25,81,RE,--,False,False,34,--,I AM,IVE,I've IVE,4,4,1,20,12,2,5855850,1024,11498310,0.7,0.08,0.22,32130,34,0,0,15,9,1
-2025-04-25,82,NEW,--,True,False,34,--,EXTRAL (feat. Doechii),Jennie,Ruby,4,4,1,20,12,2,6340950,907,10188090,0.7,0.08,0.22,28476,34,0,0,82,1,1
+2025-04-25,81,RE,--,False,False,34,--,I AM,IVE,I've IVE,4,4,1,20,12,2,5855850,1024,11498310,0.7,0.08,0.22,32130,34,0,0,15,8,1
+2025-04-25,82,NEW,--,True,False,34,--,ExtraL (feat. Doechii),Jennie,Ruby,4,4,1,20,12,2,5740350,1003,11272410,0.7,0.08,0.22,31500,34,0,0,82,1,1
 2025-04-25,83,RE,--,False,False,34,--,Dear Reader,Taylor Swift,Midnights (3am Edition),4,4,1,20,12,2,5705700,997,11204640,0.7,0.08,0.22,31311,34,0,0,7,20,1
 2025-04-25,84,RE,--,False,False,34,--,ANTIFRAGILE,LE SSERAFIM,ANTIFRAGILE,4,4,1,20,12,2,5393850,943,10594710,0.7,0.08,0.22,29610,34,0,0,2,31,1
-2025-04-25,85,RE,--,False,True,34,--,ABCD,NAYEON,NA,4,4,1,20,12,2,6167700,1078,12108240,0.7,0.08,0.22,33831,34,0,0,85,2,2
+2025-04-25,85,RE,--,True,False,34,--,ABCD,NAYEON,NA,4,4,1,20,12,2,6167700,1078,12108240,0.7,0.08,0.22,33831,34,0,0,85,2,1
 2025-04-25,86,-28,58,False,False,34,-0.28,Taste,Sabrina Carpenter,Short n' Sweet,1,1,1,5,3,2,1328250,232,10436580,0.42,0.05,0.53,9723,10,14,8,12,17,1
 2025-04-25,87,-18,69,False,False,33,-0.21,All of This,blink-182,blink-182,1,1,1,5,3,2,1432200,250,11249820,0.42,0.05,0.53,10479,10,12,9,48,8,1
 2025-04-25,88,RE,--,False,False,32,--,Hard Feelings/Loveless,Lorde,Melodrama,4,2,3,20,6,6,5359200,468,31580820,0.5,0.03,0.47,29421,32,0,0,42,9,1
@@ -91,11 +91,11 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-04-25,90,RE,--,False,False,31,--,Gasoline (feat. Taylor Swift),HAIM,Women in Music Pt III (Expanded Edition),4,1,4,20,3,8,6063750,265,47619720,0.44,0.01,0.55,33264,31,0,0,2,16,1
 2025-04-25,91,-6,85,False,False,31,-0.09,I'm Lost Without You,blink-182,blink-182,1,1,1,5,3,2,1406212,245,11046510,0.42,0.05,0.53,10290,10,10,9,45,8,1
 2025-04-25,92,-32,60,False,False,31,-0.31,Good Graces,Sabrina Carpenter,Short n' Sweet,1,1,1,5,3,2,1391775,243,10933560,0.42,0.05,0.53,10185,10,13,6,25,8,1
-2025-04-25,93,-32,61,False,False,31,-0.31,Espresso,Sabrina Carpenter,Please Please Please,1,1,1,5,3,2,1498612,262,11769390,0.42,0.05,0.53,10962,10,13,6,27,14,1
+2025-04-25,93,-32,61,False,False,31,-0.31,Espresso,Sabrina Carpenter,Please Please Please,1,1,1,5,3,2,1498612,262,11769390,0.42,0.05,0.53,10962,10,13,6,27,14,2
 2025-04-25,94,-5,89,False,False,29,-0.09,Asthenia,blink-182,blink-182,1,1,1,5,3,2,1362900,238,10707660,0.42,0.05,0.53,9975,10,9,8,41,9,1
 2025-04-25,95,-1,94,False,False,28,-0.1,Stockholm Syndrome Interlude,blink-182,blink-182,1,1,1,5,3,2,1365787,238,10730250,0.42,0.05,0.53,9996,10,9,7,44,8,1
 2025-04-25,96,RE,--,False,False,26,--,Thunder,Boys Like Girls,Boys Like Girls,3,3,1,15,9,2,4747050,830,10165500,0.65,0.07,0.27,22099,26,0,0,27,14,1
 2025-04-25,97,RE,--,False,False,26,--,The Very First Night (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4158000,727,10888380,0.65,0.07,0.27,23667,26,0,0,4,19,2
 2025-04-25,98,RE,--,False,False,26,--,The Only Exception,Paramore,brand new eyes,3,3,1,15,9,2,3941437,689,10323630,0.65,0.07,0.27,22442,26,0,0,83,5,1
-2025-04-25,99,RE,--,False,False,26,--,Telephone,Lady Gaga,The Fame Monster (International Deluxe),3,3,1,15,9,2,4747050,830,10165500,0.65,0.07,0.27,22099,26,0,0,7,13,1
+2025-04-25,99,RE,--,False,False,26,--,Telephone (feat. Beyoncé),Lady Gaga,The Fame Monster (International Deluxe),3,3,1,15,9,2,4322587,756,11317590,0.65,0.07,0.27,24598,26,0,0,7,13,1
 2025-04-25,100,RE,--,False,False,26,--,Talk that Talk,TWICE,BETWEEN 1&2,3,3,1,15,9,2,3932775,687,10301040,0.65,0.07,0.27,22393,26,0,0,1,27,1

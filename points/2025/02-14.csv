@@ -11,8 +11,8 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-02-14,10,4,14,True,False,229,0.14,Stay Together for the Kids,blink-182,Take Off Your Pants and Jacket,19,19,1,95,57,2,28967400,5065,11972700,0.85,0.1,0.06,144963,154,60,14,10,10,1
 2025-02-14,11,NEW,--,True,False,209,--,Always,blink-182,blink-182,26,25,2,130,75,4,33783750,5682,20421360,0.83,0.09,0.08,168063,209,0,0,11,1,1
 2025-02-14,12,RE,--,True,False,199,--,Taste,Sabrina Carpenter,Short n' Sweet,23,19,5,115,57,10,30549749,4414,52182899,0.73,0.07,0.2,152327,182,0,16,12,11,1
-2025-02-14,13,RE,--,False,False,191,--,Juno,Sabrina Carpenter,Short n' Sweet,21,21,1,105,63,2,28681537,5016,10730250,0.85,0.1,0.05,143276,170,0,21,5,11,1
-2025-02-14,14,RE,--,False,False,190,--,Keeper,TWICE,Strategy,16,13,3,80,39,6,21575400,3066,31784129,0.75,0.07,0.18,105280,125,0,64,4,4,1
+2025-02-14,13,RE,--,False,False,191,--,Juno,Sabrina Carpenter,Short n' Sweet,21,21,1,105,63,2,28681537,5016,10730250,0.85,0.1,0.05,143276,170,0,21,5,10,1
+2025-02-14,14,RE,--,False,False,190,--,Keeper,TWICE,STRATEGY,16,13,3,80,39,6,22129800,3144,32597370,0.75,0.07,0.18,107968,125,0,64,4,4,1
 2025-02-14,15,-4,11,False,False,189,-0.31,Unwell,Matchbox Twenty,More Than You Think You Are,13,13,1,65,39,2,18430912,3223,11136870,0.83,0.09,0.08,93366,106,82,0,8,23,1
 2025-02-14,16,1,17,False,False,181,0.01,Before the Lobotomy,Green Day,21st Century Breakdown,16,13,4,80,39,8,25086600,3564,49246200,0.71,0.07,0.22,126126,127,53,0,1,27,2
 2025-02-14,17,-2,15,False,False,178,-0.04,Bright Lights,Matchbox Twenty,More Than You Think You Are,15,15,1,75,45,2,19793812,3462,10368810,0.84,0.09,0.07,99819,122,55,0,15,2,1
@@ -24,7 +24,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-02-14,23,32,55,False,False,159,3.68,Fresh Out the Slammer,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,18,9,10,90,27,20,28170450,2463,122889600,0.57,0.03,0.4,141155,137,10,10,1,30,1
 2025-02-14,24,-6,18,False,False,157,0.43,Give Me One Good Reason,blink-182,Take Off Your Pants and Jacket,9,9,1,45,27,2,13461525,2354,11746800,0.8,0.09,0.11,69293,74,33,49,6,11,1
 2025-02-14,25,-9,16,False,False,154,-0.16,Disease,Matchbox Twenty,More Than You Think You Are,12,12,1,60,36,2,16666650,2915,10910970,0.82,0.09,0.09,84700,98,55,0,16,2,1
-2025-02-14,26,RE,--,False,False,142,--,Like It Like It,TWICE,Strategy,10,10,1,50,30,2,15563625,2721,12221190,0.81,0.09,0.1,79674,82,0,60,5,4,1
+2025-02-14,26,RE,--,False,False,142,--,Like It Like It,TWICE,STRATEGY,10,10,1,50,30,2,15448125,2701,12130830,0.81,0.09,0.1,79086,82,0,60,5,4,1
 2025-02-14,27,-15,12,False,False,126,-0.44,How Far We've Come,Matchbox Twenty,How Far We've Come,7,7,1,35,21,2,9419025,1647,10572120,0.77,0.09,0.14,49245,58,67,0,12,3,1
 2025-02-14,28,RE,--,False,False,121,--,Supersonic,fromis_9,Supersonic,11,11,1,55,33,2,16167112,2827,11543490,0.82,0.09,0.09,82432,90,0,30,1,3,1
 2025-02-14,29,-5,24,False,False,118,0.76,Nice Guys Finish Last,Green Day,Nimrod,10,10,1,50,30,2,15188250,2656,11927520,0.81,0.09,0.1,77763,82,20,14,1,58,7
@@ -38,7 +38,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-02-14,37,RE,--,False,False,74,--,ไหล่เธอ (You’ve Got Ma Back) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Fourth,ไหล่เธอ (You’ve Got Ma Back) - Single,9,9,1,45,27,2,12707887,2222,11091690,0.8,0.09,0.11,65436,74,0,0,1,10,1
 2025-02-14,38,-16,22,False,False,72,-0.03,Killing Time,Magdalena Bay,Imaginal Disk,3,3,1,15,9,2,4695075,821,12288960,0.65,0.07,0.27,26705,26,22,22,15,9,1
 2025-02-14,39,RE,--,False,False,66,--,ง้อว (Smile Please) (เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President),Fourth,ง้อว (Smile Please) - Single,8,8,1,40,24,2,12589500,2201,12356730,0.79,0.09,0.12,65212,66,0,0,6,11,2
-2025-02-14,40,42,82,False,False,66,1.54,Heartbeat Song,Kelly Clarkson,Piece by Piece (Deluxe Version),7,7,1,35,21,2,9883912,1728,11091690,0.77,0.09,0.14,51660,58,7,0,15,10,1
+2025-02-14,40,42,82,False,False,66,1.54,Heartbeat Song,Kelly Clarkson,Piece by Piece (Deluxe Version),7,7,1,35,21,2,9883912,1728,11091690,0.77,0.09,0.14,51660,58,7,0,15,8,1
 2025-02-14,41,-3,38,False,False,63,0.21,She Looked Like Me!,Magdalena Bay,Imaginal Disk,4,4,1,20,12,2,6017550,1052,11814570,0.7,0.08,0.22,33012,34,15,12,38,9,1
 2025-02-14,42,-19,23,False,False,62,-0.1,The Rock Show,blink-182,Take Off Your Pants and Jacket,3,3,1,15,9,2,4235962,740,11091690,0.65,0.07,0.27,24108,26,20,15,1,16,3
 2025-02-14,43,-18,25,False,False,60,-0.05,Watching T.V.,Magdalena Bay,Imaginal Disk,3,3,1,15,9,2,4660425,814,12198600,0.65,0.07,0.27,26509,26,18,14,21,9,1
@@ -49,8 +49,8 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-02-14,48,NEW,--,True,False,58,--,Overjoyed,Matchbox Twenty,North (Deluxe Edition),7,7,1,35,21,2,10005187,1749,11227230,0.77,0.09,0.14,52290,58,0,0,48,1,1
 2025-02-14,49,NEW,--,True,False,58,--,Our Song,Matchbox Twenty,North (Deluxe Edition),7,7,1,35,21,2,9621150,1682,10798020,0.77,0.09,0.14,50295,58,0,0,49,1,1
 2025-02-14,50,17,67,False,False,58,1.23,The Trouble with Love Is,Kelly Clarkson,Thankful,6,6,1,30,18,2,9355500,1635,12243780,0.76,0.09,0.16,49413,50,7,0,8,8,1
-2025-02-14,51,22,73,False,False,58,1.23,Piece by Piece,Kelly Clarkson,Piece by Piece (Deluxe Version),6,6,1,30,18,2,9216900,1611,12063060,0.76,0.09,0.16,48685,50,7,0,8,9,1
-2025-02-14,52,28,80,False,False,58,1.23,Invincible,Kelly Clarkson,Piece by Piece (Deluxe Version),6,6,1,30,18,2,9216900,1611,12063060,0.76,0.09,0.16,48685,50,7,0,9,9,1
+2025-02-14,51,22,73,False,False,58,1.23,Piece by Piece,Kelly Clarkson,Piece by Piece (Deluxe Version),6,6,1,30,18,2,9216900,1611,12063060,0.76,0.09,0.16,48685,50,7,0,8,7,1
+2025-02-14,52,28,80,False,False,58,1.23,Invincible,Kelly Clarkson,Piece by Piece (Deluxe Version),6,6,1,30,18,2,9216900,1611,12063060,0.76,0.09,0.16,48685,50,7,0,9,7,1
 2025-02-14,53,-11,42,False,False,56,0.12,Extraordinary Girl,Green Day,American Idiot,3,3,1,15,9,2,4158000,727,10888380,0.65,0.07,0.27,23667,26,15,15,1,17,2
 2025-02-14,54,-24,30,False,False,55,0.04,Vampire In The Corner,Magdalena Bay,Imaginal Disk,3,3,1,15,9,2,4106025,718,10752840,0.65,0.07,0.27,23373,26,15,12,30,9,1
 2025-02-14,55,-24,31,False,False,55,0.04,True Blue Interlude,Magdalena Bay,Imaginal Disk,3,3,1,15,9,2,4660425,814,12198600,0.65,0.07,0.27,26509,26,15,12,31,9,1
@@ -74,21 +74,21 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-02-14,73,RE,--,False,False,43,--,Good Graces,Sabrina Carpenter,Short n' Sweet,3,3,1,15,9,2,4175325,730,10933560,0.65,0.07,0.27,23765,26,0,16,25,5,1
 2025-02-14,74,2,76,False,False,42,0.62,My Life Would Suck Without You,Kelly Clarkson,All I Ever Wanted,4,4,1,20,12,2,6248550,1092,12266370,0.7,0.08,0.22,34272,34,7,0,8,33,1
 2025-02-14,75,RE,--,False,False,41,--,Sharpest Tool,Sabrina Carpenter,Short n' Sweet,3,3,1,15,9,2,4383225,766,11475720,0.65,0.07,0.27,24941,26,0,14,31,4,1
-2025-02-14,76,RE,--,False,False,41,--,Espresso,Sabrina Carpenter,Please Please Please,3,3,1,15,9,2,4495837,786,11769390,0.65,0.07,0.27,25578,26,0,14,27,11,1
+2025-02-14,76,RE,--,False,False,41,--,Espresso,Sabrina Carpenter,Please Please Please,3,3,1,15,9,2,4495837,786,11769390,0.65,0.07,0.27,25578,26,0,14,27,11,2
 2025-02-14,77,RE,--,False,False,41,--,Coincidence,Sabrina Carpenter,Short n' Sweet,3,3,1,15,9,2,4313925,754,11295000,0.65,0.07,0.27,24549,26,0,14,33,4,1
-2025-02-14,78,RE,--,False,False,41,--,Bed Chem,Sabrina Carpenter,Short n' Sweet,3,3,1,15,9,2,4617112,807,12085650,0.65,0.07,0.27,26264,26,0,14,34,5,1
+2025-02-14,78,RE,--,False,False,41,--,Bed Chem,Sabrina Carpenter,Short n' Sweet,3,3,1,15,9,2,4617112,807,12085650,0.65,0.07,0.27,26264,26,0,14,28,5,1
 2025-02-14,79,RE,--,False,False,40,--,Please Please Please,Sabrina Carpenter,Please Please Please,3,3,1,15,9,2,4244625,742,11114280,0.65,0.07,0.27,24157,26,0,13,19,9,1
 2025-02-14,80,-29,51,False,False,38,-0.03,Lips of an Angel,Hinder,Extreme Behavior,3,3,1,15,9,2,4400550,769,11520900,0.65,0.07,0.27,25039,26,11,0,11,23,1
-2025-02-14,81,-27,54,False,False,37,0.09,Behind These Hazel Eyes,Kelly Clarkson,Breakaway,3,3,1,15,9,2,4227300,739,11069100,0.65,0.07,0.27,24059,26,10,0,31,30,1
+2025-02-14,81,-27,54,False,False,37,0.09,Behind These Hazel Eyes,Kelly Clarkson,Breakaway,3,3,1,15,9,2,4227300,739,11069100,0.65,0.07,0.27,24059,26,10,0,31,34,1
 2025-02-14,82,RE,--,False,False,37,--,New Romantics (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,3014550,527,11837160,0.58,0.06,0.36,18375,18,0,19,7,18,1
 2025-02-14,83,RE,--,False,False,36,--,Slim Pickins,Sabrina Carpenter,Short n' Sweet,3,3,1,15,9,2,4565137,798,11950110,0.65,0.07,0.27,25970,26,0,10,38,5,1
 2025-02-14,84,RE,--,False,False,36,--,Lie to Girls,Sabrina Carpenter,Short n' Sweet,3,3,1,15,9,2,4461187,780,11679030,0.65,0.07,0.27,25382,26,0,10,39,5,1
 2025-02-14,85,RE,--,False,False,36,--,Dumb & Poetic,Sabrina Carpenter,Short n' Sweet,3,3,1,15,9,2,4235962,740,11091690,0.65,0.07,0.27,24108,26,0,10,46,4,1
-2025-02-14,86,-23,63,False,False,35,0.25,Every Time I Look For You,blink-182,Take Off Your Pants and Jacket,3,3,1,15,9,2,4365900,763,11430540,0.65,0.07,0.27,24843,26,8,0,5,13,1
+2025-02-14,86,-23,63,False,False,35,0.25,Everytime I Look for You,blink-182,Take Off Your Pants and Jacket,3,3,1,15,9,2,4374562,765,11453130,0.65,0.07,0.27,24892,26,8,0,5,13,1
 2025-02-14,87,-22,65,False,False,34,0.31,Walk Away,Kelly Clarkson,Breakaway,3,3,1,15,9,2,4660425,814,12198600,0.65,0.07,0.27,26509,26,7,0,58,9,1
 2025-02-14,88,-18,70,False,False,34,0.31,Sober,Kelly Clarkson,My December,3,3,1,15,9,2,4201312,734,11001330,0.65,0.07,0.27,23912,26,7,0,26,9,1
 2025-02-14,89,-15,74,False,False,34,0.31,One Minute,Kelly Clarkson,My December,3,3,1,15,9,2,4608450,805,12063060,0.65,0.07,0.27,26215,26,7,0,22,9,2
-2025-02-14,90,-15,75,False,False,34,0.31,Never Again,Kelly Clarkson,My December,3,3,1,15,9,2,4175325,730,10933560,0.65,0.07,0.27,23765,26,7,0,21,16,1
+2025-02-14,90,-15,75,False,False,34,0.31,Never Again,Kelly Clarkson,My December,3,3,1,15,9,2,4175325,730,10933560,0.65,0.07,0.27,23765,26,7,0,21,17,1
 2025-02-14,91,-1,90,False,False,34,0.36,Dead!,My Chemical Romance,The Black Parade,3,3,1,15,9,2,4054049,709,10617300,0.65,0.07,0.27,23079,26,7,0,3,49,2
 2025-02-14,92,-35,57,False,False,28,-0.1,Breakaway,Kelly Clarkson,Breakaway,2,2,1,10,6,2,2639175,461,10368810,0.58,0.06,0.36,16099,18,9,0,2,67,1
 2025-02-14,93,RE,--,False,False,26,--,Stronger (What Doesn't Kill You),Kelly Clarkson,Stronger (Deluxe Version),3,3,1,15,9,2,4132012,722,10820610,0.65,0.07,0.27,23520,26,0,0,1,16,1
@@ -98,4 +98,4 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-02-14,97,RE,--,False,False,26,--,1 TO 10,TWICE,TWICEcoaster: LANE 1,3,3,1,15,9,2,4374562,765,11453130,0.65,0.07,0.27,24892,26,0,0,5,4,1
 2025-02-14,98,-17,81,False,False,26,0.0,Hold On,Green Day,Warning,2,2,1,10,6,2,2627625,459,10323630,0.58,0.06,0.36,16030,18,7,0,81,4,2
 2025-02-14,99,-14,85,False,False,26,0.0,Already Gone,Kelly Clarkson,All I Ever Wanted,2,2,1,10,6,2,3124275,546,12266370,0.58,0.06,0.36,19040,18,7,0,6,9,1
-2025-02-14,100,RE,--,False,False,24,--,Ronan (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,1,3,15,3,6,4080037,237,32055210,0.44,0.02,0.55,23226,24,0,0,3,21,1
+2025-02-14,100,RE,--,False,False,24,--,Ronan (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,1,3,15,3,6,4080037,237,32055210,0.44,0.02,0.55,23226,24,0,0,3,22,1

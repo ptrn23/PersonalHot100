@@ -2,8 +2,8 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-01-31,1,NEW,--,True,False,378,--,Jet Lag (feat. Natasha Bedingfield),Simple Plan,Get Your Heart On! (Deluxe Edition),53,31,10,265,93,20,76824825,7858,113853600,0.77,0.05,0.18,332290,378,0,0,1,1,1
 2025-01-31,2,2,4,True,False,337,0.34,Motivation,Sum 41,All Killer No Filler,30,30,1,150,90,2,39067875,6834,10233270,0.87,0.1,0.04,193858,242,75,18,2,4,1
 2025-01-31,3,=,3,False,True,336,0.24,Fat Lip,Sum 41,All Killer No Filler,29,29,1,145,87,2,39859050,6971,10798020,0.87,0.1,0.04,197827,234,81,19,3,4,2
-2025-01-31,4,12,16,True,False,324,1.63,Keeper,TWICE,Strategy,35,30,5,175,90,10,47196187,7076,52973550,0.78,0.08,0.14,230300,275,36,11,4,3,1
-2025-01-31,5,10,15,True,False,300,1.42,Like It Like It,TWICE,Strategy,31,31,1,155,93,2,48247237,8436,12221190,0.87,0.1,0.03,239022,250,37,11,5,3,1
+2025-01-31,4,12,16,True,False,324,1.63,Keeper,TWICE,STRATEGY,35,30,5,175,90,10,48408937,7257,54328950,0.78,0.08,0.14,236180,275,36,11,4,3,1
+2025-01-31,5,10,15,True,False,300,1.42,Like It Like It,TWICE,STRATEGY,31,31,1,155,93,2,47889187,8374,12130830,0.87,0.1,0.03,237258,250,37,11,5,3,1
 2025-01-31,6,11,17,True,False,249,1.02,Give Me One Good Reason,blink-182,Take Off Your Pants and Jacket,24,24,1,120,72,2,35897400,6277,11746800,0.86,0.1,0.04,178703,194,36,17,6,9,1
 2025-01-31,7,19,26,True,False,238,1.48,Story of a Lonely Guy,blink-182,Take Off Your Pants and Jacket,24,24,1,120,72,2,32501699,5685,10639890,0.86,0.1,0.04,161896,194,28,14,7,10,1
 2025-01-31,8,-6,2,False,False,185,-0.46,NEXT PAGE,TWICE,TWICEcoaster: LANE 1,1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,103,70,1,6,1
@@ -16,24 +16,24 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-01-31,15,8,23,True,False,111,0.04,Killing Time,Magdalena Bay,Imaginal Disk,8,4,5,40,12,10,12520200,1094,61444800,0.54,0.03,0.43,64855,62,32,15,15,7,1
 2025-01-31,16,-5,11,False,False,109,-0.34,All You Had to Do Was Stay (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,2812425,491,11046510,0.58,0.06,0.36,17150,18,49,40,2,17,1
 2025-01-31,17,-11,6,False,False,108,-0.42,PIT-A-PAT,TWICE,TWICEcoaster: LANE 1,1,1,1,5,3,2,1336912,233,10504350,0.42,0.05,0.53,9786,10,55,42,4,5,1
-2025-01-31,18,RE,--,False,False,105,--,Juno,Sabrina Carpenter,Short n' Sweet,11,11,1,55,33,2,15023662,2627,10730250,0.82,0.09,0.09,76636,90,0,14,5,10,1
+2025-01-31,18,RE,--,False,False,105,--,Juno,Sabrina Carpenter,Short n' Sweet,11,11,1,55,33,2,15023662,2627,10730250,0.82,0.09,0.09,76636,90,0,14,5,9,1
 2025-01-31,19,5,24,False,False,104,0.01,Breathless,The Corrs,In Blue,5,5,1,25,15,2,6569062,1149,10323630,0.73,0.08,0.18,35266,42,30,30,5,4,1
 2025-01-31,20,-13,7,False,False,102,-0.43,PONYTAIL,TWICE,TWICEcoaster: LANE 1,1,1,1,5,3,2,1475512,258,11588670,0.42,0.05,0.53,10794,10,53,37,7,5,1
 2025-01-31,21,-8,13,False,False,95,-0.34,New Romantics (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,3014550,527,11837160,0.58,0.06,0.36,18375,18,42,33,7,17,1
 2025-01-31,22,RE,--,False,False,90,--,Eyes Open (Taylor's Version),Taylor Swift,Eyes Open (Taylor's Version),11,11,1,55,33,2,15881250,2777,11340180,0.82,0.09,0.09,80983,90,0,0,10,10,1
 2025-01-31,23,56,79,True,False,88,0.76,3AM,Matchbox Twenty,Yourself or Someone Like You,9,8,2,45,24,4,11876287,1846,20737620,0.73,0.07,0.2,61179,73,15,0,23,2,1
-2025-01-31,24,RE,--,False,False,82,--,Taste,Sabrina Carpenter,Short n' Sweet,10,10,1,50,30,2,13282499,2323,10436580,0.81,0.09,0.1,68061,82,0,0,21,10,1
+2025-01-31,24,RE,--,False,False,82,--,Taste,Sabrina Carpenter,Short n' Sweet,10,10,1,50,30,2,13282499,2323,10436580,0.81,0.09,0.1,68061,82,0,0,22,10,1
 2025-01-31,25,RE,--,True,False,82,--,Good Graces,Sabrina Carpenter,Short n' Sweet,10,10,1,50,30,2,13917750,2434,10933560,0.81,0.09,0.1,71295,82,0,0,25,4,1
-2025-01-31,26,9,35,True,False,80,-0.05,Magical,TWICE,Strategy,5,5,1,25,15,2,6670124,1166,10481760,0.73,0.08,0.18,35805,42,25,11,26,3,1
+2025-01-31,26,9,35,True,False,80,-0.05,Magical,TWICE,STRATEGY,5,5,1,25,15,2,6496875,1136,10210680,0.73,0.08,0.18,34881,42,25,11,26,3,1
 2025-01-31,27,61,88,True,False,79,0.88,Push,Matchbox Twenty,Yourself or Someone Like You,8,8,1,40,24,2,11896500,2080,11679030,0.79,0.09,0.12,61642,66,12,0,27,5,1
 2025-01-31,28,65,93,True,False,77,1.26,Real World,Matchbox Twenty,Yourself or Someone Like You,8,8,1,40,24,2,10626000,1858,10436580,0.79,0.09,0.12,55097,66,10,0,28,4,1
 2025-01-31,29,9,38,False,False,75,-0.1,Extraordinary Girl,Green Day,American Idiot,3,3,1,15,9,2,4158000,727,10888380,0.65,0.07,0.27,23667,26,24,23,1,15,2
 2025-01-31,30,-5,25,False,False,75,-0.23,The Rock Show,blink-182,Take Off Your Pants and Jacket,2,2,1,10,6,2,2823975,493,11091690,0.58,0.06,0.36,17220,18,29,27,1,14,3
 2025-01-31,31,RE,--,True,False,74,--,Sharpest Tool,Sabrina Carpenter,Short n' Sweet,9,9,1,45,27,2,13149675,2299,11475720,0.8,0.09,0.11,67697,74,0,0,31,3,1
-2025-01-31,32,RE,--,False,False,74,--,Espresso,Sabrina Carpenter,Please Please Please,9,9,1,45,27,2,13487512,2358,11769390,0.8,0.09,0.11,69426,74,0,0,27,10,1
+2025-01-31,32,RE,--,False,False,74,--,Espresso,Sabrina Carpenter,Please Please Please,9,9,1,45,27,2,13487512,2358,11769390,0.8,0.09,0.11,69426,74,0,0,27,10,2
 2025-01-31,33,RE,--,True,False,74,--,Coincidence,Sabrina Carpenter,Short n' Sweet,9,9,1,45,27,2,12941775,2263,11295000,0.8,0.09,0.11,66633,74,0,0,33,3,1
-2025-01-31,34,RE,--,True,False,74,--,Bed Chem,Sabrina Carpenter,Short n' Sweet,9,9,1,45,27,2,13851337,2422,12085650,0.8,0.09,0.11,71288,74,0,0,34,4,1
-2025-01-31,35,-5,30,False,False,74,-0.14,Strategy (feat. Megan Thee Stallion),TWICE,Strategy,4,4,1,20,12,2,5740350,1003,11272410,0.7,0.08,0.22,31500,34,25,13,30,3,1
+2025-01-31,34,RE,--,False,False,74,--,Bed Chem,Sabrina Carpenter,Short n' Sweet,9,9,1,45,27,2,13851337,2422,12085650,0.8,0.09,0.11,71288,74,0,0,28,4,1
+2025-01-31,35,-5,30,False,False,74,-0.14,Strategy (feat. Megan Thee Stallion),TWICE,STRATEGY,4,4,1,20,12,2,5647950,987,11091690,0.7,0.08,0.22,30996,34,25,13,30,3,1
 2025-01-31,36,-15,21,False,False,74,-0.32,Watching T.V.,Magdalena Bay,Imaginal Disk,3,3,1,15,9,2,4660425,814,12198600,0.65,0.07,0.27,26509,26,32,15,21,7,1
 2025-01-31,37,-9,28,False,False,72,-0.17,Image,Magdalena Bay,Imaginal Disk,3,3,1,15,9,2,4677750,817,12243780,0.65,0.07,0.27,26607,26,26,18,25,7,1
 2025-01-31,38,-9,29,False,False,72,-0.17,Death & Romance,Magdalena Bay,Imaginal Disk,3,3,1,15,9,2,4088700,715,10707660,0.65,0.07,0.27,23275,26,26,18,26,7,1
@@ -66,7 +66,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-01-31,65,RE,--,False,False,50,--,Safe & Sound (feat. Joy Williams and John Paul White) (Taylor’s Version),Taylor Swift,Safe & Sound (Taylor's Version),6,6,1,30,18,2,8177400,1430,10707660,0.76,0.09,0.16,43225,50,0,0,9,10,1
 2025-01-31,66,RE,--,False,False,50,--,Lie to Girls,Sabrina Carpenter,Short n' Sweet,6,6,1,30,18,2,8922375,1560,11679030,0.76,0.09,0.16,47138,50,0,0,39,4,1
 2025-01-31,67,RE,--,False,False,50,--,Dumb & Poetic,Sabrina Carpenter,Short n' Sweet,6,6,1,30,18,2,8471925,1481,11091690,0.76,0.09,0.16,44772,50,0,0,46,3,1
-2025-01-31,68,RE,--,False,False,50,--,Don’t Smile,Sabrina Carpenter,Short n' Sweet,6,6,1,30,18,2,8298675,1451,10865790,0.76,0.09,0.16,43862,50,0,0,62,3,1
+2025-01-31,68,RE,--,False,False,50,--,Don’t Smile,Sabrina Carpenter,Short n' Sweet,6,6,1,30,18,2,8298675,1451,10865790,0.76,0.09,0.16,43862,50,0,0,64,3,1
 2025-01-31,69,-4,65,False,False,50,-0.24,What's My Age Again?,blink-182,Enema of the State,1,1,1,5,3,2,1527487,267,11995290,0.42,0.05,0.53,11172,10,19,19,1,27,2
 2025-01-31,70,-10,60,False,False,49,-0.29,Sugar We're Goin Down,Fall Out Boy,From Under the Cork Tree,1,1,1,5,3,2,1383112,241,10865790,0.42,0.05,0.53,10122,10,20,17,1,22,5
 2025-01-31,71,RE,--,False,False,46,--,Fortnight (feat. Post Malone),Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,6,2,5,30,6,10,7848225,457,51392250,0.48,0.02,0.5,41496,46,0,0,23,12,1

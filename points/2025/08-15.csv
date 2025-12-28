@@ -1,7 +1,7 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2025-08-15,1,1,2,True,False,573,0.27,Stacy's Mom,Bowling for Soup,I've Never Done Anything Like This,55,52,3,275,156,6,72100875,11924,30903120,0.85,0.09,0.06,351890,437,135,0,1,2,1
-2025-08-15,2,-1,1,False,False,566,0.11,Weightless,All Time Low,Nothing Personal (Deluxe Version),50,50,1,250,150,2,65835000,11516,10346220,0.88,0.1,0.02,324513,402,152,10,1,3,1
-2025-08-15,3,=,3,False,True,524,0.2,A Little Less Sixteen Candles a Little More Touch Me,Fall Out Boy,From Under the Cork Tree,47,47,1,235,141,2,63784875,11157,10662480,0.88,0.1,0.02,314545,378,130,14,3,6,2
+2025-08-15,2,-1,1,False,False,569,0.1,Weightless,All Time Low,Nothing Personal (Deluxe Version),50,50,1,250,150,2,65835000,11516,10346220,0.88,0.1,0.02,324513,402,155,10,1,3,1
+2025-08-15,3,=,3,False,True,520,0.21,A Little Less Sixteen Candles a Little More Touch Me,Fall Out Boy,From Under the Cork Tree,47,47,1,235,141,2,63784875,11157,10662480,0.88,0.1,0.02,314545,378,129,12,3,5,2
 2025-08-15,4,2,6,False,False,490,0.96,Can't Keep My Hands Off You (feat. Rivers Cuomo),Simple Plan,Get Your Heart On! (Deluxe Edition),51,50,2,255,150,4,76576500,13129,23583960,0.86,0.1,0.04,377083,409,75,5,1,10,3
 2025-08-15,5,8,13,True,False,428,1.61,Beggin (Original Version),Madcon,So Dark The Con Of Man,47,47,1,235,141,2,62699174,10967,10481760,0.88,0.1,0.02,309225,378,49,0,5,2,1
 2025-08-15,6,9,15,True,False,350,1.59,Manchild,Sabrina Carpenter,Manchild,43,28,5,215,84,10,61336275,6985,56023200,0.82,0.06,0.12,264404,309,40,0,6,5,1
@@ -12,10 +12,10 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-08-15,11,-3,8,False,False,267,0.14,Hash Pipe,Weezer,Weezer,20,20,1,100,60,2,31531500,5513,12379320,0.85,0.1,0.05,157563,162,70,33,4,13,4
 2025-08-15,12,-5,7,False,False,266,0.09,Troublemaker,Weezer,Weezer (Red Album),20,20,1,100,60,2,27835500,4868,10933560,0.85,0.1,0.05,139195,162,73,30,3,12,2
 2025-08-15,13,-4,9,False,False,261,0.14,In Bloom,Nirvana,Nevermind (Remastered),20,20,1,100,60,2,27431250,4798,10775430,0.85,0.1,0.05,137186,162,68,30,2,9,1
-2025-08-15,14,-2,12,False,False,261,0.58,Genie,Girls' Generation,Oh!,20,20,1,100,60,2,28586250,4999,11227230,0.85,0.1,0.05,142926,162,49,49,1,12,1
-2025-08-15,15,-4,11,False,False,256,0.51,Keeper,TWICE,Strategy,20,20,1,100,60,2,26969250,4717,10594710,0.85,0.1,0.05,134890,162,51,42,1,18,1
+2025-08-15,14,-2,12,False,False,261,0.58,GENIE,소녀시대,Oh!,20,20,1,100,60,2,26853750,4697,10549530,0.85,0.1,0.05,134316,162,49,49,1,12,1
+2025-08-15,15,-4,11,False,False,256,0.51,Keeper,TWICE,STRATEGY,20,20,1,100,60,2,27662250,4838,10865790,0.85,0.1,0.05,138334,162,51,42,1,18,1
 2025-08-15,16,2,18,False,False,252,1.27,The Rock Show,blink-182,Take Off Your Pants and Jacket,24,23,2,120,69,4,33887700,5680,22183380,0.83,0.09,0.09,168756,193,33,24,1,29,3
-2025-08-15,17,4,21,False,False,248,1.51,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),28,24,3,140,72,6,36705900,5503,30903120,0.81,0.08,0.11,175945,218,29,0,1,106,2
+2025-08-15,17,4,21,False,False,248,1.51,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),28,24,3,140,72,6,36705900,5503,30903120,0.81,0.08,0.11,175945,218,29,0,1,108,2
 2025-08-15,18,-8,10,False,False,248,0.19,The Burn,Matchbox Twenty,Mad Season,20,20,1,100,60,2,27893250,4878,10956150,0.85,0.1,0.05,139482,162,62,22,6,16,1
 2025-08-15,19,-3,16,False,False,245,0.94,2 hands,Tate McRae,So Close to What,22,21,2,110,63,4,29793225,4974,21279780,0.82,0.09,0.09,148680,177,37,29,1,23,2
 2025-08-15,20,-6,14,False,False,240,0.56,We Are Never Ever Getting Back Together,Taylor Swift,Red (Deluxe Version),24,23,2,120,69,4,37491300,6282,24532740,0.83,0.09,0.09,186592,193,46,0,9,16,1
@@ -37,7 +37,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-08-15,36,4,40,False,False,91,0.54,Aliens Exist,blink-182,Enema of the State,7,7,1,35,21,2,9782850,1711,10978740,0.77,0.09,0.14,51135,58,17,14,2,35,1
 2025-08-15,37,30,67,False,False,66,1.54,Warning,Green Day,Warning,7,7,1,35,21,2,10146675,1774,11385360,0.77,0.09,0.14,53025,58,7,0,19,13,1
 2025-08-15,38,52,90,False,False,64,2.56,Womanizer,Britney Spears,Circus,8,4,3,40,12,6,11457600,1001,33749460,0.66,0.04,0.31,52395,58,5,0,3,38,1
-2025-08-15,39,=,39,False,False,60,0.02,Getaway Car,Taylor Swift,Reputation,6,2,3,30,6,6,8021475,467,31513050,0.6,0.02,0.38,35882,42,17,0,6,17,1
+2025-08-15,39,=,39,False,False,60,0.02,Getaway Car,Taylor Swift,reputation,6,2,3,30,6,6,8298675,483,32597370,0.6,0.02,0.38,37114,42,17,0,6,16,1
 2025-08-15,40,RE,--,False,False,59,--,Bejeweled,Taylor Swift,Midnights (3am Edition),8,1,8,40,3,16,12635700,276,99215280,0.44,0.01,0.55,53550,59,0,0,5,46,2
 2025-08-15,41,RE,--,False,False,58,--,Extraordinary Girl,Green Day,American Idiot,7,7,1,35,21,2,9702000,1696,10888380,0.77,0.09,0.14,50715,58,0,0,1,32,2
 2025-08-15,42,26,68,False,False,58,1.23,Waiting,Green Day,Warning,6,6,1,30,18,2,8645175,1512,11317590,0.76,0.09,0.16,45682,50,7,0,25,11,1
@@ -45,8 +45,8 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-08-15,44,-14,30,False,False,58,-0.28,Style,Taylor Swift,1989 (Deluxe),4,4,1,20,12,2,5740350,1003,11272410,0.7,0.08,0.22,31500,34,24,0,4,45,1
 2025-08-15,45,-9,36,False,False,57,-0.19,She's So Mean,Matchbox Twenty,North (Deluxe Edition),2,1,2,10,3,4,3043425,266,23900220,0.43,0.02,0.54,18550,17,21,18,1,66,1
 2025-08-15,46,47,93,False,False,56,2.11,Style (Taylor's Version),Taylor Swift,1989 (Taylor's Version),6,6,1,30,18,2,8333325,1457,10910970,0.76,0.09,0.16,44044,50,5,0,2,59,2
-2025-08-15,47,9,56,True,False,50,0.22,SexyBack (feat. Timbaland),Justin Timberlake,FutureSex/LoveSounds,5,2,3,25,6,6,7377562,516,34766010,0.56,0.03,0.42,35980,37,12,0,47,2,1
-2025-08-15,48,-24,24,False,False,49,-0.44,Uptown Girl,Westlife,Coast to Coast (Expanded Edition),2,1,2,10,3,4,3060750,267,24035760,0.43,0.02,0.54,18655,17,26,4,1,45,2
+2025-08-15,47,9,56,True,False,50,0.22,SexyBack,Justin Timberlake,FutureSex/LoveSounds,5,2,3,25,6,6,6655687,465,31377510,0.56,0.03,0.42,32480,37,12,0,47,2,1
+2025-08-15,48,-24,24,False,False,49,-0.44,Uptown Girl,Westlife,Coast to Coast (Expanded Edition),2,1,2,10,3,4,3060750,267,24035760,0.43,0.02,0.54,18655,17,26,4,1,46,2
 2025-08-15,49,-18,31,False,False,48,-0.4,I Knew You Were Trouble.,Taylor Swift,Red (Deluxe Version),3,1,3,15,3,6,4409212,257,34630470,0.44,0.02,0.55,25088,24,24,0,31,7,1
 2025-08-15,50,RE,--,False,False,38,--,East Jesus Nowhere,Green Day,21st Century Breakdown,5,1,5,25,3,10,7363125,257,57830400,0.44,0.01,0.55,39501,38,0,0,34,18,1
 2025-08-15,51,RE,--,False,False,33,--,Shut Up and Dance,Walk the Moon,TALKING IS HARD (Expanded Edition),4,3,2,20,9,4,6098400,799,23945400,0.59,0.05,0.37,33453,33,0,0,6,15,1
@@ -54,18 +54,18 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-08-15,53,RE,--,False,False,32,--,She's a Rebel,Green Day,American Idiot,3,3,1,15,9,2,4192650,733,10978740,0.65,0.07,0.27,23863,26,0,6,7,31,1
 2025-08-15,54,RE,--,False,False,27,--,Nice Guys Finish Last,Green Day,Nimrod,2,2,1,10,6,2,3037650,531,11927520,0.58,0.06,0.36,18515,18,0,8,1,71,7
 2025-08-15,55,RE,--,False,False,26,--,Sympathy is a knife featuring ariana grande,Charli xcx,Brat and it’s completely different but also still brat,3,3,1,15,9,2,4357237,762,11407950,0.65,0.07,0.27,24794,26,0,0,30,3,1
-2025-08-15,56,RE,--,False,False,26,--,Suffocate,Green Day,Shenanigans,3,3,1,15,9,2,3984749,697,10436580,0.65,0.07,0.27,22687,26,0,0,4,18,2
+2025-08-15,56,RE,--,False,False,26,--,Suffocate,Green Day,Shenanigans,3,3,1,15,9,2,3984749,697,10436580,0.65,0.07,0.27,22687,26,0,0,4,17,2
 2025-08-15,57,RE,--,False,False,26,--,Real World,Matchbox Twenty,Yourself or Someone Like You,3,3,1,15,9,2,3984749,697,10436580,0.65,0.07,0.27,22687,26,0,0,5,13,1
 2025-08-15,58,RE,--,False,False,26,--,Push,Matchbox Twenty,Yourself or Someone Like You,3,3,1,15,9,2,4461187,780,11679030,0.65,0.07,0.27,25382,26,0,0,4,13,1
 2025-08-15,59,RE,--,False,False,26,--,How You Get the Girl (Taylor's Version),Taylor Swift,1989 (Taylor's Version),3,3,1,15,9,2,4495837,786,11769390,0.65,0.07,0.27,25578,26,0,0,1,26,1
-2025-08-15,60,RE,--,False,False,26,--,Guess featuring billie eilish,Charli XCX,Guess featuring billie eilish,3,3,1,15,9,2,4643100,811,12153420,0.65,0.07,0.27,26411,26,0,0,38,3,1
+2025-08-15,60,RE,--,False,False,26,--,Guess featuring billie eilish,Charli xcx,Guess featuring billie eilish,3,3,1,15,9,2,3984749,697,10436580,0.65,0.07,0.27,22687,26,0,0,38,3,1
 2025-08-15,61,RE,--,False,False,26,--,Desensitized,Green Day,Shenanigans,3,3,1,15,9,2,3950100,690,10346220,0.65,0.07,0.27,22491,26,0,0,5,17,1
 2025-08-15,62,RE,--,False,False,26,--,All You Had to Do Was Stay (Taylor's Version),Taylor Swift,1989 (Taylor's Version),3,3,1,15,9,2,4218637,737,11046510,0.65,0.07,0.27,24010,26,0,0,2,24,1
 2025-08-15,63,RE,--,False,False,26,--,3AM,Matchbox Twenty,Yourself or Someone Like You,3,3,1,15,9,2,3958762,692,10368810,0.65,0.07,0.27,22540,26,0,0,3,9,1
 2025-08-15,64,8,72,False,False,25,-0.04,Pompeii,Bastille,Bad Blood,2,1,2,10,3,4,2743125,239,21550860,0.43,0.02,0.54,16730,17,7,0,40,7,1
 2025-08-15,65,RE,--,False,False,24,--,Kitsch,IVE,Kitsch,3,1,3,15,3,6,4513162,263,35443710,0.44,0.02,0.55,25676,24,0,0,6,21,1
 2025-08-15,66,RE,--,False,False,24,--,Headphones On,Addison Rae,Addison,3,1,3,15,3,6,3958762,230,31106429,0.44,0.02,0.55,22540,24,0,0,3,5,1
-2025-08-15,67,RE,--,False,False,24,--,California Gurls,Katy Perry,Teenage Dream,3,1,3,15,3,6,4331250,252,34020540,0.44,0.02,0.55,24647,24,0,0,3,5,1
+2025-08-15,67,RE,--,False,False,24,--,California Gurls (feat. Snoop Dogg),Katy Perry,Teenage Dream,3,1,3,15,3,6,4192650,244,32936220,0.44,0.02,0.55,23863,24,0,0,3,5,1
 2025-08-15,68,27,95,False,False,24,0.33,Shake It Off (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,2962575,518,11633850,0.58,0.06,0.36,18060,18,5,0,1,44,3
 2025-08-15,69,28,97,False,False,24,0.33,New Romantics (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,3014550,527,11837160,0.58,0.06,0.36,18375,18,5,0,7,22,1
 2025-08-15,70,-12,58,False,False,22,-0.45,Motivation,Sum 41,All Killer No Filler,1,1,1,5,3,2,1302262,227,10233270,0.42,0.05,0.53,9534,10,12,0,2,19,1
@@ -83,19 +83,19 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-08-15,82,RE,--,False,False,18,--,Dilemma,Green Day,Dilemma,2,2,1,10,6,2,2887500,505,11340180,0.58,0.06,0.36,17605,18,0,0,7,40,1
 2025-08-15,83,RE,--,False,False,18,--,Blank Space (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,3020325,528,11859750,0.58,0.06,0.36,18410,18,0,0,1,38,2
 2025-08-15,84,RE,--,False,False,18,--,A.D.I.D.A.S.,Little Mix,Get Weird (Deluxe),2,2,1,10,6,2,2743125,479,10775430,0.58,0.06,0.36,16730,18,0,0,6,6,1
-2025-08-15,85,-11,74,False,False,18,-0.31,Locked Out of Heaven,Bruno Mars,Unorthodox Jukebox,1,1,1,5,3,2,1576575,275,12379320,0.42,0.05,0.53,11529,10,7,0,9,18,1
-2025-08-15,86,=,86,False,False,18,-0.25,In the End,Green Day,Dookie,1,1,1,5,3,2,1345575,235,10572120,0.42,0.05,0.53,9849,10,7,0,21,5,1
-2025-08-15,87,-11,76,False,False,18,-0.31,I Do Not Hook Up,Kelly Clarkson,All I Ever Wanted,1,1,1,5,3,2,1386000,242,10888380,0.42,0.05,0.53,10143,10,7,0,1,35,1
-2025-08-15,88,RE,--,False,False,17,--,XS,Rina Sawayama,SAWAYAMA,2,1,2,10,3,4,2604525,227,20466540,0.43,0.02,0.54,15890,17,0,0,64,4,1
-2025-08-15,89,RE,--,False,False,17,--,Wings,Little Mix,DNA: The Deluxe Edition,2,1,2,10,3,4,2696925,235,21189420,0.43,0.02,0.54,16450,17,0,0,1,10,1
-2025-08-15,90,RE,--,False,False,17,--,Wasabi,Little Mix,LM5 (Deluxe),2,1,2,10,3,4,2725800,238,21415320,0.43,0.02,0.54,16625,17,0,0,14,12,1
-2025-08-15,91,RE,--,False,False,17,--,Virtual Angel,ARTMS,<DALL>,2,1,2,10,3,4,2691150,235,21144240,0.43,0.02,0.54,16415,17,0,0,18,7,1
-2025-08-15,92,RE,--,False,False,17,--,Timber,Pitbull,Global Warming: Meltdown (Deluxe Version),2,1,2,10,3,4,2616075,228,20556900,0.43,0.02,0.54,15960,17,0,0,86,2,1
-2025-08-15,93,RE,--,False,False,17,--,Stronger (What Doesn't Kill You),Kelly Clarkson,Stronger (Deluxe Version),2,1,2,10,3,4,2754675,240,21641220,0.43,0.02,0.54,16800,17,0,0,1,20,1
-2025-08-15,94,RE,--,False,False,17,--,Sensitive,Loossemble,LOOSSEMBLE,2,1,2,10,3,4,2702700,236,21234600,0.43,0.02,0.54,16485,17,0,0,3,13,1
-2025-08-15,95,RE,--,False,False,17,--,Moves Like Jagger - Studio Recording From The Voice Performance,Maroon 5,Singles,2,1,2,10,3,4,3124275,273,24532740,0.43,0.02,0.54,19040,17,0,0,9,12,1
-2025-08-15,96,RE,--,False,False,17,--,Move,Little Mix,Salute (The Deluxe Edition),2,1,2,10,3,4,2644950,231,20782800,0.43,0.02,0.54,16134,17,0,0,15,17,1
-2025-08-15,97,RE,--,False,False,17,--,LOVE DIVE,IVE,LOVE DIVE,2,1,2,10,3,4,2743125,239,21550860,0.43,0.02,0.54,16730,17,0,0,1,71,4
-2025-08-15,98,RE,--,True,False,17,--,Hair,Little Mix,Get Weird (Expanded Edition),2,1,2,10,3,4,3147375,275,24713460,0.43,0.02,0.54,19180,17,0,0,98,2,1
-2025-08-15,99,RE,--,False,False,17,--,Fast Times,Sabrina Carpenter,emails i can't send,2,1,2,10,3,4,3031875,265,23809860,0.43,0.02,0.54,18480,17,0,0,4,12,1
-2025-08-15,100,NEW,--,True,False,17,--,Dance Again,Jennifer Lopez,Dance Again...The Hits,2,1,2,10,3,4,2812425,245,22093020,0.43,0.02,0.54,17150,17,0,0,100,1,1
+2025-08-15,85,RE,--,False,False,18,--,Whatsername,Green Day,American Idiot,1,1,1,5,3,2,1365787,238,10730250,0.42,0.05,0.53,9996,10,0,7,8,50,1
+2025-08-15,86,-12,74,False,False,18,-0.31,Locked Out of Heaven,Bruno Mars,Unorthodox Jukebox,1,1,1,5,3,2,1576575,275,12379320,0.42,0.05,0.53,11529,10,7,0,9,18,1
+2025-08-15,87,-1,86,False,False,18,-0.25,In the End,Green Day,Dookie,1,1,1,5,3,2,1345575,235,10572120,0.42,0.05,0.53,9849,10,7,0,21,5,1
+2025-08-15,88,-12,76,False,False,18,-0.31,I Do Not Hook Up,Kelly Clarkson,All I Ever Wanted,1,1,1,5,3,2,1386000,242,10888380,0.42,0.05,0.53,10143,10,7,0,1,35,1
+2025-08-15,89,RE,--,False,False,17,--,XS,Rina Sawayama,SAWAYAMA,2,1,2,10,3,4,2604525,227,20466540,0.43,0.02,0.54,15890,17,0,0,64,4,1
+2025-08-15,90,RE,--,False,False,17,--,Wings,Little Mix,DNA: The Deluxe Edition,2,1,2,10,3,4,2696925,235,21189420,0.43,0.02,0.54,16450,17,0,0,1,10,1
+2025-08-15,91,RE,--,False,False,17,--,Wasabi,Little Mix,LM5 (Deluxe),2,1,2,10,3,4,2725800,238,21415320,0.43,0.02,0.54,16625,17,0,0,14,12,1
+2025-08-15,92,RE,--,False,False,17,--,Virtual Angel,ARTMS,<Dall>,2,1,2,10,3,4,2852850,249,22409280,0.43,0.02,0.54,17395,17,0,0,18,7,1
+2025-08-15,93,RE,--,False,False,17,--,Timber,Pitbull,Global Warming: Meltdown (Deluxe Version),2,1,2,10,3,4,2616075,228,20556900,0.43,0.02,0.54,15960,17,0,0,82,2,1
+2025-08-15,94,RE,--,False,False,17,--,Stronger (What Doesn't Kill You),Kelly Clarkson,Stronger (Deluxe Version),2,1,2,10,3,4,2754675,240,21641220,0.43,0.02,0.54,16800,17,0,0,1,20,1
+2025-08-15,95,RE,--,False,False,17,--,Sensitive,Loossemble,LOOSSEMBLE,2,1,2,10,3,4,2702700,236,21234600,0.43,0.02,0.54,16485,17,0,0,3,13,1
+2025-08-15,96,RE,--,False,False,17,--,Moves Like Jagger - Studio Recording From The Voice Performance,Maroon 5,Singles,2,1,2,10,3,4,3124275,273,24532740,0.43,0.02,0.54,19040,17,0,0,9,12,1
+2025-08-15,97,RE,--,False,False,17,--,Move,Little Mix,Salute (The Deluxe Edition),2,1,2,10,3,4,2644950,231,20782800,0.43,0.02,0.54,16134,17,0,0,15,17,1
+2025-08-15,98,RE,--,False,False,17,--,LOVE DIVE,IVE,LOVE DIVE,2,1,2,10,3,4,2743125,239,21550860,0.43,0.02,0.54,16730,17,0,0,1,71,4
+2025-08-15,99,RE,--,False,True,17,--,Hair,Little Mix,Get Weird (Expanded Edition),2,1,2,10,3,4,3147375,275,24713460,0.43,0.02,0.54,19180,17,0,0,99,2,2
+2025-08-15,100,RE,--,False,False,17,--,Fast Times,Sabrina Carpenter,emails i can't send,2,1,2,10,3,4,3031875,265,23809860,0.43,0.02,0.54,18480,17,0,0,4,12,1

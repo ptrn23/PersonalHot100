@@ -2,11 +2,11 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-04-04,1,=,1,False,True,440,-0.25,Sports car,Tate McRae,So Close to What,8,8,1,40,24,2,10764600,1882,10572120,0.79,0.09,0.12,55811,66,175,197,1,4,3
 2025-04-04,2,28,30,False,False,418,2.37,Fresh Out the Slammer,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,50,21,17,250,63,34,78251250,5747,208912320,0.68,0.03,0.29,335720,347,37,32,1,37,1
 2025-04-04,3,-1,2,False,False,342,-0.19,2 hands,Tate McRae,So Close to What,8,8,1,40,24,2,10833900,1895,10639890,0.79,0.09,0.12,56168,66,126,149,2,4,2
-2025-04-04,4,-1,3,False,False,325,-0.2,Revolving Door,Tate McRae,So Close to What,8,8,1,40,24,2,11781000,2060,11566080,0.79,0.09,0.12,61047,66,122,135,3,4,2
-2025-04-04,5,1,6,False,False,262,-0.16,Miss Possessive,Tate McRae,So Close to What,9,9,1,45,27,2,13175662,2304,11498310,0.8,0.09,0.11,67830,74,93,94,4,4,1
-2025-04-04,6,-1,5,False,False,259,-0.2,It's OK I'm OK,Tate McRae,it's ok i'm ok,9,9,1,45,27,2,13071712,2286,11407950,0.8,0.09,0.11,67298,74,96,87,5,4,2
+2025-04-04,4,-1,3,False,False,325,-0.2,Revolving door,Tate McRae,So Close to What,8,8,1,40,24,2,10672200,1866,10481760,0.79,0.09,0.12,55335,66,122,135,3,4,2
+2025-04-04,5,1,6,False,False,262,-0.16,Miss possessive,Tate McRae,So Close to What,9,9,1,45,27,2,12967762,2268,11317590,0.8,0.09,0.11,66766,74,93,94,4,4,1
+2025-04-04,6,-1,5,False,False,259,-0.2,It's ok I'm ok,Tate McRae,it's ok i'm ok,9,9,1,45,27,2,12551962,2195,10956150,0.8,0.09,0.11,64638,74,96,87,5,4,2
 2025-04-04,7,-3,4,False,False,251,-0.3,Mad Season,Matchbox Twenty,Mad Season,9,9,1,45,27,2,13513500,2363,11791980,0.8,0.09,0.11,69559,74,108,68,1,9,4
-2025-04-04,8,-1,7,False,False,249,-0.15,Purple Lace Bra,Tate McRae,So Close to What,9,9,1,45,27,2,13123687,2295,11453130,0.8,0.09,0.11,67564,74,87,86,6,3,1
+2025-04-04,8,-1,7,False,False,249,-0.15,Purple lace bra,Tate McRae,So Close to What,9,9,1,45,27,2,12396037,2168,10820610,0.8,0.09,0.11,63840,74,87,86,6,3,1
 2025-04-04,9,-1,8,False,False,207,-0.27,Last Beautiful Girl,Matchbox Twenty,Mad Season,15,15,1,75,45,2,23128875,4044,12108240,0.84,0.09,0.07,116529,122,84,0,8,2,1
 2025-04-04,10,19,29,False,False,206,0.63,She's So Mean,Matchbox Twenty,North (Deluxe Edition),19,6,14,95,18,28,28912537,1596,167301540,0.51,0.02,0.47,144690,141,37,26,1,50,1
 2025-04-04,11,-2,9,False,False,193,-0.23,I Miss You,blink-182,blink-182,8,8,1,40,24,2,11619300,2032,11407950,0.79,0.09,0.12,60214,66,75,50,3,8,2
@@ -32,7 +32,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-04-04,31,4,35,False,False,90,-0.13,Motivation,Sum 41,All Killer No Filler,4,4,1,20,12,2,5209050,911,10233270,0.7,0.08,0.22,28602,34,31,23,2,13,1
 2025-04-04,32,7,39,False,False,86,-0.1,Fat Lip,Sum 41,All Killer No Filler,4,4,1,20,12,2,5497800,961,10798020,0.7,0.08,0.22,30177,34,28,23,3,13,2
 2025-04-04,33,7,40,True,False,81,-0.08,No Future,blink-182,California (Deluxe Edition),4,4,1,20,12,2,5555550,971,10910970,0.7,0.08,0.22,30492,34,26,19,33,3,1
-2025-04-04,34,18,52,False,False,80,0.04,Juno,Sabrina Carpenter,Short n' Sweet,4,4,1,20,12,2,5463150,955,10730250,0.7,0.08,0.22,29988,34,23,21,5,18,1
+2025-04-04,34,18,52,False,False,80,0.04,Juno,Sabrina Carpenter,Short n' Sweet,4,4,1,20,12,2,5463150,955,10730250,0.7,0.08,0.22,29988,34,23,21,5,17,1
 2025-04-04,35,-2,33,False,False,80,-0.31,Shut Up and Dance,Walk the Moon,TALKING IS HARD (Expanded Edition),1,1,1,5,3,2,1524600,266,11972700,0.42,0.05,0.53,11151,10,34,34,6,14,1
 2025-04-04,36,13,49,True,False,78,-0.03,Teenage Satellites,blink-182,California (Deluxe Edition),4,4,1,20,12,2,6121500,1070,12017880,0.7,0.08,0.22,33579,34,24,19,36,3,1
 2025-04-04,37,6,43,True,False,74,-0.09,Bored to Death,blink-182,California (Deluxe Edition),4,4,1,20,12,2,5278350,923,10368810,0.7,0.08,0.22,28979,34,24,14,37,3,1
@@ -40,7 +40,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-04-04,39,-14,25,False,False,74,-0.51,Down,blink-182,blink-182,1,1,1,5,3,2,1466850,256,11520900,0.42,0.05,0.53,10731,10,45,17,25,5,1
 2025-04-04,40,21,61,False,False,73,0.03,Redundant,Green Day,Nimrod,5,5,1,25,15,2,7854000,1373,12334140,0.73,0.08,0.18,42119,42,21,8,1,52,1
 2025-04-04,41,-5,36,False,False,71,-0.3,Moves Like Jagger - Studio Recording From The Voice Performance,Maroon 5,Singles,1,1,1,5,3,2,1562137,273,12266370,0.42,0.05,0.53,11424,10,30,29,9,11,1
-2025-04-04,42,16,58,False,False,70,-0.05,Keeper,TWICE,Strategy,3,3,1,15,9,2,4045387,707,10594710,0.65,0.07,0.27,23030,26,22,20,4,11,1
+2025-04-04,42,16,58,False,False,70,-0.05,Keeper,TWICE,STRATEGY,3,3,1,15,9,2,4149337,725,10865790,0.65,0.07,0.27,23618,26,22,20,4,11,1
 2025-04-04,43,19,62,True,False,69,-0.01,San Diego,blink-182,California (Deluxe Edition),4,4,1,20,12,2,5994450,1048,11769390,0.7,0.08,0.22,32886,34,21,13,43,3,1
 2025-04-04,44,16,60,False,False,68,-0.07,LA Devotee,Panic! at the Disco,Death of a Bachelor,3,3,1,15,9,2,3993412,698,10459170,0.65,0.07,0.27,22736,26,21,19,13,8,1
 2025-04-04,45,RE,--,False,False,67,--,Helena,My Chemical Romance,Three Cheers for Sweet Revenge,5,5,1,25,15,2,7507500,1312,11791980,0.73,0.08,0.18,40271,42,0,24,3,48,1
@@ -63,7 +63,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-04-04,62,-16,46,False,False,42,-0.47,Here's Your Letter,blink-182,blink-182,1,1,1,5,3,2,1420650,248,11159460,0.42,0.05,0.53,10395,10,24,7,46,5,1
 2025-04-04,63,-16,47,False,False,42,-0.47,Go,blink-182,blink-182,1,1,1,5,3,2,1461075,255,11475720,0.42,0.05,0.53,10689,10,24,7,47,5,1
 2025-04-04,64,-16,48,False,False,42,-0.47,All of This,blink-182,blink-182,1,1,1,5,3,2,1432200,250,11249820,0.42,0.05,0.53,10479,10,24,7,48,5,1
-2025-04-04,65,RE,--,False,False,41,--,HUMAN,dodie,Human,5,4,2,25,12,4,6612375,925,20782800,0.63,0.06,0.31,35497,41,0,0,6,45,1
+2025-04-04,65,RE,--,False,False,41,--,HUMAN,dodie,Human,5,4,2,25,12,4,6612375,925,20782800,0.63,0.06,0.31,35497,41,0,0,6,46,1
 2025-04-04,66,RE,--,False,False,41,--,Arms Unfolding,dodie,Human,5,4,2,25,12,4,7392000,1034,23222520,0.63,0.06,0.31,39655,41,0,0,25,26,1
 2025-04-04,67,RE,--,False,False,34,--,party tattoos,dodie,Party Tattoos - Single,4,4,1,20,12,2,5486250,959,10775430,0.7,0.08,0.22,30114,34,0,0,9,2,1
 2025-04-04,68,RE,--,False,False,34,--,Not What I Meant (feat. Lewis Watson),dodie,Human,4,4,1,20,12,2,5775000,1010,11340180,0.7,0.08,0.22,31689,34,0,0,20,27,2
@@ -82,7 +82,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-04-04,81,-5,76,False,False,28,-0.52,LOVE DIVE,IVE,LOVE DIVE,1,1,1,5,3,2,1371562,239,10775430,0.42,0.05,0.53,10038,10,17,0,1,67,4
 2025-04-04,82,RE,--,False,False,27,--,Guilty as Sin?,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,2,2,1,10,6,2,2685375,469,10549530,0.58,0.06,0.36,16379,18,0,8,3,35,2
 2025-04-04,83,RE,--,False,False,26,--,When Emma Falls in Love (Taylor’s Version) (From the Vault),Taylor Swift,Speak Now (Taylor's Version),3,3,1,15,9,2,4755712,680,10188090,0.65,0.07,0.27,22148,26,0,0,7,12,1
-2025-04-04,84,RE,--,False,False,26,--,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,3932775,687,10301040,0.65,0.07,0.27,22393,26,0,0,1,102,2
+2025-04-04,84,RE,--,False,False,26,--,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,3932775,687,10301040,0.65,0.07,0.27,22393,26,0,0,1,104,2
 2025-04-04,85,RE,--,False,False,26,--,Way Back Into Love,Hugh Grant,Music And Lyrics - Music From and Inspired By The Motion Picture (International Release),3,3,1,15,9,2,4695075,821,12288960,0.65,0.07,0.27,26705,26,0,0,1,11,1
 2025-04-04,86,RE,--,False,False,26,--,Unwell,Matchbox Twenty,More Than You Think You Are,3,3,1,15,9,2,4253287,743,11136870,0.65,0.07,0.27,24206,26,0,0,8,28,1
 2025-04-04,87,RE,--,False,False,26,--,The Day You Said Goodnight,Hale,Hale,3,3,1,15,9,2,4097362,716,10730250,0.65,0.07,0.27,23324,26,0,0,29,15,1

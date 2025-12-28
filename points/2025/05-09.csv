@@ -11,9 +11,9 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-05-09,10,-4,6,False,False,312,-0.24,Tangled in the Great Escape,Pierce the Veil,Collide With the Sky,22,22,1,110,66,2,31953075,5588,11407950,0.86,0.1,0.05,159390,178,122,10,6,4,1
 2025-05-09,11,=,11,False,True,283,-0.04,Hold On Till May,Pierce the Veil,Collide With the Sky,24,24,1,120,72,2,32293800,5648,10572120,0.86,0.1,0.04,160867,194,88,0,11,2,2
 2025-05-09,12,RE,--,True,False,233,--,exes,Tate McRae,THINK LATER,35,10,10,175,30,20,51036562,2550,114531300,0.72,0.02,0.26,195580,225,0,7,12,3,1
-2025-05-09,13,4,17,False,False,218,-0.15,Miss Possessive,Tate McRae,So Close to What,10,10,1,50,30,2,14639625,2560,11498310,0.81,0.09,0.1,74970,82,77,57,3,9,1
-2025-05-09,14,2,16,False,False,216,-0.16,Revolving Door,Tate McRae,So Close to What,10,10,1,50,30,2,14726250,2575,11566080,0.81,0.09,0.1,75411,82,77,55,3,9,3
-2025-05-09,15,4,19,False,False,202,-0.16,It's OK I'm OK,Tate McRae,it's ok i'm ok,10,10,1,50,30,2,14524125,2540,11407950,0.81,0.09,0.1,74382,82,72,47,5,9,4
+2025-05-09,13,4,17,False,False,218,-0.15,Miss possessive,Tate McRae,So Close to What,10,10,1,50,30,2,14408625,2520,11317590,0.81,0.09,0.1,73794,82,77,57,3,9,1
+2025-05-09,14,2,16,False,False,216,-0.16,Revolving door,Tate McRae,So Close to What,10,10,1,50,30,2,13340249,2333,10481760,0.81,0.09,0.1,68355,82,77,55,3,9,3
+2025-05-09,15,4,19,False,False,202,-0.16,It's ok I'm ok,Tate McRae,it's ok i'm ok,10,10,1,50,30,2,13946625,2439,10956150,0.81,0.09,0.1,71442,82,72,47,5,9,4
 2025-05-09,16,11,27,False,False,201,0.51,Mad Season,Matchbox Twenty,Mad Season,16,7,10,80,21,20,24024000,1838,117919800,0.55,0.03,0.43,120813,121,39,39,1,14,4
 2025-05-09,17,NEW,--,True,False,198,--,Chop Suey!,System of a Down,Toxicity,25,21,5,125,63,10,34216875,5027,53764200,0.74,0.07,0.19,170289,198,0,0,17,1,1
 2025-05-09,18,16,34,False,False,183,0.59,Always,blink-182,blink-182,17,9,5,85,27,10,22089375,2045,51053400,0.7,0.04,0.26,98301,122,34,25,3,13,1
@@ -33,11 +33,11 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-05-09,32,-17,15,False,False,138,-0.47,Astronaut,Simple Plan,Get Your Heart On! (Deluxe Edition),2,2,1,10,6,2,2899050,507,11385360,0.58,0.06,0.36,17675,18,78,41,7,5,1
 2025-05-09,33,RE,--,False,False,130,--,ROYAL,IVE,LOVE DIVE,16,16,1,80,48,2,23562000,4120,11566080,0.84,0.09,0.07,118503,130,0,0,8,23,1
 2025-05-09,34,NEW,--,True,False,130,--,Girl Like Me,PinkPantheress,Fancy That,16,16,1,80,48,2,22360800,3911,10978740,0.84,0.09,0.07,112497,130,0,0,34,1,1
-2025-05-09,35,-13,22,False,False,123,-0.4,Purple Lace Bra,Tate McRae,So Close to What,2,2,1,10,6,2,2916375,510,11453130,0.58,0.06,0.36,17780,18,61,43,6,8,2
+2025-05-09,35,-13,22,False,False,123,-0.4,Purple lace bra,Tate McRae,So Close to What,2,2,1,10,6,2,2754675,481,10820610,0.58,0.06,0.36,16800,18,61,43,6,8,2
 2025-05-09,36,RE,--,False,False,121,--,Holiday,Green Day,American Idiot,15,14,2,75,42,4,19793812,3231,20737620,0.79,0.08,0.13,99819,121,0,0,5,19,1
-2025-05-09,37,-17,20,False,False,118,-0.51,Gnarly,KATSEYE,GNARLY,6,2,5,30,6,10,8264025,481,54103050,0.48,0.02,0.5,43680,46,71,0,20,2,1
+2025-05-09,37,-17,20,False,False,118,-0.51,Gnarly,KATSEYE,Gnarly,6,2,5,30,6,10,9303525,542,60880050,0.48,0.02,0.5,49140,46,71,0,20,2,1
 2025-05-09,38,-25,13,False,False,116,-0.59,Last One Standing,Simple Plan,Get Your Heart On! (Deluxe Edition),2,2,1,10,6,2,3130050,547,12288960,0.58,0.06,0.36,19075,18,84,12,13,5,1
-2025-05-09,39,RE,--,False,False,114,--,Whatsername,Green Day,American Idiot,14,14,1,70,42,2,19121025,3344,10730250,0.83,0.09,0.07,96628,114,0,0,8,38,2
+2025-05-09,39,RE,--,False,False,114,--,Whatsername,Green Day,American Idiot,14,14,1,70,42,2,19121025,3344,10730250,0.83,0.09,0.07,96628,114,0,0,8,38,1
 2025-05-09,40,RE,--,False,False,114,--,She's a Rebel,Green Day,American Idiot,14,14,1,70,42,2,19565700,3422,10978740,0.83,0.09,0.07,98861,114,0,0,7,19,1
 2025-05-09,41,RE,--,False,False,114,--,Letterbomb,Green Day,American Idiot,14,14,1,70,42,2,20374200,3563,11430540,0.83,0.09,0.07,102921,114,0,0,10,18,1
 2025-05-09,42,RE,--,False,False,114,--,Give Me Novacaine,Green Day,American Idiot,14,14,1,70,42,2,19606125,3429,11001330,0.83,0.09,0.07,99064,114,0,0,9,20,1
@@ -56,10 +56,10 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-05-09,55,-23,32,False,False,98,-0.17,She's So Mean,Matchbox Twenty,North (Deluxe Edition),3,3,1,15,9,2,4565137,798,11950110,0.65,0.07,0.27,25970,26,35,36,1,55,1
 2025-05-09,56,-26,30,False,False,97,-0.23,Fresh Out the Slammer,Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,2,2,1,10,6,2,3130050,547,12288960,0.58,0.06,0.36,19075,18,37,40,1,42,1
 2025-05-09,57,-22,35,False,False,95,-0.17,Last Beautiful Girl,Matchbox Twenty,Mad Season,3,3,1,15,9,2,4625775,808,12108240,0.65,0.07,0.27,26313,26,34,33,8,7,1
-2025-05-09,58,-40,18,False,False,91,-0.62,Touch,Katseye,Touch,2,2,1,10,6,2,3153150,551,12379320,0.58,0.06,0.36,19215,18,72,0,18,2,1
+2025-05-09,58,-40,18,False,False,91,-0.62,Touch,KATSEYE,Touch,2,2,1,10,6,2,2760450,482,10843200,0.58,0.06,0.36,16835,18,72,0,18,2,1
 2025-05-09,59,-30,29,False,False,87,-0.32,I Miss You,blink-182,blink-182,2,2,1,10,6,2,2904825,508,11407950,0.58,0.06,0.36,17710,18,38,30,3,13,2
 2025-05-09,60,NEW,--,True,False,82,--,Illegal,PinkPantheress,Fancy That,10,10,1,50,30,2,15563625,2721,12221190,0.81,0.09,0.1,79674,82,0,0,60,1,1
-2025-05-09,61,-21,40,False,False,81,-0.16,Aliens Exist,blink-182,Enema of the State,2,2,1,10,6,2,2795100,488,10978740,0.58,0.06,0.36,17045,18,28,33,9,23,1
+2025-05-09,61,-21,40,False,False,81,-0.16,Aliens Exist,blink-182,Enema of the State,2,2,1,10,6,2,2795100,488,10978740,0.58,0.06,0.36,17045,18,28,33,12,23,1
 2025-05-09,62,-24,38,False,False,76,-0.29,Scattered,Green Day,Nimrod,1,1,1,5,3,2,1348462,235,10594710,0.42,0.05,0.53,9870,10,32,32,3,37,2
 2025-05-09,63,-12,51,False,False,74,0.12,The Fallen Interlude,blink-182,blink-182,5,5,1,25,15,2,6525750,1141,10255860,0.73,0.08,0.18,35035,42,19,11,18,10,1
 2025-05-09,64,RE,--,False,False,73,--,Only The Young - Featured in Miss Americana,Taylor Swift,Only The Young (Featured in Miss Americana),10,1,10,50,3,20,15679125,274,123115500,0.44,0.0,0.55,80262,73,0,0,38,3,1
@@ -68,7 +68,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-05-09,67,-23,44,False,False,70,-0.17,She's out of Her Mind,blink-182,California (Deluxe Edition),2,2,1,10,6,2,3043425,532,11950110,0.58,0.06,0.36,18550,18,25,25,2,12,2
 2025-05-09,68,-18,50,False,False,66,0.0,Violence,blink-182,blink-182,4,4,1,20,12,2,5359200,937,10526940,0.7,0.08,0.22,29421,34,19,12,15,10,1
 2025-05-09,69,RE,--,False,False,62,--,1981,Green Day,Saviors,8,4,5,40,12,10,11642400,1018,57152700,0.54,0.03,0.43,60333,62,0,0,1,39,1
-2025-05-09,70,-27,43,False,False,59,-0.31,Juno,Sabrina Carpenter,Short n' Sweet,1,1,1,5,3,2,1365787,238,10730250,0.42,0.05,0.53,9996,10,25,22,5,23,1
+2025-05-09,70,-27,43,False,False,59,-0.31,Juno,Sabrina Carpenter,Short n' Sweet,1,1,1,5,3,2,1365787,238,10730250,0.42,0.05,0.53,9996,10,25,22,5,22,1
 2025-05-09,71,-25,46,False,False,57,-0.27,Obvious,blink-182,blink-182,2,2,1,10,6,2,3141600,549,12334140,0.58,0.06,0.36,19145,18,23,14,5,11,2
 2025-05-09,72,RE,--,False,False,54,--,Push,Matchbox Twenty,Yourself or Someone Like You,7,3,5,35,9,10,10409437,780,58395150,0.52,0.02,0.46,54390,54,0,0,4,11,1
 2025-05-09,73,=,73,False,False,54,1.25,How Far We've Come,Matchbox Twenty,How Far We've Come,6,2,5,30,6,10,8073450,470,52860600,0.48,0.02,0.5,42679,46,7,0,12,10,1
@@ -96,6 +96,6 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-05-09,95,NEW,--,True,False,42,--,Romeo,PinkPantheress,Fancy That,5,5,1,25,15,2,7117687,1244,11182050,0.73,0.08,0.18,38192,42,0,0,95,1,1
 2025-05-09,96,NEW,--,True,False,42,--,Noises,PinkPantheress,Fancy That,5,5,1,25,15,2,7305375,1277,11475720,0.73,0.08,0.18,39193,42,0,0,96,1,1
 2025-05-09,97,NEW,--,True,False,42,--,Nice to Know You,PinkPantheress,Fancy That,5,5,1,25,15,2,6742312,1179,10594710,0.73,0.08,0.18,36190,42,0,0,97,1,1
-2025-05-09,98,RE,--,False,False,42,--,ME! (feat. Brendon Urie of Panic! at the Disco),Taylor Swift,ME!,5,5,1,25,15,2,7377562,1290,11588670,0.73,0.08,0.18,39578,42,0,0,4,32,1
+2025-05-09,98,RE,--,False,False,42,--,ME! (feat. Brendon Urie of Panic! at the Disco),Taylor Swift,ME!,5,5,1,25,15,2,7377562,1290,11588670,0.73,0.08,0.18,39578,42,0,0,4,33,1
 2025-05-09,99,RE,--,False,False,42,--,I Think He Knows,Taylor Swift,Lover,5,5,1,25,15,2,7825125,1368,12288960,0.73,0.08,0.18,41965,42,0,0,1,29,1
 2025-05-09,100,RE,--,False,False,42,--,Dead!,My Chemical Romance,The Black Parade,5,5,1,25,15,2,6756750,1181,10617300,0.73,0.08,0.18,36267,42,0,0,3,53,2

@@ -1,10 +1,10 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2025-04-18,1,1,2,False,True,481,0.11,Sports car,Tate McRae,So Close to What,33,31,2,165,93,4,44403975,7296,21144240,0.85,0.09,0.06,216678,262,130,88,1,6,4
 2025-04-18,2,-1,1,False,False,475,-0.13,2 hands,Tate McRae,So Close to What,30,30,1,150,90,2,40627125,7106,10639890,0.87,0.1,0.04,201544,242,163,68,1,6,1
-2025-04-18,3,1,4,False,True,380,0.29,Revolving Door,Tate McRae,So Close to What,28,28,1,140,84,2,41233500,7211,11566080,0.86,0.1,0.04,204687,226,88,65,3,6,3
-2025-04-18,4,2,6,False,True,356,0.39,Miss Possessive,Tate McRae,So Close to What,28,28,1,140,84,2,40990950,7168,11498310,0.86,0.1,0.04,203490,226,76,52,4,6,2
-2025-04-18,5,=,5,False,True,348,0.35,It's OK I'm OK,Tate McRae,it's ok i'm ok,27,27,1,135,81,2,39215137,6858,11407950,0.86,0.1,0.04,194810,218,77,51,5,6,4
-2025-04-18,6,2,8,False,True,327,0.32,Purple Lace Bra,Tate McRae,So Close to What,25,25,1,125,75,2,36454687,6375,11453130,0.86,0.1,0.04,181356,202,74,49,6,5,2
+2025-04-18,3,1,4,False,True,380,0.29,Revolving door,Tate McRae,So Close to What,28,28,1,140,84,2,37352700,6533,10481760,0.86,0.1,0.04,185535,226,88,65,3,6,3
+2025-04-18,4,2,6,False,True,356,0.39,Miss possessive,Tate McRae,So Close to What,28,28,1,140,84,2,40344150,7056,11317590,0.86,0.1,0.04,200298,226,76,52,4,6,2
+2025-04-18,5,=,5,False,True,348,0.35,It's ok I'm ok,Tate McRae,it's ok i'm ok,27,27,1,135,81,2,37655887,6586,10956150,0.86,0.1,0.04,187110,218,77,51,5,6,4
+2025-04-18,6,2,8,False,True,327,0.32,Purple lace bra,Tate McRae,So Close to What,25,25,1,125,75,2,34433437,6022,10820610,0.86,0.1,0.04,171360,202,74,49,6,5,2
 2025-04-18,7,2,9,True,False,295,0.2,Down,blink-182,blink-182,27,15,13,135,45,26,39604950,3848,149771700,0.6,0.04,0.36,196735,206,73,14,7,7,1
 2025-04-18,8,NEW,--,True,False,282,--,bloodonmyhands (feat. Flo Milli),Tate McRae,So Close to What,35,35,1,175,105,2,52754625,9225,11837160,0.87,0.1,0.03,260925,282,0,0,8,1,1
 2025-04-18,9,NEW,--,True,False,266,--,I know love (feat. The Kid LAROI),Tate McRae,So Close to What,33,33,1,165,99,2,43451100,7600,10346220,0.87,0.1,0.03,215270,266,0,0,9,1,1
@@ -23,7 +23,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-04-18,22,-2,20,False,False,140,0.04,Angry,Matchbox Twenty,Mad Season,8,7,2,40,21,4,11018700,1686,21641220,0.71,0.07,0.22,57120,65,40,33,17,7,1
 2025-04-18,23,6,29,False,False,138,0.19,Los Angeles,blink-182,California (Deluxe Edition),8,8,1,40,24,2,10441200,1826,10255860,0.79,0.09,0.12,54145,66,34,36,9,5,1
 2025-04-18,24,11,35,False,False,135,0.24,She's out of Her Mind,blink-182,California (Deluxe Edition),8,8,1,40,24,2,12173700,2128,11950110,0.79,0.09,0.12,63070,66,32,35,2,9,2
-2025-04-18,25,20,45,False,False,129,0.74,Juno,Sabrina Carpenter,Short n' Sweet,11,11,1,55,33,2,15023662,2627,10730250,0.82,0.09,0.09,76636,90,22,16,5,20,1
+2025-04-18,25,20,45,False,False,129,0.74,Juno,Sabrina Carpenter,Short n' Sweet,11,11,1,55,33,2,15023662,2627,10730250,0.82,0.09,0.09,76636,90,22,16,5,19,1
 2025-04-18,26,8,34,False,False,128,0.16,Always,blink-182,blink-182,8,8,1,40,24,2,10395000,1818,10210680,0.79,0.09,0.12,53907,66,33,28,3,10,1
 2025-04-18,27,=,27,False,False,122,0.03,Bent,Matchbox Twenty,Mad Season,7,7,1,35,21,2,10267950,1795,11520900,0.77,0.09,0.14,53655,58,35,27,3,11,1
 2025-04-18,28,4,32,False,False,121,0.09,Tócame (feat. Dillom),Six Sex,X-sex,8,8,1,40,24,2,11157300,1951,10956150,0.79,0.09,0.12,57834,66,33,20,11,7,2
@@ -59,7 +59,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-04-18,58,13,71,False,False,47,0.12,Taste,Sabrina Carpenter,Short n' Sweet,4,4,1,20,12,2,5313000,929,10436580,0.7,0.08,0.22,29169,34,12,0,12,16,1
 2025-04-18,59,14,73,True,False,47,0.12,I'm Low on Gas and You Need a Jacket,Pierce the Veil,Collide With the Sky,4,4,1,20,12,2,6063750,1060,11904930,0.7,0.08,0.22,33264,34,12,0,59,2,1
 2025-04-18,60,30,90,False,False,45,0.32,Good Graces,Sabrina Carpenter,Short n' Sweet,4,4,1,20,12,2,5567100,973,10933560,0.7,0.08,0.22,30555,34,10,0,25,7,1
-2025-04-18,61,30,91,False,False,45,0.32,Espresso,Sabrina Carpenter,Please Please Please,4,4,1,20,12,2,5994450,1048,11769390,0.7,0.08,0.22,32886,34,10,0,27,13,1
+2025-04-18,61,30,91,False,False,45,0.32,Espresso,Sabrina Carpenter,Please Please Please,4,4,1,20,12,2,5994450,1048,11769390,0.7,0.08,0.22,32886,34,10,0,27,13,2
 2025-04-18,62,-32,30,False,False,45,-0.61,21 Guns,Green Day,21st Century Breakdown,1,1,1,5,3,2,1573687,275,12356730,0.42,0.05,0.53,11508,10,34,0,4,40,1
 2025-04-18,63,-14,49,False,False,44,-0.3,Redundant,Green Day,Nimrod,1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,18,14,1,54,1
 2025-04-18,64,4,68,False,False,43,-0.07,Sugar We're Goin Down,Fall Out Boy,From Under the Cork Tree,2,2,1,10,6,2,2766225,483,10865790,0.58,0.06,0.36,16870,18,13,10,1,29,5
@@ -97,5 +97,5 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-04-18,96,-7,89,False,False,29,-0.15,How Far We've Come,Matchbox Twenty,How Far We've Come,2,2,1,10,6,2,2691150,470,10572120,0.58,0.06,0.36,16415,18,10,0,12,8,1
 2025-04-18,97,-45,52,False,False,28,-0.52,The Ghost of You,My Chemical Romance,Three Cheers for Sweet Revenge,1,1,1,5,3,2,1308037,228,10278450,0.42,0.05,0.53,9576,10,17,0,12,14,1
 2025-04-18,98,RE,--,False,False,27,--,She,dodie,Human,2,2,1,10,6,2,2823975,493,11091690,0.58,0.06,0.36,17220,18,0,8,2,46,1
-2025-04-18,99,RE,--,False,False,27,--,HUMAN,dodie,Human,2,2,1,10,6,2,2644950,462,10391400,0.58,0.06,0.36,16134,18,0,8,6,46,1
+2025-04-18,99,RE,--,False,False,27,--,HUMAN,dodie,Human,2,2,1,10,6,2,2644950,462,10391400,0.58,0.06,0.36,16134,18,0,8,6,47,1
 2025-04-18,100,RE,--,False,False,27,--,Arms Unfolding,dodie,Human,2,2,1,10,6,2,2956800,517,11611260,0.58,0.06,0.36,18025,18,0,8,25,27,1

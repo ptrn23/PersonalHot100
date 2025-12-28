@@ -1,11 +1,11 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2025-03-28,1,=,1,False,True,585,-0.41,Sports car,Tate McRae,So Close to What,31,22,10,155,66,20,41712825,5178,105721200,0.67,0.05,0.27,206829,241,296,46,1,3,2
 2025-03-28,2,=,2,False,True,420,-0.44,2 hands,Tate McRae,So Close to What,21,21,1,105,63,2,28438987,4974,10639890,0.85,0.1,0.05,142072,170,224,24,2,3,2
-2025-03-28,3,=,3,False,True,408,-0.4,Revolving Door,Tate McRae,So Close to What,21,21,1,105,63,2,30925125,5408,11566080,0.85,0.1,0.05,154413,170,203,34,3,3,2
+2025-03-28,3,=,3,False,True,408,-0.4,Revolving door,Tate McRae,So Close to What,21,21,1,105,63,2,28014524,4900,10481760,0.85,0.1,0.05,139965,170,203,34,3,3,2
 2025-03-28,4,3,7,False,False,360,0.05,Mad Season,Matchbox Twenty,Mad Season,20,20,1,100,60,2,30030000,5251,11791980,0.85,0.1,0.05,150101,162,102,94,1,8,4
-2025-03-28,5,=,5,False,True,323,-0.26,It's OK I'm OK,Tate McRae,it's ok i'm ok,20,20,1,100,60,2,29048250,5080,11407950,0.85,0.1,0.05,145222,162,131,29,5,3,2
-2025-03-28,6,-2,4,False,False,312,-0.34,Miss Possessive,Tate McRae,So Close to What,20,20,1,100,60,2,29279250,5120,11498310,0.85,0.1,0.05,146370,162,141,8,4,3,1
-2025-03-28,7,-1,6,False,False,293,-0.32,Purple Lace Bra,Tate McRae,So Close to What,20,20,1,100,60,2,29163750,5100,11453130,0.85,0.1,0.05,145796,162,130,0,6,2,1
+2025-03-28,5,=,5,False,True,323,-0.26,It's ok I'm ok,Tate McRae,it's ok i'm ok,20,20,1,100,60,2,27893250,4878,10956150,0.85,0.1,0.05,139482,162,131,29,5,3,2
+2025-03-28,6,-2,4,False,False,312,-0.34,Miss possessive,Tate McRae,So Close to What,20,20,1,100,60,2,28817250,5040,11317590,0.85,0.1,0.05,144074,162,141,8,4,3,1
+2025-03-28,7,-1,6,False,False,293,-0.32,Purple lace bra,Tate McRae,So Close to What,20,20,1,100,60,2,27546750,4818,10820610,0.85,0.1,0.05,137760,162,130,0,6,2,1
 2025-03-28,8,NEW,--,True,False,283,--,Last Beautiful Girl,Matchbox Twenty,Mad Season,36,31,5,180,93,10,55509300,8358,60541200,0.79,0.08,0.14,270648,283,0,0,8,1,1
 2025-03-28,9,1,10,False,False,252,-0.0,I Miss You,blink-182,blink-182,12,12,1,60,36,2,17428950,3048,11407950,0.82,0.09,0.09,88550,98,75,77,3,7,2
 2025-03-28,10,2,12,False,False,241,0.08,Obvious,blink-182,blink-182,13,13,1,65,39,2,20420400,3570,12334140,0.83,0.09,0.08,103383,106,66,67,5,5,2
@@ -50,13 +50,13 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2025-03-28,49,-6,43,False,False,80,-0.18,Teenage Satellites,blink-182,California (Deluxe Edition),6,6,1,30,18,2,9182250,1605,12017880,0.76,0.09,0.16,48503,50,29,0,43,2,1
 2025-03-28,50,-9,41,False,False,78,-0.22,How You Get the Girl (Taylor's Version),Taylor Swift,1989 (Taylor's Version),2,2,1,10,6,2,2997225,524,11769390,0.58,0.06,0.36,18270,18,30,29,1,25,1
 2025-03-28,51,-36,15,False,False,78,-0.61,Don't You Wanna Stay (feat. Kelly Clarkson),Jason Aldean,Stronger (Deluxe Version),2,2,1,10,6,2,2945250,515,11566080,0.58,0.06,0.36,17955,18,60,0,15,2,1
-2025-03-28,52,-16,36,False,False,77,-0.29,Juno,Sabrina Carpenter,Short n' Sweet,1,1,1,5,3,2,1365787,238,10730250,0.42,0.05,0.53,9996,10,32,33,5,17,1
+2025-03-28,52,-16,36,False,False,77,-0.29,Juno,Sabrina Carpenter,Short n' Sweet,1,1,1,5,3,2,1365787,238,10730250,0.42,0.05,0.53,9996,10,32,33,5,16,1
 2025-03-28,53,NEW,--,True,False,74,--,You Won't Be Mine,Matchbox Twenty,Mad Season,9,9,1,45,27,2,11824312,2068,10323630,0.8,0.09,0.11,60914,74,0,0,53,1,1
 2025-03-28,54,NEW,--,True,False,74,--,Stop,Matchbox Twenty,Mad Season,9,9,1,45,27,2,14085225,2463,12288960,0.8,0.09,0.11,72485,74,0,0,54,1,1
 2025-03-28,55,NEW,--,True,False,74,--,Leave,Matchbox Twenty,Mad Season,9,9,1,45,27,2,12162150,2127,10617300,0.8,0.09,0.11,62643,74,0,0,55,1,1
 2025-03-28,56,NEW,--,True,False,74,--,Bed of Lies,Matchbox Twenty,Mad Season,9,9,1,45,27,2,12811837,2240,11182050,0.8,0.09,0.11,65968,74,0,0,56,1,1
 2025-03-28,57,38,95,False,False,74,2.22,Don't Leave Me,blink-182,Enema of the State,7,7,1,35,21,2,10955175,1915,12288960,0.77,0.09,0.14,57225,58,6,8,4,25,1
-2025-03-28,58,-21,37,False,False,74,-0.29,Keeper,TWICE,Strategy,1,1,1,5,3,2,1348462,235,10594710,0.42,0.05,0.53,9870,10,31,31,4,10,1
+2025-03-28,58,-21,37,False,False,74,-0.29,Keeper,TWICE,STRATEGY,1,1,1,5,3,2,1383112,241,10865790,0.42,0.05,0.53,10122,10,31,31,4,10,1
 2025-03-28,59,-19,40,False,False,73,-0.28,Nice Guys Finish Last,Green Day,Nimrod,1,1,1,5,3,2,1518825,265,11927520,0.42,0.05,0.53,11109,10,30,31,1,64,7
 2025-03-28,60,-18,42,False,False,73,-0.26,LA Devotee,Panic! at the Disco,Death of a Bachelor,1,1,1,5,3,2,1331137,232,10459170,0.42,0.05,0.53,9744,10,29,32,13,7,1
 2025-03-28,61,5,66,False,False,71,0.69,Redundant,Green Day,Nimrod,5,5,1,25,15,2,7854000,1373,12334140,0.73,0.08,0.18,42119,42,12,16,1,51,1
