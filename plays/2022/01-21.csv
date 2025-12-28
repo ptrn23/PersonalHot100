@@ -32,8 +32,8 @@ Week,Song Name,Album Name,Artist Name,Streams,Sales,Airplay
 2022-01-21,Toxic,In the Zone,Britney Spears,1,1,1
 2022-01-21,Hands to Myself,Revival (Deluxe),Selena Gomez,1,1,1
 2022-01-21,STRAWBERRY,FANCY YOU,TWICE,4,2,2
-2022-01-21,Don’t Blame Me,Reputation,Taylor Swift,2,2,1
-2022-01-21,Dress,Reputation,Taylor Swift,2,2,1
+2022-01-21,Don’t Blame Me,reputation,Taylor Swift,2,2,1
+2022-01-21,Dress,reputation,Taylor Swift,2,2,1
 2022-01-21,False God,Lover,Taylor Swift,1,1,1
 2022-01-21,Anaconda,The Pinkprint (International Deluxe Explicit),Nicki Minaj,1,1,1
 2022-01-21,WAP (feat. Megan Thee Stallion),WAP (feat. Megan Thee Stallion),Cardi B,1,1,1
@@ -88,7 +88,7 @@ Week,Song Name,Album Name,Artist Name,Streams,Sales,Airplay
 2022-01-21,CLAP,SEVENTEEN 2ND ALBUM 'TEEN AGE',Seventeen,1,1,1
 2022-01-21,Bad Romance,The Fame Monster (Deluxe Edition),Lady Gaga,1,1,1
 2022-01-21,Smile,Goodbye Lullaby (Expanded Edition),Avril Lavigne,1,1,1
-2022-01-21,Getaway Car,Reputation,Taylor Swift,3,2,2
+2022-01-21,Getaway Car,reputation,Taylor Swift,2,2,1
 2022-01-21,Birch (feat. Taylor Swift),How Long Do You Think It's Gonna Last?,Big Red Machine,1,1,1
 2022-01-21,Renegade (feat. Taylor Swift),How Long Do You Think It's Gonna Last?,Big Red Machine,1,1,1
 2022-01-21,Two Is Better Than One (feat. Taylor Swift),Love Drunk,Boys Like Girls,1,1,1
@@ -135,7 +135,7 @@ Week,Song Name,Album Name,Artist Name,Streams,Sales,Airplay
 2022-01-21,La Vie en Rose,COLOR*IZ,IZ*ONE,1,1,1
 2022-01-21,Ice Cream Cake,Ice Cream Cake,Red Velvet,1,1,1
 2022-01-21,A Song Written Easily,IN ITS TIME,ONEUS,1,1,1
-2022-01-21,KeePer (Prod. PARK KYUNG),KeePer (Prod. PARK KYUNG),THE BOYZ,2,2,1
+2022-01-21,KeePer (Prod. PARK KYUNG),KeePer (Prod. PARK KYUNG),The Boyz,2,2,1
 2022-01-21,AS IF IT'S YOUR LAST,AS IF IT'S YOUR LAST,BLACKPINK,1,1,1
 2022-01-21,LOVE BOMB,From.9,fromis_9,1,1,1
 2022-01-21,love4eva (feat. Grimes),beauty&thebeat,LOONA/yyxy,1,1,1
@@ -153,7 +153,7 @@ Week,Song Name,Album Name,Artist Name,Streams,Sales,Airplay
 2022-01-21,You All Over Me (feat. Maren Morris) (Taylor’s Version) (From the Vault),Fearless (Taylor's Version),Taylor Swift,1,1,1
 2022-01-21,You’re Not Sorry (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,1,1,1
 2022-01-21,Breathe (feat. Colbie Caillat) (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,1,1,1
-2022-01-21,...Ready for It?,Reputation,Taylor Swift,2,2,1
+2022-01-21,...Ready for It?,reputation,Taylor Swift,2,2,1
 2022-01-21,Wish You Were Here,Goodbye Lullaby (Expanded Edition),Avril Lavigne,1,1,1
 2022-01-21,Ronan (Taylor's Version),Red (Taylor's Version),Taylor Swift,2,2,1
 2022-01-21,Come Back...Be Here (Taylor's Version),Red (Taylor's Version),Taylor Swift,2,2,1
@@ -182,11 +182,11 @@ Week,Song Name,Album Name,Artist Name,Streams,Sales,Airplay
 2022-01-21,Superhuman,NCT #127 WE ARE SUPERHUMAN - The 4th Mini Album,NCT 127,2,2,1
 2022-01-21,WINDY DAY,WINDY DAY,OH MY GIRL,1,1,1
 2022-01-21,SIGNAL,SIGNAL,TWICE,2,1,2
-2022-01-21,New Year’s Day,Reputation,Taylor Swift,1,1,1
-2022-01-21,Call It What You Want,Reputation,Taylor Swift,1,1,1
-2022-01-21,This Is Why We Can't Have Nice Things,Reputation,Taylor Swift,1,1,1
-2022-01-21,Dancing With Our Hands Tied,Reputation,Taylor Swift,1,1,1
-2022-01-21,King of My Heart,Reputation,Taylor Swift,1,1,1
+2022-01-21,New Year’s Day,reputation,Taylor Swift,1,1,1
+2022-01-21,Call It What You Want,reputation,Taylor Swift,1,1,1
+2022-01-21,This Is Why We Can't Have Nice Things,reputation,Taylor Swift,1,1,1
+2022-01-21,Dancing With Our Hands Tied,reputation,Taylor Swift,1,1,1
+2022-01-21,King of My Heart,reputation,Taylor Swift,1,1,1
 2022-01-21,The Louvre,Melodrama,Lorde,2,2,1
 2022-01-21,Tattooed Heart,Yours Truly,Ariana Grande,1,1,1
 2022-01-21,ivy,evermore,Taylor Swift,1,1,1
@@ -195,12 +195,12 @@ Week,Song Name,Album Name,Artist Name,Streams,Sales,Airplay
 2022-01-21,Run (feat. Ed Sheeran) (Taylor’s Version) (From the Vault),Red (Taylor's Version),Taylor Swift,1,1,1
 2022-01-21,Message in a Bottle (Taylor's Version) (From the Vault),Red (Taylor's Version),Taylor Swift,2,2,1
 2022-01-21,Babe (Taylor's Version) (From the Vault),Red (Taylor's Version),Taylor Swift,2,2,1
-2022-01-21,Gorgeous,Reputation,Taylor Swift,1,1,1
-2022-01-21,So It Goes...,Reputation,Taylor Swift,1,1,1
-2022-01-21,Look What You Made Me Do,Reputation,Taylor Swift,1,1,1
-2022-01-21,Delicate,Reputation,Taylor Swift,1,1,1
-2022-01-21,I Did Something Bad,Reputation,Taylor Swift,1,1,1
-2022-01-21,End Game,Reputation,Taylor Swift,1,1,1
+2022-01-21,Gorgeous,reputation,Taylor Swift,1,1,1
+2022-01-21,So It Goes...,reputation,Taylor Swift,1,1,1
+2022-01-21,Look What You Made Me Do,reputation,Taylor Swift,1,1,1
+2022-01-21,Delicate,reputation,Taylor Swift,1,1,1
+2022-01-21,I Did Something Bad,reputation,Taylor Swift,1,1,1
+2022-01-21,End Game,reputation,Taylor Swift,1,1,1
 2022-01-21,Perfect Places,Melodrama,Lorde,1,1,1
 2022-01-21,Liability (Reprise),Melodrama,Lorde,1,1,1
 2022-01-21,Supercut,Melodrama,Lorde,1,1,1
@@ -240,7 +240,7 @@ Week,Song Name,Album Name,Artist Name,Streams,Sales,Airplay
 2022-01-21,Mansae,SEVENTEEN 2nd Mini Album 'BOYS BE',Seventeen,1,1,1
 2022-01-21,Holiday,Holiday Night - The 6th Album,소녀시대,1,1,1
 2022-01-21,BOOMBOOM,Seventeen 3rd Mini Album ’Going Seventeen’,Seventeen,1,1,1
-2022-01-21,The Boys,The Boys,Girls' Generation,1,1,1
+2022-01-21,The Boys,The Boys,소녀시대,1,1,1
 2022-01-21,Better Man (Taylor's Version) (From the Vault),Red (Taylor's Version),Taylor Swift,1,1,1
 2022-01-21,State of Grace (Acoustic Version) (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
 2022-01-21,Girl at Home (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
@@ -316,7 +316,7 @@ Week,Song Name,Album Name,Artist Name,Streams,Sales,Airplay
 2022-01-21,Kill This Love,KILL THIS LOVE,BLACKPINK,1,1,1
 2022-01-21,Happy,Happy Moment,WJSN,1,1,1
 2022-01-21,Butterfly,[X X],Loona,1,1,1
-2022-01-21,Giddy Up,THE BOYZ MINI ALBUM [THE START],THE BOYZ,1,1,1
+2022-01-21,Giddy Up,THE BOYZ MINI ALBUM [THE START],The Boyz,1,1,1
 2022-01-21,HWAA,I burn,(G)I-DLE,1,1,1
 2022-01-21,MoMoMo,Would You Like?,WJSN,1,1,1
 2022-01-21,#Cookie Jar,#Cookie Jar,Red Velvet,1,1,1

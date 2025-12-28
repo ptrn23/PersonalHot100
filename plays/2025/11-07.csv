@@ -1,51 +1,434 @@
 Week,Song Name,Album Name,Artist Name,Streams,Sales,Airplay
-2025-11-07,Wherever You Will Go,Camino Palmero,The Calling,6,2,5
-2025-11-07,champagne problems,evermore,Taylor Swift,3,1,3
-2025-11-07,Love Drunk,Love Drunk,Boys Like Girls,3,3,1
-2025-11-07,When You're Looking Like That - Single Remix,Coast to Coast (Expanded Edition),Westlife,3,3,1
-2025-11-07,Iris,Dizzy Up the Girl,Goo Goo Dolls,3,3,1
-2025-11-07,The Rock Show,Take Off Your Pants and Jacket,blink-182,3,3,1
-2025-11-07,Lips of an Angel,Extreme Behavior,Hinder,3,3,1
-2025-11-07,Hitchin' a Ride,Nimrod,Green Day,2,2,1
-2025-11-07,The Middle,Bleed American,Jimmy Eat World,4,4,1
-2025-11-07,Stacy's Mom,I've Never Done Anything Like This,Bowling for Soup,3,3,1
-2025-11-07,Dead!,The Black Parade,My Chemical Romance,2,2,1
-2025-11-07,Jet Lag (feat. Natasha Bedingfield),Get Your Heart On! (Deluxe Edition),Simple Plan,4,4,1
-2025-11-07,Manchild,Man’s Best Friend,Sabrina Carpenter,2,2,1
-2025-11-07,Always,blink-182,blink-182,2,2,1
-2025-11-07,Dilaw,KOLORCOASTER,Maki,2,2,1
-2025-11-07,Wood,The Life of a Showgirl,Taylor Swift,3,3,1
-2025-11-07,A Little Less Sixteen Candles a Little More Touch Me,From Under the Cork Tree,Fall Out Boy,2,2,1
-2025-11-07,La Vie en Rose,COLOR*IZ,IZ*ONE,2,2,1
-2025-11-07,The Fate of Ophelia,The Life of a Showgirl,Taylor Swift,3,3,1
-2025-11-07,2 hands,So Close to What,Tate McRae,2,2,1
-2025-11-07,Opalite,The Life of a Showgirl,Taylor Swift,3,3,1
-2025-11-07,Sports car,So Close to What,Tate McRae,2,2,1
-2025-11-07,Father Figure,The Life of a Showgirl,Taylor Swift,3,3,1
-2025-11-07,Weightless,Nothing Personal (Deluxe Version),All Time Low,2,2,1
-2025-11-07,My Man on Willpower,Man’s Best Friend,Sabrina Carpenter,2,2,1
-2025-11-07,Is It Over Now? (Taylor's Version) (From the Vault),1989 (Taylor's Version),Taylor Swift,2,2,1
-2025-11-07,Stay Together for the Kids,Take Off Your Pants and Jacket,blink-182,1,1,1
-2025-11-07,I Lay My Love On You - Remix,Coast to Coast (Expanded Edition),Westlife,1,1,1
-2025-11-07,Thunder,Boys Like Girls,Boys Like Girls,1,1,1
-2025-11-07,Q&A,Cherry Bullet 1st Single Album Let's Play Cherry Bullet,Cherry Bullet,1,1,1
-2025-11-07,THIS IS FOR,THIS IS FOR,TWICE,1,1,1
-2025-11-07,Uptown Girl,Coast to Coast (Expanded Edition),Westlife,1,1,1
-2025-11-07,The Life of a Showgirl (feat. Sabrina Carpenter),The Life of a Showgirl,Taylor Swift,1,1,1
-2025-11-07,Honey,The Life of a Showgirl,Taylor Swift,1,1,1
-2025-11-07,CANCELLED!,The Life of a Showgirl,Taylor Swift,1,1,1
-2025-11-07,Wi$h Li$t,The Life of a Showgirl,Taylor Swift,1,1,1
-2025-11-07,Actually Romantic,The Life of a Showgirl,Taylor Swift,1,1,1
-2025-11-07,Ruin the Friendship,The Life of a Showgirl,Taylor Swift,1,1,1
-2025-11-07,Eldest Daughter,The Life of a Showgirl,Taylor Swift,1,1,1
-2025-11-07,Elizabeth Taylor,The Life of a Showgirl,Taylor Swift,1,1,1
+2025-11-07,Iris,Dizzy Up the Girl,Goo Goo Dolls,11,10,2
+2025-11-07,Unwell,More Than You Think You Are,Matchbox Twenty,14,6,3
+2025-11-07,Wherever You Will Go,Camino Palmero,The Calling,38,11,6
+2025-11-07,Warning,Warning,Green Day,4,2,3
+2025-11-07,Better Than Revenge (Taylor's Version),Speak Now (Taylor's Version),Taylor Swift,3,1,3
+2025-11-07,The Bolter,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,Taylor Swift,3,1,3
+2025-11-07,the last great american dynasty,folklore,Taylor Swift,3,1,3
+2025-11-07,La Vie en Rose,COLOR*IZ,IZ*ONE,8,6,3
+2025-11-07,ง้อว (Smile Please) - เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President,ง้อว (Smile Please) - Single,Fourth,3,3,1
+2025-11-07,ไหล่เธอ (You've Got Ma Back) - เพลงประกอบซีรีส์ แฟนผมเป็นประธานนักเรียน My School President,ไหล่เธอ (You’ve Got Ma Back) - Single,Fourth,3,3,1
+2025-11-07,Goodbye,Man’s Best Friend,Sabrina Carpenter,3,3,1
+2025-11-07,House Tour,Man’s Best Friend,Sabrina Carpenter,3,3,1
+2025-11-07,Don’t Worry I’ll Make You Worry,Man’s Best Friend,Sabrina Carpenter,3,3,1
+2025-11-07,Go Go Juice,Man’s Best Friend,Sabrina Carpenter,3,3,1
+2025-11-07,When Did You Get Hot?,Man’s Best Friend,Sabrina Carpenter,3,3,1
+2025-11-07,Never Getting Laid,Man’s Best Friend,Sabrina Carpenter,3,3,1
+2025-11-07,Nobody’s Son,Man’s Best Friend,Sabrina Carpenter,3,3,1
+2025-11-07,We Almost Broke Up Again Last Night,Man’s Best Friend,Sabrina Carpenter,3,3,1
+2025-11-07,Sugar Talking,Man’s Best Friend,Sabrina Carpenter,3,3,1
+2025-11-07,My Man on Willpower,Man’s Best Friend,Sabrina Carpenter,7,7,1
+2025-11-07,Tears,Man’s Best Friend,Sabrina Carpenter,3,3,1
+2025-11-07,Manchild,Man’s Best Friend,Sabrina Carpenter,7,7,1
+2025-11-07,Prosthetic Head,Nimrod,Green Day,2,2,1
+2025-11-07,Good Riddance (Time of Your Life),Nimrod,Green Day,2,2,1
+2025-11-07,King for a Day,Nimrod,Green Day,2,2,1
+2025-11-07,Take Back,Nimrod,Green Day,1,1,1
+2025-11-07,Reject,Nimrod,Green Day,2,2,1
+2025-11-07,Walking Alone,Nimrod,Green Day,1,1,1
+2025-11-07,Haushinka,Nimrod,Green Day,2,2,1
+2025-11-07,Jinx,Nimrod,Green Day,1,1,1
+2025-11-07,Last Ride In,Nimrod,Green Day,1,1,1
+2025-11-07,Uptight,Nimrod,Green Day,1,1,1
+2025-11-07,Platypus (I Hate You),Nimrod,Green Day,1,1,1
+2025-11-07,Worry Rock,Nimrod,Green Day,2,2,1
+2025-11-07,All the Time,Nimrod,Green Day,1,1,1
+2025-11-07,Scattered,Nimrod,Green Day,2,2,1
+2025-11-07,Redundant,Nimrod,Green Day,1,1,1
+2025-11-07,The Grouch,Nimrod,Green Day,2,2,1
+2025-11-07,Hitchin' a Ride,Nimrod,Green Day,7,7,1
+2025-11-07,Nice Guys Finish Last,Nimrod,Green Day,2,2,1
+2025-11-07,All Too Well (Taylor's Version),Red (Taylor's Version),Taylor Swift,4,2,3
+2025-11-07,I Bet You Think About Me (feat. Chris Stapleton) (Taylor’s Version) (From the Vault),Red (Taylor's Version),Taylor Swift,4,2,3
+2025-11-07,Anti-Hero,Midnights (3am Edition),Taylor Swift,3,1,3
+2025-11-07,Blue Valentine,Blue Valentine,NMIXX,7,5,3
+2025-11-07,Iced Coffee,Chill Kill - The 3rd Album,Red Velvet,2,2,1
+2025-11-07,Nightmare,Chill Kill - The 3rd Album,Red Velvet,2,2,1
+2025-11-07,Will I Ever See You Again?,Chill Kill - The 3rd Album,Red Velvet,2,2,1
+2025-11-07,Underwater,Chill Kill - The 3rd Album,Red Velvet,2,2,1
+2025-11-07,Knock Knock (Who's There?),Chill Kill - The 3rd Album,Red Velvet,2,2,1
+2025-11-07,Chill Kill,Chill Kill - The 3rd Album,Red Velvet,2,2,1
+2025-11-07,Dead!,The Black Parade,My Chemical Romance,11,7,5
+2025-11-07,Street Spirit (Fade Out),The Bends,Radiohead,3,3,1
+2025-11-07,Sulk,The Bends,Radiohead,4,4,1
+2025-11-07,Black Star,The Bends,Radiohead,3,3,1
+2025-11-07,Bullet Proof ... I Wish I Was,The Bends,Radiohead,3,3,1
+2025-11-07,My Iron Lung,The Bends,Radiohead,4,4,1
+2025-11-07,Just,The Bends,Radiohead,4,4,1
+2025-11-07,(Nice Dream),The Bends,Radiohead,3,3,1
+2025-11-07,Bones,The Bends,Radiohead,3,3,1
+2025-11-07,Fake Plastic Trees,The Bends,Radiohead,3,3,1
+2025-11-07,High and Dry,The Bends,Radiohead,3,3,1
+2025-11-07,The Bends,The Bends,Radiohead,5,5,1
+2025-11-07,Planet Telex,The Bends,Radiohead,3,3,1
+2025-11-07,Cake,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2025-11-07,Teddy Bear,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2025-11-07,Play Date,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2025-11-07,Mad Hatter,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2025-11-07,Mrs. Potato Head,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2025-11-07,Pacify Her,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2025-11-07,Milk and Cookies,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2025-11-07,Tag You're It,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2025-11-07,Pity Party,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2025-11-07,Training Wheels,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2025-11-07,Soap,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2025-11-07,Alphabet Boy,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2025-11-07,Carousel,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2025-11-07,Sippy Cup,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2025-11-07,Dollhouse,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2025-11-07,Cry Baby,Cry Baby (Deluxe Edition),Melanie Martinez,1,1,1
+2025-11-07,Nostalgia,So Close to What,Tate McRae,1,1,1
+2025-11-07,Greenlight,So Close to What,Tate McRae,1,1,1
+2025-11-07,Means I care,So Close to What,Tate McRae,1,1,1
+2025-11-07,No I'm not in love,So Close to What,Tate McRae,1,1,1
+2025-11-07,It's ok I'm ok,So Close to What,Tate McRae,1,1,1
+2025-11-07,Like I do,So Close to What,Tate McRae,1,1,1
+2025-11-07,I know love (feat. The Kid LAROI),So Close to What,Tate McRae,1,1,1
+2025-11-07,Signs,So Close to What,Tate McRae,1,1,1
+2025-11-07,Sports car,So Close to What,Tate McRae,6,6,1
+2025-11-07,Purple lace bra,So Close to What,Tate McRae,1,1,1
+2025-11-07,Dear god,So Close to What,Tate McRae,1,1,1
+2025-11-07,bloodonmyhands (feat. Flo Milli),So Close to What,Tate McRae,1,1,1
+2025-11-07,Revolving door,So Close to What,Tate McRae,1,1,1
+2025-11-07,2 hands,So Close to What,Tate McRae,6,6,1
+2025-11-07,Miss possessive,So Close to What,Tate McRae,1,1,1
+2025-11-07,Macy's Day Parade,Warning,Green Day,2,2,1
+2025-11-07,Minority,Warning,Green Day,2,2,1
+2025-11-07,Waiting,Warning,Green Day,2,2,1
+2025-11-07,Jackass,Warning,Green Day,1,1,1
+2025-11-07,Hold On,Warning,Green Day,1,1,1
+2025-11-07,Deadbeat Holiday,Warning,Green Day,1,1,1
+2025-11-07,Misery,Warning,Green Day,2,2,1
+2025-11-07,Castaway,Warning,Green Day,1,1,1
+2025-11-07,Fashion Victim,Warning,Green Day,2,2,1
+2025-11-07,Church on Sunday,Warning,Green Day,1,1,1
+2025-11-07,Blood Sex and Booze,Warning,Green Day,1,1,1
+2025-11-07,See the Light,21st Century Breakdown,Green Day,4,4,1
+2025-11-07,American Eulogy: Mass Hysteria / Modern World,21st Century Breakdown,Green Day,4,4,1
+2025-11-07,21 Guns,21st Century Breakdown,Green Day,4,4,1
+2025-11-07,The Static Age,21st Century Breakdown,Green Day,4,4,1
+2025-11-07,Horseshoes and Handgrenades,21st Century Breakdown,Green Day,4,4,1
+2025-11-07,¿Viva la Gloria? (Little Girl),21st Century Breakdown,Green Day,5,5,1
+2025-11-07,Restless Heart Syndrome,21st Century Breakdown,Green Day,5,5,1
+2025-11-07,Murder City,21st Century Breakdown,Green Day,4,4,1
+2025-11-07,Peacemaker,21st Century Breakdown,Green Day,5,5,1
+2025-11-07,Last of the American Girls,21st Century Breakdown,Green Day,4,4,1
+2025-11-07,East Jesus Nowhere,21st Century Breakdown,Green Day,4,4,1
+2025-11-07,Before the Lobotomy,21st Century Breakdown,Green Day,10,8,3
+2025-11-07,Last Night on Earth,21st Century Breakdown,Green Day,4,4,1
+2025-11-07,Christian's Inferno,21st Century Breakdown,Green Day,4,4,1
+2025-11-07,¡Viva la Gloria!,21st Century Breakdown,Green Day,4,4,1
+2025-11-07,Know Your Enemy,21st Century Breakdown,Green Day,4,4,1
+2025-11-07,21st Century Breakdown,21st Century Breakdown,Green Day,4,4,1
+2025-11-07,Song of the Century,21st Century Breakdown,Green Day,4,4,1
+2025-11-07,Romeo,Fancy That,PinkPantheress,7,7,1
+2025-11-07,Stateside,Fancy That,PinkPantheress,8,8,1
+2025-11-07,Nice to Know You,Fancy That,PinkPantheress,7,7,1
+2025-11-07,Noises,Fancy That,PinkPantheress,7,7,1
+2025-11-07,Stars,Fancy That,PinkPantheress,7,7,1
+2025-11-07,Tonight,Fancy That,PinkPantheress,8,8,1
+2025-11-07,Girl Like Me,Fancy That,PinkPantheress,7,7,1
+2025-11-07,Illegal,Fancy That,PinkPantheress,8,8,1
+2025-11-07,I'm Lost Without You,blink-182,blink-182,2,2,1
+2025-11-07,Here's Your Letter,blink-182,blink-182,2,2,1
+2025-11-07,All of This,blink-182,blink-182,2,2,1
+2025-11-07,Easy Target,blink-182,blink-182,2,2,1
+2025-11-07,Always,blink-182,blink-182,7,7,1
+2025-11-07,Asthenia,blink-182,blink-182,2,2,1
+2025-11-07,Go,blink-182,blink-182,2,2,1
+2025-11-07,The Fallen Interlude,blink-182,blink-182,2,2,1
+2025-11-07,Down,blink-182,blink-182,7,3,5
+2025-11-07,Stockholm Syndrome,blink-182,blink-182,2,2,1
+2025-11-07,Stockholm Syndrome Interlude,blink-182,blink-182,3,3,1
+2025-11-07,Violence,blink-182,blink-182,2,2,1
+2025-11-07,I Miss You,blink-182,blink-182,6,4,3
+2025-11-07,Obvious,blink-182,blink-182,2,2,1
+2025-11-07,Feeling This,blink-182,blink-182,2,2,1
+2025-11-07,Headphones On,Addison,Addison Rae,4,4,1
+2025-11-07,Life's No Fun Through Clear Waters,Addison,Addison Rae,3,3,1
+2025-11-07,Times Like These,Addison,Addison Rae,3,3,1
+2025-11-07,Fame Is a Gun,Addison,Addison Rae,4,4,1
+2025-11-07,In the Rain,Addison,Addison Rae,3,3,1
+2025-11-07,Summer Forever,Addison,Addison Rae,3,3,1
+2025-11-07,High Fashion,Addison,Addison Rae,3,3,1
+2025-11-07,Lost & Found,Addison,Addison Rae,3,3,1
+2025-11-07,Aquamarine,Addison,Addison Rae,4,4,1
+2025-11-07,Money Is Everything,Addison,Addison Rae,3,3,1
+2025-11-07,Diet Pepsi,Addison,Addison Rae,3,3,1
+2025-11-07,New York,Addison,Addison Rae,3,3,1
+2025-11-07,Pag-Ibig Fortune Cookie,Pag-Ibig Fortune Cookie,MNL48,5,2,3
+2025-11-07,Girls & Boys,Blur: The Best Of,Blur,3,1,3
+2025-11-07,HUMAN,Human,dodie,8,4,5
+2025-11-07,BOYS LIKE YOU,BOYS LIKE YOU,dodie,3,1,3
+2025-11-07,Guiltless,Guiltless,dodie,8,3,3
+2025-11-07,All Too Well (10 Minute Version) (Taylor's Version) (From the Vault),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,The Very First Night (Taylor's Version) (From the Vault),Red (Taylor's Version),Taylor Swift,2,2,1
+2025-11-07,Run (feat. Ed Sheeran) (Taylor’s Version) (From the Vault),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Forever Winter (Taylor's Version) (From the Vault),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Message in a Bottle (Taylor's Version) (From the Vault),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Babe (Taylor's Version) (From the Vault),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From the Vault),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Better Man (Taylor's Version) (From the Vault),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Ronan (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,State of Grace (Acoustic Version) (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Girl at Home (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Come Back...Be Here (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,The Moment I Knew (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Begin Again (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Starlight (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,The Lucky One (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Sad Beautiful Tragic (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Holy Ground (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Stay Stay Stay (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,We Are Never Ever Getting Back Together (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,I Almost Do (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,22 (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,I Knew You Were Trouble (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Treacherous (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Red (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,State of Grace (Taylor's Version),Red (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Hung Up,Confessions on a Dance Floor,Madonna,1,1,1
+2025-11-07,Losing Grip,Let Go,Avril Lavigne,1,1,1
+2025-11-07,Lucky,Oops!... I Did It Again,Britney Spears,1,1,1
+2025-11-07,Two Is Better Than One (feat. Taylor Swift),Love Drunk,Boys Like Girls,1,1,1
+2025-11-07,Maneater,Loose,Nelly Furtado,1,1,1
+2025-11-07,Welcome to My Life,Still Not Getting Any...,Simple Plan,1,1,1
+2025-11-07,Teardrops on My Guitar - Radio Single Remix,Taylor Swift (Deluxe Edition),Taylor Swift,1,1,1
+2025-11-07,Story of a Lonely Guy,Take Off Your Pants and Jacket,blink-182,1,1,1
+2025-11-07,Prison Song,Toxicity,System of a Down,1,1,1
+2025-11-07,My Heart,All We Know Is Falling,Paramore,1,1,1
+2025-11-07,Our Lawyer Made Us Change the Name of This Song So We Wouldn't Get Sued,From Under the Cork Tree,Fall Out Boy,1,1,1
+2025-11-07,This Is How I Disappear,The Black Parade,My Chemical Romance,1,1,1
+2025-11-07,Fat Lip,All Killer No Filler,Sum 41,1,1,1
+2025-11-07,This Love,Songs About Jane: 10th Anniversary Edition,Maroon 5,1,1,1
+2025-11-07,Going Under,Fallen,Evanescence,1,1,1
+2025-11-07,Hot,The Best Damn Thing (Expanded Edition),Avril Lavigne,1,1,1
+2025-11-07,Island in the Sun,Weezer,Weezer,1,1,1
+2025-11-07,Bed of Lies,Mad Season,Matchbox Twenty,1,1,1
+2025-11-07,Hot n Cold,One of the Boys,Katy Perry,1,1,1
+2025-11-07,Breakaway,Breakaway,Kelly Clarkson,1,1,1
+2025-11-07,Fifteen (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Fergalicious,The Dutchess,Fergie,1,1,1
+2025-11-07,Face Down,Don't You Fake It,The Red Jumpsuit Apparatus,1,1,1
+2025-11-07,Decode,Decode,Paramore,1,1,1
+2025-11-07,I'm Like a Lawyer With the Way I'm Always Trying to Get You Off (Me & You),Infinity on High,Fall Out Boy,1,1,1
+2025-11-07,Thank You for the Venom,Three Cheers for Sweet Revenge,My Chemical Romance,2,2,1
+2025-11-07,Breathless,In Blue,The Corrs,1,1,1
+2025-11-07,Homecoming,American Idiot,Green Day,1,1,1
+2025-11-07,Please Take Me Home,Take Off Your Pants and Jacket,blink-182,1,1,1
+2025-11-07,Won't Go Home Without You,It Won't Be Soon Before Long (International Version),Maroon 5,1,1,1
+2025-11-07,Aerials,Toxicity,System of a Down,1,1,1
+2025-11-07,Mobile,Let Go,Avril Lavigne,1,1,1
+2025-11-07,Beverly Hills,Make Believe,Weezer,1,1,1
+2025-11-07,In Too Deep,All Killer No Filler,Sum 41,1,1,1
+2025-11-07,Shut Up!,Still Not Getting Any...,Simple Plan,1,1,1
+2025-11-07,Should've Said No,Taylor Swift (Deluxe Edition),Taylor Swift,1,1,1
+2025-11-07,Bring Me to Life,Fallen,Evanescence,1,1,1
+2025-11-07,Stacy's Mom,Welcome Interstate Managers,Fountains of Wayne,2,2,1
+2025-11-07,Playing God,brand new eyes,Paramore,1,1,1
+2025-11-07,Of All the Gin Joints in All the World,From Under the Cork Tree,Fall Out Boy,1,1,1
+2025-11-07,I Don't Love You,The Black Parade,My Chemical Romance,1,1,1
+2025-11-07,Waking Up in Vegas,One of the Boys,Katy Perry,1,1,1
+2025-11-07,Thunder,Boys Like Girls,Boys Like Girls,8,6,3
+2025-11-07,Famous Last Words,The Black Parade,My Chemical Romance,6,4,3
+2025-11-07,THIS IS FOR,THIS IS FOR,TWICE,4,4,1
+2025-11-07,Q&A,Cherry Bullet 1st Single Album Let's Play Cherry Bullet,Cherry Bullet,4,4,1
+2025-11-07,I Lay My Love On You - Remix,Coast to Coast (Expanded Edition),Westlife,5,5,1
+2025-11-07,Stay Together for the Kids,Take Off Your Pants and Jacket,blink-182,5,5,1
+2025-11-07,A Little Less Sixteen Candles a Little More Touch Me,From Under the Cork Tree,Fall Out Boy,5,5,1
+2025-11-07,Uptown Girl,Coast to Coast (Expanded Edition),Westlife,5,5,1
+2025-11-07,The Fate of Ophelia,The Life of a Showgirl,Taylor Swift,7,7,1
+2025-11-07,Dilaw,KOLORCOASTER,Maki,5,5,1
+2025-11-07,Wood,The Life of a Showgirl,Taylor Swift,7,7,1
+2025-11-07,Weightless,Nothing Personal (Deluxe Version),All Time Low,5,5,1
+2025-11-07,Opalite,The Life of a Showgirl,Taylor Swift,7,7,1
+2025-11-07,Love Drunk,Love Drunk,Boys Like Girls,7,7,1
+2025-11-07,The Middle,Bleed American,Jimmy Eat World,8,8,1
+2025-11-07,Father Figure,The Life of a Showgirl,Taylor Swift,7,7,1
+2025-11-07,Lips of an Angel,Extreme Behavior,Hinder,7,7,1
+2025-11-07,When You're Looking Like That - Single Remix,Coast to Coast (Expanded Edition),Westlife,8,8,1
+2025-11-07,The Rock Show,Take Off Your Pants and Jacket,blink-182,8,8,1
+2025-11-07,Jet Lag (feat. Natasha Bedingfield),Get Your Heart On! (Deluxe Edition),Simple Plan,8,8,1
+2025-11-07,Is It Over Now? (Taylor's Version) (From the Vault),1989 (Taylor's Version),Taylor Swift,6,6,1
+2025-11-07,Stacy's Mom,I've Never Done Anything Like This,Bowling for Soup,7,7,1
+2025-11-07,Phoenix,Blue Valentine,NMIXX,12,12,1
+2025-11-07,Rico,Blue Valentine,NMIXX,9,9,1
+2025-11-07,Reality Hurts,Blue Valentine,NMIXX,10,10,1
+2025-11-07,La Perla,LUX,ROSALÍA,10,8,3
+2025-11-07,Tangled in the Great Escape,Collide With the Sky,Pierce the Veil,1,1,1
+2025-11-07,Can't Keep My Hands Off You (feat. Rivers Cuomo),Get Your Heart On! (Deluxe Edition),Simple Plan,1,1,1
+2025-11-07,I Don't Care,Folie à deux,Fall Out Boy,1,1,1
+2025-11-07,When I Come Around,Dookie,Green Day,1,1,1
+2025-11-07,crushcrushcrush,RIOT!,Paramore,2,2,1
+2025-11-07,Cemetery Drive,Three Cheers for Sweet Revenge,My Chemical Romance,1,1,1
+2025-11-07,Dear Maria Count Me In,So Wrong It's Right,All Time Low,1,1,1
+2025-11-07,I'm Low on Gas and You Need a Jacket,Collide With the Sky,Pierce the Veil,2,2,1
+2025-11-07,I'm Just a Kid,No Pads No Helmets...Just Balls (15th Anniversary Tour Edition),Simple Plan,1,1,1
+2025-11-07,Centuries,American Beauty/American Psycho,Fall Out Boy,2,2,1
+2025-11-07,Misery Business,RIOT!,Paramore,2,2,1
+2025-11-07,The End.,The Black Parade,My Chemical Romance,1,1,1
+2025-11-07,Online Songs,Take Off Your Pants and Jacket,blink-182,1,1,1
+2025-11-07,Dive In,Misadventures,Pierce the Veil,1,1,1
+2025-11-07,Untitled (How Could This Happen to Me?),Still Not Getting Any...,Simple Plan,2,2,1
+2025-11-07,America's Suitehearts,Folie à deux,Fall Out Boy,2,2,1
+2025-11-07,Whatsername,American Idiot,Green Day,2,2,1
+2025-11-07,Let the Flames Begin,RIOT!,Paramore,1,1,1
+2025-11-07,The Sharpest Lives,The Black Parade,My Chemical Romance,1,1,1
+2025-11-07,Dammit,Dude Ranch,blink-182,1,1,1
+2025-11-07,The First Punch,Collide With the Sky,Pierce the Veil,1,1,1
+2025-11-07,Astronaut,Get Your Heart On! (Deluxe Edition),Simple Plan,1,1,1
+2025-11-07,Dance Dance,From Under the Cork Tree,Fall Out Boy,1,1,1
+2025-11-07,For a Pessimist I'm Pretty Optimistic,RIOT!,Paramore,2,2,1
+2025-11-07,Caraphernelia,Selfish Machines,Pierce the Veil,1,1,1
+2025-11-07,Addicted,No Pads No Helmets...Just Balls (15th Anniversary Tour Edition),Simple Plan,1,1,1
+2025-11-07,Thnks fr th Mmrs,Infinity on High,Fall Out Boy,1,1,1
+2025-11-07,Still Into You,Paramore,Paramore,1,1,1
+2025-11-07,Welcome to the Black Parade,The Black Parade,My Chemical Romance,1,1,1
+2025-11-07,I'd Do Anything,No Pads No Helmets...Just Balls (15th Anniversary Tour Edition),Simple Plan,2,2,1
+2025-11-07,Nobody Puts Baby in the Corner,From Under the Cork Tree,Fall Out Boy,1,1,1
+2025-11-07,Ignorance,brand new eyes,Paramore,1,1,1
+2025-11-07,You Know What They Do to Guys Like Us in Prison,Three Cheers for Sweet Revenge,My Chemical Romance,1,1,1
+2025-11-07,Dirty Little Secret,Move Along,The All-American Rejects,1,1,1
+2025-11-07,Props & Mayhem,Collide With the Sky,Pierce the Veil,1,1,1
+2025-11-07,You Suck at Love,Get Your Heart On! (Deluxe Edition),Simple Plan,2,2,1
+2025-11-07,The Take Over the Breaks Over,Infinity on High,Fall Out Boy,1,1,1
+2025-11-07,Welcome to Paradise,Dookie,Green Day,2,2,1
+2025-11-07,That's What You Get,RIOT!,Paramore,1,1,1
+2025-11-07,SING,Danger Days: The True Lives of the Fabulous Killjoys,My Chemical Romance,1,1,1
+2025-11-07,Going Away to College,Enema of the State,blink-182,1,1,1
+2025-11-07,King for a Day,Collide With the Sky,Pierce the Veil,1,1,1
+2025-11-07,Lucky,OK Computer,Radiohead,1,1,1
+2025-11-07,The Tourist,OK Computer,Radiohead,1,1,1
+2025-11-07,No Surprises,OK Computer,Radiohead,2,2,1
+2025-11-07,Climbing Up the Walls,OK Computer,Radiohead,1,1,1
+2025-11-07,Electioneering,OK Computer,Radiohead,2,2,1
+2025-11-07,Fitter Happier,OK Computer,Radiohead,1,1,1
+2025-11-07,Karma Police,OK Computer,Radiohead,1,1,1
+2025-11-07,Let Down,OK Computer,Radiohead,1,1,1
+2025-11-07,Exit Music (for a Film),OK Computer,Radiohead,1,1,1
+2025-11-07,Subterranean Homesick Alien,OK Computer,Radiohead,1,1,1
+2025-11-07,Paranoid Android,OK Computer,Radiohead,1,1,1
+2025-11-07,Airbag,OK Computer,Radiohead,1,1,1
+2025-11-07,New Year’s Day,reputation,Taylor Swift,1,1,1
+2025-11-07,Call It What You Want,reputation,Taylor Swift,1,1,1
+2025-11-07,This Is Why We Can't Have Nice Things,reputation,Taylor Swift,1,1,1
+2025-11-07,Dress,reputation,Taylor Swift,1,1,1
+2025-11-07,Dancing With Our Hands Tied,reputation,Taylor Swift,1,1,1
+2025-11-07,King of My Heart,reputation,Taylor Swift,1,1,1
+2025-11-07,Getaway Car,reputation,Taylor Swift,1,1,1
+2025-11-07,Gorgeous,reputation,Taylor Swift,1,1,1
+2025-11-07,So It Goes...,reputation,Taylor Swift,1,1,1
+2025-11-07,Look What You Made Me Do,reputation,Taylor Swift,1,1,1
+2025-11-07,Delicate,reputation,Taylor Swift,1,1,1
+2025-11-07,Don’t Blame Me,reputation,Taylor Swift,1,1,1
+2025-11-07,I Did Something Bad,reputation,Taylor Swift,1,1,1
+2025-11-07,End Game,reputation,Taylor Swift,1,1,1
+2025-11-07,...Ready for It?,reputation,Taylor Swift,1,1,1
+2025-11-07,champagne problems,evermore,Taylor Swift,10,4,3
+2025-11-07,Full machine,Good Riddance (Deluxe),Gracie Abrams,1,1,1
+2025-11-07,I know it won't work,Good Riddance (Deluxe),Gracie Abrams,1,1,1
+2025-11-07,Best,Good Riddance (Deluxe),Gracie Abrams,1,1,1
+2025-11-07,I miss you I’m sorry,minor,Gracie Abrams,1,1,1
+2025-11-07,Under / Over,minor,Gracie Abrams,1,1,1
+2025-11-07,21,minor,Gracie Abrams,1,1,1
+2025-11-07,Our Song,North (Deluxe Edition),Matchbox Twenty,1,1,1
+2025-11-07,Overjoyed,North (Deluxe Edition),Matchbox Twenty,1,1,1
+2025-11-07,Put Your Hands Up,North (Deluxe Edition),Matchbox Twenty,1,1,1
+2025-11-07,She's So Mean,North (Deluxe Edition),Matchbox Twenty,4,2,3
+2025-11-07,These Hard Times,Exile On Mainstream (International),Matchbox Twenty,1,1,1
+2025-11-07,How Far We've Come,How Far We've Come,Matchbox Twenty,1,1,1
+2025-11-07,Bright Lights,More Than You Think You Are,Matchbox Twenty,1,1,1
+2025-11-07,Disease,More Than You Think You Are,Matchbox Twenty,1,1,1
+2025-11-07,Bent,Mad Season,Matchbox Twenty,1,1,1
+2025-11-07,The Burn,Mad Season,Matchbox Twenty,1,1,1
+2025-11-07,Mad Season,Mad Season,Matchbox Twenty,1,1,1
+2025-11-07,If You're Gone,Mad Season,Matchbox Twenty,1,1,1
+2025-11-07,Last Beautiful Girl,Mad Season,Matchbox Twenty,1,1,1
+2025-11-07,Crutch,Mad Season,Matchbox Twenty,1,1,1
+2025-11-07,Real World,Yourself or Someone Like You,Matchbox Twenty,1,1,1
+2025-11-07,Hang,Yourself or Someone Like You,Matchbox Twenty,1,1,1
+2025-11-07,Back 2 Good,Yourself or Someone Like You,Matchbox Twenty,1,1,1
+2025-11-07,Push,Yourself or Someone Like You,Matchbox Twenty,1,1,1
+2025-11-07,Long Day,Yourself or Someone Like You,Matchbox Twenty,1,1,1
+2025-11-07,3AM,Yourself or Someone Like You,Matchbox Twenty,6,4,3
+2025-11-07,I'm Not Okay (I Promise),Three Cheers for Sweet Revenge,My Chemical Romance,2,2,1
+2025-11-07,The Ghost of You,Three Cheers for Sweet Revenge,My Chemical Romance,1,1,1
+2025-11-07,Helena,Three Cheers for Sweet Revenge,My Chemical Romance,2,2,1
+2025-11-07,Tócame (feat. Dillom),X-sex,Six Sex,3,3,1
+2025-11-07,BIZCOCHITO,MOTOMAMI,ROSALÍA,7,5,3
+2025-11-07,You Belong with Me (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,3,3,1
+2025-11-07,Love Story (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,3,3,1
+2025-11-07,Fearless (Taylor’s Version),Fearless (Taylor's Version),Taylor Swift,3,3,1
+2025-11-07,She,Human,dodie,3,3,1
+2025-11-07,Hold On Till May,Collide With the Sky,Pierce the Veil,3,1,3
+2025-11-07,Suburban Legends (Taylor's Version) (From the Vault),1989 (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Now That We Don't Talk (Taylor's Version) (From the Vault),1989 (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Say Don't Go (Taylor's Version) (From the Vault),1989 (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Slut! (Taylor's Version) (From the Vault),1989 (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,New Romantics (Taylor's Version),1989 (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,You Are in Love (Taylor's Version),1989 (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Wonderland (Taylor's Version),1989 (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Clean (Taylor's Version),1989 (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,I Know Places (Taylor's Version),1989 (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,This Love (Taylor’s Version),1989 (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,How You Get the Girl (Taylor's Version),1989 (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Wildest Dreams (Taylor's Version),1989 (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Bad Blood (Taylor's Version),1989 (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,I Wish You Would (Taylor's Version),1989 (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Shake It Off (Taylor's Version),1989 (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,All You Had to Do Was Stay (Taylor's Version),1989 (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Out of the Woods (Taylor's Version),1989 (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Style (Taylor's Version),1989 (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Blank Space (Taylor's Version),1989 (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,Welcome to New York (Taylor's Version),1989 (Taylor's Version),Taylor Swift,1,1,1
+2025-11-07,The Life of a Showgirl (feat. Sabrina Carpenter),The Life of a Showgirl,Taylor Swift,2,2,1
+2025-11-07,Honey,The Life of a Showgirl,Taylor Swift,2,2,1
+2025-11-07,CANCELLED!,The Life of a Showgirl,Taylor Swift,2,2,1
+2025-11-07,Wi$h Li$t,The Life of a Showgirl,Taylor Swift,2,2,1
+2025-11-07,Actually Romantic,The Life of a Showgirl,Taylor Swift,2,2,1
+2025-11-07,Ruin the Friendship,The Life of a Showgirl,Taylor Swift,2,2,1
+2025-11-07,Eldest Daughter,The Life of a Showgirl,Taylor Swift,2,2,1
+2025-11-07,Elizabeth Taylor,The Life of a Showgirl,Taylor Swift,2,2,1
+2025-11-07,Home,SEVENTEEN 6TH MINI ALBUM 'YOU MADE MY DAWN',Seventeen,3,1,3
+2025-11-07,Everytime I Look for You,Take Off Your Pants and Jacket,blink-182,1,1,1
+2025-11-07,Berghain,LUX,ROSALÍA,3,3,1
+2025-11-07,SAKURA,MOTOMAMI,ROSALÍA,1,1,1
+2025-11-07,LA COMBI VERSACE,MOTOMAMI,ROSALÍA,1,1,1
+2025-11-07,Abcdefg,MOTOMAMI,ROSALÍA,1,1,1
+2025-11-07,COMO UN G,MOTOMAMI,ROSALÍA,1,1,1
+2025-11-07,CUUUUuuuuuute,MOTOMAMI,ROSALÍA,1,1,1
+2025-11-07,DELIRIO DE GRANDEZA,MOTOMAMI,ROSALÍA,1,1,1
+2025-11-07,DIABLO,MOTOMAMI,ROSALÍA,1,1,1
+2025-11-07,MOTOMAMI,MOTOMAMI,ROSALÍA,1,1,1
+2025-11-07,G3 N15,MOTOMAMI,ROSALÍA,1,1,1
+2025-11-07,HENTAI,MOTOMAMI,ROSALÍA,1,1,1
+2025-11-07,CHICKEN TERIYAKI,MOTOMAMI,ROSALÍA,1,1,1
+2025-11-07,BULERÍAS,MOTOMAMI,ROSALÍA,1,1,1
+2025-11-07,LA FAMA,MOTOMAMI,ROSALÍA,1,1,1
+2025-11-07,CANDY,MOTOMAMI,ROSALÍA,1,1,1
+2025-11-07,SAOKO,MOTOMAMI,ROSALÍA,1,1,1
+2025-11-07,Magnolias,LUX,ROSALÍA,1,1,1
+2025-11-07,Memória,LUX,ROSALÍA,1,1,1
+2025-11-07,La Rumba Del Perdón,LUX,ROSALÍA,1,1,1
+2025-11-07,Sauvignon blanc,LUX,ROSALÍA,1,1,1
+2025-11-07,La Yugular,LUX,ROSALÍA,1,1,1
+2025-11-07,Dios Es Un Stalker,LUX,ROSALÍA,1,1,1
+2025-11-07,De Madrugá,LUX,ROSALÍA,1,1,1
+2025-11-07,Mundo Nuevo,LUX,ROSALÍA,1,1,1
+2025-11-07,Mio Cristo Piange Diamanti,LUX,ROSALÍA,1,1,1
+2025-11-07,Porcelana,LUX,ROSALÍA,1,1,1
+2025-11-07,Divinize,LUX,ROSALÍA,1,1,1
+2025-11-07,Reliquia,LUX,ROSALÍA,1,1,1
+2025-11-07,Sexo Violencia y Llantas,LUX,ROSALÍA,1,1,1
+2025-11-07,Boy's a liar Pt. 2,Boy's a liar Pt. 2,PinkPantheress,1,1,1
+2025-11-07,Sugar We're Goin Down,From Under the Cork Tree,Fall Out Boy,3,3,1
 2025-11-07,I'm with You,Let Go,Avril Lavigne,2,2,1
 2025-11-07,Geek Stink Breath,Insomniac,Green Day,1,1,1
-2025-11-07,Good Riddance (Time of Your Life),Nimrod,Green Day,1,1,1
-2025-11-07,Peacemaker,21st Century Breakdown,Green Day,1,1,1
 2025-11-07,The Best Damn Thing,The Best Damn Thing (Expanded Edition),Avril Lavigne,1,1,1
 2025-11-07,She,Dookie,Green Day,1,1,1
-2025-11-07,For a Pessimist I'm Pretty Optimistic,RIOT!,Paramore,1,1,1
 2025-11-07,My Songs Know What You Did in the Dark (Light Em Up),Save Rock and Roll,Fall Out Boy,1,1,1
 2025-11-07,Gone,Breakaway,Kelly Clarkson,1,1,1
 2025-11-07,Buddy Holly,Weezer,Weezer,1,1,1
@@ -53,33 +436,21 @@ Week,Song Name,Album Name,Artist Name,Streams,Sales,Airplay
 2025-11-07,Adam's Song,Enema of the State,blink-182,1,1,1
 2025-11-07,American Idiot,American Idiot,Green Day,1,1,1
 2025-11-07,Letterbomb,American Idiot,Green Day,1,1,1
-2025-11-07,The Grouch,Nimrod,Green Day,1,1,1
 2025-11-07,What's My Age Again?,Enema of the State,blink-182,1,1,1
 2025-11-07,What the Hell,Goodbye Lullaby (Expanded Edition),Avril Lavigne,1,1,1
 2025-11-07,I Want to Be on T.V.,Shenanigans,Green Day,1,1,1
 2025-11-07,Holiday,American Idiot,Green Day,1,1,1
-2025-11-07,My Iron Lung,The Bends,Radiohead,1,1,1
 2025-11-07,Coma City,Saviors,Green Day,1,1,1
-2025-11-07,Unwell,More Than You Think You Are,Matchbox Twenty,1,1,1
 2025-11-07,Don't Tell Me,Under My Skin,Avril Lavigne,1,1,1
-2025-11-07,Prosthetic Head,Nimrod,Green Day,1,1,1
 2025-11-07,Having a Blast,Dookie,Green Day,1,1,1
 2025-11-07,What's New Scooby-Doo?,What's New Scooby-Doo?,Simple Plan,1,1,1
-2025-11-07,Whatsername,American Idiot,Green Day,1,1,1
 2025-11-07,She's out of Her Mind,California (Deluxe Edition),blink-182,1,1,1
 2025-11-07,One Minute,My December,Kelly Clarkson,1,1,1
 2025-11-07,First Date,Take Off Your Pants and Jacket,blink-182,1,1,1
 2025-11-07,Stay Young,Saviors (édition de luxe),Green Day,1,1,1
-2025-11-07,Before the Lobotomy,21st Century Breakdown,Green Day,1,1,1
-2025-11-07,Stacy's Mom,Welcome Interstate Managers,Fountains of Wayne,1,1,1
 2025-11-07,House of Wolves,The Black Parade,My Chemical Romance,1,1,1
-2025-11-07,The Bends,The Bends,Radiohead,1,1,1
-2025-11-07,Centuries,American Beauty/American Psycho,Fall Out Boy,1,1,1
 2025-11-07,Los Angeles,California (Deluxe Edition),blink-182,1,1,1
-2025-11-07,Stockholm Syndrome Interlude,blink-182,blink-182,1,1,1
 2025-11-07,Blood - Hidden Track,The Black Parade,My Chemical Romance,1,1,1
-2025-11-07,Thank You for the Venom,Three Cheers for Sweet Revenge,My Chemical Romance,1,1,1
-2025-11-07,King for a Day,Nimrod,Green Day,1,1,1
 2025-11-07,Smash It Like Belushi,Saviors (édition de luxe),Green Day,1,1,1
 2025-11-07,May These Noises Startle You in Your Sleep Tonight,Collide With the Sky,Pierce the Veil,1,1,1
 2025-11-07,Aliens Exist,Enema of the State,blink-182,1,1,1
@@ -89,7 +460,6 @@ Week,Song Name,Album Name,Artist Name,Streams,Sales,Airplay
 2025-11-07,Dumpweed,Enema of the State,blink-182,1,1,1
 2025-11-07,Roller Coaster,Take Off Your Pants and Jacket,blink-182,1,1,1
 2025-11-07,My Happy Ending,Under My Skin,Avril Lavigne,1,1,1
-2025-11-07,I'm Low on Gas and You Need a Jacket,Collide With the Sky,Pierce the Veil,1,1,1
 2025-11-07,Outlaws,Revolution Radio,Green Day,1,1,1
 2025-11-07,Because of You,Breakaway,Kelly Clarkson,1,1,1
 2025-11-07,Sleep,The Black Parade,My Chemical Romance,1,1,1
@@ -97,40 +467,22 @@ Week,Song Name,Album Name,Artist Name,Streams,Sales,Airplay
 2025-11-07,Don't Waste Your Time,My December,Kelly Clarkson,1,1,1
 2025-11-07,Toxicity,Toxicity,System of a Down,1,1,1
 2025-11-07,Too Dumb To Die,Revolution Radio,Green Day,1,1,1
-2025-11-07,crushcrushcrush,RIOT!,Paramore,1,1,1
 2025-11-07,Smile,Goodbye Lullaby (Expanded Edition),Avril Lavigne,1,1,1
-2025-11-07,Misery Business,RIOT!,Paramore,1,1,1
-2025-11-07,Reject,Nimrod,Green Day,1,1,1
-2025-11-07,I'm Not Okay (I Promise),Three Cheers for Sweet Revenge,My Chemical Romance,1,1,1
 2025-11-07,No Future,California (Deluxe Edition),blink-182,1,1,1
 2025-11-07,Emenius Sleepus,Dookie,Green Day,1,1,1
-2025-11-07,Fashion Victim,Warning,Green Day,1,1,1
 2025-11-07,Kill the DJ,¡Uno!,Green Day,1,1,1
 2025-11-07,Do Da Da,Shenanigans,Green Day,1,1,1
-2025-11-07,Nice Guys Finish Last,Nimrod,Green Day,1,1,1
 2025-11-07,Complicated,Let Go,Avril Lavigne,1,1,1
 2025-11-07,Wish You Were Here,Goodbye Lullaby (Expanded Edition),Avril Lavigne,1,1,1
-2025-11-07,Macy's Day Parade,Warning,Green Day,1,1,1
-2025-11-07,Worry Rock,Nimrod,Green Day,1,1,1
-2025-11-07,America's Suitehearts,Folie à deux,Fall Out Boy,1,1,1
 2025-11-07,Reckless Abandon,Take Off Your Pants and Jacket,blink-182,1,1,1
 2025-11-07,Dirty Rotten Bastards,¡Tré!,Green Day,1,1,1
-2025-11-07,Untitled (How Could This Happen to Me?),Still Not Getting Any...,Simple Plan,1,1,1
-2025-11-07,¿Viva la Gloria? (Little Girl),21st Century Breakdown,Green Day,1,1,1
-2025-11-07,Misery,Warning,Green Day,1,1,1
 2025-11-07,Don't Let Me Stop You,All I Ever Wanted,Kelly Clarkson,1,1,1
 2025-11-07,Addicted,Breakaway,Kelly Clarkson,1,1,1
 2025-11-07,Troubled Times,Revolution Radio,Green Day,1,1,1
 2025-11-07,Here's to Never Growing Up,Avril Lavigne (Expanded Edition),Avril Lavigne,1,1,1
-2025-11-07,Haushinka,Nimrod,Green Day,1,1,1
 2025-11-07,Still Breathing,Revolution Radio,Green Day,1,1,1
-2025-11-07,I'd Do Anything,No Pads No Helmets...Just Balls (15th Anniversary Tour Edition),Simple Plan,1,1,1
 2025-11-07,Sober,My December,Kelly Clarkson,1,1,1
 2025-11-07,Wake Me Up When September Ends,American Idiot,Green Day,1,1,1
 2025-11-07,Bandaids,bandaids,Katy Perry,3,3,1
 2025-11-07,Don't Leave Me,Enema of the State,blink-182,1,1,1
-2025-11-07,Welcome to Paradise,Dookie,Green Day,1,1,1
-2025-11-07,Restless Heart Syndrome,21st Century Breakdown,Green Day,1,1,1
-2025-11-07,You Suck at Love,Get Your Heart On! (Deluxe Edition),Simple Plan,1,1,1
 2025-11-07,1981,Saviors,Green Day,1,1,1
-2025-11-07,Helena,Three Cheers for Sweet Revenge,My Chemical Romance,1,1,1
