@@ -1,7 +1,7 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2024-03-15,1,5,6,True,False,290,0.29,Nice Guys Finish Last,Green Day,Nimrod,23,20,4,115,60,8,34932975,5312,47710080,0.76,0.07,0.17,174041,183,67,38,1,10,1
 2024-03-15,2,5,7,False,True,250,0.12,Hitchin' a Ride,Green Day,Nimrod,18,16,3,90,48,6,23440725,3644,30699810,0.76,0.08,0.16,117586,144,67,37,2,11,6
-2024-03-15,3,NEW,--,True,False,216,--,Uptight,Green Day,Nimrod,28,20,8,140,60,16,40990950,5120,91986480,0.7,0.06,0.25,199920,216,0,0,3,1,1
+2024-03-15,3,NEW,--,True,False,211,--,Uptight,Green Day,Nimrod,27,20,8,135,60,16,39526987,5120,91986480,0.69,0.06,0.25,196350,211,0,0,3,1,1
 2024-03-15,4,-2,2,False,False,199,-0.28,Extraordinary Girl / Letterbomb,Green Day,American Idiot,8,8,1,40,24,2,10487400,1834,10301040,0.79,0.09,0.12,54383,66,83,48,2,7,3
 2024-03-15,5,-1,4,False,False,197,-0.27,Wake Me Up When September Ends,Green Day,American Idiot,9,9,1,45,27,2,14007262,2449,12221190,0.8,0.09,0.11,72086,74,81,41,1,14,2
 2024-03-15,6,64,70,True,False,183,1.23,Geek Stink Breath,Green Day,Insomniac,20,1,20,100,3,40,27027000,236,212346000,0.44,0.0,0.55,135177,143,24,15,6,8,1
@@ -98,4 +98,4 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2024-03-15,97,-24,73,False,False,50,-0.37,Dilemma,Green Day,Dilemma,1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,23,16,7,11,1
 2024-03-15,98,-8,90,False,False,49,-0.29,Warning,Green Day,Warning,1,1,1,5,3,2,1449525,253,11385360,0.42,0.05,0.53,10605,10,20,17,19,9,1
 2024-03-15,99,-21,78,False,False,49,-0.36,Bobby Sox,Green Day,Saviors,1,1,1,5,3,2,1521712,266,11950110,0.42,0.05,0.53,11130,10,22,15,26,10,1
-2024-03-15,100,RE,--,False,False,48,--,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,5243700,917,10301040,0.7,0.08,0.22,28791,34,0,13,1,94,2
+2024-03-15,100,RE,--,False,False,48,--,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,5243700,917,10301040,0.7,0.08,0.22,28791,34,0,13,1,96,2

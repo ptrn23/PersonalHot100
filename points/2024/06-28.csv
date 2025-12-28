@@ -24,7 +24,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2024-06-28,23,49,72,True,False,191,3.55,Last of the American Girls,Green Day,21st Century Breakdown,22,22,1,110,66,2,34811700,6087,10165500,0.86,0.1,0.05,142065,178,12,0,23,20,1
 2024-06-28,24,-11,13,False,False,187,-0.11,Whatsername,Green Day,American Idiot,9,9,1,45,27,2,12292087,2150,10730250,0.8,0.09,0.11,63308,74,63,49,8,20,1
 2024-06-28,25,RE,--,False,False,186,--,Suffocate,Green Day,Shenanigans,23,23,1,115,69,2,30549749,5343,10436580,0.86,0.1,0.05,152327,186,0,0,13,5,2
-2024-06-28,26,-1,25,False,False,186,0.22,Virtual Angel,ARTMS,<DALL>,12,12,1,60,36,2,16146900,2824,10572120,0.82,0.09,0.09,82075,98,45,42,18,4,1
+2024-06-28,26,-1,25,False,False,186,0.22,Virtual Angel,ARTMS,<Dall>,12,12,1,60,36,2,17117100,2993,11204640,0.82,0.09,0.09,86975,98,45,42,18,4,1
 2024-06-28,27,RE,--,False,False,185,--,Desensitized,Green Day,Shenanigans,23,22,2,115,66,4,30284100,5067,20692440,0.82,0.09,0.09,151011,185,0,0,14,5,2
 2024-06-28,28,-24,4,False,False,183,-0.35,obsessed,Olivia Rodrigo,GUTS (spilled),12,12,1,60,36,2,17879400,3126,11701620,0.82,0.09,0.09,90825,98,84,0,4,2,1
 2024-06-28,29,-27,2,False,False,182,-0.4,pretty isn’t pretty,Olivia Rodrigo,GUTS,11,11,1,55,33,2,15913012,2783,11362770,0.82,0.09,0.09,81144,90,91,0,2,5,1
@@ -73,7 +73,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2024-06-28,72,-22,50,False,False,63,-0.37,Welcome to the Black Parade,My Chemical Romance,The Black Parade,1,1,1,5,3,2,1423537,248,11182050,0.42,0.05,0.53,10416,10,30,22,4,29,1
 2024-06-28,73,-25,48,False,False,60,-0.41,The Sharpest Lives,My Chemical Romance,The Black Parade,1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,30,18,4,13,2
 2024-06-28,74,NEW,--,True,False,58,--,Beautiful Disaster (Live),Kelly Clarkson,Breakaway,7,7,1,35,21,2,9702000,1696,10888380,0.77,0.09,0.14,50715,58,0,0,74,1,1
-2024-06-28,75,RE,--,False,False,57,--,What the Hell,Avril Lavigne,Goodbye Lullaby CD1,7,6,2,35,18,4,10389225,1557,23312880,0.69,0.07,0.25,54285,57,0,0,1,22,1
+2024-06-28,75,RE,--,False,False,57,--,What the Hell,Avril Lavigne,Goodbye Lullaby CD1,7,6,2,35,18,4,10389225,1557,23312880,0.69,0.07,0.25,54285,57,0,0,1,20,1
 2024-06-28,76,-1,75,False,False,55,0.31,Hear Me,Kelly Clarkson,Breakaway,5,5,1,25,15,2,7579687,1325,11904930,0.73,0.08,0.18,40656,42,12,0,75,2,1
 2024-06-28,77,5,82,True,False,53,0.56,You Found Me,Kelly Clarkson,Breakaway,5,5,1,25,15,2,6699000,1171,10526940,0.73,0.08,0.18,35959,42,10,0,77,2,1
 2024-06-28,78,5,83,False,False,53,0.56,Where Is Your Heart,Kelly Clarkson,Breakaway,5,5,1,25,15,2,6973312,1219,10956150,0.73,0.08,0.18,37422,42,10,0,75,6,1
@@ -85,10 +85,10 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2024-06-28,84,RE,--,False,False,50,--,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,6540187,1144,10278450,0.73,0.08,0.18,35112,42,0,7,1,99,7
 2024-06-28,85,-23,62,False,False,47,-0.18,Wake Me Up When September Ends,Green Day,American Idiot,1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,17,18,1,29,2
 2024-06-28,86,RE,--,False,False,42,--,Question...?,Taylor Swift,Midnights (3am Edition),5,5,1,25,15,2,6525750,1141,10255860,0.73,0.08,0.18,35035,42,0,0,6,33,1
-2024-06-28,87,RE,--,False,False,42,--,Girlfriend,Avril Lavigne,The Best Damn Thing (Expanded Edition),5,5,1,25,15,2,6872250,1202,10798020,0.73,0.08,0.18,36883,42,0,0,20,19,1
+2024-06-28,87,RE,--,False,False,42,--,Girlfriend,Avril Lavigne,The Best Damn Thing (Expanded Edition),5,5,1,25,15,2,6872250,1202,10798020,0.73,0.08,0.18,36883,42,0,0,20,17,1
 2024-06-28,88,RE,--,False,False,42,--,Bejeweled,Taylor Swift,Midnights (3am Edition),5,5,1,25,15,2,7897312,1380,12401910,0.73,0.08,0.18,34650,42,0,0,5,43,2
 2024-06-28,89,RE,--,False,False,39,--,Starlight (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,2,4,25,6,8,7623000,533,47890800,0.49,0.02,0.49,40887,39,0,0,22,24,2
-2024-06-28,90,RE,--,False,False,38,--,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,1,5,25,3,10,6554625,229,51505200,0.44,0.01,0.55,35189,38,0,0,1,97,2
+2024-06-28,90,RE,--,False,False,38,--,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,1,5,25,3,10,6554625,229,51505200,0.44,0.01,0.55,35189,38,0,0,1,99,2
 2024-06-28,91,-27,64,False,False,38,-0.17,I Can Fix Him (No Really I Can),Taylor Swift,THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY,1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,13,13,33,6,1
 2024-06-28,92,RE,--,False,False,32,--,The Saints Are Coming,U2,The Saints Are Coming,4,2,3,20,6,6,5821200,509,34291620,0.5,0.03,0.47,31941,32,0,0,40,2,1
 2024-06-28,93,-27,66,False,False,32,-0.29,Suzie Chapstick,Green Day,Saviors,1,1,1,5,3,2,1299375,227,10210680,0.42,0.05,0.53,9513,10,13,7,28,21,1
