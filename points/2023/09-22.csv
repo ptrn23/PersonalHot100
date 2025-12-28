@@ -1,6 +1,6 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
 2023-09-22,1,=,1,False,True,125,-0.55,A Thousand Miles,Vanessa Carlton,Be Not Nobody,1,1,1,5,3,2,1513050,264,11882340,0.42,0.05,0.53,11067,10,82,31,1,4,2
-2023-09-22,2,8,10,False,False,122,-0.26,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,2,2,15,6,4,3932775,458,20602080,0.52,0.04,0.44,22393,25,49,46,1,78,2
+2023-09-22,2,8,10,False,False,122,-0.26,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,2,2,15,6,4,3932775,458,20602080,0.52,0.04,0.44,22393,25,49,46,1,80,2
 2023-09-22,3,2,5,True,False,91,-0.62,Sensitive,Loossemble,LOOSSEMBLE,2,2,1,10,6,2,2702700,472,10617300,0.58,0.06,0.36,16485,18,72,0,3,2,1
 2023-09-22,4,RE,--,False,False,87,--,‘tis the damn season,Taylor Swift,evermore,12,1,12,60,3,24,15835050,230,124425719,0.44,0.0,0.55,80500,87,0,0,1,41,1
 2023-09-22,5,61,66,False,False,76,6.6,Wildest Dreams (Taylor's Version),Taylor Swift,Wildest Dreams (Taylor's Version),10,1,10,50,3,20,13513500,236,106173000,0.44,0.0,0.55,69237,73,3,0,1,50,7
@@ -37,7 +37,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-09-22,36,RE,--,False,False,20,--,Kitsch,IVE,Kitsch,2,2,1,10,6,2,3008775,526,11814570,0.58,0.06,0.36,18340,18,0,2,6,13,1
 2023-09-22,37,8,45,False,False,19,-0.1,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1504387,263,11814570,0.42,0.05,0.53,11004,10,6,2,5,47,1
 2023-09-22,38,RE,--,True,False,18,--,행복 (Happiness),Red Velvet,The 1st Single '행복(Happiness)',2,2,1,10,6,2,3049200,533,11972700,0.58,0.06,0.36,18585,18,0,0,38,6,1
-2023-09-22,39,RE,--,True,False,18,--,첫 사랑니 (Rum Pum Pum Pum),f(x),Pink Tape - The 2nd Album,2,2,1,10,6,2,2708475,473,10639890,0.58,0.06,0.36,16520,18,0,0,39,3,1
+2023-09-22,39,RE,--,False,False,18,--,첫 사랑니 (Rum Pum Pum Pum),f(x),Pink Tape - f(x) The 2nd Album,2,2,1,10,6,2,2772000,484,10888380,0.58,0.06,0.36,16905,18,0,0,7,4,1
 2023-09-22,40,RE,--,False,False,18,--,소방차 Fire Truck,NCT 127,NCT #127 - The 1st Mini Album,2,2,1,10,6,2,2974125,520,11679030,0.58,0.06,0.36,18130,18,0,0,11,5,1
 2023-09-22,41,RE,--,False,False,18,--,無限的我 무한적아; LIMITLESS,NCT 127,NCT#127 LIMITLESS - The 2nd Mini Album,2,2,1,10,6,2,3049200,533,11972700,0.58,0.06,0.36,18585,18,0,0,14,6,1
 2023-09-22,42,RE,--,False,False,18,--,VERY NICE,Seventeen,Love&Letter Repackage Album,2,2,1,10,6,2,2639175,461,10368810,0.58,0.06,0.36,16099,18,0,0,31,9,1
@@ -46,14 +46,14 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-09-22,45,RE,--,False,False,18,--,Tag Me (@Me),Weeekly,We are,2,2,1,10,6,2,2616075,457,10278450,0.58,0.06,0.36,15960,18,0,0,30,4,1
 2023-09-22,46,RE,--,True,False,18,--,Sunrise,GFRIEND,GFRIEND The 2nd Album 'Time for Us',2,2,1,10,6,2,3014550,527,11837160,0.58,0.06,0.36,18375,18,0,0,46,3,1
 2023-09-22,47,RE,--,True,False,18,--,RUN2U,STAYC,YOUNG-LUV.COM,2,2,1,10,6,2,3072300,537,12063060,0.58,0.06,0.36,18725,18,0,0,47,2,1
-2023-09-22,48,RE,--,True,False,18,--,Run Devil Run,Girls' Generation,Run Devil Run - The 2nd Album Repackage,2,2,1,10,6,2,3026100,529,11882340,0.58,0.06,0.36,18445,18,0,0,48,2,1
+2023-09-22,48,RE,--,True,False,18,--,Run Devil Run,소녀시대,Run Devil Run - The 2nd Album Repackage,2,2,1,10,6,2,2714250,474,10662480,0.58,0.06,0.36,16555,18,0,0,48,2,1
 2023-09-22,49,RE,--,False,False,18,--,Rumor,H.I.N.P (Hot Issue of Ntl. Producers),Produce 48 - 30 Girls 6 Concepts,2,2,1,10,6,2,3089625,540,12130830,0.58,0.06,0.36,18830,18,0,0,22,7,1
 2023-09-22,50,RE,--,False,False,18,--,Red Flavor,Red Velvet,The Red Summer - Summer Mini Album,2,2,1,10,6,2,2893275,506,11362770,0.58,0.06,0.36,17640,18,0,0,9,16,1
 2023-09-22,51,RE,--,False,False,18,--,PIRI,Dreamcatcher,The End of Nightmare,2,2,1,10,6,2,2974125,520,11679030,0.58,0.06,0.36,18130,18,0,0,18,8,1
 2023-09-22,52,RE,--,False,False,18,--,OOPSIE (My Bad),Nature,NATURE WORLD: CODE A,2,2,1,10,6,2,2939475,514,11543490,0.58,0.06,0.36,17920,18,0,0,40,4,1
 2023-09-22,53,RE,--,True,False,18,--,Nxde,(G)I-DLE,I LOVE,2,2,1,10,6,2,2835525,495,11136870,0.58,0.06,0.36,17290,18,0,0,53,2,1
 2023-09-22,54,RE,--,False,False,18,--,NAVILLERA,GFRIEND,GFriend The 1st Album 'LOL',2,2,1,10,6,2,2714250,474,10662480,0.58,0.06,0.36,16555,18,0,0,9,32,1
-2023-09-22,55,RE,--,False,False,18,--,LOVE BOMB,fromis_9,From.9,2,2,1,10,6,2,2691150,470,10572120,0.58,0.06,0.36,16415,18,0,0,22,14,1
+2023-09-22,55,RE,--,False,False,18,--,LOVE BOMB,fromis_9,From.9,2,2,1,10,6,2,2691150,470,10572120,0.58,0.06,0.36,16415,18,0,0,22,12,1
 2023-09-22,56,RE,--,True,False,18,--,Like OOH-AHH,TWICE,THE STORY BEGINS,2,2,1,10,6,2,2685375,469,10549530,0.58,0.06,0.36,16379,18,0,0,56,3,1
 2023-09-22,57,RE,--,False,False,18,--,LATATA,(G)I-DLE,I am,2,2,1,10,6,2,2806650,490,11023920,0.58,0.06,0.36,17115,18,0,0,20,4,1
 2023-09-22,58,RE,--,False,False,18,--,ICY,ITZY,IT'z ICY,2,2,1,10,6,2,2939475,514,11543490,0.58,0.06,0.36,17920,18,0,0,15,4,1
@@ -67,7 +67,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-09-22,66,RE,--,False,False,18,--,Don't Wanna Cry,Seventeen,SEVENTEEN 4th Mini Album ‘Al1’,2,2,1,10,6,2,2968350,519,11656440,0.58,0.06,0.36,18095,18,0,0,23,3,1
 2023-09-22,67,RE,--,True,False,18,--,Coloring Book,OH MY GIRL,COLORING BOOK,2,2,1,10,6,2,3141600,549,12334140,0.58,0.06,0.36,19145,18,0,0,67,2,1
 2023-09-22,68,RE,--,False,False,18,--,Cherry Bomb,NCT 127,NCT #127 CHERRY BOMB – The 3rd Mini Album,2,2,1,10,6,2,2743125,479,10775430,0.58,0.06,0.36,16730,18,0,0,16,6,1
-2023-09-22,69,RE,--,False,False,18,--,CALL ME BABY,EXO,EXODUS - The 2nd Album,2,2,1,10,6,2,2933700,513,11520900,0.58,0.06,0.36,17885,18,0,0,10,2,1
+2023-09-22,69,RE,--,False,False,18,--,CALL ME BABY,Exo,EXODUS - The 2nd Album,2,2,1,10,6,2,2725800,476,10707660,0.58,0.06,0.36,16625,18,0,0,10,2,1
 2023-09-22,70,NEW,--,True,False,18,--,BBoom BBoom,MOMOLAND,GREAT!,2,2,1,10,6,2,2864400,500,11249820,0.58,0.06,0.36,17465,18,0,0,70,1,1
 2023-09-22,71,RE,--,False,False,18,--,Baby Don’t Stop,NCT,NCT 2018 EMPATHY,2,2,1,10,6,2,2639175,461,10368810,0.58,0.06,0.36,16099,18,0,0,30,12,1
 2023-09-22,72,RE,--,False,False,18,--,As you Wish,WJSN,As You Wish,2,2,1,10,6,2,2639175,461,10368810,0.58,0.06,0.36,16099,18,0,0,1,24,1
@@ -87,15 +87,15 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-09-22,86,RE,--,False,False,10,--,중독 (Overdose),EXO-K,Overdose - The 2nd Mini Album,1,1,1,5,3,2,1484175,259,11656440,0.42,0.05,0.53,10857,10,0,0,21,2,1
 2023-09-22,87,RE,--,False,False,10,--,소년 소녀,Loona,HaSeul,1,1,1,5,3,2,1513050,264,11882340,0.42,0.05,0.53,11067,10,0,0,7,6,1
 2023-09-22,88,RE,--,False,False,10,--,마지막 첫사랑 My First and Last,NCT DREAM,The First - The 1st Single Album,1,1,1,5,3,2,1339800,234,10526940,0.42,0.05,0.53,9807,10,0,0,11,10,1
-2023-09-22,89,RE,--,False,False,10,--,러시안 룰렛 Russian Roulette,Red Velvet,Russian Roulette - The 3rd Mini Album,1,1,1,5,3,2,1562137,273,12266370,0.42,0.05,0.53,11424,10,0,0,52,12,1
+2023-09-22,89,RE,--,False,False,10,--,러시안 룰렛 Russian Roulette,Red Velvet,Russian Roulette - The 3rd Mini Album,1,1,1,5,3,2,1562137,273,12266370,0.42,0.05,0.53,11424,10,0,0,52,13,1
 2023-09-22,90,NEW,--,True,False,10,--,나쁜 기집애,CL,The Baddest Female,1,1,1,5,3,2,1414875,247,11114280,0.42,0.05,0.53,10353,10,0,0,90,1,1
 2023-09-22,91,RE,--,False,False,10,--,Zombie,DAY6,The Book of Us : The Demon,1,1,1,5,3,2,1386000,242,10888380,0.42,0.05,0.53,10143,10,0,0,2,7,1
 2023-09-22,92,RE,--,False,False,10,--,Zig Zag,Weeekly,We can,1,1,1,5,3,2,1567912,274,12311550,0.42,0.05,0.53,11466,10,0,0,1,16,1
 2023-09-22,93,RE,--,False,False,10,--,You Think,소녀시대,Lion Heart - The 5th Album,1,1,1,5,3,2,1565025,273,12288960,0.42,0.05,0.53,11445,10,0,0,4,3,1
 2023-09-22,94,NEW,--,True,False,10,--,You Calling My Name,GOT7,Call My Name,1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,0,0,94,1,1
 2023-09-22,95,RE,--,False,False,10,--,Yes I Am,MAMAMOO,Purple,1,1,1,5,3,2,1302262,227,10233270,0.42,0.05,0.53,9534,10,0,0,55,3,1
-2023-09-22,96,NEW,--,True,False,10,--,Wolf,EXO,The 1st Album 'XOXO' (Repackage),1,1,1,5,3,2,1565025,273,12288960,0.42,0.05,0.53,11445,10,0,0,96,1,1
+2023-09-22,96,NEW,--,True,False,10,--,Wolf,Exo,The 1st Album 'XOXO' (Repackage),1,1,1,5,3,2,1541925,269,12108240,0.42,0.05,0.53,11277,10,0,0,96,1,1
 2023-09-22,97,RE,--,False,False,10,--,Wind Flower,MAMAMOO,BLUE;S,1,1,1,5,3,2,1299375,227,10210680,0.42,0.05,0.53,9513,10,0,0,46,2,1
 2023-09-22,98,RE,--,False,False,10,--,WILDSIDE,Red Velvet,Bloom,1,1,1,5,3,2,1391775,243,10933560,0.42,0.05,0.53,10185,10,0,0,37,3,1
-2023-09-22,99,RE,--,False,False,10,--,WHISTLE,BLACKPINK,SQUARE ONE,1,1,1,5,3,2,1579462,276,12401910,0.42,0.05,0.53,9450,10,0,0,53,6,1
+2023-09-22,99,RE,--,False,False,10,--,WHISTLE,BLACKPINK,SQUARE ONE,1,1,1,5,3,2,1579462,276,12401910,0.42,0.05,0.53,9450,10,0,0,53,10,1
 2023-09-22,100,RE,--,False,False,10,--,When Emma Falls in Love (Taylor’s Version) (From the Vault),Taylor Swift,Speak Now (Taylor's Version),1,1,1,5,3,2,1585237,226,10188090,0.42,0.05,0.53,9492,10,0,0,7,7,1

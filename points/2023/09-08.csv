@@ -1,5 +1,5 @@
 Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%,Song,Artist,Album,Streams,Sales,Airplay,Streams Points,Sales Points,Airplay Points,Streams Units,Sales Units,Airplay Units,Streams %,Sales %,Airplay %,Total Units,Current Week Points,Previous Week Points,Two Weeks Ago Points,Peak,WOC,Peak Streak
-2023-09-08,1,5,6,False,True,233,0.6,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),21,11,11,105,33,22,27529425,2522,113311440,0.58,0.03,0.38,137557,160,43,28,1,76,2
+2023-09-08,1,5,6,False,True,233,0.6,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),21,11,11,105,33,22,27529425,2522,113311440,0.58,0.03,0.38,137557,160,43,28,1,78,2
 2023-09-08,2,-1,1,False,False,192,-0.37,Deli,Ice Spice,Like..? (Deluxe),8,8,1,40,24,2,12497100,2185,12266370,0.79,0.09,0.12,64736,66,92,32,1,4,1
 2023-09-08,3,2,5,False,False,181,0.17,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),16,7,10,80,21,20,24624600,1883,120856500,0.55,0.03,0.43,123816,121,46,12,2,69,1
 2023-09-08,4,RE,--,True,False,157,--,A Thousand Miles,Vanessa Carlton,Be Not Nobody,21,8,14,105,24,28,31774050,2116,166352760,0.53,0.02,0.44,158627,157,0,0,4,2,1
@@ -11,7 +11,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-09-08,10,-8,2,False,False,117,-0.46,I'ma Walk Right In,CG5,I'ma Walk Right In,6,6,1,30,18,2,8090775,1415,10594710,0.76,0.09,0.16,42770,50,64,2,2,3,1
 2023-09-08,11,-7,4,False,False,112,-0.37,Juicy,Doja Cat,Amala (Deluxe Version),7,7,1,35,21,2,10086037,1764,11317590,0.77,0.09,0.14,52710,58,53,0,4,2,1
 2023-09-08,12,-5,7,False,False,101,-0.29,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),7,7,1,35,21,2,10813687,1891,12130830,0.77,0.09,0.14,56490,58,42,0,1,42,1
-2023-09-08,13,-5,8,False,False,100,-0.3,ME! (feat. Brendon Urie of Panic! at the Disco),Taylor Swift,ME!,5,5,1,25,15,2,7377562,1290,11588670,0.73,0.08,0.18,39578,42,42,14,4,25,1
+2023-09-08,13,-5,8,False,False,100,-0.3,ME! (feat. Brendon Urie of Panic! at the Disco),Taylor Swift,ME!,5,5,1,25,15,2,7377562,1290,11588670,0.73,0.08,0.18,39578,42,42,14,4,26,1
 2023-09-08,14,2,16,False,False,97,0.28,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),10,2,9,50,6,18,13080375,457,92506050,0.47,0.01,0.52,67032,74,22,0,1,78,7
 2023-09-08,15,-3,12,False,False,95,-0.04,The Story of Us (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),4,4,1,20,12,2,5197500,909,10210680,0.7,0.08,0.22,28539,34,29,30,1,10,1
 2023-09-08,16,2,18,False,False,79,0.14,Get Up,NewJeans,NewJeans 2nd EP 'Get Up',7,7,1,35,21,2,9782850,1711,10978740,0.77,0.09,0.14,51135,58,20,0,3,7,1
@@ -49,7 +49,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-09-08,48,NEW,--,True,False,18,--,It's Gonna Be Me,*NSYNC,No Strings Attached,2,2,1,10,6,2,2852850,498,11204640,0.58,0.06,0.36,17395,18,0,0,48,1,1
 2023-09-08,49,RE,--,True,False,18,--,I Wanna Dance with Somebody (Who Loves Me),Whitney Houston,Love Simon (Original Motion Picture Soundtrack),2,2,1,10,6,2,2875950,502,11295000,0.58,0.06,0.36,17535,18,0,0,49,4,1
 2023-09-08,50,NEW,--,True,False,18,--,Bye Bye Bye,*NSYNC,No Strings Attached,2,2,1,10,6,2,2864400,500,11249820,0.58,0.06,0.36,17465,18,0,0,50,1,1
-2023-09-08,51,NEW,--,True,False,18,--,Build Me up Buttercup,The Foundations,Build me up Buttercup,2,2,1,10,6,2,2939475,514,11543490,0.58,0.06,0.36,17920,18,0,0,51,1,1
+2023-09-08,51,NEW,--,True,False,18,--,Build Me Up Buttercup,The Foundations,Build me up Buttercup,2,2,1,10,6,2,2823975,493,11091690,0.58,0.06,0.36,17220,18,0,0,51,1,1
 2023-09-08,52,12,64,False,False,18,-0.31,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1513050,264,11882340,0.42,0.05,0.53,11067,10,7,0,2,67,2
 2023-09-08,53,RE,--,False,False,17,--,Last Kiss (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),2,1,2,10,3,4,3054975,267,23990580,0.43,0.02,0.54,18620,17,0,0,13,4,1
 2023-09-08,54,RE,--,False,False,17,--,Dear John (Taylor's Version),Taylor Swift,Speak Now (Taylor's Version),2,1,2,10,3,4,2714250,237,21324960,0.43,0.02,0.54,16555,17,0,0,33,4,1
@@ -89,7 +89,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-09-08,88,RE,--,False,False,10,--,Labyrinth,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1368675,239,10752840,0.42,0.05,0.53,10017,10,0,0,2,16,1
 2023-09-08,89,RE,--,False,False,10,--,LA DI DA,Everglow,-77.82x / -78.29,1,1,1,5,3,2,1521712,266,11950110,0.42,0.05,0.53,11130,10,0,0,27,8,1
 2023-09-08,90,RE,--,False,False,10,--,Kitsch,IVE,Kitsch,1,1,1,5,3,2,1504387,263,11814570,0.42,0.05,0.53,11004,10,0,0,6,12,1
-2023-09-08,91,RE,--,False,False,10,--,Killin’ Me Good,Jihyo,ZONE,1,1,1,5,3,2,1466850,256,11520900,0.42,0.05,0.53,10731,10,0,0,55,2,1
+2023-09-08,91,RE,--,False,False,10,--,Killin’ Me Good,JIHYO,ZONE,1,1,1,5,3,2,1362900,238,10707660,0.42,0.05,0.53,9975,10,0,0,55,2,1
 2023-09-08,92,RE,--,False,False,10,--,Karma,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1305150,228,10255860,0.42,0.05,0.53,9555,10,0,0,3,25,1
 2023-09-08,93,RE,--,False,False,10,--,Irreplaceable,Beyoncé,B'Day,1,1,1,5,3,2,1570800,274,12334140,0.42,0.05,0.53,11487,10,0,0,49,3,1
 2023-09-08,94,RE,--,False,False,10,--,In the End,Linkin Park,Hybrid Theory (Bonus Edition),1,1,1,5,3,2,1472625,257,11566080,0.42,0.05,0.53,10773,10,0,0,16,2,1

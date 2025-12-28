@@ -19,8 +19,8 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-02-10,18,10,28,False,False,96,0.32,State of Grace (Taylor's Version),Taylor Swift,Red (Taylor's Version),7,7,1,35,21,2,9115837,1594,10233270,0.77,0.09,0.14,47670,58,21,15,3,28,1
 2023-02-10,19,5,24,False,False,95,0.2,Thot Shit,Megan Thee Stallion,Thot Shit,6,6,1,30,18,2,9199575,1608,12040470,0.76,0.09,0.16,48594,50,23,21,1,9,1
 2023-02-10,20,5,25,False,False,95,0.2,Lavender Haze,Taylor Swift,Midnights (3am Edition),5,5,1,25,15,2,7406437,1295,11633850,0.73,0.08,0.18,39732,42,23,28,1,17,1
-2023-02-10,21,-4,17,False,False,93,-0.07,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,6554625,1146,10301040,0.73,0.08,0.18,35189,42,30,20,4,47,1
-2023-02-10,22,RE,--,True,False,90,--,LOVE BOMB,fromis_9,From.9,11,11,1,55,33,2,14801325,2589,10572120,0.82,0.09,0.09,75509,90,0,0,22,11,1
+2023-02-10,21,-4,17,False,False,93,-0.07,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,6554625,1146,10301040,0.73,0.08,0.18,35189,42,30,20,4,49,1
+2023-02-10,22,RE,--,True,False,90,--,LOVE BOMB,fromis_9,From.9,11,11,1,55,33,2,14801325,2589,10572120,0.82,0.09,0.09,75509,90,0,0,22,9,1
 2023-02-10,23,30,53,False,False,81,1.25,Kung 'Di Rin Lang Ikaw,December Avenue,Kung 'Di Rin Lang Ikaw,7,7,1,35,21,2,10490287,1834,11769390,0.77,0.09,0.14,54810,58,10,11,4,6,1
 2023-02-10,24,-14,10,False,False,80,-0.44,FEARLESS,LE SSERAFIM,FEARLESS,3,3,1,15,9,2,4383225,766,11475720,0.65,0.07,0.27,24941,26,42,11,1,39,3
 2023-02-10,25,NEW,--,True,False,79,--,04 - ‘tis the damn season,Taylor Swift,evermore,10,7,4,50,21,8,13282499,1626,41746320,0.63,0.05,0.32,68061,79,0,0,25,1,1
@@ -34,10 +34,10 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-02-10,33,RE,--,False,False,64,--,hot mess,dodie,Hot Mess,5,5,1,25,15,2,6742312,1179,10594710,0.73,0.08,0.18,36190,42,0,21,9,5,1
 2023-02-10,34,-2,32,False,False,64,0.14,Snow on the Beach (feat. Lana Del Rey),Taylor Swift,Midnights (3am Edition),4,4,1,20,12,2,5717250,999,11227230,0.7,0.08,0.22,31374,34,16,12,2,16,1
 2023-02-10,35,32,67,False,False,62,0.94,With A Smile,Eraserheads,Circus,5,5,1,25,15,2,7724062,1350,12130830,0.73,0.08,0.18,41426,42,9,9,13,7,1
-2023-02-10,36,28,64,False,False,62,0.88,Kalachuchi,munimuni,Kalachuchi,5,5,1,25,15,2,7882875,1378,12379320,0.73,0.08,0.18,42273,42,9,9,8,6,1
+2023-02-10,36,28,64,False,False,62,0.88,Kalachuchi,Munimuni,Kalachuchi,5,5,1,25,15,2,7363125,1287,11566080,0.73,0.08,0.18,39501,42,9,9,8,6,1
 2023-02-10,37,-19,18,False,False,62,-0.37,Question...?,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,2610300,456,10255860,0.58,0.06,0.36,15925,18,29,13,6,16,1
 2023-02-10,38,12,50,False,False,60,0.54,#Cookie Jar,Red Velvet,#Cookie Jar,4,4,1,20,12,2,5636400,985,11069100,0.7,0.08,0.22,30933,34,11,13,1,6,2
-2023-02-10,39,-5,34,False,False,57,0.16,FUN!,fromis_9,FUN FACTORY,3,3,1,15,9,2,3932775,687,10301040,0.65,0.07,0.27,22393,26,14,15,2,10,2
+2023-02-10,39,-5,34,False,False,57,0.16,FUN!,fromis_9,FUN FACTORY,3,3,1,15,9,2,3932775,687,10301040,0.65,0.07,0.27,22393,26,14,15,2,11,2
 2023-02-10,40,RE,--,False,False,55,--,No Big Deal (I Love You),dodie,Hot Mess,4,4,1,20,12,2,5416950,947,10639890,0.7,0.08,0.22,29736,34,0,20,13,5,1
 2023-02-10,41,14,55,False,False,53,0.51,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,4,1,20,12,2,6156150,1076,12085650,0.7,0.08,0.22,33768,34,10,8,2,44,1
 2023-02-10,42,-15,27,False,False,46,-0.37,The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1504387,263,11814570,0.42,0.05,0.53,11004,10,21,13,5,37,1
@@ -50,17 +50,17 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-02-10,49,-19,30,False,False,36,-0.45,Bejeweled,Taylor Swift,Midnights (3am Edition),1,1,1,5,3,2,1579462,276,12401910,0.42,0.05,0.53,9450,10,19,5,5,14,1
 2023-02-10,50,20,70,False,False,35,0.17,Paris,Taylor Swift,Midnights (3am Edition),2,2,1,10,6,2,3066525,536,12040470,0.58,0.06,0.36,18690,18,9,7,5,14,1
 2023-02-10,51,RE,--,False,False,34,--,La Vie en Rose,IZ*ONE,COLOR*IZ,4,4,1,20,12,2,6213900,1086,12198600,0.7,0.08,0.22,34083,34,0,0,28,18,1
-2023-02-10,52,34,86,False,False,33,0.5,Feel Special,TWICE,Feel Special,3,3,1,15,9,2,4331250,757,11340180,0.65,0.07,0.27,24647,26,6,0,4,47,2
+2023-02-10,52,34,86,False,False,33,0.5,Feel Special,TWICE,Feel Special,3,3,1,15,9,2,4331250,757,11340180,0.65,0.07,0.27,24647,26,6,0,4,48,2
 2023-02-10,53,23,76,False,False,32,0.14,Starlight (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,3049200,533,11972700,0.58,0.06,0.36,18585,18,8,5,22,15,2
 2023-02-10,54,24,78,False,False,31,0.24,ELEVEN,IVE,ELEVEN,2,2,1,10,6,2,2875950,502,11295000,0.58,0.06,0.36,17535,18,7,4,1,25,1
 2023-02-10,55,RE,--,False,False,26,--,Today Was a Fairytale (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),3,3,1,15,9,2,4166662,728,10910970,0.65,0.07,0.27,23716,26,0,0,13,11,1
-2023-02-10,56,RE,--,False,False,26,--,The Louvre,Lorde,Melodrama,3,3,1,15,9,2,4183987,731,10956150,0.65,0.07,0.27,23814,26,0,0,3,21,1
+2023-02-10,56,RE,--,False,False,26,--,The Louvre,Lorde,Melodrama,3,3,1,15,9,2,4183987,731,10956150,0.65,0.07,0.27,23814,26,0,0,3,23,1
 2023-02-10,57,RE,--,False,False,26,--,the lakes - bonus track,Taylor Swift,folklore (deluxe version),3,3,1,15,9,2,4322587,756,11317590,0.65,0.07,0.27,24598,26,0,0,18,13,1
 2023-02-10,58,RE,--,False,False,26,--,NAVILLERA,GFRIEND,GFriend The 1st Album 'LOL',3,3,1,15,9,2,4071375,712,10662480,0.65,0.07,0.27,23177,26,0,0,9,26,1
 2023-02-10,59,RE,--,False,False,26,--,Message in a Bottle (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4054049,709,10617300,0.65,0.07,0.27,23079,26,0,0,8,14,1
 2023-02-10,60,RE,--,False,False,26,--,I'll be there,Loona,HyunJin,3,3,1,15,9,2,4123350,721,10798020,0.65,0.07,0.27,23471,26,0,0,21,3,1
 2023-02-10,61,RE,--,False,False,26,--,I Think He Knows,Taylor Swift,Lover,3,3,1,15,9,2,4695075,821,12288960,0.65,0.07,0.27,26705,26,0,0,1,19,1
-2023-02-10,62,RE,--,False,False,26,--,ghostin,Ariana Grande,thank u next,3,3,1,15,9,2,4400550,769,11520900,0.65,0.07,0.27,25039,26,0,0,1,18,1
+2023-02-10,62,RE,--,False,False,26,--,ghostin,Ariana Grande,thank u next,3,3,1,15,9,2,4400550,769,11520900,0.65,0.07,0.27,25039,26,0,0,1,17,1
 2023-02-10,63,RE,--,False,False,26,--,Fearless (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),3,3,1,15,9,2,4071375,712,10662480,0.65,0.07,0.27,23177,26,0,0,1,17,1
 2023-02-10,64,NEW,--,True,False,26,--,Bumalik Ka Na Sa'kin,Silent Sanctuary,Monodramatic,3,3,1,15,9,2,4106025,718,10752840,0.65,0.07,0.27,23373,26,0,0,64,1,1
 2023-02-10,65,RE,--,False,False,26,--,Body Talk,Red Velvet,Rookie - The 4th Mini Album - EP,3,3,1,15,9,2,4287937,749,11227230,0.65,0.07,0.27,24402,26,0,0,7,6,1
@@ -74,8 +74,8 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-02-10,73,-34,39,False,False,23,-0.45,Magda,Gloc-9,Liham At Lihim,1,1,1,5,3,2,1489950,260,11701620,0.42,0.05,0.53,10899,10,12,0,39,6,1
 2023-02-10,74,-34,40,False,False,23,-0.45,I'M THAT GIRL,Beyoncé,RENAISSANCE,1,1,1,5,3,2,1345575,235,10572120,0.42,0.05,0.53,9849,10,12,0,40,3,1
 2023-02-10,75,-33,42,False,False,23,-0.45,ENERGY (feat. BEAM),Beyoncé,RENAISSANCE,1,1,1,5,3,2,1443750,252,11340180,0.42,0.05,0.53,10563,10,12,0,42,5,1
-2023-02-10,76,RE,--,False,False,22,--,러시안 룰렛 Russian Roulette,Red Velvet,Russian Roulette - The 3rd Mini Album,2,2,1,10,6,2,3124275,546,12266370,0.58,0.06,0.36,19040,18,0,3,52,9,1
-2023-02-10,77,4,81,False,False,22,-0.08,Paper Rings,Taylor Swift,Lover,1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,7,3,3,19,1
+2023-02-10,76,RE,--,False,False,22,--,러시안 룰렛 Russian Roulette,Red Velvet,Russian Roulette - The 3rd Mini Album,2,2,1,10,6,2,3124275,546,12266370,0.58,0.06,0.36,19040,18,0,3,52,10,1
+2023-02-10,77,4,81,False,False,22,-0.08,Paper Rings,Taylor Swift,Lover,1,1,1,5,3,2,1452412,254,11407950,0.42,0.05,0.53,10626,10,7,3,3,20,1
 2023-02-10,78,-18,60,False,False,21,-0.38,HEATED,Beyoncé,RENAISSANCE,1,1,1,5,3,2,1417762,247,11136870,0.42,0.05,0.53,10374,10,10,0,60,3,1
 2023-02-10,79,-18,61,False,False,21,-0.38,CHURCH GIRL,Beyoncé,RENAISSANCE,1,1,1,5,3,2,1351350,236,10617300,0.42,0.05,0.53,9891,10,10,0,29,5,1
 2023-02-10,80,-18,62,False,False,21,-0.38,AMERICA HAS A PROBLEM,Beyoncé,RENAISSANCE,1,1,1,5,3,2,1489950,260,11701620,0.42,0.05,0.53,10899,10,10,0,30,4,1
@@ -83,7 +83,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-02-10,82,RE,--,False,False,18,--,You Are in Love,Taylor Swift,1989 (Deluxe),2,2,1,10,6,2,3078075,538,12085650,0.58,0.06,0.36,18760,18,0,0,8,27,1
 2023-02-10,83,RE,--,False,False,18,--,Wake Me Up,TWICE,Wake Me Up,2,2,1,10,6,2,2806650,490,11023920,0.58,0.06,0.36,17115,18,0,0,60,5,1
 2023-02-10,84,RE,--,False,False,18,--,VERY NICE,Seventeen,Love&Letter Repackage Album,2,2,1,10,6,2,2639175,461,10368810,0.58,0.06,0.36,16099,18,0,0,31,7,1
-2023-02-10,85,RE,--,False,False,18,--,Tattooed Heart,Ariana Grande,Yours Truly,2,2,1,10,6,2,3089625,540,12130830,0.58,0.06,0.36,18830,18,0,0,26,5,1
+2023-02-10,85,RE,--,False,False,18,--,Tattooed Heart,Ariana Grande,Yours Truly,2,2,1,10,6,2,3089625,540,12130830,0.58,0.06,0.36,18830,18,0,0,26,6,1
 2023-02-10,86,RE,--,False,False,18,--,SWEET SUMMER DAY,TWICE,MORE & MORE,2,2,1,10,6,2,2875950,502,11295000,0.58,0.06,0.36,17535,18,0,0,2,11,1
 2023-02-10,87,RE,--,False,False,18,--,Supercut,Lorde,Sad Summer,2,2,1,10,6,2,2951025,516,11588670,0.58,0.06,0.36,17990,18,0,0,4,10,1
 2023-02-10,88,RE,--,False,False,18,--,STAY,BLACKPINK,SQUARE TWO,2,2,1,10,6,2,2720025,475,10685070,0.58,0.06,0.36,16590,18,0,0,12,12,1
@@ -94,8 +94,8 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-02-10,93,RE,--,False,False,18,--,SAY YOU LOVE ME,TWICE,YES or YES,2,2,1,10,6,2,2621850,458,10301040,0.58,0.06,0.36,15995,18,0,0,6,13,1
 2023-02-10,94,RE,--,False,False,18,--,RAINBOW,TWICE,Feel Special,2,2,1,10,6,2,2714250,474,10662480,0.58,0.06,0.36,16555,18,0,0,10,33,2
 2023-02-10,95,RE,--,False,False,18,--,Psycho,Red Velvet,‘The ReVe Festival’ Finale - EP,2,2,1,10,6,2,2962575,518,11633850,0.58,0.06,0.36,18060,18,0,0,10,31,2
-2023-02-10,96,RE,--,False,False,18,--,Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2725800,476,10707660,0.58,0.06,0.36,16625,18,0,0,2,32,1
+2023-02-10,96,RE,--,False,False,18,--,Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2725800,476,10707660,0.58,0.06,0.36,16625,18,0,0,2,31,1
 2023-02-10,97,RE,--,False,False,18,--,MORE & MORE,TWICE,MORE & MORE,2,2,1,10,6,2,2696925,471,10594710,0.58,0.06,0.36,16450,18,0,0,4,15,2
 2023-02-10,98,RE,--,False,False,18,--,Moonlight,Ariana Grande,Dangerous Woman (Deluxe),2,2,1,10,6,2,3106950,543,12198600,0.58,0.06,0.36,18935,18,0,0,28,9,1
-2023-02-10,99,RE,--,False,False,18,--,Me Gustas Tu,GFRIEND,GFriend 2nd Mini Album 'Flower Bud',2,2,1,10,6,2,2691150,470,10572120,0.58,0.06,0.36,16415,18,0,0,12,7,1
+2023-02-10,99,RE,--,False,False,18,--,Me Gustas Tu,GFRIEND,GFriend 2nd Mini Album 'Flower Bud',2,2,1,10,6,2,2691150,470,10572120,0.58,0.06,0.36,16415,18,0,0,12,6,1
 2023-02-10,100,RE,--,False,False,18,--,LOVE LINE,TWICE,twicetagram,2,2,1,10,6,2,3078075,538,12085650,0.58,0.06,0.36,18760,18,0,0,53,2,1

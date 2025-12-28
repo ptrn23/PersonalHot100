@@ -10,7 +10,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-03-17,9,NEW,--,True,False,177,--,Safe & Sound (feat. Joy Williams and John Paul White) (Taylor’s Version),Taylor Swift,Safe & Sound (Taylor's Version),22,21,2,110,63,4,29983800,5006,21415320,0.82,0.09,0.09,149625,177,0,0,9,1,1
 2023-03-17,10,NEW,--,True,False,170,--,Eyes Open (Taylor's Version),Taylor Swift,Eyes Open (Taylor's Version),21,21,1,105,63,2,30318750,5302,11340180,0.85,0.1,0.05,151403,170,0,0,10,1,1
 2023-03-17,11,-10,1,False,False,166,-0.5,Young Dumb Stupid,NMIXX,Young Dumb Stupid,8,8,1,40,24,2,12658800,2213,10165500,0.79,0.09,0.12,53669,66,99,0,1,2,1
-2023-03-17,12,25,37,False,False,159,1.52,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),15,15,1,75,45,2,19663875,3439,10301040,0.84,0.09,0.07,99169,122,18,17,4,52,1
+2023-03-17,12,25,37,False,False,159,1.52,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),15,15,1,75,45,2,19663875,3439,10301040,0.84,0.09,0.07,99169,122,18,17,4,54,1
 2023-03-17,13,7,20,False,False,147,0.4,All Too Well (Taylor's Version),Taylor Swift,Red (Taylor's Version),10,10,1,50,30,2,13080375,2288,10278450,0.81,0.09,0.1,67032,82,31,32,1,63,7
 2023-03-17,14,22,36,False,False,145,1.27,I Knew You Were Trouble (Taylor's Version),Taylor Swift,Red (Taylor's Version),13,13,1,65,39,2,18505987,3236,11182050,0.83,0.09,0.08,93744,106,19,18,2,36,1
 2023-03-17,15,RE,--,False,False,143,--,Bejeweled,Taylor Swift,Midnights (3am Edition),21,8,7,105,24,14,33168712,2209,86813370,0.69,0.03,0.29,113400,143,0,0,5,16,1
@@ -50,7 +50,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-03-17,49,10,59,False,False,59,0.51,Style,Taylor Swift,1989 (Deluxe),5,5,1,25,15,2,7175437,1254,11272410,0.73,0.08,0.18,38500,42,11,4,4,34,1
 2023-03-17,50,RE,--,False,False,58,--,Anti-Hero,Taylor Swift,Midnights,7,7,1,35,21,2,9803062,1714,11001330,0.77,0.09,0.14,51240,58,0,0,3,18,1
 2023-03-17,51,-22,29,False,False,56,-0.22,cardigan,Taylor Swift,folklore,4,4,1,20,12,2,5463150,955,10730250,0.7,0.08,0.22,29988,34,21,0,6,13,1
-2023-03-17,52,3,55,False,False,55,0.31,Look What You Made Me Do,Taylor Swift,Reputation,5,5,1,25,15,2,6540187,1144,10278450,0.73,0.08,0.18,35112,42,12,0,6,9,1
+2023-03-17,52,3,55,False,False,55,0.31,Look What You Made Me Do,Taylor Swift,reputation,5,5,1,25,15,2,7002187,1224,11001330,0.73,0.08,0.18,37576,42,12,0,6,9,1
 2023-03-17,53,RE,--,False,False,55,--,Cookie,NewJeans,NewJeans 1st EP 'New Jeans',3,3,1,15,9,2,4322587,756,11317590,0.65,0.07,0.27,24598,26,0,29,3,13,1
 2023-03-17,54,-23,31,False,False,55,-0.24,Treacherous (Taylor's Version),Taylor Swift,Red (Taylor's Version),1,1,1,5,3,2,1513050,264,11882340,0.42,0.05,0.53,11067,10,21,22,2,50,2
 2023-03-17,55,19,74,False,False,53,0.56,illicit affairs,Taylor Swift,folklore,5,5,1,25,15,2,6828937,1194,10730250,0.73,0.08,0.18,36652,42,10,0,3,17,2
@@ -63,11 +63,11 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-03-17,62,RE,--,False,False,44,--,Attention,NewJeans,NewJeans 1st EP 'New Jeans',2,2,1,10,6,2,3060750,535,12017880,0.58,0.06,0.36,18655,18,0,25,1,27,1
 2023-03-17,63,RE,--,False,False,42,--,Miss Americana & the Heartbreak Prince,Taylor Swift,Lover,5,5,1,25,15,2,7752937,1355,12176010,0.73,0.08,0.18,41580,42,0,0,10,19,1
 2023-03-17,64,RE,--,False,False,42,--,Enchanted,Taylor Swift,Speak Now (Deluxe Edition),5,5,1,25,15,2,7319812,1280,11498310,0.73,0.08,0.18,39270,42,0,0,23,3,1
-2023-03-17,65,RE,--,False,False,42,--,Don’t Blame Me,Taylor Swift,Reputation,5,5,1,25,15,2,7608562,1330,11950110,0.73,0.08,0.18,40810,42,0,0,5,8,1
-2023-03-17,66,RE,--,False,False,42,--,Delicate,Taylor Swift,Reputation,5,5,1,25,15,2,7752937,1355,12176010,0.73,0.08,0.18,41580,42,0,0,15,5,1
+2023-03-17,65,RE,--,False,False,42,--,Don’t Blame Me,Taylor Swift,reputation,5,5,1,25,15,2,7781812,1360,12221190,0.73,0.08,0.18,41734,42,0,0,5,8,1
+2023-03-17,66,RE,--,False,False,42,--,Delicate,Taylor Swift,reputation,5,5,1,25,15,2,6597937,1154,10368810,0.73,0.08,0.18,35420,42,0,0,15,5,1
 2023-03-17,67,RE,--,False,False,42,--,Cruel Summer,Taylor Swift,Lover,5,5,1,25,15,2,7752937,1355,12176010,0.73,0.08,0.18,41580,42,0,0,2,35,1
 2023-03-17,68,RE,--,False,False,42,--,All Too Well (10 Minute Version) (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),5,5,1,25,15,2,6901125,1207,10843200,0.73,0.08,0.18,37037,42,0,0,5,13,1
-2023-03-17,69,RE,--,False,False,42,--,...Ready for It?,Taylor Swift,Reputation,5,5,1,25,15,2,7565250,1323,11882340,0.73,0.08,0.18,40579,42,0,0,41,4,1
+2023-03-17,69,RE,--,False,False,42,--,...Ready for It?,Taylor Swift,reputation,5,5,1,25,15,2,7218750,1262,11340180,0.73,0.08,0.18,38731,42,0,0,41,4,1
 2023-03-17,70,-55,15,False,False,42,-0.6,O.O,NMIXX,AD MARE,1,1,1,5,3,2,1360012,237,10685070,0.42,0.05,0.53,9954,10,31,0,1,41,2
 2023-03-17,71,RE,--,False,False,40,--,You're on Your Own Kid,Taylor Swift,Midnights (3am Edition),5,3,3,25,9,6,7290937,765,34359390,0.55,0.04,0.41,39116,40,0,0,4,18,1
 2023-03-17,72,RE,--,False,False,39,--,If This Was a Movie,Taylor Swift,Speak Now (Deluxe Edition),5,2,4,25,6,8,6886687,481,43282440,0.49,0.02,0.49,36960,39,0,0,62,2,1
@@ -78,7 +78,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2023-03-17,77,RE,--,False,False,34,--,You Need to Calm Down,Taylor Swift,Lover,4,4,1,20,12,2,6167700,1078,12108240,0.7,0.08,0.22,33831,34,0,0,12,18,1
 2023-03-17,78,RE,--,False,False,34,--,Would've Could've Should've,Taylor Swift,Midnights (3am Edition),4,4,1,20,12,2,5717250,999,11227230,0.7,0.08,0.22,31374,34,0,0,4,16,1
 2023-03-17,79,RE,--,False,False,34,--,The Man,Taylor Swift,Lover,4,4,1,20,12,2,6329400,1106,10165500,0.7,0.08,0.22,28413,34,0,0,27,18,1
-2023-03-17,80,RE,--,False,False,34,--,The Archer,Taylor Swift,Lover,4,4,1,20,12,2,5474700,957,10752840,0.7,0.08,0.22,30051,34,0,0,17,20,2
+2023-03-17,80,RE,--,False,False,34,--,The Archer,Taylor Swift,Lover,4,4,1,20,12,2,5474700,957,10752840,0.7,0.08,0.22,30051,34,0,0,17,19,2
 2023-03-17,81,RE,--,False,False,34,--,Sweet Nothing,Taylor Swift,Midnights (3am Edition),4,4,1,20,12,2,5728800,1001,11249820,0.7,0.08,0.22,31437,34,0,0,6,15,1
 2023-03-17,82,RE,--,False,False,34,--,Snow on the Beach (feat. Lana Del Rey),Taylor Swift,Midnights (3am Edition),4,4,1,20,12,2,5717250,999,11227230,0.7,0.08,0.22,31374,34,0,0,2,19,1
 2023-03-17,83,RE,--,False,False,34,--,Paris,Taylor Swift,Midnights (3am Edition),4,4,1,20,12,2,6133050,1072,12040470,0.7,0.08,0.22,33642,34,0,0,5,16,1
