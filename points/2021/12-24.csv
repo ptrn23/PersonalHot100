@@ -7,12 +7,12 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-12-24,6,38,44,False,False,36,1.0,happiness,Taylor Swift,evermore,3,3,1,15,9,2,4002074,700,10481760,0.65,0.07,0.27,22785,26,5,4,2,21,2
 2021-12-24,7,-2,5,False,False,35,0.03,Better Man (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,3083850,539,12108240,0.58,0.06,0.36,18795,18,10,5,3,6,1
 2021-12-24,8,RE,--,False,False,32,--,Red (Taylor's Version),Taylor Swift,Red (Taylor's Version),4,2,3,20,6,6,6156150,538,36256950,0.5,0.03,0.47,33768,32,0,0,3,4,1
-2021-12-24,9,31,40,False,False,32,0.78,Dress,Taylor Swift,Reputation,3,3,1,15,9,2,4669087,816,12221190,0.65,0.07,0.27,26558,26,5,0,6,12,1
+2021-12-24,9,31,40,False,False,32,0.78,Dress,Taylor Swift,reputation,3,3,1,15,9,2,4010737,701,10504350,0.65,0.07,0.27,22834,26,5,0,6,12,1
 2021-12-24,10,3,13,False,False,32,0.23,Babe (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2910600,509,11430540,0.58,0.06,0.36,17745,18,7,5,4,6,1
 2021-12-24,11,NEW,--,True,False,30,--,Oh Santa! (feat. Ariana Grande & Jennifer Hudson),Mariah Carey,Oh Santa! (feat. Ariana Grande & Jennifer Hudson),4,2,2,20,6,4,5324550,465,20918340,0.59,0.03,0.37,25984,30,0,0,11,1,1
 2021-12-24,12,RE,--,False,False,26,--,my tears ricochet,Taylor Swift,folklore,3,3,1,15,9,2,4487175,784,11746800,0.65,0.07,0.27,25529,26,0,0,1,11,1
-2021-12-24,13,RE,--,False,False,26,--,Getaway Car,Taylor Swift,Reputation,3,3,1,15,9,2,4010737,701,10504350,0.65,0.07,0.27,22834,26,0,0,7,4,1
-2021-12-24,14,RE,--,False,False,26,--,Don’t Blame Me,Taylor Swift,Reputation,3,3,1,15,9,2,4565137,798,11950110,0.65,0.07,0.27,25970,26,0,0,5,4,1
+2021-12-24,13,RE,--,False,False,26,--,Getaway Car,Taylor Swift,reputation,3,3,1,15,9,2,4149337,725,10865790,0.65,0.07,0.27,23618,26,0,0,7,4,1
+2021-12-24,14,RE,--,False,False,26,--,Don’t Blame Me,Taylor Swift,reputation,3,3,1,15,9,2,4669087,816,12221190,0.65,0.07,0.27,26558,26,0,0,5,4,1
 2021-12-24,15,RE,--,False,False,26,--,Death by a Thousand Cuts,Taylor Swift,Lover,3,3,1,15,9,2,4296600,751,11249820,0.65,0.07,0.27,24451,26,0,0,3,12,1
 2021-12-24,16,RE,--,False,False,26,--,Back to December,Taylor Swift,Speak Now (Deluxe Version),3,3,1,15,9,2,4409212,771,11543490,0.65,0.07,0.27,25088,26,0,0,12,2,1
 2021-12-24,17,RE,--,False,False,26,--,22 (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4539150,793,11882340,0.65,0.07,0.27,25823,26,0,0,11,4,1
@@ -52,7 +52,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-12-24,51,RE,--,False,False,18,--,good 4 u,Olivia Rodrigo,good 4 u,2,2,1,10,6,2,3095400,541,12153420,0.58,0.06,0.36,18865,18,0,0,1,8,2
 2021-12-24,52,NEW,--,True,False,18,--,Girl on Fire,Alicia Keys,Girl On Fire (Remixes) - EP,2,2,1,10,6,2,3164700,553,10165500,0.58,0.06,0.36,15785,18,0,0,52,1,1
 2021-12-24,53,RE,--,True,False,18,--,Getting Older,Billie Eilish,Happier Than Ever,2,2,1,10,6,2,2829750,494,11114280,0.58,0.06,0.36,17255,18,0,0,53,2,1
-2021-12-24,54,RE,--,False,False,18,--,Genie,Girls' Generation,Oh!,2,2,1,10,6,2,2858625,499,11227230,0.58,0.06,0.36,17430,18,0,0,9,8,1
+2021-12-24,54,RE,--,False,False,18,--,GENIE,소녀시대,Oh!,2,2,1,10,6,2,2685375,469,10549530,0.58,0.06,0.36,16379,18,0,0,9,8,1
 2021-12-24,55,RE,--,False,False,18,--,favorite crime,Olivia Rodrigo,SOUR,2,2,1,10,6,2,2668050,466,10481760,0.58,0.06,0.36,16275,18,0,0,7,8,1
 2021-12-24,56,RE,--,False,False,18,--,enough for you,Olivia Rodrigo,SOUR,2,2,1,10,6,2,2598750,454,10210680,0.58,0.06,0.36,15855,18,0,0,8,7,1
 2021-12-24,57,RE,--,False,False,18,--,drivers license,Olivia Rodrigo,drivers license,2,2,1,10,6,2,2956800,517,11611260,0.58,0.06,0.36,18025,18,0,0,9,7,1

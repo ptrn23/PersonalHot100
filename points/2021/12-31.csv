@@ -9,12 +9,12 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-12-31,8,12,20,False,False,38,0.58,Run (feat. Ed Sheeran) (Taylor’s Version) (From the Vault),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4721062,825,12356730,0.65,0.07,0.27,26852,26,7,3,5,6,1
 2021-12-31,9,13,22,True,False,38,0.58,I Almost Do (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,4729725,827,12379320,0.65,0.07,0.27,26901,26,7,3,9,6,1
 2021-12-31,10,-3,7,False,False,36,0.03,Better Man (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,3083850,539,12108240,0.58,0.06,0.36,18795,18,10,6,3,7,1
-2021-12-31,11,2,13,False,False,34,0.31,Getaway Car,Taylor Swift,Reputation,3,3,1,15,9,2,4010737,701,10504350,0.65,0.07,0.27,22834,26,7,0,7,5,1
+2021-12-31,11,2,13,False,False,34,0.31,Getaway Car,Taylor Swift,reputation,3,3,1,15,9,2,4149337,725,10865790,0.65,0.07,0.27,23618,26,7,0,7,5,1
 2021-12-31,12,-2,10,False,False,34,0.06,Babe (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2910600,509,11430540,0.58,0.06,0.36,17745,18,9,5,4,7,1
 2021-12-31,13,-7,6,False,False,33,-0.08,happiness,Taylor Swift,evermore,2,2,1,10,6,2,2668050,466,10481760,0.58,0.06,0.36,16275,18,10,3,2,22,2
 2021-12-31,14,81,95,False,False,32,1.46,State of Grace (Taylor's Version),Taylor Swift,Red (Taylor's Version),3,3,1,15,9,2,3906787,683,10233270,0.65,0.07,0.27,22246,26,3,2,4,5,1
 2021-12-31,15,3,18,False,False,32,0.23,We Are Never Ever Getting Back Together (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2621850,458,10301040,0.58,0.06,0.36,15995,18,7,5,9,6,1
-2021-12-31,16,-7,9,False,False,32,0.0,Dress,Taylor Swift,Reputation,2,2,1,10,6,2,3112725,544,12221190,0.58,0.06,0.36,18970,18,9,3,6,13,1
+2021-12-31,16,-7,9,False,False,32,0.0,Dress,Taylor Swift,reputation,2,2,1,10,6,2,2673825,467,10504350,0.58,0.06,0.36,16310,18,9,3,6,13,1
 2021-12-31,17,2,19,False,False,31,0.19,The Very First Night (Taylor's Version) (From the Vault),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2772000,484,10888380,0.58,0.06,0.36,16905,18,7,4,4,7,2
 2021-12-31,18,10,28,False,False,31,0.55,Sad Beautiful Tragic (Taylor's Version),Taylor Swift,Red (Taylor's Version),2,2,1,10,6,2,2968350,519,11656440,0.58,0.06,0.36,18095,18,6,6,6,7,1
 2021-12-31,19,10,29,False,False,31,0.55,Love Story (Taylor’s Version),Taylor Swift,Love Story (Taylor’s Version),2,2,1,10,6,2,3106950,543,12198600,0.58,0.06,0.36,18935,18,6,6,1,20,3
@@ -78,7 +78,7 @@ Week,Position,Rise/Fall,Previous Rank,New Peak?,Re-peak?,Total Weighted Points,%
 2021-12-31,77,RE,--,False,False,18,--,Bad Blood,Taylor Swift,1989 (Deluxe),2,2,1,10,6,2,2662275,465,10459170,0.58,0.06,0.36,16240,18,0,0,14,6,1
 2021-12-31,78,NEW,--,True,False,18,--,Apple,GFRIEND,回:Song of the Sirens,2,2,1,10,6,2,3043425,532,11950110,0.58,0.06,0.36,18550,18,0,0,78,1,1
 2021-12-31,79,-67,12,False,False,18,-0.31,my tears ricochet,Taylor Swift,folklore,1,1,1,5,3,2,1495725,261,11746800,0.42,0.05,0.53,10941,10,7,0,1,12,1
-2021-12-31,80,-66,14,False,False,18,-0.31,Don’t Blame Me,Taylor Swift,Reputation,1,1,1,5,3,2,1521712,266,11950110,0.42,0.05,0.53,11130,10,7,0,5,5,1
+2021-12-31,80,-66,14,False,False,18,-0.31,Don’t Blame Me,Taylor Swift,reputation,1,1,1,5,3,2,1556362,272,12221190,0.42,0.05,0.53,11382,10,7,0,5,5,1
 2021-12-31,81,-66,15,False,False,18,-0.31,Death by a Thousand Cuts,Taylor Swift,Lover,1,1,1,5,3,2,1432200,250,11249820,0.42,0.05,0.53,10479,10,7,0,3,13,1
 2021-12-31,82,2,84,False,False,16,0.23,You Belong with Me (Taylor’s Version),Taylor Swift,Fearless (Taylor's Version),1,1,1,5,3,2,1582350,276,10165500,0.42,0.05,0.53,9471,10,3,2,2,15,1
 2021-12-31,83,3,86,False,False,16,0.23,Womanizer,Britney Spears,Circus,1,1,1,5,3,2,1432200,250,11249820,0.42,0.05,0.53,10479,10,3,2,3,21,1
