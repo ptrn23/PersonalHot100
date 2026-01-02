@@ -1,7 +1,7 @@
 from services.plays_aggregator import PlaysAggregator
 
 def main():
-    years = [str(year) for year in range(2020, 2026)]
+    years = [str(year) for year in range(2020, 2027)]
     
     aggregator = PlaysAggregator()
     aggregator.process_years(years, data_folder='data/')
