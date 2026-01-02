@@ -75,7 +75,7 @@ def _get_files_to_process(points_dir, specific_week):
 
 def main():
     year = 2025
-    specific_week = "12-19"  # change to None to process all weeks
+    specific_week = "12-26"  # change to None to process all weeks
     
     process_weekly_charts(
         year=year,
