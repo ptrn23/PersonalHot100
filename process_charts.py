@@ -39,7 +39,7 @@ INCLUDED_TRACKS = [
     "Blue Valentine"
 ]
 
-GENERATE_COLORS = True
+GENERATE_COLORS = False
 
 def load_album_cover_cache():
     album_cover_cache = {}
