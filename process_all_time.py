@@ -3,7 +3,7 @@ import csv
 from collections import defaultdict
 from points.album_cover import get_album_cover
 
-YEARS = [str(year) for year in range(2020, 2026)]
+YEARS = [str(year) for year in range(2020, 2027)]
 CHART_LIMIT = 100
 CHARTED_CACHE_FILE = "points/ever_charted.csv"
 ALBUM_COVERS_FILE = "album_covers.csv"
