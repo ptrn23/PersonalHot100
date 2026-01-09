@@ -9,7 +9,7 @@ from models.weekly_play import WeeklyPlay
 from models.song import Song
 
 def main():
-    years = [str(year) for year in range(2020, 2026)]
+    years = [str(year) for year in range(2020, 2027)]
     chart_limit = 100
     charted_cache_file = "points/ever_charted.csv"
     
