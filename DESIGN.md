@@ -20,7 +20,7 @@ Last.fm is a music database and recommender system established in 2002. It utili
 
 ## 3. Problem Statement
 
-**The Dimensionality Gap:** How can a singular, linear stream of listening history be decomposed into the three distinct dimensions (Sales, Streams, Airplay) required to generate a *Billboard*-style chart?
+How can a singular, linear stream of listening history be decomposed into the three distinct dimensions (Sales, Streams, Airplay) required to generate a *Billboard*-style chart?
 
 The objective is to derive distinct signals of **Frequency** (Streams), **Intent** (Sales), and **Saturation** (Airplay) from a single dataset of timestamps.
 
@@ -87,3 +87,80 @@ Analyzing the sessions identified in Section 4.2:
 The maximum streak length is 3.
 
 * $\alpha_{ATW} = 3$
+
+## 5. Scoring Algorithm & Weighting
+
+To synthesize the three derived components into a unified ranking metric, we apply a weighted linear combination. This ensures that while all three dimensions contribute to the final score, their influence is proportional to their perceived value in the hierarchy of listening intent.
+
+### 5.1 Component Weights
+
+We define the following weight constants ($W$) for each component:
+
+* **Stream Weight ($W_\Sigma$): 5**
+* *Rationale:* High frequency remains the primary driver of popularity.
+
+
+* **Sale Weight ($W_\Phi$): 3**
+* *Rationale:* Distinct sessions indicate active re-engagement with the track.
+
+
+* **Airplay Weight ($W_\alpha$): 2**
+* *Rationale:* Long duration sessions serve as a supplemental "saturation" bonus.
+
+
+
+### 5.2 Raw Point Calculation ($P_{raw}$)
+
+The Raw Points for a track $T$ in a given week are calculated by the summation of the weighted components.
+$$P_{raw}(T) = (\Sigma_T \times W_\Sigma) + (\Phi_T \times W_\Phi) + (\alpha_T \times W_\alpha)$$
+
+Substituting the defined weights:
+$$P_{raw}(T) = 5\Sigma_T + 3\Phi_T + 2\alpha_T$$
+
+**Example Calculation:**
+Continuing with *All Too Well (Taylor's Version)* from Section 4:
+
+* $\Sigma = 6$
+* $\Phi = 3$
+* $\alpha = 3$
+
+$$P_{raw} = (6 \times 5) + (3 \times 3) + (3 \times 2)$$
+$$P_{raw} = 30 + 9 + 6$$
+$$P_{raw} = 45$$
+
+*Note: Under this weighting system, a single playback of a track (1 Stream, 1 Sale, 1 Airplay) yields a minimum base score of 10 points.*
+
+## 6. Stability & Decay Logic
+
+Raw listening data is inherently volatile; a track may be heavily consumed one week and scarcely the next. To prevent erratic chart movements and simulate the "momentum" observed in industry charts, the system employs a **Cumulative Decay Model**. This introduces historical dependency, where a track's current rank is influenced by its performance in previous weeks.
+
+### 6.1 Cumulative Point Calculation ($P_{cum}$)
+
+The Cumulative Points for a track in the current week  are derived from the current Raw Points plus a decayed fraction of the Cumulative Points from the previous two weeks ($t-1$ and $t-2$).
+
+The formula is defined recursively as:
+$$P_{cum}(t) = \lceil P_{raw}(t) + (P_{cum}(t-1) \times 0.3) + (P_{cum}(t-2) \times 0.2) \rceil$$
+
+Where:
+
+*  $\lceil x \rceil$ denotes the ceiling function (rounding up to the nearest integer).
+*  $0.3$ is the decay factor for the 1-week lag.
+*  $0.2$ is the decay factor for the 2-week lag.
+
+### 6.2 Example Scenario: Stabilization Effect
+
+Consider the historical performance of *All Too Well (Taylor's Version)* over three weeks to demonstrate how the decay factors mitigate volatility.
+
+**Historical Data:**
+
+* Week 1: $P_{cum} = 300$ (High activity)
+* Week 2: $P_{cum} = 100$ (Significant drop)
+* Week 3 (Current): $P_{raw} = 100$ (Moderate activity)
+
+**Calculation for Week 3:**
+$$P_{cum}(W3) = \lceil 100 + (100 \times 0.3) + (300 \times 0.2) \rceil$$
+$$P_{cum}(W3) = \lceil 100 + 30 + 60 \rceil$$
+$$P_{cum}(W3) = 190$$
+
+**Analysis:**
+Without the decay model, the track would have scored only 100 points in Week 3. However, the strong performance in Week 1 (contributing 60 points) and Week 2 (contributing 30 points) boosted the final score to 190. This effectively "smooths" the decline.
