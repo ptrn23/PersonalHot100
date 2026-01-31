@@ -162,5 +162,66 @@ $$P_{cum}(W3) = \lceil 100 + (100 \times 0.3) + (300 \times 0.2) \rceil$$
 $$P_{cum}(W3) = \lceil 100 + 30 + 60 \rceil$$
 $$P_{cum}(W3) = 190$$
 
-**Analysis:**
 Without the decay model, the track would have scored only 100 points in Week 3. However, the strong performance in Week 1 (contributing 60 points) and Week 2 (contributing 30 points) boosted the final score to 190. This effectively "smooths" the decline.
+
+## 7. Deterministic Tie-Breaking Resolution
+
+Given the discrete nature of the scoring components, distinct tracks (particularly those played sequentially within the same album) may converge on identical $P_{cum}$ values. To maintain a strict, reproducible ordering without resorting to random arbitration, the system employs a **Deterministic Hashing Algorithm**.
+
+### 7.1 Stable Seed Generation
+Every track entity is assigned a unique numerical seed derived from its immutable metadata (Song Title, Album Name, Artist Name). This ensures that if the chart is regenerated at a later date, the ranking order remains constant.
+
+The seed function $S(T)$ is defined as the weighted sum of the character codes of the concatenated metadata string:
+
+$$S(T) = \sum_{i=0}^{n} (i+1) \times \text{ASCII}(C_i)$$
+
+Where:
+* $C$ is the character sequence formed by `Title|Album|Artist`.
+* $n$ is the length of the string.
+* $i$ is the zero-based index of the character.
+
+In the event that $P_{cum}(T_A) = P_{cum}(T_B)$, the system compares $S(T_A)$ and $S(T_B)$ to determine precedence.
+
+## 8. Chart Compilation Standards
+
+### 8.1 Temporal Definition (The "Chart Week")
+To ensure consistency with external aggregation services (specifically synchronizing with *ZeroCharts* infrastructure), the standard "Chart Week" is offset from the standard calendar day.
+
+* **Start:** Friday at 06:00 (Local System Time)
+* **End:** The following Friday at 05:59 (Local System Time)
+
+This 6-hour offset aligns the local data collection window with the midnight reset cycles of the reference external servers.
+
+### 8.2 Ranking and Cutoff
+Upon the conclusion of a Chart Week, all active tracks are sorted by $P_{cum}$ in descending order (applying the logic in Section 7 for ties).
+* **The Hot 100:** Only the top $N=100$ tracks are serialized into the final chart release.
+* **Bubbling Under:** Tracks falling outside the $N=100$ threshold are retained in the database for historical calculation purposes but are excluded from the public visualization.
+
+## 9. Chart Indicators & Metadata
+
+To provide context on a song's trajectory, the following derivative metrics are calculated during the chart generation phase.
+
+### 9.1 Rank Status ($\Delta$)
+The visual indicator of a song's movement relative to the previous week ($t-1$).
+
+| Status | Symbol | Condition |
+| :--- | :---: | :--- |
+| **Rise** | $\uparrow$ | $\text{Rank}_t < \text{Rank}_{t-1}$ |
+| **Fall** | $\downarrow$ | $\text{Rank}_t > \text{Rank}_{t-1}$ |
+| **Stable** | $=$ | $\text{Rank}_t = \text{Rank}_{t-1}$ |
+| **Debut** | **NEW** | The song appears in the top 100 for the first time ($\text{WOC} = 1$). |
+| **Re-Entry** | **RE** | The song appears in the top 100, was absent in $t-1$, and has $\text{WOC} > 1$. |
+
+### 9.2 Weeks on Chart (WOC)
+A cumulative counter representing the total number of weeks a track has successfully ranked within the top 100.
+$$\text{WOC}_t = \begin{cases} \text{WOC}_{prev} + 1 & \text{if Rank}_t \leq 100 \\ \text{WOC}_{prev} & \text{if Rank}_t > 100 \end{cases}$$
+
+### 9.3 Peak Performance
+* **Peak Rank:** The highest (numerically lowest) rank achieved by the song throughout its lifetime history.
+    $$\text{Peak}_t = \min(\text{Rank}_t, \text{Peak}_{t-1})$$
+* **Peak Streak:** A counter tracking consecutive weeks spent at the Peak Rank. This metric increments if $\text{Rank}_t = \text{Peak}_t$, and resets to 1 otherwise.
+
+### 9.4 Point Delta ($\%$)
+The percentage change in Total Cumulative Points compared to the previous week, indicating momentum regardless of rank changes.
+
+$$\Delta\% = \left( \frac{P_{cum}(t) - P_{cum}(t-1)}{P_{cum}(t-1)} \right) \times 100$$
