@@ -42,6 +42,28 @@ interface SongEntry {
   units: number;
 }
 
+interface RawCsvRow {
+  Position: string;
+  Song: string;
+  Artist: string;
+  Album: string;
+  WOC: string;
+  'Previous Rank': string;
+  'Total Weighted Points': string;
+  '%': string;
+  Peak: string;
+  'Peak Streak': string;
+  'New Peak?': string;
+  'Re-peak?': string;
+  'Sales Units': string;
+  'Sales %': string;
+  'Streams Units': string;
+  'Streams %': string;
+  'Airplay Units': string;
+  'Airplay %': string;
+  'Total Units': string;
+}
+
 interface AlbumCache {
   [key: string]: string;
 }
@@ -79,7 +101,7 @@ async function processWeek(filename: string, year: number, cache: AlbumCache, ap
     const records = parse(fileContent, { 
         columns: true, 
         skip_empty_lines: true 
-    });
+    }) as RawCsvRow[];
 
     // Identify Missing Covers
     const topRecords = records.slice(0, CHART_LIMIT);
