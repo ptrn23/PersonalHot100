@@ -7,11 +7,11 @@ import { existsSync } from 'fs';
 dotenv.config();
 
 // --- CONFIGURATION ---
-const YEAR = 2026;
+const YEARS = [2025, 2026]; 
 const CHART_LIMIT = 100;
 const SPECIFIC_WEEK: string | null = null; 
 
-const POINTS_DIR = path.join(process.cwd(), 'scripts', 'points', YEAR.toString());
+const POINTS_BASE_DIR = path.join(process.cwd(), 'scripts', 'points');
 const OUTPUT_DIR = path.join(process.cwd(), 'public', 'data', 'weeks');
 const CACHE_PATH = path.join(process.cwd(), 'scripts', 'album_cache.json');
 const INDEX_PATH = path.join(process.cwd(), 'public', 'data', 'index.json');
@@ -27,7 +27,7 @@ interface SongEntry {
   status: 'rise' | 'fall' | 'stable' | 'new' | 're';
   change: number;
   points: number;
-  pointsPct: string; // Keep as string to handle "--"
+  pointsPct: string;
   peak: string;
   peakStreak: string;
   isNewPeak: boolean;
@@ -49,7 +49,6 @@ interface AlbumCache {
 // --- HELPERS ---
 const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
 
-// Fix: Handle '--' explicitly so it returns 0 instead of NaN
 const parseNum = (val: string | undefined) => {
     if (!val || val === '-' || val === '--') return 0;
     return parseFloat(val.replace('%', ''));
@@ -69,11 +68,12 @@ async function fetchCoverFromLastFM(artist: string, album: string, apiKey: strin
 }
 
 // --- MAIN PROCESSOR ---
-async function processWeek(filename: string, cache: AlbumCache, apiKey: string) {
+async function processWeek(filename: string, year: number, cache: AlbumCache, apiKey: string) {
     const week = filename.replace('.csv', '');
-    const inputPath = path.join(POINTS_DIR, filename);
+    // Construct the path dynamically based on the year passed in
+    const inputPath = path.join(POINTS_BASE_DIR, year.toString(), filename);
     
-    console.log(`\nProcessing Week: ${week}...`);
+    console.log(`\nProcessing Week: ${year}-${week}...`);
 
     const fileContent = await fs.readFile(inputPath, 'utf-8');
     const records = parse(fileContent, { 
@@ -141,16 +141,13 @@ async function processWeek(filename: string, cache: AlbumCache, apiKey: string) 
             lastWeek,
             status,
             change,
-            
             // Metrics
             points: parseNum(row['Total Weighted Points']),
-            pointsPct: row['%'] || '--', // Default to '--' string if missing
+            pointsPct: row['%'] || '--',
             peak: row.Peak || '-',
             peakStreak: row['Peak Streak'] || '',
-            // Boolean Flags for Peak Styling
             isNewPeak: row['New Peak?'] === 'True',
             isRePeak: row['Re-peak?'] === 'True',
-            
             woc: row.WOC || '-',
             sales: parseNum(row['Sales Units']),
             salesPct: row['Sales %'] || '-',
@@ -162,20 +159,22 @@ async function processWeek(filename: string, cache: AlbumCache, apiKey: string) 
         };
     });
 
+    // 4. UPDATED: Output filename uses the specific year
     const outputData = {
         meta: { 
-            year: YEAR, 
+            year: year, 
             week: week, 
             generated_at: new Date().toISOString().split('T')[0] 
         },
         songs: songs
     };
 
-    const outputPath = path.join(OUTPUT_DIR, `${YEAR}-${week}.json`);
+    const outputId = `${year}-${week}`;
+    const outputPath = path.join(OUTPUT_DIR, `${outputId}.json`);
     await fs.writeFile(outputPath, JSON.stringify(outputData, null, 0));
-    console.log(`  -> Saved ${YEAR}-${week}.json`);
+    console.log(`  -> Saved ${outputId}.json`);
     
-    return `${YEAR}-${week}`;
+    return outputId;
 }
 
 async function main() {
@@ -192,30 +191,42 @@ async function main() {
 
     await fs.mkdir(OUTPUT_DIR, { recursive: true });
 
-    let files = (await fs.readdir(POINTS_DIR)).filter(f => f.endsWith('.csv'));
-    files.sort();
+    const allProcessedWeeks: string[] = [];
 
-    if (SPECIFIC_WEEK) {
-        files = files.filter(f => f.includes(SPECIFIC_WEEK));
-    }
+    // 5. UPDATED: Loop through each year in the array
+    for (const year of YEARS) {
+        const pointsDir = path.join(POINTS_BASE_DIR, year.toString());
+        
+        if (!existsSync(pointsDir)) {
+            console.log(`Skipping ${year}: Directory not found at ${pointsDir}`);
+            continue;
+        }
 
-    const processedWeeks: string[] = [];
+        let files = (await fs.readdir(pointsDir)).filter(f => f.endsWith('.csv'));
+        files.sort();
 
-    for (const file of files) {
-        const weekId = await processWeek(file, cache, apiKey);
-        processedWeeks.push(weekId);
+        if (SPECIFIC_WEEK) {
+            files = files.filter(f => f.includes(SPECIFIC_WEEK));
+        }
+
+        for (const file of files) {
+            // Pass the current year to the processor
+            const weekId = await processWeek(file, year, cache, apiKey);
+            allProcessedWeeks.push(weekId);
+        }
     }
 
     await fs.writeFile(CACHE_PATH, JSON.stringify(cache, null, 2));
 
     if (!SPECIFIC_WEEK) {
-        processedWeeks.sort().reverse();
-        await fs.writeFile(INDEX_PATH, JSON.stringify(processedWeeks, null, 2));
+        allProcessedWeeks.sort().reverse();
+        await fs.writeFile(INDEX_PATH, JSON.stringify(allProcessedWeeks, null, 2));
         
-        if (processedWeeks.length > 0) {
-            const latestSrc = path.join(OUTPUT_DIR, `${processedWeeks[0]}.json`);
+        if (allProcessedWeeks.length > 0) {
+            const latestSrc = path.join(OUTPUT_DIR, `${allProcessedWeeks[0]}.json`);
             const latestDest = path.join(process.cwd(), 'public', 'data', 'latest_chart.json');
             await fs.copyFile(latestSrc, latestDest);
+            console.log(`Updated latest_chart.json to ${allProcessedWeeks[0]}`);
         }
     }
 }

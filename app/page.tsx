@@ -121,8 +121,9 @@ export default async function Home({
           {chart.songs.map((song) => {
             // Logic for Peak Background Color
             let peakBgClass = 'bg-blue-50/50'; // Default
-            if (song.isNewPeak) peakBgClass = 'bg-[#ffe49a]'; // New Peak (Light Yellow)
-            else if (song.isRePeak) peakBgClass = 'bg-[#cdecff]'; // Re-peak (Light Blue)
+            let streakColorClass = 'text-gray-400'; // Default
+            if (song.isNewPeak) {peakBgClass = 'bg-[#ffe49a]'; streakColorClass = 'text-[#7e3d01]';} // New Peak (Light Yellow)
+            else if (song.isRePeak) {peakBgClass = 'bg-[#cdecff]'; streakColorClass = 'text-[#024da0]';} // Re-peak (Light Blue)
 
             return (
               <div 
@@ -168,7 +169,7 @@ export default async function Home({
                 {/* Chart Stats with Dynamic Background */}
                 <div className={`text-center h-full flex flex-col justify-center border-l border-white ${peakBgClass}`}>
                   <div className="font-bold leading-none text-gray-700">{song.peak}</div>
-                  {song.peakStreak && <div className="text-[9px] text-gray-500 font-bold uppercase mt-0.5">{song.peakStreak}x</div>}
+                  {song.peakStreak && <div className={`text-[9px] ${streakColorClass} font-bold uppercase mt-0.5`}>{song.peakStreak}x</div>}
                 </div>
                 <div className="text-center text-gray-400 font-medium text-xs">{song.woc}</div>
 
