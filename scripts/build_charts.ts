@@ -7,7 +7,7 @@ import { existsSync } from 'fs';
 dotenv.config(); // Load environment variables (API Key)
 
 // --- CONFIGURATION ---
-const YEAR = 2026;
+const YEAR = 2025;
 const CHART_LIMIT = 100;
 const SPECIFIC_WEEK: string | null = null; // Set to null to process ALL weeks
 // const SPECIFIC_WEEK: string | null = null; 
