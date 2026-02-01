@@ -8,7 +8,7 @@ type Song = {
   title: string;
   artist: string;
   coverUrl: string;
-  status: 'rise' | 'fall' | 'stable' | 'new';
+  status: 'rise' | 'fall' | 'stable' | 'new' | 're';
   change: number;
   points: number;
   pointsPct: string;
@@ -138,6 +138,7 @@ export default async function Home({
               
               {/* Change Indicator */}
               <div className="text-center font-bold text-xs">
+                {song.status === 're' && <span className="text-blue-600 bg-blue-50 px-1 rounded">RE</span>}
                 {song.status === 'new' && <span className="text-blue-600 bg-blue-50 px-1 rounded">NEW</span>}
                 {song.status === 'stable' && <span className="text-gray-300 text-xl leading-none">=</span>}
                 {song.status === 'rise' && <span className="text-green-600">+{song.change}</span>}

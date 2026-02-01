@@ -28,7 +28,7 @@ interface SongEntry {
   album: string;
   coverUrl: string;
   lastWeek: number | null;
-  status: 'rise' | 'fall' | 'stable' | 'new';
+  status: 'rise' | 'fall' | 'stable' | 'new' | 're';
   change: number;
   points: number;
   pointsPct: string;
@@ -122,6 +122,7 @@ async function processWeek(filename: string, cache: AlbumCache, apiKey: string) 
     // 4. Transform Data to JSON format
     const songs: SongEntry[] = topRecords.map((row: any) => {
         const rank = parseInt(row.Position);
+        const woc = parseInt(row.WOC);
         const lastWeekRaw = row['Previous Rank'];
         const lastWeek = (lastWeekRaw && lastWeekRaw !== '--') ? parseInt(lastWeekRaw) : null;
         
@@ -130,7 +131,11 @@ async function processWeek(filename: string, cache: AlbumCache, apiKey: string) 
         let change = 0;
         
         if (lastWeek === null) {
-            status = 'new';
+            if (woc === 1) {
+                status = 'new';
+            } else {
+                status = 're';
+            }
         } else if (rank < lastWeek) {
             status = 'rise';
             change = lastWeek - rank;
