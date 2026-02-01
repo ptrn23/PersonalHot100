@@ -88,7 +88,7 @@ export default async function Home() {
           {/* Rows */}
           {chart.songs.map((song) => (
             <div 
-              key={song.title} 
+              key={song.title + song.artist} 
               className="grid grid-cols-[3rem_3rem_1fr_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] items-center border-b border-gray-100 hover:bg-gray-50 h-14"
             >
               {/* Rank */}
