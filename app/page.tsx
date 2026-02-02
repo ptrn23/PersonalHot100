@@ -73,7 +73,7 @@ const formatDateRange = (year: string, weekDate: string) => {
     day: 'numeric', 
     year: 'numeric' 
   };
-  
+
   const startStr = startDate.toLocaleDateString('en-US', options);
   const endStr = endDate.toLocaleDateString('en-US', options);
 
@@ -114,10 +114,9 @@ export default async function Home({
                 Week of {formatDateRange(chart.meta.year, chart.meta.week)}
               </p>
             </div>
-            <WeekSelector weeks={availableWeeks} activeWeek={activeWeek} />
           </div>
           <div className="text-right">
-            <div className="text-sm font-bold text-red-500">DEVELOPER MODE</div>
+            <WeekSelector weeks={availableWeeks} activeWeek={activeWeek} />
           </div>
         </header>
         
