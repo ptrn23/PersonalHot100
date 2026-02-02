@@ -24,6 +24,10 @@ type Song = {
   airplay: number;
   airplayPct: string;
   units: number;
+  isTopSales: boolean;
+  isTopStreams: boolean;
+  isTopAirplay: boolean;
+  isTopUnits: boolean;
 };
 
 type ChartData = {
@@ -96,7 +100,7 @@ export default async function Home({
       <div className="min-h-screen flex flex-col items-center justify-center p-10">
         <h1 className="text-2xl font-bold mb-4">No Data Found</h1>
         <p className="mb-4">Could not load chart for week: {activeWeek}</p>
-        <p className="text-sm text-gray-500">Try running: <code className="bg-gray-100 p-1">npx tsx scripts/build-charts.ts</code></p>
+        <p className="text-sm text-gray-500">Try running: <code className="bg-gray-100 p-1">npx tsx scripts/build_charts.ts</code></p>
       </div>
     );
   }
@@ -194,32 +198,36 @@ export default async function Home({
                 </div>
                 <div className="text-center text-gray-400 font-medium text-xs">{song.woc}</div>
 
-                {/* Sales */}
-                <div className="text-center bg-[#fff0ad] h-full flex items-center justify-center font-medium border-l border-[#fff0ad] text-gray-700">
+                {/* Sales (Yellow) */}
+                <div className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700 
+                  ${song.isTopSales ? 'bg-[#f8e285] font-bold' : 'bg-[#fff0ad] font-medium'}`}>
                   {formatNumber(song.sales)}
                 </div>
                 <div className="text-center bg-[#fff0ad] h-full flex items-center justify-center text-xs text-gray-400 border-l border-[#fff0ad]">
                   {Math.round(parseFloat(song.salesPct) * 100)}%
                 </div>
 
-                {/* Streams */}
-                <div className="text-center bg-[#d5f7bb] h-full flex items-center justify-center font-medium border-l border-[#d5f7bb] text-gray-700">
+                {/* Streams (Green) */}
+                <div className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700
+                  ${song.isTopStreams ? 'bg-[#bcf08e] font-bold' : 'bg-[#d5f7bb] font-medium'}`}>
                   {formatNumber(song.streams)}
                 </div>
                 <div className="text-center bg-[#d5f7bb] h-full flex items-center justify-center text-xs text-gray-400 border-l border-[#d5f7bb]">
                   {Math.round(parseFloat(song.streamsPct) * 100)}%
                 </div>
 
-                {/* Airplay */}
-                <div className="text-center bg-[#b4e3ff] h-full flex items-center justify-center font-medium border-l border-[#b4e3ff] text-gray-700">
+                {/* Airplay (Blue) */}
+                <div className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700
+                  ${song.isTopAirplay ? 'bg-[#9adafe] font-bold' : 'bg-[#b4e3ff] font-medium'}`}>
                   {formatNumber(song.airplay)}
                 </div>
                 <div className="text-center bg-[#b4e3ff] h-full flex items-center justify-center text-xs text-gray-400 border-l border-[#b4e3ff]">
                   {Math.round(parseFloat(song.airplayPct) * 100)}%
                 </div>
 
-                 {/* Units */}
-                 <div className="text-center bg-[#e7d6ff] h-full flex items-center justify-center font-bold text-purple-900 border-l border-[#e7d6ff]">
+                 {/* Units (Purple) */}
+                 <div className={`text-center h-full flex items-center justify-center border-l border-white text-purple-900
+                  ${song.isTopUnits ? 'bg-[#dcace8] font-bold' : 'bg-[#e7d6ff] font-bold'}`}>
                   {formatNumber(song.units)}
                 </div>
 

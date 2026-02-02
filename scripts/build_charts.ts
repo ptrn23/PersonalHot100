@@ -40,6 +40,10 @@ interface SongEntry {
   airplay: number;
   airplayPct: string;
   units: number;
+  isTopSales: boolean;
+  isTopStreams: boolean;
+  isTopAirplay: boolean;
+  isTopUnits: boolean;
 }
 
 interface RawCsvRow {
@@ -177,11 +181,26 @@ async function processWeek(filename: string, year: number, cache: AlbumCache, ap
             streamsPct: row['Streams %'] || '-',
             airplay: parseNum(row['Airplay Units']),
             airplayPct: row['Airplay %'] || '-',
-            units: parseNum(row['Total Units'])
+            units: parseNum(row['Total Units']),
+            isTopSales: false,
+            isTopStreams: false,
+            isTopAirplay: false,
+            isTopUnits: false,
         };
     });
 
-    // 4. UPDATED: Output filename uses the specific year
+    const maxSales = Math.max(...songs.map(s => s.sales));
+    const maxStreams = Math.max(...songs.map(s => s.streams));
+    const maxAirplay = Math.max(...songs.map(s => s.airplay));
+    const maxUnits = Math.max(...songs.map(s => s.units));
+
+    songs.forEach(song => {
+        song.isTopSales = song.sales > 0 && song.sales === maxSales;
+        song.isTopStreams = song.streams > 0 && song.streams === maxStreams;
+        song.isTopAirplay = song.airplay > 0 && song.airplay === maxAirplay;
+        song.isTopUnits = song.units > 0 && song.units === maxUnits;
+    });
+
     const outputData = {
         meta: { 
             year: year, 
