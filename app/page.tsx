@@ -58,6 +58,28 @@ const formatNumber = (num: number) => {
   return num.toString();
 };
 
+const formatDateRange = (year: string, weekDate: string) => {
+  const [monthStr, dayStr] = weekDate.split('-');
+  const month = parseInt(monthStr, 10) - 1;
+  const day = parseInt(dayStr, 10);
+  const yearNum = parseInt(year, 10);
+
+  const startDate = new Date(yearNum, month, day);
+  const endDate = new Date(startDate);
+  endDate.setDate(startDate.getDate() + 6);
+
+  const options: Intl.DateTimeFormatOptions = { 
+    month: 'long', 
+    day: 'numeric', 
+    year: 'numeric' 
+  };
+  
+  const startStr = startDate.toLocaleDateString('en-US', options);
+  const endStr = endDate.toLocaleDateString('en-US', options);
+
+  return `${startStr} - ${endStr}`;
+};
+
 // --- COMPONENT ---
 export default async function Home({
   searchParams,
@@ -89,7 +111,7 @@ export default async function Home({
             <div>
               <h1 className="text-4xl font-black uppercase tracking-tighter leading-none">Personal Hot 100</h1>
               <p className="text-gray-500 font-bold uppercase tracking-widest text-xs mt-1">
-                Week of {chart.meta.week}, {chart.meta.year}
+                Week of {formatDateRange(chart.meta.year, chart.meta.week)}
               </p>
             </div>
             <WeekSelector weeks={availableWeeks} activeWeek={activeWeek} />
