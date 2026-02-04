@@ -72,6 +72,11 @@ interface AlbumCache {
   [key: string]: string;
 }
 
+// --- CONSTANTS ---
+const CHART_NAME = "Personal";
+const MILESTONE_WEEKS = new Set([20, 30, 40, 50, 60, 70, 80, 90, 100]);
+const SPECIAL_MILESTONES: { [key: number]: string } = { 52: "one year", 104: "two years" };
+
 // --- HELPERS ---
 const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
 
@@ -92,6 +97,12 @@ async function fetchCoverFromLastFM(artist: string, album: string, apiKey: strin
   } catch (error) { }
   return '';
 }
+
+const ordinal = (n: number) => {
+    const s = ["th", "st", "nd", "rd"];
+    const v = n % 100;
+    return n + (s[(v - 20) % 10] || s[v] || s[0]);
+};
 
 // --- MAIN PROCESSOR ---
 async function processWeek(filename: string, year: number, cache: AlbumCache, apiKey: string) {
