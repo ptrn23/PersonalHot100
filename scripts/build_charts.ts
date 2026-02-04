@@ -44,6 +44,7 @@ interface SongEntry {
   isTopStreams: boolean;
   isTopAirplay: boolean;
   isTopUnits: boolean;
+  feed?: string[];
 }
 
 interface RawCsvRow {
@@ -103,6 +104,91 @@ const ordinal = (n: number) => {
     const v = n % 100;
     return n + (s[(v - 20) % 10] || s[v] || s[0]);
 };
+
+function generateFeed(songs: SongEntry[]) {
+    const getPct = (s: SongEntry) => s.pointsPct === '--' ? -Infinity : parseFloat(s.pointsPct.replace('%',''));
+    const getRise = (s: SongEntry) => s.status === 'rise' ? s.change : -Infinity;
+    const getFall = (s: SongEntry) => s.status === 'fall' ? s.change : -Infinity; 
+    const getFallPct = (s: SongEntry) => s.pointsPct === '--' ? Infinity : parseFloat(s.pointsPct.replace('%',''));
+
+    songs.forEach(s => s.feed = []);
+
+    songs.forEach(song => {
+        // Debut
+        if (song.status === 'new') {
+            song.feed!.push(`Debuts at #${song.rank}.`);
+        }
+        
+        // Re-entry
+        else if (song.status === 're') {
+            if (song.isNewPeak) {
+                song.feed!.push(`Reaches a new peak, reentering at #${song.rank}.`);
+            } else {
+                song.feed!.push(`Reenters chart at #${song.rank}.`);
+            }
+        }
+
+        // #1 Updates
+        if (song.rank === 1 && song.lastWeek) {
+            const streak = parseInt(song.peakStreak) || 1;
+            if (song.peakStreak === '1' || streak === 1) { 
+                 if(song.peak === '1') song.feed!.push(`Reaches #1 for the first time.`);
+            } else if (song.lastWeek === 1) {
+                song.feed!.push(`Spends a ${ordinal(streak)} week at #1.`);
+            } else {
+                song.feed!.push(`Returns to #1 for a ${ordinal(streak)} nonconsecutive week.`);
+            }
+        }
+
+        // Milestones
+        const woc = typeof song.woc === 'number' ? song.woc : parseInt(song.woc) || 0;
+        if (SPECIAL_MILESTONES[woc]) {
+            song.feed!.push(`Has now completed ${SPECIAL_MILESTONES[woc]} (${woc} weeks).`);
+        } else if (MILESTONE_WEEKS.has(woc)) {
+            song.feed!.push(`Spends its ${ordinal(woc)} week on the chart.`);
+        }
+
+        // Climbers (New Peak) - Excluding Debuts/Re-entries
+        if (song.status === 'rise' && song.isNewPeak) {
+            song.feed!.push(`Reaches a new peak, rising ${song.change} spot${song.change !== 1 ? 's' : ''} to #${song.rank}.`);
+        }
+
+        // Top 10/5 Climbers
+        if (song.status === 'rise' && song.lastWeek) {
+            if (song.rank <= 5 && song.lastWeek > 5) {
+                song.feed!.push(`Climbs inside the top 5, rising ${song.change} spot${song.change !== 1 ? 's' : ''} to #${song.rank}.`);
+            } else if (song.rank <= 10 && song.lastWeek > 10) {
+                 song.feed!.push(`Climbs inside the top 10, rising ${song.change} spot${song.change !== 1 ? 's' : ''} to #${song.rank}.`);
+            }
+        }
+    });
+
+    // Biggest % Gainer
+    const bigPctGainer = songs.reduce((prev, curr) => getPct(curr) > getPct(prev) ? curr : prev, songs[0]);
+    if (getPct(bigPctGainer) > 0) { 
+        const pct = Math.round(getPct(bigPctGainer) * 100);
+        bigPctGainer.feed!.push(`Biggest percentage gainer (+${pct}%).`);
+    }
+
+    // Biggest Position Gainer
+    const bigPosGainer = songs.reduce((prev, curr) => getRise(curr) > getRise(prev) ? curr : prev, songs[0]);
+    if (bigPosGainer.status === 'rise') {
+        bigPosGainer.feed!.push(`Biggest position gainer (+${bigPosGainer.change} spots).`);
+    }
+
+    // Biggest % Faller
+    const bigPctFaller = songs.reduce((prev, curr) => getFallPct(curr) < getFallPct(prev) ? curr : prev, songs[0]);
+    if (getFallPct(bigPctFaller) < 0 && getFallPct(bigPctFaller) !== Infinity) {
+         const pct = Math.abs(Math.round(getFallPct(bigPctFaller) * 100));
+         bigPctFaller.feed!.push(`Biggest percentage faller (-${pct}%).`);
+    }
+
+    // Biggest Position Faller
+    const bigPosFaller = songs.reduce((prev, curr) => getFall(curr) > getFall(prev) ? curr : prev, songs[0]);
+    if (bigPosFaller.status === 'fall') {
+         bigPosFaller.feed!.push(`Biggest drop of the week (-${bigPosFaller.change} spots).`);
+    }
+}
 
 // --- MAIN PROCESSOR ---
 async function processWeek(filename: string, year: number, cache: AlbumCache, apiKey: string) {
