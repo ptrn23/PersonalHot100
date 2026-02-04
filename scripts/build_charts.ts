@@ -110,21 +110,21 @@ function generateFeed(songs: SongEntry[]) {
     const getRise = (s: SongEntry) => s.status === 'rise' ? s.change : -Infinity;
     const getFall = (s: SongEntry) => s.status === 'fall' ? s.change : -Infinity; 
     const getFallPct = (s: SongEntry) => s.pointsPct === '--' ? Infinity : parseFloat(s.pointsPct.replace('%',''));
-
+    
     songs.forEach(s => s.feed = []);
 
     songs.forEach(song => {
         // Debut
         if (song.status === 'new') {
-            song.feed!.push(`Debuts at #${song.rank}.`);
+            song.feed!.push(`“${song.title}” by ${song.artist} debuts at #${song.rank} in ${CHART_NAME} Hot 100.`);
         }
         
         // Re-entry
         else if (song.status === 're') {
             if (song.isNewPeak) {
-                song.feed!.push(`Reaches a new peak, reentering at #${song.rank}.`);
+                song.feed!.push(`“${song.title}” by ${song.artist} reaches a new peak in ${CHART_NAME} Hot 100, reentering at #${song.rank}.`);
             } else {
-                song.feed!.push(`Reenters chart at #${song.rank}.`);
+                song.feed!.push(`“${song.title}” by ${song.artist} reenters ${CHART_NAME} Hot 100 at #${song.rank}.`);
             }
         }
 
@@ -132,61 +132,63 @@ function generateFeed(songs: SongEntry[]) {
         if (song.rank === 1 && song.lastWeek) {
             const streak = parseInt(song.peakStreak) || 1;
             if (song.peakStreak === '1' || streak === 1) { 
-                 if(song.peak === '1') song.feed!.push(`Reaches #1 for the first time.`);
+                 if(song.peak === '1') song.feed!.push(`“${song.title}” by ${song.artist} reaches #1 in the ${CHART_NAME} Hot 100 for the first time.`);
             } else if (song.lastWeek === 1) {
-                song.feed!.push(`Spends a ${ordinal(streak)} week at #1.`);
+                song.feed!.push(`“${song.title}” by ${song.artist} spends a ${ordinal(streak)} week at #1 in the ${CHART_NAME} Hot 100.`);
             } else {
-                song.feed!.push(`Returns to #1 for a ${ordinal(streak)} nonconsecutive week.`);
+                song.feed!.push(`“${song.title}” by ${song.artist} returns to #1 in the ${CHART_NAME} Hot 100 for a ${ordinal(streak)} nonconsecutive week at the top.`);
             }
         }
 
         // Milestones
         const woc = typeof song.woc === 'number' ? song.woc : parseInt(song.woc) || 0;
         if (SPECIAL_MILESTONES[woc]) {
-            song.feed!.push(`Has now completed ${SPECIAL_MILESTONES[woc]} (${woc} weeks).`);
+            song.feed!.push(`“${song.title}” by ${song.artist} has now completed ${SPECIAL_MILESTONES[woc]} (${woc} weeks of charting) in ${CHART_NAME} Hot 100.`);
         } else if (MILESTONE_WEEKS.has(woc)) {
-            song.feed!.push(`Spends its ${ordinal(woc)} week on the chart.`);
+            song.feed!.push(`“${song.title}” by ${song.artist} spends its ${ordinal(woc)} week in ${CHART_NAME} Hot 100 this week.`);
         }
 
         // Climbers (New Peak) - Excluding Debuts/Re-entries
         if (song.status === 'rise' && song.isNewPeak) {
-            song.feed!.push(`Reaches a new peak, rising ${song.change} spot${song.change !== 1 ? 's' : ''} to #${song.rank}.`);
+            song.feed!.push(`“${song.title}” by ${song.artist} reaches a new peak in ${CHART_NAME} Hot 100, rising ${song.change} spot${song.change !== 1 ? 's' : ''} to #${song.rank}.`);
         }
 
         // Top 10/5 Climbers
         if (song.status === 'rise' && song.lastWeek) {
             if (song.rank <= 5 && song.lastWeek > 5) {
-                song.feed!.push(`Climbs inside the top 5, rising ${song.change} spot${song.change !== 1 ? 's' : ''} to #${song.rank}.`);
+                song.feed!.push(`“${song.title}” by ${song.artist} climbs inside the top 5 of ${CHART_NAME} Hot 100, rising ${song.change} spot${song.change !== 1 ? 's' : ''} to #${song.rank}.`);
             } else if (song.rank <= 10 && song.lastWeek > 10) {
-                 song.feed!.push(`Climbs inside the top 10, rising ${song.change} spot${song.change !== 1 ? 's' : ''} to #${song.rank}.`);
+                 song.feed!.push(`“${song.title}” by ${song.artist} climbs inside the top 10 of ${CHART_NAME} Hot 100, rising ${song.change} spot${song.change !== 1 ? 's' : ''} to #${song.rank}.`);
             }
         }
     });
 
+    // 4. Superlatives (Find the winner, then attach the feed to THEM)
+    
     // Biggest % Gainer
     const bigPctGainer = songs.reduce((prev, curr) => getPct(curr) > getPct(prev) ? curr : prev, songs[0]);
     if (getPct(bigPctGainer) > 0) { 
         const pct = Math.round(getPct(bigPctGainer) * 100);
-        bigPctGainer.feed!.push(`Biggest percentage gainer (+${pct}%).`);
+        bigPctGainer.feed!.push(`“${bigPctGainer.title}” by ${bigPctGainer.artist} is the biggest percentage gainer in ${CHART_NAME} Hot 100 this week, rising ${pct}% to ${Math.round(bigPctGainer.points)} points.`);
     }
 
     // Biggest Position Gainer
     const bigPosGainer = songs.reduce((prev, curr) => getRise(curr) > getRise(prev) ? curr : prev, songs[0]);
     if (bigPosGainer.status === 'rise') {
-        bigPosGainer.feed!.push(`Biggest position gainer (+${bigPosGainer.change} spots).`);
+        bigPosGainer.feed!.push(`“${bigPosGainer.title}” by ${bigPosGainer.artist} is the biggest position gainer in ${CHART_NAME} Hot 100 this week, rising ${bigPosGainer.change} spot${bigPosGainer.change !== 1 ? 's' : ''} to #${bigPosGainer.rank}.`);
     }
 
     // Biggest % Faller
     const bigPctFaller = songs.reduce((prev, curr) => getFallPct(curr) < getFallPct(prev) ? curr : prev, songs[0]);
     if (getFallPct(bigPctFaller) < 0 && getFallPct(bigPctFaller) !== Infinity) {
          const pct = Math.abs(Math.round(getFallPct(bigPctFaller) * 100));
-         bigPctFaller.feed!.push(`Biggest percentage faller (-${pct}%).`);
+         bigPctFaller.feed!.push(`“${bigPctFaller.title}” by ${bigPctFaller.artist} is the biggest percentage faller in ${CHART_NAME} Hot 100 this week, dropping ${pct}% to ${Math.round(bigPctFaller.points)} points.`);
     }
 
     // Biggest Position Faller
     const bigPosFaller = songs.reduce((prev, curr) => getFall(curr) > getFall(prev) ? curr : prev, songs[0]);
     if (bigPosFaller.status === 'fall') {
-         bigPosFaller.feed!.push(`Biggest drop of the week (-${bigPosFaller.change} spots).`);
+         bigPosFaller.feed!.push(`“${bigPosFaller.title}” by ${bigPosFaller.artist} drops ${bigPosFaller.change} spot${bigPosFaller.change !== 1 ? 's' : ''} to #${bigPosFaller.rank} — the biggest drop this week in ${CHART_NAME} Hot 100.`);
     }
 }
 
@@ -297,6 +299,8 @@ async function processWeek(filename: string, year: number, cache: AlbumCache, ap
         song.isTopAirplay = song.airplay > 0 && song.airplay === maxAirplay;
         song.isTopUnits = song.units > 0 && song.units === maxUnits;
     });
+
+    generateFeed(songs);
 
     const outputData = {
         meta: { 
