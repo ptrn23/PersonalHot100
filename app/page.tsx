@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import WeekSelector from './components/WeekSelector';
+import FeedTooltip from './components/FeedTooltip';
 
 // --- TYPES ---
 type Song = {
@@ -180,12 +181,10 @@ export default async function Home({
                   </div>
                 </div>
 
+                {/* Feed Indicator Column */}
                 <div className="flex items-center justify-center h-full">
                   {song.feed && song.feed.length > 0 && (
-                    <div className="relative flex h-2.5 w-2.5 group/feed cursor-help" title={song.feed[0]}>
-                      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
-                      <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-blue-500"></span>
-                    </div>
+                    <FeedTooltip feed={song.feed} />
                   )}
                 </div>
 
