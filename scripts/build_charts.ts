@@ -190,6 +190,38 @@ function generateFeed(songs: SongEntry[]) {
     if (bigPosFaller.status === 'fall') {
          bigPosFaller.feed!.push(`“${bigPosFaller.title}” by ${bigPosFaller.artist} drops ${bigPosFaller.change} spot${bigPosFaller.change !== 1 ? 's' : ''} to #${bigPosFaller.rank} — the biggest drop this week in ${CHART_NAME} Hot 100.`);
     }
+
+    // Biggest Sales Gainer
+    if (songs.some(s => s.isTopSales)) {
+        const topSalesSongs = songs.filter(s => s.isTopSales);
+        topSalesSongs.forEach(s => {
+            s.feed!.push(`“${s.title}” by ${s.artist} is the #1 best selling song in ${CHART_NAME} Hot 100 this week with ${s.sales.toLocaleString()} sales units.`);
+        });
+    }
+
+    // Biggest Streams Gainer
+    if (songs.some(s => s.isTopStreams)) {
+        const topStreamsSongs = songs.filter(s => s.isTopStreams);
+        topStreamsSongs.forEach(s => {
+            s.feed!.push(`“${s.title}” by ${s.artist} is the #1 most streamed song in ${CHART_NAME} Hot 100 this week with ${s.streams.toLocaleString()} streams units.`);
+        });
+    }
+
+    // Biggest Airplay Gainer
+    if (songs.some(s => s.isTopAirplay)) {
+        const topAirplaySongs = songs.filter(s => s.isTopAirplay);
+        topAirplaySongs.forEach(s => {
+            s.feed!.push(`“${s.title}” by ${s.artist} is the #1 most airplayed song in ${CHART_NAME} Hot 100 this week with ${s.airplay.toLocaleString()} airplay units.`);
+        });
+    }
+
+    // Biggest Units Gainer
+    if (songs.some(s => s.isTopUnits)) {
+        const topUnitsSongs = songs.filter(s => s.isTopUnits);
+        topUnitsSongs.forEach(s => {
+            s.feed!.push(`“${s.title}” by ${s.artist} is the #1 overall units gainer in ${CHART_NAME} Hot 100 this week with ${s.units.toLocaleString()} total units.`);
+        });
+    }
 }
 
 // --- MAIN PROCESSOR ---
