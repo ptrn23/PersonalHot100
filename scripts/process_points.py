@@ -11,7 +11,7 @@ from models.song import Song
 def main():
     years = [str(year) for year in range(2020, 2027)]
     chart_limit = 100
-    charted_cache_file = "points/ever_charted.csv"
+    charted_cache_file = "/home/ptrn23/personal-hot-100/scripts/points/ever_charted.csv"
     
     # initialize services
     calculator = PointsCalculator()
@@ -20,8 +20,8 @@ def main():
     
     # process each year
     for year in years:
-        plays_dir = f"plays/{year}"
-        points_dir = f"points/{year}"
+        plays_dir = f"/home/ptrn23/personal-hot-100/scripts/plays/{year}"
+        points_dir = f"/home/ptrn23/personal-hot-100/scripts/points/{year}"
         os.makedirs(points_dir, exist_ok=True)
         
         if not os.path.exists(plays_dir):
