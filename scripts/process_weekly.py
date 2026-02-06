@@ -4,8 +4,8 @@ from services.album_cover_service import AlbumCoverService
 from formatters.spreadsheet_formatter import SpreadsheetFormatter
 from repositories.chart_repository import ChartRepository
 
-def process_weekly_charts(year, chart_limit=100, specific_week=None, output_dir="weekly_charts"):
-    points_dir = f"points/{year}"
+def process_weekly_charts(year, chart_limit=100, specific_week=None, output_dir="/home/ptrn23/personal-hot-100/scripts/weekly_charts"):
+    points_dir = f"/home/ptrn23/personal-hot-100/scripts/points/{year}"
     
     if not os.path.exists(points_dir):
         print(f"Points directory not found: {points_dir}")
@@ -75,13 +75,13 @@ def _get_files_to_process(points_dir, specific_week):
 
 def main():
     year = 2026
-    specific_week = "01-23"  # change to None to process all weeks
+    specific_week = "01-30"  # change to None to process all weeks
     
     process_weekly_charts(
         year=year,
         chart_limit=100,
         specific_week=specific_week,
-        output_dir="weekly_charts"
+        output_dir="/home/ptrn23/personal-hot-100/scripts/weekly_charts"
     )
 
 if __name__ == "__main__":
