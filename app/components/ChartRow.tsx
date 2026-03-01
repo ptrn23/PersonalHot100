@@ -112,40 +112,97 @@ export default function ChartRow({ song }: { song: any }) {
       {/* THE DROPDOWN PANEL */}
       {isExpanded && (
         <div className="bg-white border-t border-gray-100 px-8 py-5 text-sm shadow-inner overflow-hidden cursor-default">
-          <h4 className="font-bold text-gray-500 uppercase tracking-wider mb-3 text-xs">Points Calculation Breakdown</h4>
-          
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+            
             {/* Column 1: Raw Scores */}
             <div className="bg-gray-50 p-3 rounded-lg border border-gray-200">
-              <span className="font-bold text-gray-800 text-xs uppercase mb-2 block border-b pb-1">Scrobble Scores</span>
-              <div className="flex justify-between text-gray-600 mb-1"><span>Streams:</span> <span className="font-mono">{formatNumber(song.streams)}</span></div>
-              <div className="flex justify-between text-gray-600 mb-1"><span>Sales:</span> <span className="font-mono">{formatNumber(song.sales)}</span></div>
-              <div className="flex justify-between text-gray-600"><span>Airplay:</span> <span className="font-mono">{formatNumber(song.airplay)}</span></div>
+              <span className="font-bold text-gray-800 text-xs uppercase mb-2 block border-b pb-1">Scores</span>
+              <div className="flex justify-between items-center text-gray-600 mb-1">
+                <span>Streams:</span> <span className="font-mono">{formatNumber(song.streams)}</span>
+              </div>
+              <div className="flex justify-between items-center text-gray-600 mb-1">
+                <span>Sales:</span> <span className="font-mono">{formatNumber(song.sales)}</span>
+              </div>
+              <div className="flex justify-between items-center text-gray-600">
+                <span>Airplay:</span> <span className="font-mono">{formatNumber(song.airplay)}</span>
+              </div>
             </div>
 
             {/* Column 2: Component Points */}
             <div className="bg-gray-50 p-3 rounded-lg border border-gray-200">
-              <span className="font-bold text-gray-800 text-xs uppercase mb-2 block border-b pb-1">Base Points</span>
-              <div className="flex justify-between text-gray-600 mb-1"><span>Streams:</span> <span className="font-mono">{formatNumber(song.streamsPoints)}</span></div>
-              <div className="flex justify-between text-gray-600 mb-1"><span>Sales:</span> <span className="font-mono">{formatNumber(song.salesPoints)}</span></div>
-              <div className="flex justify-between text-gray-600"><span>Airplay:</span> <span className="font-mono">{formatNumber(song.airplayPoints)}</span></div>
+              <span className="font-bold text-gray-800 text-xs uppercase mb-2 block border-b pb-1">Points</span>
+              <div className="flex justify-between items-center text-gray-600 mb-1">
+                <span>Streams:</span> 
+                <span className="font-mono whitespace-nowrap">
+                  <span className="text-gray-400 text-xs">{formatNumber(song.streams)} x 5 = </span>
+                  <span className="text-gray-800">{formatNumber(song.streamsPoints)}</span>
+                </span>
+              </div>
+              <div className="flex justify-between items-center text-gray-600 mb-1">
+                <span>Sales:</span> 
+                <span className="font-mono whitespace-nowrap">
+                  <span className="text-gray-400 text-xs">{formatNumber(song.sales)} x 3 = </span>
+                  <span className="text-gray-800">{formatNumber(song.salesPoints)}</span>
+                </span>
+              </div>
+              <div className="flex justify-between items-center text-gray-600">
+                <span>Airplay:</span> 
+                <span className="font-mono whitespace-nowrap">
+                  <span className="text-gray-400 text-xs">{formatNumber(song.airplay)} x 2 = </span>
+                  <span className="text-gray-800">{formatNumber(song.airplayPoints)}</span>
+                </span>
+              </div>
             </div>
 
-            {/* Column 3: Decay Multipliers */}
+            {/* Column 3: Time Decay */}
             <div className="bg-gray-50 p-3 rounded-lg border border-gray-200">
-              <span className="font-bold text-gray-800 text-xs uppercase mb-2 block border-b pb-1">Time Decay</span>
-              <div className="flex justify-between text-gray-600 mb-1"><span>Current Wk:</span> <span className="font-mono">{formatNumber(song.currentWeekPoints)}</span></div>
-              <div className="flex justify-between text-gray-600 mb-1"><span>W-1 (30%):</span> <span className="font-mono">{formatNumber(song.previousWeekPoints)}</span></div>
-              <div className="flex justify-between text-gray-600"><span>W-2 (20%):</span> <span className="font-mono">{formatNumber(song.twoWeeksAgoPoints)}</span></div>
+              <span className="font-bold text-gray-800 text-xs uppercase mb-2 block border-b pb-1">Decay</span>
+              
+              {/* Row 1 */}
+              <div className="flex justify-between items-center text-gray-600 mb-1">
+                <span className="text-xs pr-2">This week:</span>
+                <span className="font-mono whitespace-nowrap">
+                  <span className="text-gray-400 text-[10px] sm:text-xs">
+                    {formatNumber(song.streamsPoints)} + {formatNumber(song.salesPoints)} + {formatNumber(song.airplayPoints)} = 
+                  </span>
+                  <span className="text-gray-800 ml-1">{formatNumber(song.currentWeekPoints)}</span>
+                </span>
+              </div>
+
+              {/* Row 2 */}
+              <div className="flex justify-between items-center text-gray-600 mb-1">
+                <span className="text-xs pr-2">One week ago:</span>
+                <span className="font-mono whitespace-nowrap">
+                  <span className="text-gray-400 text-[10px] sm:text-xs">
+                    {formatNumber(song.previousWeekPoints === 0 ? 0 : Math.round(song.previousWeekPoints / 0.3))} x 30% = 
+                  </span>
+                  <span className="text-gray-800 ml-1">{formatNumber(song.previousWeekPoints)}</span>
+                </span>
+              </div>
+
+              {/* Row 3 */}
+              <div className="flex justify-between items-center text-gray-600">
+                <span className="text-xs pr-2">Two weeks ago:</span>
+                <span className="font-mono whitespace-nowrap">
+                  <span className="text-gray-400 text-[10px] sm:text-xs">
+                    {formatNumber(song.twoWeeksAgoPoints === 0 ? 0 : Math.round(song.twoWeeksAgoPoints / 0.2))} x 20% = 
+                  </span>
+                  <span className="text-gray-800 ml-1">{formatNumber(song.twoWeeksAgoPoints)}</span>
+                </span>
+              </div>
             </div>
 
             {/* Column 4: Final Total */}
             <div className="bg-blue-50 p-3 rounded-lg border border-blue-200 flex flex-col justify-center items-center">
               <span className="font-bold text-blue-800 text-xs uppercase mb-1">Total Points</span>
-              <span className="text-3xl font-black text-blue-900 tracking-tighter">
+              <span className="text-4xl font-black text-blue-900 tracking-tighter leading-none mb-1">
                 {formatNumber(song.points)}
               </span>
+              <span className="text-[12px] text-blue-600/70 font-mono font-bold tracking-tight">
+                {formatNumber(song.currentWeekPoints)} + {formatNumber(song.previousWeekPoints)} + {formatNumber(song.twoWeeksAgoPoints)}
+              </span>
             </div>
+            
           </div>
         </div>
       )}
