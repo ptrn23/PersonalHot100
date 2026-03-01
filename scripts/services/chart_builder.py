@@ -70,34 +70,36 @@ class ChartBuilder:
             song = data['song']
             streams, sales, airplay = data['streams'], data['sales'], data['airplay']
             
-            # get historical data
-            prev, two_weeks = self._get_past_metrics(key)
+            prev_data, two_weeks_data = self._get_past_data(key)
             
-            # calculate points
             raw_points = self.calculator.calculate_raw_points(streams, sales, airplay)
             weighted_points = self.calculator.calculate_weighted_points(
-                raw_points, prev['pts'], two_weeks['pts']
+                raw_points, 
+                prev_data.get('weighted_points', 0), 
+                two_weeks_data.get('weighted_points', 0)
             )
             
             if weighted_points <= 0:
                 dead_songs.append(key)
                 continue
-                
-            w_streams = floor(streams + floor(prev['str'] * 0.3) + floor(two_weeks['str'] * 0.2))
-            w_sales = floor(sales + floor(prev['sal'] * 0.3) + floor(two_weeks['sal'] * 0.2))
-            w_airplay = floor(airplay + floor(prev['air'] * 0.3) + floor(two_weeks['air'] * 0.2))
+            
+            w_metrics = self.calculator.calculate_weighted_metrics(
+                {'streams': streams, 'sales': sales, 'airplay': airplay},
+                prev_data,
+                two_weeks_data
+            )
             
             scored_songs[key] = weighted_points
             raw_data[key] = {
                 'streams': streams,
                 'sales': sales,
                 'airplay': airplay,
-                'weighted_streams': w_streams,
-                'weighted_sales': w_sales,
-                'weighted_airplay': w_airplay,
+                'weighted_streams': w_metrics['streams'],
+                'weighted_sales': w_metrics['sales'],
+                'weighted_airplay': w_metrics['airplay'],
                 'raw_points': raw_points,
-                'prev_pts': prev['pts'],
-                'two_weeks_pts': two_weeks['pts'],
+                'prev_pts': prev_data.get('weighted_points', 0),
+                'two_weeks_pts': two_weeks_data.get('weighted_points', 0),
                 'weighted_points': weighted_points
             }
             
@@ -144,15 +146,18 @@ class ChartBuilder:
         song_name = self.original_song_names.get(key, key[0])
         artist = key[1]
         album = self.all_songs_history[key]["album"]
+        str = data['streams']
+        sal = data['sales']
+        air = data['airplay']
         w_str = data['weighted_streams']
         w_sal = data['weighted_sales']
         w_air = data['weighted_airplay']
         
         # create song object
         song = Song(song_name, artist, album)
-        song.streams = w_str
-        song.sales = w_sal
-        song.airplay = w_air
+        song.streams = str
+        song.sales = sal
+        song.airplay = air
         
         # create entry
         entry = ChartEntry(song, rank, data['weighted_points'], week_key)
@@ -166,27 +171,20 @@ class ChartBuilder:
         entry.peak_streak = self.all_songs_history[key]["peak_streak"]
         
         # calculate component points
-        components = self.calculator.calculate_component_points(
-            data['streams'], data['sales'], data['airplay']
-        )
+        components = self.calculator.calculate_component_points(str, sal, air)
         entry.streams_points = components['streams']
         entry.sales_points = components['sales']
         entry.airplay_points = components['airplay']
         
         # calculate units
-        units = self.calculator.calculate_units(
-            data['streams'], data['sales'], data['airplay'],
-            song, album, artist
-        )
+        units = self.calculator.calculate_units(w_str, w_sal, w_air, song, album, artist)
         entry.streams_units = units['streams']
         entry.sales_units = units['sales']
         entry.airplay_units = units['airplay']
         entry.total_units = units['total']
         
         # calculate percentages
-        percentages = self.calculator.calculate_percentages(
-            data['streams'], data['sales'], data['airplay']
-        )
+        percentages = self.calculator.calculate_percentages(w_str, w_sal, w_air)
         entry.streams_percent = percentages['streams']
         entry.sales_percent = percentages['sales']
         entry.airplay_percent = percentages['airplay']
@@ -213,24 +211,24 @@ class ChartBuilder:
         
         return entry
     
-    def _get_past_metrics(self, song_key):
-        """get metrics from previous weeks for decay calculation"""
-        prev = {'pts': 0, 'str': 0, 'sal': 0, 'air': 0}
-        two_weeks = {'pts': 0, 'str': 0, 'sal': 0, 'air': 0}
+    def _get_past_data(self, song_key):
+        """get data dictionary from previous weeks"""
+        prev_data = {}
+        two_weeks_data = {}
         
         if len(self.ranked_weeks) >= 1:
             for key, rank, points, data in self.ranked_weeks[-1][1]:
                 if key == song_key:
-                    prev = {'pts': points, 'str': data['weighted_streams'], 'sal': data['weighted_sales'], 'air': data['weighted_airplay']}
+                    prev_data = data
                     break
                     
         if len(self.ranked_weeks) >= 2:
             for key, rank, points, data in self.ranked_weeks[-2][1]:
                 if key == song_key:
-                    two_weeks = {'pts': points, 'str': data['weighted_streams'], 'sal': data['weighted_sales'], 'air': data['weighted_airplay']}
+                    two_weeks_data = data
                     break
                     
-        return prev, two_weeks
+        return prev_data, two_weeks_data
     
     def _get_previous_week_positions(self):
         """get position map from previous week"""

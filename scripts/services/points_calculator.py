@@ -23,6 +23,20 @@ class PointsCalculator:
             floor(two_weeks_ago_points * 0.2)
         )
     
+    def calculate_weighted_metrics(self, current, prev_data, two_weeks_data):
+        """decay streams, sales, and airplay so carry-over songs retain stats"""
+        return {
+            'streams': floor(current.get('streams', 0) + 
+                             floor(prev_data.get('weighted_streams', 0) * 0.3) + 
+                             floor(two_weeks_data.get('weighted_streams', 0) * 0.2)),
+            'sales': floor(current.get('sales', 0) + 
+                           floor(prev_data.get('weighted_sales', 0) * 0.3) + 
+                           floor(two_weeks_data.get('weighted_sales', 0) * 0.2)),
+            'airplay': floor(current.get('airplay', 0) + 
+                             floor(prev_data.get('weighted_airplay', 0) * 0.3) + 
+                             floor(two_weeks_data.get('weighted_airplay', 0) * 0.2))
+        }
+    
     def calculate_component_points(self, streams, sales, airplay):
         """calculate individual component points"""
         return {
