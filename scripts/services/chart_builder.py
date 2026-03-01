@@ -63,6 +63,7 @@ class ChartBuilder:
         # calculate points
         scored_songs = {}
         raw_data = {}
+        dead_songs = []
         
         for key, data in aggregated.items():
             song = data['song']
@@ -76,6 +77,11 @@ class ChartBuilder:
             weighted_points = self.calculator.calculate_weighted_points(
                 raw_points, prev_pts, two_weeks_pts
             )
+
+            if weighted_points <= 0:
+                dead_songs.append(key)
+                # print(f"  [-] Evicted: {song.name} by {song.artist} | Raw: {raw_points}, W-1: {prev_pts}, W-2: {two_weeks_pts}")
+                continue
             
             scored_songs[key] = weighted_points
             raw_data[key] = {
@@ -91,6 +97,10 @@ class ChartBuilder:
             # update album
             if not self.all_songs_history[key]["album"]:
                 self.all_songs_history[key]["album"] = song.album
+        
+        for key in dead_songs:
+            if key in self.active_songs:
+                del self.active_songs[key]
         
         # rank songs
         ranked = sorted(
