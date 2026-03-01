@@ -18,6 +18,7 @@ class ChartBuilder:
             "peak_streak": 0,
             "album": ""
         })
+        self.active_songs = {}
         self.ranked_weeks = []
         self.original_song_names = {}
         self.charted_cache = {}
@@ -35,24 +36,29 @@ class ChartBuilder:
     
     def build_weekly_chart(self, weekly_plays, week_key):
         """build a chart from weekly play data"""
+        for play in weekly_plays.values():
+            key = play.song.key
+            if key not in self.active_songs:
+                self.active_songs[key] = play.song
+                self.original_song_names[key] = play.song.name
+
         # aggregate by song key
         aggregated = {}
+        for key, song in self.active_songs.items():
+            aggregated[key] = {
+                'song': song,
+                'streams': 0,
+                'sales': 0,
+                'airplay': 0
+            }
+
         for play in weekly_plays.values():
-            song = play.song
-            key = song.key
-            
-            if key not in aggregated:
-                aggregated[key] = {
-                    'song': song,
-                    'streams': 0,
-                    'sales': 0,
-                    'airplay': 0
-                }
-                self.original_song_names[key] = song.name
-            
+            key = play.song.key
             aggregated[key]['streams'] += play.streams
             aggregated[key]['sales'] += play.sales
             aggregated[key]['airplay'] += play.airplay
+        
+        print(f"Saved weekly points: {week_key}. Songs: {len(self.active_songs)}")
         
         # calculate points
         scored_songs = {}
