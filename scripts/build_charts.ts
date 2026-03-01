@@ -45,6 +45,12 @@ interface SongEntry {
   isTopAirplay: boolean;
   isTopUnits: boolean;
   feed?: string[];
+  streamsPoints: number;
+  salesPoints: number;
+  airplayPoints: number;
+  currentWeekPoints: number;
+  previousWeekPoints: number;
+  twoWeeksAgoPoints: number;
 }
 
 interface RawCsvRow {
@@ -67,6 +73,12 @@ interface RawCsvRow {
   'Airplay Units': string;
   'Airplay %': string;
   'Total Units': string;
+  'Streams Points': string;
+  'Sales Points': string;
+  'Airplay Points': string;
+  'Current Week Points': string;
+  'Previous Week Points': string;
+  'Two Weeks Ago Points': string;
 }
 
 interface AlbumCache {
@@ -317,6 +329,12 @@ async function processWeek(filename: string, year: number, cache: AlbumCache, ap
             isTopStreams: false,
             isTopAirplay: false,
             isTopUnits: false,
+            streamsPoints: parseNum(row['Streams Points']),
+            salesPoints: parseNum(row['Sales Points']),
+            airplayPoints: parseNum(row['Airplay Points']),
+            currentWeekPoints: parseNum(row['Current Week Points']),
+            previousWeekPoints: parseNum(row['Previous Week Points']),
+            twoWeeksAgoPoints: parseNum(row['Two Weeks Ago Points']),
         };
     });
 
