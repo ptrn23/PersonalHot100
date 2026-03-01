@@ -33,11 +33,11 @@ interface SongEntry {
   isNewPeak: boolean;
   isRePeak: boolean;
   woc: string;
-  sales: number;
+  salesUnits: number;
   salesPct: string;
-  streams: number;
+  streamsUnits: number;
   streamsPct: string;
-  airplay: number;
+  airplayUnits: number;
   airplayPct: string;
   units: number;
   isTopSales: boolean;
@@ -45,6 +45,9 @@ interface SongEntry {
   isTopAirplay: boolean;
   isTopUnits: boolean;
   feed?: string[];
+  streams: number;
+  sales: number;
+  airplay: number;
   streamsPoints: number;
   salesPoints: number;
   airplayPoints: number;
@@ -73,6 +76,9 @@ interface RawCsvRow {
   'Airplay Units': string;
   'Airplay %': string;
   'Total Units': string;
+  'Streams': string;
+  'Sales': string;
+  'Airplay': string;
   'Streams Points': string;
   'Sales Points': string;
   'Airplay Points': string;
@@ -318,17 +324,20 @@ async function processWeek(filename: string, year: number, cache: AlbumCache, ap
             isNewPeak: row['New Peak?'] === 'True',
             isRePeak: row['Re-peak?'] === 'True',
             woc: row.WOC || '-',
-            sales: parseNum(row['Sales Units']),
+            salesUnits: parseNum(row['Sales Units']),
             salesPct: row['Sales %'] || '-',
-            streams: parseNum(row['Streams Units']),
+            streamsUnits: parseNum(row['Streams Units']),
             streamsPct: row['Streams %'] || '-',
-            airplay: parseNum(row['Airplay Units']),
+            airplayUnits: parseNum(row['Airplay Units']),
             airplayPct: row['Airplay %'] || '-',
             units: parseNum(row['Total Units']),
             isTopSales: false,
             isTopStreams: false,
             isTopAirplay: false,
             isTopUnits: false,
+            streams: parseNum(row['Streams']),
+            sales: parseNum(row['Sales']),
+            airplay: parseNum(row['Airplay']),
             streamsPoints: parseNum(row['Streams Points']),
             salesPoints: parseNum(row['Sales Points']),
             airplayPoints: parseNum(row['Airplay Points']),
@@ -338,15 +347,15 @@ async function processWeek(filename: string, year: number, cache: AlbumCache, ap
         };
     });
 
-    const maxSales = Math.max(...songs.map(s => s.sales));
-    const maxStreams = Math.max(...songs.map(s => s.streams));
-    const maxAirplay = Math.max(...songs.map(s => s.airplay));
+    const maxSales = Math.max(...songs.map(s => s.salesUnits));
+    const maxStreams = Math.max(...songs.map(s => s.streamsUnits));
+    const maxAirplay = Math.max(...songs.map(s => s.airplayUnits));
     const maxUnits = Math.max(...songs.map(s => s.units));
 
     songs.forEach(song => {
-        song.isTopSales = song.sales > 0 && song.sales === maxSales;
-        song.isTopStreams = song.streams > 0 && song.streams === maxStreams;
-        song.isTopAirplay = song.airplay > 0 && song.airplay === maxAirplay;
+        song.isTopSales = song.salesUnits > 0 && song.salesUnits === maxSales;
+        song.isTopStreams = song.streamsUnits > 0 && song.streamsUnits === maxStreams;
+        song.isTopAirplay = song.airplayUnits > 0 && song.airplayUnits === maxAirplay;
         song.isTopUnits = song.units > 0 && song.units === maxUnits;
     });
 
