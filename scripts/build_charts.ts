@@ -54,6 +54,8 @@ interface SongEntry {
   currentWeekPoints: number;
   previousWeekPoints: number;
   twoWeeksAgoPoints: number;
+  previousWeekRawPoints: number;
+  twoWeeksAgoRawPoints: number;
 }
 
 interface RawCsvRow {
@@ -85,6 +87,8 @@ interface RawCsvRow {
   'Current Week Points': string;
   'Previous Week Points': string;
   'Two Weeks Ago Points': string;
+  'Previous Week Raw Points': string;
+  'Two Weeks Ago Raw Points': string;
 }
 
 interface AlbumCache {
@@ -344,6 +348,8 @@ async function processWeek(filename: string, year: number, cache: AlbumCache, ap
             currentWeekPoints: parseNum(row['Current Week Points']),
             previousWeekPoints: parseNum(row['Previous Week Points']),
             twoWeeksAgoPoints: parseNum(row['Two Weeks Ago Points']),
+            previousWeekRawPoints: parseNum(row['Previous Week Raw Points']),
+            twoWeeksAgoRawPoints: parseNum(row['Two Weeks Ago Raw Points']),
         };
     });
 

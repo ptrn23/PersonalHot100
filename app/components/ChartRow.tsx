@@ -160,7 +160,7 @@ export default function ChartRow({ song }: { song: any }) {
               
               {/* Row 1 */}
               <div className="flex justify-between items-center text-gray-600 mb-1">
-                <span className="text-xs pr-2">This week:</span>
+                <span>This week:</span>
                 <span className="font-mono whitespace-nowrap">
                   <span className="text-gray-400 text-[10px] sm:text-xs">
                     {formatNumber(song.streamsPoints)} + {formatNumber(song.salesPoints)} + {formatNumber(song.airplayPoints)} = 
@@ -169,25 +169,22 @@ export default function ChartRow({ song }: { song: any }) {
                 </span>
               </div>
 
-              {/* Row 2 */}
               <div className="flex justify-between items-center text-gray-600 mb-1">
-                <span className="text-xs pr-2">One week ago:</span>
+                <span>One week ago:</span>
                 <span className="font-mono whitespace-nowrap">
                   <span className="text-gray-400 text-[10px] sm:text-xs">
-                    {formatNumber(song.previousWeekPoints === 0 ? 0 : Math.round(song.previousWeekPoints / 0.3))} x 30% = 
+                    {formatNumber(song.previousWeekRawPoints)} x 30% = 
                   </span>
-                  <span className="text-gray-800 ml-1">{formatNumber(song.previousWeekPoints)}</span>
+                  <span className="text-gray-800 ml-1">{song.previousWeekPoints}</span>
                 </span>
               </div>
-
-              {/* Row 3 */}
               <div className="flex justify-between items-center text-gray-600">
-                <span className="text-xs pr-2">Two weeks ago:</span>
+                <span>Two weeks ago:</span>
                 <span className="font-mono whitespace-nowrap">
                   <span className="text-gray-400 text-[10px] sm:text-xs">
-                    {formatNumber(song.twoWeeksAgoPoints === 0 ? 0 : Math.round(song.twoWeeksAgoPoints / 0.2))} x 20% = 
+                    {formatNumber(song.twoWeeksAgoRawPoints)} x 20% = 
                   </span>
-                  <span className="text-gray-800 ml-1">{formatNumber(song.twoWeeksAgoPoints)}</span>
+                  <span className="text-gray-800 ml-1">{song.twoWeeksAgoPoints}</span>
                 </span>
               </div>
             </div>

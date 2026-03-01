@@ -192,7 +192,9 @@ class ChartBuilder:
         # historical points
         entry.current_week_points = data['raw_points']
         entry.previous_week_points = int(data['prev_pts'] * 0.3)
+        entry.previous_week_raw_points = data['prev_pts']
         entry.two_weeks_ago_points = int(data['two_weeks_pts'] * 0.2)
+        entry.two_weeks_ago_raw_points = data['two_weeks_pts']
         
         # previous position
         entry.previous_position = prev_positions.get(key, "--")
