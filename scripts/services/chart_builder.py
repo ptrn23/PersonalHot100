@@ -1,5 +1,6 @@
 import csv
 import os
+from math import floor
 from datetime import datetime
 from collections import defaultdict
 from models.song import Song
@@ -69,28 +70,34 @@ class ChartBuilder:
             song = data['song']
             streams, sales, airplay = data['streams'], data['sales'], data['airplay']
             
-            # get historical points
-            prev_pts, two_weeks_pts = self._get_past_points(key)
+            # get historical data
+            prev, two_weeks = self._get_past_metrics(key)
             
             # calculate points
             raw_points = self.calculator.calculate_raw_points(streams, sales, airplay)
             weighted_points = self.calculator.calculate_weighted_points(
-                raw_points, prev_pts, two_weeks_pts
+                raw_points, prev['pts'], two_weeks['pts']
             )
-
+            
             if weighted_points <= 0:
                 dead_songs.append(key)
-                # print(f"  [-] Evicted: {song.name} by {song.artist} | Raw: {raw_points}, W-1: {prev_pts}, W-2: {two_weeks_pts}")
                 continue
+                
+            w_streams = floor(streams + floor(prev['str'] * 0.3) + floor(two_weeks['str'] * 0.2))
+            w_sales = floor(sales + floor(prev['sal'] * 0.3) + floor(two_weeks['sal'] * 0.2))
+            w_airplay = floor(airplay + floor(prev['air'] * 0.3) + floor(two_weeks['air'] * 0.2))
             
             scored_songs[key] = weighted_points
             raw_data[key] = {
                 'streams': streams,
                 'sales': sales,
                 'airplay': airplay,
+                'weighted_streams': w_streams,
+                'weighted_sales': w_sales,
+                'weighted_airplay': w_airplay,
                 'raw_points': raw_points,
-                'prev_pts': prev_pts,
-                'two_weeks_pts': two_weeks_pts,
+                'prev_pts': prev['pts'],
+                'two_weeks_pts': two_weeks['pts'],
                 'weighted_points': weighted_points
             }
             
@@ -127,7 +134,7 @@ class ChartBuilder:
         # store this week's rankings
         self.ranked_weeks.append((
             week_key,
-            [(key, rank, points) for rank, (key, points) in enumerate(ranked, start=1)]
+            [(key, rank, points, raw_data[key]) for rank, (key, points) in enumerate(ranked, start=1)]
         ))
         
         return chart_entries
@@ -137,12 +144,15 @@ class ChartBuilder:
         song_name = self.original_song_names.get(key, key[0])
         artist = key[1]
         album = self.all_songs_history[key]["album"]
+        w_str = data['weighted_streams']
+        w_sal = data['weighted_sales']
+        w_air = data['weighted_airplay']
         
         # create song object
         song = Song(song_name, artist, album)
-        song.streams = data['streams']
-        song.sales = data['sales']
-        song.airplay = data['airplay']
+        song.streams = w_str
+        song.sales = w_sal
+        song.airplay = w_air
         
         # create entry
         entry = ChartEntry(song, rank, data['weighted_points'], week_key)
@@ -203,35 +213,30 @@ class ChartBuilder:
         
         return entry
     
-    def _get_past_points(self, song_key):
-        """get points from previous weeks for decay calculation"""
-        if len(self.ranked_weeks) == 0:
-            return 0, 0
+    def _get_past_metrics(self, song_key):
+        """get metrics from previous weeks for decay calculation"""
+        prev = {'pts': 0, 'str': 0, 'sal': 0, 'air': 0}
+        two_weeks = {'pts': 0, 'str': 0, 'sal': 0, 'air': 0}
         
-        prev_pts = 0
-        two_weeks_pts = 0
-        
-        # check last week
         if len(self.ranked_weeks) >= 1:
-            for key, rank, points in self.ranked_weeks[-1][1]:
+            for key, rank, points, data in self.ranked_weeks[-1][1]:
                 if key == song_key:
-                    prev_pts = points
+                    prev = {'pts': points, 'str': data['weighted_streams'], 'sal': data['weighted_sales'], 'air': data['weighted_airplay']}
                     break
-        
-        # check two weeks ago
+                    
         if len(self.ranked_weeks) >= 2:
-            for key, rank, points in self.ranked_weeks[-2][1]:
+            for key, rank, points, data in self.ranked_weeks[-2][1]:
                 if key == song_key:
-                    two_weeks_pts = points
+                    two_weeks = {'pts': points, 'str': data['weighted_streams'], 'sal': data['weighted_sales'], 'air': data['weighted_airplay']}
                     break
-        
-        return prev_pts, two_weeks_pts
+                    
+        return prev, two_weeks
     
     def _get_previous_week_positions(self):
         """get position map from previous week"""
         if not self.ranked_weeks:
             return {}
-        return {key: pos for key, pos, _ in self.ranked_weeks[-1][1]}
+        return {key: pos for key, pos, points, data in self.ranked_weeks[-1][1]}
     
     def _update_peak_and_woc(self, song_key, current_rank):
         """update peak position and weeks on chart"""
