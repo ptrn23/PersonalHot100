@@ -1,4 +1,4 @@
-from math import ceil
+from math import floor
 
 class PointsCalculator:
     """calculates chart points from play metrics"""
@@ -10,25 +10,39 @@ class PointsCalculator:
     
     def calculate_raw_points(self, streams, sales, airplay):
         """calculate base points from raw metrics"""
-        stream_pts = ceil(streams * self.streams_weight / 1000)
-        sale_pts = ceil(sales * self.sales_weight / 1000)
-        air_pts = ceil(airplay * self.airplay_weight / 1000)
+        stream_pts = floor(streams * self.streams_weight / 1000)
+        sale_pts = floor(sales * self.sales_weight / 1000)
+        air_pts = floor(airplay * self.airplay_weight / 1000)
         return stream_pts + sale_pts + air_pts
     
     def calculate_weighted_points(self, current_points, previous_points, two_weeks_ago_points):
         """calculate total weighted points with decay factor"""
-        return ceil(
+        return floor(
             current_points + 
-            ceil(previous_points * 0.3) + 
-            ceil(two_weeks_ago_points * 0.2)
+            floor(previous_points * 0.3) + 
+            floor(two_weeks_ago_points * 0.2)
         )
+    
+    def calculate_weighted_metrics(self, current, prev_data, two_weeks_data):
+        """decay streams, sales, and airplay so carry-over songs retain stats"""
+        return {
+            'streams': floor(current.get('streams', 0) + 
+                             floor(prev_data.get('weighted_streams', 0) * 0.3) + 
+                             floor(two_weeks_data.get('weighted_streams', 0) * 0.2)),
+            'sales': floor(current.get('sales', 0) + 
+                           floor(prev_data.get('weighted_sales', 0) * 0.3) + 
+                           floor(two_weeks_data.get('weighted_sales', 0) * 0.2)),
+            'airplay': floor(current.get('airplay', 0) + 
+                             floor(prev_data.get('weighted_airplay', 0) * 0.3) + 
+                             floor(two_weeks_data.get('weighted_airplay', 0) * 0.2))
+        }
     
     def calculate_component_points(self, streams, sales, airplay):
         """calculate individual component points"""
         return {
-            'streams': ceil(streams * self.streams_weight / 1000),
-            'sales': ceil(sales * self.sales_weight / 1000),
-            'airplay': ceil(airplay * self.airplay_weight / 1000)
+            'streams': floor(streams * self.streams_weight / 1000),
+            'sales': floor(sales * self.sales_weight / 1000),
+            'airplay': floor(airplay * self.airplay_weight / 1000)
         }
     
     def calculate_percentages(self, streams, sales, airplay):
@@ -49,16 +63,16 @@ class PointsCalculator:
         seed = PointsCalculator._stable_seed(song.name, album, artist)
         
         stream_units = PointsCalculator._apply_deviation(
-            ceil(streams * 5250 * 275), seed + 1
+            floor(streams * 5250 * 275), seed + 1
         )
         sale_units = PointsCalculator._apply_deviation(
-            ceil(sales * 252), seed + 2
+            floor(sales * 252), seed + 2
         )
         air_units = PointsCalculator._apply_deviation(
-            ceil(airplay * 2250 * 5020), seed + 3
+            floor(airplay * 2250 * 5020), seed + 3
         )
         total_units = PointsCalculator._apply_deviation(
-            ceil((streams + sales + airplay) * 1750 * 2), seed + 4
+            floor((streams + sales + airplay) * 1750 * 2), seed + 4
         )
         
         return {

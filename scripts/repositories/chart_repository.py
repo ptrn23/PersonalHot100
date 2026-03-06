@@ -28,6 +28,7 @@ class ChartRepository:
                 'Streams %', 'Sales %', 'Airplay %',
                 'Total Units',
                 'Current Week Points', 'Previous Week Points', 'Two Weeks Ago Points',
+                'Previous Week Raw Points', 'Two Weeks Ago Raw Points',
                 'Peak', 'WOC', 'Peak Streak'
             ])
             
@@ -60,6 +61,8 @@ class ChartRepository:
                     entry.current_week_points,
                     entry.previous_week_points,
                     entry.two_weeks_ago_points,
+                    entry.previous_week_raw_points,
+                    entry.two_weeks_ago_raw_points,
                     entry.peak_position,
                     entry.weeks_on_chart,
                     entry.peak_streak

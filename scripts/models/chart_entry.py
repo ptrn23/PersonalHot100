@@ -28,6 +28,8 @@ class ChartEntry:
         self.current_week_points = 0
         self.previous_week_points = 0
         self.two_weeks_ago_points = 0
+        self.previous_week_raw_points = 0
+        self.two_weeks_ago_raw_points = 0
         self.peak_streak = 0
         self.is_new_peak = False
         self.is_repeak = False

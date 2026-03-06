@@ -47,7 +47,7 @@ def main():
             output_file = os.path.join(points_dir, f"{week_str}.csv")
             ChartRepository.save_weekly_chart(chart_entries, output_file)
             
-            print(f"Saved weekly points: {week_str}-{year}")
+            # print(f"Saved weekly points: {week_str}-{year}")
     
     # save charted cache
     ChartRepository.save_charted_cache(builder.charted_cache, charted_cache_file)

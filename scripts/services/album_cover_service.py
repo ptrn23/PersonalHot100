@@ -1,6 +1,6 @@
 import csv
 import os
-from points.album_cover import get_album_cover
+from services.album_cover import get_album_cover
 
 class AlbumCoverService:
     """manages album cover urls with caching"""

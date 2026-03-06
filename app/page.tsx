@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import WeekSelector from './components/WeekSelector';
 import FeedTooltip from './components/FeedTooltip';
+import ChartRow from './components/ChartRow';
 
 // --- TYPES ---
 type Song = {
@@ -15,14 +16,14 @@ type Song = {
   pointsPct: string;
   peak: string;
   peakStreak: string;
-  isNewPeak?: boolean; // Optional bc older JSONs might not have it yet
+  isNewPeak?: boolean;
   isRePeak?: boolean;
   woc: string;
-  sales: number;
+  salesUnits: number;
   salesPct: string;
-  streams: number;
+  streamsUnits: number;
   streamsPct: string;
-  airplay: number;
+  airplayUnits: number;
   airplayPct: string;
   units: number;
   isTopSales: boolean;
@@ -30,7 +31,16 @@ type Song = {
   isTopAirplay: boolean;
   isTopUnits: boolean;
   feed?: string[];
-};
+  streams: number;
+  sales: number;
+  airplay: number;
+  streamsPoints: number;
+  salesPoints: number;
+  airplayPoints: number;
+  currentWeekPoints: number;
+  previousWeekPoints: number;
+  twoWeeksAgoPoints: number;
+}
 
 type ChartData = {
   meta: { year: string; week: string };
@@ -146,104 +156,9 @@ export default async function Home({
             <div className="py-2 text-center text-[#721a46] bg-[#eddcfe]">Units</div>
           </div>
 
-          {chart.songs.map((song) => {
-            // Logic for Peak Background Color
-            let peakBgClass = 'bg-blue-50/50'; // Default
-            let streakColorClass = 'text-gray-400'; // Default
-            if (song.isNewPeak) {peakBgClass = 'bg-[#ffe49a]'; streakColorClass = 'text-[#7e3d01]';} // New Peak (Light Yellow)
-            else if (song.isRePeak) {peakBgClass = 'bg-[#cdecff]'; streakColorClass = 'text-[#024da0]';} // Re-peak (Light Blue)
-
-            return (
-              <div 
-                key={`${song.title}-${song.artist}`} 
-                className="grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] items-center border-b border-gray-100 hover:bg-gray-50 h-14 transition-colors group"
-              >
-                {/* Rank */}
-                <div className="font-black text-xl text-center text-gray-800">{song.rank}</div>
-                
-                {/* Change Indicator with Custom Colors */}
-                <div className="text-center font-bold text-xs">
-                  {song.status === 're' && <span className="text-[#8e0be5] bg-purple-50 px-1 rounded">RE</span>}
-                  {song.status === 'new' && <span className="text-[#05a7e5] bg-blue-50 px-1 rounded">NEW</span>}
-                  {song.status === 'stable' && <span className="text-black text-xl leading-none">=</span>}
-                  {song.status === 'rise' && <span className="text-green-600">+{song.change}</span>}
-                  {song.status === 'fall' && <span className="text-red-500">-{song.change}</span>}
-                </div>
-
-                {/* Song Info */}
-                <div className="flex items-center gap-3 pl-2 overflow-hidden py-1">
-                  <div className="w-10 h-10 bg-gray-200 shrink-0 shadow-sm relative group-hover:shadow-md transition-shadow">
-                    {song.coverUrl && <img src={song.coverUrl} className="w-full h-full object-cover" loading="lazy" />}
-                  </div>
-                  <div className="truncate pr-4">
-                    <div className="font-bold leading-tight truncate text-gray-900">{song.title}</div>
-                    <div className="text-xs text-gray-500 truncate font-medium">{song.artist}</div>
-                  </div>
-                </div>
-
-                {/* Feed Indicator Column */}
-                <div className="flex items-center justify-center h-full">
-                  {song.feed && song.feed.length > 0 && (
-                    <FeedTooltip feed={song.feed} />
-                  )}
-                </div>
-
-                {/* Points Section */}
-                <div className="text-center font-bold text-gray-700">{song.points}</div>
-                <div className="flex justify-center">
-                   {/* Handle '--' for new entries */}
-                   {song.pointsPct === '--' ? (
-                     <span className="text-[10px] font-bold px-1.5 py-0.5 rounded text-gray-400">--</span>
-                   ) : (
-                     <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded ${song.pointsPct.includes('-') ? 'bg-red-50 text-red-600' : 'bg-green-50 text-green-600'}`}>
-                        {Math.round(parseFloat(song.pointsPct) * 100)}%
-                     </span>
-                   )}
-                </div>
-
-                {/* Chart Stats with Dynamic Background */}
-                <div className={`text-center h-full flex flex-col justify-center border-l border-white ${peakBgClass}`}>
-                  <div className="font-bold leading-none text-gray-700">{song.peak}</div>
-                  {song.peakStreak && <div className={`text-[9px] ${streakColorClass} font-bold uppercase mt-0.5`}>{song.peakStreak}x</div>}
-                </div>
-                <div className="text-center text-gray-400 font-medium text-xs">{song.woc}</div>
-
-                {/* Sales (Yellow) */}
-                <div className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700 
-                  ${song.isTopSales ? 'bg-[#f8e285] font-bold' : 'bg-[#fff0ad] font-medium'}`}>
-                  {formatNumber(song.sales)}
-                </div>
-                <div className="text-center bg-[#fff0ad] h-full flex items-center justify-center text-xs text-gray-400 border-l border-[#fff0ad]">
-                  {Math.round(parseFloat(song.salesPct) * 100)}%
-                </div>
-
-                {/* Streams (Green) */}
-                <div className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700
-                  ${song.isTopStreams ? 'bg-[#bcf08e] font-bold' : 'bg-[#d5f7bb] font-medium'}`}>
-                  {formatNumber(song.streams)}
-                </div>
-                <div className="text-center bg-[#d5f7bb] h-full flex items-center justify-center text-xs text-gray-400 border-l border-[#d5f7bb]">
-                  {Math.round(parseFloat(song.streamsPct) * 100)}%
-                </div>
-
-                {/* Airplay (Blue) */}
-                <div className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700
-                  ${song.isTopAirplay ? 'bg-[#9adafe] font-bold' : 'bg-[#b4e3ff] font-medium'}`}>
-                  {formatNumber(song.airplay)}
-                </div>
-                <div className="text-center bg-[#b4e3ff] h-full flex items-center justify-center text-xs text-gray-400 border-l border-[#b4e3ff]">
-                  {Math.round(parseFloat(song.airplayPct) * 100)}%
-                </div>
-
-                 {/* Units (Purple) */}
-                 <div className={`text-center h-full flex items-center justify-center border-l border-white text-purple-900
-                  ${song.isTopUnits ? 'bg-[#dcace8] font-bold' : 'bg-[#e7d6ff] font-bold'}`}>
-                  {formatNumber(song.units)}
-                </div>
-
-              </div>
-            );
-          })}
+          {chart.songs.map((song) => (
+            <ChartRow key={`${song.title}-${song.artist}`} song={song} />
+          ))}
         </div>
       </div>
     </main>
