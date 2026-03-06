@@ -1,7 +1,6 @@
 import fs from 'fs';
 import path from 'path';
 import WeekSelector from './components/WeekSelector';
-import FeedTooltip from './components/FeedTooltip';
 import ChartRow from './components/ChartRow';
 
 // --- TYPES ---

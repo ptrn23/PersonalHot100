@@ -217,7 +217,7 @@ function generateFeed(songs: SongEntry[]) {
     if (songs.some(s => s.isTopSales)) {
         const topSalesSongs = songs.filter(s => s.isTopSales);
         topSalesSongs.forEach(s => {
-            s.feed!.push(`“${s.title}” by ${s.artist} is the #1 best selling song in ${CHART_NAME} Hot 100 this week with ${s.sales.toLocaleString()} sales units.`);
+            s.feed!.push(`“${s.title}” by ${s.artist} is the #1 best selling song in ${CHART_NAME} Hot 100 this week with ${s.salesPoints.toLocaleString()} sales units.`);
         });
     }
 
@@ -225,7 +225,7 @@ function generateFeed(songs: SongEntry[]) {
     if (songs.some(s => s.isTopStreams)) {
         const topStreamsSongs = songs.filter(s => s.isTopStreams);
         topStreamsSongs.forEach(s => {
-            s.feed!.push(`“${s.title}” by ${s.artist} is the #1 most streamed song in ${CHART_NAME} Hot 100 this week with ${s.streams.toLocaleString()} streams units.`);
+            s.feed!.push(`“${s.title}” by ${s.artist} is the #1 most streamed song in ${CHART_NAME} Hot 100 this week with ${s.streamsPoints.toLocaleString()} streams units.`);
         });
     }
 
@@ -233,7 +233,7 @@ function generateFeed(songs: SongEntry[]) {
     if (songs.some(s => s.isTopAirplay)) {
         const topAirplaySongs = songs.filter(s => s.isTopAirplay);
         topAirplaySongs.forEach(s => {
-            s.feed!.push(`“${s.title}” by ${s.artist} is the #1 most airplayed song in ${CHART_NAME} Hot 100 this week with ${s.airplay.toLocaleString()} airplay units.`);
+            s.feed!.push(`“${s.title}” by ${s.artist} is the #1 most airplayed song in ${CHART_NAME} Hot 100 this week with ${s.airplayPoints.toLocaleString()} airplay units.`);
         });
     }
 
