@@ -7,7 +7,7 @@ import { existsSync } from 'fs';
 dotenv.config();
 
 // --- CONFIGURATION ---
-const YEARS = [2025, 2026]; 
+const YEARS = [2024, 2025, 2026]; 
 const CHART_LIMIT = 100;
 const SPECIFIC_WEEK: string | null = null; 
 
