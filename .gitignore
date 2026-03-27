@@ -4,6 +4,7 @@ scripts/plays
 scripts/points
 scripts/key.py
 venv
+.venv/
 
 # dependencies
 /node_modules

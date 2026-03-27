@@ -275,7 +275,6 @@ async function processWeek(filename: string, year: number, cache: AlbumCache, ap
 
     // Fetch Missing Covers
     if (missing.length > 0) {
-        console.log(`  - Fetching ${missing.length} new covers...`);
         const BATCH_SIZE = 5;
         for (let i = 0; i < missing.length; i += BATCH_SIZE) {
             const batch = missing.slice(i, i + BATCH_SIZE);
@@ -287,7 +286,6 @@ async function processWeek(filename: string, year: number, cache: AlbumCache, ap
             }));
             await sleep(200);
         }
-        console.log(" Done.");
     }
 
     // Transform Data
@@ -379,7 +377,6 @@ async function processWeek(filename: string, year: number, cache: AlbumCache, ap
     const outputId = `${year}-${week}`;
     const outputPath = path.join(OUTPUT_DIR, `${outputId}.json`);
     await fs.writeFile(outputPath, JSON.stringify(outputData, null, 0));
-    console.log(`  -> Saved ${outputId}.json`);
     
     return outputId;
 }
