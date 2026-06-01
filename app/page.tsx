@@ -96,7 +96,7 @@ export default async function Home({
       songs (
         title,
         artists ( id, name ),
-        albums ( id, cover_url )
+        albums ( id, title, cover_url )
       )
     `)
     .eq('week_id', activeWeek.id)
