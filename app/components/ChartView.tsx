@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import ChartRow from './ChartRow';
 import WeekSelector from './WeekSelector';
+import { Search, X, List, Grid, Square, Columns, Maximize } from 'lucide-react';
 
 type Props = {
   entries: any[] | null;
@@ -10,6 +11,12 @@ type Props = {
   activeWeekDate: string;
   formattedDateRange: string;
 };
+
+const WIDTH_MODES = [
+  { id: 'slim', icon: <Square size={16} strokeWidth={2.5} /> },
+  { id: 'normal', icon: <Columns size={16} strokeWidth={2.5} /> },
+  { id: 'wide', icon: <Maximize size={16} strokeWidth={2.5} /> }
+] as const;
 
 export default function ChartView({ entries, availableWeeks, activeWeekDate, formattedDateRange }: Props) {
   const [layoutWidth, setLayoutWidth] = useState<'slim' | 'normal' | 'wide'>('normal');
@@ -58,10 +65,8 @@ export default function ChartView({ entries, availableWeeks, activeWeekDate, for
           </div>
 
           <div className="flex items-center gap-4 text-right">
-            <div className="relative flex items-center">
-              <svg className="w-3.5 h-3.5 absolute left-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-              </svg>
+            <div className="relative flex items-center text-gray-400">
+              <Search size={14} strokeWidth={2.5} className="absolute left-3 pointer-events-none" />
               <input
                 type="text"
                 placeholder="Filter..."
@@ -74,44 +79,45 @@ export default function ChartView({ entries, availableWeeks, activeWeekDate, for
                   onClick={() => setSearchQuery('')}
                   className="absolute right-2 text-gray-400 hover:text-[#B30000] transition-colors"
                 >
-                  <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" />
-                  </svg>
+                  <X size={14} strokeWidth={2.5} />
                 </button>
               )}
             </div>
 
-            <div className="flex items-center bg-gray-100 p-1 rounded-lg border border-gray-200 shadow-sm">
+            <div className="flex items-center bg-gray-100 p-1 rounded-lg border border-gray-200 shadow-sm text-gray-400">
               <button
+                title="List View"
                 onClick={() => setViewMode('list')}
-                className={`px-3 py-1 text-xs font-black uppercase tracking-wider rounded-md transition-all flex items-center gap-1.5 ${
-                  viewMode === 'list' ? 'bg-white text-black shadow-sm' : 'text-gray-400 hover:text-black'
+                className={`p-1.5 rounded-md transition-all ${
+                  viewMode === 'list' ? 'bg-white text-black shadow-sm' : 'hover:text-black'
                 }`}
               >
-                List
+                <List size={16} strokeWidth={2.5} />
               </button>
               <button
+                title="Grid View"
                 onClick={() => setViewMode('grid')}
-                className={`px-3 py-1 text-xs font-black uppercase tracking-wider rounded-md transition-all flex items-center gap-1.5 ${
-                  viewMode === 'grid' ? 'bg-white text-black shadow-sm' : 'text-gray-400 hover:text-black'
+                className={`p-1.5 rounded-md transition-all ${
+                  viewMode === 'grid' ? 'bg-white text-black shadow-sm' : 'hover:text-black'
                 }`}
               >
-                Grid
+                <Grid size={16} strokeWidth={2.5} />
               </button>
             </div>
 
-            <div className="flex items-center bg-gray-100 p-1 rounded-lg border border-gray-200 shadow-sm">
-              {(['slim', 'normal', 'wide'] as const).map((mode) => (
+            <div className="flex items-center bg-gray-100 p-1 rounded-lg border border-gray-200 shadow-sm text-gray-400">
+              {WIDTH_MODES.map((mode) => (
                 <button
-                  key={mode}
-                  onClick={() => setLayoutWidth(mode)}
-                  className={`px-3 py-1 text-xs font-black uppercase tracking-wider rounded-md transition-all ${
-                    layoutWidth === mode 
+                  key={mode.id}
+                  title={`${mode.id.charAt(0).toUpperCase() + mode.id.slice(1)} Width`}
+                  onClick={() => setLayoutWidth(mode.id as 'slim' | 'normal' | 'wide')}
+                  className={`p-1.5 rounded-md transition-all ${
+                    layoutWidth === mode.id 
                       ? 'bg-white text-black shadow-sm' 
-                      : 'text-gray-400 hover:text-black'
+                      : 'hover:text-black'
                   }`}
                 >
-                  {mode}
+                  {mode.icon}
                 </button>
               ))}
             </div>
