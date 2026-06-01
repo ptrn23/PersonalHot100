@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 // import FeedTooltip from './FeedTooltip';
+import Link from 'next/link';
 
 const formatNumber = (num: number) => {
   if (!num) return '0';
@@ -17,6 +18,7 @@ export default function ChartRow({ entry }: { entry: any }) {
     rank: entry.rank,
     title: entry.songs?.title || "Unknown",
     artist: entry.songs?.artists?.name || "Unknown",
+    artistId: entry.songs?.artists?.id,
     coverUrl: entry.songs?.albums?.cover_url,
     
     status: !entry.previous_position 
@@ -91,7 +93,13 @@ export default function ChartRow({ entry }: { entry: any }) {
           </div>
           <div className="truncate pr-4">
             <div className="font-bold leading-tight truncate text-gray-900">{song.title}</div>
-            <div className="text-xs text-gray-500 truncate font-medium">{song.artist}</div>
+            <Link 
+              href={`/artist/${song.artistId}`} 
+              className="text-xs text-gray-500 hover:text-blue-600 hover:underline truncate font-medium transition-colors"
+              onClick={(e) => e.stopPropagation()}
+            >
+              {song.artist}
+            </Link>
           </div>
         </div>
 
