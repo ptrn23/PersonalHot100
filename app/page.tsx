@@ -130,7 +130,7 @@ export default async function Home({
         </header>
         
         <div className="text-sm border-t-2 border-black shadow-sm">
-          <div className="grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] font-bold text-gray-600 border-b border-gray-300 bg-gray-50 sticky top-0 z-10">
+          <div className="grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] font-bold text-gray-600 border-b border-gray-300 bg-gray-50 sticky top-[88px] z-10">
             <div className="py-2 text-center">Rank</div>
             <div className="py-2 text-center">+/-</div>
             <div className="py-2 pl-2">Song</div>
