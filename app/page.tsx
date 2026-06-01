@@ -1,18 +1,21 @@
 import { supabase } from '@/utils/supabase';
 import ChartRow from './components/ChartRow';
 import WeekSelector from './components/WeekSelector'; 
+import Link from 'next/link';
 
 const formatDateRange = (startDateStr: string, endDateStr: string) => {
   const options: Intl.DateTimeFormatOptions = { 
     month: 'long', 
     day: 'numeric', 
     year: 'numeric',
-    timeZone: 'UTC'
+    timeZone: 'UTC' 
   };
   const startStr = new Date(startDateStr).toLocaleDateString('en-US', options);
   const endStr = new Date(endDateStr).toLocaleDateString('en-US', options);
   return `${startStr} - ${endStr}`;
 };
+
+const isValidDateString = (dateStr: string) => /^\d{4}-\d{2}-\d{2}$/.test(dateStr);
 
 export default async function Home({
   searchParams,
@@ -36,9 +39,60 @@ export default async function Home({
   }
 
   let activeWeek = availableWeeks[0];
+
   if (params.week) {
-    const found = availableWeeks.find(w => w.end_date === params.week); // Matching by end_date like "2026-06-05"
-    if (found) activeWeek = found;
+    if (!isValidDateString(params.week)) {
+      return (
+        <div className="min-h-screen flex flex-col items-center justify-center p-10 bg-white text-center">
+          <h1 className="text-4xl font-black mb-2 uppercase tracking-tight text-red-600">Invalid Date Format</h1>
+          <p className="text-gray-500 mb-8 font-medium">Dates must be requested in the YYYY-MM-DD format.</p>
+          <Link href="/" className="bg-black text-white px-6 py-3 rounded-lg font-bold uppercase text-sm hover:bg-gray-800 transition-colors shadow-md">
+            Return to Current Chart
+          </Link>
+        </div>
+      );
+    }
+
+    const exactMatch = availableWeeks.find(w => w.end_date === params.week);
+
+    if (exactMatch) {
+      activeWeek = exactMatch;
+    } else {
+      const targetDate = new Date(params.week);
+      
+      const containingWeek = availableWeeks.find(w => {
+        const start = new Date(w.start_date);
+        const end = new Date(w.end_date);
+        return targetDate >= start && targetDate <= end;
+      });
+
+      if (containingWeek) {
+        return (
+          <div className="min-h-screen flex flex-col items-center justify-center p-10 bg-gray-50 text-center">
+            <h1 className="text-3xl font-black mb-4 uppercase tracking-tighter text-gray-800">Chart Not Found for {params.week}</h1>
+            <p className="text-gray-600 mb-8 max-w-md leading-relaxed">
+              Charts are generated weekly. The date you entered falls under the chart week ending on <strong className="text-black">{containingWeek.end_date}</strong>.
+            </p>
+            <Link href={`/?week=${containingWeek.end_date}`} className="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold uppercase text-sm hover:bg-blue-700 transition-colors shadow-md">
+              View Week of {containingWeek.end_date}
+            </Link>
+            <Link href="/" className="mt-6 text-xs text-gray-400 hover:text-gray-800 transition-colors font-bold uppercase tracking-widest">
+              Return to Current Chart
+            </Link>
+          </div>
+        );
+      } else {
+        return (
+          <div className="min-h-screen flex flex-col items-center justify-center p-10 bg-white text-center">
+            <h1 className="text-3xl font-black mb-4 uppercase tracking-tighter text-gray-400">Date Out of Range</h1>
+            <p className="text-gray-500 mb-8 font-medium">We don't have any chart data for {params.week}.</p>
+            <Link href="/" className="bg-black text-white px-6 py-3 rounded-lg font-bold uppercase text-sm hover:bg-gray-800 transition-colors shadow-md">
+              Return to Current Chart
+            </Link>
+          </div>
+        );
+      }
+    }
   }
 
   const { data: entries } = await supabase
@@ -93,7 +147,7 @@ export default async function Home({
             <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">%</div>
             <div className="py-2 text-center text-[#721a46] bg-[#eddcfe]">Units</div>
           </div>
-          
+
           {entries?.map((entry) => (
             <ChartRow key={entry.id} entry={entry} />
           ))}
