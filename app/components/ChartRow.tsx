@@ -1,23 +1,69 @@
 'use client';
 
 import { useState } from 'react';
-import FeedTooltip from './FeedTooltip';
+// import FeedTooltip from './FeedTooltip';
 
-// Local helper for formatting inside the component
 const formatNumber = (num: number) => {
+  if (!num) return '0';
   if (num >= 1_000_000) return (num / 1_000_000).toFixed(1) + 'm';
   if (num >= 1_000) return (num / 1_000).toFixed(1) + 'k';
   return num.toString();
 };
 
-export default function ChartRow({ song }: { song: any }) {
+export default function ChartRow({ entry }: { entry: any }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
-  // Logic for Peak Background Color (Moved from page.tsx)
-  let peakBgClass = 'bg-blue-50/50'; // Default
-  let streakColorClass = 'text-gray-400'; // Default
-  if (song.isNewPeak) {peakBgClass = 'bg-[#ffe49a]'; streakColorClass = 'text-[#7e3d01]';} 
-  else if (song.isRePeak) {peakBgClass = 'bg-[#cdecff]'; streakColorClass = 'text-[#024da0]';}
+  const song = {
+    rank: entry.rank,
+    title: entry.songs?.title || "Unknown",
+    artist: entry.songs?.artists?.name || "Unknown",
+    coverUrl: entry.songs?.albums?.cover_url,
+    
+    status: !entry.previous_position 
+      ? (entry.weeks_on_chart > 1 ? 're' : 'new') 
+      : (entry.previous_position > entry.rank ? 'rise' 
+        : entry.previous_position < entry.rank ? 'fall' : 'stable'),
+    change: entry.previous_position ? Math.abs(entry.previous_position - entry.rank) : 0,
+    
+    points: entry.total_points,
+    pointsPct: '--',
+    peak: entry.peak_position,
+    peakStreak: null,
+    isNewPeak: entry.is_new_peak,
+    isRePeak: false, 
+    woc: entry.weeks_on_chart,
+    
+    salesUnits: entry.sales,
+    salesPct: '--',
+    isTopSales: false,
+    streamsUnits: entry.streams,
+    streamsPct: '--',
+    isTopStreams: false,
+    airplayUnits: entry.airplay,
+    airplayPct: '--',
+    isTopAirplay: false,
+    units: entry.streams + entry.sales + entry.airplay,
+    isTopUnits: false,
+    
+    streams: entry.streams,
+    sales: entry.sales,
+    airplay: entry.airplay,
+    
+    streamsPoints: Math.floor(entry.streams * 5),
+    salesPoints: Math.floor(entry.sales * 3),
+    airplayPoints: Math.floor(entry.airplay * 2),
+    currentWeekPoints: entry.current_week_points,
+    
+    previousWeekRawPoints: 0,
+    previousWeekPoints: 0,
+    twoWeeksAgoRawPoints: 0,
+    twoWeeksAgoPoints: 0,
+  };
+  
+  let peakBgClass = 'bg-blue-50/50'; 
+  let streakColorClass = 'text-gray-400'; 
+  if (song.isNewPeak) { peakBgClass = 'bg-[#ffe49a]'; streakColorClass = 'text-[#7e3d01]'; } 
+  else if (song.isRePeak) { peakBgClass = 'bg-[#cdecff]'; streakColorClass = 'text-[#024da0]'; }
 
   return (
     <div className="flex flex-col border-b border-gray-100 group">
@@ -41,7 +87,7 @@ export default function ChartRow({ song }: { song: any }) {
         {/* Song Info */}
         <div className="flex items-center gap-3 pl-2 overflow-hidden py-1">
           <div className="w-10 h-10 bg-gray-200 shrink-0 shadow-sm relative group-hover:shadow-md transition-shadow">
-            {song.coverUrl && <img src={song.coverUrl} className="w-full h-full object-cover" loading="lazy" />}
+            {song.coverUrl && <img src={song.coverUrl} className="w-full h-full object-cover" loading="lazy" alt="Cover" />}
           </div>
           <div className="truncate pr-4">
             <div className="font-bold leading-tight truncate text-gray-900">{song.title}</div>
@@ -49,21 +95,19 @@ export default function ChartRow({ song }: { song: any }) {
           </div>
         </div>
 
-        {/* Feed Indicator Column (Stop click from opening dropdown when clicking tooltip) */}
+        {/* Feed Indicator Column */}
         <div className="flex items-center justify-center h-full" onClick={(e) => e.stopPropagation()}>
-          {song.feed && song.feed.length > 0 && (
-            <FeedTooltip feed={song.feed} />
-          )}
+          {/* <FeedTooltip feed={song.feed} /> */}
         </div>
 
         {/* Points Section */}
-        <div className="text-center font-bold text-gray-700">{song.points}</div>
+        <div className="text-center font-bold text-gray-700">{formatNumber(song.points)}</div>
         <div className="flex justify-center">
             {song.pointsPct === '--' ? (
               <span className="text-[10px] font-bold px-1.5 py-0.5 rounded text-gray-400">--</span>
             ) : (
               <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded ${song.pointsPct.includes('-') ? 'bg-red-50 text-red-600' : 'bg-green-50 text-green-600'}`}>
-                {Math.round(parseFloat(song.pointsPct) * 100)}%
+                {song.pointsPct}%
               </span>
             )}
         </div>
@@ -81,7 +125,7 @@ export default function ChartRow({ song }: { song: any }) {
           {formatNumber(song.salesUnits)}
         </div>
         <div className="text-center bg-[#fff0ad] h-full flex items-center justify-center text-xs text-gray-400 border-l border-[#fff0ad]">
-          {Math.round(parseFloat(song.salesPct) * 100)}%
+          {song.salesPct}
         </div>
 
         {/* Streams (Green) */}
@@ -90,7 +134,7 @@ export default function ChartRow({ song }: { song: any }) {
           {formatNumber(song.streamsUnits)}
         </div>
         <div className="text-center bg-[#d5f7bb] h-full flex items-center justify-center text-xs text-gray-400 border-l border-[#d5f7bb]">
-          {Math.round(parseFloat(song.streamsPct) * 100)}%
+          {song.streamsPct}
         </div>
 
         {/* Airplay (Blue) */}
@@ -99,7 +143,7 @@ export default function ChartRow({ song }: { song: any }) {
           {formatNumber(song.airplayUnits)}
         </div>
         <div className="text-center bg-[#b4e3ff] h-full flex items-center justify-center text-xs text-gray-400 border-l border-[#b4e3ff]">
-          {Math.round(parseFloat(song.airplayPct) * 100)}%
+          {song.airplayPct}
         </div>
 
           {/* Units (Purple) */}
