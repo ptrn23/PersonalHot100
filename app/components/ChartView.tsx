@@ -14,6 +14,7 @@ type Props = {
 export default function ChartView({ entries, availableWeeks, activeWeekDate, formattedDateRange }: Props) {
   const [layoutWidth, setLayoutWidth] = useState<'slim' | 'normal' | 'wide'>('normal');
   const [searchQuery, setSearchQuery] = useState('');
+  const [viewMode, setViewMode] = useState<'list' | 'grid'>('list');
 
   const getContainerWidth = () => {
     switch (layoutWidth) {
@@ -21,6 +22,15 @@ export default function ChartView({ entries, availableWeeks, activeWeekDate, for
       case 'wide': return 'max-w-[1750px] min-w-[1750px]';
       case 'normal':
       default: return 'max-w-[1450px] min-w-[1450px]';
+    }
+  };
+
+  const getGridCols = () => {
+    switch (layoutWidth) {
+      case 'wide': return 'grid-cols-10';
+      case 'slim': return 'grid-cols-4';
+      case 'normal':
+      default: return 'grid-cols-5';
     }
   };
 
@@ -63,7 +73,6 @@ export default function ChartView({ entries, availableWeeks, activeWeekDate, for
                 <button
                   onClick={() => setSearchQuery('')}
                   className="absolute right-2 text-gray-400 hover:text-[#B30000] transition-colors"
-                  aria-label="Clear search"
                 >
                   <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" />
@@ -71,7 +80,26 @@ export default function ChartView({ entries, availableWeeks, activeWeekDate, for
                 </button>
               )}
             </div>
-            
+
+            <div className="flex items-center bg-gray-100 p-1 rounded-lg border border-gray-200 shadow-sm">
+              <button
+                onClick={() => setViewMode('list')}
+                className={`px-3 py-1 text-xs font-black uppercase tracking-wider rounded-md transition-all flex items-center gap-1.5 ${
+                  viewMode === 'list' ? 'bg-white text-black shadow-sm' : 'text-gray-400 hover:text-black'
+                }`}
+              >
+                List
+              </button>
+              <button
+                onClick={() => setViewMode('grid')}
+                className={`px-3 py-1 text-xs font-black uppercase tracking-wider rounded-md transition-all flex items-center gap-1.5 ${
+                  viewMode === 'grid' ? 'bg-white text-black shadow-sm' : 'text-gray-400 hover:text-black'
+                }`}
+              >
+                Grid
+              </button>
+            </div>
+
             <div className="flex items-center bg-gray-100 p-1 rounded-lg border border-gray-200 shadow-sm">
               {(['slim', 'normal', 'wide'] as const).map((mode) => (
                 <button
@@ -91,36 +119,68 @@ export default function ChartView({ entries, availableWeeks, activeWeekDate, for
             <WeekSelector weeks={availableWeeks} activeWeek={activeWeekDate} />
           </div>
         </header>
-
-        <div className="text-sm border-t-2 border-black shadow-sm bg-white min-h-[500px]">
-          <div className="grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] font-bold text-gray-600 border-b border-gray-300 bg-gray-50 sticky top-[88px] z-10">
-            <div className="py-2 text-center">Rank</div>
-            <div className="py-2 text-center">+/-</div>
-            <div className="py-2 pl-2">Song</div>
-            <div className="py-2 text-center">{}</div> 
-            <div className="py-2 text-center">Points</div>
-            <div className="py-2 text-center">%</div>
-            <div className="py-2 text-center bg-blue-50/50">Peak</div>
-            <div className="py-2 text-center">WoC</div>
-            <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">Sales</div>
-            <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">%</div>
-            <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">Streams</div>
-            <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">%</div>
-            <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">Airplay</div>
-            <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">%</div>
-            <div className="py-2 text-center text-[#721a46] bg-[#eddcfe]">Units</div>
-          </div>
-
-          {filteredEntries && filteredEntries.length > 0 ? (
-            filteredEntries.map((entry) => (
-              <ChartRow key={entry.id} entry={entry} />
-            ))
-          ) : (
-            <div className="py-12 text-center text-gray-400 font-bold uppercase tracking-widest">
-              No matching chart records found.
+        
+        {filteredEntries && filteredEntries.length > 0 ? (
+          viewMode === 'list' ? (
+            
+            /* ================= LIST VIEW ================= */
+            <div className="text-sm border-t-2 border-black shadow-sm bg-white min-h-[500px]">
+              <div className="grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] font-bold text-gray-600 border-b border-gray-300 bg-gray-50 sticky top-[88px] z-10">
+                <div className="py-2 text-center">Rank</div>
+                <div className="py-2 text-center">+/-</div>
+                <div className="py-2 pl-2">Song</div>
+                <div className="py-2 text-center">{}</div> 
+                <div className="py-2 text-center">Points</div>
+                <div className="py-2 text-center">%</div>
+                <div className="py-2 text-center bg-blue-50/50">Peak</div>
+                <div className="py-2 text-center">WoC</div>
+                <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">Sales</div>
+                <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">%</div>
+                <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">Streams</div>
+                <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">%</div>
+                <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">Airplay</div>
+                <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">%</div>
+                <div className="py-2 text-center text-[#721a46] bg-[#eddcfe]">Units</div>
+              </div>
+              {filteredEntries.map((entry) => (
+                <ChartRow key={entry.id} entry={entry} />
+              ))}
             </div>
-          )}
-        </div>
+
+          ) : (
+
+            /* ================= GRID VIEW ================= */
+            <div className={`grid gap-0 border-y-2 border-black transition-all duration-300 ease-in-out ${getGridCols()}`}>
+              {filteredEntries.map((entry) => (
+                <div 
+                  key={entry.id} 
+                  className="aspect-square bg-gray-100 overflow-hidden relative group"
+                >
+                  {entry.songs?.albums?.cover_url ? (
+                    <img 
+                      src={entry.songs.albums.cover_url} 
+                      alt={entry.songs.title} 
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+                      loading="lazy"
+                    />
+                  ) : (
+                    <div className="w-full h-full flex flex-col items-center justify-center text-gray-400 font-bold uppercase text-[10px] bg-gray-50 border border-gray-200">
+                      <span>No Cover</span>
+                    </div>
+                  )}
+                  <div className="absolute top-0 left-0 bg-black text-white text-xs font-black px-2 py-0.5 shadow-sm">
+                    {entry.rank}
+                  </div>
+                </div>
+              ))}
+            </div>
+            
+          )
+        ) : (
+          <div className="py-12 text-center text-gray-400 font-bold uppercase tracking-widest border-t-2 border-black">
+            No matching chart records found.
+          </div>
+        )}
 
       </div>
     </main>
