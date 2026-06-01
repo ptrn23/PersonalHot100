@@ -22,12 +22,20 @@ async function runGrandBackfill() {
   console.log(`Found ${totalScrobbles} total scrobbles across ${totalPages} pages.`);
   console.log(`Starting chronological download (from Page ${totalPages} down to 1)...\n`);
 
-  for (let page = totalPages; page >= 1; page--) {
+  for (let page = 893; page >= 1; page--) {
     console.log(`\n📥 Fetching Page ${page} of ${totalPages}...`);
     
     const url = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${USERNAME}&api_key=${API_KEY}&format=json&limit=200&page=${page}`;
     const response = await fetch(url);
     const data = await response.json();
+
+    if (data.error || !data.recenttracks) {
+        console.error(`⚠️ Last.fm API Glitch: ${data.message || 'Missing track data'}`);
+        console.log("Waiting 10 seconds before retrying this page...");
+        await sleep(10000);
+        page++;
+        continue; 
+    }
     
     let tracks = data.recenttracks.track;
     if (!Array.isArray(tracks)) tracks = [tracks];
@@ -69,13 +77,16 @@ async function runGrandBackfill() {
         } else {
             savedCount++;
         }
-      } catch (e) {
-        console.error(`Failed to process track: ${songTitle}`, e);
-      }
+      } catch (networkError) {
+        console.error(`🌐 Network Error on Page ${page}:`, networkError);
+        console.log("Waiting 10 seconds before retrying...");
+        await sleep(10000);
+        page++; 
+    }
     }
 
     console.log(`✅ Page ${page} complete: ${savedCount} saved, ${skipCount} skipped.`);
-    await sleep(300); 
+    await sleep(1500); 
   }
 
   console.log(`\n🎉 GRAND BACKFILL COMPLETE! Your entire listening history is now in PostgreSQL.`);
