@@ -19,6 +19,7 @@ export default function ChartRow({ entry }: { entry: any }) {
     title: entry.songs?.title || "Unknown",
     artist: entry.songs?.artists?.name || "Unknown",
     artistId: entry.songs?.artists?.id,
+    albumId: entry.songs?.albums?.id,
     coverUrl: entry.songs?.albums?.cover_url,
     
     status: !entry.previous_position 
@@ -88,9 +89,13 @@ export default function ChartRow({ entry }: { entry: any }) {
 
         {/* Song Info */}
         <div className="flex items-center gap-3 pl-2 overflow-hidden py-1">
-          <div className="w-10 h-10 bg-gray-200 shrink-0 shadow-sm relative group-hover:shadow-md transition-shadow">
+          <Link 
+            href={`/album/${song.albumId}`}
+            onClick={(e) => e.stopPropagation()} 
+            className="w-10 h-10 bg-gray-200 shrink-0 shadow-sm relative group-hover:shadow-md transition-shadow block"
+          >
             {song.coverUrl && <img src={song.coverUrl} className="w-full h-full object-cover" loading="lazy" alt="Cover" />}
-          </div>
+          </Link>
           <div className="truncate pr-4">
             <div className="font-bold leading-tight truncate text-gray-900">{song.title}</div>
             <Link 
