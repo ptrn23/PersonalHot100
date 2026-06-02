@@ -121,6 +121,7 @@ export default async function Home({
       `
       *,
       songs (
+        id,
         title,
         artists ( id, name ),
         albums ( id, title, cover_url )

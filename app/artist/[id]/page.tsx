@@ -140,6 +140,7 @@ export default async function ArtistPage({
     if (peakPos <= 10) top10Hits++;
 
     artistTracks.push({
+      id: song.id,
       title: song.title,
       debut: formatBillboardDate(debutDate),
       peak: peakPos,
@@ -355,9 +356,12 @@ export default async function ArtistPage({
                   className="bg-white p-4 flex items-center justify-between shadow-sm"
                 >
                   <div className="flex-1">
-                    <div className="font-black text-xl leading-tight">
+                    <Link 
+                      href={`/song/${track.id}`} 
+                      className="font-black text-xl leading-tight hover:text-[#B30000] transition-colors inline-block"
+                    >
                       {track.title}
-                    </div>
+                    </Link>
                     <div className="text-gray-500 text-sm font-medium">
                       {artist.name}
                     </div>

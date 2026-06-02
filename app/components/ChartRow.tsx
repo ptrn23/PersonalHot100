@@ -53,6 +53,7 @@ export type ChartEntry = {
   streams: number;
   airplay: number;
   songs?: {
+    id: string;
     title: string;
     artists?: { name: string; id: string };
     albums?: { title?: string; id: string; cover_url?: string };
@@ -230,9 +231,13 @@ export default function ChartRow({
             )}
           </Link>
           <div className="truncate pr-4">
-            <div className="font-bold leading-tight truncate text-gray-900">
+            <Link
+              href={`/song/${entry.songs?.id}`}
+              className="font-bold leading-tight truncate text-gray-900 hover:text-blue-600 transition-colors block"
+              onClick={(e) => e.stopPropagation()}
+            >
               {song.title}
-            </div>
+            </Link>
             <Link
               href={`/artist/${song.artistId}`}
               className="text-xs text-gray-500 hover:text-blue-600 hover:underline truncate font-medium transition-colors"
