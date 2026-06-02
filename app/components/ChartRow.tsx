@@ -247,7 +247,9 @@ export default function ChartRow({
             )}
 
             <Link
-              href={entry.songs?.artists?.customHref || `/artist/${song.artistId}`}
+              href={
+                entry.songs?.artists?.customHref || `/artist/${song.artistId}`
+              }
               className="text-xs text-gray-500 hover:text-blue-600 hover:underline truncate font-medium transition-colors"
               onClick={(e) => e.stopPropagation()}
             >

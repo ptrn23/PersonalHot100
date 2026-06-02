@@ -298,8 +298,8 @@ export default async function AlbumPage({
                   className="bg-white p-4 flex items-center justify-between shadow-sm"
                 >
                   <div className="flex-1">
-                    <Link 
-                      href={`/song/${track.id}`} 
+                    <Link
+                      href={`/song/${track.id}`}
                       className="font-black text-xl leading-tight hover:text-[#B30000] transition-colors inline-block"
                     >
                       {track.title}

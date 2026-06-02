@@ -26,7 +26,7 @@ const formatFullDate = (isoString?: string) => {
     month: "long",
     day: "numeric",
     year: "numeric",
-    timeZone: "Asia/Manila", 
+    timeZone: "Asia/Manila",
   });
 };
 
@@ -52,7 +52,8 @@ export default async function SongPage({
   const resolvedParams = await params;
   const { data: song, error } = await supabase
     .from("songs")
-    .select(`
+    .select(
+      `
       *,
       artists ( id, name ),
       albums ( id, title, cover_url ),
@@ -73,7 +74,8 @@ export default async function SongPage({
         weeks_on_chart,
         chart_weeks ( start_date )
       )
-    `)
+    `,
+    )
     .eq("id", resolvedParams.id)
     .single();
 
@@ -102,13 +104,17 @@ export default async function SongPage({
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const entries = (song.chart_entries as any[]) || [];
-  
-  const sortedEntries = [...entries].sort((a, b) => 
-    new Date(a.chart_weeks?.start_date).getTime() - new Date(b.chart_weeks?.start_date).getTime()
+
+  const sortedEntries = [...entries].sort(
+    (a, b) =>
+      new Date(a.chart_weeks?.start_date).getTime() -
+      new Date(b.chart_weeks?.start_date).getTime(),
   );
 
-  const descendingEntries = [...entries].sort((a, b) => 
-    new Date(b.chart_weeks?.start_date).getTime() - new Date(a.chart_weeks?.start_date).getTime()
+  const descendingEntries = [...entries].sort(
+    (a, b) =>
+      new Date(b.chart_weeks?.start_date).getTime() -
+      new Date(a.chart_weeks?.start_date).getTime(),
   );
 
   const maxStats: MaxStats = { sales: 0, streams: 0, airplay: 0, units: 0 };
@@ -124,15 +130,30 @@ export default async function SongPage({
     if (entry.weeks_on_chart > woc) woc = entry.weeks_on_chart;
   });
 
-  const debutDate = sortedEntries.length > 0 ? sortedEntries[0].chart_weeks?.start_date : null;
+  const debutDate =
+    sortedEntries.length > 0 ? sortedEntries[0].chart_weeks?.start_date : null;
   const peakEntry = sortedEntries.find((e) => e.rank === peakPos);
   const firstPeakDate = peakEntry?.chart_weeks?.start_date;
-  highestStreak = Math.max(0, ...sortedEntries.filter((e) => e.rank === peakPos).map((e) => e.peak_streak || 0));
+  highestStreak = Math.max(
+    0,
+    ...sortedEntries
+      .filter((e) => e.rank === peakPos)
+      .map((e) => e.peak_streak || 0),
+  );
 
-  const allTimeStreams = applyDeviation(Math.floor(rawStreams * 5250 * 275), seed + 1);
+  const allTimeStreams = applyDeviation(
+    Math.floor(rawStreams * 5250 * 275),
+    seed + 1,
+  );
   const allTimeSales = applyDeviation(Math.floor(rawSales * 252), seed + 2);
-  const allTimeAirplay = applyDeviation(Math.floor(rawAirplay * 2250 * 5020), seed + 3);
-  const allTimeUnits = applyDeviation(Math.floor((rawStreams + rawSales + rawAirplay) * 1750 * 2), seed + 4);
+  const allTimeAirplay = applyDeviation(
+    Math.floor(rawAirplay * 2250 * 5020),
+    seed + 3,
+  );
+  const allTimeUnits = applyDeviation(
+    Math.floor((rawStreams + rawSales + rawAirplay) * 1750 * 2),
+    seed + 4,
+  );
 
   const historyEntriesForList = descendingEntries.map((entry) => ({
     ...entry,
@@ -140,13 +161,13 @@ export default async function SongPage({
     songs: {
       id: song.id,
       title: song.title,
-      artists: { 
-        name: `${formatFullDate(entry.chart_weeks?.start_date)}`, 
+      artists: {
+        name: `${formatFullDate(entry.chart_weeks?.start_date)}`,
         id: artistId,
-        customHref: `/?week=${encodeURIComponent(entry.chart_weeks?.start_date)}` 
+        customHref: `/?week=${encodeURIComponent(entry.chart_weeks?.start_date)}`,
       },
-      albums: { cover_url: coverUrl, id: albumId }
-    }
+      albums: { cover_url: coverUrl, id: albumId },
+    },
   }));
 
   return (
@@ -157,16 +178,24 @@ export default async function SongPage({
             href="/"
             className="inline-flex items-center gap-2 text-sm font-bold text-gray-400 hover:text-black uppercase tracking-widest mb-10 transition-colors group"
           >
-            <span className="group-hover:-translate-x-1 transition-transform">&larr;</span>
+            <span className="group-hover:-translate-x-1 transition-transform">
+              &larr;
+            </span>
             Back to Hot 100
           </Link>
 
           <div className="flex flex-col md:flex-row gap-8 items-end">
             <div className="w-56 h-56 shrink-0 bg-gray-100 shadow-xl border border-gray-200">
               {coverUrl ? (
-                <img src={coverUrl} alt={albumTitle} className="w-full h-full object-cover" />
+                <img
+                  src={coverUrl}
+                  alt={albumTitle}
+                  className="w-full h-full object-cover"
+                />
               ) : (
-                <div className="w-full h-full flex items-center justify-center text-gray-400 font-bold uppercase text-sm">No Cover</div>
+                <div className="w-full h-full flex items-center justify-center text-gray-400 font-bold uppercase text-sm">
+                  No Cover
+                </div>
               )}
             </div>
 
@@ -178,10 +207,16 @@ export default async function SongPage({
                 {song.title}
               </h1>
               <div className="flex flex-col gap-1">
-                <Link href={`/artist/${artistId}`} className="text-xl font-bold text-gray-600 hover:text-[#B30000] transition-colors inline-block">
+                <Link
+                  href={`/artist/${artistId}`}
+                  className="text-xl font-bold text-gray-600 hover:text-[#B30000] transition-colors inline-block"
+                >
                   By {artistName}
                 </Link>
-                <Link href={`/album/${albumId}`} className="text-sm font-bold text-gray-400 hover:text-black transition-colors inline-block uppercase tracking-widest">
+                <Link
+                  href={`/album/${albumId}`}
+                  className="text-sm font-bold text-gray-400 hover:text-black transition-colors inline-block uppercase tracking-widest"
+                >
                   From: {albumTitle}
                 </Link>
               </div>
@@ -193,12 +228,18 @@ export default async function SongPage({
       <div className="max-w-5xl mx-auto px-10 md:px-0">
         <div className="mb-16">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
-            <div className="bg-black border-2 flex flex-col justify-center items-center h-40 relative overflow-hidden" style={{ borderColor: ACCENT_COLOR }}>
+            <div
+              className="bg-black border-2 flex flex-col justify-center items-center h-40 relative overflow-hidden"
+              style={{ borderColor: ACCENT_COLOR }}
+            >
               <span className="text-white text-7xl font-black tracking-tighter leading-none mb-1 z-10">
                 {peakPos === 101 ? "--" : peakPos}
               </span>
               {highestStreak > 0 && (
-                <span className="absolute top-4 right-4 text-white text-[10px] font-black uppercase px-2 py-0.5 rounded-sm" style={{ backgroundColor: ACCENT_COLOR }}>
+                <span
+                  className="absolute top-4 right-4 text-white text-[10px] font-black uppercase px-2 py-0.5 rounded-sm"
+                  style={{ backgroundColor: ACCENT_COLOR }}
+                >
                   {highestStreak} Wks
                 </span>
               )}
@@ -207,7 +248,10 @@ export default async function SongPage({
               </span>
             </div>
 
-            <div className="bg-black border-2 flex flex-col justify-center items-center h-40" style={{ borderColor: ACCENT_COLOR }}>
+            <div
+              className="bg-black border-2 flex flex-col justify-center items-center h-40"
+              style={{ borderColor: ACCENT_COLOR }}
+            >
               <span className="text-white text-6xl font-black tracking-tighter leading-none mb-1">
                 {formatNumber(totalPoints)}
               </span>
@@ -216,7 +260,10 @@ export default async function SongPage({
               </span>
             </div>
 
-            <div className="bg-black border-2 flex flex-col justify-center items-center h-40" style={{ borderColor: ACCENT_COLOR }}>
+            <div
+              className="bg-black border-2 flex flex-col justify-center items-center h-40"
+              style={{ borderColor: ACCENT_COLOR }}
+            >
               <span className="text-white text-6xl font-black tracking-tighter leading-none mb-1">
                 {woc}
               </span>
@@ -228,55 +275,79 @@ export default async function SongPage({
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
             <div className="bg-white border border-gray-300 p-4 flex flex-col justify-center items-center shadow-sm">
-              <span className="text-3xl font-black text-[#B30000] tracking-tighter">{formatNumber(allTimeUnits)}</span>
-              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mt-1">Total Units</span>
+              <span className="text-3xl font-black text-[#B30000] tracking-tighter">
+                {formatNumber(allTimeUnits)}
+              </span>
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mt-1">
+                Total Units
+              </span>
             </div>
             <div className="bg-white border border-gray-300 p-4 flex flex-col justify-center items-center shadow-sm">
-              <span className="text-2xl font-black text-gray-800 tracking-tighter">{formatNumber(allTimeStreams)}</span>
-              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mt-1">Streams</span>
+              <span className="text-2xl font-black text-gray-800 tracking-tighter">
+                {formatNumber(allTimeStreams)}
+              </span>
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mt-1">
+                Streams
+              </span>
             </div>
             <div className="bg-white border border-gray-300 p-4 flex flex-col justify-center items-center shadow-sm">
-              <span className="text-2xl font-black text-gray-800 tracking-tighter">{formatNumber(allTimeSales)}</span>
-              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mt-1">Sales</span>
+              <span className="text-2xl font-black text-gray-800 tracking-tighter">
+                {formatNumber(allTimeSales)}
+              </span>
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mt-1">
+                Sales
+              </span>
             </div>
             <div className="bg-white border border-gray-300 p-4 flex flex-col justify-center items-center shadow-sm">
-              <span className="text-2xl font-black text-gray-800 tracking-tighter">{formatNumber(allTimeAirplay)}</span>
-              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mt-1">Airplay</span>
+              <span className="text-2xl font-black text-gray-800 tracking-tighter">
+                {formatNumber(allTimeAirplay)}
+              </span>
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mt-1">
+                Airplay
+              </span>
             </div>
           </div>
 
           <div className="grid grid-cols-2 gap-4">
-             <div className="bg-gray-100 border border-gray-200 p-4 flex justify-between items-center px-8">
-               <span className="text-[10px] font-bold tracking-widest uppercase text-gray-500">Debut Date</span>
-               <span className="text-lg font-black text-gray-900">{formatBillboardDate(debutDate)}</span>
-             </div>
-             <div className="bg-gray-100 border border-gray-200 p-4 flex justify-between items-center px-8">
-               <span className="text-[10px] font-bold tracking-widest uppercase text-gray-500">First Peak Date</span>
-               <span className="text-lg font-black text-gray-900">{formatBillboardDate(firstPeakDate)}</span>
-             </div>
+            <div className="bg-gray-100 border border-gray-200 p-4 flex justify-between items-center px-8">
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-500">
+                Debut Date
+              </span>
+              <span className="text-lg font-black text-gray-900">
+                {formatBillboardDate(debutDate)}
+              </span>
+            </div>
+            <div className="bg-gray-100 border border-gray-200 p-4 flex justify-between items-center px-8">
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-500">
+                First Peak Date
+              </span>
+              <span className="text-lg font-black text-gray-900">
+                {formatBillboardDate(firstPeakDate)}
+              </span>
+            </div>
           </div>
         </div>
 
         <div className="mb-16">
           <div className="p-4 mb-6 bg-black">
-             <h2 className="text-3xl font-black uppercase tracking-tighter text-white">
-               Chart Trajectory
-             </h2>
+            <h2 className="text-3xl font-black uppercase tracking-tighter text-white">
+              Chart Trajectory
+            </h2>
           </div>
           <div className="aspect-[21/9] bg-white border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center text-center p-12">
-             <span className="text-gray-400 font-bold uppercase tracking-widest text-sm">
-               (Chart pending...)
-             </span>
+            <span className="text-gray-400 font-bold uppercase tracking-widest text-sm">
+              (Chart pending...)
+            </span>
           </div>
         </div>
 
         <div className="mb-16">
           <div className="p-4 mb-6" style={{ backgroundColor: ACCENT_COLOR }}>
-             <h2 className="text-3xl font-black uppercase tracking-tighter text-white">
-               Week-by-Week History
-             </h2>
+            <h2 className="text-3xl font-black uppercase tracking-tighter text-white">
+              Week-by-Week History
+            </h2>
           </div>
-          
+
           <div className="text-sm border-t-2 border-black shadow-sm bg-white overflow-hidden">
             {/* The Chart Header */}
             <div className="grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] font-bold text-gray-600 border-b border-gray-300 bg-gray-50">
@@ -288,15 +359,29 @@ export default async function SongPage({
               <div className="py-2 text-center">%</div>
               <div className="py-2 text-center bg-blue-50/50">Peak</div>
               <div className="py-2 text-center">WoC</div>
-              <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">Sales</div>
-              <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">%</div>
-              <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">Streams</div>
-              <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">%</div>
-              <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">Airplay</div>
-              <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">%</div>
-              <div className="py-2 text-center text-[#721a46] bg-[#eddcfe]">Units</div>
+              <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">
+                Sales
+              </div>
+              <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">
+                %
+              </div>
+              <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">
+                Streams
+              </div>
+              <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">
+                %
+              </div>
+              <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">
+                Airplay
+              </div>
+              <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">
+                %
+              </div>
+              <div className="py-2 text-center text-[#721a46] bg-[#eddcfe]">
+                Units
+              </div>
             </div>
-            
+
             <div className="flex flex-col">
               {historyEntriesForList.map((entry: ChartEntry) => (
                 <ChartRow key={entry.id} entry={entry} maxStats={maxStats} />
@@ -312,30 +397,29 @@ export default async function SongPage({
 
         <div className="mb-16">
           <div className="p-4 mb-6 bg-black">
-             <h2 className="text-3xl font-black uppercase tracking-tighter text-white">
-               Certifications
-             </h2>
+            <h2 className="text-3xl font-black uppercase tracking-tighter text-white">
+              Certifications
+            </h2>
           </div>
           <div className="bg-white border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center text-center p-12">
-             <span className="text-gray-400 font-bold uppercase tracking-widest text-sm">
-               (Certifications pending...)
-             </span>
+            <span className="text-gray-400 font-bold uppercase tracking-widest text-sm">
+              (Certifications pending...)
+            </span>
           </div>
         </div>
 
         <div className="mb-16">
           <div className="p-4 mb-6 bg-black">
-             <h2 className="text-3xl font-black uppercase tracking-tighter text-white">
-               Records
-             </h2>
+            <h2 className="text-3xl font-black uppercase tracking-tighter text-white">
+              Records
+            </h2>
           </div>
           <div className="bg-white border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center text-center p-12">
-             <span className="text-gray-400 font-bold uppercase tracking-widest text-sm">
-               (Records pending...)
-             </span>
+            <span className="text-gray-400 font-bold uppercase tracking-widest text-sm">
+              (Records pending...)
+            </span>
           </div>
         </div>
-
       </div>
     </main>
   );
