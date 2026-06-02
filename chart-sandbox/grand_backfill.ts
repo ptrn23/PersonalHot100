@@ -9,8 +9,26 @@ const supabase = createClient(
 const API_KEY = process.env.LASTFM_API_KEY;
 const USERNAME = process.env.LASTFM_USERNAME;
 
-// Polite delay function to prevent API bans
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+
+async function fetchWithRetry(url: string, retries = 3, delayMs = 3000): Promise<Response> {
+  for (let i = 0; i < retries; i++) {
+    try {
+      const response = await fetch(url);
+      if (!response.ok) {
+        throw new Error(`HTTP Status ${response.status}`);
+      }
+      return response;
+    } catch (error) {
+      if (i === retries - 1) throw error;
+      console.warn(`⚠️ Network hiccup on fetch. Retrying in ${delayMs / 1000}s...`);
+      await delay(delayMs);
+    }
+  }
+  
+  throw new Error("Fetch failed completely."); 
+}
 
 async function runGrandBackfill() {
   console.log("🚀 Initializing The Grand Backfill...");
@@ -26,14 +44,14 @@ async function runGrandBackfill() {
     `Found ${totalScrobbles} total scrobbles across ${totalPages} pages.`,
   );
   console.log(
-    `Starting chronological download (from Page ${totalPages} down to 1)...\n`,
+    `Starting chronological download (from Page ${totalPages} down to ${totalPages - 10})...\n`,
   );
 
-  for (let page = 893; page >= 1; page--) {
+  for (let page = totalPages; page >= totalPages - 10; page--) {
     console.log(`\n📥 Fetching Page ${page} of ${totalPages}...`);
 
     const url = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${USERNAME}&api_key=${API_KEY}&format=json&limit=200&page=${page}`;
-    const response = await fetch(url);
+    const response = await fetchWithRetry(url, 3, 5000);
     const data = await response.json();
 
     if (data.error || !data.recenttracks) {
@@ -117,7 +135,7 @@ async function runGrandBackfill() {
     console.log(
       `✅ Page ${page} complete: ${savedCount} saved, ${skipCount} skipped.`,
     );
-    await sleep(1500);
+    await delay(500);
   }
 
   console.log(
