@@ -84,8 +84,8 @@ export default async function SongPage({
     .from("chart_weeks")
     .select("start_date")
     .order("start_date", { ascending: true });
-    
-  const allGlobalWeeks = allWeeksData?.map(w => w.start_date) || [];
+
+  const allGlobalWeeks = allWeeksData?.map((w) => w.start_date) || [];
 
   if (error || !song) {
     return <div className="p-10 font-bold text-red-500">Song not found.</div>;
@@ -343,9 +343,9 @@ export default async function SongPage({
             </h2>
           </div>
           <div className="bg-white border-2 border-gray-200 shadow-sm rounded-lg p-6 pt-8">
-            <ChartTrajectory 
-              songEntries={sortedEntries} 
-              allGlobalWeeks={allGlobalWeeks} 
+            <ChartTrajectory
+              songEntries={sortedEntries}
+              allGlobalWeeks={allGlobalWeeks}
             />
           </div>
         </div>

@@ -159,16 +159,16 @@ export default async function ArtistPage({
   const displayedTracks = showAllTracks
     ? artistTracks
     : artistTracks.slice(0, 20);
-  const displayedAlbums = showAllAlbums ? albums : albums.slice(0, 10); 
+  const displayedAlbums = showAllAlbums ? albums : albums.slice(0, 10);
 
   return (
     <main className="min-h-screen bg-[#f5f5f5] text-gray-900 pb-24">
       <div className="relative w-full aspect-[2400/933] min-h-[350px] max-h-[600px] bg-black overflow-hidden mb-12 shadow-sm">
         {artist.image_url ? (
-          <img 
-            src={artist.image_url} 
-            alt={artist.name} 
-            className="absolute inset-0 w-full h-full object-cover object-[center_20%] opacity-90" 
+          <img
+            src={artist.image_url}
+            alt={artist.name}
+            className="absolute inset-0 w-full h-full object-cover object-[center_20%] opacity-90"
           />
         ) : (
           <div className="absolute inset-0 flex items-center justify-center bg-gray-900">
@@ -197,7 +197,7 @@ export default async function ArtistPage({
             <h1 className="text-6xl md:text-8xl lg:text-[7rem] font-black uppercase tracking-tighter leading-none mb-5 text-white drop-shadow-xl">
               {artist.name}
             </h1>
-            
+
             <div className="inline-flex items-center px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-[11px] font-mono text-white/90 uppercase tracking-widest shadow-sm">
               ID: {artist.id.split("-")[0]}
             </div>
@@ -435,10 +435,10 @@ export default async function ArtistPage({
               >
                 <div className="aspect-[4/3] bg-gray-800 overflow-hidden flex items-center justify-center">
                   {artist.image_url ? (
-                    <img 
-                      src={artist.image_url} 
-                      alt={artist.name} 
-                      className="absolute inset-0 w-full h-full object-cover object-center opacity-90" 
+                    <img
+                      src={artist.image_url}
+                      alt={artist.name}
+                      className="absolute inset-0 w-full h-full object-cover object-center opacity-90"
                     />
                   ) : (
                     <span className="text-gray-700 text-4xl font-black uppercase">
