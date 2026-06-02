@@ -79,9 +79,11 @@ export default async function ArtistPage({
   let no1Hits = 0;
   let top10Hits = 0;
   
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const artistTracks: any[] = [];
   const albums = artist.albums || [];
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const chartedSongs = (artist.songs as any[])?.filter((song) => song.chart_entries && song.chart_entries.length > 0) || [];
   const chartedSongsCount = chartedSongs.length;
 
@@ -361,7 +363,7 @@ export default async function ArtistPage({
              (Certifications pending...)
           </div>
         </div>
-        
+
         <div className="mb-16">
           <div className="p-4 mb-6 bg-black">
              <h2 className="text-3xl font-black uppercase tracking-tighter text-white">

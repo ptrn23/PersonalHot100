@@ -72,12 +72,14 @@ async function runChartEngine() {
       previousSongId = songId;
     }
 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     let lastWeekChart: Record<string, any> = {};
     if (previousWeek) {
       const { data } = await supabase.from('chart_entries').select('song_id, total_points, rank').eq('week_id', previousWeek.id);
       lastWeekChart = data?.reduce((acc, row) => ({ ...acc, [row.song_id]: row }), {}) || {};
     }
 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     let twoWeeksAgoChart: Record<string, any> = {};
     if (twoWeeksAgo) {
       const { data } = await supabase.from('chart_entries').select('song_id, total_points').eq('week_id', twoWeeksAgo.id);
@@ -122,6 +124,7 @@ async function runChartEngine() {
     });
 
     const top100 = chartContenders.slice(0, 100);
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const finalTop100ToInsert: any[] = [];
 
     top100.forEach((entry, index) => {

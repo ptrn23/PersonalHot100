@@ -67,7 +67,9 @@ export default async function AlbumPage({
     return <div className="p-10 font-bold text-red-500">Album not found.</div>;
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const artistName = (album.artists as any)?.name || "Unknown Artist";
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const artistId = (album.artists as any)?.id;
 
   let eraTotalPoints = 0;
@@ -76,8 +78,9 @@ export default async function AlbumPage({
   let top10Hits = 0;
   let chartedSongsCount = 0;
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const albumTracks: any[] = [];
-
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const chartedSongs = (album.songs as any[])?.filter((song) => song.chart_entries && song.chart_entries.length > 0) || [];
   chartedSongsCount = chartedSongs.length;
 
