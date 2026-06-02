@@ -128,7 +128,11 @@ export default async function AlbumPage({
     });
   });
 
-  albumTracks.sort((a, b) => b.totalPoints - a.totalPoints);
+  albumTracks.sort((a, b) => {
+    if (b.woc !== a.woc) return b.woc - a.woc;
+    if (a.peak !== b.peak) return a.peak - b.peak;
+    return b.streak - a.streak;
+  });
 
   return (
     <main className="min-h-screen bg-[#f5f5f5] text-gray-900 pb-24">
