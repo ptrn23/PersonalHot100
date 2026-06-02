@@ -24,7 +24,7 @@ async function runChartEngine() {
 
   console.log(`📅 Found ${weeks.length} weeks to process.\n`);
 
-  const globalSongHistory = new Map<string, { peak: number; woc: number }>();
+  const globalSongHistory = new Map<string, { peak: number; woc: number; peak_streak: number }>();
   
   for (let i = 0; i < weeks.length; i++) {
     const currentWeek = weeks[i];
@@ -85,8 +85,14 @@ async function runChartEngine() {
     }
     
     const chartContenders = [];
+    const allContenders = new Set([
+      ...Array.from(weeklyStats.keys()),
+      ...Object.keys(lastWeekChart),
+      ...Object.keys(twoWeeksAgoChart)
+    ]);
 
-    for (const [songId, stats] of weeklyStats.entries()) {
+    for (const songId of allContenders) {
+      const stats = weeklyStats.get(songId) || { streams: 0, sales: 0, airplay: 0 };
       const rawPoints = Math.floor(stats.streams * 5) + Math.floor(stats.sales * 3) + Math.floor(stats.airplay * 2);
 
       const prevPoints = lastWeekChart[songId]?.total_points || 0;
@@ -94,6 +100,8 @@ async function runChartEngine() {
       const finalWeightedPoints = Math.floor(
         rawPoints + Math.floor(prevPoints * 0.3) + Math.floor(twoWeeksPoints * 0.2)
       );
+
+      if (finalWeightedPoints === 0) continue;
 
       chartContenders.push({
         song_id: songId,
@@ -118,21 +126,33 @@ async function runChartEngine() {
 
     top100.forEach((entry, index) => {
       const rank = index + 1;
-      
-      const history = globalSongHistory.get(entry.song_id) || { peak: 101, woc: 0 };
+      const history = globalSongHistory.get(entry.song_id) || { peak: 101, woc: 0, peak_streak: 0 };
 
-      const isNewPeak = rank < history.peak;
-      const isRepeak = rank === history.peak && rank !== 101;
-      const peak_position = Math.min(rank, history.peak);
+      let currentPeak = history.peak;
+      let currentStreak = history.peak_streak;
+      let isNewPeak = false;
+
+      if (rank < history.peak) {
+        currentPeak = rank;
+        currentStreak = 1;
+        isNewPeak = true;
+      } else if (rank === history.peak) {
+        currentStreak += 1;
+      } else {
+        currentStreak = currentStreak;
+      }
+
+      const isRepeak = rank === currentPeak && !isNewPeak && history.peak !== 101 && history.peak_streak === 0;
       const weeks_on_chart = history.woc + 1;
-      globalSongHistory.set(entry.song_id, { peak: peak_position, woc: weeks_on_chart });
+      globalSongHistory.set(entry.song_id, { peak: currentPeak, woc: weeks_on_chart, peak_streak: currentStreak });
 
       finalTop100ToInsert.push({
         week_id: currentWeek.id,
         song_id: entry.song_id,
         rank: rank,
         previous_position: lastWeekChart[entry.song_id]?.rank || null,
-        peak_position: peak_position,
+        peak_position: currentPeak,
+        peak_streak: currentStreak > 0 ? currentStreak : null,
         weeks_on_chart: weeks_on_chart,
         is_new_peak: isNewPeak,
         is_repeak: isRepeak,
