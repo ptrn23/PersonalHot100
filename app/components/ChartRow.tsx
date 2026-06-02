@@ -11,6 +11,20 @@ const formatNumber = (num: number) => {
   return num.toString();
 };
 
+const getStableSeed = (title: string, artist: string) => {
+  const combo = `${title}|${artist}`;
+  let hash = 0;
+  for (let i = 0; i < combo.length; i++) {
+    hash += (i + 1) * combo.charCodeAt(i);
+  }
+  return hash;
+};
+
+const applyDeviation = (base: number, seed: number, scale = 0.1, mod = 100) => {
+  const deviation = ((seed % mod) / mod - 0.5) * 2 * scale;
+  return Math.floor(base * (1 + deviation));
+};
+
 export type ChartEntry = {
   id: string | number;
   rank: number;
@@ -20,10 +34,12 @@ export type ChartEntry = {
   weeks_on_chart: number;
   total_points: number;
   current_week_points: number;
+  previous_week_raw_points: number | null;
+  two_weeks_ago_raw_points: number | null;
+  peak_streak: number | null;
   sales: number;
   streams: number;
   airplay: number;
-  units: number;
   songs?: {
     title: string;
     artists?: { name: string; id: string };
@@ -34,10 +50,22 @@ export type ChartEntry = {
 export default function ChartRow({ entry }: { entry: ChartEntry }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
+  const title = entry.songs?.title || "Unknown";
+  const artist = entry.songs?.artists?.name || "Unknown";
+  
+  const seed = getStableSeed(title, artist);
+  const streamsUnits = applyDeviation(Math.floor(entry.streams * 5250 * 275), seed + 1);
+  const salesUnits = applyDeviation(Math.floor(entry.sales * 252), seed + 2);
+  const airplayUnits = applyDeviation(Math.floor(entry.airplay * 2250 * 5020), seed + 3);
+  const totalUnits = applyDeviation(Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2), seed + 4);
+
+  const prevRaw = entry.previous_week_raw_points || 0;
+  const twoWeeksRaw = entry.two_weeks_ago_raw_points || 0;
+
   const song = {
     rank: entry.rank,
-    title: entry.songs?.title || "Unknown",
-    artist: entry.songs?.artists?.name || "Unknown",
+    title: title,
+    artist: artist,
     artistId: entry.songs?.artists?.id,
     albumId: entry.songs?.albums?.id,
     coverUrl: entry.songs?.albums?.cover_url,
@@ -58,21 +86,21 @@ export default function ChartRow({ entry }: { entry: ChartEntry }) {
     points: entry.total_points,
     pointsPct: "--",
     peak: entry.peak_position,
-    peakStreak: null,
+    peakStreak: entry.peak_streak,
     isNewPeak: entry.is_new_peak,
     isRePeak: false,
     woc: entry.weeks_on_chart,
 
-    salesUnits: entry.sales,
+    salesUnits: salesUnits,
     salesPct: "--",
     isTopSales: false,
-    streamsUnits: entry.streams,
+    streamsUnits: streamsUnits,
     streamsPct: "--",
     isTopStreams: false,
-    airplayUnits: entry.airplay,
+    airplayUnits: airplayUnits,
     airplayPct: "--",
     isTopAirplay: false,
-    units: entry.streams + entry.sales + entry.airplay,
+    units: totalUnits,
     isTopUnits: false,
 
     streams: entry.streams,
@@ -84,10 +112,10 @@ export default function ChartRow({ entry }: { entry: ChartEntry }) {
     airplayPoints: Math.floor(entry.airplay * 2),
     currentWeekPoints: entry.current_week_points,
 
-    previousWeekRawPoints: 0,
-    previousWeekPoints: 0,
-    twoWeeksAgoRawPoints: 0,
-    twoWeeksAgoPoints: 0,
+    previousWeekRawPoints: prevRaw,
+    previousWeekPoints: Math.floor(prevRaw * 0.3),
+    twoWeeksAgoRawPoints: twoWeeksRaw,
+    twoWeeksAgoPoints: Math.floor(twoWeeksRaw * 0.2),
   };
 
   let peakBgClass = "bg-blue-50/50";
@@ -112,7 +140,7 @@ export default function ChartRow({ entry }: { entry: ChartEntry }) {
           {song.rank}
         </div>
 
-        {/* Change Indicator with Custom Colors */}
+        {/* Change Indicator */}
         <div className="text-center font-bold text-xs">
           {song.status === "re" && (
             <span className="text-[#8e0be5] bg-purple-50 px-1 rounded">RE</span>
@@ -187,17 +215,13 @@ export default function ChartRow({ entry }: { entry: ChartEntry }) {
           )}
         </div>
 
-        {/* Chart Stats with Dynamic Background */}
-        <div
-          className={`text-center h-full flex flex-col justify-center border-l border-white ${peakBgClass}`}
-        >
+        {/* Chart Stats */}
+        <div className={`text-center h-full flex flex-col justify-center border-l border-white ${peakBgClass}`}>
           <div className="font-bold leading-none text-gray-700">
             {song.peak}
           </div>
           {song.peakStreak && (
-            <div
-              className={`text-[9px] ${streakColorClass} font-bold uppercase mt-0.5`}
-            >
+            <div className={`text-[9px] ${streakColorClass} font-bold uppercase mt-0.5`}>
               {song.peakStreak}x
             </div>
           )}
@@ -207,10 +231,7 @@ export default function ChartRow({ entry }: { entry: ChartEntry }) {
         </div>
 
         {/* Sales (Yellow) */}
-        <div
-          className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700 
-          ${song.isTopSales ? "bg-[#f8e285] font-bold" : "bg-[#fff0ad] font-medium"}`}
-        >
+        <div className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700 ${song.isTopSales ? "bg-[#f8e285] font-bold" : "bg-[#fff0ad] font-medium"}`}>
           {formatNumber(song.salesUnits)}
         </div>
         <div className="text-center bg-[#fff0ad] h-full flex items-center justify-center text-xs text-gray-400 border-l border-[#fff0ad]">
@@ -218,10 +239,7 @@ export default function ChartRow({ entry }: { entry: ChartEntry }) {
         </div>
 
         {/* Streams (Green) */}
-        <div
-          className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700
-          ${song.isTopStreams ? "bg-[#bcf08e] font-bold" : "bg-[#d5f7bb] font-medium"}`}
-        >
+        <div className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700 ${song.isTopStreams ? "bg-[#bcf08e] font-bold" : "bg-[#d5f7bb] font-medium"}`}>
           {formatNumber(song.streamsUnits)}
         </div>
         <div className="text-center bg-[#d5f7bb] h-full flex items-center justify-center text-xs text-gray-400 border-l border-[#d5f7bb]">
@@ -229,10 +247,7 @@ export default function ChartRow({ entry }: { entry: ChartEntry }) {
         </div>
 
         {/* Airplay (Blue) */}
-        <div
-          className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700
-          ${song.isTopAirplay ? "bg-[#9adafe] font-bold" : "bg-[#b4e3ff] font-medium"}`}
-        >
+        <div className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700 ${song.isTopAirplay ? "bg-[#9adafe] font-bold" : "bg-[#b4e3ff] font-medium"}`}>
           {formatNumber(song.airplayUnits)}
         </div>
         <div className="text-center bg-[#b4e3ff] h-full flex items-center justify-center text-xs text-gray-400 border-l border-[#b4e3ff]">
@@ -240,10 +255,7 @@ export default function ChartRow({ entry }: { entry: ChartEntry }) {
         </div>
 
         {/* Units (Purple) */}
-        <div
-          className={`text-center h-full flex items-center justify-center border-l border-white text-purple-900
-          ${song.isTopUnits ? "bg-[#dcace8] font-bold" : "bg-[#e7d6ff] font-bold"}`}
-        >
+        <div className={`text-center h-full flex items-center justify-center border-l border-white text-purple-900 ${song.isTopUnits ? "bg-[#dcace8] font-bold" : "bg-[#e7d6ff] font-bold"}`}>
           {formatNumber(song.units)}
         </div>
       </div>
@@ -252,95 +264,66 @@ export default function ChartRow({ entry }: { entry: ChartEntry }) {
       {isExpanded && (
         <div className="bg-white border-t border-gray-100 px-8 py-5 text-sm shadow-inner overflow-hidden cursor-default">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+            
             {/* Column 1: Raw Scores */}
             <div className="bg-gray-50 p-3 rounded-lg border border-gray-200">
-              <span className="font-bold text-gray-800 text-xs uppercase mb-2 block border-b pb-1">
-                Scores
-              </span>
+              <span className="font-bold text-gray-800 text-xs uppercase mb-2 block border-b pb-1">Scores</span>
               <div className="flex justify-between items-center text-gray-600 mb-1">
-                <span>Streams:</span>{" "}
-                <span className="font-mono">{formatNumber(song.streams)}</span>
+                <span>Streams:</span> <span className="font-mono">{formatNumber(song.streams)}</span>
               </div>
               <div className="flex justify-between items-center text-gray-600 mb-1">
-                <span>Sales:</span>{" "}
-                <span className="font-mono">{formatNumber(song.sales)}</span>
+                <span>Sales:</span> <span className="font-mono">{formatNumber(song.sales)}</span>
               </div>
               <div className="flex justify-between items-center text-gray-600">
-                <span>Airplay:</span>{" "}
-                <span className="font-mono">{formatNumber(song.airplay)}</span>
+                <span>Airplay:</span> <span className="font-mono">{formatNumber(song.airplay)}</span>
               </div>
             </div>
 
             {/* Column 2: Component Points */}
             <div className="bg-gray-50 p-3 rounded-lg border border-gray-200">
-              <span className="font-bold text-gray-800 text-xs uppercase mb-2 block border-b pb-1">
-                Points
-              </span>
+              <span className="font-bold text-gray-800 text-xs uppercase mb-2 block border-b pb-1">Points</span>
               <div className="flex justify-between items-center text-gray-600 mb-1">
                 <span>Streams:</span>
                 <span className="font-mono whitespace-nowrap">
-                  <span className="text-gray-400 text-xs">
-                    {formatNumber(song.streams)} x 5 ={" "}
-                  </span>
-                  <span className="text-gray-800">
-                    {formatNumber(song.streamsPoints)}
-                  </span>
+                  <span className="text-gray-400 text-xs">{formatNumber(song.streams)} x 5 = </span>
+                  <span className="text-gray-800">{formatNumber(song.streamsPoints)}</span>
                 </span>
               </div>
               <div className="flex justify-between items-center text-gray-600 mb-1">
                 <span>Sales:</span>
                 <span className="font-mono whitespace-nowrap">
-                  <span className="text-gray-400 text-xs">
-                    {formatNumber(song.sales)} x 3 ={" "}
-                  </span>
-                  <span className="text-gray-800">
-                    {formatNumber(song.salesPoints)}
-                  </span>
+                  <span className="text-gray-400 text-xs">{formatNumber(song.sales)} x 3 = </span>
+                  <span className="text-gray-800">{formatNumber(song.salesPoints)}</span>
                 </span>
               </div>
               <div className="flex justify-between items-center text-gray-600">
                 <span>Airplay:</span>
                 <span className="font-mono whitespace-nowrap">
-                  <span className="text-gray-400 text-xs">
-                    {formatNumber(song.airplay)} x 2 ={" "}
-                  </span>
-                  <span className="text-gray-800">
-                    {formatNumber(song.airplayPoints)}
-                  </span>
+                  <span className="text-gray-400 text-xs">{formatNumber(song.airplay)} x 2 = </span>
+                  <span className="text-gray-800">{formatNumber(song.airplayPoints)}</span>
                 </span>
               </div>
             </div>
 
             {/* Column 3: Time Decay */}
             <div className="bg-gray-50 p-3 rounded-lg border border-gray-200">
-              <span className="font-bold text-gray-800 text-xs uppercase mb-2 block border-b pb-1">
-                Decay
-              </span>
-
-              {/* Row 1 */}
+              <span className="font-bold text-gray-800 text-xs uppercase mb-2 block border-b pb-1">Decay</span>
               <div className="flex justify-between items-center text-gray-600 mb-1">
                 <span>This week:</span>
                 <span className="font-mono whitespace-nowrap">
                   <span className="text-gray-400 text-[10px] sm:text-xs">
-                    {formatNumber(song.streamsPoints)} +{" "}
-                    {formatNumber(song.salesPoints)} +{" "}
-                    {formatNumber(song.airplayPoints)} =
+                    {formatNumber(song.streamsPoints)} + {formatNumber(song.salesPoints)} + {formatNumber(song.airplayPoints)} =
                   </span>
-                  <span className="text-gray-800 ml-1">
-                    {formatNumber(song.currentWeekPoints)}
-                  </span>
+                  <span className="text-gray-800 ml-1">{formatNumber(song.currentWeekPoints)}</span>
                 </span>
               </div>
-
               <div className="flex justify-between items-center text-gray-600 mb-1">
                 <span>One week ago:</span>
                 <span className="font-mono whitespace-nowrap">
                   <span className="text-gray-400 text-[10px] sm:text-xs">
                     {formatNumber(song.previousWeekRawPoints)} x 30% =
                   </span>
-                  <span className="text-gray-800 ml-1">
-                    {song.previousWeekPoints}
-                  </span>
+                  <span className="text-gray-800 ml-1">{song.previousWeekPoints}</span>
                 </span>
               </div>
               <div className="flex justify-between items-center text-gray-600">
@@ -349,18 +332,14 @@ export default function ChartRow({ entry }: { entry: ChartEntry }) {
                   <span className="text-gray-400 text-[10px] sm:text-xs">
                     {formatNumber(song.twoWeeksAgoRawPoints)} x 20% =
                   </span>
-                  <span className="text-gray-800 ml-1">
-                    {song.twoWeeksAgoPoints}
-                  </span>
+                  <span className="text-gray-800 ml-1">{song.twoWeeksAgoPoints}</span>
                 </span>
               </div>
             </div>
 
             {/* Column 4: Final Total */}
             <div className="bg-blue-50 p-3 rounded-lg border border-blue-200 flex flex-col justify-center items-center">
-              <span className="font-bold text-blue-800 text-xs uppercase mb-1">
-                Total Points
-              </span>
+              <span className="font-bold text-blue-800 text-xs uppercase mb-1">Total Points</span>
               <span className="text-4xl font-black text-blue-900 tracking-tighter leading-none mb-1">
                 {formatNumber(song.points)}
               </span>
