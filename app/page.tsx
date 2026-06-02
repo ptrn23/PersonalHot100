@@ -7,7 +7,7 @@ const formatDateRange = (startDateStr: string, endDateStr: string) => {
     month: "long",
     day: "numeric",
     year: "numeric",
-    timeZone: "Asia/Manila", 
+    timeZone: "Asia/Manila",
   };
   const startStr = new Date(startDateStr).toLocaleDateString("en-US", options);
   const endStr = new Date(endDateStr).toLocaleDateString("en-US", options);
@@ -65,7 +65,8 @@ export default async function Home({
     }
 
     const exactMatch = availableWeeks.find(
-      (w) => new Date(w.start_date).getTime() === new Date(requestedWeek).getTime()
+      (w) =>
+        new Date(w.start_date).getTime() === new Date(requestedWeek).getTime(),
     );
 
     if (exactMatch) {
@@ -124,7 +125,7 @@ export default async function Home({
         artists ( id, name ),
         albums ( id, title, cover_url )
       )
-    `
+    `,
     )
     .eq("week_id", activeWeek.id)
     .lte("rank", 100)
@@ -137,7 +138,7 @@ export default async function Home({
       activeWeekDate={activeWeek.start_date}
       formattedDateRange={formatDateRange(
         activeWeek.start_date,
-        activeWeek.end_date
+        activeWeek.end_date,
       )}
     />
   );

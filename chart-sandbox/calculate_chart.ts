@@ -1,8 +1,8 @@
-import { createClient } from '@supabase/supabase-js';
-import * as dotenv from 'dotenv';
-import { Database } from '../types/supabase';
+import { createClient } from "@supabase/supabase-js";
+import * as dotenv from "dotenv";
+import { Database } from "../types/supabase";
 
-dotenv.config({ path: '.env.local' });
+dotenv.config({ path: ".env.local" });
 
 const supabase = createClient<Database>(
   process.env.SUPABASE_URL!,
@@ -13,9 +13,9 @@ async function runChartEngine() {
   console.log("🚀 Booting up Personal Hot 100 Chart Engine...");
 
   const { data: weeks, error: weeksError } = await supabase
-    .from('chart_weeks')
-    .select('*')
-    .order('start_date', { ascending: true });
+    .from("chart_weeks")
+    .select("*")
+    .order("start_date", { ascending: true });
 
   if (weeksError || !weeks) {
     console.error("❌ Failed to fetch chart weeks:", weeksError);
@@ -24,8 +24,11 @@ async function runChartEngine() {
 
   console.log(`📅 Found ${weeks.length} weeks to process.\n`);
 
-  const globalSongHistory = new Map<string, { peak: number; woc: number; peak_streak: number }>();
-  
+  const globalSongHistory = new Map<
+    string,
+    { peak: number; woc: number; peak_streak: number }
+  >();
+
   for (let i = 0; i < weeks.length; i++) {
     const currentWeek = weeks[i];
     const previousWeek = i > 0 ? weeks[i - 1] : null;
@@ -34,25 +37,33 @@ async function runChartEngine() {
     console.log(`\n📊 Processing Week: ${currentWeek.start_date}`);
 
     const { data: rawScrobbles, error: scrobbleError } = await supabase
-      .from('scrobbles')
-      .select('song_id, listened_at')
-      .gte('listened_at', currentWeek.start_date)
-      .lt('listened_at', currentWeek.end_date)
-      .order('listened_at', { ascending: true });
+      .from("scrobbles")
+      .select("song_id, listened_at")
+      .gte("listened_at", currentWeek.start_date)
+      .lt("listened_at", currentWeek.end_date)
+      .order("listened_at", { ascending: true });
 
     if (scrobbleError || !rawScrobbles || rawScrobbles.length === 0) {
       console.log(`⚠️ No scrobbles found for this week. Skipping.`);
       continue;
     }
 
-    const weeklyStats = new Map<string, { streams: number; sales: number; airplay: number; currentStreak: number }>();
+    const weeklyStats = new Map<
+      string,
+      { streams: number; sales: number; airplay: number; currentStreak: number }
+    >();
     let previousSongId: string | null = null;
 
     for (const scrobble of rawScrobbles) {
       const songId = scrobble.song_id;
 
       if (!weeklyStats.has(songId)) {
-        weeklyStats.set(songId, { streams: 0, sales: 0, airplay: 0, currentStreak: 0 });
+        weeklyStats.set(songId, {
+          streams: 0,
+          sales: 0,
+          airplay: 0,
+          currentStreak: 0,
+        });
       }
 
       const stats = weeklyStats.get(songId)!;
@@ -75,32 +86,49 @@ async function runChartEngine() {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     let lastWeekChart: Record<string, any> = {};
     if (previousWeek) {
-      const { data } = await supabase.from('chart_entries').select('song_id, total_points, rank').eq('week_id', previousWeek.id);
-      lastWeekChart = data?.reduce((acc, row) => ({ ...acc, [row.song_id]: row }), {}) || {};
+      const { data } = await supabase
+        .from("chart_entries")
+        .select("song_id, total_points, rank")
+        .eq("week_id", previousWeek.id);
+      lastWeekChart =
+        data?.reduce((acc, row) => ({ ...acc, [row.song_id]: row }), {}) || {};
     }
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     let twoWeeksAgoChart: Record<string, any> = {};
     if (twoWeeksAgo) {
-      const { data } = await supabase.from('chart_entries').select('song_id, total_points').eq('week_id', twoWeeksAgo.id);
-      twoWeeksAgoChart = data?.reduce((acc, row) => ({ ...acc, [row.song_id]: row }), {}) || {};
+      const { data } = await supabase
+        .from("chart_entries")
+        .select("song_id, total_points")
+        .eq("week_id", twoWeeksAgo.id);
+      twoWeeksAgoChart =
+        data?.reduce((acc, row) => ({ ...acc, [row.song_id]: row }), {}) || {};
     }
-    
+
     const chartContenders = [];
     const allContenders = new Set([
       ...Array.from(weeklyStats.keys()),
       ...Object.keys(lastWeekChart),
-      ...Object.keys(twoWeeksAgoChart)
+      ...Object.keys(twoWeeksAgoChart),
     ]);
 
     for (const songId of allContenders) {
-      const stats = weeklyStats.get(songId) || { streams: 0, sales: 0, airplay: 0 };
-      const rawPoints = Math.floor(stats.streams * 5) + Math.floor(stats.sales * 3) + Math.floor(stats.airplay * 2);
+      const stats = weeklyStats.get(songId) || {
+        streams: 0,
+        sales: 0,
+        airplay: 0,
+      };
+      const rawPoints =
+        Math.floor(stats.streams * 5) +
+        Math.floor(stats.sales * 3) +
+        Math.floor(stats.airplay * 2);
 
       const prevPoints = lastWeekChart[songId]?.total_points || 0;
       const twoWeeksPoints = twoWeeksAgoChart[songId]?.total_points || 0;
       const finalWeightedPoints = Math.floor(
-        rawPoints + Math.floor(prevPoints * 0.3) + Math.floor(twoWeeksPoints * 0.2)
+        rawPoints +
+          Math.floor(prevPoints * 0.3) +
+          Math.floor(twoWeeksPoints * 0.2),
       );
 
       if (finalWeightedPoints === 0) continue;
@@ -118,7 +146,8 @@ async function runChartEngine() {
     }
 
     chartContenders.sort((a, b) => {
-      if (b.total_points !== a.total_points) return b.total_points - a.total_points;
+      if (b.total_points !== a.total_points)
+        return b.total_points - a.total_points;
       if (b.rawPoints !== a.rawPoints) return b.rawPoints - a.rawPoints;
       return b.streams - a.streams;
     });
@@ -129,7 +158,11 @@ async function runChartEngine() {
 
     top100.forEach((entry, index) => {
       const rank = index + 1;
-      const history = globalSongHistory.get(entry.song_id) || { peak: 101, woc: 0, peak_streak: 0 };
+      const history = globalSongHistory.get(entry.song_id) || {
+        peak: 101,
+        woc: 0,
+        peak_streak: 0,
+      };
 
       let currentPeak = history.peak;
       let currentStreak = history.peak_streak;
@@ -145,9 +178,17 @@ async function runChartEngine() {
         currentStreak = currentStreak;
       }
 
-      const isRepeak = rank === currentPeak && !isNewPeak && history.peak !== 101 && history.peak_streak === 0;
+      const isRepeak =
+        rank === currentPeak &&
+        !isNewPeak &&
+        history.peak !== 101 &&
+        history.peak_streak === 0;
       const weeks_on_chart = history.woc + 1;
-      globalSongHistory.set(entry.song_id, { peak: currentPeak, woc: weeks_on_chart, peak_streak: currentStreak });
+      globalSongHistory.set(entry.song_id, {
+        peak: currentPeak,
+        woc: weeks_on_chart,
+        peak_streak: currentStreak,
+      });
 
       finalTop100ToInsert.push({
         week_id: currentWeek.id,
@@ -165,21 +206,21 @@ async function runChartEngine() {
         current_week_points: entry.rawPoints,
         previous_week_raw_points: entry.prevPoints,
         two_weeks_ago_raw_points: entry.twoWeeksPoints,
-        total_points: entry.total_points
+        total_points: entry.total_points,
       });
     });
 
     const { error: insertError } = await supabase
-      .from('chart_entries')
-      .upsert(finalTop100ToInsert, { onConflict: 'week_id, song_id' });
-    
+      .from("chart_entries")
+      .upsert(finalTop100ToInsert, { onConflict: "week_id, song_id" });
+
     if (insertError) {
       console.error("❌ Failed to insert Top 100:", insertError);
     } else {
       console.log(`✅ Saved Top 100! (Rank 1: ${top100[0].total_points} pts)`);
     }
   }
-  
+
   console.log("\n🎉 Chart Engine has finished processing all weeks!");
 }
 

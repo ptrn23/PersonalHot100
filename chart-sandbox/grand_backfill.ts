@@ -10,9 +10,13 @@ const API_KEY = process.env.LASTFM_API_KEY;
 const USERNAME = process.env.LASTFM_USERNAME;
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
-const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
-async function fetchWithRetry(url: string, retries = 3, delayMs = 3000): Promise<Response> {
+async function fetchWithRetry(
+  url: string,
+  retries = 3,
+  delayMs = 3000,
+): Promise<Response> {
   for (let i = 0; i < retries; i++) {
     try {
       const response = await fetch(url);
@@ -22,12 +26,14 @@ async function fetchWithRetry(url: string, retries = 3, delayMs = 3000): Promise
       return response;
     } catch (error) {
       if (i === retries - 1) throw error;
-      console.warn(`⚠️ Network hiccup on fetch. Retrying in ${delayMs / 1000}s...`);
+      console.warn(
+        `⚠️ Network hiccup on fetch. Retrying in ${delayMs / 1000}s...`,
+      );
       await delay(delayMs);
     }
   }
-  
-  throw new Error("Fetch failed completely."); 
+
+  throw new Error("Fetch failed completely.");
 }
 
 async function runGrandBackfill() {

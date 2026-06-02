@@ -1,7 +1,12 @@
 "use client";
 
 import { useState, useRef } from "react";
-import ChartRow, { ChartEntry, MaxStats, getStableSeed, applyDeviation } from "./ChartRow";
+import ChartRow, {
+  ChartEntry,
+  MaxStats,
+  getStableSeed,
+  applyDeviation,
+} from "./ChartRow";
 import WeekSelector from "./WeekSelector";
 import {
   Search,
@@ -35,7 +40,9 @@ export default function ChartView({
   activeWeekDate,
   formattedDateRange,
 }: Props) {
-  const [layoutWidth, setLayoutWidth] = useState<"slim" | "normal" | "wide">("normal");
+  const [layoutWidth, setLayoutWidth] = useState<"slim" | "normal" | "wide">(
+    "normal",
+  );
   const [searchQuery, setSearchQuery] = useState("");
   const [viewMode, setViewMode] = useState<"list" | "grid">("list");
   const [isExporting, setIsExporting] = useState(false);
@@ -45,19 +52,25 @@ export default function ChartView({
 
   const getContainerWidth = () => {
     switch (layoutWidth) {
-      case "slim": return "max-w-[1200px] min-w-[1200px]";
-      case "wide": return "max-w-[1750px] min-w-[1750px]";
+      case "slim":
+        return "max-w-[1200px] min-w-[1200px]";
+      case "wide":
+        return "max-w-[1750px] min-w-[1750px]";
       case "normal":
-      default: return "max-w-[1450px] min-w-[1450px]";
+      default:
+        return "max-w-[1450px] min-w-[1450px]";
     }
   };
 
   const getGridCols = () => {
     switch (layoutWidth) {
-      case "wide": return "grid-cols-10";
-      case "slim": return "grid-cols-4";
+      case "wide":
+        return "grid-cols-10";
+      case "slim":
+        return "grid-cols-4";
       case "normal":
-      default: return "grid-cols-5";
+      default:
+        return "grid-cols-5";
     }
   };
 
@@ -130,12 +143,21 @@ export default function ChartView({
       const title = entry.songs?.title || "";
       const artist = entry.songs?.artists?.name || "";
       const seed = getStableSeed(title, artist);
-      
-      const streamsUnits = applyDeviation(Math.floor(entry.streams * 5250 * 275), seed + 1);
-      const airplayUnits = applyDeviation(Math.floor(entry.airplay * 2250 * 5020), seed + 3);
-      const totalUnits = applyDeviation(Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2), seed + 4);
 
-      if (entry.sales > maxStats.sales) maxStats.sales = entry.sales; 
+      const streamsUnits = applyDeviation(
+        Math.floor(entry.streams * 5250 * 275),
+        seed + 1,
+      );
+      const airplayUnits = applyDeviation(
+        Math.floor(entry.airplay * 2250 * 5020),
+        seed + 3,
+      );
+      const totalUnits = applyDeviation(
+        Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2),
+        seed + 4,
+      );
+
+      if (entry.sales > maxStats.sales) maxStats.sales = entry.sales;
       if (streamsUnits > maxStats.streams) maxStats.streams = streamsUnits;
       if (airplayUnits > maxStats.airplay) maxStats.airplay = airplayUnits;
       if (totalUnits > maxStats.units) maxStats.units = totalUnits;
