@@ -82,8 +82,8 @@ export default async function AlbumPage({
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const albumTracks: any[] = [];
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const chartedSongs =
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     (album.songs as any[])?.filter(
       (song) => song.chart_entries && song.chart_entries.length > 0,
     ) || [];

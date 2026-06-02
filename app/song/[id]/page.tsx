@@ -1,6 +1,6 @@
 import { supabase } from "@/utils/supabase";
 import Link from "next/link";
-import ChartRow, { MaxStats } from "../../components/ChartRow";
+import ChartRow, { ChartEntry, MaxStats } from "../../components/ChartRow";
 
 const ACCENT_COLOR = "#B30000";
 
@@ -81,10 +81,15 @@ export default async function SongPage({
     return <div className="p-10 font-bold text-red-500">Song not found.</div>;
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const artistName = (song.artists as any)?.name || "Unknown Artist";
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const artistId = (song.artists as any)?.id;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const albumTitle = (song.albums as any)?.title || "Unknown Album";
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const albumId = (song.albums as any)?.id;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const coverUrl = (song.albums as any)?.cover_url;
 
   let totalPoints = 0;
@@ -95,6 +100,7 @@ export default async function SongPage({
   let woc = 0;
   let highestStreak = 0;
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const entries = (song.chart_entries as any[]) || [];
   
   const sortedEntries = [...entries].sort((a, b) => 
@@ -292,7 +298,7 @@ export default async function SongPage({
             </div>
             
             <div className="flex flex-col">
-              {historyEntriesForList.map((entry: any) => (
+              {historyEntriesForList.map((entry: ChartEntry) => (
                 <ChartRow key={entry.id} entry={entry} maxStats={maxStats} />
               ))}
               {historyEntriesForList.length === 0 && (
