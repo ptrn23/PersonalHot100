@@ -43,7 +43,7 @@ export default function Header() {
 
       const [resArtists, resAlbums, resSongs] = await Promise.all([
         supabase.from("artists").select("id, name").ilike("name", `%${query}%`).limit(3),
-        supabase.from("albums").select("id, title").ilike("title", `%${query}%`).limit(3),
+        supabase.from("albums").select("id, title, cover_url").ilike("title", `%${query}%`).limit(3),
         supabase.from("songs").select("id, title, artists(name)").ilike("title", `%${query}%`).limit(5)
       ]);
 
@@ -135,8 +135,12 @@ export default function Header() {
                         <div className="flex flex-col">
                           {results.albums.map((album) => (
                             <Link key={album.id} href={`/album/${album.id}`} onClick={handleLinkClick} className="px-3 py-2 hover:bg-gray-50 transition-colors flex items-center gap-3">
-                              <div className="w-8 h-8 bg-gray-200 shrink-0 border border-gray-300 flex items-center justify-center">
-                                <span className="font-black text-gray-400 text-[8px]">ALB</span>
+                              <div className="w-8 h-8 bg-gray-200 shrink-0 border border-gray-300 flex items-center justify-center overflow-hidden">
+                                {album.cover_url ? (
+                                  <img src={album.cover_url} alt={album.title} className="w-full h-full object-cover" />
+                                ) : (
+                                  <span className="font-black text-gray-400 text-[8px]">ALB</span>
+                                )}
                               </div>
                               <span className="font-bold text-sm truncate">{album.title}</span>
                             </Link>
