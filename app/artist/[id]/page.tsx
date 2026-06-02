@@ -159,15 +159,30 @@ export default async function ArtistPage({
   const displayedTracks = showAllTracks
     ? artistTracks
     : artistTracks.slice(0, 20);
-  const displayedAlbums = showAllAlbums ? albums : albums.slice(0, 10); // Show 2 rows initially
+  const displayedAlbums = showAllAlbums ? albums : albums.slice(0, 10); 
 
   return (
     <main className="min-h-screen bg-[#f5f5f5] text-gray-900 pb-24">
-      <div className="bg-white p-10 pb-12 shadow-sm mb-8">
-        <div className="max-w-5xl mx-auto">
+      <div className="relative w-full aspect-[2400/933] min-h-[350px] max-h-[600px] bg-black overflow-hidden mb-12 shadow-sm">
+        {artist.image_url ? (
+          <img 
+            src={artist.image_url} 
+            alt={artist.name} 
+            className="absolute inset-0 w-full h-full object-cover object-[center_20%] opacity-90" 
+          />
+        ) : (
+          <div className="absolute inset-0 flex items-center justify-center bg-gray-900">
+            <span className="text-white text-[15rem] font-black uppercase opacity-5 leading-none">
+              {artist.name.charAt(0)}
+            </span>
+          </div>
+        )}
+
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
+        <div className="relative z-10 w-full h-full max-w-5xl mx-auto px-10 md:px-0 flex flex-col justify-between py-10 md:py-12">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 text-sm font-bold text-gray-400 hover:text-black uppercase tracking-widest mb-10 transition-colors group"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-xs font-bold text-white uppercase tracking-widest hover:bg-white/20 hover:scale-105 transition-all group drop-shadow-md w-max"
           >
             <span className="group-hover:-translate-x-1 transition-transform">
               &larr;
@@ -175,23 +190,16 @@ export default async function ArtistPage({
             Back to Hot 100
           </Link>
 
-          <div className="flex flex-col md:flex-row gap-10 items-end">
-            <div className="w-64 h-64 shrink-0 bg-black shadow-xl border border-gray-200 flex items-center justify-center">
-              <span className="text-white text-6xl font-black uppercase opacity-50">
-                {artist.name.charAt(0)}
-              </span>
-            </div>
-
-            <div>
-              <p className="text-gray-500 font-bold uppercase tracking-widest text-sm mb-2">
-                Artist Profile
-              </p>
-              <h1 className="text-5xl md:text-7xl font-black uppercase tracking-tighter leading-none mb-4">
-                {artist.name}
-              </h1>
-              <p className="text-gray-400 font-mono text-xs uppercase tracking-widest">
-                ID: {artist.id.split("-")[0]}
-              </p>
+          <div>
+            <p className="text-white/80 font-bold uppercase tracking-widest text-sm mb-2 drop-shadow-md">
+              Artist Profile
+            </p>
+            <h1 className="text-6xl md:text-8xl lg:text-[7rem] font-black uppercase tracking-tighter leading-none mb-5 text-white drop-shadow-xl">
+              {artist.name}
+            </h1>
+            
+            <div className="inline-flex items-center px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-[11px] font-mono text-white/90 uppercase tracking-widest shadow-sm">
+              ID: {artist.id.split("-")[0]}
             </div>
           </div>
         </div>
@@ -426,9 +434,17 @@ export default async function ArtistPage({
                 className="shrink-0 w-72 bg-black relative group snap-start cursor-pointer shadow-md"
               >
                 <div className="aspect-[4/3] bg-gray-800 overflow-hidden flex items-center justify-center">
-                  <span className="text-gray-700 text-4xl font-black uppercase">
-                    {artist.name.charAt(0)}
-                  </span>
+                  {artist.image_url ? (
+                    <img 
+                      src={artist.image_url} 
+                      alt={artist.name} 
+                      className="absolute inset-0 w-full h-full object-cover object-center opacity-90" 
+                    />
+                  ) : (
+                    <span className="text-gray-700 text-4xl font-black uppercase">
+                      {artist.name.charAt(0)}
+                    </span>
+                  )}
                 </div>
                 <div className="absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-black via-black/80 to-transparent">
                   <div

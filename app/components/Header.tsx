@@ -42,7 +42,7 @@ export default function Header() {
       setShowDropdown(true);
 
       const [resArtists, resAlbums, resSongs] = await Promise.all([
-        supabase.from("artists").select("id, name").ilike("name", `%${query}%`).limit(3),
+        supabase.from("artists").select("id, name, image_url").ilike("name", `%${query}%`).limit(3),
         supabase.from("albums").select("id, title, cover_url").ilike("title", `%${query}%`).limit(3),
         supabase.from("songs").select("id, title, artists(name)").ilike("title", `%${query}%`).limit(5)
       ]);
@@ -118,8 +118,12 @@ export default function Header() {
                         <div className="flex flex-col">
                           {results.artists.map((artist) => (
                             <Link key={artist.id} href={`/artist/${artist.id}`} onClick={handleLinkClick} className="px-3 py-2 hover:bg-gray-50 transition-colors flex items-center gap-3">
-                              <div className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center shrink-0">
-                                <span className="font-black text-gray-500 text-xs">{artist.name.charAt(0)}</span>
+                              <div className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center shrink-0 overflow-hidden border border-gray-300">
+                                {artist.image_url ? (
+                                  <img src={artist.image_url} alt={artist.name} className="w-full h-full object-cover" />
+                                ) : (
+                                  <span className="font-black text-gray-500 text-xs">{artist.name.charAt(0)}</span>
+                                )}
                               </div>
                               <span className="font-bold text-sm truncate">{artist.name}</span>
                             </Link>
