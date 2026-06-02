@@ -1,6 +1,7 @@
 import { supabase } from "@/utils/supabase";
 import Link from "next/link";
 import ChartRow, { ChartEntry, MaxStats } from "../../components/ChartRow";
+import ChartTrajectory from "../../components/ChartTrajectory";
 
 const ACCENT_COLOR = "#B30000";
 
@@ -78,6 +79,13 @@ export default async function SongPage({
     )
     .eq("id", resolvedParams.id)
     .single();
+
+  const { data: allWeeksData } = await supabase
+    .from("chart_weeks")
+    .select("start_date")
+    .order("start_date", { ascending: true });
+    
+  const allGlobalWeeks = allWeeksData?.map(w => w.start_date) || [];
 
   if (error || !song) {
     return <div className="p-10 font-bold text-red-500">Song not found.</div>;
@@ -331,13 +339,14 @@ export default async function SongPage({
         <div className="mb-16">
           <div className="p-4 mb-6 bg-black">
             <h2 className="text-3xl font-black uppercase tracking-tighter text-white">
-              Chart Trajectory
+              Chart Run
             </h2>
           </div>
-          <div className="aspect-[21/9] bg-white border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center text-center p-12">
-            <span className="text-gray-400 font-bold uppercase tracking-widest text-sm">
-              (Chart pending...)
-            </span>
+          <div className="bg-white border-2 border-gray-200 shadow-sm rounded-lg p-6 pt-8">
+            <ChartTrajectory 
+              songEntries={sortedEntries} 
+              allGlobalWeeks={allGlobalWeeks} 
+            />
           </div>
         </div>
 
