@@ -86,7 +86,7 @@ export default function ChartRow({ entry, maxStats }: { entry: ChartEntry; maxSt
   let pointsPctStr = "--";
   if (prevRaw > 0) {
     const pctChange = ((entry.current_week_points - prevRaw) / prevRaw) * 100;
-    pointsPctStr = (pctChange > 0 ? "+" : "") + pctChange.toFixed(1) + "%";
+    pointsPctStr = (pctChange > 0 ? "+" : "") + Math.round(pctChange);
   }
 
   const song = {
