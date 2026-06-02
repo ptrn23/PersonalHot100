@@ -1,5 +1,6 @@
 import { supabase } from "@/utils/supabase";
 import Link from "next/link";
+import ChartRow, { MaxStats } from "../../components/ChartRow";
 
 const ACCENT_COLOR = "#B30000";
 
@@ -17,6 +18,16 @@ const formatBillboardDate = (isoString?: string) => {
   const day = d.getDate().toString().padStart(2, "0");
   const y = d.getFullYear().toString().slice(2);
   return `${m}/${day}/${y}`;
+};
+
+const formatFullDate = (isoString?: string) => {
+  if (!isoString) return "--";
+  return new Date(isoString).toLocaleDateString("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "Asia/Manila", 
+  });
 };
 
 const getStableSeed = (title: string, artist: string) => {
@@ -46,8 +57,14 @@ export default async function SongPage({
       artists ( id, name ),
       albums ( id, title, cover_url ),
       chart_entries (
+        id,
         rank,
+        previous_position,
+        is_new_peak,
         total_points,
+        current_week_points,
+        previous_week_raw_points,
+        two_weeks_ago_raw_points,
         streams,
         sales,
         airplay,
@@ -84,6 +101,13 @@ export default async function SongPage({
     new Date(a.chart_weeks?.start_date).getTime() - new Date(b.chart_weeks?.start_date).getTime()
   );
 
+  const descendingEntries = [...entries].sort((a, b) => 
+    new Date(b.chart_weeks?.start_date).getTime() - new Date(a.chart_weeks?.start_date).getTime()
+  );
+
+  const maxStats: MaxStats = { sales: 0, streams: 0, airplay: 0, units: 0 };
+  const seed = getStableSeed(song.title, artistName);
+
   sortedEntries.forEach((entry) => {
     totalPoints += entry.total_points || 0;
     rawStreams += entry.streams || 0;
@@ -99,11 +123,25 @@ export default async function SongPage({
   const firstPeakDate = peakEntry?.chart_weeks?.start_date;
   highestStreak = Math.max(0, ...sortedEntries.filter((e) => e.rank === peakPos).map((e) => e.peak_streak || 0));
 
-  const seed = getStableSeed(song.title, artistName);
   const allTimeStreams = applyDeviation(Math.floor(rawStreams * 5250 * 275), seed + 1);
   const allTimeSales = applyDeviation(Math.floor(rawSales * 252), seed + 2);
   const allTimeAirplay = applyDeviation(Math.floor(rawAirplay * 2250 * 5020), seed + 3);
   const allTimeUnits = applyDeviation(Math.floor((rawStreams + rawSales + rawAirplay) * 1750 * 2), seed + 4);
+
+  const historyEntriesForList = descendingEntries.map((entry) => ({
+    ...entry,
+    disableSongLink: true,
+    songs: {
+      id: song.id,
+      title: song.title,
+      artists: { 
+        name: `${formatFullDate(entry.chart_weeks?.start_date)}`, 
+        id: artistId,
+        customHref: `/?week=${encodeURIComponent(entry.chart_weeks?.start_date)}` 
+      },
+      albums: { cover_url: coverUrl, id: albumId }
+    }
+  }));
 
   return (
     <main className="min-h-screen bg-[#f5f5f5] text-gray-900 pb-24">
@@ -232,10 +270,37 @@ export default async function SongPage({
                Week-by-Week History
              </h2>
           </div>
-          <div className="bg-white border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center text-center p-12">
-             <span className="text-gray-400 font-bold uppercase tracking-widest text-sm">
-               (History pending...)
-             </span>
+          
+          <div className="text-sm border-t-2 border-black shadow-sm bg-white overflow-hidden">
+            {/* The Chart Header */}
+            <div className="grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] font-bold text-gray-600 border-b border-gray-300 bg-gray-50">
+              <div className="py-2 text-center">Rank</div>
+              <div className="py-2 text-center">+/-</div>
+              <div className="py-2 pl-2">Week</div>
+              <div className="py-2 text-center">{}</div>
+              <div className="py-2 text-center">Points</div>
+              <div className="py-2 text-center">%</div>
+              <div className="py-2 text-center bg-blue-50/50">Peak</div>
+              <div className="py-2 text-center">WoC</div>
+              <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">Sales</div>
+              <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">%</div>
+              <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">Streams</div>
+              <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">%</div>
+              <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">Airplay</div>
+              <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">%</div>
+              <div className="py-2 text-center text-[#721a46] bg-[#eddcfe]">Units</div>
+            </div>
+            
+            <div className="flex flex-col">
+              {historyEntriesForList.map((entry: any) => (
+                <ChartRow key={entry.id} entry={entry} maxStats={maxStats} />
+              ))}
+              {historyEntriesForList.length === 0 && (
+                <div className="p-10 text-center text-gray-400 font-bold uppercase tracking-widest text-sm">
+                  No chart history found.
+                </div>
+              )}
+            </div>
           </div>
         </div>
 

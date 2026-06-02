@@ -52,10 +52,11 @@ export type ChartEntry = {
   sales: number;
   streams: number;
   airplay: number;
+  disableSongLink?: boolean;
   songs?: {
     id: string;
     title: string;
-    artists?: { name: string; id: string };
+    artists?: { name: string; id: string; customHref?: string };
     albums?: { title?: string; id: string; cover_url?: string };
   };
 };
@@ -231,15 +232,22 @@ export default function ChartRow({
             )}
           </Link>
           <div className="truncate pr-4">
+            {entry.disableSongLink ? (
+              <div className="font-bold leading-tight truncate text-gray-900 block">
+                {song.title}
+              </div>
+            ) : (
+              <Link
+                href={`/song/${entry.songs?.id}`}
+                className="font-bold leading-tight truncate text-gray-900 hover:text-blue-600 transition-colors block"
+                onClick={(e) => e.stopPropagation()}
+              >
+                {song.title}
+              </Link>
+            )}
+
             <Link
-              href={`/song/${entry.songs?.id}`}
-              className="font-bold leading-tight truncate text-gray-900 hover:text-blue-600 transition-colors block"
-              onClick={(e) => e.stopPropagation()}
-            >
-              {song.title}
-            </Link>
-            <Link
-              href={`/artist/${song.artistId}`}
+              href={entry.songs?.artists?.customHref || `/artist/${song.artistId}`}
               className="text-xs text-gray-500 hover:text-blue-600 hover:underline truncate font-medium transition-colors"
               onClick={(e) => e.stopPropagation()}
             >
