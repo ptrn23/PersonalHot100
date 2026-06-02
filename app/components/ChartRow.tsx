@@ -11,7 +11,7 @@ const formatNumber = (num: number) => {
   return num.toString();
 };
 
-const getStableSeed = (title: string, artist: string) => {
+export const getStableSeed = (title: string, artist: string) => {
   const combo = `${title}|${artist}`;
   let hash = 0;
   for (let i = 0; i < combo.length; i++) {
@@ -20,9 +20,16 @@ const getStableSeed = (title: string, artist: string) => {
   return hash;
 };
 
-const applyDeviation = (base: number, seed: number, scale = 0.1, mod = 100) => {
+export const applyDeviation = (base: number, seed: number, scale = 0.1, mod = 100) => {
   const deviation = ((seed % mod) / mod - 0.5) * 2 * scale;
   return Math.floor(base * (1 + deviation));
+};
+
+export type MaxStats = {
+  sales: number;
+  streams: number;
+  airplay: number;
+  units: number;
 };
 
 export type ChartEntry = {
@@ -47,7 +54,7 @@ export type ChartEntry = {
   };
 };
 
-export default function ChartRow({ entry }: { entry: ChartEntry }) {
+export default function ChartRow({ entry, maxStats }: { entry: ChartEntry; maxStats: MaxStats }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const title = entry.songs?.title || "Unknown";
@@ -61,6 +68,26 @@ export default function ChartRow({ entry }: { entry: ChartEntry }) {
 
   const prevRaw = entry.previous_week_raw_points || 0;
   const twoWeeksRaw = entry.two_weeks_ago_raw_points || 0;
+
+  const totalRawForPct = entry.streams * 4 + entry.sales * 0.45 + entry.airplay * 5;
+  
+  const streamsPct = totalRawForPct > 0 
+    ? Math.round(((entry.streams * 4) / totalRawForPct) * 100) + "%" 
+    : "0%";
+    
+  const salesPct = totalRawForPct > 0 
+    ? Math.round(((entry.sales * 0.45) / totalRawForPct) * 100) + "%" 
+    : "0%";
+    
+  const airplayPct = totalRawForPct > 0 
+    ? Math.round(((entry.airplay * 5) / totalRawForPct) * 100) + "%" 
+    : "0%";
+
+  let pointsPctStr = "--";
+  if (prevRaw > 0) {
+    const pctChange = ((entry.current_week_points - prevRaw) / prevRaw) * 100;
+    pointsPctStr = (pctChange > 0 ? "+" : "") + pctChange.toFixed(1) + "%";
+  }
 
   const song = {
     rank: entry.rank,
@@ -84,7 +111,7 @@ export default function ChartRow({ entry }: { entry: ChartEntry }) {
       : 0,
 
     points: entry.total_points,
-    pointsPct: "--",
+    pointsPct: pointsPctStr,
     peak: entry.peak_position,
     peakStreak: entry.peak_streak,
     isNewPeak: entry.is_new_peak,
@@ -92,16 +119,19 @@ export default function ChartRow({ entry }: { entry: ChartEntry }) {
     woc: entry.weeks_on_chart,
 
     salesUnits: salesUnits,
-    salesPct: "--",
-    isTopSales: false,
+    salesPct: salesPct,
+    isTopSales: entry.sales > 0 && entry.sales === maxStats.sales,
+    
     streamsUnits: streamsUnits,
-    streamsPct: "--",
-    isTopStreams: false,
+    streamsPct: streamsPct,
+    isTopStreams: entry.streams > 0 && streamsUnits === maxStats.streams,
+    
     airplayUnits: airplayUnits,
-    airplayPct: "--",
-    isTopAirplay: false,
+    airplayPct: airplayPct,
+    isTopAirplay: entry.airplay > 0 && airplayUnits === maxStats.airplay,
+    
     units: totalUnits,
-    isTopUnits: false,
+    isTopUnits: totalUnits > 0 && totalUnits === maxStats.units,
 
     streams: entry.streams,
     sales: entry.sales,
