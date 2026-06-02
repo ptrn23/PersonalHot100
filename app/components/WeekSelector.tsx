@@ -9,19 +9,33 @@ type Props = {
 
 export default function WeekSelector({ weeks, activeWeek }: Props) {
   const router = useRouter();
+  const formatWeek = (isoString: string) => {
+    try {
+      const date = new Date(isoString);
+      return date.toLocaleDateString("en-US", {
+        timeZone: "Asia/Manila",
+        month: "long",
+        day: "numeric",
+        year: "numeric",
+      });
+    } catch {
+      return isoString;
+    }
+  };
 
   return (
     <div className="relative">
       <select
         value={activeWeek}
         onChange={(e) => {
-          router.push(`/?week=${e.target.value}`);
+          const encodedDate = encodeURIComponent(e.target.value);
+          router.push(`/?week=${encodedDate}`);
         }}
         className="appearance-none bg-gray-100 border border-gray-200 text-gray-700 py-2 pl-4 pr-8 rounded-lg font-bold text-sm uppercase tracking-wide cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 hover:bg-gray-200 transition-colors"
       >
         {weeks.map((week) => (
           <option key={week} value={week}>
-            {week}
+            Week of {formatWeek(week)}
           </option>
         ))}
       </select>
