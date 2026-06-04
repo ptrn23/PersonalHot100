@@ -1,7 +1,7 @@
 import { supabase } from "@/utils/supabase";
 import Link from "next/link";
-import ChartRow, { ChartEntry, MaxStats } from "../../components/ChartRow";
-import ChartTrajectory from "../../components/ChartTrajectory";
+import ChartRow, { ChartEntry, MaxStats } from "../../../components/ChartRow";
+import ChartTrajectory from "../../../components/ChartTrajectory";
 
 const ACCENT_COLOR = "#B30000";
 
@@ -216,13 +216,13 @@ export default async function SongPage({
               </h1>
               <div className="flex flex-col gap-1">
                 <Link
-                  href={`/artist/${artistId}`}
+                  href={`/library/artist/${artistId}`}
                   className="text-xl font-bold text-gray-600 hover:text-[#B30000] transition-colors inline-block"
                 >
                   By {artistName}
                 </Link>
                 <Link
-                  href={`/album/${albumId}`}
+                  href={`/library/album/${albumId}`}
                   className="text-sm font-bold text-gray-400 hover:text-black transition-colors inline-block uppercase tracking-widest"
                 >
                   From: {albumTitle}

@@ -33,18 +33,25 @@ const applyDeviation = (base: number, seed: number, scale = 0.1, mod = 100) => {
   return Math.floor(base * (1 + deviation));
 };
 
-export default async function AlbumPage({
+export default async function ArtistPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ id: string }>;
+  searchParams: Promise<{ view?: string; albums?: string }>;
 }) {
   const resolvedParams = await params;
-  const { data: album, error } = await supabase
-    .from("albums")
+  const resolvedSearchParams = await searchParams;
+
+  const showAllTracks = resolvedSearchParams.view === "all";
+  const showAllAlbums = resolvedSearchParams.albums === "all";
+
+  const { data: artist, error } = await supabase
+    .from("artists")
     .select(
       `
       *,
-      artists ( id, name ),
+      albums ( id, title, cover_url, release_date ),
       songs (
         id,
         title,
@@ -65,29 +72,25 @@ export default async function AlbumPage({
     .eq("id", resolvedParams.id)
     .single();
 
-  if (error || !album) {
-    return <div className="p-10 font-bold text-red-500">Album not found.</div>;
+  if (error || !artist) {
+    return <div className="p-10 font-bold text-red-500">Artist not found.</div>;
   }
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const artistName = (album.artists as any)?.name || "Unknown Artist";
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const artistId = (album.artists as any)?.id;
-
-  let eraTotalPoints = 0;
-  let eraTotalUnits = 0;
+  let careerTotalPoints = 0;
+  let careerTotalUnits = 0;
   let no1Hits = 0;
   let top10Hits = 0;
-  let chartedSongsCount = 0;
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const albumTracks: any[] = [];
+  const artistTracks: any[] = [];
+  const albums = artist.albums || [];
+
   const chartedSongs =
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    (album.songs as any[])?.filter(
+    (artist.songs as any[])?.filter(
       (song) => song.chart_entries && song.chart_entries.length > 0,
     ) || [];
-  chartedSongsCount = chartedSongs.length;
+  const chartedSongsCount = chartedSongs.length;
 
   chartedSongs.forEach((song) => {
     let songTotalPoints = 0;
@@ -122,7 +125,7 @@ export default async function AlbumPage({
         .map((e) => e.peak_streak || 0),
     );
 
-    const seed = getStableSeed(song.title, artistName);
+    const seed = getStableSeed(song.title, artist.name);
     const songUnits = applyDeviation(
       Math.floor(
         (songTotalStreams + songTotalSales + songTotalAirplay) * 1750 * 2,
@@ -130,13 +133,13 @@ export default async function AlbumPage({
       seed + 4,
     );
 
-    eraTotalPoints += songTotalPoints;
-    eraTotalUnits += songUnits;
+    careerTotalPoints += songTotalPoints;
+    careerTotalUnits += songUnits;
 
     if (peakPos === 1) no1Hits++;
     if (peakPos <= 10) top10Hits++;
 
-    albumTracks.push({
+    artistTracks.push({
       id: song.id,
       title: song.title,
       debut: formatBillboardDate(debutDate),
@@ -144,23 +147,42 @@ export default async function AlbumPage({
       streak: highestStreakAtPeak,
       peakDate: formatBillboardDate(firstPeakDate),
       woc: woc,
-      totalPoints: songTotalPoints,
     });
   });
 
-  albumTracks.sort((a, b) => {
+  artistTracks.sort((a, b) => {
     if (b.woc !== a.woc) return b.woc - a.woc;
     if (a.peak !== b.peak) return a.peak - b.peak;
     return b.streak - a.streak;
   });
 
+  const displayedTracks = showAllTracks
+    ? artistTracks
+    : artistTracks.slice(0, 20);
+  const displayedAlbums = showAllAlbums ? albums : albums.slice(0, 10);
+
   return (
     <main className="min-h-screen bg-[#f5f5f5] text-gray-900 pb-24">
-      <div className="bg-white p-10 pb-12 shadow-sm mb-8">
-        <div className="max-w-5xl mx-auto">
+      <div className="relative w-full aspect-[2400/933] min-h-[350px] max-h-[600px] bg-black overflow-hidden mb-12 shadow-sm">
+        {artist.image_url ? (
+          <img
+            src={artist.image_url}
+            alt={artist.name}
+            className="absolute inset-0 w-full h-full object-cover object-[center_20%] opacity-90"
+          />
+        ) : (
+          <div className="absolute inset-0 flex items-center justify-center bg-gray-900">
+            <span className="text-white text-[15rem] font-black uppercase opacity-5 leading-none">
+              {artist.name.charAt(0)}
+            </span>
+          </div>
+        )}
+
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
+        <div className="relative z-10 w-full h-full max-w-5xl mx-auto px-10 md:px-0 flex flex-col justify-between py-10 md:py-12">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 text-sm font-bold text-gray-400 hover:text-black uppercase tracking-widest mb-10 transition-colors group"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-xs font-bold text-white uppercase tracking-widest hover:bg-white/20 hover:scale-105 transition-all group drop-shadow-md w-max"
           >
             <span className="group-hover:-translate-x-1 transition-transform">
               &larr;
@@ -168,34 +190,16 @@ export default async function AlbumPage({
             Back to Hot 100
           </Link>
 
-          <div className="flex flex-col md:flex-row gap-10 items-end">
-            <div className="w-64 h-64 shrink-0 bg-gray-100 shadow-xl border border-gray-200">
-              {album.cover_url ? (
-                <img
-                  src={album.cover_url}
-                  alt={album.title}
-                  className="w-full h-full object-cover"
-                />
-              ) : (
-                <div className="w-full h-full flex items-center justify-center text-gray-400 font-bold uppercase text-sm">
-                  No Cover
-                </div>
-              )}
-            </div>
+          <div>
+            <p className="text-white/80 font-bold uppercase tracking-widest text-sm mb-2 drop-shadow-md">
+              Artist Profile
+            </p>
+            <h1 className="text-6xl md:text-8xl lg:text-[7rem] font-black uppercase tracking-tighter leading-none mb-5 text-white drop-shadow-xl">
+              {artist.name}
+            </h1>
 
-            <div>
-              <p className="text-gray-500 font-bold uppercase tracking-widest text-sm mb-2">
-                Album Profile
-              </p>
-              <h1 className="text-5xl md:text-7xl font-black uppercase tracking-tighter leading-none mb-4">
-                {album.title}
-              </h1>
-              <Link
-                href={`/artist/${artistId}`}
-                className="text-2xl font-bold text-gray-600 hover:text-blue-600 transition-colors inline-block"
-              >
-                By {artistName}
-              </Link>
+            <div className="inline-flex items-center px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-[11px] font-mono text-white/90 uppercase tracking-widest shadow-sm">
+              ID: {artist.id.split("-")[0]}
             </div>
           </div>
         </div>
@@ -208,7 +212,7 @@ export default async function AlbumPage({
             style={{ borderColor: ACCENT_COLOR }}
           >
             <span className="text-white text-4xl font-black tracking-tighter leading-none mb-1">
-              {formatNumber(eraTotalPoints)}
+              {formatNumber(careerTotalPoints)}
             </span>
             <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 border-t border-gray-700 w-3/4 text-center pt-2 mt-1">
               Total Points
@@ -220,7 +224,7 @@ export default async function AlbumPage({
             style={{ borderColor: ACCENT_COLOR }}
           >
             <span className="text-white text-4xl font-black tracking-tighter leading-none mb-1">
-              {formatNumber(eraTotalUnits)}
+              {formatNumber(careerTotalUnits)}
             </span>
             <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 border-t border-gray-700 w-3/4 text-center pt-2 mt-1">
               Total Units
@@ -264,8 +268,70 @@ export default async function AlbumPage({
           </div>
         </div>
 
+        {albums.length > 0 && (
+          <div className="mb-16">
+            <div className="bg-black text-white p-4 mb-4">
+              <h2 className="text-xl font-black uppercase tracking-widest text-white">
+                Albums
+              </h2>
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
+              {displayedAlbums.map(
+                (al: {
+                  id: string;
+                  title: string;
+                  cover_url: string | null;
+                  release_date: string | null;
+                }) => (
+                  <Link
+                    key={al.id}
+                    href={`/library/album/${al.id}`}
+                    className="group flex flex-col"
+                  >
+                    <div className="aspect-square bg-gray-200 mb-2 overflow-hidden border border-gray-300">
+                      {al.cover_url ? (
+                        <img
+                          src={al.cover_url}
+                          alt={al.title}
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                        />
+                      ) : (
+                        <div className="w-full h-full flex items-center justify-center text-gray-400 font-bold uppercase text-[10px]">
+                          No Cover
+                        </div>
+                      )}
+                    </div>
+                    <span className="font-bold text-sm leading-tight group-hover:text-[#B30000] transition-colors line-clamp-2">
+                      {al.title}
+                    </span>
+                    {al.release_date && (
+                      <span className="text-xs text-gray-500 font-medium">
+                        {new Date(al.release_date).getFullYear()}
+                      </span>
+                    )}
+                  </Link>
+                ),
+              )}
+            </div>
+
+            {!showAllAlbums && albums.length > 10 && (
+              <div className="mt-6 flex justify-center">
+                <Link
+                  href={`/library/artist/${artist.id}?albums=all${showAllTracks ? "&view=all" : ""}`}
+                  className="border-2 border-black px-8 py-3 text-xs font-bold uppercase tracking-widest text-black hover:bg-black hover:text-white transition-colors cursor-pointer"
+                >
+                  Show all
+                </Link>
+              </div>
+            )}
+          </div>
+        )}
+
         <div className="mb-16">
-          <div className="bg-black text-white p-4 flex justify-end items-end mb-4">
+          <div className="bg-black text-white p-4 flex justify-between items-end mb-4">
+            <h2 className="text-xl font-black uppercase tracking-widest text-white">
+              Chart History
+            </h2>
             <div className="hidden md:flex gap-12 pr-6 text-center text-xs font-black uppercase leading-tight tracking-wide text-white">
               <div className="w-16">
                 Debut
@@ -291,21 +357,21 @@ export default async function AlbumPage({
           </div>
 
           <div className="flex flex-col gap-2">
-            {albumTracks.length > 0 ? (
-              albumTracks.map((track, i) => (
+            {displayedTracks.length > 0 ? (
+              displayedTracks.map((track, i) => (
                 <div
                   key={i}
                   className="bg-white p-4 flex items-center justify-between shadow-sm"
                 >
                   <div className="flex-1">
                     <Link
-                      href={`/song/${track.id}`}
+                      href={`/library/song/${track.id}`}
                       className="font-black text-xl leading-tight hover:text-[#B30000] transition-colors inline-block"
                     >
                       {track.title}
                     </Link>
                     <div className="text-gray-500 text-sm font-medium">
-                      {artistName}
+                      {artist.name}
                     </div>
                   </div>
 
@@ -337,10 +403,21 @@ export default async function AlbumPage({
               ))
             ) : (
               <div className="bg-white p-12 text-center text-gray-400 font-bold uppercase tracking-widest text-sm shadow-sm">
-                No charting tracks found for this era.
+                No charting tracks found for this artist.
               </div>
             )}
           </div>
+
+          {!showAllTracks && artistTracks.length > 20 && (
+            <div className="mt-6 flex justify-center">
+              <Link
+                href={`/library/artist/${artist.id}?view=all${showAllAlbums ? "&albums=all" : ""}`}
+                className="border-2 border-black px-8 py-3 text-xs font-bold uppercase tracking-widest text-black hover:bg-black hover:text-white transition-colors cursor-pointer"
+              >
+                Show all
+              </Link>
+            </div>
+          )}
         </div>
 
         <div className="mb-16">
@@ -351,18 +428,22 @@ export default async function AlbumPage({
           </div>
 
           <div className="flex overflow-x-auto gap-6 pb-4 snap-x">
-            {albumTracks.slice(0, 4).map((track, i) => (
+            {artistTracks.slice(0, 4).map((track, i) => (
               <div
                 key={i}
                 className="shrink-0 w-72 bg-black relative group snap-start cursor-pointer shadow-md"
               >
-                <div className="aspect-[4/3] bg-gray-800 overflow-hidden">
-                  {album.cover_url && (
+                <div className="aspect-[4/3] bg-gray-800 overflow-hidden flex items-center justify-center">
+                  {artist.image_url ? (
                     <img
-                      src={album.cover_url}
-                      alt="News Thumbnail"
-                      className="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-500"
+                      src={artist.image_url}
+                      alt={artist.name}
+                      className="absolute inset-0 w-full h-full object-cover object-center opacity-90"
                     />
+                  ) : (
+                    <span className="text-gray-700 text-4xl font-black uppercase">
+                      {artist.name.charAt(0)}
+                    </span>
                   )}
                 </div>
                 <div className="absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-black via-black/80 to-transparent">
@@ -379,7 +460,7 @@ export default async function AlbumPage({
                 </div>
               </div>
             ))}
-            {albumTracks.length === 0 && (
+            {artistTracks.length === 0 && (
               <div className="w-full text-center text-gray-400 font-bold uppercase py-10">
                 No news available.
               </div>

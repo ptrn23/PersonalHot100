@@ -218,7 +218,7 @@ export default function ChartRow({
         {/* Song Info */}
         <div className="flex items-center gap-3 pl-2 overflow-hidden py-1">
           <Link
-            href={`/album/${song.albumId}`}
+            href={`/library/album/${song.albumId}`}
             onClick={(e) => e.stopPropagation()}
             className="w-10 h-10 bg-gray-200 shrink-0 shadow-sm relative group-hover:shadow-md transition-shadow block"
           >
@@ -238,7 +238,7 @@ export default function ChartRow({
               </div>
             ) : (
               <Link
-                href={`/song/${entry.songs?.id}`}
+                href={`/library/song/${entry.songs?.id}`}
                 className="font-bold leading-tight truncate text-gray-900 hover:text-blue-600 transition-colors block"
                 onClick={(e) => e.stopPropagation()}
               >
@@ -248,7 +248,7 @@ export default function ChartRow({
 
             <Link
               href={
-                entry.songs?.artists?.customHref || `/artist/${song.artistId}`
+                entry.songs?.artists?.customHref || `/library/artist/${song.artistId}`
               }
               className="text-xs text-gray-500 hover:text-blue-600 hover:underline truncate font-medium transition-colors"
               onClick={(e) => e.stopPropagation()}

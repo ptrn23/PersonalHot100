@@ -150,7 +150,7 @@ export default function Header() {
                           {results.artists.map((artist) => (
                             <Link
                               key={artist.id}
-                              href={`/artist/${artist.id}`}
+                              href={`/library/artist/${artist.id}`}
                               onClick={handleLinkClick}
                               className="px-3 py-2 hover:bg-gray-50 transition-colors flex items-center gap-3"
                             >
@@ -186,7 +186,7 @@ export default function Header() {
                           {results.albums.map((album) => (
                             <Link
                               key={album.id}
-                              href={`/album/${album.id}`}
+                              href={`/library/album/${album.id}`}
                               onClick={handleLinkClick}
                               className="px-3 py-2 hover:bg-gray-50 transition-colors flex items-center gap-3"
                             >
@@ -222,7 +222,7 @@ export default function Header() {
                           {results.songs.map((song) => (
                             <Link
                               key={song.id}
-                              href={`/song/${song.id}`}
+                              href={`/library/song/${song.id}`}
                               onClick={handleLinkClick}
                               className="px-3 py-2 hover:bg-gray-50 transition-colors flex flex-col"
                             >
