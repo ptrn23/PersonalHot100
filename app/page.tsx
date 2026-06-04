@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Activity, Archive, ArrowRight } from "lucide-react";
+import { Activity, Calendar, ArrowRight } from "lucide-react";
 
 const WaveformBackground = () => {
   return (
@@ -64,8 +64,9 @@ export default function LandingPage() {
             href="/charts/weekly" 
             className="group bg-black hover:bg-gray-800 text-white px-6 py-4 text-sm font-bold uppercase tracking-widest flex items-center justify-center gap-3 transition-all hover:scale-105 active:scale-95 shadow-lg"
           >
-            <Archive className="w-5 h-5" /> 
+            <Calendar className="w-5 h-5" /> 
             Weekly Charts
+            <ArrowRight className="w-4 h-4 opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-0 transition-all" />
           </Link>
         </div>
 

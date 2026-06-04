@@ -50,7 +50,7 @@ export default async function LiveChartPage() {
       entries={entries}
       availableWeeks={[latestWeek.start_date]} 
       activeWeekDate={latestWeek.start_date}
-      formattedDateRange={`Tracking: ${formatDateRange(latestWeek.start_date, latestWeek.end_date)}`}
+      formattedDateRange={`${formatDateRange(latestWeek.start_date, latestWeek.end_date)}`}
     />
   );
 }

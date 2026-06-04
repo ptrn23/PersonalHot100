@@ -94,7 +94,7 @@ export default function Header() {
 
           <nav className="hidden lg:flex items-center gap-4 text-sm font-black uppercase tracking-wider">
             <Link
-              href="/"
+              href="/charts"
               className={`transition-colors ${
                 pathname.startsWith("/charts")
                   ? "text-[#B30000]"

@@ -235,7 +235,9 @@ export default function ChartView({
               ))}
             </div>
 
-            <WeekSelector weeks={availableWeeks} activeWeek={activeWeekDate} />
+            {availableWeeks.length > 1 && (
+              <WeekSelector weeks={availableWeeks} activeWeek={activeWeekDate} />
+            )}
 
             <button
               onClick={handleExport}
