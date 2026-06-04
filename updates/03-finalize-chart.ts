@@ -131,7 +131,7 @@ export const finalizeChartPositions = async (stagedEntries: any[], overrideTarge
     if (b.current_week_points !== a.current_week_points) return b.current_week_points - a.current_week_points;
     return b.streams - a.streams;
   });
-  
+
   const top100 = chartContenders.slice(0, 100);
   
   console.log(`Calculated points for ${chartContenders.length} total contenders.`);
@@ -139,6 +139,88 @@ export const finalizeChartPositions = async (stagedEntries: any[], overrideTarge
     console.log(`Sliced Top 100! (Rank 1 has ${top100[0].total_points} pts, Rank ${top100.length} has ${top100[top100.length - 1].total_points} pts)\n`);
   } else {
     console.log("No songs scored any points this week.\n");
+  }
+
+  if (top100.length === 0) return;
+  console.log("Fetching historical baseline for the Top 100...");
+  
+  const top100SongIds = top100.map((e) => e.song_id);
+  const { data: historyData, error: historyError } = await supabase
+    .from("chart_entries")
+    .select("song_id, peak_position, weeks_on_chart, peak_streak")
+    .in("song_id", top100SongIds)
+    .order("weeks_on_chart", { ascending: false });
+
+  if (historyError) {
+    console.error("Database error fetching history:", historyError);
+    return;
+  }
+
+  const globalHistory: Record<string, any> = {};
+  if (historyData) {
+    for (const row of historyData) {
+      if (!globalHistory[row.song_id]) {
+        globalHistory[row.song_id] = row;
+      }
+    }
+  }
+
+  console.log("Assigning ranks, peaks, and flags...");
+  const finalTop100ToInsert: any[] = [];
+
+  top100.forEach((entry, index) => {
+    const rank = index + 1;
+    const history = globalHistory[entry.song_id];
+
+    let currentPeak = history ? history.peak_position : 101;
+    let currentStreak = history ? (history.peak_streak || 0) : 0;
+    let woc = history ? history.weeks_on_chart : 0;
+    
+    let isNewPeak = false;
+    let isRepeak = false;
+
+    if (rank < currentPeak) {
+      currentPeak = rank;
+      currentStreak = 1;
+      isNewPeak = true;
+    } else if (rank === currentPeak) {
+      currentStreak += 1;
+      if (history && history.peak_streak === 0) {
+        isRepeak = true;
+      }
+    } else {
+      currentStreak = 0;
+    }
+
+    finalTop100ToInsert.push({
+      week_id: targetWeek.id,
+      song_id: entry.song_id,
+      rank: rank,
+      previous_position: lastWeekChart[entry.song_id]?.rank || null,
+      peak_position: currentPeak,
+      peak_streak: currentStreak > 0 ? currentStreak : null,
+      weeks_on_chart: woc + 1,
+      is_new_peak: isNewPeak,
+      is_repeak: isRepeak,
+      streams: entry.streams,
+      sales: entry.sales,
+      airplay: entry.airplay,
+      current_week_points: entry.current_week_points,
+      previous_week_raw_points: entry.previous_week_raw_points,
+      two_weeks_ago_raw_points: entry.two_weeks_ago_raw_points,
+      total_points: entry.total_points,
+    });
+  });
+
+  console.log("Saving Top 100 to the database...");
+  const { error: insertError } = await supabase
+    .from("chart_entries")
+    .upsert(finalTop100ToInsert, { onConflict: "week_id, song_id" });
+
+  if (insertError) {
+    console.error("Failed to insert Top 100:", insertError);
+  } else {
+    console.log(`SUCCESS: Chart finalized for week of ${targetWeek.start_date}!`);
   }
 };
 
