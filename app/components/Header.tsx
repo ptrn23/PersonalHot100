@@ -114,8 +114,15 @@ export default function Header() {
             </Link>
             
             <span className="text-gray-300 font-medium">/</span>
-            
-            <span className="text-gray-400 cursor-not-allowed">About</span>
+
+            <Link
+              href="/about"
+              className={`transition-colors ${
+                pathname === "/about" ? "text-[#B30000]" : "text-gray-600 hover:text-black"
+              }`}
+            >
+              About
+            </Link>
           </nav>
 
           <div className="relative flex items-center" ref={searchRef}>
