@@ -3,6 +3,7 @@
 import { useState } from "react";
 // import FeedTooltip from './FeedTooltip';
 import Link from "next/link";
+import { Share2, Ticket, X } from "lucide-react";
 
 const formatNumber = (num: number) => {
   if (!num) return "0";
@@ -465,7 +466,7 @@ export default function ChartRow({
 
           <div className="border-t border-gray-100 pt-6">
             <h4 className="font-bold text-sm text-gray-800 mb-4 flex items-center gap-2">
-                <svg className="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path></svg>
+                <Share2 className="w-4 h-4 text-gray-500" />
                 Share & Export
             </h4>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
@@ -480,10 +481,10 @@ export default function ChartRow({
                         onClick={() => setIsModalOpen(true)}
                         className="bg-gray-900 text-white font-bold py-3 px-6 rounded-lg hover:bg-gray-700 transition-colors flex items-center justify-center gap-2.5 text-sm shadow"
                     >
-                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z"></path></svg>
+                        <Ticket className="w-5 h-5" />
                         View Chart Ticket
                     </button>
-                    <p className="text-xs text-gray-500 text-center px-2">Generate a stylized sharing graphic based on <span className='font-semibold'>image_0.png</span> aesthetic.</p>
+                    <p className="text-xs text-gray-500 text-center px-2">Generate a chart ticket!</p>
                 </div>
             </div>
           </div>
@@ -503,7 +504,7 @@ export default function ChartRow({
                 className="absolute top-5 right-5 text-gray-400 hover:text-gray-600 transition-colors"
                 aria-label="Close modal"
             >
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                <X className="w-6 h-6" />
             </button>
             
             <h2 className="text-2xl font-bold text-gray-900 pr-8">Chart Ticket</h2>
@@ -511,7 +512,7 @@ export default function ChartRow({
             <div className="aspect-[2/1] bg-gray-100 border-2 border-dashed border-gray-300 rounded-xl flex items-center justify-center text-gray-400 text-4xl font-black italic tracking-tighter shadow-inner">
                 TICKET PREVIEW
             </div>
-            
+
             <div className="flex justify-between items-center gap-4 border-t border-gray-100 pt-6">
                 <div className="text-sm text-gray-600">
                     Generating ticket for <span className="font-semibold text-gray-800">{song.title}</span> by <span className="font-semibold text-gray-800">{song.artist}</span> (Rank: {song.rank})
