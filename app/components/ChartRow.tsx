@@ -1,10 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import ChartTicket from "./ChartTicket";
 // import FeedTooltip from './FeedTooltip';
 import Link from "next/link";
-import { Share2, Ticket, X, LineChart } from "lucide-react";
+import { Share2, Ticket, X, LineChart, Download } from "lucide-react";
+import { toPng } from "html-to-image";
+import { saveAs } from "file-saver";
 
 const formatNumber = (num: number) => {
   if (!num) return "0";
@@ -66,12 +68,38 @@ export type ChartEntry = {
 export default function ChartRow({
   entry,
   maxStats,
+  week,
 }: {
   entry: ChartEntry;
   maxStats: MaxStats;
+  week: string;
 }) {
   const [isExpanded, setIsExpanded] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const ticketRef = useRef<HTMLDivElement>(null);
+  const [isExporting, setIsExporting] = useState(false);
+
+  const handleDownload = async () => {
+    if (!ticketRef.current) return;
+    setIsExporting(true);
+    
+    try {
+      const dataUrl = await toPng(ticketRef.current, { 
+        quality: 1,
+        pixelRatio: 2,
+        backgroundColor: '#ffffff'
+      });
+      
+      const link = document.createElement('a');
+      link.download = `${song.artist.replace(/\s+/g, '-')}-${song.title.replace(/\s+/g, '-')}-Hot100.png`;
+      link.href = dataUrl;
+      link.click();
+    } catch (err) {
+      console.error('Failed to export ticket', err);
+    } finally {
+      setIsExporting(false);
+    }
+  };
 
   const title = entry.songs?.title || "Unknown";
   const artist = entry.songs?.artists?.name || "Unknown";
@@ -504,32 +532,47 @@ export default function ChartRow({
             onClick={() => setIsModalOpen(false)} 
             className="absolute inset-0 bg-black/60 backdrop-blur-sm transition-opacity"
           />
-
-          <div className="relative bg-white rounded-2xl w-full max-w-2xl p-8 shadow-xl transition-all scale-100 opacity-100 flex flex-col gap-6">
+          
+          <div className="relative bg-white rounded-2xl w-full max-w-5xl max-h-[90vh] overflow-y-auto p-8 shadow-xl flex flex-col gap-6">
             <button 
                 onClick={() => setIsModalOpen(false)} 
                 className="absolute top-5 right-5 text-gray-400 hover:text-gray-600 transition-colors"
-                aria-label="Close modal"
             >
                 <X className="w-6 h-6" />
             </button>
             
-            <h2 className="text-2xl font-bold text-gray-900 pr-8">Chart Ticket</h2>
-
-            <div className="w-full flex justify-center py-4">
-                <ChartTicket song={song} />
-            </div>
-
-            <div className="flex justify-between items-center gap-4 border-t border-gray-100 pt-6">
-                <div className="text-sm text-gray-600">
-                    Generating ticket for <span className="font-semibold text-gray-800">{song.title}</span> by <span className="font-semibold text-gray-800">{song.artist}</span> (Rank: {song.rank})
-                </div>
+            <div className="flex justify-between items-end pr-8">
+                <h2 className="text-2xl font-black tracking-tight text-gray-900">Ticket Export</h2>
                 <button 
-                    onClick={() => setIsModalOpen(false)}
-                    className="bg-gray-100 text-gray-800 font-semibold py-2 px-5 rounded-lg hover:bg-gray-200 transition-colors text-sm"
+                    onClick={handleDownload}
+                    disabled={isExporting}
+                    className="bg-blue-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2 text-sm disabled:opacity-50"
                 >
-                    Close
+                    <Download className="w-4 h-4" />
+                    {isExporting ? "Rendering..." : "Download High-Res PNG"}
                 </button>
+            </div>
+            
+            <div className="w-full flex justify-center bg-gray-50 rounded-xl p-4 overflow-x-auto border border-gray-200">
+                <div 
+                  ref={ticketRef} 
+                  className="bg-[#f9fafb] p-8 flex flex-col gap-6 rounded-xl shrink-0 w-[800px]" // Fixed width ensures export is perfectly proportioned
+                >
+                    <div className="flex justify-between items-center text-white/50 px-2">
+                      <span className="font-bold tracking-widest text-gray-600 text-sm uppercase">Personal Hot 100</span>
+                      <span className="font-bold text-xs text-gray-600">Chart dated {week}</span>
+                    </div>
+
+                    <ChartTicket song={song} />
+
+                    <div className="flex justify-between items-center text-gray-400 text-xs px-2 font-medium">
+                      <span className="flex items-center gap-1.5">
+                          <Ticket className="w-3 h-3" />
+                          {song.artistId}
+                      </span>
+                      <span className="tracking-widest text-gray-600">{song.artist}</span>
+                    </div>
+                </div>
             </div>
           </div>
         </div>

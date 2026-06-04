@@ -50,7 +50,7 @@ export default function ChartTicket({ song }: { song: any }) {
         </div>
       </div>
 
-      <div className="absolute left-1/2 top-0 bottom-0 w-[2px] -ml-[1px] border-l-2 border-dashed border-white/30 z-10" />
+      <div className="absolute left-1/2 top-0 bottom-0 w-[2px] -ml-[1px] border-l-2 border-dashed border-white/70 z-10" />
 
       <div className="relative w-1/2 h-full overflow-hidden flex flex-col justify-between p-8">
         <div className="absolute inset-0 z-0">

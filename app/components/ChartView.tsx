@@ -291,7 +291,7 @@ export default function ChartView({
                 </div>
               </div>
               {filteredEntries.map((entry) => (
-                <ChartRow key={entry.id} entry={entry} maxStats={maxStats} />
+                <ChartRow key={entry.id} entry={entry} week={formattedDateRange} maxStats={maxStats} />
               ))}
             </div>
           ) : (
@@ -380,7 +380,7 @@ export default function ChartView({
                 </div>
               </div>
               {exportChunk.map((entry) => (
-                <ChartRow key={entry.id} entry={entry} maxStats={maxStats} />
+                <ChartRow key={entry.id} entry={entry} week={formattedDateRange} maxStats={maxStats} />
               ))}
             </>
           ) : (
