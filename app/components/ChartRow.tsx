@@ -3,7 +3,7 @@
 import { useState } from "react";
 // import FeedTooltip from './FeedTooltip';
 import Link from "next/link";
-import { Share2, Ticket, X } from "lucide-react";
+import { Share2, Ticket, X, LineChart } from "lucide-react";
 
 const formatNumber = (num: number) => {
   if (!num) return "0";
@@ -470,22 +470,28 @@ export default function ChartRow({
                 Share & Export
             </h4>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
-                <div className="bg-gray-50 p-4 rounded-lg border border-dashed border-gray-300 text-center text-gray-400 h-[100px] flex items-center justify-center italic text-xs">
-                    News Feed placeholders go here
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg border border-dashed border-gray-300 text-center text-gray-400 h-[100px] flex items-center justify-center italic text-xs">
-                    Copy-pastable caption placeholder
-                </div>
-                <div className="flex flex-col gap-2">
-                    <button
-                        onClick={() => setIsModalOpen(true)}
-                        className="bg-gray-900 text-white font-bold py-3 px-6 rounded-lg hover:bg-gray-700 transition-colors flex items-center justify-center gap-2.5 text-sm shadow"
-                    >
-                        <Ticket className="w-5 h-5" />
-                        View Chart Ticket
-                    </button>
-                    <p className="text-xs text-gray-500 text-center px-2">Generate a chart ticket!</p>
-                </div>
+              <div className="bg-gray-50 p-4 rounded-lg border border-dashed border-gray-300 text-center text-gray-400 h-[100px] flex items-center justify-center italic text-xs">
+                  News Feed placeholders go here
+              </div>
+              <div className="bg-gray-50 p-4 rounded-lg border border-dashed border-gray-300 text-center text-gray-400 h-[100px] flex items-center justify-center italic text-xs">
+                  Copy-pastable caption placeholder
+              </div>
+              <div className="flex flex-col gap-3">
+                <button
+                    onClick={() => setIsModalOpen(true)}
+                    className="bg-gray-900 text-white font-bold py-3 px-6 rounded-lg hover:bg-gray-700 transition-colors flex items-center justify-center gap-2.5 text-sm shadow"
+                >
+                    <Ticket className="w-5 h-5" />
+                    View Chart Ticket
+                </button>
+                <Link
+                    href={`/library/song/${entry.songs?.id}`}
+                    className="bg-white text-gray-900 font-bold py-2.5 px-6 rounded-lg border-2 border-gray-200 hover:border-gray-300 hover:bg-gray-50 transition-all flex items-center justify-center gap-2.5 text-sm shadow-sm"
+                >
+                    <LineChart className="w-5 h-5 text-gray-500" />
+                    View All-Time Stats
+                </Link>
+              </div>
             </div>
           </div>
         </div>
