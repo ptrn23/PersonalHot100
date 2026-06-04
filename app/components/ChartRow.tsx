@@ -542,7 +542,7 @@ export default function ChartRow({
             </button>
             
             <div className="flex justify-between items-end pr-8">
-                <h2 className="text-2xl font-black tracking-tight text-gray-900">Ticket Export</h2>
+                <h2 className="text-2xl font-black tracking-tight text-gray-900">Chart Ticket</h2>
                 <button 
                     onClick={handleDownload}
                     disabled={isExporting}
