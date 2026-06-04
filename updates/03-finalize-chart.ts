@@ -51,9 +51,39 @@ export const finalizeChartPositions = async (stagedEntries: any[], overrideTarge
   }
 
   console.log(`Cleanup complete: Removed ${deletedCount || 0} existing entries for this week.\n`);
+  console.log("Fetching historical weeks for momentum calculation...");
 
-  // TODO: MOMENTUM AND CALCULATION LOGIC WILL GO HERE
+  const { data: previousWeeks } = await supabase
+    .from("chart_weeks")
+    .select("id, start_date")
+    .lt("start_date", targetWeek.start_date)
+    .order("start_date", { ascending: false })
+    .limit(2);
 
+  const lastWeek = previousWeeks?.[0] || null;
+  const twoWeeksAgo = previousWeeks?.[1] || null;
+
+  let lastWeekChart: Record<string, any> = {};
+  if (lastWeek) {
+    const { data } = await supabase
+      .from("chart_entries")
+      .select("song_id, total_points, rank")
+      .eq("week_id", lastWeek.id);
+      
+    lastWeekChart = data?.reduce((acc, row) => ({ ...acc, [row.song_id]: row }), {}) || {};
+    console.log(`Found ${data?.length || 0} entries from last week.`);
+  }
+
+  let twoWeeksAgoChart: Record<string, any> = {};
+  if (twoWeeksAgo) {
+    const { data } = await supabase
+      .from("chart_entries")
+      .select("song_id, total_points")
+      .eq("week_id", twoWeeksAgo.id);
+      
+    twoWeeksAgoChart = data?.reduce((acc, row) => ({ ...acc, [row.song_id]: row }), {}) || {};
+    console.log(`Found ${data?.length || 0} entries from two weeks ago.\n`);
+  }
 };
 
 finalizeChartPositions([]);
