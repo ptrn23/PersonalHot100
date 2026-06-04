@@ -96,7 +96,7 @@ export default function Header() {
             <Link
               href="/"
               className={`transition-colors ${
-                pathname === "/"
+                pathname.startsWith("/charts")
                   ? "text-[#B30000]"
                   : "text-gray-600 hover:text-black"
               }`}

@@ -29,7 +29,7 @@ export default function WeekSelector({ weeks, activeWeek }: Props) {
         value={activeWeek}
         onChange={(e) => {
           const encodedDate = encodeURIComponent(e.target.value);
-          router.push(`/?week=${encodedDate}`);
+          router.push(`/charts/weekly?week=${encodedDate}`);
         }}
         className="appearance-none bg-gray-100 border border-gray-200 text-gray-700 py-2 pl-4 pr-8 rounded-lg font-bold text-sm uppercase tracking-wide cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 hover:bg-gray-200 transition-colors"
       >
