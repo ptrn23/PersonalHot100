@@ -1,146 +1,85 @@
-import { supabase } from "@/utils/supabase";
-import ChartView from "./components/ChartView";
 import Link from "next/link";
+import { Activity, Archive, ArrowRight } from "lucide-react";
 
-const formatDateRange = (startDateStr: string, endDateStr: string) => {
-  const options: Intl.DateTimeFormatOptions = {
-    month: "long",
-    day: "numeric",
-    year: "numeric",
-    timeZone: "Asia/Manila",
-  };
-  const startStr = new Date(startDateStr).toLocaleDateString("en-US", options);
-  const endStr = new Date(endDateStr).toLocaleDateString("en-US", options);
-  return `${startStr} - ${endStr}`;
+const WaveformBackground = () => {
+  return (
+    <div className="absolute inset-0 flex items-end justify-between gap-1 md:gap-2 px-4 opacity-[0.03] z-0 pointer-events-none overflow-hidden">
+      {[...Array(50)].map((_, i) => {
+        const height = 10 + (Math.sin(i) * 40) + (Math.random() * 50);
+        const delay = Math.random() * 3;
+        
+        return (
+          <div
+            key={i}
+            className="w-full bg-black rounded-t-sm animate-pulse"
+            style={{
+              height: `${Math.max(10, height)}%`,
+              animationDuration: '4s',
+              animationDelay: `${delay}s`,
+            }}
+          />
+        );
+      })}
+    </div>
+  );
 };
 
-const isValidDateString = (dateStr: string) => {
-  const date = new Date(dateStr);
-  return !isNaN(date.getTime());
-};
+export default function LandingPage() {
+  return (
+    <main className="min-h-screen bg-white text-black flex flex-col justify-center relative overflow-hidden">
+      <WaveformBackground />
+      <div className="absolute top-0 right-0 w-1/2 h-full bg-[#B30000]/5 blur-[150px] rounded-full pointer-events-none transform translate-x-1/3 -translate-y-1/4" />
+      <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-blue-900/5 blur-[120px] rounded-full pointer-events-none transform -translate-x-1/4 translate-y-1/4" />
 
-export default async function Home({
-  searchParams,
-}: {
-  searchParams: Promise<{ week?: string }>;
-}) {
-  const params = await searchParams;
+      <div className="max-w-7xl mx-auto w-full px-10 md:px-24 z-10 relative">
+        <div className="flex items-center gap-4 mb-6">
+          <div className="w-8 h-[2px] bg-[#B30000]" />
+          <span className="text-[#B30000] font-bold tracking-[0.3em] uppercase text-xs md:text-sm">
+            Personal Charts
+          </span>
+        </div>
 
-  const { data: availableWeeks, error: weeksErr } = await supabase
-    .from("chart_weeks")
-    .select("*")
-    .order("start_date", { ascending: false });
+        <h1 className="text-5xl sm:text-7xl md:text-[8rem] font-black uppercase tracking-tighter leading-[0.85] mb-8">
+          The Data<br />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-900 to-gray-400">
+            Of Sound.
+          </span>
+        </h1>
 
-  if (weeksErr || !availableWeeks || availableWeeks.length === 0) {
-    return (
-      <div className="min-h-screen flex flex-col items-center justify-center p-10 bg-white">
-        <h1 className="text-2xl font-bold mb-4">No Data Found</h1>
-        <p className="mb-4 text-gray-600">The database is currently empty.</p>
-      </div>
-    );
-  }
+        <p className="text-gray-500 text-lg md:text-xl max-w-xl font-medium leading-relaxed mb-10">
+          An algorithmic tracking system designed to visualize your listening habits and build your own Hot 100.
+        </p>
 
-  let activeWeek = availableWeeks[0];
-
-  if (params.week) {
-    const requestedWeek = decodeURIComponent(params.week);
-
-    if (!isValidDateString(requestedWeek)) {
-      return (
-        <div className="min-h-screen flex flex-col items-center justify-center p-10 bg-white text-center">
-          <h1 className="text-4xl font-black mb-2 uppercase tracking-tight text-red-600">
-            Invalid Date Format
-          </h1>
-          <p className="text-gray-500 mb-8 font-medium">
-            Dates must be a valid timestamp.
-          </p>
-          <Link
-            href="/"
-            className="bg-black text-white px-6 py-3 rounded-lg font-bold uppercase text-sm hover:bg-gray-800 transition-colors"
+        <div className="flex flex-col sm:flex-row gap-4">
+          <Link 
+            href="/charts/live" 
+            className="group bg-[#B30000] hover:bg-red-800 text-white px-6 py-4 text-sm font-bold uppercase tracking-widest flex items-center justify-center gap-3 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-red-900/10"
           >
-            Return to Current Chart
+            <Activity className="w-5 h-5" /> 
+            Live Chart
+            <ArrowRight className="w-4 h-4 opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-0 transition-all" />
+          </Link>
+          
+          <Link 
+            href="/charts/weekly" 
+            className="group bg-black hover:bg-gray-800 text-white px-6 py-4 text-sm font-bold uppercase tracking-widest flex items-center justify-center gap-3 transition-all hover:scale-105 active:scale-95 shadow-lg"
+          >
+            <Archive className="w-5 h-5" /> 
+            Weekly Charts
           </Link>
         </div>
-      );
-    }
 
-    const exactMatch = availableWeeks.find(
-      (w) =>
-        new Date(w.start_date).getTime() === new Date(requestedWeek).getTime(),
-    );
-
-    if (exactMatch) {
-      activeWeek = exactMatch;
-    } else {
-      const targetDate = new Date(requestedWeek);
-      const containingWeek = availableWeeks.find((w) => {
-        const start = new Date(w.start_date);
-        const end = new Date(w.end_date);
-        return targetDate >= start && targetDate <= end;
-      });
-
-      if (containingWeek) {
-        const encodedDate = encodeURIComponent(containingWeek.start_date);
-        return (
-          <div className="min-h-screen flex flex-col items-center justify-center p-10 bg-gray-50 text-center">
-            <h1 className="text-3xl font-black mb-4 uppercase tracking-tighter text-gray-800">
-              Chart Not Found
-            </h1>
-            <p className="text-gray-600 mb-8 max-w-md">
-              The date you entered falls under a different chart week.
-            </p>
-            <Link
-              href={`/?week=${encodedDate}`}
-              className="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold uppercase text-sm hover:bg-blue-700 transition-colors"
-            >
-              View Correct Week
-            </Link>
-          </div>
-        );
-      } else {
-        return (
-          <div className="min-h-screen flex flex-col items-center justify-center p-10 bg-white text-center">
-            <h1 className="text-3xl font-black mb-4 uppercase tracking-tighter text-gray-400">
-              Date Out of Range
-            </h1>
-            <Link
-              href="/"
-              className="bg-black text-white px-6 py-3 rounded-lg font-bold uppercase text-sm hover:bg-gray-800 transition-colors"
-            >
-              Return to Current Chart
-            </Link>
-          </div>
-        );
-      }
-    }
-  }
-
-  const { data: entries } = await supabase
-    .from("chart_entries")
-    .select(
-      `
-      *,
-      songs (
-        id,
-        title,
-        artists ( id, name ),
-        albums ( id, title, cover_url )
-      )
-    `,
-    )
-    .eq("week_id", activeWeek.id)
-    .lte("rank", 100)
-    .order("rank", { ascending: true });
-
-  return (
-    <ChartView
-      entries={entries}
-      availableWeeks={availableWeeks.map((w) => w.start_date)}
-      activeWeekDate={activeWeek.start_date}
-      formattedDateRange={formatDateRange(
-        activeWeek.start_date,
-        activeWeek.end_date,
-      )}
-    />
+      </div>
+      
+      <div className="absolute bottom-0 left-0 w-full border-t border-gray-200 bg-white/80 backdrop-blur-md overflow-hidden py-2.5">
+        <div className="flex whitespace-nowrap animate-[marquee_20s_linear_infinite] opacity-40">
+          {[...Array(6)].map((_, i) => (
+            <span key={i} className="text-[10px] text-gray-900 font-mono font-bold uppercase tracking-[0.3em] px-8 border-r border-gray-300">
+              Update Cycle: Weekly • Algorithm: Point-Decay Active • Status: Tracking
+            </span>
+          ))}
+        </div>
+      </div>
+    </main>
   );
 }
