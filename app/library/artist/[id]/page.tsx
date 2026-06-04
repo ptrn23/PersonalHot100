@@ -1,5 +1,42 @@
 import { supabase } from "@/utils/supabase";
 import Link from "next/link";
+import { Metadata } from "next";
+
+type Props = {
+  params: Promise<{ id: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const resolvedParams = await params;
+  
+  const { data: artist } = await supabase
+    .from("artists")
+    .select("name, image_url")
+    .eq("id", resolvedParams.id)
+    .single();
+
+  if (!artist) {
+    return { title: "Artist Not Found | Personal Hot 100" };
+  }
+
+  const pageTitle = `${artist.name} | Personal Hot 100`;
+  const description = `View complete chart history, peak positions, and analytics for ${artist.name}.`;
+
+  return {
+    title: pageTitle,
+    description: description,
+    openGraph: {
+      title: pageTitle,
+      description: description,
+      type: "profile",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: pageTitle,
+      description: description,
+    },
+  };
+}
 
 const ACCENT_COLOR = "#B30000";
 
