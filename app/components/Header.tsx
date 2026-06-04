@@ -95,13 +95,26 @@ export default function Header() {
           <nav className="hidden lg:flex items-center gap-4 text-sm font-black uppercase tracking-wider">
             <Link
               href="/"
-              className={`transition-colors ${isActive("/") ? "text-[#B30000]" : "text-gray-600 hover:text-black"}`}
+              className={`transition-colors ${
+                pathname === "/" ? "text-[#B30000]" : "text-gray-600 hover:text-black"
+              }`}
             >
               Charts
             </Link>
+            
             <span className="text-gray-300 font-medium">/</span>
-            <span className="text-gray-400 cursor-not-allowed">Library</span>
+            
+            <Link
+              href="/library"
+              className={`transition-colors ${
+                pathname.startsWith("/library") ? "text-[#B30000]" : "text-gray-600 hover:text-black"
+              }`}
+            >
+              Library
+            </Link>
+            
             <span className="text-gray-300 font-medium">/</span>
+            
             <span className="text-gray-400 cursor-not-allowed">About</span>
           </nav>
 
