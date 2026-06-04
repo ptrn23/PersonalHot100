@@ -70,12 +70,12 @@ export default function LandingPage() {
         </div>
 
       </div>
-      
+
       <div className="absolute bottom-0 left-0 w-full border-t border-gray-200 bg-white/80 backdrop-blur-md overflow-hidden py-2.5">
         <div className="flex whitespace-nowrap animate-[marquee_20s_linear_infinite] opacity-40">
           {[...Array(6)].map((_, i) => (
             <span key={i} className="text-[10px] text-gray-900 font-mono font-bold uppercase tracking-[0.3em] px-8 border-r border-gray-300">
-              Update Cycle: Weekly • Algorithm: Point-Decay Active • Status: Tracking
+              What's your #1 Hit? • What are you listening to? • Do you know your music history?
             </span>
           ))}
         </div>
