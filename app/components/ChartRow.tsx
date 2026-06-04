@@ -42,7 +42,7 @@ export type MaxStats = {
 };
 
 export type ChartEntry = {
-  id: string | number;
+  id: string;
   rank: number;
   previous_position: number | null;
   is_new_peak: boolean;
