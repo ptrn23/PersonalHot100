@@ -110,9 +110,15 @@ export const fetchAndMergeScrobbles = async (overrideTargetDate?: string) => {
   console.log("LATEST/LAST song of the week currently in DB:");
   console.log(lastScrobble ? `- ${lastTitle} at ${lastScrobble.listened_at}` : "- None found");
   console.log("--------------------------------\n");
-  
-  const fromUnix = Math.floor(dbStartDate.getTime() / 1000);
+
+  let fromUnix = Math.floor(dbStartDate.getTime() / 1000);
   const toUnix = Math.floor(fetchEndDate.getTime() / 1000);
+
+  if (lastScrobble && lastScrobble.listened_at) {
+    const lastScrobbleDate = new Date(lastScrobble.listened_at);
+    fromUnix = Math.floor(lastScrobbleDate.getTime() / 1000) + 1;
+    console.log(`Resuming Last.fm fetch from ${lastScrobbleDate.toISOString()}`);
+  }
 
   let page = 1;
   let totalPages = 1;
