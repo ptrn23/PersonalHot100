@@ -26,8 +26,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const artistName = (album.artists as any)?.name || "Unknown Artist";
   const coverUrl = album.cover_url || "/default-cover.png";
-  const pageTitle = `${album.title} by ${artistName} | Personal Hot 100`;
-  const description = `View chart performance, total points, and track history for the album ${album.title} by ${artistName}.`;
+  const pageTitle = `${album.title} | Personal Hot 100`;
+  const description = `View chart performance, total points, and track history for the album '${album.title}' by ${artistName}.`;
 
   return {
     title: pageTitle,
