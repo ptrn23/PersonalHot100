@@ -25,13 +25,75 @@ export default async function Image({ params }: { params: Promise<{ id: string }
 
   return new ImageResponse(
     (
-      <div style={{ width: "100%", height: "100%", display: "flex", backgroundColor: "#B30000", fontFamily: "Geist" }}>
-        <div style={{ display: "flex", width: "50%" }}>
+      <div style={{ 
+        width: "100%", 
+        height: "100%", 
+        display: "flex", 
+        backgroundColor: "#B30000", 
+        fontFamily: "Geist" 
+      }}>
+        <div style={{ position: "relative", display: "flex", width: "45%" }}>
            <img src={coverUrl} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+           <div style={{ 
+             position: "absolute", 
+             top: 0, 
+             left: 0, 
+             backgroundColor: "black", 
+             color: "white", 
+             padding: "5px 5px", 
+             fontSize: 24,
+             fontWeight: 700 
+           }}>
+             ALBUM
+           </div>
         </div>
-        <div style={{ display: "flex", width: "50%", padding: 60, flexDirection: "column", color: "white" }}>
-           <h1 style={{ fontSize: 60 }}>{title}</h1>
-        </div>
+
+        <div style={{ 
+  display: "flex", 
+  width: "55%", 
+  padding: 40, 
+  flexDirection: "column", 
+  justifyContent: "space-between",
+  color: "white" 
+}}>
+   <div style={{ display: "flex", justifyContent: "flex-end" }}>
+     <span style={{ 
+       fontSize: 20, 
+       letterSpacing: 4, 
+       opacity: 0.9, 
+       textTransform: "uppercase" 
+     }}>
+       PERSONAL HOT 100
+     </span>
+   </div>
+   
+   <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-end" }}>
+     <h1 style={{ 
+       fontSize: 70, 
+       lineHeight: 0.85, 
+       margin: 0, 
+       textTransform: "uppercase",
+       textAlign: "right"
+     }}>
+       {title}
+     </h1>
+
+     <div style={{ 
+       width: 80, 
+       height: 4, 
+       backgroundColor: "white", 
+       margin: "30px 0" 
+     }} />
+
+     <span style={{ 
+       fontSize: 20, 
+       fontWeight: 700, 
+       opacity: 0.9 
+     }}>
+       {artistName}
+     </span>
+   </div>
+</div>
       </div>
     ),
     {
