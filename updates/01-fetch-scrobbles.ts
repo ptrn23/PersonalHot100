@@ -209,9 +209,40 @@ export const fetchAndMergeScrobbles = async (overrideTargetDate?: string) => {
 
   console.log(`\nScrobbles merged and entities upserted.`);
   console.log(`Summary: ${savedCount} new scrobbles saved, ${skipCount} duplicates skipped.`);
-  
-  // TODO: next week creation logic would go here if this was Fetch B
-  
+
+  if (isFinalizing) {
+    console.log("\nChecking next charting week...");
+    
+    const nextStartDate = new Date(dbEndDate);
+    const nextEndDate = new Date(dbEndDate);
+    nextEndDate.setDate(nextEndDate.getDate() + 7);
+    const nextStartStr = nextStartDate.toISOString();
+    const nextEndStr = nextEndDate.toISOString();
+
+    const { data: existingNextWeek } = await supabase
+      .from("chart_weeks")
+      .select("id")
+      .eq("end_date", nextEndStr)
+      .maybeSingle();
+
+    if (!existingNextWeek) {
+      console.log(`Creating new charting week in database...`);
+      const { data: newWeek, error: newWeekErr } = await supabase
+        .from("chart_weeks")
+        .insert({ start_date: nextStartStr, end_date: nextEndStr })
+        .select()
+        .single();
+
+      if (newWeekErr) {
+        console.error(`Failed to create next week:`, newWeekErr);
+      } else {
+        console.log(`SUCCESS: Created next charting week (${newWeek.start_date} to ${newWeek.end_date})`);
+      }
+    } else {
+      console.log(`Next charting week already exists. Skipping creation.`);
+    }
+  }
+
   return { status: "success", isFinalizing, weekId: targetWeek.id };
 };
 
