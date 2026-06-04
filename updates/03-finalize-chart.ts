@@ -185,11 +185,13 @@ export const finalizeChartPositions = async (stagedEntries: any[], overrideTarge
       isNewPeak = true;
     } else if (rank === currentPeak) {
       currentStreak += 1;
-      if (history && history.peak_streak === 0) {
+      const previousRank = lastWeekChart[entry.song_id]?.rank;
+      if (previousRank && previousRank > currentPeak) {
         isRepeak = true;
       }
     } else {
-      currentStreak = 0;
+      // charting below its peak
+      // do nothing to currentStreak
     }
 
     finalTop100ToInsert.push({
