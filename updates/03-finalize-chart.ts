@@ -143,27 +143,24 @@ export const finalizeChartPositions = async (stagedEntries: any[], overrideTarge
 
   if (top100.length === 0) return;
   console.log("Fetching historical baseline for the Top 100...");
-  
-  const top100SongIds = top100.map((e) => e.song_id);
-  const { data: historyData, error: historyError } = await supabase
-    .from("chart_entries")
-    .select("song_id, peak_position, weeks_on_chart, peak_streak")
-    .in("song_id", top100SongIds)
-    .order("weeks_on_chart", { ascending: false });
-
-  if (historyError) {
-    console.error("Database error fetching history:", historyError);
-    return;
-  }
 
   const globalHistory: Record<string, any> = {};
-  if (historyData) {
-    for (const row of historyData) {
-      if (!globalHistory[row.song_id]) {
-        globalHistory[row.song_id] = row;
+
+  await Promise.all(
+    top100.map(async (entry) => {
+      const { data } = await supabase
+        .from("chart_entries")
+        .select("peak_position, weeks_on_chart, peak_streak")
+        .eq("song_id", entry.song_id)
+        .order("weeks_on_chart", { ascending: false })
+        .limit(1)
+        .maybeSingle();
+
+      if (data) {
+        globalHistory[entry.song_id] = data;
       }
-    }
-  }
+    })
+  );
 
   console.log("Assigning ranks, peaks, and flags...");
   const finalTop100ToInsert: any[] = [];
@@ -186,12 +183,12 @@ export const finalizeChartPositions = async (stagedEntries: any[], overrideTarge
     } else if (rank === currentPeak) {
       currentStreak += 1;
       const previousRank = lastWeekChart[entry.song_id]?.rank;
-      if (previousRank && previousRank > currentPeak) {
+      if (previousRank !== currentPeak) {
         isRepeak = true;
       }
     } else {
       // charting below its peak
-      // do nothing to currentStreak
+      // do nothing to currentStreak so it maintains its cumulative total
     }
 
     finalTop100ToInsert.push({
