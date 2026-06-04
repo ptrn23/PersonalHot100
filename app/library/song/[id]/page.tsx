@@ -2,6 +2,49 @@ import { supabase } from "@/utils/supabase";
 import Link from "next/link";
 import ChartRow, { ChartEntry, MaxStats } from "../../../components/ChartRow";
 import ChartTrajectory from "../../../components/ChartTrajectory";
+import { Metadata } from "next";
+
+type Props = {
+  params: Promise<{ id: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const resolvedParams = await params;
+
+  const { data: song } = await supabase
+    .from("songs")
+    .select(`
+      title,
+      artists (name),
+      albums (cover_url)
+    `)
+    .eq("id", resolvedParams.id)
+    .single();
+
+  if (!song) {
+    return { title: "Song Not Found | Personal Hot 100" };
+  }
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const artistName = (song.artists as any)?.name || "Unknown Artist";
+  const pageTitle = `${song.title} | Personal Hot 100`;
+  const description = `View chart performance, total points, and track history for "${song.title}" by ${artistName}.`;
+
+  return {
+    title: pageTitle,
+    description: description,
+    openGraph: {
+      title: pageTitle,
+      description: description,
+      type: "music.song",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: pageTitle,
+      description: description,
+    },
+  };
+}
 
 const ACCENT_COLOR = "#B30000";
 
