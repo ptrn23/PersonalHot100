@@ -205,7 +205,7 @@ export default async function AlbumPage({
       <div className="bg-white p-10 pb-12 shadow-sm mb-8">
         <div className="max-w-5xl mx-auto">
           <Link
-            href="/"
+            href="/charts/weekly"
             className="inline-flex items-center gap-2 text-sm font-bold text-gray-400 hover:text-black uppercase tracking-widest mb-10 transition-colors group"
           >
             <span className="group-hover:-translate-x-1 transition-transform">

@@ -284,7 +284,7 @@ export default function Header() {
       <div className="w-full bg-black text-white py-2.5 overflow-x-auto">
         <div className="max-w-[1400px] mx-auto px-6 flex justify-start md:justify-center items-center gap-6 whitespace-nowrap text-[11px] font-black uppercase tracking-[0.18em]">
           <Link
-            href="/"
+            href="/charts/weekly"
             className="hover:text-[#B30000] transition-colors text-white"
           >
             Hot 100

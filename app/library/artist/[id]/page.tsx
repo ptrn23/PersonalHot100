@@ -8,7 +8,7 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await params;
-  
+
   const { data: artist } = await supabase
     .from("artists")
     .select("name, image_url")
@@ -218,7 +218,7 @@ export default async function ArtistPage({
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
         <div className="relative z-10 w-full h-full max-w-5xl mx-auto px-10 md:px-0 flex flex-col justify-between py-10 md:py-12">
           <Link
-            href="/"
+            href="/charts/weekly"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-xs font-bold text-white uppercase tracking-widest hover:bg-white/20 hover:scale-105 transition-all group drop-shadow-md w-max"
           >
             <span className="group-hover:-translate-x-1 transition-transform">
