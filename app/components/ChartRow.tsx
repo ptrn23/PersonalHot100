@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import ChartTicket from "./ChartTicket";
 // import FeedTooltip from './FeedTooltip';
 import Link from "next/link";
 import { Share2, Ticket, X, LineChart } from "lucide-react";
@@ -515,8 +516,8 @@ export default function ChartRow({
             
             <h2 className="text-2xl font-bold text-gray-900 pr-8">Chart Ticket</h2>
 
-            <div className="aspect-[2/1] bg-gray-100 border-2 border-dashed border-gray-300 rounded-xl flex items-center justify-center text-gray-400 text-4xl font-black italic tracking-tighter shadow-inner">
-                TICKET PREVIEW
+            <div className="w-full flex justify-center py-4">
+                <ChartTicket song={song} />
             </div>
 
             <div className="flex justify-between items-center gap-4 border-t border-gray-100 pt-6">
