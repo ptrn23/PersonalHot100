@@ -7,7 +7,10 @@ const supabase = createClient(
   process.env.SUPABASE_SERVICE_KEY!,
 );
 
-export const finalizeChartPositions = async (stagedEntries: any[], overrideTargetDate?: string) => {
+export const finalizeChartPositions = async (
+  stagedEntries: any[],
+  overrideTargetDate?: string,
+) => {
   console.log("\nRunning finalize chart positions...");
 
   let targetWeek;
@@ -37,9 +40,11 @@ export const finalizeChartPositions = async (stagedEntries: any[], overrideTarge
     return;
   }
 
-  console.log(`Target Week: ${targetWeek.start_date} to ${targetWeek.end_date}`);
+  console.log(
+    `Target Week: ${targetWeek.start_date} to ${targetWeek.end_date}`,
+  );
   console.log("Cleaning up existing chart entries for the target week...");
-  
+
   const { error: deleteError, count: deletedCount } = await supabase
     .from("chart_entries")
     .delete({ count: "exact" })
@@ -50,7 +55,9 @@ export const finalizeChartPositions = async (stagedEntries: any[], overrideTarge
     return;
   }
 
-  console.log(`Cleanup complete: Removed ${deletedCount || 0} existing entries for this week.\n`);
+  console.log(
+    `Cleanup complete: Removed ${deletedCount || 0} existing entries for this week.\n`,
+  );
   console.log("Fetching historical weeks for momentum calculation...");
 
   const { data: previousWeeks } = await supabase
@@ -69,8 +76,9 @@ export const finalizeChartPositions = async (stagedEntries: any[], overrideTarge
       .from("chart_entries")
       .select("song_id, total_points, rank")
       .eq("week_id", lastWeek.id);
-      
-    lastWeekChart = data?.reduce((acc, row) => ({ ...acc, [row.song_id]: row }), {}) || {};
+
+    lastWeekChart =
+      data?.reduce((acc, row) => ({ ...acc, [row.song_id]: row }), {}) || {};
     console.log(`Found ${data?.length || 0} entries from last week.`);
   }
 
@@ -80,14 +88,18 @@ export const finalizeChartPositions = async (stagedEntries: any[], overrideTarge
       .from("chart_entries")
       .select("song_id, total_points")
       .eq("week_id", twoWeeksAgo.id);
-      
-    twoWeeksAgoChart = data?.reduce((acc, row) => ({ ...acc, [row.song_id]: row }), {}) || {};
+
+    twoWeeksAgoChart =
+      data?.reduce((acc, row) => ({ ...acc, [row.song_id]: row }), {}) || {};
     console.log(`Found ${data?.length || 0} entries from two weeks ago.\n`);
   }
 
   console.log("Applying decay multipliers and sorting Top 100...");
 
-  const currentWeekStats = stagedEntries.reduce((acc, row) => ({ ...acc, [row.song_id]: row }), {});
+  const currentWeekStats = stagedEntries.reduce(
+    (acc, row) => ({ ...acc, [row.song_id]: row }),
+    {},
+  );
   const allContenders = new Set([
     ...stagedEntries.map((e) => e.song_id),
     ...Object.keys(lastWeekChart),
@@ -106,10 +118,12 @@ export const finalizeChartPositions = async (stagedEntries: any[], overrideTarge
 
     const prevPoints = lastWeekChart[songId]?.total_points || 0;
     const twoWeeksPoints = twoWeeksAgoChart[songId]?.total_points || 0;
-    
+
     const rawPoints = currentStats.current_week_points;
     const finalWeightedPoints = Math.floor(
-      rawPoints + Math.floor(prevPoints * 0.3) + Math.floor(twoWeeksPoints * 0.2)
+      rawPoints +
+        Math.floor(prevPoints * 0.3) +
+        Math.floor(twoWeeksPoints * 0.2),
     );
 
     if (finalWeightedPoints === 0) continue;
@@ -127,16 +141,22 @@ export const finalizeChartPositions = async (stagedEntries: any[], overrideTarge
   }
 
   chartContenders.sort((a, b) => {
-    if (b.total_points !== a.total_points) return b.total_points - a.total_points;
-    if (b.current_week_points !== a.current_week_points) return b.current_week_points - a.current_week_points;
+    if (b.total_points !== a.total_points)
+      return b.total_points - a.total_points;
+    if (b.current_week_points !== a.current_week_points)
+      return b.current_week_points - a.current_week_points;
     return b.streams - a.streams;
   });
 
   const top100 = chartContenders.slice(0, 100);
-  
-  console.log(`Calculated points for ${chartContenders.length} total contenders.`);
+
+  console.log(
+    `Calculated points for ${chartContenders.length} total contenders.`,
+  );
   if (top100.length > 0) {
-    console.log(`Sliced Top 100! (Rank 1 has ${top100[0].total_points} pts, Rank ${top100.length} has ${top100[top100.length - 1].total_points} pts)\n`);
+    console.log(
+      `Sliced Top 100! (Rank 1 has ${top100[0].total_points} pts, Rank ${top100.length} has ${top100[top100.length - 1].total_points} pts)\n`,
+    );
   } else {
     console.log("No songs scored any points this week.\n");
   }
@@ -159,7 +179,7 @@ export const finalizeChartPositions = async (stagedEntries: any[], overrideTarge
       if (data) {
         globalHistory[entry.song_id] = data;
       }
-    })
+    }),
   );
 
   console.log("Assigning ranks, peaks, and flags...");
@@ -170,9 +190,9 @@ export const finalizeChartPositions = async (stagedEntries: any[], overrideTarge
     const history = globalHistory[entry.song_id];
 
     let currentPeak = history ? history.peak_position : 101;
-    let currentStreak = history ? (history.peak_streak || 0) : 0;
+    let currentStreak = history ? history.peak_streak || 0 : 0;
     let woc = history ? history.weeks_on_chart : 0;
-    
+
     let isNewPeak = false;
     let isRepeak = false;
 
@@ -219,6 +239,8 @@ export const finalizeChartPositions = async (stagedEntries: any[], overrideTarge
   if (insertError) {
     console.error("Failed to insert Top 100:", insertError);
   } else {
-    console.log(`SUCCESS: Chart finalized for week of ${targetWeek.start_date}!`);
+    console.log(
+      `SUCCESS: Chart finalized for week of ${targetWeek.start_date}!`,
+    );
   }
 };

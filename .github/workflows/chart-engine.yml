@@ -3,7 +3,7 @@ name: Personal Hot 100 Engine
 on:
   schedule:
     # runs at 10:05 UTC and 22:05 UTC every day
-    - cron: '5 10,22 * * *'
+    - cron: "5 10,22 * * *"
   workflow_dispatch:
 
 jobs:

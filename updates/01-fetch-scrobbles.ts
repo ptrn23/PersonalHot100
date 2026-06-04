@@ -11,7 +11,11 @@ const USERNAME = process.env.LASTFM_USERNAME;
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
-async function fetchWithRetry(url: string, retries = 3, delayMs = 3000): Promise<Response> {
+async function fetchWithRetry(
+  url: string,
+  retries = 3,
+  delayMs = 3000,
+): Promise<Response> {
   for (let i = 0; i < retries; i++) {
     try {
       const response = await fetch(url);
@@ -35,7 +39,7 @@ export const fetchAndMergeScrobbles = async (overrideTargetDate?: string) => {
   let targetWeek;
 
   if (overrideTargetDate) {
-    const exactCutoff = `${overrideTargetDate} 22:00:00+00`; 
+    const exactCutoff = `${overrideTargetDate} 22:00:00+00`;
     const { data } = await supabase
       .from("chart_weeks")
       .select("*")
@@ -65,14 +69,16 @@ export const fetchAndMergeScrobbles = async (overrideTargetDate?: string) => {
 
   const dbEndDate = new Date(targetWeek.end_date);
   const dbStartDate = new Date(targetWeek.start_date);
-  
+
   let fetchEndDate = now;
   let isFinalizing = false;
 
   if (now >= dbEndDate || overrideTargetDate) {
-    fetchEndDate = dbEndDate; 
+    fetchEndDate = dbEndDate;
     isFinalizing = true;
-    console.log(`Code is doing Fetch B (Finalizing completed week: ${targetWeek.start_date} to ${targetWeek.end_date})`);
+    console.log(
+      `Code is doing Fetch B (Finalizing completed week: ${targetWeek.start_date} to ${targetWeek.end_date})`,
+    );
   } else {
     console.log(`Code is doing Fetch A (Mid-week sync up to current time)`);
   }
@@ -101,14 +107,28 @@ export const fetchAndMergeScrobbles = async (overrideTargetDate?: string) => {
     .limit(1)
     .maybeSingle();
 
-  const firstTitle = firstScrobble?.songs ? (firstScrobble.songs as any).title : "None";
-  const lastTitle = lastScrobble?.songs ? (lastScrobble.songs as any).title : "None";
+  const firstTitle = firstScrobble?.songs
+    ? (firstScrobble.songs as any).title
+    : "None";
+  const lastTitle = lastScrobble?.songs
+    ? (lastScrobble.songs as any).title
+    : "None";
 
-  console.log(`Total scrobbles currently in DB for this week: ${currentScrobbleCount || 0}`);
+  console.log(
+    `Total scrobbles currently in DB for this week: ${currentScrobbleCount || 0}`,
+  );
   console.log("FIRST song of the week currently in DB:");
-  console.log(firstScrobble ? `- ${firstTitle} at ${firstScrobble.listened_at}` : "- None found");
+  console.log(
+    firstScrobble
+      ? `- ${firstTitle} at ${firstScrobble.listened_at}`
+      : "- None found",
+  );
   console.log("LATEST/LAST song of the week currently in DB:");
-  console.log(lastScrobble ? `- ${lastTitle} at ${lastScrobble.listened_at}` : "- None found");
+  console.log(
+    lastScrobble
+      ? `- ${lastTitle} at ${lastScrobble.listened_at}`
+      : "- None found",
+  );
   console.log("--------------------------------\n");
 
   let fromUnix = Math.floor(dbStartDate.getTime() / 1000);
@@ -117,7 +137,9 @@ export const fetchAndMergeScrobbles = async (overrideTargetDate?: string) => {
   if (lastScrobble && lastScrobble.listened_at) {
     const lastScrobbleDate = new Date(lastScrobble.listened_at);
     fromUnix = Math.floor(lastScrobbleDate.getTime() / 1000) + 1;
-    console.log(`Resuming Last.fm fetch from ${lastScrobbleDate.toISOString()}`);
+    console.log(
+      `Resuming Last.fm fetch from ${lastScrobbleDate.toISOString()}`,
+    );
   }
 
   let page = 1;
@@ -127,23 +149,25 @@ export const fetchAndMergeScrobbles = async (overrideTargetDate?: string) => {
 
   do {
     console.log(`Fetching Page ${page} of ${totalPages}...`);
-    
+
     const url = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${USERNAME}&api_key=${API_KEY}&format=json&limit=200&from=${fromUnix}&to=${toUnix}&page=${page}`;
-    
+
     const response = await fetchWithRetry(url, 3, 5000);
     const data = await response.json();
 
     if (data.error || !data.recenttracks) {
-      console.error(`Last.fm API Glitch: ${data.message || "Missing track data"}`);
+      console.error(
+        `Last.fm API Glitch: ${data.message || "Missing track data"}`,
+      );
       console.log("Waiting 5 seconds before retrying this page...");
       await sleep(5000);
-      continue; 
+      continue;
     }
 
     totalPages = parseInt(data.recenttracks["@attr"].totalPages) || 1;
     let tracks = data.recenttracks.track;
-    
-    if (!tracks) break; 
+
+    if (!tracks) break;
     if (!Array.isArray(tracks)) tracks = [tracks];
 
     tracks.reverse();
@@ -170,7 +194,7 @@ export const fetchAndMergeScrobbles = async (overrideTargetDate?: string) => {
           .from("albums")
           .upsert(
             { artist_id: artist.id, title: albumTitle, cover_url: coverUrl },
-            { onConflict: "artist_id,title" }
+            { onConflict: "artist_id,title" },
           )
           .select("id")
           .single();
@@ -180,7 +204,7 @@ export const fetchAndMergeScrobbles = async (overrideTargetDate?: string) => {
           .from("songs")
           .upsert(
             { artist_id: artist.id, album_id: album.id, title: songTitle },
-            { onConflict: "artist_id,title" }
+            { onConflict: "artist_id,title" },
           )
           .select("id")
           .single();
@@ -203,16 +227,17 @@ export const fetchAndMergeScrobbles = async (overrideTargetDate?: string) => {
     }
 
     page++;
-    await sleep(500); 
-
+    await sleep(500);
   } while (page <= totalPages);
 
   console.log(`\nScrobbles merged and entities upserted.`);
-  console.log(`Summary: ${savedCount} new scrobbles saved, ${skipCount} duplicates skipped.`);
+  console.log(
+    `Summary: ${savedCount} new scrobbles saved, ${skipCount} duplicates skipped.`,
+  );
 
   if (isFinalizing) {
     console.log("\nChecking next charting week...");
-    
+
     const nextStartDate = new Date(dbEndDate);
     const nextEndDate = new Date(dbEndDate);
     nextEndDate.setDate(nextEndDate.getDate() + 7);
@@ -236,7 +261,9 @@ export const fetchAndMergeScrobbles = async (overrideTargetDate?: string) => {
       if (newWeekErr) {
         console.error(`Failed to create next week:`, newWeekErr);
       } else {
-        console.log(`SUCCESS: Created next charting week (${newWeek.start_date} to ${newWeek.end_date})`);
+        console.log(
+          `SUCCESS: Created next charting week (${newWeek.start_date} to ${newWeek.end_date})`,
+        );
       }
     } else {
       console.log(`Next charting week already exists. Skipping creation.`);

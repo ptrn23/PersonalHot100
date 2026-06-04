@@ -96,29 +96,35 @@ export default function Header() {
             <Link
               href="/"
               className={`transition-colors ${
-                pathname === "/" ? "text-[#B30000]" : "text-gray-600 hover:text-black"
+                pathname === "/"
+                  ? "text-[#B30000]"
+                  : "text-gray-600 hover:text-black"
               }`}
             >
               Charts
             </Link>
-            
+
             <span className="text-gray-300 font-medium">/</span>
-            
+
             <Link
               href="/library"
               className={`transition-colors ${
-                pathname.startsWith("/library") ? "text-[#B30000]" : "text-gray-600 hover:text-black"
+                pathname.startsWith("/library")
+                  ? "text-[#B30000]"
+                  : "text-gray-600 hover:text-black"
               }`}
             >
               Library
             </Link>
-            
+
             <span className="text-gray-300 font-medium">/</span>
 
             <Link
               href="/about"
               className={`transition-colors ${
-                pathname === "/about" ? "text-[#B30000]" : "text-gray-600 hover:text-black"
+                pathname === "/about"
+                  ? "text-[#B30000]"
+                  : "text-gray-600 hover:text-black"
               }`}
             >
               About

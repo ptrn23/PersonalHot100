@@ -65,14 +65,26 @@ export const calculateWeeklyPoints = async (overrideTargetDate?: string) => {
     .limit(1)
     .maybeSingle();
 
-  const firstTitle = firstScrobble?.songs ? (firstScrobble.songs as any).title : "None";
-  const lastTitle = lastScrobble?.songs ? (lastScrobble.songs as any).title : "None";
+  const firstTitle = firstScrobble?.songs
+    ? (firstScrobble.songs as any).title
+    : "None";
+  const lastTitle = lastScrobble?.songs
+    ? (lastScrobble.songs as any).title
+    : "None";
 
   console.log(`Total scrobbles for this week: ${currentScrobbleCount || 0}`);
   console.log("FIRST song of the week:");
-  console.log(firstScrobble ? `- ${firstTitle} at ${firstScrobble.listened_at}` : "- None found");
+  console.log(
+    firstScrobble
+      ? `- ${firstTitle} at ${firstScrobble.listened_at}`
+      : "- None found",
+  );
   console.log("LATEST/LAST song of the week:");
-  console.log(lastScrobble ? `- ${lastTitle} at ${lastScrobble.listened_at}` : "- None found");
+  console.log(
+    lastScrobble
+      ? `- ${lastTitle} at ${lastScrobble.listened_at}`
+      : "- None found",
+  );
   console.log("--------------------------------\n");
 
   if (!currentScrobbleCount || currentScrobbleCount === 0) {
@@ -97,22 +109,27 @@ export const calculateWeeklyPoints = async (overrideTargetDate?: string) => {
     string,
     { streams: number; sales: number; airplay: number; currentStreak: number }
   >();
-  
+
   let previousSongId: string | null = null;
 
   for (const scrobble of rawScrobbles) {
     const songId = scrobble.song_id;
 
     if (!weeklyStats.has(songId)) {
-      weeklyStats.set(songId, { streams: 0, sales: 0, airplay: 0, currentStreak: 0 });
+      weeklyStats.set(songId, {
+        streams: 0,
+        sales: 0,
+        airplay: 0,
+        currentStreak: 0,
+      });
     }
 
     const stats = weeklyStats.get(songId)!;
-    
+
     stats.streams += 1;
 
     if (previousSongId !== songId) {
-      stats.sales += 1; 
+      stats.sales += 1;
       if (previousSongId && weeklyStats.has(previousSongId)) {
         weeklyStats.get(previousSongId)!.currentStreak = 0;
       }
@@ -120,12 +137,12 @@ export const calculateWeeklyPoints = async (overrideTargetDate?: string) => {
 
     stats.currentStreak += 1;
     stats.airplay = Math.max(stats.airplay, stats.currentStreak);
-    
+
     previousSongId = songId;
   }
 
   const stagedEntries: any[] = [];
-  
+
   for (const [songId, stats] of weeklyStats.entries()) {
     const rawPoints =
       Math.floor(stats.streams * 5) +
@@ -142,7 +159,9 @@ export const calculateWeeklyPoints = async (overrideTargetDate?: string) => {
     });
   }
 
-  console.log(`Raw points calculated for ${stagedEntries.length} unique songs.`);
-  
+  console.log(
+    `Raw points calculated for ${stagedEntries.length} unique songs.`,
+  );
+
   return stagedEntries;
 };

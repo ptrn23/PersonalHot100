@@ -5,7 +5,7 @@ import { finalizeChartPositions } from "./03-finalize-chart";
 async function runEngine() {
   console.log("\nStarting Hot 100 Engine...");
 
-  const overrideDate = process.argv[2]; 
+  const overrideDate = process.argv[2];
 
   if (overrideDate) {
     console.log(`Manual Date Override detected: ${overrideDate}`);
@@ -19,13 +19,13 @@ async function runEngine() {
 
   if (fetchResult.isFinalizing) {
     console.log("\nWeek is finalized! Proceeding to chart calculations...");
-    
+
     const stagedEntries = await calculateWeeklyPoints(overrideDate);
     if (!stagedEntries || stagedEntries.length === 0) {
       console.warn("No points generated in Step 2. Halting engine.");
       return;
     }
-    
+
     await finalizeChartPositions(stagedEntries, overrideDate);
 
     console.log("\nCOMPLETE! The chart is live.");

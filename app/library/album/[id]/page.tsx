@@ -8,14 +8,16 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await params;
-  
+
   const { data: album } = await supabase
     .from("albums")
-    .select(`
+    .select(
+      `
       title,
       cover_url,
       artists (name)
-    `)
+    `,
+    )
     .eq("id", resolvedParams.id)
     .single();
 

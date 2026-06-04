@@ -393,7 +393,12 @@ export default async function SongPage({
 
             <div className="flex flex-col">
               {historyEntriesForList.map((entry: ChartEntry) => (
-                <ChartRow key={entry.id} entry={entry} week={entry.id} maxStats={maxStats} />
+                <ChartRow
+                  key={entry.id}
+                  entry={entry}
+                  week={entry.id}
+                  maxStats={maxStats}
+                />
               ))}
               {historyEntriesForList.length === 0 && (
                 <div className="p-10 text-center text-gray-400 font-bold uppercase tracking-widest text-sm">

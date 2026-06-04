@@ -13,10 +13,12 @@ export default function ChartTicket({ song }: { song: any }) {
     <div
       className="relative w-full aspect-[2/1] rounded-2xl overflow-hidden flex bg-gray-900 text-white shadow-2xl"
       style={{
-        maskImage: "radial-gradient(circle at -2px 12px, transparent 6px, black 7px)",
+        maskImage:
+          "radial-gradient(circle at -2px 12px, transparent 6px, black 7px)",
         maskSize: "100% 24px",
         maskRepeat: "repeat-y",
-        WebkitMaskImage: "radial-gradient(circle at -2px 12px, transparent 6px, black 7px)",
+        WebkitMaskImage:
+          "radial-gradient(circle at -2px 12px, transparent 6px, black 7px)",
         WebkitMaskSize: "100% 24px",
         WebkitMaskRepeat: "repeat-y",
       }}
@@ -31,9 +33,9 @@ export default function ChartTicket({ song }: { song: any }) {
         ) : (
           <div className="w-full h-full bg-gray-800" />
         )}
-        
+
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-black/60" />
-        
+
         <div className="absolute top-6 left-8">
           <span className="text-6xl font-black italic tracking-tighter leading-none drop-shadow-md">
             #{song.rank}
@@ -68,7 +70,8 @@ export default function ChartTicket({ song }: { song: any }) {
             Personal Hot 100
           </p>
           <p className="text-sm font-medium leading-4">
-            Charting for <span className="font-bold text-white">{song.woc} weeks</span>
+            Charting for{" "}
+            <span className="font-bold text-white">{song.woc} weeks</span>
           </p>
         </div>
 
@@ -83,16 +86,28 @@ export default function ChartTicket({ song }: { song: any }) {
 
         <div className="relative z-10 grid grid-cols-3 gap-4 text-center">
           <div>
-            <div className="text-[#f8e285] text-[10px] font-bold uppercase tracking-widest mb-0.5">Sales</div>
-            <div className="text-lg font-bold leading-none">{formatNumber(song.salesUnits)}</div>
+            <div className="text-[#f8e285] text-[10px] font-bold uppercase tracking-widest mb-0.5">
+              Sales
+            </div>
+            <div className="text-lg font-bold leading-none">
+              {formatNumber(song.salesUnits)}
+            </div>
           </div>
           <div>
-            <div className="text-[#bcf08e] text-[10px] font-bold uppercase tracking-widest mb-0.5">Streams</div>
-            <div className="text-lg font-bold leading-none">{formatNumber(song.streamsUnits)}</div>
+            <div className="text-[#bcf08e] text-[10px] font-bold uppercase tracking-widest mb-0.5">
+              Streams
+            </div>
+            <div className="text-lg font-bold leading-none">
+              {formatNumber(song.streamsUnits)}
+            </div>
           </div>
           <div>
-            <div className="text-[#9adafe] text-[10px] font-bold uppercase tracking-widest mb-0.5">Radio</div>
-            <div className="text-lg font-bold leading-none">{formatNumber(song.airplayUnits)}</div>
+            <div className="text-[#9adafe] text-[10px] font-bold uppercase tracking-widest mb-0.5">
+              Radio
+            </div>
+            <div className="text-lg font-bold leading-none">
+              {formatNumber(song.airplayUnits)}
+            </div>
           </div>
         </div>
       </div>
