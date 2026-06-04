@@ -84,6 +84,62 @@ export const finalizeChartPositions = async (stagedEntries: any[], overrideTarge
     twoWeeksAgoChart = data?.reduce((acc, row) => ({ ...acc, [row.song_id]: row }), {}) || {};
     console.log(`Found ${data?.length || 0} entries from two weeks ago.\n`);
   }
+
+  console.log("Applying decay multipliers and sorting Top 100...");
+
+  const currentWeekStats = stagedEntries.reduce((acc, row) => ({ ...acc, [row.song_id]: row }), {});
+  const allContenders = new Set([
+    ...stagedEntries.map((e) => e.song_id),
+    ...Object.keys(lastWeekChart),
+    ...Object.keys(twoWeeksAgoChart),
+  ]);
+
+  const chartContenders = [];
+
+  for (const songId of allContenders) {
+    const currentStats = currentWeekStats[songId] || {
+      streams: 0,
+      sales: 0,
+      airplay: 0,
+      current_week_points: 0,
+    };
+
+    const prevPoints = lastWeekChart[songId]?.total_points || 0;
+    const twoWeeksPoints = twoWeeksAgoChart[songId]?.total_points || 0;
+    
+    const rawPoints = currentStats.current_week_points;
+    const finalWeightedPoints = Math.floor(
+      rawPoints + Math.floor(prevPoints * 0.3) + Math.floor(twoWeeksPoints * 0.2)
+    );
+
+    if (finalWeightedPoints === 0) continue;
+
+    chartContenders.push({
+      song_id: songId,
+      streams: currentStats.streams,
+      sales: currentStats.sales,
+      airplay: currentStats.airplay,
+      current_week_points: rawPoints,
+      previous_week_raw_points: prevPoints,
+      two_weeks_ago_raw_points: twoWeeksPoints,
+      total_points: finalWeightedPoints,
+    });
+  }
+
+  chartContenders.sort((a, b) => {
+    if (b.total_points !== a.total_points) return b.total_points - a.total_points;
+    if (b.current_week_points !== a.current_week_points) return b.current_week_points - a.current_week_points;
+    return b.streams - a.streams;
+  });
+  
+  const top100 = chartContenders.slice(0, 100);
+  
+  console.log(`Calculated points for ${chartContenders.length} total contenders.`);
+  if (top100.length > 0) {
+    console.log(`Sliced Top 100! (Rank 1 has ${top100[0].total_points} pts, Rank ${top100.length} has ${top100[top100.length - 1].total_points} pts)\n`);
+  } else {
+    console.log("No songs scored any points this week.\n");
+  }
 };
 
 finalizeChartPositions([]);
