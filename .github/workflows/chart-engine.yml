@@ -1,0 +1,36 @@
+name: Personal Hot 100 Engine
+
+on:
+  schedule:
+    # runs at 10:05 UTC and 22:05 UTC every day
+    - cron: '5 10,22 * * *'
+  workflow_dispatch:
+
+jobs:
+  run-engine:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8
+
+      - name: Install Dependencies
+        run: pnpm install
+
+      - name: Run Chart Engine
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+          LASTFM_USERNAME: ${{ secrets.LASTFM_USERNAME }}
+        run: pnpm exec tsx updates/run-engine.ts
