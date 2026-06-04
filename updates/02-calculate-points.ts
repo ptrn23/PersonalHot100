@@ -117,7 +117,7 @@ export const calculateWeeklyPoints = async (overrideTargetDate?: string) => {
         weeklyStats.get(previousSongId)!.currentStreak = 0;
       }
     }
-    
+
     stats.currentStreak += 1;
     stats.airplay = Math.max(stats.airplay, stats.currentStreak);
     
@@ -146,5 +146,3 @@ export const calculateWeeklyPoints = async (overrideTargetDate?: string) => {
   
   return stagedEntries;
 };
-
-calculateWeeklyPoints();

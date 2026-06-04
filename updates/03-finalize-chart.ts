@@ -225,5 +225,3 @@ export const finalizeChartPositions = async (stagedEntries: any[], overrideTarge
     console.log(`SUCCESS: Chart finalized for week of ${targetWeek.start_date}!`);
   }
 };
-
-finalizeChartPositions([]);

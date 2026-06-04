@@ -245,5 +245,3 @@ export const fetchAndMergeScrobbles = async (overrideTargetDate?: string) => {
 
   return { status: "success", isFinalizing, weekId: targetWeek.id };
 };
-
-fetchAndMergeScrobbles();
