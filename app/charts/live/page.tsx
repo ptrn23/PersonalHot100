@@ -1,6 +1,8 @@
 import { supabase } from "@/utils/supabase";
 import ChartView from "../../components/ChartView"; 
 
+export const dynamic = "force-dynamic";
+
 const formatDateRange = (startDateStr: string, endDateStr: string) => {
   const options: Intl.DateTimeFormatOptions = {
     month: "long",
