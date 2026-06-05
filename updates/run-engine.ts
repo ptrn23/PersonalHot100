@@ -17,21 +17,18 @@ async function runEngine() {
     return;
   }
 
-  if (fetchResult.isFinalizing) {
-    console.log("\nWeek is finalized! Proceeding to chart calculations...");
+  const syncMode = fetchResult.isFinalizing ? "WEEK DONE" : "WEEK IN PROGRESS";
+  console.log(`\nExecution Mode: ${syncMode}. Proceeding to chart calculations...`);
 
-    const stagedEntries = await calculateWeeklyPoints(overrideDate);
-    if (!stagedEntries || stagedEntries.length === 0) {
-      console.warn("No points generated in Step 2. Halting engine.");
-      return;
-    }
-
-    await finalizeChartPositions(stagedEntries, overrideDate);
-
-    console.log("\nCOMPLETE! The chart is live.");
-  } else {
-    console.log("\nMid-week sync complete. Halting engine until week ends.");
+  const stagedEntries = await calculateWeeklyPoints(overrideDate);
+  if (!stagedEntries || stagedEntries.length === 0) {
+    console.warn("No points generated in Step 2. Halting engine.");
+    return;
   }
+
+  await finalizeChartPositions(stagedEntries, overrideDate);
+
+  console.log(`\nCOMPLETE! The chart is live.`);
 }
 
 runEngine();
