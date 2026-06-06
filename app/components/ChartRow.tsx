@@ -58,6 +58,7 @@ export type ChartEntry = {
   streams: number;
   airplay: number;
   disableSongLink?: boolean;
+  overrideSubLabel?: string;
   songs?: {
     id: string;
     title: string;
@@ -105,7 +106,7 @@ export default function ChartRow({
 
   const title = entry.songs?.display_title || entry.songs?.title || "Unknown";
   const artist = entry.songs?.artists?.display_name || entry.songs?.artists?.name || "Unknown";
-
+  const displaySubLabel = entry.overrideSubLabel || artist;
   const seed = getStableSeed(title, artist);
   const streamsUnits = applyDeviation(
     Math.floor(entry.streams * 5250 * 275),
@@ -287,7 +288,7 @@ export default function ChartRow({
               className="text-xs text-gray-500 hover:text-blue-600 hover:underline truncate font-medium transition-colors"
               onClick={(e) => e.stopPropagation()}
             >
-              {song.artist}
+              {displaySubLabel}
             </Link>
           </div>
         </div>

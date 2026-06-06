@@ -180,8 +180,8 @@ export default async function SongPage({
       new Date(a.chart_weeks?.start_date).getTime(),
   );
 
-  const maxStats: MaxStats = { sales: 0, streams: 0, airplay: 0, units: 0 };
   const seed = getStableSeed(song.display_title || song.title, artistName);
+  const maxStats: MaxStats = { sales: 0, streams: 0, airplay: 0, units: 0 };
 
   sortedEntries.forEach((entry) => {
     totalPoints += entry.total_points || 0;
@@ -191,10 +191,15 @@ export default async function SongPage({
 
     if (entry.peak_position < peakPos) peakPos = entry.peak_position;
     if (entry.weeks_on_chart > woc) woc = entry.weeks_on_chart;
+    
+    const weeklyUnits = applyDeviation(
+      Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2), 
+      seed + 4
+    );
+    if (weeklyUnits > maxStats.units) maxStats.units = weeklyUnits;
   });
 
-  const debutDate =
-    sortedEntries.length > 0 ? sortedEntries[0].chart_weeks?.start_date : null;
+  const debutDate = sortedEntries.length > 0 ? sortedEntries[0].chart_weeks?.start_date : null;
   const peakEntry = sortedEntries.find((e) => e.rank === peakPos);
   const firstPeakDate = peakEntry?.chart_weeks?.start_date;
   highestStreak = Math.max(
@@ -204,28 +209,20 @@ export default async function SongPage({
       .map((e) => e.peak_streak || 0),
   );
 
-  const allTimeStreams = applyDeviation(
-    Math.floor(rawStreams * 5250 * 275),
-    seed + 1,
-  );
+  const allTimeStreams = applyDeviation(Math.floor(rawStreams * 5250 * 275), seed + 1);
   const allTimeSales = applyDeviation(Math.floor(rawSales * 252), seed + 2);
-  const allTimeAirplay = applyDeviation(
-    Math.floor(rawAirplay * 2250 * 5020),
-    seed + 3,
-  );
-  const allTimeUnits = applyDeviation(
-    Math.floor((rawStreams + rawSales + rawAirplay) * 1750 * 2),
-    seed + 4,
-  );
+  const allTimeAirplay = applyDeviation(Math.floor(rawAirplay * 2250 * 5020), seed + 3);
+  const allTimeUnits = applyDeviation(Math.floor((rawStreams + rawSales + rawAirplay) * 1750 * 2), seed + 4);
 
   const historyEntriesForList = descendingEntries.map((entry) => ({
     ...entry,
     disableSongLink: true,
+    overrideSubLabel: formatFullDate(entry.chart_weeks?.start_date),
     songs: {
       id: song.id,
       title: song.display_title || song.title,
       artists: {
-        name: `${formatFullDate(entry.chart_weeks?.start_date)}`,
+        name: artistName,
         id: artistId,
         customHref: `/charts/weekly?week=${encodeURIComponent(entry.chart_weeks?.start_date)}`,
       },
