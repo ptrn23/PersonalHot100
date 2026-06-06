@@ -46,6 +46,7 @@ export type ChartEntry = {
   rank: number;
   previous_position: number | null;
   is_new_peak: boolean;
+  is_repeak: boolean;
   peak_position: number;
   weeks_on_chart: number;
   total_points: number;
@@ -172,7 +173,7 @@ export default function ChartRow({
     peak: entry.peak_position,
     peakStreak: entry.peak_streak,
     isNewPeak: entry.is_new_peak,
-    isRePeak: false,
+    isRePeak: entry.is_repeak,
     woc: entry.weeks_on_chart,
 
     salesUnits: salesUnits,
