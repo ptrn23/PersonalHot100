@@ -21,11 +21,15 @@ import {
 import * as htmlToImage from "html-to-image";
 import { saveAs } from "file-saver";
 
-type Props = {
-  entries: ChartEntry[] | null;
-  availableWeeks: string[];
-  activeWeekDate: string;
+export type ChartViewProps = {
+  entries: ChartEntry[];
+  availableWeeks?: string[];
+  activeWeekDate?: string;
   formattedDateRange: string;
+  isAllTime?: boolean; 
+  hideWeekSelector?: boolean;
+  titleOverride?: string;
+  subtitleOverride?: string;
 };
 
 const WIDTH_MODES = [
@@ -39,7 +43,11 @@ export default function ChartView({
   availableWeeks,
   activeWeekDate,
   formattedDateRange,
-}: Props) {
+  isAllTime = false,
+  hideWeekSelector = false,
+  titleOverride,
+  subtitleOverride,
+}: ChartViewProps) {
   const [layoutWidth, setLayoutWidth] = useState<"slim" | "normal" | "wide">(
     "normal",
   );
@@ -172,7 +180,7 @@ export default function ChartView({
         <header className="mb-6 flex justify-between items-end px-2">
           <div>
             <h1 className="text-4xl font-black uppercase tracking-tighter leading-none">
-              Hot 100
+              {titleOverride || "Hot 100"}
             </h1>
             <p className="text-gray-500 font-bold uppercase tracking-widest text-xs mt-1">
               Week of {formattedDateRange}
@@ -235,11 +243,8 @@ export default function ChartView({
               ))}
             </div>
 
-            {availableWeeks.length > 1 && (
-              <WeekSelector
-                weeks={availableWeeks}
-                activeWeek={activeWeekDate}
-              />
+            {!hideWeekSelector && availableWeeks && activeWeekDate && (
+              <WeekSelector weeks={availableWeeks} activeWeek={activeWeekDate} />
             )}
 
             <button
@@ -266,7 +271,7 @@ export default function ChartView({
             <div className="text-sm border-t-2 border-black shadow-sm bg-white min-h-[500px]">
               <div className="grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] font-bold text-gray-600 border-b border-gray-300 bg-gray-50 sticky top-[88px] z-10">
                 <div className="py-2 text-center">Rank</div>
-                <div className="py-2 text-center">+/-</div>
+                <div className="py-2 text-center">{isAllTime ? "" : "+/-"}</div>
                 <div className="py-2 pl-2">Song</div>
                 <div className="py-2 text-center">{}</div>
                 <div className="py-2 text-center">Points</div>
@@ -360,7 +365,7 @@ export default function ChartView({
             <>
               <div className="grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] font-bold text-gray-600 border-b border-gray-300 bg-gray-50">
                 <div className="py-2 text-center">Rank</div>
-                <div className="py-2 text-center">+/-</div>
+                <div className="py-2 text-center">{isAllTime ? "" : "+/-"}</div>
                 <div className="py-2 pl-2">Song</div>
                 <div className="py-2 text-center">{}</div>
                 <div className="py-2 text-center">Points</div>

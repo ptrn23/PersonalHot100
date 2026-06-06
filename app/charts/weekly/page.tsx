@@ -1,6 +1,7 @@
 import { supabase } from "@/utils/supabase";
 import ChartView from "../../components/ChartView";
 import Link from "next/link";
+import { ChartEntry } from "@/app/components/ChartRow";
 
 const formatDateRange = (startDateStr: string, endDateStr: string) => {
   const options: Intl.DateTimeFormatOptions = {
@@ -118,10 +119,9 @@ export default async function ArchivePage({
     }
   }
 
-  const { data: entries } = await supabase
+  const { data: rawEntries, error } = await supabase
     .from("chart_entries")
-    .select(
-      `
+    .select(`
       *,
       songs (
         id,
@@ -130,13 +130,18 @@ export default async function ArchivePage({
         artists ( id, name, display_name ),
         albums ( id, title, display_title, cover_url )
       )
-    `,
-    )
+    `)
     .eq("week_id", activeWeek.id)
     .lte("rank", 100)
     .order("rank", { ascending: true });
-
-  return (
+      
+    if (error || !rawEntries) {
+      return <div className="p-10 text-center font-bold text-red-500">Failed to load chart data.</div>;
+    }
+  
+    const entries = rawEntries as ChartEntry[];
+  
+    return (
     <ChartView
       entries={entries}
       availableWeeks={availableWeeks.map((w) => w.start_date)}

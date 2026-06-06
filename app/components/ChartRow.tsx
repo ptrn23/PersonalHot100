@@ -245,20 +245,16 @@ export default function ChartRow({
 
         {/* Change Indicator */}
         <div className="text-center font-bold text-xs">
-          {song.status === "re" && (
-            <span className="text-[#8e0be5] bg-purple-50 px-1 rounded">RE</span>
-          )}
-          {song.status === "new" && (
-            <span className="text-[#05a7e5] bg-blue-50 px-1 rounded">NEW</span>
-          )}
-          {song.status === "stable" && (
-            <span className="text-black text-xl leading-none">=</span>
-          )}
-          {song.status === "rise" && (
-            <span className="text-green-600">+{song.change}</span>
-          )}
-          {song.status === "fall" && (
-            <span className="text-red-500">-{song.change}</span>
+          {week === "All-Time" ? (
+            <span className="text-gray-300">-</span>
+          ) : (
+            <>
+              {song.status === "re" && <span className="text-[#8e0be5] bg-purple-50 px-1 rounded">RE</span>}
+              {song.status === "new" && <span className="text-[#05a7e5] bg-blue-50 px-1 rounded">NEW</span>}
+              {song.status === "stable" && <span className="text-black text-xl leading-none">=</span>}
+              {song.status === "rise" && <span className="text-green-600">+{song.change}</span>}
+              {song.status === "fall" && <span className="text-red-500">-{song.change}</span>}
+            </>
           )}
         </div>
 

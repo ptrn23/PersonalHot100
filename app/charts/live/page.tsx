@@ -1,5 +1,6 @@
 import { supabase } from "@/utils/supabase";
 import ChartView from "../../components/ChartView";
+import { ChartEntry } from "@/app/components/ChartRow";
 
 export const dynamic = "force-dynamic";
 
@@ -34,10 +35,9 @@ export default async function LiveChartPage() {
     );
   }
 
-  const { data: entries } = await supabase
+  const { data: rawEntries, error } = await supabase
     .from("chart_entries")
-    .select(
-      `
+    .select(`
       *,
       songs (
         id,
@@ -46,17 +46,23 @@ export default async function LiveChartPage() {
         artists ( id, name, display_name ),
         albums ( id, title, display_title, cover_url )
       )
-    `,
-    )
+    `)
     .eq("week_id", latestWeek.id)
     .lte("rank", 100)
     .order("rank", { ascending: true });
+    
+  if (error || !rawEntries) {
+    return <div className="p-10 text-center font-bold text-red-500">Failed to load chart data.</div>;
+  }
+
+  const entries = rawEntries as ChartEntry[];
 
   return (
     <ChartView
       entries={entries}
       availableWeeks={[latestWeek.start_date]}
       activeWeekDate={latestWeek.start_date}
+      hideWeekSelector={true}
       formattedDateRange={`${formatDateRange(latestWeek.start_date, latestWeek.end_date)}`}
     />
   );

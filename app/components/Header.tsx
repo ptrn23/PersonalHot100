@@ -300,7 +300,12 @@ export default function Header() {
             Year-End Charts
           </span>
           <span className="text-gray-800 font-medium">|</span>
-          <span className="text-gray-500 cursor-not-allowed">All-Time</span>
+          <Link
+            href="/charts/alltime"
+            className="hover:text-[#B30000] transition-colors text-white"
+          >
+            All-Time
+          </Link>
           <span className="text-gray-800 font-medium">|</span>
           <span className="text-gray-500 cursor-not-allowed">
             Certifications
