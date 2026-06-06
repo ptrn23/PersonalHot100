@@ -215,7 +215,7 @@ export default async function SongPage({
       artists: {
         name: `${formatFullDate(entry.chart_weeks?.start_date)}`,
         id: artistId,
-        customHref: `/?week=${encodeURIComponent(entry.chart_weeks?.start_date)}`,
+        customHref: `/charts/weekly?week=${encodeURIComponent(entry.chart_weeks?.start_date)}`,
       },
       albums: { cover_url: coverUrl, id: albumId },
     },
