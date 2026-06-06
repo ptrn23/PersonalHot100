@@ -7,6 +7,8 @@ const supabase = createClient(
   process.env.SUPABASE_SERVICE_KEY!,
 );
 
+let cachedCanonicalMap: Map<string, string> | null = null;
+
 export const calculateWeeklyPoints = async (overrideTargetDate?: string) => {
   console.log("\nRunning calculate points...");
 
@@ -105,20 +107,24 @@ export const calculateWeeklyPoints = async (overrideTargetDate?: string) => {
     return null;
   }
 
-  console.log("Fetching canonical dictionary...");
-  const { data: songPointers } = await supabase
-    .from("songs")
-    .select("id, canonical_id")
-    .limit(10000);
+  if (!cachedCanonicalMap) {
+    console.log("Fetching canonical dictionary...");
+    const { data: songPointers } = await supabase
+      .from("songs")
+      .select("id, canonical_id")
+      .limit(10000);
 
-  const canonicalMap = new Map<string, string>();
-  if (songPointers) {
-    songPointers.forEach((song) => {
-      if (song.canonical_id) {
-        canonicalMap.set(song.id, song.canonical_id);
-      }
-    });
+    cachedCanonicalMap = new Map<string, string>();
+    if (songPointers) {
+      songPointers.forEach((song) => {
+        if (song.canonical_id) {
+          cachedCanonicalMap!.set(song.id, song.canonical_id);
+        }
+      });
+    }
   }
+
+  const canonicalMap = cachedCanonicalMap;
 
   const weeklyStats = new Map<
     string,

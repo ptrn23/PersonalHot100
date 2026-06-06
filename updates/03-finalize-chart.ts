@@ -7,6 +7,8 @@ const supabase = createClient(
   process.env.SUPABASE_SERVICE_KEY!,
 );
 
+let cachedFinalizeCanonicalMap: Map<string, string> | null = null;
+
 export const finalizeChartPositions = async (
   stagedEntries: any[],
   overrideTargetDate?: string,
@@ -59,15 +61,20 @@ export const finalizeChartPositions = async (
     `Cleanup complete: Removed ${deletedCount || 0} existing entries for this week.\n`,
   );
   console.log("Fetching historical weeks for momentum calculation...");
-  const { data: songPointers } = await supabase
-    .from("songs")
-    .select("id, canonical_id")
-    .limit(10000); 
-    
-  const canonicalMap = new Map<string, string>();
-  songPointers?.forEach(s => { 
-    if (s.canonical_id) canonicalMap.set(s.id, s.canonical_id); 
-  });
+  if (!cachedFinalizeCanonicalMap) {
+    console.log("Fetching canonical dictionary for finalization...");
+    const { data: songPointers } = await supabase
+      .from("songs")
+      .select("id, canonical_id")
+      .limit(10000); 
+      
+    cachedFinalizeCanonicalMap = new Map<string, string>();
+    songPointers?.forEach(s => { 
+      if (s.canonical_id) cachedFinalizeCanonicalMap!.set(s.id, s.canonical_id); 
+    });
+  }
+
+  const canonicalMap = cachedFinalizeCanonicalMap;
 
   const { data: previousWeeks } = await supabase
     .from("chart_weeks")
