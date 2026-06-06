@@ -85,6 +85,14 @@ export default async function AlbumPage({
   params: Promise<{ id: string }>;
 }) {
   const resolvedParams = await params;
+
+  const { data: liveWeek } = await supabase
+    .from("chart_weeks")
+    .select("id")
+    .order("start_date", { ascending: false })
+    .limit(1)
+    .single();
+
   const { data: album, error } = await supabase
     .from("albums")
     .select(
@@ -96,6 +104,7 @@ export default async function AlbumPage({
         title,
         display_title,
         chart_entries (
+          week_id,
           rank,
           total_points,
           streams,
@@ -131,8 +140,13 @@ export default async function AlbumPage({
   const albumTracks: any[] = [];
   const chartedSongs =
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    (album.songs as any[])?.filter(
-      (song) => song.chart_entries && song.chart_entries.length > 0,
+    (album.songs as any[])?.map((song) => {
+      const validEntries = (song.chart_entries || []).filter(
+        (entry: any) => entry.week_id !== liveWeek?.id
+      );
+      return { ...song, chart_entries: validEntries };
+    }).filter(
+      (song) => song.chart_entries && song.chart_entries.length > 0
     ) || [];
   chartedSongsCount = chartedSongs.length;
 

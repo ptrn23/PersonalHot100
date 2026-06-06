@@ -83,6 +83,13 @@ export default async function ArtistPage({
   const showAllTracks = resolvedSearchParams.view === "all";
   const showAllAlbums = resolvedSearchParams.albums === "all";
 
+  const { data: liveWeek } = await supabase
+    .from("chart_weeks")
+    .select("id")
+    .order("start_date", { ascending: false })
+    .limit(1)
+    .single();
+
   const { data: artist, error } = await supabase
     .from("artists")
     .select(
@@ -94,6 +101,7 @@ export default async function ArtistPage({
         title,
         display_title,
         chart_entries (
+          week_id,
           rank,
           total_points,
           streams,
@@ -125,8 +133,13 @@ export default async function ArtistPage({
 
   const chartedSongs =
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    (artist.songs as any[])?.filter(
-      (song) => song.chart_entries && song.chart_entries.length > 0,
+    (artist.songs as any[])?.map((song) => {
+      const validEntries = (song.chart_entries || []).filter(
+        (entry: any) => entry.week_id !== liveWeek?.id
+      );
+      return { ...song, chart_entries: validEntries };
+    }).filter(
+      (song) => song.chart_entries && song.chart_entries.length > 0
     ) || [];
   const chartedSongsCount = chartedSongs.length;
 
