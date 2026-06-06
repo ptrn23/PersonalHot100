@@ -66,11 +66,11 @@ export const finalizeChartPositions = async (
     const { data: songPointers } = await supabase
       .from("songs")
       .select("id, canonical_id")
-      .limit(10000); 
-      
+      .limit(10000);
+
     cachedFinalizeCanonicalMap = new Map<string, string>();
-    songPointers?.forEach(s => { 
-      if (s.canonical_id) cachedFinalizeCanonicalMap!.set(s.id, s.canonical_id); 
+    songPointers?.forEach((s) => {
+      if (s.canonical_id) cachedFinalizeCanonicalMap!.set(s.id, s.canonical_id);
     });
   }
 
@@ -93,18 +93,22 @@ export const finalizeChartPositions = async (
       .select("song_id, total_points, rank")
       .eq("week_id", lastWeek.id);
 
-    lastWeekChart = data?.reduce((acc, row) => {
-      const resolvedId = canonicalMap.get(row.song_id) || row.song_id;
-      
-      if (!acc[resolvedId]) {
-        acc[resolvedId] = { ...row, song_id: resolvedId };
-      } else {
-        acc[resolvedId].total_points += row.total_points;
-        acc[resolvedId].rank = Math.min(acc[resolvedId].rank, row.rank);
-      }
-      return acc;
-    }, {} as Record<string, any>) || {};
-    
+    lastWeekChart =
+      data?.reduce(
+        (acc, row) => {
+          const resolvedId = canonicalMap.get(row.song_id) || row.song_id;
+
+          if (!acc[resolvedId]) {
+            acc[resolvedId] = { ...row, song_id: resolvedId };
+          } else {
+            acc[resolvedId].total_points += row.total_points;
+            acc[resolvedId].rank = Math.min(acc[resolvedId].rank, row.rank);
+          }
+          return acc;
+        },
+        {} as Record<string, any>,
+      ) || {};
+
     console.log(`Found ${data?.length || 0} entries from last week.`);
   }
 
@@ -115,17 +119,21 @@ export const finalizeChartPositions = async (
       .select("song_id, total_points")
       .eq("week_id", twoWeeksAgo.id);
 
-    twoWeeksAgoChart = data?.reduce((acc, row) => {
-      const resolvedId = canonicalMap.get(row.song_id) || row.song_id;
-      
-      if (!acc[resolvedId]) {
-        acc[resolvedId] = { ...row, song_id: resolvedId };
-      } else {
-        acc[resolvedId].total_points += row.total_points;
-      }
-      return acc;
-    }, {} as Record<string, any>) || {};
-    
+    twoWeeksAgoChart =
+      data?.reduce(
+        (acc, row) => {
+          const resolvedId = canonicalMap.get(row.song_id) || row.song_id;
+
+          if (!acc[resolvedId]) {
+            acc[resolvedId] = { ...row, song_id: resolvedId };
+          } else {
+            acc[resolvedId].total_points += row.total_points;
+          }
+          return acc;
+        },
+        {} as Record<string, any>,
+      ) || {};
+
     console.log(`Found ${data?.length || 0} entries from two weeks ago.\n`);
   }
 

@@ -18,7 +18,9 @@ async function runEngine() {
   }
 
   const syncMode = fetchResult.isFinalizing ? "WEEK DONE" : "WEEK IN PROGRESS";
-  console.log(`\nExecution Mode: ${syncMode}. Proceeding to chart calculations...`);
+  console.log(
+    `\nExecution Mode: ${syncMode}. Proceeding to chart calculations...`,
+  );
 
   const stagedEntries = await calculateWeeklyPoints(overrideDate);
   if (!stagedEntries || stagedEntries.length === 0) {

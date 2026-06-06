@@ -38,13 +38,17 @@ async function runRedoAllCharts() {
 
   for (let i = 0; i < allWeeks.length; i++) {
     const week = allWeeks[i];
-    
-    const targetDateStr = week.end_date.split('T')[0];
-    console.log(`Processing week [${i + 1}/${allWeeks.length}] | Target Date: ${targetDateStr}`);
+
+    const targetDateStr = week.end_date.split("T")[0];
+    console.log(
+      `Processing week [${i + 1}/${allWeeks.length}] | Target Date: ${targetDateStr}`,
+    );
 
     const stagedEntries = await calculateWeeklyPoints(targetDateStr);
     if (!stagedEntries || stagedEntries.length === 0) {
-      console.log(`No entries calculated for ${targetDateStr}. Skipping finalization.`);
+      console.log(
+        `No entries calculated for ${targetDateStr}. Skipping finalization.`,
+      );
       continue;
     }
 
