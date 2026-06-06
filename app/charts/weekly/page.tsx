@@ -36,7 +36,9 @@ export default async function ArchivePage({
     return (
       <div className="min-h-screen flex flex-col items-center justify-center p-10 bg-white">
         <h1 className="text-2xl font-bold mb-4">Archive Empty</h1>
-        <p className="mb-4 text-gray-600">No finalized chart weeks have been archived yet.</p>
+        <p className="mb-4 text-gray-600">
+          No finalized chart weeks have been archived yet.
+        </p>
       </div>
     );
   }
@@ -52,7 +54,9 @@ export default async function ArchivePage({
           <h1 className="text-4xl font-black mb-2 uppercase tracking-tight text-red-600">
             Invalid Date Format
           </h1>
-          <p className="text-gray-500 mb-8 font-medium">Dates must be a valid timestamp.</p>
+          <p className="text-gray-500 mb-8 font-medium">
+            Dates must be a valid timestamp.
+          </p>
           <Link
             href="/charts/weekly"
             className="bg-black text-white px-6 py-3 rounded-lg font-bold uppercase text-sm hover:bg-gray-800 transition-colors"
@@ -64,7 +68,8 @@ export default async function ArchivePage({
     }
 
     const exactMatch = availableWeeks.find(
-      (w) => new Date(w.start_date).getTime() === new Date(requestedWeek).getTime(),
+      (w) =>
+        new Date(w.start_date).getTime() === new Date(requestedWeek).getTime(),
     );
 
     if (exactMatch) {
@@ -115,7 +120,8 @@ export default async function ArchivePage({
 
   const { data: entries } = await supabase
     .from("chart_entries")
-    .select(`
+    .select(
+      `
       *,
       songs (
         id,
@@ -124,7 +130,8 @@ export default async function ArchivePage({
         artists ( id, name, display_name ),
         albums ( id, title, display_title, cover_url )
       )
-    `)
+    `,
+    )
     .eq("week_id", activeWeek.id)
     .lte("rank", 100)
     .order("rank", { ascending: true });
@@ -134,7 +141,10 @@ export default async function ArchivePage({
       entries={entries}
       availableWeeks={availableWeeks.map((w) => w.start_date)}
       activeWeekDate={activeWeek.start_date}
-      formattedDateRange={formatDateRange(activeWeek.start_date, activeWeek.end_date)}
+      formattedDateRange={formatDateRange(
+        activeWeek.start_date,
+        activeWeek.end_date,
+      )}
     />
   );
 }

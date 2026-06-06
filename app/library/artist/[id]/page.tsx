@@ -133,14 +133,15 @@ export default async function ArtistPage({
 
   const chartedSongs =
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    (artist.songs as any[])?.map((song) => {
-      const validEntries = (song.chart_entries || []).filter(
-        (entry: any) => entry.week_id !== liveWeek?.id
-      );
-      return { ...song, chart_entries: validEntries };
-    }).filter(
-      (song) => song.chart_entries && song.chart_entries.length > 0
-    ) || [];
+    (artist.songs as any[])
+      ?.map((song) => {
+        const validEntries = (song.chart_entries || []).filter(
+          (entry: any) => entry.week_id !== liveWeek?.id,
+        );
+        return { ...song, chart_entries: validEntries };
+      })
+      .filter((song) => song.chart_entries && song.chart_entries.length > 0) ||
+    [];
   const chartedSongsCount = chartedSongs.length;
 
   chartedSongs.forEach((song) => {
@@ -176,7 +177,10 @@ export default async function ArtistPage({
         .map((e) => e.peak_streak || 0),
     );
 
-    const seed = getStableSeed(song.display_title || song.title, artist.display_name || artist.name);
+    const seed = getStableSeed(
+      song.display_title || song.title,
+      artist.display_name || artist.name,
+    );
     const songUnits = applyDeviation(
       Math.floor(
         (songTotalStreams + songTotalSales + songTotalAirplay) * 1750 * 2,

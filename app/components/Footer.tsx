@@ -48,7 +48,10 @@ export default function Footer() {
           </h4>
           <ul className="flex flex-col gap-2.5 text-xs font-bold text-gray-600 uppercase tracking-wide">
             <li>
-              <Link href="/charts/weekly" className="hover:text-[#B30000] transition-colors">
+              <Link
+                href="/charts/weekly"
+                className="hover:text-[#B30000] transition-colors"
+              >
                 Hot 100
               </Link>
             </li>

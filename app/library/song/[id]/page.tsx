@@ -13,12 +13,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const { data: song } = await supabase
     .from("songs")
-    .select(`
+    .select(
+      `
       title,
       display_title,
       artists (name),
       albums (cover_url)
-    `)
+    `,
+    )
     .eq("id", resolvedParams.id)
     .single();
 
@@ -191,15 +193,16 @@ export default async function SongPage({
 
     if (entry.peak_position < peakPos) peakPos = entry.peak_position;
     if (entry.weeks_on_chart > woc) woc = entry.weeks_on_chart;
-    
+
     const weeklyUnits = applyDeviation(
-      Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2), 
-      seed + 4
+      Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2),
+      seed + 4,
     );
     if (weeklyUnits > maxStats.units) maxStats.units = weeklyUnits;
   });
 
-  const debutDate = sortedEntries.length > 0 ? sortedEntries[0].chart_weeks?.start_date : null;
+  const debutDate =
+    sortedEntries.length > 0 ? sortedEntries[0].chart_weeks?.start_date : null;
   const peakEntry = sortedEntries.find((e) => e.rank === peakPos);
   const firstPeakDate = peakEntry?.chart_weeks?.start_date;
   highestStreak = Math.max(
@@ -209,10 +212,19 @@ export default async function SongPage({
       .map((e) => e.peak_streak || 0),
   );
 
-  const allTimeStreams = applyDeviation(Math.floor(rawStreams * 5250 * 275), seed + 1);
+  const allTimeStreams = applyDeviation(
+    Math.floor(rawStreams * 5250 * 275),
+    seed + 1,
+  );
   const allTimeSales = applyDeviation(Math.floor(rawSales * 252), seed + 2);
-  const allTimeAirplay = applyDeviation(Math.floor(rawAirplay * 2250 * 5020), seed + 3);
-  const allTimeUnits = applyDeviation(Math.floor((rawStreams + rawSales + rawAirplay) * 1750 * 2), seed + 4);
+  const allTimeAirplay = applyDeviation(
+    Math.floor(rawAirplay * 2250 * 5020),
+    seed + 3,
+  );
+  const allTimeUnits = applyDeviation(
+    Math.floor((rawStreams + rawSales + rawAirplay) * 1750 * 2),
+    seed + 4,
+  );
 
   const historyEntriesForList = descendingEntries.map((entry) => ({
     ...entry,

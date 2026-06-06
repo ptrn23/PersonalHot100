@@ -1,5 +1,5 @@
 import { supabase } from "@/utils/supabase";
-import ChartView from "../../components/ChartView"; 
+import ChartView from "../../components/ChartView";
 
 export const dynamic = "force-dynamic";
 
@@ -27,14 +27,17 @@ export default async function LiveChartPage() {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center p-10 bg-white">
         <h1 className="text-2xl font-bold mb-4">No Live Data</h1>
-        <p className="text-gray-600">The tracking engine is currently initializing.</p>
+        <p className="text-gray-600">
+          The tracking engine is currently initializing.
+        </p>
       </div>
     );
   }
 
   const { data: entries } = await supabase
     .from("chart_entries")
-    .select(`
+    .select(
+      `
       *,
       songs (
         id,
@@ -43,7 +46,8 @@ export default async function LiveChartPage() {
         artists ( id, name, display_name ),
         albums ( id, title, display_title, cover_url )
       )
-    `)
+    `,
+    )
     .eq("week_id", latestWeek.id)
     .lte("rank", 100)
     .order("rank", { ascending: true });
@@ -51,7 +55,7 @@ export default async function LiveChartPage() {
   return (
     <ChartView
       entries={entries}
-      availableWeeks={[latestWeek.start_date]} 
+      availableWeeks={[latestWeek.start_date]}
       activeWeekDate={latestWeek.start_date}
       formattedDateRange={`${formatDateRange(latestWeek.start_date, latestWeek.end_date)}`}
     />

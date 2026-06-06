@@ -140,14 +140,15 @@ export default async function AlbumPage({
   const albumTracks: any[] = [];
   const chartedSongs =
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    (album.songs as any[])?.map((song) => {
-      const validEntries = (song.chart_entries || []).filter(
-        (entry: any) => entry.week_id !== liveWeek?.id
-      );
-      return { ...song, chart_entries: validEntries };
-    }).filter(
-      (song) => song.chart_entries && song.chart_entries.length > 0
-    ) || [];
+    (album.songs as any[])
+      ?.map((song) => {
+        const validEntries = (song.chart_entries || []).filter(
+          (entry: any) => entry.week_id !== liveWeek?.id,
+        );
+        return { ...song, chart_entries: validEntries };
+      })
+      .filter((song) => song.chart_entries && song.chart_entries.length > 0) ||
+    [];
   chartedSongsCount = chartedSongs.length;
 
   chartedSongs.forEach((song) => {

@@ -236,7 +236,10 @@ export default function ChartView({
             </div>
 
             {availableWeeks.length > 1 && (
-              <WeekSelector weeks={availableWeeks} activeWeek={activeWeekDate} />
+              <WeekSelector
+                weeks={availableWeeks}
+                activeWeek={activeWeekDate}
+              />
             )}
 
             <button

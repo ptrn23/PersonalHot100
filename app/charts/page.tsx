@@ -15,8 +15,8 @@ export default function ChartsDirectoryPage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <Link 
-            href="/charts/live" 
+          <Link
+            href="/charts/live"
             className="group flex flex-col justify-between bg-black text-white p-10 min-h-[300px] transition-transform hover:-translate-y-2 hover:shadow-2xl shadow-black/20"
           >
             <div>
@@ -27,7 +27,8 @@ export default function ChartsDirectoryPage() {
                 Live Chart
               </h2>
               <p className="text-gray-400 font-medium max-w-sm">
-                View the current, active tracking week. Get a real-time glimpse into the latest trends and movements!
+                View the current, active tracking week. Get a real-time glimpse
+                into the latest trends and movements!
               </p>
             </div>
             <div className="flex justify-end mt-8">
@@ -35,8 +36,8 @@ export default function ChartsDirectoryPage() {
             </div>
           </Link>
 
-          <Link 
-            href="/charts/weekly" 
+          <Link
+            href="/charts/weekly"
             className="group flex flex-col justify-between bg-white text-black border-4 border-black p-10 min-h-[300px] transition-transform hover:-translate-y-2 hover:shadow-2xl shadow-black/10"
           >
             <div>
@@ -47,14 +48,14 @@ export default function ChartsDirectoryPage() {
                 Weekly Charts
               </h2>
               <p className="text-gray-600 font-medium max-w-sm">
-                Access and explore previous weeks' charts. Dive into historical data, past placements, and certified records!
+                Access and explore previous weeks' charts. Dive into historical
+                data, past placements, and certified records!
               </p>
             </div>
             <div className="flex justify-end mt-8">
               <ArrowRight className="w-8 h-8 text-gray-300 group-hover:text-black transition-colors group-hover:translate-x-2" />
             </div>
           </Link>
-
         </div>
       </div>
     </main>
