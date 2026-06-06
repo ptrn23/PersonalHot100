@@ -120,8 +120,9 @@ export default async function ArchivePage({
       songs (
         id,
         title,
-        artists ( id, name ),
-        albums ( id, title, cover_url )
+        display_title,
+        artists ( id, name, display_name ),
+        albums ( id, title, display_title, cover_url )
       )
     `)
     .eq("week_id", activeWeek.id)

@@ -92,6 +92,7 @@ export default async function ArtistPage({
       songs (
         id,
         title,
+        display_title,
         chart_entries (
           rank,
           total_points,
@@ -162,7 +163,7 @@ export default async function ArtistPage({
         .map((e) => e.peak_streak || 0),
     );
 
-    const seed = getStableSeed(song.title, artist.name);
+    const seed = getStableSeed(song.display_title || song.title, artist.display_name || artist.name);
     const songUnits = applyDeviation(
       Math.floor(
         (songTotalStreams + songTotalSales + songTotalAirplay) * 1750 * 2,
@@ -178,7 +179,7 @@ export default async function ArtistPage({
 
     artistTracks.push({
       id: song.id,
-      title: song.title,
+      title: song.display_title || song.title,
       debut: formatBillboardDate(debutDate),
       peak: peakPos,
       streak: highestStreakAtPeak,

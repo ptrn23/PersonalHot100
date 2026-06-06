@@ -61,8 +61,9 @@ export type ChartEntry = {
   songs?: {
     id: string;
     title: string;
-    artists?: { name: string; id: string; customHref?: string };
-    albums?: { title?: string; id: string; cover_url?: string };
+    display_title?: string | null;
+    artists?: { name: string; display_name?: string | null; id: string; customHref?: string };
+    albums?: { title?: string; display_title?: string | null; id: string; cover_url?: string };
   };
 };
 
@@ -102,8 +103,8 @@ export default function ChartRow({
     }
   };
 
-  const title = entry.songs?.title || "Unknown";
-  const artist = entry.songs?.artists?.name || "Unknown";
+  const title = entry.songs?.display_title || entry.songs?.title || "Unknown";
+  const artist = entry.songs?.artists?.display_name || entry.songs?.artists?.name || "Unknown";
 
   const seed = getStableSeed(title, artist);
   const streamsUnits = applyDeviation(

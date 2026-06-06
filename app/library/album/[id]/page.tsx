@@ -94,6 +94,7 @@ export default async function AlbumPage({
       songs (
         id,
         title,
+        display_title,
         chart_entries (
           rank,
           total_points,
@@ -168,7 +169,7 @@ export default async function AlbumPage({
         .map((e) => e.peak_streak || 0),
     );
 
-    const seed = getStableSeed(song.title, artistName);
+    const seed = getStableSeed(song.display_title || song.title, artistName);
     const songUnits = applyDeviation(
       Math.floor(
         (songTotalStreams + songTotalSales + songTotalAirplay) * 1750 * 2,
@@ -184,7 +185,7 @@ export default async function AlbumPage({
 
     albumTracks.push({
       id: song.id,
-      title: song.title,
+      title: song.display_title || song.title,
       debut: formatBillboardDate(debutDate),
       peak: peakPos,
       streak: highestStreakAtPeak,

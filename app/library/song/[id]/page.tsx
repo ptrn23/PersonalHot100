@@ -15,6 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     .from("songs")
     .select(`
       title,
+      display_title,
       artists (name),
       albums (cover_url)
     `)
@@ -27,8 +28,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const artistName = (song.artists as any)?.name || "Unknown Artist";
-  const pageTitle = `${song.title} | Personal Hot 100`;
-  const description = `View chart performance, total points, and track history for "${song.title}" by ${artistName}.`;
+  const pageTitle = `${song.display_title || song.title} | Personal Hot 100`;
+  const description = `View chart performance, total points, and track history for "${song.display_title || song.title}" by ${artistName}.`;
 
   return {
     title: pageTitle,
@@ -169,7 +170,7 @@ export default async function SongPage({
   );
 
   const maxStats: MaxStats = { sales: 0, streams: 0, airplay: 0, units: 0 };
-  const seed = getStableSeed(song.title, artistName);
+  const seed = getStableSeed(song.display_title || song.title, artistName);
 
   sortedEntries.forEach((entry) => {
     totalPoints += entry.total_points || 0;
@@ -211,7 +212,7 @@ export default async function SongPage({
     disableSongLink: true,
     songs: {
       id: song.id,
-      title: song.title,
+      title: song.display_title || song.title,
       artists: {
         name: `${formatFullDate(entry.chart_weeks?.start_date)}`,
         id: artistId,
@@ -255,7 +256,7 @@ export default async function SongPage({
                 Song Profile
               </p>
               <h1 className="text-5xl md:text-6xl font-black uppercase tracking-tighter leading-none mb-3">
-                {song.title}
+                {song.display_title || song.title}
               </h1>
               <div className="flex flex-col gap-1">
                 <Link
