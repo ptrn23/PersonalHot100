@@ -1,6 +1,8 @@
 import dotenv from "dotenv";
 import { createClient } from "@supabase/supabase-js";
 dotenv.config();
+import { calculateWeeklyPoints } from "./02-calculate-points";
+import { finalizeChartPositions } from "./03-finalize-chart";
 
 const supabase = createClient(
   process.env.SUPABASE_URL!,
@@ -20,30 +22,36 @@ async function runRedoAllCharts() {
     return;
   }
 
-  console.log(`Found ${allWeeks.length} total tracking weeks to process.\n`);
+  console.log(`Found ${allWeeks.length} total weeks to rebuild.`);
+
+  console.log("Wiping 'chart_entries' table...");
+  const { error: clearErr } = await supabase
+    .from("chart_entries")
+    .delete()
+    .neq("id", "00000000-0000-0000-0000-000000000000");
+
+  if (clearErr) {
+    console.error("ERROR clearing chart entries:", clearErr.message);
+    return;
+  }
+  console.log("'chart_entries' table is clear.\n");
 
   for (let i = 0; i < allWeeks.length; i++) {
     const week = allWeeks[i];
-    const startDate = week.start_date.split('T')[0];
-    const endDate = week.end_date.split('T')[0];
+    
+    const targetDateStr = week.end_date.split('T')[0];
+    console.log(`Processing week [${i + 1}/${allWeeks.length}] | Target Date: ${targetDateStr}`);
 
-    console.log(`[Week ${i + 1}/${allWeeks.length}] | ${startDate} to ${endDate}`);
-
-    const { count: scrobbleCount, error: countErr } = await supabase
-      .from("scrobbles")
-      .select("*", { count: "exact", head: true })
-      .gte("listened_at", week.start_date)
-      .lt("listened_at", week.end_date);
-
-    if (countErr) {
-      console.error(`Error fetching count: ${countErr.message}`);
+    const stagedEntries = await calculateWeeklyPoints(targetDateStr);
+    if (!stagedEntries || stagedEntries.length === 0) {
+      console.log(`No entries calculated for ${targetDateStr}. Skipping finalization.`);
       continue;
     }
 
-    console.log(`Total Scrobbles: ${scrobbleCount || 0}`);
+    await finalizeChartPositions(stagedEntries, targetDateStr);
   }
 
-  console.log("\nDONE!");
+  console.log("\nRedo all charts complete.");
 }
 
 runRedoAllCharts();

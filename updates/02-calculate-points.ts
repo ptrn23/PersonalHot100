@@ -105,15 +105,31 @@ export const calculateWeeklyPoints = async (overrideTargetDate?: string) => {
     return null;
   }
 
+  console.log("Fetching canonical dictionary...");
+  const { data: songPointers } = await supabase
+    .from("songs")
+    .select("id, canonical_id")
+    .limit(10000);
+
+  const canonicalMap = new Map<string, string>();
+  if (songPointers) {
+    songPointers.forEach((song) => {
+      if (song.canonical_id) {
+        canonicalMap.set(song.id, song.canonical_id);
+      }
+    });
+  }
+
   const weeklyStats = new Map<
     string,
     { streams: number; sales: number; airplay: number; currentStreak: number }
   >();
 
-  let previousSongId: string | null = null;
+  let previousCanonicalSongId: string | null = null;
 
   for (const scrobble of rawScrobbles) {
-    const songId = scrobble.song_id;
+    const rawSongId = scrobble.song_id;
+    const songId = canonicalMap.get(rawSongId) || rawSongId;
 
     if (!weeklyStats.has(songId)) {
       weeklyStats.set(songId, {
@@ -128,17 +144,17 @@ export const calculateWeeklyPoints = async (overrideTargetDate?: string) => {
 
     stats.streams += 1;
 
-    if (previousSongId !== songId) {
+    if (previousCanonicalSongId !== songId) {
       stats.sales += 1;
-      if (previousSongId && weeklyStats.has(previousSongId)) {
-        weeklyStats.get(previousSongId)!.currentStreak = 0;
+      if (previousCanonicalSongId && weeklyStats.has(previousCanonicalSongId)) {
+        weeklyStats.get(previousCanonicalSongId)!.currentStreak = 0;
       }
     }
 
     stats.currentStreak += 1;
     stats.airplay = Math.max(stats.airplay, stats.currentStreak);
 
-    previousSongId = songId;
+    previousCanonicalSongId = songId;
   }
 
   const stagedEntries: any[] = [];
