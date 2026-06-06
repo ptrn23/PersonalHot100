@@ -95,6 +95,14 @@ export default async function SongPage({
   params: Promise<{ id: string }>;
 }) {
   const resolvedParams = await params;
+
+  const { data: liveWeek } = await supabase
+    .from("chart_weeks")
+    .select("id")
+    .order("start_date", { ascending: false })
+    .limit(1)
+    .single();
+
   const { data: song, error } = await supabase
     .from("songs")
     .select(
@@ -104,6 +112,7 @@ export default async function SongPage({
       albums ( id, title, cover_url ),
       chart_entries (
         id,
+        week_id,
         rank,
         previous_position,
         is_new_peak,
@@ -126,7 +135,8 @@ export default async function SongPage({
 
   const { data: allWeeksData } = await supabase
     .from("chart_weeks")
-    .select("start_date")
+    .select("id, start_date")
+    .neq("id", liveWeek?.id)
     .order("start_date", { ascending: true });
 
   const allGlobalWeeks = allWeeksData?.map((w) => w.start_date) || [];
@@ -155,7 +165,8 @@ export default async function SongPage({
   let highestStreak = 0;
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const entries = (song.chart_entries as any[]) || [];
+  const rawEntries = (song.chart_entries as any[]) || [];
+  const entries = rawEntries.filter((entry) => entry.week_id !== liveWeek?.id);
 
   const sortedEntries = [...entries].sort(
     (a, b) =>
