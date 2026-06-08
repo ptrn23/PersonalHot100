@@ -112,6 +112,7 @@ export default async function LiveChartPage() {
       <ChartView
         entries={mappedEntries}
         exportFileNamePrefix={`Live100_${latestWeek.start_date}`}
+        chartLabel={formattedDate}
       />
     </main>
   );
