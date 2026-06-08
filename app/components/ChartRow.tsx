@@ -15,6 +15,7 @@ const formatNumber = (num: number) => {
 };
 
 export const getStableSeed = (seedString: string) => {
+  if (!seedString) return 1;
   let hash = 0;
   for (let i = 0; i < seedString.length; i++) {
     hash += (i + 1) * seedString.charCodeAt(i);
@@ -159,160 +160,127 @@ export default function ChartRow({
 
   return (
     <div className="flex flex-col border-b border-gray-100 group">
-      {/* THE MAIN ROW (Clickable) */}
+      {/* THE MAIN ROW */}
       <div
-        onClick={() => setIsExpanded(!isExpanded)}
-        className={`grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] items-center h-14 cursor-pointer transition-colors ${isExpanded ? "bg-gray-50" : "hover:bg-gray-50"}`}
+        onClick={() => !entry.disableDropdown && setIsExpanded(!isExpanded)}
+        className={`grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] items-center h-14 transition-colors ${
+          entry.disableDropdown ? "cursor-default" : "cursor-pointer"
+        } ${isExpanded ? "bg-gray-50" : "hover:bg-gray-50"}`}
       >
         {/* Rank */}
-        <div className="font-black text-xl text-center text-gray-800">
-          {song.rank}
-        </div>
+        <div className="font-black text-xl text-center text-gray-800">{entry.rank}</div>
 
-        {/* Change Indicator */}
+        {/* Change */}
         <div className="text-center font-bold text-xs">
-          {week === "All-Time" ? (
+          {entry.hideRankChange ? (
             <span className="text-gray-300">-</span>
           ) : (
             <>
-              {song.status === "re" && <span className="text-[#8e0be5] bg-purple-50 px-1 rounded">RE</span>}
-              {song.status === "new" && <span className="text-[#05a7e5] bg-blue-50 px-1 rounded">NEW</span>}
-              {song.status === "stable" && <span className="text-black text-xl leading-none">=</span>}
-              {song.status === "rise" && <span className="text-green-600">+{song.change}</span>}
-              {song.status === "fall" && <span className="text-red-500">-{song.change}</span>}
+              {status === "re" && <span className="text-[#8e0be5] bg-purple-50 px-1 rounded">RE</span>}
+              {status === "new" && <span className="text-[#05a7e5] bg-blue-50 px-1 rounded">NEW</span>}
+              {status === "stable" && <span className="text-black text-xl leading-none">=</span>}
+              {status === "rise" && <span className="text-green-600">+{rankChange}</span>}
+              {status === "fall" && <span className="text-red-500">-{rankChange}</span>}
             </>
           )}
         </div>
 
-        {/* Song Info */}
         <div className="flex items-center gap-3 pl-2 overflow-hidden py-1">
-          <Link
-            href={`/library/album/${song.albumId}`}
-            onClick={(e) => e.stopPropagation()}
-            className="w-10 h-10 bg-gray-200 shrink-0 shadow-sm relative group-hover:shadow-md transition-shadow block"
-          >
-            {song.coverUrl && (
-              <img
-                src={song.coverUrl}
-                className="w-full h-full object-cover"
-                loading="lazy"
-                alt="Cover"
-              />
+          <div className="w-10 h-10 bg-gray-200 shrink-0 shadow-sm relative block">
+            {entry.coverUrl && (
+              <img src={entry.coverUrl} className="w-full h-full object-cover" loading="lazy" alt="Cover" />
             )}
-          </Link>
-          <div className="truncate pr-4">
-            {entry.disableSongLink ? (
-              <div className="font-bold leading-tight truncate text-gray-900 block">
-                {song.title}
-              </div>
-            ) : (
+          </div>
+          
+          <div className="truncate pr-4 flex flex-col justify-center">
+            {entry.primaryHref ? (
               <Link
-                href={`/library/song/${entry.songs?.id}`}
+                href={entry.primaryHref}
                 className="font-bold leading-tight truncate text-gray-900 hover:text-blue-600 transition-colors block"
                 onClick={(e) => e.stopPropagation()}
               >
-                {song.title}
+                {entry.primaryText}
               </Link>
+            ) : (
+              <div className="font-bold leading-tight truncate text-gray-900 block">
+                {entry.primaryText}
+              </div>
             )}
 
-            <Link
-              href={
-                entry.songs?.artists?.customHref ||
-                `/library/artist/${song.artistId}`
-              }
-              className="text-xs text-gray-500 hover:text-blue-600 hover:underline truncate font-medium transition-colors"
-              onClick={(e) => e.stopPropagation()}
-            >
-              {displaySubLabel}
-            </Link>
+            {entry.secondaryText && (
+              entry.secondaryHref ? (
+                <Link
+                  href={entry.secondaryHref}
+                  className="text-xs text-gray-500 hover:text-blue-600 hover:underline truncate font-medium transition-colors"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  {entry.secondaryText}
+                </Link>
+              ) : (
+                <div className="text-xs text-gray-500 truncate font-medium">
+                  {entry.secondaryText}
+                </div>
+              )
+            )}
           </div>
         </div>
 
-        {/* Feed Indicator Column */}
-        <div
-          className="flex items-center justify-center h-full"
-          onClick={(e) => e.stopPropagation()}
-        >
-          {/* <FeedTooltip feed={song.feed} /> */}
-        </div>
+        {/* Feed Tooltip */}
+        <div className="flex items-center justify-center h-full" />
 
-        {/* Points Section */}
-        <div className="text-center font-bold text-gray-700">
-          {formatNumber(song.points)}
-        </div>
+        {/* Points */}
+        <div className="text-center font-bold text-gray-700">{formatNumber(entry.totalPoints)}</div>
         <div className="flex justify-center">
-          {song.pointsPct === "--" ? (
-            <span className="text-[10px] font-bold px-1.5 py-0.5 rounded text-gray-400">
-              --
-            </span>
+          {pointsPctStr === "--" ? (
+            <span className="text-[10px] font-bold px-1.5 py-0.5 rounded text-gray-400">--</span>
           ) : (
-            <span
-              className={`text-[10px] font-bold px-1.5 py-0.5 rounded ${song.pointsPct.includes("-") ? "bg-red-50 text-red-600" : "bg-green-50 text-green-600"}`}
-            >
-              {song.pointsPct}%
+            <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded ${pointsPctStr.includes("-") ? "bg-red-50 text-red-600" : "bg-green-50 text-green-600"}`}>
+              {pointsPctStr}%
             </span>
           )}
         </div>
 
-        {/* Chart Stats */}
-        <div
-          className={`text-center h-full flex flex-col justify-center border-l border-white ${peakBgClass}`}
-        >
-          <div className="font-bold leading-none text-gray-700">
-            {song.peak}
-          </div>
-          {song.peakStreak && (
-            <div
-              className={`text-[9px] ${streakColorClass} font-bold uppercase mt-0.5`}
-            >
-              {song.peakStreak}x
-            </div>
+        {/* Stats */}
+        <div className={`text-center h-full flex flex-col justify-center border-l border-white ${peakBgClass}`}>
+          <div className="font-bold leading-none text-gray-700">{entry.peakPosition}</div>
+          {entry.peakStreak && (
+            <div className={`text-[9px] ${streakColorClass} font-bold uppercase mt-0.5`}>{entry.peakStreak}x</div>
           )}
         </div>
-        <div className="text-center text-gray-400 font-medium text-xs">
-          {song.woc}
-        </div>
+        <div className="text-center text-gray-400 font-medium text-xs">{entry.weeksOnChart}</div>
 
-        {/* Sales (Yellow) */}
-        <div
-          className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700 ${song.isTopSales ? "bg-[#f8e285] font-bold" : "bg-[#fff0ad] font-medium"}`}
-        >
-          {formatNumber(song.salesUnits)}
+        {/* Sales */}
+        <div className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700 ${isTopSales ? "bg-[#f8e285] font-bold" : "bg-[#fff0ad] font-medium"}`}>
+          {formatNumber(salesUnits)}
         </div>
         <div className="text-center bg-[#fff0ad] h-full flex items-center justify-center text-xs text-gray-400 border-l border-[#fff0ad]">
-          {song.salesPct}
+          {salesPct}
         </div>
 
-        {/* Streams (Green) */}
-        <div
-          className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700 ${song.isTopStreams ? "bg-[#bcf08e] font-bold" : "bg-[#d5f7bb] font-medium"}`}
-        >
-          {formatNumber(song.streamsUnits)}
+        {/* Streams */}
+        <div className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700 ${isTopStreams ? "bg-[#bcf08e] font-bold" : "bg-[#d5f7bb] font-medium"}`}>
+          {formatNumber(streamsUnits)}
         </div>
         <div className="text-center bg-[#d5f7bb] h-full flex items-center justify-center text-xs text-gray-400 border-l border-[#d5f7bb]">
-          {song.streamsPct}
+          {streamsPct}
         </div>
 
-        {/* Airplay (Blue) */}
-        <div
-          className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700 ${song.isTopAirplay ? "bg-[#9adafe] font-bold" : "bg-[#b4e3ff] font-medium"}`}
-        >
-          {formatNumber(song.airplayUnits)}
+        {/* Airplay */}
+        <div className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700 ${isTopAirplay ? "bg-[#9adafe] font-bold" : "bg-[#b4e3ff] font-medium"}`}>
+          {formatNumber(airplayUnits)}
         </div>
         <div className="text-center bg-[#b4e3ff] h-full flex items-center justify-center text-xs text-gray-400 border-l border-[#b4e3ff]">
-          {song.airplayPct}
+          {airplayPct}
         </div>
 
-        {/* Units (Purple) */}
-        <div
-          className={`text-center h-full flex items-center justify-center border-l border-white text-purple-900 ${song.isTopUnits ? "bg-[#dcace8] font-bold" : "bg-[#e7d6ff] font-bold"}`}
-        >
-          {formatNumber(song.units)}
+        {/* Units */}
+        <div className={`text-center h-full flex items-center justify-center border-l border-white text-purple-900 ${isTopUnits ? "bg-[#dcace8] font-bold" : "bg-[#e7d6ff] font-bold"}`}>
+          {formatNumber(totalUnits)}
         </div>
       </div>
 
       {/* THE DROPDOWN PANEL */}
-      {isExpanded && (
+      {isExpanded && !entry.disableDropdown && (
         <div className="bg-white border-t border-gray-100 px-8 py-5 text-sm shadow-inner overflow-hidden cursor-default">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {/* Column 1: Raw Scores */}
@@ -322,15 +290,15 @@ export default function ChartRow({
               </span>
               <div className="flex justify-between items-center text-gray-600 mb-1">
                 <span>Streams:</span>{" "}
-                <span className="font-mono">{formatNumber(song.streams)}</span>
+                <span className="font-mono">{formatNumber(entry.streams)}</span>
               </div>
               <div className="flex justify-between items-center text-gray-600 mb-1">
                 <span>Sales:</span>{" "}
-                <span className="font-mono">{formatNumber(song.sales)}</span>
+                <span className="font-mono">{formatNumber(entry.sales)}</span>
               </div>
               <div className="flex justify-between items-center text-gray-600">
                 <span>Airplay:</span>{" "}
-                <span className="font-mono">{formatNumber(song.airplay)}</span>
+                <span className="font-mono">{formatNumber(entry.airplay)}</span>
               </div>
             </div>
 
@@ -343,10 +311,10 @@ export default function ChartRow({
                 <span>Streams:</span>
                 <span className="font-mono whitespace-nowrap">
                   <span className="text-gray-400 text-xs">
-                    {formatNumber(song.streams)} x 5 ={" "}
+                    {formatNumber(entry.streams)} x 5 ={" "}
                   </span>
                   <span className="text-gray-800">
-                    {formatNumber(song.streamsPoints)}
+                    {formatNumber(entry.streams * 5)}
                   </span>
                 </span>
               </div>
@@ -354,10 +322,10 @@ export default function ChartRow({
                 <span>Sales:</span>
                 <span className="font-mono whitespace-nowrap">
                   <span className="text-gray-400 text-xs">
-                    {formatNumber(song.sales)} x 3 ={" "}
+                    {formatNumber(entry.sales)} x 3 ={" "}
                   </span>
                   <span className="text-gray-800">
-                    {formatNumber(song.salesPoints)}
+                    {formatNumber(entry.sales * 3)}
                   </span>
                 </span>
               </div>
@@ -365,10 +333,10 @@ export default function ChartRow({
                 <span>Airplay:</span>
                 <span className="font-mono whitespace-nowrap">
                   <span className="text-gray-400 text-xs">
-                    {formatNumber(song.airplay)} x 2 ={" "}
+                    {formatNumber(entry.airplay)} x 2 ={" "}
                   </span>
                   <span className="text-gray-800">
-                    {formatNumber(song.airplayPoints)}
+                    {formatNumber(entry.airplay * 2)}
                   </span>
                 </span>
               </div>
@@ -383,12 +351,12 @@ export default function ChartRow({
                 <span>This week:</span>
                 <span className="font-mono whitespace-nowrap">
                   <span className="text-gray-400 text-[10px] sm:text-xs">
-                    {formatNumber(song.streamsPoints)} +{" "}
-                    {formatNumber(song.salesPoints)} +{" "}
-                    {formatNumber(song.airplayPoints)} =
+                    {formatNumber(entry.streams)} +{" "}
+                    {formatNumber(entry.sales)} +{" "}
+                    {formatNumber(entry.airplay)} =
                   </span>
                   <span className="text-gray-800 ml-1">
-                    {formatNumber(song.currentWeekPoints)}
+                    {formatNumber(entry.currentWeekPoints)}
                   </span>
                 </span>
               </div>
@@ -396,10 +364,10 @@ export default function ChartRow({
                 <span>One week ago:</span>
                 <span className="font-mono whitespace-nowrap">
                   <span className="text-gray-400 text-[10px] sm:text-xs">
-                    {formatNumber(song.previousWeekRawPoints)} x 30% =
+                    {formatNumber(entry.previousWeekRawPoints || 0)} x 30% =
                   </span>
                   <span className="text-gray-800 ml-1">
-                    {song.previousWeekPoints}
+                    {formatNumber((entry.previousWeekRawPoints || 0) * 0.3)}
                   </span>
                 </span>
               </div>
@@ -407,10 +375,10 @@ export default function ChartRow({
                 <span>Two weeks ago:</span>
                 <span className="font-mono whitespace-nowrap">
                   <span className="text-gray-400 text-[10px] sm:text-xs">
-                    {formatNumber(song.twoWeeksAgoRawPoints)} x 20% =
+                    {formatNumber(entry.twoWeeksAgoRawPoints || 0)} x 20% =
                   </span>
                   <span className="text-gray-800 ml-1">
-                    {song.twoWeeksAgoPoints}
+                    {formatNumber((entry.twoWeeksAgoRawPoints || 0) * 0.2)}
                   </span>
                 </span>
               </div>
@@ -422,12 +390,12 @@ export default function ChartRow({
                 Total Points
               </span>
               <span className="text-4xl font-black text-blue-900 tracking-tighter leading-none mb-1">
-                {formatNumber(song.points)}
+                {formatNumber(entry.totalPoints)}
               </span>
               <span className="text-[12px] text-blue-600/70 font-mono font-bold tracking-tight">
-                {formatNumber(song.currentWeekPoints)} +{" "}
-                {formatNumber(song.previousWeekPoints)} +{" "}
-                {formatNumber(song.twoWeeksAgoPoints)}
+                {formatNumber(entry.currentWeekPoints)} +{" "}
+                {formatNumber(Math.floor((entry.previousWeekRawPoints || 0) * 0.3))} +{" "}
+                {formatNumber(Math.floor((entry.twoWeeksAgoRawPoints || 0) * 0.2))}
               </span>
             </div>
           </div>
@@ -453,7 +421,7 @@ export default function ChartRow({
                   View Chart Ticket
                 </button>
                 <Link
-                  href={`/library/song/${entry.songs?.id}`}
+                  href={entry.primaryHref || "#"}
                   className="bg-white text-gray-900 font-bold py-2.5 px-6 rounded-lg border-2 border-gray-200 hover:border-gray-300 hover:bg-gray-50 transition-all flex items-center justify-center gap-2.5 text-sm shadow-sm"
                 >
                   <LineChart className="w-5 h-5 text-gray-500" />
@@ -497,7 +465,7 @@ export default function ChartRow({
             <div className="w-full flex justify-center bg-gray-50 rounded-xl p-4 overflow-x-auto border border-gray-200">
               <div
                 ref={ticketRef}
-                className="bg-[#f9fafb] p-8 flex flex-col gap-6 rounded-xl shrink-0 w-[800px]" // Fixed width ensures export is perfectly proportioned
+                className="bg-[#f9fafb] p-8 flex flex-col gap-6 rounded-xl shrink-0 w-[800px]"
               >
                 <div className="flex justify-between items-center text-white/50 px-2">
                   <span className="font-bold tracking-widest text-gray-600 text-sm uppercase">
@@ -508,15 +476,15 @@ export default function ChartRow({
                   </span>
                 </div>
 
-                <ChartTicket song={song} />
+                <ChartTicket entry={entry} />
 
                 <div className="flex justify-between items-center text-gray-400 text-xs px-2 font-medium">
                   <span className="flex items-center gap-1.5">
                     <Ticket className="w-3 h-3" />
-                    {song.artistId}
+                    {entry.id.split("-")[0]} {/* A safe, generic ID string */}
                   </span>
-                  <span className="tracking-widest text-gray-600">
-                    {song.artist}
+                  <span className="tracking-widest text-gray-600 uppercase">
+                    {entry.secondaryText || "Artist Data"} {/* 🚨 FIXED */}
                   </span>
                 </div>
               </div>
