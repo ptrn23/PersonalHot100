@@ -149,7 +149,7 @@ export default function ChartRow({
     Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2),
     seed + 4,
   );
-  
+
   const prevRaw = entry.previousWeekRawPoints || 0;
   const twoWeeksRaw = entry.twoWeeksAgoRawPoints || 0;
   const totalRawForPct = entry.streams * 4 + entry.sales * 0.45 + entry.airplay * 5;
@@ -164,71 +164,34 @@ export default function ChartRow({
     pointsPctStr = (pctChange > 0 ? "+" : "") + Math.round(pctChange);
   }
 
-  const song = {
-    rank: entry.rank,
-    title: title,
-    artist: artist,
-    artistId: entry.songs?.artists?.id,
-    albumId: entry.songs?.albums?.id,
-    coverUrl: entry.songs?.albums?.cover_url,
-
-    status: !entry.previous_position
-      ? entry.weeks_on_chart > 1
-        ? "re"
-        : "new"
-      : entry.previous_position > entry.rank
-        ? "rise"
-        : entry.previous_position < entry.rank
-          ? "fall"
-          : "stable",
-    change: entry.previous_position
-      ? Math.abs(entry.previous_position - entry.rank)
-      : 0,
-
-    points: entry.total_points,
-    pointsPct: pointsPctStr,
-    peak: entry.peak_position,
-    peakStreak: entry.peak_streak,
-    isNewPeak: entry.is_new_peak,
-    isRePeak: entry.is_repeak,
-    woc: entry.weeks_on_chart,
-
-    salesUnits: salesUnits,
-    salesPct: salesPct,
-    isTopSales: entry.sales > 0 && entry.sales === maxStats.sales,
-
-    streamsUnits: streamsUnits,
-    streamsPct: streamsPct,
-    isTopStreams: entry.streams > 0 && streamsUnits === maxStats.streams,
-
-    airplayUnits: airplayUnits,
-    airplayPct: airplayPct,
-    isTopAirplay: entry.airplay > 0 && airplayUnits === maxStats.airplay,
-
-    units: totalUnits,
-    isTopUnits: totalUnits > 0 && totalUnits === maxStats.units,
-
-    streams: entry.streams,
-    sales: entry.sales,
-    airplay: entry.airplay,
-
-    streamsPoints: Math.floor(entry.streams * 5),
-    salesPoints: Math.floor(entry.sales * 3),
-    airplayPoints: Math.floor(entry.airplay * 2),
-    currentWeekPoints: entry.current_week_points,
-
-    previousWeekRawPoints: prevRaw,
-    previousWeekPoints: Math.floor(prevRaw * 0.3),
-    twoWeeksAgoRawPoints: twoWeeksRaw,
-    twoWeeksAgoPoints: Math.floor(twoWeeksRaw * 0.2),
-  };
+  let status = "none";
+  let rankChange = 0;
+  
+  if (!entry.hideRankChange) {
+    if (!entry.previousRank) {
+      status = entry.weeksOnChart > 1 ? "re" : "new";
+    } else if (entry.previousRank > entry.rank) {
+      status = "rise";
+      rankChange = entry.previousRank - entry.rank;
+    } else if (entry.previousRank < entry.rank) {
+      status = "fall";
+      rankChange = entry.rank - entry.previousRank;
+    } else {
+      status = "stable";
+    }
+  }
+  
+  const isTopSales = entry.sales > 0 && entry.sales === maxStats.sales;
+  const isTopStreams = entry.streams > 0 && entry.streams === maxStats.streams;
+  const isTopAirplay = entry.airplay > 0 && entry.airplay === maxStats.airplay;
+  const isTopUnits = totalUnits > 0 && totalUnits === maxStats.units;
 
   let peakBgClass = "bg-blue-50/50";
   let streakColorClass = "text-gray-400";
-  if (song.isNewPeak) {
+  if (entry.isNewPeak) {
     peakBgClass = "bg-[#ffe49a]";
     streakColorClass = "text-[#7e3d01]";
-  } else if (song.isRePeak) {
+  } else if (entry.isRePeak) {
     peakBgClass = "bg-[#cdecff]";
     streakColorClass = "text-[#024da0]";
   }
