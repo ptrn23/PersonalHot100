@@ -118,6 +118,7 @@ export default async function SongPage({
         rank,
         previous_position,
         is_new_peak,
+        is_repeak,
         total_points,
         current_week_points,
         previous_week_raw_points,
