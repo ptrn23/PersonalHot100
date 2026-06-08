@@ -6,7 +6,6 @@ import ChartTicket from "./ChartTicket";
 import Link from "next/link";
 import { Share2, Ticket, X, LineChart, Download } from "lucide-react";
 import { toPng } from "html-to-image";
-import { saveAs } from "file-saver";
 
 const formatNumber = (num: number) => {
   if (!num) return "0";
@@ -15,11 +14,10 @@ const formatNumber = (num: number) => {
   return num.toString();
 };
 
-export const getStableSeed = (title: string, artist: string) => {
-  const combo = `${title}|${artist}`;
+export const getStableSeed = (seedString: string) => {
   let hash = 0;
-  for (let i = 0; i < combo.length; i++) {
-    hash += (i + 1) * combo.charCodeAt(i);
+  for (let i = 0; i < seedString.length; i++) {
+    hash += (i + 1) * seedString.charCodeAt(i);
   }
   return hash;
 };
@@ -68,43 +66,6 @@ export type DisplayEntry = {
   sales: number;
   streams: number;
   airplay: number;
-};
-
-export type ChartEntry = {
-  id: string;
-  rank: number;
-  previous_position: number | null;
-  is_new_peak: boolean;
-  is_repeak: boolean;
-  peak_position: number;
-  weeks_on_chart: number;
-  total_points: number;
-  current_week_points: number;
-  previous_week_raw_points: number | null;
-  two_weeks_ago_raw_points: number | null;
-  peak_streak: number | null;
-  sales: number;
-  streams: number;
-  airplay: number;
-  disableSongLink?: boolean;
-  overrideSubLabel?: string;
-  songs?: {
-    id: string;
-    title: string;
-    display_title?: string | null;
-    artists?: {
-      name: string;
-      display_name?: string | null;
-      id: string;
-      customHref?: string;
-    };
-    albums?: {
-      title?: string;
-      display_title?: string | null;
-      id: string;
-      cover_url?: string;
-    };
-  };
 };
 
 export default function ChartRow({
@@ -180,7 +141,7 @@ export default function ChartRow({
       status = "stable";
     }
   }
-  
+
   const isTopSales = entry.sales > 0 && entry.sales === maxStats.sales;
   const isTopStreams = entry.streams > 0 && entry.streams === maxStats.streams;
   const isTopAirplay = entry.airplay > 0 && entry.airplay === maxStats.airplay;
