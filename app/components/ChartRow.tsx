@@ -2,20 +2,19 @@
 
 import { useState, useRef } from "react";
 import ChartTicket from "./ChartTicket";
-// import FeedTooltip from './FeedTooltip';
 import Link from "next/link";
 import { Share2, Ticket, X, LineChart, Download } from "lucide-react";
 import { toPng } from "html-to-image";
 
-const formatNumber = (num: number) => {
+export const formatNumber = (num: number) => {
   if (!num) return "0";
   if (num >= 1_000_000) return (num / 1_000_000).toFixed(1) + "m";
   if (num >= 1_000) return (num / 1_000).toFixed(1) + "k";
   return num.toString();
 };
 
-export const getStableSeed = (seedString: string) => {
-  if (!seedString) return 1;
+export const getStableSeed = (seedString?: string) => {
+  if (!seedString) return 0;
   let hash = 0;
   for (let i = 0; i < seedString.length; i++) {
     hash += (i + 1) * seedString.charCodeAt(i);
@@ -167,10 +166,8 @@ export default function ChartRow({
           entry.disableDropdown ? "cursor-default" : "cursor-pointer"
         } ${isExpanded ? "bg-gray-50" : "hover:bg-gray-50"}`}
       >
-        {/* Rank */}
         <div className="font-black text-xl text-center text-gray-800">{entry.rank}</div>
 
-        {/* Change */}
         <div className="text-center font-bold text-xs">
           {entry.hideRankChange ? (
             <span className="text-gray-300">-</span>
@@ -225,10 +222,8 @@ export default function ChartRow({
           </div>
         </div>
 
-        {/* Feed Tooltip */}
         <div className="flex items-center justify-center h-full" />
 
-        {/* Points */}
         <div className="text-center font-bold text-gray-700">{formatNumber(entry.totalPoints)}</div>
         <div className="flex justify-center">
           {pointsPctStr === "--" ? (
@@ -240,16 +235,16 @@ export default function ChartRow({
           )}
         </div>
 
-        {/* Stats */}
         <div className={`text-center h-full flex flex-col justify-center border-l border-white ${peakBgClass}`}>
-          <div className="font-bold leading-none text-gray-700">{entry.peakPosition}</div>
+          <div className="font-bold leading-none text-gray-700">
+            {entry.peakPosition === 101 ? "--" : entry.peakPosition}
+          </div>
           {entry.peakStreak && (
             <div className={`text-[9px] ${streakColorClass} font-bold uppercase mt-0.5`}>{entry.peakStreak}x</div>
           )}
         </div>
         <div className="text-center text-gray-400 font-medium text-xs">{entry.weeksOnChart}</div>
 
-        {/* Sales */}
         <div className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700 ${isTopSales ? "bg-[#f8e285] font-bold" : "bg-[#fff0ad] font-medium"}`}>
           {formatNumber(salesUnits)}
         </div>
@@ -257,7 +252,6 @@ export default function ChartRow({
           {salesPct}
         </div>
 
-        {/* Streams */}
         <div className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700 ${isTopStreams ? "bg-[#bcf08e] font-bold" : "bg-[#d5f7bb] font-medium"}`}>
           {formatNumber(streamsUnits)}
         </div>
@@ -265,7 +259,6 @@ export default function ChartRow({
           {streamsPct}
         </div>
 
-        {/* Airplay */}
         <div className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700 ${isTopAirplay ? "bg-[#9adafe] font-bold" : "bg-[#b4e3ff] font-medium"}`}>
           {formatNumber(airplayUnits)}
         </div>
@@ -273,7 +266,6 @@ export default function ChartRow({
           {airplayPct}
         </div>
 
-        {/* Units */}
         <div className={`text-center h-full flex items-center justify-center border-l border-white text-purple-900 ${isTopUnits ? "bg-[#dcace8] font-bold" : "bg-[#e7d6ff] font-bold"}`}>
           {formatNumber(totalUnits)}
         </div>
@@ -283,26 +275,21 @@ export default function ChartRow({
       {isExpanded && !entry.disableDropdown && (
         <div className="bg-white border-t border-gray-100 px-8 py-5 text-sm shadow-inner overflow-hidden cursor-default">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-            {/* Column 1: Raw Scores */}
             <div className="bg-gray-50 p-3 rounded-lg border border-gray-200">
               <span className="font-bold text-gray-800 text-xs uppercase mb-2 block border-b pb-1">
                 Scores
               </span>
               <div className="flex justify-between items-center text-gray-600 mb-1">
-                <span>Streams:</span>{" "}
-                <span className="font-mono">{formatNumber(entry.streams)}</span>
+                <span>Streams:</span> <span className="font-mono">{formatNumber(entry.streams)}</span>
               </div>
               <div className="flex justify-between items-center text-gray-600 mb-1">
-                <span>Sales:</span>{" "}
-                <span className="font-mono">{formatNumber(entry.sales)}</span>
+                <span>Sales:</span> <span className="font-mono">{formatNumber(entry.sales)}</span>
               </div>
               <div className="flex justify-between items-center text-gray-600">
-                <span>Airplay:</span>{" "}
-                <span className="font-mono">{formatNumber(entry.airplay)}</span>
+                <span>Airplay:</span> <span className="font-mono">{formatNumber(entry.airplay)}</span>
               </div>
             </div>
 
-            {/* Column 2: Component Points */}
             <div className="bg-gray-50 p-3 rounded-lg border border-gray-200">
               <span className="font-bold text-gray-800 text-xs uppercase mb-2 block border-b pb-1">
                 Points
@@ -310,39 +297,26 @@ export default function ChartRow({
               <div className="flex justify-between items-center text-gray-600 mb-1">
                 <span>Streams:</span>
                 <span className="font-mono whitespace-nowrap">
-                  <span className="text-gray-400 text-xs">
-                    {formatNumber(entry.streams)} x 5 ={" "}
-                  </span>
-                  <span className="text-gray-800">
-                    {formatNumber(entry.streams * 5)}
-                  </span>
+                  <span className="text-gray-400 text-xs">{formatNumber(entry.streams)} x 5 = </span>
+                  <span className="text-gray-800">{formatNumber(entry.streams * 5)}</span>
                 </span>
               </div>
               <div className="flex justify-between items-center text-gray-600 mb-1">
                 <span>Sales:</span>
                 <span className="font-mono whitespace-nowrap">
-                  <span className="text-gray-400 text-xs">
-                    {formatNumber(entry.sales)} x 3 ={" "}
-                  </span>
-                  <span className="text-gray-800">
-                    {formatNumber(entry.sales * 3)}
-                  </span>
+                  <span className="text-gray-400 text-xs">{formatNumber(entry.sales)} x 3 = </span>
+                  <span className="text-gray-800">{formatNumber(entry.sales * 3)}</span>
                 </span>
               </div>
               <div className="flex justify-between items-center text-gray-600">
                 <span>Airplay:</span>
                 <span className="font-mono whitespace-nowrap">
-                  <span className="text-gray-400 text-xs">
-                    {formatNumber(entry.airplay)} x 2 ={" "}
-                  </span>
-                  <span className="text-gray-800">
-                    {formatNumber(entry.airplay * 2)}
-                  </span>
+                  <span className="text-gray-400 text-xs">{formatNumber(entry.airplay)} x 2 = </span>
+                  <span className="text-gray-800">{formatNumber(entry.airplay * 2)}</span>
                 </span>
               </div>
             </div>
 
-            {/* Column 3: Time Decay */}
             <div className="bg-gray-50 p-3 rounded-lg border border-gray-200">
               <span className="font-bold text-gray-800 text-xs uppercase mb-2 block border-b pb-1">
                 Decay
@@ -351,13 +325,9 @@ export default function ChartRow({
                 <span>This week:</span>
                 <span className="font-mono whitespace-nowrap">
                   <span className="text-gray-400 text-[10px] sm:text-xs">
-                    {formatNumber(entry.streams)} +{" "}
-                    {formatNumber(entry.sales)} +{" "}
-                    {formatNumber(entry.airplay)} =
+                    {formatNumber(entry.streams * 5)} + {formatNumber(entry.sales * 3)} + {formatNumber(entry.airplay * 2)} =
                   </span>
-                  <span className="text-gray-800 ml-1">
-                    {formatNumber(entry.currentWeekPoints)}
-                  </span>
+                  <span className="text-gray-800 ml-1">{formatNumber(entry.currentWeekPoints)}</span>
                 </span>
               </div>
               <div className="flex justify-between items-center text-gray-600 mb-1">
@@ -367,7 +337,7 @@ export default function ChartRow({
                     {formatNumber(entry.previousWeekRawPoints || 0)} x 30% =
                   </span>
                   <span className="text-gray-800 ml-1">
-                    {formatNumber((entry.previousWeekRawPoints || 0) * 0.3)}
+                    {formatNumber(Math.floor((entry.previousWeekRawPoints || 0) * 0.3))}
                   </span>
                 </span>
               </div>
@@ -378,17 +348,14 @@ export default function ChartRow({
                     {formatNumber(entry.twoWeeksAgoRawPoints || 0)} x 20% =
                   </span>
                   <span className="text-gray-800 ml-1">
-                    {formatNumber((entry.twoWeeksAgoRawPoints || 0) * 0.2)}
+                    {formatNumber(Math.floor((entry.twoWeeksAgoRawPoints || 0) * 0.2))}
                   </span>
                 </span>
               </div>
             </div>
 
-            {/* Column 4: Final Total */}
             <div className="bg-blue-50 p-3 rounded-lg border border-blue-200 flex flex-col justify-center items-center">
-              <span className="font-bold text-blue-800 text-xs uppercase mb-1">
-                Total Points
-              </span>
+              <span className="font-bold text-blue-800 text-xs uppercase mb-1">Total Points</span>
               <span className="text-4xl font-black text-blue-900 tracking-tighter leading-none mb-1">
                 {formatNumber(entry.totalPoints)}
               </span>
@@ -435,23 +402,14 @@ export default function ChartRow({
 
       {isModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-          <div
-            onClick={() => setIsModalOpen(false)}
-            className="absolute inset-0 bg-black/60 backdrop-blur-sm transition-opacity"
-          />
-
+          <div onClick={() => setIsModalOpen(false)} className="absolute inset-0 bg-black/60 backdrop-blur-sm transition-opacity" />
           <div className="relative bg-white rounded-2xl w-full max-w-5xl max-h-[90vh] overflow-y-auto p-8 shadow-xl flex flex-col gap-6">
-            <button
-              onClick={() => setIsModalOpen(false)}
-              className="absolute top-5 right-5 text-gray-400 hover:text-gray-600 transition-colors"
-            >
+            <button onClick={() => setIsModalOpen(false)} className="absolute top-5 right-5 text-gray-400 hover:text-gray-600 transition-colors">
               <X className="w-6 h-6" />
             </button>
 
             <div className="flex justify-between items-end pr-8">
-              <h2 className="text-2xl font-black tracking-tight text-gray-900">
-                Chart Ticket
-              </h2>
+              <h2 className="text-2xl font-black tracking-tight text-gray-900">Chart Ticket</h2>
               <button
                 onClick={handleDownload}
                 disabled={isExporting}
@@ -463,17 +421,10 @@ export default function ChartRow({
             </div>
 
             <div className="w-full flex justify-center bg-gray-50 rounded-xl p-4 overflow-x-auto border border-gray-200">
-              <div
-                ref={ticketRef}
-                className="bg-[#f9fafb] p-8 flex flex-col gap-6 rounded-xl shrink-0 w-[800px]"
-              >
+              <div ref={ticketRef} className="bg-[#f9fafb] p-8 flex flex-col gap-6 rounded-xl shrink-0 w-[800px]">
                 <div className="flex justify-between items-center text-white/50 px-2">
-                  <span className="font-bold tracking-widest text-gray-600 text-sm uppercase">
-                    Personal Hot 100
-                  </span>
-                  <span className="font-bold text-xs text-gray-600">
-                    Chart dated {week}
-                  </span>
+                  <span className="font-bold tracking-widest text-gray-600 text-sm uppercase">Personal Hot 100</span>
+                  <span className="font-bold text-xs text-gray-600">Chart dated {week}</span>
                 </div>
 
                 <ChartTicket entry={entry} />
@@ -481,10 +432,10 @@ export default function ChartRow({
                 <div className="flex justify-between items-center text-gray-400 text-xs px-2 font-medium">
                   <span className="flex items-center gap-1.5">
                     <Ticket className="w-3 h-3" />
-                    {entry.id.split("-")[0]} {/* A safe, generic ID string */}
+                    {entry.id.split("-")[0]}
                   </span>
                   <span className="tracking-widest text-gray-600 uppercase">
-                    {entry.secondaryText || "Artist Data"} {/* 🚨 FIXED */}
+                    {entry.secondaryText || "Artist Data"}
                   </span>
                 </div>
               </div>

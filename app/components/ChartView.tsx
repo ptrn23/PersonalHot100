@@ -1,13 +1,7 @@
 "use client";
 
 import { useState, useRef } from "react";
-import ChartRow, {
-  ChartEntry,
-  MaxStats,
-  getStableSeed,
-  applyDeviation,
-} from "./ChartRow";
-import WeekSelector from "./WeekSelector";
+import ChartRow, { DisplayEntry, MaxStats } from "./ChartRow";
 import {
   Search,
   X,
@@ -22,14 +16,9 @@ import * as htmlToImage from "html-to-image";
 import { saveAs } from "file-saver";
 
 export type ChartViewProps = {
-  entries: ChartEntry[];
-  availableWeeks?: string[];
-  activeWeekDate?: string;
-  formattedDateRange: string;
-  isAllTime?: boolean; 
-  hideWeekSelector?: boolean;
-  titleOverride?: string;
-  subtitleOverride?: string;
+  entries: DisplayEntry[];
+  exportFileNamePrefix?: string;
+  hideRankChangeColumn?: boolean;
 };
 
 const WIDTH_MODES = [
@@ -40,13 +29,8 @@ const WIDTH_MODES = [
 
 export default function ChartView({
   entries,
-  availableWeeks,
-  activeWeekDate,
-  formattedDateRange,
-  isAllTime = false,
-  hideWeekSelector = false,
-  titleOverride,
-  subtitleOverride,
+  exportFileNamePrefix = "ChartExport",
+  hideRankChangeColumn = false,
 }: ChartViewProps) {
   const [layoutWidth, setLayoutWidth] = useState<"slim" | "normal" | "wide">(
     "normal",
@@ -56,7 +40,7 @@ export default function ChartView({
   const [isExporting, setIsExporting] = useState(false);
 
   const exportContainerRef = useRef<HTMLDivElement>(null);
-  const [exportChunk, setExportChunk] = useState<ChartEntry[]>([]);
+  const [exportChunk, setExportChunk] = useState<DisplayEntry[]>([]);
 
   const getContainerWidth = () => {
     switch (layoutWidth) {
@@ -85,14 +69,9 @@ export default function ChartView({
   const filteredEntries = entries?.filter((entry) => {
     if (!searchQuery) return true;
     const term = searchQuery.toLowerCase();
-    const songTitle = entry.songs?.title?.toLowerCase() || "";
-    const artistName = entry.songs?.artists?.name?.toLowerCase() || "";
-    const albumTitle = entry.songs?.albums?.title?.toLowerCase() || "";
-    return (
-      songTitle.includes(term) ||
-      artistName.includes(term) ||
-      albumTitle.includes(term)
-    );
+    const primary = entry.primaryText?.toLowerCase() || "";
+    const secondary = entry.secondaryText?.toLowerCase() || "";
+    return primary.includes(term) || secondary.includes(term);
   });
 
   const handleExport = async () => {
@@ -120,7 +99,7 @@ export default function ChartView({
           const endRank = startRank + chunks[i].length - 1;
           saveAs(
             dataUrl,
-            `PH100_${activeWeekDate}_${startRank}-${endRank}.png`,
+            `${exportFileNamePrefix}_${startRank}-${endRank}.png`,
           );
         }
       } else {
@@ -133,7 +112,7 @@ export default function ChartView({
           backgroundColor: "#ffffff",
         });
 
-        saveAs(dataUrl, `PH100_${activeWeekDate}_Grid.png`);
+        saveAs(dataUrl, `${exportFileNamePrefix}_Grid.png`);
       }
     } catch (err) {
       console.error("Export failed:", err);
@@ -147,131 +126,105 @@ export default function ChartView({
   const maxStats: MaxStats = { sales: 0, streams: 0, airplay: 0, units: 0 };
 
   if (entries) {
-    entries.forEach((entry: ChartEntry) => {
-      const title = entry.songs?.title || "";
-      const artist = entry.songs?.artists?.name || "";
-      const seed = getStableSeed(title, artist);
-
-      const streamsUnits = applyDeviation(
-        Math.floor(entry.streams * 5250 * 275),
-        seed + 1,
-      );
-      const airplayUnits = applyDeviation(
-        Math.floor(entry.airplay * 2250 * 5020),
-        seed + 3,
-      );
-      const totalUnits = applyDeviation(
-        Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2),
-        seed + 4,
-      );
-
+    entries.forEach((entry) => {
       if (entry.sales > maxStats.sales) maxStats.sales = entry.sales;
-      if (streamsUnits > maxStats.streams) maxStats.streams = streamsUnits;
-      if (airplayUnits > maxStats.airplay) maxStats.airplay = airplayUnits;
-      if (totalUnits > maxStats.units) maxStats.units = totalUnits;
+      if (entry.streams > maxStats.streams) maxStats.streams = entry.streams;
+      if (entry.airplay > maxStats.airplay) maxStats.airplay = entry.airplay;
+      
+      const rawUnits = (entry.streams + entry.sales + entry.airplay) * 1750 * 2;
+      if (rawUnits > maxStats.units) maxStats.units = rawUnits;
     });
   }
 
   return (
-    <main className="min-h-screen bg-white text-gray-900 overflow-x-auto pb-24 relative">
+    <div className="relative">
       <div
-        className={`mx-auto p-8 transition-all duration-300 ease-in-out ${getContainerWidth()}`}
+        className={`mx-auto p-4 px-8 flex justify-between items-center transition-all duration-300 ease-in-out ${getContainerWidth()}`}
       >
-        <header className="mb-6 flex justify-between items-end px-2">
-          <div>
-            <h1 className="text-4xl font-black uppercase tracking-tighter leading-none">
-              {titleOverride || "Hot 100"}
-            </h1>
-            <p className="text-gray-500 font-bold uppercase tracking-widest text-xs mt-1">
-              Week of {formattedDateRange}
-            </p>
-          </div>
-
-          <div className="flex items-center gap-4 text-right">
-            <div className="relative flex items-center text-gray-400">
-              <Search
-                size={14}
-                strokeWidth={2.5}
-                className="absolute left-3 pointer-events-none"
-              />
-              <input
-                type="text"
-                placeholder="Filter..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-48 focus:w-64 transition-all duration-300 bg-white border border-gray-300 text-gray-900 py-1.5 pl-9 pr-8 rounded-lg font-bold text-xs uppercase tracking-wider focus:outline-none focus:ring-2 focus:ring-black shadow-sm placeholder:text-gray-400"
-              />
-              {searchQuery && (
-                <button
-                  onClick={() => setSearchQuery("")}
-                  className="absolute right-2 text-gray-400 hover:text-[#B30000] transition-colors"
-                >
-                  <X size={14} strokeWidth={2.5} />
-                </button>
-              )}
-            </div>
-
-            <div className="flex items-center bg-gray-100 p-1 rounded-lg border border-gray-200 shadow-sm text-gray-400">
-              <button
-                title="List View"
-                onClick={() => setViewMode("list")}
-                className={`p-1.5 rounded-md transition-all ${viewMode === "list" ? "bg-white text-black shadow-sm" : "hover:text-black"}`}
-              >
-                <List size={16} strokeWidth={2.5} />
-              </button>
-              <button
-                title="Grid View"
-                onClick={() => setViewMode("grid")}
-                className={`p-1.5 rounded-md transition-all ${viewMode === "grid" ? "bg-white text-black shadow-sm" : "hover:text-black"}`}
-              >
-                <GridIcon size={16} strokeWidth={2.5} />
-              </button>
-            </div>
-
-            <div className="flex items-center bg-gray-100 p-1 rounded-lg border border-gray-200 shadow-sm text-gray-400">
-              {WIDTH_MODES.map((mode) => (
-                <button
-                  key={mode.id}
-                  title={`${mode.id.charAt(0).toUpperCase() + mode.id.slice(1)} Width`}
-                  onClick={() =>
-                    setLayoutWidth(mode.id as "slim" | "normal" | "wide")
-                  }
-                  className={`p-1.5 rounded-md transition-all ${layoutWidth === mode.id ? "bg-white text-black shadow-sm" : "hover:text-black"}`}
-                >
-                  {mode.icon}
-                </button>
-              ))}
-            </div>
-
-            {!hideWeekSelector && availableWeeks && activeWeekDate && (
-              <WeekSelector weeks={availableWeeks} activeWeek={activeWeekDate} />
-            )}
-
+        <div className="relative flex items-center text-gray-400">
+          <Search
+            size={14}
+            strokeWidth={2.5}
+            className="absolute left-3 pointer-events-none"
+          />
+          <input
+            type="text"
+            placeholder="Filter..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="w-48 focus:w-64 transition-all duration-300 bg-white border border-gray-300 text-gray-900 py-1.5 pl-9 pr-8 rounded-lg font-bold text-xs uppercase tracking-wider focus:outline-none focus:ring-2 focus:ring-black shadow-sm placeholder:text-gray-400"
+          />
+          {searchQuery && (
             <button
-              onClick={handleExport}
-              disabled={isExporting}
-              className="flex items-center justify-center bg-black text-white p-2 rounded-lg hover:bg-[#B30000] transition-colors shadow-sm disabled:opacity-50 disabled:cursor-not-allowed ml-2"
-              title={
-                viewMode === "list"
-                  ? "Export 4-Part Image Series"
-                  : "Export 10x10 Grid Image"
-              }
+              onClick={() => setSearchQuery("")}
+              className="absolute right-2 text-gray-400 hover:text-[#B30000] transition-colors"
             >
-              {isExporting ? (
-                <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-              ) : (
-                <Download size={18} strokeWidth={2.5} />
-              )}
+              <X size={14} strokeWidth={2.5} />
+            </button>
+          )}
+        </div>
+
+        <div className="flex gap-4">
+          <div className="flex items-center bg-gray-100 p-1 rounded-lg border border-gray-200 shadow-sm text-gray-400">
+            <button
+              title="List View"
+              onClick={() => setViewMode("list")}
+              className={`p-1.5 rounded-md transition-all ${viewMode === "list" ? "bg-white text-black shadow-sm" : "hover:text-black"}`}
+            >
+              <List size={16} strokeWidth={2.5} />
+            </button>
+            <button
+              title="Grid View"
+              onClick={() => setViewMode("grid")}
+              className={`p-1.5 rounded-md transition-all ${viewMode === "grid" ? "bg-white text-black shadow-sm" : "hover:text-black"}`}
+            >
+              <GridIcon size={16} strokeWidth={2.5} />
             </button>
           </div>
-        </header>
 
+          <div className="flex items-center bg-gray-100 p-1 rounded-lg border border-gray-200 shadow-sm text-gray-400">
+            {WIDTH_MODES.map((mode) => (
+              <button
+                key={mode.id}
+                title={`${mode.id.charAt(0).toUpperCase() + mode.id.slice(1)} Width`}
+                onClick={() =>
+                  setLayoutWidth(mode.id as "slim" | "normal" | "wide")
+                }
+                className={`p-1.5 rounded-md transition-all ${layoutWidth === mode.id ? "bg-white text-black shadow-sm" : "hover:text-black"}`}
+              >
+                {mode.icon}
+              </button>
+            ))}
+          </div>
+
+          <button
+            onClick={handleExport}
+            disabled={isExporting}
+            className="flex items-center justify-center bg-black text-white p-2 rounded-lg hover:bg-[#B30000] transition-colors shadow-sm disabled:opacity-50 disabled:cursor-not-allowed"
+            title={
+              viewMode === "list"
+                ? "Export 4-Part Image Series"
+                : "Export Grid Image"
+            }
+          >
+            {isExporting ? (
+              <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+            ) : (
+              <Download size={18} strokeWidth={2.5} />
+            )}
+          </button>
+        </div>
+      </div>
+
+      <div
+        className={`mx-auto px-8 pb-12 transition-all duration-300 ease-in-out ${getContainerWidth()}`}
+      >
         {filteredEntries && filteredEntries.length > 0 ? (
           viewMode === "list" ? (
             <div className="text-sm border-t-2 border-black shadow-sm bg-white min-h-[500px]">
               <div className="grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] font-bold text-gray-600 border-b border-gray-300 bg-gray-50 sticky top-[88px] z-10">
                 <div className="py-2 text-center">Rank</div>
-                <div className="py-2 text-center">{isAllTime ? "" : "+/-"}</div>
+                <div className="py-2 text-center">{hideRankChangeColumn ? "" : "+/-"}</div>
                 <div className="py-2 pl-2">Song</div>
                 <div className="py-2 text-center">{}</div>
                 <div className="py-2 text-center">Points</div>
@@ -304,7 +257,7 @@ export default function ChartView({
                 <ChartRow
                   key={entry.id}
                   entry={entry}
-                  week={formattedDateRange}
+                  week={entry.id}
                   maxStats={maxStats}
                 />
               ))}
@@ -318,10 +271,10 @@ export default function ChartView({
                   key={entry.id}
                   className="aspect-square bg-gray-100 overflow-hidden relative group"
                 >
-                  {entry.songs?.albums?.cover_url ? (
+                  {entry.coverUrl ? (
                     <img
-                      src={entry.songs.albums.cover_url}
-                      alt={entry.songs.title}
+                      src={entry.coverUrl}
+                      alt={entry.primaryText}
                       className="w-full h-full object-cover"
                       loading="lazy"
                     />
@@ -357,7 +310,7 @@ export default function ChartView({
               Personal Charts
             </h1>
             <p className="text-gray-500 font-bold uppercase tracking-widest text-xs">
-              {formattedDateRange}
+              {exportFileNamePrefix.split("_").pop()}
             </p>
           </div>
 
@@ -365,40 +318,26 @@ export default function ChartView({
             <>
               <div className="grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] font-bold text-gray-600 border-b border-gray-300 bg-gray-50">
                 <div className="py-2 text-center">Rank</div>
-                <div className="py-2 text-center">{isAllTime ? "" : "+/-"}</div>
-                <div className="py-2 pl-2">Song</div>
+                <div className="py-2 text-center">{hideRankChangeColumn ? "" : "+/-"}</div>
+                <div className="py-2 pl-2">Entity</div>
                 <div className="py-2 text-center">{}</div>
                 <div className="py-2 text-center">Points</div>
                 <div className="py-2 text-center">%</div>
                 <div className="py-2 text-center bg-blue-50/50">Peak</div>
                 <div className="py-2 text-center">WoC</div>
-                <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">
-                  Sales
-                </div>
-                <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">
-                  %
-                </div>
-                <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">
-                  Streams
-                </div>
-                <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">
-                  %
-                </div>
-                <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">
-                  Airplay
-                </div>
-                <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">
-                  %
-                </div>
-                <div className="py-2 text-center text-[#721a46] bg-[#eddcfe]">
-                  Units
-                </div>
+                <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">Sales</div>
+                <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">%</div>
+                <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">Streams</div>
+                <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">%</div>
+                <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">Airplay</div>
+                <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">%</div>
+                <div className="py-2 text-center text-[#721a46] bg-[#eddcfe]">Units</div>
               </div>
               {exportChunk.map((entry) => (
                 <ChartRow
                   key={entry.id}
                   entry={entry}
-                  week={formattedDateRange}
+                  week={entry.id}
                   maxStats={maxStats}
                 />
               ))}
@@ -410,10 +349,10 @@ export default function ChartView({
                   key={entry.id}
                   className="aspect-square bg-gray-100 overflow-hidden relative group"
                 >
-                  {entry.songs?.albums?.cover_url ? (
+                  {entry.coverUrl ? (
                     <img
-                      src={entry.songs.albums.cover_url}
-                      alt={entry.songs.title}
+                      src={entry.coverUrl}
+                      alt={entry.primaryText}
                       className="w-full h-full object-cover"
                       loading="eager"
                     />
@@ -431,6 +370,6 @@ export default function ChartView({
           )}
         </div>
       </div>
-    </main>
+    </div>
   );
 }

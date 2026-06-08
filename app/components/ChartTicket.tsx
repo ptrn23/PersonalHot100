@@ -1,5 +1,7 @@
 "use client";
 
+import { DisplayEntry, getStableSeed, applyDeviation } from "./ChartRow";
+
 const formatNumber = (num: number) => {
   if (!num) return "0";
   if (num >= 1_000_000) return (num / 1_000_000).toFixed(1) + "M";
@@ -7,8 +9,12 @@ const formatNumber = (num: number) => {
   return num.toString();
 };
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export default function ChartTicket({ song }: { song: any }) {
+export default function ChartTicket({ entry }: { entry: DisplayEntry }) {
+  const seed = getStableSeed(entry.mathSeedString);
+  const streamsUnits = applyDeviation(Math.floor(entry.streams * 5250 * 275), seed + 1);
+  const salesUnits = applyDeviation(Math.floor(entry.sales * 252), seed + 2);
+  const airplayUnits = applyDeviation(Math.floor(entry.airplay * 2250 * 5020), seed + 3);
+
   return (
     <div
       className="relative w-full aspect-[2/1] rounded-2xl overflow-hidden flex bg-gray-900 text-white shadow-2xl"
@@ -24,10 +30,10 @@ export default function ChartTicket({ song }: { song: any }) {
       }}
     >
       <div className="relative w-1/2 h-full">
-        {song.coverUrl ? (
+        {entry.coverUrl ? (
           <img
-            src={song.coverUrl}
-            alt={song.title}
+            src={entry.coverUrl}
+            alt={entry.primaryText}
             className="w-full h-full object-cover"
           />
         ) : (
@@ -38,16 +44,16 @@ export default function ChartTicket({ song }: { song: any }) {
 
         <div className="absolute top-6 left-8">
           <span className="text-6xl font-black italic tracking-tighter leading-none drop-shadow-md">
-            #{song.rank}
+            #{entry.rank}
           </span>
         </div>
 
         <div className="absolute bottom-6 left-8 flex flex-col pr-6">
           <span className="text-2xl font-bold leading-6 mb-1 line-clamp-2 drop-shadow-md">
-            {song.title}
+            {entry.primaryText}
           </span>
           <span className="text-base text-gray-300 font-medium leading-none line-clamp-1 drop-shadow-md">
-            {song.artist}
+            {entry.secondaryText}
           </span>
         </div>
       </div>
@@ -56,9 +62,9 @@ export default function ChartTicket({ song }: { song: any }) {
 
       <div className="relative w-1/2 h-full overflow-hidden flex flex-col justify-between p-8">
         <div className="absolute inset-0 z-0">
-          {song.coverUrl && (
+          {entry.coverUrl && (
             <img
-              src={song.coverUrl}
+              src={entry.coverUrl}
               alt=""
               className="w-full h-full object-cover blur-2xl opacity-75 scale-125"
             />
@@ -71,13 +77,13 @@ export default function ChartTicket({ song }: { song: any }) {
           </p>
           <p className="text-sm font-medium leading-4">
             Charting for{" "}
-            <span className="font-bold text-white">{song.woc} weeks</span>
+            <span className="font-bold text-white">{entry.weeksOnChart} weeks</span>
           </p>
         </div>
 
         <div className="relative z-10 flex flex-col items-center justify-center -mt-4">
           <span className="text-6xl font-black tracking-tighter">
-            {formatNumber(song.points)}
+            {formatNumber(entry.totalPoints)}
           </span>
           <span className="text-lg font-bold text-white/50 tracking-widest uppercase">
             POINTS
@@ -90,7 +96,7 @@ export default function ChartTicket({ song }: { song: any }) {
               Sales
             </div>
             <div className="text-lg font-bold leading-none">
-              {formatNumber(song.salesUnits)}
+              {formatNumber(salesUnits)}
             </div>
           </div>
           <div>
@@ -98,7 +104,7 @@ export default function ChartTicket({ song }: { song: any }) {
               Streams
             </div>
             <div className="text-lg font-bold leading-none">
-              {formatNumber(song.streamsUnits)}
+              {formatNumber(streamsUnits)}
             </div>
           </div>
           <div>
@@ -106,7 +112,7 @@ export default function ChartTicket({ song }: { song: any }) {
               Radio
             </div>
             <div className="text-lg font-bold leading-none">
-              {formatNumber(song.airplayUnits)}
+              {formatNumber(airplayUnits)}
             </div>
           </div>
         </div>
