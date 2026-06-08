@@ -141,10 +141,10 @@ export default function ChartRow({
       status = "stable";
     }
   }
-
-  const isTopSales = entry.sales > 0 && entry.sales === maxStats.sales;
-  const isTopStreams = entry.streams > 0 && entry.streams === maxStats.streams;
-  const isTopAirplay = entry.airplay > 0 && entry.airplay === maxStats.airplay;
+  
+  const isTopSales = salesUnits > 0 && salesUnits === maxStats.sales;
+  const isTopStreams = streamsUnits > 0 && streamsUnits === maxStats.streams;
+  const isTopAirplay = airplayUnits > 0 && airplayUnits === maxStats.airplay;
   const isTopUnits = totalUnits > 0 && totalUnits === maxStats.units;
 
   let peakBgClass = "bg-blue-50/50";

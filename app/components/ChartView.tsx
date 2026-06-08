@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef } from "react";
-import ChartRow, { DisplayEntry, MaxStats } from "./ChartRow";
+import ChartRow, { DisplayEntry, MaxStats, getStableSeed, applyDeviation } from "./ChartRow";
 import {
   Search,
   X,
@@ -19,6 +19,7 @@ export type ChartViewProps = {
   entries: DisplayEntry[];
   exportFileNamePrefix?: string;
   hideRankChangeColumn?: boolean;
+  chartLabel?: string;
 };
 
 const WIDTH_MODES = [
@@ -31,6 +32,7 @@ export default function ChartView({
   entries,
   exportFileNamePrefix = "ChartExport",
   hideRankChangeColumn = false,
+  chartLabel,
 }: ChartViewProps) {
   const [layoutWidth, setLayoutWidth] = useState<"slim" | "normal" | "wide">(
     "normal",
@@ -127,12 +129,19 @@ export default function ChartView({
 
   if (entries) {
     entries.forEach((entry) => {
-      if (entry.sales > maxStats.sales) maxStats.sales = entry.sales;
-      if (entry.streams > maxStats.streams) maxStats.streams = entry.streams;
-      if (entry.airplay > maxStats.airplay) maxStats.airplay = entry.airplay;
-      
-      const rawUnits = (entry.streams + entry.sales + entry.airplay) * 1750 * 2;
-      if (rawUnits > maxStats.units) maxStats.units = rawUnits;
+      const seed = getStableSeed(entry.mathSeedString);
+      const streamsUnits = applyDeviation(Math.floor(entry.streams * 5250 * 275), seed + 1);
+      const salesUnits = applyDeviation(Math.floor(entry.sales * 252), seed + 2);
+      const airplayUnits = applyDeviation(Math.floor(entry.airplay * 2250 * 5020), seed + 3);
+      const totalUnits = applyDeviation(
+        Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2),
+        seed + 4
+      );
+
+      if (salesUnits > maxStats.sales) maxStats.sales = salesUnits;
+      if (streamsUnits > maxStats.streams) maxStats.streams = streamsUnits;
+      if (airplayUnits > maxStats.airplay) maxStats.airplay = airplayUnits;
+      if (totalUnits > maxStats.units) maxStats.units = totalUnits;
     });
   }
 
@@ -257,7 +266,7 @@ export default function ChartView({
                 <ChartRow
                   key={entry.id}
                   entry={entry}
-                  week={entry.id}
+                  week={chartLabel || "All-Time"} 
                   maxStats={maxStats}
                 />
               ))}
@@ -297,20 +306,14 @@ export default function ChartView({
         )}
       </div>
 
-      <div
-        className="absolute top-[-9999px] left-[-9999px] opacity-0 pointer-events-none"
-        style={{ width: "1200px" }}
-      >
-        <div
-          ref={exportContainerRef}
-          className="bg-white p-12 text-sm text-gray-900"
-        >
+      <div className="absolute top-[-9999px] left-[-9999px] opacity-0 pointer-events-none" style={{ width: "1200px" }}>
+        <div ref={exportContainerRef} className="bg-white p-12 text-sm text-gray-900">
           <div className="flex justify-between items-end border-b-2 border-black pb-4 mb-4">
             <h1 className="text-3xl font-black uppercase tracking-tighter">
               Personal Charts
             </h1>
             <p className="text-gray-500 font-bold uppercase tracking-widest text-xs">
-              {exportFileNamePrefix.split("_").pop()}
+              {chartLabel || exportFileNamePrefix.split("_").pop()} {/* 🚨 FIXED */}
             </p>
           </div>
 
@@ -319,7 +322,7 @@ export default function ChartView({
               <div className="grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] font-bold text-gray-600 border-b border-gray-300 bg-gray-50">
                 <div className="py-2 text-center">Rank</div>
                 <div className="py-2 text-center">{hideRankChangeColumn ? "" : "+/-"}</div>
-                <div className="py-2 pl-2">Entity</div>
+                <div className="py-2 pl-2">Song</div>
                 <div className="py-2 text-center">{}</div>
                 <div className="py-2 text-center">Points</div>
                 <div className="py-2 text-center">%</div>
