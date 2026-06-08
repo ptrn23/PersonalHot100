@@ -112,7 +112,7 @@ export default function ChartRow({
   maxStats,
   week,
 }: {
-  entry: ChartEntry;
+  entry: DisplayEntry;
   maxStats: MaxStats;
   week: string;
 }) {
@@ -124,16 +124,14 @@ export default function ChartRow({
   const handleDownload = async () => {
     if (!ticketRef.current) return;
     setIsExporting(true);
-
     try {
       const dataUrl = await toPng(ticketRef.current, {
         quality: 1,
         pixelRatio: 2,
         backgroundColor: "#ffffff",
       });
-
       const link = document.createElement("a");
-      link.download = `${song.artist.replace(/\s+/g, "-")}-${song.title.replace(/\s+/g, "-")}-Hot100.png`;
+      link.download = `${entry.primaryText.replace(/\s+/g, "-")}-Hot100.png`;
       link.href = dataUrl;
       link.click();
     } catch (err) {
@@ -143,51 +141,26 @@ export default function ChartRow({
     }
   };
 
-  const title = entry.songs?.display_title || entry.songs?.title || "Unknown";
-  const artist =
-    entry.songs?.artists?.display_name ||
-    entry.songs?.artists?.name ||
-    "Unknown";
-  const displaySubLabel = entry.overrideSubLabel || artist;
-  const seed = getStableSeed(title, artist);
-  const streamsUnits = applyDeviation(
-    Math.floor(entry.streams * 5250 * 275),
-    seed + 1,
-  );
+  const seed = getStableSeed(entry.mathSeedString);
+  const streamsUnits = applyDeviation(Math.floor(entry.streams * 5250 * 275), seed + 1);
   const salesUnits = applyDeviation(Math.floor(entry.sales * 252), seed + 2);
-  const airplayUnits = applyDeviation(
-    Math.floor(entry.airplay * 2250 * 5020),
-    seed + 3,
-  );
+  const airplayUnits = applyDeviation(Math.floor(entry.airplay * 2250 * 5020), seed + 3);
   const totalUnits = applyDeviation(
     Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2),
     seed + 4,
   );
+  
+  const prevRaw = entry.previousWeekRawPoints || 0;
+  const twoWeeksRaw = entry.twoWeeksAgoRawPoints || 0;
+  const totalRawForPct = entry.streams * 4 + entry.sales * 0.45 + entry.airplay * 5;
 
-  const prevRaw = entry.previous_week_raw_points || 0;
-  const twoWeeksRaw = entry.two_weeks_ago_raw_points || 0;
-
-  const totalRawForPct =
-    entry.streams * 4 + entry.sales * 0.45 + entry.airplay * 5;
-
-  const streamsPct =
-    totalRawForPct > 0
-      ? Math.round(((entry.streams * 4) / totalRawForPct) * 100) + "%"
-      : "0%";
-
-  const salesPct =
-    totalRawForPct > 0
-      ? Math.round(((entry.sales * 0.45) / totalRawForPct) * 100) + "%"
-      : "0%";
-
-  const airplayPct =
-    totalRawForPct > 0
-      ? Math.round(((entry.airplay * 5) / totalRawForPct) * 100) + "%"
-      : "0%";
+  const streamsPct = totalRawForPct > 0 ? Math.round(((entry.streams * 4) / totalRawForPct) * 100) + "%" : "0%";
+  const salesPct = totalRawForPct > 0 ? Math.round(((entry.sales * 0.45) / totalRawForPct) * 100) + "%" : "0%";
+  const airplayPct = totalRawForPct > 0 ? Math.round(((entry.airplay * 5) / totalRawForPct) * 100) + "%" : "0%";
 
   let pointsPctStr = "--";
   if (prevRaw > 0) {
-    const pctChange = ((entry.total_points - prevRaw) / prevRaw) * 100;
+    const pctChange = ((entry.totalPoints - prevRaw) / prevRaw) * 100;
     pointsPctStr = (pctChange > 0 ? "+" : "") + Math.round(pctChange);
   }
 
