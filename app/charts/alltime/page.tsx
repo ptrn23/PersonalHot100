@@ -1,7 +1,7 @@
 import { supabase } from "@/utils/supabase";
 import Link from "next/link";
 import ChartView from "../../components/ChartView";
-import { DisplayEntry } from "../../components/ChartRow"; // 🚨 Use the new flat type
+import { DisplayEntry } from "../../components/ChartRow";
 
 export const dynamic = "force-dynamic";
 
