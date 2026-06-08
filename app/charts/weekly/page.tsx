@@ -1,7 +1,9 @@
 import { supabase } from "@/utils/supabase";
 import ChartView from "../../components/ChartView";
-import Link from "next/link";
-import { ChartEntry } from "@/app/components/ChartRow";
+import { DisplayEntry } from "../../components/ChartRow";
+import WeekSelector from "../../components/WeekSelector";
+
+export const dynamic = "force-dynamic";
 
 const formatDateRange = (startDateStr: string, endDateStr: string) => {
   const options: Intl.DateTimeFormatOptions = {
@@ -15,108 +17,48 @@ const formatDateRange = (startDateStr: string, endDateStr: string) => {
   return `${startStr} - ${endStr}`;
 };
 
-const isValidDateString = (dateStr: string) => {
-  const date = new Date(dateStr);
-  return !isNaN(date.getTime());
-};
-
-export default async function ArchivePage({
+export default async function WeeklyChartPage({
   searchParams,
 }: {
   searchParams: Promise<{ week?: string }>;
 }) {
-  const params = await searchParams;
+  const resolvedParams = await searchParams;
+  const selectedWeekStr = resolvedParams.week;
 
-  const { data: availableWeeks, error: weeksErr } = await supabase
+  const { data: latestWeek, error: weekErr } = await supabase
     .from("chart_weeks")
     .select("*")
     .order("start_date", { ascending: false })
-    .range(1, 1000);
+    .limit(1)
+    .single();
 
-  if (weeksErr || !availableWeeks || availableWeeks.length === 0) {
+  if (weekErr || !latestWeek) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center p-10 bg-white">
-        <h1 className="text-2xl font-bold mb-4">Archive Empty</h1>
-        <p className="mb-4 text-gray-600">
-          No finalized chart weeks have been archived yet.
-        </p>
+        <h1 className="text-2xl font-bold mb-4">No Weekly Data</h1>
+        <p className="text-gray-600">No chart weeks have been generated yet.</p>
       </div>
     );
   }
 
-  let activeWeek = availableWeeks[0];
+  const { data: allWeeks } = await supabase
+    .from("chart_weeks")
+    .select("*")
+    .neq("id", latestWeek.id)
+    .order("start_date", { ascending: false });
 
-  if (params.week) {
-    const requestedWeek = decodeURIComponent(params.week);
-
-    if (!isValidDateString(requestedWeek)) {
-      return (
-        <div className="min-h-screen flex flex-col items-center justify-center p-10 bg-white text-center">
-          <h1 className="text-4xl font-black mb-2 uppercase tracking-tight text-red-600">
-            Invalid Date Format
-          </h1>
-          <p className="text-gray-500 mb-8 font-medium">
-            Dates must be a valid timestamp.
-          </p>
-          <Link
-            href="/charts/weekly"
-            className="bg-black text-white px-6 py-3 rounded-lg font-bold uppercase text-sm hover:bg-gray-800 transition-colors"
-          >
-            Return to Latest Archive
-          </Link>
-        </div>
-      );
-    }
-
-    const exactMatch = availableWeeks.find(
-      (w) =>
-        new Date(w.start_date).getTime() === new Date(requestedWeek).getTime(),
+  if (!allWeeks || allWeeks.length === 0) {
+    return (
+      <div className="min-h-screen flex flex-col items-center justify-center p-10 bg-white">
+        <h1 className="text-2xl font-bold mb-4">No Finalized Weeks</h1>
+        <p className="text-gray-600">The first tracking week is still in progress!</p>
+      </div>
     );
+  }
 
-    if (exactMatch) {
-      activeWeek = exactMatch;
-    } else {
-      const targetDate = new Date(requestedWeek);
-      const containingWeek = availableWeeks.find((w) => {
-        const start = new Date(w.start_date);
-        const end = new Date(w.end_date);
-        return targetDate >= start && targetDate <= end;
-      });
-
-      if (containingWeek) {
-        const encodedDate = encodeURIComponent(containingWeek.start_date);
-        return (
-          <div className="min-h-screen flex flex-col items-center justify-center p-10 bg-gray-50 text-center">
-            <h1 className="text-3xl font-black mb-4 uppercase tracking-tighter text-gray-800">
-              Chart Not Found
-            </h1>
-            <p className="text-gray-600 mb-8 max-w-md">
-              The date you entered falls under a different archived chart week.
-            </p>
-            <Link
-              href={`/charts/weekly?week=${encodedDate}`}
-              className="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold uppercase text-sm hover:bg-blue-700 transition-colors"
-            >
-              View Correct Week
-            </Link>
-          </div>
-        );
-      } else {
-        return (
-          <div className="min-h-screen flex flex-col items-center justify-center p-10 bg-white text-center">
-            <h1 className="text-3xl font-black mb-4 uppercase tracking-tighter text-gray-400">
-              Date Out of Range
-            </h1>
-            <Link
-              href="/charts/weekly"
-              className="bg-black text-white px-6 py-3 rounded-lg font-bold uppercase text-sm hover:bg-gray-800 transition-colors"
-            >
-              Return to Latest Archive
-            </Link>
-          </div>
-        );
-      }
-    }
+  let targetWeek = allWeeks.find((w) => w.start_date === selectedWeekStr);
+  if (!targetWeek) {
+    targetWeek = allWeeks[0]; 
   }
 
   const { data: rawEntries, error } = await supabase
@@ -131,25 +73,75 @@ export default async function ArchivePage({
         albums ( id, title, display_title, cover_url )
       )
     `)
-    .eq("week_id", activeWeek.id)
+    .eq("week_id", targetWeek.id)
     .lte("rank", 100)
     .order("rank", { ascending: true });
-      
-    if (error || !rawEntries) {
-      return <div className="p-10 text-center font-bold text-red-500">Failed to load chart data.</div>;
-    }
-  
-    const entries = rawEntries as ChartEntry[];
-  
-    return (
-    <ChartView
-      entries={entries}
-      availableWeeks={availableWeeks.map((w) => w.start_date)}
-      activeWeekDate={activeWeek.start_date}
-      formattedDateRange={formatDateRange(
-        activeWeek.start_date,
-        activeWeek.end_date,
-      )}
-    />
+
+  if (error || !rawEntries) {
+    return <div className="p-10 text-center font-bold text-red-500">Failed to load chart data.</div>;
+  }
+
+  const mappedEntries: DisplayEntry[] = rawEntries.map((row: any) => {
+    const songData = Array.isArray(row.songs) ? row.songs[0] : row.songs;
+    const artistData = Array.isArray(songData?.artists) ? songData.artists[0] : songData?.artists;
+    const albumData = Array.isArray(songData?.albums) ? songData.albums[0] : songData?.albums;
+
+    const title = songData?.display_title || songData?.title || "Unknown Song";
+    const artist = artistData?.display_name || artistData?.name || "Unknown Artist";
+
+    return {
+      id: row.id,
+      rank: row.rank,
+      previousRank: row.previous_position,
+      coverUrl: albumData?.cover_url || null,
+      primaryText: title,
+      primaryHref: songData?.id ? `/library/song/${songData.id}` : null,
+      secondaryText: artist,
+      secondaryHref: artistData?.id ? `/library/artist/${artistData.id}` : null,
+      mathSeedString: `${title}|${artist}`,
+      isNewPeak: row.is_new_peak || false,
+      isRePeak: row.is_repeak || false,
+      peakPosition: row.peak_position || 101,
+      peakStreak: row.peak_streak || null,
+      weeksOnChart: row.weeks_on_chart || 1,
+      totalPoints: row.total_points || 0,
+      currentWeekPoints: row.current_week_points || 0,
+      previousWeekRawPoints: row.previous_week_raw_points || null,
+      twoWeeksAgoRawPoints: row.two_weeks_ago_raw_points || null,
+      sales: row.sales || 0,
+      streams: row.streams || 0,
+      airplay: row.airplay || 0,
+    };
+  });
+
+  const formattedDate = formatDateRange(targetWeek.start_date, targetWeek.end_date);
+  const availableWeekStrings = allWeeks.map((w) => w.start_date);
+
+  return (
+    <main className="min-h-screen bg-white text-gray-900 pb-24">
+      <div className="max-w-[1450px] mx-auto pt-8 px-8 flex justify-between items-end">
+        <div>
+          <h1 className="text-4xl font-black uppercase tracking-tighter leading-none">
+            Hot 100
+          </h1>
+          <p className="text-gray-500 font-bold uppercase tracking-widest text-xs mt-1">
+            Week of {formattedDate}
+          </p>
+        </div>
+        
+        <div className="pb-1">
+          <WeekSelector 
+            weeks={availableWeekStrings} 
+            activeWeek={targetWeek.start_date} 
+          />
+        </div>
+      </div>
+
+      <ChartView
+        entries={mappedEntries}
+        exportFileNamePrefix={`Weekly100_${targetWeek.start_date}`}
+        chartLabel={formattedDate}
+      />
+    </main>
   );
 }
