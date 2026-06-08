@@ -41,6 +41,35 @@ export type MaxStats = {
   units: number;
 };
 
+export type DisplayEntry = {
+  id: string;
+  rank: number;
+  previousRank: number | null;
+  
+  coverUrl: string | null;
+  primaryText: string;
+  primaryHref: string | null;
+  secondaryText: string | null;
+  secondaryHref: string | null;
+  
+  mathSeedString: string;
+  disableDropdown?: boolean;
+  hideRankChange?: boolean;
+  
+  isNewPeak: boolean;
+  isRePeak: boolean;
+  peakPosition: number;
+  peakStreak: number | null;
+  weeksOnChart: number;
+  totalPoints: number;
+  currentWeekPoints: number;
+  previousWeekRawPoints: number | null;
+  twoWeeksAgoRawPoints: number | null;
+  sales: number;
+  streams: number;
+  airplay: number;
+};
+
 export type ChartEntry = {
   id: string;
   rank: number;
