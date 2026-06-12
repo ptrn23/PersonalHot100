@@ -132,7 +132,8 @@ export default async function WeeklyChartPage({
         <div className="pb-1">
           <WeekSelector 
             weeks={availableWeekStrings} 
-            activeWeek={targetWeek.start_date} 
+            activeWeek={targetWeek.start_date}
+            destination={`/charts/weekly`} 
           />
         </div>
       </div>

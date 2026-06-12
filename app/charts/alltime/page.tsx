@@ -21,7 +21,6 @@ export default async function AllTimeChartPage({
   let mappedEntries: DisplayEntry[] = [];
 
   if (section === "songs") {
-    // Query the ultra-fast SQL view
     const { data: topSongs } = await supabase
       .from("all_time_song_stats")
       .select("*")
@@ -29,37 +28,31 @@ export default async function AllTimeChartPage({
       .range(startRange, endRange);
 
     if (topSongs) {
-      // 🚨 THE ADAPTER: Map flat SQL view directly to DisplayEntry
       mappedEntries = topSongs.map((row, index) => {
         const title = row.display_title || row.title || "Unknown Song";
         const artist = row.artist_display_name || row.artist_name || "Unknown Artist";
 
         return {
-          // Identify the row
           id: row.id,
           rank: startRange + index + 1,
-          previousRank: null, // Hides the +/- math
+          previousRank: null,
           
-          // Visuals
           coverUrl: row.cover_url || null,
           primaryText: title,
           primaryHref: row.id ? `/library/song/${row.id}` : null,
           secondaryText: artist,
           secondaryHref: row.artist_id ? `/library/artist/${row.artist_id}` : null,
           
-          // Math & UI Flags
           mathSeedString: `${title}|${artist}`,
-          disableDropdown: true, // Disable dropdown for All-Time
-          hideRankChange: true,  // Tell ChartRow to hide the +/- text
+          disableDropdown: true,
+          hideRankChange: true,
           
-          // Metrics
           isNewPeak: false,
           isRePeak: false,
           peakPosition: row.peak_position || 101,
           peakStreak: null,
           weeksOnChart: row.weeks_on_chart || 1,
           
-          // Points
           totalPoints: row.total_points || 0,
           currentWeekPoints: 0,
           previousWeekRawPoints: null,
@@ -74,8 +67,6 @@ export default async function AllTimeChartPage({
 
   return (
     <main className="min-h-screen bg-[#f5f5f5] text-gray-900 pb-24">
-      
-      {/* Dynamic Navigation Tabs */}
       <div className="bg-white border-b border-gray-200 pt-8 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 flex justify-center gap-2">
           <Link
@@ -111,7 +102,6 @@ export default async function AllTimeChartPage({
         </div>
       </div>
 
-      {/* Page Header */}
       <div className="max-w-[1450px] mx-auto pt-10 px-8 text-center mb-2">
         <h1 className="text-5xl font-black uppercase tracking-tighter leading-none mb-2">
           All-Time {section === "songs" ? "Hot 100" : section === "albums" ? "Top Albums" : "Top Artists"}
@@ -123,7 +113,6 @@ export default async function AllTimeChartPage({
 
       {section === "songs" && (
         <>
-          {/* 🚨 Clean, decoupled ChartView */}
           <ChartView
             entries={mappedEntries}
             hideRankChangeColumn={true}
@@ -131,7 +120,6 @@ export default async function AllTimeChartPage({
             exportFileNamePrefix={`AllTime_Songs_Page${currentPage}`}
           />
 
-          {/* Pagination Footer */}
           <div className="max-w-[1450px] mx-auto px-8 mt-8 flex justify-between items-center">
             {currentPage > 1 ? (
               <Link
@@ -142,7 +130,7 @@ export default async function AllTimeChartPage({
               </Link>
             ) : <div />}
             
-            {/* Only show next page if we actually fetched a full 100 items */}
+            {/* only show next page if we actually fetched a full 100 items */}
             {mappedEntries.length === 100 && (
               <Link
                 href={`/charts/alltime?section=songs&page=${currentPage + 1}`}
