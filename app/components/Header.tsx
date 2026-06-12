@@ -290,11 +290,19 @@ export default function Header() {
             Hot 100
           </Link>
           <span className="text-gray-800 font-medium">|</span>
-          <span className="text-gray-500 cursor-not-allowed">
+          <Link
+            href="/charts/albums"
+            className="hover:text-[#B30000] transition-colors text-white"
+          >
             Top Albums 20
-          </span>
+          </Link>
           <span className="text-gray-800 font-medium">|</span>
-          <span className="text-gray-500 cursor-not-allowed">Artist 20</span>
+          <Link
+            href="/charts/artists"
+            className="hover:text-[#B30000] transition-colors text-white"
+          >
+            Top Artists 20
+          </Link>
           <span className="text-gray-800 font-medium">|</span>
           <span className="text-gray-500 cursor-not-allowed">
             Year-End Charts
