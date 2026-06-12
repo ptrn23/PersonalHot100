@@ -1,6 +1,7 @@
 "use client";
 
-import { DisplayEntry, getStableSeed, applyDeviation } from "./ChartRow";
+import ChartRow, { DisplayEntry, MaxStats } from "./ChartRow";
+import { applyDeviation, getStableSeed } from "../utils/chartMath";
 
 const formatNumber = (num: number) => {
   if (!num) return "0";

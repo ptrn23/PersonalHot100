@@ -1,7 +1,8 @@
 "use client";
 
 import { useState, useRef } from "react";
-import ChartRow, { DisplayEntry, MaxStats, getStableSeed, applyDeviation } from "./ChartRow";
+import ChartRow, { DisplayEntry, MaxStats } from "./ChartRow";
+import { applyDeviation, getStableSeed } from "../utils/chartMath";
 import {
   Search,
   X,

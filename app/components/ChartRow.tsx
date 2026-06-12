@@ -5,32 +5,7 @@ import ChartTicket from "./ChartTicket";
 import Link from "next/link";
 import { Share2, Ticket, X, LineChart, Download } from "lucide-react";
 import { toPng } from "html-to-image";
-
-export const formatNumber = (num: number) => {
-  if (!num) return "0";
-  if (num >= 1_000_000) return (num / 1_000_000).toFixed(1) + "m";
-  if (num >= 1_000) return (num / 1_000).toFixed(1) + "k";
-  return num.toString();
-};
-
-export const getStableSeed = (seedString?: string) => {
-  if (!seedString) return 0;
-  let hash = 0;
-  for (let i = 0; i < seedString.length; i++) {
-    hash += (i + 1) * seedString.charCodeAt(i);
-  }
-  return hash;
-};
-
-export const applyDeviation = (
-  base: number,
-  seed: number,
-  scale = 0.1,
-  mod = 100,
-) => {
-  const deviation = ((seed % mod) / mod - 0.5) * 2 * scale;
-  return Math.floor(base * (1 + deviation));
-};
+import { formatNumber, getStableSeed, applyDeviation } from "../utils/chartMath";
 
 export type MaxStats = {
   sales: number;
@@ -53,6 +28,7 @@ export type DisplayEntry = {
   mathSeedString: string;
   disableDropdown?: boolean;
   hideRankChange?: boolean;
+  isOut?: boolean;
   
   isNewPeak: boolean;
   isRePeak: boolean;
@@ -166,11 +142,15 @@ export default function ChartRow({
           entry.disableDropdown ? "cursor-default" : "cursor-pointer"
         } ${isExpanded ? "bg-gray-50" : "hover:bg-gray-50"}`}
       >
-        <div className="font-black text-xl text-center text-gray-800">{entry.rank}</div>
+        <div className="font-black text-xl text-center text-gray-800">
+          {entry.isOut ? "-" : entry.rank}
+        </div>
 
         <div className="text-center font-bold text-xs">
           {entry.hideRankChange ? (
             <span className="text-gray-300">-</span>
+          ) : entry.isOut ? (
+            <span className="text-gray-400 bg-gray-100 px-1.5 py-0.5 rounded text-[10px]">OUT</span>
           ) : (
             <>
               {status === "re" && <span className="text-[#8e0be5] bg-purple-50 px-1 rounded">RE</span>}
@@ -185,7 +165,14 @@ export default function ChartRow({
         <div className="flex items-center gap-3 pl-2 overflow-hidden py-1">
           <div className="w-10 h-10 bg-gray-200 shrink-0 shadow-sm relative block">
             {entry.coverUrl && (
-              <img src={entry.coverUrl} className="w-full h-full object-cover" loading="lazy" alt="Cover" />
+              <img 
+                src={entry.coverUrl} 
+                className={`w-full h-full object-cover transition-all ${
+                  entry.isOut ? "grayscale opacity-80" : ""
+                }`} 
+                loading="lazy" 
+                alt="Cover" 
+              />
             )}
           </div>
           
