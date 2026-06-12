@@ -1,6 +1,8 @@
 import { supabase } from "@/utils/supabase";
 import Link from "next/link";
 import { Metadata } from "next";
+import ChartRow, { DisplayEntry, MaxStats } from "../../../components/ChartRow";
+import ChartTrajectory from "../../../components/ChartTrajectory";
 
 type Props = {
   params: Promise<{ id: string }>;
@@ -54,6 +56,16 @@ const formatBillboardDate = (isoString?: string) => {
   const day = d.getDate().toString().padStart(2, "0");
   const y = d.getFullYear().toString().slice(2);
   return `${m}/${day}/${y}`;
+};
+
+const formatFullDate = (isoString?: string) => {
+  if (!isoString) return "--";
+  return new Date(isoString).toLocaleDateString("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "Asia/Manila",
+  });
 };
 
 const getStableSeed = (title: string, artist: string) => {
@@ -210,6 +222,104 @@ export default async function ArtistPage({
     if (a.peak !== b.peak) return a.peak - b.peak;
     return b.streak - a.streak;
   });
+
+  const { data: allWeeksData } = await supabase
+    .from("chart_weeks")
+    .select("id, start_date")
+    .neq("id", liveWeek?.id)
+    .order("start_date", { ascending: true });
+  const allGlobalWeeks = allWeeksData?.map((w) => w.start_date) || [];
+
+  const { data: rawArtistHistory } = await supabase
+    .from("weekly_artist_stats")
+    .select("*")
+    .eq("id", resolvedParams.id);
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const validArtistHistory = (rawArtistHistory || []).filter((e: any) => e.week_id !== liveWeek?.id);
+  validArtistHistory.sort((a, b) => new Date(a.start_date).getTime() - new Date(b.start_date).getTime());
+
+  let artistPeak = 101;
+  let artistWoc = 0;
+  let currentStreak = 0;
+  let previousRank: number | null = null;
+  const artistMaxStats: MaxStats = { sales: 0, streams: 0, airplay: 0, units: 0 };
+  const artistSeed = getStableSeed(artist.name, "Artist");
+
+  const enrichedArtistHistory = validArtistHistory.map((entry) => {
+    artistWoc += 1;
+    const rank = entry.rank;
+    let isNewPeak = false;
+    let isRePeak = false;
+
+    if (rank < artistPeak) {
+      artistPeak = rank;
+      currentStreak = 1;
+      isNewPeak = true;
+    } else if (rank === artistPeak) {
+      currentStreak += 1;
+      if (previousRank !== artistPeak) isRePeak = true;
+    }
+
+    const weeklyStreams = applyDeviation(Math.floor(entry.streams * 5250 * 275), artistSeed + 1);
+    const weeklySales = applyDeviation(Math.floor(entry.sales * 252), artistSeed + 2);
+    const weeklyAirplay = applyDeviation(Math.floor(entry.airplay * 2250 * 5020), artistSeed + 3);
+    const weeklyUnits = applyDeviation(
+      Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2),
+      artistSeed + 4,
+    );
+
+    if (weeklySales > artistMaxStats.sales) artistMaxStats.sales = weeklySales;
+    if (weeklyStreams > artistMaxStats.streams) artistMaxStats.streams = weeklyStreams;
+    if (weeklyAirplay > artistMaxStats.airplay) artistMaxStats.airplay = weeklyAirplay;
+    if (weeklyUnits > artistMaxStats.units) artistMaxStats.units = weeklyUnits;
+
+    const enriched = {
+      ...entry,
+      woc_at_time: artistWoc,
+      peak_at_time: artistPeak,
+      is_new_peak: isNewPeak,
+      is_repeak: isRePeak,
+      previous_position: previousRank,
+      peak_streak: currentStreak > 0 ? currentStreak : null,
+      chart_weeks: { start_date: entry.start_date }
+    };
+
+    previousRank = rank;
+    return enriched;
+  });
+
+  const descendingArtistHistory = [...enrichedArtistHistory].reverse();
+
+  const historyEntriesForList: DisplayEntry[] = descendingArtistHistory.map((entry) => ({
+    id: entry.week_id,
+    rank: entry.rank,
+    previousRank: entry.previous_position,
+    coverUrl: null,
+    primaryText: artist.name,
+    primaryHref: null,
+    secondaryText: formatFullDate(entry.start_date),
+    secondaryHref: `/charts/artists?week=${encodeURIComponent(entry.start_date)}`,
+    mathSeedString: `${artist.name}|Artist`,
+    disableDropdown: true,
+    hideRankChange: false,
+    isNewPeak: entry.is_new_peak,
+    isRePeak: entry.is_repeak,
+    peakPosition: entry.peak_at_time,
+    peakStreak: entry.peak_streak,
+    weeksOnChart: entry.woc_at_time,
+    totalPoints: entry.total_points || 0,
+    currentWeekPoints: entry.current_week_points || 0,
+    previousWeekRawPoints: null,
+    twoWeeksAgoRawPoints: null,
+    sales: entry.sales || 0,
+    streams: entry.streams || 0,
+    airplay: entry.airplay || 0,
+  }));
+
+  const artistDebutDate = enrichedArtistHistory.length > 0 ? enrichedArtistHistory[0].start_date : null;
+  const artistPeakEntry = enrichedArtistHistory.find((e) => e.rank === artistPeak);
+  const artistFirstPeakDate = artistPeakEntry?.start_date;
 
   const displayedTracks = showAllTracks
     ? artistTracks
@@ -381,6 +491,74 @@ export default async function ArtistPage({
             )}
           </div>
         )}
+
+        {enrichedArtistHistory.length > 0 && (
+          <div className="mb-16">
+            <div className="p-4 mb-6 bg-black flex justify-between items-end">
+              <h2 className="text-3xl font-black uppercase tracking-tighter text-white">Chart Run</h2>
+              <div className="flex gap-4 text-xs font-bold uppercase tracking-widest text-gray-400">
+                <div className="text-right">
+                  <span className="block text-white">Debut</span>
+                  {formatBillboardDate(artistDebutDate)}
+                </div>
+                <div className="text-right">
+                  <span className="block text-white">Peak Date</span>
+                  {formatBillboardDate(artistFirstPeakDate)}
+                </div>
+              </div>
+            </div>
+            <div className="bg-white border-2 border-gray-200 shadow-sm rounded-lg p-6 pt-8">
+              <ChartTrajectory
+                songEntries={enrichedArtistHistory}
+                allGlobalWeeks={allGlobalWeeks}
+              />
+            </div>
+          </div>
+        )}
+
+        <div className="mb-16">
+          <div className="p-4 mb-6" style={{ backgroundColor: ACCENT_COLOR }}>
+            <h2 className="text-3xl font-black uppercase tracking-tighter text-white">
+              Artist Week-by-Week
+            </h2>
+          </div>
+
+          <div className="text-sm border-t-2 border-black shadow-sm bg-white overflow-hidden">
+            <div className="grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] font-bold text-gray-600 border-b border-gray-300 bg-gray-50">
+              <div className="py-2 text-center">Rank</div>
+              <div className="py-2 text-center">+/-</div>
+              <div className="py-2 pl-2">Week</div>
+              <div className="py-2 text-center">{}</div>
+              <div className="py-2 text-center">Points</div>
+              <div className="py-2 text-center">%</div>
+              <div className="py-2 text-center bg-blue-50/50">Peak</div>
+              <div className="py-2 text-center">WoC</div>
+              <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">Sales</div>
+              <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">%</div>
+              <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">Streams</div>
+              <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">%</div>
+              <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">Airplay</div>
+              <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">%</div>
+              <div className="py-2 text-center text-[#721a46] bg-[#eddcfe]">Units</div>
+            </div>
+
+            <div className="flex flex-col">
+              {historyEntriesForList.map((entry) => (
+                <ChartRow
+                  key={entry.id}
+                  entry={entry}
+                  week={entry.id}
+                  maxStats={artistMaxStats}
+                />
+              ))}
+              {historyEntriesForList.length === 0 && (
+                <div className="p-10 text-center text-gray-400 font-bold uppercase tracking-widest text-sm">
+                  No Top 20 history found.
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
 
         <div className="mb-16">
           <div className="bg-black text-white p-4 flex justify-between items-end mb-4">
