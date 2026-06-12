@@ -56,14 +56,20 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <span className="text-gray-400 cursor-not-allowed">
+              <Link
+                href="/charts/albums"
+                className="hover:text-[#B30000] transition-colors"
+              >
                 Top Albums 20
-              </span>
+              </Link>
             </li>
             <li>
-              <span className="text-gray-400 cursor-not-allowed">
-                Artist 20
-              </span>
+              <Link
+                href="/charts/artists"
+                className="hover:text-[#B30000] transition-colors"
+              >
+                Top Artists 20
+              </Link>
             </li>
             <li>
               <span className="text-gray-400 cursor-not-allowed">Archive</span>
