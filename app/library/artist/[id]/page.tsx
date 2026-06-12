@@ -320,6 +320,10 @@ export default async function ArtistPage({
   const artistDebutDate = enrichedArtistHistory.length > 0 ? enrichedArtistHistory[0].start_date : null;
   const artistPeakEntry = enrichedArtistHistory.find((e) => e.rank === artistPeak);
   const artistFirstPeakDate = artistPeakEntry?.start_date;
+  const artistHighestStreak = Math.max(
+    0,
+    ...enrichedArtistHistory.filter((e) => e.rank === artistPeak).map((e) => e.peak_streak || 0)
+  );
 
   const displayedTracks = showAllTracks
     ? artistTracks
@@ -371,65 +375,105 @@ export default async function ArtistPage({
       </div>
 
       <div className="max-w-5xl mx-auto px-10 md:px-0">
-        <div className="flex flex-wrap gap-4 mb-16 justify-center">
-          <div
-            className="bg-black border-2 flex flex-col justify-center items-center w-40 h-32"
-            style={{ borderColor: ACCENT_COLOR }}
-          >
-            <span className="text-white text-4xl font-black tracking-tighter leading-none mb-1">
-              {formatNumber(careerTotalPoints)}
-            </span>
-            <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 border-t border-gray-700 w-3/4 text-center pt-2 mt-1">
-              Total Points
-            </span>
+        <div className="mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+            <div
+              className="bg-black border-2 flex flex-col justify-center items-center h-40 relative overflow-hidden"
+              style={{ borderColor: ACCENT_COLOR }}
+            >
+              <span className="text-white text-7xl font-black tracking-tighter leading-none mb-1 z-10">
+                {artistPeak === 101 ? "--" : artistPeak}
+              </span>
+              {artistHighestStreak > 0 && (
+                <span
+                  className="absolute top-4 right-4 text-white text-[10px] font-black uppercase px-2 py-0.5 rounded-sm"
+                  style={{ backgroundColor: ACCENT_COLOR }}
+                >
+                  {artistHighestStreak} Wks
+                </span>
+              )}
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 border-t border-gray-700 w-3/4 text-center pt-2 mt-2 z-10">
+                Career Peak Position
+              </span>
+            </div>
+
+            <div
+              className="bg-black border-2 flex flex-col justify-center items-center h-40"
+              style={{ borderColor: ACCENT_COLOR }}
+            >
+              <span className="text-white text-6xl font-black tracking-tighter leading-none mb-1">
+                {formatNumber(careerTotalPoints)}
+              </span>
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 border-t border-gray-700 w-3/4 text-center pt-2 mt-2">
+                All-Time Career Points
+              </span>
+            </div>
+
+            <div
+              className="bg-black border-2 flex flex-col justify-center items-center h-40"
+              style={{ borderColor: ACCENT_COLOR }}
+            >
+              <span className="text-white text-6xl font-black tracking-tighter leading-none mb-1">
+                {artistWoc}
+              </span>
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 border-t border-gray-700 w-3/4 text-center pt-2 mt-2">
+                Weeks on Chart
+              </span>
+            </div>
           </div>
 
-          <div
-            className="bg-black border-2 flex flex-col justify-center items-center w-40 h-32"
-            style={{ borderColor: ACCENT_COLOR }}
-          >
-            <span className="text-white text-4xl font-black tracking-tighter leading-none mb-1">
-              {formatNumber(careerTotalUnits)}
-            </span>
-            <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 border-t border-gray-700 w-3/4 text-center pt-2 mt-1">
-              Total Units
-            </span>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
+            <div className="bg-white border border-gray-300 p-4 flex flex-col justify-center items-center shadow-sm">
+              <span className="text-3xl font-black text-[#B30000] tracking-tighter">
+                {formatNumber(careerTotalUnits)}
+              </span>
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mt-1">
+                Total Career Units
+              </span>
+            </div>
+            <div className="bg-white border border-gray-300 p-4 flex flex-col justify-center items-center shadow-sm">
+              <span className="text-2xl font-black text-gray-800 tracking-tighter">
+                {no1Hits}
+              </span>
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mt-1">
+                No. 1 Hits
+              </span>
+            </div>
+            <div className="bg-white border border-gray-300 p-4 flex flex-col justify-center items-center shadow-sm">
+              <span className="text-2xl font-black text-gray-800 tracking-tighter">
+                {top10Hits}
+              </span>
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mt-1">
+                Top 10 Hits
+              </span>
+            </div>
+            <div className="bg-white border border-gray-300 p-4 flex flex-col justify-center items-center shadow-sm">
+              <span className="text-2xl font-black text-gray-800 tracking-tighter">
+                {chartedSongsCount}
+              </span>
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mt-1">
+                Charted Songs
+              </span>
+            </div>
           </div>
 
-          <div
-            className="bg-black border-2 flex flex-col justify-center items-center w-40 h-32"
-            style={{ borderColor: ACCENT_COLOR }}
-          >
-            <span className="text-white text-4xl font-black tracking-tighter leading-none mb-1">
-              {no1Hits}
-            </span>
-            <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 border-t border-gray-700 w-3/4 text-center pt-2 mt-1">
-              No. 1 Hits
-            </span>
-          </div>
-
-          <div
-            className="bg-black border-2 flex flex-col justify-center items-center w-40 h-32"
-            style={{ borderColor: ACCENT_COLOR }}
-          >
-            <span className="text-white text-4xl font-black tracking-tighter leading-none mb-1">
-              {top10Hits}
-            </span>
-            <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 border-t border-gray-700 w-3/4 text-center pt-2 mt-1">
-              Top 10 Hits
-            </span>
-          </div>
-
-          <div
-            className="bg-black border-2 flex flex-col justify-center items-center w-40 h-32"
-            style={{ borderColor: ACCENT_COLOR }}
-          >
-            <span className="text-white text-4xl font-black tracking-tighter leading-none mb-1">
-              {chartedSongsCount}
-            </span>
-            <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 border-t border-gray-700 w-3/4 text-center pt-2 mt-1">
-              Songs
-            </span>
+          <div className="grid grid-cols-2 gap-4">
+            <div className="bg-gray-100 border border-gray-200 p-4 flex justify-between items-center px-8">
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-500">
+                Debut Date
+              </span>
+              <span className="text-lg font-black text-gray-900">
+                {formatBillboardDate(artistDebutDate)}
+              </span>
+            </div>
+            <div className="bg-gray-100 border border-gray-200 p-4 flex justify-between items-center px-8">
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-500">
+                First Peak Date
+              </span>
+              <span className="text-lg font-black text-gray-900">
+                {formatBillboardDate(artistFirstPeakDate)}
+              </span>
+            </div>
           </div>
         </div>
 
@@ -494,18 +538,10 @@ export default async function ArtistPage({
 
         {enrichedArtistHistory.length > 0 && (
           <div className="mb-16">
-            <div className="p-4 mb-6 bg-black flex justify-between items-end">
-              <h2 className="text-3xl font-black uppercase tracking-tighter text-white">Chart Run</h2>
-              <div className="flex gap-4 text-xs font-bold uppercase tracking-widest text-gray-400">
-                <div className="text-right">
-                  <span className="block text-white">Debut</span>
-                  {formatBillboardDate(artistDebutDate)}
-                </div>
-                <div className="text-right">
-                  <span className="block text-white">Peak Date</span>
-                  {formatBillboardDate(artistFirstPeakDate)}
-                </div>
-              </div>
+            <div className="p-4 mb-6 bg-black">
+              <h2 className="text-3xl font-black uppercase tracking-tighter text-white">
+                Chart Run
+              </h2>
             </div>
             <div className="bg-white border-2 border-gray-200 shadow-sm rounded-lg p-6 pt-8">
               <ChartTrajectory
@@ -519,7 +555,7 @@ export default async function ArtistPage({
         <div className="mb-16">
           <div className="p-4 mb-6" style={{ backgroundColor: ACCENT_COLOR }}>
             <h2 className="text-3xl font-black uppercase tracking-tighter text-white">
-              Artist Week-by-Week
+              Week-by-Week History
             </h2>
           </div>
 
