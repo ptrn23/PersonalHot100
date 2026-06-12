@@ -28,7 +28,7 @@ async function runEngine() {
     return;
   }
 
-  await finalizeChartPositions(stagedEntries, overrideDate);
+  await finalizeChartPositions(stagedEntries, fetchResult.isFinalizing, overrideDate);
 
   console.log(`\nCOMPLETE! The chart is live.`);
 }

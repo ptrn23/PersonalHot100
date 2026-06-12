@@ -11,6 +11,7 @@ let cachedFinalizeCanonicalMap: Map<string, string> | null = null;
 
 export const finalizeChartPositions = async (
   stagedEntries: any[],
+  isFinalizing?: boolean,
   overrideTargetDate?: string,
 ) => {
   console.log("\nRunning finalize chart positions...");
@@ -302,19 +303,23 @@ export const finalizeChartPositions = async (
     .eq("end_date", nextEndStr)
     .maybeSingle();
 
-  if (!existingNextWeek) {
-    const { data: newWeek, error: newWeekErr } = await supabase
-      .from("chart_weeks")
-      .insert({ start_date: nextStartStr, end_date: nextEndStr })
-      .select()
-      .single();
+  if (isFinalizing) {
+    if (!existingNextWeek) {
+      const { data: newWeek, error: newWeekErr } = await supabase
+        .from("chart_weeks")
+        .insert({ start_date: nextStartStr, end_date: nextEndStr })
+        .select()
+        .single();
 
-    if (newWeekErr) {
-      console.error(`Failed to create next week:`, newWeekErr);
+      if (newWeekErr) {
+        console.error(`Failed to create next week:`, newWeekErr);
+      } else {
+        console.log(`SUCCESS: Created next charting week (${newWeek.start_date} to ${newWeek.end_date})`);
+      }
     } else {
-      console.log(`SUCCESS: Created next charting week (${newWeek.start_date} to ${newWeek.end_date})`);
+      console.log(`Next charting week already exists. Skipping creation.`);
     }
   } else {
-    console.log(`Next charting week already exists. Skipping creation.`);
+    console.log(`Current charting week still ongoing. Skipping creation.`);
   }
 };
