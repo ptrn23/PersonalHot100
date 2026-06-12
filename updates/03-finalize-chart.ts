@@ -286,4 +286,35 @@ export const finalizeChartPositions = async (
       `SUCCESS: Chart finalized for week of ${targetWeek.start_date}!`,
     );
   }
+
+  console.log("Setting up the database for next week's tracking...");
+
+  const nextStartDate = new Date(targetWeek.end_date); 
+  const nextEndDate = new Date(targetWeek.end_date);
+  nextEndDate.setDate(nextEndDate.getDate() + 7);
+  
+  const nextStartStr = nextStartDate.toISOString();
+  const nextEndStr = nextEndDate.toISOString();
+
+  const { data: existingNextWeek } = await supabase
+    .from("chart_weeks")
+    .select("id")
+    .eq("end_date", nextEndStr)
+    .maybeSingle();
+
+  if (!existingNextWeek) {
+    const { data: newWeek, error: newWeekErr } = await supabase
+      .from("chart_weeks")
+      .insert({ start_date: nextStartStr, end_date: nextEndStr })
+      .select()
+      .single();
+
+    if (newWeekErr) {
+      console.error(`Failed to create next week:`, newWeekErr);
+    } else {
+      console.log(`SUCCESS: Created next charting week (${newWeek.start_date} to ${newWeek.end_date})`);
+    }
+  } else {
+    console.log(`Next charting week already exists. Skipping creation.`);
+  }
 };
