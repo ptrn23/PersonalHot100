@@ -1,6 +1,8 @@
 import { supabase } from "@/utils/supabase";
-import { Metadata } from "next/dist/lib/metadata/types/metadata-interface";
+import { Metadata } from "next";
 import Link from "next/link";
+import ChartRow, { DisplayEntry, MaxStats } from "../../../components/ChartRow";
+import ChartTrajectory from "../../../components/ChartTrajectory";
 
 type Props = {
   params: Promise<{ id: string }>;
@@ -65,6 +67,16 @@ const formatBillboardDate = (isoString?: string) => {
   return `${m}/${day}/${y}`;
 };
 
+const formatFullDate = (isoString?: string) => {
+  if (!isoString) return "--";
+  return new Date(isoString).toLocaleDateString("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "Asia/Manila",
+  });
+};
+
 const getStableSeed = (title: string, artist: string) => {
   const combo = `${title}|${artist}`;
   let hash = 0;
@@ -93,6 +105,13 @@ export default async function AlbumPage({
     .limit(1)
     .single();
 
+  const { data: allWeeksData } = await supabase
+    .from("chart_weeks")
+    .select("id, start_date")
+    .neq("id", liveWeek?.id)
+    .order("start_date", { ascending: true });
+
+  const allGlobalWeeks = allWeeksData?.map((w) => w.start_date) || [];
   const { data: album, error } = await supabase
     .from("albums")
     .select(
@@ -129,6 +148,7 @@ export default async function AlbumPage({
   const artistName = (album.artists as any)?.name || "Unknown Artist";
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const artistId = (album.artists as any)?.id;
+  const albumTitle = album.title;
 
   let eraTotalPoints = 0;
   let eraTotalUnits = 0;
@@ -143,6 +163,7 @@ export default async function AlbumPage({
     (album.songs as any[])
       ?.map((song) => {
         const validEntries = (song.chart_entries || []).filter(
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
           (entry: any) => entry.week_id !== liveWeek?.id,
         );
         return { ...song, chart_entries: validEntries };
@@ -216,18 +237,117 @@ export default async function AlbumPage({
     return b.streak - a.streak;
   });
 
+  const { data: rawAlbumHistory } = await supabase
+    .from("weekly_album_stats")
+    .select("*")
+    .eq("id", resolvedParams.id);
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const validAlbumHistory = (rawAlbumHistory || []).filter((e: any) => e.week_id !== liveWeek?.id);
+  validAlbumHistory.sort((a, b) => new Date(a.start_date).getTime() - new Date(b.start_date).getTime());
+
+  let albumPeak = 101;
+  let albumWoc = 0;
+  let currentStreak = 0;
+  let previousRank: number | null = null;
+  const albumMaxStats: MaxStats = { sales: 0, streams: 0, airplay: 0, units: 0 };
+  const albumSeed = getStableSeed(albumTitle, artistName);
+
+  const enrichedAlbumHistory = validAlbumHistory.map((entry) => {
+    albumWoc += 1;
+    const rank = entry.rank;
+    let isNewPeak = false;
+    let isRePeak = false;
+
+    if (rank < albumPeak) {
+      albumPeak = rank;
+      currentStreak = 1;
+      isNewPeak = true;
+    } else if (rank === albumPeak) {
+      currentStreak += 1;
+      if (previousRank !== albumPeak) isRePeak = true;
+    }
+
+    const weeklyStreams = applyDeviation(Math.floor(entry.streams * 5250 * 275), albumSeed + 1);
+    const weeklySales = applyDeviation(Math.floor(entry.sales * 252), albumSeed + 2);
+    const weeklyAirplay = applyDeviation(Math.floor(entry.airplay * 2250 * 5020), albumSeed + 3);
+    const weeklyUnits = applyDeviation(
+      Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2),
+      albumSeed + 4,
+    );
+
+    if (weeklySales > albumMaxStats.sales) albumMaxStats.sales = weeklySales;
+    if (weeklyStreams > albumMaxStats.streams) albumMaxStats.streams = weeklyStreams;
+    if (weeklyAirplay > albumMaxStats.airplay) albumMaxStats.airplay = weeklyAirplay;
+    if (weeklyUnits > albumMaxStats.units) albumMaxStats.units = weeklyUnits;
+
+    const enriched = {
+      ...entry,
+      woc_at_time: albumWoc,
+      peak_at_time: albumPeak,
+      is_new_peak: isNewPeak,
+      is_repeak: isRePeak,
+      previous_position: previousRank,
+      peak_streak: currentStreak > 0 ? currentStreak : null,
+      chart_weeks: { start_date: entry.start_date }
+    };
+
+    previousRank = rank;
+    return enriched;
+  });
+
+  const descendingAlbumHistory = [...enrichedAlbumHistory].reverse();
+
+  const historyEntriesForList: DisplayEntry[] = descendingAlbumHistory.map((entry) => ({
+    id: entry.week_id,
+    rank: entry.rank,
+    previousRank: entry.previous_position,
+    
+    coverUrl: album.cover_url,
+    primaryText: albumTitle,
+    primaryHref: null,
+    secondaryText: formatFullDate(entry.start_date),
+    secondaryHref: `/charts/albums?week=${encodeURIComponent(entry.start_date)}`,
+    
+    mathSeedString: `${albumTitle}|${artistName}`,
+    
+    disableDropdown: true,
+    hideRankChange: false,
+    
+    isNewPeak: entry.is_new_peak,
+    isRePeak: entry.is_repeak,
+    peakPosition: entry.peak_at_time,
+    peakStreak: entry.peak_streak,
+    weeksOnChart: entry.woc_at_time,
+    totalPoints: entry.total_points || 0,
+    currentWeekPoints: entry.current_week_points || 0,
+    previousWeekRawPoints: null, 
+    twoWeeksAgoRawPoints: null,
+    sales: entry.sales || 0,
+    streams: entry.streams || 0,
+    airplay: entry.airplay || 0,
+  }));
+
+  const albumDebutDate = enrichedAlbumHistory.length > 0 ? enrichedAlbumHistory[0].start_date : null;
+  const albumPeakEntry = enrichedAlbumHistory.find((e) => e.rank === albumPeak);
+  const albumFirstPeakDate = albumPeakEntry?.start_date;
+  const albumHighestStreak = Math.max(
+    0,
+    ...enrichedAlbumHistory.filter((e) => e.rank === albumPeak).map((e) => e.peak_streak || 0)
+  );
+
   return (
     <main className="min-h-screen bg-[#f5f5f5] text-gray-900 pb-24">
       <div className="bg-white p-10 pb-12 shadow-sm mb-8">
         <div className="max-w-5xl mx-auto">
           <Link
-            href="/charts/weekly"
+            href="/charts/albums"
             className="inline-flex items-center gap-2 text-sm font-bold text-gray-400 hover:text-black uppercase tracking-widest mb-10 transition-colors group"
           >
             <span className="group-hover:-translate-x-1 transition-transform">
               &larr;
             </span>
-            Back to Hot 100
+            Back to Top Albums 20
           </Link>
 
           <div className="flex flex-col md:flex-row gap-10 items-end">
@@ -264,65 +384,165 @@ export default async function AlbumPage({
       </div>
 
       <div className="max-w-5xl mx-auto px-10 md:px-0">
-        <div className="flex flex-wrap gap-4 mb-16 justify-center">
-          <div
-            className="bg-black border-2 flex flex-col justify-center items-center w-40 h-32"
-            style={{ borderColor: ACCENT_COLOR }}
-          >
-            <span className="text-white text-4xl font-black tracking-tighter leading-none mb-1">
-              {formatNumber(eraTotalPoints)}
-            </span>
-            <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 border-t border-gray-700 w-3/4 text-center pt-2 mt-1">
-              Total Points
-            </span>
+        <div className="mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+            <div
+              className="bg-black border-2 flex flex-col justify-center items-center h-40 relative overflow-hidden"
+              style={{ borderColor: ACCENT_COLOR }}
+            >
+              <span className="text-white text-7xl font-black tracking-tighter leading-none mb-1 z-10">
+                {albumPeak === 101 ? "--" : albumPeak}
+              </span>
+              {albumHighestStreak > 0 && (
+                <span
+                  className="absolute top-4 right-4 text-white text-[10px] font-black uppercase px-2 py-0.5 rounded-sm"
+                  style={{ backgroundColor: ACCENT_COLOR }}
+                >
+                  {albumHighestStreak} Wks
+                </span>
+              )}
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 border-t border-gray-700 w-3/4 text-center pt-2 mt-2 z-10">
+                Peak Position
+              </span>
+            </div>
+
+            <div
+              className="bg-black border-2 flex flex-col justify-center items-center h-40"
+              style={{ borderColor: ACCENT_COLOR }}
+            >
+              <span className="text-white text-6xl font-black tracking-tighter leading-none mb-1">
+                {formatNumber(eraTotalPoints)}
+              </span>
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 border-t border-gray-700 w-3/4 text-center pt-2 mt-2">
+                All-Time Era Points
+              </span>
+            </div>
+
+            <div
+              className="bg-black border-2 flex flex-col justify-center items-center h-40"
+              style={{ borderColor: ACCENT_COLOR }}
+            >
+              <span className="text-white text-6xl font-black tracking-tighter leading-none mb-1">
+                {albumWoc}
+              </span>
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 border-t border-gray-700 w-3/4 text-center pt-2 mt-2">
+                Weeks on Chart
+              </span>
+            </div>
           </div>
 
-          <div
-            className="bg-black border-2 flex flex-col justify-center items-center w-40 h-32"
-            style={{ borderColor: ACCENT_COLOR }}
-          >
-            <span className="text-white text-4xl font-black tracking-tighter leading-none mb-1">
-              {formatNumber(eraTotalUnits)}
-            </span>
-            <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 border-t border-gray-700 w-3/4 text-center pt-2 mt-1">
-              Total Units
-            </span>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
+            <div className="bg-white border border-gray-300 p-4 flex flex-col justify-center items-center shadow-sm">
+              <span className="text-3xl font-black text-[#B30000] tracking-tighter">
+                {formatNumber(eraTotalUnits)}
+              </span>
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mt-1">
+                Total Era Units
+              </span>
+            </div>
+            <div className="bg-white border border-gray-300 p-4 flex flex-col justify-center items-center shadow-sm">
+              <span className="text-2xl font-black text-gray-800 tracking-tighter">
+                {no1Hits}
+              </span>
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mt-1">
+                No. 1 Hits
+              </span>
+            </div>
+            <div className="bg-white border border-gray-300 p-4 flex flex-col justify-center items-center shadow-sm">
+              <span className="text-2xl font-black text-gray-800 tracking-tighter">
+                {top10Hits}
+              </span>
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mt-1">
+                Top 10 Hits
+              </span>
+            </div>
+            <div className="bg-white border border-gray-300 p-4 flex flex-col justify-center items-center shadow-sm">
+              <span className="text-2xl font-black text-gray-800 tracking-tighter">
+                {chartedSongsCount}
+              </span>
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mt-1">
+                Charted Songs
+              </span>
+            </div>
           </div>
 
-          <div
-            className="bg-black border-2 flex flex-col justify-center items-center w-40 h-32"
-            style={{ borderColor: ACCENT_COLOR }}
-          >
-            <span className="text-white text-4xl font-black tracking-tighter leading-none mb-1">
-              {no1Hits}
-            </span>
-            <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 border-t border-gray-700 w-3/4 text-center pt-2 mt-1">
-              No. 1 Hits
-            </span>
+          <div className="grid grid-cols-2 gap-4">
+            <div className="bg-gray-100 border border-gray-200 p-4 flex justify-between items-center px-8">
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-500">
+                Debut Date
+              </span>
+              <span className="text-lg font-black text-gray-900">
+                {formatBillboardDate(albumDebutDate)}
+              </span>
+            </div>
+            <div className="bg-gray-100 border border-gray-200 p-4 flex justify-between items-center px-8">
+              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-500">
+                First Peak Date
+              </span>
+              <span className="text-lg font-black text-gray-900">
+                {formatBillboardDate(albumFirstPeakDate)}
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {enrichedAlbumHistory.length > 0 && (
+          <div className="mb-16">
+            <div className="p-4 mb-6 bg-black">
+              <h2 className="text-3xl font-black uppercase tracking-tighter text-white">
+                Chart Run
+              </h2>
+            </div>
+            <div className="bg-white border-2 border-gray-200 shadow-sm rounded-lg p-6 pt-8">
+              <ChartTrajectory
+                songEntries={enrichedAlbumHistory}
+                allGlobalWeeks={allGlobalWeeks}
+              />
+            </div>
+          </div>
+        )}
+
+        <div className="mb-16">
+          <div className="p-4 mb-6" style={{ backgroundColor: ACCENT_COLOR }}>
+            <h2 className="text-3xl font-black uppercase tracking-tighter text-white">
+              Week-by-Week History
+            </h2>
           </div>
 
-          <div
-            className="bg-black border-2 flex flex-col justify-center items-center w-40 h-32"
-            style={{ borderColor: ACCENT_COLOR }}
-          >
-            <span className="text-white text-4xl font-black tracking-tighter leading-none mb-1">
-              {top10Hits}
-            </span>
-            <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 border-t border-gray-700 w-3/4 text-center pt-2 mt-1">
-              Top 10 Hits
-            </span>
-          </div>
+          <div className="text-sm border-t-2 border-black shadow-sm bg-white overflow-hidden">
+            <div className="grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] font-bold text-gray-600 border-b border-gray-300 bg-gray-50">
+              <div className="py-2 text-center">Rank</div>
+              <div className="py-2 text-center">+/-</div>
+              <div className="py-2 pl-2">Week</div>
+              <div className="py-2 text-center">{}</div>
+              <div className="py-2 text-center">Points</div>
+              <div className="py-2 text-center">%</div>
+              <div className="py-2 text-center bg-blue-50/50">Peak</div>
+              <div className="py-2 text-center">WoC</div>
+              <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">Sales</div>
+              <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">%</div>
+              <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">Streams</div>
+              <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">%</div>
+              <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">Airplay</div>
+              <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">%</div>
+              <div className="py-2 text-center text-[#721a46] bg-[#eddcfe]">Units</div>
+            </div>
 
-          <div
-            className="bg-black border-2 flex flex-col justify-center items-center w-40 h-32"
-            style={{ borderColor: ACCENT_COLOR }}
-          >
-            <span className="text-white text-4xl font-black tracking-tighter leading-none mb-1">
-              {chartedSongsCount}
-            </span>
-            <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 border-t border-gray-700 w-3/4 text-center pt-2 mt-1">
-              Songs
-            </span>
+            <div className="flex flex-col">
+              {historyEntriesForList.map((entry) => (
+                <ChartRow
+                  key={entry.id}
+                  entry={entry}
+                  week={entry.id}
+                  maxStats={albumMaxStats}
+                />
+              ))}
+              {historyEntriesForList.length === 0 && (
+                <div className="p-10 text-center text-gray-400 font-bold uppercase tracking-widest text-sm">
+                  No Top 20 history found.
+                </div>
+              )}
+            </div>
           </div>
         </div>
 
