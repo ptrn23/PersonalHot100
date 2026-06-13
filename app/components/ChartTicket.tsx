@@ -12,9 +12,15 @@ const formatNumber = (num: number) => {
 
 export default function ChartTicket({ entry }: { entry: DisplayEntry }) {
   const seed = getStableSeed(entry.mathSeedString);
-  const streamsUnits = applyDeviation(Math.floor(entry.streams * 5250 * 275), seed + 1);
+  const streamsUnits = applyDeviation(
+    Math.floor(entry.streams * 5250 * 275),
+    seed + 1,
+  );
   const salesUnits = applyDeviation(Math.floor(entry.sales * 252), seed + 2);
-  const airplayUnits = applyDeviation(Math.floor(entry.airplay * 2250 * 5020), seed + 3);
+  const airplayUnits = applyDeviation(
+    Math.floor(entry.airplay * 2250 * 5020),
+    seed + 3,
+  );
 
   return (
     <div
@@ -78,7 +84,9 @@ export default function ChartTicket({ entry }: { entry: DisplayEntry }) {
           </p>
           <p className="text-sm font-medium leading-4">
             Charting for{" "}
-            <span className="font-bold text-white">{entry.weeksOnChart} weeks</span>
+            <span className="font-bold text-white">
+              {entry.weeksOnChart} weeks
+            </span>
           </p>
         </div>
 

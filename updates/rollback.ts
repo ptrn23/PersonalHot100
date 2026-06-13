@@ -17,7 +17,9 @@ export const purgeScrobblesFromWeek = async (startDateStr: string) => {
     .single();
 
   if (weekErr || !targetWeek) {
-    console.error("ERROR: Could not find a chart week matching that start date.");
+    console.error(
+      "ERROR: Could not find a chart week matching that start date.",
+    );
     return;
   }
 
@@ -42,7 +44,9 @@ export const purgeChartEntriesFromWeek = async (startDateStr: string) => {
     .gte("start_date", startDateStr);
 
   if (weekErr || !targetWeeks || targetWeeks.length === 0) {
-    console.error("ERROR: Could not find any chart weeks starting on or after that date.");
+    console.error(
+      "ERROR: Could not find any chart weeks starting on or after that date.",
+    );
     return;
   }
 
@@ -58,10 +62,12 @@ export const purgeChartEntriesFromWeek = async (startDateStr: string) => {
   if (deleteError) {
     console.error("Database error during chart entry purge:", deleteError);
   } else {
-    console.log(`SUCCESS: Permanently deleted ${deletedCount || 0} chart entries across ${weekIds.length} weeks.`);
+    console.log(
+      `SUCCESS: Permanently deleted ${deletedCount || 0} chart entries across ${weekIds.length} weeks.`,
+    );
   }
 };
 
-const targetDate = "2026-06-04T22:00:00+00:00"; 
+const targetDate = "2026-06-04T22:00:00+00:00";
 purgeScrobblesFromWeek(targetDate);
 purgeChartEntriesFromWeek(targetDate);

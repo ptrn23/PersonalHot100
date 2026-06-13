@@ -11,13 +11,13 @@ export default async function YearEndPage({
   searchParams: Promise<{ year?: string }>;
 }) {
   const resolvedParams = await searchParams;
-  
+
   const { data: yearData } = await supabase
     .from("chart_weeks")
     .select("start_date");
 
   const uniqueYears = Array.from(
-    new Set((yearData || []).map((w) => new Date(w.start_date).getFullYear()))
+    new Set((yearData || []).map((w) => new Date(w.start_date).getFullYear())),
   ).sort((a, b) => b - a);
 
   if (uniqueYears.length === 0) {
@@ -29,7 +29,9 @@ export default async function YearEndPage({
     );
   }
 
-  const targetYear = resolvedParams.year ? parseInt(resolvedParams.year) : uniqueYears[0];
+  const targetYear = resolvedParams.year
+    ? parseInt(resolvedParams.year)
+    : uniqueYears[0];
 
   const { data: rawEntries, error } = await supabase
     .from("year_end_song_stats")
@@ -39,7 +41,11 @@ export default async function YearEndPage({
     .order("rank", { ascending: true });
 
   if (error || !rawEntries) {
-    return <div className="p-10 text-center font-bold text-red-500">Failed to load year-end data.</div>;
+    return (
+      <div className="p-10 text-center font-bold text-red-500">
+        Failed to load year-end data.
+      </div>
+    );
   }
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -57,10 +63,10 @@ export default async function YearEndPage({
       secondaryText: artist,
       secondaryHref: row.artist_id ? `/library/artist/${row.artist_id}` : null,
       mathSeedString: `${title}|${artist}`,
-      
+
       disableDropdown: true,
-      hideRankChange: true, 
-      
+      hideRankChange: true,
+
       isNewPeak: false,
       isRePeak: false,
       peakPosition: row.peak_position || 101,
@@ -77,7 +83,9 @@ export default async function YearEndPage({
   });
 
   const top100Entries = mappedEntries.filter((entry) => entry.rank <= 100);
-  const numberOneHits = mappedEntries.filter((entry) => entry.peakPosition === 1);
+  const numberOneHits = mappedEntries.filter(
+    (entry) => entry.peakPosition === 1,
+  );
 
   return (
     <main className="min-h-screen bg-white text-gray-900 pb-24">
@@ -90,12 +98,9 @@ export default async function YearEndPage({
             Year of {targetYear}
           </p>
         </div>
-        
+
         <div className="pb-1">
-          <YearSelector 
-            years={uniqueYears} 
-            activeYear={targetYear} 
-          />
+          <YearSelector years={uniqueYears} activeYear={targetYear} />
         </div>
       </div>
 

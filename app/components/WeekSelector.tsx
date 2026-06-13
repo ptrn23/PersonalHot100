@@ -8,7 +8,11 @@ type Props = {
   destination: string;
 };
 
-export default function WeekSelector({ weeks, activeWeek, destination }: Props) {
+export default function WeekSelector({
+  weeks,
+  activeWeek,
+  destination,
+}: Props) {
   const router = useRouter();
   const formatWeek = (isoString: string) => {
     try {

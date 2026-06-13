@@ -40,20 +40,22 @@ export default function ChartTicketModal({
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-      <div 
-        onClick={onClose} 
-        className="absolute inset-0 bg-black/60 backdrop-blur-sm transition-opacity cursor-pointer" 
+      <div
+        onClick={onClose}
+        className="absolute inset-0 bg-black/60 backdrop-blur-sm transition-opacity cursor-pointer"
       />
       <div className="relative bg-white rounded-2xl w-full max-w-5xl max-h-[90vh] overflow-y-auto p-8 shadow-xl flex flex-col gap-6 cursor-default">
-        <button 
-          onClick={onClose} 
+        <button
+          onClick={onClose}
           className="absolute top-5 right-5 text-gray-400 hover:text-gray-600 transition-colors"
         >
           <X className="w-6 h-6" />
         </button>
 
         <div className="flex justify-between items-end pr-8">
-          <h2 className="text-2xl font-black tracking-tight text-gray-900">Chart Ticket</h2>
+          <h2 className="text-2xl font-black tracking-tight text-gray-900">
+            Chart Ticket
+          </h2>
           <button
             onClick={handleDownload}
             disabled={isExporting}
@@ -65,10 +67,17 @@ export default function ChartTicketModal({
         </div>
 
         <div className="w-full flex justify-center bg-gray-50 rounded-xl p-4 overflow-x-auto border border-gray-200">
-          <div ref={ticketRef} className="bg-[#f9fafb] p-8 flex flex-col gap-6 rounded-xl shrink-0 w-[800px]">
+          <div
+            ref={ticketRef}
+            className="bg-[#f9fafb] p-8 flex flex-col gap-6 rounded-xl shrink-0 w-[800px]"
+          >
             <div className="flex justify-between items-center text-white/50 px-2">
-              <span className="font-bold tracking-widest text-gray-600 text-sm uppercase">Personal Hot 100</span>
-              <span className="font-bold text-xs text-gray-600">Chart dated {week}</span>
+              <span className="font-bold tracking-widest text-gray-600 text-sm uppercase">
+                Personal Hot 100
+              </span>
+              <span className="font-bold text-xs text-gray-600">
+                Chart dated {week}
+              </span>
             </div>
 
             <ChartTicket entry={entry} />

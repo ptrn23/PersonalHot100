@@ -131,12 +131,21 @@ export default function ChartView({
   if (entries) {
     entries.forEach((entry) => {
       const seed = getStableSeed(entry.mathSeedString);
-      const streamsUnits = applyDeviation(Math.floor(entry.streams * 5250 * 275), seed + 1);
-      const salesUnits = applyDeviation(Math.floor(entry.sales * 252), seed + 2);
-      const airplayUnits = applyDeviation(Math.floor(entry.airplay * 2250 * 5020), seed + 3);
+      const streamsUnits = applyDeviation(
+        Math.floor(entry.streams * 5250 * 275),
+        seed + 1,
+      );
+      const salesUnits = applyDeviation(
+        Math.floor(entry.sales * 252),
+        seed + 2,
+      );
+      const airplayUnits = applyDeviation(
+        Math.floor(entry.airplay * 2250 * 5020),
+        seed + 3,
+      );
       const totalUnits = applyDeviation(
         Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2),
-        seed + 4
+        seed + 4,
       );
 
       if (salesUnits > maxStats.sales) maxStats.sales = salesUnits;
@@ -234,7 +243,9 @@ export default function ChartView({
             <div className="text-sm border-t-2 border-black shadow-sm bg-white min-h-[500px]">
               <div className="grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] font-bold text-gray-600 border-b border-gray-300 bg-gray-50 sticky top-[88px] z-10">
                 <div className="py-2 text-center">Rank</div>
-                <div className="py-2 text-center">{hideRankChangeColumn ? "" : "+/-"}</div>
+                <div className="py-2 text-center">
+                  {hideRankChangeColumn ? "" : "+/-"}
+                </div>
                 <div className="py-2 pl-2">Song</div>
                 <div className="py-2 text-center">{}</div>
                 <div className="py-2 text-center">Points</div>
@@ -267,7 +278,7 @@ export default function ChartView({
                 <ChartRow
                   key={entry.id}
                   entry={entry}
-                  week={chartLabel || "All-Time"} 
+                  week={chartLabel || "All-Time"}
                   maxStats={maxStats}
                 />
               ))}
@@ -307,14 +318,21 @@ export default function ChartView({
         )}
       </div>
 
-      <div className="absolute top-[-9999px] left-[-9999px] opacity-0 pointer-events-none" style={{ width: "1200px" }}>
-        <div ref={exportContainerRef} className="bg-white p-12 text-sm text-gray-900">
+      <div
+        className="absolute top-[-9999px] left-[-9999px] opacity-0 pointer-events-none"
+        style={{ width: "1200px" }}
+      >
+        <div
+          ref={exportContainerRef}
+          className="bg-white p-12 text-sm text-gray-900"
+        >
           <div className="flex justify-between items-end border-b-2 border-black pb-4 mb-4">
             <h1 className="text-3xl font-black uppercase tracking-tighter">
               Personal Charts
             </h1>
             <p className="text-gray-500 font-bold uppercase tracking-widest text-xs">
-              {chartLabel || exportFileNamePrefix.split("_").pop()} {/* 🚨 FIXED */}
+              {chartLabel || exportFileNamePrefix.split("_").pop()}{" "}
+              {/* 🚨 FIXED */}
             </p>
           </div>
 
@@ -322,20 +340,36 @@ export default function ChartView({
             <>
               <div className="grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] font-bold text-gray-600 border-b border-gray-300 bg-gray-50">
                 <div className="py-2 text-center">Rank</div>
-                <div className="py-2 text-center">{hideRankChangeColumn ? "" : "+/-"}</div>
+                <div className="py-2 text-center">
+                  {hideRankChangeColumn ? "" : "+/-"}
+                </div>
                 <div className="py-2 pl-2">Song</div>
                 <div className="py-2 text-center">{}</div>
                 <div className="py-2 text-center">Points</div>
                 <div className="py-2 text-center">%</div>
                 <div className="py-2 text-center bg-blue-50/50">Peak</div>
                 <div className="py-2 text-center">WoC</div>
-                <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">Sales</div>
-                <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">%</div>
-                <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">Streams</div>
-                <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">%</div>
-                <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">Airplay</div>
-                <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">%</div>
-                <div className="py-2 text-center text-[#721a46] bg-[#eddcfe]">Units</div>
+                <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">
+                  Sales
+                </div>
+                <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">
+                  %
+                </div>
+                <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">
+                  Streams
+                </div>
+                <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">
+                  %
+                </div>
+                <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">
+                  Airplay
+                </div>
+                <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">
+                  %
+                </div>
+                <div className="py-2 text-center text-[#721a46] bg-[#eddcfe]">
+                  Units
+                </div>
               </div>
               {exportChunk.map((entry) => (
                 <ChartRow

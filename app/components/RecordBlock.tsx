@@ -10,7 +10,7 @@ export type RecordEntry = {
   metricValue: string | number;
   peak: number;
   weekDisplay: string;
-  weekUrl: string; 
+  weekUrl: string;
 };
 
 type RecordBlockProps = {
@@ -21,7 +21,11 @@ type RecordBlockProps = {
 
 const ACCENT_COLOR = "#B30000";
 
-export default function RecordBlock({ title, metricLabel, entries }: RecordBlockProps) {
+export default function RecordBlock({
+  title,
+  metricLabel,
+  entries,
+}: RecordBlockProps) {
   if (!entries || entries.length === 0) return null;
 
   const topEntry = entries[0];
@@ -39,7 +43,7 @@ export default function RecordBlock({ title, metricLabel, entries }: RecordBlock
         {topEntry && (
           <div className="bg-white shadow-md flex items-center p-4 relative overflow-hidden group">
             <div className="absolute left-0 top-0 bottom-0 w-2 bg-[#B30000]" />
-            
+
             <div className="flex items-center w-full relative z-10 pl-2">
               <div className="w-16 h-16 bg-[#B30000] text-white font-black text-3xl flex items-center justify-center shrink-0 -ml-4 shadow-sm z-20">
                 1
@@ -47,7 +51,11 @@ export default function RecordBlock({ title, metricLabel, entries }: RecordBlock
 
               <div className="w-32 h-32 bg-gray-200 shrink-0 shadow-sm ml-4 border border-gray-100 relative">
                 {topEntry.coverUrl ? (
-                  <img src={topEntry.coverUrl} alt={topEntry.title} className="w-full h-full object-cover" />
+                  <img
+                    src={topEntry.coverUrl}
+                    alt={topEntry.title}
+                    className="w-full h-full object-cover"
+                  />
                 ) : (
                   <div className="w-full h-full flex items-center justify-center text-gray-400 font-bold text-xs uppercase">
                     No Cover
@@ -56,7 +64,10 @@ export default function RecordBlock({ title, metricLabel, entries }: RecordBlock
               </div>
 
               <div className="ml-6 flex-1 pr-4">
-                <Link href={`/library/song/${topEntry.id}`} className="text-2xl font-black leading-tight text-gray-900 hover:text-[#B30000] transition-colors line-clamp-1">
+                <Link
+                  href={`/library/song/${topEntry.id}`}
+                  className="text-2xl font-black leading-tight text-gray-900 hover:text-[#B30000] transition-colors line-clamp-1"
+                >
                   {topEntry.title}
                 </Link>
                 <div className="text-gray-600 font-medium text-lg mt-1 line-clamp-1">
@@ -67,7 +78,9 @@ export default function RecordBlock({ title, metricLabel, entries }: RecordBlock
               <div className="hidden md:flex flex-col items-end justify-center text-xs font-bold text-gray-500 uppercase tracking-widest gap-1 pr-8 border-r border-gray-100">
                 <div className="flex justify-between w-28">
                   <span>{metricLabel}</span>
-                  <span className="text-black font-black">{topEntry.metricValue}</span>
+                  <span className="text-black font-black">
+                    {topEntry.metricValue}
+                  </span>
                 </div>
                 <div className="flex justify-between w-28">
                   <span>Peak</span>
@@ -77,7 +90,9 @@ export default function RecordBlock({ title, metricLabel, entries }: RecordBlock
                 </div>
                 <div className="flex justify-between w-28">
                   <span>Week</span>
-                  <span className="text-black font-black">{topEntry.weekDisplay}</span>
+                  <span className="text-black font-black">
+                    {topEntry.weekDisplay}
+                  </span>
                 </div>
               </div>
 
@@ -104,7 +119,11 @@ export default function RecordBlock({ title, metricLabel, entries }: RecordBlock
 
               <div className="w-16 h-16 bg-gray-200 shrink-0 shadow-sm ml-2 border border-gray-100">
                 {entry.coverUrl ? (
-                  <img src={entry.coverUrl} alt={entry.title} className="w-full h-full object-cover" />
+                  <img
+                    src={entry.coverUrl}
+                    alt={entry.title}
+                    className="w-full h-full object-cover"
+                  />
                 ) : (
                   <div className="w-full h-full flex items-center justify-center text-gray-400 font-bold text-[8px] uppercase">
                     No Cover
@@ -113,7 +132,10 @@ export default function RecordBlock({ title, metricLabel, entries }: RecordBlock
               </div>
 
               <div className="ml-4 flex-1 pr-4">
-                <Link href={`/library/song/${entry.id}`} className="text-lg font-black leading-tight text-gray-900 hover:text-[#B30000] transition-colors line-clamp-1 block">
+                <Link
+                  href={`/library/song/${entry.id}`}
+                  className="text-lg font-black leading-tight text-gray-900 hover:text-[#B30000] transition-colors line-clamp-1 block"
+                >
                   {entry.title}
                 </Link>
                 <div className="text-gray-500 font-medium text-sm line-clamp-1">
@@ -124,7 +146,9 @@ export default function RecordBlock({ title, metricLabel, entries }: RecordBlock
               <div className="hidden md:flex flex-col items-end justify-center text-[10px] font-bold text-gray-400 uppercase tracking-widest gap-0.5 pr-6 border-r border-gray-100">
                 <div className="flex justify-between w-24">
                   <span>{metricLabel}</span>
-                  <span className="text-gray-800 font-black">{entry.metricValue}</span>
+                  <span className="text-gray-800 font-black">
+                    {entry.metricValue}
+                  </span>
                 </div>
                 <div className="flex justify-between w-24">
                   <span>Peak</span>
@@ -134,7 +158,9 @@ export default function RecordBlock({ title, metricLabel, entries }: RecordBlock
                 </div>
                 <div className="flex justify-between w-24">
                   <span>Week</span>
-                  <span className="text-gray-800 font-black">{entry.weekDisplay}</span>
+                  <span className="text-gray-800 font-black">
+                    {entry.weekDisplay}
+                  </span>
                 </div>
               </div>
 

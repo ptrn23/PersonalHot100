@@ -243,14 +243,24 @@ export default async function AlbumPage({
     .eq("id", resolvedParams.id);
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const validAlbumHistory = (rawAlbumHistory || []).filter((e: any) => e.week_id !== liveWeek?.id);
-  validAlbumHistory.sort((a, b) => new Date(a.start_date).getTime() - new Date(b.start_date).getTime());
+  const validAlbumHistory = (rawAlbumHistory || []).filter(
+    (e: any) => e.week_id !== liveWeek?.id,
+  );
+  validAlbumHistory.sort(
+    (a, b) =>
+      new Date(a.start_date).getTime() - new Date(b.start_date).getTime(),
+  );
 
   let albumPeak = 101;
   let albumWoc = 0;
   let currentStreak = 0;
   let previousRank: number | null = null;
-  const albumMaxStats: MaxStats = { sales: 0, streams: 0, airplay: 0, units: 0 };
+  const albumMaxStats: MaxStats = {
+    sales: 0,
+    streams: 0,
+    airplay: 0,
+    units: 0,
+  };
   const albumSeed = getStableSeed(albumTitle, artistName);
 
   const enrichedAlbumHistory = validAlbumHistory.map((entry) => {
@@ -268,17 +278,28 @@ export default async function AlbumPage({
       if (previousRank !== albumPeak) isRePeak = true;
     }
 
-    const weeklyStreams = applyDeviation(Math.floor(entry.streams * 5250 * 275), albumSeed + 1);
-    const weeklySales = applyDeviation(Math.floor(entry.sales * 252), albumSeed + 2);
-    const weeklyAirplay = applyDeviation(Math.floor(entry.airplay * 2250 * 5020), albumSeed + 3);
+    const weeklyStreams = applyDeviation(
+      Math.floor(entry.streams * 5250 * 275),
+      albumSeed + 1,
+    );
+    const weeklySales = applyDeviation(
+      Math.floor(entry.sales * 252),
+      albumSeed + 2,
+    );
+    const weeklyAirplay = applyDeviation(
+      Math.floor(entry.airplay * 2250 * 5020),
+      albumSeed + 3,
+    );
     const weeklyUnits = applyDeviation(
       Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2),
       albumSeed + 4,
     );
 
     if (weeklySales > albumMaxStats.sales) albumMaxStats.sales = weeklySales;
-    if (weeklyStreams > albumMaxStats.streams) albumMaxStats.streams = weeklyStreams;
-    if (weeklyAirplay > albumMaxStats.airplay) albumMaxStats.airplay = weeklyAirplay;
+    if (weeklyStreams > albumMaxStats.streams)
+      albumMaxStats.streams = weeklyStreams;
+    if (weeklyAirplay > albumMaxStats.airplay)
+      albumMaxStats.airplay = weeklyAirplay;
     if (weeklyUnits > albumMaxStats.units) albumMaxStats.units = weeklyUnits;
 
     const enriched = {
@@ -289,7 +310,7 @@ export default async function AlbumPage({
       is_repeak: isRePeak,
       previous_position: previousRank,
       peak_streak: currentStreak > 0 ? currentStreak : null,
-      chart_weeks: { start_date: entry.start_date }
+      chart_weeks: { start_date: entry.start_date },
     };
 
     previousRank = rank;
@@ -298,42 +319,47 @@ export default async function AlbumPage({
 
   const descendingAlbumHistory = [...enrichedAlbumHistory].reverse();
 
-  const historyEntriesForList: DisplayEntry[] = descendingAlbumHistory.map((entry) => ({
-    id: entry.week_id,
-    rank: entry.rank,
-    previousRank: entry.previous_position,
-    
-    coverUrl: album.cover_url,
-    primaryText: albumTitle,
-    primaryHref: null,
-    secondaryText: formatFullDate(entry.start_date),
-    secondaryHref: `/charts/albums?week=${encodeURIComponent(entry.start_date)}`,
-    
-    mathSeedString: `${albumTitle}|${artistName}`,
-    
-    disableDropdown: true,
-    hideRankChange: false,
-    
-    isNewPeak: entry.is_new_peak,
-    isRePeak: entry.is_repeak,
-    peakPosition: entry.peak_at_time,
-    peakStreak: entry.peak_streak,
-    weeksOnChart: entry.woc_at_time,
-    totalPoints: entry.total_points || 0,
-    currentWeekPoints: entry.current_week_points || 0,
-    previousWeekRawPoints: null, 
-    twoWeeksAgoRawPoints: null,
-    sales: entry.sales || 0,
-    streams: entry.streams || 0,
-    airplay: entry.airplay || 0,
-  }));
+  const historyEntriesForList: DisplayEntry[] = descendingAlbumHistory.map(
+    (entry) => ({
+      id: entry.week_id,
+      rank: entry.rank,
+      previousRank: entry.previous_position,
 
-  const albumDebutDate = enrichedAlbumHistory.length > 0 ? enrichedAlbumHistory[0].start_date : null;
+      coverUrl: album.cover_url,
+      primaryText: albumTitle,
+      primaryHref: null,
+      secondaryText: formatFullDate(entry.start_date),
+      secondaryHref: `/charts/albums?week=${encodeURIComponent(entry.start_date)}`,
+
+      mathSeedString: `${albumTitle}|${artistName}`,
+
+      disableDropdown: true,
+      hideRankChange: false,
+
+      isNewPeak: entry.is_new_peak,
+      isRePeak: entry.is_repeak,
+      peakPosition: entry.peak_at_time,
+      peakStreak: entry.peak_streak,
+      weeksOnChart: entry.woc_at_time,
+      totalPoints: entry.total_points || 0,
+      currentWeekPoints: entry.current_week_points || 0,
+      previousWeekRawPoints: null,
+      twoWeeksAgoRawPoints: null,
+      sales: entry.sales || 0,
+      streams: entry.streams || 0,
+      airplay: entry.airplay || 0,
+    }),
+  );
+
+  const albumDebutDate =
+    enrichedAlbumHistory.length > 0 ? enrichedAlbumHistory[0].start_date : null;
   const albumPeakEntry = enrichedAlbumHistory.find((e) => e.rank === albumPeak);
   const albumFirstPeakDate = albumPeakEntry?.start_date;
   const albumHighestStreak = Math.max(
     0,
-    ...enrichedAlbumHistory.filter((e) => e.rank === albumPeak).map((e) => e.peak_streak || 0)
+    ...enrichedAlbumHistory
+      .filter((e) => e.rank === albumPeak)
+      .map((e) => e.peak_streak || 0),
   );
 
   return (
@@ -519,13 +545,27 @@ export default async function AlbumPage({
               <div className="py-2 text-center">%</div>
               <div className="py-2 text-center bg-blue-50/50">Peak</div>
               <div className="py-2 text-center">WoC</div>
-              <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">Sales</div>
-              <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">%</div>
-              <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">Streams</div>
-              <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">%</div>
-              <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">Airplay</div>
-              <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">%</div>
-              <div className="py-2 text-center text-[#721a46] bg-[#eddcfe]">Units</div>
+              <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">
+                Sales
+              </div>
+              <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">
+                %
+              </div>
+              <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">
+                Streams
+              </div>
+              <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">
+                %
+              </div>
+              <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">
+                Airplay
+              </div>
+              <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">
+                %
+              </div>
+              <div className="py-2 text-center text-[#721a46] bg-[#eddcfe]">
+                Units
+              </div>
             </div>
 
             <div className="flex flex-col">

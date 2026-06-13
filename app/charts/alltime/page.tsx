@@ -13,7 +13,7 @@ export default async function AllTimeChartPage({
   const resolvedParams = await searchParams;
   const section = resolvedParams.section || "songs";
   const currentPage = parseInt(resolvedParams.page || "1", 10);
-  
+
   const itemsPerPage = 100;
   const startRange = (currentPage - 1) * itemsPerPage;
   const endRange = startRange + itemsPerPage - 1;
@@ -30,29 +30,32 @@ export default async function AllTimeChartPage({
     if (topSongs) {
       mappedEntries = topSongs.map((row, index) => {
         const title = row.display_title || row.title || "Unknown Song";
-        const artist = row.artist_display_name || row.artist_name || "Unknown Artist";
+        const artist =
+          row.artist_display_name || row.artist_name || "Unknown Artist";
 
         return {
           id: row.id,
           rank: startRange + index + 1,
           previousRank: null,
-          
+
           coverUrl: row.cover_url || null,
           primaryText: title,
           primaryHref: row.id ? `/library/song/${row.id}` : null,
           secondaryText: artist,
-          secondaryHref: row.artist_id ? `/library/artist/${row.artist_id}` : null,
-          
+          secondaryHref: row.artist_id
+            ? `/library/artist/${row.artist_id}`
+            : null,
+
           mathSeedString: `${title}|${artist}`,
           disableDropdown: true,
           hideRankChange: true,
-          
+
           isNewPeak: false,
           isRePeak: false,
           peakPosition: row.peak_position || 101,
           peakStreak: row.peak_streak || null,
           weeksOnChart: row.weeks_on_chart || 1,
-          
+
           totalPoints: row.total_points || 0,
           currentWeekPoints: 0,
           previousWeekRawPoints: null,
@@ -104,7 +107,12 @@ export default async function AllTimeChartPage({
 
       <div className="max-w-[1450px] mx-auto pt-10 px-8 text-center mb-2">
         <h1 className="text-5xl font-black uppercase tracking-tighter leading-none mb-2">
-          All-Time {section === "songs" ? "Hot 100" : section === "albums" ? "Top Albums" : "Top Artists"}
+          All-Time{" "}
+          {section === "songs"
+            ? "Hot 100"
+            : section === "albums"
+              ? "Top Albums"
+              : "Top Artists"}
         </h1>
         <p className="text-gray-500 font-bold uppercase tracking-widest text-sm">
           The Greatest Performers in History
@@ -128,8 +136,10 @@ export default async function AllTimeChartPage({
               >
                 &larr; Prev 100
               </Link>
-            ) : <div />}
-            
+            ) : (
+              <div />
+            )}
+
             {/* only show next page if we actually fetched a full 100 items */}
             {mappedEntries.length === 100 && (
               <Link

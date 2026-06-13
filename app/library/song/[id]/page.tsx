@@ -195,9 +195,15 @@ export default async function SongPage({
     if (entry.peak_position < peakPos) peakPos = entry.peak_position;
     if (entry.weeks_on_chart > woc) woc = entry.weeks_on_chart;
 
-    const weeklyStreams = applyDeviation(Math.floor(entry.streams * 5250 * 275), seed + 1);
+    const weeklyStreams = applyDeviation(
+      Math.floor(entry.streams * 5250 * 275),
+      seed + 1,
+    );
     const weeklySales = applyDeviation(Math.floor(entry.sales * 252), seed + 2);
-    const weeklyAirplay = applyDeviation(Math.floor(entry.airplay * 2250 * 5020), seed + 3);
+    const weeklyAirplay = applyDeviation(
+      Math.floor(entry.airplay * 2250 * 5020),
+      seed + 3,
+    );
     const weeklyUnits = applyDeviation(
       Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2),
       seed + 4,
@@ -234,33 +240,35 @@ export default async function SongPage({
     seed + 4,
   );
 
-  const historyEntriesForList: DisplayEntry[] = descendingEntries.map((entry) => ({
-    id: entry.id,
-    rank: entry.rank,
-    previousRank: entry.previous_position,
-    
-    coverUrl: coverUrl,
-    primaryText: song.display_title || song.title,
-    primaryHref: null,
-    
-    secondaryText: formatFullDate(entry.chart_weeks?.start_date),
-    secondaryHref: `/charts/weekly?week=${encodeURIComponent(entry.chart_weeks?.start_date)}`,
-    
-    mathSeedString: `${song.display_title || song.title}|${artistName}`,
-    
-    isNewPeak: entry.is_new_peak || false,
-    isRePeak: entry.is_repeak || false,
-    peakPosition: entry.peak_position || 101,
-    peakStreak: entry.peak_streak || null,
-    weeksOnChart: entry.weeks_on_chart || 1,
-    totalPoints: entry.total_points || 0,
-    currentWeekPoints: entry.current_week_points || 0,
-    previousWeekRawPoints: entry.previous_week_raw_points || null,
-    twoWeeksAgoRawPoints: entry.two_weeks_ago_raw_points || null,
-    sales: entry.sales || 0,
-    streams: entry.streams || 0,
-    airplay: entry.airplay || 0,
-  }));
+  const historyEntriesForList: DisplayEntry[] = descendingEntries.map(
+    (entry) => ({
+      id: entry.id,
+      rank: entry.rank,
+      previousRank: entry.previous_position,
+
+      coverUrl: coverUrl,
+      primaryText: song.display_title || song.title,
+      primaryHref: null,
+
+      secondaryText: formatFullDate(entry.chart_weeks?.start_date),
+      secondaryHref: `/charts/weekly?week=${encodeURIComponent(entry.chart_weeks?.start_date)}`,
+
+      mathSeedString: `${song.display_title || song.title}|${artistName}`,
+
+      isNewPeak: entry.is_new_peak || false,
+      isRePeak: entry.is_repeak || false,
+      peakPosition: entry.peak_position || 101,
+      peakStreak: entry.peak_streak || null,
+      weeksOnChart: entry.weeks_on_chart || 1,
+      totalPoints: entry.total_points || 0,
+      currentWeekPoints: entry.current_week_points || 0,
+      previousWeekRawPoints: entry.previous_week_raw_points || null,
+      twoWeeksAgoRawPoints: entry.two_weeks_ago_raw_points || null,
+      sales: entry.sales || 0,
+      streams: entry.streams || 0,
+      airplay: entry.airplay || 0,
+    }),
+  );
 
   return (
     <main className="min-h-screen bg-[#f5f5f5] text-gray-900 pb-24">

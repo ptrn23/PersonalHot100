@@ -60,7 +60,11 @@ export default async function WeeklyAlbumsPage({
     .order("rank", { ascending: true });
 
   if (error || !rawEntries) {
-    return <div className="p-10 text-center font-bold text-red-500">Failed to load album data.</div>;
+    return (
+      <div className="p-10 text-center font-bold text-red-500">
+        Failed to load album data.
+      </div>
+    );
   }
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -72,23 +76,23 @@ export default async function WeeklyAlbumsPage({
       id: row.id,
       rank: row.rank,
       previousRank: null,
-      
+
       coverUrl: row.cover_url || null,
       primaryText: title,
       primaryHref: row.id ? `/library/album/${row.id}` : null,
       secondaryText: artist,
       secondaryHref: row.artist_id ? `/library/artist/${row.artist_id}` : null,
-      
+
       mathSeedString: `${title}|${artist}`,
       disableDropdown: true,
-      hideRankChange: true, 
-      
+      hideRankChange: true,
+
       isNewPeak: false,
       isRePeak: false,
       peakPosition: 101,
       peakStreak: null,
       weeksOnChart: 1,
-      
+
       totalPoints: row.total_points || 0,
       currentWeekPoints: row.current_week_points || 0,
       previousWeekRawPoints: null,
@@ -99,7 +103,10 @@ export default async function WeeklyAlbumsPage({
     };
   });
 
-  const formattedDate = formatDateRange(targetWeek.start_date, targetWeek.end_date);
+  const formattedDate = formatDateRange(
+    targetWeek.start_date,
+    targetWeek.end_date,
+  );
   const availableWeekStrings = allWeeks.map((w) => w.start_date);
 
   return (
@@ -113,12 +120,12 @@ export default async function WeeklyAlbumsPage({
             Week of {formattedDate}
           </p>
         </div>
-        
+
         <div className="pb-1">
-          <WeekSelector 
-            weeks={availableWeekStrings} 
+          <WeekSelector
+            weeks={availableWeekStrings}
             activeWeek={targetWeek.start_date}
-            destination={`/charts/albums`} 
+            destination={`/charts/albums`}
           />
         </div>
       </div>

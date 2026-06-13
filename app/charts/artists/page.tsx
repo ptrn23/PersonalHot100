@@ -60,7 +60,11 @@ export default async function WeeklyArtistsPage({
     .order("rank", { ascending: true });
 
   if (error || !rawEntries) {
-    return <div className="p-10 text-center font-bold text-red-500">Failed to load artist data.</div>;
+    return (
+      <div className="p-10 text-center font-bold text-red-500">
+        Failed to load artist data.
+      </div>
+    );
   }
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -71,23 +75,23 @@ export default async function WeeklyArtistsPage({
       id: row.id,
       rank: row.rank,
       previousRank: null,
-      
+
       coverUrl: null, // Fallback to your built-in 'No Cover' UI
       primaryText: artistName,
       primaryHref: row.id ? `/library/artist/${row.id}` : null,
       secondaryText: null,
       secondaryHref: null,
-      
+
       mathSeedString: artistName,
       disableDropdown: true,
-      hideRankChange: true, 
-      
+      hideRankChange: true,
+
       isNewPeak: false,
       isRePeak: false,
       peakPosition: 101,
       peakStreak: null,
       weeksOnChart: 1,
-      
+
       totalPoints: row.total_points || 0,
       currentWeekPoints: row.current_week_points || 0,
       previousWeekRawPoints: null,
@@ -98,7 +102,10 @@ export default async function WeeklyArtistsPage({
     };
   });
 
-  const formattedDate = formatDateRange(targetWeek.start_date, targetWeek.end_date);
+  const formattedDate = formatDateRange(
+    targetWeek.start_date,
+    targetWeek.end_date,
+  );
   const availableWeekStrings = allWeeks.map((w) => w.start_date);
 
   return (
@@ -112,12 +119,12 @@ export default async function WeeklyArtistsPage({
             Week of {formattedDate}
           </p>
         </div>
-        
+
         <div className="pb-1">
-          <WeekSelector 
-            weeks={availableWeekStrings} 
+          <WeekSelector
+            weeks={availableWeekStrings}
             activeWeek={targetWeek.start_date}
-            destination={`/charts/artists`} 
+            destination={`/charts/artists`}
           />
         </div>
       </div>

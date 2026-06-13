@@ -290,10 +290,10 @@ export const finalizeChartPositions = async (
 
   console.log("Setting up the database for next week's tracking...");
 
-  const nextStartDate = new Date(targetWeek.end_date); 
+  const nextStartDate = new Date(targetWeek.end_date);
   const nextEndDate = new Date(targetWeek.end_date);
   nextEndDate.setDate(nextEndDate.getDate() + 7);
-  
+
   const nextStartStr = nextStartDate.toISOString();
   const nextEndStr = nextEndDate.toISOString();
 
@@ -314,7 +314,9 @@ export const finalizeChartPositions = async (
       if (newWeekErr) {
         console.error(`Failed to create next week:`, newWeekErr);
       } else {
-        console.log(`SUCCESS: Created next charting week (${newWeek.start_date} to ${newWeek.end_date})`);
+        console.log(
+          `SUCCESS: Created next charting week (${newWeek.start_date} to ${newWeek.end_date})`,
+        );
       }
     } else {
       console.log(`Next charting week already exists. Skipping creation.`);

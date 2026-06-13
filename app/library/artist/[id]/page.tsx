@@ -236,14 +236,24 @@ export default async function ArtistPage({
     .eq("id", resolvedParams.id);
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const validArtistHistory = (rawArtistHistory || []).filter((e: any) => e.week_id !== liveWeek?.id);
-  validArtistHistory.sort((a, b) => new Date(a.start_date).getTime() - new Date(b.start_date).getTime());
+  const validArtistHistory = (rawArtistHistory || []).filter(
+    (e: any) => e.week_id !== liveWeek?.id,
+  );
+  validArtistHistory.sort(
+    (a, b) =>
+      new Date(a.start_date).getTime() - new Date(b.start_date).getTime(),
+  );
 
   let artistPeak = 101;
   let artistWoc = 0;
   let currentStreak = 0;
   let previousRank: number | null = null;
-  const artistMaxStats: MaxStats = { sales: 0, streams: 0, airplay: 0, units: 0 };
+  const artistMaxStats: MaxStats = {
+    sales: 0,
+    streams: 0,
+    airplay: 0,
+    units: 0,
+  };
   const artistSeed = getStableSeed(artist.name, "Artist");
 
   const enrichedArtistHistory = validArtistHistory.map((entry) => {
@@ -261,17 +271,28 @@ export default async function ArtistPage({
       if (previousRank !== artistPeak) isRePeak = true;
     }
 
-    const weeklyStreams = applyDeviation(Math.floor(entry.streams * 5250 * 275), artistSeed + 1);
-    const weeklySales = applyDeviation(Math.floor(entry.sales * 252), artistSeed + 2);
-    const weeklyAirplay = applyDeviation(Math.floor(entry.airplay * 2250 * 5020), artistSeed + 3);
+    const weeklyStreams = applyDeviation(
+      Math.floor(entry.streams * 5250 * 275),
+      artistSeed + 1,
+    );
+    const weeklySales = applyDeviation(
+      Math.floor(entry.sales * 252),
+      artistSeed + 2,
+    );
+    const weeklyAirplay = applyDeviation(
+      Math.floor(entry.airplay * 2250 * 5020),
+      artistSeed + 3,
+    );
     const weeklyUnits = applyDeviation(
       Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2),
       artistSeed + 4,
     );
 
     if (weeklySales > artistMaxStats.sales) artistMaxStats.sales = weeklySales;
-    if (weeklyStreams > artistMaxStats.streams) artistMaxStats.streams = weeklyStreams;
-    if (weeklyAirplay > artistMaxStats.airplay) artistMaxStats.airplay = weeklyAirplay;
+    if (weeklyStreams > artistMaxStats.streams)
+      artistMaxStats.streams = weeklyStreams;
+    if (weeklyAirplay > artistMaxStats.airplay)
+      artistMaxStats.airplay = weeklyAirplay;
     if (weeklyUnits > artistMaxStats.units) artistMaxStats.units = weeklyUnits;
 
     const enriched = {
@@ -282,7 +303,7 @@ export default async function ArtistPage({
       is_repeak: isRePeak,
       previous_position: previousRank,
       peak_streak: currentStreak > 0 ? currentStreak : null,
-      chart_weeks: { start_date: entry.start_date }
+      chart_weeks: { start_date: entry.start_date },
     };
 
     previousRank = rank;
@@ -291,38 +312,47 @@ export default async function ArtistPage({
 
   const descendingArtistHistory = [...enrichedArtistHistory].reverse();
 
-  const historyEntriesForList: DisplayEntry[] = descendingArtistHistory.map((entry) => ({
-    id: entry.week_id,
-    rank: entry.rank,
-    previousRank: entry.previous_position,
-    coverUrl: null,
-    primaryText: artist.name,
-    primaryHref: null,
-    secondaryText: formatFullDate(entry.start_date),
-    secondaryHref: `/charts/artists?week=${encodeURIComponent(entry.start_date)}`,
-    mathSeedString: `${artist.name}|Artist`,
-    disableDropdown: true,
-    hideRankChange: false,
-    isNewPeak: entry.is_new_peak,
-    isRePeak: entry.is_repeak,
-    peakPosition: entry.peak_at_time,
-    peakStreak: entry.peak_streak,
-    weeksOnChart: entry.woc_at_time,
-    totalPoints: entry.total_points || 0,
-    currentWeekPoints: entry.current_week_points || 0,
-    previousWeekRawPoints: null,
-    twoWeeksAgoRawPoints: null,
-    sales: entry.sales || 0,
-    streams: entry.streams || 0,
-    airplay: entry.airplay || 0,
-  }));
+  const historyEntriesForList: DisplayEntry[] = descendingArtistHistory.map(
+    (entry) => ({
+      id: entry.week_id,
+      rank: entry.rank,
+      previousRank: entry.previous_position,
+      coverUrl: null,
+      primaryText: artist.name,
+      primaryHref: null,
+      secondaryText: formatFullDate(entry.start_date),
+      secondaryHref: `/charts/artists?week=${encodeURIComponent(entry.start_date)}`,
+      mathSeedString: `${artist.name}|Artist`,
+      disableDropdown: true,
+      hideRankChange: false,
+      isNewPeak: entry.is_new_peak,
+      isRePeak: entry.is_repeak,
+      peakPosition: entry.peak_at_time,
+      peakStreak: entry.peak_streak,
+      weeksOnChart: entry.woc_at_time,
+      totalPoints: entry.total_points || 0,
+      currentWeekPoints: entry.current_week_points || 0,
+      previousWeekRawPoints: null,
+      twoWeeksAgoRawPoints: null,
+      sales: entry.sales || 0,
+      streams: entry.streams || 0,
+      airplay: entry.airplay || 0,
+    }),
+  );
 
-  const artistDebutDate = enrichedArtistHistory.length > 0 ? enrichedArtistHistory[0].start_date : null;
-  const artistPeakEntry = enrichedArtistHistory.find((e) => e.rank === artistPeak);
+  const artistDebutDate =
+    enrichedArtistHistory.length > 0
+      ? enrichedArtistHistory[0].start_date
+      : null;
+  const artistPeakEntry = enrichedArtistHistory.find(
+    (e) => e.rank === artistPeak,
+  );
   const artistFirstPeakDate = artistPeakEntry?.start_date;
   const artistHighestStreak = Math.max(
     0,
-    ...enrichedArtistHistory.filter((e) => e.rank === artistPeak).map((e) => e.peak_streak || 0)
+    ...enrichedArtistHistory
+      .filter((e) => e.rank === artistPeak)
+      .map((e) => e.peak_streak || 0),
   );
 
   const displayedTracks = showAllTracks
@@ -569,13 +599,27 @@ export default async function ArtistPage({
               <div className="py-2 text-center">%</div>
               <div className="py-2 text-center bg-blue-50/50">Peak</div>
               <div className="py-2 text-center">WoC</div>
-              <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">Sales</div>
-              <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">%</div>
-              <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">Streams</div>
-              <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">%</div>
-              <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">Airplay</div>
-              <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">%</div>
-              <div className="py-2 text-center text-[#721a46] bg-[#eddcfe]">Units</div>
+              <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">
+                Sales
+              </div>
+              <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">
+                %
+              </div>
+              <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">
+                Streams
+              </div>
+              <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">
+                %
+              </div>
+              <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">
+                Airplay
+              </div>
+              <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">
+                %
+              </div>
+              <div className="py-2 text-center text-[#721a46] bg-[#eddcfe]">
+                Units
+              </div>
             </div>
 
             <div className="flex flex-col">

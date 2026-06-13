@@ -64,7 +64,8 @@ export default async function WeeklyChartPage({
 
   const { data: rawEntries, error } = await supabase
     .from("chart_entries")
-    .select(`
+    .select(
+      `
       *,
       songs (
         id,
@@ -73,13 +74,18 @@ export default async function WeeklyChartPage({
         artists ( id, name, display_name ),
         albums ( id, title, display_title, cover_url )
       )
-    `)
+    `,
+    )
     .eq("week_id", targetWeek.id)
     .lte("rank", 100)
     .order("rank", { ascending: true });
 
   if (error || !rawEntries) {
-    return <div className="p-10 text-center font-bold text-red-500">Failed to load chart data.</div>;
+    return (
+      <div className="p-10 text-center font-bold text-red-500">
+        Failed to load chart data.
+      </div>
+    );
   }
 
   const currentSongIds = new Set(rawEntries.map((e) => e.song_id));
@@ -96,7 +102,8 @@ export default async function WeeklyChartPage({
   if (prevWeek) {
     const { data: prevRaw } = await supabase
       .from("chart_entries")
-      .select(`
+      .select(
+        `
         *,
         songs (
           id,
@@ -105,7 +112,8 @@ export default async function WeeklyChartPage({
           artists ( id, name, display_name ),
           albums ( id, title, display_title, cover_url )
         )
-      `)
+      `,
+      )
       .eq("week_id", prevWeek.id)
       .lte("rank", 100)
       .order("rank", { ascending: true });
@@ -118,11 +126,16 @@ export default async function WeeklyChartPage({
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const mapToDisplayEntry = (row: any, isOut = false): DisplayEntry => {
     const songData = Array.isArray(row.songs) ? row.songs[0] : row.songs;
-    const artistData = Array.isArray(songData?.artists) ? songData.artists[0] : songData?.artists;
-    const albumData = Array.isArray(songData?.albums) ? songData.albums[0] : songData?.albums;
+    const artistData = Array.isArray(songData?.artists)
+      ? songData.artists[0]
+      : songData?.artists;
+    const albumData = Array.isArray(songData?.albums)
+      ? songData.albums[0]
+      : songData?.albums;
 
     const title = songData?.display_title || songData?.title || "Unknown Song";
-    const artist = artistData?.display_name || artistData?.name || "Unknown Artist";
+    const artist =
+      artistData?.display_name || artistData?.name || "Unknown Artist";
 
     return {
       id: row.id,
@@ -150,25 +163,47 @@ export default async function WeeklyChartPage({
     };
   };
 
-  const mappedEntries: DisplayEntry[] = rawEntries.map(row => mapToDisplayEntry(row, false));
-  const mappedDropouts: DisplayEntry[] = rawDropouts.map(row => mapToDisplayEntry(row, true));
-  const dropoutsMaxStats: MaxStats = { sales: 0, streams: 0, airplay: 0, units: 0 };
+  const mappedEntries: DisplayEntry[] = rawEntries.map((row) =>
+    mapToDisplayEntry(row, false),
+  );
+  const mappedDropouts: DisplayEntry[] = rawDropouts.map((row) =>
+    mapToDisplayEntry(row, true),
+  );
+  const dropoutsMaxStats: MaxStats = {
+    sales: 0,
+    streams: 0,
+    airplay: 0,
+    units: 0,
+  };
   mappedDropouts.forEach((entry) => {
     const seed = getStableSeed(entry.mathSeedString);
-    const streamsUnits = applyDeviation(Math.floor(entry.streams * 5250 * 275), seed + 1);
+    const streamsUnits = applyDeviation(
+      Math.floor(entry.streams * 5250 * 275),
+      seed + 1,
+    );
     const salesUnits = applyDeviation(Math.floor(entry.sales * 252), seed + 2);
-    const airplayUnits = applyDeviation(Math.floor(entry.airplay * 2250 * 5020), seed + 3);
+    const airplayUnits = applyDeviation(
+      Math.floor(entry.airplay * 2250 * 5020),
+      seed + 3,
+    );
     const totalUnits = applyDeviation(
       Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2),
       seed + 4,
     );
-    if (salesUnits > dropoutsMaxStats.sales) dropoutsMaxStats.sales = salesUnits;
-    if (streamsUnits > dropoutsMaxStats.streams) dropoutsMaxStats.streams = streamsUnits;
-    if (airplayUnits > dropoutsMaxStats.airplay) dropoutsMaxStats.airplay = airplayUnits;
-    if (totalUnits > dropoutsMaxStats.units) dropoutsMaxStats.units = totalUnits;
+    if (salesUnits > dropoutsMaxStats.sales)
+      dropoutsMaxStats.sales = salesUnits;
+    if (streamsUnits > dropoutsMaxStats.streams)
+      dropoutsMaxStats.streams = streamsUnits;
+    if (airplayUnits > dropoutsMaxStats.airplay)
+      dropoutsMaxStats.airplay = airplayUnits;
+    if (totalUnits > dropoutsMaxStats.units)
+      dropoutsMaxStats.units = totalUnits;
   });
 
-  const formattedDate = formatDateRange(targetWeek.start_date, targetWeek.end_date);
+  const formattedDate = formatDateRange(
+    targetWeek.start_date,
+    targetWeek.end_date,
+  );
   const availableWeekStrings = allWeeks.map((w) => w.start_date);
 
   return (
@@ -182,11 +217,11 @@ export default async function WeeklyChartPage({
             Week of {formattedDate}
           </p>
         </div>
-        
+
         <div className="pb-1">
-          <WeekSelector 
-            weeks={availableWeekStrings} 
-            activeWeek={targetWeek.start_date} 
+          <WeekSelector
+            weeks={availableWeekStrings}
+            activeWeek={targetWeek.start_date}
             destination="/charts/weekly"
           />
         </div>
@@ -203,9 +238,11 @@ export default async function WeeklyChartPage({
           <details className="bg-white border-2 border-gray-200 shadow-sm overflow-hidden group">
             <summary className="p-4 bg-gray-50 font-bold uppercase tracking-widest text-sm text-gray-600 cursor-pointer hover:bg-gray-100 transition-colors flex justify-between items-center select-none list-none [&::-webkit-details-marker]:hidden">
               <span>Left the Chart ({mappedDropouts.length})</span>
-              <span className="text-xl leading-none group-open:rotate-180 transition-transform">▾</span>
+              <span className="text-xl leading-none group-open:rotate-180 transition-transform">
+                ▾
+              </span>
             </summary>
-            
+
             <div className="text-sm border-t-2 border-black bg-white overflow-x-auto">
               <div className="grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] font-bold text-gray-600 border-b border-gray-300 bg-gray-50 min-w-[1200px]">
                 <div className="py-2 text-center">Rank</div>
@@ -216,15 +253,29 @@ export default async function WeeklyChartPage({
                 <div className="py-2 text-center">%</div>
                 <div className="py-2 text-center bg-blue-50/50">Peak</div>
                 <div className="py-2 text-center">WoC</div>
-                <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">Sales</div>
-                <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">%</div>
-                <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">Streams</div>
-                <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">%</div>
-                <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">Airplay</div>
-                <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">%</div>
-                <div className="py-2 text-center text-[#721a46] bg-[#eddcfe]">Units</div>
+                <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">
+                  Sales
+                </div>
+                <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">
+                  %
+                </div>
+                <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">
+                  Streams
+                </div>
+                <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">
+                  %
+                </div>
+                <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">
+                  Airplay
+                </div>
+                <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">
+                  %
+                </div>
+                <div className="py-2 text-center text-[#721a46] bg-[#eddcfe]">
+                  Units
+                </div>
               </div>
-              
+
               <div className="min-w-[1200px]">
                 {mappedDropouts.map((entry) => (
                   <ChartRow

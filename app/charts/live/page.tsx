@@ -34,7 +34,8 @@ export default async function LiveChartPage() {
 
   const { data: rawEntries, error } = await supabase
     .from("chart_entries")
-    .select(`
+    .select(
+      `
       *,
       songs (
         id,
@@ -43,43 +44,53 @@ export default async function LiveChartPage() {
         artists ( id, name, display_name ),
         albums ( id, title, display_title, cover_url )
       )
-    `)
+    `,
+    )
     .eq("week_id", latestWeek.id)
     .lte("rank", 100)
     .order("rank", { ascending: true });
-    
+
   if (error || !rawEntries) {
-    return <div className="p-10 text-center font-bold text-red-500">Failed to load chart data.</div>;
+    return (
+      <div className="p-10 text-center font-bold text-red-500">
+        Failed to load chart data.
+      </div>
+    );
   }
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const mappedEntries: DisplayEntry[] = rawEntries.map((row: any) => {
     const songData = Array.isArray(row.songs) ? row.songs[0] : row.songs;
-    const artistData = Array.isArray(songData?.artists) ? songData.artists[0] : songData?.artists;
-    const albumData = Array.isArray(songData?.albums) ? songData.albums[0] : songData?.albums;
+    const artistData = Array.isArray(songData?.artists)
+      ? songData.artists[0]
+      : songData?.artists;
+    const albumData = Array.isArray(songData?.albums)
+      ? songData.albums[0]
+      : songData?.albums;
 
     const title = songData?.display_title || songData?.title || "Unknown Song";
-    const artist = artistData?.display_name || artistData?.name || "Unknown Artist";
+    const artist =
+      artistData?.display_name || artistData?.name || "Unknown Artist";
 
     return {
       id: row.id,
       rank: row.rank,
       previousRank: row.previous_position,
-      
+
       coverUrl: albumData?.cover_url || null,
       primaryText: title,
       primaryHref: songData?.id ? `/library/song/${songData.id}` : null,
       secondaryText: artist,
       secondaryHref: artistData?.id ? `/library/artist/${artistData.id}` : null,
-      
+
       mathSeedString: `${title}|${artist}`,
-      
+
       isNewPeak: row.is_new_peak || false,
       isRePeak: row.is_repeak || false,
       peakPosition: row.peak_position || 101,
       peakStreak: row.peak_streak || null,
       weeksOnChart: row.weeks_on_chart || 1,
-      
+
       totalPoints: row.total_points || row.current_week_points || 0,
       currentWeekPoints: row.current_week_points || 0,
       previousWeekRawPoints: row.previous_week_raw_points || null,
@@ -90,7 +101,10 @@ export default async function LiveChartPage() {
     };
   });
 
-  const formattedDate = formatDateRange(latestWeek.start_date, latestWeek.end_date);
+  const formattedDate = formatDateRange(
+    latestWeek.start_date,
+    latestWeek.end_date,
+  );
 
   return (
     <main className="min-h-screen bg-white text-gray-900 pb-24">
