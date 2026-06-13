@@ -20,6 +20,7 @@ export default async function RecordsPage() {
     biggestJumpRes,
     biggestFallRes,
     biggestJumpTo1Res,
+    biggestFallFrom1Res,
     longestFirstRunRes
   ] = await Promise.all([
     supabase
@@ -38,6 +39,7 @@ export default async function RecordsPage() {
     supabase.from("record_jumps_falls").select("*").order("position_change", { ascending: false }).limit(10),
     supabase.from("record_jumps_falls").select("*").order("position_change", { ascending: true }).limit(10),
     supabase.from("record_jumps_falls").select("*").eq("rank", 1).order("position_change", { ascending: false }).limit(10),
+    supabase.from("record_jumps_falls").select("*").eq("previous_position", 1).order("position_change", { ascending: true }).limit(10),
     supabase.from("record_longest_first_runs").select("*").order("run_length", { ascending: false }).limit(10),
   ]);
 
@@ -79,9 +81,10 @@ export default async function RecordsPage() {
   const highestPointsEntries = (highestPointsRes.data || []).map((row, i) => mapToRecord(row, i, (val) => formatNumber(val)));
   const highestDebutEntries = (highestDebutRes.data || []).map((row, i) => mapToRecord(row, i, (val) => formatNumber(val)));
   
-  const biggestJumpEntries = (biggestJumpRes.data || []).map((row, i) => mapFlatRecord(row, i, (r) => `+${r.position_change} Spots`));
-  const biggestFallEntries = (biggestFallRes.data || []).map((row, i) => mapFlatRecord(row, i, (r) => `${r.position_change} Spots`));
-  const biggestJumpTo1Entries = (biggestJumpTo1Res.data || []).map((row, i) => mapFlatRecord(row, i, (r) => `+${r.position_change} Spots`));
+  const biggestJumpEntries = (biggestJumpRes.data || []).map((row, i) => mapFlatRecord(row, i, (r) => `+${r.position_change}`));
+  const biggestFallEntries = (biggestFallRes.data || []).map((row, i) => mapFlatRecord(row, i, (r) => `${r.position_change}`));
+  const biggestJumpTo1Entries = (biggestJumpTo1Res.data || []).map((row, i) => mapFlatRecord(row, i, (r) => `+${r.position_change}`));
+  const biggestFallFrom1Entries = (biggestFallFrom1Res.data || []).map((row, i) => mapFlatRecord(row, i, (r) => `${r.position_change}`));
   
   const longestFirstRunEntries = (longestFirstRunRes.data || []).map((row, i) => mapFlatRecord(row, i, (r) => `${r.run_length}`));
 
@@ -134,6 +137,12 @@ export default async function RecordsPage() {
           title="Biggest Jump to #1"
           metricLabel="JUMP"
           entries={biggestJumpTo1Entries}
+        />
+
+        <RecordBlock 
+          title="Biggest Fall from #1" 
+          metricLabel="FALL" 
+          entries={biggestFallFrom1Entries} 
         />
 
       </div>
