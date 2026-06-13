@@ -72,10 +72,20 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <span className="text-gray-400 cursor-not-allowed">Archive</span>
+              <Link
+                href="/library"
+                className="hover:text-[#B30000] transition-colors"
+              >
+                Library
+              </Link>
             </li>
             <li>
-              <span className="text-gray-400 cursor-not-allowed">About</span>
+              <Link
+                href="/about"
+                className="hover:text-[#B30000] transition-colors"
+              >
+                About
+              </Link>
             </li>
           </ul>
         </div>

@@ -304,9 +304,12 @@ export default function Header() {
             Top Artists 20
           </Link>
           <span className="text-gray-800 font-medium">|</span>
-          <span className="text-gray-500 cursor-not-allowed">
+          <Link
+            href="/charts/year-end"
+            className="hover:text-[#B30000] transition-colors text-white"
+          >
             Year-End Charts
-          </span>
+          </Link>
           <span className="text-gray-800 font-medium">|</span>
           <Link
             href="/charts/alltime"
