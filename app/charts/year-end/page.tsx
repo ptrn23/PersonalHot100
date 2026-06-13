@@ -76,6 +76,8 @@ export default async function YearEndPage({
     };
   });
 
+  const numberOneHits = mappedEntries.filter((entry) => entry.peakPosition === 1);
+
   return (
     <main className="min-h-screen bg-white text-gray-900 pb-24">
       <div className="max-w-[1450px] mx-auto pt-8 px-8 flex justify-between items-end">
@@ -102,6 +104,25 @@ export default async function YearEndPage({
         chartLabel={`Year-End ${targetYear}`}
         hideRankChangeColumn={true}
       />
+
+      {numberOneHits.length > 0 && (
+        <div className="mt-16">
+          <div className="max-w-[1450px] mx-auto px-8 mb-6 flex items-center justify-between">
+            <h2 className="text-3xl font-black uppercase tracking-tighter leading-none text-gray-900">
+              #1 Hits of {targetYear}
+            </h2>
+            <div className="text-sm font-bold text-gray-400 uppercase tracking-widest">
+              {numberOneHits.length} Tracks
+            </div>
+          </div>
+          <ChartView
+            entries={numberOneHits}
+            exportFileNamePrefix={`YearEnd_No1s_${targetYear}`}
+            chartLabel={`#1 Hits of ${targetYear}`}
+            hideRankChangeColumn={true}
+          />
+        </div>
+      )}
     </main>
   );
 }
