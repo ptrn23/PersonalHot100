@@ -322,7 +322,12 @@ export default function Header() {
             Certifications
           </span>
           <span className="text-gray-800 font-medium">|</span>
-          <span className="text-gray-500 cursor-not-allowed">Records</span>
+          <Link
+            href="/charts/records"
+            className="hover:text-[#B30000] transition-colors text-white"
+          >
+            Records
+          </Link>
         </div>
       </div>
     </div>
