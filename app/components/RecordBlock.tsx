@@ -9,7 +9,8 @@ export type RecordEntry = {
   artist: string;
   metricValue: string | number;
   peak: number;
-  weeks: number;
+  weekDisplay: string;
+  weekUrl: string; 
 };
 
 type RecordBlockProps = {
@@ -46,11 +47,7 @@ export default function RecordBlock({ title, metricLabel, entries }: RecordBlock
 
               <div className="w-32 h-32 bg-gray-200 shrink-0 shadow-sm ml-4 border border-gray-100 relative">
                 {topEntry.coverUrl ? (
-                  <img
-                    src={topEntry.coverUrl}
-                    alt={topEntry.title}
-                    className="w-full h-full object-cover"
-                  />
+                  <img src={topEntry.coverUrl} alt={topEntry.title} className="w-full h-full object-cover" />
                 ) : (
                   <div className="w-full h-full flex items-center justify-center text-gray-400 font-bold text-xs uppercase">
                     No Cover
@@ -59,10 +56,7 @@ export default function RecordBlock({ title, metricLabel, entries }: RecordBlock
               </div>
 
               <div className="ml-6 flex-1 pr-4">
-                <Link
-                  href={`/library/song/${topEntry.id}`}
-                  className="text-2xl font-black leading-tight text-gray-900 hover:text-[#B30000] transition-colors line-clamp-1"
-                >
+                <Link href={`/library/song/${topEntry.id}`} className="text-2xl font-black leading-tight text-gray-900 hover:text-[#B30000] transition-colors line-clamp-1">
                   {topEntry.title}
                 </Link>
                 <div className="text-gray-600 font-medium text-lg mt-1 line-clamp-1">
@@ -71,25 +65,26 @@ export default function RecordBlock({ title, metricLabel, entries }: RecordBlock
               </div>
 
               <div className="hidden md:flex flex-col items-end justify-center text-xs font-bold text-gray-500 uppercase tracking-widest gap-1 pr-8 border-r border-gray-100">
-                <div className="flex justify-between w-24">
+                <div className="flex justify-between w-28">
                   <span>{metricLabel}</span>
                   <span className="text-black font-black">{topEntry.metricValue}</span>
                 </div>
-                <div className="flex justify-between w-24">
+                <div className="flex justify-between w-28">
                   <span>Peak</span>
                   <span className="text-black font-black">
                     {topEntry.peak === 101 ? "--" : topEntry.peak}
                   </span>
                 </div>
-                <div className="flex justify-between w-24">
-                  <span>Weeks</span>
-                  <span className="text-black font-black">{topEntry.weeks}</span>
+                <div className="flex justify-between w-28">
+                  <span>Week</span>
+                  <span className="text-black font-black">{topEntry.weekDisplay}</span>
                 </div>
               </div>
 
               <Link
-                href={`/library/song/${topEntry.id}`}
+                href={`/charts/weekly?week=${topEntry.weekUrl}`}
                 className="ml-6 w-10 h-10 rounded-full border-2 border-gray-200 flex items-center justify-center text-gray-400 hover:text-black hover:border-black transition-colors shrink-0 mr-2"
+                title="View Chart Week"
               >
                 <ArrowRight className="w-5 h-5" />
               </Link>
@@ -109,11 +104,7 @@ export default function RecordBlock({ title, metricLabel, entries }: RecordBlock
 
               <div className="w-16 h-16 bg-gray-200 shrink-0 shadow-sm ml-2 border border-gray-100">
                 {entry.coverUrl ? (
-                  <img
-                    src={entry.coverUrl}
-                    alt={entry.title}
-                    className="w-full h-full object-cover"
-                  />
+                  <img src={entry.coverUrl} alt={entry.title} className="w-full h-full object-cover" />
                 ) : (
                   <div className="w-full h-full flex items-center justify-center text-gray-400 font-bold text-[8px] uppercase">
                     No Cover
@@ -122,10 +113,7 @@ export default function RecordBlock({ title, metricLabel, entries }: RecordBlock
               </div>
 
               <div className="ml-4 flex-1 pr-4">
-                <Link
-                  href={`/library/song/${entry.id}`}
-                  className="text-lg font-black leading-tight text-gray-900 hover:text-[#B30000] transition-colors line-clamp-1 block"
-                >
+                <Link href={`/library/song/${entry.id}`} className="text-lg font-black leading-tight text-gray-900 hover:text-[#B30000] transition-colors line-clamp-1 block">
                   {entry.title}
                 </Link>
                 <div className="text-gray-500 font-medium text-sm line-clamp-1">
@@ -134,25 +122,26 @@ export default function RecordBlock({ title, metricLabel, entries }: RecordBlock
               </div>
 
               <div className="hidden md:flex flex-col items-end justify-center text-[10px] font-bold text-gray-400 uppercase tracking-widest gap-0.5 pr-6 border-r border-gray-100">
-                <div className="flex justify-between w-20">
+                <div className="flex justify-between w-24">
                   <span>{metricLabel}</span>
                   <span className="text-gray-800 font-black">{entry.metricValue}</span>
                 </div>
-                <div className="flex justify-between w-20">
+                <div className="flex justify-between w-24">
                   <span>Peak</span>
                   <span className="text-gray-800 font-black">
                     {entry.peak === 101 ? "--" : entry.peak}
                   </span>
                 </div>
-                <div className="flex justify-between w-20">
-                  <span>Weeks</span>
-                  <span className="text-gray-800 font-black">{entry.weeks}</span>
+                <div className="flex justify-between w-24">
+                  <span>Week</span>
+                  <span className="text-gray-800 font-black">{entry.weekDisplay}</span>
                 </div>
               </div>
 
               <Link
-                href={`/library/song/${entry.id}`}
+                href={`/charts/weekly?week=${entry.weekUrl}`}
                 className="ml-5 w-8 h-8 rounded-full border border-gray-200 flex items-center justify-center text-gray-300 hover:text-black hover:border-black transition-colors shrink-0 mr-2"
+                title="View Chart Week"
               >
                 <ArrowRight className="w-4 h-4" />
               </Link>

@@ -4,6 +4,15 @@ import { formatNumber } from "../../utils/chartMath";
 
 export const dynamic = "force-dynamic";
 
+const formatRecordDate = (isoString?: string) => {
+  if (!isoString) return "--";
+  const d = new Date(isoString);
+  const m = d.getMonth() + 1;
+  const day = d.getDate().toString().padStart(2, "0");
+  const y = d.getFullYear().toString().slice(2);
+  return `${m}/${day}/${y}`;
+};
+
 export default async function RecordsPage() {
   const [
     highestPointsRes,
@@ -13,49 +22,23 @@ export default async function RecordsPage() {
     biggestJumpTo1Res,
     longestFirstRunRes
   ] = await Promise.all([
-    // highest points in a Week
     supabase
       .from("chart_entries")
-      .select(`id, total_points, peak_position, weeks_on_chart, songs(id, title, display_title, artists(name, display_name), albums(cover_url))`)
+      .select(`id, total_points, peak_position, chart_weeks(start_date), songs(id, title, display_title, artists(name, display_name), albums(cover_url))`)
       .order("total_points", { ascending: false })
       .limit(10),
 
-    // highest points debut
     supabase
       .from("chart_entries")
-      .select(`id, total_points, peak_position, weeks_on_chart, songs(id, title, display_title, artists(name, display_name), albums(cover_url))`)
+      .select(`id, total_points, peak_position, chart_weeks(start_date), songs(id, title, display_title, artists(name, display_name), albums(cover_url))`)
       .eq("weeks_on_chart", 1)
       .order("total_points", { ascending: false })
       .limit(10),
 
-    // biggest jump ever
-    supabase
-      .from("record_jumps_falls")
-      .select("*")
-      .order("position_change", { ascending: false })
-      .limit(10),
-
-    // biggest fall ever
-    supabase
-      .from("record_jumps_falls")
-      .select("*")
-      .order("position_change", { ascending: true })
-      .limit(10),
-
-    // biggest jump to #1
-    supabase
-      .from("record_jumps_falls")
-      .select("*")
-      .eq("rank", 1)
-      .order("position_change", { ascending: false })
-      .limit(10),
-
-    // longest consecutive first run
-    supabase
-      .from("record_longest_first_runs")
-      .select("*")
-      .order("run_length", { ascending: false })
-      .limit(10),
+    supabase.from("record_jumps_falls").select("*").order("position_change", { ascending: false }).limit(10),
+    supabase.from("record_jumps_falls").select("*").order("position_change", { ascending: true }).limit(10),
+    supabase.from("record_jumps_falls").select("*").eq("rank", 1).order("position_change", { ascending: false }).limit(10),
+    supabase.from("record_longest_first_runs").select("*").order("run_length", { ascending: false }).limit(10),
   ]);
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -63,6 +46,7 @@ export default async function RecordsPage() {
     const songData = Array.isArray(row.songs) ? row.songs[0] : row.songs;
     const artistData = Array.isArray(songData?.artists) ? songData.artists[0] : songData?.artists;
     const albumData = Array.isArray(songData?.albums) ? songData.albums[0] : songData?.albums;
+    const dateStr = row.chart_weeks?.start_date;
 
     return {
       id: songData?.id || "unknown",
@@ -72,39 +56,34 @@ export default async function RecordsPage() {
       artist: artistData?.display_name || artistData?.name || "Unknown Artist",
       metricValue: metricFormat(row.total_points),
       peak: row.peak_position || 101,
-      weeks: row.weeks_on_chart || 1,
+      weekDisplay: formatRecordDate(dateStr),
+      weekUrl: dateStr ? encodeURIComponent(dateStr) : "",
     };
   };
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const mapFlatRecord = (row: any, index: number, metricFormat: (row: any) => string | number): RecordEntry => ({
-    id: row.song_id || row.id,
-    rank: index + 1,
-    coverUrl: row.cover_url || null,
-    title: row.display_title || row.title || "Unknown Song",
-    artist: row.artist_display_name || row.artist_name || "Unknown Artist",
-    metricValue: metricFormat(row),
-    peak: row.peak_position || row.rank || 101,
-    weeks: row.weeks_on_chart || row.run_length || 1,
-  });
+  const mapFlatRecord = (row: any, index: number, metricFormat: (row: any) => string | number): RecordEntry => {
+    return {
+      id: row.song_id || row.id,
+      rank: index + 1,
+      coverUrl: row.cover_url || null,
+      title: row.display_title || row.title || "Unknown Song",
+      artist: row.artist_display_name || row.artist_name || "Unknown Artist",
+      metricValue: metricFormat(row),
+      peak: row.peak_position || row.rank || 101,
+      weekDisplay: formatRecordDate(row.start_date),
+      weekUrl: row.start_date ? encodeURIComponent(row.start_date) : "",
+    };
+  };
 
   const highestPointsEntries = (highestPointsRes.data || []).map((row, i) => mapToRecord(row, i, (val) => formatNumber(val)));
   const highestDebutEntries = (highestDebutRes.data || []).map((row, i) => mapToRecord(row, i, (val) => formatNumber(val)));
-
-  const biggestJumpEntries = (biggestJumpRes.data || []).map((row, i) => 
-    mapFlatRecord(row, i, (r) => `+${r.position_change}`)
-  );
   
-  const biggestFallEntries = (biggestFallRes.data || []).map((row, i) => 
-    mapFlatRecord(row, i, (r) => `${r.position_change}`)
-  );
-
-  const biggestJumpTo1Entries = (biggestJumpTo1Res.data || []).map((row, i) => 
-    mapFlatRecord(row, i, (r) => `+${r.position_change}`)
-  );
-
-  const longestFirstRunEntries = (longestFirstRunRes.data || []).map((row, i) => 
-    mapFlatRecord(row, i, (r) => `${r.run_length}`)
-  );
+  const biggestJumpEntries = (biggestJumpRes.data || []).map((row, i) => mapFlatRecord(row, i, (r) => `+${r.position_change} Spots`));
+  const biggestFallEntries = (biggestFallRes.data || []).map((row, i) => mapFlatRecord(row, i, (r) => `${r.position_change} Spots`));
+  const biggestJumpTo1Entries = (biggestJumpTo1Res.data || []).map((row, i) => mapFlatRecord(row, i, (r) => `+${r.position_change} Spots`));
+  
+  const longestFirstRunEntries = (longestFirstRunRes.data || []).map((row, i) => mapFlatRecord(row, i, (r) => `${r.run_length}`));
 
   return (
     <main className="min-h-screen bg-[#f8f9fa] text-gray-900 pb-24">
