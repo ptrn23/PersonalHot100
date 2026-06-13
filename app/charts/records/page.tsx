@@ -14,13 +14,14 @@ const formatRecordDate = (isoString?: string) => {
 };
 
 export default async function RecordsPage() {
-  const entrySelect = "id, total_points, sales, streams, airplay, peak_position, chart_weeks(start_date), songs(id, title, display_title, artists(name, display_name), albums(cover_url))";
+  const entrySelect = "id, total_points, sales, streams, airplay, peak_position, weeks_on_chart, chart_weeks(start_date), songs(id, title, display_title, artists(name, display_name), albums(cover_url))";
 
   const [
     highestPointsRes, highestDebutRes, biggestJumpRes, biggestFallRes, biggestJumpTo1Res, longestFirstRunRes, biggestFallFrom1Res,
     highestSalesRes, highestStreamsRes, highestAirplayRes,
     highestDebutSalesRes, highestDebutStreamsRes, highestDebutAirplayRes,
-    mostWeeksAt1Res, mostWeeksTop10Res, mostWeeksTop25Res
+    mostWeeksAt1Res, mostWeeksTop10Res, mostWeeksTop25Res,
+    mostTotalWeeksRes
   ] = await Promise.all([
     supabase.from("chart_entries").select(entrySelect).order("total_points", { ascending: false }).limit(10),
     supabase.from("chart_entries").select(entrySelect).eq("weeks_on_chart", 1).order("total_points", { ascending: false }).limit(10),
@@ -41,6 +42,7 @@ export default async function RecordsPage() {
     supabase.from("record_weeks_at_ranks").select("*").order("weeks_at_1", { ascending: false }).limit(10),
     supabase.from("record_weeks_at_ranks").select("*").order("weeks_in_top_10", { ascending: false }).limit(10),
     supabase.from("record_weeks_at_ranks").select("*").order("weeks_in_top_25", { ascending: false }).limit(10),
+    supabase.from("record_weeks_at_ranks").select("*").order("total_weeks", { ascending: false }).limit(10),
   ]);
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -117,6 +119,13 @@ export default async function RecordsPage() {
     return entry;
   });
 
+  const mostTotalWeeksEntries = (mostTotalWeeksRes.data || []).map((row, i) => {
+    const entry = mapFlatRecord(row, i, (r) => r.total_weeks);
+    entry.weekDisplay = formatRecordDate(row.last_week_on_chart);
+    entry.weekUrl = row.last_week_on_chart ? encodeURIComponent(row.last_week_on_chart) : "";
+    return entry;
+  });
+
   return (
     <main className="min-h-screen bg-[#f8f9fa] text-gray-900 pb-24">
       <div className="bg-white border-b border-gray-200 pt-16 pb-12 mb-12 shadow-sm">
@@ -143,6 +152,8 @@ export default async function RecordsPage() {
           metricLabel="PTS"
           entries={highestDebutEntries}
         />
+
+        <RecordBlock title="Most Total Weeks on Chart" metricLabel="WEEKS" entries={mostTotalWeeksEntries} />
 
         <RecordBlock
           title="Longest Consecutive First Run"
@@ -182,7 +193,7 @@ export default async function RecordsPage() {
 
         <RecordBlock title="Most Airplay in a Week" metricLabel="PLAYS" entries={highestAirplayEntries} />
         <RecordBlock title="Most Airplay in a Debut Week" metricLabel="PLAYS" entries={highestDebutAirplayEntries} />
-        
+
         <RecordBlock title="Most Weeks at #1" metricLabel="WEEKS" entries={mostWeeksAt1Entries} />
         <RecordBlock title="Most Weeks in the Top 10" metricLabel="WEEKS" entries={mostWeeksTop10Entries} />
         <RecordBlock title="Most Weeks in the Top 25" metricLabel="WEEKS" entries={mostWeeksTop25Entries} />
