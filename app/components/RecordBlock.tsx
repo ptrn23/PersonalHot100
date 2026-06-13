@@ -18,6 +18,8 @@ type RecordBlockProps = {
   entries: RecordEntry[];
 };
 
+const ACCENT_COLOR = "#B30000";
+
 export default function RecordBlock({ title, metricLabel, entries }: RecordBlockProps) {
   if (!entries || entries.length === 0) return null;
 
@@ -34,11 +36,11 @@ export default function RecordBlock({ title, metricLabel, entries }: RecordBlock
 
       <div className="flex flex-col gap-3">
         {topEntry && (
-          <div className="bg-white shadow-md rounded-lg flex items-center p-4 relative overflow-hidden group">
-            <div className="absolute left-0 top-0 bottom-0 w-2 bg-[#00e699]" />
+          <div className="bg-white shadow-md flex items-center p-4 relative overflow-hidden group">
+            <div className="absolute left-0 top-0 bottom-0 w-2 bg-[#B30000]" />
             
             <div className="flex items-center w-full relative z-10 pl-2">
-              <div className="w-16 h-16 bg-[#00e699] text-black font-black text-3xl flex items-center justify-center shrink-0 -ml-4 shadow-sm z-20">
+              <div className="w-16 h-16 bg-[#B30000] text-white font-black text-3xl flex items-center justify-center shrink-0 -ml-4 shadow-sm z-20">
                 1
               </div>
 
@@ -98,7 +100,7 @@ export default function RecordBlock({ title, metricLabel, entries }: RecordBlock
         {runnerUps.map((entry) => (
           <div
             key={entry.rank}
-            className="bg-white shadow-sm rounded-lg flex items-center p-3 group hover:shadow-md transition-shadow border border-gray-50"
+            className="bg-white shadow-sm flex items-center p-3 group hover:shadow-md transition-shadow border border-gray-50"
           >
             <div className="flex items-center w-full">
               <div className="w-12 text-center text-xl font-black text-gray-900 shrink-0">
@@ -147,7 +149,7 @@ export default function RecordBlock({ title, metricLabel, entries }: RecordBlock
                   <span className="text-gray-800 font-black">{entry.weeks}</span>
                 </div>
               </div>
-              
+
               <Link
                 href={`/library/song/${entry.id}`}
                 className="ml-5 w-8 h-8 rounded-full border border-gray-200 flex items-center justify-center text-gray-300 hover:text-black hover:border-black transition-colors shrink-0 mr-2"
