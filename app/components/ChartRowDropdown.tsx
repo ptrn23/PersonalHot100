@@ -71,7 +71,7 @@ export default function ChartRowDropdown({
             </span>
           </div>
           <div className="flex justify-between items-center text-gray-600 mb-1">
-            <span>One week ago:</span>
+            <span>1 week ago:</span>
             <span className="font-mono whitespace-nowrap">
               <span className="text-gray-400 text-[10px] sm:text-xs">
                 {formatNumber(entry.previousWeekRawPoints || 0)} x 30% =
@@ -82,7 +82,7 @@ export default function ChartRowDropdown({
             </span>
           </div>
           <div className="flex justify-between items-center text-gray-600">
-            <span>Two weeks ago:</span>
+            <span>2 weeks ago:</span>
             <span className="font-mono whitespace-nowrap">
               <span className="text-gray-400 text-[10px] sm:text-xs">
                 {formatNumber(entry.twoWeeksAgoRawPoints || 0)} x 20% =
@@ -93,7 +93,7 @@ export default function ChartRowDropdown({
             </span>
           </div>
         </div>
-        
+
         <div className="bg-blue-50 p-3 rounded-lg border border-blue-200 flex flex-col justify-center items-center">
           <span className="font-bold text-blue-800 text-xs uppercase mb-1">Total Points</span>
           <span className="text-4xl font-black text-blue-900 tracking-tighter leading-none mb-1">
