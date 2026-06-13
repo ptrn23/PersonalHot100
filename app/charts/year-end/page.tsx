@@ -35,7 +35,7 @@ export default async function YearEndPage({
     .from("year_end_song_stats")
     .select("*")
     .eq("chart_year", targetYear)
-    .lte("rank", 100)
+    .or("rank.lte.100,peak_position.eq.1")
     .order("rank", { ascending: true });
 
   if (error || !rawEntries) {
@@ -76,6 +76,7 @@ export default async function YearEndPage({
     };
   });
 
+  const top100Entries = mappedEntries.filter((entry) => entry.rank <= 100);
   const numberOneHits = mappedEntries.filter((entry) => entry.peakPosition === 1);
 
   return (
@@ -99,7 +100,7 @@ export default async function YearEndPage({
       </div>
 
       <ChartView
-        entries={mappedEntries}
+        entries={top100Entries}
         exportFileNamePrefix={`YearEnd100_${targetYear}`}
         chartLabel={`Year-End ${targetYear}`}
         hideRankChangeColumn={true}
