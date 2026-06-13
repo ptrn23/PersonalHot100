@@ -50,7 +50,7 @@ export default async function AllTimeChartPage({
           isNewPeak: false,
           isRePeak: false,
           peakPosition: row.peak_position || 101,
-          peakStreak: null,
+          peakStreak: row.peak_streak || null,
           weeksOnChart: row.weeks_on_chart || 1,
           
           totalPoints: row.total_points || 0,
