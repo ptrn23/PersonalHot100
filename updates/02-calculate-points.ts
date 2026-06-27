@@ -125,17 +125,16 @@ export const calculateWeeklyPoints = async (overrideTargetDate?: string) => {
 
   if (!cachedCanonicalMap) {
     console.log("Fetching canonical dictionary...");
+    
     const { data: songPointers } = await supabase
       .from("songs")
       .select("id, canonical_id")
-      .limit(10000);
+      .not("canonical_id", "is", null); 
 
     cachedCanonicalMap = new Map<string, string>();
     if (songPointers) {
       songPointers.forEach((song) => {
-        if (song.canonical_id) {
-          cachedCanonicalMap!.set(song.id, song.canonical_id);
-        }
+        cachedCanonicalMap!.set(song.id, song.canonical_id);
       });
     }
   }
