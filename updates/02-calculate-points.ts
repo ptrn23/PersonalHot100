@@ -95,17 +95,33 @@ export const calculateWeeklyPoints = async (overrideTargetDate?: string) => {
   }
 
   console.log("Fetching all scrobbles for calculation...");
-  const { data: rawScrobbles, error: scrobbleError } = await supabase
-    .from("scrobbles")
-    .select("song_id, listened_at")
-    .gte("listened_at", targetWeek.start_date)
-    .lt("listened_at", targetWeek.end_date)
-    .order("listened_at", { ascending: true });
+  
+  const rawScrobbles: any[] = [];
+  let from = 0;
+  const step = 1000;
 
-  if (scrobbleError || !rawScrobbles) {
-    console.error("Database error fetching scrobbles:", scrobbleError);
-    return null;
+  while (true) {
+    const { data, error: scrobbleError } = await supabase
+      .from("scrobbles")
+      .select("song_id, listened_at")
+      .gte("listened_at", targetWeek.start_date)
+      .lt("listened_at", targetWeek.end_date)
+      .order("listened_at", { ascending: true })
+      .range(from, from + step - 1);
+
+    if (scrobbleError) {
+      console.error("Database error fetching scrobbles:", scrobbleError);
+      return null;
+    }
+
+    if (!data || data.length === 0) break;
+    rawScrobbles.push(...data);
+
+    if (data.length < step) break;
+    from += step;
   }
+
+  console.log(`Successfully fetched ${rawScrobbles.length} total scrobbles for the week.`);
 
   if (!cachedCanonicalMap) {
     console.log("Fetching canonical dictionary...");
