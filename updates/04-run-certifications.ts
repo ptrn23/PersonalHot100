@@ -100,14 +100,18 @@ export const runCertifications = async (overrideTargetDate?: string) => {
 
   console.log(`Found ${songIds.length} unique songs and ${albumIds.length} unique albums to evaluate.`);
   
-  const { data: albumSongsData, error: albumSongsError } = await supabase
-    .from("songs")
-    .select("id, album_id, title, artists(name)")
-    .in("album_id", albumIds);
+  let albumSongsData: any[] = [];
+  if (albumIds.length > 0) {
+    const { data, error } = await supabase
+      .from("songs")
+      .select("id, album_id, title, artists(name)")
+      .in("album_id", albumIds);
 
-  if (albumSongsError) {
-    console.error("Error fetching album songs:", albumSongsError);
-    return;
+    if (error) {
+      console.error("Error fetching album songs:", error);
+      return;
+    }
+    albumSongsData = data || [];
   }
 
   const albumSongsMap = new Map<string, string>();
@@ -191,10 +195,15 @@ export const runCertifications = async (overrideTargetDate?: string) => {
 
   console.log("Points tallied successfully!");
 
-  const { data: existingCerts, error: certsError } = await supabase
-    .from("certifications")
-    .select("song_id, album_id, award_name, multiplier")
-    .or(`song_id.in.(${songIds.join(",")}),album_id.in.(${albumIds.join(",")})`);
+  let certsQuery = supabase.from("certifications").select("song_id, album_id, award_name, multiplier");
+  
+  if (albumIds.length > 0) {
+    certsQuery = certsQuery.or(`song_id.in.(${songIds.join(",")}),album_id.in.(${albumIds.join(",")})`);
+  } else {
+    certsQuery = certsQuery.in("song_id", songIds);
+  }
+
+  const { data: existingCerts, error: certsError } = await certsQuery;
 
   if (certsError) {
     console.error("Error fetching existing certifications:", certsError);
