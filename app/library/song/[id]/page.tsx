@@ -668,12 +668,18 @@ const PlaqueDisc = ({
       <div className={`absolute inset-0 ${theme.shine} mix-blend-overlay`} />
 
       <div
-        className={`relative w-20 h-20 rounded-full bg-white flex flex-col items-center justify-center shadow-lg border-4 ${theme.labelBorder} z-10 text-center px-1`}
+        className={`relative w-20 h-20 rounded-full bg-white flex flex-col items-center justify-center shadow-lg border-4 ${theme.labelBorder} z-10`}
       >
-        <span className="text-[15px] font-black uppercase tracking-tighter text-gray-400">SCC</span>
-        <span className={`text-[8px] font-black uppercase leading-none mt-1 ${theme.text}`}>
-          {isMulti ? `${multiplier}x ` : ""}{awardName}
-        </span>
+        <div className="flex flex-col items-center">
+            {isMulti && (
+                <span className="text-xl font-black text-gray-900 leading-none">
+                    {multiplier}x
+                </span>
+            )}
+            <span className={`text-[8px] font-black uppercase leading-none ${isMulti ? "mt-0" : "mt-0"} ${theme.text}`}>
+                {awardName}
+            </span>
+        </div>
       </div>
     </div>
   );
