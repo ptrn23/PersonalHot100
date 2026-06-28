@@ -2,11 +2,11 @@ import dotenv from "dotenv";
 import { createClient } from "@supabase/supabase-js";
 dotenv.config();
 
-const getStableSeed = (seedString?: string) => {
-  if (!seedString) return 0;
+const getStableSeed = (title: string, artist: string) => {
+  const combo = `${title}|${artist}`;
   let hash = 0;
-  for (let i = 0; i < seedString.length; i++) {
-    hash += (i + 1) * seedString.charCodeAt(i);
+  for (let i = 0; i < combo.length; i++) {
+    hash += (i + 1) * combo.charCodeAt(i);
   }
   return hash;
 };
@@ -21,16 +21,14 @@ const applyDeviation = (
   return Math.floor(base * (1 + deviation));
 };
 
-const calculateUnits = (entry: any): number => {
+const calculateUnits = (entry: any, title: string, artist: string): number => {
   const streams = entry.streams || 0;
   const sales = entry.sales || 0;
   const airplay = entry.airplay || 0;
   
   const base = Math.floor((streams + sales + airplay) * 1750 * 2);
   
-  const seedString = `${entry.song_id}-${entry.week_id}`;
-  const seed = getStableSeed(seedString);
-
+  const seed = getStableSeed(title, artist);
   return applyDeviation(base, seed + 4);
 };
 
@@ -47,7 +45,6 @@ const CERT_THRESHOLDS = {
 async function rebuildAllCertifications() {
   console.log("🏁 Starting total certification rebuild...");
 
-  // 1. Fetch all weeks in chronological order
   const { data: weeks, error: weeksErr } = await supabase
     .from("chart_weeks")
     .select("id, start_date")
@@ -59,15 +56,16 @@ async function rebuildAllCertifications() {
   }
   console.log(`Loaded ${weeks.length} weeks chronologically.`);
 
-  // 2. Fetch song-to-album mappings
   const songAlbumMap = new Map<string, string>();
+  const songSeedMap = new Map<string, { title: string; artist: string }>();
+  
   let songFrom = 0;
   const songStep = 1000;
 
   while (true) {
     const { data: songs, error: songsErr } = await supabase
       .from("songs")
-      .select("id, album_id")
+      .select("id, album_id, title, artists(name)")
       .range(songFrom, songFrom + songStep - 1);
 
     if (songsErr) {
@@ -75,15 +73,20 @@ async function rebuildAllCertifications() {
       return;
     }
     if (!songs || songs.length === 0) break;
+    
     songs.forEach((s) => {
       if (s.album_id) songAlbumMap.set(s.id, s.album_id);
+      
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const artistName = (s.artists as any)?.name || "Unknown Artist";
+      songSeedMap.set(s.id, { title: s.title || "", artist: artistName });
     });
+    
     if (songs.length < songStep) break;
     songFrom += songStep;
   }
   console.log("Loaded song dictionary.");
 
-  // 3. Fetch ALL historical chart entries in chronological order
   console.log("Fetching all chart entries (this might take a few moments)...");
   const allEntries: any[] = [];
   let entryFrom = 0;
@@ -106,7 +109,6 @@ async function rebuildAllCertifications() {
   }
   console.log(`Loaded ${allEntries.length} total chart entries.`);
 
-  // 4. Group chart entries by week_id for rapid processing
   const entriesByWeek = new Map<string, any[]>();
   allEntries.forEach((entry) => {
     if (!entriesByWeek.has(entry.week_id)) {
@@ -115,25 +117,23 @@ async function rebuildAllCertifications() {
     entriesByWeek.get(entry.week_id)!.push(entry);
   });
 
-  // Running cumulative point totals
   const songTotals = new Map<string, number>();
   const albumTotals = new Map<string, number>();
 
-  // Tracks awarded levels to prevent double-insertions during timeline simulation
   const awardedSongCerts = new Set<string>();
   const awardedAlbumCerts = new Set<string>();
 
   const certsToInsert: any[] = [];
 
-  // 5. Chronological Simulation Loop
   for (const week of weeks) {
     const weekEntries = entriesByWeek.get(week.id) || [];
     if (weekEntries.length === 0) continue;
 
-    // Add this week's points to our running totals
     weekEntries.forEach((entry) => {
       const sId = entry.song_id;
-      const units = calculateUnits(entry); // 🚨 USING THE FORMULA
+      
+      const seedData = songSeedMap.get(sId) || { title: "Unknown", artist: "Unknown" };
+      const units = calculateUnits(entry, seedData.title, seedData.artist);
 
       songTotals.set(sId, (songTotals.get(sId) || 0) + units);
 
@@ -143,7 +143,6 @@ async function rebuildAllCertifications() {
       }
     });
 
-    // Check milestones for every song that has points so far
     for (const [sId, total] of songTotals.entries()) {
       if (total >= CERT_THRESHOLDS.song.Gold) {
         const key = `${sId}-Gold-1`;
@@ -175,7 +174,6 @@ async function rebuildAllCertifications() {
       }
     }
 
-    // Check milestones for every album that has points so far
     for (const [aId, total] of albumTotals.entries()) {
       if (total >= CERT_THRESHOLDS.album.Gold) {
         const key = `${aId}-Gold-1`;
@@ -208,7 +206,6 @@ async function rebuildAllCertifications() {
     }
   }
 
-  // 6. Database Operations: Clear old certifications and insert rebuilt ones
   console.log("Cleaning up old certification entries from database...");
   const { error: delErr } = await supabase.from("certifications").delete().neq("id", "00000000-0000-0000-0000-000000000000");
   if (delErr) {
@@ -223,7 +220,6 @@ async function rebuildAllCertifications() {
 
   console.log(`Calculated ${certsToInsert.length} total historical milestones. Saving to DB in chunks...`);
   
-  // Chunk inserts to comply with maximum payload constraints
   const chunkSize = 1000;
   for (let i = 0; i < certsToInsert.length; i += chunkSize) {
     const chunk = certsToInsert.slice(i, i + chunkSize);
@@ -234,7 +230,7 @@ async function rebuildAllCertifications() {
     }
   }
 
-  console.log("🏆 SUCCESS: The historical certification timeline has been completely rebuilt!");
+  console.log("SUCCESS: Certifications rebuilt!");
 }
 
 rebuildAllCertifications();
