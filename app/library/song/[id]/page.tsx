@@ -548,44 +548,55 @@ export default async function SongPage({
           </div>
 
           {sortedCerts.length > 0 ? (
-            <div className="bg-white border border-gray-200 p-6 md:p-8 shadow-sm">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 gap-x-8 border-b border-gray-200 pb-6 mb-6">
-                <div>
-                  <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Release Date</div>
-                  <div className="text-lg font-medium text-gray-900">--</div>
-                </div>
-                <div>
-                  <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Format</div>
-                  <div className="text-lg font-medium text-gray-900">Single</div>
-                </div>
-                <div>
-                  <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Certified Units</div>
-                  <div className="text-lg font-black text-black">{certifiedUnits} Million</div>
-                </div>
-                <div>
-                  <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Genre</div>
-                  <div className="text-lg font-medium text-gray-900">--</div>
+            <div className="bg-white border border-gray-200 p-6 md:p-8 shadow-sm grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+              <div className="flex justify-center items-center w-full">
+                <div className="w-full max-w-[200px] aspect-square rounded-full border-4 border-gray-200 flex items-center justify-center bg-gray-50 relative shadow-inner">
+                  <div className="w-16 h-16 rounded-full border-2 border-gray-200 bg-white shadow-sm flex items-center justify-center">
+                    <span className="text-[9px] font-bold text-gray-400 uppercase tracking-tighter">Plaque</span>
+                  </div>
                 </div>
               </div>
 
-              <div>
-                <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">
-                  Previous Certifications
+              <div className="md:col-span-2 w-full">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8 border-b border-gray-200 pb-6 mb-6">
+                  <div>
+                    <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Release Date</div>
+                    <div className="text-lg font-medium text-gray-900">--</div>
+                  </div>
+                  <div>
+                    <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Format</div>
+                    <div className="text-lg font-medium text-gray-900">Single</div>
+                  </div>
+                  <div>
+                    <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Certified Units</div>
+                    <div className="text-lg font-black text-black">{certifiedUnits} Million</div>
+                  </div>
+                  <div>
+                    <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Genre</div>
+                    <div className="text-lg font-medium text-gray-900">--</div>
+                  </div>
                 </div>
-                <ul className="space-y-3">
-                  {sortedCerts.map((cert, index) => (
-                    <li key={index} className="flex items-center text-sm md:text-base">
-                      <span className="font-black text-black w-32 shrink-0">
-                        {formatCertTitle(cert.award_name, cert.multiplier)}
-                      </span>
-                      <span className="text-gray-300 mx-3">|</span>
-                      <span className="text-gray-600 font-medium">
-                        {formatFullDate(cert.chart_weeks?.start_date)}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
+                
+                <div>
+                  <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">
+                    Previous Certifications
+                  </div>
+                  <ul className="space-y-3">
+                    {sortedCerts.map((cert, index) => (
+                      <li key={index} className="flex items-center text-sm md:text-base">
+                        <span className="font-black text-black w-32 shrink-0">
+                          {formatCertTitle(cert.award_name, cert.multiplier)}
+                        </span>
+                        <span className="text-gray-300 mx-3">|</span>
+                        <span className="text-gray-600 font-medium">
+                          {formatFullDate(cert.chart_weeks?.start_date)}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
+
             </div>
           ) : (
             <div className="bg-white border-2 border-dashed border-gray-300 flex items-center justify-center text-center p-12">
