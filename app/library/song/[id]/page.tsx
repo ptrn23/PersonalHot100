@@ -662,7 +662,7 @@ const PlaqueDisc = ({
     <div className="relative w-full max-w-[200px] aspect-square flex items-center justify-center">
       {Array.from({ length: displayCount }).map((_, i) => {
         const isLast = i === displayCount - 1;
-        const yOffset = (i - (displayCount - 1) / 2) * 36;
+        const yOffset = (i - (displayCount - 1) / 2) * 24;
         const xOffset = (i - (displayCount - 1) / 2) * 0;
 
         return (
