@@ -2,11 +2,11 @@ import dotenv from "dotenv";
 import { createClient } from "@supabase/supabase-js";
 dotenv.config();
 
-const getStableSeed = (seedString?: string) => {
-  if (!seedString) return 0;
+const getStableSeed = (title: string, artist: string) => {
+  const combo = `${title}|${artist}`;
   let hash = 0;
-  for (let i = 0; i < seedString.length; i++) {
-    hash += (i + 1) * seedString.charCodeAt(i);
+  for (let i = 0; i < combo.length; i++) {
+    hash += (i + 1) * combo.charCodeAt(i);
   }
   return hash;
 };
@@ -21,16 +21,14 @@ const applyDeviation = (
   return Math.floor(base * (1 + deviation));
 };
 
-const calculateUnits = (entry: any): number => {
+const calculateUnits = (entry: any, title: string, artist: string): number => {
   const streams = entry.streams || 0;
   const sales = entry.sales || 0;
   const airplay = entry.airplay || 0;
   
   const base = Math.floor((streams + sales + airplay) * 1750 * 2);
   
-  const seedString = `${entry.song_id}-${entry.week_id}`;
-  const seed = getStableSeed(seedString);
-
+  const seed = getStableSeed(title, artist);
   return applyDeviation(base, seed + 4);
 };
 
@@ -104,7 +102,7 @@ export const runCertifications = async (overrideTargetDate?: string) => {
   
   const { data: albumSongsData, error: albumSongsError } = await supabase
     .from("songs")
-    .select("id, album_id")
+    .select("id, album_id, title, artists(name)")
     .in("album_id", albumIds);
 
   if (albumSongsError) {
@@ -113,13 +111,33 @@ export const runCertifications = async (overrideTargetDate?: string) => {
   }
 
   const albumSongsMap = new Map<string, string>();
+  const songSeedMap = new Map<string, { title: string; artist: string }>();
+
   albumSongsData?.forEach((s) => {
     if (s.album_id) albumSongsMap.set(s.id, s.album_id);
+    
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const artistName = (s.artists as any)?.name || "Unknown Artist";
+    songSeedMap.set(s.id, { title: s.title || "", artist: artistName });
   });
-
+  
   const allRelevantSongIds = Array.from(
     new Set([...songIds, ...(albumSongsData?.map((s) => s.id) || [])])
   );
+
+  const missingSeedIds = allRelevantSongIds.filter(id => !songSeedMap.has(id));
+  if (missingSeedIds.length > 0) {
+    const { data: missingSongs } = await supabase
+      .from("songs")
+      .select("id, title, artists(name)")
+      .in("id", missingSeedIds);
+      
+    missingSongs?.forEach(s => {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const artistName = (s.artists as any)?.name || "Unknown Artist";
+      songSeedMap.set(s.id, { title: s.title || "", artist: artistName });
+    });
+  }
 
   console.log(`Fetching historical points for ${allRelevantSongIds.length} tracks...`);
 
@@ -159,7 +177,9 @@ export const runCertifications = async (overrideTargetDate?: string) => {
 
   for (const entry of historicalEntries) {
     const sId = entry.song_id;
-    const units = calculateUnits(entry);
+    
+    const seedData = songSeedMap.get(sId) || { title: "Unknown", artist: "Unknown" };
+    const units = calculateUnits(entry, seedData.title, seedData.artist);
 
     songTotals.set(sId, (songTotals.get(sId) || 0) + units);
 
