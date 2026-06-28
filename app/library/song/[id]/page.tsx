@@ -550,11 +550,7 @@ export default async function SongPage({
           {sortedCerts.length > 0 ? (
             <div className="bg-white border border-gray-200 p-6 md:p-8 shadow-sm grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
               <div className="flex justify-center items-center w-full">
-                <div className="w-full max-w-[200px] aspect-square rounded-full border-4 border-gray-200 flex items-center justify-center bg-gray-50 relative shadow-inner">
-                  <div className="w-16 h-16 rounded-full border-2 border-gray-200 bg-white shadow-sm flex items-center justify-center">
-                    <span className="text-[9px] font-bold text-gray-400 uppercase tracking-tighter">Plaque</span>
-                  </div>
-                </div>
+                <PlaqueDisc awardName={highestCert.award_name} />
               </div>
 
               <div className="md:col-span-2 w-full">
@@ -576,7 +572,7 @@ export default async function SongPage({
                     <div className="text-lg font-medium text-gray-900">--</div>
                   </div>
                 </div>
-                
+
                 <div>
                   <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">
                     Previous Certifications
@@ -623,3 +619,54 @@ export default async function SongPage({
     </main>
   );
 }
+
+const PlaqueDisc = ({ awardName }: { awardName: "Gold" | "Platinum" | "Diamond" }) => {
+  const themes = {
+    Gold: {
+      outer: "bg-gradient-to-br from-yellow-300 via-yellow-500 to-yellow-700 shadow-yellow-900/50",
+      grooves: "border-yellow-900/20",
+      labelBorder: "border-yellow-400",
+      text: "text-yellow-600",
+      shine: "bg-gradient-to-tr from-white/20 via-white/60 to-transparent",
+    },
+    Platinum: {
+      outer: "bg-gradient-to-br from-gray-200 via-gray-400 to-gray-600 shadow-gray-900/50",
+      grooves: "border-gray-800/20",
+      labelBorder: "border-gray-300",
+      text: "text-gray-600",
+      shine: "bg-gradient-to-tr from-white/40 via-white/80 to-transparent",
+    },
+    Diamond: {
+      outer: "bg-gradient-to-br from-indigo-100 via-cyan-200 to-emerald-100 shadow-cyan-900/30",
+      grooves: "border-cyan-600/20",
+      labelBorder: "border-cyan-200",
+      text: "text-cyan-700",
+      shine: "bg-gradient-to-tr from-white/60 via-white/90 to-white/20",
+    },
+  };
+
+  const theme = themes[awardName] || themes.Gold;
+
+  return (
+    <div
+      className={`relative w-full max-w-[200px] aspect-square rounded-full flex items-center justify-center overflow-hidden ${theme.outer}`}
+    >
+      <div className={`absolute inset-2 rounded-full border-[1px] ${theme.grooves}`} />
+      <div className={`absolute inset-4 rounded-full border-[1px] ${theme.grooves}`} />
+      <div className={`absolute inset-8 rounded-full border-[1px] ${theme.grooves}`} />
+      <div className={`absolute inset-12 rounded-full border-[1px] ${theme.grooves}`} />
+      <div className={`absolute inset-16 rounded-full border-[1px] ${theme.grooves}`} />
+      <div className={`absolute inset-0 ${theme.shine} mix-blend-overlay`} />
+
+      <div
+        className={`relative w-20 h-20 rounded-full bg-white flex flex-col items-center justify-center shadow-lg border-4 ${theme.labelBorder} z-10`}
+      >
+        <div className="w-2 h-2 rounded-full bg-gray-200 absolute mb-8 border border-gray-300 shadow-inner" />
+        
+        <span className={`text-[10px] font-black uppercase tracking-tighter mt-3 ${theme.text}`}>
+          {awardName}
+        </span>
+      </div>
+    </div>
+  );
+};
