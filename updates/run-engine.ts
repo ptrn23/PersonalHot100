@@ -29,8 +29,6 @@ async function runEngine() {
     return;
   }
 
-  console.log(`Is chart finalizing? ${fetchResult.isFinalizing ? "YES" : "NO"}`);
-
   await finalizeChartPositions(
     stagedEntries,
     fetchResult.isFinalizing,
