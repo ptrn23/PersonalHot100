@@ -670,16 +670,22 @@ const PlaqueDisc = ({
       <div
         className={`relative w-20 h-20 rounded-full bg-white flex flex-col items-center justify-center shadow-lg border-4 ${theme.labelBorder} z-10`}
       >
-        <div className="flex flex-col items-center">
-            {isMulti && (
-                <span className="text-xl font-black text-gray-900 leading-none">
-                    {multiplier}x
-                </span>
-            )}
-            <span className={`text-[8px] font-black uppercase leading-none ${isMulti ? "mt-0" : "mt-0"} ${theme.text}`}>
-                {awardName}
+        {isMulti ? (
+          <>
+            <span className="text-2xl font-black text-gray-900 leading-none tracking-tighter">
+              {multiplier}X
             </span>
-        </div>
+            <span className={`text-[8px] font-black uppercase tracking-widest mt-0.5 ${theme.text}`}>
+              {awardName}
+            </span>
+          </>
+        ) : (
+          <>
+            <span className={`text-[11px] font-black uppercase tracking-widest ${theme.text}`}>
+              {awardName}
+            </span>
+          </>
+        )}
       </div>
     </div>
   );
