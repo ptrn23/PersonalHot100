@@ -50,7 +50,9 @@ const CERT_THRESHOLDS = {
   },
 };
 
-export const runCertifications = async (overrideTargetDate?: string) => {
+export const runCertifications = async (isFinalizing?: boolean, overrideTargetDate?: string) => {
+  if (!isFinalizing) return;
+  
   console.log("\nRunning certification engine...");
 
   let targetWeek;

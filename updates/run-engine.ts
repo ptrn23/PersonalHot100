@@ -29,13 +29,15 @@ async function runEngine() {
     return;
   }
 
+  console.log(`Is chart finalizing? ${fetchResult.isFinalizing ? "YES" : "NO"}`);
+
   await finalizeChartPositions(
     stagedEntries,
     fetchResult.isFinalizing,
     overrideDate,
   );
 
-  await runCertifications(overrideDate);
+  await runCertifications(fetchResult.isFinalizing, overrideDate);
 
   console.log(`\nCOMPLETE! The chart is live.`);
 }
