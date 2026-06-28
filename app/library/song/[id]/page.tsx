@@ -91,6 +91,14 @@ const applyDeviation = (base: number, seed: number, scale = 0.1, mod = 100) => {
   return Math.floor(base * (1 + deviation));
 };
 
+type CertificationData = {
+  award_name: "Gold" | "Platinum" | "Diamond";
+  multiplier: number;
+  chart_weeks: {
+    start_date: string;
+  };
+};
+
 export default async function SongPage({
   params,
 }: {
@@ -141,6 +149,15 @@ export default async function SongPage({
     .select("id, start_date")
     .neq("id", liveWeek?.id)
     .order("start_date", { ascending: true });
+
+  const { data: certs } = await supabase
+    .from("certifications")
+    .select(`
+      award_name,
+      multiplier,
+      chart_weeks ( start_date )
+    `)
+    .eq("song_id", resolvedParams.id);
 
   const allGlobalWeeks = allWeeksData?.map((w) => w.start_date) || [];
 
@@ -269,6 +286,28 @@ export default async function SongPage({
       airplay: entry.airplay || 0,
     }),
   );
+
+  const getWeight = (award: string, multi: number) => {
+    if (award === "Diamond") return 10000000 * multi;
+    if (award === "Platinum") return 1000000 * multi;
+    if (award === "Gold") return 500000 * multi;
+    return 0;
+  };
+
+  const sortedCerts = ((certs as unknown as CertificationData[]) || []).sort(
+    (a, b) => getWeight(b.award_name, b.multiplier) - getWeight(a.award_name, a.multiplier)
+  );
+
+  const highestCert = sortedCerts[0];
+  const certifiedUnits = highestCert
+    ? (getWeight(highestCert.award_name, highestCert.multiplier) / 1000000).toFixed(1)
+    : "0";
+
+  const formatCertTitle = (award: string, multi: number) => {
+    if (award === "Gold") return "Gold";
+    if (multi === 1) return award;
+    return `${multi}x ${award}`;
+  };
 
   return (
     <main className="min-h-screen bg-[#f5f5f5] text-gray-900 pb-24">
@@ -507,11 +546,55 @@ export default async function SongPage({
               Certifications
             </h2>
           </div>
-          <div className="bg-white border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center text-center p-12">
-            <span className="text-gray-400 font-bold uppercase tracking-widest text-sm">
-              (Certifications pending...)
-            </span>
-          </div>
+
+          {sortedCerts.length > 0 ? (
+            <div className="bg-white border border-gray-200 rounded-lg p-6 md:p-8 shadow-sm">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 gap-x-8 border-b border-gray-200 pb-6 mb-6">
+                <div>
+                  <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Release Date</div>
+                  <div className="text-lg font-medium text-gray-900">--</div>
+                </div>
+                <div>
+                  <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Type</div>
+                  <div className="text-lg font-medium text-gray-900">Standard</div>
+                </div>
+                <div>
+                  <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Certified Units</div>
+                  <div className="text-lg font-black text-black">{certifiedUnits} Million</div>
+                </div>
+                <div>
+                  <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Genre</div>
+                  <div className="text-lg font-medium text-gray-900">--</div>
+                </div>
+              </div>
+
+              <div>
+                <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">
+                  Certification History
+                </div>
+                <ul className="space-y-3">
+                  {sortedCerts.map((cert, index) => (
+                    <li key={index} className="flex items-center text-sm md:text-base">
+                      <span className="font-black text-black w-32 shrink-0">
+                        {formatCertTitle(cert.award_name, cert.multiplier)}
+                      </span>
+                      <span className="text-gray-300 mx-3">|</span>
+                      <span className="text-gray-600 font-medium">
+                        {/* Reusing your existing formatFullDate! */}
+                        {formatFullDate(cert.chart_weeks?.start_date)}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          ) : (
+            <div className="bg-white border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center text-center p-12">
+              <span className="text-gray-400 font-bold uppercase tracking-widest text-sm">
+                (No Certifications Yet)
+              </span>
+            </div>
+          )}
         </div>
 
         <div className="mb-16">
