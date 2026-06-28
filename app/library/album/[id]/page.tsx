@@ -144,6 +144,15 @@ export default async function AlbumPage({
     return <div className="p-10 font-bold text-red-500">Album not found.</div>;
   }
 
+  const { data: certs } = await supabase
+    .from("certifications")
+    .select(`
+      award_name,
+      multiplier,
+      chart_weeks ( start_date )
+    `)
+    .eq("album_id", resolvedParams.id);
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const artistName = (album.artists as any)?.name || "Unknown Artist";
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -361,6 +370,32 @@ export default async function AlbumPage({
       .filter((e) => e.rank === albumPeak)
       .map((e) => e.peak_streak || 0),
   );
+
+  const getWeight = (award: string, multi: number) => {
+    if (award === "Diamond") return 10000000 * multi;
+    if (award === "Platinum") return 1000000 * multi;
+    if (award === "Gold") return 500000 * multi;
+    return 0;
+  };
+
+  const sortedCerts = ((certs as unknown as {
+    award_name: "Gold" | "Platinum" | "Diamond";
+    multiplier: number;
+    chart_weeks: { start_date: string };
+  }[]) || []).sort(
+    (a, b) => getWeight(b.award_name, b.multiplier) - getWeight(a.award_name, a.multiplier)
+  );
+
+  const highestCert = sortedCerts[0];
+  const certifiedUnits = highestCert
+    ? (getWeight(highestCert.award_name, highestCert.multiplier) / 1000000).toFixed(0)
+    : "0";
+
+  const formatCertTitle = (award: string, multi: number) => {
+    if (award === "Gold") return "Gold";
+    if (multi === 1) return award;
+    return `${multi}x ${award}`;
+  };
 
   return (
     <main className="min-h-screen bg-[#f5f5f5] text-gray-900 pb-24">
@@ -715,9 +750,64 @@ export default async function AlbumPage({
               Certifications
             </h2>
           </div>
-          <div className="bg-white border-2 border-dashed border-gray-300 rounded-lg p-12 text-center text-gray-400 font-bold uppercase tracking-widest text-sm">
-            (Certifications pending...)
-          </div>
+
+          {sortedCerts.length > 0 ? (
+            <div className="bg-white border border-gray-200 p-6 md:p-8 shadow-sm grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+              <div className="flex justify-center items-center w-full">
+                <PlaqueDisc 
+                  awardName={highestCert.award_name} 
+                  multiplier={highestCert.multiplier} 
+                />
+              </div>
+
+              <div className="md:col-span-2 w-full">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8 border-b border-gray-200 pb-6 mb-6">
+                  <div>
+                    <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Release Date</div>
+                    <div className="text-lg font-medium text-gray-900">--</div>
+                  </div>
+                  <div>
+                    <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Format</div>
+                    <div className="text-lg font-medium text-gray-900">Album</div> {/* 🚨 Updated to Album */}
+                  </div>
+                  <div>
+                    <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Certified Units</div>
+                    <div className="text-lg font-black text-black">{certifiedUnits} Million</div>
+                  </div>
+                  <div>
+                    <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Genre</div>
+                    <div className="text-lg font-medium text-gray-900">--</div>
+                  </div>
+                </div>
+
+                <div>
+                  <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">
+                    Previous Certifications
+                  </div>
+                  <ul className="space-y-3">
+                    {sortedCerts.map((cert, index) => (
+                      <li key={index} className="flex items-center text-sm md:text-base">
+                        <span className="font-black text-black w-32 shrink-0">
+                          {formatCertTitle(cert.award_name, cert.multiplier)}
+                        </span>
+                        <span className="text-gray-300 mx-3">|</span>
+                        <span className="text-gray-600 font-medium">
+                          {formatFullDate(cert.chart_weeks?.start_date)}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          ) : (
+            <div className="bg-white border-2 border-dashed border-gray-300 flex items-center justify-center text-center p-12">
+              <span className="text-gray-400 font-bold uppercase tracking-widest text-sm">
+                (No Certifications Yet)
+              </span>
+            </div>
+          )}
         </div>
 
         <div className="mb-16">
@@ -734,3 +824,85 @@ export default async function AlbumPage({
     </main>
   );
 }
+
+const PlaqueDisc = ({ 
+  awardName, 
+  multiplier 
+}: { 
+  awardName: "Gold" | "Platinum" | "Diamond", 
+  multiplier: number 
+}) => {
+  const themes = {
+    Gold: {
+      outer: "bg-gradient-to-br from-yellow-300 via-yellow-500 to-yellow-700 shadow-yellow-900/50",
+      grooves: "border-yellow-900/20",
+      labelBorder: "border-yellow-400",
+      text: "text-yellow-700",
+      shine: "bg-gradient-to-tr from-white/20 via-white/60 to-transparent",
+    },
+    Platinum: {
+      outer: "bg-gradient-to-br from-gray-200 via-gray-400 to-gray-600 shadow-gray-900/50",
+      grooves: "border-gray-800/20",
+      labelBorder: "border-gray-300",
+      text: "text-gray-700",
+      shine: "bg-gradient-to-tr from-white/40 via-white/80 to-transparent",
+    },
+    Diamond: {
+      outer: "bg-gradient-to-br from-indigo-100 via-cyan-200 to-emerald-100 shadow-cyan-900/30",
+      grooves: "border-cyan-600/20",
+      labelBorder: "border-cyan-200",
+      text: "text-cyan-800",
+      shine: "bg-gradient-to-tr from-white/60 via-white/90 to-white/20",
+    },
+  };
+
+  const theme = themes[awardName] || themes.Gold;
+  const displayCount = Math.min(multiplier, 9);
+  const isMulti = multiplier >= 2;
+
+  return (
+    <div className="relative w-full max-w-[200px] aspect-square flex items-center justify-center">
+      {Array.from({ length: displayCount }).map((_, i) => {
+        const isLast = i === displayCount - 1;
+        const yOffset = (i - (displayCount - 1) / 2) * 24;
+        const xOffset = (i - (displayCount - 1) / 2) * 0;
+
+        return (
+          <div
+            key={i}
+            className={`absolute inset-0 rounded-full shadow-md flex items-center justify-center overflow-hidden ${theme.outer}`}
+            style={{ transform: `translate(${xOffset}px, ${yOffset}px)` }}
+          >
+            <div className={`absolute inset-2 rounded-full border-[1px] ${theme.grooves}`} />
+            <div className={`absolute inset-4 rounded-full border-[1px] ${theme.grooves}`} />
+            <div className={`absolute inset-8 rounded-full border-[1px] ${theme.grooves}`} />
+            <div className={`absolute inset-16 rounded-full border-[1px] ${theme.grooves}`} />
+            
+            <div className={`absolute inset-0 ${theme.shine} mix-blend-overlay`} />
+
+            <div
+              className={`relative w-20 h-20 rounded-full bg-white flex flex-col items-center justify-center shadow-lg border-4 ${theme.labelBorder} z-10`}
+            >
+              {isLast ? (
+                isMulti ? (
+                  <>
+                    <span className="text-2xl font-black text-gray-900 leading-none tracking-tighter">
+                      {multiplier}X
+                    </span>
+                    <span className={`text-[8px] font-black uppercase tracking-widest -mt-0.5 ${theme.text}`}>
+                      {awardName}
+                    </span>
+                  </>
+                ) : (
+                  <span className={`text-[11px] font-black uppercase tracking-widest ${theme.text}`}>
+                    {awardName}
+                  </span>
+                )
+              ) : null}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+};
