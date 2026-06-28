@@ -300,7 +300,7 @@ export default async function SongPage({
 
   const highestCert = sortedCerts[0];
   const certifiedUnits = highestCert
-    ? (getWeight(highestCert.award_name, highestCert.multiplier) / 1000000).toFixed(1)
+    ? (getWeight(highestCert.award_name, highestCert.multiplier) / 1000000).toFixed(0)
     : "0";
 
   const formatCertTitle = (award: string, multi: number) => {
@@ -548,15 +548,15 @@ export default async function SongPage({
           </div>
 
           {sortedCerts.length > 0 ? (
-            <div className="bg-white border border-gray-200 rounded-lg p-6 md:p-8 shadow-sm">
+            <div className="bg-white border border-gray-200 p-6 md:p-8 shadow-sm">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 gap-x-8 border-b border-gray-200 pb-6 mb-6">
                 <div>
                   <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Release Date</div>
                   <div className="text-lg font-medium text-gray-900">--</div>
                 </div>
                 <div>
-                  <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Type</div>
-                  <div className="text-lg font-medium text-gray-900">Standard</div>
+                  <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Format</div>
+                  <div className="text-lg font-medium text-gray-900">Single</div>
                 </div>
                 <div>
                   <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Certified Units</div>
@@ -570,7 +570,7 @@ export default async function SongPage({
 
               <div>
                 <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">
-                  Certification History
+                  Previous Certifications
                 </div>
                 <ul className="space-y-3">
                   {sortedCerts.map((cert, index) => (
@@ -580,7 +580,6 @@ export default async function SongPage({
                       </span>
                       <span className="text-gray-300 mx-3">|</span>
                       <span className="text-gray-600 font-medium">
-                        {/* Reusing your existing formatFullDate! */}
                         {formatFullDate(cert.chart_weeks?.start_date)}
                       </span>
                     </li>
@@ -589,7 +588,7 @@ export default async function SongPage({
               </div>
             </div>
           ) : (
-            <div className="bg-white border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center text-center p-12">
+            <div className="bg-white border-2 border-dashed border-gray-300 flex items-center justify-center text-center p-12">
               <span className="text-gray-400 font-bold uppercase tracking-widest text-sm">
                 (No Certifications Yet)
               </span>
