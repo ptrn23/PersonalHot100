@@ -43,7 +43,7 @@ const CERT_THRESHOLDS = {
 };
 
 async function rebuildAllCertifications() {
-  console.log("🏁 Starting total certification rebuild...");
+  console.log("Starting total certification rebuild...");
 
   const { data: weeks, error: weeksErr } = await supabase
     .from("chart_weeks")
