@@ -2,6 +2,38 @@ import dotenv from "dotenv";
 import { createClient } from "@supabase/supabase-js";
 dotenv.config();
 
+const getStableSeed = (seedString?: string) => {
+  if (!seedString) return 0;
+  let hash = 0;
+  for (let i = 0; i < seedString.length; i++) {
+    hash += (i + 1) * seedString.charCodeAt(i);
+  }
+  return hash;
+};
+
+const applyDeviation = (
+  base: number,
+  seed: number,
+  scale = 0.1,
+  mod = 100,
+) => {
+  const deviation = ((seed % mod) / mod - 0.5) * 2 * scale;
+  return Math.floor(base * (1 + deviation));
+};
+
+const calculateUnits = (entry: any): number => {
+  const streams = entry.streams || 0;
+  const sales = entry.sales || 0;
+  const airplay = entry.airplay || 0;
+  
+  const base = Math.floor((streams + sales + airplay) * 1750 * 2);
+  
+  const seedString = `${entry.song_id}-${entry.week_id}`;
+  const seed = getStableSeed(seedString);
+
+  return applyDeviation(base, seed + 4);
+};
+
 const supabase = createClient(
   process.env.SUPABASE_URL!,
   process.env.SUPABASE_SERVICE_KEY!,
@@ -101,6 +133,9 @@ export const runCertifications = async (overrideTargetDate?: string) => {
       .select(`
         song_id, 
         total_points, 
+        streams, 
+        sales, 
+        airplay, 
         chart_weeks!inner(end_date)
       `)
       .in("song_id", allRelevantSongIds)
@@ -124,15 +159,128 @@ export const runCertifications = async (overrideTargetDate?: string) => {
 
   for (const entry of historicalEntries) {
     const sId = entry.song_id;
-    const points = entry.total_points || 0;
+    const units = calculateUnits(entry);
 
-    songTotals.set(sId, (songTotals.get(sId) || 0) + points);
-    
+    songTotals.set(sId, (songTotals.get(sId) || 0) + units);
+
     const aId = albumSongsMap.get(sId);
     if (aId) {
-      albumTotals.set(aId, (albumTotals.get(aId) || 0) + points);
+      albumTotals.set(aId, (albumTotals.get(aId) || 0) + units);
     }
   }
 
   console.log("Points tallied successfully!");
+
+  const { data: existingCerts, error: certsError } = await supabase
+    .from("certifications")
+    .select("song_id, album_id, award_name, multiplier")
+    .or(`song_id.in.(${songIds.join(",")}),album_id.in.(${albumIds.join(",")})`);
+
+  if (certsError) {
+    console.error("Error fetching existing certifications:", certsError);
+    return;
+  }
+
+  const existingSongCerts = new Set<string>();
+  const existingAlbumCerts = new Set<string>();
+
+  existingCerts?.forEach((c) => {
+    if (c.song_id) {
+      existingSongCerts.add(`${c.song_id}-${c.award_name}-${c.multiplier}`);
+    } else if (c.album_id) {
+      existingAlbumCerts.add(`${c.album_id}-${c.award_name}-${c.multiplier}`);
+    }
+  });
+
+  const certsToInsert: any[] = [];
+
+  for (const sId of songIds) {
+    const total = songTotals.get(sId) || 0;
+    if (total === 0) continue;
+
+    // GOLD
+    if (total >= CERT_THRESHOLDS.song.Gold) {
+      const key = `${sId}-Gold-1`;
+      if (!existingSongCerts.has(key)) {
+        certsToInsert.push({ entity_type: "song", song_id: sId, award_name: "Gold", multiplier: 1, week_id: targetWeek.id });
+      }
+    }
+
+    // PLATINUM
+    if (total >= CERT_THRESHOLDS.song.Platinum) {
+      const maxPlatMultiplier = Math.floor(total / CERT_THRESHOLDS.song.Platinum);
+      const platLimit = total >= CERT_THRESHOLDS.song.Diamond ? 9 : maxPlatMultiplier;
+
+      for (let m = 1; m <= platLimit; m++) {
+        const key = `${sId}-Platinum-${m}`;
+        if (!existingSongCerts.has(key)) {
+          certsToInsert.push({ entity_type: "song", song_id: sId, award_name: "Platinum", multiplier: m, week_id: targetWeek.id });
+        }
+      }
+    }
+
+    // DIAMOND
+    if (total >= CERT_THRESHOLDS.song.Diamond) {
+      const maxDiamondMultiplier = Math.floor(total / CERT_THRESHOLDS.song.Diamond);
+      for (let m = 1; m <= maxDiamondMultiplier; m++) {
+        const key = `${sId}-Diamond-${m}`;
+        if (!existingSongCerts.has(key)) {
+          certsToInsert.push({ entity_type: "song", song_id: sId, award_name: "Diamond", multiplier: m, week_id: targetWeek.id });
+        }
+      }
+    }
+  }
+
+  for (const aId of albumIds) {
+    const total = albumTotals.get(aId) || 0;
+    if (total === 0) continue;
+
+    // GOLD
+    if (total >= CERT_THRESHOLDS.album.Gold) {
+      const key = `${aId}-Gold-1`;
+      if (!existingAlbumCerts.has(key)) {
+        certsToInsert.push({ entity_type: "album", album_id: aId, award_name: "Gold", multiplier: 1, week_id: targetWeek.id });
+      }
+    }
+
+    // PLATINUM
+    if (total >= CERT_THRESHOLDS.album.Platinum) {
+      const maxPlatMultiplier = Math.floor(total / CERT_THRESHOLDS.album.Platinum);
+      const platLimit = total >= CERT_THRESHOLDS.album.Diamond ? 9 : maxPlatMultiplier;
+
+      for (let m = 1; m <= platLimit; m++) {
+        const key = `${aId}-Platinum-${m}`;
+        if (!existingAlbumCerts.has(key)) {
+          certsToInsert.push({ entity_type: "album", album_id: aId, award_name: "Platinum", multiplier: m, week_id: targetWeek.id });
+        }
+      }
+    }
+
+    // DIAMOND
+    if (total >= CERT_THRESHOLDS.album.Diamond) {
+      const maxDiamondMultiplier = Math.floor(total / CERT_THRESHOLDS.album.Diamond);
+      for (let m = 1; m <= maxDiamondMultiplier; m++) {
+        const key = `${aId}-Diamond-${m}`;
+        if (!existingAlbumCerts.has(key)) {
+          certsToInsert.push({ entity_type: "album", album_id: aId, award_name: "Diamond", multiplier: m, week_id: targetWeek.id });
+        }
+      }
+    }
+  }
+
+  if (certsToInsert.length === 0) {
+    console.log("No new certifications earned this week.");
+    return;
+  }
+
+  console.log(`Inserting ${certsToInsert.length} new plaque(s) into the database...`);
+  const { error: insertError } = await supabase
+    .from("certifications")
+    .insert(certsToInsert);
+
+  if (insertError) {
+    console.error("Failed to save new certifications:", insertError);
+  } else {
+    console.log(`SUCCESS: Successfully awarded ${certsToInsert.length} new certifications!`);
+  }
 };
