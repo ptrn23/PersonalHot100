@@ -655,38 +655,52 @@ const PlaqueDisc = ({
   };
 
   const theme = themes[awardName] || themes.Gold;
+  const displayCount = Math.min(multiplier, 9);
   const isMulti = multiplier >= 2;
 
   return (
-    <div
-      className={`relative w-full max-w-[200px] aspect-square rounded-full flex items-center justify-center overflow-hidden ${theme.outer}`}
-    >
-      <div className={`absolute inset-2 rounded-full border-[1px] ${theme.grooves}`} />
-      <div className={`absolute inset-4 rounded-full border-[1px] ${theme.grooves}`} />
-      <div className={`absolute inset-8 rounded-full border-[1px] ${theme.grooves}`} />
-      <div className={`absolute inset-16 rounded-full border-[1px] ${theme.grooves}`} />
-      <div className={`absolute inset-0 ${theme.shine} mix-blend-overlay`} />
+    <div className="relative w-full max-w-[200px] aspect-square flex items-center justify-center">
+      {Array.from({ length: displayCount }).map((_, i) => {
+        const isLast = i === displayCount - 1;
+        const yOffset = (i - (displayCount - 1) / 2) * 36;
+        const xOffset = (i - (displayCount - 1) / 2) * 0;
 
-      <div
-        className={`relative w-20 h-20 rounded-full bg-white flex flex-col items-center justify-center shadow-lg border-4 ${theme.labelBorder} z-10`}
-      >
-        {isMulti ? (
-          <>
-            <span className="text-2xl font-black text-gray-900 leading-none tracking-tighter">
-              {multiplier}X
-            </span>
-            <span className={`text-[8px] font-black uppercase tracking-widest -mt-0.5 ${theme.text}`}>
-              {awardName}
-            </span>
-          </>
-        ) : (
-          <>
-            <span className={`text-[11px] font-black uppercase tracking-widest ${theme.text}`}>
-              {awardName}
-            </span>
-          </>
-        )}
-      </div>
+        return (
+          <div
+            key={i}
+            className={`absolute inset-0 rounded-full shadow-md flex items-center justify-center overflow-hidden ${theme.outer}`}
+            style={{ transform: `translate(${xOffset}px, ${yOffset}px)` }}
+          >
+            <div className={`absolute inset-2 rounded-full border-[1px] ${theme.grooves}`} />
+            <div className={`absolute inset-4 rounded-full border-[1px] ${theme.grooves}`} />
+            <div className={`absolute inset-8 rounded-full border-[1px] ${theme.grooves}`} />
+            <div className={`absolute inset-16 rounded-full border-[1px] ${theme.grooves}`} />
+            
+            <div className={`absolute inset-0 ${theme.shine} mix-blend-overlay`} />
+
+            <div
+              className={`relative w-20 h-20 rounded-full bg-white flex flex-col items-center justify-center shadow-lg border-4 ${theme.labelBorder} z-10`}
+            >
+              {isLast ? (
+                isMulti ? (
+                  <>
+                    <span className="text-2xl font-black text-gray-900 leading-none tracking-tighter">
+                      {multiplier}X
+                    </span>
+                    <span className={`text-[8px] font-black uppercase tracking-widest -mt-0.5 ${theme.text}`}>
+                      {awardName}
+                    </span>
+                  </>
+                ) : (
+                  <span className={`text-[11px] font-black uppercase tracking-widest ${theme.text}`}>
+                    {awardName}
+                  </span>
+                )
+              ) : null}
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 };
