@@ -659,7 +659,7 @@ const PlaqueDisc = ({
 
   return (
     <div
-      className={`relative w-full max-w-[200px] aspect-square rounded-full shadow-2xl flex items-center justify-center overflow-hidden ${theme.outer}`}
+      className={`relative w-full max-w-[200px] aspect-square rounded-full flex items-center justify-center overflow-hidden ${theme.outer}`}
     >
       <div className={`absolute inset-2 rounded-full border-[1px] ${theme.grooves}`} />
       <div className={`absolute inset-4 rounded-full border-[1px] ${theme.grooves}`} />
@@ -675,7 +675,7 @@ const PlaqueDisc = ({
             <span className="text-2xl font-black text-gray-900 leading-none tracking-tighter">
               {multiplier}X
             </span>
-            <span className={`text-[8px] font-black uppercase tracking-widest mt-0.5 ${theme.text}`}>
+            <span className={`text-[8px] font-black uppercase tracking-widest -mt-0.5 ${theme.text}`}>
               {awardName}
             </span>
           </>
