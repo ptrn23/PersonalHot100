@@ -77,7 +77,7 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
       event_type: "HOLD_NUMBER_ONE",
       entity_type: "song",
       entity_id: numberOne.song_id,
-      headline: `“${songTitle}” spends a ${numberOne.peak_streak}th week at #1 in the Personal Hot 100.`,
+      headline: `“${songTitle}” by ${artistName} spends a ${numberOne.peak_streak}th week at #1 in the Personal Hot 100.`,
       priority: 9,
     });
   } 
