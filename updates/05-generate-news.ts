@@ -63,7 +63,7 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
       event_type: "NEW_NUMBER_ONE",
       entity_type: "song",
       entity_id: numberOne.song_id,
-      headline: `“${songTitle}” by ${artistName} reaches #1 on the Hot 100!`,
+      headline: `“${songTitle}” by ${artistName} reaches #1 on the Personal Hot 100 for the first time.`,
       subtext: uniqueNumberOnesCount > 1 
         ? `This marks ${artistName}'s ${uniqueNumberOnesCount}${suffix} career #1 hit on the chart.`
         : `This is ${artistName}'s first ever #1 hit!`,
@@ -77,7 +77,7 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
       event_type: "HOLD_NUMBER_ONE",
       entity_type: "song",
       entity_id: numberOne.song_id,
-      headline: `“${songTitle}” spends a ${numberOne.peak_streak}th week at #1!`,
+      headline: `“${songTitle}” spends a ${numberOne.peak_streak}th week at #1 in the Personal Hot 100.`,
       priority: 9,
     });
   } 
@@ -88,7 +88,7 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
       event_type: "RETURN_NUMBER_ONE",
       entity_type: "song",
       entity_id: numberOne.song_id,
-      headline: `“${songTitle}” by ${artistName} returns to #1 on the Hot 100!`,
+      headline: `“${songTitle}” by ${artistName} returns to #1 on the Personal Hot 100!`,
       subtext: `The track reclaims the top spot for a ${numberOne.peak_streak}th nonconsecutive week.`,
       priority: 9,
     });
