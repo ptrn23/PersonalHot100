@@ -23,7 +23,7 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
   const numberOne = currentChart.find((entry) => entry.rank === 1);
   if (!numberOne) return news;
 
-  const songTitle = numberOne.songs.title || "Unknown Title";
+  const songTitle = numberOne.songs.display_title || numberOne.songs.title || "Unknown Title";
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const artistName = (numberOne.songs.artists as any)?.name || "Unknown Artist";
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -131,7 +131,7 @@ export const generateNews = async (isFinalizing?: boolean, overrideTargetDate?: 
     .from("chart_entries")
     .select(`
       *,
-      songs ( id, title, album_id, artists(id, name) )
+      songs ( id, display_title, title, album_id, artists(id, name) )
     `)
     .eq("week_id", targetWeek.id)
     .order("rank", { ascending: true });
