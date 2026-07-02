@@ -4,6 +4,8 @@ import ChartRow, { DisplayEntry, MaxStats } from "../../../components/ChartRow";
 import ChartTrajectory from "../../../components/ChartTrajectory";
 import { Metadata } from "next";
 
+export const dynamic = 'force-dynamic';
+
 type Props = {
   params: Promise<{ id: string }>;
 };
@@ -149,6 +151,25 @@ export default async function SongPage({
     .select("id, start_date")
     .neq("id", liveWeek?.id)
     .order("start_date", { ascending: true });
+
+  const { data: rawSongNews, error: newsError } = await supabase
+    .from("news_feed")
+    .select(`
+      headline,
+      subtext,
+      priority,
+      event_type,
+      chart_weeks ( start_date )
+    `)
+    .eq("entity_type", "song")
+    .eq("entity_id", resolvedParams.id);
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const songNews = (rawSongNews as any[])?.sort((a, b) => {
+    const dateA = new Date(a.chart_weeks?.start_date || 0).getTime();
+    const dateB = new Date(b.chart_weeks?.start_date || 0).getTime();
+    return dateB - dateA;
+  }) || [];
 
   const { data: certs } = await supabase
     .from("certifications")
@@ -537,6 +558,64 @@ export default async function SongPage({
                 </div>
               )}
             </div>
+          </div>
+        </div>
+
+        <div className="mb-16">
+          <div className="p-4 mb-6" style={{ backgroundColor: ACCENT_COLOR }}>
+            <h2 className="text-3xl font-black uppercase tracking-tighter text-white">
+              News & Feed
+            </h2>
+          </div>
+
+          <div className="flex overflow-x-auto gap-6 pb-4 snap-x">
+            {songNews.length > 0 ? (
+              songNews.map((news, i) => (
+                <div
+                  key={i}
+                  className="shrink-0 w-72 bg-black relative group snap-start cursor-pointer shadow-md"
+                >
+                  <div className="aspect-[4/3] bg-gray-800 overflow-hidden">
+                    {coverUrl && (
+                      <img
+                        src={coverUrl}
+                        alt="News Thumbnail"
+                        className="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-500"
+                      />
+                    )}
+                  </div>
+                  
+                  <div className="absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-black via-black/90 to-transparent">
+                    <div className="flex justify-between items-end mb-1.5">
+                      <div
+                        className="text-[10px] font-black tracking-widest uppercase"
+                        style={{ color: ACCENT_COLOR }}
+                      >
+                        {news.event_type.replace(/_/g, " ")}
+                      </div>
+                      <div className="text-[9px] text-gray-400 font-bold uppercase tracking-wider">
+                        {new Date(news.chart_weeks?.start_date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                      </div>
+                    </div>
+                    
+                    <p className="text-white font-bold text-sm leading-snug line-clamp-2">
+                      {news.headline}
+                    </p>
+                    
+                    {news.subtext && (
+                      <p className="text-gray-400 text-xs mt-1.5 line-clamp-2 leading-tight font-medium">
+                        {news.subtext}
+                      </p>
+                    )}
+                    
+                  </div>
+                </div>
+              ))
+            ) : (
+              <div className="w-full text-center text-gray-400 font-bold uppercase py-10 border-2 border-dashed border-gray-200">
+                (No news available yet)
+              </div>
+            )}
           </div>
         </div>
 
