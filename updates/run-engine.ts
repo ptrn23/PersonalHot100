@@ -2,6 +2,7 @@ import { fetchAndMergeScrobbles } from "./01-fetch-scrobbles";
 import { calculateWeeklyPoints } from "./02-calculate-points";
 import { finalizeChartPositions } from "./03-finalize-chart";
 import { runCertifications } from "./04-run-certifications";
+import { generateNews } from "./05-generate-news";
 
 async function runEngine() {
   console.log("\nStarting Hot 100 Engine...");
@@ -36,6 +37,8 @@ async function runEngine() {
   );
 
   await runCertifications(fetchResult.isFinalizing, overrideDate);
+
+  await generateNews(fetchResult.isFinalizing, overrideDate);
 
   console.log(`\nCOMPLETE! The chart is live.`);
 }
