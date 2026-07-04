@@ -28,7 +28,7 @@ export const formatShortDate = (isoString?: string): string => {
   return new Date(isoString).toLocaleDateString("en-US", {
     month: "2-digit",
     day: "2-digit",
-    year: "numeric",
+    year: "2-digit",
     timeZone: CHART_TIMEZONE,
   });
 };
