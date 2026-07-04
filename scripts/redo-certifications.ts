@@ -1,31 +1,8 @@
 import dotenv from "dotenv";
 import { createClient } from "@supabase/supabase-js";
+import { calculateUnits } from "@/utils/metrics";
+
 dotenv.config();
-
-const getStableSeed = (title: string, artist: string) => {
-  const combo = `${title}|${artist}`;
-  let hash = 0;
-  for (let i = 0; i < combo.length; i++) {
-    hash += (i + 1) * combo.charCodeAt(i);
-  }
-  return hash;
-};
-
-const applyDeviation = (base: number, seed: number, scale = 0.1, mod = 100) => {
-  const deviation = ((seed % mod) / mod - 0.5) * 2 * scale;
-  return Math.floor(base * (1 + deviation));
-};
-
-const calculateUnits = (entry: any, title: string, artist: string): number => {
-  const streams = entry.streams || 0;
-  const sales = entry.sales || 0;
-  const airplay = entry.airplay || 0;
-
-  const base = Math.floor((streams + sales + airplay) * 1750 * 2);
-
-  const seed = getStableSeed(title, artist);
-  return applyDeviation(base, seed + 4);
-};
 
 const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_SERVICE_KEY!);
 
@@ -125,7 +102,7 @@ async function rebuildAllCertifications() {
       const sId = entry.song_id;
 
       const seedData = songSeedMap.get(sId) || { title: "Unknown", artist: "Unknown" };
-      const units = calculateUnits(entry, seedData.title, seedData.artist);
+      const units = calculateUnits(entry.streams, entry.sales, entry.airplay, seedData.title, seedData.artist);
 
       songTotals.set(sId, (songTotals.get(sId) || 0) + units);
 

@@ -2,6 +2,8 @@ import dotenv from "dotenv";
 import { createClient } from "@supabase/supabase-js";
 dotenv.config();
 
+import { calculateUnits } from "@/utils/metrics";
+
 const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_SERVICE_KEY!);
 
 const CERT_THRESHOLDS = {
@@ -162,7 +164,7 @@ export const runCertifications = async (isFinalizing?: boolean, overrideTargetDa
     const sId = entry.song_id;
 
     const seedData = songSeedMap.get(sId) || { title: "Unknown", artist: "Unknown" };
-    const units = calculateUnits(entry, seedData.title, seedData.artist);
+    const units = calculateUnits(entry.streams, entry.sales, entry.airplay, seedData.title, seedData.artist);
 
     songTotals.set(sId, (songTotals.get(sId) || 0) + units);
 

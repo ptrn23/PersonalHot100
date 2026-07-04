@@ -3,7 +3,7 @@
 import { useState, useRef } from "react";
 import ChartRow from "./ChartRow";
 import { DisplayEntry, MaxStats } from "@/types";
-import { applyDeviation, getStableSeed } from "../utils/chartMath";
+import { applyDeviation, getStableSeed } from "@/utils/metrics";
 import {
   Search,
   X,

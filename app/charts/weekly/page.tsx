@@ -2,7 +2,7 @@ import { supabase } from "@/utils/supabase";
 import ChartView from "../../components/ChartView";
 import ChartRow  from "../../components/ChartRow";
 import { DisplayEntry, MaxStats } from "@/types";
-import { applyDeviation, getStableSeed } from "../../utils/chartMath";
+import { applyDeviation, getStableSeed } from "@/utils/metrics";
 import WeekSelector from "../../components/WeekSelector";
 
 export const dynamic = "force-dynamic";

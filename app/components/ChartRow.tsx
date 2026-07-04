@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { formatNumber, getStableSeed, applyDeviation } from "../utils/chartMath";
+import { formatNumber, getStableSeed, applyDeviation } from "@/utils/metrics";
 import ChartRowDropdown from "./ChartRowDropdown";
 import ChartTicketModal from "./ChartTicketModal";
 import { DisplayEntry, MaxStats } from "@/types";

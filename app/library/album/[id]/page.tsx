@@ -1,7 +1,9 @@
 import { supabase } from "@/utils/supabase";
 import { Metadata } from "next";
 import Link from "next/link";
-import ChartRow, { DisplayEntry, MaxStats } from "../../../components/ChartRow";
+import ChartRow from "../../../components/ChartRow";
+import { DisplayEntry, MaxStats } from "@/types";
+import { applyDeviation, getStableSeed } from "@/utils/metrics";
 import ChartTrajectory from "../../../components/ChartTrajectory";
 
 import { CASUAL_RED, CASUAL_BLACK, CASUAL_WHITE } from "@/config/theme";
@@ -51,48 +53,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
   };
 }
-
-
-
-const formatNumber = (num: number) => {
-  if (!num) return "0";
-  if (num >= 1_000_000) return (num / 1_000_000).toFixed(1) + "m";
-  if (num >= 1_000) return (num / 1_000).toFixed(1) + "k";
-  return num.toString();
-};
-
-const formatBillboardDate = (isoString?: string) => {
-  if (!isoString) return "--";
-  const d = new Date(isoString);
-  const m = d.getMonth() + 1;
-  const day = d.getDate().toString().padStart(2, "0");
-  const y = d.getFullYear().toString().slice(2);
-  return `${m}/${day}/${y}`;
-};
-
-const formatFullDate = (isoString?: string) => {
-  if (!isoString) return "--";
-  return new Date(isoString).toLocaleDateString("en-US", {
-    month: "long",
-    day: "numeric",
-    year: "numeric",
-    timeZone: "Asia/Manila",
-  });
-};
-
-const getStableSeed = (title: string, artist: string) => {
-  const combo = `${title}|${artist}`;
-  let hash = 0;
-  for (let i = 0; i < combo.length; i++) {
-    hash += (i + 1) * combo.charCodeAt(i);
-  }
-  return hash;
-};
-
-const applyDeviation = (base: number, seed: number, scale = 0.1, mod = 100) => {
-  const deviation = ((seed % mod) / mod - 0.5) * 2 * scale;
-  return Math.floor(base * (1 + deviation));
-};
 
 export default async function AlbumPage({ params }: { params: Promise<{ id: string }> }) {
   const resolvedParams = await params;
@@ -212,7 +172,8 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
       ...sortedEntries.filter((e) => e.rank === peakPos).map((e) => e.peak_streak || 0),
     );
 
-    const seed = getStableSeed(song.display_title || song.title, artistName);
+    const mathSeedString = `${song.display_title || song.title}|${artistName}`;
+    const seed = getStableSeed(mathSeedString);
     const songUnits = applyDeviation(
       Math.floor((songTotalStreams + songTotalSales + songTotalAirplay) * 1750 * 2),
       seed + 4,
@@ -263,7 +224,9 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
     airplay: 0,
     units: 0,
   };
-  const albumSeed = getStableSeed(albumTitle, artistName);
+
+  const mathSeedString = `${albumTitle}|${artistName}`;
+  const albumSeed = getStableSeed(mathSeedString);
 
   const enrichedAlbumHistory = validAlbumHistory.map((entry) => {
     albumWoc += 1;
@@ -714,7 +677,6 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
                       Format
                     </div>
                     <div className="text-lg font-medium text-gray-900">Album</div>{" "}
-                    {/* 🚨 Updated to Album */}
                   </div>
                   <div>
                     <div className="mb-1 text-xs font-bold tracking-widest text-gray-400 uppercase">

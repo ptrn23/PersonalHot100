@@ -1,7 +1,7 @@
 "use client";
 
 import { DisplayEntry } from "@/types";
-import { applyDeviation, getStableSeed } from "../utils/chartMath";
+import { applyDeviation, getStableSeed } from "@/utils/metrics";
 
 import { CHART_NAME } from "@/config/constants";
 

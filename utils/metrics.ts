@@ -8,12 +8,11 @@ export type Metrics = {
   rawPoints: number;
 };
 
-export const getStableSeed = (title: string, artist: string): number => {
-  const combo = `${title}|${artist}`;
+export const getStableSeed = (seedString: string): number => {
   let hash = 5381;
   
-  for (let i = 0; i < combo.length; i++) {
-    hash = ((hash << 5) + hash) + combo.charCodeAt(i); 
+  for (let i = 0; i < seedString.length; i++) {
+    hash = ((hash << 5) + hash) + seedString.charCodeAt(i); 
   }
   
   return Math.abs(hash);
@@ -38,7 +37,8 @@ export const calculateUnits = (
   artist: string
 ): number => {
   const base = Math.floor((streams + sales + airplay) * 3500);
-  const seed = getStableSeed(title, artist);
+  const seedString = `${title}|${artist}`; 
+  const seed = getStableSeed(seedString);
   return applyDeviation(base, seed + 4);
 };
 
