@@ -2,10 +2,7 @@ import dotenv from "dotenv";
 import { createClient } from "@supabase/supabase-js";
 dotenv.config();
 
-const supabase = createClient(
-  process.env.SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_KEY!,
-);
+const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_SERVICE_KEY!);
 
 let cachedFinalizeCanonicalMap: Map<string, string> | null = null;
 
@@ -43,9 +40,7 @@ export const finalizeChartPositions = async (
     return;
   }
 
-  console.log(
-    `Target Week: ${targetWeek.start_date} to ${targetWeek.end_date}`,
-  );
+  console.log(`Target Week: ${targetWeek.start_date} to ${targetWeek.end_date}`);
   console.log("Cleaning up existing chart entries for the target week...");
 
   const { error: deleteError, count: deletedCount } = await supabase
@@ -58,9 +53,7 @@ export const finalizeChartPositions = async (
     return;
   }
 
-  console.log(
-    `Cleanup complete: Removed ${deletedCount || 0} existing entries for this week.\n`,
-  );
+  console.log(`Cleanup complete: Removed ${deletedCount || 0} existing entries for this week.\n`);
   console.log("Fetching historical weeks for momentum calculation...");
   if (!cachedFinalizeCanonicalMap) {
     console.log("Fetching canonical dictionary for finalization...");
@@ -140,10 +133,7 @@ export const finalizeChartPositions = async (
 
   console.log("Applying decay multipliers and sorting Top 100...");
 
-  const currentWeekStats = stagedEntries.reduce(
-    (acc, row) => ({ ...acc, [row.song_id]: row }),
-    {},
-  );
+  const currentWeekStats = stagedEntries.reduce((acc, row) => ({ ...acc, [row.song_id]: row }), {});
   const allContenders = new Set([
     ...stagedEntries.map((e) => e.song_id),
     ...Object.keys(lastWeekChart),
@@ -165,9 +155,7 @@ export const finalizeChartPositions = async (
 
     const rawPoints = currentStats.current_week_points;
     const finalWeightedPoints = Math.floor(
-      rawPoints +
-        Math.floor(prevPoints * 0.3) +
-        Math.floor(twoWeeksPoints * 0.2),
+      rawPoints + Math.floor(prevPoints * 0.3) + Math.floor(twoWeeksPoints * 0.2),
     );
 
     if (finalWeightedPoints === 0) continue;
@@ -185,8 +173,7 @@ export const finalizeChartPositions = async (
   }
 
   chartContenders.sort((a, b) => {
-    if (b.total_points !== a.total_points)
-      return b.total_points - a.total_points;
+    if (b.total_points !== a.total_points) return b.total_points - a.total_points;
     if (b.current_week_points !== a.current_week_points)
       return b.current_week_points - a.current_week_points;
     return b.streams - a.streams;
@@ -194,9 +181,7 @@ export const finalizeChartPositions = async (
 
   const top100 = chartContenders.slice(0, 100);
 
-  console.log(
-    `Calculated points for ${chartContenders.length} total contenders.`,
-  );
+  console.log(`Calculated points for ${chartContenders.length} total contenders.`);
   if (top100.length > 0) {
     console.log(
       `Sliced Top 100! (Rank 1 has ${top100[0].total_points} pts, Rank ${top100.length} has ${top100[top100.length - 1].total_points} pts)\n`,
@@ -283,9 +268,7 @@ export const finalizeChartPositions = async (
   if (insertError) {
     console.error("Failed to insert Top 100:", insertError);
   } else {
-    console.log(
-      `SUCCESS: Chart finalized for week of ${targetWeek.start_date}!`,
-    );
+    console.log(`SUCCESS: Chart finalized for week of ${targetWeek.start_date}!`);
   }
 
   console.log("Setting up the database for next week's tracking...");

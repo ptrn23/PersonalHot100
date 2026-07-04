@@ -87,9 +87,7 @@ async function getWeeklyScrobbles() {
   }
 
   // 4. Sort by total streams to get the Top 10
-  const sortedChart = Array.from(aggregatedMap.values()).sort(
-    (a, b) => b.streams - a.streams,
-  );
+  const sortedChart = Array.from(aggregatedMap.values()).sort((a, b) => b.streams - a.streams);
 
   console.log(`\n🏆 YOUR TOP 10 METRICS THIS WEEK 🏆`);
   sortedChart.slice(0, 10).forEach((entry, index) => {

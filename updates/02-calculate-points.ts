@@ -2,10 +2,7 @@ import dotenv from "dotenv";
 import { createClient } from "@supabase/supabase-js";
 dotenv.config();
 
-const supabase = createClient(
-  process.env.SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_KEY!,
-);
+const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_SERVICE_KEY!);
 
 let cachedCanonicalMap: Map<string, string> | null = null;
 
@@ -67,26 +64,14 @@ export const calculateWeeklyPoints = async (overrideTargetDate?: string) => {
     .limit(1)
     .maybeSingle();
 
-  const firstTitle = firstScrobble?.songs
-    ? (firstScrobble.songs as any).title
-    : "None";
-  const lastTitle = lastScrobble?.songs
-    ? (lastScrobble.songs as any).title
-    : "None";
+  const firstTitle = firstScrobble?.songs ? (firstScrobble.songs as any).title : "None";
+  const lastTitle = lastScrobble?.songs ? (lastScrobble.songs as any).title : "None";
 
   console.log(`Total scrobbles for this week: ${currentScrobbleCount || 0}`);
   console.log("FIRST song of the week:");
-  console.log(
-    firstScrobble
-      ? `- ${firstTitle} at ${firstScrobble.listened_at}`
-      : "- None found",
-  );
+  console.log(firstScrobble ? `- ${firstTitle} at ${firstScrobble.listened_at}` : "- None found");
   console.log("LATEST/LAST song of the week:");
-  console.log(
-    lastScrobble
-      ? `- ${lastTitle} at ${lastScrobble.listened_at}`
-      : "- None found",
-  );
+  console.log(lastScrobble ? `- ${lastTitle} at ${lastScrobble.listened_at}` : "- None found");
   console.log("--------------------------------\n");
 
   if (!currentScrobbleCount || currentScrobbleCount === 0) {
@@ -95,7 +80,7 @@ export const calculateWeeklyPoints = async (overrideTargetDate?: string) => {
   }
 
   console.log("Fetching all scrobbles for calculation...");
-  
+
   const rawScrobbles: any[] = [];
   let from = 0;
   const step = 1000;
@@ -125,11 +110,11 @@ export const calculateWeeklyPoints = async (overrideTargetDate?: string) => {
 
   if (!cachedCanonicalMap) {
     console.log("Fetching canonical dictionary...");
-    
+
     const { data: songPointers } = await supabase
       .from("songs")
       .select("id, canonical_id")
-      .not("canonical_id", "is", null); 
+      .not("canonical_id", "is", null);
 
     cachedCanonicalMap = new Map<string, string>();
     if (songPointers) {
@@ -182,9 +167,7 @@ export const calculateWeeklyPoints = async (overrideTargetDate?: string) => {
 
   for (const [songId, stats] of weeklyStats.entries()) {
     const rawPoints =
-      Math.floor(stats.streams * 5) +
-      Math.floor(stats.sales * 3) +
-      Math.floor(stats.airplay * 2);
+      Math.floor(stats.streams * 5) + Math.floor(stats.sales * 3) + Math.floor(stats.airplay * 2);
 
     stagedEntries.push({
       week_id: targetWeek.id,
@@ -196,9 +179,7 @@ export const calculateWeeklyPoints = async (overrideTargetDate?: string) => {
     });
   }
 
-  console.log(
-    `Raw points calculated for ${stagedEntries.length} unique songs.`,
-  );
+  console.log(`Raw points calculated for ${stagedEntries.length} unique songs.`);
 
   return stagedEntries;
 };

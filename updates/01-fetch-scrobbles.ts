@@ -2,20 +2,13 @@ import dotenv from "dotenv";
 import { createClient } from "@supabase/supabase-js";
 dotenv.config();
 
-const supabase = createClient(
-  process.env.SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_KEY!,
-);
+const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_SERVICE_KEY!);
 const API_KEY = process.env.LASTFM_API_KEY;
 const USERNAME = process.env.LASTFM_USERNAME;
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
-async function fetchWithRetry(
-  url: string,
-  retries = 3,
-  delayMs = 3000,
-): Promise<Response> {
+async function fetchWithRetry(url: string, retries = 3, delayMs = 3000): Promise<Response> {
   for (let i = 0; i < retries; i++) {
     try {
       const response = await fetch(url);
@@ -107,28 +100,14 @@ export const fetchAndMergeScrobbles = async (overrideTargetDate?: string) => {
     .limit(1)
     .maybeSingle();
 
-  const firstTitle = firstScrobble?.songs
-    ? (firstScrobble.songs as any).title
-    : "None";
-  const lastTitle = lastScrobble?.songs
-    ? (lastScrobble.songs as any).title
-    : "None";
+  const firstTitle = firstScrobble?.songs ? (firstScrobble.songs as any).title : "None";
+  const lastTitle = lastScrobble?.songs ? (lastScrobble.songs as any).title : "None";
 
-  console.log(
-    `Total scrobbles currently in DB for this week: ${currentScrobbleCount || 0}`,
-  );
+  console.log(`Total scrobbles currently in DB for this week: ${currentScrobbleCount || 0}`);
   console.log("FIRST song of the week currently in DB:");
-  console.log(
-    firstScrobble
-      ? `- ${firstTitle} at ${firstScrobble.listened_at}`
-      : "- None found",
-  );
+  console.log(firstScrobble ? `- ${firstTitle} at ${firstScrobble.listened_at}` : "- None found");
   console.log("LATEST/LAST song of the week currently in DB:");
-  console.log(
-    lastScrobble
-      ? `- ${lastTitle} at ${lastScrobble.listened_at}`
-      : "- None found",
-  );
+  console.log(lastScrobble ? `- ${lastTitle} at ${lastScrobble.listened_at}` : "- None found");
   console.log("--------------------------------\n");
 
   let fromUnix = Math.floor(dbStartDate.getTime() / 1000);
@@ -137,9 +116,7 @@ export const fetchAndMergeScrobbles = async (overrideTargetDate?: string) => {
   if (lastScrobble && lastScrobble.listened_at) {
     const lastScrobbleDate = new Date(lastScrobble.listened_at);
     fromUnix = Math.floor(lastScrobbleDate.getTime() / 1000) + 1;
-    console.log(
-      `Resuming Last.fm fetch from ${lastScrobbleDate.toISOString()}`,
-    );
+    console.log(`Resuming Last.fm fetch from ${lastScrobbleDate.toISOString()}`);
   }
 
   let page = 1;
@@ -156,9 +133,7 @@ export const fetchAndMergeScrobbles = async (overrideTargetDate?: string) => {
     const data = await response.json();
 
     if (data.error || !data.recenttracks) {
-      console.error(
-        `Last.fm API Glitch: ${data.message || "Missing track data"}`,
-      );
+      console.error(`Last.fm API Glitch: ${data.message || "Missing track data"}`);
       console.log("Waiting 5 seconds before retrying this page...");
       await sleep(5000);
       continue;
@@ -231,9 +206,7 @@ export const fetchAndMergeScrobbles = async (overrideTargetDate?: string) => {
   } while (page <= totalPages);
 
   console.log(`\nScrobbles merged and entities upserted.`);
-  console.log(
-    `Summary: ${savedCount} new scrobbles saved, ${skipCount} duplicates skipped.`,
-  );
+  console.log(`Summary: ${savedCount} new scrobbles saved, ${skipCount} duplicates skipped.`);
 
   return { status: "success", isFinalizing, weekId: targetWeek.id };
 };

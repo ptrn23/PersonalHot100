@@ -24,10 +24,7 @@ const formatBillboardDate = (isoString: string) => {
   return `${m}/${day}/${y}`;
 };
 
-export default function ChartTrajectory({
-  songEntries,
-  allGlobalWeeks,
-}: ChartTrajectoryProps) {
+export default function ChartTrajectory({ songEntries, allGlobalWeeks }: ChartTrajectoryProps) {
   const [mode, setMode] = useState<"compact" | "run" | "full">("run");
 
   const chartData = useMemo(() => {
@@ -57,9 +54,7 @@ export default function ChartTrajectory({
           const next = songEntries[i + 1];
           const currTime = new Date(current.chart_weeks.start_date).getTime();
           const nextTime = new Date(next.chart_weeks.start_date).getTime();
-          const daysDiff = Math.round(
-            (nextTime - currTime) / (1000 * 3600 * 24),
-          );
+          const daysDiff = Math.round((nextTime - currTime) / (1000 * 3600 * 24));
 
           if (daysDiff > 8) {
             compactData.push({
@@ -78,8 +73,7 @@ export default function ChartTrajectory({
 
     if (mode === "run" && songEntries.length > 0) {
       const debutDate = songEntries[0].chart_weeks.start_date;
-      const lastDate =
-        songEntries[songEntries.length - 1].chart_weeks.start_date;
+      const lastDate = songEntries[songEntries.length - 1].chart_weeks.start_date;
       const startIndex = allGlobalWeeks.indexOf(debutDate);
       const endIndex = allGlobalWeeks.indexOf(lastDate);
 
@@ -109,38 +103,36 @@ export default function ChartTrajectory({
 
       return (
         <div
-          className={`bg-white p-4 shadow-2xl transform -translate-y-2 transition-all ${
+          className={`-translate-y-2 transform bg-white p-4 shadow-2xl transition-all ${
             isNo1 ? "border-4 border-[#d4af37]" : "border-2 border-black"
           }`}
         >
           {isNo1 && (
-            <div className="bg-[#d4af37] text-white text-[10px] font-black uppercase tracking-widest text-center py-1 mb-2">
+            <div className="mb-2 bg-[#d4af37] py-1 text-center text-[10px] font-black tracking-widest text-white uppercase">
               No. 1 Hit
             </div>
           )}
 
-          <div className="font-bold border-b border-gray-300 pb-1 mb-2 text-xs text-gray-500 uppercase tracking-widest">
+          <div className="mb-2 border-b border-gray-300 pb-1 text-xs font-bold tracking-widest text-gray-500 uppercase">
             Week of {data.date}
           </div>
 
           <div className="flex items-end justify-between gap-8">
             <div>
-              <div className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">
+              <div className="text-[10px] font-bold tracking-widest text-gray-400 uppercase">
                 Pos.
               </div>
               <div
-                className={`text-4xl font-black leading-none ${isNo1 ? "text-[#d4af37]" : "text-[#B30000]"}`}
+                className={`text-4xl leading-none font-black ${isNo1 ? "text-[#d4af37]" : "text-[#B30000]"}`}
               >
                 #{data.rank}
               </div>
             </div>
             <div className="text-right">
-              <div className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">
+              <div className="text-[10px] font-bold tracking-widest text-gray-400 uppercase">
                 Points
               </div>
-              <div className="text-2xl font-black leading-none">
-                {data.points}
-              </div>
+              <div className="text-2xl leading-none font-black">{data.points}</div>
             </div>
           </div>
         </div>
@@ -150,16 +142,14 @@ export default function ChartTrajectory({
   };
 
   return (
-    <div className="w-full flex flex-col items-center">
-      <div className="flex bg-gray-100 p-1 border border-gray-300 rounded-sm mb-6">
+    <div className="flex w-full flex-col items-center">
+      <div className="mb-6 flex rounded-sm border border-gray-300 bg-gray-100 p-1">
         {(["compact", "run", "full"] as const).map((m) => (
           <button
             key={m}
             onClick={() => setMode(m)}
-            className={`px-4 py-1.5 text-xs font-bold uppercase tracking-widest transition-all ${
-              mode === m
-                ? "bg-black text-white shadow-sm"
-                : "text-gray-500 hover:text-black"
+            className={`px-4 py-1.5 text-xs font-bold tracking-widest uppercase transition-all ${
+              mode === m ? "bg-black text-white shadow-sm" : "text-gray-500 hover:text-black"
             }`}
           >
             {m}
@@ -168,17 +158,10 @@ export default function ChartTrajectory({
       </div>
 
       {/* The Graph */}
-      <div className="w-full h-80">
+      <div className="h-80 w-full">
         <ResponsiveContainer width="100%" height="100%">
-          <LineChart
-            data={chartData}
-            margin={{ top: 10, right: 10, left: -20, bottom: 0 }}
-          >
-            <CartesianGrid
-              strokeDasharray="3 3"
-              vertical={false}
-              stroke="#e5e7eb"
-            />
+          <LineChart data={chartData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+            <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e5e7eb" />
 
             <XAxis
               dataKey="date"

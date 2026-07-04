@@ -7,19 +7,10 @@ export const alt = "Artist Chart Performance";
 export const size = { width: 1200, height: 600 };
 export const contentType = "image/png";
 
-export default async function Image({
-  params,
-}: {
-  params: Promise<{ id: string }>;
-}) {
+export default async function Image({ params }: { params: Promise<{ id: string }> }) {
   const resolvedParams = await params;
 
-  const fontPath = path.join(
-    process.cwd(),
-    "public",
-    "fonts",
-    "Geist-Black.ttf",
-  );
+  const fontPath = path.join(process.cwd(), "public", "fonts", "Geist-Black.ttf");
   const fontData = await fs.readFile(fontPath);
 
   const { data: artist } = await supabase

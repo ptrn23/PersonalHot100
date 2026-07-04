@@ -17,13 +17,9 @@ async function testRecentTracks() {
     const data = await response.json();
     const tracks = data.recenttracks.track;
 
-    console.log(
-      `Successfully fetched data! Here is the JSON for a SINGLE scrobble:\n`,
-    );
+    console.log(`Successfully fetched data! Here is the JSON for a SINGLE scrobble:\n`);
 
-    const trackToInspect = tracks[0]["@attr"]?.nowplaying
-      ? tracks[1]
-      : tracks[0];
+    const trackToInspect = tracks[0]["@attr"]?.nowplaying ? tracks[1] : tracks[0];
 
     console.log(JSON.stringify(trackToInspect, null, 2));
   } catch (error) {

@@ -4,18 +4,12 @@ import { generateNews } from "./05-generate-news";
 
 dotenv.config();
 
-const supabase = createClient(
-  process.env.SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_KEY!,
-);
+const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_SERVICE_KEY!);
 
 const rollbackNews = async (startCutoff: string) => {
   console.log("Clearing entire news feed table...");
-  
-  const { error: deleteError } = await supabase
-    .from("news_feed")
-    .delete()
-    .not("id", "is", null);
+
+  const { error: deleteError } = await supabase.from("news_feed").delete().not("id", "is", null);
 
   if (deleteError) {
     console.error("Failed to clear news_feed:", deleteError);
@@ -39,8 +33,8 @@ const rollbackNews = async (startCutoff: string) => {
 
   for (let i = 0; i < weeks.length; i++) {
     const week = weeks[i];
-    const overrideDate = week.end_date.split("T")[0].split(" ")[0]; 
-    
+    const overrideDate = week.end_date.split("T")[0].split(" ")[0];
+
     console.log(`[${i + 1}/${weeks.length}] Processing week ending on: ${overrideDate}`);
     await generateNews(true, overrideDate);
   }

@@ -139,12 +139,8 @@ export default async function RecordsPage() {
     metricFormat: (r: any) => string | number,
   ): RecordEntry => {
     const songData = Array.isArray(row.songs) ? row.songs[0] : row.songs;
-    const artistData = Array.isArray(songData?.artists)
-      ? songData.artists[0]
-      : songData?.artists;
-    const albumData = Array.isArray(songData?.albums)
-      ? songData.albums[0]
-      : songData?.albums;
+    const artistData = Array.isArray(songData?.artists) ? songData.artists[0] : songData?.artists;
+    const albumData = Array.isArray(songData?.albums) ? songData.albums[0] : songData?.albums;
     const dateStr = row.chart_weeks?.start_date;
 
     return {
@@ -195,8 +191,8 @@ export default async function RecordsPage() {
   const biggestJumpTo1Entries = (biggestJumpTo1Res.data || []).map((row, i) =>
     mapFlatRecord(row, i, (r) => `+${r.position_change}`),
   );
-  const biggestFallFrom1Entries = (biggestFallFrom1Res.data || []).map(
-    (row, i) => mapFlatRecord(row, i, (r) => `${r.position_change}`),
+  const biggestFallFrom1Entries = (biggestFallFrom1Res.data || []).map((row, i) =>
+    mapFlatRecord(row, i, (r) => `${r.position_change}`),
   );
 
   const longestFirstRunEntries = (longestFirstRunRes.data || []).map((row, i) =>
@@ -213,67 +209,59 @@ export default async function RecordsPage() {
     mapToRecord(row, i, (r) => formatNumber(r.airplay)),
   );
 
-  const highestDebutSalesEntries = (highestDebutSalesRes.data || []).map(
-    (row, i) => mapToRecord(row, i, (r) => formatNumber(r.sales)),
+  const highestDebutSalesEntries = (highestDebutSalesRes.data || []).map((row, i) =>
+    mapToRecord(row, i, (r) => formatNumber(r.sales)),
   );
-  const highestDebutStreamsEntries = (highestDebutStreamsRes.data || []).map(
-    (row, i) => mapToRecord(row, i, (r) => formatNumber(r.streams)),
+  const highestDebutStreamsEntries = (highestDebutStreamsRes.data || []).map((row, i) =>
+    mapToRecord(row, i, (r) => formatNumber(r.streams)),
   );
-  const highestDebutAirplayEntries = (highestDebutAirplayRes.data || []).map(
-    (row, i) => mapToRecord(row, i, (r) => formatNumber(r.airplay)),
+  const highestDebutAirplayEntries = (highestDebutAirplayRes.data || []).map((row, i) =>
+    mapToRecord(row, i, (r) => formatNumber(r.airplay)),
   );
 
   const mostWeeksAt1Entries = (mostWeeksAt1Res.data || []).map((row, i) => {
     const entry = mapFlatRecord(row, i, (r) => r.weeks_at_1);
     entry.weekDisplay = formatRecordDate(row.last_week_at_1);
-    entry.weekUrl = row.last_week_at_1
-      ? encodeURIComponent(row.last_week_at_1)
-      : "";
+    entry.weekUrl = row.last_week_at_1 ? encodeURIComponent(row.last_week_at_1) : "";
     return entry;
   });
 
   const mostWeeksTop10Entries = (mostWeeksTop10Res.data || []).map((row, i) => {
     const entry = mapFlatRecord(row, i, (r) => r.weeks_in_top_10);
     entry.weekDisplay = formatRecordDate(row.last_week_in_top_10);
-    entry.weekUrl = row.last_week_in_top_10
-      ? encodeURIComponent(row.last_week_in_top_10)
-      : "";
+    entry.weekUrl = row.last_week_in_top_10 ? encodeURIComponent(row.last_week_in_top_10) : "";
     return entry;
   });
 
   const mostWeeksTop25Entries = (mostWeeksTop25Res.data || []).map((row, i) => {
     const entry = mapFlatRecord(row, i, (r) => r.weeks_in_top_25);
     entry.weekDisplay = formatRecordDate(row.last_week_in_top_25);
-    entry.weekUrl = row.last_week_in_top_25
-      ? encodeURIComponent(row.last_week_in_top_25)
-      : "";
+    entry.weekUrl = row.last_week_in_top_25 ? encodeURIComponent(row.last_week_in_top_25) : "";
     return entry;
   });
 
   const mostTotalWeeksEntries = (mostTotalWeeksRes.data || []).map((row, i) => {
     const entry = mapFlatRecord(row, i, (r) => r.total_weeks);
     entry.weekDisplay = formatRecordDate(row.last_week_on_chart);
-    entry.weekUrl = row.last_week_on_chart
-      ? encodeURIComponent(row.last_week_on_chart)
-      : "";
+    entry.weekUrl = row.last_week_on_chart ? encodeURIComponent(row.last_week_on_chart) : "";
     return entry;
   });
 
   return (
-    <main className="min-h-screen bg-[#f8f9fa] text-gray-900 pb-24">
-      <div className="bg-white border-b border-gray-200 pt-16 pb-12 mb-12 shadow-sm">
-        <div className="max-w-[1000px] mx-auto px-8">
-          <h1 className="text-5xl md:text-7xl font-black uppercase tracking-tighter leading-none mb-4">
+    <main className="min-h-screen bg-[#f8f9fa] pb-24 text-gray-900">
+      <div className="mb-12 border-b border-gray-200 bg-white pt-16 pb-12 shadow-sm">
+        <div className="mx-auto max-w-[1000px] px-8">
+          <h1 className="mb-4 text-5xl leading-none font-black tracking-tighter uppercase md:text-7xl">
             Records
           </h1>
-          <p className="text-gray-500 font-medium max-w-2xl text-lg">
-            The list of the biggest moments, highest peaks, and longest runs in
-            the history of the Personal Charts.
+          <p className="max-w-2xl text-lg font-medium text-gray-500">
+            The list of the biggest moments, highest peaks, and longest runs in the history of the
+            Personal Charts.
           </p>
         </div>
       </div>
 
-      <div className="max-w-[1000px] mx-auto px-8">
+      <div className="mx-auto max-w-[1000px] px-8">
         <RecordBlock
           title="Most Points in a Single Week"
           metricLabel="PTS"
@@ -355,11 +343,7 @@ export default async function RecordsPage() {
           entries={highestDebutAirplayEntries}
         />
 
-        <RecordBlock
-          title="Most Weeks at #1"
-          metricLabel="WEEKS"
-          entries={mostWeeksAt1Entries}
-        />
+        <RecordBlock title="Most Weeks at #1" metricLabel="WEEKS" entries={mostWeeksAt1Entries} />
         <RecordBlock
           title="Most Weeks in the Top 10"
           metricLabel="WEEKS"

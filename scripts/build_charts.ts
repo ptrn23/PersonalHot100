@@ -139,10 +139,8 @@ const ordinal = (n: number) => {
 function generateFeed(songs: SongEntry[]) {
   const getPct = (s: SongEntry) =>
     s.pointsPct === "--" ? -Infinity : parseFloat(s.pointsPct.replace("%", ""));
-  const getRise = (s: SongEntry) =>
-    s.status === "rise" ? s.change : -Infinity;
-  const getFall = (s: SongEntry) =>
-    s.status === "fall" ? s.change : -Infinity;
+  const getRise = (s: SongEntry) => (s.status === "rise" ? s.change : -Infinity);
+  const getFall = (s: SongEntry) => (s.status === "fall" ? s.change : -Infinity);
   const getFallPct = (s: SongEntry) =>
     s.pointsPct === "--" ? Infinity : parseFloat(s.pointsPct.replace("%", ""));
 
@@ -189,8 +187,7 @@ function generateFeed(songs: SongEntry[]) {
     }
 
     // Milestones
-    const woc =
-      typeof song.woc === "number" ? song.woc : parseInt(song.woc) || 0;
+    const woc = typeof song.woc === "number" ? song.woc : parseInt(song.woc) || 0;
     if (SPECIAL_MILESTONES[woc]) {
       song.feed!.push(
         `“${song.title}” by ${song.artist} has now completed ${SPECIAL_MILESTONES[woc]} (${woc} weeks of charting) in ${CHART_NAME} Hot 100.`,
@@ -312,12 +309,7 @@ function generateFeed(songs: SongEntry[]) {
 }
 
 // --- MAIN PROCESSOR ---
-async function processWeek(
-  filename: string,
-  year: number,
-  cache: AlbumCache,
-  apiKey: string,
-) {
+async function processWeek(filename: string, year: number, cache: AlbumCache, apiKey: string) {
   const week = filename.replace(".csv", "");
   // Construct the path dynamically based on the year passed in
   const inputPath = path.join(POINTS_BASE_DIR, year.toString(), filename);
@@ -337,9 +329,7 @@ async function processWeek(
   for (const row of topRecords) {
     const key = `${row.Artist}|${row.Album}`;
     if (!cache[key]) {
-      if (
-        !missing.find((m) => m.artist === row.Artist && m.album === row.Album)
-      ) {
+      if (!missing.find((m) => m.artist === row.Artist && m.album === row.Album)) {
         missing.push({ artist: row.Artist, album: row.Album });
       }
     }
@@ -352,11 +342,7 @@ async function processWeek(
       const batch = missing.slice(i, i + BATCH_SIZE);
       await Promise.all(
         batch.map(async (item) => {
-          const url = await fetchCoverFromLastFM(
-            item.artist,
-            item.album,
-            apiKey,
-          );
+          const url = await fetchCoverFromLastFM(item.artist, item.album, apiKey);
           const key = `${item.artist}|${item.album}`;
           cache[key] = url;
           process.stdout.write(".");
@@ -372,8 +358,7 @@ async function processWeek(
     const rank = parseInt(row.Position);
     const woc = parseInt(row.WOC);
     const lastWeekRaw = row["Previous Rank"];
-    const lastWeek =
-      lastWeekRaw && lastWeekRaw !== "--" ? parseInt(lastWeekRaw) : null;
+    const lastWeek = lastWeekRaw && lastWeekRaw !== "--" ? parseInt(lastWeekRaw) : null;
 
     // Status Logic
     let status: SongEntry["status"] = "stable";
@@ -438,10 +423,8 @@ async function processWeek(
 
   songs.forEach((song) => {
     song.isTopSales = song.salesUnits > 0 && song.salesUnits === maxSales;
-    song.isTopStreams =
-      song.streamsUnits > 0 && song.streamsUnits === maxStreams;
-    song.isTopAirplay =
-      song.airplayUnits > 0 && song.airplayUnits === maxAirplay;
+    song.isTopStreams = song.streamsUnits > 0 && song.streamsUnits === maxStreams;
+    song.isTopAirplay = song.airplayUnits > 0 && song.airplayUnits === maxAirplay;
     song.isTopUnits = song.units > 0 && song.units === maxUnits;
   });
 
@@ -510,12 +493,7 @@ async function main() {
 
     if (allProcessedWeeks.length > 0) {
       const latestSrc = path.join(OUTPUT_DIR, `${allProcessedWeeks[0]}.json`);
-      const latestDest = path.join(
-        process.cwd(),
-        "public",
-        "data",
-        "latest_chart.json",
-      );
+      const latestDest = path.join(process.cwd(), "public", "data", "latest_chart.json");
       await fs.copyFile(latestSrc, latestDest);
       console.log(`Updated latest_chart.json to ${allProcessedWeeks[0]}`);
     }

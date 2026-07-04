@@ -7,19 +7,10 @@ export const alt = "Song Chart Performance";
 export const size = { width: 1200, height: 600 };
 export const contentType = "image/png";
 
-export default async function Image({
-  params,
-}: {
-  params: Promise<{ id: string }>;
-}) {
+export default async function Image({ params }: { params: Promise<{ id: string }> }) {
   const resolvedParams = await params;
 
-  const fontPath = path.join(
-    process.cwd(),
-    "public",
-    "fonts",
-    "Geist-Black.ttf",
-  );
+  const fontPath = path.join(process.cwd(), "public", "fonts", "Geist-Black.ttf");
   const fontData = await fs.readFile(fontPath);
 
   const { data: song } = await supabase
@@ -58,10 +49,7 @@ export default async function Image({
         }}
       >
         {coverUrl && (
-          <img
-            src={coverUrl}
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
-          />
+          <img src={coverUrl} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
         )}
         <div
           style={{
@@ -122,9 +110,7 @@ export default async function Image({
           />
         )}
 
-        <div
-          style={{ display: "flex", justifyContent: "flex-end", zIndex: 10 }}
-        >
+        <div style={{ display: "flex", justifyContent: "flex-end", zIndex: 10 }}>
           <span
             style={{
               fontSize: 20,

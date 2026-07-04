@@ -14,12 +14,7 @@ export const getStableSeed = (seedString?: string) => {
   return hash;
 };
 
-export const applyDeviation = (
-  base: number,
-  seed: number,
-  scale = 0.1,
-  mod = 100,
-) => {
+export const applyDeviation = (base: number, seed: number, scale = 0.1, mod = 100) => {
   const deviation = ((seed % mod) / mod - 0.5) * 2 * scale;
   return Math.floor(base * (1 + deviation));
 };

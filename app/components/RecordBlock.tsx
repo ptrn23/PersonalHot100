@@ -21,11 +21,7 @@ type RecordBlockProps = {
 
 const ACCENT_COLOR = "#B30000";
 
-export default function RecordBlock({
-  title,
-  metricLabel,
-  entries,
-}: RecordBlockProps) {
+export default function RecordBlock({ title, metricLabel, entries }: RecordBlockProps) {
   if (!entries || entries.length === 0) return null;
 
   const topEntry = entries[0];
@@ -34,30 +30,30 @@ export default function RecordBlock({
   return (
     <div className="mb-16">
       <div className="mb-6 flex items-baseline justify-between border-b-2 border-black pb-2">
-        <h2 className="text-2xl md:text-3xl font-black uppercase tracking-tighter text-gray-900">
+        <h2 className="text-2xl font-black tracking-tighter text-gray-900 uppercase md:text-3xl">
           {title}
         </h2>
       </div>
 
       <div className="flex flex-col gap-3">
         {topEntry && (
-          <div className="bg-white shadow-md flex items-center p-4 relative overflow-hidden group">
-            <div className="absolute left-0 top-0 bottom-0 w-2 bg-[#B30000]" />
+          <div className="group relative flex items-center overflow-hidden bg-white p-4 shadow-md">
+            <div className="absolute top-0 bottom-0 left-0 w-2 bg-[#B30000]" />
 
-            <div className="flex items-center w-full relative z-10 pl-2">
-              <div className="w-16 h-16 bg-[#B30000] text-white font-black text-3xl flex items-center justify-center shrink-0 -ml-4 shadow-sm z-20">
+            <div className="relative z-10 flex w-full items-center pl-2">
+              <div className="z-20 -ml-4 flex h-16 w-16 shrink-0 items-center justify-center bg-[#B30000] text-3xl font-black text-white shadow-sm">
                 1
               </div>
 
-              <div className="w-32 h-32 bg-gray-200 shrink-0 shadow-sm ml-4 border border-gray-100 relative">
+              <div className="relative ml-4 h-32 w-32 shrink-0 border border-gray-100 bg-gray-200 shadow-sm">
                 {topEntry.coverUrl ? (
                   <img
                     src={topEntry.coverUrl}
                     alt={topEntry.title}
-                    className="w-full h-full object-cover"
+                    className="h-full w-full object-cover"
                   />
                 ) : (
-                  <div className="w-full h-full flex items-center justify-center text-gray-400 font-bold text-xs uppercase">
+                  <div className="flex h-full w-full items-center justify-center text-xs font-bold text-gray-400 uppercase">
                     No Cover
                   </div>
                 )}
@@ -66,42 +62,38 @@ export default function RecordBlock({
               <div className="ml-6 flex-1 pr-4">
                 <Link
                   href={`/library/song/${topEntry.id}`}
-                  className="text-2xl font-black leading-tight text-gray-900 hover:text-[#B30000] transition-colors line-clamp-1"
+                  className="line-clamp-1 text-2xl leading-tight font-black text-gray-900 transition-colors hover:text-[#B30000]"
                 >
                   {topEntry.title}
                 </Link>
-                <div className="text-gray-600 font-medium text-lg mt-1 line-clamp-1">
+                <div className="mt-1 line-clamp-1 text-lg font-medium text-gray-600">
                   {topEntry.artist}
                 </div>
               </div>
 
-              <div className="hidden md:flex flex-col items-end justify-center text-xs font-bold text-gray-500 uppercase tracking-widest gap-1 pr-8 border-r border-gray-100">
-                <div className="flex justify-between w-28">
+              <div className="hidden flex-col items-end justify-center gap-1 border-r border-gray-100 pr-8 text-xs font-bold tracking-widest text-gray-500 uppercase md:flex">
+                <div className="flex w-28 justify-between">
                   <span>{metricLabel}</span>
-                  <span className="text-black font-black">
-                    {topEntry.metricValue}
-                  </span>
+                  <span className="font-black text-black">{topEntry.metricValue}</span>
                 </div>
-                <div className="flex justify-between w-28">
+                <div className="flex w-28 justify-between">
                   <span>Peak</span>
-                  <span className="text-black font-black">
+                  <span className="font-black text-black">
                     {topEntry.peak === 101 ? "--" : topEntry.peak}
                   </span>
                 </div>
-                <div className="flex justify-between w-28">
+                <div className="flex w-28 justify-between">
                   <span>Week</span>
-                  <span className="text-black font-black">
-                    {topEntry.weekDisplay}
-                  </span>
+                  <span className="font-black text-black">{topEntry.weekDisplay}</span>
                 </div>
               </div>
 
               <Link
                 href={`/charts/weekly?week=${topEntry.weekUrl}`}
-                className="ml-6 w-10 h-10 rounded-full border-2 border-gray-200 flex items-center justify-center text-gray-400 hover:text-black hover:border-black transition-colors shrink-0 mr-2"
+                className="mr-2 ml-6 flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 border-gray-200 text-gray-400 transition-colors hover:border-black hover:text-black"
                 title="View Chart Week"
               >
-                <ArrowRight className="w-5 h-5" />
+                <ArrowRight className="h-5 w-5" />
               </Link>
             </div>
           </div>
@@ -110,22 +102,22 @@ export default function RecordBlock({
         {runnerUps.map((entry) => (
           <div
             key={entry.rank}
-            className="bg-white shadow-sm flex items-center p-3 group hover:shadow-md transition-shadow border border-gray-50"
+            className="group flex items-center border border-gray-50 bg-white p-3 shadow-sm transition-shadow hover:shadow-md"
           >
-            <div className="flex items-center w-full">
-              <div className="w-12 text-center text-xl font-black text-gray-900 shrink-0">
+            <div className="flex w-full items-center">
+              <div className="w-12 shrink-0 text-center text-xl font-black text-gray-900">
                 {entry.rank}
               </div>
 
-              <div className="w-16 h-16 bg-gray-200 shrink-0 shadow-sm ml-2 border border-gray-100">
+              <div className="ml-2 h-16 w-16 shrink-0 border border-gray-100 bg-gray-200 shadow-sm">
                 {entry.coverUrl ? (
                   <img
                     src={entry.coverUrl}
                     alt={entry.title}
-                    className="w-full h-full object-cover"
+                    className="h-full w-full object-cover"
                   />
                 ) : (
-                  <div className="w-full h-full flex items-center justify-center text-gray-400 font-bold text-[8px] uppercase">
+                  <div className="flex h-full w-full items-center justify-center text-[8px] font-bold text-gray-400 uppercase">
                     No Cover
                   </div>
                 )}
@@ -134,42 +126,36 @@ export default function RecordBlock({
               <div className="ml-4 flex-1 pr-4">
                 <Link
                   href={`/library/song/${entry.id}`}
-                  className="text-lg font-black leading-tight text-gray-900 hover:text-[#B30000] transition-colors line-clamp-1 block"
+                  className="line-clamp-1 block text-lg leading-tight font-black text-gray-900 transition-colors hover:text-[#B30000]"
                 >
                   {entry.title}
                 </Link>
-                <div className="text-gray-500 font-medium text-sm line-clamp-1">
-                  {entry.artist}
-                </div>
+                <div className="line-clamp-1 text-sm font-medium text-gray-500">{entry.artist}</div>
               </div>
 
-              <div className="hidden md:flex flex-col items-end justify-center text-[10px] font-bold text-gray-400 uppercase tracking-widest gap-0.5 pr-6 border-r border-gray-100">
-                <div className="flex justify-between w-24">
+              <div className="hidden flex-col items-end justify-center gap-0.5 border-r border-gray-100 pr-6 text-[10px] font-bold tracking-widest text-gray-400 uppercase md:flex">
+                <div className="flex w-24 justify-between">
                   <span>{metricLabel}</span>
-                  <span className="text-gray-800 font-black">
-                    {entry.metricValue}
-                  </span>
+                  <span className="font-black text-gray-800">{entry.metricValue}</span>
                 </div>
-                <div className="flex justify-between w-24">
+                <div className="flex w-24 justify-between">
                   <span>Peak</span>
-                  <span className="text-gray-800 font-black">
+                  <span className="font-black text-gray-800">
                     {entry.peak === 101 ? "--" : entry.peak}
                   </span>
                 </div>
-                <div className="flex justify-between w-24">
+                <div className="flex w-24 justify-between">
                   <span>Week</span>
-                  <span className="text-gray-800 font-black">
-                    {entry.weekDisplay}
-                  </span>
+                  <span className="font-black text-gray-800">{entry.weekDisplay}</span>
                 </div>
               </div>
 
               <Link
                 href={`/charts/weekly?week=${entry.weekUrl}`}
-                className="ml-5 w-8 h-8 rounded-full border border-gray-200 flex items-center justify-center text-gray-300 hover:text-black hover:border-black transition-colors shrink-0 mr-2"
+                className="mr-2 ml-5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-gray-200 text-gray-300 transition-colors hover:border-black hover:text-black"
                 title="View Chart Week"
               >
-                <ArrowRight className="w-4 h-4" />
+                <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
           </div>

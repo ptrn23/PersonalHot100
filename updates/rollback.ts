@@ -2,10 +2,7 @@ import dotenv from "dotenv";
 import { createClient } from "@supabase/supabase-js";
 dotenv.config();
 
-const supabase = createClient(
-  process.env.SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_KEY!,
-);
+const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_SERVICE_KEY!);
 
 export const purgeScrobblesFromWeek = async (startDateStr: string) => {
   console.log(`\nInitiating rollback from: ${startDateStr}`);
@@ -17,9 +14,7 @@ export const purgeScrobblesFromWeek = async (startDateStr: string) => {
     .single();
 
   if (weekErr || !targetWeek) {
-    console.error(
-      "ERROR: Could not find a chart week matching that start date.",
-    );
+    console.error("ERROR: Could not find a chart week matching that start date.");
     return;
   }
 
@@ -44,9 +39,7 @@ export const purgeChartEntriesFromWeek = async (startDateStr: string) => {
     .gte("start_date", startDateStr);
 
   if (weekErr || !targetWeeks || targetWeeks.length === 0) {
-    console.error(
-      "ERROR: Could not find any chart weeks starting on or after that date.",
-    );
+    console.error("ERROR: Could not find any chart weeks starting on or after that date.");
     return;
   }
 

@@ -2,21 +2,14 @@ import dotenv from "dotenv";
 import { createClient } from "@supabase/supabase-js";
 dotenv.config();
 
-const supabase = createClient(
-  process.env.SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_KEY!,
-);
+const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_SERVICE_KEY!);
 const API_KEY = process.env.LASTFM_API_KEY;
 const USERNAME = process.env.LASTFM_USERNAME;
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
-async function fetchWithRetry(
-  url: string,
-  retries = 3,
-  delayMs = 3000,
-): Promise<Response> {
+async function fetchWithRetry(url: string, retries = 3, delayMs = 3000): Promise<Response> {
   for (let i = 0; i < retries; i++) {
     try {
       const response = await fetch(url);
@@ -26,9 +19,7 @@ async function fetchWithRetry(
       return response;
     } catch (error) {
       if (i === retries - 1) throw error;
-      console.warn(
-        `⚠️ Network hiccup on fetch. Retrying in ${delayMs / 1000}s...`,
-      );
+      console.warn(`⚠️ Network hiccup on fetch. Retrying in ${delayMs / 1000}s...`);
       await delay(delayMs);
     }
   }
@@ -46,9 +37,7 @@ async function runGrandBackfill() {
   const totalPages = parseInt(initialData.recenttracks["@attr"].totalPages);
   const totalScrobbles = initialData.recenttracks["@attr"].total;
 
-  console.log(
-    `Found ${totalScrobbles} total scrobbles across ${totalPages} pages.`,
-  );
+  console.log(`Found ${totalScrobbles} total scrobbles across ${totalPages} pages.`);
   console.log(
     `Starting chronological download (from Page ${totalPages} down to ${totalPages - 10})...\n`,
   );
@@ -61,9 +50,7 @@ async function runGrandBackfill() {
     const data = await response.json();
 
     if (data.error || !data.recenttracks) {
-      console.error(
-        `⚠️ Last.fm API Glitch: ${data.message || "Missing track data"}`,
-      );
+      console.error(`⚠️ Last.fm API Glitch: ${data.message || "Missing track data"}`);
       console.log("Waiting 10 seconds before retrying this page...");
       await sleep(10000);
       page++;
@@ -138,15 +125,11 @@ async function runGrandBackfill() {
       }
     }
 
-    console.log(
-      `✅ Page ${page} complete: ${savedCount} saved, ${skipCount} skipped.`,
-    );
+    console.log(`✅ Page ${page} complete: ${savedCount} saved, ${skipCount} skipped.`);
     await delay(500);
   }
 
-  console.log(
-    `\n🎉 GRAND BACKFILL COMPLETE! Your entire listening history is now in PostgreSQL.`,
-  );
+  console.log(`\n🎉 GRAND BACKFILL COMPLETE! Your entire listening history is now in PostgreSQL.`);
 }
 
 runGrandBackfill();

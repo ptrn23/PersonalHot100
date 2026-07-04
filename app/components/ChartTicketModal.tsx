@@ -42,49 +42,45 @@ export default function ChartTicketModal({
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
       <div
         onClick={onClose}
-        className="absolute inset-0 bg-black/60 backdrop-blur-sm transition-opacity cursor-pointer"
+        className="absolute inset-0 cursor-pointer bg-black/60 backdrop-blur-sm transition-opacity"
       />
-      <div className="relative bg-white rounded-2xl w-full max-w-5xl max-h-[90vh] overflow-y-auto p-8 shadow-xl flex flex-col gap-6 cursor-default">
+      <div className="relative flex max-h-[90vh] w-full max-w-5xl cursor-default flex-col gap-6 overflow-y-auto rounded-2xl bg-white p-8 shadow-xl">
         <button
           onClick={onClose}
-          className="absolute top-5 right-5 text-gray-400 hover:text-gray-600 transition-colors"
+          className="absolute top-5 right-5 text-gray-400 transition-colors hover:text-gray-600"
         >
-          <X className="w-6 h-6" />
+          <X className="h-6 w-6" />
         </button>
 
-        <div className="flex justify-between items-end pr-8">
-          <h2 className="text-2xl font-black tracking-tight text-gray-900">
-            Chart Ticket
-          </h2>
+        <div className="flex items-end justify-between pr-8">
+          <h2 className="text-2xl font-black tracking-tight text-gray-900">Chart Ticket</h2>
           <button
             onClick={handleDownload}
             disabled={isExporting}
-            className="bg-blue-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2 text-sm disabled:opacity-50"
+            className="flex items-center gap-2 rounded-lg bg-blue-600 px-4 py-2 text-sm font-bold text-white transition-colors hover:bg-blue-700 disabled:opacity-50"
           >
-            <Download className="w-4 h-4" />
+            <Download className="h-4 w-4" />
             {isExporting ? "Rendering..." : "Download"}
           </button>
         </div>
 
-        <div className="w-full flex justify-center bg-gray-50 rounded-xl p-4 overflow-x-auto border border-gray-200">
+        <div className="flex w-full justify-center overflow-x-auto rounded-xl border border-gray-200 bg-gray-50 p-4">
           <div
             ref={ticketRef}
-            className="bg-[#f9fafb] p-8 flex flex-col gap-6 rounded-xl shrink-0 w-[800px]"
+            className="flex w-[800px] shrink-0 flex-col gap-6 rounded-xl bg-[#f9fafb] p-8"
           >
-            <div className="flex justify-between items-center text-white/50 px-2">
-              <span className="font-bold tracking-widest text-gray-600 text-sm uppercase">
+            <div className="flex items-center justify-between px-2 text-white/50">
+              <span className="text-sm font-bold tracking-widest text-gray-600 uppercase">
                 Personal Hot 100
               </span>
-              <span className="font-bold text-xs text-gray-600">
-                Chart dated {week}
-              </span>
+              <span className="text-xs font-bold text-gray-600">Chart dated {week}</span>
             </div>
 
             <ChartTicket entry={entry} />
 
-            <div className="flex justify-between items-center text-gray-400 text-xs px-2 font-medium">
+            <div className="flex items-center justify-between px-2 text-xs font-medium text-gray-400">
               <span className="flex items-center gap-1.5">
-                <Ticket className="w-3 h-3" />
+                <Ticket className="h-3 w-3" />
                 {entry.id.split("-")[0]}
               </span>
               <span className="tracking-widest text-gray-600 uppercase">

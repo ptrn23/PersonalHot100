@@ -91,11 +91,7 @@ const applyDeviation = (base: number, seed: number, scale = 0.1, mod = 100) => {
   return Math.floor(base * (1 + deviation));
 };
 
-export default async function AlbumPage({
-  params,
-}: {
-  params: Promise<{ id: string }>;
-}) {
+export default async function AlbumPage({ params }: { params: Promise<{ id: string }> }) {
   const resolvedParams = await params;
 
   const { data: liveWeek } = await supabase
@@ -146,11 +142,13 @@ export default async function AlbumPage({
 
   const { data: certs } = await supabase
     .from("certifications")
-    .select(`
+    .select(
+      `
       award_name,
       multiplier,
       chart_weeks ( start_date )
-    `)
+    `,
+    )
     .eq("album_id", resolvedParams.id);
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -177,8 +175,7 @@ export default async function AlbumPage({
         );
         return { ...song, chart_entries: validEntries };
       })
-      .filter((song) => song.chart_entries && song.chart_entries.length > 0) ||
-    [];
+      .filter((song) => song.chart_entries && song.chart_entries.length > 0) || [];
   chartedSongsCount = chartedSongs.length;
 
   chartedSongs.forEach((song) => {
@@ -209,16 +206,12 @@ export default async function AlbumPage({
     const peakEntry = sortedEntries.find((e) => e.rank === peakPos);
     const firstPeakDate = peakEntry?.chart_weeks?.start_date;
     const highestStreakAtPeak = Math.max(
-      ...sortedEntries
-        .filter((e) => e.rank === peakPos)
-        .map((e) => e.peak_streak || 0),
+      ...sortedEntries.filter((e) => e.rank === peakPos).map((e) => e.peak_streak || 0),
     );
 
     const seed = getStableSeed(song.display_title || song.title, artistName);
     const songUnits = applyDeviation(
-      Math.floor(
-        (songTotalStreams + songTotalSales + songTotalAirplay) * 1750 * 2,
-      ),
+      Math.floor((songTotalStreams + songTotalSales + songTotalAirplay) * 1750 * 2),
       seed + 4,
     );
 
@@ -252,12 +245,9 @@ export default async function AlbumPage({
     .eq("id", resolvedParams.id);
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const validAlbumHistory = (rawAlbumHistory || []).filter(
-    (e: any) => e.week_id !== liveWeek?.id,
-  );
+  const validAlbumHistory = (rawAlbumHistory || []).filter((e: any) => e.week_id !== liveWeek?.id);
   validAlbumHistory.sort(
-    (a, b) =>
-      new Date(a.start_date).getTime() - new Date(b.start_date).getTime(),
+    (a, b) => new Date(a.start_date).getTime() - new Date(b.start_date).getTime(),
   );
 
   let albumPeak = 101;
@@ -287,28 +277,17 @@ export default async function AlbumPage({
       if (previousRank !== albumPeak) isRePeak = true;
     }
 
-    const weeklyStreams = applyDeviation(
-      Math.floor(entry.streams * 5250 * 275),
-      albumSeed + 1,
-    );
-    const weeklySales = applyDeviation(
-      Math.floor(entry.sales * 252),
-      albumSeed + 2,
-    );
-    const weeklyAirplay = applyDeviation(
-      Math.floor(entry.airplay * 2250 * 5020),
-      albumSeed + 3,
-    );
+    const weeklyStreams = applyDeviation(Math.floor(entry.streams * 5250 * 275), albumSeed + 1);
+    const weeklySales = applyDeviation(Math.floor(entry.sales * 252), albumSeed + 2);
+    const weeklyAirplay = applyDeviation(Math.floor(entry.airplay * 2250 * 5020), albumSeed + 3);
     const weeklyUnits = applyDeviation(
       Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2),
       albumSeed + 4,
     );
 
     if (weeklySales > albumMaxStats.sales) albumMaxStats.sales = weeklySales;
-    if (weeklyStreams > albumMaxStats.streams)
-      albumMaxStats.streams = weeklyStreams;
-    if (weeklyAirplay > albumMaxStats.airplay)
-      albumMaxStats.airplay = weeklyAirplay;
+    if (weeklyStreams > albumMaxStats.streams) albumMaxStats.streams = weeklyStreams;
+    if (weeklyAirplay > albumMaxStats.airplay) albumMaxStats.airplay = weeklyAirplay;
     if (weeklyUnits > albumMaxStats.units) albumMaxStats.units = weeklyUnits;
 
     const enriched = {
@@ -328,37 +307,35 @@ export default async function AlbumPage({
 
   const descendingAlbumHistory = [...enrichedAlbumHistory].reverse();
 
-  const historyEntriesForList: DisplayEntry[] = descendingAlbumHistory.map(
-    (entry) => ({
-      id: entry.week_id,
-      rank: entry.rank,
-      previousRank: entry.previous_position,
+  const historyEntriesForList: DisplayEntry[] = descendingAlbumHistory.map((entry) => ({
+    id: entry.week_id,
+    rank: entry.rank,
+    previousRank: entry.previous_position,
 
-      coverUrl: album.cover_url,
-      primaryText: albumTitle,
-      primaryHref: null,
-      secondaryText: formatFullDate(entry.start_date),
-      secondaryHref: `/charts/albums?week=${encodeURIComponent(entry.start_date)}`,
+    coverUrl: album.cover_url,
+    primaryText: albumTitle,
+    primaryHref: null,
+    secondaryText: formatFullDate(entry.start_date),
+    secondaryHref: `/charts/albums?week=${encodeURIComponent(entry.start_date)}`,
 
-      mathSeedString: `${albumTitle}|${artistName}`,
+    mathSeedString: `${albumTitle}|${artistName}`,
 
-      disableDropdown: true,
-      hideRankChange: false,
+    disableDropdown: true,
+    hideRankChange: false,
 
-      isNewPeak: entry.is_new_peak,
-      isRePeak: entry.is_repeak,
-      peakPosition: entry.peak_at_time,
-      peakStreak: entry.peak_streak,
-      weeksOnChart: entry.woc_at_time,
-      totalPoints: entry.total_points || 0,
-      currentWeekPoints: entry.current_week_points || 0,
-      previousWeekRawPoints: null,
-      twoWeeksAgoRawPoints: null,
-      sales: entry.sales || 0,
-      streams: entry.streams || 0,
-      airplay: entry.airplay || 0,
-    }),
-  );
+    isNewPeak: entry.is_new_peak,
+    isRePeak: entry.is_repeak,
+    peakPosition: entry.peak_at_time,
+    peakStreak: entry.peak_streak,
+    weeksOnChart: entry.woc_at_time,
+    totalPoints: entry.total_points || 0,
+    currentWeekPoints: entry.current_week_points || 0,
+    previousWeekRawPoints: null,
+    twoWeeksAgoRawPoints: null,
+    sales: entry.sales || 0,
+    streams: entry.streams || 0,
+    airplay: entry.airplay || 0,
+  }));
 
   const albumDebutDate =
     enrichedAlbumHistory.length > 0 ? enrichedAlbumHistory[0].start_date : null;
@@ -366,9 +343,7 @@ export default async function AlbumPage({
   const albumFirstPeakDate = albumPeakEntry?.start_date;
   const albumHighestStreak = Math.max(
     0,
-    ...enrichedAlbumHistory
-      .filter((e) => e.rank === albumPeak)
-      .map((e) => e.peak_streak || 0),
+    ...enrichedAlbumHistory.filter((e) => e.rank === albumPeak).map((e) => e.peak_streak || 0),
   );
 
   const getWeight = (award: string, multi: number) => {
@@ -378,13 +353,13 @@ export default async function AlbumPage({
     return 0;
   };
 
-  const sortedCerts = ((certs as unknown as {
-    award_name: "Gold" | "Platinum" | "Diamond";
-    multiplier: number;
-    chart_weeks: { start_date: string };
-  }[]) || []).sort(
-    (a, b) => getWeight(b.award_name, b.multiplier) - getWeight(a.award_name, a.multiplier)
-  );
+  const sortedCerts = (
+    (certs as unknown as {
+      award_name: "Gold" | "Platinum" | "Diamond";
+      multiplier: number;
+      chart_weeks: { start_date: string };
+    }[]) || []
+  ).sort((a, b) => getWeight(b.award_name, b.multiplier) - getWeight(a.award_name, a.multiplier));
 
   const highestCert = sortedCerts[0];
   const certifiedUnits = highestCert
@@ -398,44 +373,42 @@ export default async function AlbumPage({
   };
 
   return (
-    <main className="min-h-screen bg-[#f5f5f5] text-gray-900 pb-24">
-      <div className="bg-white p-10 pb-12 shadow-sm mb-8">
-        <div className="max-w-5xl mx-auto">
+    <main className="min-h-screen bg-[#f5f5f5] pb-24 text-gray-900">
+      <div className="mb-8 bg-white p-10 pb-12 shadow-sm">
+        <div className="mx-auto max-w-5xl">
           <Link
             href="/charts/albums"
-            className="inline-flex items-center gap-2 text-sm font-bold text-gray-400 hover:text-black uppercase tracking-widest mb-10 transition-colors group"
+            className="group mb-10 inline-flex items-center gap-2 text-sm font-bold tracking-widest text-gray-400 uppercase transition-colors hover:text-black"
           >
-            <span className="group-hover:-translate-x-1 transition-transform">
-              &larr;
-            </span>
+            <span className="transition-transform group-hover:-translate-x-1">&larr;</span>
             Back to Top Albums 20
           </Link>
 
-          <div className="flex flex-col md:flex-row gap-10 items-end">
-            <div className="w-64 h-64 shrink-0 bg-gray-100 shadow-xl border border-gray-200">
+          <div className="flex flex-col items-end gap-10 md:flex-row">
+            <div className="h-64 w-64 shrink-0 border border-gray-200 bg-gray-100 shadow-xl">
               {album.cover_url ? (
                 <img
                   src={album.cover_url}
                   alt={album.title}
-                  className="w-full h-full object-cover"
+                  className="h-full w-full object-cover"
                 />
               ) : (
-                <div className="w-full h-full flex items-center justify-center text-gray-400 font-bold uppercase text-sm">
+                <div className="flex h-full w-full items-center justify-center text-sm font-bold text-gray-400 uppercase">
                   No Cover
                 </div>
               )}
             </div>
 
             <div>
-              <p className="text-gray-500 font-bold uppercase tracking-widest text-sm mb-2">
+              <p className="mb-2 text-sm font-bold tracking-widest text-gray-500 uppercase">
                 Album Profile
               </p>
-              <h1 className="text-5xl md:text-7xl font-black uppercase tracking-tighter leading-none mb-4">
+              <h1 className="mb-4 text-5xl leading-none font-black tracking-tighter uppercase md:text-7xl">
                 {album.title}
               </h1>
               <Link
                 href={`/library/artist/${artistId}`}
-                className="text-2xl font-bold text-gray-600 hover:text-blue-600 transition-colors inline-block"
+                className="inline-block text-2xl font-bold text-gray-600 transition-colors hover:text-blue-600"
               >
                 By {artistName}
               </Link>
@@ -444,100 +417,98 @@ export default async function AlbumPage({
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto px-10 md:px-0">
+      <div className="mx-auto max-w-5xl px-10 md:px-0">
         <div className="mb-16">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+          <div className="mb-4 grid grid-cols-1 gap-4 md:grid-cols-3">
             <div
-              className="bg-black border-2 flex flex-col justify-center items-center h-40 relative overflow-hidden"
+              className="relative flex h-40 flex-col items-center justify-center overflow-hidden border-2 bg-black"
               style={{ borderColor: ACCENT_COLOR }}
             >
-              <span className="text-white text-7xl font-black tracking-tighter leading-none mb-1 z-10">
+              <span className="z-10 mb-1 text-7xl leading-none font-black tracking-tighter text-white">
                 {albumPeak === 101 ? "--" : albumPeak}
               </span>
               {albumHighestStreak > 0 && (
                 <span
-                  className="absolute top-4 right-4 text-white text-[10px] font-black uppercase px-2 py-0.5 rounded-sm"
+                  className="absolute top-4 right-4 rounded-sm px-2 py-0.5 text-[10px] font-black text-white uppercase"
                   style={{ backgroundColor: ACCENT_COLOR }}
                 >
                   {albumHighestStreak} Wks
                 </span>
               )}
-              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 border-t border-gray-700 w-3/4 text-center pt-2 mt-2 z-10">
+              <span className="z-10 mt-2 w-3/4 border-t border-gray-700 pt-2 text-center text-[10px] font-bold tracking-widest text-gray-300 uppercase">
                 Peak Position
               </span>
             </div>
 
             <div
-              className="bg-black border-2 flex flex-col justify-center items-center h-40"
+              className="flex h-40 flex-col items-center justify-center border-2 bg-black"
               style={{ borderColor: ACCENT_COLOR }}
             >
-              <span className="text-white text-6xl font-black tracking-tighter leading-none mb-1">
+              <span className="mb-1 text-6xl leading-none font-black tracking-tighter text-white">
                 {formatNumber(eraTotalPoints)}
               </span>
-              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 border-t border-gray-700 w-3/4 text-center pt-2 mt-2">
+              <span className="mt-2 w-3/4 border-t border-gray-700 pt-2 text-center text-[10px] font-bold tracking-widest text-gray-300 uppercase">
                 All-Time Era Points
               </span>
             </div>
 
             <div
-              className="bg-black border-2 flex flex-col justify-center items-center h-40"
+              className="flex h-40 flex-col items-center justify-center border-2 bg-black"
               style={{ borderColor: ACCENT_COLOR }}
             >
-              <span className="text-white text-6xl font-black tracking-tighter leading-none mb-1">
+              <span className="mb-1 text-6xl leading-none font-black tracking-tighter text-white">
                 {albumWoc}
               </span>
-              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 border-t border-gray-700 w-3/4 text-center pt-2 mt-2">
+              <span className="mt-2 w-3/4 border-t border-gray-700 pt-2 text-center text-[10px] font-bold tracking-widest text-gray-300 uppercase">
                 Weeks on Chart
               </span>
             </div>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
-            <div className="bg-white border border-gray-300 p-4 flex flex-col justify-center items-center shadow-sm">
-              <span className="text-3xl font-black text-[#B30000] tracking-tighter">
+          <div className="mb-4 grid grid-cols-2 gap-4 md:grid-cols-4">
+            <div className="flex flex-col items-center justify-center border border-gray-300 bg-white p-4 shadow-sm">
+              <span className="text-3xl font-black tracking-tighter text-[#B30000]">
                 {formatNumber(eraTotalUnits)}
               </span>
-              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mt-1">
+              <span className="mt-1 text-[10px] font-bold tracking-widest text-gray-400 uppercase">
                 Total Era Units
               </span>
             </div>
-            <div className="bg-white border border-gray-300 p-4 flex flex-col justify-center items-center shadow-sm">
-              <span className="text-2xl font-black text-gray-800 tracking-tighter">
-                {no1Hits}
-              </span>
-              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mt-1">
+            <div className="flex flex-col items-center justify-center border border-gray-300 bg-white p-4 shadow-sm">
+              <span className="text-2xl font-black tracking-tighter text-gray-800">{no1Hits}</span>
+              <span className="mt-1 text-[10px] font-bold tracking-widest text-gray-400 uppercase">
                 No. 1 Hits
               </span>
             </div>
-            <div className="bg-white border border-gray-300 p-4 flex flex-col justify-center items-center shadow-sm">
-              <span className="text-2xl font-black text-gray-800 tracking-tighter">
+            <div className="flex flex-col items-center justify-center border border-gray-300 bg-white p-4 shadow-sm">
+              <span className="text-2xl font-black tracking-tighter text-gray-800">
                 {top10Hits}
               </span>
-              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mt-1">
+              <span className="mt-1 text-[10px] font-bold tracking-widest text-gray-400 uppercase">
                 Top 10 Hits
               </span>
             </div>
-            <div className="bg-white border border-gray-300 p-4 flex flex-col justify-center items-center shadow-sm">
-              <span className="text-2xl font-black text-gray-800 tracking-tighter">
+            <div className="flex flex-col items-center justify-center border border-gray-300 bg-white p-4 shadow-sm">
+              <span className="text-2xl font-black tracking-tighter text-gray-800">
                 {chartedSongsCount}
               </span>
-              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mt-1">
+              <span className="mt-1 text-[10px] font-bold tracking-widest text-gray-400 uppercase">
                 Charted Songs
               </span>
             </div>
           </div>
 
           <div className="grid grid-cols-2 gap-4">
-            <div className="bg-gray-100 border border-gray-200 p-4 flex justify-between items-center px-8">
-              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-500">
+            <div className="flex items-center justify-between border border-gray-200 bg-gray-100 p-4 px-8">
+              <span className="text-[10px] font-bold tracking-widest text-gray-500 uppercase">
                 Debut Date
               </span>
               <span className="text-lg font-black text-gray-900">
                 {formatBillboardDate(albumDebutDate)}
               </span>
             </div>
-            <div className="bg-gray-100 border border-gray-200 p-4 flex justify-between items-center px-8">
-              <span className="text-[10px] font-bold tracking-widest uppercase text-gray-500">
+            <div className="flex items-center justify-between border border-gray-200 bg-gray-100 p-4 px-8">
+              <span className="text-[10px] font-bold tracking-widest text-gray-500 uppercase">
                 First Peak Date
               </span>
               <span className="text-lg font-black text-gray-900">
@@ -549,71 +520,49 @@ export default async function AlbumPage({
 
         {enrichedAlbumHistory.length > 0 && (
           <div className="mb-16">
-            <div className="p-4 mb-6 bg-black">
-              <h2 className="text-3xl font-black uppercase tracking-tighter text-white">
+            <div className="mb-6 bg-black p-4">
+              <h2 className="text-3xl font-black tracking-tighter text-white uppercase">
                 Chart Run
               </h2>
             </div>
-            <div className="bg-white border-2 border-gray-200 shadow-sm rounded-lg p-6 pt-8">
-              <ChartTrajectory
-                songEntries={enrichedAlbumHistory}
-                allGlobalWeeks={allGlobalWeeks}
-              />
+            <div className="rounded-lg border-2 border-gray-200 bg-white p-6 pt-8 shadow-sm">
+              <ChartTrajectory songEntries={enrichedAlbumHistory} allGlobalWeeks={allGlobalWeeks} />
             </div>
           </div>
         )}
 
         <div className="mb-16">
-          <div className="p-4 mb-6" style={{ backgroundColor: ACCENT_COLOR }}>
-            <h2 className="text-3xl font-black uppercase tracking-tighter text-white">
+          <div className="mb-6 p-4" style={{ backgroundColor: ACCENT_COLOR }}>
+            <h2 className="text-3xl font-black tracking-tighter text-white uppercase">
               Week-by-Week History
             </h2>
           </div>
 
-          <div className="text-sm border-t-2 border-black shadow-sm bg-white overflow-hidden">
-            <div className="grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] font-bold text-gray-600 border-b border-gray-300 bg-gray-50">
+          <div className="overflow-hidden border-t-2 border-black bg-white text-sm shadow-sm">
+            <div className="grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] border-b border-gray-300 bg-gray-50 font-bold text-gray-600">
               <div className="py-2 text-center">Rank</div>
               <div className="py-2 text-center">+/-</div>
               <div className="py-2 pl-2">Week</div>
               <div className="py-2 text-center">{}</div>
               <div className="py-2 text-center">Points</div>
               <div className="py-2 text-center">%</div>
-              <div className="py-2 text-center bg-blue-50/50">Peak</div>
+              <div className="bg-blue-50/50 py-2 text-center">Peak</div>
               <div className="py-2 text-center">WoC</div>
-              <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">
-                Sales
-              </div>
-              <div className="py-2 text-center text-[#7e3d01] bg-[#fff7d6]">
-                %
-              </div>
-              <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">
-                Streams
-              </div>
-              <div className="py-2 text-center text-[#274f13] bg-[#f0ffe0]">
-                %
-              </div>
-              <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">
-                Airplay
-              </div>
-              <div className="py-2 text-center text-[#024da0] bg-[#cdecff]">
-                %
-              </div>
-              <div className="py-2 text-center text-[#721a46] bg-[#eddcfe]">
-                Units
-              </div>
+              <div className="bg-[#fff7d6] py-2 text-center text-[#7e3d01]">Sales</div>
+              <div className="bg-[#fff7d6] py-2 text-center text-[#7e3d01]">%</div>
+              <div className="bg-[#f0ffe0] py-2 text-center text-[#274f13]">Streams</div>
+              <div className="bg-[#f0ffe0] py-2 text-center text-[#274f13]">%</div>
+              <div className="bg-[#cdecff] py-2 text-center text-[#024da0]">Airplay</div>
+              <div className="bg-[#cdecff] py-2 text-center text-[#024da0]">%</div>
+              <div className="bg-[#eddcfe] py-2 text-center text-[#721a46]">Units</div>
             </div>
 
             <div className="flex flex-col">
               {historyEntriesForList.map((entry) => (
-                <ChartRow
-                  key={entry.id}
-                  entry={entry}
-                  week={entry.id}
-                  maxStats={albumMaxStats}
-                />
+                <ChartRow key={entry.id} entry={entry} week={entry.id} maxStats={albumMaxStats} />
               ))}
               {historyEntriesForList.length === 0 && (
-                <div className="p-10 text-center text-gray-400 font-bold uppercase tracking-widest text-sm">
+                <div className="p-10 text-center text-sm font-bold tracking-widest text-gray-400 uppercase">
                   No Top 20 history found.
                 </div>
               )}
@@ -622,8 +571,8 @@ export default async function AlbumPage({
         </div>
 
         <div className="mb-16">
-          <div className="bg-black text-white p-4 flex justify-end items-end mb-4">
-            <div className="hidden md:flex gap-12 pr-6 text-center text-xs font-black uppercase leading-tight tracking-wide text-white">
+          <div className="mb-4 flex items-end justify-end bg-black p-4 text-white">
+            <div className="hidden gap-12 pr-6 text-center text-xs leading-tight font-black tracking-wide text-white uppercase md:flex">
               <div className="w-16">
                 Debut
                 <br />
@@ -650,34 +599,27 @@ export default async function AlbumPage({
           <div className="flex flex-col gap-2">
             {albumTracks.length > 0 ? (
               albumTracks.map((track, i) => (
-                <div
-                  key={i}
-                  className="bg-white p-4 flex items-center justify-between shadow-sm"
-                >
+                <div key={i} className="flex items-center justify-between bg-white p-4 shadow-sm">
                   <div className="flex-1">
                     <Link
                       href={`/library/song/${track.id}`}
-                      className="font-black text-xl leading-tight hover:text-[#B30000] transition-colors inline-block"
+                      className="inline-block text-xl leading-tight font-black transition-colors hover:text-[#B30000]"
                     >
                       {track.title}
                     </Link>
-                    <div className="text-gray-500 text-sm font-medium">
-                      {artistName}
-                    </div>
+                    <div className="text-sm font-medium text-gray-500">{artistName}</div>
                   </div>
 
-                  <div className="hidden md:flex gap-12 pr-6 text-center items-center">
-                    <div className="w-16 text-sm font-bold border-b-2 border-black pb-0.5">
+                  <div className="hidden items-center gap-12 pr-6 text-center md:flex">
+                    <div className="w-16 border-b-2 border-black pb-0.5 text-sm font-bold">
                       {track.debut}
                     </div>
 
-                    <div className="w-12 flex flex-col items-center">
-                      <span className="text-2xl font-black leading-none">
-                        {track.peak}
-                      </span>
+                    <div className="flex w-12 flex-col items-center">
+                      <span className="text-2xl leading-none font-black">{track.peak}</span>
                       {track.streak > 0 && (
                         <span
-                          className="text-white text-[9px] font-black uppercase px-1 mt-0.5"
+                          className="mt-0.5 px-1 text-[9px] font-black text-white uppercase"
                           style={{ backgroundColor: ACCENT_COLOR }}
                         >
                           {track.streak} Wks
@@ -685,7 +627,7 @@ export default async function AlbumPage({
                       )}
                     </div>
 
-                    <div className="w-16 text-sm font-bold border-b-2 border-black pb-0.5">
+                    <div className="w-16 border-b-2 border-black pb-0.5 text-sm font-bold">
                       {track.peakDate}
                     </div>
                     <div className="w-16 text-2xl font-black">{track.woc}</div>
@@ -693,7 +635,7 @@ export default async function AlbumPage({
                 </div>
               ))
             ) : (
-              <div className="bg-white p-12 text-center text-gray-400 font-bold uppercase tracking-widest text-sm shadow-sm">
+              <div className="bg-white p-12 text-center text-sm font-bold tracking-widest text-gray-400 uppercase shadow-sm">
                 No charting tracks found for this era.
               </div>
             )}
@@ -701,43 +643,39 @@ export default async function AlbumPage({
         </div>
 
         <div className="mb-16">
-          <div className="p-4 mb-6" style={{ backgroundColor: ACCENT_COLOR }}>
-            <h2 className="text-3xl font-black uppercase tracking-tighter text-white">
+          <div className="mb-6 p-4" style={{ backgroundColor: ACCENT_COLOR }}>
+            <h2 className="text-3xl font-black tracking-tighter text-white uppercase">
               News & Feed
             </h2>
           </div>
 
-          <div className="flex overflow-x-auto gap-6 pb-4 snap-x">
+          <div className="flex snap-x gap-6 overflow-x-auto pb-4">
             {albumTracks.slice(0, 4).map((track, i) => (
               <div
                 key={i}
-                className="shrink-0 w-72 bg-black relative group snap-start cursor-pointer shadow-md"
+                className="group relative w-72 shrink-0 cursor-pointer snap-start bg-black shadow-md"
               >
-                <div className="aspect-[4/3] bg-gray-800 overflow-hidden">
+                <div className="aspect-[4/3] overflow-hidden bg-gray-800">
                   {album.cover_url && (
                     <img
                       src={album.cover_url}
                       alt="News Thumbnail"
-                      className="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-500"
+                      className="h-full w-full object-cover opacity-80 transition-transform duration-500 group-hover:scale-105"
                     />
                   )}
                 </div>
-                <div className="absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-black via-black/80 to-transparent">
-                  <div
-                    className="text-xs font-bold mb-1"
-                    style={{ color: ACCENT_COLOR }}
-                  >
+                <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black via-black/80 to-transparent p-4">
+                  <div className="mb-1 text-xs font-bold" style={{ color: ACCENT_COLOR }}>
                     CHART UPDATE
                   </div>
-                  <p className="text-white font-bold text-sm leading-tight line-clamp-3">
-                    “{track.title}” peaked at #{track.peak} and charted for{" "}
-                    {track.woc} weeks!
+                  <p className="line-clamp-3 text-sm leading-tight font-bold text-white">
+                    “{track.title}” peaked at #{track.peak} and charted for {track.woc} weeks!
                   </p>
                 </div>
               </div>
             ))}
             {albumTracks.length === 0 && (
-              <div className="w-full text-center text-gray-400 font-bold uppercase py-10">
+              <div className="w-full py-10 text-center font-bold text-gray-400 uppercase">
                 No news available.
               </div>
             )}
@@ -745,53 +683,62 @@ export default async function AlbumPage({
         </div>
 
         <div className="mb-16">
-          <div className="p-4 mb-6 bg-black">
-            <h2 className="text-3xl font-black uppercase tracking-tighter text-white">
+          <div className="mb-6 bg-black p-4">
+            <h2 className="text-3xl font-black tracking-tighter text-white uppercase">
               Certifications
             </h2>
           </div>
 
           {sortedCerts.length > 0 ? (
-            <div className="bg-white border border-gray-200 p-6 md:p-8 shadow-sm grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
-              <div className="flex justify-center items-center w-full">
-                <PlaqueDisc 
-                  awardName={highestCert.award_name} 
-                  multiplier={highestCert.multiplier} 
+            <div className="grid grid-cols-1 items-center gap-8 border border-gray-200 bg-white p-6 shadow-sm md:grid-cols-3 md:p-8">
+              <div className="flex w-full items-center justify-center">
+                <PlaqueDisc
+                  awardName={highestCert.award_name}
+                  multiplier={highestCert.multiplier}
                 />
               </div>
 
-              <div className="md:col-span-2 w-full">
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8 border-b border-gray-200 pb-6 mb-6">
+              <div className="w-full md:col-span-2">
+                <div className="mb-6 grid grid-cols-1 gap-x-8 gap-y-4 border-b border-gray-200 pb-6 sm:grid-cols-2">
                   <div>
-                    <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Release Date</div>
+                    <div className="mb-1 text-xs font-bold tracking-widest text-gray-400 uppercase">
+                      Release Date
+                    </div>
                     <div className="text-lg font-medium text-gray-900">--</div>
                   </div>
                   <div>
-                    <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Format</div>
-                    <div className="text-lg font-medium text-gray-900">Album</div> {/* 🚨 Updated to Album */}
+                    <div className="mb-1 text-xs font-bold tracking-widest text-gray-400 uppercase">
+                      Format
+                    </div>
+                    <div className="text-lg font-medium text-gray-900">Album</div>{" "}
+                    {/* 🚨 Updated to Album */}
                   </div>
                   <div>
-                    <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Certified Units</div>
+                    <div className="mb-1 text-xs font-bold tracking-widest text-gray-400 uppercase">
+                      Certified Units
+                    </div>
                     <div className="text-lg font-black text-black">{certifiedUnits} Million</div>
                   </div>
                   <div>
-                    <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">Genre</div>
+                    <div className="mb-1 text-xs font-bold tracking-widest text-gray-400 uppercase">
+                      Genre
+                    </div>
                     <div className="text-lg font-medium text-gray-900">--</div>
                   </div>
                 </div>
 
                 <div>
-                  <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">
+                  <div className="mb-4 text-xs font-bold tracking-widest text-gray-400 uppercase">
                     Previous Certifications
                   </div>
                   <ul className="space-y-3">
                     {sortedCerts.map((cert, index) => (
                       <li key={index} className="flex items-center text-sm md:text-base">
-                        <span className="font-black text-black w-32 shrink-0">
+                        <span className="w-32 shrink-0 font-black text-black">
                           {formatCertTitle(cert.award_name, cert.multiplier)}
                         </span>
-                        <span className="text-gray-300 mx-3">|</span>
-                        <span className="text-gray-600 font-medium">
+                        <span className="mx-3 text-gray-300">|</span>
+                        <span className="font-medium text-gray-600">
                           {formatFullDate(cert.chart_weeks?.start_date)}
                         </span>
                       </li>
@@ -799,11 +746,10 @@ export default async function AlbumPage({
                   </ul>
                 </div>
               </div>
-
             </div>
           ) : (
-            <div className="bg-white border-2 border-dashed border-gray-300 flex items-center justify-center text-center p-12">
-              <span className="text-gray-400 font-bold uppercase tracking-widest text-sm">
+            <div className="flex items-center justify-center border-2 border-dashed border-gray-300 bg-white p-12 text-center">
+              <span className="text-sm font-bold tracking-widest text-gray-400 uppercase">
                 (No Certifications Yet)
               </span>
             </div>
@@ -811,12 +757,10 @@ export default async function AlbumPage({
         </div>
 
         <div className="mb-16">
-          <div className="p-4 mb-6 bg-black">
-            <h2 className="text-3xl font-black uppercase tracking-tighter text-white">
-              Records
-            </h2>
+          <div className="mb-6 bg-black p-4">
+            <h2 className="text-3xl font-black tracking-tighter text-white uppercase">Records</h2>
           </div>
-          <div className="bg-white border-2 border-dashed border-gray-300 rounded-lg p-12 text-center text-gray-400 font-bold uppercase tracking-widest text-sm">
+          <div className="rounded-lg border-2 border-dashed border-gray-300 bg-white p-12 text-center text-sm font-bold tracking-widest text-gray-400 uppercase">
             (Records pending...)
           </div>
         </div>
@@ -825,12 +769,12 @@ export default async function AlbumPage({
   );
 }
 
-const PlaqueDisc = ({ 
-  awardName, 
-  multiplier 
-}: { 
-  awardName: "Gold" | "Platinum" | "Diamond", 
-  multiplier: number 
+const PlaqueDisc = ({
+  awardName,
+  multiplier,
+}: {
+  awardName: "Gold" | "Platinum" | "Diamond";
+  multiplier: number;
 }) => {
   const themes = {
     Gold: {
@@ -861,7 +805,7 @@ const PlaqueDisc = ({
   const isMulti = multiplier >= 2;
 
   return (
-    <div className="relative w-full max-w-[200px] aspect-square flex items-center justify-center">
+    <div className="relative flex aspect-square w-full max-w-[200px] items-center justify-center">
       {Array.from({ length: displayCount }).map((_, i) => {
         const isLast = i === displayCount - 1;
         const yOffset = (i - (displayCount - 1) / 2) * 24;
@@ -870,31 +814,35 @@ const PlaqueDisc = ({
         return (
           <div
             key={i}
-            className={`absolute inset-0 rounded-full shadow-md flex items-center justify-center overflow-hidden ${theme.outer}`}
+            className={`absolute inset-0 flex items-center justify-center overflow-hidden rounded-full shadow-md ${theme.outer}`}
             style={{ transform: `translate(${xOffset}px, ${yOffset}px)` }}
           >
             <div className={`absolute inset-2 rounded-full border-[1px] ${theme.grooves}`} />
             <div className={`absolute inset-4 rounded-full border-[1px] ${theme.grooves}`} />
             <div className={`absolute inset-8 rounded-full border-[1px] ${theme.grooves}`} />
             <div className={`absolute inset-16 rounded-full border-[1px] ${theme.grooves}`} />
-            
+
             <div className={`absolute inset-0 ${theme.shine} mix-blend-overlay`} />
 
             <div
-              className={`relative w-20 h-20 rounded-full bg-white flex flex-col items-center justify-center shadow-lg border-4 ${theme.labelBorder} z-10`}
+              className={`relative flex h-20 w-20 flex-col items-center justify-center rounded-full border-4 bg-white shadow-lg ${theme.labelBorder} z-10`}
             >
               {isLast ? (
                 isMulti ? (
                   <>
-                    <span className="text-2xl font-black text-gray-900 leading-none tracking-tighter">
+                    <span className="text-2xl leading-none font-black tracking-tighter text-gray-900">
                       {multiplier}X
                     </span>
-                    <span className={`text-[8px] font-black uppercase tracking-widest -mt-0.5 ${theme.text}`}>
+                    <span
+                      className={`-mt-0.5 text-[8px] font-black tracking-widest uppercase ${theme.text}`}
+                    >
                       {awardName}
                     </span>
                   </>
                 ) : (
-                  <span className={`text-[11px] font-black uppercase tracking-widest ${theme.text}`}>
+                  <span
+                    className={`text-[11px] font-black tracking-widest uppercase ${theme.text}`}
+                  >
                     {awardName}
                   </span>
                 )

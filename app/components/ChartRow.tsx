@@ -2,11 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import {
-  formatNumber,
-  getStableSeed,
-  applyDeviation,
-} from "../utils/chartMath";
+import { formatNumber, getStableSeed, applyDeviation } from "../utils/chartMath";
 import ChartRowDropdown from "./ChartRowDropdown";
 import ChartTicketModal from "./ChartTicketModal";
 
@@ -60,15 +56,9 @@ export default function ChartRow({
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const seed = getStableSeed(entry.mathSeedString);
-  const streamsUnits = applyDeviation(
-    Math.floor(entry.streams * 5250 * 275),
-    seed + 1,
-  );
+  const streamsUnits = applyDeviation(Math.floor(entry.streams * 5250 * 275), seed + 1);
   const salesUnits = applyDeviation(Math.floor(entry.sales * 252), seed + 2);
-  const airplayUnits = applyDeviation(
-    Math.floor(entry.airplay * 2250 * 5020),
-    seed + 3,
-  );
+  const airplayUnits = applyDeviation(Math.floor(entry.airplay * 2250 * 5020), seed + 3);
   const totalUnits = applyDeviation(
     Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2),
     seed + 4,
@@ -76,21 +66,14 @@ export default function ChartRow({
 
   const prevRaw = entry.previousWeekRawPoints || 0;
   const twoWeeksRaw = entry.twoWeeksAgoRawPoints || 0;
-  const totalRawForPct =
-    entry.streams * 4 + entry.sales * 0.45 + entry.airplay * 5;
+  const totalRawForPct = entry.streams * 4 + entry.sales * 0.45 + entry.airplay * 5;
 
   const streamsPct =
-    totalRawForPct > 0
-      ? Math.round(((entry.streams * 4) / totalRawForPct) * 100) + "%"
-      : "0%";
+    totalRawForPct > 0 ? Math.round(((entry.streams * 4) / totalRawForPct) * 100) + "%" : "0%";
   const salesPct =
-    totalRawForPct > 0
-      ? Math.round(((entry.sales * 0.45) / totalRawForPct) * 100) + "%"
-      : "0%";
+    totalRawForPct > 0 ? Math.round(((entry.sales * 0.45) / totalRawForPct) * 100) + "%" : "0%";
   const airplayPct =
-    totalRawForPct > 0
-      ? Math.round(((entry.airplay * 5) / totalRawForPct) * 100) + "%"
-      : "0%";
+    totalRawForPct > 0 ? Math.round(((entry.airplay * 5) / totalRawForPct) * 100) + "%" : "0%";
 
   let pointsPctStr = "--";
   if (prevRaw > 0) {
@@ -131,56 +114,44 @@ export default function ChartRow({
   }
 
   return (
-    <div className="flex flex-col border-b border-gray-100 group">
+    <div className="group flex flex-col border-b border-gray-100">
       <div
         onClick={() => !entry.disableDropdown && setIsExpanded(!isExpanded)}
-        className={`grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] items-center h-14 transition-colors ${
+        className={`grid h-14 grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] items-center transition-colors ${
           entry.disableDropdown ? "cursor-default" : "cursor-pointer"
         } ${isExpanded ? "bg-gray-50" : "hover:bg-gray-50"}`}
       >
-        <div className="font-black text-xl text-center text-gray-800">
+        <div className="text-center text-xl font-black text-gray-800">
           {entry.isOut ? "-" : entry.rank}
         </div>
 
-        <div className="text-center font-bold text-xs">
+        <div className="text-center text-xs font-bold">
           {entry.hideRankChange ? (
             <span className="text-gray-300">-</span>
           ) : entry.isOut ? (
-            <span className="text-gray-400 bg-gray-100 px-1.5 py-0.5 rounded text-[10px]">
-              OUT
-            </span>
+            <span className="rounded bg-gray-100 px-1.5 py-0.5 text-[10px] text-gray-400">OUT</span>
           ) : (
             <>
               {status === "re" && (
-                <span className="text-[#8e0be5] bg-purple-50 px-1 rounded">
-                  RE
-                </span>
+                <span className="rounded bg-purple-50 px-1 text-[#8e0be5]">RE</span>
               )}
               {status === "new" && (
-                <span className="text-[#05a7e5] bg-blue-50 px-1 rounded">
-                  NEW
-                </span>
+                <span className="rounded bg-blue-50 px-1 text-[#05a7e5]">NEW</span>
               )}
-              {status === "stable" && (
-                <span className="text-black text-xl leading-none">=</span>
-              )}
-              {status === "rise" && (
-                <span className="text-green-600">+{rankChange}</span>
-              )}
-              {status === "fall" && (
-                <span className="text-red-500">-{rankChange}</span>
-              )}
+              {status === "stable" && <span className="text-xl leading-none text-black">=</span>}
+              {status === "rise" && <span className="text-green-600">+{rankChange}</span>}
+              {status === "fall" && <span className="text-red-500">-{rankChange}</span>}
             </>
           )}
         </div>
 
-        <div className="flex items-center gap-3 pl-2 overflow-hidden py-1">
-          <div className="w-10 h-10 bg-gray-200 shrink-0 shadow-sm relative block">
+        <div className="flex items-center gap-3 overflow-hidden py-1 pl-2">
+          <div className="relative block h-10 w-10 shrink-0 bg-gray-200 shadow-sm">
             {entry.coverUrl && (
               <img
                 src={entry.coverUrl}
-                className={`w-full h-full object-cover transition-all ${
-                  entry.isOut ? "grayscale opacity-80" : ""
+                className={`h-full w-full object-cover transition-all ${
+                  entry.isOut ? "opacity-80 grayscale" : ""
                 }`}
                 loading="lazy"
                 alt="Cover"
@@ -188,17 +159,17 @@ export default function ChartRow({
             )}
           </div>
 
-          <div className="truncate pr-4 flex flex-col justify-center">
+          <div className="flex flex-col justify-center truncate pr-4">
             {entry.primaryHref ? (
               <Link
                 href={entry.primaryHref}
-                className="font-bold leading-tight truncate text-gray-900 hover:text-blue-600 transition-colors block"
+                className="block truncate leading-tight font-bold text-gray-900 transition-colors hover:text-blue-600"
                 onClick={(e) => e.stopPropagation()}
               >
                 {entry.primaryText}
               </Link>
             ) : (
-              <div className="font-bold leading-tight truncate text-gray-900 block">
+              <div className="block truncate leading-tight font-bold text-gray-900">
                 {entry.primaryText}
               </div>
             )}
@@ -207,32 +178,28 @@ export default function ChartRow({
               (entry.secondaryHref ? (
                 <Link
                   href={entry.secondaryHref}
-                  className="text-xs text-gray-500 hover:text-blue-600 hover:underline truncate font-medium transition-colors"
+                  className="truncate text-xs font-medium text-gray-500 transition-colors hover:text-blue-600 hover:underline"
                   onClick={(e) => e.stopPropagation()}
                 >
                   {entry.secondaryText}
                 </Link>
               ) : (
-                <div className="text-xs text-gray-500 truncate font-medium">
+                <div className="truncate text-xs font-medium text-gray-500">
                   {entry.secondaryText}
                 </div>
               ))}
           </div>
         </div>
 
-        <div className="flex items-center justify-center h-full" />
+        <div className="flex h-full items-center justify-center" />
 
-        <div className="text-center font-bold text-gray-700">
-          {formatNumber(entry.totalPoints)}
-        </div>
+        <div className="text-center font-bold text-gray-700">{formatNumber(entry.totalPoints)}</div>
         <div className="flex justify-center">
           {pointsPctStr === "--" ? (
-            <span className="text-[10px] font-bold px-1.5 py-0.5 rounded text-gray-400">
-              --
-            </span>
+            <span className="rounded px-1.5 py-0.5 text-[10px] font-bold text-gray-400">--</span>
           ) : (
             <span
-              className={`text-[10px] font-bold px-1.5 py-0.5 rounded ${pointsPctStr.includes("-") ? "bg-red-50 text-red-600" : "bg-green-50 text-green-600"}`}
+              className={`rounded px-1.5 py-0.5 text-[10px] font-bold ${pointsPctStr.includes("-") ? "bg-red-50 text-red-600" : "bg-green-50 text-green-600"}`}
             >
               {pointsPctStr}%
             </span>
@@ -240,70 +207,59 @@ export default function ChartRow({
         </div>
 
         <div
-          className={`text-center h-full flex flex-col justify-center border-l border-white ${peakBgClass}`}
+          className={`flex h-full flex-col justify-center border-l border-white text-center ${peakBgClass}`}
         >
-          <div className="font-bold leading-none text-gray-700">
+          <div className="leading-none font-bold text-gray-700">
             {entry.peakPosition === 101 ? "--" : entry.peakPosition}
           </div>
           {entry.peakStreak && (
-            <div
-              className={`text-[9px] ${streakColorClass} font-bold uppercase mt-0.5`}
-            >
+            <div className={`text-[9px] ${streakColorClass} mt-0.5 font-bold uppercase`}>
               {entry.peakStreak}x
             </div>
           )}
         </div>
-        <div className="text-center text-gray-400 font-medium text-xs">
-          {entry.weeksOnChart}
-        </div>
+        <div className="text-center text-xs font-medium text-gray-400">{entry.weeksOnChart}</div>
 
         <div
-          className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700 ${isTopSales ? "bg-[#f8e285] font-bold" : "bg-[#fff0ad] font-medium"}`}
+          className={`flex h-full items-center justify-center border-l border-white text-center text-gray-700 ${isTopSales ? "bg-[#f8e285] font-bold" : "bg-[#fff0ad] font-medium"}`}
         >
           {formatNumber(salesUnits)}
         </div>
-        <div className="text-center bg-[#fff0ad] h-full flex items-center justify-center text-xs text-gray-400 border-l border-[#fff0ad]">
+        <div className="flex h-full items-center justify-center border-l border-[#fff0ad] bg-[#fff0ad] text-center text-xs text-gray-400">
           {salesPct}
         </div>
 
         <div
-          className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700 ${isTopStreams ? "bg-[#bcf08e] font-bold" : "bg-[#d5f7bb] font-medium"}`}
+          className={`flex h-full items-center justify-center border-l border-white text-center text-gray-700 ${isTopStreams ? "bg-[#bcf08e] font-bold" : "bg-[#d5f7bb] font-medium"}`}
         >
           {formatNumber(streamsUnits)}
         </div>
-        <div className="text-center bg-[#d5f7bb] h-full flex items-center justify-center text-xs text-gray-400 border-l border-[#d5f7bb]">
+        <div className="flex h-full items-center justify-center border-l border-[#d5f7bb] bg-[#d5f7bb] text-center text-xs text-gray-400">
           {streamsPct}
         </div>
 
         <div
-          className={`text-center h-full flex items-center justify-center border-l border-white text-gray-700 ${isTopAirplay ? "bg-[#9adafe] font-bold" : "bg-[#b4e3ff] font-medium"}`}
+          className={`flex h-full items-center justify-center border-l border-white text-center text-gray-700 ${isTopAirplay ? "bg-[#9adafe] font-bold" : "bg-[#b4e3ff] font-medium"}`}
         >
           {formatNumber(airplayUnits)}
         </div>
-        <div className="text-center bg-[#b4e3ff] h-full flex items-center justify-center text-xs text-gray-400 border-l border-[#b4e3ff]">
+        <div className="flex h-full items-center justify-center border-l border-[#b4e3ff] bg-[#b4e3ff] text-center text-xs text-gray-400">
           {airplayPct}
         </div>
 
         <div
-          className={`text-center h-full flex items-center justify-center border-l border-white text-purple-900 ${isTopUnits ? "bg-[#dcace8] font-bold" : "bg-[#e7d6ff] font-bold"}`}
+          className={`flex h-full items-center justify-center border-l border-white text-center text-purple-900 ${isTopUnits ? "bg-[#dcace8] font-bold" : "bg-[#e7d6ff] font-bold"}`}
         >
           {formatNumber(totalUnits)}
         </div>
       </div>
 
       {isExpanded && !entry.disableDropdown && (
-        <ChartRowDropdown
-          entry={entry}
-          onOpenModal={() => setIsModalOpen(true)}
-        />
+        <ChartRowDropdown entry={entry} onOpenModal={() => setIsModalOpen(true)} />
       )}
 
       {isModalOpen && (
-        <ChartTicketModal
-          entry={entry}
-          week={week}
-          onClose={() => setIsModalOpen(false)}
-        />
+        <ChartTicketModal entry={entry} week={week} onClose={() => setIsModalOpen(false)} />
       )}
     </div>
   );

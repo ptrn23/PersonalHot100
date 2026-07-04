@@ -30,8 +30,7 @@ export default async function AllTimeChartPage({
     if (topSongs) {
       mappedEntries = topSongs.map((row, index) => {
         const title = row.display_title || row.title || "Unknown Song";
-        const artist =
-          row.artist_display_name || row.artist_name || "Unknown Artist";
+        const artist = row.artist_display_name || row.artist_name || "Unknown Artist";
 
         return {
           id: row.id,
@@ -42,9 +41,7 @@ export default async function AllTimeChartPage({
           primaryText: title,
           primaryHref: row.id ? `/library/song/${row.id}` : null,
           secondaryText: artist,
-          secondaryHref: row.artist_id
-            ? `/library/artist/${row.artist_id}`
-            : null,
+          secondaryHref: row.artist_id ? `/library/artist/${row.artist_id}` : null,
 
           mathSeedString: `${title}|${artist}`,
           disableDropdown: true,
@@ -69,35 +66,35 @@ export default async function AllTimeChartPage({
   }
 
   return (
-    <main className="min-h-screen bg-[#f5f5f5] text-gray-900 pb-24">
-      <div className="bg-white border-b border-gray-200 pt-8 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 flex justify-center gap-2">
+    <main className="min-h-screen bg-[#f5f5f5] pb-24 text-gray-900">
+      <div className="border-b border-gray-200 bg-white pt-8 shadow-sm">
+        <div className="mx-auto flex max-w-7xl justify-center gap-2 px-4">
           <Link
             href="/charts/alltime?section=songs"
-            className={`px-8 py-3 font-bold uppercase tracking-widest text-sm border-b-4 transition-colors ${
+            className={`border-b-4 px-8 py-3 text-sm font-bold tracking-widest uppercase transition-colors ${
               section === "songs"
                 ? "border-[#B30000] text-gray-900"
-                : "border-transparent text-gray-400 hover:text-gray-600 hover:border-gray-300"
+                : "border-transparent text-gray-400 hover:border-gray-300 hover:text-gray-600"
             }`}
           >
             Top Songs
           </Link>
           <Link
             href="/charts/alltime?section=albums"
-            className={`px-8 py-3 font-bold uppercase tracking-widest text-sm border-b-4 transition-colors ${
+            className={`border-b-4 px-8 py-3 text-sm font-bold tracking-widest uppercase transition-colors ${
               section === "albums"
                 ? "border-[#B30000] text-gray-900"
-                : "border-transparent text-gray-400 hover:text-gray-600 hover:border-gray-300"
+                : "border-transparent text-gray-400 hover:border-gray-300 hover:text-gray-600"
             }`}
           >
             Top Albums
           </Link>
           <Link
             href="/charts/alltime?section=artists"
-            className={`px-8 py-3 font-bold uppercase tracking-widest text-sm border-b-4 transition-colors ${
+            className={`border-b-4 px-8 py-3 text-sm font-bold tracking-widest uppercase transition-colors ${
               section === "artists"
                 ? "border-[#B30000] text-gray-900"
-                : "border-transparent text-gray-400 hover:text-gray-600 hover:border-gray-300"
+                : "border-transparent text-gray-400 hover:border-gray-300 hover:text-gray-600"
             }`}
           >
             Top Artists
@@ -105,16 +102,12 @@ export default async function AllTimeChartPage({
         </div>
       </div>
 
-      <div className="max-w-[1450px] mx-auto pt-10 px-8 text-center mb-2">
-        <h1 className="text-5xl font-black uppercase tracking-tighter leading-none mb-2">
+      <div className="mx-auto mb-2 max-w-[1450px] px-8 pt-10 text-center">
+        <h1 className="mb-2 text-5xl leading-none font-black tracking-tighter uppercase">
           All-Time{" "}
-          {section === "songs"
-            ? "Hot 100"
-            : section === "albums"
-              ? "Top Albums"
-              : "Top Artists"}
+          {section === "songs" ? "Hot 100" : section === "albums" ? "Top Albums" : "Top Artists"}
         </h1>
-        <p className="text-gray-500 font-bold uppercase tracking-widest text-sm">
+        <p className="text-sm font-bold tracking-widest text-gray-500 uppercase">
           The Greatest Performers in History
         </p>
       </div>
@@ -128,11 +121,11 @@ export default async function AllTimeChartPage({
             exportFileNamePrefix={`AllTime_Songs_Page${currentPage}`}
           />
 
-          <div className="max-w-[1450px] mx-auto px-8 mt-8 flex justify-between items-center">
+          <div className="mx-auto mt-8 flex max-w-[1450px] items-center justify-between px-8">
             {currentPage > 1 ? (
               <Link
                 href={`/charts/alltime?section=songs&page=${currentPage - 1}`}
-                className="bg-white border-2 border-gray-200 px-6 py-3 font-bold uppercase tracking-widest text-xs hover:border-black transition-colors"
+                className="border-2 border-gray-200 bg-white px-6 py-3 text-xs font-bold tracking-widest uppercase transition-colors hover:border-black"
               >
                 &larr; Prev 100
               </Link>
@@ -144,7 +137,7 @@ export default async function AllTimeChartPage({
             {mappedEntries.length === 100 && (
               <Link
                 href={`/charts/alltime?section=songs&page=${currentPage + 1}`}
-                className="bg-black text-white px-6 py-3 font-bold uppercase tracking-widest text-xs hover:bg-gray-800 transition-colors"
+                className="bg-black px-6 py-3 text-xs font-bold tracking-widest text-white uppercase transition-colors hover:bg-gray-800"
               >
                 Next 100 &rarr;
               </Link>
@@ -154,9 +147,9 @@ export default async function AllTimeChartPage({
       )}
 
       {(section === "albums" || section === "artists") && (
-        <div className="max-w-[1450px] mx-auto px-8 mt-8">
-          <div className="bg-white p-24 text-center border-2 border-dashed border-gray-300">
-            <p className="text-gray-400 font-bold tracking-widest uppercase text-lg">
+        <div className="mx-auto mt-8 max-w-[1450px] px-8">
+          <div className="border-2 border-dashed border-gray-300 bg-white p-24 text-center">
+            <p className="text-lg font-bold tracking-widest text-gray-400 uppercase">
               Coming soon...
             </p>
           </div>

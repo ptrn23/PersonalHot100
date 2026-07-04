@@ -26,8 +26,8 @@ export default async function LiveChartPage() {
 
   if (weekErr || !latestWeek) {
     return (
-      <div className="min-h-screen flex flex-col items-center justify-center p-10 bg-white">
-        <h1 className="text-2xl font-bold mb-4">No Live Data</h1>
+      <div className="flex min-h-screen flex-col items-center justify-center bg-white p-10">
+        <h1 className="mb-4 text-2xl font-bold">No Live Data</h1>
       </div>
     );
   }
@@ -52,25 +52,18 @@ export default async function LiveChartPage() {
 
   if (error || !rawEntries) {
     return (
-      <div className="p-10 text-center font-bold text-red-500">
-        Failed to load chart data.
-      </div>
+      <div className="p-10 text-center font-bold text-red-500">Failed to load chart data.</div>
     );
   }
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const mappedEntries: DisplayEntry[] = rawEntries.map((row: any) => {
     const songData = Array.isArray(row.songs) ? row.songs[0] : row.songs;
-    const artistData = Array.isArray(songData?.artists)
-      ? songData.artists[0]
-      : songData?.artists;
-    const albumData = Array.isArray(songData?.albums)
-      ? songData.albums[0]
-      : songData?.albums;
+    const artistData = Array.isArray(songData?.artists) ? songData.artists[0] : songData?.artists;
+    const albumData = Array.isArray(songData?.albums) ? songData.albums[0] : songData?.albums;
 
     const title = songData?.display_title || songData?.title || "Unknown Song";
-    const artist =
-      artistData?.display_name || artistData?.name || "Unknown Artist";
+    const artist = artistData?.display_name || artistData?.name || "Unknown Artist";
 
     return {
       id: row.id,
@@ -101,23 +94,18 @@ export default async function LiveChartPage() {
     };
   });
 
-  const formattedDate = formatDateRange(
-    latestWeek.start_date,
-    latestWeek.end_date,
-  );
+  const formattedDate = formatDateRange(latestWeek.start_date, latestWeek.end_date);
 
   return (
-    <main className="min-h-screen bg-white text-gray-900 pb-24">
-      <div className="max-w-[1450px] mx-auto pt-8 px-8 flex justify-between items-end">
+    <main className="min-h-screen bg-white pb-24 text-gray-900">
+      <div className="mx-auto flex max-w-[1450px] items-end justify-between px-8 pt-8">
         <div>
-          <div className="inline-flex items-center gap-2 px-3 py-1 bg-red-50 text-red-600 font-bold uppercase tracking-widest text-[10px] rounded-sm mb-3">
-            <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
+          <div className="mb-3 inline-flex items-center gap-2 rounded-sm bg-red-50 px-3 py-1 text-[10px] font-bold tracking-widest text-red-600 uppercase">
+            <span className="h-2 w-2 animate-pulse rounded-full bg-red-500" />
             Live
           </div>
-          <h1 className="text-4xl font-black uppercase tracking-tighter leading-none">
-            Hot 100
-          </h1>
-          <p className="text-gray-500 font-bold uppercase tracking-widest text-xs mt-1">
+          <h1 className="text-4xl leading-none font-black tracking-tighter uppercase">Hot 100</h1>
+          <p className="mt-1 text-xs font-bold tracking-widest text-gray-500 uppercase">
             Week of {formattedDate}
           </p>
         </div>

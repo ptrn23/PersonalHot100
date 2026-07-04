@@ -11,12 +11,7 @@ const getStableSeed = (title: string, artist: string) => {
   return hash;
 };
 
-const applyDeviation = (
-  base: number,
-  seed: number,
-  scale = 0.1,
-  mod = 100,
-) => {
+const applyDeviation = (base: number, seed: number, scale = 0.1, mod = 100) => {
   const deviation = ((seed % mod) / mod - 0.5) * 2 * scale;
   return Math.floor(base * (1 + deviation));
 };
@@ -25,17 +20,14 @@ const calculateUnits = (entry: any, title: string, artist: string): number => {
   const streams = entry.streams || 0;
   const sales = entry.sales || 0;
   const airplay = entry.airplay || 0;
-  
+
   const base = Math.floor((streams + sales + airplay) * 1750 * 2);
-  
+
   const seed = getStableSeed(title, artist);
   return applyDeviation(base, seed + 4);
 };
 
-const supabase = createClient(
-  process.env.SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_KEY!,
-);
+const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_SERVICE_KEY!);
 
 const CERT_THRESHOLDS = {
   song: { Gold: 500_000, Platinum: 1_000_000, Diamond: 10_000_000 },
@@ -58,7 +50,7 @@ async function rebuildAllCertifications() {
 
   const songAlbumMap = new Map<string, string>();
   const songSeedMap = new Map<string, { title: string; artist: string }>();
-  
+
   let songFrom = 0;
   const songStep = 1000;
 
@@ -73,15 +65,15 @@ async function rebuildAllCertifications() {
       return;
     }
     if (!songs || songs.length === 0) break;
-    
+
     songs.forEach((s) => {
       if (s.album_id) songAlbumMap.set(s.id, s.album_id);
-      
+
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const artistName = (s.artists as any)?.name || "Unknown Artist";
       songSeedMap.set(s.id, { title: s.title || "", artist: artistName });
     });
-    
+
     if (songs.length < songStep) break;
     songFrom += songStep;
   }
@@ -131,7 +123,7 @@ async function rebuildAllCertifications() {
 
     weekEntries.forEach((entry) => {
       const sId = entry.song_id;
-      
+
       const seedData = songSeedMap.get(sId) || { title: "Unknown", artist: "Unknown" };
       const units = calculateUnits(entry, seedData.title, seedData.artist);
 
@@ -148,7 +140,13 @@ async function rebuildAllCertifications() {
         const key = `${sId}-Gold-1`;
         if (!awardedSongCerts.has(key)) {
           awardedSongCerts.add(key);
-          certsToInsert.push({ entity_type: "song", song_id: sId, award_name: "Gold", multiplier: 1, week_id: week.id });
+          certsToInsert.push({
+            entity_type: "song",
+            song_id: sId,
+            award_name: "Gold",
+            multiplier: 1,
+            week_id: week.id,
+          });
         }
       }
       if (total >= CERT_THRESHOLDS.song.Platinum) {
@@ -158,7 +156,13 @@ async function rebuildAllCertifications() {
           const key = `${sId}-Platinum-${m}`;
           if (!awardedSongCerts.has(key)) {
             awardedSongCerts.add(key);
-            certsToInsert.push({ entity_type: "song", song_id: sId, award_name: "Platinum", multiplier: m, week_id: week.id });
+            certsToInsert.push({
+              entity_type: "song",
+              song_id: sId,
+              award_name: "Platinum",
+              multiplier: m,
+              week_id: week.id,
+            });
           }
         }
       }
@@ -168,7 +172,13 @@ async function rebuildAllCertifications() {
           const key = `${sId}-Diamond-${m}`;
           if (!awardedSongCerts.has(key)) {
             awardedSongCerts.add(key);
-            certsToInsert.push({ entity_type: "song", song_id: sId, award_name: "Diamond", multiplier: m, week_id: week.id });
+            certsToInsert.push({
+              entity_type: "song",
+              song_id: sId,
+              award_name: "Diamond",
+              multiplier: m,
+              week_id: week.id,
+            });
           }
         }
       }
@@ -179,7 +189,13 @@ async function rebuildAllCertifications() {
         const key = `${aId}-Gold-1`;
         if (!awardedAlbumCerts.has(key)) {
           awardedAlbumCerts.add(key);
-          certsToInsert.push({ entity_type: "album", album_id: aId, award_name: "Gold", multiplier: 1, week_id: week.id });
+          certsToInsert.push({
+            entity_type: "album",
+            album_id: aId,
+            award_name: "Gold",
+            multiplier: 1,
+            week_id: week.id,
+          });
         }
       }
       if (total >= CERT_THRESHOLDS.album.Platinum) {
@@ -189,7 +205,13 @@ async function rebuildAllCertifications() {
           const key = `${aId}-Platinum-${m}`;
           if (!awardedAlbumCerts.has(key)) {
             awardedAlbumCerts.add(key);
-            certsToInsert.push({ entity_type: "album", album_id: aId, award_name: "Platinum", multiplier: m, week_id: week.id });
+            certsToInsert.push({
+              entity_type: "album",
+              album_id: aId,
+              award_name: "Platinum",
+              multiplier: m,
+              week_id: week.id,
+            });
           }
         }
       }
@@ -199,7 +221,13 @@ async function rebuildAllCertifications() {
           const key = `${aId}-Diamond-${m}`;
           if (!awardedAlbumCerts.has(key)) {
             awardedAlbumCerts.add(key);
-            certsToInsert.push({ entity_type: "album", album_id: aId, award_name: "Diamond", multiplier: m, week_id: week.id });
+            certsToInsert.push({
+              entity_type: "album",
+              album_id: aId,
+              award_name: "Diamond",
+              multiplier: m,
+              week_id: week.id,
+            });
           }
         }
       }
@@ -207,7 +235,10 @@ async function rebuildAllCertifications() {
   }
 
   console.log("Cleaning up old certification entries from database...");
-  const { error: delErr } = await supabase.from("certifications").delete().neq("id", "00000000-0000-0000-0000-000000000000");
+  const { error: delErr } = await supabase
+    .from("certifications")
+    .delete()
+    .neq("id", "00000000-0000-0000-0000-000000000000");
   if (delErr) {
     console.error("Failed to clear old certifications:", delErr);
     return;
@@ -218,8 +249,10 @@ async function rebuildAllCertifications() {
     return;
   }
 
-  console.log(`Calculated ${certsToInsert.length} total historical milestones. Saving to DB in chunks...`);
-  
+  console.log(
+    `Calculated ${certsToInsert.length} total historical milestones. Saving to DB in chunks...`,
+  );
+
   const chunkSize = 1000;
   for (let i = 0; i < certsToInsert.length; i += chunkSize) {
     const chunk = certsToInsert.slice(i, i + chunkSize);

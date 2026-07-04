@@ -26,10 +26,7 @@ export default function Header() {
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (
-        searchRef.current &&
-        !searchRef.current.contains(event.target as Node)
-      ) {
+      if (searchRef.current && !searchRef.current.contains(event.target as Node)) {
         setShowDropdown(false);
       }
     };
@@ -49,11 +46,7 @@ export default function Header() {
       setShowDropdown(true);
 
       const [resArtists, resAlbums, resSongs] = await Promise.all([
-        supabase
-          .from("artists")
-          .select("id, name, image_url")
-          .ilike("name", `%${query}%`)
-          .limit(3),
+        supabase.from("artists").select("id, name, image_url").ilike("name", `%${query}%`).limit(3),
         supabase
           .from("albums")
           .select("id, title, cover_url")
@@ -83,28 +76,26 @@ export default function Header() {
   };
 
   return (
-    <div className="sticky top-0 z-50 w-full flex flex-col shadow-sm select-none antialiased">
-      <div className="w-full bg-white border-b border-gray-200 relative">
-        <div className="max-w-[1400px] mx-auto px-6 h-16 flex justify-between items-center">
+    <div className="sticky top-0 z-50 flex w-full flex-col antialiased shadow-sm select-none">
+      <div className="relative w-full border-b border-gray-200 bg-white">
+        <div className="mx-auto flex h-16 max-w-[1400px] items-center justify-between px-6">
           <Link href="/" className="flex items-center">
-            <h1 className="text-3xl font-black uppercase tracking-tighter leading-none hover:opacity-80 transition-opacity">
+            <h1 className="text-3xl leading-none font-black tracking-tighter uppercase transition-opacity hover:opacity-80">
               Personal <span className="text-[#B30000]">Charts</span>
             </h1>
           </Link>
 
-          <nav className="hidden lg:flex items-center gap-4 text-sm font-black uppercase tracking-wider">
+          <nav className="hidden items-center gap-4 text-sm font-black tracking-wider uppercase lg:flex">
             <Link
               href="/charts"
               className={`transition-colors ${
-                pathname.startsWith("/charts")
-                  ? "text-[#B30000]"
-                  : "text-gray-600 hover:text-black"
+                pathname.startsWith("/charts") ? "text-[#B30000]" : "text-gray-600 hover:text-black"
               }`}
             >
               Charts
             </Link>
 
-            <span className="text-gray-300 font-medium">/</span>
+            <span className="font-medium text-gray-300">/</span>
 
             <Link
               href="/library"
@@ -117,14 +108,12 @@ export default function Header() {
               Library
             </Link>
 
-            <span className="text-gray-300 font-medium">/</span>
+            <span className="font-medium text-gray-300">/</span>
 
             <Link
               href="/about"
               className={`transition-colors ${
-                pathname === "/about"
-                  ? "text-[#B30000]"
-                  : "text-gray-600 hover:text-black"
+                pathname === "/about" ? "text-[#B30000]" : "text-gray-600 hover:text-black"
               }`}
             >
               About
@@ -136,7 +125,7 @@ export default function Header() {
               <Search
                 size={14}
                 strokeWidth={3}
-                className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 pointer-events-none"
+                className="pointer-events-none absolute top-1/2 left-3 -translate-y-1/2 transform text-gray-400"
               />
               <input
                 type="text"
@@ -146,12 +135,12 @@ export default function Header() {
                 onFocus={() => {
                   if (query.trim()) setShowDropdown(true);
                 }}
-                className="w-48 focus:w-64 transition-all duration-300 bg-gray-100 border border-gray-200 text-gray-900 py-2 pl-9 pr-8 rounded-sm font-bold text-xs uppercase tracking-widest focus:outline-none focus:ring-2 focus:ring-black placeholder:text-gray-400"
+                className="w-48 rounded-sm border border-gray-200 bg-gray-100 py-2 pr-8 pl-9 text-xs font-bold tracking-widest text-gray-900 uppercase transition-all duration-300 placeholder:text-gray-400 focus:w-64 focus:ring-2 focus:ring-black focus:outline-none"
               />
               {query && (
                 <button
                   onClick={() => setQuery("")}
-                  className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-[#B30000] transition-colors"
+                  className="absolute top-1/2 right-2 -translate-y-1/2 transform text-gray-400 transition-colors hover:text-[#B30000]"
                 >
                   <X size={14} strokeWidth={3} />
                 </button>
@@ -159,9 +148,9 @@ export default function Header() {
             </div>
 
             {showDropdown && (
-              <div className="absolute top-full right-0 mt-2 w-80 bg-white border-2 border-black shadow-xl overflow-hidden flex flex-col">
+              <div className="absolute top-full right-0 mt-2 flex w-80 flex-col overflow-hidden border-2 border-black bg-white shadow-xl">
                 {isSearching ? (
-                  <div className="p-8 flex justify-center items-center text-[#B30000]">
+                  <div className="flex items-center justify-center p-8 text-[#B30000]">
                     <Loader2 className="animate-spin" size={24} />
                   </div>
                 ) : (
@@ -169,7 +158,7 @@ export default function Header() {
                     {/* Artists Section */}
                     {results.artists.length > 0 && (
                       <div className="border-b border-gray-100 last:border-0">
-                        <div className="bg-black text-white text-[10px] font-black uppercase tracking-widest px-3 py-1">
+                        <div className="bg-black px-3 py-1 text-[10px] font-black tracking-widest text-white uppercase">
                           Artists
                         </div>
                         <div className="flex flex-col">
@@ -178,24 +167,22 @@ export default function Header() {
                               key={artist.id}
                               href={`/library/artist/${artist.id}`}
                               onClick={handleLinkClick}
-                              className="px-3 py-2 hover:bg-gray-50 transition-colors flex items-center gap-3"
+                              className="flex items-center gap-3 px-3 py-2 transition-colors hover:bg-gray-50"
                             >
-                              <div className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center shrink-0 overflow-hidden border border-gray-300">
+                              <div className="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded-full border border-gray-300 bg-gray-200">
                                 {artist.image_url ? (
                                   <img
                                     src={artist.image_url}
                                     alt={artist.name}
-                                    className="w-full h-full object-cover"
+                                    className="h-full w-full object-cover"
                                   />
                                 ) : (
-                                  <span className="font-black text-gray-500 text-xs">
+                                  <span className="text-xs font-black text-gray-500">
                                     {artist.name.charAt(0)}
                                   </span>
                                 )}
                               </div>
-                              <span className="font-bold text-sm truncate">
-                                {artist.name}
-                              </span>
+                              <span className="truncate text-sm font-bold">{artist.name}</span>
                             </Link>
                           ))}
                         </div>
@@ -205,7 +192,7 @@ export default function Header() {
                     {/* Albums Section */}
                     {results.albums.length > 0 && (
                       <div className="border-b border-gray-100 last:border-0">
-                        <div className="bg-black text-white text-[10px] font-black uppercase tracking-widest px-3 py-1">
+                        <div className="bg-black px-3 py-1 text-[10px] font-black tracking-widest text-white uppercase">
                           Albums
                         </div>
                         <div className="flex flex-col">
@@ -214,24 +201,20 @@ export default function Header() {
                               key={album.id}
                               href={`/library/album/${album.id}`}
                               onClick={handleLinkClick}
-                              className="px-3 py-2 hover:bg-gray-50 transition-colors flex items-center gap-3"
+                              className="flex items-center gap-3 px-3 py-2 transition-colors hover:bg-gray-50"
                             >
-                              <div className="w-8 h-8 bg-gray-200 shrink-0 border border-gray-300 flex items-center justify-center overflow-hidden">
+                              <div className="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden border border-gray-300 bg-gray-200">
                                 {album.cover_url ? (
                                   <img
                                     src={album.cover_url}
                                     alt={album.title}
-                                    className="w-full h-full object-cover"
+                                    className="h-full w-full object-cover"
                                   />
                                 ) : (
-                                  <span className="font-black text-gray-400 text-[8px]">
-                                    ALB
-                                  </span>
+                                  <span className="text-[8px] font-black text-gray-400">ALB</span>
                                 )}
                               </div>
-                              <span className="font-bold text-sm truncate">
-                                {album.title}
-                              </span>
+                              <span className="truncate text-sm font-bold">{album.title}</span>
                             </Link>
                           ))}
                         </div>
@@ -241,7 +224,7 @@ export default function Header() {
                     {/* Songs Section */}
                     {results.songs.length > 0 && (
                       <div className="border-b border-gray-100 last:border-0">
-                        <div className="bg-[#B30000] text-white text-[10px] font-black uppercase tracking-widest px-3 py-1">
+                        <div className="bg-[#B30000] px-3 py-1 text-[10px] font-black tracking-widest text-white uppercase">
                           Songs
                         </div>
                         <div className="flex flex-col">
@@ -250,12 +233,12 @@ export default function Header() {
                               key={song.id}
                               href={`/library/song/${song.id}`}
                               onClick={handleLinkClick}
-                              className="px-3 py-2 hover:bg-gray-50 transition-colors flex flex-col"
+                              className="flex flex-col px-3 py-2 transition-colors hover:bg-gray-50"
                             >
-                              <span className="font-bold text-sm truncate text-gray-900">
+                              <span className="truncate text-sm font-bold text-gray-900">
                                 {song.title}
                               </span>
-                              <span className="text-xs font-medium text-gray-500 truncate">
+                              <span className="truncate text-xs font-medium text-gray-500">
                                 {(song.artists as any)?.name}
                               </span>
                             </Link>
@@ -269,7 +252,7 @@ export default function Header() {
                       results.artists.length === 0 &&
                       results.albums.length === 0 &&
                       results.songs.length === 0 && (
-                        <div className="p-6 text-center text-xs font-bold text-gray-400 uppercase tracking-widest">
+                        <div className="p-6 text-center text-xs font-bold tracking-widest text-gray-400 uppercase">
                           No matches found.
                         </div>
                       )}
@@ -281,50 +264,42 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="w-full bg-black text-white py-2.5 overflow-x-auto">
-        <div className="max-w-[1400px] mx-auto px-6 flex justify-start md:justify-center items-center gap-6 whitespace-nowrap text-[11px] font-black uppercase tracking-[0.18em]">
-          <Link
-            href="/charts/weekly"
-            className="hover:text-[#B30000] transition-colors text-white"
-          >
+      <div className="w-full overflow-x-auto bg-black py-2.5 text-white">
+        <div className="mx-auto flex max-w-[1400px] items-center justify-start gap-6 px-6 text-[11px] font-black tracking-[0.18em] whitespace-nowrap uppercase md:justify-center">
+          <Link href="/charts/weekly" className="text-white transition-colors hover:text-[#B30000]">
             Hot 100
           </Link>
-          <span className="text-gray-800 font-medium">|</span>
-          <Link
-            href="/charts/albums"
-            className="hover:text-[#B30000] transition-colors text-white"
-          >
+          <span className="font-medium text-gray-800">|</span>
+          <Link href="/charts/albums" className="text-white transition-colors hover:text-[#B30000]">
             Top Albums 20
           </Link>
-          <span className="text-gray-800 font-medium">|</span>
+          <span className="font-medium text-gray-800">|</span>
           <Link
             href="/charts/artists"
-            className="hover:text-[#B30000] transition-colors text-white"
+            className="text-white transition-colors hover:text-[#B30000]"
           >
             Top Artists 20
           </Link>
-          <span className="text-gray-800 font-medium">|</span>
+          <span className="font-medium text-gray-800">|</span>
           <Link
             href="/charts/year-end"
-            className="hover:text-[#B30000] transition-colors text-white"
+            className="text-white transition-colors hover:text-[#B30000]"
           >
             Year-End Charts
           </Link>
-          <span className="text-gray-800 font-medium">|</span>
+          <span className="font-medium text-gray-800">|</span>
           <Link
             href="/charts/alltime"
-            className="hover:text-[#B30000] transition-colors text-white"
+            className="text-white transition-colors hover:text-[#B30000]"
           >
             All-Time
           </Link>
-          <span className="text-gray-800 font-medium">|</span>
-          <span className="text-gray-500 cursor-not-allowed">
-            Certifications
-          </span>
-          <span className="text-gray-800 font-medium">|</span>
+          <span className="font-medium text-gray-800">|</span>
+          <span className="cursor-not-allowed text-gray-500">Certifications</span>
+          <span className="font-medium text-gray-800">|</span>
           <Link
             href="/charts/records"
-            className="hover:text-[#B30000] transition-colors text-white"
+            className="text-white transition-colors hover:text-[#B30000]"
           >
             Records
           </Link>

@@ -4,10 +4,7 @@ dotenv.config();
 import { calculateWeeklyPoints } from "./02-calculate-points";
 import { finalizeChartPositions } from "./03-finalize-chart";
 
-const supabase = createClient(
-  process.env.SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_KEY!,
-);
+const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_SERVICE_KEY!);
 
 async function runRedoAllCharts() {
   console.log("\nRunning redo all charts...");
@@ -40,15 +37,11 @@ async function runRedoAllCharts() {
     const week = allWeeks[i];
 
     const targetDateStr = week.end_date.split("T")[0];
-    console.log(
-      `Processing week [${i + 1}/${allWeeks.length}] | Target Date: ${targetDateStr}`,
-    );
+    console.log(`Processing week [${i + 1}/${allWeeks.length}] | Target Date: ${targetDateStr}`);
 
     const stagedEntries = await calculateWeeklyPoints(targetDateStr);
     if (!stagedEntries || stagedEntries.length === 0) {
-      console.log(
-        `No entries calculated for ${targetDateStr}. Skipping finalization.`,
-      );
+      console.log(`No entries calculated for ${targetDateStr}. Skipping finalization.`);
       continue;
     }
 

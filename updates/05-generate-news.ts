@@ -2,10 +2,7 @@ import dotenv from "dotenv";
 import { createClient } from "@supabase/supabase-js";
 dotenv.config();
 
-const supabase = createClient(
-  process.env.SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_KEY!,
-);
+const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_SERVICE_KEY!);
 
 export type NewsItem = {
   week_id: string;
@@ -19,7 +16,7 @@ export type NewsItem = {
 
 const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<NewsItem[]> => {
   const news: NewsItem[] = [];
-  
+
   const numberOne = currentChart.find((entry) => entry.rank === 1);
   if (!numberOne) return news;
 
@@ -34,19 +31,19 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
       .from("songs")
       .select("id")
       .eq("artist_id", artistId);
-      
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any  
+
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const songIds = artistSongs?.map((s) => s.id) || [];
 
     let uniqueNumberOnesCount = 1;
-    
+
     if (songIds.length > 0) {
       const { data: pastHits } = await supabase
         .from("chart_entries")
         .select("song_id")
         .eq("peak_position", 1)
         .in("song_id", songIds);
-        
+
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       uniqueNumberOnesCount = new Set(pastHits?.map((e) => e.song_id)).size;
     }
@@ -64,14 +61,13 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
       entity_type: "song",
       entity_id: numberOne.song_id,
       headline: `“${songTitle}” by ${artistName} reaches #1 on the Personal Hot 100 for the first time.`,
-      subtext: uniqueNumberOnesCount > 1 
-        ? `This marks ${artistName}'s ${uniqueNumberOnesCount}${suffix} career #1 hit on the chart.`
-        : `This is ${artistName}'s first ever #1 hit!`,
+      subtext:
+        uniqueNumberOnesCount > 1
+          ? `This marks ${artistName}'s ${uniqueNumberOnesCount}${suffix} career #1 hit on the chart.`
+          : `This is ${artistName}'s first ever #1 hit!`,
       priority: 10,
     });
-  } 
-  
-  else if (numberOne.previous_position === 1) {
+  } else if (numberOne.previous_position === 1) {
     news.push({
       week_id: weekId,
       event_type: "HOLD_NUMBER_ONE",
@@ -80,9 +76,7 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
       headline: `“${songTitle}” by ${artistName} spends a ${numberOne.peak_streak}th week at #1 in the Personal Hot 100.`,
       priority: 9,
     });
-  } 
-  
-  else if (numberOne.peak_position === 1 && numberOne.previous_position !== 1) {
+  } else if (numberOne.peak_position === 1 && numberOne.previous_position !== 1) {
     news.push({
       week_id: weekId,
       event_type: "RETURN_NUMBER_ONE",
@@ -129,10 +123,12 @@ export const generateNews = async (isFinalizing?: boolean, overrideTargetDate?: 
 
   const { data: currentChart, error: chartError } = await supabase
     .from("chart_entries")
-    .select(`
+    .select(
+      `
       *,
       songs ( id, display_title, title, album_id, artists(id, name) )
-    `)
+    `,
+    )
     .eq("week_id", targetWeek.id)
     .order("rank", { ascending: true });
 
@@ -144,16 +140,14 @@ export const generateNews = async (isFinalizing?: boolean, overrideTargetDate?: 
   const newsItems: NewsItem[] = [];
 
   console.log("Analyzing chart movements...");
-  
+
   const numberOneNews = await detectNumberOnes(currentChart, targetWeek.id);
   newsItems.push(...numberOneNews);
 
   if (newsItems.length > 0) {
     console.log(`Writing ${newsItems.length} headline(s) to the news feed...`);
-    const { error: insertError } = await supabase
-      .from("news_feed")
-      .insert(newsItems);
-      
+    const { error: insertError } = await supabase.from("news_feed").insert(newsItems);
+
     if (insertError) {
       console.error("Error saving news:", insertError);
     } else {

@@ -24,10 +24,7 @@ async function runChartEngine() {
 
   console.log(`📅 Found ${weeks.length} weeks to process.\n`);
 
-  const globalSongHistory = new Map<
-    string,
-    { peak: number; woc: number; peak_streak: number }
-  >();
+  const globalSongHistory = new Map<string, { peak: number; woc: number; peak_streak: number }>();
 
   for (let i = 0; i < weeks.length; i++) {
     const currentWeek = weeks[i];
@@ -90,8 +87,7 @@ async function runChartEngine() {
         .from("chart_entries")
         .select("song_id, total_points, rank")
         .eq("week_id", previousWeek.id);
-      lastWeekChart =
-        data?.reduce((acc, row) => ({ ...acc, [row.song_id]: row }), {}) || {};
+      lastWeekChart = data?.reduce((acc, row) => ({ ...acc, [row.song_id]: row }), {}) || {};
     }
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -101,8 +97,7 @@ async function runChartEngine() {
         .from("chart_entries")
         .select("song_id, total_points")
         .eq("week_id", twoWeeksAgo.id);
-      twoWeeksAgoChart =
-        data?.reduce((acc, row) => ({ ...acc, [row.song_id]: row }), {}) || {};
+      twoWeeksAgoChart = data?.reduce((acc, row) => ({ ...acc, [row.song_id]: row }), {}) || {};
     }
 
     const chartContenders = [];
@@ -119,16 +114,12 @@ async function runChartEngine() {
         airplay: 0,
       };
       const rawPoints =
-        Math.floor(stats.streams * 5) +
-        Math.floor(stats.sales * 3) +
-        Math.floor(stats.airplay * 2);
+        Math.floor(stats.streams * 5) + Math.floor(stats.sales * 3) + Math.floor(stats.airplay * 2);
 
       const prevPoints = lastWeekChart[songId]?.total_points || 0;
       const twoWeeksPoints = twoWeeksAgoChart[songId]?.total_points || 0;
       const finalWeightedPoints = Math.floor(
-        rawPoints +
-          Math.floor(prevPoints * 0.3) +
-          Math.floor(twoWeeksPoints * 0.2),
+        rawPoints + Math.floor(prevPoints * 0.3) + Math.floor(twoWeeksPoints * 0.2),
       );
 
       if (finalWeightedPoints === 0) continue;
@@ -146,8 +137,7 @@ async function runChartEngine() {
     }
 
     chartContenders.sort((a, b) => {
-      if (b.total_points !== a.total_points)
-        return b.total_points - a.total_points;
+      if (b.total_points !== a.total_points) return b.total_points - a.total_points;
       if (b.rawPoints !== a.rawPoints) return b.rawPoints - a.rawPoints;
       return b.streams - a.streams;
     });
@@ -179,10 +169,7 @@ async function runChartEngine() {
       }
 
       const isRepeak =
-        rank === currentPeak &&
-        !isNewPeak &&
-        history.peak !== 101 &&
-        history.peak_streak === 0;
+        rank === currentPeak && !isNewPeak && history.peak !== 101 && history.peak_streak === 0;
       const weeks_on_chart = history.woc + 1;
       globalSongHistory.set(entry.song_id, {
         peak: currentPeak,

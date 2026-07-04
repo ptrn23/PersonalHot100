@@ -42,13 +42,11 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.className} antialiased bg-white text-black min-h-screen flex flex-col`}
+        className={`${geistSans.className} flex min-h-screen flex-col bg-white text-black antialiased`}
       >
         <Header />
 

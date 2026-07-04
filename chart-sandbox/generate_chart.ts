@@ -2,21 +2,14 @@ import dotenv from "dotenv";
 import { createClient } from "@supabase/supabase-js";
 dotenv.config();
 
-const supabase = createClient(
-  process.env.SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_KEY!,
-);
+const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_SERVICE_KEY!);
 
 class PointsCalculator {
   static streamsWeight = 5000;
   static salesWeight = 3000;
   static airplayWeight = 2000;
 
-  static calculateRawPoints(
-    streams: number,
-    sales: number,
-    airplay: number,
-  ): number {
+  static calculateRawPoints(streams: number, sales: number, airplay: number): number {
     const streamPts = Math.floor((streams * this.streamsWeight) / 1000);
     const salePts = Math.floor((sales * this.salesWeight) / 1000);
     const airPts = Math.floor((airplay * this.airplayWeight) / 1000);
@@ -29,9 +22,7 @@ class PointsCalculator {
     twoWeeksAgoPoints: number,
   ): number {
     return Math.floor(
-      currentPoints +
-        Math.floor(prevPoints * 0.3) +
-        Math.floor(twoWeeksAgoPoints * 0.2),
+      currentPoints + Math.floor(prevPoints * 0.3) + Math.floor(twoWeeksAgoPoints * 0.2),
     );
   }
 }
@@ -47,9 +38,7 @@ async function generateWeeklyChart() {
     .single();
 
   if (weekErr || !week) return console.error("Could not find a chart week.");
-  console.log(
-    `\n📅 Generating chart for week: ${week.start_date} to ${week.end_date}`,
-  );
+  console.log(`\n📅 Generating chart for week: ${week.start_date} to ${week.end_date}`);
 
   const { data: scrobbles, error: scrobbleErr } = await supabase
     .from("scrobbles")
@@ -62,8 +51,7 @@ async function generateWeeklyChart() {
     .order("listened_at", { ascending: true });
 
   if (scrobbleErr) return console.error(scrobbleErr);
-  if (!scrobbles || scrobbles.length === 0)
-    return console.log("No scrobbles found.");
+  if (!scrobbles || scrobbles.length === 0) return console.log("No scrobbles found.");
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const metricsMap = new Map<string, any>();
@@ -110,11 +98,7 @@ async function generateWeeklyChart() {
       entry.sales,
       entry.airplay,
     );
-    entry.total_points = PointsCalculator.calculateWeightedPoints(
-      entry.current_week_points,
-      0,
-      0,
-    );
+    entry.total_points = PointsCalculator.calculateWeightedPoints(entry.current_week_points, 0, 0);
   }
 
   chart.sort((a, b) => b.total_points - a.total_points);
@@ -146,9 +130,7 @@ async function generateWeeklyChart() {
     };
   });
 
-  console.log(
-    `\n💾 Saving ${entriesToInsert.length} chart entries to Supabase...`,
-  );
+  console.log(`\n💾 Saving ${entriesToInsert.length} chart entries to Supabase...`);
   const { error: insertErr } = await supabase
     .from("chart_entries")
     .upsert(entriesToInsert, { onConflict: "week_id,song_id" });

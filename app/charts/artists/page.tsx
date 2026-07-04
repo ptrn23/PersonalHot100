@@ -40,8 +40,8 @@ export default async function WeeklyArtistsPage({
 
   if (!allWeeks || allWeeks.length === 0) {
     return (
-      <div className="min-h-screen flex flex-col items-center justify-center p-10 bg-white">
-        <h1 className="text-2xl font-bold mb-4">No Weekly Data</h1>
+      <div className="flex min-h-screen flex-col items-center justify-center bg-white p-10">
+        <h1 className="mb-4 text-2xl font-bold">No Weekly Data</h1>
         <p className="text-gray-600">No chart weeks have been finalized yet.</p>
       </div>
     );
@@ -61,9 +61,7 @@ export default async function WeeklyArtistsPage({
 
   if (error || !rawEntries) {
     return (
-      <div className="p-10 text-center font-bold text-red-500">
-        Failed to load artist data.
-      </div>
+      <div className="p-10 text-center font-bold text-red-500">Failed to load artist data.</div>
     );
   }
 
@@ -102,20 +100,17 @@ export default async function WeeklyArtistsPage({
     };
   });
 
-  const formattedDate = formatDateRange(
-    targetWeek.start_date,
-    targetWeek.end_date,
-  );
+  const formattedDate = formatDateRange(targetWeek.start_date, targetWeek.end_date);
   const availableWeekStrings = allWeeks.map((w) => w.start_date);
 
   return (
-    <main className="min-h-screen bg-white text-gray-900 pb-24">
-      <div className="max-w-[1450px] mx-auto pt-8 px-8 flex justify-between items-end">
+    <main className="min-h-screen bg-white pb-24 text-gray-900">
+      <div className="mx-auto flex max-w-[1450px] items-end justify-between px-8 pt-8">
         <div>
-          <h1 className="text-4xl font-black uppercase tracking-tighter leading-none">
+          <h1 className="text-4xl leading-none font-black tracking-tighter uppercase">
             Top Artists 20
           </h1>
-          <p className="text-gray-500 font-bold uppercase tracking-widest text-xs mt-1">
+          <p className="mt-1 text-xs font-bold tracking-widest text-gray-500 uppercase">
             Week of {formattedDate}
           </p>
         </div>
