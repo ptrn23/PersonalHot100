@@ -2,8 +2,8 @@ import { supabase } from "@/utils/supabase";
 import Link from "next/link";
 import { Metadata } from "next";
 import ChartRow from "../../../components/ChartRow";
-import { DisplayEntry, MaxStats } from "@/types";
-import { calculateDetailedUnits } from "@/utils/metrics";
+import { DisplayEntry } from "@/types";
+import { calculateDetailedUnits, calculateMaxStats } from "@/utils/metrics";
 import { formatNumber, formatFullDate, formatShortDate } from "@/utils/formatters";
 import ChartTrajectory from "../../../components/ChartTrajectory";
 import { CHART_NAME } from "@/config/constants";
@@ -206,12 +206,6 @@ export default async function ArtistPage({
   let artistWoc = 0;
   let currentStreak = 0;
   let previousRank: number | null = null;
-  const artistMaxStats: MaxStats = {
-    sales: 0,
-    streams: 0,
-    airplay: 0,
-    units: 0,
-  };
 
   const enrichedArtistHistory = validArtistHistory.map((entry) => {
     artistWoc += 1;
@@ -227,18 +221,6 @@ export default async function ArtistPage({
       currentStreak += 1;
       if (previousRank !== artistPeak) isRePeak = true;
     }
-
-    const { streamsUnits, salesUnits, airplayUnits, totalUnits } = calculateDetailedUnits(
-      entry.streams,
-      entry.sales,
-      entry.airplay,
-      entry.mathSeedString
-    );
-
-    if (salesUnits > artistMaxStats.sales) artistMaxStats.sales = salesUnits;
-    if (streamsUnits > artistMaxStats.streams) artistMaxStats.streams = streamsUnits;
-    if (airplayUnits > artistMaxStats.airplay) artistMaxStats.airplay = airplayUnits;
-    if (totalUnits > artistMaxStats.units) artistMaxStats.units = totalUnits;
 
     const enriched = {
       ...entry,
@@ -282,6 +264,10 @@ export default async function ArtistPage({
     streams: entry.streams || 0,
     airplay: entry.airplay || 0,
   }));
+
+  const artistMaxStats = historyEntriesForList.length > 0 
+      ? calculateMaxStats(historyEntriesForList) 
+      : { sales: 0, streams: 0, airplay: 0, units: 0 };
 
   const artistDebutDate =
     enrichedArtistHistory.length > 0 ? enrichedArtistHistory[0].start_date : null;

@@ -2,7 +2,7 @@ import { supabase } from "@/utils/supabase";
 import Link from "next/link";
 import ChartRow from "../../../components/ChartRow";
 import { DisplayEntry, MaxStats } from "@/types";
-import { calculateDetailedUnits } from "@/utils/metrics";
+import { calculateDetailedUnits, calculateMaxStats } from "@/utils/metrics";
 import { formatNumber, formatFullDate, formatShortDate } from "@/utils/formatters";
 import ChartTrajectory from "../../../components/ChartTrajectory";
 import { Metadata } from "next";
@@ -206,17 +206,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
     if (entry.peak_position < peakPos) peakPos = entry.peak_position;
     if (entry.weeks_on_chart > woc) woc = entry.weeks_on_chart;
 
-    const { streamsUnits, salesUnits, airplayUnits, totalUnits } = calculateDetailedUnits(
-      entry.streams,
-      entry.sales,
-      entry.airplay,
-      entry.mathSeedString
-    );
-
-    if (salesUnits > maxStats.sales) maxStats.sales = salesUnits;
-    if (streamsUnits > maxStats.streams) maxStats.streams = streamsUnits;
-    if (airplayUnits > maxStats.airplay) maxStats.airplay = airplayUnits;
-    if (totalUnits > maxStats.units) maxStats.units = totalUnits;
+    const maxStats = entries ? calculateMaxStats(entries) : { sales: 0, streams: 0, airplay: 0, units: 0 };
   });
 
   const debutDate = sortedEntries.length > 0 ? sortedEntries[0].chart_weeks?.start_date : null;

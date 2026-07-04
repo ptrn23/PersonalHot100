@@ -2,8 +2,8 @@ import { supabase } from "@/utils/supabase";
 import { Metadata } from "next";
 import Link from "next/link";
 import ChartRow from "../../../components/ChartRow";
-import { DisplayEntry, MaxStats } from "@/types";
-import { calculateDetailedUnits } from "@/utils/metrics";
+import { DisplayEntry } from "@/types";
+import { calculateDetailedUnits, calculateMaxStats } from "@/utils/metrics";
 import ChartTrajectory from "../../../components/ChartTrajectory";
 
 import { CASUAL_RED, CASUAL_BLACK, CASUAL_WHITE } from "@/config/theme";
@@ -222,12 +222,6 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
   let albumWoc = 0;
   let currentStreak = 0;
   let previousRank: number | null = null;
-  const albumMaxStats: MaxStats = {
-    sales: 0,
-    streams: 0,
-    airplay: 0,
-    units: 0,
-  };
 
   const enrichedAlbumHistory = validAlbumHistory.map((entry) => {
     albumWoc += 1;
@@ -243,18 +237,6 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
       currentStreak += 1;
       if (previousRank !== albumPeak) isRePeak = true;
     }
-
-    const { streamsUnits, salesUnits, airplayUnits, totalUnits } = calculateDetailedUnits(
-      entry.streams,
-      entry.sales,
-      entry.airplay,
-      entry.mathSeedString
-    );
-
-    if (salesUnits > albumMaxStats.sales) albumMaxStats.sales = salesUnits;
-    if (streamsUnits > albumMaxStats.streams) albumMaxStats.streams = streamsUnits;
-    if (airplayUnits > albumMaxStats.airplay) albumMaxStats.airplay = airplayUnits;
-    if (totalUnits > albumMaxStats.units) albumMaxStats.units = totalUnits;
 
     const enriched = {
       ...entry,
@@ -302,6 +284,10 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
     streams: entry.streams || 0,
     airplay: entry.airplay || 0,
   }));
+
+  const albumMaxStats = historyEntriesForList.length > 0 
+    ? calculateMaxStats(historyEntriesForList) 
+    : { sales: 0, streams: 0, airplay: 0, units: 0 };
 
   const albumDebutDate =
     enrichedAlbumHistory.length > 0 ? enrichedAlbumHistory[0].start_date : null;

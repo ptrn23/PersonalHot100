@@ -1,8 +1,8 @@
 import { supabase } from "@/utils/supabase";
 import ChartView from "../../components/ChartView";
 import ChartRow  from "../../components/ChartRow";
-import { DisplayEntry, MaxStats } from "@/types";
-import { calculateDetailedUnits } from "@/utils/metrics";
+import { DisplayEntry } from "@/types";
+import { calculateMaxStats } from "@/utils/metrics";
 import WeekSelector from "../../components/WeekSelector";
 import { formatDateRange } from "@/utils/formatters";
 
@@ -148,24 +148,8 @@ export default async function WeeklyChartPage({
 
   const mappedEntries: DisplayEntry[] = rawEntries.map((row) => mapToDisplayEntry(row, false));
   const mappedDropouts: DisplayEntry[] = rawDropouts.map((row) => mapToDisplayEntry(row, true));
-  const dropoutsMaxStats: MaxStats = {
-    sales: 0,
-    streams: 0,
-    airplay: 0,
-    units: 0,
-  };
-  mappedDropouts.forEach((entry) => {
-    const { streamsUnits, salesUnits, airplayUnits, totalUnits } = calculateDetailedUnits(
-      entry.streams,
-      entry.sales,
-      entry.airplay,
-      entry.mathSeedString
-    );
-    if (salesUnits > dropoutsMaxStats.sales) dropoutsMaxStats.sales = salesUnits;
-    if (streamsUnits > dropoutsMaxStats.streams) dropoutsMaxStats.streams = streamsUnits;
-    if (airplayUnits > dropoutsMaxStats.airplay) dropoutsMaxStats.airplay = airplayUnits;
-    if (totalUnits > dropoutsMaxStats.units) dropoutsMaxStats.units = totalUnits;
-  });
+  const dropoutsMaxStats = calculateMaxStats(mappedDropouts);
+  const maxStats = mappedEntries ? calculateMaxStats(mappedEntries) : { sales: 0, streams: 0, airplay: 0, units: 0 };
 
   const formattedDate = formatDateRange(targetWeek.start_date, targetWeek.end_date);
   const availableWeeks = allWeeks.map((w) => ({

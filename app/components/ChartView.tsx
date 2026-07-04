@@ -2,8 +2,8 @@
 
 import { useState, useRef } from "react";
 import ChartRow from "./ChartRow";
-import { DisplayEntry, MaxStats } from "@/types";
-import { calculateDetailedUnits } from "@/utils/metrics";
+import { DisplayEntry } from "@/types";
+import { calculateMaxStats } from "@/utils/metrics";
 import {
   Search,
   X,
@@ -123,23 +123,7 @@ export default function ChartView({
     }
   };
 
-  const maxStats: MaxStats = { sales: 0, streams: 0, airplay: 0, units: 0 };
-
-  if (entries) {
-    entries.forEach((entry) => {
-      const { streamsUnits, salesUnits, airplayUnits, totalUnits } = calculateDetailedUnits(
-        entry.streams,
-        entry.sales,
-        entry.airplay,
-        entry.mathSeedString
-      );
-
-      if (salesUnits > maxStats.sales) maxStats.sales = salesUnits;
-      if (streamsUnits > maxStats.streams) maxStats.streams = streamsUnits;
-      if (airplayUnits > maxStats.airplay) maxStats.airplay = airplayUnits;
-      if (totalUnits > maxStats.units) maxStats.units = totalUnits;
-    });
-  }
+  const maxStats = entries ? calculateMaxStats(entries) : { sales: 0, streams: 0, airplay: 0, units: 0 };
 
   return (
     <div className="relative">
