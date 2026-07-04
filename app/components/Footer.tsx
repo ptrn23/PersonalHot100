@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 
+import { Triangle } from "lucide-react";
+
 export default function Footer() {
   return (
     <footer className="mt-auto w-full border-t border-gray-300 bg-[#f5f5f5] text-black antialiased">
@@ -100,14 +102,7 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center gap-2 font-mono font-medium text-gray-400">
-            <svg
-              viewBox="0 0 76 65"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-3 w-3 text-black"
-            >
-              <path d="M37.5274 0L75.0548 65H0L37.5274 0Z" fill="currentColor" />
-            </svg>
+            <Triangle className="h-3 w-3 fill-black text-black" />
             DEPLOYED ON VERCEL
           </div>
         </div>
