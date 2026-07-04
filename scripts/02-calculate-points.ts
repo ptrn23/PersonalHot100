@@ -1,5 +1,6 @@
 import dotenv from "dotenv";
 import { createClient } from "@supabase/supabase-js";
+import { calculateChartMetrics } from "@/utils/metrics";
 dotenv.config();
 
 const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_SERVICE_KEY!);
@@ -125,59 +126,16 @@ export const calculateWeeklyPoints = async (overrideTargetDate?: string) => {
   }
 
   const canonicalMap = cachedCanonicalMap;
+  const processedMetrics = calculateChartMetrics(rawScrobbles, canonicalMap);
 
-  const weeklyStats = new Map<
-    string,
-    { streams: number; sales: number; airplay: number; currentStreak: number }
-  >();
-
-  let previousCanonicalSongId: string | null = null;
-
-  for (const scrobble of rawScrobbles) {
-    const rawSongId = scrobble.song_id;
-    const songId = canonicalMap.get(rawSongId) || rawSongId;
-
-    if (!weeklyStats.has(songId)) {
-      weeklyStats.set(songId, {
-        streams: 0,
-        sales: 0,
-        airplay: 0,
-        currentStreak: 0,
-      });
-    }
-
-    const stats = weeklyStats.get(songId)!;
-
-    stats.streams += 1;
-
-    if (previousCanonicalSongId !== songId) {
-      stats.sales += 1;
-      if (previousCanonicalSongId && weeklyStats.has(previousCanonicalSongId)) {
-        weeklyStats.get(previousCanonicalSongId)!.currentStreak = 0;
-      }
-    }
-
-    stats.currentStreak += 1;
-    stats.airplay = Math.max(stats.airplay, stats.currentStreak);
-
-    previousCanonicalSongId = songId;
-  }
-
-  const stagedEntries: any[] = [];
-
-  for (const [songId, stats] of weeklyStats.entries()) {
-    const rawPoints =
-      Math.floor(stats.streams * 5) + Math.floor(stats.sales * 3) + Math.floor(stats.airplay * 2);
-
-    stagedEntries.push({
+  const stagedEntries = processedMetrics.map((metric) => ({
       week_id: targetWeek.id,
-      song_id: songId,
-      streams: stats.streams,
-      sales: stats.sales,
-      airplay: stats.airplay,
-      current_week_points: rawPoints,
-    });
-  }
+      song_id: metric.songId,
+      streams: metric.streams,
+      sales: metric.sales,
+      airplay: metric.airplay,
+      current_week_points: metric.rawPoints,
+  }));
 
   console.log(`Raw points calculated for ${stagedEntries.length} unique songs.`);
 
