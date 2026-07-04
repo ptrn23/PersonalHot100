@@ -13,6 +13,19 @@ export const formatNumber = (num: number): string => {
   return (num / 1_000).toFixed(1) + "k";
 };
 
+export const formatOrdinal = (num: number): string => {
+  if (!num) return "0th";
+  
+  const j = Math.abs(num) % 10;
+  const k = Math.abs(num) % 100;
+  
+  if (j === 1 && k !== 11) return `${num}st`;
+  if (j === 2 && k !== 12) return `${num}nd`;
+  if (j === 3 && k !== 13) return `${num}rd`;
+  
+  return `${num}th`;
+};
+
 export const formatFullDate = (isoString?: string): string => {
   if (!isoString) return "--";
   return new Date(isoString).toLocaleDateString("en-US", {

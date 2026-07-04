@@ -2,6 +2,7 @@ import dotenv from "dotenv";
 import { createClient } from "@supabase/supabase-js";
 import { CHART_NAME } from "@/config/constants";
 import { NewsItem } from "@/types";
+import { formatOrdinal } from "@/utils/formatters";
 dotenv.config();
 
 const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_SERVICE_KEY!);
@@ -40,13 +41,6 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
       uniqueNumberOnesCount = new Set(pastHits?.map((e) => e.song_id)).size;
     }
 
-    const j = uniqueNumberOnesCount % 10;
-    const k = uniqueNumberOnesCount % 100;
-    let suffix = "th";
-    if (j === 1 && k !== 11) suffix = "st";
-    else if (j === 2 && k !== 12) suffix = "nd";
-    else if (j === 3 && k !== 13) suffix = "rd";
-
     news.push({
       week_id: weekId,
       event_type: "NEW_NUMBER_ONE",
@@ -55,7 +49,7 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
       headline: `“${songTitle}” by ${artistName} reaches #1 on the ${CHART_NAME} Hot 100 for the first time.`,
       subtext:
         uniqueNumberOnesCount > 1
-          ? `This marks ${artistName}'s ${uniqueNumberOnesCount}${suffix} career #1 hit on the chart.`
+          ? `This marks ${artistName}'s ${formatOrdinal(uniqueNumberOnesCount)} career #1 hit on the chart.`
           : `This is ${artistName}'s first ever #1 hit!`,
       priority: 10,
     });
@@ -65,7 +59,7 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
       event_type: "HOLD_NUMBER_ONE",
       entity_type: "song",
       entity_id: numberOne.song_id,
-      headline: `“${songTitle}” by ${artistName} spends a ${numberOne.peak_streak}th week at #1 in the ${CHART_NAME} Hot 100.`,
+      headline: `“${songTitle}” by ${artistName} spends its ${formatOrdinal(numberOne.peak_streak)} week at #1 on the ${CHART_NAME} Hot 100.`,
       priority: 9,
     });
   } else if (numberOne.peak_position === 1 && numberOne.previous_position !== 1) {
@@ -75,7 +69,7 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
       entity_type: "song",
       entity_id: numberOne.song_id,
       headline: `“${songTitle}” by ${artistName} returns to #1 on the ${CHART_NAME} Hot 100!`,
-      subtext: `The track reclaims the top spot for a ${numberOne.peak_streak}th nonconsecutive week.`,
+      subtext: `The track reclaims the top spot for its ${formatOrdinal(numberOne.peak_streak)} nonconsecutive week.`,
       priority: 9,
     });
   }
