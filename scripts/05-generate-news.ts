@@ -78,8 +78,11 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
 };
 
 export const generateNews = async (isFinalizing?: boolean, overrideTargetDate?: string) => {
-  if (!isFinalizing) return;
   console.log("\nRunning news engine...");
+  if (!isFinalizing) {
+    console.log("\nWeek not finished yet. Skipping news generation...");
+    return;
+  }
 
   let targetWeek;
   if (overrideTargetDate) {
