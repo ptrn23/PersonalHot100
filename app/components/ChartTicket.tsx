@@ -2,15 +2,9 @@
 
 import { DisplayEntry } from "@/types";
 import { applyDeviation, getStableSeed } from "@/utils/metrics";
+import { formatNumber } from "@/utils/formatters";
 
 import { CHART_NAME } from "@/config/constants";
-
-const formatNumber = (num: number) => {
-  if (!num) return "0";
-  if (num >= 1_000_000) return (num / 1_000_000).toFixed(1) + "M";
-  if (num >= 1_000) return (num / 1_000).toFixed(1) + "K";
-  return num.toString();
-};
 
 export default function ChartTicket({ entry }: { entry: DisplayEntry }) {
   const seed = getStableSeed(entry.mathSeedString);

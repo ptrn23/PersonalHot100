@@ -2,20 +2,9 @@ import { supabase } from "@/utils/supabase";
 import ChartView from "../../components/ChartView";
 import { DisplayEntry } from "@/types";
 import WeekSelector from "../../components/WeekSelector";
+import { formatDateRange } from "@/utils/formatters";
 
 export const dynamic = "force-dynamic";
-
-const formatDateRange = (startDateStr: string, endDateStr: string) => {
-  const options: Intl.DateTimeFormatOptions = {
-    month: "long",
-    day: "numeric",
-    year: "numeric",
-    timeZone: "Asia/Manila",
-  };
-  const startStr = new Date(startDateStr).toLocaleDateString("en-US", options);
-  const endStr = new Date(endDateStr).toLocaleDateString("en-US", options);
-  return `${startStr} - ${endStr}`;
-};
 
 export default async function WeeklyArtistsPage({
   searchParams,

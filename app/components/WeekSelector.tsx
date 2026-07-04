@@ -1,30 +1,17 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-
 import { ChevronDown } from "lucide-react";
+import { formatDateRange } from "@/utils/formatters";
 
 type Props = {
-  weeks: string[];
+  weeks: { start_date: string; end_date: string }[];
   activeWeek: string;
   destination: string;
 };
 
 export default function WeekSelector({ weeks, activeWeek, destination }: Props) {
   const router = useRouter();
-  const formatWeek = (isoString: string) => {
-    try {
-      const date = new Date(isoString);
-      return date.toLocaleDateString("en-US", {
-        timeZone: "Asia/Manila",
-        month: "long",
-        day: "numeric",
-        year: "numeric",
-      });
-    } catch {
-      return isoString;
-    }
-  };
 
   return (
     <div className="relative">
@@ -37,8 +24,8 @@ export default function WeekSelector({ weeks, activeWeek, destination }: Props) 
         className="cursor-pointer appearance-none rounded-lg border border-gray-200 bg-gray-100 py-2 pr-8 pl-4 text-sm font-bold tracking-wide text-gray-700 uppercase transition-colors hover:bg-gray-200 focus:ring-2 focus:ring-blue-500 focus:outline-none"
       >
         {weeks.map((week) => (
-          <option key={week} value={week}>
-            Week of {formatWeek(week)}
+          <option key={week.start_date} value={week.start_date}>
+            {formatDateRange(week.start_date, week.end_date)}
           </option>
         ))}
       </select>

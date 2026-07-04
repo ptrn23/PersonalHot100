@@ -8,6 +8,7 @@ import ChartTrajectory from "../../../components/ChartTrajectory";
 
 import { CASUAL_RED, CASUAL_BLACK, CASUAL_WHITE } from "@/config/theme";
 import { CHART_NAME } from "@/config/constants";
+import { formatNumber, formatFullDate, formatShortDate } from "@/utils/formatters";
 
 type Props = {
   params: Promise<{ id: string }>;
@@ -188,10 +189,10 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
     albumTracks.push({
       id: song.id,
       title: song.display_title || song.title,
-      debut: formatBillboardDate(debutDate),
+      debut: formatShortDate(debutDate),
       peak: peakPos,
       streak: highestStreakAtPeak,
-      peakDate: formatBillboardDate(firstPeakDate),
+      peakDate: formatShortDate(firstPeakDate),
       woc: woc,
       totalPoints: songTotalPoints,
     });
@@ -470,7 +471,7 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
                 Debut Date
               </span>
               <span className="text-lg font-black text-gray-900">
-                {formatBillboardDate(albumDebutDate)}
+                {formatShortDate(albumDebutDate)}
               </span>
             </div>
             <div className="flex items-center justify-between border border-gray-200 bg-gray-100 p-4 px-8">
@@ -478,7 +479,7 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
                 First Peak Date
               </span>
               <span className="text-lg font-black text-gray-900">
-                {formatBillboardDate(albumFirstPeakDate)}
+                {formatShortDate(albumFirstPeakDate)}
               </span>
             </div>
           </div>

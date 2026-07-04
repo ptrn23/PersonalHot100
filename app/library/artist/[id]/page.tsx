@@ -4,6 +4,7 @@ import { Metadata } from "next";
 import ChartRow from "../../../components/ChartRow";
 import { DisplayEntry, MaxStats } from "@/types";
 import { applyDeviation, getStableSeed } from "@/utils/metrics";
+import { formatNumber, formatFullDate, formatShortDate } from "@/utils/formatters";
 import ChartTrajectory from "../../../components/ChartTrajectory";
 import { CHART_NAME } from "@/config/constants";
 import { CASUAL_RED } from "@/config/theme";
@@ -164,10 +165,10 @@ export default async function ArtistPage({
     artistTracks.push({
       id: song.id,
       title: song.display_title || song.title,
-      debut: formatBillboardDate(debutDate),
+      debut: formatShortDate(debutDate),
       peak: peakPos,
       streak: highestStreakAtPeak,
-      peakDate: formatBillboardDate(firstPeakDate),
+      peakDate: formatShortDate(firstPeakDate),
       woc: woc,
     });
   });
@@ -423,7 +424,7 @@ export default async function ArtistPage({
                 Debut Date
               </span>
               <span className="text-lg font-black text-gray-900">
-                {formatBillboardDate(artistDebutDate)}
+                {formatShortDate(artistDebutDate)}
               </span>
             </div>
             <div className="flex items-center justify-between border border-gray-200 bg-gray-100 p-4 px-8">
@@ -431,7 +432,7 @@ export default async function ArtistPage({
                 First Peak Date
               </span>
               <span className="text-lg font-black text-gray-900">
-                {formatBillboardDate(artistFirstPeakDate)}
+                {formatShortDate(artistFirstPeakDate)}
               </span>
             </div>
           </div>

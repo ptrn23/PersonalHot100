@@ -3,6 +3,7 @@ import Link from "next/link";
 import ChartRow from "../../../components/ChartRow";
 import { DisplayEntry, MaxStats } from "@/types";
 import { applyDeviation, getStableSeed } from "@/utils/metrics";
+import { formatNumber, formatFullDate, formatShortDate } from "@/utils/formatters";
 import ChartTrajectory from "../../../components/ChartTrajectory";
 import { Metadata } from "next";
 
@@ -424,7 +425,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
                 Debut Date
               </span>
               <span className="text-lg font-black text-gray-900">
-                {formatBillboardDate(debutDate)}
+                {formatShortDate(debutDate)}
               </span>
             </div>
             <div className="flex items-center justify-between border border-gray-200 bg-gray-100 p-4 px-8">
@@ -432,7 +433,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
                 First Peak Date
               </span>
               <span className="text-lg font-black text-gray-900">
-                {formatBillboardDate(firstPeakDate)}
+                {formatShortDate(firstPeakDate)}
               </span>
             </div>
           </div>

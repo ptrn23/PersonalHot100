@@ -16,13 +16,7 @@ type ChartTrajectoryProps = {
   allGlobalWeeks: string[];
 };
 
-const formatBillboardDate = (isoString: string) => {
-  const d = new Date(isoString);
-  const m = d.getMonth() + 1;
-  const day = d.getDate().toString().padStart(2, "0");
-  const y = d.getFullYear().toString().slice(2);
-  return `${m}/${day}/${y}`;
-};
+import { formatShortDate } from "@/utils/formatters";
 
 export default function ChartTrajectory({ songEntries, allGlobalWeeks }: ChartTrajectoryProps) {
   const [mode, setMode] = useState<"compact" | "run" | "full">("run");
@@ -44,7 +38,7 @@ export default function ChartTrajectory({ songEntries, allGlobalWeeks }: ChartTr
         const current = songEntries[i];
 
         compactData.push({
-          date: formatBillboardDate(current.chart_weeks.start_date),
+          date: formatShortDate(current.chart_weeks.start_date),
           fullDate: current.chart_weeks.start_date,
           rank: current.rank,
           points: current.total_points,
@@ -85,7 +79,7 @@ export default function ChartTrajectory({ songEntries, allGlobalWeeks }: ChartTr
     return weeksToMap.map((weekDate) => {
       const data = entryMap.get(weekDate);
       return {
-        date: formatBillboardDate(weekDate),
+        date: formatShortDate(weekDate),
         fullDate: weekDate,
         rank: data ? data.rank : null,
         points: data ? data.points : null,

@@ -1,20 +1,11 @@
 import { supabase } from "@/utils/supabase";
 import RecordBlock from "../../components/RecordBlock";
 import { RecordEntry } from "@/types";
-import { formatNumber } from "../../utils/chartMath";
+import { formatNumber, formatShortDate } from "@/utils/formatters";
 
 import { CHART_NAME } from "@/config/constants";
 
 export const dynamic = "force-dynamic";
-
-const formatRecordDate = (isoString?: string) => {
-  if (!isoString) return "--";
-  const d = new Date(isoString);
-  const m = d.getMonth() + 1;
-  const day = d.getDate().toString().padStart(2, "0");
-  const y = d.getFullYear().toString().slice(2);
-  return `${m}/${day}/${y}`;
-};
 
 export default async function RecordsPage() {
   const entrySelect =
@@ -154,7 +145,7 @@ export default async function RecordsPage() {
       artist: artistData?.display_name || artistData?.name || "Unknown Artist",
       metricValue: metricFormat(row),
       peak: row.peak_position || 101,
-      weekDisplay: formatRecordDate(dateStr),
+      weekDisplay: formatShortDate(dateStr),
       weekUrl: dateStr ? encodeURIComponent(dateStr) : "",
     };
   };
@@ -173,7 +164,7 @@ export default async function RecordsPage() {
       artist: row.artist_display_name || row.artist_name || "Unknown Artist",
       metricValue: metricFormat(row),
       peak: row.peak_position || row.rank || 101,
-      weekDisplay: formatRecordDate(row.start_date),
+      weekDisplay: formatShortDate(row.start_date),
       weekUrl: row.start_date ? encodeURIComponent(row.start_date) : "",
     };
   };
@@ -224,28 +215,28 @@ export default async function RecordsPage() {
 
   const mostWeeksAt1Entries = (mostWeeksAt1Res.data || []).map((row, i) => {
     const entry = mapFlatRecord(row, i, (r) => r.weeks_at_1);
-    entry.weekDisplay = formatRecordDate(row.last_week_at_1);
+    entry.weekDisplay = formatShortDate(row.last_week_at_1);
     entry.weekUrl = row.last_week_at_1 ? encodeURIComponent(row.last_week_at_1) : "";
     return entry;
   });
 
   const mostWeeksTop10Entries = (mostWeeksTop10Res.data || []).map((row, i) => {
     const entry = mapFlatRecord(row, i, (r) => r.weeks_in_top_10);
-    entry.weekDisplay = formatRecordDate(row.last_week_in_top_10);
+    entry.weekDisplay = formatShortDate(row.last_week_in_top_10);
     entry.weekUrl = row.last_week_in_top_10 ? encodeURIComponent(row.last_week_in_top_10) : "";
     return entry;
   });
 
   const mostWeeksTop25Entries = (mostWeeksTop25Res.data || []).map((row, i) => {
     const entry = mapFlatRecord(row, i, (r) => r.weeks_in_top_25);
-    entry.weekDisplay = formatRecordDate(row.last_week_in_top_25);
+    entry.weekDisplay = formatShortDate(row.last_week_in_top_25);
     entry.weekUrl = row.last_week_in_top_25 ? encodeURIComponent(row.last_week_in_top_25) : "";
     return entry;
   });
 
   const mostTotalWeeksEntries = (mostTotalWeeksRes.data || []).map((row, i) => {
     const entry = mapFlatRecord(row, i, (r) => r.total_weeks);
-    entry.weekDisplay = formatRecordDate(row.last_week_on_chart);
+    entry.weekDisplay = formatShortDate(row.last_week_on_chart);
     entry.weekUrl = row.last_week_on_chart ? encodeURIComponent(row.last_week_on_chart) : "";
     return entry;
   });
