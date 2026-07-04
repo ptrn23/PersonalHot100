@@ -1,19 +1,10 @@
 import dotenv from "dotenv";
 import { createClient } from "@supabase/supabase-js";
 import { CHART_NAME } from "@/config/constants";
+import { NewsItem } from "@/types";
 dotenv.config();
 
 const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_SERVICE_KEY!);
-
-export type NewsItem = {
-  week_id: string;
-  event_type: string;
-  entity_type: "song" | "album" | "artist";
-  entity_id: string;
-  headline: string;
-  subtext?: string;
-  priority: number;
-};
 
 const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<NewsItem[]> => {
   const news: NewsItem[] = [];

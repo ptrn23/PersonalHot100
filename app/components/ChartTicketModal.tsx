@@ -4,7 +4,7 @@ import { useState, useRef } from "react";
 import { X, Download, Ticket } from "lucide-react";
 import { toPng } from "html-to-image";
 import ChartTicket from "./ChartTicket";
-import { DisplayEntry } from "./ChartRow";
+import { DisplayEntry } from "@/types";
 import { CHART_NAME } from "@/config/constants";
 
 export default function ChartTicketModal({

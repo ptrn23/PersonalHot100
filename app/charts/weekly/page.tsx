@@ -1,6 +1,7 @@
 import { supabase } from "@/utils/supabase";
 import ChartView from "../../components/ChartView";
-import ChartRow, { DisplayEntry, MaxStats } from "../../components/ChartRow";
+import ChartRow  from "../../components/ChartRow";
+import { DisplayEntry, MaxStats } from "@/types";
 import { applyDeviation, getStableSeed } from "../../utils/chartMath";
 import WeekSelector from "../../components/WeekSelector";
 

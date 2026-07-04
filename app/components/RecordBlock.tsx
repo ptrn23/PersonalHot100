@@ -1,17 +1,6 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-
-export type RecordEntry = {
-  id: string;
-  rank: number;
-  coverUrl: string | null;
-  title: string;
-  artist: string;
-  metricValue: string | number;
-  peak: number;
-  weekDisplay: string;
-  weekUrl: string;
-};
+import { RecordEntry } from "@/types";
 
 type RecordBlockProps = {
   title: string;

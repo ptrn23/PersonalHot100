@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { Share2, Ticket, LineChart } from "lucide-react";
 import { formatNumber } from "../utils/chartMath";
-import { DisplayEntry } from "./ChartRow";
+import { DisplayEntry } from "@/types";
 
 export default function ChartRowDropdown({
   entry,

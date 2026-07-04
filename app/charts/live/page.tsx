@@ -1,6 +1,6 @@
 import { supabase } from "@/utils/supabase";
 import ChartView from "../../components/ChartView";
-import { DisplayEntry } from "../../components/ChartRow";
+import { DisplayEntry } from "@/types";
 
 export const dynamic = "force-dynamic";
 

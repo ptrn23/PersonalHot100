@@ -1,5 +1,6 @@
 import { supabase } from "@/utils/supabase";
-import RecordBlock, { RecordEntry } from "../../components/RecordBlock";
+import RecordBlock from "../../components/RecordBlock";
+import { RecordEntry } from "@/types";
 import { formatNumber } from "../../utils/chartMath";
 
 import { CHART_NAME } from "@/config/constants";

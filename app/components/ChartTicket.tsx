@@ -1,6 +1,6 @@
 "use client";
 
-import ChartRow, { DisplayEntry, MaxStats } from "./ChartRow";
+import { DisplayEntry } from "@/types";
 import { applyDeviation, getStableSeed } from "../utils/chartMath";
 
 import { CHART_NAME } from "@/config/constants";
