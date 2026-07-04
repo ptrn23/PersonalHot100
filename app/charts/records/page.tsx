@@ -170,10 +170,10 @@ export default async function RecordsPage() {
   };
 
   const highestPointsEntries = (highestPointsRes.data || []).map((row, i) =>
-    mapToRecord(row, i, (r) => formatNumber(r.total_points)),
+    mapToRecord(row, i, (r) => r.total_points),
   );
   const highestDebutEntries = (highestDebutRes.data || []).map((row, i) =>
-    mapToRecord(row, i, (r) => formatNumber(r.total_points)),
+    mapToRecord(row, i, (r) => r.total_points),
   );
 
   const biggestJumpEntries = (biggestJumpRes.data || []).map((row, i) =>
