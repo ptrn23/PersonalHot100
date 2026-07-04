@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 
 import { CASUAL_RED } from "@/config/theme";
-import { CHART_HANDLE, CHART_NAME } from "@/config/constants";
+import { CHART_NAME, CHART_HANDLE } from "@/config/constants";
 
 export const dynamic = "force-dynamic";
 
