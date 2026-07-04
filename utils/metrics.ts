@@ -8,6 +8,40 @@ export type Metrics = {
   rawPoints: number;
 };
 
+export const getStableSeed = (title: string, artist: string): number => {
+  const combo = `${title}|${artist}`;
+  let hash = 5381;
+  
+  for (let i = 0; i < combo.length; i++) {
+    hash = ((hash << 5) + hash) + combo.charCodeAt(i); 
+  }
+  
+  return Math.abs(hash);
+};
+
+export const applyDeviation = (
+  base: number, 
+  seed: number, 
+  scale: number = 0.1
+): number => {
+  const pseudoRandomFloat = Math.abs(Math.sin(seed)); 
+  
+  const deviation = (pseudoRandomFloat - 0.5) * 2 * scale;
+  return Math.floor(base * (1 + deviation));
+};
+
+export const calculateUnits = (
+  streams: number,
+  sales: number,
+  airplay: number,
+  title: string,
+  artist: string
+): number => {
+  const base = Math.floor((streams + sales + airplay) * 3500);
+  const seed = getStableSeed(title, artist);
+  return applyDeviation(base, seed + 4);
+};
+
 export const calculateChartMetrics = (
   rawScrobbles: any[],
   canonicalMap: Map<string, string>
@@ -42,7 +76,7 @@ export const calculateChartMetrics = (
 
     previousCanonicalSongId = songId;
   }
-  
+
   return Array.from(weeklyStats.entries()).map(([songId, stats]) => {
     const rawPoints =
       Math.floor(stats.streams * WEIGHT_STREAMS) +
