@@ -92,3 +92,26 @@ export const calculateChartMetrics = (
     };
   });
 };
+
+export type CalculatedUnits = {
+  streamsUnits: number;
+  salesUnits: number;
+  airplayUnits: number;
+  totalUnits: number;
+};
+
+export const calculateDetailedUnits = (
+  streams: number,
+  sales: number,
+  airplay: number,
+  seedString: string
+): CalculatedUnits => {
+  const seed = getStableSeed(seedString);
+
+  return {
+    streamsUnits: applyDeviation(Math.floor(streams * 5250 * 275), seed + 1),
+    salesUnits: applyDeviation(Math.floor(sales * 252), seed + 2),
+    airplayUnits: applyDeviation(Math.floor(airplay * 2250 * 5020), seed + 3),
+    totalUnits: applyDeviation(Math.floor((streams + sales + airplay) * 3500), seed + 4),
+  };
+};
