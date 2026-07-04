@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { Database, Code2, LineChart } from "lucide-react";
 
+import { CHART_NAME } from "@/config/constants";
+
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-[#f5f5f5] pt-12 pb-24 text-gray-900">
@@ -17,7 +19,7 @@ export default function AboutPage() {
           </div>
           <div className="mt-6 text-right md:mt-0">
             <span className="block text-xl font-bold tracking-tight text-[#B30000]">
-              PERSONAL HOT 100
+              {CHART_NAME} HOT 100
             </span>
             <span className="text-sm font-medium text-gray-500">v1.0.0</span>
           </div>
@@ -26,12 +28,12 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 gap-16 md:grid-cols-12">
           <div className="flex flex-col gap-8 md:col-span-7">
             <p className="text-2xl leading-relaxed font-medium tracking-tight text-gray-800">
-              Personal Charts is an algorithmic music tracking system inspired by the Billboard Hot
+              {CHART_NAME} Charts is an algorithmic music tracking system inspired by the Billboard Hot
               100.
             </p>
 
             <p className="text-lg leading-relaxed text-gray-600">
-              As an avid music listener and data enthusiast, I built Personal Charts to answer a
+              As an avid music listener and data enthusiast, I built {CHART_NAME} Charts to answer a
               simple question: "What would my personal Hot 100 look like?"
             </p>
             <p className="text-lg leading-relaxed text-gray-600">
@@ -39,7 +41,7 @@ export default function AboutPage() {
               users a unique way to track their listening habits and uncover previous chapters of
               their musical journey. Maybe you want to see what you were listening to in your first
               year of college, or that time you were obsessed with a particular artist. Whether
-              you're a casual listener or a chart-topping superfan, Personal Charts provides a
+              you're a casual listener or a chart-topping superfan, {CHART_NAME} Charts provides a
               dynamic and personalized music experience that evolves with you over time.
             </p>
           </div>

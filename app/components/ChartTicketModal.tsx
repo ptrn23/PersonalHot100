@@ -5,6 +5,7 @@ import { X, Download, Ticket } from "lucide-react";
 import { toPng } from "html-to-image";
 import ChartTicket from "./ChartTicket";
 import { DisplayEntry } from "./ChartRow";
+import { CHART_NAME } from "@/config/constants";
 
 export default function ChartTicketModal({
   entry,
@@ -71,7 +72,7 @@ export default function ChartTicketModal({
           >
             <div className="flex items-center justify-between px-2 text-white/50">
               <span className="text-sm font-bold tracking-widest text-gray-600 uppercase">
-                Personal Hot 100
+                {CHART_NAME} Hot 100
               </span>
               <span className="text-xs font-bold text-gray-600">Chart dated {week}</span>
             </div>

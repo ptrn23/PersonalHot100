@@ -5,6 +5,7 @@ import ChartRow, { DisplayEntry, MaxStats } from "../../../components/ChartRow";
 import ChartTrajectory from "../../../components/ChartTrajectory";
 
 import { CASUAL_RED, CASUAL_BLACK, CASUAL_WHITE } from "@/config/theme";
+import { CHART_NAME } from "@/config/constants";
 
 type Props = {
   params: Promise<{ id: string }>;
@@ -26,13 +27,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     .single();
 
   if (!album) {
-    return { title: "Album Not Found | Personal Hot 100" };
+    return { title: `Album Not Found | ${CHART_NAME} Hot 100` };
   }
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const artistName = (album.artists as any)?.name || "Unknown Artist";
   const coverUrl = album.cover_url || "/default-cover.png";
-  const pageTitle = `${album.title} | Personal Hot 100`;
+  const pageTitle = `${album.title} | ${CHART_NAME} Hot 100`;
   const description = `View chart performance, total points, and track history for the album '${album.title}' by ${artistName}.`;
 
   return {

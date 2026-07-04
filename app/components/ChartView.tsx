@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import * as htmlToImage from "html-to-image";
 import { saveAs } from "file-saver";
+import { CHART_NAME } from "@/config/constants";
 
 export type ChartViewProps = {
   entries: DisplayEntry[];
@@ -284,9 +285,9 @@ export default function ChartView({
       >
         <div ref={exportContainerRef} className="bg-white p-12 text-sm text-gray-900">
           <div className="mb-4 flex items-end justify-between border-b-2 border-black pb-4">
-            <h1 className="text-3xl font-black tracking-tighter uppercase">Personal Charts</h1>
+            <h1 className="text-3xl font-black tracking-tighter uppercase">{CHART_NAME} Charts</h1>
             <p className="text-xs font-bold tracking-widest text-gray-500 uppercase">
-              {chartLabel || exportFileNamePrefix.split("_").pop()} {/* 🚨 FIXED */}
+              {chartLabel || exportFileNamePrefix.split("_").pop()}
             </p>
           </div>
 

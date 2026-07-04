@@ -3,6 +3,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 import ChartRow, { DisplayEntry, MaxStats } from "../../../components/ChartRow";
 import ChartTrajectory from "../../../components/ChartTrajectory";
+import { CHART_NAME } from "@/config/constants";
+import { CASUAL_RED } from "@/config/theme";
 
 type Props = {
   params: Promise<{ id: string }>;
@@ -18,10 +20,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     .single();
 
   if (!artist) {
-    return { title: "Artist Not Found | Personal Hot 100" };
+    return { title: `Artist Not Found | ${CHART_NAME} Hot 100` };
   }
 
-  const pageTitle = `${artist.name} | Personal Hot 100`;
+  const pageTitle = `${artist.name} | ${CHART_NAME} Hot 100`;
   const description = `View complete chart history, peak positions, and analytics for ${artist.name}.`;
 
   return {

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Search, Loader2, X } from "lucide-react";
 import { supabase } from "@/utils/supabase";
+import { CHART_NAME } from "@/config/constants";
 
 export default function Header() {
   const pathname = usePathname();
@@ -81,7 +82,7 @@ export default function Header() {
         <div className="mx-auto flex h-16 max-w-[1400px] items-center justify-between px-6">
           <Link href="/" className="flex items-center">
             <h1 className="text-3xl leading-none font-black tracking-tighter uppercase transition-opacity hover:opacity-80">
-              Personal <span className="text-[#B30000]">Charts</span>
+              {CHART_NAME} <span className="text-[#B30000]">Charts</span>
             </h1>
           </Link>
 

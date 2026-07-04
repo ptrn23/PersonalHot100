@@ -2,6 +2,8 @@ import { supabase } from "@/utils/supabase";
 import RecordBlock, { RecordEntry } from "../../components/RecordBlock";
 import { formatNumber } from "../../utils/chartMath";
 
+import { CHART_NAME } from "@/config/constants";
+
 export const dynamic = "force-dynamic";
 
 const formatRecordDate = (isoString?: string) => {
@@ -256,7 +258,7 @@ export default async function RecordsPage() {
           </h1>
           <p className="max-w-2xl text-lg font-medium text-gray-500">
             The list of the biggest moments, highest peaks, and longest runs in the history of the
-            Personal Charts.
+            {CHART_NAME} Charts.
           </p>
         </div>
       </div>

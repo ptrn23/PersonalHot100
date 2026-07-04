@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { Activity, Calendar, ArrowRight } from "lucide-react";
 
+import { CHART_NAME } from "@/config/constants";
+
 const WaveformBackground = () => {
   return (
     <div className="pointer-events-none absolute inset-0 z-0 flex items-end justify-between gap-1 overflow-hidden px-4 opacity-[0.03] md:gap-2">
@@ -35,7 +37,7 @@ export default function LandingPage() {
         <div className="mb-6 flex items-center gap-4">
           <div className="h-[2px] w-8 bg-[#B30000]" />
           <span className="text-xs font-bold tracking-[0.3em] text-[#B30000] uppercase md:text-sm">
-            Personal Charts
+            {CHART_NAME} Charts
           </span>
         </div>
 

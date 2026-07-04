@@ -1,6 +1,7 @@
 import { createClient } from "@supabase/supabase-js";
 import * as dotenv from "dotenv";
 import { Database } from "../types/supabase";
+import { CHART_NAME } from "@/config/constants";
 
 dotenv.config({ path: ".env.local" });
 
@@ -10,7 +11,7 @@ const supabase = createClient<Database>(
 );
 
 async function runChartEngine() {
-  console.log("🚀 Booting up Personal Hot 100 Chart Engine...");
+  console.log(`🚀 Booting up ${CHART_NAME} Hot 100 Chart Engine...`);
 
   const { data: weeks, error: weeksError } = await supabase
     .from("chart_weeks")

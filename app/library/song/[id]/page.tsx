@@ -14,7 +14,8 @@ import {
   Upload 
 } from "lucide-react";
 
-import { CASUAL_RED, CASUAL_BLACK, CASUAL_WHITE } from "@/config/theme";
+import { CASUAL_RED } from "@/config/theme";
+import { CHART_HANDLE, CHART_NAME } from "@/config/constants";
 
 export const dynamic = "force-dynamic";
 
@@ -39,12 +40,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     .single();
 
   if (!song) {
-    return { title: "Song Not Found | Personal Hot 100" };
+    return { title: `Song Not Found | ${CHART_NAME} Hot 100` };
   }
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const artistName = (song.artists as any)?.name || "Unknown Artist";
-  const pageTitle = `${song.display_title || song.title} | Personal Hot 100`;
+  const pageTitle = `${song.display_title || song.title} | ${CHART_NAME} Hot 100`;
   const description = `View chart performance, total points, and track history for "${song.display_title || song.title}" by ${artistName}.`;
 
   return {
@@ -548,12 +549,12 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
                       <div className="flex items-start justify-between">
                         <div className="flex items-center overflow-hidden text-[15px] whitespace-nowrap text-gray-500">
                           <span className="truncate font-bold text-gray-900 hover:underline">
-                            Personal Hot 100
+                            {CHART_NAME} Hot 100
                           </span>
 
                           <BadgeCheck className="ml-1 h-5 w-5 shrink-0 fill-[#B30000] text-white" />
 
-                          <span className="ml-1 truncate">@personalhot100</span>
+                          <span className="ml-1 truncate">@{CHART_HANDLE}</span>
                           <span className="mx-1.5">·</span>
                           <span className="shrink-0 hover:underline">
                             {new Date(news.chart_weeks?.start_date).toLocaleDateString("en-US", {

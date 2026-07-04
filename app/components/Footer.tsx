@@ -3,6 +3,7 @@
 import Link from "next/link";
 
 import { Triangle } from "lucide-react";
+import { CHART_NAME } from "@/config/constants";
 
 export default function Footer() {
   return (
@@ -19,10 +20,10 @@ export default function Footer() {
         <div className="flex h-full flex-col justify-between md:col-span-4">
           <div>
             <h4 className="mb-2 text-xs font-black tracking-wider text-gray-900 uppercase">
-              PERSONAL CHARTS
+              {CHART_NAME} CHARTS
             </h4>
             <p className="mb-4 text-xs leading-relaxed font-medium text-gray-500">
-              Personal Charts is an algorithmic music tracking system inspired by the Billboard Hot
+              {CHART_NAME} Charts is an algorithmic music tracking system inspired by the Billboard Hot
               100. By using Last.fm scrobble data, the engine computes music performance, simulating
               real-life chart mechanics through weights, multipliers, and time-decay logic.
             </p>
@@ -93,11 +94,11 @@ export default function Footer() {
           <div className="flex items-center gap-3">
             <img
               src="/logo.png"
-              alt="Personal Charts Logo"
+              alt={`${CHART_NAME} Charts Logo`}
               className="aspect-square h-6 w-auto object-cover transition-shadow duration-300"
             />
             <span className="border-l border-gray-300 pl-3 font-medium text-gray-400">
-              © {new Date().getFullYear()} Personal Charts Inc. All Rights Reserved.
+              © {new Date().getFullYear()} {CHART_NAME} Charts Inc. All Rights Reserved.
             </span>
           </div>
 

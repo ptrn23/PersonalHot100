@@ -2,6 +2,7 @@ import { ImageResponse } from "next/og";
 import { supabase } from "@/utils/supabase";
 import { promises as fs } from "fs";
 import path from "path";
+import { CHART_NAME } from "@/config/constants";
 
 export const alt = "Song Chart Performance";
 export const size = { width: 1200, height: 600 };
@@ -119,7 +120,7 @@ export default async function Image({ params }: { params: Promise<{ id: string }
               textTransform: "uppercase",
             }}
           >
-            Personal Hot 100
+            {CHART_NAME} Hot 100
           </span>
         </div>
 

@@ -1,5 +1,6 @@
 import dotenv from "dotenv";
 import { createClient } from "@supabase/supabase-js";
+import { CHART_NAME } from "@/config/constants";
 dotenv.config();
 
 const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_SERVICE_KEY!);
@@ -60,7 +61,7 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
       event_type: "NEW_NUMBER_ONE",
       entity_type: "song",
       entity_id: numberOne.song_id,
-      headline: `“${songTitle}” by ${artistName} reaches #1 on the Personal Hot 100 for the first time.`,
+      headline: `“${songTitle}” by ${artistName} reaches #1 on the ${CHART_NAME} Hot 100 for the first time.`,
       subtext:
         uniqueNumberOnesCount > 1
           ? `This marks ${artistName}'s ${uniqueNumberOnesCount}${suffix} career #1 hit on the chart.`
@@ -73,7 +74,7 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
       event_type: "HOLD_NUMBER_ONE",
       entity_type: "song",
       entity_id: numberOne.song_id,
-      headline: `“${songTitle}” by ${artistName} spends a ${numberOne.peak_streak}th week at #1 in the Personal Hot 100.`,
+      headline: `“${songTitle}” by ${artistName} spends a ${numberOne.peak_streak}th week at #1 in the ${CHART_NAME} Hot 100.`,
       priority: 9,
     });
   } else if (numberOne.peak_position === 1 && numberOne.previous_position !== 1) {
@@ -82,7 +83,7 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
       event_type: "RETURN_NUMBER_ONE",
       entity_type: "song",
       entity_id: numberOne.song_id,
-      headline: `“${songTitle}” by ${artistName} returns to #1 on the Personal Hot 100!`,
+      headline: `“${songTitle}” by ${artistName} returns to #1 on the ${CHART_NAME} Hot 100!`,
       subtext: `The track reclaims the top spot for a ${numberOne.peak_streak}th nonconsecutive week.`,
       priority: 9,
     });
