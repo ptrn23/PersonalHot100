@@ -1,4 +1,5 @@
 import { WEIGHT_STREAMS, WEIGHT_SALES, WEIGHT_AIRPLAY } from "@/config/constants";
+import { MaxStats } from "@/types";
 
 export type Metrics = {
   songId: string;
@@ -114,4 +115,26 @@ export const calculateDetailedUnits = (
     airplayUnits: applyDeviation(Math.floor(airplay * 2250 * 5020), seed + 3),
     totalUnits: applyDeviation(Math.floor((streams + sales + airplay) * 3500), seed + 4),
   };
+};
+
+export const calculateMaxStats = (
+  entries: { streams: number; sales: number; airplay: number; mathSeedString: string }[]
+): MaxStats => {
+  const max: MaxStats = { sales: 0, streams: 0, airplay: 0, units: 0 };
+
+  for (const entry of entries) {
+    const units = calculateDetailedUnits(
+      entry.streams,
+      entry.sales,
+      entry.airplay,
+      entry.mathSeedString
+    );
+
+    if (units.salesUnits > max.sales) max.sales = units.salesUnits;
+    if (units.streamsUnits > max.streams) max.streams = units.streamsUnits;
+    if (units.airplayUnits > max.airplay) max.airplay = units.airplayUnits;
+    if (units.totalUnits > max.units) max.units = units.totalUnits;
+  }
+
+  return max;
 };
