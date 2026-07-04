@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const ACCENT_COLOR = "#B30000";
+
 
 const formatNumber = (num: number) => {
   if (!num) return "0";
@@ -380,7 +380,7 @@ export default async function ArtistPage({
           <div className="mb-4 grid grid-cols-1 gap-4 md:grid-cols-3">
             <div
               className="relative flex h-40 flex-col items-center justify-center overflow-hidden border-2 bg-black"
-              style={{ borderColor: ACCENT_COLOR }}
+              style={{ borderColor: CASUAL_RED }}
             >
               <span className="z-10 mb-1 text-7xl leading-none font-black tracking-tighter text-white">
                 {artistPeak === 101 ? "--" : artistPeak}
@@ -388,7 +388,7 @@ export default async function ArtistPage({
               {artistHighestStreak > 0 && (
                 <span
                   className="absolute top-4 right-4 rounded-sm px-2 py-0.5 text-[10px] font-black text-white uppercase"
-                  style={{ backgroundColor: ACCENT_COLOR }}
+                  style={{ backgroundColor: CASUAL_RED }}
                 >
                   {artistHighestStreak} Wks
                 </span>
@@ -400,7 +400,7 @@ export default async function ArtistPage({
 
             <div
               className="flex h-40 flex-col items-center justify-center border-2 bg-black"
-              style={{ borderColor: ACCENT_COLOR }}
+              style={{ borderColor: CASUAL_RED }}
             >
               <span className="mb-1 text-6xl leading-none font-black tracking-tighter text-white">
                 {formatNumber(careerTotalPoints)}
@@ -412,7 +412,7 @@ export default async function ArtistPage({
 
             <div
               className="flex h-40 flex-col items-center justify-center border-2 bg-black"
-              style={{ borderColor: ACCENT_COLOR }}
+              style={{ borderColor: CASUAL_RED }}
             >
               <span className="mb-1 text-6xl leading-none font-black tracking-tighter text-white">
                 {artistWoc}
@@ -550,7 +550,7 @@ export default async function ArtistPage({
         )}
 
         <div className="mb-16">
-          <div className="mb-6 p-4" style={{ backgroundColor: ACCENT_COLOR }}>
+          <div className="mb-6 p-4" style={{ backgroundColor: CASUAL_RED }}>
             <h2 className="text-3xl font-black tracking-tighter text-white uppercase">
               Week-by-Week History
             </h2>
@@ -641,7 +641,7 @@ export default async function ArtistPage({
                       {track.streak > 0 && (
                         <span
                           className="mt-0.5 px-1 text-[9px] font-black text-white uppercase"
-                          style={{ backgroundColor: ACCENT_COLOR }}
+                          style={{ backgroundColor: CASUAL_RED }}
                         >
                           {track.streak} Wks
                         </span>
@@ -675,7 +675,7 @@ export default async function ArtistPage({
         </div>
 
         <div className="mb-16">
-          <div className="mb-6 p-4" style={{ backgroundColor: ACCENT_COLOR }}>
+          <div className="mb-6 p-4" style={{ backgroundColor: CASUAL_RED }}>
             <h2 className="text-3xl font-black tracking-tighter text-white uppercase">
               News & Feed
             </h2>
@@ -701,7 +701,7 @@ export default async function ArtistPage({
                   )}
                 </div>
                 <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black via-black/80 to-transparent p-4">
-                  <div className="mb-1 text-xs font-bold" style={{ color: ACCENT_COLOR }}>
+                  <div className="mb-1 text-xs font-bold" style={{ color: CASUAL_RED }}>
                     CHART UPDATE
                   </div>
                   <p className="line-clamp-3 text-sm leading-tight font-bold text-white">

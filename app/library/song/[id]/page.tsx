@@ -14,6 +14,8 @@ import {
   Upload 
 } from "lucide-react";
 
+import { CASUAL_RED, CASUAL_BLACK, CASUAL_WHITE } from "@/config/theme";
+
 export const dynamic = "force-dynamic";
 
 type Props = {
@@ -61,7 +63,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const ACCENT_COLOR = "#B30000";
+
 
 const formatNumber = (num: number) => {
   if (!num) return "0";
@@ -376,7 +378,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
           <div className="mb-4 grid grid-cols-1 gap-4 md:grid-cols-3">
             <div
               className="relative flex h-40 flex-col items-center justify-center overflow-hidden border-2 bg-black"
-              style={{ borderColor: ACCENT_COLOR }}
+              style={{ borderColor: CASUAL_RED }}
             >
               <span className="z-10 mb-1 text-7xl leading-none font-black tracking-tighter text-white">
                 {peakPos === 101 ? "--" : peakPos}
@@ -384,7 +386,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
               {highestStreak > 0 && (
                 <span
                   className="absolute top-4 right-4 rounded-sm px-2 py-0.5 text-[10px] font-black text-white uppercase"
-                  style={{ backgroundColor: ACCENT_COLOR }}
+                  style={{ backgroundColor: CASUAL_RED }}
                 >
                   {highestStreak} Wks
                 </span>
@@ -396,7 +398,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
 
             <div
               className="flex h-40 flex-col items-center justify-center border-2 bg-black"
-              style={{ borderColor: ACCENT_COLOR }}
+              style={{ borderColor: CASUAL_RED }}
             >
               <span className="mb-1 text-6xl leading-none font-black tracking-tighter text-white">
                 {formatNumber(totalPoints)}
@@ -408,7 +410,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
 
             <div
               className="flex h-40 flex-col items-center justify-center border-2 bg-black"
-              style={{ borderColor: ACCENT_COLOR }}
+              style={{ borderColor: CASUAL_RED }}
             >
               <span className="mb-1 text-6xl leading-none font-black tracking-tighter text-white">
                 {woc}
@@ -484,7 +486,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
         </div>
 
         <div className="mb-16">
-          <div className="mb-6 p-4" style={{ backgroundColor: ACCENT_COLOR }}>
+          <div className="mb-6 p-4" style={{ backgroundColor: CASUAL_RED }}>
             <h2 className="text-3xl font-black tracking-tighter text-white uppercase">
               Week-by-Week History
             </h2>
@@ -524,7 +526,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
         </div>
 
         <div className="mb-16">
-          <div className="mb-4 p-4" style={{ backgroundColor: ACCENT_COLOR }}>
+          <div className="mb-4 p-4" style={{ backgroundColor: CASUAL_RED }}>
             <h2 className="text-3xl font-black tracking-tighter text-white uppercase">
               News & Feed
             </h2>

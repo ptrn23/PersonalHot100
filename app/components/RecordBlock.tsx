@@ -19,8 +19,6 @@ type RecordBlockProps = {
   entries: RecordEntry[];
 };
 
-const ACCENT_COLOR = "#B30000";
-
 export default function RecordBlock({ title, metricLabel, entries }: RecordBlockProps) {
   if (!entries || entries.length === 0) return null;
 
