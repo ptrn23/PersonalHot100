@@ -156,7 +156,7 @@ export default function ChartRow({
 
         <div className="flex h-full items-center justify-center" />
 
-        <div className="text-center font-bold text-gray-700">{formatNumber(entry.totalPoints)}</div>
+        <div className="text-center font-bold text-gray-700">{entry.totalPoints}</div>
         <div className="flex justify-center">
           {pointsPctStr === "--" ? (
             <span className="rounded px-1.5 py-0.5 text-[10px] font-bold text-gray-400">--</span>

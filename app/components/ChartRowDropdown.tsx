@@ -20,13 +20,13 @@ export default function ChartRowDropdown({
             Scores
           </span>
           <div className="mb-1 flex items-center justify-between text-gray-600">
-            <span>Streams:</span> <span className="font-mono">{formatNumber(entry.streams)}</span>
+            <span>Streams:</span> <span className="font-mono">{entry.streams}</span>
           </div>
           <div className="mb-1 flex items-center justify-between text-gray-600">
-            <span>Sales:</span> <span className="font-mono">{formatNumber(entry.sales)}</span>
+            <span>Sales:</span> <span className="font-mono">{entry.sales}</span>
           </div>
           <div className="flex items-center justify-between text-gray-600">
-            <span>Airplay:</span> <span className="font-mono">{formatNumber(entry.airplay)}</span>
+            <span>Airplay:</span> <span className="font-mono">{entry.airplay}</span>
           </div>
         </div>
 
@@ -37,22 +37,22 @@ export default function ChartRowDropdown({
           <div className="mb-1 flex items-center justify-between text-gray-600">
             <span>Streams:</span>
             <span className="font-mono whitespace-nowrap">
-              <span className="text-xs text-gray-400">{formatNumber(entry.streams)} x 5 = </span>
-              <span className="text-gray-800">{formatNumber(entry.streams * 5)}</span>
+              <span className="text-xs text-gray-400">{entry.streams} x 5 = </span>
+              <span className="text-gray-800">{entry.streams * 5}</span>
             </span>
           </div>
           <div className="mb-1 flex items-center justify-between text-gray-600">
             <span>Sales:</span>
             <span className="font-mono whitespace-nowrap">
-              <span className="text-xs text-gray-400">{formatNumber(entry.sales)} x 3 = </span>
-              <span className="text-gray-800">{formatNumber(entry.sales * 3)}</span>
+              <span className="text-xs text-gray-400">{entry.sales} x 3 = </span>
+              <span className="text-gray-800">{entry.sales * 3}</span>
             </span>
           </div>
           <div className="flex items-center justify-between text-gray-600">
             <span>Airplay:</span>
             <span className="font-mono whitespace-nowrap">
-              <span className="text-xs text-gray-400">{formatNumber(entry.airplay)} x 2 = </span>
-              <span className="text-gray-800">{formatNumber(entry.airplay * 2)}</span>
+              <span className="text-xs text-gray-400">{entry.airplay} x 2 = </span>
+              <span className="text-gray-800">{entry.airplay * 2}</span>
             </span>
           </div>
         </div>
@@ -65,20 +65,20 @@ export default function ChartRowDropdown({
             <span>This week:</span>
             <span className="font-mono whitespace-nowrap">
               <span className="text-[10px] text-gray-400 sm:text-xs">
-                {formatNumber(entry.streams * 5)} + {formatNumber(entry.sales * 3)} +{" "}
-                {formatNumber(entry.airplay * 2)} =
+                {entry.streams * 5} + {entry.sales * 3} +{" "}
+                {entry.airplay * 2} =
               </span>
-              <span className="ml-1 text-gray-800">{formatNumber(entry.currentWeekPoints)}</span>
+              <span className="ml-1 text-gray-800">{entry.currentWeekPoints}</span>
             </span>
           </div>
           <div className="mb-1 flex items-center justify-between text-gray-600">
             <span>1 week ago:</span>
             <span className="font-mono whitespace-nowrap">
               <span className="text-[10px] text-gray-400 sm:text-xs">
-                {formatNumber(entry.previousWeekRawPoints || 0)} x 30% =
+                {entry.previousWeekRawPoints || 0} x 30% =
               </span>
               <span className="ml-1 text-gray-800">
-                {formatNumber(Math.floor((entry.previousWeekRawPoints || 0) * 0.3))}
+                {Math.floor((entry.previousWeekRawPoints || 0) * 0.3)}
               </span>
             </span>
           </div>
@@ -86,10 +86,10 @@ export default function ChartRowDropdown({
             <span>2 weeks ago:</span>
             <span className="font-mono whitespace-nowrap">
               <span className="text-[10px] text-gray-400 sm:text-xs">
-                {formatNumber(entry.twoWeeksAgoRawPoints || 0)} x 20% =
+                {entry.twoWeeksAgoRawPoints || 0} x 20% =
               </span>
               <span className="ml-1 text-gray-800">
-                {formatNumber(Math.floor((entry.twoWeeksAgoRawPoints || 0) * 0.2))}
+                {Math.floor((entry.twoWeeksAgoRawPoints || 0) * 0.2)}
               </span>
             </span>
           </div>
@@ -98,12 +98,12 @@ export default function ChartRowDropdown({
         <div className="flex flex-col items-center justify-center rounded-lg border border-blue-200 bg-blue-50 p-3">
           <span className="mb-1 text-xs font-bold text-blue-800 uppercase">Total Points</span>
           <span className="mb-1 text-4xl leading-none font-black tracking-tighter text-blue-900">
-            {formatNumber(entry.totalPoints)}
+            {entry.totalPoints}
           </span>
           <span className="font-mono text-[12px] font-bold tracking-tight text-blue-600/70">
-            {formatNumber(entry.currentWeekPoints)} +{" "}
-            {formatNumber(Math.floor((entry.previousWeekRawPoints || 0) * 0.3))} +{" "}
-            {formatNumber(Math.floor((entry.twoWeeksAgoRawPoints || 0) * 0.2))}
+            {entry.currentWeekPoints} +{" "}
+            {Math.floor((entry.previousWeekRawPoints || 0) * 0.3)} +{" "}
+            {Math.floor((entry.twoWeeksAgoRawPoints || 0) * 0.2)}
           </span>
         </div>
       </div>
