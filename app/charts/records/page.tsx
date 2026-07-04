@@ -2,6 +2,7 @@ import { supabase } from "@/utils/supabase";
 import RecordBlock from "../../components/RecordBlock";
 import { RecordEntry } from "@/types";
 import { formatNumber, formatShortDate } from "@/utils/formatters";
+import { calculateDetailedUnits, CalculatedUnits } from "@/utils/metrics";
 
 import { CHART_NAME } from "@/config/constants";
 
@@ -129,25 +130,48 @@ export default async function RecordsPage() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const mapToRecord = (
     row: any,
-    index: number,
-    metricFormat: (r: any) => string | number,
-  ): RecordEntry => {
+    metricFormat: (r: any, units: CalculatedUnits) => number,
+  ) => {
     const songData = Array.isArray(row.songs) ? row.songs[0] : row.songs;
     const artistData = Array.isArray(songData?.artists) ? songData.artists[0] : songData?.artists;
     const albumData = Array.isArray(songData?.albums) ? songData.albums[0] : songData?.albums;
     const dateStr = row.chart_weeks?.start_date;
 
+    const title = songData?.display_title || songData?.title || "Unknown Song";
+    const artist = artistData?.display_name || artistData?.name || "Unknown Artist";
+
+    const units = calculateDetailedUnits(
+      row.streams || 0,
+      row.sales || 0,
+      row.airplay || 0,
+      `${title}|${artist}`
+    );
+
     return {
       id: songData?.id || "unknown",
-      rank: index + 1,
       coverUrl: albumData?.cover_url || null,
-      title: songData?.display_title || songData?.title || "Unknown Song",
-      artist: artistData?.display_name || artistData?.name || "Unknown Artist",
-      metricValue: metricFormat(row),
+      title,
+      artist,
+      rawValue: metricFormat(row, units),
       peak: row.peak_position || 101,
       weekDisplay: formatShortDate(dateStr),
       weekUrl: dateStr ? encodeURIComponent(dateStr) : "",
     };
+  };
+
+  const processUnitList = (
+    data: any[],
+    selector: (r: any, units: CalculatedUnits) => number,
+    customFormatter?: (val: number) => string | number 
+  ): RecordEntry[] => {
+    return (data || [])
+      .map((row) => mapToRecord(row, selector))
+      .sort((a, b) => b.rawValue - a.rawValue)
+      .map((entry, index) => ({
+        ...entry,
+        rank: index + 1,
+        metricValue: customFormatter ? customFormatter(entry.rawValue) : formatNumber(entry.rawValue),
+      }));
   };
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -169,11 +193,16 @@ export default async function RecordsPage() {
     };
   };
 
-  const highestPointsEntries = (highestPointsRes.data || []).map((row, i) =>
-    mapToRecord(row, i, (r) => r.total_points),
+  const highestPointsEntries = processUnitList(
+    highestPointsRes.data || [], 
+    (r, units) => r.total_points || 0,
+    (val) => val.toLocaleString("en-US")
   );
-  const highestDebutEntries = (highestDebutRes.data || []).map((row, i) =>
-    mapToRecord(row, i, (r) => r.total_points),
+  
+  const highestDebutEntries = processUnitList(
+    highestDebutRes.data || [], 
+    (r, units) => r.total_points || 0,
+    (val) => val.toLocaleString("en-US")
   );
 
   const biggestJumpEntries = (biggestJumpRes.data || []).map((row, i) =>
@@ -193,25 +222,13 @@ export default async function RecordsPage() {
     mapFlatRecord(row, i, (r) => `${r.run_length}`),
   );
 
-  const highestSalesEntries = (highestSalesRes.data || []).map((row, i) =>
-    mapToRecord(row, i, (r) => formatNumber(r.sales)),
-  );
-  const highestStreamsEntries = (highestStreamsRes.data || []).map((row, i) =>
-    mapToRecord(row, i, (r) => formatNumber(r.streams)),
-  );
-  const highestAirplayEntries = (highestAirplayRes.data || []).map((row, i) =>
-    mapToRecord(row, i, (r) => formatNumber(r.airplay)),
-  );
+  const highestSalesEntries = processUnitList(highestSalesRes.data || [], (r, units) => units.salesUnits);
+  const highestStreamsEntries = processUnitList(highestStreamsRes.data || [], (r, units) => units.streamsUnits);
+  const highestAirplayEntries = processUnitList(highestAirplayRes.data || [], (r, units) => units.airplayUnits);
 
-  const highestDebutSalesEntries = (highestDebutSalesRes.data || []).map((row, i) =>
-    mapToRecord(row, i, (r) => formatNumber(r.sales)),
-  );
-  const highestDebutStreamsEntries = (highestDebutStreamsRes.data || []).map((row, i) =>
-    mapToRecord(row, i, (r) => formatNumber(r.streams)),
-  );
-  const highestDebutAirplayEntries = (highestDebutAirplayRes.data || []).map((row, i) =>
-    mapToRecord(row, i, (r) => formatNumber(r.airplay)),
-  );
+  const highestDebutSalesEntries = processUnitList(highestDebutSalesRes.data || [], (r, units) => units.salesUnits);
+  const highestDebutStreamsEntries = processUnitList(highestDebutStreamsRes.data || [], (r, units) => units.streamsUnits);
+  const highestDebutAirplayEntries = processUnitList(highestDebutAirplayRes.data || [], (r, units) => units.airplayUnits);
 
   const mostWeeksAt1Entries = (mostWeeksAt1Res.data || []).map((row, i) => {
     const entry = mapFlatRecord(row, i, (r) => r.weeks_at_1);
