@@ -195,8 +195,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
   );
 
   const mathSeedString = `${song.display_title || song.title}|${artistName}`;
-  const maxStats: MaxStats = { sales: 0, streams: 0, airplay: 0, units: 0 };
-
+  
   sortedEntries.forEach((entry) => {
     totalPoints += entry.total_points || 0;
     rawStreams += entry.streams || 0;
@@ -205,9 +204,18 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
 
     if (entry.peak_position < peakPos) peakPos = entry.peak_position;
     if (entry.weeks_on_chart > woc) woc = entry.weeks_on_chart;
-
-    const maxStats = entries ? calculateMaxStats(entries) : { sales: 0, streams: 0, airplay: 0, units: 0 };
   });
+
+  const entriesWithSeeds = sortedEntries.map((entry) => ({
+    streams: entry.streams || 0,
+    sales: entry.sales || 0,
+    airplay: entry.airplay || 0,
+    mathSeedString: mathSeedString,
+  }));
+
+  const maxStats: MaxStats = entriesWithSeeds.length > 0 
+    ? calculateMaxStats(entriesWithSeeds) 
+    : { sales: 0, streams: 0, airplay: 0, units: 0 };
 
   const debutDate = sortedEntries.length > 0 ? sortedEntries[0].chart_weeks?.start_date : null;
   const peakEntry = sortedEntries.find((e) => e.rank === peakPos);
