@@ -3,7 +3,7 @@
 import { useState, useRef } from "react";
 import ChartRow from "./ChartRow";
 import { DisplayEntry, MaxStats } from "@/types";
-import { applyDeviation, getStableSeed } from "@/utils/metrics";
+import { calculateDetailedUnits } from "@/utils/metrics";
 import {
   Search,
   X,
@@ -127,13 +127,11 @@ export default function ChartView({
 
   if (entries) {
     entries.forEach((entry) => {
-      const seed = getStableSeed(entry.mathSeedString);
-      const streamsUnits = applyDeviation(Math.floor(entry.streams * 5250 * 275), seed + 1);
-      const salesUnits = applyDeviation(Math.floor(entry.sales * 252), seed + 2);
-      const airplayUnits = applyDeviation(Math.floor(entry.airplay * 2250 * 5020), seed + 3);
-      const totalUnits = applyDeviation(
-        Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2),
-        seed + 4,
+      const { streamsUnits, salesUnits, airplayUnits, totalUnits } = calculateDetailedUnits(
+        entry.streams,
+        entry.sales,
+        entry.airplay,
+        entry.mathSeedString
       );
 
       if (salesUnits > maxStats.sales) maxStats.sales = salesUnits;

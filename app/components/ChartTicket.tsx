@@ -1,16 +1,18 @@
 "use client";
 
 import { DisplayEntry } from "@/types";
-import { applyDeviation, getStableSeed } from "@/utils/metrics";
+import { calculateDetailedUnits } from "@/utils/metrics";
 import { formatNumber } from "@/utils/formatters";
 
 import { CHART_NAME } from "@/config/constants";
 
 export default function ChartTicket({ entry }: { entry: DisplayEntry }) {
-  const seed = getStableSeed(entry.mathSeedString);
-  const streamsUnits = applyDeviation(Math.floor(entry.streams * 5250 * 275), seed + 1);
-  const salesUnits = applyDeviation(Math.floor(entry.sales * 252), seed + 2);
-  const airplayUnits = applyDeviation(Math.floor(entry.airplay * 2250 * 5020), seed + 3);
+  const { streamsUnits, salesUnits, airplayUnits } = calculateDetailedUnits(
+    entry.streams,
+    entry.sales,
+    entry.airplay,
+    entry.mathSeedString
+  );
 
   return (
     <div

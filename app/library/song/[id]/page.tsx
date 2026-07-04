@@ -2,7 +2,7 @@ import { supabase } from "@/utils/supabase";
 import Link from "next/link";
 import ChartRow from "../../../components/ChartRow";
 import { DisplayEntry, MaxStats } from "@/types";
-import { applyDeviation, getStableSeed } from "@/utils/metrics";
+import { calculateDetailedUnits } from "@/utils/metrics";
 import { formatNumber, formatFullDate, formatShortDate } from "@/utils/formatters";
 import ChartTrajectory from "../../../components/ChartTrajectory";
 import { Metadata } from "next";
@@ -195,7 +195,6 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
   );
 
   const mathSeedString = `${song.display_title || song.title}|${artistName}`;
-  const seed = getStableSeed(mathSeedString);
   const maxStats: MaxStats = { sales: 0, streams: 0, airplay: 0, units: 0 };
 
   sortedEntries.forEach((entry) => {
@@ -207,18 +206,17 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
     if (entry.peak_position < peakPos) peakPos = entry.peak_position;
     if (entry.weeks_on_chart > woc) woc = entry.weeks_on_chart;
 
-    const weeklyStreams = applyDeviation(Math.floor(entry.streams * 5250 * 275), seed + 1);
-    const weeklySales = applyDeviation(Math.floor(entry.sales * 252), seed + 2);
-    const weeklyAirplay = applyDeviation(Math.floor(entry.airplay * 2250 * 5020), seed + 3);
-    const weeklyUnits = applyDeviation(
-      Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2),
-      seed + 4,
+    const { streamsUnits, salesUnits, airplayUnits, totalUnits } = calculateDetailedUnits(
+      entry.streams,
+      entry.sales,
+      entry.airplay,
+      entry.mathSeedString
     );
 
-    if (weeklySales > maxStats.sales) maxStats.sales = weeklySales;
-    if (weeklyStreams > maxStats.streams) maxStats.streams = weeklyStreams;
-    if (weeklyAirplay > maxStats.airplay) maxStats.airplay = weeklyAirplay;
-    if (weeklyUnits > maxStats.units) maxStats.units = weeklyUnits;
+    if (salesUnits > maxStats.sales) maxStats.sales = salesUnits;
+    if (streamsUnits > maxStats.streams) maxStats.streams = streamsUnits;
+    if (airplayUnits > maxStats.airplay) maxStats.airplay = airplayUnits;
+    if (totalUnits > maxStats.units) maxStats.units = totalUnits;
   });
 
   const debutDate = sortedEntries.length > 0 ? sortedEntries[0].chart_weeks?.start_date : null;
@@ -229,13 +227,17 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
     ...sortedEntries.filter((e) => e.rank === peakPos).map((e) => e.peak_streak || 0),
   );
 
-  const allTimeStreams = applyDeviation(Math.floor(rawStreams * 5250 * 275), seed + 1);
-  const allTimeSales = applyDeviation(Math.floor(rawSales * 252), seed + 2);
-  const allTimeAirplay = applyDeviation(Math.floor(rawAirplay * 2250 * 5020), seed + 3);
-  const allTimeUnits = applyDeviation(
-    Math.floor((rawStreams + rawSales + rawAirplay) * 1750 * 2),
-    seed + 4,
+  const { streamsUnits, salesUnits, airplayUnits, totalUnits } = calculateDetailedUnits(
+    rawStreams,
+    rawSales,
+    rawAirplay,
+    mathSeedString
   );
+
+  const allTimeStreams = streamsUnits;
+  const allTimeSales = salesUnits;
+  const allTimeAirplay = airplayUnits;
+  const allTimeUnits = totalUnits;
 
   const historyEntriesForList: DisplayEntry[] = descendingEntries.map((entry) => ({
     id: entry.id,

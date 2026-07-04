@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 import ChartRow from "../../../components/ChartRow";
 import { DisplayEntry, MaxStats } from "@/types";
-import { applyDeviation, getStableSeed } from "@/utils/metrics";
+import { calculateDetailedUnits } from "@/utils/metrics";
 import { formatNumber, formatFullDate, formatShortDate } from "@/utils/formatters";
 import ChartTrajectory from "../../../components/ChartTrajectory";
 import { CHART_NAME } from "@/config/constants";
@@ -150,11 +150,14 @@ export default async function ArtistPage({
     );
 
     const mathSeedString = `${song.display_title || song.title}|${artist.name}`;
-    const seed = getStableSeed(mathSeedString);
-    const songUnits = applyDeviation(
-      Math.floor((songTotalStreams + songTotalSales + songTotalAirplay) * 1750 * 2),
-      seed + 4,
+    const { totalUnits } = calculateDetailedUnits(
+      song.streams,
+      song.sales,
+      song.airplay,
+      mathSeedString
     );
+
+    const songUnits = totalUnits;
 
     careerTotalPoints += songTotalPoints;
     careerTotalUnits += songUnits;
@@ -210,8 +213,6 @@ export default async function ArtistPage({
     units: 0,
   };
 
-  const artistSeed = getStableSeed(artist.name);
-
   const enrichedArtistHistory = validArtistHistory.map((entry) => {
     artistWoc += 1;
     const rank = entry.rank;
@@ -227,18 +228,17 @@ export default async function ArtistPage({
       if (previousRank !== artistPeak) isRePeak = true;
     }
 
-    const weeklyStreams = applyDeviation(Math.floor(entry.streams * 5250 * 275), artistSeed + 1);
-    const weeklySales = applyDeviation(Math.floor(entry.sales * 252), artistSeed + 2);
-    const weeklyAirplay = applyDeviation(Math.floor(entry.airplay * 2250 * 5020), artistSeed + 3);
-    const weeklyUnits = applyDeviation(
-      Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2),
-      artistSeed + 4,
+    const { streamsUnits, salesUnits, airplayUnits, totalUnits } = calculateDetailedUnits(
+      entry.streams,
+      entry.sales,
+      entry.airplay,
+      entry.mathSeedString
     );
 
-    if (weeklySales > artistMaxStats.sales) artistMaxStats.sales = weeklySales;
-    if (weeklyStreams > artistMaxStats.streams) artistMaxStats.streams = weeklyStreams;
-    if (weeklyAirplay > artistMaxStats.airplay) artistMaxStats.airplay = weeklyAirplay;
-    if (weeklyUnits > artistMaxStats.units) artistMaxStats.units = weeklyUnits;
+    if (salesUnits > artistMaxStats.sales) artistMaxStats.sales = salesUnits;
+    if (streamsUnits > artistMaxStats.streams) artistMaxStats.streams = streamsUnits;
+    if (airplayUnits > artistMaxStats.airplay) artistMaxStats.airplay = airplayUnits;
+    if (totalUnits > artistMaxStats.units) artistMaxStats.units = totalUnits;
 
     const enriched = {
       ...entry,

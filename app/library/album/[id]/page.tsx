@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import ChartRow from "../../../components/ChartRow";
 import { DisplayEntry, MaxStats } from "@/types";
-import { applyDeviation, getStableSeed } from "@/utils/metrics";
+import { calculateDetailedUnits } from "@/utils/metrics";
 import ChartTrajectory from "../../../components/ChartTrajectory";
 
 import { CASUAL_RED, CASUAL_BLACK, CASUAL_WHITE } from "@/config/theme";
@@ -174,11 +174,14 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
     );
 
     const mathSeedString = `${song.display_title || song.title}|${artistName}`;
-    const seed = getStableSeed(mathSeedString);
-    const songUnits = applyDeviation(
-      Math.floor((songTotalStreams + songTotalSales + songTotalAirplay) * 1750 * 2),
-      seed + 4,
+    const { totalUnits } = calculateDetailedUnits(
+      song.streams,
+      song.sales,
+      song.airplay,
+      mathSeedString
     );
+
+    const songUnits = totalUnits;
 
     eraTotalPoints += songTotalPoints;
     eraTotalUnits += songUnits;
@@ -226,9 +229,6 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
     units: 0,
   };
 
-  const mathSeedString = `${albumTitle}|${artistName}`;
-  const albumSeed = getStableSeed(mathSeedString);
-
   const enrichedAlbumHistory = validAlbumHistory.map((entry) => {
     albumWoc += 1;
     const rank = entry.rank;
@@ -244,18 +244,17 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
       if (previousRank !== albumPeak) isRePeak = true;
     }
 
-    const weeklyStreams = applyDeviation(Math.floor(entry.streams * 5250 * 275), albumSeed + 1);
-    const weeklySales = applyDeviation(Math.floor(entry.sales * 252), albumSeed + 2);
-    const weeklyAirplay = applyDeviation(Math.floor(entry.airplay * 2250 * 5020), albumSeed + 3);
-    const weeklyUnits = applyDeviation(
-      Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2),
-      albumSeed + 4,
+    const { streamsUnits, salesUnits, airplayUnits, totalUnits } = calculateDetailedUnits(
+      entry.streams,
+      entry.sales,
+      entry.airplay,
+      entry.mathSeedString
     );
 
-    if (weeklySales > albumMaxStats.sales) albumMaxStats.sales = weeklySales;
-    if (weeklyStreams > albumMaxStats.streams) albumMaxStats.streams = weeklyStreams;
-    if (weeklyAirplay > albumMaxStats.airplay) albumMaxStats.airplay = weeklyAirplay;
-    if (weeklyUnits > albumMaxStats.units) albumMaxStats.units = weeklyUnits;
+    if (salesUnits > albumMaxStats.sales) albumMaxStats.sales = salesUnits;
+    if (streamsUnits > albumMaxStats.streams) albumMaxStats.streams = streamsUnits;
+    if (airplayUnits > albumMaxStats.airplay) albumMaxStats.airplay = airplayUnits;
+    if (totalUnits > albumMaxStats.units) albumMaxStats.units = totalUnits;
 
     const enriched = {
       ...entry,

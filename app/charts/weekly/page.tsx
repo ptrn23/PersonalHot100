@@ -2,7 +2,7 @@ import { supabase } from "@/utils/supabase";
 import ChartView from "../../components/ChartView";
 import ChartRow  from "../../components/ChartRow";
 import { DisplayEntry, MaxStats } from "@/types";
-import { applyDeviation, getStableSeed } from "@/utils/metrics";
+import { calculateDetailedUnits } from "@/utils/metrics";
 import WeekSelector from "../../components/WeekSelector";
 import { formatDateRange } from "@/utils/formatters";
 
@@ -155,13 +155,11 @@ export default async function WeeklyChartPage({
     units: 0,
   };
   mappedDropouts.forEach((entry) => {
-    const seed = getStableSeed(entry.mathSeedString);
-    const streamsUnits = applyDeviation(Math.floor(entry.streams * 5250 * 275), seed + 1);
-    const salesUnits = applyDeviation(Math.floor(entry.sales * 252), seed + 2);
-    const airplayUnits = applyDeviation(Math.floor(entry.airplay * 2250 * 5020), seed + 3);
-    const totalUnits = applyDeviation(
-      Math.floor((entry.streams + entry.sales + entry.airplay) * 1750 * 2),
-      seed + 4,
+    const { streamsUnits, salesUnits, airplayUnits, totalUnits } = calculateDetailedUnits(
+      entry.streams,
+      entry.sales,
+      entry.airplay,
+      entry.mathSeedString
     );
     if (salesUnits > dropoutsMaxStats.sales) dropoutsMaxStats.sales = salesUnits;
     if (streamsUnits > dropoutsMaxStats.streams) dropoutsMaxStats.streams = streamsUnits;
