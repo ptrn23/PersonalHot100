@@ -91,7 +91,10 @@ export default async function WeeklyAlbumsPage({
   });
 
   const formattedDate = formatDateRange(targetWeek.start_date, targetWeek.end_date);
-  const availableWeekStrings = allWeeks.map((w) => w.start_date);
+  const availableWeeks = allWeeks.map((w) => ({
+    start_date: w.start_date,
+    end_date: w.end_date,
+  }));
 
   return (
     <main className="min-h-screen bg-white pb-24 text-gray-900">
@@ -107,7 +110,7 @@ export default async function WeeklyAlbumsPage({
 
         <div className="pb-1">
           <WeekSelector
-            weeks={availableWeekStrings}
+            weeks={availableWeeks}
             activeWeek={targetWeek.start_date}
             destination={`/charts/albums`}
           />
