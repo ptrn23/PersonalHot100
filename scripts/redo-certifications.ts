@@ -1,6 +1,6 @@
 import dotenv from "dotenv";
 import { createClient } from "@supabase/supabase-js";
-import { calculateUnits } from "@/utils/metrics";
+import { calculateDetailedUnits } from "@/utils/metrics";
 
 dotenv.config();
 
@@ -34,13 +34,11 @@ async function rebuildAllCertifications() {
   while (true) {
     const { data: songs, error: songsErr } = await supabase
       .from("songs")
-      .select("id, album_id, title, artists(name)")
+      .select("id, album_id, title, display_title, artists(name)")
+      .order("id") 
       .range(songFrom, songFrom + songStep - 1);
 
-    if (songsErr) {
-      console.error("Failed to fetch songs dictionary:", songsErr);
-      return;
-    }
+    if (songsErr) return;
     if (!songs || songs.length === 0) break;
 
     songs.forEach((s) => {
@@ -48,7 +46,7 @@ async function rebuildAllCertifications() {
 
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const artistName = (s.artists as any)?.name || "Unknown Artist";
-      songSeedMap.set(s.id, { title: s.title || "", artist: artistName });
+      songSeedMap.set(s.id, { title: s.display_title || s.title || "", artist: artistName });
     });
 
     if (songs.length < songStep) break;
@@ -57,20 +55,18 @@ async function rebuildAllCertifications() {
   console.log("Loaded song dictionary.");
 
   console.log("Fetching all chart entries (this might take a few moments)...");
-  const allEntries: any[] = [];
   let entryFrom = 0;
   const entryStep = 1000;
+  const allEntries: any[] = [];
 
   while (true) {
     const { data: entries, error: entriesErr } = await supabase
       .from("chart_entries")
       .select("song_id, week_id, total_points, streams, sales, airplay")
+      .order("id")
       .range(entryFrom, entryFrom + entryStep - 1);
 
-    if (entriesErr) {
-      console.error("Failed to fetch chart entries:", entriesErr);
-      return;
-    }
+    if (entriesErr) return;
     if (!entries || entries.length === 0) break;
     allEntries.push(...entries);
     if (entries.length < entryStep) break;
@@ -100,15 +96,19 @@ async function rebuildAllCertifications() {
 
     weekEntries.forEach((entry) => {
       const sId = entry.song_id;
-
       const seedData = songSeedMap.get(sId) || { title: "Unknown", artist: "Unknown" };
-      const units = calculateUnits(entry.streams, entry.sales, entry.airplay, seedData.title, seedData.artist);
+      const { totalUnits } = calculateDetailedUnits(
+        entry.streams || 0,
+        entry.sales || 0,
+        entry.airplay || 0,
+        `${seedData.title}|${seedData.artist}`
+      );
 
-      songTotals.set(sId, (songTotals.get(sId) || 0) + units);
+      songTotals.set(sId, (songTotals.get(sId) || 0) + totalUnits);
 
       const aId = songAlbumMap.get(sId);
       if (aId) {
-        albumTotals.set(aId, (albumTotals.get(aId) || 0) + units);
+        albumTotals.set(aId, (albumTotals.get(aId) || 0) + totalUnits);
       }
     });
 

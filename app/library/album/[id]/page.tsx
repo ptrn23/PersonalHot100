@@ -315,7 +315,7 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
 
   const highestCert = sortedCerts[0];
   const certifiedUnits = highestCert
-    ? (getWeight(highestCert.award_name, highestCert.multiplier) / 1000000).toFixed(0)
+    ? formatNumber(getWeight(highestCert.award_name, highestCert.multiplier))
     : "0";
 
   const formatCertTitle = (award: string, multi: number) => {
@@ -668,7 +668,7 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
                     <div className="mb-1 text-xs font-bold tracking-widest text-gray-400 uppercase">
                       Certified Units
                     </div>
-                    <div className="text-lg font-black text-black">{certifiedUnits} Million</div>
+                    <div className="text-lg font-black text-black">{certifiedUnits}</div>
                   </div>
                   <div>
                     <div className="mb-1 text-xs font-bold tracking-widest text-gray-400 uppercase">
