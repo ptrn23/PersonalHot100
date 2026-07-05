@@ -10,21 +10,30 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
+import { formatShortDate } from "@/utils/formatters";
 
 type ChartTrajectoryProps = {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   songEntries: any[];
   allGlobalWeeks: string[];
 };
-
-import { formatShortDate } from "@/utils/formatters";
 
 export default function ChartTrajectory({ songEntries, allGlobalWeeks }: ChartTrajectoryProps) {
   const [mode, setMode] = useState<"compact" | "run" | "full">("run");
 
   const chartData = useMemo(() => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const getDate = (e: any) => e.chart_weeks?.start_date || e.start_date;
+    const sortedGlobalWeeks = [...allGlobalWeeks].sort(
+      (a, b) => new Date(a).getTime() - new Date(b).getTime()
+    );
+    const sortedEntries = [...songEntries].sort(
+      (a, b) => new Date(getDate(a)).getTime() - new Date(getDate(b)).getTime()
+    );
+
     const entryMap = new Map();
-    songEntries.forEach((entry) => {
-      entryMap.set(entry.chart_weeks.start_date, {
+    sortedEntries.forEach((entry) => {
+      entryMap.set(getDate(entry), {
         rank: entry.rank,
         points: entry.total_points,
       });
@@ -34,20 +43,22 @@ export default function ChartTrajectory({ songEntries, allGlobalWeeks }: ChartTr
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const compactData: any[] = [];
 
-      for (let i = 0; i < songEntries.length; i++) {
-        const current = songEntries[i];
+      for (let i = 0; i < sortedEntries.length; i++) {
+        const current = sortedEntries[i];
+        const currDate = getDate(current);
 
         compactData.push({
-          date: formatShortDate(current.chart_weeks.start_date),
-          fullDate: current.chart_weeks.start_date,
+          date: formatShortDate(currDate),
+          fullDate: currDate,
           rank: current.rank,
           points: current.total_points,
         });
 
-        if (i < songEntries.length - 1) {
-          const next = songEntries[i + 1];
-          const currTime = new Date(current.chart_weeks.start_date).getTime();
-          const nextTime = new Date(next.chart_weeks.start_date).getTime();
+        if (i < sortedEntries.length - 1) {
+          const next = sortedEntries[i + 1];
+          const nextDate = getDate(next);
+          const currTime = new Date(currDate).getTime();
+          const nextTime = new Date(nextDate).getTime();
           const daysDiff = Math.round((nextTime - currTime) / (1000 * 3600 * 24));
 
           if (daysDiff > 8) {
@@ -63,16 +74,17 @@ export default function ChartTrajectory({ songEntries, allGlobalWeeks }: ChartTr
       return compactData;
     }
 
-    let weeksToMap = allGlobalWeeks;
+    let weeksToMap = sortedGlobalWeeks;
 
-    if (mode === "run" && songEntries.length > 0) {
-      const debutDate = songEntries[0].chart_weeks.start_date;
-      const lastDate = songEntries[songEntries.length - 1].chart_weeks.start_date;
-      const startIndex = allGlobalWeeks.indexOf(debutDate);
-      const endIndex = allGlobalWeeks.indexOf(lastDate);
-
-      if (startIndex !== -1 && endIndex !== -1) {
-        weeksToMap = allGlobalWeeks.slice(startIndex, endIndex + 1);
+    if (mode === "run" && sortedEntries.length > 0) {
+      const debutDate = getDate(sortedEntries[0]);
+      const lastDate = getDate(sortedEntries[sortedEntries.length - 1]);
+      
+      const startIndex = sortedGlobalWeeks.indexOf(debutDate);
+      const endIndex = sortedGlobalWeeks.indexOf(lastDate);
+      
+      if (startIndex !== -1 && endIndex !== -1 && startIndex <= endIndex) {
+        weeksToMap = sortedGlobalWeeks.slice(startIndex, endIndex + 1);
       }
     }
 
@@ -151,7 +163,6 @@ export default function ChartTrajectory({ songEntries, allGlobalWeeks }: ChartTr
         ))}
       </div>
 
-      {/* The Graph */}
       <div className="h-80 w-full">
         <ResponsiveContainer width="100%" height="100%">
           <LineChart data={chartData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
