@@ -19,24 +19,16 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const artistId = (numberOne.songs.artists as any)?.id;
 
-  if (numberOne.peak_position === 1 && numberOne.peak_streak === 1) {
-    const { data: artistSongs } = await supabase
-      .from("songs")
-      .select("id")
-      .eq("artist_id", artistId);
+  let subtextFormat = `Personal Hot 100: #1(${numberOne.previous_position ? (numberOne.previous_position === 1 ? "=" : `+${numberOne.previous_position - 1}`) : "new"}) ${songTitle}, ${artistName} [${numberOne.weeks_on_chart} weeks].`;
 
+  if (numberOne.peak_position === 1 && numberOne.peak_streak === 1) {
+    const { data: artistSongs } = await supabase.from("songs").select("id").eq("artist_id", artistId);
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const songIds = artistSongs?.map((s) => s.id) || [];
 
     let uniqueNumberOnesCount = 1;
-
     if (songIds.length > 0) {
-      const { data: pastHits } = await supabase
-        .from("chart_entries")
-        .select("song_id")
-        .eq("peak_position", 1)
-        .in("song_id", songIds);
-
+      const { data: pastHits } = await supabase.from("chart_entries").select("song_id").eq("peak_position", 1).in("song_id", songIds);
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       uniqueNumberOnesCount = new Set(pastHits?.map((e) => e.song_id)).size;
     }
@@ -47,10 +39,7 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
       entity_type: "song",
       entity_id: numberOne.song_id,
       headline: `“${songTitle}” by ${artistName} reaches #1 on the ${CHART_NAME} Hot 100 for the first time.`,
-      subtext:
-        uniqueNumberOnesCount > 1
-          ? `This marks ${artistName}'s ${formatOrdinal(uniqueNumberOnesCount)} career #1 hit on the chart.`
-          : `This is ${artistName}'s first ever #1 hit!`,
+      subtext: `${subtextFormat} *new peak*`,
       priority: 10,
     });
   } else if (numberOne.previous_position === 1) {
@@ -60,6 +49,7 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
       entity_type: "song",
       entity_id: numberOne.song_id,
       headline: `“${songTitle}” by ${artistName} spends its ${formatOrdinal(numberOne.peak_streak)} week at #1 on the ${CHART_NAME} Hot 100.`,
+      subtext: `${subtextFormat} *peak: #1*`,
       priority: 9,
     });
   } else if (numberOne.peak_position === 1 && numberOne.previous_position !== 1) {
@@ -69,10 +59,128 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
       entity_type: "song",
       entity_id: numberOne.song_id,
       headline: `“${songTitle}” by ${artistName} returns to #1 on the ${CHART_NAME} Hot 100!`,
-      subtext: `The track reclaims the top spot for its ${formatOrdinal(numberOne.peak_streak)} nonconsecutive week.`,
+      subtext: `${subtextFormat} *peak: #1*`,
       priority: 9,
     });
   }
+
+  return news;
+};
+
+const detectCertifications = async (weekId: string): Promise<NewsItem[]> => {
+  const news: NewsItem[] = [];
+
+  const { data: certs, error } = await supabase
+    .from("certifications")
+    .select(`
+      *,
+      songs (id, title, display_title, artists(name)),
+      albums (id, title, artists(name))
+    `)
+    .eq("week_id", weekId);
+
+  if (error || !certs) return news;
+
+  certs.forEach((cert) => {
+    let title = "";
+    let artist = "";
+    const isSong = cert.entity_type === "song";
+
+    if (isSong && cert.songs) {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      title = (cert.songs as any).display_title || (cert.songs as any).title;
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      artist = (cert.songs as any).artists?.name;
+    } else if (!isSong && cert.albums) {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      title = (cert.albums as any).title;
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      artist = (cert.albums as any).artists?.name;
+    }
+
+    if (!title || !artist) return;
+
+    const awardString = cert.multiplier > 1 ? `${cert.multiplier}x ${cert.award_name}` : cert.award_name;
+
+    news.push({
+      week_id: weekId,
+      event_type: "CERTIFICATION",
+      entity_type: cert.entity_type,
+      entity_id: isSong ? cert.song_id : cert.album_id,
+      headline: `${artist}'s "${title}" is now certified ${awardString} in Personal Charts.`,
+      subtext: `Awarded for crossing milestone units.`,
+      priority: cert.award_name === "Diamond" ? 9 : cert.award_name === "Platinum" ? 7 : 5,
+    });
+  });
+
+  return news;
+};
+
+const detectMovements = (currentChart: any[], weekId: string): NewsItem[] => {
+  const news: NewsItem[] = [];
+
+  currentChart.forEach((entry) => {
+    if (entry.rank === 1) return;
+
+    const title = entry.songs.display_title || entry.songs.title || "Unknown Title";
+    const artist = entry.songs.artists?.name || "Unknown Artist";
+    const woc = entry.weeks_on_chart;
+    const rank = entry.rank;
+    const prev = entry.previous_position;
+    const isNewPeak = entry.is_new_peak;
+    const peak = entry.peak_position;
+
+    let headline = "";
+    let subtext = "";
+    let eventType = "";
+    let priority = 0;
+
+    const jump = prev ? prev - rank : null;
+    const moveStr = jump !== null ? (jump > 0 ? `+${jump}` : jump < 0 ? `${jump}` : "=") : "re";
+
+    // debuts
+    if (woc === 1) {
+      eventType = "DEBUT";
+      headline = `“${title}” by ${artist} debuts at #${rank} in Personal Hot 100.`;
+      subtext = `Personal Hot 100: #${rank}(new) ${title}, ${artist} [1 week]. *new peak*`;
+      priority = rank <= 10 ? 8 : rank <= 40 ? 5 : 3;
+    } 
+    // re-entries
+    else if (!prev && woc > 1) {
+      eventType = "RE_ENTRY";
+      headline = `“${title}” by ${artist} reenters Personal Hot 100 at #${rank}.`;
+      subtext = `Personal Hot 100: #${rank}(re) ${title}, ${artist} [${woc} weeks]. *peak: #${peak}*`;
+      priority = rank <= 40 ? 6 : 3;
+    } 
+    // new Peaks
+    else if (isNewPeak) {
+      eventType = "NEW_PEAK";
+      headline = jump && jump > 0
+        ? `“${title}” by ${artist} reaches a new peak in Personal Hot 100, rising ${jump} spots to #${rank}.`
+        : `“${title}” by ${artist} reaches a new peak in Personal Hot 100 at #${rank}.`;
+      subtext = `Personal Hot 100: #${rank}(${moveStr}) ${title}, ${artist} [${woc} weeks]. *new peak*`;
+      priority = rank <= 20 ? 7 : 4;
+    } 
+    // milestone weeks
+    else if (woc % 10 === 0) {
+      eventType = "MILESTONE";
+      headline = `“${title}” by ${artist} spends its ${formatOrdinal(woc)} week in Personal Hot 100 this week.`;
+      subtext = `Personal Hot 100: #${rank}(${moveStr}) ${title}, ${artist} [${woc} weeks]. *peak: #${peak}*`;
+      priority = woc >= 50 ? 9 : 6;
+    }
+
+    if (headline) {
+      news.push({
+        week_id: weekId,
+        event_type: eventType,
+        entity_type: "song",
+        entity_id: entry.song_id,
+        headline,
+        subtext,
+        priority,
+      });
+    }
+  });
 
   return news;
 };
@@ -128,13 +236,20 @@ export const generateNews = async (isFinalizing?: boolean, overrideTargetDate?: 
 
   const newsItems: NewsItem[] = [];
 
-  console.log("Analyzing chart movements...");
+  console.log("Analyzing chart movements & certifications...");
 
   const numberOneNews = await detectNumberOnes(currentChart, targetWeek.id);
   newsItems.push(...numberOneNews);
+  const certNews = await detectCertifications(targetWeek.id);
+  newsItems.push(...certNews);
+  const movementNews = detectMovements(currentChart, targetWeek.id);
+  newsItems.push(...movementNews);
 
   if (newsItems.length > 0) {
     console.log(`Writing ${newsItems.length} headline(s) to the news feed...`);
+    
+    await supabase.from("news_feed").delete().eq("week_id", targetWeek.id);
+
     const { error: insertError } = await supabase.from("news_feed").insert(newsItems);
 
     if (insertError) {
