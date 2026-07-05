@@ -4,14 +4,17 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Search, Loader2, X } from "lucide-react";
-import { supabase } from "@/utils/supabase";
 import { CHART_NAME } from "@/config/constants";
+
+import { performGlobalSearch } from "@/lib/db/search";
 
 export default function Header() {
   const pathname = usePathname();
   const [query, setQuery] = useState("");
   const [isSearching, setIsSearching] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
+  
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [results, setResults] = useState<{
     artists: any[];
     albums: any[];
@@ -46,26 +49,14 @@ export default function Header() {
       setIsSearching(true);
       setShowDropdown(true);
 
-      const [resArtists, resAlbums, resSongs] = await Promise.all([
-        supabase.from("artists").select("id, name, image_url").ilike("name", `%${query}%`).limit(3),
-        supabase
-          .from("albums")
-          .select("id, title, cover_url")
-          .ilike("title", `%${query}%`)
-          .limit(3),
-        supabase
-          .from("songs")
-          .select("id, title, artists(name)")
-          .ilike("title", `%${query}%`)
-          .limit(5),
-      ]);
-
-      setResults({
-        artists: resArtists.data || [],
-        albums: resAlbums.data || [],
-        songs: resSongs.data || [],
-      });
-      setIsSearching(false);
+      try {
+        const searchData = await performGlobalSearch(query);
+        setResults(searchData);
+      } catch (error) {
+        console.error("Search failed:", error);
+      } finally {
+        setIsSearching(false);
+      }
     }, 300);
 
     return () => clearTimeout(delayDebounce);
@@ -237,7 +228,7 @@ export default function Header() {
                               className="flex flex-col px-3 py-2 transition-colors hover:bg-gray-50"
                             >
                               <span className="truncate text-sm font-bold text-gray-900">
-                                {song.title}
+                                {song.display_title || song.title}
                               </span>
                               <span className="truncate text-xs font-medium text-gray-500">
                                 {(song.artists as any)?.name}
