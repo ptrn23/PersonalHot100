@@ -13,6 +13,21 @@ export async function getAllChartWeeks() {
   return data || [];
 }
 
+export async function getLatestChartWeek() {
+  const { data, error } = await supabase
+    .from("chart_weeks")
+    .select("*")
+    .order("start_date", { ascending: false })
+    .limit(1)
+    .single();
+
+  if (error) {
+    console.error("Error fetching latest chart week:", error);
+    return null;
+  }
+  return data;
+}
+
 export async function getChartEntriesByWeekId(weekId: string, limit: number = 100) {
   const { data, error } = await supabase
     .from("chart_entries")

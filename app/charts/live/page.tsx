@@ -1,19 +1,14 @@
-import { supabase } from "@/utils/supabase";
 import ChartView from "../../components/ChartView";
 import { DisplayEntry } from "@/types";
 import { formatDateRange } from "@/utils/formatters";
+import { getLatestChartWeek, getChartEntriesByWeekId } from "@/lib/db/charts";
 
 export const dynamic = "force-dynamic";
 
 export default async function LiveChartPage() {
-  const { data: latestWeek, error: weekErr } = await supabase
-    .from("chart_weeks")
-    .select("*")
-    .order("start_date", { ascending: false })
-    .limit(1)
-    .single();
+  const latestWeek = await getLatestChartWeek();
 
-  if (weekErr || !latestWeek) {
+  if (!latestWeek) {
     return (
       <div className="flex min-h-screen flex-col items-center justify-center bg-white p-10">
         <h1 className="mb-4 text-2xl font-bold">No Live Data</h1>
@@ -21,25 +16,9 @@ export default async function LiveChartPage() {
     );
   }
 
-  const { data: rawEntries, error } = await supabase
-    .from("chart_entries")
-    .select(
-      `
-      *,
-      songs (
-        id,
-        title,
-        display_title,
-        artists ( id, name, display_name ),
-        albums ( id, title, display_title, cover_url )
-      )
-    `,
-    )
-    .eq("week_id", latestWeek.id)
-    .lte("rank", 100)
-    .order("rank", { ascending: true });
+  const rawEntries = await getChartEntriesByWeekId(latestWeek.id, 100);
 
-  if (error || !rawEntries) {
+  if (!rawEntries || rawEntries.length === 0) {
     return (
       <div className="p-10 text-center font-bold text-red-500">Failed to load chart data.</div>
     );
@@ -84,7 +63,7 @@ export default async function LiveChartPage() {
   });
 
   const formattedDate = formatDateRange(latestWeek.start_date, latestWeek.end_date);
-
+  
   return (
     <main className="min-h-screen bg-white pb-24 text-gray-900">
       <div className="mx-auto flex max-w-[1450px] items-end justify-between px-8 pt-8">
