@@ -1,10 +1,10 @@
-import { supabase } from "@/utils/supabase";
 import ChartView from "../../components/ChartView";
-import ChartRow  from "../../components/ChartRow";
+import ChartRow from "../../components/ChartRow";
+import WeekSelector from "../../components/WeekSelector";
 import { DisplayEntry } from "@/types";
 import { calculateMaxStats } from "@/utils/metrics";
-import WeekSelector from "../../components/WeekSelector";
 import { formatDateRange } from "@/utils/formatters";
+import { getAllChartWeeks, getChartEntriesByWeekId } from "@/lib/db/charts";
 
 export const dynamic = "force-dynamic";
 
@@ -15,15 +15,9 @@ export default async function WeeklyChartPage({
 }) {
   const resolvedParams = await searchParams;
   const selectedWeekStr = resolvedParams.week;
+  const allChartWeeks = await getAllChartWeeks();
 
-  const { data: latestWeek, error: weekErr } = await supabase
-    .from("chart_weeks")
-    .select("*")
-    .order("start_date", { ascending: false })
-    .limit(1)
-    .single();
-
-  if (weekErr || !latestWeek) {
+  if (allChartWeeks.length === 0) {
     return (
       <div className="flex min-h-screen flex-col items-center justify-center bg-white p-10">
         <h1 className="mb-4 text-2xl font-bold">No Weekly Data</h1>
@@ -32,13 +26,10 @@ export default async function WeeklyChartPage({
     );
   }
 
-  const { data: allWeeks } = await supabase
-    .from("chart_weeks")
-    .select("*")
-    .neq("id", latestWeek.id)
-    .order("start_date", { ascending: false });
-
-  if (!allWeeks || allWeeks.length === 0) {
+  const latestWeek = allChartWeeks[0];
+  const historicalWeeks = allChartWeeks.filter((w) => w.id !== latestWeek.id);
+  
+  if (historicalWeeks.length === 0) {
     return (
       <div className="flex min-h-screen flex-col items-center justify-center bg-white p-10">
         <h1 className="mb-4 text-2xl font-bold">No Weekly Data</h1>
@@ -47,68 +38,27 @@ export default async function WeeklyChartPage({
     );
   }
 
-  let targetWeek = allWeeks.find((w) => w.start_date === selectedWeekStr);
-  if (!targetWeek) {
-    targetWeek = allWeeks[0];
-  }
+  const targetWeek = historicalWeeks.find((w) => w.start_date === selectedWeekStr) || historicalWeeks[0];
+  const targetWeekIndex = allChartWeeks.findIndex((w) => w.id === targetWeek.id);
+  
+  const prevWeek = targetWeekIndex !== -1 && targetWeekIndex + 1 < allChartWeeks.length 
+    ? allChartWeeks[targetWeekIndex + 1] 
+    : null;
 
-  const { data: rawEntries, error } = await supabase
-    .from("chart_entries")
-    .select(
-      `
-      *,
-      songs (
-        id,
-        title,
-        display_title,
-        artists ( id, name, display_name ),
-        albums ( id, title, display_title, cover_url )
-      )
-    `,
-    )
-    .eq("week_id", targetWeek.id)
-    .lte("rank", 100)
-    .order("rank", { ascending: true });
+  const rawEntries = await getChartEntriesByWeekId(targetWeek.id, 100);
 
-  if (error || !rawEntries) {
+  if (!rawEntries || rawEntries.length === 0) {
     return (
       <div className="p-10 text-center font-bold text-red-500">Failed to load chart data.</div>
     );
   }
-
+  
   const currentSongIds = new Set(rawEntries.map((e) => e.song_id));
-
-  const { data: prevWeek } = await supabase
-    .from("chart_weeks")
-    .select("id")
-    .lt("start_date", targetWeek.start_date)
-    .order("start_date", { ascending: false })
-    .limit(1)
-    .maybeSingle();
-
   let rawDropouts: any[] = [];
+  
   if (prevWeek) {
-    const { data: prevRaw } = await supabase
-      .from("chart_entries")
-      .select(
-        `
-        *,
-        songs (
-          id,
-          title,
-          display_title,
-          artists ( id, name, display_name ),
-          albums ( id, title, display_title, cover_url )
-        )
-      `,
-      )
-      .eq("week_id", prevWeek.id)
-      .lte("rank", 100)
-      .order("rank", { ascending: true });
-
-    if (prevRaw) {
-      rawDropouts = prevRaw.filter((row) => !currentSongIds.has(row.song_id));
-    }
+    const prevRaw = await getChartEntriesByWeekId(prevWeek.id, 100);
+    rawDropouts = prevRaw.filter((row) => !currentSongIds.has(row.song_id));
   }
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -152,7 +102,7 @@ export default async function WeeklyChartPage({
   const maxStats = mappedEntries ? calculateMaxStats(mappedEntries) : { sales: 0, streams: 0, airplay: 0, units: 0 };
 
   const formattedDate = formatDateRange(targetWeek.start_date, targetWeek.end_date);
-  const availableWeeks = allWeeks.map((w) => ({
+  const availableWeeks = historicalWeeks.map((w) => ({
     start_date: w.start_date,
     end_date: w.end_date,
   }));
