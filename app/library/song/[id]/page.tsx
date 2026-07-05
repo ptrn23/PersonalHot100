@@ -1,22 +1,17 @@
-import { supabase } from "@/utils/supabase";
 import Link from "next/link";
+import { Metadata } from "next";
 import ChartRow from "../../../components/ChartRow";
+import ChartTrajectory from "../../../components/ChartTrajectory";
 import { DisplayEntry, MaxStats } from "@/types";
 import { calculateDetailedUnits, calculateMaxStats } from "@/utils/metrics";
 import { formatNumber, formatFullDate, formatShortDate, formatMilestone } from "@/utils/formatters";
-import ChartTrajectory from "../../../components/ChartTrajectory";
-import { Metadata } from "next";
 
-import { 
-  BadgeCheck, 
-  MoreHorizontal, 
-  MessageCircle, 
-  Repeat2, 
-  Heart, 
-  Bookmark, 
-  Upload 
-} from "lucide-react";
+import { getSongMetadata, getSongWithChartHistory } from "@/lib/db/songs";
+import { getNewsByEntity } from "@/lib/db/news";
+import { getCertificationsByEntity } from "@/lib/db/certifications";
+import { getLatestChartWeek, getAllChartWeeks } from "@/lib/db/charts";
 
+import { BadgeCheck, MoreHorizontal, MessageCircle, Repeat2, Heart, Bookmark, Upload } from "lucide-react";
 import { CASUAL_RED } from "@/config/theme";
 import { CHART_NAME, CHART_HANDLE } from "@/config/constants";
 
@@ -28,19 +23,7 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await params;
-
-  const { data: song } = await supabase
-    .from("songs")
-    .select(
-      `
-      title,
-      display_title,
-      artists (name),
-      albums (cover_url)
-    `,
-    )
-    .eq("id", resolvedParams.id)
-    .single();
+  const song = await getSongMetadata(resolvedParams.id);
 
   if (!song) {
     return { title: `Song Not Found | ${CHART_NAME} Hot 100` };
@@ -54,113 +37,41 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: pageTitle,
     description: description,
-    openGraph: {
-      title: pageTitle,
-      description: description,
-      type: "music.song",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: pageTitle,
-      description: description,
-    },
+    openGraph: { title: pageTitle, description: description, type: "music.song" },
+    twitter: { card: "summary_large_image", title: pageTitle, description: description },
   };
 }
 
 type CertificationData = {
   award_name: "Gold" | "Platinum" | "Diamond";
   multiplier: number;
-  chart_weeks: {
-    start_date: string;
-  };
+  chart_weeks: { start_date: string };
 };
 
 export default async function SongPage({ params }: { params: Promise<{ id: string }> }) {
   const resolvedParams = await params;
 
-  const { data: liveWeek } = await supabase
-    .from("chart_weeks")
-    .select("id")
-    .order("start_date", { ascending: false })
-    .limit(1)
-    .single();
+  const [liveWeek, allWeeksData, song, rawSongNews, certs] = await Promise.all([
+    getLatestChartWeek(),
+    getAllChartWeeks(),
+    getSongWithChartHistory(resolvedParams.id),
+    getNewsByEntity("song", resolvedParams.id),
+    getCertificationsByEntity("song_id", resolvedParams.id),
+  ]);
 
-  const { data: song, error } = await supabase
-    .from("songs")
-    .select(
-      `
-      *,
-      artists ( id, name ),
-      albums ( id, title, cover_url ),
-      chart_entries (
-        id,
-        week_id,
-        rank,
-        previous_position,
-        is_new_peak,
-        is_repeak,
-        total_points,
-        current_week_points,
-        previous_week_raw_points,
-        two_weeks_ago_raw_points,
-        streams,
-        sales,
-        airplay,
-        peak_position,
-        peak_streak,
-        weeks_on_chart,
-        chart_weeks ( start_date )
-      )
-    `,
-    )
-    .eq("id", resolvedParams.id)
-    .single();
-
-  const { data: allWeeksData } = await supabase
-    .from("chart_weeks")
-    .select("id, start_date")
-    .neq("id", liveWeek?.id)
-    .order("start_date", { ascending: true });
-
-  const { data: rawSongNews, error: newsError } = await supabase
-    .from("news_feed")
-    .select(
-      `
-      headline,
-      subtext,
-      priority,
-      event_type,
-      chart_weeks ( start_date )
-    `,
-    )
-    .eq("entity_type", "song")
-    .eq("entity_id", resolvedParams.id);
-
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const songNews =
-    (rawSongNews as any[])?.sort((a, b) => {
-      const dateA = new Date(a.chart_weeks?.start_date || 0).getTime();
-      const dateB = new Date(b.chart_weeks?.start_date || 0).getTime();
-      return dateB - dateA;
-    }) || [];
-
-  const { data: certs } = await supabase
-    .from("certifications")
-    .select(
-      `
-      award_name,
-      multiplier,
-      chart_weeks ( start_date )
-    `,
-    )
-    .eq("song_id", resolvedParams.id);
-
-  const allGlobalWeeks = allWeeksData?.map((w) => w.start_date) || [];
-
-  if (error || !song) {
+  if (!song) {
     return <div className="p-10 font-bold text-red-500">Song not found.</div>;
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const songNews = (rawSongNews as any[]).sort((a, b) => {
+    const dateA = new Date(a.chart_weeks?.start_date || 0).getTime();
+    const dateB = new Date(b.chart_weeks?.start_date || 0).getTime();
+    return dateB - dateA;
+  });
+
+  const allGlobalWeeks = allWeeksData.map((w) => w.start_date);
+  
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const artistName = (song.artists as any)?.name || "Unknown Artist";
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -179,19 +90,17 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
   let peakPos = 101;
   let woc = 0;
   let highestStreak = 0;
-
+  
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const rawEntries = (song.chart_entries as any[]) || [];
   const entries = rawEntries.filter((entry) => entry.week_id !== liveWeek?.id);
 
   const sortedEntries = [...entries].sort(
-    (a, b) =>
-      new Date(a.chart_weeks?.start_date).getTime() - new Date(b.chart_weeks?.start_date).getTime(),
+    (a, b) => new Date(a.chart_weeks?.start_date).getTime() - new Date(b.chart_weeks?.start_date).getTime(),
   );
 
   const descendingEntries = [...entries].sort(
-    (a, b) =>
-      new Date(b.chart_weeks?.start_date).getTime() - new Date(a.chart_weeks?.start_date).getTime(),
+    (a, b) => new Date(b.chart_weeks?.start_date).getTime() - new Date(a.chart_weeks?.start_date).getTime(),
   );
 
   const mathSeedString = `${song.display_title || song.title}|${artistName}`;
