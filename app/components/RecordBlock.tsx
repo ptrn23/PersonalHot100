@@ -59,17 +59,17 @@ export default function RecordBlock({ title, metricLabel, entries }: RecordBlock
               </div>
 
               <div className="hidden flex-col items-end justify-center gap-1 border-r border-gray-100 pr-8 text-xs font-bold tracking-widest text-gray-500 uppercase md:flex">
-                <div className="flex w-28 justify-between">
+                <div className="flex w-35 justify-between">
                   <span>{metricLabel}</span>
                   <span className="font-black text-black">{topEntry.metricValue}</span>
                 </div>
-                <div className="flex w-28 justify-between">
+                <div className="flex w-35 justify-between">
                   <span>Peak</span>
                   <span className="font-black text-black">
                     {topEntry.peak === 101 ? "--" : topEntry.peak}
                   </span>
                 </div>
-                <div className="flex w-28 justify-between">
+                <div className="flex w-35 justify-between">
                   <span>Week</span>
                   <span className="font-black text-black">{topEntry.weekDisplay}</span>
                 </div>
@@ -121,17 +121,17 @@ export default function RecordBlock({ title, metricLabel, entries }: RecordBlock
               </div>
 
               <div className="hidden flex-col items-end justify-center gap-0.5 border-r border-gray-100 pr-6 text-[10px] font-bold tracking-widest text-gray-400 uppercase md:flex">
-                <div className="flex w-24 justify-between">
+                <div className="flex w-35 justify-between">
                   <span>{metricLabel}</span>
                   <span className="font-black text-gray-800">{entry.metricValue}</span>
                 </div>
-                <div className="flex w-24 justify-between">
+                <div className="flex w-35 justify-between">
                   <span>Peak</span>
                   <span className="font-black text-gray-800">
                     {entry.peak === 101 ? "--" : entry.peak}
                   </span>
                 </div>
-                <div className="flex w-24 justify-between">
+                <div className="flex w-35 justify-between">
                   <span>Week</span>
                   <span className="font-black text-gray-800">{entry.weekDisplay}</span>
                 </div>
