@@ -1,4 +1,3 @@
-import { supabase } from "@/utils/supabase";
 import Link from "next/link";
 import { Metadata } from "next";
 import ChartRow from "../../../components/ChartRow";
@@ -9,18 +8,16 @@ import ChartTrajectory from "../../../components/ChartTrajectory";
 import { CHART_NAME } from "@/config/constants";
 import { CASUAL_RED } from "@/config/theme";
 
+import { getArtistMetadata, getArtistWithDiscography, getArtistChartHistory } from "@/lib/db/artists";
+import { getLatestChartWeek, getAllChartWeeks } from "@/lib/db/charts";
+
 type Props = {
   params: Promise<{ id: string }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await params;
-
-  const { data: artist } = await supabase
-    .from("artists")
-    .select("name, image_url")
-    .eq("id", resolvedParams.id)
-    .single();
+  const artist = await getArtistMetadata(resolvedParams.id);
 
   if (!artist) {
     return { title: `Artist Not Found | ${CHART_NAME} Hot 100` };
@@ -32,16 +29,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: pageTitle,
     description: description,
-    openGraph: {
-      title: pageTitle,
-      description: description,
-      type: "profile",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: pageTitle,
-      description: description,
-    },
+    openGraph: { title: pageTitle, description: description, type: "profile" },
+    twitter: { card: "summary_large_image", title: pageTitle, description: description },
   };
 }
 
@@ -58,44 +47,18 @@ export default async function ArtistPage({
   const showAllTracks = resolvedSearchParams.view === "all";
   const showAllAlbums = resolvedSearchParams.albums === "all";
 
-  const { data: liveWeek } = await supabase
-    .from("chart_weeks")
-    .select("id")
-    .order("start_date", { ascending: false })
-    .limit(1)
-    .single();
+  const [liveWeek, allWeeksData, artist, rawArtistHistory] = await Promise.all([
+    getLatestChartWeek(),
+    getAllChartWeeks(),
+    getArtistWithDiscography(resolvedParams.id),
+    getArtistChartHistory(resolvedParams.id)
+  ]);
 
-  const { data: artist, error } = await supabase
-    .from("artists")
-    .select(
-      `
-      *,
-      albums ( id, title, cover_url, release_date ),
-      songs (
-        id,
-        title,
-        display_title,
-        chart_entries (
-          week_id,
-          rank,
-          total_points,
-          streams,
-          sales,
-          airplay,
-          peak_position,
-          peak_streak,
-          weeks_on_chart,
-          chart_weeks ( start_date )
-        )
-      )
-    `,
-    )
-    .eq("id", resolvedParams.id)
-    .single();
-
-  if (error || !artist) {
+  if (!artist) {
     return <div className="p-10 font-bold text-red-500">Artist not found.</div>;
   }
+
+  const allGlobalWeeks = allWeeksData?.map((w) => w.start_date) || [];
 
   let careerTotalPoints = 0;
   let careerTotalUnits = 0;
@@ -111,11 +74,13 @@ export default async function ArtistPage({
     (artist.songs as any[])
       ?.map((song) => {
         const validEntries = (song.chart_entries || []).filter(
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
           (entry: any) => entry.week_id !== liveWeek?.id,
         );
         return { ...song, chart_entries: validEntries };
       })
       .filter((song) => song.chart_entries && song.chart_entries.length > 0) || [];
+  
   const chartedSongsCount = chartedSongs.length;
 
   chartedSongs.forEach((song) => {
@@ -151,9 +116,9 @@ export default async function ArtistPage({
 
     const mathSeedString = `${song.display_title || song.title}|${artist.name}`;
     const { totalUnits } = calculateDetailedUnits(
-      song.streams,
-      song.sales,
-      song.airplay,
+      songTotalStreams,
+      songTotalSales,
+      songTotalAirplay,
       mathSeedString
     );
 
@@ -181,18 +146,6 @@ export default async function ArtistPage({
     if (a.peak !== b.peak) return a.peak - b.peak;
     return b.streak - a.streak;
   });
-
-  const { data: allWeeksData } = await supabase
-    .from("chart_weeks")
-    .select("id, start_date")
-    .neq("id", liveWeek?.id)
-    .order("start_date", { ascending: true });
-  const allGlobalWeeks = allWeeksData?.map((w) => w.start_date) || [];
-
-  const { data: rawArtistHistory } = await supabase
-    .from("weekly_artist_stats")
-    .select("*")
-    .eq("id", resolvedParams.id);
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const validArtistHistory = (rawArtistHistory || []).filter(
