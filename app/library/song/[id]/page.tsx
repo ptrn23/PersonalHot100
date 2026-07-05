@@ -452,7 +452,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
 
                       <div className="mt-1 text-[15px] leading-normal text-gray-900">
                         <p>{news.headline}</p>
-                        {news.subtext && <p className="mt-2 text-gray-600">{news.subtext}</p>}
+                        {news.subtext && <p className="mt-2">{news.subtext}</p>}
                       </div>
 
                       <div className="mt-3 flex w-full items-center justify-between text-gray-500">
