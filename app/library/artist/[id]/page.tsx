@@ -61,7 +61,10 @@ export default async function ArtistPage({
   const allGlobalWeeks = allWeeksData?.map((w) => w.start_date) || [];
 
   let careerTotalPoints = 0;
-  let careerTotalUnits = 0;
+  let careerRawStreams = 0;
+  let careerRawSales = 0;
+  let careerRawAirplay = 0;
+  
   let no1Hits = 0;
   let top10Hits = 0;
 
@@ -114,7 +117,7 @@ export default async function ArtistPage({
       ...sortedEntries.filter((e) => e.rank === peakPos).map((e) => e.peak_streak || 0),
     );
 
-    const mathSeedString = `${song.display_title || song.title}|${artist.name}`;
+   const mathSeedString = `${song.display_title || song.title}|${artist.name}`;
     const { totalUnits } = calculateDetailedUnits(
       songTotalStreams,
       songTotalSales,
@@ -122,10 +125,10 @@ export default async function ArtistPage({
       mathSeedString
     );
 
-    const songUnits = totalUnits;
-
     careerTotalPoints += songTotalPoints;
-    careerTotalUnits += songUnits;
+    careerRawStreams += songTotalStreams;
+    careerRawSales += songTotalSales;
+    careerRawAirplay += songTotalAirplay;
 
     if (peakPos === 1) no1Hits++;
     if (peakPos <= 10) top10Hits++;
@@ -140,6 +143,15 @@ export default async function ArtistPage({
       woc: woc,
     });
   });
+
+  const artistMathSeed = `${artist.name}|Artist`;
+  
+  const { totalUnits: careerTotalUnits } = calculateDetailedUnits(
+    careerRawStreams,
+    careerRawSales,
+    careerRawAirplay,
+    artistMathSeed
+  );
 
   artistTracks.sort((a, b) => {
     if (b.woc !== a.woc) return b.woc - a.woc;
@@ -304,7 +316,7 @@ export default async function ArtistPage({
               style={{ borderColor: CASUAL_RED }}
             >
               <span className="mb-1 text-6xl leading-none font-black tracking-tighter text-white">
-                {formatNumber(careerTotalPoints)}
+                {careerTotalPoints}
               </span>
               <span className="mt-2 w-3/4 border-t border-gray-700 pt-2 text-center text-[10px] font-bold tracking-widest text-gray-300 uppercase">
                 All-Time Career Points
