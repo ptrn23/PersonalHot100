@@ -166,7 +166,7 @@ const detectMovements = (currentChart: any[], weekId: string): NewsItem[] => {
     for (const t of thresholds) {
       if (rank <= t && (!prev || prev > t)) {
         crossedThreshold = t;
-        break;
+        break; 
       }
     }
 
@@ -175,9 +175,7 @@ const detectMovements = (currentChart: any[], weekId: string): NewsItem[] => {
       eventType = "DEBUT";
       headline = `“${title}” by ${artist} debuts at #${rank} in Personal Hot 100.`;
       priority = rank <= 10 ? 8 : rank <= 40 ? 5 : 3;
-    } 
-    // re-entries
-    else if (!prev && woc > 1) {
+    } else if (!prev && woc > 1) {
       if (crossedThreshold) {
         eventType = `RE_ENTRY_TOP_${crossedThreshold}`;
         headline = `“${title}” by ${artist} reenters inside the top ${crossedThreshold} of Personal Hot 100 at #${rank}.`;
@@ -191,31 +189,23 @@ const detectMovements = (currentChart: any[], weekId: string): NewsItem[] => {
         headline = `“${title}” by ${artist} reenters Personal Hot 100 at #${rank}.`;
         priority = rank <= 40 ? 6 : 3;
       }
-    } 
-    // climbs crossing a threshold
-    else if (jump && jump > 0 && crossedThreshold) {
+    } else if (jump && jump > 0 && crossedThreshold) {
       eventType = `ENTER_TOP_${crossedThreshold}`;
       headline = `“${title}” by ${artist} climbs inside the top ${crossedThreshold} of Personal Hot 100, rising ${jump} spots to #${rank}.`;
       priority = crossedThreshold <= 10 ? 7 : 5;
-    }
-    // new peaks
-    else if (isNewPeak) {
+    } else if (isNewPeak) {
       eventType = "NEW_PEAK";
       headline = jump && jump > 0
         ? `“${title}” by ${artist} reaches a new peak in Personal Hot 100, rising ${jump} spots to #${rank}.`
         : `“${title}” by ${artist} reaches a new peak in Personal Hot 100 at #${rank}.`;
       priority = rank <= 20 ? 7 : 4;
-    } 
-    // yearly milestones
-    else if (woc % 52 === 0) {
+    } else if (woc % 52 === 0) {
       eventType = "YEARLY_MILESTONE";
       const years = woc / 52;
       const yearText = years === 1 ? "one year" : `${years} years`;
       headline = `“${title}” by ${artist} has now completed ${yearText} (${woc} weeks of charting) in Personal Hot 100.`;
       priority = 9; 
-    }
-    // milestone weeks
-    else if (woc % 10 === 0) {
+    } else if (woc % 10 === 0) {
       eventType = "MILESTONE";
       headline = `“${title}” by ${artist} spends its ${formatOrdinal(woc)} week in Personal Hot 100 this week.`;
       priority = woc >= 50 ? 9 : 6;
@@ -230,6 +220,87 @@ const detectMovements = (currentChart: any[], weekId: string): NewsItem[] => {
         headline,
         subtext,
         priority,
+      });
+    }
+  });
+
+  return news;
+};
+
+const detectAlbumBombs = (currentChart: any[], weekId: string): NewsItem[] => {
+  const news: NewsItem[] = [];
+  const albumGroups = new Map<string, any[]>();
+
+  currentChart.forEach((entry) => {
+    const albumId = entry.songs.album_id;
+    if (!albumId) return;
+    if (!albumGroups.has(albumId)) albumGroups.set(albumId, []);
+    albumGroups.get(albumId)!.push(entry);
+  });
+
+  albumGroups.forEach((group, albumId) => {
+    const bombTracks = group.filter((entry) => {
+      const woc = entry.weeks_on_chart;
+      const rank = entry.rank;
+      const prev = entry.previous_position;
+      
+      const isDebut = woc === 1;
+      const isReentry = !prev && woc > 1;
+      const isRise = prev && rank < prev;
+      
+      return isDebut || isReentry || isRise;
+    });
+
+    if (bombTracks.length >= 4) {
+      bombTracks.sort((a, b) => a.rank - b.rank);
+
+      const allDebuts = bombTracks.every((e) => e.weeks_on_chart === 1);
+      const allReentries = bombTracks.every((e) => !e.previous_position && e.weeks_on_chart > 1);
+
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const albumTitle = (bombTracks[0].songs.albums as any)?.title || "Unknown Album";
+      const artistName = bombTracks[0].songs.artists?.name || "Unknown Artist";
+      const highestTitle = bombTracks[0].songs.display_title || bombTracks[0].songs.title || "Unknown Title";
+
+      let headline = "";
+      let eventType = "";
+
+      if (allDebuts) {
+        eventType = "ALBUM_BOMB_DEBUT";
+        headline = `Tracks from ‘${albumTitle}’ by ${artistName} debut in Personal Hot 100 this week.`;
+      } else if (allReentries) {
+        eventType = "ALBUM_BOMB_REENTER";
+        headline = `Tracks from ${artistName}'s ‘${albumTitle}’ reenters Personal Hot 100, with “${highestTitle}” reentering the highest at #${bombTracks[0].rank}.`;
+      } else {
+        eventType = "ALBUM_BOMB_RISE";
+        headline = `Tracks from ‘${albumTitle}’ by ${artistName} rise in Personal Hot 100 this week.`;
+      }
+
+      const subtextLines = bombTracks.map((e) => {
+        const title = e.songs.display_title || e.songs.title || "Unknown Title";
+        const woc = e.weeks_on_chart;
+        const prev = e.previous_position;
+        
+        let move = "";
+        if (woc === 1) move = "NEW";
+        else if (!prev) move = "RE";
+        else move = `+${prev - e.rank}`;
+        
+        return `#${e.rank} (${move}): ${title}`;
+      });
+
+      const subtext = subtextLines.join("\n");
+
+      bombTracks.forEach((track) => {
+        news.push({
+          week_id: weekId,
+          event_type: eventType,
+          entity_type: "song",
+          entity_id: track.song_id,
+          headline,
+          subtext,
+          priority: 8,
+        });
       });
     }
   });
@@ -275,7 +346,7 @@ export const generateNews = async (isFinalizing?: boolean, overrideTargetDate?: 
     .select(
       `
       *,
-      songs ( id, display_title, title, album_id, artists(id, name) )
+      songs ( id, display_title, title, album_id, artists(id, name), albums(title) )
     `,
     )
     .eq("week_id", targetWeek.id)
@@ -296,6 +367,8 @@ export const generateNews = async (isFinalizing?: boolean, overrideTargetDate?: 
   newsItems.push(...certNews);
   const movementNews = detectMovements(currentChart, targetWeek.id);
   newsItems.push(...movementNews);
+  const bombNews = detectAlbumBombs(currentChart, targetWeek.id);
+  newsItems.push(...bombNews);
 
   if (newsItems.length > 0) {
     console.log(`Writing ${newsItems.length} headline(s) to the news feed...`);
