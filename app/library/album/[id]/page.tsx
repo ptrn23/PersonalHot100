@@ -1,4 +1,3 @@
-import { supabase } from "@/utils/supabase";
 import { Metadata } from "next";
 import Link from "next/link";
 import ChartRow from "../../../components/ChartRow";
@@ -10,24 +9,19 @@ import { CASUAL_RED, CASUAL_BLACK, CASUAL_WHITE } from "@/config/theme";
 import { CHART_NAME } from "@/config/constants";
 import { formatNumber, formatFullDate, formatShortDate, formatMilestone } from "@/utils/formatters";
 
+import { getAlbumMetadata, getAlbumWithSongHistory, getAlbumChartHistory } from "@/lib/db/albums";
+import { getCertificationsByEntity } from "@/lib/db/certifications";
+import { getLatestChartWeek, getAllChartWeeks } from "@/lib/db/charts";
+
+export const dynamic = "force-dynamic";
+
 type Props = {
   params: Promise<{ id: string }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await params;
-
-  const { data: album } = await supabase
-    .from("albums")
-    .select(
-      `
-      title,
-      cover_url,
-      artists (name)
-    `,
-    )
-    .eq("id", resolvedParams.id)
-    .single();
+  const album = await getAlbumMetadata(resolvedParams.id);
 
   if (!album) {
     return { title: `Album Not Found | ${CHART_NAME} Hot 100` };
@@ -35,86 +29,33 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const artistName = (album.artists as any)?.name || "Unknown Artist";
-  const coverUrl = album.cover_url || "/default-cover.png";
   const pageTitle = `${album.title} | ${CHART_NAME} Hot 100`;
   const description = `View chart performance, total points, and track history for the album '${album.title}' by ${artistName}.`;
 
   return {
     title: pageTitle,
     description: description,
-    openGraph: {
-      title: pageTitle,
-      description: description,
-      type: "music.album",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: pageTitle,
-      description: description,
-    },
+    openGraph: { title: pageTitle, description: description, type: "music.album" },
+    twitter: { card: "summary_large_image", title: pageTitle, description: description },
   };
 }
 
 export default async function AlbumPage({ params }: { params: Promise<{ id: string }> }) {
   const resolvedParams = await params;
+  const [liveWeek, allWeeksData, album, rawAlbumHistory, certs] = await Promise.all([
+    getLatestChartWeek(),
+    getAllChartWeeks(),
+    getAlbumWithSongHistory(resolvedParams.id),
+    getAlbumChartHistory(resolvedParams.id),
+    getCertificationsByEntity("album_id", resolvedParams.id),
+  ]);
 
-  const { data: liveWeek } = await supabase
-    .from("chart_weeks")
-    .select("id")
-    .order("start_date", { ascending: false })
-    .limit(1)
-    .single();
-
-  const { data: allWeeksData } = await supabase
-    .from("chart_weeks")
-    .select("id, start_date")
-    .neq("id", liveWeek?.id)
-    .order("start_date", { ascending: true });
-
-  const allGlobalWeeks = allWeeksData?.map((w) => w.start_date) || [];
-  const { data: album, error } = await supabase
-    .from("albums")
-    .select(
-      `
-      *,
-      artists ( id, name ),
-      songs (
-        id,
-        title,
-        display_title,
-        chart_entries (
-          week_id,
-          rank,
-          total_points,
-          streams,
-          sales,
-          airplay,
-          peak_position,
-          peak_streak,
-          weeks_on_chart,
-          chart_weeks ( start_date )
-        )
-      )
-    `,
-    )
-    .eq("id", resolvedParams.id)
-    .single();
-
-  if (error || !album) {
+  if (!album) {
     return <div className="p-10 font-bold text-red-500">Album not found.</div>;
   }
 
-  const { data: certs } = await supabase
-    .from("certifications")
-    .select(
-      `
-      award_name,
-      multiplier,
-      chart_weeks ( start_date )
-    `,
-    )
-    .eq("album_id", resolvedParams.id);
-
+  const allGlobalWeeks = allWeeksData.map((w) => w.start_date) || [];
+  
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const artistName = (album.artists as any)?.name || "Unknown Artist";
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -140,6 +81,7 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
         return { ...song, chart_entries: validEntries };
       })
       .filter((song) => song.chart_entries && song.chart_entries.length > 0) || [];
+  
   chartedSongsCount = chartedSongs.length;
 
   chartedSongs.forEach((song) => {
@@ -175,9 +117,9 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
 
     const mathSeedString = `${song.display_title || song.title}|${artistName}`;
     const { totalUnits } = calculateDetailedUnits(
-      song.streams,
-      song.sales,
-      song.airplay,
+      songTotalStreams,
+      songTotalSales,
+      songTotalAirplay,
       mathSeedString
     );
 
@@ -206,11 +148,6 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
     if (a.peak !== b.peak) return a.peak - b.peak;
     return b.streak - a.streak;
   });
-
-  const { data: rawAlbumHistory } = await supabase
-    .from("weekly_album_stats")
-    .select("*")
-    .eq("id", resolvedParams.id);
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const validAlbumHistory = (rawAlbumHistory || []).filter((e: any) => e.week_id !== liveWeek?.id);
@@ -289,8 +226,7 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
     ? calculateMaxStats(historyEntriesForList) 
     : { sales: 0, streams: 0, airplay: 0, units: 0 };
 
-  const albumDebutDate =
-    enrichedAlbumHistory.length > 0 ? enrichedAlbumHistory[0].start_date : null;
+  const albumDebutDate = enrichedAlbumHistory.length > 0 ? enrichedAlbumHistory[0].start_date : null;
   const albumPeakEntry = enrichedAlbumHistory.find((e) => e.rank === albumPeak);
   const albumFirstPeakDate = albumPeakEntry?.start_date;
   const albumHighestStreak = Math.max(
