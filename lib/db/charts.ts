@@ -53,3 +53,18 @@ export async function getChartEntriesByWeekId(weekId: string, limit: number = 10
   }
   return data || [];
 }
+
+export async function getWeeklyAlbumsByWeekId(weekId: string, limit: number = 20) {
+  const { data, error } = await supabase
+    .from("weekly_album_stats")
+    .select("*")
+    .eq("week_id", weekId)
+    .lte("rank", limit)
+    .order("rank", { ascending: true });
+
+  if (error) {
+    console.error(`Error fetching weekly albums for week ${weekId}:`, error);
+    return [];
+  }
+  return data || [];
+}
