@@ -1,7 +1,8 @@
-import { supabase } from "@/utils/supabase";
 import ChartView from "../../components/ChartView";
 import { DisplayEntry } from "@/types";
 import YearSelector from "../../components/YearSelector";
+
+import { getAvailableChartYears, getYearEndSongStats } from "@/lib/db/charts";
 
 export const dynamic = "force-dynamic";
 
@@ -11,12 +12,7 @@ export default async function YearEndPage({
   searchParams: Promise<{ year?: string }>;
 }) {
   const resolvedParams = await searchParams;
-
-  const { data: yearData } = await supabase.from("chart_weeks").select("start_date");
-
-  const uniqueYears = Array.from(
-    new Set((yearData || []).map((w) => new Date(w.start_date).getFullYear())),
-  ).sort((a, b) => b - a);
+  const uniqueYears = await getAvailableChartYears();
 
   if (uniqueYears.length === 0) {
     return (
@@ -28,20 +24,14 @@ export default async function YearEndPage({
   }
 
   const targetYear = resolvedParams.year ? parseInt(resolvedParams.year) : uniqueYears[0];
+  const rawEntries = await getYearEndSongStats(targetYear);
 
-  const { data: rawEntries, error } = await supabase
-    .from("year_end_song_stats")
-    .select("*")
-    .eq("chart_year", targetYear)
-    .or("rank.lte.100,peak_position.eq.1")
-    .order("rank", { ascending: true });
-
-  if (error || !rawEntries) {
+  if (!rawEntries || rawEntries.length === 0) {
     return (
       <div className="p-10 text-center font-bold text-red-500">Failed to load year-end data.</div>
     );
   }
-
+  
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const mappedEntries: DisplayEntry[] = rawEntries.map((row: any) => {
     const title = row.display_title || row.title || "Unknown Song";

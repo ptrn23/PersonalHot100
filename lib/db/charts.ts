@@ -84,6 +84,36 @@ export async function getWeeklyArtistsByWeekId(weekId: string, limit: number = 2
   return data || [];
 }
 
+export async function getAvailableChartYears(): Promise<number[]> {
+  const { data, error } = await supabase.from("chart_weeks").select("start_date");
+  
+  if (error || !data) {
+    console.error("Error fetching available chart years:", error);
+    return [];
+  }
+
+  const uniqueYears = Array.from(
+    new Set(data.map((w) => new Date(w.start_date).getFullYear()))
+  ).sort((a, b) => b - a);
+
+  return uniqueYears;
+}
+
+export async function getYearEndSongStats(year: number) {
+  const { data, error } = await supabase
+    .from("year_end_song_stats")
+    .select("*")
+    .eq("chart_year", year)
+    .or("rank.lte.100,peak_position.eq.1")
+    .order("rank", { ascending: true });
+
+  if (error) {
+    console.error(`Error fetching year-end stats for ${year}:`, error);
+    return [];
+  }
+  return data || [];
+}
+
 export async function getAllTimeSongs(startRange: number, endRange: number) {
   const { data, error } = await supabase
     .from("all_time_song_stats")
