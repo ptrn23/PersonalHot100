@@ -69,6 +69,21 @@ export async function getWeeklyAlbumsByWeekId(weekId: string, limit: number = 20
   return data || [];
 }
 
+export async function getWeeklyArtistsByWeekId(weekId: string, limit: number = 20) {
+  const { data, error } = await supabase
+    .from("weekly_artist_stats")
+    .select("*")
+    .eq("week_id", weekId)
+    .lte("rank", limit)
+    .order("rank", { ascending: true });
+
+  if (error) {
+    console.error(`Error fetching weekly artists for week ${weekId}:`, error);
+    return [];
+  }
+  return data || [];
+}
+
 export async function getAllTimeSongs(startRange: number, endRange: number) {
   const { data, error } = await supabase
     .from("all_time_song_stats")

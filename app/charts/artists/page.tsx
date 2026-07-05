@@ -1,8 +1,9 @@
-import { supabase } from "@/utils/supabase";
 import ChartView from "../../components/ChartView";
 import { DisplayEntry } from "@/types";
 import WeekSelector from "../../components/WeekSelector";
 import { formatDateRange } from "@/utils/formatters";
+
+import { getAllChartWeeks, getWeeklyArtistsByWeekId } from "@/lib/db/charts";
 
 export const dynamic = "force-dynamic";
 
@@ -13,21 +14,21 @@ export default async function WeeklyArtistsPage({
 }) {
   const resolvedParams = await searchParams;
   const selectedWeekStr = resolvedParams.week;
+  const allChartWeeks = await getAllChartWeeks();
 
-  const { data: latestWeek } = await supabase
-    .from("chart_weeks")
-    .select("*")
-    .order("start_date", { ascending: false })
-    .limit(1)
-    .single();
+  if (allChartWeeks.length === 0) {
+    return (
+      <div className="flex min-h-screen flex-col items-center justify-center bg-white p-10">
+        <h1 className="mb-4 text-2xl font-bold">No Weekly Data</h1>
+        <p className="text-gray-600">No chart weeks have been generated yet.</p>
+      </div>
+    );
+  }
 
-  const { data: allWeeks } = await supabase
-    .from("chart_weeks")
-    .select("*")
-    .neq("id", latestWeek?.id)
-    .order("start_date", { ascending: false });
+  const latestWeek = allChartWeeks[0];
+  const historicalWeeks = allChartWeeks.filter((w) => w.id !== latestWeek.id);
 
-  if (!allWeeks || allWeeks.length === 0) {
+  if (historicalWeeks.length === 0) {
     return (
       <div className="flex min-h-screen flex-col items-center justify-center bg-white p-10">
         <h1 className="mb-4 text-2xl font-bold">No Weekly Data</h1>
@@ -36,19 +37,14 @@ export default async function WeeklyArtistsPage({
     );
   }
 
-  let targetWeek = allWeeks.find((w) => w.start_date === selectedWeekStr);
+  let targetWeek = historicalWeeks.find((w) => w.start_date === selectedWeekStr);
   if (!targetWeek) {
-    targetWeek = allWeeks[0];
+    targetWeek = historicalWeeks[0];
   }
 
-  const { data: rawEntries, error } = await supabase
-    .from("weekly_artist_stats")
-    .select("*")
-    .eq("week_id", targetWeek.id)
-    .lte("rank", 20)
-    .order("rank", { ascending: true });
+  const rawEntries = await getWeeklyArtistsByWeekId(targetWeek.id, 20);
 
-  if (error || !rawEntries) {
+  if (!rawEntries || rawEntries.length === 0) {
     return (
       <div className="p-10 text-center font-bold text-red-500">Failed to load artist data.</div>
     );
@@ -63,13 +59,13 @@ export default async function WeeklyArtistsPage({
       rank: row.rank,
       previousRank: null,
 
-      coverUrl: null, // Fallback to your built-in 'No Cover' UI
+      coverUrl: null,
       primaryText: artistName,
       primaryHref: row.id ? `/library/artist/${row.id}` : null,
       secondaryText: null,
       secondaryHref: null,
-
-      mathSeedString: artistName,
+      
+      mathSeedString: `${artistName}|Artist`,
       disableDropdown: true,
       hideRankChange: true,
 
@@ -90,7 +86,7 @@ export default async function WeeklyArtistsPage({
   });
 
   const formattedDate = formatDateRange(targetWeek.start_date, targetWeek.end_date);
-  const availableWeeks = allWeeks.map((w) => ({
+  const availableWeeks = historicalWeeks.map((w) => ({
     start_date: w.start_date,
     end_date: w.end_date,
   }));
