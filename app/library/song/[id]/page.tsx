@@ -11,7 +11,15 @@ import { getNewsByEntity } from "@/lib/db/news";
 import { getCertificationsByEntity } from "@/lib/db/certifications";
 import { getLatestChartWeek, getAllChartWeeks } from "@/lib/db/charts";
 
-import { BadgeCheck, MoreHorizontal, MessageCircle, Repeat2, Heart, Bookmark, Upload } from "lucide-react";
+import {
+  BadgeCheck,
+  MoreHorizontal,
+  MessageCircle,
+  Repeat2,
+  Heart,
+  Bookmark,
+  Upload,
+} from "lucide-react";
 import { CASUAL_RED } from "@/config/theme";
 import { CHART_NAME, CHART_HANDLE } from "@/config/constants";
 
@@ -71,7 +79,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
   });
 
   const allGlobalWeeks = allWeeksData.map((w) => w.start_date);
-  
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const artistName = (song.artists as any)?.name || "Unknown Artist";
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -90,21 +98,23 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
   let peakPos = 101;
   let woc = 0;
   let highestStreak = 0;
-  
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const rawEntries = (song.chart_entries as any[]) || [];
   const entries = rawEntries.filter((entry) => entry.week_id !== liveWeek?.id);
 
   const sortedEntries = [...entries].sort(
-    (a, b) => new Date(a.chart_weeks?.start_date).getTime() - new Date(b.chart_weeks?.start_date).getTime(),
+    (a, b) =>
+      new Date(a.chart_weeks?.start_date).getTime() - new Date(b.chart_weeks?.start_date).getTime(),
   );
 
   const descendingEntries = [...entries].sort(
-    (a, b) => new Date(b.chart_weeks?.start_date).getTime() - new Date(a.chart_weeks?.start_date).getTime(),
+    (a, b) =>
+      new Date(b.chart_weeks?.start_date).getTime() - new Date(a.chart_weeks?.start_date).getTime(),
   );
 
   const mathSeedString = `${song.display_title || song.title}|${artistName}`;
-  
+
   sortedEntries.forEach((entry) => {
     totalPoints += entry.total_points || 0;
     rawStreams += entry.streams || 0;
@@ -122,9 +132,10 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
     mathSeedString: mathSeedString,
   }));
 
-  const maxStats: MaxStats = entriesWithSeeds.length > 0 
-    ? calculateMaxStats(entriesWithSeeds) 
-    : { sales: 0, streams: 0, airplay: 0, units: 0 };
+  const maxStats: MaxStats =
+    entriesWithSeeds.length > 0
+      ? calculateMaxStats(entriesWithSeeds)
+      : { sales: 0, streams: 0, airplay: 0, units: 0 };
 
   const debutDate = sortedEntries.length > 0 ? sortedEntries[0].chart_weeks?.start_date : null;
   const peakEntry = sortedEntries.find((e) => e.rank === peakPos);
@@ -138,7 +149,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
     rawStreams,
     rawSales,
     rawAirplay,
-    mathSeedString
+    mathSeedString,
   );
 
   const allTimeStreams = streamsUnits;
@@ -333,9 +344,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
               <span className="text-[10px] font-bold tracking-widest text-gray-500 uppercase">
                 Debut Date
               </span>
-              <span className="text-lg font-black text-gray-900">
-                {formatShortDate(debutDate)}
-              </span>
+              <span className="text-lg font-black text-gray-900">{formatShortDate(debutDate)}</span>
             </div>
             <div className="flex items-center justify-between border border-gray-200 bg-gray-100 p-4 px-8">
               <span className="text-[10px] font-bold tracking-widest text-gray-500 uppercase">
@@ -463,7 +472,6 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
                               <Heart className="h-[18px] w-[18px]" />
                             </div>
                           </div>
-                          
                         </div>
 
                         <div className="flex items-center space-x-2">
@@ -473,7 +481,6 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
                           <div className="-mr-2 rounded-full p-2 transition-colors hover:bg-blue-50 hover:text-blue-500">
                             <Upload className="h-[18px] w-[18px]" />
                           </div>
-                          
                         </div>
                       </div>
                     </div>

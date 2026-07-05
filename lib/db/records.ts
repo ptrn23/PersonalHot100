@@ -24,31 +24,105 @@ export async function getAllChartRecords() {
     mostTotalWeeksRes,
   ] = await Promise.all([
     // points
-    supabase.from("chart_entries").select(entrySelect).order("total_points", { ascending: false }).limit(10),
-    supabase.from("chart_entries").select(entrySelect).eq("weeks_on_chart", 1).order("total_points", { ascending: false }).limit(10),
-    
+    supabase
+      .from("chart_entries")
+      .select(entrySelect)
+      .order("total_points", { ascending: false })
+      .limit(10),
+    supabase
+      .from("chart_entries")
+      .select(entrySelect)
+      .eq("weeks_on_chart", 1)
+      .order("total_points", { ascending: false })
+      .limit(10),
+
     // jumps & falls
-    supabase.from("record_jumps_falls").select("*").order("position_change", { ascending: false }).limit(10),
-    supabase.from("record_jumps_falls").select("*").order("position_change", { ascending: true }).limit(10),
-    supabase.from("record_jumps_falls").select("*").eq("rank", 1).order("position_change", { ascending: false }).limit(10),
-    supabase.from("record_longest_first_runs").select("*").order("run_length", { ascending: false }).limit(10),
-    supabase.from("record_jumps_falls").select("*").eq("previous_position", 1).order("position_change", { ascending: true }).limit(10),
+    supabase
+      .from("record_jumps_falls")
+      .select("*")
+      .order("position_change", { ascending: false })
+      .limit(10),
+    supabase
+      .from("record_jumps_falls")
+      .select("*")
+      .order("position_change", { ascending: true })
+      .limit(10),
+    supabase
+      .from("record_jumps_falls")
+      .select("*")
+      .eq("rank", 1)
+      .order("position_change", { ascending: false })
+      .limit(10),
+    supabase
+      .from("record_longest_first_runs")
+      .select("*")
+      .order("run_length", { ascending: false })
+      .limit(10),
+    supabase
+      .from("record_jumps_falls")
+      .select("*")
+      .eq("previous_position", 1)
+      .order("position_change", { ascending: true })
+      .limit(10),
 
     // weekly peaks
-    supabase.from("chart_entries").select(entrySelect).order("sales", { ascending: false }).limit(10),
-    supabase.from("chart_entries").select(entrySelect).order("streams", { ascending: false }).limit(10),
-    supabase.from("chart_entries").select(entrySelect).order("airplay", { ascending: false }).limit(10),
+    supabase
+      .from("chart_entries")
+      .select(entrySelect)
+      .order("sales", { ascending: false })
+      .limit(10),
+    supabase
+      .from("chart_entries")
+      .select(entrySelect)
+      .order("streams", { ascending: false })
+      .limit(10),
+    supabase
+      .from("chart_entries")
+      .select(entrySelect)
+      .order("airplay", { ascending: false })
+      .limit(10),
 
     // debut peaks
-    supabase.from("chart_entries").select(entrySelect).eq("weeks_on_chart", 1).order("sales", { ascending: false }).limit(10),
-    supabase.from("chart_entries").select(entrySelect).eq("weeks_on_chart", 1).order("streams", { ascending: false }).limit(10),
-    supabase.from("chart_entries").select(entrySelect).eq("weeks_on_chart", 1).order("airplay", { ascending: false }).limit(10),
+    supabase
+      .from("chart_entries")
+      .select(entrySelect)
+      .eq("weeks_on_chart", 1)
+      .order("sales", { ascending: false })
+      .limit(10),
+    supabase
+      .from("chart_entries")
+      .select(entrySelect)
+      .eq("weeks_on_chart", 1)
+      .order("streams", { ascending: false })
+      .limit(10),
+    supabase
+      .from("chart_entries")
+      .select(entrySelect)
+      .eq("weeks_on_chart", 1)
+      .order("airplay", { ascending: false })
+      .limit(10),
 
     // longevity
-    supabase.from("record_weeks_at_ranks").select("*").order("weeks_at_1", { ascending: false }).limit(10),
-    supabase.from("record_weeks_at_ranks").select("*").order("weeks_in_top_10", { ascending: false }).limit(10),
-    supabase.from("record_weeks_at_ranks").select("*").order("weeks_in_top_25", { ascending: false }).limit(10),
-    supabase.from("record_weeks_at_ranks").select("*").order("total_weeks", { ascending: false }).limit(10),
+    supabase
+      .from("record_weeks_at_ranks")
+      .select("*")
+      .order("weeks_at_1", { ascending: false })
+      .limit(10),
+    supabase
+      .from("record_weeks_at_ranks")
+      .select("*")
+      .order("weeks_in_top_10", { ascending: false })
+      .limit(10),
+    supabase
+      .from("record_weeks_at_ranks")
+      .select("*")
+      .order("weeks_in_top_25", { ascending: false })
+      .limit(10),
+    supabase
+      .from("record_weeks_at_ranks")
+      .select("*")
+      .order("total_weeks", { ascending: false })
+      .limit(10),
   ]);
 
   return {

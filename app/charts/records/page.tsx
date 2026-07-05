@@ -12,10 +12,7 @@ export default async function RecordsPage() {
   const records = await getAllChartRecords();
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const mapToRecord = (
-    row: any,
-    metricFormat: (r: any, units: CalculatedUnits) => number,
-  ) => {
+  const mapToRecord = (row: any, metricFormat: (r: any, units: CalculatedUnits) => number) => {
     const songData = Array.isArray(row.songs) ? row.songs[0] : row.songs;
     const artistData = Array.isArray(songData?.artists) ? songData.artists[0] : songData?.artists;
     const albumData = Array.isArray(songData?.albums) ? songData.albums[0] : songData?.albums;
@@ -28,7 +25,7 @@ export default async function RecordsPage() {
       row.streams || 0,
       row.sales || 0,
       row.airplay || 0,
-      `${title}|${artist}`
+      `${title}|${artist}`,
     );
 
     return {
@@ -47,7 +44,7 @@ export default async function RecordsPage() {
   const processUnitList = (
     data: any[],
     selector: (r: any, units: CalculatedUnits) => number,
-    customFormatter?: (val: number) => string | number 
+    customFormatter?: (val: number) => string | number,
   ): RecordEntry[] => {
     return data
       .map((row) => mapToRecord(row, selector))
@@ -55,7 +52,9 @@ export default async function RecordsPage() {
       .map((entry, index) => ({
         ...entry,
         rank: index + 1,
-        metricValue: customFormatter ? customFormatter(entry.rawValue) : formatNumber(entry.rawValue),
+        metricValue: customFormatter
+          ? customFormatter(entry.rawValue)
+          : formatNumber(entry.rawValue),
       }));
   };
 
@@ -79,15 +78,15 @@ export default async function RecordsPage() {
   };
 
   const highestPointsEntries = processUnitList(
-    records.highestPoints, 
+    records.highestPoints,
     (r, units) => r.total_points || 0,
-    (val) => val.toLocaleString("en-US")
+    (val) => val.toLocaleString("en-US"),
   );
-  
+
   const highestDebutEntries = processUnitList(
-    records.highestDebut, 
+    records.highestDebut,
     (r, units) => r.total_points || 0,
-    (val) => val.toLocaleString("en-US")
+    (val) => val.toLocaleString("en-US"),
   );
 
   const biggestJumpEntries = records.biggestJump.map((row, i) =>
@@ -108,12 +107,27 @@ export default async function RecordsPage() {
   );
 
   const highestSalesEntries = processUnitList(records.highestSales, (r, units) => units.salesUnits);
-  const highestStreamsEntries = processUnitList(records.highestStreams, (r, units) => units.streamsUnits);
-  const highestAirplayEntries = processUnitList(records.highestAirplay, (r, units) => units.airplayUnits);
+  const highestStreamsEntries = processUnitList(
+    records.highestStreams,
+    (r, units) => units.streamsUnits,
+  );
+  const highestAirplayEntries = processUnitList(
+    records.highestAirplay,
+    (r, units) => units.airplayUnits,
+  );
 
-  const highestDebutSalesEntries = processUnitList(records.highestDebutSales, (r, units) => units.salesUnits);
-  const highestDebutStreamsEntries = processUnitList(records.highestDebutStreams, (r, units) => units.streamsUnits);
-  const highestDebutAirplayEntries = processUnitList(records.highestDebutAirplay, (r, units) => units.airplayUnits);
+  const highestDebutSalesEntries = processUnitList(
+    records.highestDebutSales,
+    (r, units) => units.salesUnits,
+  );
+  const highestDebutStreamsEntries = processUnitList(
+    records.highestDebutStreams,
+    (r, units) => units.streamsUnits,
+  );
+  const highestDebutAirplayEntries = processUnitList(
+    records.highestDebutAirplay,
+    (r, units) => units.airplayUnits,
+  );
 
   const mostWeeksAt1Entries = records.mostWeeksAt1.map((row, i) => {
     const entry = mapFlatRecord(row, i, (r) => r.weeks_at_1);

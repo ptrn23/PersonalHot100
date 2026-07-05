@@ -3,11 +3,13 @@ import { supabase } from "@/utils/supabase";
 export async function getAlbumMetadata(albumId: string) {
   const { data, error } = await supabase
     .from("albums")
-    .select(`
+    .select(
+      `
       title,
       cover_url,
       artists (name)
-    `)
+    `,
+    )
     .eq("id", albumId)
     .single();
 
@@ -18,7 +20,8 @@ export async function getAlbumMetadata(albumId: string) {
 export async function getAlbumWithSongHistory(albumId: string) {
   const { data, error } = await supabase
     .from("albums")
-    .select(`
+    .select(
+      `
       *,
       artists ( id, name ),
       songs (
@@ -38,7 +41,8 @@ export async function getAlbumWithSongHistory(albumId: string) {
           chart_weeks ( start_date )
         )
       )
-    `)
+    `,
+    )
     .eq("id", albumId)
     .single();
 
@@ -47,10 +51,7 @@ export async function getAlbumWithSongHistory(albumId: string) {
 }
 
 export async function getAlbumChartHistory(albumId: string) {
-  const { data, error } = await supabase
-    .from("weekly_album_stats")
-    .select("*")
-    .eq("id", albumId); 
+  const { data, error } = await supabase.from("weekly_album_stats").select("*").eq("id", albumId);
 
   if (error) {
     console.error(`Error fetching album chart history:`, error);

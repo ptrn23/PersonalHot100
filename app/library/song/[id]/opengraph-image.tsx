@@ -17,7 +17,7 @@ export default async function Image({ params }: { params: Promise<{ id: string }
 
   const song = await getSongMetadata(resolvedParams.id);
   const title = song?.display_title || song?.title || "Unknown Song";
-  
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const artistName = (song?.artists as any)?.name || "Unknown Artist";
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

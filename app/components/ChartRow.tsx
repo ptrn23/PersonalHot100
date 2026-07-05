@@ -24,7 +24,7 @@ export default function ChartRow({
     entry.streams,
     entry.sales,
     entry.airplay,
-    entry.mathSeedString
+    entry.mathSeedString,
   );
 
   const prevRaw = entry.previousWeekRawPoints || 0;

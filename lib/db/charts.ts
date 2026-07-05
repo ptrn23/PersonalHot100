@@ -41,7 +41,7 @@ export async function getChartEntriesByWeekId(weekId: string, limit: number = 10
         artists ( id, name, display_name ),
         albums ( id, title, display_title, cover_url )
       )
-    `
+    `,
     )
     .eq("week_id", weekId)
     .lte("rank", limit)
@@ -86,14 +86,14 @@ export async function getWeeklyArtistsByWeekId(weekId: string, limit: number = 2
 
 export async function getAvailableChartYears(): Promise<number[]> {
   const { data, error } = await supabase.from("chart_weeks").select("start_date");
-  
+
   if (error || !data) {
     console.error("Error fetching available chart years:", error);
     return [];
   }
 
   const uniqueYears = Array.from(
-    new Set(data.map((w) => new Date(w.start_date).getFullYear()))
+    new Set(data.map((w) => new Date(w.start_date).getFullYear())),
   ).sort((a, b) => b - a);
 
   return uniqueYears;

@@ -14,7 +14,8 @@ export async function getArtistMetadata(artistId: string) {
 export async function getArtistWithDiscography(artistId: string) {
   const { data, error } = await supabase
     .from("artists")
-    .select(`
+    .select(
+      `
       *,
       albums ( id, title, cover_url, release_date ),
       songs (
@@ -34,7 +35,8 @@ export async function getArtistWithDiscography(artistId: string) {
           chart_weeks ( start_date )
         )
       )
-    `)
+    `,
+    )
     .eq("id", artistId)
     .single();
 
@@ -43,10 +45,7 @@ export async function getArtistWithDiscography(artistId: string) {
 }
 
 export async function getArtistChartHistory(artistId: string) {
-  const { data, error } = await supabase
-    .from("weekly_artist_stats")
-    .select("*")
-    .eq("id", artistId);
+  const { data, error } = await supabase.from("weekly_artist_stats").select("*").eq("id", artistId);
 
   if (error) {
     console.error(`Error fetching artist chart history:`, error);

@@ -123,7 +123,9 @@ export default function ChartView({
     }
   };
 
-  const maxStats = entries ? calculateMaxStats(entries) : { sales: 0, streams: 0, airplay: 0, units: 0 };
+  const maxStats = entries
+    ? calculateMaxStats(entries)
+    : { sales: 0, streams: 0, airplay: 0, units: 0 };
 
   return (
     <div className="relative">

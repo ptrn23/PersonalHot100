@@ -164,7 +164,13 @@ export const runCertifications = async (isFinalizing?: boolean, overrideTargetDa
     const sId = entry.song_id;
 
     const seedData = songSeedMap.get(sId) || { title: "Unknown", artist: "Unknown" };
-    const units = calculateUnits(entry.streams, entry.sales, entry.airplay, seedData.title, seedData.artist);
+    const units = calculateUnits(
+      entry.streams,
+      entry.sales,
+      entry.airplay,
+      seedData.title,
+      seedData.artist,
+    );
 
     songTotals.set(sId, (songTotals.get(sId) || 0) + units);
 

@@ -28,8 +28,8 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 gap-16 md:grid-cols-12">
           <div className="flex flex-col gap-8 md:col-span-7">
             <p className="text-2xl leading-relaxed font-medium tracking-tight text-gray-800">
-              {CHART_NAME} Charts is an algorithmic music tracking system inspired by the Billboard Hot
-              100.
+              {CHART_NAME} Charts is an algorithmic music tracking system inspired by the Billboard
+              Hot 100.
             </p>
 
             <p className="text-lg leading-relaxed text-gray-600">

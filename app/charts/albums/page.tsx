@@ -49,7 +49,7 @@ export default async function WeeklyAlbumsPage({
       <div className="p-10 text-center font-bold text-red-500">Failed to load album data.</div>
     );
   }
-  
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const mappedEntries: DisplayEntry[] = rawEntries.map((row: any) => {
     const title = row.album_title || "Unknown Album";

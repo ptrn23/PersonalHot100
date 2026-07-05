@@ -11,7 +11,7 @@ export default function ChartTicket({ entry }: { entry: DisplayEntry }) {
     entry.streams,
     entry.sales,
     entry.airplay,
-    entry.mathSeedString
+    entry.mathSeedString,
   );
 
   return (
@@ -78,9 +78,7 @@ export default function ChartTicket({ entry }: { entry: DisplayEntry }) {
         </div>
 
         <div className="relative z-10 -mt-4 flex flex-col items-center justify-center">
-          <span className="text-6xl font-black tracking-tighter">
-            {entry.totalPoints}
-          </span>
+          <span className="text-6xl font-black tracking-tighter">{entry.totalPoints}</span>
           <span className="text-lg font-bold tracking-widest text-white/50 uppercase">POINTS</span>
         </div>
 

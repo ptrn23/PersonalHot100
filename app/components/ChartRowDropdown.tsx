@@ -65,8 +65,7 @@ export default function ChartRowDropdown({
             <span>This week:</span>
             <span className="font-mono whitespace-nowrap">
               <span className="text-[10px] text-gray-400 sm:text-xs">
-                {entry.streams * 5} + {entry.sales * 3} +{" "}
-                {entry.airplay * 2} =
+                {entry.streams * 5} + {entry.sales * 3} + {entry.airplay * 2} =
               </span>
               <span className="ml-1 text-gray-800">{entry.currentWeekPoints}</span>
             </span>
@@ -101,8 +100,7 @@ export default function ChartRowDropdown({
             {entry.totalPoints}
           </span>
           <span className="font-mono text-[12px] font-bold tracking-tight text-blue-600/70">
-            {entry.currentWeekPoints} +{" "}
-            {Math.floor((entry.previousWeekRawPoints || 0) * 0.3)} +{" "}
+            {entry.currentWeekPoints} + {Math.floor((entry.previousWeekRawPoints || 0) * 0.3)} +{" "}
             {Math.floor((entry.twoWeeksAgoRawPoints || 0) * 0.2)}
           </span>
         </div>

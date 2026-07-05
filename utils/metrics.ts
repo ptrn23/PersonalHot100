@@ -11,21 +11,17 @@ export type Metrics = {
 
 export const getStableSeed = (seedString: string): number => {
   let hash = 5381;
-  
+
   for (let i = 0; i < seedString.length; i++) {
-    hash = ((hash << 5) + hash) + seedString.charCodeAt(i); 
+    hash = (hash << 5) + hash + seedString.charCodeAt(i);
   }
-  
+
   return Math.abs(hash);
 };
 
-export const applyDeviation = (
-  base: number, 
-  seed: number, 
-  scale: number = 0.1
-): number => {
-  const pseudoRandomFloat = Math.abs(Math.sin(seed)); 
-  
+export const applyDeviation = (base: number, seed: number, scale: number = 0.1): number => {
+  const pseudoRandomFloat = Math.abs(Math.sin(seed));
+
   const deviation = (pseudoRandomFloat - 0.5) * 2 * scale;
   return Math.floor(base * (1 + deviation));
 };
@@ -35,17 +31,17 @@ export const calculateUnits = (
   sales: number,
   airplay: number,
   title: string,
-  artist: string
+  artist: string,
 ): number => {
   const base = Math.floor((streams + sales + airplay) * 3500);
-  const seedString = `${title}|${artist}`; 
+  const seedString = `${title}|${artist}`;
   const seed = getStableSeed(seedString);
   return applyDeviation(base, seed + 4);
 };
 
 export const calculateChartMetrics = (
   rawScrobbles: any[],
-  canonicalMap: Map<string, string>
+  canonicalMap: Map<string, string>,
 ): Metrics[] => {
   const weeklyStats = new Map<
     string,
@@ -105,7 +101,7 @@ export const calculateDetailedUnits = (
   streams: number,
   sales: number,
   airplay: number,
-  seedString: string
+  seedString: string,
 ): CalculatedUnits => {
   const seed = getStableSeed(seedString);
 
@@ -118,7 +114,7 @@ export const calculateDetailedUnits = (
 };
 
 export const calculateMaxStats = (
-  entries: { streams: number; sales: number; airplay: number; mathSeedString: string }[]
+  entries: { streams: number; sales: number; airplay: number; mathSeedString: string }[],
 ): MaxStats => {
   const max: MaxStats = { sales: 0, streams: 0, airplay: 0, units: 0 };
 
@@ -127,7 +123,7 @@ export const calculateMaxStats = (
       entry.streams,
       entry.sales,
       entry.airplay,
-      entry.mathSeedString
+      entry.mathSeedString,
     );
 
     if (units.salesUnits > max.sales) max.sales = units.salesUnits;

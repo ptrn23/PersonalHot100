@@ -31,7 +31,7 @@ export default async function YearEndPage({
       <div className="p-10 text-center font-bold text-red-500">Failed to load year-end data.</div>
     );
   }
-  
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const mappedEntries: DisplayEntry[] = rawEntries.map((row: any) => {
     const title = row.display_title || row.title || "Unknown Song";

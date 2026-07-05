@@ -28,7 +28,7 @@ export default async function WeeklyChartPage({
 
   const latestWeek = allChartWeeks[0];
   const historicalWeeks = allChartWeeks.filter((w) => w.id !== latestWeek.id);
-  
+
   if (historicalWeeks.length === 0) {
     return (
       <div className="flex min-h-screen flex-col items-center justify-center bg-white p-10">
@@ -38,12 +38,14 @@ export default async function WeeklyChartPage({
     );
   }
 
-  const targetWeek = historicalWeeks.find((w) => w.start_date === selectedWeekStr) || historicalWeeks[0];
+  const targetWeek =
+    historicalWeeks.find((w) => w.start_date === selectedWeekStr) || historicalWeeks[0];
   const targetWeekIndex = allChartWeeks.findIndex((w) => w.id === targetWeek.id);
-  
-  const prevWeek = targetWeekIndex !== -1 && targetWeekIndex + 1 < allChartWeeks.length 
-    ? allChartWeeks[targetWeekIndex + 1] 
-    : null;
+
+  const prevWeek =
+    targetWeekIndex !== -1 && targetWeekIndex + 1 < allChartWeeks.length
+      ? allChartWeeks[targetWeekIndex + 1]
+      : null;
 
   const rawEntries = await getChartEntriesByWeekId(targetWeek.id, 100);
 
@@ -52,10 +54,10 @@ export default async function WeeklyChartPage({
       <div className="p-10 text-center font-bold text-red-500">Failed to load chart data.</div>
     );
   }
-  
+
   const currentSongIds = new Set(rawEntries.map((e) => e.song_id));
   let rawDropouts: any[] = [];
-  
+
   if (prevWeek) {
     const prevRaw = await getChartEntriesByWeekId(prevWeek.id, 100);
     rawDropouts = prevRaw.filter((row) => !currentSongIds.has(row.song_id));
@@ -99,7 +101,9 @@ export default async function WeeklyChartPage({
   const mappedEntries: DisplayEntry[] = rawEntries.map((row) => mapToDisplayEntry(row, false));
   const mappedDropouts: DisplayEntry[] = rawDropouts.map((row) => mapToDisplayEntry(row, true));
   const dropoutsMaxStats = calculateMaxStats(mappedDropouts);
-  const maxStats = mappedEntries ? calculateMaxStats(mappedEntries) : { sales: 0, streams: 0, airplay: 0, units: 0 };
+  const maxStats = mappedEntries
+    ? calculateMaxStats(mappedEntries)
+    : { sales: 0, streams: 0, airplay: 0, units: 0 };
 
   const formattedDate = formatDateRange(targetWeek.start_date, targetWeek.end_date);
   const availableWeeks = historicalWeeks.map((w) => ({

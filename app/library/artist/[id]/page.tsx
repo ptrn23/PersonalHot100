@@ -8,7 +8,11 @@ import ChartTrajectory from "../../../components/ChartTrajectory";
 import { CHART_NAME } from "@/config/constants";
 import { CASUAL_RED } from "@/config/theme";
 
-import { getArtistMetadata, getArtistWithDiscography, getArtistChartHistory } from "@/lib/db/artists";
+import {
+  getArtistMetadata,
+  getArtistWithDiscography,
+  getArtistChartHistory,
+} from "@/lib/db/artists";
 import { getLatestChartWeek, getAllChartWeeks } from "@/lib/db/charts";
 
 type Props = {
@@ -51,7 +55,7 @@ export default async function ArtistPage({
     getLatestChartWeek(),
     getAllChartWeeks(),
     getArtistWithDiscography(resolvedParams.id),
-    getArtistChartHistory(resolvedParams.id)
+    getArtistChartHistory(resolvedParams.id),
   ]);
 
   if (!artist) {
@@ -64,7 +68,7 @@ export default async function ArtistPage({
   let careerRawStreams = 0;
   let careerRawSales = 0;
   let careerRawAirplay = 0;
-  
+
   let no1Hits = 0;
   let top10Hits = 0;
 
@@ -83,7 +87,7 @@ export default async function ArtistPage({
         return { ...song, chart_entries: validEntries };
       })
       .filter((song) => song.chart_entries && song.chart_entries.length > 0) || [];
-  
+
   const chartedSongsCount = chartedSongs.length;
 
   chartedSongs.forEach((song) => {
@@ -117,12 +121,12 @@ export default async function ArtistPage({
       ...sortedEntries.filter((e) => e.rank === peakPos).map((e) => e.peak_streak || 0),
     );
 
-   const mathSeedString = `${song.display_title || song.title}|${artist.name}`;
+    const mathSeedString = `${song.display_title || song.title}|${artist.name}`;
     const { totalUnits } = calculateDetailedUnits(
       songTotalStreams,
       songTotalSales,
       songTotalAirplay,
-      mathSeedString
+      mathSeedString,
     );
 
     careerTotalPoints += songTotalPoints;
@@ -145,12 +149,12 @@ export default async function ArtistPage({
   });
 
   const artistMathSeed = `${artist.name}|Artist`;
-  
+
   const { totalUnits: careerTotalUnits } = calculateDetailedUnits(
     careerRawStreams,
     careerRawSales,
     careerRawAirplay,
-    artistMathSeed
+    artistMathSeed,
   );
 
   artistTracks.sort((a, b) => {
@@ -230,8 +234,9 @@ export default async function ArtistPage({
     airplay: entry.airplay || 0,
   }));
 
-  const artistMaxStats = historyEntriesForList.length > 0 
-      ? calculateMaxStats(historyEntriesForList) 
+  const artistMaxStats =
+    historyEntriesForList.length > 0
+      ? calculateMaxStats(historyEntriesForList)
       : { sales: 0, streams: 0, airplay: 0, units: 0 };
 
   const artistDebutDate =

@@ -64,7 +64,7 @@ export default async function WeeklyArtistsPage({
       primaryHref: row.id ? `/library/artist/${row.id}` : null,
       secondaryText: null,
       secondaryHref: null,
-      
+
       mathSeedString: `${artistName}|Artist`,
       disableDropdown: true,
       hideRankChange: true,

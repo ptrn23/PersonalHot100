@@ -3,12 +3,14 @@ import { supabase } from "@/utils/supabase";
 export async function getSongMetadata(songId: string) {
   const { data, error } = await supabase
     .from("songs")
-    .select(`
+    .select(
+      `
       title,
       display_title,
       artists (name),
       albums (cover_url)
-    `)
+    `,
+    )
     .eq("id", songId)
     .single();
 
@@ -19,7 +21,8 @@ export async function getSongMetadata(songId: string) {
 export async function getSongWithChartHistory(songId: string) {
   const { data, error } = await supabase
     .from("songs")
-    .select(`
+    .select(
+      `
       *,
       artists ( id, name ),
       albums ( id, title, cover_url ),
@@ -42,7 +45,8 @@ export async function getSongWithChartHistory(songId: string) {
         weeks_on_chart,
         chart_weeks ( start_date )
       )
-    `)
+    `,
+    )
     .eq("id", songId)
     .single();
 

@@ -129,12 +129,12 @@ export const calculateWeeklyPoints = async (overrideTargetDate?: string) => {
   const processedMetrics = calculateChartMetrics(rawScrobbles, canonicalMap);
 
   const stagedEntries = processedMetrics.map((metric) => ({
-      week_id: targetWeek.id,
-      song_id: metric.songId,
-      streams: metric.streams,
-      sales: metric.sales,
-      airplay: metric.airplay,
-      current_week_points: metric.rawPoints,
+    week_id: targetWeek.id,
+    song_id: metric.songId,
+    streams: metric.streams,
+    sales: metric.sales,
+    airplay: metric.airplay,
+    current_week_points: metric.rawPoints,
   }));
 
   console.log(`Raw points calculated for ${stagedEntries.length} unique songs.`);

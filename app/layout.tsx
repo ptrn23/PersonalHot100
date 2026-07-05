@@ -12,12 +12,10 @@ const geistSans = Geist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: `${CHART_NAME} Charts | Hot 100`,
-  description:
-    `${CHART_NAME} Charts is an algorithmic music tracking system inspired by the Billboard Hot 100. By using Last.fm scrobble data, the engine computes music performance, simulating real-life chart mechanics through weights, multipliers, and time-decay logic.`,
+  description: `${CHART_NAME} Charts is an algorithmic music tracking system inspired by the Billboard Hot 100. By using Last.fm scrobble data, the engine computes music performance, simulating real-life chart mechanics through weights, multipliers, and time-decay logic.`,
   openGraph: {
     title: `${CHART_NAME} Charts | Hot 100`,
-    description:
-      `${CHART_NAME} Charts is an algorithmic music tracking system inspired by the Billboard Hot 100. By using Last.fm scrobble data, the engine computes music performance, simulating real-life chart mechanics through weights, multipliers, and time-decay logic.`,
+    description: `${CHART_NAME} Charts is an algorithmic music tracking system inspired by the Billboard Hot 100. By using Last.fm scrobble data, the engine computes music performance, simulating real-life chart mechanics through weights, multipliers, and time-decay logic.`,
     url: "https://personal-hot-100.vercel.app",
     siteName: `${CHART_NAME} Charts`,
     images: [

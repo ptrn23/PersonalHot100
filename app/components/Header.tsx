@@ -13,7 +13,7 @@ export default function Header() {
   const [query, setQuery] = useState("");
   const [isSearching, setIsSearching] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
-  
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [results, setResults] = useState<{
     artists: any[];

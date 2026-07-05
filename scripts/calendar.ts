@@ -1,8 +1,8 @@
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const setupNextChartWeek = async (
-  supabase: any, 
-  targetWeekEndDate: string, 
-  isFinalizing: boolean
+  supabase: any,
+  targetWeekEndDate: string,
+  isFinalizing: boolean,
 ) => {
   if (!isFinalizing) {
     console.log(`Current charting week still ongoing. Skipping calendar setup.`);
@@ -40,9 +40,7 @@ export const setupNextChartWeek = async (
     throw newWeekErr;
   }
 
-  console.log(
-    `SUCCESS: Created next charting week (${newWeek.start_date} to ${newWeek.end_date})`
-  );
-  
+  console.log(`SUCCESS: Created next charting week (${newWeek.start_date} to ${newWeek.end_date})`);
+
   return newWeek;
 };

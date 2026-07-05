@@ -35,7 +35,7 @@ async function rebuildAllCertifications() {
     const { data: songs, error: songsErr } = await supabase
       .from("songs")
       .select("id, album_id, title, display_title, artists(name)")
-      .order("id") 
+      .order("id")
       .range(songFrom, songFrom + songStep - 1);
 
     if (songsErr) return;
@@ -101,7 +101,7 @@ async function rebuildAllCertifications() {
         entry.streams || 0,
         entry.sales || 0,
         entry.airplay || 0,
-        `${seedData.title}|${seedData.artist}`
+        `${seedData.title}|${seedData.artist}`,
       );
 
       songTotals.set(sId, (songTotals.get(sId) || 0) + totalUnits);

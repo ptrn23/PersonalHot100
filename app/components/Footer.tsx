@@ -23,9 +23,10 @@ export default function Footer() {
               {CHART_NAME} CHARTS
             </h4>
             <p className="mb-4 text-xs leading-relaxed font-medium text-gray-500">
-              {CHART_NAME} Charts is an algorithmic music tracking system inspired by the Billboard Hot
-              100. By using Last.fm scrobble data, the engine computes music performance, simulating
-              real-life chart mechanics through weights, multipliers, and time-decay logic.
+              {CHART_NAME} Charts is an algorithmic music tracking system inspired by the Billboard
+              Hot 100. By using Last.fm scrobble data, the engine computes music performance,
+              simulating real-life chart mechanics through weights, multipliers, and time-decay
+              logic.
             </p>
           </div>
           <div className="flex flex-col gap-1.5 rounded border border-gray-300 bg-white/50 p-3 text-[11px] font-bold tracking-wider text-gray-600 uppercase">

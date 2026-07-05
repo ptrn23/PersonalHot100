@@ -25,10 +25,10 @@ export default function ChartTrajectory({ songEntries, allGlobalWeeks }: ChartTr
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const getDate = (e: any) => e.chart_weeks?.start_date || e.start_date;
     const sortedGlobalWeeks = [...allGlobalWeeks].sort(
-      (a, b) => new Date(a).getTime() - new Date(b).getTime()
+      (a, b) => new Date(a).getTime() - new Date(b).getTime(),
     );
     const sortedEntries = [...songEntries].sort(
-      (a, b) => new Date(getDate(a)).getTime() - new Date(getDate(b)).getTime()
+      (a, b) => new Date(getDate(a)).getTime() - new Date(getDate(b)).getTime(),
     );
 
     const entryMap = new Map();
@@ -79,10 +79,10 @@ export default function ChartTrajectory({ songEntries, allGlobalWeeks }: ChartTr
     if (mode === "run" && sortedEntries.length > 0) {
       const debutDate = getDate(sortedEntries[0]);
       const lastDate = getDate(sortedEntries[sortedEntries.length - 1]);
-      
+
       const startIndex = sortedGlobalWeeks.indexOf(debutDate);
       const endIndex = sortedGlobalWeeks.indexOf(lastDate);
-      
+
       if (startIndex !== -1 && endIndex !== -1 && startIndex <= endIndex) {
         weeksToMap = sortedGlobalWeeks.slice(startIndex, endIndex + 1);
       }

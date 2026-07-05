@@ -59,8 +59,7 @@ export default async function AllTimeChartPage({
         };
       });
     }
-  } 
-  else if (section === "albums") {
+  } else if (section === "albums") {
     const topAlbums = await getAllTimeAlbums(startRange, endRange);
 
     if (topAlbums && topAlbums.length > 0) {
@@ -99,8 +98,7 @@ export default async function AllTimeChartPage({
         };
       });
     }
-  }
-  else if (section === "artists") {
+  } else if (section === "artists") {
     const topArtists = await getAllTimeArtists(startRange, endRange);
 
     if (topArtists && topArtists.length > 0) {

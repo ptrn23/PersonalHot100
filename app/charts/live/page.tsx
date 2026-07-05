@@ -63,7 +63,7 @@ export default async function LiveChartPage() {
   });
 
   const formattedDate = formatDateRange(latestWeek.start_date, latestWeek.end_date);
-  
+
   return (
     <main className="min-h-screen bg-white pb-24 text-gray-900">
       <div className="mx-auto flex max-w-[1450px] items-end justify-between px-8 pt-8">

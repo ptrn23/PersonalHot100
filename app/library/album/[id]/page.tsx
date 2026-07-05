@@ -55,7 +55,7 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
   }
 
   const allGlobalWeeks = allWeeksData.map((w) => w.start_date) || [];
-  
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const artistName = (album.artists as any)?.name || "Unknown Artist";
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -66,7 +66,7 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
   let eraRawStreams = 0;
   let eraRawSales = 0;
   let eraRawAirplay = 0;
-  
+
   let no1Hits = 0;
   let top10Hits = 0;
   let chartedSongsCount = 0;
@@ -84,7 +84,7 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
         return { ...song, chart_entries: validEntries };
       })
       .filter((song) => song.chart_entries && song.chart_entries.length > 0) || [];
-  
+
   chartedSongsCount = chartedSongs.length;
 
   chartedSongs.forEach((song) => {
@@ -120,10 +120,10 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
 
     const mathSeedString = `${song.display_title || song.title}|${artistName}`;
     const { totalUnits } = calculateDetailedUnits(
-      songTotalStreams, 
+      songTotalStreams,
       songTotalSales,
       songTotalAirplay,
-      mathSeedString
+      mathSeedString,
     );
 
     eraTotalPoints += songTotalPoints;
@@ -147,12 +147,12 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
   });
 
   const albumMathSeed = `${albumTitle}|${artistName}`;
-  
+
   const { totalUnits: eraTotalUnits } = calculateDetailedUnits(
     eraRawStreams,
     eraRawSales,
     eraRawAirplay,
-    albumMathSeed
+    albumMathSeed,
   );
 
   albumTracks.sort((a, b) => {
@@ -234,11 +234,13 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
     airplay: entry.airplay || 0,
   }));
 
-  const albumMaxStats = historyEntriesForList.length > 0 
-    ? calculateMaxStats(historyEntriesForList) 
-    : { sales: 0, streams: 0, airplay: 0, units: 0 };
+  const albumMaxStats =
+    historyEntriesForList.length > 0
+      ? calculateMaxStats(historyEntriesForList)
+      : { sales: 0, streams: 0, airplay: 0, units: 0 };
 
-  const albumDebutDate = enrichedAlbumHistory.length > 0 ? enrichedAlbumHistory[0].start_date : null;
+  const albumDebutDate =
+    enrichedAlbumHistory.length > 0 ? enrichedAlbumHistory[0].start_date : null;
   const albumPeakEntry = enrichedAlbumHistory.find((e) => e.rank === albumPeak);
   const albumFirstPeakDate = albumPeakEntry?.start_date;
   const albumHighestStreak = Math.max(
