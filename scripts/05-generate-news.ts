@@ -163,7 +163,7 @@ const detectMovements = (currentChart: any[], weekId: string): NewsItem[] => {
     if (woc === 1) {
       eventType = "DEBUT";
       headline = `“${title}” by ${artist} debuts at #${rank} in Personal Hot 100.`;
-      subtext = `Personal Hot 100: #${rank}(new) ${title}, ${artist} [1 week]. *new peak*`;
+      subtext = `Personal Hot 100: #${rank}(new) ${title}, ${artist}.*`;
       priority = rank <= 10 ? 8 : rank <= 40 ? 5 : 3;
     }
     // re-entries 
