@@ -3,7 +3,7 @@ import Link from "next/link";
 import ChartRow from "../../../components/ChartRow";
 import { DisplayEntry, MaxStats } from "@/types";
 import { calculateDetailedUnits, calculateMaxStats } from "@/utils/metrics";
-import { formatNumber, formatFullDate, formatShortDate } from "@/utils/formatters";
+import { formatNumber, formatFullDate, formatShortDate, formatMilestone } from "@/utils/formatters";
 import ChartTrajectory from "../../../components/ChartTrajectory";
 import { Metadata } from "next";
 
@@ -278,7 +278,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
 
   const highestCert = sortedCerts[0];
   const certifiedUnits = highestCert
-    ? formatNumber(getWeight(highestCert.award_name, highestCert.multiplier))
+    ? formatMilestone(getWeight(highestCert.award_name, highestCert.multiplier))
     : "0";
 
   const formatCertTitle = (award: string, multi: number) => {

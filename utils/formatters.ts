@@ -13,6 +13,22 @@ export const formatNumber = (num: number): string => {
   return (num / 1_000).toFixed(1) + "k";
 };
 
+export const formatMilestone = (num: number): string => {
+  if (!num || num === 0) return "0";
+  
+  if (num >= 1_000_000_000) {
+    return Math.floor(num / 1_000_000_000) + " Billion";
+  }
+  if (num >= 1_000_000) {
+    return Math.floor(num / 1_000_000) + " Million";
+  }
+  if (num >= 1_000) {
+    return Math.floor(num / 1_000) + " Thousand";
+  }
+  
+  return num.toLocaleString("en-US");
+};
+
 export const formatOrdinal = (num: number): string => {
   if (!num) return "0th";
   

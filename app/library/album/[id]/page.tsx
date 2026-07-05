@@ -8,7 +8,7 @@ import ChartTrajectory from "../../../components/ChartTrajectory";
 
 import { CASUAL_RED, CASUAL_BLACK, CASUAL_WHITE } from "@/config/theme";
 import { CHART_NAME } from "@/config/constants";
-import { formatNumber, formatFullDate, formatShortDate } from "@/utils/formatters";
+import { formatNumber, formatFullDate, formatShortDate, formatMilestone } from "@/utils/formatters";
 
 type Props = {
   params: Promise<{ id: string }>;
@@ -315,7 +315,7 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
 
   const highestCert = sortedCerts[0];
   const certifiedUnits = highestCert
-    ? formatNumber(getWeight(highestCert.award_name, highestCert.multiplier))
+    ? formatMilestone(getWeight(highestCert.award_name, highestCert.multiplier))
     : "0";
 
   const formatCertTitle = (award: string, multi: number) => {
