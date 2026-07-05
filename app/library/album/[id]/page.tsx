@@ -63,7 +63,10 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
   const albumTitle = album.title;
 
   let eraTotalPoints = 0;
-  let eraTotalUnits = 0;
+  let eraRawStreams = 0;
+  let eraRawSales = 0;
+  let eraRawAirplay = 0;
+  
   let no1Hits = 0;
   let top10Hits = 0;
   let chartedSongsCount = 0;
@@ -117,16 +120,16 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
 
     const mathSeedString = `${song.display_title || song.title}|${artistName}`;
     const { totalUnits } = calculateDetailedUnits(
-      songTotalStreams,
+      songTotalStreams, 
       songTotalSales,
       songTotalAirplay,
       mathSeedString
     );
 
-    const songUnits = totalUnits;
-
     eraTotalPoints += songTotalPoints;
-    eraTotalUnits += songUnits;
+    eraRawStreams += songTotalStreams;
+    eraRawSales += songTotalSales;
+    eraRawAirplay += songTotalAirplay;
 
     if (peakPos === 1) no1Hits++;
     if (peakPos <= 10) top10Hits++;
@@ -142,6 +145,15 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
       totalPoints: songTotalPoints,
     });
   });
+
+  const albumMathSeed = `${albumTitle}|${artistName}`;
+  
+  const { totalUnits: eraTotalUnits } = calculateDetailedUnits(
+    eraRawStreams,
+    eraRawSales,
+    eraRawAirplay,
+    albumMathSeed
+  );
 
   albumTracks.sort((a, b) => {
     if (b.woc !== a.woc) return b.woc - a.woc;
@@ -333,7 +345,7 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
               style={{ borderColor: CASUAL_RED }}
             >
               <span className="mb-1 text-6xl leading-none font-black tracking-tighter text-white">
-                {formatNumber(eraTotalPoints)}
+                {eraTotalPoints}
               </span>
               <span className="mt-2 w-3/4 border-t border-gray-700 pt-2 text-center text-[10px] font-bold tracking-widest text-gray-300 uppercase">
                 All-Time Era Points
