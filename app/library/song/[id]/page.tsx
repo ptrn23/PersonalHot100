@@ -284,7 +284,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
               style={{ borderColor: CASUAL_RED }}
             >
               <span className="mb-1 text-6xl leading-none font-black tracking-tighter text-white">
-                {formatNumber(totalPoints)}
+                {totalPoints}
               </span>
               <span className="mt-2 w-3/4 border-t border-gray-700 pt-2 text-center text-[10px] font-bold tracking-widest text-gray-300 uppercase">
                 All-Time Points
