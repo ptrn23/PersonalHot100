@@ -151,59 +151,73 @@ const detectMovements = (currentChart: any[], weekId: string): NewsItem[] => {
     const isNewPeak = entry.is_new_peak;
     const peak = entry.peak_position;
 
+    const jump = prev ? prev - rank : null;
+    const moveStr = jump !== null ? (jump > 0 ? `+${jump}` : jump < 0 ? `${jump}` : "=") : "re";
+    
+    const peakStr = isNewPeak ? "*new peak*" : `*peak: #${peak}*`;
+    const subtext = `Personal Hot 100: #${rank}(${moveStr}) ${title}, ${artist} [${woc} weeks]. ${peakStr}`;
+
     let headline = "";
-    let subtext = "";
     let eventType = "";
     let priority = 0;
 
-    const jump = prev ? prev - rank : null;
-    const moveStr = jump !== null ? (jump > 0 ? `+${jump}` : jump < 0 ? `${jump}` : "=") : "re";
+    const thresholds = [5, 10, 20, 50];
+    let crossedThreshold: number | null = null;
+    for (const t of thresholds) {
+      if (rank <= t && (!prev || prev > t)) {
+        crossedThreshold = t;
+        break;
+      }
+    }
 
     // debuts
     if (woc === 1) {
       eventType = "DEBUT";
       headline = `“${title}” by ${artist} debuts at #${rank} in Personal Hot 100.`;
-      subtext = `Personal Hot 100: #${rank}(new) ${title}, ${artist}.*`;
       priority = rank <= 10 ? 8 : rank <= 40 ? 5 : 3;
-    }
-    // re-entries 
+    } 
+    // re-entries
     else if (!prev && woc > 1) {
-      if (isNewPeak) {
+      if (crossedThreshold) {
+        eventType = `RE_ENTRY_TOP_${crossedThreshold}`;
+        headline = `“${title}” by ${artist} reenters inside the top ${crossedThreshold} of Personal Hot 100 at #${rank}.`;
+        priority = crossedThreshold <= 10 ? 7 : 5;
+      } else if (isNewPeak) {
         eventType = "RE_ENTRY_NEW_PEAK";
         headline = `“${title}” by ${artist} reaches a new peak in Personal Hot 100, reentering at #${rank}.`;
-        subtext = `Personal Hot 100: #${rank}(re) ${title}, ${artist} [${woc} weeks]. *new peak*`;
         priority = rank <= 20 ? 7 : 4;
       } else {
         eventType = "RE_ENTRY";
         headline = `“${title}” by ${artist} reenters Personal Hot 100 at #${rank}.`;
-        subtext = `Personal Hot 100: #${rank}(re) ${title}, ${artist} [${woc} weeks]. *peak: #${peak}*`;
         priority = rank <= 40 ? 6 : 3;
       }
+    } 
+    // climbs crossing a threshold
+    else if (jump && jump > 0 && crossedThreshold) {
+      eventType = `ENTER_TOP_${crossedThreshold}`;
+      headline = `“${title}” by ${artist} climbs inside the top ${crossedThreshold} of Personal Hot 100, rising ${jump} spots to #${rank}.`;
+      priority = crossedThreshold <= 10 ? 7 : 5;
     }
     // new peaks
     else if (isNewPeak) {
       eventType = "NEW_PEAK";
-      headline =
-        jump && jump > 0
-          ? `“${title}” by ${artist} reaches a new peak in Personal Hot 100, rising ${jump} spots to #${rank}.`
-          : `“${title}” by ${artist} reaches a new peak in Personal Hot 100 at #${rank}.`;
-      subtext = `Personal Hot 100: #${rank}(${moveStr}) ${title}, ${artist} [${woc} weeks]. *new peak*`;
+      headline = jump && jump > 0
+        ? `“${title}” by ${artist} reaches a new peak in Personal Hot 100, rising ${jump} spots to #${rank}.`
+        : `“${title}” by ${artist} reaches a new peak in Personal Hot 100 at #${rank}.`;
       priority = rank <= 20 ? 7 : 4;
-    }
-    // yearly milestones (52 weeks, 104 weeks, etc.) 
+    } 
+    // yearly milestones
     else if (woc % 52 === 0) {
       eventType = "YEARLY_MILESTONE";
       const years = woc / 52;
       const yearText = years === 1 ? "one year" : `${years} years`;
       headline = `“${title}” by ${artist} has now completed ${yearText} (${woc} weeks of charting) in Personal Hot 100.`;
-      subtext = `Personal Hot 100: #${rank}(${moveStr}) ${title}, ${artist} [${woc} weeks]. *peak: #${peak}*`;
-      priority = 9;
+      priority = 9; 
     }
     // milestone weeks
     else if (woc % 10 === 0) {
       eventType = "MILESTONE";
       headline = `“${title}” by ${artist} spends its ${formatOrdinal(woc)} week in Personal Hot 100 this week.`;
-      subtext = `Personal Hot 100: #${rank}(${moveStr}) ${title}, ${artist} [${woc} weeks]. *peak: #${peak}*`;
       priority = woc >= 50 ? 9 : 6;
     }
 
