@@ -1,8 +1,9 @@
 import { ImageResponse } from "next/og";
-import { supabase } from "@/utils/supabase";
 import { promises as fs } from "fs";
 import path from "path";
 import { CHART_NAME } from "@/config/constants";
+
+import { getAlbumMetadata } from "@/lib/db/albums";
 
 export const alt = "Album Chart Performance";
 export const size = { width: 1200, height: 600 };
@@ -14,12 +15,7 @@ export default async function Image({ params }: { params: Promise<{ id: string }
   const fontPath = path.join(process.cwd(), "public", "fonts", "Geist-Black.ttf");
   const fontData = await fs.readFile(fontPath);
 
-  const { data: album } = await supabase
-    .from("albums")
-    .select("title, cover_url, artists(name)")
-    .eq("id", resolvedParams.id)
-    .single();
-
+  const album = await getAlbumMetadata(resolvedParams.id);
   const title = album?.title || "Unknown Album";
   const artistName = (album?.artists as any)?.name || "Unknown Artist";
   const coverUrl = album?.cover_url;
