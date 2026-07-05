@@ -434,7 +434,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
 
                           <BadgeCheck className="ml-1 h-5 w-5 shrink-0 fill-[#B30000] text-white" />
 
-                          <span className="ml-1 truncate">@{CHART_HANDLE}</span>
+                          <span className="ml-1 truncate">{CHART_HANDLE}</span>
                           <span className="mx-1.5">·</span>
                           <span className="shrink-0 hover:underline">
                             {new Date(news.chart_weeks?.start_date).toLocaleDateString("en-US", {
@@ -452,7 +452,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
 
                       <div className="mt-1 text-[15px] leading-normal text-gray-900">
                         <p>{news.headline}</p>
-                        {news.subtext && <p className="mt-2">{news.subtext}</p>}
+                        {news.subtext && <p className="mt-2 whitespace-pre-wrap">{news.subtext}</p>}
                       </div>
 
                       <div className="mt-3 flex w-full items-center justify-between text-gray-500">
