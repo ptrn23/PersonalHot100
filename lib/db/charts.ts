@@ -68,3 +68,39 @@ export async function getWeeklyAlbumsByWeekId(weekId: string, limit: number = 20
   }
   return data || [];
 }
+
+export async function getAllTimeSongs(startRange: number, endRange: number) {
+  const { data, error } = await supabase
+    .from("all_time_song_stats")
+    .select("*")
+    .order("total_points", { ascending: false })
+    .range(startRange, endRange);
+
+  if (error) {
+    console.error("Error fetching all-time songs:", error);
+    return [];
+  }
+  return data || [];
+}
+
+export async function getAllTimeAlbums(startRange: number, endRange: number) {
+  const { data, error } = await supabase
+    .from("all_time_album_stats")
+    .select("*")
+    .order("total_points", { ascending: false })
+    .range(startRange, endRange);
+
+  if (error) return [];
+  return data || [];
+}
+
+export async function getAllTimeArtists(startRange: number, endRange: number) {
+  const { data, error } = await supabase
+    .from("all_time_artist_stats")
+    .select("*")
+    .order("total_points", { ascending: false })
+    .range(startRange, endRange);
+
+  if (error) return [];
+  return data || [];
+}

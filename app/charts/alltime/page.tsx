@@ -1,7 +1,8 @@
-import { supabase } from "@/utils/supabase";
 import Link from "next/link";
 import ChartView from "../../components/ChartView";
 import { DisplayEntry } from "@/types";
+
+import { getAllTimeSongs, getAllTimeAlbums, getAllTimeArtists } from "@/lib/db/charts";
 
 export const dynamic = "force-dynamic";
 
@@ -21,13 +22,9 @@ export default async function AllTimeChartPage({
   let mappedEntries: DisplayEntry[] = [];
 
   if (section === "songs") {
-    const { data: topSongs } = await supabase
-      .from("all_time_song_stats")
-      .select("*")
-      .order("total_points", { ascending: false })
-      .range(startRange, endRange);
+    const topSongs = await getAllTimeSongs(startRange, endRange);
 
-    if (topSongs) {
+    if (topSongs && topSongs.length > 0) {
       mappedEntries = topSongs.map((row, index) => {
         const title = row.display_title || row.title || "Unknown Song";
         const artist = row.artist_display_name || row.artist_name || "Unknown Artist";
