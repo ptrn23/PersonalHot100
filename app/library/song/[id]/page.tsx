@@ -416,7 +416,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
           <div className="overflow-hidden border border-gray-200 bg-white shadow-sm">
             {songNews.length > 0 ? (
               <div className="flex flex-col">
-                {songNews.slice(0, 10).map((news, i) => (
+                {songNews.slice(0, 50).map((news, i) => (
                   <div
                     key={i}
                     className="flex cursor-pointer flex-row border-b border-gray-200 p-4 transition-colors hover:bg-gray-50"
