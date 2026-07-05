@@ -114,6 +114,14 @@ const detectCertifications = async (weekId: string): Promise<NewsItem[]> => {
     if (!title || !artist) return;
 
     const awardString = cert.multiplier > 1 ? `${cert.multiplier}x ${cert.award_name}` : cert.award_name;
+    
+    let baseValue = 0;
+    if (cert.award_name === "Diamond") baseValue = 10000000;
+    if (cert.award_name === "Platinum") baseValue = 1000000;
+    if (cert.award_name === "Gold") baseValue = 500000;
+    
+    const totalRequired = baseValue * cert.multiplier;
+    const formattedUnits = totalRequired.toLocaleString("en-US");
 
     news.push({
       week_id: weekId,
@@ -121,7 +129,7 @@ const detectCertifications = async (weekId: string): Promise<NewsItem[]> => {
       entity_type: cert.entity_type,
       entity_id: isSong ? cert.song_id : cert.album_id,
       headline: `${artist}'s "${title}" is now certified ${awardString} in Personal Charts.`,
-      subtext: `Awarded for crossing milestone units.`,
+      subtext: `Awarded for selling over ${formattedUnits} units worldwide.`,
       priority: cert.award_name === "Diamond" ? 9 : cert.award_name === "Platinum" ? 7 : 5,
     });
   });
