@@ -1,7 +1,6 @@
 import Link from "next/link";
 import ChartView from "../../components/ChartView";
 import { DisplayEntry } from "@/types";
-
 import { getAllTimeSongs, getAllTimeAlbums, getAllTimeArtists } from "@/lib/db/charts";
 
 export const dynamic = "force-dynamic";
@@ -41,6 +40,85 @@ export default async function AllTimeChartPage({
           secondaryHref: row.artist_id ? `/library/artist/${row.artist_id}` : null,
 
           mathSeedString: `${title}|${artist}`,
+          disableDropdown: true,
+          hideRankChange: true,
+
+          isNewPeak: false,
+          isRePeak: false,
+          peakPosition: row.peak_position || 101,
+          peakStreak: row.peak_streak || null,
+          weeksOnChart: row.weeks_on_chart || 1,
+
+          totalPoints: row.total_points || 0,
+          currentWeekPoints: 0,
+          previousWeekRawPoints: null,
+          twoWeeksAgoRawPoints: null,
+          sales: row.sales || 0,
+          streams: row.streams || 0,
+          airplay: row.airplay || 0,
+        };
+      });
+    }
+  } 
+  else if (section === "albums") {
+    const topAlbums = await getAllTimeAlbums(startRange, endRange);
+
+    if (topAlbums && topAlbums.length > 0) {
+      mappedEntries = topAlbums.map((row, index) => {
+        const title = row.title || "Unknown Album";
+        const artist = row.artist_name || "Unknown Artist";
+
+        return {
+          id: row.id,
+          rank: startRange + index + 1,
+          previousRank: null,
+
+          coverUrl: row.cover_url || null,
+          primaryText: title,
+          primaryHref: row.id ? `/library/album/${row.id}` : null,
+          secondaryText: artist,
+          secondaryHref: row.artist_id ? `/library/artist/${row.artist_id}` : null,
+
+          mathSeedString: `${title}|${artist}`,
+          disableDropdown: true,
+          hideRankChange: true,
+
+          isNewPeak: false,
+          isRePeak: false,
+          peakPosition: row.peak_position || 101,
+          peakStreak: row.peak_streak || null,
+          weeksOnChart: row.weeks_on_chart || 1,
+
+          totalPoints: row.total_points || 0,
+          currentWeekPoints: 0,
+          previousWeekRawPoints: null,
+          twoWeeksAgoRawPoints: null,
+          sales: row.sales || 0,
+          streams: row.streams || 0,
+          airplay: row.airplay || 0,
+        };
+      });
+    }
+  }
+  else if (section === "artists") {
+    const topArtists = await getAllTimeArtists(startRange, endRange);
+
+    if (topArtists && topArtists.length > 0) {
+      mappedEntries = topArtists.map((row, index) => {
+        const name = row.name || "Unknown Artist";
+
+        return {
+          id: row.id,
+          rank: startRange + index + 1,
+          previousRank: null,
+
+          coverUrl: null,
+          primaryText: name,
+          primaryHref: row.id ? `/library/artist/${row.id}` : null,
+          secondaryText: null,
+          secondaryHref: null,
+
+          mathSeedString: `${name}|Artist`,
           disableDropdown: true,
           hideRankChange: true,
 
@@ -109,49 +187,34 @@ export default async function AllTimeChartPage({
         </p>
       </div>
 
-      {section === "songs" && (
-        <>
-          <ChartView
-            entries={mappedEntries}
-            hideRankChangeColumn={true}
-            chartLabel="All-Time"
-            exportFileNamePrefix={`AllTime_Songs_Page${currentPage}`}
-          />
+      <ChartView
+        entries={mappedEntries}
+        hideRankChangeColumn={true}
+        chartLabel="All-Time"
+        exportFileNamePrefix={`AllTime_${section.charAt(0).toUpperCase() + section.slice(1)}_Page${currentPage}`}
+      />
 
-          <div className="mx-auto mt-8 flex max-w-[1450px] items-center justify-between px-8">
-            {currentPage > 1 ? (
-              <Link
-                href={`/charts/alltime?section=songs&page=${currentPage - 1}`}
-                className="border-2 border-gray-200 bg-white px-6 py-3 text-xs font-bold tracking-widest uppercase transition-colors hover:border-black"
-              >
-                &larr; Prev 100
-              </Link>
-            ) : (
-              <div />
-            )}
+      <div className="mx-auto mt-8 flex max-w-[1450px] items-center justify-between px-8">
+        {currentPage > 1 ? (
+          <Link
+            href={`/charts/alltime?section=${section}&page=${currentPage - 1}`}
+            className="border-2 border-gray-200 bg-white px-6 py-3 text-xs font-bold tracking-widest uppercase transition-colors hover:border-black"
+          >
+            &larr; Prev 100
+          </Link>
+        ) : (
+          <div />
+        )}
 
-            {/* only show next page if we actually fetched a full 100 items */}
-            {mappedEntries.length === 100 && (
-              <Link
-                href={`/charts/alltime?section=songs&page=${currentPage + 1}`}
-                className="bg-black px-6 py-3 text-xs font-bold tracking-widest text-white uppercase transition-colors hover:bg-gray-800"
-              >
-                Next 100 &rarr;
-              </Link>
-            )}
-          </div>
-        </>
-      )}
-
-      {(section === "albums" || section === "artists") && (
-        <div className="mx-auto mt-8 max-w-[1450px] px-8">
-          <div className="border-2 border-dashed border-gray-300 bg-white p-24 text-center">
-            <p className="text-lg font-bold tracking-widest text-gray-400 uppercase">
-              Coming soon...
-            </p>
-          </div>
-        </div>
-      )}
+        {mappedEntries.length === 100 && (
+          <Link
+            href={`/charts/alltime?section=${section}&page=${currentPage + 1}`}
+            className="bg-black px-6 py-3 text-xs font-bold tracking-widest text-white uppercase transition-colors hover:bg-gray-800"
+          >
+            Next 100 &rarr;
+          </Link>
+        )}
+      </div>
     </main>
   );
 }
