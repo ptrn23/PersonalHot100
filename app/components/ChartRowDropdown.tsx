@@ -1,7 +1,8 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
-import { Share2, Ticket, LineChart, Copy } from "lucide-react";
+import { Share2, Ticket, LineChart, Copy, Check } from "lucide-react";
 import { formatNumber } from "@/utils/formatters";
 import { calculateDetailedUnits } from "@/utils/metrics";
 import { DisplayEntry } from "@/types";
@@ -26,6 +27,9 @@ export default function ChartRowDropdown({
   chartLabel?: string;
   onOpenModal: () => void;
 }) {
+  const [copiedNews, setCopiedNews] = useState(false);
+  const [copiedCaption, setCopiedCaption] = useState(false);
+
   const movementStr = getMovementStr(entry.rank, entry.previousRank);
 
   const { streamsUnits, salesUnits, airplayUnits } = calculateDetailedUnits(
@@ -46,15 +50,24 @@ export default function ChartRowDropdown({
     statusPhrase = `reaches a new peak of #${entry.rank} on the ${CHART_HANDLE} Hot 100 this week`;
   }
   
-  const newsFeedText = `${CHART_HANDLE} Hot 100 (chart dated ${week})
+  const newsFeedText = `${CHART_HANDLE} Hot 100 (chart dated ${week})\n\n#${entry.rank} ${movementStr}: ${entry.primaryText} — ${entry.secondaryText}`;
 
-#${entry.rank} ${movementStr}: ${entry.primaryText} — ${entry.secondaryText}`;
+  const captionText = `"${entry.primaryText}" by ${entry.secondaryText} ${statusPhrase}, with ${entry.totalPoints?.toLocaleString("en-US")} points!\n\nSales: ${formatNumber(salesUnits).toUpperCase()}\nStreams: ${formatNumber(streamsUnits).toUpperCase()}\nRadio: ${formatNumber(airplayUnits).toUpperCase()}`;
 
-  const captionText = `"${entry.primaryText}" by ${entry.secondaryText} ${statusPhrase}, with ${entry.totalPoints?.toLocaleString("en-US")} points!
-
-Sales: ${formatNumber(salesUnits).toUpperCase()}
-Streams: ${formatNumber(streamsUnits).toUpperCase()}
-Radio: ${formatNumber(airplayUnits).toUpperCase()}`;
+  const handleCopy = async (text: string, type: 'news' | 'caption') => {
+    try {
+      await navigator.clipboard.writeText(text);
+      if (type === 'news') {
+        setCopiedNews(true);
+        setTimeout(() => setCopiedNews(false), 2000);
+      } else {
+        setCopiedCaption(true);
+        setTimeout(() => setCopiedCaption(false), 2000);
+      }
+    } catch (err) {
+      console.error("Failed to copy text: ", err);
+    }
+  };
 
   return (
     <div className="cursor-default overflow-hidden border-t border-gray-100 bg-white px-8 py-5 text-sm shadow-inner">
@@ -159,16 +172,24 @@ Radio: ${formatNumber(airplayUnits).toUpperCase()}`;
           
           <div className="relative group flex h-[120px] rounded-lg border border-gray-300 bg-gray-50 p-3 text-xs text-gray-700 shadow-sm overflow-y-auto">
             <pre className="whitespace-pre-wrap font-sans select-all">{newsFeedText}</pre>
-            <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity bg-white border border-gray-200 p-1 rounded shadow-sm text-gray-400">
-              <Copy size={14} />
-            </div>
+            <button 
+              onClick={() => handleCopy(newsFeedText, 'news')}
+              className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-all bg-white border border-gray-200 p-1.5 rounded shadow-sm text-gray-400 hover:text-gray-700 hover:bg-gray-100"
+              title="Copy to clipboard"
+            >
+              {copiedNews ? <Check size={14} className="text-green-500" /> : <Copy size={14} />}
+            </button>
           </div>
           
           <div className="relative group flex h-[120px] rounded-lg border border-gray-300 bg-gray-50 p-3 text-xs text-gray-700 shadow-sm overflow-y-auto">
             <pre className="whitespace-pre-wrap font-sans select-all">{captionText}</pre>
-            <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity bg-white border border-gray-200 p-1 rounded shadow-sm text-gray-400">
-              <Copy size={14} />
-            </div>
+            <button 
+              onClick={() => handleCopy(captionText, 'caption')}
+              className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-all bg-white border border-gray-200 p-1.5 rounded shadow-sm text-gray-400 hover:text-gray-700 hover:bg-gray-100"
+              title="Copy to clipboard"
+            >
+              {copiedCaption ? <Check size={14} className="text-green-500" /> : <Copy size={14} />}
+            </button>
           </div>
 
           <div className="flex flex-col gap-3">
