@@ -1,12 +1,26 @@
 import Link from "next/link";
-import { getLatestChartWeek, getChartEntriesByWeekId, getAllChartWeeks } from "@/lib/db/charts";
+import { getChartEntriesByWeekId, getAllChartWeeks } from "@/lib/db/charts";
 import { Play, Shuffle, ArrowDownToLine, MoreHorizontal, Calendar } from "lucide-react";
 import { formatDateRange } from "@/utils/formatters";
-import { calculateUnits, calculateDetailedUnits } from "@/utils/metrics";
+import { calculateDetailedUnits } from "@/utils/metrics";
+import WeekSelector from "../../components/WeekSelector";
 
-export default async function StreamifyPage() {
+type StreamifyPageProps = {
+  searchParams: Promise<{ week?: string }>;
+};
+
+export default async function StreamifyPage({ searchParams }: StreamifyPageProps) {
+  const resolvedParams = await searchParams;
+  const selectedWeekStr = resolvedParams?.week;
+
   const allWeeks = await getAllChartWeeks();
-  const targetWeek = allWeeks[1] || allWeeks[0];
+
+  const historicalWeeks = allWeeks.filter((w, idx) => idx > 0);
+
+  let targetWeek = historicalWeeks.find((w) => w.start_date === selectedWeekStr);
+  if (!targetWeek) {
+    targetWeek = historicalWeeks[0] || allWeeks[0];
+  }
 
   if (!targetWeek) {
     return (
@@ -58,10 +72,13 @@ export default async function StreamifyPage() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-2">
-            <span className="text-xs font-black tracking-widest text-[#1ed760] uppercase">
-              Verified Playlist
-            </span>
+          <div className="flex w-full flex-col gap-2 md:w-auto md:flex-1">
+            <div className="flex flex-wrap items-center justify-between gap-4">
+              <span className="text-xs font-black tracking-widest text-[#1ed760] uppercase">
+                Verified Playlist
+              </span>
+            </div>
+
             <h1 className="text-5xl font-black tracking-tighter text-white uppercase md:text-7xl">
               Top Songs - Global
             </h1>
@@ -73,16 +90,19 @@ export default async function StreamifyPage() {
               <span>•</span>
               <span>{streamifyEntries.length} songs</span>
               <span>•</span>
+              <span className="text-gray-400">{formattedDateRange}</span>
+              <span>•</span>
               {newEntriesCount > 0 && (
                 <>
                   <div className="flex items-center gap-1.5">
                     <span className="h-2 w-2 rounded-full bg-blue-500 shadow-[0_0_8px_rgba(59,130,246,0.8)]" />
-                    <span className="text-blue-400 font-bold">{newEntriesCount} new {newEntriesCount === 1 ? 'entry' : 'entries'}</span>
+                    <span className="font-bold text-blue-400">
+                      {newEntriesCount} new {newEntriesCount === 1 ? "entry" : "entries"}
+                    </span>
                   </div>
-                  <span>•</span>
                 </>
               )}
-              <span className="text-gray-400">{formattedDateRange}</span>
+              
             </div>
           </div>
         </div>
@@ -104,6 +124,14 @@ export default async function StreamifyPage() {
             <button className="text-gray-400 transition-colors hover:text-white">
               <MoreHorizontal size={22} />
             </button>
+          </div>
+
+          <div className="pb-1">
+            <WeekSelector
+              weeks={historicalWeeks}
+              activeWeek={targetWeek.start_date}
+              destination="/charts/streamify"
+            />
           </div>
         </div>
 
@@ -137,7 +165,10 @@ export default async function StreamifyPage() {
                       <div className="flex flex-col items-center justify-center">
                         <span>{rank}</span>
                         {isNewEntry && (
-                          <span className="mt-0.5 h-1.5 w-1.5 rounded-full bg-blue-500 shadow-[0_0_6px_rgba(59,130,246,0.9)]" title="New Entry" />
+                          <span
+                            className="mt-0.5 h-1.5 w-1.5 rounded-full bg-blue-500 shadow-[0_0_6px_rgba(59,130,246,0.9)]"
+                            title="New Entry"
+                          />
                         )}
                       </div>
                     </td>
