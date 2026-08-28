@@ -16,9 +16,14 @@ type ChartTrajectoryProps = {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   songEntries: any[];
   allGlobalWeeks: string[];
+  maxRank?: number;
 };
 
-export default function ChartTrajectory({ songEntries, allGlobalWeeks }: ChartTrajectoryProps) {
+export default function ChartTrajectory({ 
+  songEntries, 
+  allGlobalWeeks,
+  maxRank = 100
+}: ChartTrajectoryProps) {
   const [mode, setMode] = useState<"compact" | "run" | "full">("run");
 
   const chartData = useMemo(() => {
@@ -179,7 +184,7 @@ export default function ChartTrajectory({ songEntries, allGlobalWeeks }: ChartTr
 
             <YAxis
               reversed={true}
-              domain={[1, 100]}
+              domain={[1, maxRank]}
               tick={{ fontSize: 12, fontWeight: "black", fill: "#000000" }}
               axisLine={false}
               tickLine={false}

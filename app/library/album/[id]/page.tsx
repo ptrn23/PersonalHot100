@@ -425,7 +425,7 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
               </h2>
             </div>
             <div className="rounded-lg border-2 border-gray-200 bg-white p-6 pt-8 shadow-sm">
-              <ChartTrajectory songEntries={enrichedAlbumHistory} allGlobalWeeks={allGlobalWeeks} />
+              <ChartTrajectory songEntries={enrichedAlbumHistory} allGlobalWeeks={allGlobalWeeks} maxRank={20} />
             </div>
           </div>
         )}

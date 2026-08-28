@@ -457,6 +457,7 @@ export default async function ArtistPage({
               <ChartTrajectory
                 songEntries={enrichedArtistHistory}
                 allGlobalWeeks={allGlobalWeeks}
+                maxRank={20}
               />
             </div>
           </div>
