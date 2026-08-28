@@ -1,5 +1,10 @@
-export const CHART_NAME = "Personal";
-export const CHART_HANDLE = "@personalhot100";
+export const CHART_NAME = "So Casual";
+export const CHART_HANDLE = "@socasualcharts";
+export const BASE_URL = "https://socasualcharts.vercel.app";
+
+export const COMPONENT_STREAMS = "Streamify";
+export const COMPONENT_SALES = "iSales";
+export const COMPONENT_AIRPLAY = "Air.FM";
 
 export const NEWS_FEED_LIMIT = 10;
 export const CHART_POSITIONS = 100;
