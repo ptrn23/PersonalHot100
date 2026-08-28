@@ -60,7 +60,7 @@ export async function getLiveChartEntriesByWeekId(weekId: string, limit: number 
     .select(
       `
       *,
-      songs ()
+      songs (
         id,
         title,
         display_title,
