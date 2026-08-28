@@ -13,6 +13,9 @@ export const finalizeChartPositions = async (
 ) => {
   console.log("\nRunning finalize chart positions...");
 
+  const targetTable = isFinalizing ? "chart_entries" : "live_chart_entries";
+  console.log(`MODE: ${isFinalizing ? "FINALIZING (chart_entries)" : "LIVE TRACKING (live_chart_entries)"}`);
+
   let targetWeek;
 
   if (overrideTargetDate) {
@@ -41,10 +44,10 @@ export const finalizeChartPositions = async (
   }
 
   console.log(`Target Week: ${targetWeek.start_date} to ${targetWeek.end_date}`);
-  console.log("Cleaning up existing chart entries for the target week...");
+  console.log(`Cleaning up existing entries in ${targetTable} for the target week...`);
 
   const { error: deleteError, count: deletedCount } = await supabase
-    .from("chart_entries")
+    .from(targetTable)
     .delete({ count: "exact" })
     .eq("week_id", targetWeek.id);
 
@@ -53,8 +56,8 @@ export const finalizeChartPositions = async (
     return;
   }
 
-  console.log(`Cleanup complete: Removed ${deletedCount || 0} existing entries for this week.\n`);
-  console.log("Fetching historical weeks for momentum calculation...");
+  console.log(`Cleanup complete: Removed ${deletedCount || 0} existing entries.\n`);
+  
   if (!cachedFinalizeCanonicalMap) {
     console.log("Fetching canonical dictionary for finalization...");
     const { data: songPointers } = await supabase
@@ -191,8 +194,7 @@ export const finalizeChartPositions = async (
   }
 
   if (top100.length === 0) return;
-  console.log("Fetching historical baseline for the Top 100...");
-
+  
   const globalHistory: Record<string, any> = {};
 
   await Promise.all(
@@ -260,14 +262,19 @@ export const finalizeChartPositions = async (
     });
   });
 
-  console.log("Saving Top 100 to the database...");
+  console.log(`Saving Top 100 to ${targetTable}...`);
   const { error: insertError } = await supabase
-    .from("chart_entries")
+    .from(targetTable)
     .upsert(finalTop100ToInsert, { onConflict: "week_id, song_id" });
 
   if (insertError) {
-    console.error("Failed to insert Top 100:", insertError);
+    console.error(`Failed to insert Top 100 into ${targetTable}:`, insertError);
   } else {
-    console.log(`SUCCESS: Chart finalized for week of ${targetWeek.start_date}!`);
+    console.log(`SUCCESS: Chart saved to ${targetTable}!`);
+    
+    if (isFinalizing) {
+      console.log("Week finalized! Wiping live_chart_entries for the current week to maintain cleanliness...");
+      await supabase.from("live_chart_entries").delete().eq("week_id", targetWeek.id);
+    }
   }
 };
