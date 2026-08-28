@@ -594,7 +594,7 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
         <div className="mb-16">
           <div className="mb-6 bg-black p-4">
             <h2 className="text-3xl font-black tracking-tighter text-white uppercase">
-              Certifications
+              So Casual Certifications™
             </h2>
           </div>
 

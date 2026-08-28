@@ -640,7 +640,7 @@ export default async function ArtistPage({
         <div className="mb-16">
           <div className="mb-6 bg-black p-4">
             <h2 className="text-3xl font-black tracking-tighter text-white uppercase">
-              Certifications
+              So Casual Certifications™
             </h2>
           </div>
           <div className="rounded-lg border-2 border-dashed border-gray-300 bg-white p-12 text-center text-sm font-bold tracking-widest text-gray-400 uppercase">
