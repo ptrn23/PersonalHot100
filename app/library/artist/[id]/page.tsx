@@ -7,6 +7,7 @@ import { formatNumber, formatFullDate, formatShortDate } from "@/utils/formatter
 import ChartTrajectory from "../../../components/ChartTrajectory";
 import { CHART_NAME } from "@/config/constants";
 import { CASUAL_RED } from "@/config/theme";
+import { ArrowLeft } from "lucide-react";
 
 import {
   getArtistMetadata,
@@ -269,7 +270,7 @@ export default async function ArtistPage({
             href="/charts/weekly"
             className="group inline-flex w-max items-center gap-2 rounded-full border border-white/20 bg-white/10 px-5 py-2.5 text-xs font-bold tracking-widest text-white uppercase drop-shadow-md backdrop-blur-md transition-all hover:scale-105 hover:bg-white/20"
           >
-            <span className="transition-transform group-hover:-translate-x-1">&larr;</span>
+            <ArrowLeft size={16} strokeWidth={3} className="transition-transform group-hover:-translate-x-1" />
             Back to Hot 100
           </Link>
 

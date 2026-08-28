@@ -4,6 +4,7 @@ import ChartRow from "../../../components/ChartRow";
 import { DisplayEntry } from "@/types";
 import { calculateDetailedUnits, calculateMaxStats } from "@/utils/metrics";
 import ChartTrajectory from "../../../components/ChartTrajectory";
+import { User, ArrowLeft } from "lucide-react";
 
 import { CASUAL_RED, CASUAL_BLACK, CASUAL_WHITE } from "@/config/theme";
 import { CHART_NAME } from "@/config/constants";
@@ -279,7 +280,7 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
             href="/charts/albums"
             className="group mb-10 inline-flex items-center gap-2 text-sm font-bold tracking-widest text-gray-400 uppercase transition-colors hover:text-black"
           >
-            <span className="transition-transform group-hover:-translate-x-1">&larr;</span>
+            <ArrowLeft size={16} strokeWidth={3} className="transition-transform group-hover:-translate-x-1" />
             Back to Top Albums 20
           </Link>
 
@@ -307,9 +308,10 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
               </h1>
               <Link
                 href={`/library/artist/${artistId}`}
-                className="inline-block text-2xl font-bold text-gray-600 transition-colors hover:text-blue-600"
+                className="inline-flex items-center gap-2 text-2xl font-bold text-gray-600 transition-colors hover:text-blue-600"
               >
-                By {artistName}
+                <User size={22} strokeWidth={2.5} />
+                {artistName}
               </Link>
             </div>
           </div>

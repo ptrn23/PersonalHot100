@@ -19,6 +19,9 @@ import {
   Heart,
   Bookmark,
   Upload,
+  User, 
+  Disc3,
+  ArrowLeft
 } from "lucide-react";
 import { CASUAL_RED } from "@/config/theme";
 import { CHART_NAME, CHART_HANDLE } from "@/config/constants";
@@ -215,7 +218,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
             href="/charts/weekly"
             className="group mb-10 inline-flex items-center gap-2 text-sm font-bold tracking-widest text-gray-400 uppercase transition-colors hover:text-black"
           >
-            <span className="transition-transform group-hover:-translate-x-1">&larr;</span>
+            <ArrowLeft size={16} strokeWidth={3} className="transition-transform group-hover:-translate-x-1" />
             Back to Hot 100
           </Link>
 
@@ -237,18 +240,20 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
               <h1 className="mb-3 text-5xl leading-none font-black tracking-tighter uppercase md:text-6xl">
                 {song.display_title || song.title}
               </h1>
-              <div className="flex flex-col gap-1">
+              <div className="flex flex-col gap-2">
                 <Link
                   href={`/library/artist/${artistId}`}
-                  className="inline-block text-xl font-bold text-gray-600 transition-colors hover:text-[#B30000]"
+                  className="inline-flex items-center gap-2 text-xl font-bold text-gray-600 transition-colors hover:text-[#B30000]"
                 >
-                  By {artistName}
+                  <User size={18} strokeWidth={2.5} />
+                  {artistName}
                 </Link>
                 <Link
                   href={`/library/album/${albumId}`}
-                  className="inline-block text-sm font-bold tracking-widest text-gray-400 uppercase transition-colors hover:text-black"
+                  className="inline-flex items-center gap-2 text-sm font-bold tracking-widest text-gray-400 uppercase transition-colors hover:text-black"
                 >
-                  From: {albumTitle}
+                  <Disc3 size={16} strokeWidth={2.5} />
+                  {albumTitle}
                 </Link>
               </div>
             </div>
