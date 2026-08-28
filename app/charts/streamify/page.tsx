@@ -41,6 +41,8 @@ export default async function StreamifyPage() {
 
   streamifyEntries.sort((a, b) => b.calculatedUnits.streamsUnits - a.calculatedUnits.streamsUnits);
 
+  const newEntriesCount = streamifyEntries.filter((entry) => entry.weeks_on_chart === 1).length;
+
   const formattedDateRange = formatDateRange(targetWeek.start_date, targetWeek.end_date);
 
   return (
@@ -71,6 +73,15 @@ export default async function StreamifyPage() {
               <span>•</span>
               <span>{streamifyEntries.length} songs</span>
               <span>•</span>
+              {newEntriesCount > 0 && (
+                <>
+                  <div className="flex items-center gap-1.5">
+                    <span className="h-2 w-2 rounded-full bg-blue-500 shadow-[0_0_8px_rgba(59,130,246,0.8)]" />
+                    <span className="text-blue-400 font-bold">{newEntriesCount} new {newEntriesCount === 1 ? 'entry' : 'entries'}</span>
+                  </div>
+                  <span>•</span>
+                </>
+              )}
               <span className="text-gray-400">{formattedDateRange}</span>
             </div>
           </div>
@@ -116,14 +127,19 @@ export default async function StreamifyPage() {
                 const albumTitle = song?.albums?.title || "Unknown Album";
                 const coverUrl = song?.albums?.cover_url;
                 const rank = index + 1;
+                const isNewEntry = entry.weeks_on_chart === 1;
 
-                // Use the pre-calculated units from our sorted array mapping
                 const streamUnits = entry.calculatedUnits.streamsUnits;
 
                 return (
                   <tr key={entry.id} className="group transition-colors hover:bg-zinc-900/80">
                     <td className="px-4 py-3 text-center font-mono text-gray-400 group-hover:text-white">
-                      {rank}
+                      <div className="flex flex-col items-center justify-center">
+                        <span>{rank}</span>
+                        {isNewEntry && (
+                          <span className="mt-0.5 h-1.5 w-1.5 rounded-full bg-blue-500 shadow-[0_0_6px_rgba(59,130,246,0.9)]" title="New Entry" />
+                        )}
+                      </div>
                     </td>
 
                     <td className="px-4 py-3">
@@ -155,7 +171,6 @@ export default async function StreamifyPage() {
                       </div>
                     </td>
 
-                    {/* Render the deterministically calculated and correctly sorted streaming units */}
                     <td className="px-4 py-3 text-right font-mono font-black tracking-wider text-[#1ed760]">
                       {streamUnits.toLocaleString("en-US")}
                     </td>
