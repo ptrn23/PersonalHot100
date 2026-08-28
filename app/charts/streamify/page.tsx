@@ -93,7 +93,7 @@ export default async function StreamifyPage({ searchParams }: StreamifyPageProps
               <span className="text-gray-400">{formattedDateRange}</span>
               {newEntriesCount > 0 && (
                 <>
-                <span>•</span>
+                  <span>•</span>
                   <div className="flex items-center gap-1.5">
                     <span className="font-bold text-blue-400">
                       {newEntriesCount} new {newEntriesCount === 1 ? "entry" : "entries"}
@@ -102,7 +102,6 @@ export default async function StreamifyPage({ searchParams }: StreamifyPageProps
                   </div>
                 </>
               )}
-              
             </div>
           </div>
         </div>
