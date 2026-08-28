@@ -100,10 +100,9 @@ export default async function AirFMPage({ searchParams }: AirFMPageProps) {
       <div className="w-full bg-[#0f172a] border-b-2 border-blue-500/40 px-6 py-3 shadow-lg">
         <div className="mx-auto flex max-w-[1600px] items-center justify-between">
           <div className="flex items-center gap-4">
-            <div className="flex items-center gap-2 bg-black/60 px-3 py-1 border border-blue-500/30 font-mono text-xs text-blue-400">
-              <Signal size={14} className="animate-pulse text-blue-500" />
-              <span>FREQ: {randomFreq} FM</span>
-            </div>
+            <h1 className="mt-1 text-2xl font-black tracking-tighter text-white uppercase md:text-5xl">
+                Air.FM Global Top 50
+            </h1>
           </div>
           <div>
             <WeekSelector
@@ -133,6 +132,10 @@ export default async function AirFMPage({ searchParams }: AirFMPageProps) {
                       Grid Coordinates: {randomCoords}
                     </span>
                   </div>
+                </div>
+                <div className="flex items-center gap-2 bg-black/60 px-3 py-1 border border-blue-500/30 font-mono text-xs text-blue-400">
+                <Signal size={14} className="animate-pulse text-blue-500" />
+                <span>FREQ: {randomFreq} FM</span>
                 </div>
               </div>
               
