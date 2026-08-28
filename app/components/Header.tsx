@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Search, Loader2, X, ChevronDown } from "lucide-react";
+import { Search, Loader2, X, ChevronDown, CalendarDays, Activity, Headphones, Disc, Radio } from "lucide-react";
 import { CHART_NAME } from "@/config/constants";
 
 import { performGlobalSearch } from "@/lib/db/search";
@@ -260,14 +260,16 @@ export default function Header() {
           {/* HOT 100 DROPDOWN */}
           <div className="group relative flex h-full items-center">
             <button className="flex h-full items-center gap-1 transition-none hover:underline decoration-white decoration-2 underline-offset-[6px]">
-              Hot 100 <ChevronDown size={12} strokeWidth={3} />
+              HOT 100 <ChevronDown size={12} strokeWidth={3} />
             </button>
             <div className="absolute top-full left-0 hidden w-48 flex-col border-2 border-black bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] group-hover:flex">
-              <Link href="/charts/weekly" className="border-b-2 border-black px-4 py-3 text-black hover:bg-gray-200">
-                Weekly Chart
+              <Link href="/charts/weekly" className="flex items-center gap-2 border-b-2 border-black px-4 py-3 text-black transition-colors hover:bg-gray-200">
+                <CalendarDays size={16} strokeWidth={2.5} />
+                Weekly Charts
               </Link>
-              <Link href="/charts/live" className="px-4 py-3 text-black hover:bg-gray-200">
-                Live Tracker
+              <Link href="/charts/live" className="flex items-center gap-2 px-4 py-3 text-black transition-colors hover:bg-gray-200">
+                <Activity size={16} strokeWidth={2.5} />
+                Live Chart
               </Link>
             </div>
           </div>
@@ -277,16 +279,19 @@ export default function Header() {
           {/* METRICS DROPDOWN */}
           <div className="group relative flex h-full items-center">
             <button className="flex h-full items-center gap-1 transition-none hover:underline decoration-white decoration-2 underline-offset-[6px]">
-              Metrics <ChevronDown size={12} strokeWidth={3} />
+              METRICS <ChevronDown size={12} strokeWidth={3} />
             </button>
             <div className="absolute top-full left-0 hidden w-48 flex-col border-2 border-black bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] group-hover:flex">
-              <Link href="/charts/streamify" className="border-b-2 border-black px-4 py-3 text-black hover:bg-green-100">
+              <Link href="/charts/streamify" className="group/streamify flex items-center gap-2 border-b-2 border-black px-4 py-3 text-black transition-colors hover:bg-green-100">
+                <Headphones size={16} strokeWidth={2.5} className="text-gray-900 transition-colors group-hover/streamify:text-green-600" />
                 Streamify
               </Link>
-              <Link href="/charts/isales" className="border-b-2 border-black px-4 py-3 text-black hover:bg-yellow-100">
+              <Link href="/charts/isales" className="group/isales flex items-center gap-2 border-b-2 border-black px-4 py-3 text-black transition-colors hover:bg-yellow-100">
+                <Disc size={16} strokeWidth={2.5} className="text-gray-900 transition-colors group-hover/isales:text-yellow-600" />
                 iSales
               </Link>
-              <Link href="/charts/airfm" className="px-4 py-3 text-black hover:bg-blue-100">
+              <Link href="/charts/airfm" className="group/airfm flex items-center gap-2 px-4 py-3 text-black transition-colors hover:bg-blue-100">
+                <Radio size={16} strokeWidth={2.5} className="text-gray-900 transition-colors group-hover/airfm:text-blue-600" />
                 Air.FM
               </Link>
             </div>
