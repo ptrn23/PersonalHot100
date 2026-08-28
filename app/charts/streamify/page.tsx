@@ -18,17 +18,26 @@ export default async function StreamifyPage() {
 
   const rawEntries = await getChartEntriesByWeekId(targetWeek.id, 50);
 
-  const streamifyEntries = [...rawEntries].sort((a, b) => {
-    const titleA = a.songs?.display_title || a.songs?.title || "";
-    const artistA = a.songs?.artists?.name || "";
-    const titleB = b.songs?.display_title || b.songs?.title || "";
-    const artistB = b.songs?.artists?.name || "";
+  const streamifyEntries = rawEntries.map((entry) => {
+    const song = entry.songs;
+    const title = song?.display_title || song?.title || "Unknown Title";
+    const artistName = song?.artists?.name || "Unknown Artist";
 
-    const unitsA = calculateUnits(a.streams || 0, a.sales || 0, a.airplay || 0, titleA, artistA);
-    const unitsB = calculateUnits(b.streams || 0, b.sales || 0, b.airplay || 0, titleB, artistB);
-    
-    return unitsB - unitsA;
+    const seedString = `${title}|${artistName}`;
+    const units = calculateDetailedUnits(
+    entry.streams || 0,
+    entry.sales || 0,
+    entry.airplay || 0,
+    seedString
+    );
+
+    return {
+    ...entry,
+    calculatedUnits: units,
+    };
   });
+
+  streamifyEntries.sort((a, b) => b.calculatedUnits.streamsUnits - a.calculatedUnits.streamsUnits);
 
   const formattedDateRange = formatDateRange(targetWeek.start_date, targetWeek.end_date);
 
@@ -101,14 +110,9 @@ export default async function StreamifyPage() {
                 const albumTitle = song?.albums?.title || "Unknown Album";
                 const coverUrl = song?.albums?.cover_url;
                 const rank = index + 1;
-                
-                const seedString = `${title}|${artistName}`;
-                const units = calculateDetailedUnits(
-                    entry.streams || 0,
-                    entry.sales || 0,
-                    entry.airplay || 0,
-                    seedString
-                );
+
+                // Use the pre-calculated units from our sorted array mapping
+                const streamUnits = entry.calculatedUnits.streamsUnits;
 
                 return (
                     <tr key={entry.id} className="group transition-colors hover:bg-zinc-900/80">
@@ -136,9 +140,9 @@ export default async function StreamifyPage() {
                         </div>
                     </td>
 
-                    {/* 2. Display the calculated streams units instead of raw counts, or show both! */}
+                    {/* Render the deterministically calculated and correctly sorted streaming units */}
                     <td className="py-3 px-4 text-right font-mono text-[#1ed760] font-black tracking-wider">
-                        {units.streamsUnits.toLocaleString("en-US")}
+                        {streamUnits.toLocaleString("en-US")}
                     </td>
 
                     <td className="py-3 px-4 text-gray-400 font-medium truncate max-w-xs">
