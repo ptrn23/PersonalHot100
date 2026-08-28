@@ -113,9 +113,6 @@ export default async function ISalesPage({ searchParams }: ISalesPageProps) {
               </h1>
             </div>
           </div>
-          <div className="border border-black bg-white px-4 py-2 text-right text-xs font-black tracking-widest text-black uppercase">
-            Total Charted: {isalesEntries.length} Tracks
-          </div>
         </div>
       </div>
 
