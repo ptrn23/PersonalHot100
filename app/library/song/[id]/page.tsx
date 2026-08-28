@@ -101,7 +101,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const rawEntries = (song.chart_entries as any[]) || [];
-  const entries = rawEntries.filter((entry) => entry.week_id !== liveWeek?.id);
+  const entries = rawEntries || [];
 
   const sortedEntries = [...entries].sort(
     (a, b) =>

@@ -80,10 +80,7 @@ export default async function ArtistPage({
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     (artist.songs as any[])
       ?.map((song) => {
-        const validEntries = (song.chart_entries || []).filter(
-          // eslint-disable-next-line @typescript-eslint/no-explicit-any
-          (entry: any) => entry.week_id !== liveWeek?.id,
-        );
+        const validEntries = song.chart_entries || [];
         return { ...song, chart_entries: validEntries };
       })
       .filter((song) => song.chart_entries && song.chart_entries.length > 0) || [];
@@ -164,9 +161,7 @@ export default async function ArtistPage({
   });
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const validArtistHistory = (rawArtistHistory || []).filter(
-    (e: any) => e.week_id !== liveWeek?.id,
-  );
+  const validArtistHistory = rawArtistHistory || [];
   validArtistHistory.sort(
     (a, b) => new Date(a.start_date).getTime() - new Date(b.start_date).getTime(),
   );

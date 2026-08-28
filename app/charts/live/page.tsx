@@ -1,7 +1,7 @@
 import ChartView from "../../components/ChartView";
 import { DisplayEntry } from "@/types";
 import { formatDateRange } from "@/utils/formatters";
-import { getLatestChartWeek, getChartEntriesByWeekId } from "@/lib/db/charts";
+import { getLatestChartWeek, getChartEntriesByWeekId, getLiveChartEntriesByWeekId } from "@/lib/db/charts";
 
 export const dynamic = "force-dynamic";
 
@@ -16,7 +16,7 @@ export default async function LiveChartPage() {
     );
   }
 
-  const rawEntries = await getChartEntriesByWeekId(latestWeek.id, 100);
+  const rawEntries = await getLiveChartEntriesByWeekId(latestWeek.id, 100);
 
   if (!rawEntries || rawEntries.length === 0) {
     return (
