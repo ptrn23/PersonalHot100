@@ -34,15 +34,17 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
         .from("chart_entries")
         .select("song_id")
         .eq("peak_position", 1)
-        .in("song_id", songIds);
+        .in("song_id", songIds)
+        .neq("week_id", weekId);
+        
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      uniqueNumberOnesCount = new Set(pastHits?.map((e) => e.song_id)).size;
+      uniqueNumberOnesCount = new Set(pastHits?.map((e) => e.song_id)).size + 1;
     }
 
     const isDebut = numberOne.weeks_on_chart === 1;
     const headline = isDebut
       ? `“${songTitle}” by ${artistName} debuts at #1 in So Casual 100™.`
-      : `“${songTitle}” by ${artistName} reaches #1 on the ${CHART_NAME} Hot 100 for the first time.`;
+      : `“${songTitle}” by ${artistName} reaches #1 on the ${CHART_NAME} 100™ for the first time.`;
 
     news.push({
       week_id: weekId,
@@ -363,10 +365,13 @@ export const generateNews = async (isFinalizing?: boolean, overrideTargetDate?: 
 
   const numberOneNews = await detectNumberOnes(currentChart, targetWeek.id);
   newsItems.push(...numberOneNews);
+  
   const certNews = await detectCertifications(targetWeek.id);
   newsItems.push(...certNews);
+  
   const movementNews = detectMovements(currentChart, targetWeek.id);
   newsItems.push(...movementNews);
+  
   const bombNews = detectAlbumBombs(currentChart, targetWeek.id);
   newsItems.push(...bombNews);
 
