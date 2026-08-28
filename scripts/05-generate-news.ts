@@ -19,7 +19,7 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const artistId = (numberOne.songs.artists as any)?.id;
 
-  const subtextFormat = `Personal Hot 100: #1(${
+  const subtextFormat = `So Casual 100™: #1(${
     numberOne.previous_position ? (numberOne.previous_position === 1 ? "=" : `+${numberOne.previous_position - 1}`) : "new"
   }) ${songTitle}, ${artistName} [${numberOne.weeks_on_chart} weeks].`;
 
@@ -41,7 +41,7 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
 
     const isDebut = numberOne.weeks_on_chart === 1;
     const headline = isDebut
-      ? `“${songTitle}” by ${artistName} debuts at #1 in Personal Hot 100.`
+      ? `“${songTitle}” by ${artistName} debuts at #1 in So Casual 100™.`
       : `“${songTitle}” by ${artistName} reaches #1 on the ${CHART_NAME} Hot 100 for the first time.`;
 
     news.push({
@@ -155,7 +155,7 @@ const detectMovements = (currentChart: any[], weekId: string): NewsItem[] => {
     const moveStr = jump !== null ? (jump > 0 ? `+${jump}` : jump < 0 ? `${jump}` : "=") : "re";
     
     const peakStr = isNewPeak ? "*new peak*" : `*peak: #${peak}*`;
-    const subtext = `Personal Hot 100: #${rank}(${moveStr}) ${title}, ${artist} [${woc} weeks]. ${peakStr}`;
+    const subtext = `So Casual 100™: #${rank}(${moveStr}) ${title}, ${artist} [${woc} weeks]. ${peakStr}`;
 
     let headline = "";
     let eventType = "";
@@ -173,41 +173,41 @@ const detectMovements = (currentChart: any[], weekId: string): NewsItem[] => {
     // debuts
     if (woc === 1) {
       eventType = "DEBUT";
-      headline = `“${title}” by ${artist} debuts at #${rank} in Personal Hot 100.`;
+      headline = `“${title}” by ${artist} debuts at #${rank} in So Casual 100™.`;
       priority = rank <= 10 ? 8 : rank <= 40 ? 5 : 3;
     } else if (!prev && woc > 1) {
       if (crossedThreshold) {
         eventType = `RE_ENTRY_TOP_${crossedThreshold}`;
-        headline = `“${title}” by ${artist} reenters inside the top ${crossedThreshold} of Personal Hot 100 at #${rank}.`;
+        headline = `“${title}” by ${artist} reenters inside the top ${crossedThreshold} of So Casual 100™ at #${rank}.`;
         priority = crossedThreshold <= 10 ? 7 : 5;
       } else if (isNewPeak) {
         eventType = "RE_ENTRY_NEW_PEAK";
-        headline = `“${title}” by ${artist} reaches a new peak in Personal Hot 100, reentering at #${rank}.`;
+        headline = `“${title}” by ${artist} reaches a new peak in So Casual 100™, reentering at #${rank}.`;
         priority = rank <= 20 ? 7 : 4;
       } else {
         eventType = "RE_ENTRY";
-        headline = `“${title}” by ${artist} reenters Personal Hot 100 at #${rank}.`;
+        headline = `“${title}” by ${artist} reenters So Casual 100™ at #${rank}.`;
         priority = rank <= 40 ? 6 : 3;
       }
     } else if (jump && jump > 0 && crossedThreshold) {
       eventType = `ENTER_TOP_${crossedThreshold}`;
-      headline = `“${title}” by ${artist} climbs inside the top ${crossedThreshold} of Personal Hot 100, rising ${jump} spots to #${rank}.`;
+      headline = `“${title}” by ${artist} climbs inside the top ${crossedThreshold} of So Casual 100™, rising ${jump} spots to #${rank}.`;
       priority = crossedThreshold <= 10 ? 7 : 5;
     } else if (isNewPeak) {
       eventType = "NEW_PEAK";
       headline = jump && jump > 0
-        ? `“${title}” by ${artist} reaches a new peak in Personal Hot 100, rising ${jump} spots to #${rank}.`
-        : `“${title}” by ${artist} reaches a new peak in Personal Hot 100 at #${rank}.`;
+        ? `“${title}” by ${artist} reaches a new peak in So Casual 100™, rising ${jump} spots to #${rank}.`
+        : `“${title}” by ${artist} reaches a new peak in So Casual 100™ at #${rank}.`;
       priority = rank <= 20 ? 7 : 4;
     } else if (woc % 52 === 0) {
       eventType = "YEARLY_MILESTONE";
       const years = woc / 52;
       const yearText = years === 1 ? "one year" : `${years} years`;
-      headline = `“${title}” by ${artist} has now completed ${yearText} (${woc} weeks of charting) in Personal Hot 100.`;
+      headline = `“${title}” by ${artist} has now completed ${yearText} (${woc} weeks of charting) in So Casual 100™.`;
       priority = 9; 
     } else if (woc % 10 === 0) {
       eventType = "MILESTONE";
-      headline = `“${title}” by ${artist} spends its ${formatOrdinal(woc)} week in Personal Hot 100 this week.`;
+      headline = `“${title}” by ${artist} spends its ${formatOrdinal(woc)} week in So Casual 100™ this week.`;
       priority = woc >= 50 ? 9 : 6;
     }
 
@@ -267,13 +267,13 @@ const detectAlbumBombs = (currentChart: any[], weekId: string): NewsItem[] => {
 
       if (allDebuts) {
         eventType = "ALBUM_BOMB_DEBUT";
-        headline = `Tracks from ‘${albumTitle}’ by ${artistName} debut in Personal Hot 100 this week.`;
+        headline = `Tracks from ‘${albumTitle}’ by ${artistName} debut in So Casual 100™ this week.`;
       } else if (allReentries) {
         eventType = "ALBUM_BOMB_REENTER";
-        headline = `Tracks from ${artistName}'s ‘${albumTitle}’ reenters Personal Hot 100, with “${highestTitle}” reentering the highest at #${bombTracks[0].rank}.`;
+        headline = `Tracks from ${artistName}'s ‘${albumTitle}’ reenters So Casual 100™, with “${highestTitle}” reentering the highest at #${bombTracks[0].rank}.`;
       } else {
         eventType = "ALBUM_BOMB_RISE";
-        headline = `Tracks from ‘${albumTitle}’ by ${artistName} rise in Personal Hot 100 this week.`;
+        headline = `Tracks from ‘${albumTitle}’ by ${artistName} rise in So Casual 100™ this week.`;
       }
 
       const subtextLines = bombTracks.map((e) => {
