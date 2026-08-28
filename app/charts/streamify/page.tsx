@@ -1,23 +1,23 @@
 import Link from "next/link";
-import { getLatestChartWeek, getChartEntriesByWeekId } from "@/lib/db/charts";
+import { getLatestChartWeek, getChartEntriesByWeekId, getAllChartWeeks } from "@/lib/db/charts";
 import { Play, Shuffle, ArrowDownToLine, MoreHorizontal, Calendar } from "lucide-react";
 import { formatDateRange } from "@/utils/formatters";
-import { calculateUnits } from "@/utils/metrics";
+import { calculateUnits, calculateDetailedUnits } from "@/utils/metrics";
 
 export default async function StreamifyPage() {
-  const latestWeek = await getLatestChartWeek();
+  const allWeeks = await getAllChartWeeks();
+  const targetWeek = allWeeks[1] || allWeeks[0];
   
-  if (!latestWeek) {
+  if (!targetWeek) {
     return (
       <div className="min-h-screen bg-[#121212] text-white">
-        <div className="flex h-[50vh] items-center justify-center font-bold">No active chart week found.</div>
+        <div className="flex h-[50vh] items-center justify-center font-bold">No completed chart week found.</div>
       </div>
     );
   }
 
-  const rawEntries = await getChartEntriesByWeekId(latestWeek.id, 50);
+  const rawEntries = await getChartEntriesByWeekId(targetWeek.id, 50);
 
-  // Sort strictly by calculated streaming units / points impact
   const streamifyEntries = [...rawEntries].sort((a, b) => {
     const titleA = a.songs?.display_title || a.songs?.title || "";
     const artistA = a.songs?.artists?.name || "";
@@ -30,7 +30,7 @@ export default async function StreamifyPage() {
     return unitsB - unitsA;
   });
 
-  const formattedDateRange = formatDateRange(latestWeek.start_date, latestWeek.end_date);
+  const formattedDateRange = formatDateRange(targetWeek.start_date, targetWeek.end_date);
 
   return (
     <div className="min-h-screen bg-[#121212] text-white font-geist selection:bg-[#1db954] selection:text-black">
@@ -79,10 +79,6 @@ export default async function StreamifyPage() {
             <button className="text-gray-400 transition-colors hover:text-white"><ArrowDownToLine size={22} /></button>
             <button className="text-gray-400 transition-colors hover:text-white"><MoreHorizontal size={22} /></button>
           </div>
-
-          <div className="text-xs font-bold tracking-widest text-gray-500 uppercase">
-            Metric: Audio Streams & Points
-          </div>
         </div>
 
         {/* TRACK LIST TABLE */}
@@ -98,57 +94,65 @@ export default async function StreamifyPage() {
               </tr>
             </thead>
             <tbody className="divide-y divide-zinc-900/50 text-sm font-bold">
-              {streamifyEntries.map((entry, index) => {
+                {streamifyEntries.map((entry, index) => {
                 const song = entry.songs;
                 const title = song?.display_title || song?.title || "Unknown Title";
                 const artistName = song?.artists?.name || "Unknown Artist";
                 const albumTitle = song?.albums?.title || "Unknown Album";
                 const coverUrl = song?.albums?.cover_url;
                 const rank = index + 1;
+                
+                const seedString = `${title}|${artistName}`;
+                const units = calculateDetailedUnits(
+                    entry.streams || 0,
+                    entry.sales || 0,
+                    entry.airplay || 0,
+                    seedString
+                );
 
                 return (
-                  <tr key={entry.id} className="group transition-colors hover:bg-zinc-900/80">
+                    <tr key={entry.id} className="group transition-colors hover:bg-zinc-900/80">
                     <td className="py-3 px-4 text-center font-mono text-gray-400 group-hover:text-white">
-                      {rank}
+                        {rank}
                     </td>
 
                     <td className="py-3 px-4">
-                      <div className="flex items-center gap-3">
+                        <div className="flex items-center gap-3">
                         <div className="h-10 w-10 shrink-0 bg-zinc-800 overflow-hidden border border-zinc-700">
-                          {coverUrl ? (
+                            {coverUrl ? (
                             <img src={coverUrl} alt={title} className="h-full w-full object-cover" />
-                          ) : (
+                            ) : (
                             <div className="flex h-full w-full items-center justify-center text-[10px] text-gray-500">IMG</div>
-                          )}
+                            )}
                         </div>
                         <div className="flex flex-col truncate">
-                          <Link href={`/library/song/${song?.id}`} className="truncate text-white font-bold transition-colors hover:text-[#1ed760] hover:underline">
+                            <Link href={`/library/song/${song?.id}`} className="truncate text-white font-bold transition-colors hover:text-[#1ed760] hover:underline">
                             {title}
-                          </Link>
-                          <span className="truncate text-xs font-medium text-gray-400">
+                            </Link>
+                            <span className="truncate text-xs font-medium text-gray-400">
                             {artistName}
-                          </span>
+                            </span>
                         </div>
-                      </div>
+                        </div>
                     </td>
 
-                    {/* Streams comes before Album now */}
+                    {/* 2. Display the calculated streams units instead of raw counts, or show both! */}
                     <td className="py-3 px-4 text-right font-mono text-[#1ed760] font-black tracking-wider">
-                      {(entry.streams || 0).toLocaleString("en-US")}
+                        {units.streamsUnits.toLocaleString("en-US")}
                     </td>
 
                     <td className="py-3 px-4 text-gray-400 font-medium truncate max-w-xs">
-                      <Link href={`/library/album/${song?.albums?.id}`} className="hover:underline hover:text-white truncate">
+                        <Link href={`/library/album/${song?.albums?.id}`} className="hover:underline hover:text-white truncate">
                         {albumTitle}
-                      </Link>
+                        </Link>
                     </td>
 
                     <td className="py-3 px-4 text-center text-xs font-mono text-gray-500">
-                      --
+                        --
                     </td>
-                  </tr>
+                    </tr>
                 );
-              })}
+                })}
             </tbody>
           </table>
         </div>
