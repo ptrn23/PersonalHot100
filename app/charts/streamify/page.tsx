@@ -91,14 +91,14 @@ export default async function StreamifyPage({ searchParams }: StreamifyPageProps
               <span>{streamifyEntries.length} songs</span>
               <span>•</span>
               <span className="text-gray-400">{formattedDateRange}</span>
-              <span>•</span>
               {newEntriesCount > 0 && (
                 <>
+                <span>•</span>
                   <div className="flex items-center gap-1.5">
-                    <span className="h-2 w-2 rounded-full bg-blue-500 shadow-[0_0_8px_rgba(59,130,246,0.8)]" />
                     <span className="font-bold text-blue-400">
                       {newEntriesCount} new {newEntriesCount === 1 ? "entry" : "entries"}
                     </span>
+                    <span className="h-2 w-2 rounded-full bg-blue-500 shadow-[0_0_8px_rgba(59,130,246,0.8)]" />
                   </div>
                 </>
               )}
