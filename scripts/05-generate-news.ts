@@ -140,7 +140,7 @@ const detectCertifications = async (weekId: string): Promise<NewsItem[]> => {
       event_type: "CERTIFICATION",
       entity_type: cert.entity_type,
       entity_id: isSong ? cert.song_id : cert.album_id,
-      headline: `${artist}'s "${title}" is now certified ${awardString} in Personal Charts.`,
+      headline: `${artist}'s "${title}" is now certified ${awardString} in the ${CHART_NAME} Charts.`,
       subtext: `Awarded for selling over ${formattedUnits} units worldwide.`,
       priority: cert.award_name === "Diamond" ? 9 : cert.award_name === "Platinum" ? 7 : 5,
     });
