@@ -323,13 +323,13 @@ export default function Header() {
           
           <span className="font-medium text-gray-800">|</span>
           
-          <Link href="/certifications" className="transition-none hover:underline decoration-white decoration-2 underline-offset-[6px]">
+          <Link href="/charts/certifications" className="transition-none hover:underline decoration-white decoration-2 underline-offset-[6px]">
             Certifications
           </Link>
           
           <span className="font-medium text-gray-800">|</span>
           
-          <Link href="/records" className="transition-none hover:underline decoration-white decoration-2 underline-offset-[6px]">
+          <Link href="/charts/records" className="transition-none hover:underline decoration-white decoration-2 underline-offset-[6px]">
             Records
           </Link>
 
