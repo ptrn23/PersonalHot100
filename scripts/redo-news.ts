@@ -42,6 +42,6 @@ const rollbackNews = async (startCutoff: string) => {
   console.log("\nSUCCESS: The historical news feed timeline has been completely rebuilt!");
 };
 
-const START_TIMESTAMP = "2025-01-02 22:00:00+00";
+const START_TIMESTAMP = "2020-04-30 22:00:00+00";
 
 rollbackNews(START_TIMESTAMP);
