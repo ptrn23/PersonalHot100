@@ -1,17 +1,61 @@
 "use client";
 
 import Link from "next/link";
-import { Share2, Ticket, LineChart } from "lucide-react";
+import { Share2, Ticket, LineChart, Copy } from "lucide-react";
 import { formatNumber } from "@/utils/formatters";
+import { calculateDetailedUnits } from "@/utils/metrics";
 import { DisplayEntry } from "@/types";
+import { CHART_NAME, CHART_HANDLE } from "@/config/constants";
+
+const getMovementStr = (rank: number, previousRank: number | null) => {
+  if (!previousRank) return "(NEW)";
+  const diff = previousRank - rank;
+  if (diff > 0) return `(+${diff})`;
+  if (diff < 0) return `(${diff})`;
+  return "(=)";
+};
 
 export default function ChartRowDropdown({
   entry,
+  week,
+  chartLabel = "this week",
   onOpenModal,
 }: {
   entry: DisplayEntry;
+  week: string;
+  chartLabel?: string;
   onOpenModal: () => void;
 }) {
+  const movementStr = getMovementStr(entry.rank, entry.previousRank);
+
+  const { streamsUnits, salesUnits, airplayUnits } = calculateDetailedUnits(
+    entry.streams || 0,
+    entry.sales || 0,
+    entry.airplay || 0,
+    entry.mathSeedString || ""
+  );
+
+  let statusPhrase = `ranks at #${entry.rank} on the ${CHART_HANDLE} Hot 100 this week`;
+  if (entry.weeksOnChart === 1) {
+    statusPhrase = `debuts at #${entry.rank} on the ${CHART_HANDLE} Hot 100`;
+  } else if (entry.rank === 1 && entry.isNewPeak) {
+    statusPhrase = `has reached #1 on the ${CHART_HANDLE} Hot 100 for the first time this week`;
+  } else if (entry.rank === 1) {
+    statusPhrase = `spends another week at #1 on the ${CHART_HANDLE} Hot 100`;
+  } else if (entry.isNewPeak) {
+    statusPhrase = `reaches a new peak of #${entry.rank} on the ${CHART_HANDLE} Hot 100 this week`;
+  }
+  
+  const newsFeedText = `${CHART_HANDLE} Hot 100 (chart dated ${week})
+
+#${entry.rank} ${movementStr}: ${entry.primaryText} — ${entry.secondaryText}`;
+
+  const captionText = `"${entry.primaryText}" by ${entry.secondaryText} ${statusPhrase}, with ${entry.totalPoints?.toLocaleString("en-US")} points!
+
+Sales: ${formatNumber(salesUnits).toUpperCase()}
+Streams: ${formatNumber(streamsUnits).toUpperCase()}
+Radio: ${formatNumber(airplayUnits).toUpperCase()}`;
+
   return (
     <div className="cursor-default overflow-hidden border-t border-gray-100 bg-white px-8 py-5 text-sm shadow-inner">
       <div className="grid grid-cols-1 gap-6 md:grid-cols-4">
@@ -112,12 +156,21 @@ export default function ChartRowDropdown({
           Share & Export
         </h4>
         <div className="grid grid-cols-1 items-start gap-6 md:grid-cols-3">
-          <div className="flex h-[100px] items-center justify-center rounded-lg border border-dashed border-gray-300 bg-gray-50 p-4 text-center text-xs text-gray-400 italic">
-            News Feed placeholders go here
+          
+          <div className="relative group flex h-[120px] rounded-lg border border-gray-300 bg-gray-50 p-3 text-xs text-gray-700 shadow-sm overflow-y-auto">
+            <pre className="whitespace-pre-wrap font-sans select-all">{newsFeedText}</pre>
+            <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity bg-white border border-gray-200 p-1 rounded shadow-sm text-gray-400">
+              <Copy size={14} />
+            </div>
           </div>
-          <div className="flex h-[100px] items-center justify-center rounded-lg border border-dashed border-gray-300 bg-gray-50 p-4 text-center text-xs text-gray-400 italic">
-            Copy-pastable caption placeholder
+          
+          <div className="relative group flex h-[120px] rounded-lg border border-gray-300 bg-gray-50 p-3 text-xs text-gray-700 shadow-sm overflow-y-auto">
+            <pre className="whitespace-pre-wrap font-sans select-all">{captionText}</pre>
+            <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity bg-white border border-gray-200 p-1 rounded shadow-sm text-gray-400">
+              <Copy size={14} />
+            </div>
           </div>
+
           <div className="flex flex-col gap-3">
             <button
               onClick={onOpenModal}

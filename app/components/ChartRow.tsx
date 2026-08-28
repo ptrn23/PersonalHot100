@@ -218,7 +218,7 @@ export default function ChartRow({
       </div>
 
       {isExpanded && !entry.disableDropdown && (
-        <ChartRowDropdown entry={entry} onOpenModal={() => setIsModalOpen(true)} />
+        <ChartRowDropdown entry={entry} week={week} onOpenModal={() => setIsModalOpen(true)} />
       )}
 
       {isModalOpen && (
