@@ -73,8 +73,8 @@ export default async function AirFMPage({ searchParams }: AirFMPageProps) {
     const x = 50 + r * Math.cos(theta);
     const y = 50 + r * Math.sin(theta);
     
-    const delay = (Math.random() * 5).toFixed(2);
-    const duration = (5 + Math.random() * 5).toFixed(2);
+    const delay = (Math.random() * 30).toFixed(2);
+    const duration = (20 + Math.random() * 10).toFixed(2);
 
     return { id: i, x, y, delay, duration, rank, song: randomEntry.songs };
   });
@@ -183,7 +183,7 @@ export default async function AirFMPage({ searchParams }: AirFMPageProps) {
               </div>
             </div>
           </div>
-          
+
           <div className="lg:col-span-7">
             <div className="border-2 border-blue-500/50 bg-[#0f172a]/90 backdrop-blur shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] overflow-hidden">
               
