@@ -1,7 +1,11 @@
 import ChartView from "../../components/ChartView";
 import { DisplayEntry } from "@/types";
 import { formatDateRange } from "@/utils/formatters";
-import { getLatestChartWeek, getChartEntriesByWeekId, getLiveChartEntriesByWeekId } from "@/lib/db/charts";
+import {
+  getLatestChartWeek,
+  getChartEntriesByWeekId,
+  getLiveChartEntriesByWeekId,
+} from "@/lib/db/charts";
 
 export const dynamic = "force-dynamic";
 

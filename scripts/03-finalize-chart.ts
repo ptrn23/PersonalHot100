@@ -14,7 +14,9 @@ export const finalizeChartPositions = async (
   console.log("\nRunning finalize chart positions...");
 
   const targetTable = isFinalizing ? "chart_entries" : "live_chart_entries";
-  console.log(`MODE: ${isFinalizing ? "FINALIZING (chart_entries)" : "LIVE TRACKING (live_chart_entries)"}`);
+  console.log(
+    `MODE: ${isFinalizing ? "FINALIZING (chart_entries)" : "LIVE TRACKING (live_chart_entries)"}`,
+  );
 
   let targetWeek;
 
@@ -57,7 +59,7 @@ export const finalizeChartPositions = async (
   }
 
   console.log(`Cleanup complete: Removed ${deletedCount || 0} existing entries.\n`);
-  
+
   if (!cachedFinalizeCanonicalMap) {
     console.log("Fetching canonical dictionary for finalization...");
     const { data: songPointers } = await supabase
@@ -194,7 +196,7 @@ export const finalizeChartPositions = async (
   }
 
   if (top100.length === 0) return;
-  
+
   const globalHistory: Record<string, any> = {};
 
   await Promise.all(
@@ -271,9 +273,11 @@ export const finalizeChartPositions = async (
     console.error(`Failed to insert Top 100 into ${targetTable}:`, insertError);
   } else {
     console.log(`SUCCESS: Chart saved to ${targetTable}!`);
-    
+
     if (isFinalizing) {
-      console.log("Week finalized! Wiping live_chart_entries for the current week to maintain cleanliness...");
+      console.log(
+        "Week finalized! Wiping live_chart_entries for the current week to maintain cleanliness...",
+      );
       await supabase.from("live_chart_entries").delete().eq("week_id", targetWeek.id);
     }
   }

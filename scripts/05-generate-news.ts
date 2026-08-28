@@ -20,11 +20,18 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
   const artistId = (numberOne.songs.artists as any)?.id;
 
   const subtextFormat = `So Casual 100™: #1(${
-    numberOne.previous_position ? (numberOne.previous_position === 1 ? "=" : `+${numberOne.previous_position - 1}`) : "new"
+    numberOne.previous_position
+      ? numberOne.previous_position === 1
+        ? "="
+        : `+${numberOne.previous_position - 1}`
+      : "new"
   }) ${songTitle}, ${artistName} [${numberOne.weeks_on_chart} weeks].`;
 
   if (numberOne.peak_position === 1 && numberOne.peak_streak === 1) {
-    const { data: artistSongs } = await supabase.from("songs").select("id").eq("artist_id", artistId);
+    const { data: artistSongs } = await supabase
+      .from("songs")
+      .select("id")
+      .eq("artist_id", artistId);
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const songIds = artistSongs?.map((s) => s.id) || [];
 
@@ -36,7 +43,7 @@ const detectNumberOnes = async (currentChart: any[], weekId: string): Promise<Ne
         .eq("peak_position", 1)
         .in("song_id", songIds)
         .neq("week_id", weekId);
-        
+
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       uniqueNumberOnesCount = new Set(pastHits?.map((e) => e.song_id)).size + 1;
     }
@@ -87,11 +94,13 @@ const detectCertifications = async (weekId: string): Promise<NewsItem[]> => {
 
   const { data: certs, error } = await supabase
     .from("certifications")
-    .select(`
+    .select(
+      `
       *,
       songs (id, title, display_title, artists(name)),
       albums (id, title, artists(name))
-    `)
+    `,
+    )
     .eq("week_id", weekId);
 
   if (error || !certs) return news;
@@ -115,13 +124,14 @@ const detectCertifications = async (weekId: string): Promise<NewsItem[]> => {
 
     if (!title || !artist) return;
 
-    const awardString = cert.multiplier > 1 ? `${cert.multiplier}x ${cert.award_name}` : cert.award_name;
-    
+    const awardString =
+      cert.multiplier > 1 ? `${cert.multiplier}x ${cert.award_name}` : cert.award_name;
+
     let baseValue = 0;
     if (cert.award_name === "Diamond") baseValue = 10000000;
     if (cert.award_name === "Platinum") baseValue = 1000000;
     if (cert.award_name === "Gold") baseValue = 500000;
-    
+
     const totalRequired = baseValue * cert.multiplier;
     const formattedUnits = totalRequired.toLocaleString("en-US");
 
@@ -155,7 +165,7 @@ const detectMovements = (currentChart: any[], weekId: string): NewsItem[] => {
 
     const jump = prev ? prev - rank : null;
     const moveStr = jump !== null ? (jump > 0 ? `+${jump}` : jump < 0 ? `${jump}` : "=") : "re";
-    
+
     const peakStr = isNewPeak ? "*new peak*" : `*peak: #${peak}*`;
     const subtext = `So Casual 100™: #${rank}(${moveStr}) ${title}, ${artist} [${woc} weeks]. ${peakStr}`;
 
@@ -168,7 +178,7 @@ const detectMovements = (currentChart: any[], weekId: string): NewsItem[] => {
     for (const t of thresholds) {
       if (rank <= t && (!prev || prev > t)) {
         crossedThreshold = t;
-        break; 
+        break;
       }
     }
 
@@ -197,16 +207,17 @@ const detectMovements = (currentChart: any[], weekId: string): NewsItem[] => {
       priority = crossedThreshold <= 10 ? 7 : 5;
     } else if (isNewPeak) {
       eventType = "NEW_PEAK";
-      headline = jump && jump > 0
-        ? `“${title}” by ${artist} reaches a new peak in So Casual 100™, rising ${jump} spots to #${rank}.`
-        : `“${title}” by ${artist} reaches a new peak in So Casual 100™ at #${rank}.`;
+      headline =
+        jump && jump > 0
+          ? `“${title}” by ${artist} reaches a new peak in So Casual 100™, rising ${jump} spots to #${rank}.`
+          : `“${title}” by ${artist} reaches a new peak in So Casual 100™ at #${rank}.`;
       priority = rank <= 20 ? 7 : 4;
     } else if (woc % 52 === 0) {
       eventType = "YEARLY_MILESTONE";
       const years = woc / 52;
       const yearText = years === 1 ? "one year" : `${years} years`;
       headline = `“${title}” by ${artist} has now completed ${yearText} (${woc} weeks of charting) in So Casual 100™.`;
-      priority = 9; 
+      priority = 9;
     } else if (woc % 10 === 0) {
       eventType = "MILESTONE";
       headline = `“${title}” by ${artist} spends its ${formatOrdinal(woc)} week in So Casual 100™ this week.`;
@@ -245,11 +256,11 @@ const detectAlbumBombs = (currentChart: any[], weekId: string): NewsItem[] => {
       const woc = entry.weeks_on_chart;
       const rank = entry.rank;
       const prev = entry.previous_position;
-      
+
       const isDebut = woc === 1;
       const isReentry = !prev && woc > 1;
       const isRise = prev && rank < prev;
-      
+
       return isDebut || isReentry || isRise;
     });
 
@@ -262,7 +273,8 @@ const detectAlbumBombs = (currentChart: any[], weekId: string): NewsItem[] => {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const albumTitle = (bombTracks[0].songs.albums as any)?.title || "Unknown Album";
       const artistName = bombTracks[0].songs.artists?.name || "Unknown Artist";
-      const highestTitle = bombTracks[0].songs.display_title || bombTracks[0].songs.title || "Unknown Title";
+      const highestTitle =
+        bombTracks[0].songs.display_title || bombTracks[0].songs.title || "Unknown Title";
 
       let headline = "";
       let eventType = "";
@@ -282,12 +294,12 @@ const detectAlbumBombs = (currentChart: any[], weekId: string): NewsItem[] => {
         const title = e.songs.display_title || e.songs.title || "Unknown Title";
         const woc = e.weeks_on_chart;
         const prev = e.previous_position;
-        
+
         let move = "";
         if (woc === 1) move = "NEW";
         else if (!prev) move = "RE";
         else move = `+${prev - e.rank}`;
-        
+
         return `#${e.rank} (${move}): ${title}`;
       });
 
@@ -365,13 +377,13 @@ export const generateNews = async (isFinalizing?: boolean, overrideTargetDate?: 
 
   const numberOneNews = await detectNumberOnes(currentChart, targetWeek.id);
   newsItems.push(...numberOneNews);
-  
+
   const certNews = await detectCertifications(targetWeek.id);
   newsItems.push(...certNews);
-  
+
   const movementNews = detectMovements(currentChart, targetWeek.id);
   newsItems.push(...movementNews);
-  
+
   const bombNews = detectAlbumBombs(currentChart, targetWeek.id);
   newsItems.push(...bombNews);
 

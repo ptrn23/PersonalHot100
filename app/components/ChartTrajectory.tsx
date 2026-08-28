@@ -19,10 +19,10 @@ type ChartTrajectoryProps = {
   maxRank?: number;
 };
 
-export default function ChartTrajectory({ 
-  songEntries, 
+export default function ChartTrajectory({
+  songEntries,
   allGlobalWeeks,
-  maxRank = 100
+  maxRank = 100,
 }: ChartTrajectoryProps) {
   const [mode, setMode] = useState<"compact" | "run" | "full">("run");
 

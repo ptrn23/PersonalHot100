@@ -7,11 +7,13 @@ import { calculateUnits, calculateDetailedUnits } from "@/utils/metrics";
 export default async function StreamifyPage() {
   const allWeeks = await getAllChartWeeks();
   const targetWeek = allWeeks[1] || allWeeks[0];
-  
+
   if (!targetWeek) {
     return (
       <div className="min-h-screen bg-[#121212] text-white">
-        <div className="flex h-[50vh] items-center justify-center font-bold">No completed chart week found.</div>
+        <div className="flex h-[50vh] items-center justify-center font-bold">
+          No completed chart week found.
+        </div>
       </div>
     );
   }
@@ -25,15 +27,15 @@ export default async function StreamifyPage() {
 
     const seedString = `${title}|${artistName}`;
     const units = calculateDetailedUnits(
-    entry.streams || 0,
-    entry.sales || 0,
-    entry.airplay || 0,
-    seedString
+      entry.streams || 0,
+      entry.sales || 0,
+      entry.airplay || 0,
+      seedString,
     );
 
     return {
-    ...entry,
-    calculatedUnits: units,
+      ...entry,
+      calculatedUnits: units,
     };
   });
 
@@ -42,16 +44,15 @@ export default async function StreamifyPage() {
   const formattedDateRange = formatDateRange(targetWeek.start_date, targetWeek.end_date);
 
   return (
-    <div className="min-h-screen bg-[#121212] text-white font-geist selection:bg-[#1db954] selection:text-black">
+    <div className="font-geist min-h-screen bg-[#121212] text-white selection:bg-[#1db954] selection:text-black">
       {/* SPOTIFY-STYLE HERO BANNER */}
       <div className="relative w-full bg-gradient-to-b from-[#1ed760]/30 via-[#121212]/80 to-[#121212] px-8 pt-12 pb-8">
-        <div className="mx-auto flex max-w-[1400px] flex-col md:flex-row items-end gap-8">
-          
+        <div className="mx-auto flex max-w-[1400px] flex-col items-end gap-8 md:flex-row">
           <div className="flex h-52 w-52 shrink-0 items-center justify-center border-4 border-black bg-[#1ed760] shadow-[12px_12px_0px_0px_rgba(0,0,0,1)]">
             <div className="flex flex-col items-center text-black">
               <span className="text-xs font-black tracking-[0.2em] uppercase">Streamify</span>
               <span className="text-4xl font-black tracking-tighter uppercase">Top 50</span>
-              <span className="text-[10px] font-bold tracking-widest uppercase mt-2">Global</span>
+              <span className="mt-2 text-[10px] font-bold tracking-widest uppercase">Global</span>
             </div>
           </div>
 
@@ -59,21 +60,20 @@ export default async function StreamifyPage() {
             <span className="text-xs font-black tracking-widest text-[#1ed760] uppercase">
               Verified Playlist
             </span>
-            <h1 className="text-5xl md:text-7xl font-black tracking-tighter uppercase text-white">
+            <h1 className="text-5xl font-black tracking-tighter text-white uppercase md:text-7xl">
               Top Songs - Global
             </h1>
-            <p className="text-sm font-bold text-gray-400 uppercase tracking-widest mt-1">
+            <p className="mt-1 text-sm font-bold tracking-widest text-gray-400 uppercase">
               Your weekly update of the most played tracks right now - Global.
             </p>
-            <div className="flex items-center gap-2 text-xs font-bold text-gray-300 mt-2">
-              <span className="text-white font-black">So Casual Charts</span>
+            <div className="mt-2 flex items-center gap-2 text-xs font-bold text-gray-300">
+              <span className="font-black text-white">So Casual Charts</span>
               <span>•</span>
               <span>{streamifyEntries.length} songs</span>
               <span>•</span>
               <span className="text-gray-400">{formattedDateRange}</span>
             </div>
           </div>
-
         </div>
       </div>
 
@@ -84,26 +84,32 @@ export default async function StreamifyPage() {
             <button className="flex h-14 w-14 items-center justify-center rounded-full bg-[#1ed760] text-black shadow-lg transition-transform hover:scale-105 hover:bg-[#1db954]">
               <Play size={24} fill="black" className="ml-1" />
             </button>
-            <button className="text-gray-400 transition-colors hover:text-white"><Shuffle size={22} /></button>
-            <button className="text-gray-400 transition-colors hover:text-white"><ArrowDownToLine size={22} /></button>
-            <button className="text-gray-400 transition-colors hover:text-white"><MoreHorizontal size={22} /></button>
+            <button className="text-gray-400 transition-colors hover:text-white">
+              <Shuffle size={22} />
+            </button>
+            <button className="text-gray-400 transition-colors hover:text-white">
+              <ArrowDownToLine size={22} />
+            </button>
+            <button className="text-gray-400 transition-colors hover:text-white">
+              <MoreHorizontal size={22} />
+            </button>
           </div>
         </div>
 
         {/* TRACK LIST TABLE */}
         <div className="mt-6 w-full overflow-x-auto">
-          <table className="w-full text-left border-collapse">
+          <table className="w-full border-collapse text-left">
             <thead>
               <tr className="border-b border-zinc-800 text-[11px] font-black tracking-[0.2em] text-gray-400 uppercase">
-                <th className="py-3 px-4 w-12 text-center">#</th>
-                <th className="py-3 px-4">Title</th>
-                <th className="py-3 px-4 text-right">Streams</th>
-                <th className="py-3 px-4">Album</th>
-                <th className="py-3 px-4 w-20 text-center">Year</th>
+                <th className="w-12 px-4 py-3 text-center">#</th>
+                <th className="px-4 py-3">Title</th>
+                <th className="px-4 py-3 text-right">Streams</th>
+                <th className="px-4 py-3">Album</th>
+                <th className="w-20 px-4 py-3 text-center">Year</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-zinc-900/50 text-sm font-bold">
-                {streamifyEntries.map((entry, index) => {
+              {streamifyEntries.map((entry, index) => {
                 const song = entry.songs;
                 const title = song?.display_title || song?.title || "Unknown Title";
                 const artistName = song?.artists?.name || "Unknown Artist";
@@ -115,52 +121,61 @@ export default async function StreamifyPage() {
                 const streamUnits = entry.calculatedUnits.streamsUnits;
 
                 return (
-                    <tr key={entry.id} className="group transition-colors hover:bg-zinc-900/80">
-                    <td className="py-3 px-4 text-center font-mono text-gray-400 group-hover:text-white">
-                        {rank}
+                  <tr key={entry.id} className="group transition-colors hover:bg-zinc-900/80">
+                    <td className="px-4 py-3 text-center font-mono text-gray-400 group-hover:text-white">
+                      {rank}
                     </td>
 
-                    <td className="py-3 px-4">
-                        <div className="flex items-center gap-3">
-                        <div className="h-10 w-10 shrink-0 bg-zinc-800 overflow-hidden border border-zinc-700">
-                            {coverUrl ? (
-                            <img src={coverUrl} alt={title} className="h-full w-full object-cover" />
-                            ) : (
-                            <div className="flex h-full w-full items-center justify-center text-[10px] text-gray-500">IMG</div>
-                            )}
+                    <td className="px-4 py-3">
+                      <div className="flex items-center gap-3">
+                        <div className="h-10 w-10 shrink-0 overflow-hidden border border-zinc-700 bg-zinc-800">
+                          {coverUrl ? (
+                            <img
+                              src={coverUrl}
+                              alt={title}
+                              className="h-full w-full object-cover"
+                            />
+                          ) : (
+                            <div className="flex h-full w-full items-center justify-center text-[10px] text-gray-500">
+                              IMG
+                            </div>
+                          )}
                         </div>
                         <div className="flex flex-col truncate">
-                            <Link href={`/library/song/${song?.id}`} className="truncate text-white font-bold transition-colors hover:text-[#1ed760] hover:underline">
+                          <Link
+                            href={`/library/song/${song?.id}`}
+                            className="truncate font-bold text-white transition-colors hover:text-[#1ed760] hover:underline"
+                          >
                             {title}
-                            </Link>
-                            <span className="truncate text-xs font-medium text-gray-400">
+                          </Link>
+                          <span className="truncate text-xs font-medium text-gray-400">
                             {artistName}
-                            </span>
+                          </span>
                         </div>
-                        </div>
+                      </div>
                     </td>
 
                     {/* Render the deterministically calculated and correctly sorted streaming units */}
-                    <td className="py-3 px-4 text-right font-mono text-[#1ed760] font-black tracking-wider">
-                        {streamUnits.toLocaleString("en-US")}
+                    <td className="px-4 py-3 text-right font-mono font-black tracking-wider text-[#1ed760]">
+                      {streamUnits.toLocaleString("en-US")}
                     </td>
 
-                    <td className="py-3 px-4 text-gray-400 font-medium truncate max-w-xs">
-                        <Link href={`/library/album/${song?.albums?.id}`} className="hover:underline hover:text-white truncate">
+                    <td className="max-w-xs truncate px-4 py-3 font-medium text-gray-400">
+                      <Link
+                        href={`/library/album/${song?.albums?.id}`}
+                        className="truncate hover:text-white hover:underline"
+                      >
                         {albumTitle}
-                        </Link>
+                      </Link>
                     </td>
 
-                    <td className="py-3 px-4 text-center text-xs font-mono text-gray-500">
-                        --
-                    </td>
-                    </tr>
+                    <td className="px-4 py-3 text-center font-mono text-xs text-gray-500">--</td>
+                  </tr>
                 );
-                })}
+              })}
             </tbody>
           </table>
         </div>
-
       </div>
     </div>
   );

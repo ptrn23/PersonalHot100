@@ -19,9 +19,9 @@ import {
   Heart,
   Bookmark,
   Upload,
-  User, 
+  User,
   Disc3,
-  ArrowLeft
+  ArrowLeft,
 } from "lucide-react";
 import { CASUAL_RED } from "@/config/theme";
 import { CHART_NAME, CHART_HANDLE } from "@/config/constants";
@@ -218,7 +218,11 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
             href="/charts/weekly"
             className="group mb-10 inline-flex items-center gap-2 text-sm font-bold tracking-widest text-gray-400 uppercase transition-colors hover:text-black"
           >
-            <ArrowLeft size={16} strokeWidth={3} className="transition-transform group-hover:-translate-x-1" />
+            <ArrowLeft
+              size={16}
+              strokeWidth={3}
+              className="transition-transform group-hover:-translate-x-1"
+            />
             Back to Hot 100
           </Link>
 

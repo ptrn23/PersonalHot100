@@ -280,7 +280,11 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
             href="/charts/albums"
             className="group mb-10 inline-flex items-center gap-2 text-sm font-bold tracking-widest text-gray-400 uppercase transition-colors hover:text-black"
           >
-            <ArrowLeft size={16} strokeWidth={3} className="transition-transform group-hover:-translate-x-1" />
+            <ArrowLeft
+              size={16}
+              strokeWidth={3}
+              className="transition-transform group-hover:-translate-x-1"
+            />
             Back to Top Albums 20
           </Link>
 
@@ -427,7 +431,11 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
               </h2>
             </div>
             <div className="rounded-lg border-2 border-gray-200 bg-white p-6 pt-8 shadow-sm">
-              <ChartTrajectory songEntries={enrichedAlbumHistory} allGlobalWeeks={allGlobalWeeks} maxRank={20} />
+              <ChartTrajectory
+                songEntries={enrichedAlbumHistory}
+                allGlobalWeeks={allGlobalWeeks}
+                maxRank={20}
+              />
             </div>
           </div>
         )}
