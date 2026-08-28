@@ -22,7 +22,7 @@ const CERT_THRESHOLDS = {
 export const runCertifications = async (isFinalizing?: boolean, overrideTargetDate?: string) => {
   console.log("\nRunning certification engine...");
   if (!isFinalizing) {
-    console.log("\nWeek not finished yet. Skipping certifications...");
+    console.log("\nWeek not finished yet. Skipping certifications to maintain official integrity...");
     return;
   }
 
@@ -65,7 +65,7 @@ export const runCertifications = async (isFinalizing?: boolean, overrideTargetDa
     .eq("week_id", targetWeek.id);
 
   if (entriesError || !weekEntries || weekEntries.length === 0) {
-    console.log("No chart entries found this week to certify.");
+    console.log("No official chart entries found this week to certify.");
     return;
   }
 
@@ -137,12 +137,10 @@ export const runCertifications = async (isFinalizing?: boolean, overrideTargetDa
         total_points, 
         streams, 
         sales, 
-        airplay, 
-        chart_weeks!inner(end_date)
+        airplay
       `,
       )
       .in("song_id", allRelevantSongIds)
-      .lte("chart_weeks.end_date", targetWeek.end_date)
       .range(from, from + step - 1);
 
     if (error) {
