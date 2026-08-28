@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Search, Loader2, X } from "lucide-react";
+import { Search, Loader2, X, ChevronDown } from "lucide-react";
 import { CHART_NAME } from "@/config/constants";
 
 import { performGlobalSearch } from "@/lib/db/search";
@@ -26,7 +26,7 @@ export default function Header() {
   });
 
   const searchRef = useRef<HTMLDivElement>(null);
-  const isActive = (path: string) => pathname === path;
+  const isActive = (path: string) => pathname.startsWith(path);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -77,11 +77,11 @@ export default function Header() {
             </h1>
           </Link>
 
-          <nav className="hidden items-center gap-4 text-sm font-black tracking-wider uppercase lg:flex">
+          <nav className="hidden items-center gap-6 text-sm font-black tracking-wider uppercase lg:flex">
             <Link
               href="/charts"
-              className={`transition-colors ${
-                pathname.startsWith("/charts") ? "text-[#B30000]" : "text-gray-600 hover:text-black"
+              className={`transition-none hover:underline decoration-[#B30000] decoration-2 underline-offset-[6px] ${
+                isActive("/charts") ? "underline decoration-[#B30000] decoration-2 underline-offset-[6px]" : "text-gray-900"
               }`}
             >
               Charts
@@ -91,10 +91,8 @@ export default function Header() {
 
             <Link
               href="/library"
-              className={`transition-colors ${
-                pathname.startsWith("/library")
-                  ? "text-[#B30000]"
-                  : "text-gray-600 hover:text-black"
+              className={`transition-none hover:underline decoration-[#B30000] decoration-2 underline-offset-[6px] ${
+                isActive("/library") ? "underline decoration-[#B30000] decoration-2 underline-offset-[6px]" : "text-gray-900"
               }`}
             >
               Library
@@ -104,8 +102,8 @@ export default function Header() {
 
             <Link
               href="/about"
-              className={`transition-colors ${
-                pathname === "/about" ? "text-[#B30000]" : "text-gray-600 hover:text-black"
+              className={`transition-none hover:underline decoration-[#B30000] decoration-2 underline-offset-[6px] ${
+                isActive("/about") ? "underline decoration-[#B30000] decoration-2 underline-offset-[6px]" : "text-gray-900"
               }`}
             >
               About
@@ -127,7 +125,7 @@ export default function Header() {
                 onFocus={() => {
                   if (query.trim()) setShowDropdown(true);
                 }}
-                className="w-48 rounded-sm border border-gray-200 bg-gray-100 py-2 pr-8 pl-9 text-xs font-bold tracking-widest text-gray-900 uppercase transition-all duration-300 placeholder:text-gray-400 focus:w-64 focus:ring-2 focus:ring-black focus:outline-none"
+                className="w-48 rounded-sm border-2 border-black bg-gray-100 py-2 pr-8 pl-9 text-xs font-bold tracking-widest text-gray-900 uppercase transition-all duration-300 placeholder:text-gray-400 focus:w-64 focus:ring-0 focus:outline-none"
               />
               {query && (
                 <button
@@ -140,7 +138,7 @@ export default function Header() {
             </div>
 
             {showDropdown && (
-              <div className="absolute top-full right-0 mt-2 flex w-80 flex-col overflow-hidden border-2 border-black bg-white shadow-xl">
+              <div className="absolute top-full right-0 mt-2 flex w-80 flex-col overflow-hidden border-2 border-black bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
                 {isSearching ? (
                   <div className="flex items-center justify-center p-8 text-[#B30000]">
                     <Loader2 className="animate-spin" size={24} />
@@ -256,45 +254,80 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="w-full overflow-x-auto bg-black py-2.5 text-white">
-        <div className="mx-auto flex max-w-[1400px] items-center justify-start gap-6 px-6 text-[11px] font-black tracking-[0.18em] whitespace-nowrap uppercase md:justify-center">
-          <Link href="/charts/weekly" className="text-white transition-colors hover:text-[#B30000]">
-            Hot 100
-          </Link>
+      <div className="w-full overflow-visible bg-black text-white">
+        <div className="mx-auto flex h-12 max-w-[1400px] items-center justify-start gap-6 px-6 text-[11px] font-black tracking-[0.18em] whitespace-nowrap uppercase md:justify-center">
+          
+          {/* HOT 100 DROPDOWN */}
+          <div className="group relative flex h-full items-center">
+            <button className="flex h-full items-center gap-1 transition-none hover:underline decoration-white decoration-2 underline-offset-[6px]">
+              Hot 100 <ChevronDown size={12} strokeWidth={3} />
+            </button>
+            <div className="absolute top-full left-0 hidden w-48 flex-col border-2 border-black bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] group-hover:flex">
+              <Link href="/charts/weekly" className="border-b-2 border-black px-4 py-3 text-black hover:bg-gray-200">
+                Weekly Chart
+              </Link>
+              <Link href="/charts/live" className="px-4 py-3 text-black hover:bg-gray-200">
+                Live Tracker
+              </Link>
+            </div>
+          </div>
+
           <span className="font-medium text-gray-800">|</span>
-          <Link href="/charts/albums" className="text-white transition-colors hover:text-[#B30000]">
+
+          {/* METRICS DROPDOWN */}
+          <div className="group relative flex h-full items-center">
+            <button className="flex h-full items-center gap-1 transition-none hover:underline decoration-white decoration-2 underline-offset-[6px]">
+              Metrics <ChevronDown size={12} strokeWidth={3} />
+            </button>
+            <div className="absolute top-full left-0 hidden w-48 flex-col border-2 border-black bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] group-hover:flex">
+              <Link href="/charts/streamify" className="border-b-2 border-black px-4 py-3 text-black hover:bg-green-100">
+                Streamify
+              </Link>
+              <Link href="/charts/isales" className="border-b-2 border-black px-4 py-3 text-black hover:bg-yellow-100">
+                iSales
+              </Link>
+              <Link href="/charts/airfm" className="px-4 py-3 text-black hover:bg-blue-100">
+                Air.FM
+              </Link>
+            </div>
+          </div>
+
+          <span className="font-medium text-gray-800">|</span>
+
+          <Link href="/charts/albums" className="transition-none hover:underline decoration-white decoration-2 underline-offset-[6px]">
             Top Albums 20
           </Link>
+          
           <span className="font-medium text-gray-800">|</span>
-          <Link
-            href="/charts/artists"
-            className="text-white transition-colors hover:text-[#B30000]"
-          >
+          
+          <Link href="/charts/artists" className="transition-none hover:underline decoration-white decoration-2 underline-offset-[6px]">
             Top Artists 20
           </Link>
+          
           <span className="font-medium text-gray-800">|</span>
-          <Link
-            href="/charts/year-end"
-            className="text-white transition-colors hover:text-[#B30000]"
-          >
+          
+          <Link href="/charts/year-end" className="transition-none hover:underline decoration-white decoration-2 underline-offset-[6px]">
             Year-End Charts
           </Link>
+          
           <span className="font-medium text-gray-800">|</span>
-          <Link
-            href="/charts/alltime"
-            className="text-white transition-colors hover:text-[#B30000]"
-          >
+          
+          <Link href="/charts/alltime" className="transition-none hover:underline decoration-white decoration-2 underline-offset-[6px]">
             All-Time
           </Link>
+          
           <span className="font-medium text-gray-800">|</span>
-          <span className="cursor-not-allowed text-gray-500">Certifications</span>
+          
+          <Link href="/certifications" className="transition-none hover:underline decoration-white decoration-2 underline-offset-[6px]">
+            Certifications
+          </Link>
+          
           <span className="font-medium text-gray-800">|</span>
-          <Link
-            href="/charts/records"
-            className="text-white transition-colors hover:text-[#B30000]"
-          >
+          
+          <Link href="/records" className="transition-none hover:underline decoration-white decoration-2 underline-offset-[6px]">
             Records
           </Link>
+
         </div>
       </div>
     </div>
