@@ -70,7 +70,7 @@ export default function ChartTicket({ entry }: { entry: DisplayEntry }) {
 
         <div className="relative z-10">
           <p className="mb-1 text-xs font-bold tracking-widest text-white/70 uppercase">
-            {CHART_NAME} Hot 100
+            {CHART_NAME} 100™
           </p>
           <p className="text-sm leading-4 font-medium">
             Charting for <span className="font-bold text-white">{entry.weeksOnChart} weeks</span>
