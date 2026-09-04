@@ -6,9 +6,15 @@ import { generateNews } from "./05-generate-news";
 import { setupNextChartWeek } from "./calendar";
 
 import { supabase } from "../utils/supabase";
+import { createClient } from "@supabase/supabase-js";
 
 async function runEngine() {
   console.log("\nStarting Hot 100 Engine...");
+  
+  const supabaseAdmin = createClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.SUPABASE_SERVICE_KEY!
+  );
 
   const overrideDate = process.argv[2];
 
@@ -43,7 +49,7 @@ async function runEngine() {
     .single();
 
   if (currentWeek && fetchResult.isFinalizing) {
-    await setupNextChartWeek(supabase, currentWeek.end_date, fetchResult.isFinalizing);
+    await setupNextChartWeek(supabaseAdmin, currentWeek.end_date, fetchResult.isFinalizing);
   } else {
     console.error("Could not find an active chart week to base the calendar on.");
   }
