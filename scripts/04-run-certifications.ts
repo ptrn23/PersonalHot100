@@ -127,10 +127,11 @@ export const runCertifications = async (isFinalizing?: boolean, overrideTargetDa
   console.log(`Fetching historical points for ${allRelevantSongIds.length} tracks...`);
 
   const historicalEntries: any[] = [];
-  let from = 0;
-  const step = 1000;
+  const CHUNK_SIZE = 100;
 
-  while (true) {
+  for (let i = 0; i < allRelevantSongIds.length; i += CHUNK_SIZE) {
+    const chunk = allRelevantSongIds.slice(i, i + CHUNK_SIZE);
+    
     const { data, error } = await supabase
       .from("chart_entries")
       .select(
@@ -142,19 +143,16 @@ export const runCertifications = async (isFinalizing?: boolean, overrideTargetDa
         airplay
       `,
       )
-      .in("song_id", allRelevantSongIds)
-      .range(from, from + step - 1);
+      .in("song_id", chunk);
 
     if (error) {
       console.error("Database error fetching historical points:", error);
       return;
     }
 
-    if (!data || data.length === 0) break;
-    historicalEntries.push(...data);
-
-    if (data.length < step) break;
-    from += step;
+    if (data) {
+      historicalEntries.push(...data);
+    }
   }
 
   const songTotals = new Map<string, number>();
