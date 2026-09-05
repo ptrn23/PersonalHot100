@@ -175,3 +175,36 @@ export async function getAllTimeArtists(startRange: number, endRange: number) {
   if (error) return [];
   return data || [];
 }
+
+export async function getLatestNumberOneSong() {
+  const { data, error } = await supabase
+    .from("chart_entries")
+    .select(
+      `
+      *,
+      chart_weeks!inner (
+        id,
+        start_date,
+        end_date
+      ),
+      songs (
+        id,
+        title,
+        display_title,
+        artists ( id, name, display_name ),
+        albums ( id, title, display_title, cover_url )
+      )
+    `
+    )
+    .eq("rank", 1)
+    .order("created_at", { ascending: false })
+    .limit(1)
+    .single();
+
+  if (error) {
+    console.error("Error fetching latest #1 song:", error);
+    return null;
+  }
+  
+  return data;
+}
