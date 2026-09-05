@@ -14,6 +14,7 @@ export interface HeroLeaderData {
   coverUrl: string;
   totalPoints: number;
   weeksOnChart: number;
+  peakStreak: number;
   movement: string;
   previewUrl?: string | null;
   streamsUnits?: number;
@@ -29,6 +30,7 @@ const fallbackLeader: HeroLeaderData = {
   coverUrl: "/cover.jpg",
   totalPoints: 0,
   weeksOnChart: 1,
+  peakStreak: 1,
   movement: "DEBUT",
   previewUrl: null,
   streamsUnits: 0,
@@ -41,23 +43,13 @@ function generateEditorialSummary(leader: HeroLeaderData) {
   const weeksRule =
     leader.weeksOnChart === 1
       ? "in its chart debut"
-      : `for a ${formatOrdinal(leader.weeksOnChart)} consecutive week`;
+      : `for a ${formatOrdinal(leader.peakStreak)} week`;
 
-  const metricsBreakdown: string[] = [];
-  if (leader.streamsUnits) {
-    metricsBreakdown.push(`${formatNumber(leader.streamsUnits).toUpperCase()} streams`);
-  }
-  if (leader.airplayUnits) {
-    metricsBreakdown.push(`${formatNumber(leader.airplayUnits).toUpperCase()} radio audience impressions`);
-  }
-  if (leader.salesUnits) {
-    metricsBreakdown.push(`${formatNumber(leader.salesUnits).toUpperCase()} digital downloads`);
-  }
+  const streams = leader.streamsUnits ? formatNumber(leader.streamsUnits).toUpperCase() : "0";
+  const airplay = leader.airplayUnits ? formatNumber(leader.airplayUnits).toUpperCase() : "0";
+  const sales = leader.salesUnits ? formatNumber(leader.salesUnits).toUpperCase() : "0";
 
-  const breakdownStr =
-    metricsBreakdown.length > 0 ? `, propelled by ${metricsBreakdown.join(", ")}` : "";
-
-  return `${leader.artist}’s “${leader.title}” rules the ${CHART_NAME} Hot 100 ${weeksRule}. “The Fate of Ophelia” drew 18.4 million official streams (up 1% week-over-week) and 62.1 million radio airplay audience impressions (up 2%) and sold 11,000 (down 63%) in the United States Dec. 26-Jan. 1.`;
+  return `${leader.artist}’s “${leader.title}” rules the ${CHART_NAME} Hot 100 ${weeksRule}. “${leader.title}” drew ${streams} official streams and ${airplay} radio airplay audience impressions, and sold ${sales} digital downloads in the tracking week ending ${leader.chartDate}.`;
 }
 
 export default async function LandingPage() {
@@ -83,7 +75,7 @@ export default async function LandingPage() {
       rawNumberOne.airplay || 0,
       seedString
     );
-    
+
     currentLeader = {
       id: rawNumberOne.song_id,
       title: title,
@@ -92,8 +84,9 @@ export default async function LandingPage() {
       coverUrl: rawNumberOne.songs?.albums?.cover_url || "/cover.jpg",
       totalPoints: rawNumberOne.total_points,
       weeksOnChart: rawNumberOne.weeks_on_chart,
+      peakStreak: rawNumberOne.peak_streak,
       movement: movementStr,
-      previewUrl: null, // Ready for the Spotify Integration step!
+      previewUrl: null,
       streamsUnits: units.streamsUnits,
       salesUnits: units.salesUnits,
       airplayUnits: units.airplayUnits,
@@ -123,7 +116,7 @@ export default async function LandingPage() {
               </div>
 
               <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-[5.2rem] leading-[0.88] font-black tracking-tighter uppercase mb-6">
-                &ldquo;{currentLeader.title}&rdquo; tops this week&apos;s chart.
+                <span className="text-[#B30000]">&ldquo;{currentLeader.title}&rdquo;</span> tops this week&apos;s chart.
               </h1>
 
               <p className="max-w-xl text-base md:text-lg leading-relaxed font-medium text-gray-600 mb-8">
@@ -146,7 +139,7 @@ export default async function LandingPage() {
                 className="group flex items-center gap-3 border-2 border-black bg-white px-6 py-4 text-xs md:text-sm font-black tracking-widest text-black uppercase shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] transition-transform hover:bg-gray-50 hover:-translate-y-0.5 active:translate-y-0"
               >
                 <Activity className="h-4 w-4 text-[#B30000]" />
-                Live Tracking Room
+                Explore Midweek Live Chart
               </Link>
             </div>
           </div>

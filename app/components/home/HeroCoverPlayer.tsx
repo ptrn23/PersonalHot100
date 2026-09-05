@@ -59,9 +59,6 @@ export default function HeroCoverPlayer({
             Current No. 1 Single
           </span>
         </div>
-        <span className="bg-zinc-100 border border-black px-2 py-0.5 font-mono text-[10px] font-black tracking-wider uppercase text-zinc-800">
-          {movement}
-        </span>
       </div>
 
       {/* Artwork Container */}
@@ -108,10 +105,7 @@ export default function HeroCoverPlayer({
 
         {/* Bottom Text Overlay */}
         <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-4 flex flex-col text-white z-10">
-          <span className="font-mono text-[10px] uppercase font-bold tracking-widest text-[#B30000]">
-            Official Certification Pacesetter
-          </span>
-          <span className="text-xl font-black truncate">{title}</span>
+          <span className="text-3xl font-black truncate">{title}</span>
           <span className="text-sm font-bold text-gray-300 truncate uppercase">{artist}</span>
         </div>
       </div>
