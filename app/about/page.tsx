@@ -85,16 +85,6 @@ export default function AboutPage() {
                 </li>
               </ul>
             </div>
-
-            <div className="mt-4 border-t border-gray-200 pt-8">
-              <span className="mb-4 block text-sm font-bold tracking-widest text-gray-400 uppercase">
-                Engineered By
-              </span>
-              <p className="text-3xl font-black tracking-tighter uppercase">ptrn23</p>
-              <p className="mt-1 font-medium text-gray-500">
-                Computer Science • UI/UX Architecture
-              </p>
-            </div>
           </div>
         </div>
       </div>
