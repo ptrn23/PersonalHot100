@@ -7,6 +7,7 @@ export async function getSongMetadata(songId: string) {
       `
       title,
       display_title,
+      spotify_id,
       artists (name),
       albums (cover_url)
     `,

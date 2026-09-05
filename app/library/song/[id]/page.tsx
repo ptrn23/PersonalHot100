@@ -22,6 +22,8 @@ import {
   User,
   Disc3,
   ArrowLeft,
+  Database,
+  ExternalLink,
 } from "lucide-react";
 import { CASUAL_RED } from "@/config/theme";
 import { CHART_NAME, CHART_HANDLE } from "@/config/constants";
@@ -93,6 +95,8 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
   const albumId = (song.albums as any)?.id;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const coverUrl = (song.albums as any)?.cover_url;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const spotifyId = (song as any)?.spotify_id;
 
   let totalPoints = 0;
   let rawStreams = 0;
@@ -244,6 +248,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
               <h1 className="mb-3 text-5xl leading-none font-black tracking-tighter uppercase md:text-6xl">
                 {song.display_title || song.title}
               </h1>
+              
               <div className="flex flex-col gap-2">
                 <Link
                   href={`/library/artist/${artistId}`}
@@ -260,6 +265,33 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
                   {albumTitle}
                 </Link>
               </div>
+
+              <div className="mt-5 flex flex-wrap items-center gap-2">
+                <div className="flex items-center gap-1.5 border border-gray-300 bg-white px-2.5 py-1 font-mono text-[10px] font-bold text-gray-500 uppercase shadow-sm">
+                  <Database size={12} />
+                  {song.id.split("-")[0]}
+                </div>
+                
+                {spotifyId ? (
+                  <Link
+                    href={`https://open.spotify.com/track/${spotifyId}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group flex items-center gap-1.5 border border-[#1DB954] bg-[#1DB954]/10 px-2.5 py-1 font-mono text-[10px] font-bold text-[#1DB954] uppercase shadow-sm transition-colors hover:bg-[#1DB954] hover:text-white"
+                  >
+                    <svg className="h-3.5 w-3.5 fill-currentColor" viewBox="0 0 24 24">
+                      <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.54.659.3 1.021zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15.001 10.62 18.6 12.84c.361.181.54.78.361 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.6.18-1.2.72-1.38 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z" />
+                    </svg>
+                    {spotifyId}
+                    <ExternalLink size={10} className="ml-0.5 opacity-50 group-hover:opacity-100" />
+                  </Link>
+                ) : (
+                  <div className="flex items-center gap-1.5 border border-gray-300 bg-gray-50 px-2.5 py-1 font-mono text-[10px] font-bold text-gray-400 uppercase shadow-sm">
+                    Spotify ID not found yet
+                  </div>
+                )}
+              </div>
+
             </div>
           </div>
         </div>
