@@ -8,7 +8,7 @@ export async function performGlobalSearch(query: string) {
   }
 
   const [resArtists, resAlbums, resSongs] = await Promise.all([
-    supabase.from("artists").select("id, name, image_url").ilike("name", `%${query}%`).limit(3),
+    supabase.from("artists").select("id, name, square_image").ilike("name", `%${query}%`).limit(3),
     supabase.from("albums").select("id, title, cover_url").ilike("title", `%${query}%`).limit(3),
     supabase
       .from("songs")

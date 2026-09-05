@@ -256,9 +256,9 @@ export default function Header() {
                               className="flex items-center gap-3 px-3 py-2 transition-colors hover:bg-gray-50"
                             >
                               <div className="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded-full border border-gray-300 bg-gray-200">
-                                {artist.image_url ? (
+                                {artist.square_image ? (
                                   <img
-                                    src={artist.image_url}
+                                    src={artist.square_image}
                                     alt={artist.name}
                                     className="h-full w-full object-cover"
                                   />

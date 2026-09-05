@@ -17,7 +17,7 @@ export default async function Image({ params }: { params: Promise<{ id: string }
 
   const artist = await getArtistMetadata(resolvedParams.id);
   const artistName = artist?.name || "Unknown Artist";
-  const imageUrl = artist?.image_url;
+  const imageUrl = artist?.square_image || artist?.wide_image || null;
 
   return new ImageResponse(
     <div
