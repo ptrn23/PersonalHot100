@@ -90,7 +90,7 @@ export default async function LandingPage() {
       weeksOnChart: rawNumberOne.weeks_on_chart,
       peakStreak: rawNumberOne.peak_streak,
       movement: movementStr,
-      previewUrl: null,
+      previewUrl: rawNumberOne.songs?.spotify_id || null,
       streamsUnits: units.streamsUnits,
       salesUnits: units.salesUnits,
       airplayUnits: units.airplayUnits,

@@ -202,6 +202,7 @@ export async function getLatestNumberOneSong() {
           id,
           title,
           display_title,
+          spotify_id,
           artists ( id, name, display_name ),
           albums ( id, title, display_title, cover_url )
         )
