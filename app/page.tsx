@@ -4,7 +4,7 @@ import { CHART_NAME } from "@/config/constants";
 import { formatNumber, formatOrdinal, formatFullDate } from "@/utils/formatters";
 import { calculateDetailedUnits } from "@/utils/metrics";
 import HeroCoverPlayer from "@/app/components/home/HeroCoverPlayer";
-import { getLatestNumberOneSong } from "@/lib/db/charts";
+import { getLatestNumberOneSong, getLatestTop5Songs, getCurrentYearEndTop5 } from "@/lib/db/charts";
 
 export interface HeroLeaderData {
   id: string;
@@ -53,7 +53,11 @@ function generateEditorialSummary(leader: HeroLeaderData) {
 }
 
 export default async function LandingPage() {
-  const rawNumberOne = await getLatestNumberOneSong();
+  const [rawNumberOne, rawTop5Weekly, rawTop5YearEnd] = await Promise.all([
+    getLatestNumberOneSong(),
+    getLatestTop5Songs(),
+    getCurrentYearEndTop5(),
+  ]);
 
   let currentLeader: HeroLeaderData = fallbackLeader;
 
@@ -95,6 +99,22 @@ export default async function LandingPage() {
   }
 
   const editorialSummary = generateEditorialSummary(currentLeader);
+  
+  const top5Weekly = rawTop5Weekly.map((item) => ({
+    id: item.song_id,
+    rank: item.rank,
+    title: item.songs?.display_title || item.songs?.title || "Unknown",
+    artist: item.songs?.artists?.display_name || item.songs?.artists?.name || "Unknown Artist",
+    coverUrl: item.songs?.albums?.cover_url || "/cover.jpg",
+  }));
+
+  const top5YearEnd = rawTop5YearEnd.map((item) => ({
+    id: item.id,
+    rank: item.rank,
+    title: item.display_title || item.title || "Unknown",
+    artist: item.artist_name || "Unknown Artist",
+    coverUrl: item.cover_url || "/cover.jpg",
+  }));
 
   return (
     <main className="relative min-h-screen overflow-hidden bg-white text-black selection:bg-[#B30000] selection:text-white">
@@ -106,7 +126,7 @@ export default async function LandingPage() {
         <div className="mb-8 flex flex-wrap items-center justify-between gap-4 border-b-2 border-black pb-4">
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start mb-24">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start mb-20">
           <div className="lg:col-span-7 flex flex-col justify-between">
             <div>
               <div className="inline-flex items-center gap-2 border-2 border-black bg-black px-3 py-1 font-mono text-xs font-black tracking-widest text-white uppercase mb-6 shadow-[3px_3px_0px_0px_rgba(179,0,0,1)]">
@@ -168,6 +188,62 @@ export default async function LandingPage() {
             </div>
           </div>
         </div>
+
+        {top5Weekly.length > 0 && (
+          <div className="w-full border-t-2 border-black pt-12 mb-16">
+            <div className="mb-8 flex items-center justify-between">
+              <h2 className="text-2xl md:text-3xl font-black tracking-tighter uppercase">Weekly Top 5</h2>
+              <Link href="/charts/weekly" className="flex items-center gap-2 font-mono text-xs font-bold tracking-widest uppercase text-gray-500 hover:text-[#B30000] transition-colors">
+                View Full Chart <ArrowRight size={14} />
+              </Link>
+            </div>
+            
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-6">
+              {top5Weekly.map((song) => (
+                <Link key={song.id} href={`/library/song/${song.id}`} className="group flex flex-col gap-3">
+                  <div className="relative aspect-square w-full border-2 border-black bg-zinc-100 overflow-hidden shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-transform group-hover:-translate-y-1 group-hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]">
+                    <img src={song.coverUrl} alt={song.title} className="w-full h-full object-cover transition-transform group-hover:scale-105" />
+                    <div className="absolute top-0 left-0 flex h-9 w-9 items-center justify-center border-r-2 border-b-2 border-black bg-black text-white font-black text-lg shadow-sm">
+                      {song.rank}
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="font-black text-sm uppercase truncate text-black group-hover:text-[#B30000] transition-colors">{song.title}</h4>
+                    <p className="text-[11px] font-bold tracking-wider text-gray-500 uppercase truncate">{song.artist}</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {top5YearEnd.length > 0 && (
+          <div className="w-full border-t-2 border-black pt-12 mb-20">
+            <div className="mb-8 flex items-center justify-between">
+              <h2 className="text-2xl md:text-3xl font-black tracking-tighter uppercase">{new Date().getFullYear()} Year-End Top 5</h2>
+              <Link href={`/charts/year-end?year=${new Date().getFullYear()}`} className="flex items-center gap-2 font-mono text-xs font-bold tracking-widest uppercase text-gray-500 hover:text-[#B30000] transition-colors">
+                View Full Year <ArrowRight size={14} />
+              </Link>
+            </div>
+            
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-6">
+              {top5YearEnd.map((song) => (
+                <Link key={song.id} href={`/library/song/${song.id}`} className="group flex flex-col gap-3">
+                  <div className="relative aspect-square w-full border-2 border-black bg-zinc-100 overflow-hidden shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-transform group-hover:-translate-y-1 group-hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]">
+                    <img src={song.coverUrl} alt={song.title} className="w-full h-full object-cover transition-transform group-hover:scale-105" />
+                    <div className="absolute top-0 left-0 flex h-9 w-9 items-center justify-center border-r-2 border-b-2 border-black bg-black text-white font-black text-lg shadow-sm">
+                      {song.rank}
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="font-black text-sm uppercase truncate text-black group-hover:text-[#B30000] transition-colors">{song.title}</h4>
+                    <p className="text-[11px] font-bold tracking-wider text-gray-500 uppercase truncate">{song.artist}</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
 
         <div className="w-full border-t-2 border-black pt-12">
           <div className="mb-8 flex items-center justify-between">
