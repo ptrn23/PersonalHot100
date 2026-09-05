@@ -3,6 +3,7 @@ import { calculateWeeklyPoints } from "./02-calculate-points";
 import { finalizeChartPositions } from "./03-finalize-chart";
 import { runCertifications } from "./04-run-certifications";
 import { generateNews } from "./05-generate-news";
+import { syncSpotifyIds } from "./06-sync-spotify";
 import { setupNextChartWeek } from "./calendar";
 
 import { supabase } from "../utils/supabase";
@@ -36,6 +37,8 @@ async function runEngine() {
     console.warn("No points generated in Step 2. Halting engine.");
     return;
   }
+  
+  await syncSpotifyIds(supabaseAdmin, stagedEntries);
 
   await finalizeChartPositions(stagedEntries, fetchResult.isFinalizing, overrideDate);
   await runCertifications(fetchResult.isFinalizing, overrideDate);
