@@ -110,7 +110,7 @@ export default async function AllTimeChartPage({
           rank: startRange + index + 1,
           previousRank: null,
 
-          coverUrl: null,
+          coverUrl: row.square_image || null,
           primaryText: name,
           primaryHref: row.id ? `/library/artist/${row.id}` : null,
           secondaryText: null,
