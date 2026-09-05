@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Activity, Calendar, ArrowRight, Flame } from "lucide-react";
+import { Activity, Calendar, ArrowRight, Flame, ArrowUpRight, Layers, Mic2, Headphones, Disc, Radio } from "lucide-react";
 import { CHART_NAME } from "@/config/constants";
 import { formatNumber, formatOrdinal, formatFullDate } from "@/utils/formatters";
 import { calculateDetailedUnits } from "@/utils/metrics";
@@ -106,8 +106,7 @@ export default async function LandingPage() {
         <div className="mb-8 flex flex-wrap items-center justify-between gap-4 border-b-2 border-black pb-4">
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-          
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start mb-24">
           <div className="lg:col-span-7 flex flex-col justify-between">
             <div>
               <div className="inline-flex items-center gap-2 border-2 border-black bg-black px-3 py-1 font-mono text-xs font-black tracking-widest text-white uppercase mb-6 shadow-[3px_3px_0px_0px_rgba(179,0,0,1)]">
@@ -168,8 +167,91 @@ export default async function LandingPage() {
               </div>
             </div>
           </div>
-
         </div>
+
+        <div className="w-full border-t-2 border-black pt-12">
+          <div className="mb-8 flex items-center justify-between">
+            <h2 className="text-3xl font-black tracking-tighter uppercase">The Charts</h2>
+            <Link href="/charts" className="hidden sm:flex items-center gap-2 font-mono text-xs font-bold tracking-widest uppercase text-gray-500 hover:text-[#B30000] transition-colors">
+              View All Charts <ArrowRight size={14} />
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            {/* HOT 100 */}
+            <Link href="/charts/weekly" className="group flex flex-col justify-between border-2 border-black bg-white p-6 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-transform hover:-translate-y-1 hover:bg-gray-50">
+              <div className="flex justify-between items-start mb-12">
+                <Calendar className="h-8 w-8 text-black" strokeWidth={2.5} />
+                <ArrowUpRight className="h-5 w-5 text-gray-400 transition-colors group-hover:text-black" />
+              </div>
+              <div>
+                <h3 className="font-black text-2xl uppercase tracking-tighter mb-1">Hot 100</h3>
+                <p className="text-xs font-bold text-gray-500 uppercase tracking-widest">The Official Leaderboard</p>
+              </div>
+            </Link>
+
+            {/* ALBUMS */}
+            <Link href="/charts/albums" className="group flex flex-col justify-between border-2 border-black bg-white p-6 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-transform hover:-translate-y-1 hover:bg-gray-50">
+              <div className="flex justify-between items-start mb-12">
+                <Layers className="h-8 w-8 text-black" strokeWidth={2.5} />
+                <ArrowUpRight className="h-5 w-5 text-gray-400 transition-colors group-hover:text-black" />
+              </div>
+              <div>
+                <h3 className="font-black text-2xl uppercase tracking-tighter mb-1">Top Albums 20</h3>
+              </div>
+            </Link>
+
+            {/* ARTISTS */}
+            <Link href="/charts/artists" className="group flex flex-col justify-between border-2 border-black bg-white p-6 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-transform hover:-translate-y-1 hover:bg-gray-50">
+              <div className="flex justify-between items-start mb-12">
+                <Mic2 className="h-8 w-8 text-black" strokeWidth={2.5} />
+                <ArrowUpRight className="h-5 w-5 text-gray-400 transition-colors group-hover:text-black" />
+              </div>
+              <div>
+                <h3 className="font-black text-2xl uppercase tracking-tighter mb-1">Top Artists 20</h3>
+              </div>
+            </Link>
+
+            {/* STREAMIFY */}
+            <Link href="/charts/streamify" className="group flex flex-col justify-between border-2 border-black bg-[#121212] text-white p-6 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-transform hover:-translate-y-1">
+              <div className="flex justify-between items-start mb-12">
+                <Headphones className="h-8 w-8 text-[#1ed760]" strokeWidth={2.5} />
+                <ArrowUpRight className="h-5 w-5 text-gray-500 transition-colors group-hover:text-white" />
+              </div>
+              <div>
+                <h3 className="font-black text-2xl uppercase tracking-tighter mb-1">Streamify</h3>
+                <p className="text-[11px] font-bold text-[#1ed760] uppercase tracking-widest">Digital Streaming Metrics</p>
+              </div>
+            </Link>
+
+            {/* ISALES */}
+            <Link href="/charts/isales" className="group flex flex-col justify-between border-2 border-black bg-amber-400 text-black p-6 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-transform hover:-translate-y-1">
+              <div className="flex justify-between items-start mb-12">
+                <Disc className="h-8 w-8 text-black" strokeWidth={2.5} />
+                <ArrowUpRight className="h-5 w-5 text-amber-700 transition-colors group-hover:text-black" />
+              </div>
+              <div>
+                <h3 className="font-black text-2xl uppercase tracking-tighter mb-1">iSales</h3>
+                <p className="text-[11px] font-bold text-amber-900 uppercase tracking-widest">Pure Purchases Ledger</p>
+              </div>
+            </Link>
+
+            {/* AIR.FM */}
+            <Link href="/charts/airfm" className="group flex flex-col justify-between border-2 border-black bg-[#090d16] text-blue-400 p-6 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-transform hover:-translate-y-1">
+              <div className="flex justify-between items-start mb-12">
+                <Radio className="h-8 w-8 text-blue-500" strokeWidth={2.5} />
+                <ArrowUpRight className="h-5 w-5 text-blue-800 transition-colors group-hover:text-blue-400" />
+              </div>
+              <div>
+                <h3 className="font-black text-2xl uppercase tracking-tighter mb-1 text-white">Air.FM</h3>
+                <p className="text-[11px] font-bold text-blue-500 uppercase tracking-widest">Radio Rotation Scanner</p>
+              </div>
+            </Link>
+
+          </div>
+        </div>
+
       </div>
     </main>
   );
