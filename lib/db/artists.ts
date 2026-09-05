@@ -3,7 +3,7 @@ import { supabase } from "@/utils/supabase";
 export async function getArtistMetadata(artistId: string) {
   const { data, error } = await supabase
     .from("artists")
-    .select("name, image_url")
+    .select("name, wide_image, square_image")
     .eq("id", artistId)
     .single();
 

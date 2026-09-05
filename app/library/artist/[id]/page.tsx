@@ -7,7 +7,8 @@ import { formatNumber, formatFullDate, formatShortDate } from "@/utils/formatter
 import ChartTrajectory from "../../../components/ChartTrajectory";
 import { CHART_NAME } from "@/config/constants";
 import { CASUAL_RED } from "@/config/theme";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Database } from "lucide-react";
+// import ShareArtistButton from "@/components/ShareArtistButton";
 
 import {
   getArtistMetadata,
@@ -249,45 +250,74 @@ export default async function ArtistPage({
 
   return (
     <main className="min-h-screen bg-[#f5f5f5] pb-24 text-gray-900">
-      <div className="relative mb-12 aspect-[2400/933] max-h-[600px] min-h-[350px] w-full overflow-hidden bg-black shadow-sm">
-        {artist.image_url ? (
-          <img
-            src={artist.image_url}
-            alt={artist.name}
-            className="absolute inset-0 h-full w-full object-cover object-[center_20%] opacity-90"
-          />
-        ) : (
-          <div className="absolute inset-0 flex items-center justify-center bg-gray-900">
-            <span className="text-[15rem] leading-none font-black text-white uppercase opacity-5">
-              {artist.name.charAt(0)}
-            </span>
-          </div>
-        )}
-
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
-        <div className="relative z-10 mx-auto flex h-full w-full max-w-5xl flex-col justify-between px-10 py-10 md:px-0 md:py-12">
-          <Link
-            href="/charts/weekly"
-            className="group inline-flex w-max items-center gap-2 rounded-full border border-white/20 bg-white/10 px-5 py-2.5 text-xs font-bold tracking-widest text-white uppercase drop-shadow-md backdrop-blur-md transition-all hover:scale-105 hover:bg-white/20"
-          >
-            <ArrowLeft
-              size={16}
-              strokeWidth={3}
-              className="transition-transform group-hover:-translate-x-1"
+      
+      <div className="relative mb-12 w-full border-b-4 border-black bg-black">
+        <div className="absolute inset-0 overflow-hidden">
+          {artist.wide_image ? (
+            <img
+              src={artist.wide_image}
+              alt={artist.name}
+              className="h-full w-full object-cover object-[center_20%] opacity-80"
             />
-            Back to Hot 100
-          </Link>
+          ) : artist.square_image ? (
+            <img
+              src={artist.square_image}
+              alt={artist.name}
+              className="h-full w-full scale-110 object-cover opacity-20 blur-3xl grayscale"
+            />
+          ) : (
+            <div className="flex h-full w-full items-center justify-center bg-zinc-900">
+              <span className="text-[15rem] leading-none font-black text-white uppercase opacity-5">
+                {artist.name.charAt(0)}
+              </span>
+            </div>
+          )}
+          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
+        </div>
 
-          <div>
-            <p className="mb-2 text-sm font-bold tracking-widest text-white/80 uppercase drop-shadow-md">
-              Artist Profile
-            </p>
-            <h1 className="mb-5 text-6xl leading-none font-black tracking-tighter text-white uppercase drop-shadow-xl md:text-8xl lg:text-[7rem]">
-              {artist.name}
-            </h1>
+        <div className="relative z-10 mx-auto flex min-h-[450px] max-w-5xl flex-col justify-end px-10 py-10 md:px-0 md:py-12">
+          
+          <div className="mb-auto pb-10 pt-4">
+            <Link
+              href="/charts/weekly"
+              className="group inline-flex items-center gap-2 border-2 border-white bg-transparent px-4 py-2 text-xs font-black tracking-widest text-white uppercase transition-colors hover:bg-white hover:text-black"
+            >
+              <ArrowLeft
+                size={16}
+                strokeWidth={3}
+                className="transition-transform group-hover:-translate-x-1"
+              />
+              Back to Hot 100
+            </Link>
+          </div>
 
-            <div className="inline-flex items-center rounded-full border border-white/20 bg-white/10 px-4 py-1.5 font-mono text-[11px] tracking-widest text-white/90 uppercase shadow-sm backdrop-blur-md">
-              ID: {artist.id.split("-")[0]}
+          <div className="flex flex-col gap-8 md:flex-row md:items-end">
+            {!artist.wide_image && artist.square_image && (
+              <div className="h-40 w-40 shrink-0 border-4 border-white bg-zinc-900 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] md:h-56 md:w-56">
+                <img
+                  src={artist.square_image}
+                  className="h-full w-full object-cover grayscale-25"
+                  alt={artist.name}
+                />
+              </div>
+            )}
+
+            <div className="flex flex-col pb-2">
+              <p className="mb-2 text-sm font-bold tracking-widest text-white uppercase drop-shadow-md">
+                Artist Profile
+              </p>
+              <h1 className="mb-6 text-5xl leading-none font-black tracking-tighter text-white uppercase drop-shadow-xl md:text-7xl lg:text-[6.5rem]">
+                {artist.name}
+              </h1>
+              
+              <div className="flex flex-wrap items-center gap-3">
+                <div className="flex items-center gap-1.5 border-2 border-white bg-black px-3 py-1.5 font-mono text-xs font-bold text-white uppercase shadow-sm">
+                  <Database size={14} />
+                  {artist.id.split("-")[0]}
+                </div>
+                
+                {/* <ShareArtistButton artistId={artist.id} /> */}
+              </div>
             </div>
           </div>
         </div>
@@ -442,7 +472,7 @@ export default async function ArtistPage({
               <div className="mt-6 flex justify-center">
                 <Link
                   href={`/library/artist/${artist.id}?albums=all${showAllTracks ? "&view=all" : ""}`}
-                  className="cursor-pointer border-2 border-black px-8 py-3 text-xs font-bold tracking-widest text-black uppercase transition-colors hover:bg-black hover:text-white"
+                  className="cursor-pointer border-2 border-black px-8 py-3 text-xs font-bold tracking-widest text-black uppercase shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-transform hover:-translate-y-0.5 hover:bg-black hover:text-white"
                 >
                   Show all
                 </Link>
@@ -539,7 +569,7 @@ export default async function ArtistPage({
           <div className="flex flex-col gap-2">
             {displayedTracks.length > 0 ? (
               displayedTracks.map((track, i) => (
-                <div key={i} className="flex items-center justify-between bg-white p-4 shadow-sm">
+                <div key={i} className="flex items-center justify-between bg-white p-4 shadow-sm border border-gray-100">
                   <div className="flex-1">
                     <Link
                       href={`/library/song/${track.id}`}
@@ -585,7 +615,7 @@ export default async function ArtistPage({
             <div className="mt-6 flex justify-center">
               <Link
                 href={`/library/artist/${artist.id}?view=all${showAllAlbums ? "&albums=all" : ""}`}
-                className="cursor-pointer border-2 border-black px-8 py-3 text-xs font-bold tracking-widest text-black uppercase transition-colors hover:bg-black hover:text-white"
+                className="cursor-pointer border-2 border-black px-8 py-3 text-xs font-bold tracking-widest text-black uppercase shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-transform hover:-translate-y-0.5 hover:bg-black hover:text-white"
               >
                 Show all
               </Link>
@@ -607,11 +637,11 @@ export default async function ArtistPage({
                 className="group relative w-72 shrink-0 cursor-pointer snap-start bg-black shadow-md"
               >
                 <div className="flex aspect-[4/3] items-center justify-center overflow-hidden bg-gray-800">
-                  {artist.image_url ? (
+                  {artist.square_image || artist.wide_image ? (
                     <img
-                      src={artist.image_url}
+                      src={(artist.square_image || artist.wide_image) as string}
                       alt={artist.name}
-                      className="absolute inset-0 h-full w-full object-cover object-center opacity-90"
+                      className="absolute inset-0 h-full w-full object-cover object-center opacity-90 transition-transform duration-500 group-hover:scale-105"
                     />
                   ) : (
                     <span className="text-4xl font-black text-gray-700 uppercase">
