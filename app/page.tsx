@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { Activity, Calendar, ArrowRight, Flame } from "lucide-react";
 import { CHART_NAME } from "@/config/constants";
-import { formatNumber, formatOrdinal } from "@/utils/formatters";
+import { formatNumber, formatOrdinal, formatFullDate } from "@/utils/formatters";
+import { calculateDetailedUnits } from "@/utils/metrics";
 import HeroCoverPlayer from "@/app/components/home/HeroCoverPlayer";
+import { getLatestNumberOneSong } from "@/lib/db/charts";
 
 export interface HeroLeaderData {
   id: string;
@@ -20,21 +22,19 @@ export interface HeroLeaderData {
   chartDate: string;
 }
 
-// PLACEHOLDER
-const mockLeaderData: HeroLeaderData = {
-  id: "song-sample-id",
-  title: "The Fate of Ophelia",
-  artist: "Taylor Swift",
-  album: "The Life of a Showgirl",
-  coverUrl: "https://lastfm-img.freetls.fastly.net/i/u/300x300/837e4d37b0c4a0a65eb12177e1afb8ee.png",
-  totalPoints: 807,
-  weeksOnChart: 10,
-  movement: "(=)",
-  previewUrl: "https://p.scdn.co/mp3-preview/https://open.spotify.com/track/53iuhJlwXhSER5J2IYYv1W?si=56ed88eb68f4419f",
-  streamsUnits: 18400000,
-  airplayUnits: 62100000,
-  salesUnits: 11000,
-  chartDate: "September 4, 2026",
+const fallbackLeader: HeroLeaderData = {
+  id: "fallback-id",
+  title: "Awaiting Data",
+  artist: "System",
+  coverUrl: "/cover.jpg",
+  totalPoints: 0,
+  weeksOnChart: 1,
+  movement: "DEBUT",
+  previewUrl: null,
+  streamsUnits: 0,
+  salesUnits: 0,
+  airplayUnits: 0,
+  chartDate: "TBD",
 };
 
 function generateEditorialSummary(leader: HeroLeaderData) {
@@ -61,8 +61,46 @@ function generateEditorialSummary(leader: HeroLeaderData) {
 }
 
 export default async function LandingPage() {
-  // const currentLeader = await getHomepageLeader();
-  const currentLeader: HeroLeaderData = mockLeaderData;
+  const rawNumberOne = await getLatestNumberOneSong();
+
+  let currentLeader: HeroLeaderData = fallbackLeader;
+
+  if (rawNumberOne) {
+    let movementStr = "(=)";
+    if (!rawNumberOne.previous_rank) {
+      movementStr = "DEBUT";
+    } else if (rawNumberOne.previous_rank > 1) {
+      movementStr = `(+${rawNumberOne.previous_rank - 1})`;
+    }
+
+    const title = rawNumberOne.songs?.display_title || rawNumberOne.songs?.title || "Unknown";
+    const artist = rawNumberOne.songs?.artists?.display_name || rawNumberOne.songs?.artists?.name || "Unknown";
+    const seedString = `${title}|${artist}`;
+    
+    const units = calculateDetailedUnits(
+      rawNumberOne.streams || 0,
+      rawNumberOne.sales || 0,
+      rawNumberOne.airplay || 0,
+      seedString
+    );
+    
+    currentLeader = {
+      id: rawNumberOne.song_id,
+      title: title,
+      artist: artist,
+      album: rawNumberOne.songs?.albums?.display_title || rawNumberOne.songs?.albums?.title,
+      coverUrl: rawNumberOne.songs?.albums?.cover_url || "/cover.jpg",
+      totalPoints: rawNumberOne.total_points,
+      weeksOnChart: rawNumberOne.weeks_on_chart,
+      movement: movementStr,
+      previewUrl: null, // Ready for the Spotify Integration step!
+      streamsUnits: units.streamsUnits,
+      salesUnits: units.salesUnits,
+      airplayUnits: units.airplayUnits,
+      chartDate: formatFullDate(rawNumberOne.chart_weeks?.end_date),
+    };
+  }
+
   const editorialSummary = generateEditorialSummary(currentLeader);
 
   return (

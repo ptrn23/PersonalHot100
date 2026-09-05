@@ -177,34 +177,48 @@ export async function getAllTimeArtists(startRange: number, endRange: number) {
 }
 
 export async function getLatestNumberOneSong() {
-  const { data, error } = await supabase
-    .from("chart_entries")
-    .select(
-      `
-      *,
-      chart_weeks!inner (
-        id,
-        start_date,
-        end_date
-      ),
-      songs (
-        id,
-        title,
-        display_title,
-        artists ( id, name, display_name ),
-        albums ( id, title, display_title, cover_url )
-      )
-    `
-    )
-    .eq("rank", 1)
-    .order("created_at", { ascending: false })
-    .limit(1)
-    .single();
+  const { data: weeks, error: weeksError } = await supabase
+    .from("chart_weeks")
+    .select("*")
+    .order("start_date", { ascending: false });
 
-  if (error) {
-    console.error("Error fetching latest #1 song:", error);
+  if (weeksError || !weeks || weeks.length === 0) {
+    console.error("Error fetching weeks for homepage:", weeksError);
     return null;
   }
+
+  for (const week of weeks) {
+    const { data, error } = await supabase
+      .from("chart_entries")
+      .select(
+        `
+        *,
+        chart_weeks!inner (
+          id,
+          start_date,
+          end_date
+        ),
+        songs (
+          id,
+          title,
+          display_title,
+          artists ( id, name, display_name ),
+          albums ( id, title, display_title, cover_url )
+        )
+      `
+      )
+      .eq("week_id", week.id)
+      .eq("rank", 1)
+      .maybeSingle();
+
+    if (data) {
+      return data;
+    }
+    
+    if (error) {
+      console.error(`Error checking week ${week.id} for #1 song:`, error);
+    }
+  }
   
-  return data;
+  return null;
 }
