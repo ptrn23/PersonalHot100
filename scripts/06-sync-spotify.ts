@@ -31,16 +31,27 @@ export async function syncSpotifyIds(supabaseAdmin: SupabaseClient, stagedEntrie
     console.log(`Successfully synced ${songUpdates} new Spotify Track IDs!`);
   }
 
+  const { data: top100SongsData } = await supabaseAdmin
+    .from("songs")
+    .select("artist_id")
+    .in("id", top100Ids);
+
+  const top100ArtistIds = Array.from(
+    new Set(top100SongsData?.map((s) => s.artist_id).filter(Boolean))
+  );
+
+  if (top100ArtistIds.length === 0) return;
+
   const { data: missingArtists, error: artistError } = await supabaseAdmin
     .from("artists")
     .select("id, name")
-    .is("square_image", null)
-    .limit(50);
+    .in("id", top100ArtistIds)
+    .is("square_image", null);
 
   if (artistError) {
     console.error("Error fetching artists for Spotify sync:", artistError);
   } else if (missingArtists && missingArtists.length > 0) {
-    console.log(`Found ${missingArtists.length} artists missing Square Images. Fetching...`);
+    console.log(`Found ${missingArtists.length} currently charting artists missing Square Images. Fetching...`);
     let artistUpdates = 0;
 
     for (const artist of missingArtists) {
@@ -53,5 +64,7 @@ export async function syncSpotifyIds(supabaseAdmin: SupabaseClient, stagedEntrie
       await new Promise((resolve) => setTimeout(resolve, 150));
     }
     console.log(`Successfully synced ${artistUpdates} new Artist Images!`);
+  } else {
+    console.log("All currently charting artists already have Square Images.");
   }
 }
