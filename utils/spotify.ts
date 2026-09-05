@@ -64,3 +64,32 @@ export async function getSpotifyTrackId(title: string, artist: string): Promise<
     return null;
   }
 }
+
+export async function getSpotifyArtistImage(artistName: string): Promise<string | null> {
+  const token = await getSpotifyAccessToken();
+  if (!token) return null;
+
+  const cleanArtist = artistName.replace(/&/g, "and").trim();
+  const query = encodeURIComponent(`artist:${cleanArtist}`);
+
+  try {
+    const response = await fetch(`https://api.spotify.com/v1/search?q=${query}&type=artist&limit=1`, {
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    });
+
+    if (!response.ok) {
+      console.error(`Spotify Artist Search API error for ${artistName}`);
+      return null;
+    }
+
+    const data = await response.json();
+    const artist = data.artists?.items?.[0];
+    
+    return artist?.images?.[0]?.url || null;
+  } catch (error) {
+    console.error(`Error fetching Spotify artist data for ${artistName}:`, error);
+    return null;
+  }
+}
