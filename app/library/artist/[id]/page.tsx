@@ -8,7 +8,7 @@ import ChartTrajectory from "../../../components/ChartTrajectory";
 import { CHART_NAME } from "@/config/constants";
 import { CASUAL_RED } from "@/config/theme";
 import { ArrowLeft, Database } from "lucide-react";
-// import ShareArtistButton from "@/components/ShareArtistButton";
+import ShareArtistButton from "../../../components/ShareArtistButton";
 
 import {
   getArtistMetadata,
@@ -309,14 +309,14 @@ export default async function ArtistPage({
               <h1 className="mb-6 text-5xl leading-none font-black tracking-tighter text-white uppercase drop-shadow-xl md:text-7xl lg:text-[6.5rem]">
                 {artist.name}
               </h1>
-              
+
               <div className="flex flex-wrap items-center gap-3">
                 <div className="flex items-center gap-1.5 border-2 border-white bg-black px-3 py-1.5 font-mono text-xs font-bold text-white uppercase shadow-sm">
                   <Database size={14} />
                   {artist.id.split("-")[0]}
                 </div>
                 
-                {/* <ShareArtistButton artistId={artist.id} /> */}
+                <ShareArtistButton artistId={artist.id} />
               </div>
             </div>
           </div>
