@@ -1,10 +1,11 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import ChartRow from "../../../components/ChartRow";
+import ShareAlbumButton from "../../../components/ShareAlbumButton";
 import { DisplayEntry } from "@/types";
 import { calculateDetailedUnits, calculateMaxStats } from "@/utils/metrics";
 import ChartTrajectory from "../../../components/ChartTrajectory";
-import { User, ArrowLeft } from "lucide-react";
+import { User, ArrowLeft, Database } from "lucide-react";
 
 import { CASUAL_RED, CASUAL_BLACK, CASUAL_WHITE } from "@/config/theme";
 import { CHART_NAME } from "@/config/constants";
@@ -303,7 +304,7 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
               )}
             </div>
 
-            <div>
+            <div className="flex flex-col">
               <p className="mb-2 text-sm font-bold tracking-widest text-gray-500 uppercase">
                 Album Profile
               </p>
@@ -312,11 +313,20 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
               </h1>
               <Link
                 href={`/library/artist/${artistId}`}
-                className="inline-flex items-center gap-2 text-2xl font-bold text-gray-600 transition-colors hover:text-blue-600"
+                className="inline-flex items-center gap-2 text-2xl font-bold text-gray-600 transition-colors hover:text-[#B30000]"
               >
                 <User size={22} strokeWidth={2.5} />
                 {artistName}
               </Link>
+
+              <div className="mt-5 flex flex-wrap items-center gap-2">
+                <div className="flex items-center gap-1.5 border border-gray-300 bg-white px-2.5 py-1 font-mono text-[10px] font-bold text-gray-500 uppercase shadow-sm">
+                  <Database size={12} />
+                  {album.id.split("-")[0]}
+                </div>
+
+                <ShareAlbumButton albumId={album.id} />
+              </div>
             </div>
           </div>
         </div>
