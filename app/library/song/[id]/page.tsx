@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 import ChartRow from "../../../components/ChartRow";
 import ChartTrajectory from "../../../components/ChartTrajectory";
+import ShareSongButton from "../../../components/ShareSongButton";
 import { DisplayEntry, MaxStats } from "@/types";
 import { calculateDetailedUnits, calculateMaxStats } from "@/utils/metrics";
 import { formatNumber, formatFullDate, formatShortDate, formatMilestone } from "@/utils/formatters";
@@ -290,6 +291,8 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
                     Spotify ID not found yet
                   </div>
                 )}
+
+                <ShareSongButton songId={song.id} />
               </div>
 
             </div>
