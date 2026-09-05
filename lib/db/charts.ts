@@ -222,3 +222,68 @@ export async function getLatestNumberOneSong() {
   
   return null;
 }
+
+export async function getLatestTop5Songs() {
+  const { data: weeks, error: weeksError } = await supabase
+    .from("chart_weeks")
+    .select("*")
+    .order("start_date", { ascending: false });
+
+  if (weeksError || !weeks || weeks.length === 0) {
+    console.error("Error fetching weeks for homepage top 5:", weeksError);
+    return [];
+  }
+
+  for (const week of weeks) {
+    const { data, error } = await supabase
+      .from("chart_entries")
+      .select(
+        `
+        *,
+        chart_weeks!inner (
+          id,
+          start_date,
+          end_date
+        ),
+        songs (
+          id,
+          title,
+          display_title,
+          artists ( id, name, display_name ),
+          albums ( id, title, display_title, cover_url )
+        )
+      `
+      )
+      .eq("week_id", week.id)
+      .lte("rank", 5)
+      .order("rank", { ascending: true });
+      
+    if (data && data.length > 0) {
+      return data;
+    }
+    
+    if (error) {
+      console.error(`Error checking week ${week.id} for top 5 songs:`, error);
+    }
+  }
+  
+  return [];
+}
+
+export async function getCurrentYearEndTop5() {
+  const currentYear = new Date().getFullYear();
+  
+  const { data, error } = await supabase
+    .from("year_end_song_stats")
+    .select("*")
+    .eq("chart_year", currentYear)
+    .lte("rank", 5)
+    .order("rank", { ascending: true });
+
+  if (error) {
+    console.error(`Error fetching year-end top 5 for ${currentYear}:`, error);
+    return [];
+  }
+  
+  return data || [];
+}
