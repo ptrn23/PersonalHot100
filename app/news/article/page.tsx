@@ -36,6 +36,12 @@ export default async function NewsArticlePage({
   
   const no1Title = songData?.display_title || songData?.title || "Unknown Song";
   const no1Artist = artistData?.display_name || artistData?.name || "Unknown Artist";
+
+  // Safely extract the #2 song for the dynamic outline
+  const numberTwoEntry = rawEntries?.[1];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const songData2 = Array.isArray(numberTwoEntry?.songs) ? numberTwoEntry.songs[0] : (numberTwoEntry?.songs as any);
+  const no2Title = songData2?.display_title || songData2?.title || "Unknown Song";
   
   // Get the best available cover image
   const singleCoverUrl = songData?.cover_url_single;
@@ -103,8 +109,12 @@ export default async function NewsArticlePage({
                   In This Edition
                 </span>
                 <ul className="flex flex-col gap-3 text-sm font-bold text-gray-700">
-                  <li className="cursor-pointer transition-colors hover:text-[#B30000]">‘Ophelia’ Streams, Airplay & Sales</li>
-                  <li className="cursor-pointer transition-colors hover:text-[#B30000]">Rest of Top 10: ‘Golden’ & More</li>
+                  <li className="cursor-pointer transition-colors hover:text-[#B30000]">
+                    &lsquo;{no1Title}&rsquo; Streams, Airplay & Sales
+                  </li>
+                  <li className="cursor-pointer transition-colors hover:text-[#B30000]">
+                    Rest of Top 10: &lsquo;{no2Title}&rsquo; & More
+                  </li>
                   <li className="cursor-pointer transition-colors hover:text-[#B30000]">Hot Debuts</li>
                   <li className="cursor-pointer transition-colors hover:text-[#B30000]">Re-entries</li>
                 </ul>
@@ -135,7 +145,11 @@ export default async function NewsArticlePage({
                 </figcaption>
               </figure>
 
-              <p className="lead text-2xl leading-relaxed text-black">
+              <h2 className="mt-12 mb-6 border-b-4 border-black pb-3 font-[family-name:Geist] text-4xl leading-none font-black tracking-tighter text-black uppercase">
+                &lsquo;{no1Title}&rsquo; Streams, Airplay & Sales
+              </h2>
+
+              <p className="lead mt-0 text-2xl leading-relaxed text-black">
                 {no1Artist}&apos;s &ldquo;{no1Title}&rdquo; rules the {CHART_NAME} Hot 100 for a {no1Streak} week. &ldquo;{no1Title}&rdquo; drew {formatNumber(streamsUnits).toUpperCase()} official streams and {formatNumber(airplayUnits).toUpperCase()} radio airplay audience impressions, and sold {formatNumber(salesUnits).toUpperCase()} digital downloads in the tracking week ending {trackingEndDate}.
               </p>
 
