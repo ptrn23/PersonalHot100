@@ -5,7 +5,7 @@ import ChartTrajectory from "../../../components/ChartTrajectory";
 import ShareSongButton from "../../../components/ShareSongButton";
 import { DisplayEntry, MaxStats } from "@/types";
 import { calculateDetailedUnits, calculateMaxStats } from "@/utils/metrics";
-import { formatNumber, formatFullDate, formatShortDate, formatMilestone } from "@/utils/formatters";
+import { formatNumber, formatFullDate, formatShortDate, formatMilestone, formatReleaseDate } from "@/utils/formatters";
 
 import { getSongMetadata, getSongWithChartHistory } from "@/lib/db/songs";
 import { getNewsByEntity } from "@/lib/db/news";
@@ -36,28 +36,6 @@ export const dynamic = "force-dynamic";
 type Props = {
   params: Promise<{ id: string }>;
 };
-
-function formatReleaseDate(
-  dateStr: string | null | undefined,
-  precision: string | null | undefined
-): string | null {
-  if (!dateStr) return null;
-  const [year, month, day] = dateStr.split("-");
-
-  if (precision === "year" || !month) {
-    return year;
-  }
-  if (precision === "month" || !day) {
-    const dateObj = new Date(Number(year), Number(month) - 1, 1);
-    return dateObj.toLocaleDateString("en-US", { month: "short", year: "numeric" });
-  }
-  const dateObj = new Date(Number(year), Number(month) - 1, Number(day));
-  return dateObj.toLocaleDateString("en-US", {
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-  });
-}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await params;

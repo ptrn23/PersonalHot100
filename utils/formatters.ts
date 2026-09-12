@@ -66,3 +66,25 @@ export const formatDateRange = (startIso?: string, endIso?: string): string => {
   if (!startIso || !endIso) return "--";
   return `${formatFullDate(startIso)} - ${formatFullDate(endIso)}`;
 };
+
+export const formatReleaseDate = (
+  dateStr: string | null | undefined,
+  precision: string | null | undefined
+): string | null => {
+  if (!dateStr) return null;
+  const [year, month, day] = dateStr.split("-");
+
+  if (precision === "year" || !month) {
+    return year;
+  }
+  if (precision === "month" || !day) {
+    const dateObj = new Date(Number(year), Number(month) - 1, 1);
+    return dateObj.toLocaleDateString("en-US", { month: "short", year: "numeric" });
+  }
+  const dateObj = new Date(Number(year), Number(month) - 1, Number(day));
+  return dateObj.toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  });
+};
