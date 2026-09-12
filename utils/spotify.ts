@@ -21,11 +21,7 @@ async function getSpotifyAccessToken(): Promise<string | null> {
       }),
     });
 
-    if (!response.ok) {
-      console.error("Failed to fetch Spotify access token");
-      return null;
-    }
-
+    if (!response.ok) return null;
     const data = await response.json();
     return data.access_token;
   } catch (error) {
@@ -34,7 +30,17 @@ async function getSpotifyAccessToken(): Promise<string | null> {
   }
 }
 
-export async function getSpotifyTrackId(title: string, artist: string): Promise<string | null> {
+/**
+ * Parses a Spotify date string (YYYY, YYYY-MM, or YYYY-MM-DD) into a valid Postgres DATE (YYYY-MM-DD)
+ */
+export function formatSpotifyDate(dateStr: string): string {
+  if (!dateStr) return "1970-01-01";
+  if (dateStr.length === 4) return `${dateStr}-01-01`; // Just a year
+  if (dateStr.length === 7) return `${dateStr}-01`;    // Year and month
+  return dateStr;
+}
+
+export async function getSpotifyTrackMetadata(title: string, artist: string) {
   const token = await getSpotifyAccessToken();
   if (!token) return null;
   
@@ -58,14 +64,29 @@ export async function getSpotifyTrackId(title: string, artist: string): Promise<
     const data = await response.json();
     const track = data.tracks?.items?.[0];
 
-    return track ? track.id : null;
+    if (!track) return null;
+
+    return {
+      song: {
+        spotify_id: track.id,
+        release_date: formatSpotifyDate(track.album.release_date), 
+        release_date_precision: track.album.release_date_precision,
+      },
+      album: {
+        spotify_id: track.album.id,
+        album_type: track.album.album_type,
+        release_date: formatSpotifyDate(track.album.release_date),
+        release_date_precision: track.album.release_date_precision,
+        cover_url: track.album.images?.[0]?.url || null, // High-res cover
+      }
+    };
   } catch (error) {
     console.error(`Error fetching Spotify data for ${title}:`, error);
     return null;
   }
 }
 
-export async function getSpotifyArtistImage(artistName: string): Promise<string | null> {
+export async function getSpotifyArtistMetadata(artistName: string) {
   const token = await getSpotifyAccessToken();
   if (!token) return null;
 
@@ -86,8 +107,14 @@ export async function getSpotifyArtistImage(artistName: string): Promise<string 
 
     const data = await response.json();
     const artist = data.artists?.items?.[0];
-    
-    return artist?.images?.[0]?.url || null;
+
+    if (!artist) return null;
+
+    return {
+      spotify_id: artist.id,
+      square_image: artist.images?.[0]?.url || null,
+      // genres: artist.genres || [] 
+    };
   } catch (error) {
     console.error(`Error fetching Spotify artist data for ${artistName}:`, error);
     return null;
