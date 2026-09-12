@@ -25,6 +25,8 @@ import {
   ArrowLeft,
   Database,
   ExternalLink,
+  Calendar,
+  Tag,
 } from "lucide-react";
 import { CASUAL_RED } from "@/config/theme";
 import { CHART_NAME, CHART_HANDLE } from "@/config/constants";
@@ -34,6 +36,28 @@ export const dynamic = "force-dynamic";
 type Props = {
   params: Promise<{ id: string }>;
 };
+
+function formatReleaseDate(
+  dateStr: string | null | undefined,
+  precision: string | null | undefined
+): string | null {
+  if (!dateStr) return null;
+  const [year, month, day] = dateStr.split("-");
+
+  if (precision === "year" || !month) {
+    return year;
+  }
+  if (precision === "month" || !day) {
+    const dateObj = new Date(Number(year), Number(month) - 1, 1);
+    return dateObj.toLocaleDateString("en-US", { month: "short", year: "numeric" });
+  }
+  const dateObj = new Date(Number(year), Number(month) - 1, Number(day));
+  return dateObj.toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  });
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await params;
@@ -95,9 +119,22 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const albumId = (song.albums as any)?.id;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const coverUrl = (song.albums as any)?.cover_url;
+  const albumCoverUrl = (song.albums as any)?.cover_url;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const singleCoverUrl = (song as any)?.cover_url_single;
+  const baseCoverUrl = albumCoverUrl || singleCoverUrl;
+  const hasAlternateSingleCover = Boolean(albumCoverUrl && singleCoverUrl);
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const spotifyId = (song as any)?.spotify_id;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const releaseDateRaw = (song as any)?.release_date || (song.albums as any)?.release_date;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const releasePrecisionRaw = (song as any)?.release_date_precision || (song.albums as any)?.release_date_precision;
+  const formattedReleaseDate = formatReleaseDate(releaseDateRaw, releasePrecisionRaw);
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const genres = ((song as any)?.genre as string[]) || [];
 
   let totalPoints = 0;
   let rawStreams = 0;
@@ -170,7 +207,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
     rank: entry.rank,
     previousRank: entry.previous_position,
 
-    coverUrl: coverUrl,
+    coverUrl: baseCoverUrl,
     primaryText: song.display_title || song.title,
     primaryHref: null,
 
@@ -232,24 +269,50 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
           </Link>
 
           <div className="flex flex-col items-end gap-8 md:flex-row">
-            <div className="h-56 w-56 shrink-0 border border-gray-200 bg-gray-100 shadow-xl">
-              {coverUrl ? (
-                <img src={coverUrl} alt={albumTitle} className="h-full w-full object-cover" />
+            <div className="group/cover relative h-56 w-56 shrink-0 overflow-hidden border border-gray-200 bg-gray-100 shadow">
+              {baseCoverUrl ? (
+                <img
+                  src={baseCoverUrl}
+                  alt={albumTitle}
+                  className={`h-full w-full object-cover transition-opacity duration-300 ${
+                    hasAlternateSingleCover ? "group-hover/cover:opacity-0" : ""
+                  }`}
+                />
               ) : (
                 <div className="flex h-full w-full items-center justify-center text-sm font-bold text-gray-400 uppercase">
                   No Cover
                 </div>
               )}
+
+              {hasAlternateSingleCover && (
+                <>
+                  <img
+                    src={singleCoverUrl!}
+                    alt={`${song.display_title || song.title} Single Cover`}
+                    className="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-300 group-hover/cover:opacity-100"
+                  />
+                  <div className="pointer-events-none absolute right-2 bottom-2 rounded bg-black/80 px-2 py-0.5 font-mono text-[9px] font-bold tracking-wider text-white uppercase opacity-0 transition-opacity duration-200 group-hover/cover:opacity-100">
+                    Single Art
+                  </div>
+                </>
+              )}
             </div>
 
-            <div className="pb-2">
+            <div className="flex w-full flex-col pb-2">
               <p className="mb-2 text-sm font-bold tracking-widest text-gray-500 uppercase">
                 Song Profile
               </p>
-              <h1 className="mb-3 text-5xl leading-none font-black tracking-tighter uppercase md:text-6xl">
+
+              <h1 className="mb-1 text-5xl leading-none font-black tracking-tighter uppercase md:text-6xl">
                 {song.display_title || song.title}
               </h1>
-              
+
+              {song.display_title && song.display_title !== song.title && (
+                <p className="mb-3 text-xs font-bold tracking-wide text-gray-500">
+                  <span className="uppercase">Also known as:</span> <span className="text-gray-900">{song.title}</span>
+                </p>
+              )}
+
               <div className="flex flex-col gap-2">
                 <Link
                   href={`/library/artist/${artistId}`}
@@ -272,7 +335,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
                   <Database size={12} />
                   {song.id.split("-")[0]}
                 </div>
-                
+
                 {spotifyId ? (
                   <Link
                     href={`https://open.spotify.com/track/${spotifyId}`}
@@ -289,6 +352,44 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
                 ) : (
                   <div className="flex items-center gap-1.5 border border-gray-300 bg-gray-50 px-2.5 py-1 font-mono text-[10px] font-bold text-gray-400 uppercase shadow-sm">
                     Spotify ID not found yet
+                  </div>
+                )}
+
+                {/* Release Date */}
+                {formattedReleaseDate ? (
+                  <>
+                    <div className="flex items-center gap-1.5 border border-gray-300 bg-white px-2.5 py-1 font-mono text-[10px] font-bold text-gray-700 uppercase shadow-sm">
+                      <Calendar size={12} />
+                      {formattedReleaseDate}
+                    </div>
+                    {releasePrecisionRaw && (
+                      <div className="flex items-center gap-1.5 border border-gray-300 bg-gray-50 px-2.5 py-1 font-mono text-[10px] font-bold text-gray-500 uppercase shadow-sm">
+                        {releasePrecisionRaw}
+                      </div>
+                    )}
+                  </>
+                ) : (
+                  <div className="flex items-center gap-1.5 border border-gray-300 bg-gray-50 px-2.5 py-1 font-mono text-[10px] font-bold text-gray-400 uppercase shadow-sm">
+                    <Calendar size={12} />
+                    Date not found yet
+                  </div>
+                )}
+
+                {/* Genres */}
+                {genres.length > 0 ? (
+                  genres.map((g, idx) => (
+                    <div
+                      key={idx}
+                      className="flex items-center gap-1.5 border border-gray-300 bg-white px-2.5 py-1 font-mono text-[10px] font-bold text-gray-700 uppercase shadow-sm"
+                    >
+                      <Tag size={12} />
+                      {g}
+                    </div>
+                  ))
+                ) : (
+                  <div className="flex items-center gap-1.5 border border-gray-300 bg-gray-50 px-2.5 py-1 font-mono text-[10px] font-bold text-gray-400 uppercase shadow-sm">
+                    <Tag size={12} />
+                    Genres not found yet
                   </div>
                 )}
 
@@ -418,7 +519,6 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
           </div>
 
           <div className="overflow-hidden border-t-2 border-black bg-white text-sm shadow-sm">
-            {/* The Chart Header */}
             <div className="grid grid-cols-[3rem_3rem_1fr_2rem_4rem_4rem_3rem_3rem_5rem_3rem_5rem_3rem_5rem_3rem_5rem] border-b border-gray-300 bg-gray-50 font-bold text-gray-600">
               <div className="py-2 text-center">Rank</div>
               <div className="py-2 text-center">+/-</div>
@@ -564,7 +664,9 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
                     <div className="mb-1 text-xs font-bold tracking-widest text-gray-400 uppercase">
                       Release Date
                     </div>
-                    <div className="text-lg font-medium text-gray-900">--</div>
+                    <div className="text-lg font-medium text-gray-900">
+                      {formattedReleaseDate || "--"}
+                    </div>
                   </div>
                   <div>
                     <div className="mb-1 text-xs font-bold tracking-widest text-gray-400 uppercase">
@@ -582,7 +684,9 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
                     <div className="mb-1 text-xs font-bold tracking-widest text-gray-400 uppercase">
                       Genre
                     </div>
-                    <div className="text-lg font-medium text-gray-900">--</div>
+                    <div className="text-lg font-medium text-gray-900">
+                      {genres.length > 0 ? genres.join(", ") : "--"}
+                    </div>
                   </div>
                 </div>
 
