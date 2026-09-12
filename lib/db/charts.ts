@@ -38,6 +38,7 @@ export async function getChartEntriesByWeekId(weekId: string, limit: number = 10
         id,
         title,
         display_title,
+        cover_url_single,
         artists ( id, name, display_name ),
         albums ( id, title, display_title, cover_url )
       )
