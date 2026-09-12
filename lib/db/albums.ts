@@ -7,6 +7,11 @@ export async function getAlbumMetadata(albumId: string) {
       `
       title,
       cover_url,
+      release_date,
+      release_date_precision,
+      album_type,
+      genre,
+      spotify_id,
       artists (name)
     `,
     )
@@ -23,11 +28,14 @@ export async function getAlbumWithSongHistory(albumId: string) {
     .select(
       `
       *,
-      artists ( id, name ),
+      artists ( id, name, spotify_id, genres ),
       songs (
         id,
         title,
         display_title,
+        release_date,
+        release_date_precision,
+        spotify_id,
         chart_entries (
           week_id,
           rank,

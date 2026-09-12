@@ -8,8 +8,11 @@ export async function getSongMetadata(songId: string) {
       title,
       display_title,
       spotify_id,
+      release_date,
+      release_date_precision,
+      genre,
       artists (name),
-      albums (cover_url)
+      albums (cover_url, album_type, release_date, release_date_precision)
     `,
     )
     .eq("id", songId)
@@ -25,8 +28,8 @@ export async function getSongWithChartHistory(songId: string) {
     .select(
       `
       *,
-      artists ( id, name ),
-      albums ( id, title, cover_url ),
+      artists ( id, name, spotify_id, genres ),
+      albums ( id, title, cover_url, album_type, release_date, release_date_precision, spotify_id ),
       chart_entries (
         id,
         week_id,

@@ -3,7 +3,7 @@ import { supabase } from "@/utils/supabase";
 export async function getArtistMetadata(artistId: string) {
   const { data, error } = await supabase
     .from("artists")
-    .select("name, wide_image, square_image")
+    .select("name, wide_image, square_image, spotify_id, genres")
     .eq("id", artistId)
     .single();
 
@@ -17,11 +17,14 @@ export async function getArtistWithDiscography(artistId: string) {
     .select(
       `
       *,
-      albums ( id, title, cover_url, release_date ),
+      albums ( id, title, cover_url, release_date, release_date_precision, album_type, spotify_id ),
       songs (
         id,
         title,
         display_title,
+        release_date,
+        release_date_precision,
+        spotify_id,
         chart_entries (
           week_id,
           rank,
