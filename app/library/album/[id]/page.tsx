@@ -5,11 +5,24 @@ import ShareAlbumButton from "../../../components/ShareAlbumButton";
 import { DisplayEntry } from "@/types";
 import { calculateDetailedUnits, calculateMaxStats } from "@/utils/metrics";
 import ChartTrajectory from "../../../components/ChartTrajectory";
-import { User, ArrowLeft, Database } from "lucide-react";
+import { 
+  User, 
+  ArrowLeft, 
+  Database,
+  Calendar,
+  Tag,
+  ExternalLink 
+} from "lucide-react";
 
 import { CASUAL_RED, CASUAL_BLACK, CASUAL_WHITE } from "@/config/theme";
 import { CHART_NAME } from "@/config/constants";
-import { formatNumber, formatFullDate, formatShortDate, formatMilestone } from "@/utils/formatters";
+import { 
+  formatNumber, 
+  formatFullDate, 
+  formatShortDate, 
+  formatMilestone,
+  formatReleaseDate 
+} from "@/utils/formatters";
 
 import { getAlbumMetadata, getAlbumWithSongHistory, getAlbumChartHistory } from "@/lib/db/albums";
 import { getCertificationsByEntity } from "@/lib/db/certifications";
@@ -62,7 +75,13 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
   const artistName = (album.artists as any)?.name || "Unknown Artist";
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const artistId = (album.artists as any)?.id;
-  const albumTitle = album.title;
+  
+  // Metadata fields
+  const spotifyId = album.spotify_id;
+  const genres = (album.genre as string[]) || [];
+  const albumType = album.album_type || "Album";
+  const formattedAlbumType = albumType.charAt(0).toUpperCase() + albumType.slice(1);
+  const formattedReleaseDate = formatReleaseDate(album.release_date, album.release_date_precision);
 
   let eraTotalPoints = 0;
   let eraRawStreams = 0;
@@ -145,7 +164,7 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
     });
   });
 
-  const albumMathSeed = `${albumTitle}|${artistName}`;
+  const albumMathSeed = `${album.title}|${artistName}`;
 
   const { totalUnits: eraTotalUnits } = calculateDetailedUnits(
     eraRawStreams,
@@ -209,12 +228,12 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
     previousRank: entry.previous_position,
 
     coverUrl: album.cover_url,
-    primaryText: albumTitle,
+    primaryText: album.title,
     primaryHref: null,
     secondaryText: formatFullDate(entry.start_date),
     secondaryHref: `/charts/albums?week=${encodeURIComponent(entry.start_date)}`,
 
-    mathSeedString: `${albumTitle}|${artistName}`,
+    mathSeedString: `${album.title}|${artistName}`,
 
     disableDropdown: true,
     hideRankChange: false,
@@ -289,8 +308,8 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
             Back to Top Albums 20
           </Link>
 
-          <div className="flex flex-col items-end gap-10 md:flex-row">
-            <div className="h-64 w-64 shrink-0 border border-gray-200 bg-gray-100 shadow-xl">
+          <div className="flex flex-col items-end gap-8 md:flex-row">
+            <div className="relative h-56 w-56 shrink-0 overflow-hidden border border-gray-200 bg-gray-100 shadow">
               {album.cover_url ? (
                 <img
                   src={album.cover_url}
@@ -304,26 +323,91 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
               )}
             </div>
 
-            <div className="flex flex-col">
+            <div className="flex w-full flex-col pb-2">
               <p className="mb-2 text-sm font-bold tracking-widest text-gray-500 uppercase">
-                Album Profile
+                {formattedAlbumType} Profile
               </p>
-              <h1 className="mb-4 text-5xl leading-none font-black tracking-tighter uppercase md:text-7xl">
-                {album.title}
+
+              <h1 className="mb-1 text-5xl leading-none font-black tracking-tighter uppercase md:text-6xl">
+                {album.display_title || album.title}
               </h1>
-              <Link
-                href={`/library/artist/${artistId}`}
-                className="inline-flex items-center gap-2 text-2xl font-bold text-gray-600 transition-colors hover:text-[#B30000]"
-              >
-                <User size={22} strokeWidth={2.5} />
-                {artistName}
-              </Link>
+
+              {album.display_title && album.display_title !== album.title && (
+                <p className="mb-3 font-mono text-xs font-bold tracking-wide text-gray-500">
+                  <span className="uppercase">Also known as:</span> <span className="text-gray-900">{album.title}</span>
+                </p>
+              )}
+
+              <div className="flex flex-col gap-2">
+                <Link
+                  href={`/library/artist/${artistId}`}
+                  className="inline-flex items-center gap-2 text-xl font-bold text-gray-600 transition-colors hover:text-[#B30000]"
+                >
+                  <User size={18} strokeWidth={2.5} />
+                  {artistName}
+                </Link>
+              </div>
 
               <div className="mt-5 flex flex-wrap items-center gap-2">
                 <div className="flex items-center gap-1.5 border border-gray-300 bg-white px-2.5 py-1 font-mono text-[10px] font-bold text-gray-500 uppercase shadow-sm">
                   <Database size={12} />
                   {album.id.split("-")[0]}
                 </div>
+
+                {spotifyId ? (
+                  <Link
+                    href={`https://open.spotify.com/album/${spotifyId}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group flex items-center gap-1.5 border border-[#1DB954] bg-[#1DB954]/10 px-2.5 py-1 font-mono text-[10px] font-bold text-[#1DB954] uppercase shadow-sm transition-colors hover:bg-[#1DB954] hover:text-white"
+                  >
+                    <svg className="h-3.5 w-3.5 fill-currentColor" viewBox="0 0 24 24">
+                      <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.54.659.3 1.021zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15.001 10.62 18.6 12.84c.361.181.54.78.361 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.6.18-1.2.72-1.38 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z" />
+                    </svg>
+                    {spotifyId}
+                    <ExternalLink size={10} className="ml-0.5 opacity-50 group-hover:opacity-100" />
+                  </Link>
+                ) : (
+                  <div className="flex items-center gap-1.5 border border-gray-300 bg-gray-50 px-2.5 py-1 font-mono text-[10px] font-bold text-gray-400 uppercase shadow-sm">
+                    Spotify ID not found yet
+                  </div>
+                )}
+
+                {formattedReleaseDate ? (
+                  <>
+                    <div className="flex items-center gap-1.5 border border-gray-300 bg-white px-2.5 py-1 font-mono text-[10px] font-bold text-gray-700 uppercase shadow-sm">
+                      <Calendar size={12} />
+                      {formattedReleaseDate}
+                    </div>
+                    {album.release_date_precision && (
+                      <div className="flex items-center gap-1.5 border border-gray-300 bg-gray-50 px-2.5 py-1 font-mono text-[10px] font-bold text-gray-500 uppercase shadow-sm">
+                        {album.release_date_precision}
+                      </div>
+                    )}
+                  </>
+                ) : (
+                  <div className="flex items-center gap-1.5 border border-gray-300 bg-gray-50 px-2.5 py-1 font-mono text-[10px] font-bold text-gray-400 uppercase shadow-sm">
+                    <Calendar size={12} />
+                    Date not found yet
+                  </div>
+                )}
+
+                {genres.length > 0 ? (
+                  genres.map((g, idx) => (
+                    <div
+                      key={idx}
+                      className="flex items-center gap-1.5 border border-gray-300 bg-white px-2.5 py-1 font-mono text-[10px] font-bold text-gray-700 uppercase shadow-sm"
+                    >
+                      <Tag size={12} />
+                      {g}
+                    </div>
+                  ))
+                ) : (
+                  <div className="flex items-center gap-1.5 border border-gray-300 bg-gray-50 px-2.5 py-1 font-mono text-[10px] font-bold text-gray-400 uppercase shadow-sm">
+                    <Tag size={12} />
+                    Genres not found yet
+                  </div>
+                )}
 
                 <ShareAlbumButton albumId={album.id} />
               </div>
@@ -623,13 +707,13 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
                     <div className="mb-1 text-xs font-bold tracking-widest text-gray-400 uppercase">
                       Release Date
                     </div>
-                    <div className="text-lg font-medium text-gray-900">--</div>
+                    <div className="text-lg font-medium text-gray-900">{formattedReleaseDate || "--"}</div>
                   </div>
                   <div>
                     <div className="mb-1 text-xs font-bold tracking-widest text-gray-400 uppercase">
                       Format
                     </div>
-                    <div className="text-lg font-medium text-gray-900">Album</div>{" "}
+                    <div className="text-lg font-medium text-gray-900">{formattedAlbumType}</div>{" "}
                   </div>
                   <div>
                     <div className="mb-1 text-xs font-bold tracking-widest text-gray-400 uppercase">
@@ -641,7 +725,9 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
                     <div className="mb-1 text-xs font-bold tracking-widest text-gray-400 uppercase">
                       Genre
                     </div>
-                    <div className="text-lg font-medium text-gray-900">--</div>
+                    <div className="text-lg font-medium text-gray-900">
+                      {genres.length > 0 ? genres.join(", ") : "--"}
+                    </div>
                   </div>
                 </div>
 
