@@ -72,14 +72,16 @@ export default async function LiveChartPage() {
     <main className="min-h-screen bg-white pb-24 text-gray-900">
       <div className="mx-auto flex max-w-[1450px] items-end justify-between px-8 pt-8">
         <div>
-          <div className="mb-3 inline-flex items-center gap-2 rounded-sm bg-red-50 px-3 py-1 text-[10px] font-bold tracking-widest text-red-600 uppercase">
-            <span className="h-2 w-2 animate-pulse rounded-full bg-red-500" />
-            Live
-          </div>
           <h1 className="text-4xl leading-none font-black tracking-tighter uppercase">Hot 100</h1>
-          <p className="mt-1 text-xs font-bold tracking-widest text-gray-500 uppercase">
-            Week of {formattedDate}
-          </p>
+          <div className="mt-2 flex items-center gap-3">
+            <p className="text-xs font-bold tracking-widest text-gray-500 uppercase">
+              Week of {formattedDate}
+            </p>
+            <div className="inline-flex items-center gap-2 rounded-sm bg-red-50 px-2 py-0.5 text-[10px] font-bold tracking-widest text-red-600 uppercase">
+              <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-red-500" />
+              Live
+            </div>
+          </div>
         </div>
       </div>
 
