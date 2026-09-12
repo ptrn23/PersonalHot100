@@ -36,6 +36,7 @@ export async function getAlbumWithSongHistory(albumId: string) {
         release_date,
         release_date_precision,
         spotify_id,
+        cover_url_single,
         chart_entries (
           week_id,
           rank,

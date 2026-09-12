@@ -11,6 +11,7 @@ export async function getSongMetadata(songId: string) {
       release_date,
       release_date_precision,
       genre,
+      cover_url_single,
       artists (name),
       albums (cover_url, album_type, release_date, release_date_precision)
     `,
