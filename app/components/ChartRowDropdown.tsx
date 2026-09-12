@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Share2, Ticket, LineChart, Copy, Check } from "lucide-react";
+import { Share2, Ticket, LineChart, Copy, Check, Calculator } from "lucide-react";
 import { formatNumber } from "@/utils/formatters";
 import { calculateDetailedUnits, getStableSeed, applyDeviation } from "@/utils/metrics";
 import { DisplayEntry } from "@/types";
@@ -77,6 +77,10 @@ export default function ChartRowDropdown({
 
   return (
     <div className="cursor-default overflow-hidden border-t border-gray-100 bg-white px-8 py-5 text-sm shadow-inner">
+      <h4 className="mb-4 flex items-center gap-2 text-sm font-bold text-gray-800 uppercase tracking-widest">
+        <Calculator className="h-4 w-4 text-[#B30000]" />
+        Math & Breakdown
+      </h4>
       <div className="grid grid-cols-1 gap-6 md:grid-cols-4">
         <div className="rounded-lg border border-gray-200 bg-gray-50 p-3">
           <span className="mb-2 block border-b pb-1 text-xs font-bold text-gray-800 uppercase">
@@ -99,21 +103,21 @@ export default function ChartRowDropdown({
           </span>
           <div className="mb-1 flex items-center justify-between text-gray-600">
             <span>Streams:</span>
-            <span className="whitespace-nowrap">
+            <span className="whitespace-nowrap font-mono">
               <span className="text-xs text-gray-400">{entry.streams} x 5 = </span>
               <span className="text-gray-800">{entry.streams * 5}</span>
             </span>
           </div>
           <div className="mb-1 flex items-center justify-between text-gray-600">
             <span>Sales:</span>
-            <span className="whitespace-nowrap">
+            <span className="whitespace-nowrap font-mono">
               <span className="text-xs text-gray-400">{entry.sales} x 3 = </span>
               <span className="text-gray-800">{entry.sales * 3}</span>
             </span>
           </div>
           <div className="flex items-center justify-between text-gray-600">
             <span>Airplay:</span>
-            <span className="whitespace-nowrap">
+            <span className="whitespace-nowrap font-mono">
               <span className="text-xs text-gray-400">{entry.airplay} x 2 = </span>
               <span className="text-gray-800">{entry.airplay * 2}</span>
             </span>
@@ -157,7 +161,6 @@ export default function ChartRowDropdown({
           </div>
         </div>
 
-        {/* TOTAL POINTS BOX */}
         <div className="flex flex-col items-center justify-center rounded-lg border-2 border-[#B30000] bg-[#fdf2f2] p-3">
           <span className="mb-1 text-xs font-bold text-[#B30000] uppercase">Total Points</span>
           <span className="mb-1 text-4xl leading-none font-black tracking-tighter text-[#B30000]">
@@ -188,7 +191,7 @@ export default function ChartRowDropdown({
               </div>
               <div className="flex justify-between">
                 <span className="text-gray-500">Deviation:</span>
-                <span className="font-mono">Active (Scale 0.1)</span>
+                <span className="font-mono">???</span>
               </div>
             </div>
           </div>
