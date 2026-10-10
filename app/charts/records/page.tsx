@@ -6,7 +6,7 @@ import { CHART_NAME } from "@/config/constants";
 
 import { getAllChartRecords } from "@/lib/db/records";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 3600;
 
 export default async function RecordsPage() {
   const records = await getAllChartRecords();

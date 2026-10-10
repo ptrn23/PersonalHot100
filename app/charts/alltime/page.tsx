@@ -3,7 +3,7 @@ import ChartView from "../../components/ChartView";
 import { DisplayEntry } from "@/types";
 import { getAllTimeSongs, getAllTimeAlbums, getAllTimeArtists } from "@/lib/db/charts";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 3600;
 
 export default async function AllTimeChartPage({
   searchParams,

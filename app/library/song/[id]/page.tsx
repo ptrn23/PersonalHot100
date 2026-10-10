@@ -31,7 +31,7 @@ import {
 import { CASUAL_RED } from "@/config/theme";
 import { CHART_NAME, CHART_HANDLE } from "@/config/constants";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 3600;
 
 type Props = {
   params: Promise<{ id: string }>;

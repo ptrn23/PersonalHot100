@@ -4,7 +4,7 @@ import YearSelector from "../../components/YearSelector";
 
 import { getAvailableChartYears, getYearEndSongStats } from "@/lib/db/charts";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 3600;
 
 export default async function YearEndPage({
   searchParams,

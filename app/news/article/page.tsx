@@ -5,7 +5,7 @@ import ArticleWeekSelector from "../../components/ArticleWeekSelector";
 import { CHART_NAME } from "@/config/constants";
 import { Link2, Bookmark, Share2 } from "lucide-react";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 3600;
 
 export default async function NewsArticlePage({
   searchParams,

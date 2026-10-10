@@ -28,7 +28,7 @@ import { getAlbumMetadata, getAlbumWithSongHistory, getAlbumChartHistory } from 
 import { getCertificationsByEntity } from "@/lib/db/certifications";
 import { getLatestChartWeek, getAllChartWeeks } from "@/lib/db/charts";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 3600;
 
 type Props = {
   params: Promise<{ id: string }>;
