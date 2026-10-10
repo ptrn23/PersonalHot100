@@ -197,6 +197,17 @@ export default function Header() {
             <span className={`font-medium ${t.textMuted}`}>/</span>
 
             <Link
+              href="/news/article"
+              className={`decoration-2 underline-offset-[6px] transition-none hover:underline ${t.linkHover} ${
+                isActive("/news") ? `underline ${t.linkActive}` : t.textMain
+              }`}
+            >
+              News
+            </Link>
+
+            <span className={`font-medium ${t.textMuted}`}>/</span>
+
+            <Link
               href="/about"
               className={`decoration-2 underline-offset-[6px] transition-none hover:underline ${t.linkHover} ${
                 isActive("/about") ? `underline ${t.linkActive}` : t.textMain
