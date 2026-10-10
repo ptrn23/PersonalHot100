@@ -59,11 +59,11 @@ export default function ChartTicket({ entry }: { entry: DisplayEntry }) {
 
       <div className="relative flex h-full w-1/2 flex-col justify-between overflow-hidden p-8">
         <div className="absolute inset-0 z-0">
-          {entry.coverUrl && (
+          {entry.artistImageUrl && (
             <img
-              src={entry.coverUrl}
+              src={entry.artistImageUrl}
               alt=""
-              className="h-full w-full scale-125 object-cover opacity-75 blur-2xl"
+              className="h-full w-full object-cover opacity-75"
             />
           )}
         </div>

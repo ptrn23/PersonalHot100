@@ -39,7 +39,7 @@ export async function getChartEntriesByWeekId(weekId: string, limit: number = 10
         title,
         display_title,
         cover_url_single,
-        artists ( id, name, display_name ),
+        artists ( id, name, display_name, square_image, wide_image ),
         albums ( id, title, display_title, cover_url )
       )
     `,
@@ -65,7 +65,7 @@ export async function getLiveChartEntriesByWeekId(weekId: string, limit: number 
         id,
         title,
         display_title,
-        artists ( id, name, display_name ),
+        artists ( id, name, display_name, square_image, wide_image ),
         albums ( id, title, display_title, cover_url )
       )
     `,
