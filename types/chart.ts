@@ -11,6 +11,7 @@ export type DisplayEntry = {
   previousRank: number | null;
 
   coverUrl: string | null;
+  artistImageUrl: string | null;
   primaryText: string;
   primaryHref: string | null;
   secondaryText: string | null;

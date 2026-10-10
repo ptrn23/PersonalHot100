@@ -71,12 +71,14 @@ export default async function WeeklyChartPage({
 
     const title = songData?.display_title || songData?.title || "Unknown Song";
     const artist = artistData?.display_name || artistData?.name || "Unknown Artist";
+    const artistImageUrl = artistData?.square_image || artistData?.wide_image || null;
 
     return {
       id: row.id,
       rank: row.rank,
       previousRank: row.previous_position,
       coverUrl: albumData?.cover_url || null,
+      artistImageUrl: artistImageUrl,
       primaryText: title,
       primaryHref: songData?.id ? `/library/song/${songData.id}` : null,
       secondaryText: artist,
