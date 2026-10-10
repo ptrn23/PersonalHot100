@@ -2,8 +2,8 @@ name: So Casual Charts Engine
 
 on:
   schedule:
-    # runs at 10:05 UTC and 22:05 UTC every day
-    - cron: "5 10,22 * * *"
+    # runs at 04:05, 10:05, 16:05, and 22:05 UTC every day
+    - cron: "5 4,10,16,22 * * *"
   workflow_dispatch:
 
 jobs:
