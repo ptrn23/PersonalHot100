@@ -37,7 +37,7 @@ export default function ChartTicket({ entry }: { entry: DisplayEntry }) {
           <div className="h-full w-full bg-gray-800" />
         )}
 
-        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-black/60" />
+        <div className="absolute inset-0" />
 
         <div className="absolute top-6 left-8">
           <span className="text-6xl leading-none font-black tracking-tighter italic drop-shadow-md">
@@ -49,7 +49,7 @@ export default function ChartTicket({ entry }: { entry: DisplayEntry }) {
           <span className="mb-1 line-clamp-2 text-2xl leading-6 font-bold drop-shadow-md">
             {entry.primaryText}
           </span>
-          <span className="line-clamp-1 text-base leading-none font-medium text-gray-300 drop-shadow-md">
+          <span className="line-clamp-1 text-base leading-none font-medium drop-shadow-md">
             {entry.secondaryText}
           </span>
         </div>
@@ -63,7 +63,7 @@ export default function ChartTicket({ entry }: { entry: DisplayEntry }) {
             <img
               src={entry.artistImageUrl}
               alt=""
-              className="h-full w-full object-cover opacity-75"
+              className="h-full w-full object-cover"
             />
           )}
         </div>
