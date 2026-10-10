@@ -169,7 +169,7 @@ export default async function NewsArticlePage({
                     Milestones
                   </p>
                   <h4 className="mb-2 text-lg leading-tight font-black uppercase transition-colors group-hover:text-[#B30000]">
-                    Detroit: Become Human OST Surpasses 1B Total Chart Points
+                    Lorem ipsum
                   </h4>
                   <p className="text-sm text-gray-500 font-serif">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
@@ -181,7 +181,7 @@ export default async function NewsArticlePage({
                     Records
                   </p>
                   <h4 className="mb-2 text-lg leading-tight font-black uppercase transition-colors group-hover:text-[#B30000]">
-                    Taylor Swift Ties Record for Most Simultaneous Top 10 Hits
+                    Lorem ipsum
                   </h4>
                   <p className="text-sm text-gray-500 font-serif">
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
@@ -193,7 +193,7 @@ export default async function NewsArticlePage({
                     Chart Mechanics
                   </p>
                   <h4 className="mb-2 text-lg leading-tight font-black uppercase transition-colors group-hover:text-[#B30000]">
-                    How the New Stream Weighting Affects Catalog Tracks
+                    Lorem ipsum
                   </h4>
                   <p className="text-sm text-gray-500 font-serif">
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.
