@@ -60,6 +60,7 @@ export default async function WeeklyArtistsPage({
       previousRank: null,
 
       coverUrl: row.square_image || null,
+      artistImageUrl: null,
       primaryText: artistName,
       primaryHref: row.id ? `/library/artist/${row.id}` : null,
       secondaryText: null,

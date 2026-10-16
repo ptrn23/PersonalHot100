@@ -34,6 +34,7 @@ export default async function AllTimeChartPage({
           previousRank: null,
 
           coverUrl: row.cover_url || null,
+          artistImageUrl: null,
           primaryText: title,
           primaryHref: row.id ? `/library/song/${row.id}` : null,
           secondaryText: artist,
@@ -73,6 +74,7 @@ export default async function AllTimeChartPage({
           previousRank: null,
 
           coverUrl: row.cover_url || null,
+          artistImageUrl: null,
           primaryText: title,
           primaryHref: row.id ? `/library/album/${row.id}` : null,
           secondaryText: artist,
@@ -111,6 +113,7 @@ export default async function AllTimeChartPage({
           previousRank: null,
 
           coverUrl: row.square_image || null,
+          artistImageUrl: null,
           primaryText: name,
           primaryHref: row.id ? `/library/artist/${row.id}` : null,
           secondaryText: null,

@@ -42,6 +42,7 @@ export default async function YearEndPage({
       rank: row.rank,
       previousRank: null,
       coverUrl: row.cover_url || null,
+      artistImageUrl: null,
       primaryText: title,
       primaryHref: row.id ? `/library/song/${row.id}` : null,
       secondaryText: artist,

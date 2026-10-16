@@ -61,6 +61,7 @@ export default async function WeeklyAlbumsPage({
       previousRank: null,
 
       coverUrl: row.cover_url || null,
+      artistImageUrl: null,
       primaryText: title,
       primaryHref: row.id ? `/library/album/${row.id}` : null,
       secondaryText: artist,
