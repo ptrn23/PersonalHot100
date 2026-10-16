@@ -228,6 +228,7 @@ export default async function AlbumPage({ params }: { params: Promise<{ id: stri
     previousRank: entry.previous_position,
 
     coverUrl: album.cover_url,
+    artistImageUrl: null,
     primaryText: album.title,
     primaryHref: null,
     secondaryText: formatFullDate(entry.start_date),

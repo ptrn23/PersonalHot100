@@ -210,6 +210,7 @@ export default async function ArtistPage({
     rank: entry.rank,
     previousRank: entry.previous_position,
     coverUrl: null,
+    artistImageUrl: null,
     primaryText: artist.name,
     primaryHref: null,
     secondaryText: formatFullDate(entry.start_date),

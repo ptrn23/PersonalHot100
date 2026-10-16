@@ -186,6 +186,7 @@ export default async function SongPage({ params }: { params: Promise<{ id: strin
     previousRank: entry.previous_position,
 
     coverUrl: baseCoverUrl,
+    artistImageUrl: null,
     primaryText: song.display_title || song.title,
     primaryHref: null,
 
